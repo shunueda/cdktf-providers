@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciFleetAppsManagementSchedulerJobJobActivityResourcesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#id DataOciFleetAppsManagementSchedulerJobJobActivityResources#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#id DataOciFleetAppsManagementSchedulerJobJobActivityResources#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#job_activity_id DataOciFleetAppsManagementSchedulerJobJobActivityResources#job_activity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#job_activity_id DataOciFleetAppsManagementSchedulerJobJobActivityResources#job_activity_id}
   */
   readonly jobActivityId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#resource_task_id DataOciFleetAppsManagementSchedulerJobJobActivityResources#resource_task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#resource_task_id DataOciFleetAppsManagementSchedulerJobJobActivityResources#resource_task_id}
   */
   readonly resourceTaskId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#scheduler_job_id DataOciFleetAppsManagementSchedulerJobJobActivityResources#scheduler_job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#scheduler_job_id DataOciFleetAppsManagementSchedulerJobJobActivityResources#scheduler_job_id}
   */
   readonly schedulerJobId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#sequence DataOciFleetAppsManagementSchedulerJobJobActivityResources#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#sequence DataOciFleetAppsManagementSchedulerJobJobActivityResources#sequence}
   */
   readonly sequence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#step_name DataOciFleetAppsManagementSchedulerJobJobActivityResources#step_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#step_name DataOciFleetAppsManagementSchedulerJobJobActivityResources#step_name}
   */
   readonly stepName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#target_name DataOciFleetAppsManagementSchedulerJobJobActivityResources#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#target_name DataOciFleetAppsManagementSchedulerJobJobActivityResources#target_name}
   */
   readonly targetName?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#filter DataOciFleetAppsManagementSchedulerJobJobActivityResources#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#filter DataOciFleetAppsManagementSchedulerJobJobActivityResources#filter}
   */
   readonly filter?: DataOciFleetAppsManagementSchedulerJobJobActivityResourcesFilter[] | cdktf.IResolvable;
 }
@@ -319,15 +319,15 @@ export class DataOciFleetAppsManagementSchedulerJobJobActivityResourcesResourceC
 }
 export interface DataOciFleetAppsManagementSchedulerJobJobActivityResourcesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#name DataOciFleetAppsManagementSchedulerJobJobActivityResources#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#name DataOciFleetAppsManagementSchedulerJobJobActivityResources#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#regex DataOciFleetAppsManagementSchedulerJobJobActivityResources#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#regex DataOciFleetAppsManagementSchedulerJobJobActivityResources#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#values DataOciFleetAppsManagementSchedulerJobJobActivityResources#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#values DataOciFleetAppsManagementSchedulerJobJobActivityResources#values}
   */
   readonly values: string[];
 }
@@ -495,7 +495,7 @@ export class DataOciFleetAppsManagementSchedulerJobJobActivityResourcesFilterLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources oci_fleet_apps_management_scheduler_job_job_activity_resources}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources oci_fleet_apps_management_scheduler_job_job_activity_resources}
 */
 export class DataOciFleetAppsManagementSchedulerJobJobActivityResources extends cdktf.TerraformDataSource {
 
@@ -511,7 +511,7 @@ export class DataOciFleetAppsManagementSchedulerJobJobActivityResources extends 
   * Generates CDKTF code for importing a DataOciFleetAppsManagementSchedulerJobJobActivityResources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciFleetAppsManagementSchedulerJobJobActivityResources to import
-  * @param importFromId The id of the existing DataOciFleetAppsManagementSchedulerJobJobActivityResources that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciFleetAppsManagementSchedulerJobJobActivityResources that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciFleetAppsManagementSchedulerJobJobActivityResources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -523,7 +523,7 @@ export class DataOciFleetAppsManagementSchedulerJobJobActivityResources extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources oci_fleet_apps_management_scheduler_job_job_activity_resources} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources oci_fleet_apps_management_scheduler_job_job_activity_resources} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -534,8 +534,8 @@ export class DataOciFleetAppsManagementSchedulerJobJobActivityResources extends 
       terraformResourceType: 'oci_fleet_apps_management_scheduler_job_job_activity_resources',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciJmsJavaReleasesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases#family_version DataOciJmsJavaReleases#family_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases#family_version DataOciJmsJavaReleases#family_version}
   */
   readonly familyVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases#id DataOciJmsJavaReleases#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases#id DataOciJmsJavaReleases#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases#jre_security_status DataOciJmsJavaReleases#jre_security_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases#jre_security_status DataOciJmsJavaReleases#jre_security_status}
   */
   readonly jreSecurityStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases#license_type DataOciJmsJavaReleases#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases#license_type DataOciJmsJavaReleases#license_type}
   */
   readonly licenseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases#release_type DataOciJmsJavaReleases#release_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases#release_type DataOciJmsJavaReleases#release_type}
   */
   readonly releaseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases#release_version DataOciJmsJavaReleases#release_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases#release_version DataOciJmsJavaReleases#release_version}
   */
   readonly releaseVersion?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases#filter DataOciJmsJavaReleases#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases#filter DataOciJmsJavaReleases#filter}
   */
   readonly filter?: DataOciJmsJavaReleasesFilter[] | cdktf.IResolvable;
 }
@@ -819,15 +819,15 @@ export class DataOciJmsJavaReleasesJavaReleaseCollectionList extends cdktf.Compl
 }
 export interface DataOciJmsJavaReleasesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases#name DataOciJmsJavaReleases#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases#name DataOciJmsJavaReleases#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases#regex DataOciJmsJavaReleases#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases#regex DataOciJmsJavaReleases#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases#values DataOciJmsJavaReleases#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases#values DataOciJmsJavaReleases#values}
   */
   readonly values: string[];
 }
@@ -995,7 +995,7 @@ export class DataOciJmsJavaReleasesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases oci_jms_java_releases}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases oci_jms_java_releases}
 */
 export class DataOciJmsJavaReleases extends cdktf.TerraformDataSource {
 
@@ -1011,7 +1011,7 @@ export class DataOciJmsJavaReleases extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciJmsJavaReleases resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciJmsJavaReleases to import
-  * @param importFromId The id of the existing DataOciJmsJavaReleases that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciJmsJavaReleases that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciJmsJavaReleases to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1023,7 +1023,7 @@ export class DataOciJmsJavaReleases extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_releases oci_jms_java_releases} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_java_releases oci_jms_java_releases} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1034,8 +1034,8 @@ export class DataOciJmsJavaReleases extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_jms_java_releases',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

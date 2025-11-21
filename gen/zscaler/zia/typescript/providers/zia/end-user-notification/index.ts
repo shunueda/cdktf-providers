@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface EndUserNotificationConfig extends cdktf.TerraformMetaArguments 
   /**
   * The custom frequency (in days) for showing the AUP to the end users. Valid range is 0 to 180.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#aup_custom_frequency EndUserNotification#aup_custom_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#aup_custom_frequency EndUserNotification#aup_custom_frequency}
   */
   readonly aupCustomFrequency?: number;
   /**
   * Specifies which day of the week or month the AUP is shown for users when aupFrequency is set. Valid range is 0 to 31.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#aup_day_offset EndUserNotification#aup_day_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#aup_day_offset EndUserNotification#aup_day_offset}
   */
   readonly aupDayOffset?: number;
   /**
   * The frequency at which the Acceptable Use Policy (AUP) is shown to the end users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#aup_frequency EndUserNotification#aup_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#aup_frequency EndUserNotification#aup_frequency}
   */
   readonly aupFrequency?: string;
   /**
   * The acceptable use statement that is shown in the AUP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#aup_message EndUserNotification#aup_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#aup_message EndUserNotification#aup_message}
   */
   readonly aupMessage?: string;
   /**
   * The time interval at which the caution notification is shown when users continue browsing a restricted site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#caution_again_after EndUserNotification#caution_again_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#caution_again_after EndUserNotification#caution_again_after}
   */
   readonly cautionAgainAfter?: number;
   /**
   * The custom message that appears in the caution notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#caution_custom_text EndUserNotification#caution_custom_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#caution_custom_text EndUserNotification#caution_custom_text}
   */
   readonly cautionCustomText?: string;
   /**
   * Specifies whether to display the caution notification at a specific time interval for URLs in the Miscellaneous or Unknown category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#caution_per_domain EndUserNotification#caution_per_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#caution_per_domain EndUserNotification#caution_per_domain}
   */
   readonly cautionPerDomain?: boolean | cdktf.IResolvable;
   /**
   * The custom text shown in the EUN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#custom_text EndUserNotification#custom_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#custom_text EndUserNotification#custom_text}
   */
   readonly customText?: string;
   /**
   * A Boolean value indicating whether your organization's logo appears in the EUN or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#display_company_logo EndUserNotification#display_company_logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#display_company_logo EndUserNotification#display_company_logo}
   */
   readonly displayCompanyLogo?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating whether the organization's name appears in the EUN or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#display_company_name EndUserNotification#display_company_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#display_company_name EndUserNotification#display_company_name}
   */
   readonly displayCompanyName?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating whether or not the reason for cautioning or blocking access to a site, file, or application is shown when the respective notification is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#display_reason EndUserNotification#display_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#display_reason EndUserNotification#display_reason}
   */
   readonly displayReason?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#id EndUserNotification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#id EndUserNotification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,121 +83,121 @@ export interface EndUserNotificationConfig extends cdktf.TerraformMetaArguments 
   /**
   * The message that appears in the IdP Proxy notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#idp_proxy_notification_text EndUserNotification#idp_proxy_notification_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#idp_proxy_notification_text EndUserNotification#idp_proxy_notification_text}
   */
   readonly idpProxyNotificationText?: string;
   /**
   * The type of EUN as default or custom
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#notification_type EndUserNotification#notification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#notification_type EndUserNotification#notification_type}
   */
   readonly notificationType?: string;
   /**
   * The URL of the organization's policy page. This field is required for the default notification type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#org_policy_link EndUserNotification#org_policy_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#org_policy_link EndUserNotification#org_policy_link}
   */
   readonly orgPolicyLink?: string;
   /**
   * The message that appears in the quarantine notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#quarantine_custom_notification_text EndUserNotification#quarantine_custom_notification_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#quarantine_custom_notification_text EndUserNotification#quarantine_custom_notification_text}
   */
   readonly quarantineCustomNotificationText?: string;
   /**
   * The redirect URL for the external site hosting the EUN specified when the custom notification type is selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#redirect_url EndUserNotification#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#redirect_url EndUserNotification#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
   * Value indicating whether or not to include the ECS option in all DNS queries, originating from all locations and remote users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#security_review_custom_location EndUserNotification#security_review_custom_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#security_review_custom_location EndUserNotification#security_review_custom_location}
   */
   readonly securityReviewCustomLocation?: string;
   /**
   * A Boolean value indicating whether the Security Violation notification is enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#security_review_enabled EndUserNotification#security_review_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#security_review_enabled EndUserNotification#security_review_enabled}
   */
   readonly securityReviewEnabled?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating whether users' review requests for blocked URLs are submitted to the Zscaler service (i.e., Security Cloud) or a custom location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#security_review_submit_to_security_cloud EndUserNotification#security_review_submit_to_security_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#security_review_submit_to_security_cloud EndUserNotification#security_review_submit_to_security_cloud}
   */
   readonly securityReviewSubmitToSecurityCloud?: boolean | cdktf.IResolvable;
   /**
   * The message that appears in the Security Violation notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#security_review_text EndUserNotification#security_review_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#security_review_text EndUserNotification#security_review_text}
   */
   readonly securityReviewText?: string;
   /**
   * The email address for writing to IT Support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#support_email EndUserNotification#support_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#support_email EndUserNotification#support_email}
   */
   readonly supportEmail?: string;
   /**
   * The phone number for contacting IT Support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#support_phone EndUserNotification#support_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#support_phone EndUserNotification#support_phone}
   */
   readonly supportPhone?: string;
   /**
   * A custom URL location where users' review requests for blocked URLs are sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#url_cat_review_custom_location EndUserNotification#url_cat_review_custom_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#url_cat_review_custom_location EndUserNotification#url_cat_review_custom_location}
   */
   readonly urlCatReviewCustomLocation?: string;
   /**
   * A Boolean value indicating whether the URL Categorization notification is enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#url_cat_review_enabled EndUserNotification#url_cat_review_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#url_cat_review_enabled EndUserNotification#url_cat_review_enabled}
   */
   readonly urlCatReviewEnabled?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating whether users' review requests for possibly misclassified URLs are submitted to the Zscaler service (i.e., Security Cloud) or a custom location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#url_cat_review_submit_to_security_cloud EndUserNotification#url_cat_review_submit_to_security_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#url_cat_review_submit_to_security_cloud EndUserNotification#url_cat_review_submit_to_security_cloud}
   */
   readonly urlCatReviewSubmitToSecurityCloud?: boolean | cdktf.IResolvable;
   /**
   * The message that appears in the URL Categorization notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#url_cat_review_text EndUserNotification#url_cat_review_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#url_cat_review_text EndUserNotification#url_cat_review_text}
   */
   readonly urlCatReviewText?: string;
   /**
   * A custom URL location where users' review requests for the web DLP policy violation are sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#web_dlp_review_custom_location EndUserNotification#web_dlp_review_custom_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#web_dlp_review_custom_location EndUserNotification#web_dlp_review_custom_location}
   */
   readonly webDlpReviewCustomLocation?: string;
   /**
   * A Boolean value indicating whether the Web DLP Violation notification is enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#web_dlp_review_enabled EndUserNotification#web_dlp_review_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#web_dlp_review_enabled EndUserNotification#web_dlp_review_enabled}
   */
   readonly webDlpReviewEnabled?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating whether users' review requests for web DLP policy violation are submitted to the Zscaler service (i.e., Security Cloud) or a custom location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#web_dlp_review_submit_to_security_cloud EndUserNotification#web_dlp_review_submit_to_security_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#web_dlp_review_submit_to_security_cloud EndUserNotification#web_dlp_review_submit_to_security_cloud}
   */
   readonly webDlpReviewSubmitToSecurityCloud?: boolean | cdktf.IResolvable;
   /**
   * The message that appears in the Web DLP Violation notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#web_dlp_review_text EndUserNotification#web_dlp_review_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#web_dlp_review_text EndUserNotification#web_dlp_review_text}
   */
   readonly webDlpReviewText?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification zia_end_user_notification}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification zia_end_user_notification}
 */
 export class EndUserNotification extends cdktf.TerraformResource {
 
@@ -213,7 +213,7 @@ export class EndUserNotification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EndUserNotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EndUserNotification to import
-  * @param importFromId The id of the existing EndUserNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EndUserNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EndUserNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -225,7 +225,7 @@ export class EndUserNotification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/end_user_notification zia_end_user_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/end_user_notification zia_end_user_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,8 +236,8 @@ export class EndUserNotification extends cdktf.TerraformResource {
       terraformResourceType: 'zia_end_user_notification',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

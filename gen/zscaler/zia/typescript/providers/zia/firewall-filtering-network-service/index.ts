@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,57 +8,57 @@ import * as cdktf from 'cdktf';
 
 export interface FirewallFilteringNetworkServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#description FirewallFilteringNetworkService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#description FirewallFilteringNetworkService#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#is_name_l10n_tag FirewallFilteringNetworkService#is_name_l10n_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#is_name_l10n_tag FirewallFilteringNetworkService#is_name_l10n_tag}
   */
   readonly isNameL10NTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#name FirewallFilteringNetworkService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#name FirewallFilteringNetworkService#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#tag FirewallFilteringNetworkService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#tag FirewallFilteringNetworkService#tag}
   */
   readonly tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#type FirewallFilteringNetworkService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#type FirewallFilteringNetworkService#type}
   */
   readonly type?: string;
   /**
   * dest_tcp_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#dest_tcp_ports FirewallFilteringNetworkService#dest_tcp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#dest_tcp_ports FirewallFilteringNetworkService#dest_tcp_ports}
   */
   readonly destTcpPorts?: FirewallFilteringNetworkServiceDestTcpPorts[] | cdktf.IResolvable;
   /**
   * dest_udp_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#dest_udp_ports FirewallFilteringNetworkService#dest_udp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#dest_udp_ports FirewallFilteringNetworkService#dest_udp_ports}
   */
   readonly destUdpPorts?: FirewallFilteringNetworkServiceDestUdpPorts[] | cdktf.IResolvable;
   /**
   * src_tcp_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#src_tcp_ports FirewallFilteringNetworkService#src_tcp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#src_tcp_ports FirewallFilteringNetworkService#src_tcp_ports}
   */
   readonly srcTcpPorts?: FirewallFilteringNetworkServiceSrcTcpPorts[] | cdktf.IResolvable;
   /**
   * src_udp_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#src_udp_ports FirewallFilteringNetworkService#src_udp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#src_udp_ports FirewallFilteringNetworkService#src_udp_ports}
   */
   readonly srcUdpPorts?: FirewallFilteringNetworkServiceSrcUdpPorts[] | cdktf.IResolvable;
 }
 export interface FirewallFilteringNetworkServiceDestTcpPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#end FirewallFilteringNetworkService#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#end FirewallFilteringNetworkService#end}
   */
   readonly end?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#start FirewallFilteringNetworkService#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#start FirewallFilteringNetworkService#start}
   */
   readonly start?: number;
 }
@@ -203,11 +203,11 @@ export class FirewallFilteringNetworkServiceDestTcpPortsList extends cdktf.Compl
 }
 export interface FirewallFilteringNetworkServiceDestUdpPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#end FirewallFilteringNetworkService#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#end FirewallFilteringNetworkService#end}
   */
   readonly end?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#start FirewallFilteringNetworkService#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#start FirewallFilteringNetworkService#start}
   */
   readonly start?: number;
 }
@@ -352,11 +352,11 @@ export class FirewallFilteringNetworkServiceDestUdpPortsList extends cdktf.Compl
 }
 export interface FirewallFilteringNetworkServiceSrcTcpPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#end FirewallFilteringNetworkService#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#end FirewallFilteringNetworkService#end}
   */
   readonly end?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#start FirewallFilteringNetworkService#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#start FirewallFilteringNetworkService#start}
   */
   readonly start?: number;
 }
@@ -501,11 +501,11 @@ export class FirewallFilteringNetworkServiceSrcTcpPortsList extends cdktf.Comple
 }
 export interface FirewallFilteringNetworkServiceSrcUdpPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#end FirewallFilteringNetworkService#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#end FirewallFilteringNetworkService#end}
   */
   readonly end?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#start FirewallFilteringNetworkService#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#start FirewallFilteringNetworkService#start}
   */
   readonly start?: number;
 }
@@ -650,7 +650,7 @@ export class FirewallFilteringNetworkServiceSrcUdpPortsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service zia_firewall_filtering_network_service}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service zia_firewall_filtering_network_service}
 */
 export class FirewallFilteringNetworkService extends cdktf.TerraformResource {
 
@@ -666,7 +666,7 @@ export class FirewallFilteringNetworkService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallFilteringNetworkService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallFilteringNetworkService to import
-  * @param importFromId The id of the existing FirewallFilteringNetworkService that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallFilteringNetworkService that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallFilteringNetworkService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -678,7 +678,7 @@ export class FirewallFilteringNetworkService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service zia_firewall_filtering_network_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/firewall_filtering_network_service zia_firewall_filtering_network_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -689,8 +689,8 @@ export class FirewallFilteringNetworkService extends cdktf.TerraformResource {
       terraformResourceType: 'zia_firewall_filtering_network_service',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

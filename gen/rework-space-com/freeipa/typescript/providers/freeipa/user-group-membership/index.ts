@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/user_group_membership
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user_group_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface UserGroupMembershipConfig extends cdktf.TerraformMetaArguments 
   /**
   * **deprecated** External member to add. name must refer to an external group. (Requires a valid AD Trust configuration).. Will be replaced by external_members.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/user_group_membership#external_member UserGroupMembership#external_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user_group_membership#external_member UserGroupMembership#external_member}
   */
   readonly externalMember?: string;
   /**
   * External members to add as group members. name must refer to an external group. (Requires a valid AD Trust configuration).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/user_group_membership#external_members UserGroupMembership#external_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user_group_membership#external_members UserGroupMembership#external_members}
   */
   readonly externalMembers?: string[];
   /**
   * **deprecated** User group to add. Will be replaced by groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/user_group_membership#group UserGroupMembership#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user_group_membership#group UserGroupMembership#group}
   */
   readonly group?: string;
   /**
   * User groups to add as group members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/user_group_membership#groups UserGroupMembership#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user_group_membership#groups UserGroupMembership#groups}
   */
   readonly groups?: string[];
   /**
   * Unique identifier to differentiate multiple user group membership resources on the same group. Manadatory for using users/groups/external_members configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/user_group_membership#identifier UserGroupMembership#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user_group_membership#identifier UserGroupMembership#identifier}
   */
   readonly identifier?: string;
   /**
   * Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/user_group_membership#name UserGroupMembership#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user_group_membership#name UserGroupMembership#name}
   */
   readonly name: string;
   /**
   * **deprecated** User to add. Will be replaced by users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/user_group_membership#user UserGroupMembership#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user_group_membership#user UserGroupMembership#user}
   */
   readonly user?: string;
   /**
   * Users to add as group members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/user_group_membership#users UserGroupMembership#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user_group_membership#users UserGroupMembership#users}
   */
   readonly users?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/user_group_membership freeipa_user_group_membership}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user_group_membership freeipa_user_group_membership}
 */
 export class UserGroupMembership extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class UserGroupMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserGroupMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserGroupMembership to import
-  * @param importFromId The id of the existing UserGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/user_group_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user_group_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserGroupMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class UserGroupMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/user_group_membership freeipa_user_group_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/user_group_membership freeipa_user_group_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class UserGroupMembership extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_user_group_membership',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.3',
-        providerVersionConstraint: '5.1.3'
+        providerVersion: '5.1.4',
+        providerVersionConstraint: '5.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/optimizer_recommendation_strategy
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/optimizer_recommendation_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOptimizerRecommendationStrategyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/optimizer_recommendation_strategy#compartment_id DataOciOptimizerRecommendationStrategy#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/optimizer_recommendation_strategy#compartment_id DataOciOptimizerRecommendationStrategy#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/optimizer_recommendation_strategy#compartment_id_in_subtree DataOciOptimizerRecommendationStrategy#compartment_id_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/optimizer_recommendation_strategy#compartment_id_in_subtree DataOciOptimizerRecommendationStrategy#compartment_id_in_subtree}
   */
   readonly compartmentIdInSubtree: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/optimizer_recommendation_strategy#id DataOciOptimizerRecommendationStrategy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/optimizer_recommendation_strategy#id DataOciOptimizerRecommendationStrategy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/optimizer_recommendation_strategy#name DataOciOptimizerRecommendationStrategy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/optimizer_recommendation_strategy#name DataOciOptimizerRecommendationStrategy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/optimizer_recommendation_strategy#recommendation_name DataOciOptimizerRecommendationStrategy#recommendation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/optimizer_recommendation_strategy#recommendation_name DataOciOptimizerRecommendationStrategy#recommendation_name}
   */
   readonly recommendationName?: string;
 }
@@ -300,7 +300,7 @@ export class DataOciOptimizerRecommendationStrategyItemsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/optimizer_recommendation_strategy oci_optimizer_recommendation_strategy}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/optimizer_recommendation_strategy oci_optimizer_recommendation_strategy}
 */
 export class DataOciOptimizerRecommendationStrategy extends cdktf.TerraformDataSource {
 
@@ -316,7 +316,7 @@ export class DataOciOptimizerRecommendationStrategy extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOciOptimizerRecommendationStrategy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOptimizerRecommendationStrategy to import
-  * @param importFromId The id of the existing DataOciOptimizerRecommendationStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/optimizer_recommendation_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOptimizerRecommendationStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/optimizer_recommendation_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOptimizerRecommendationStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -328,7 +328,7 @@ export class DataOciOptimizerRecommendationStrategy extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/optimizer_recommendation_strategy oci_optimizer_recommendation_strategy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/optimizer_recommendation_strategy oci_optimizer_recommendation_strategy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -339,8 +339,8 @@ export class DataOciOptimizerRecommendationStrategy extends cdktf.TerraformDataS
       terraformResourceType: 'oci_optimizer_recommendation_strategy',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

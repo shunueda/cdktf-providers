@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_subnets
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreSubnetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_subnets#compartment_id DataOciCoreSubnets#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_subnets#compartment_id DataOciCoreSubnets#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_subnets#display_name DataOciCoreSubnets#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_subnets#display_name DataOciCoreSubnets#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_subnets#id DataOciCoreSubnets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_subnets#id DataOciCoreSubnets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_subnets#state DataOciCoreSubnets#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_subnets#state DataOciCoreSubnets#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_subnets#vcn_id DataOciCoreSubnets#vcn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_subnets#vcn_id DataOciCoreSubnets#vcn_id}
   */
   readonly vcnId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_subnets#filter DataOciCoreSubnets#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_subnets#filter DataOciCoreSubnets#filter}
   */
   readonly filter?: DataOciCoreSubnetsFilter[] | cdktf.IResolvable;
 }
@@ -226,15 +226,15 @@ export class DataOciCoreSubnetsSubnetsList extends cdktf.ComplexList {
 }
 export interface DataOciCoreSubnetsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_subnets#name DataOciCoreSubnets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_subnets#name DataOciCoreSubnets#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_subnets#regex DataOciCoreSubnets#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_subnets#regex DataOciCoreSubnets#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_subnets#values DataOciCoreSubnets#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_subnets#values DataOciCoreSubnets#values}
   */
   readonly values: string[];
 }
@@ -402,7 +402,7 @@ export class DataOciCoreSubnetsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_subnets oci_core_subnets}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_subnets oci_core_subnets}
 */
 export class DataOciCoreSubnets extends cdktf.TerraformDataSource {
 
@@ -418,7 +418,7 @@ export class DataOciCoreSubnets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreSubnets to import
-  * @param importFromId The id of the existing DataOciCoreSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -430,7 +430,7 @@ export class DataOciCoreSubnets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_subnets oci_core_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_subnets oci_core_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -441,8 +441,8 @@ export class DataOciCoreSubnets extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_subnets',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

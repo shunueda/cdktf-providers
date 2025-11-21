@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_igroups
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_igroups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapSanIgroupsConfig extends cdktf.TerraformMetaArgu
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_igroups#cx_profile_name DataNetappOntapSanIgroups#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_igroups#cx_profile_name DataNetappOntapSanIgroups#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_igroups#filter DataNetappOntapSanIgroups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_igroups#filter DataNetappOntapSanIgroups#filter}
   */
   readonly filter?: DataNetappOntapSanIgroupsFilter;
 }
@@ -22,13 +22,13 @@ export interface DataNetappOntapSanIgroupsFilter {
   /**
   * ProtocolsSanIgroup name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_igroups#name DataNetappOntapSanIgroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_igroups#name DataNetappOntapSanIgroups#name}
   */
   readonly name?: string;
   /**
   * ProtocolsSanIgroup svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_igroups#svm_name DataNetappOntapSanIgroups#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_igroups#svm_name DataNetappOntapSanIgroups#svm_name}
   */
   readonly svmName?: string;
 }
@@ -517,19 +517,19 @@ export interface DataNetappOntapSanIgroupsProtocolsSanIgroups {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_igroups#cx_profile_name DataNetappOntapSanIgroups#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_igroups#cx_profile_name DataNetappOntapSanIgroups#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * The name of the initiator group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_igroups#name DataNetappOntapSanIgroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_igroups#name DataNetappOntapSanIgroups#name}
   */
   readonly name?: string;
   /**
   * The name of the SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_igroups#svm_name DataNetappOntapSanIgroups#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_igroups#svm_name DataNetappOntapSanIgroups#svm_name}
   */
   readonly svmName?: string;
 }
@@ -734,7 +734,7 @@ export class DataNetappOntapSanIgroupsProtocolsSanIgroupsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_igroups netapp-ontap_san_igroups}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_igroups netapp-ontap_san_igroups}
 */
 export class DataNetappOntapSanIgroups extends cdktf.TerraformDataSource {
 
@@ -750,7 +750,7 @@ export class DataNetappOntapSanIgroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapSanIgroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapSanIgroups to import
-  * @param importFromId The id of the existing DataNetappOntapSanIgroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_igroups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapSanIgroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_igroups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapSanIgroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -762,7 +762,7 @@ export class DataNetappOntapSanIgroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_igroups netapp-ontap_san_igroups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_igroups netapp-ontap_san_igroups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -773,8 +773,8 @@ export class DataNetappOntapSanIgroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_san_igroups',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

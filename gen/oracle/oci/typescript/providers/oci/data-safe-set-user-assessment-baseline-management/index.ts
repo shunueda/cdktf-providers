@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_user_assessment_baseline_management
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_set_user_assessment_baseline_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeSetUserAssessmentBaselineManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_user_assessment_baseline_management#compartment_id DataSafeSetUserAssessmentBaselineManagement#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_set_user_assessment_baseline_management#compartment_id DataSafeSetUserAssessmentBaselineManagement#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_user_assessment_baseline_management#id DataSafeSetUserAssessmentBaselineManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_set_user_assessment_baseline_management#id DataSafeSetUserAssessmentBaselineManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_user_assessment_baseline_management#target_id DataSafeSetUserAssessmentBaselineManagement#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_set_user_assessment_baseline_management#target_id DataSafeSetUserAssessmentBaselineManagement#target_id}
   */
   readonly targetId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_user_assessment_baseline_management#timeouts DataSafeSetUserAssessmentBaselineManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_set_user_assessment_baseline_management#timeouts DataSafeSetUserAssessmentBaselineManagement#timeouts}
   */
   readonly timeouts?: DataSafeSetUserAssessmentBaselineManagementTimeouts;
 }
 export interface DataSafeSetUserAssessmentBaselineManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_user_assessment_baseline_management#create DataSafeSetUserAssessmentBaselineManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_set_user_assessment_baseline_management#create DataSafeSetUserAssessmentBaselineManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_user_assessment_baseline_management#delete DataSafeSetUserAssessmentBaselineManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_set_user_assessment_baseline_management#delete DataSafeSetUserAssessmentBaselineManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_user_assessment_baseline_management#update DataSafeSetUserAssessmentBaselineManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_set_user_assessment_baseline_management#update DataSafeSetUserAssessmentBaselineManagement#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class DataSafeSetUserAssessmentBaselineManagementTimeoutsOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_user_assessment_baseline_management oci_data_safe_set_user_assessment_baseline_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_set_user_assessment_baseline_management oci_data_safe_set_user_assessment_baseline_management}
 */
 export class DataSafeSetUserAssessmentBaselineManagement extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class DataSafeSetUserAssessmentBaselineManagement extends cdktf.Terraform
   * Generates CDKTF code for importing a DataSafeSetUserAssessmentBaselineManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeSetUserAssessmentBaselineManagement to import
-  * @param importFromId The id of the existing DataSafeSetUserAssessmentBaselineManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_user_assessment_baseline_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeSetUserAssessmentBaselineManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_set_user_assessment_baseline_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeSetUserAssessmentBaselineManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class DataSafeSetUserAssessmentBaselineManagement extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_user_assessment_baseline_management oci_data_safe_set_user_assessment_baseline_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_set_user_assessment_baseline_management oci_data_safe_set_user_assessment_baseline_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class DataSafeSetUserAssessmentBaselineManagement extends cdktf.Terraform
       terraformResourceType: 'oci_data_safe_set_user_assessment_baseline_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

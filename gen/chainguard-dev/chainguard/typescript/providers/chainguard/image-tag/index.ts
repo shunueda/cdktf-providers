@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_tag
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/resources/image_tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ImageTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of bundles associated with this repo (valid ones: `application|base|byol|ai|ai-gpu|featured|fips`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_tag#bundles ImageTag#bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/resources/image_tag#bundles ImageTag#bundles}
   */
   readonly bundles?: string[];
   /**
   * The name of this tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_tag#name ImageTag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/resources/image_tag#name ImageTag#name}
   */
   readonly name: string;
   /**
   * The repo that owns the repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_tag#repo_id ImageTag#repo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/resources/image_tag#repo_id ImageTag#repo_id}
   */
   readonly repoId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_tag chainguard_image_tag}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/resources/image_tag chainguard_image_tag}
 */
 export class ImageTag extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ImageTag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImageTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImageTag to import
-  * @param importFromId The id of the existing ImageTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImageTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/resources/image_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImageTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ImageTag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_tag chainguard_image_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/resources/image_tag chainguard_image_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ImageTag extends cdktf.TerraformResource {
       terraformResourceType: 'chainguard_image_tag',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.40',
-        providerVersionConstraint: '0.1.40'
+        providerVersion: '0.1.41',
+        providerVersionConstraint: '0.1.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

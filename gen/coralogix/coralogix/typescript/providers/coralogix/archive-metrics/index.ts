@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface ArchiveMetricsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics#ibm ArchiveMetrics#ibm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics#ibm ArchiveMetrics#ibm}
   */
   readonly ibm?: ArchiveMetricsIbm;
   /**
   * The retention policy (in days) for the archived metrics. Having default values when not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics#retention_policy ArchiveMetrics#retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics#retention_policy ArchiveMetrics#retention_policy}
   */
   readonly retentionPolicy?: ArchiveMetricsRetentionPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics#s3 ArchiveMetrics#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics#s3 ArchiveMetrics#s3}
   */
   readonly s3?: ArchiveMetricsS3;
 }
 export interface ArchiveMetricsIbm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics#crn ArchiveMetrics#crn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics#crn ArchiveMetrics#crn}
   */
   readonly crn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics#endpoint ArchiveMetrics#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics#endpoint ArchiveMetrics#endpoint}
   */
   readonly endpoint: string;
 }
@@ -145,15 +145,15 @@ export class ArchiveMetricsIbmOutputReference extends cdktf.ComplexObject {
 }
 export interface ArchiveMetricsRetentionPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics#five_minutes_resolution ArchiveMetrics#five_minutes_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics#five_minutes_resolution ArchiveMetrics#five_minutes_resolution}
   */
   readonly fiveMinutesResolution: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics#one_hour_resolution ArchiveMetrics#one_hour_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics#one_hour_resolution ArchiveMetrics#one_hour_resolution}
   */
   readonly oneHourResolution: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics#raw_resolution ArchiveMetrics#raw_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics#raw_resolution ArchiveMetrics#raw_resolution}
   */
   readonly rawResolution: number;
 }
@@ -298,13 +298,13 @@ export interface ArchiveMetricsS3 {
   /**
   * The bucket name to store the archived metrics in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics#bucket ArchiveMetrics#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics#bucket ArchiveMetrics#bucket}
   */
   readonly bucket: string;
   /**
   * The bucket region. see - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html#Concepts.RegionsAndAvailabilityZones.Regions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics#region ArchiveMetrics#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics#region ArchiveMetrics#region}
   */
   readonly region: string;
 }
@@ -421,7 +421,7 @@ export class ArchiveMetricsS3OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics coralogix_archive_metrics}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics coralogix_archive_metrics}
 */
 export class ArchiveMetrics extends cdktf.TerraformResource {
 
@@ -437,7 +437,7 @@ export class ArchiveMetrics extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArchiveMetrics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArchiveMetrics to import
-  * @param importFromId The id of the existing ArchiveMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArchiveMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArchiveMetrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -449,7 +449,7 @@ export class ArchiveMetrics extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_metrics coralogix_archive_metrics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_metrics coralogix_archive_metrics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -460,8 +460,8 @@ export class ArchiveMetrics extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_archive_metrics',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

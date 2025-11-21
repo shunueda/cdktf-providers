@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/package_hash
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/package_hash
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataFastlyPackageHashConfig extends cdktf.TerraformMetaArgument
   /**
   * The contents of the Wasm deployment package as a base64 encoded string (e.g. could be provided using an input variable or via external data source output variable). Conflicts with `filename`. Exactly one of these two arguments must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/package_hash#content DataFastlyPackageHash#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/package_hash#content DataFastlyPackageHash#content}
   */
   readonly content?: string;
   /**
   * The path to the Wasm deployment package within your local filesystem. Conflicts with `content`. Exactly one of these two arguments must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/package_hash#filename DataFastlyPackageHash#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/package_hash#filename DataFastlyPackageHash#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/package_hash#id DataFastlyPackageHash#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/package_hash#id DataFastlyPackageHash#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DataFastlyPackageHashConfig extends cdktf.TerraformMetaArgument
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/package_hash fastly_package_hash}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/package_hash fastly_package_hash}
 */
 export class DataFastlyPackageHash extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataFastlyPackageHash extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFastlyPackageHash resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFastlyPackageHash to import
-  * @param importFromId The id of the existing DataFastlyPackageHash that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/package_hash#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFastlyPackageHash that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/package_hash#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFastlyPackageHash to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataFastlyPackageHash extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/package_hash fastly_package_hash} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/package_hash fastly_package_hash} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataFastlyPackageHash extends cdktf.TerraformDataSource {
       terraformResourceType: 'fastly_package_hash',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

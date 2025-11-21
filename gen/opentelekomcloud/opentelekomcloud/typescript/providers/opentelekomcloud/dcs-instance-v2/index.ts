@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,126 +8,126 @@ import * as cdktf from 'cdktf';
 
 export interface DcsInstanceV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#access_user DcsInstanceV2#access_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#access_user DcsInstanceV2#access_user}
   */
   readonly accessUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#availability_zones DcsInstanceV2#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#availability_zones DcsInstanceV2#availability_zones}
   */
   readonly availabilityZones: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#capacity DcsInstanceV2#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#capacity DcsInstanceV2#capacity}
   */
   readonly capacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#deleted_nodes DcsInstanceV2#deleted_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#deleted_nodes DcsInstanceV2#deleted_nodes}
   */
   readonly deletedNodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#description DcsInstanceV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#description DcsInstanceV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#enable_whitelist DcsInstanceV2#enable_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#enable_whitelist DcsInstanceV2#enable_whitelist}
   */
   readonly enableWhitelist?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#engine DcsInstanceV2#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#engine DcsInstanceV2#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#engine_version DcsInstanceV2#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#engine_version DcsInstanceV2#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#flavor DcsInstanceV2#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#flavor DcsInstanceV2#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#id DcsInstanceV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#id DcsInstanceV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#maintain_begin DcsInstanceV2#maintain_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#maintain_begin DcsInstanceV2#maintain_begin}
   */
   readonly maintainBegin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#maintain_end DcsInstanceV2#maintain_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#maintain_end DcsInstanceV2#maintain_end}
   */
   readonly maintainEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#name DcsInstanceV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#name DcsInstanceV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#password DcsInstanceV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#password DcsInstanceV2#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#port DcsInstanceV2#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#port DcsInstanceV2#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#private_ip DcsInstanceV2#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#private_ip DcsInstanceV2#private_ip}
   */
   readonly privateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#rename_commands DcsInstanceV2#rename_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#rename_commands DcsInstanceV2#rename_commands}
   */
   readonly renameCommands?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#reserved_ips DcsInstanceV2#reserved_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#reserved_ips DcsInstanceV2#reserved_ips}
   */
   readonly reservedIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#security_group_id DcsInstanceV2#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#security_group_id DcsInstanceV2#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#ssl_enable DcsInstanceV2#ssl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#ssl_enable DcsInstanceV2#ssl_enable}
   */
   readonly sslEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#subnet_id DcsInstanceV2#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#subnet_id DcsInstanceV2#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#tags DcsInstanceV2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#tags DcsInstanceV2#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#template_id DcsInstanceV2#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#template_id DcsInstanceV2#template_id}
   */
   readonly templateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#vpc_id DcsInstanceV2#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#vpc_id DcsInstanceV2#vpc_id}
   */
   readonly vpcId: string;
   /**
   * backup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#backup_policy DcsInstanceV2#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#backup_policy DcsInstanceV2#backup_policy}
   */
   readonly backupPolicy?: DcsInstanceV2BackupPolicy;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#parameters DcsInstanceV2#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#parameters DcsInstanceV2#parameters}
   */
   readonly parameters?: DcsInstanceV2Parameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#timeouts DcsInstanceV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#timeouts DcsInstanceV2#timeouts}
   */
   readonly timeouts?: DcsInstanceV2Timeouts;
   /**
   * whitelist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#whitelist DcsInstanceV2#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#whitelist DcsInstanceV2#whitelist}
   */
   readonly whitelist?: DcsInstanceV2WhitelistStruct[] | cdktf.IResolvable;
 }
@@ -253,23 +253,23 @@ export class DcsInstanceV2BandwidthInfoList extends cdktf.ComplexList {
 }
 export interface DcsInstanceV2BackupPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#backup_at DcsInstanceV2#backup_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#backup_at DcsInstanceV2#backup_at}
   */
   readonly backupAt: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#backup_type DcsInstanceV2#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#backup_type DcsInstanceV2#backup_type}
   */
   readonly backupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#begin_at DcsInstanceV2#begin_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#begin_at DcsInstanceV2#begin_at}
   */
   readonly beginAt: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#period_type DcsInstanceV2#period_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#period_type DcsInstanceV2#period_type}
   */
   readonly periodType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#save_days DcsInstanceV2#save_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#save_days DcsInstanceV2#save_days}
   */
   readonly saveDays?: number;
 }
@@ -463,18 +463,18 @@ export class DcsInstanceV2BackupPolicyOutputReference extends cdktf.ComplexObjec
 }
 export interface DcsInstanceV2Parameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#id DcsInstanceV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#id DcsInstanceV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#name DcsInstanceV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#name DcsInstanceV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#value DcsInstanceV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#value DcsInstanceV2#value}
   */
   readonly value: string;
 }
@@ -639,15 +639,15 @@ export class DcsInstanceV2ParametersList extends cdktf.ComplexList {
 }
 export interface DcsInstanceV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#create DcsInstanceV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#create DcsInstanceV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#delete DcsInstanceV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#delete DcsInstanceV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#update DcsInstanceV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#update DcsInstanceV2#update}
   */
   readonly update?: string;
 }
@@ -799,11 +799,11 @@ export class DcsInstanceV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface DcsInstanceV2WhitelistStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#group_name DcsInstanceV2#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#group_name DcsInstanceV2#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#ip_list DcsInstanceV2#ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#ip_list DcsInstanceV2#ip_list}
   */
   readonly ipList: string[];
 }
@@ -942,7 +942,7 @@ export class DcsInstanceV2WhitelistStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2 opentelekomcloud_dcs_instance_v2}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2 opentelekomcloud_dcs_instance_v2}
 */
 export class DcsInstanceV2 extends cdktf.TerraformResource {
 
@@ -958,7 +958,7 @@ export class DcsInstanceV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcsInstanceV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcsInstanceV2 to import
-  * @param importFromId The id of the existing DcsInstanceV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcsInstanceV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcsInstanceV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -970,7 +970,7 @@ export class DcsInstanceV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dcs_instance_v2 opentelekomcloud_dcs_instance_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dcs_instance_v2 opentelekomcloud_dcs_instance_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -981,8 +981,8 @@ export class DcsInstanceV2 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_dcs_instance_v2',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52',
-        providerVersionConstraint: '1.36.52'
+        providerVersion: '1.36.53',
+        providerVersionConstraint: '1.36.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

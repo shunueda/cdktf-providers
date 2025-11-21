@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/tableflow_topic
+// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/tableflow_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataConfluentTableflowTopicConfig extends cdktf.TerraformMetaAr
   /**
   * The name of the Kafka topic for which Tableflow is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/tableflow_topic#display_name DataConfluentTableflowTopic#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/tableflow_topic#display_name DataConfluentTableflowTopic#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/tableflow_topic#id DataConfluentTableflowTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/tableflow_topic#id DataConfluentTableflowTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,21 +23,116 @@ export interface DataConfluentTableflowTopicConfig extends cdktf.TerraformMetaAr
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/tableflow_topic#credentials DataConfluentTableflowTopic#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/tableflow_topic#credentials DataConfluentTableflowTopic#credentials}
   */
   readonly credentials?: DataConfluentTableflowTopicCredentials;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/tableflow_topic#environment DataConfluentTableflowTopic#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/tableflow_topic#environment DataConfluentTableflowTopic#environment}
   */
   readonly environment: DataConfluentTableflowTopicEnvironment;
   /**
   * kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/tableflow_topic#kafka_cluster DataConfluentTableflowTopic#kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/tableflow_topic#kafka_cluster DataConfluentTableflowTopic#kafka_cluster}
   */
   readonly kafkaCluster: DataConfluentTableflowTopicKafkaCluster;
+}
+export interface DataConfluentTableflowTopicAzureDataLakeStorageGen2 {
+}
+
+export function dataConfluentTableflowTopicAzureDataLakeStorageGen2ToTerraform(struct?: DataConfluentTableflowTopicAzureDataLakeStorageGen2): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataConfluentTableflowTopicAzureDataLakeStorageGen2ToHclTerraform(struct?: DataConfluentTableflowTopicAzureDataLakeStorageGen2): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataConfluentTableflowTopicAzureDataLakeStorageGen2OutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataConfluentTableflowTopicAzureDataLakeStorageGen2 | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataConfluentTableflowTopicAzureDataLakeStorageGen2 | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // container_name - computed: true, optional: false, required: false
+  public get containerName() {
+    return this.getStringAttribute('container_name');
+  }
+
+  // provider_integration_id - computed: true, optional: false, required: false
+  public get providerIntegrationId() {
+    return this.getStringAttribute('provider_integration_id');
+  }
+
+  // storage_account_name - computed: true, optional: false, required: false
+  public get storageAccountName() {
+    return this.getStringAttribute('storage_account_name');
+  }
+
+  // storage_region - computed: true, optional: false, required: false
+  public get storageRegion() {
+    return this.getStringAttribute('storage_region');
+  }
+
+  // table_path - computed: true, optional: false, required: false
+  public get tablePath() {
+    return this.getStringAttribute('table_path');
+  }
+}
+
+export class DataConfluentTableflowTopicAzureDataLakeStorageGen2List extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataConfluentTableflowTopicAzureDataLakeStorageGen2OutputReference {
+    return new DataConfluentTableflowTopicAzureDataLakeStorageGen2OutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataConfluentTableflowTopicByobAws {
 }
@@ -278,13 +373,13 @@ export interface DataConfluentTableflowTopicCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/tableflow_topic#key DataConfluentTableflowTopic#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/tableflow_topic#key DataConfluentTableflowTopic#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/tableflow_topic#secret DataConfluentTableflowTopic#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/tableflow_topic#secret DataConfluentTableflowTopic#secret}
   */
   readonly secret: string;
 }
@@ -391,7 +486,7 @@ export class DataConfluentTableflowTopicCredentialsOutputReference extends cdktf
 }
 export interface DataConfluentTableflowTopicEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/tableflow_topic#id DataConfluentTableflowTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/tableflow_topic#id DataConfluentTableflowTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -475,7 +570,7 @@ export class DataConfluentTableflowTopicEnvironmentOutputReference extends cdktf
 }
 export interface DataConfluentTableflowTopicKafkaCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/tableflow_topic#id DataConfluentTableflowTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/tableflow_topic#id DataConfluentTableflowTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -559,7 +654,7 @@ export class DataConfluentTableflowTopicKafkaClusterOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/tableflow_topic confluent_tableflow_topic}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/tableflow_topic confluent_tableflow_topic}
 */
 export class DataConfluentTableflowTopic extends cdktf.TerraformDataSource {
 
@@ -575,7 +670,7 @@ export class DataConfluentTableflowTopic extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataConfluentTableflowTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataConfluentTableflowTopic to import
-  * @param importFromId The id of the existing DataConfluentTableflowTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/tableflow_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataConfluentTableflowTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/tableflow_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataConfluentTableflowTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -587,7 +682,7 @@ export class DataConfluentTableflowTopic extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/tableflow_topic confluent_tableflow_topic} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/tableflow_topic confluent_tableflow_topic} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -598,8 +693,8 @@ export class DataConfluentTableflowTopic extends cdktf.TerraformDataSource {
       terraformResourceType: 'confluent_tableflow_topic',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.53.0',
-        providerVersionConstraint: '2.53.0'
+        providerVersion: '2.54.0',
+        providerVersionConstraint: '2.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -619,6 +714,12 @@ export class DataConfluentTableflowTopic extends cdktf.TerraformDataSource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // azure_data_lake_storage_gen_2 - computed: true, optional: false, required: false
+  private _azureDataLakeStorageGen2 = new DataConfluentTableflowTopicAzureDataLakeStorageGen2List(this, "azure_data_lake_storage_gen_2", false);
+  public get azureDataLakeStorageGen2() {
+    return this._azureDataLakeStorageGen2;
+  }
 
   // byob_aws - computed: true, optional: false, required: false
   private _byobAws = new DataConfluentTableflowTopicByobAwsList(this, "byob_aws", false);

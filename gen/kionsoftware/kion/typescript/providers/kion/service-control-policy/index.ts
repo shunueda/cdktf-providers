@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/service_control_policy
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/service_control_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceControlPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/service_control_policy#description ServiceControlPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/service_control_policy#description ServiceControlPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/service_control_policy#id ServiceControlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/service_control_policy#id ServiceControlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/service_control_policy#last_updated ServiceControlPolicy#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/service_control_policy#last_updated ServiceControlPolicy#last_updated}
   */
   readonly lastUpdated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/service_control_policy#name ServiceControlPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/service_control_policy#name ServiceControlPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/service_control_policy#policy ServiceControlPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/service_control_policy#policy ServiceControlPolicy#policy}
   */
   readonly policy: string;
   /**
   * owner_user_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/service_control_policy#owner_user_groups ServiceControlPolicy#owner_user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/service_control_policy#owner_user_groups ServiceControlPolicy#owner_user_groups}
   */
   readonly ownerUserGroups?: ServiceControlPolicyOwnerUserGroups[] | cdktf.IResolvable;
   /**
   * owner_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/service_control_policy#owner_users ServiceControlPolicy#owner_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/service_control_policy#owner_users ServiceControlPolicy#owner_users}
   */
   readonly ownerUsers?: ServiceControlPolicyOwnerUsers[] | cdktf.IResolvable;
 }
 export interface ServiceControlPolicyOwnerUserGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/service_control_policy#id ServiceControlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/service_control_policy#id ServiceControlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -164,7 +164,7 @@ export class ServiceControlPolicyOwnerUserGroupsList extends cdktf.ComplexList {
 }
 export interface ServiceControlPolicyOwnerUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/service_control_policy#id ServiceControlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/service_control_policy#id ServiceControlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -283,7 +283,7 @@ export class ServiceControlPolicyOwnerUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/service_control_policy kion_service_control_policy}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/service_control_policy kion_service_control_policy}
 */
 export class ServiceControlPolicy extends cdktf.TerraformResource {
 
@@ -299,7 +299,7 @@ export class ServiceControlPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceControlPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceControlPolicy to import
-  * @param importFromId The id of the existing ServiceControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/service_control_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/service_control_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceControlPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class ServiceControlPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/service_control_policy kion_service_control_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/service_control_policy kion_service_control_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class ServiceControlPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'kion_service_control_policy',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

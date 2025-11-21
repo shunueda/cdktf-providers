@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_qtrees
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_qtrees
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapStorageQtreesConfig extends cdktf.TerraformMetaA
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_qtrees#cx_profile_name DataNetappOntapStorageQtrees#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_qtrees#cx_profile_name DataNetappOntapStorageQtrees#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_qtrees#filter DataNetappOntapStorageQtrees#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_qtrees#filter DataNetappOntapStorageQtrees#filter}
   */
   readonly filter?: DataNetappOntapStorageQtreesFilter;
 }
@@ -22,19 +22,19 @@ export interface DataNetappOntapStorageQtreesFilter {
   /**
   * StorageQtree name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_qtrees#name DataNetappOntapStorageQtrees#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_qtrees#name DataNetappOntapStorageQtrees#name}
   */
   readonly name?: string;
   /**
   * StorageQtree svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_qtrees#svm_name DataNetappOntapStorageQtrees#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_qtrees#svm_name DataNetappOntapStorageQtrees#svm_name}
   */
   readonly svmName?: string;
   /**
   * The volume that contains the qtree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_qtrees#volume_name DataNetappOntapStorageQtrees#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_qtrees#volume_name DataNetappOntapStorageQtrees#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -536,7 +536,7 @@ export class DataNetappOntapStorageQtreesStorageQtreesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_qtrees netapp-ontap_storage_qtrees}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_qtrees netapp-ontap_storage_qtrees}
 */
 export class DataNetappOntapStorageQtrees extends cdktf.TerraformDataSource {
 
@@ -552,7 +552,7 @@ export class DataNetappOntapStorageQtrees extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapStorageQtrees resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapStorageQtrees to import
-  * @param importFromId The id of the existing DataNetappOntapStorageQtrees that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_qtrees#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapStorageQtrees that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_qtrees#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapStorageQtrees to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -564,7 +564,7 @@ export class DataNetappOntapStorageQtrees extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_qtrees netapp-ontap_storage_qtrees} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_qtrees netapp-ontap_storage_qtrees} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -575,8 +575,8 @@ export class DataNetappOntapStorageQtrees extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_storage_qtrees',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

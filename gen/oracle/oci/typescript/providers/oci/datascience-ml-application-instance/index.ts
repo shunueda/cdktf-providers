@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface DatascienceMlApplicationInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#compartment_id DatascienceMlApplicationInstance#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#compartment_id DatascienceMlApplicationInstance#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#defined_tags DatascienceMlApplicationInstance#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#defined_tags DatascienceMlApplicationInstance#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#display_name DatascienceMlApplicationInstance#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#display_name DatascienceMlApplicationInstance#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#freeform_tags DatascienceMlApplicationInstance#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#freeform_tags DatascienceMlApplicationInstance#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#id DatascienceMlApplicationInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#id DatascienceMlApplicationInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#is_enabled DatascienceMlApplicationInstance#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#is_enabled DatascienceMlApplicationInstance#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#ml_application_id DatascienceMlApplicationInstance#ml_application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#ml_application_id DatascienceMlApplicationInstance#ml_application_id}
   */
   readonly mlApplicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#ml_application_implementation_id DatascienceMlApplicationInstance#ml_application_implementation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#ml_application_implementation_id DatascienceMlApplicationInstance#ml_application_implementation_id}
   */
   readonly mlApplicationImplementationId: string;
   /**
   * auth_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#auth_configuration DatascienceMlApplicationInstance#auth_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#auth_configuration DatascienceMlApplicationInstance#auth_configuration}
   */
   readonly authConfiguration?: DatascienceMlApplicationInstanceAuthConfiguration;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#configuration DatascienceMlApplicationInstance#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#configuration DatascienceMlApplicationInstance#configuration}
   */
   readonly configuration?: DatascienceMlApplicationInstanceConfiguration[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#timeouts DatascienceMlApplicationInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#timeouts DatascienceMlApplicationInstance#timeouts}
   */
   readonly timeouts?: DatascienceMlApplicationInstanceTimeouts;
 }
@@ -224,15 +224,15 @@ export class DatascienceMlApplicationInstancePredictionEndpointDetailsList exten
 }
 export interface DatascienceMlApplicationInstanceAuthConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#application_name DatascienceMlApplicationInstance#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#application_name DatascienceMlApplicationInstance#application_name}
   */
   readonly applicationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#domain_id DatascienceMlApplicationInstance#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#domain_id DatascienceMlApplicationInstance#domain_id}
   */
   readonly domainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#type DatascienceMlApplicationInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#type DatascienceMlApplicationInstance#type}
   */
   readonly type: string;
 }
@@ -371,11 +371,11 @@ export class DatascienceMlApplicationInstanceAuthConfigurationOutputReference ex
 }
 export interface DatascienceMlApplicationInstanceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#key DatascienceMlApplicationInstance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#key DatascienceMlApplicationInstance#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#value DatascienceMlApplicationInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#value DatascienceMlApplicationInstance#value}
   */
   readonly value?: string;
 }
@@ -517,15 +517,15 @@ export class DatascienceMlApplicationInstanceConfigurationList extends cdktf.Com
 }
 export interface DatascienceMlApplicationInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#create DatascienceMlApplicationInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#create DatascienceMlApplicationInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#delete DatascienceMlApplicationInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#delete DatascienceMlApplicationInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#update DatascienceMlApplicationInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#update DatascienceMlApplicationInstance#update}
   */
   readonly update?: string;
 }
@@ -677,7 +677,7 @@ export class DatascienceMlApplicationInstanceTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance oci_datascience_ml_application_instance}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance oci_datascience_ml_application_instance}
 */
 export class DatascienceMlApplicationInstance extends cdktf.TerraformResource {
 
@@ -693,7 +693,7 @@ export class DatascienceMlApplicationInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatascienceMlApplicationInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatascienceMlApplicationInstance to import
-  * @param importFromId The id of the existing DatascienceMlApplicationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatascienceMlApplicationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatascienceMlApplicationInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -705,7 +705,7 @@ export class DatascienceMlApplicationInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_instance oci_datascience_ml_application_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_instance oci_datascience_ml_application_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -716,8 +716,8 @@ export class DatascienceMlApplicationInstance extends cdktf.TerraformResource {
       terraformResourceType: 'oci_datascience_ml_application_instance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,71 +8,71 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityDomainsConditionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#attribute_name IdentityDomainsCondition#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#attribute_name IdentityDomainsCondition#attribute_name}
   */
   readonly attributeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#attribute_sets IdentityDomainsCondition#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#attribute_sets IdentityDomainsCondition#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#attribute_value IdentityDomainsCondition#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#attribute_value IdentityDomainsCondition#attribute_value}
   */
   readonly attributeValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#attributes IdentityDomainsCondition#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#attributes IdentityDomainsCondition#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#authorization IdentityDomainsCondition#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#authorization IdentityDomainsCondition#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#description IdentityDomainsCondition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#description IdentityDomainsCondition#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#evaluate_condition_if IdentityDomainsCondition#evaluate_condition_if}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#evaluate_condition_if IdentityDomainsCondition#evaluate_condition_if}
   */
   readonly evaluateConditionIf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#external_id IdentityDomainsCondition#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#external_id IdentityDomainsCondition#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#idcs_endpoint IdentityDomainsCondition#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#idcs_endpoint IdentityDomainsCondition#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#name IdentityDomainsCondition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#name IdentityDomainsCondition#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#ocid IdentityDomainsCondition#ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#ocid IdentityDomainsCondition#ocid}
   */
   readonly ocid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#operator IdentityDomainsCondition#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#operator IdentityDomainsCondition#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#resource_type_schema_version IdentityDomainsCondition#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#resource_type_schema_version IdentityDomainsCondition#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#schemas IdentityDomainsCondition#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#schemas IdentityDomainsCondition#schemas}
   */
   readonly schemas: string[];
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#tags IdentityDomainsCondition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#tags IdentityDomainsCondition#tags}
   */
   readonly tags?: IdentityDomainsConditionTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#timeouts IdentityDomainsCondition#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#timeouts IdentityDomainsCondition#timeouts}
   */
   readonly timeouts?: IdentityDomainsConditionTimeouts;
 }
@@ -363,11 +363,11 @@ export class IdentityDomainsConditionMetaList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsConditionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#key IdentityDomainsCondition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#key IdentityDomainsCondition#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#value IdentityDomainsCondition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#value IdentityDomainsCondition#value}
   */
   readonly value: string;
 }
@@ -506,15 +506,15 @@ export class IdentityDomainsConditionTagsList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsConditionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#create IdentityDomainsCondition#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#create IdentityDomainsCondition#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#delete IdentityDomainsCondition#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#delete IdentityDomainsCondition#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#update IdentityDomainsCondition#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#update IdentityDomainsCondition#update}
   */
   readonly update?: string;
 }
@@ -666,7 +666,7 @@ export class IdentityDomainsConditionTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition oci_identity_domains_condition}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition oci_identity_domains_condition}
 */
 export class IdentityDomainsCondition extends cdktf.TerraformResource {
 
@@ -682,7 +682,7 @@ export class IdentityDomainsCondition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityDomainsCondition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityDomainsCondition to import
-  * @param importFromId The id of the existing IdentityDomainsCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityDomainsCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityDomainsCondition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -694,7 +694,7 @@ export class IdentityDomainsCondition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_condition oci_identity_domains_condition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_condition oci_identity_domains_condition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -705,8 +705,8 @@ export class IdentityDomainsCondition extends cdktf.TerraformResource {
       terraformResourceType: 'oci_identity_domains_condition',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

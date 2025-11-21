@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeDatabaseSecurityConfigManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#compartment_id DataSafeDatabaseSecurityConfigManagement#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#compartment_id DataSafeDatabaseSecurityConfigManagement#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#defined_tags DataSafeDatabaseSecurityConfigManagement#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#defined_tags DataSafeDatabaseSecurityConfigManagement#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#description DataSafeDatabaseSecurityConfigManagement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#description DataSafeDatabaseSecurityConfigManagement#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#display_name DataSafeDatabaseSecurityConfigManagement#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#display_name DataSafeDatabaseSecurityConfigManagement#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#freeform_tags DataSafeDatabaseSecurityConfigManagement#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#freeform_tags DataSafeDatabaseSecurityConfigManagement#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#id DataSafeDatabaseSecurityConfigManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#id DataSafeDatabaseSecurityConfigManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#refresh_trigger DataSafeDatabaseSecurityConfigManagement#refresh_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#refresh_trigger DataSafeDatabaseSecurityConfigManagement#refresh_trigger}
   */
   readonly refreshTrigger?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#target_id DataSafeDatabaseSecurityConfigManagement#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#target_id DataSafeDatabaseSecurityConfigManagement#target_id}
   */
   readonly targetId?: string;
   /**
   * sql_firewall_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#sql_firewall_config DataSafeDatabaseSecurityConfigManagement#sql_firewall_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#sql_firewall_config DataSafeDatabaseSecurityConfigManagement#sql_firewall_config}
   */
   readonly sqlFirewallConfig?: DataSafeDatabaseSecurityConfigManagementSqlFirewallConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#timeouts DataSafeDatabaseSecurityConfigManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#timeouts DataSafeDatabaseSecurityConfigManagement#timeouts}
   */
   readonly timeouts?: DataSafeDatabaseSecurityConfigManagementTimeouts;
 }
 export interface DataSafeDatabaseSecurityConfigManagementSqlFirewallConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#exclude_job DataSafeDatabaseSecurityConfigManagement#exclude_job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#exclude_job DataSafeDatabaseSecurityConfigManagement#exclude_job}
   */
   readonly excludeJob?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#status DataSafeDatabaseSecurityConfigManagement#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#status DataSafeDatabaseSecurityConfigManagement#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#violation_log_auto_purge DataSafeDatabaseSecurityConfigManagement#violation_log_auto_purge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#violation_log_auto_purge DataSafeDatabaseSecurityConfigManagement#violation_log_auto_purge}
   */
   readonly violationLogAutoPurge?: string;
 }
@@ -212,15 +212,15 @@ export class DataSafeDatabaseSecurityConfigManagementSqlFirewallConfigOutputRefe
 }
 export interface DataSafeDatabaseSecurityConfigManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#create DataSafeDatabaseSecurityConfigManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#create DataSafeDatabaseSecurityConfigManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#delete DataSafeDatabaseSecurityConfigManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#delete DataSafeDatabaseSecurityConfigManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#update DataSafeDatabaseSecurityConfigManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#update DataSafeDatabaseSecurityConfigManagement#update}
   */
   readonly update?: string;
 }
@@ -372,7 +372,7 @@ export class DataSafeDatabaseSecurityConfigManagementTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management oci_data_safe_database_security_config_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management oci_data_safe_database_security_config_management}
 */
 export class DataSafeDatabaseSecurityConfigManagement extends cdktf.TerraformResource {
 
@@ -388,7 +388,7 @@ export class DataSafeDatabaseSecurityConfigManagement extends cdktf.TerraformRes
   * Generates CDKTF code for importing a DataSafeDatabaseSecurityConfigManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeDatabaseSecurityConfigManagement to import
-  * @param importFromId The id of the existing DataSafeDatabaseSecurityConfigManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeDatabaseSecurityConfigManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeDatabaseSecurityConfigManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -400,7 +400,7 @@ export class DataSafeDatabaseSecurityConfigManagement extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_database_security_config_management oci_data_safe_database_security_config_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_database_security_config_management oci_data_safe_database_security_config_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -411,8 +411,8 @@ export class DataSafeDatabaseSecurityConfigManagement extends cdktf.TerraformRes
       terraformResourceType: 'oci_data_safe_database_security_config_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/compute_acl_entries
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/compute_acl_entries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ComputeAclEntriesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Manages entries for a Fastly Compute Access Control List (ACL). To import, use the format <compute_acl_id>/entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/compute_acl_entries#compute_acl_id ComputeAclEntries#compute_acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/compute_acl_entries#compute_acl_id ComputeAclEntries#compute_acl_id}
   */
   readonly computeAclId: string;
   /**
   * A map representing the entries in the Compute ACL, where the keys are the prefixes and the values are the actions (ALLOW or BLOCK).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/compute_acl_entries#entries ComputeAclEntries#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/compute_acl_entries#entries ComputeAclEntries#entries}
   */
   readonly entries: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/compute_acl_entries#id ComputeAclEntries#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/compute_acl_entries#id ComputeAclEntries#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface ComputeAclEntriesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Manage the ACL entries in Terraform (default: false). If true, Terraform will ensure that the ACL's entries match the entries in the Terraform configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/compute_acl_entries#manage_entries ComputeAclEntries#manage_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/compute_acl_entries#manage_entries ComputeAclEntries#manage_entries}
   */
   readonly manageEntries?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/compute_acl_entries fastly_compute_acl_entries}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/compute_acl_entries fastly_compute_acl_entries}
 */
 export class ComputeAclEntries extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ComputeAclEntries extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeAclEntries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeAclEntries to import
-  * @param importFromId The id of the existing ComputeAclEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/compute_acl_entries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeAclEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/compute_acl_entries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeAclEntries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ComputeAclEntries extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/compute_acl_entries fastly_compute_acl_entries} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/compute_acl_entries fastly_compute_acl_entries} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ComputeAclEntries extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_compute_acl_entries',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

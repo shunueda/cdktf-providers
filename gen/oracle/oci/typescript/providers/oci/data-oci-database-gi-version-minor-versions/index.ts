@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseGiVersionMinorVersionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions#availability_domain DataOciDatabaseGiVersionMinorVersions#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions#availability_domain DataOciDatabaseGiVersionMinorVersions#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions#compartment_id DataOciDatabaseGiVersionMinorVersions#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions#compartment_id DataOciDatabaseGiVersionMinorVersions#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions#id DataOciDatabaseGiVersionMinorVersions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions#id DataOciDatabaseGiVersionMinorVersions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions#is_gi_version_for_provisioning DataOciDatabaseGiVersionMinorVersions#is_gi_version_for_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions#is_gi_version_for_provisioning DataOciDatabaseGiVersionMinorVersions#is_gi_version_for_provisioning}
   */
   readonly isGiVersionForProvisioning?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions#shape DataOciDatabaseGiVersionMinorVersions#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions#shape DataOciDatabaseGiVersionMinorVersions#shape}
   */
   readonly shape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions#shape_family DataOciDatabaseGiVersionMinorVersions#shape_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions#shape_family DataOciDatabaseGiVersionMinorVersions#shape_family}
   */
   readonly shapeFamily?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions#version DataOciDatabaseGiVersionMinorVersions#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions#version DataOciDatabaseGiVersionMinorVersions#version}
   */
   readonly version: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions#filter DataOciDatabaseGiVersionMinorVersions#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions#filter DataOciDatabaseGiVersionMinorVersions#filter}
   */
   readonly filter?: DataOciDatabaseGiVersionMinorVersionsFilter[] | cdktf.IResolvable;
 }
@@ -127,15 +127,15 @@ export class DataOciDatabaseGiVersionMinorVersionsGiMinorVersionsList extends cd
 }
 export interface DataOciDatabaseGiVersionMinorVersionsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions#name DataOciDatabaseGiVersionMinorVersions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions#name DataOciDatabaseGiVersionMinorVersions#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions#regex DataOciDatabaseGiVersionMinorVersions#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions#regex DataOciDatabaseGiVersionMinorVersions#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions#values DataOciDatabaseGiVersionMinorVersions#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions#values DataOciDatabaseGiVersionMinorVersions#values}
   */
   readonly values: string[];
 }
@@ -303,7 +303,7 @@ export class DataOciDatabaseGiVersionMinorVersionsFilterList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions oci_database_gi_version_minor_versions}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions oci_database_gi_version_minor_versions}
 */
 export class DataOciDatabaseGiVersionMinorVersions extends cdktf.TerraformDataSource {
 
@@ -319,7 +319,7 @@ export class DataOciDatabaseGiVersionMinorVersions extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataOciDatabaseGiVersionMinorVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseGiVersionMinorVersions to import
-  * @param importFromId The id of the existing DataOciDatabaseGiVersionMinorVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseGiVersionMinorVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseGiVersionMinorVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -331,7 +331,7 @@ export class DataOciDatabaseGiVersionMinorVersions extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_version_minor_versions oci_database_gi_version_minor_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_gi_version_minor_versions oci_database_gi_version_minor_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -342,8 +342,8 @@ export class DataOciDatabaseGiVersionMinorVersions extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_database_gi_version_minor_versions',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

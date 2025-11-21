@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,63 +8,63 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityDomainsApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#attribute_sets IdentityDomainsApiKey#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#attribute_sets IdentityDomainsApiKey#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#attributes IdentityDomainsApiKey#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#attributes IdentityDomainsApiKey#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#authorization IdentityDomainsApiKey#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#authorization IdentityDomainsApiKey#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#description IdentityDomainsApiKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#description IdentityDomainsApiKey#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#idcs_endpoint IdentityDomainsApiKey#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#idcs_endpoint IdentityDomainsApiKey#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#key IdentityDomainsApiKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#key IdentityDomainsApiKey#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#ocid IdentityDomainsApiKey#ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#ocid IdentityDomainsApiKey#ocid}
   */
   readonly ocid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#resource_type_schema_version IdentityDomainsApiKey#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#resource_type_schema_version IdentityDomainsApiKey#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#schemas IdentityDomainsApiKey#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#schemas IdentityDomainsApiKey#schemas}
   */
   readonly schemas: string[];
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#tags IdentityDomainsApiKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#tags IdentityDomainsApiKey#tags}
   */
   readonly tags?: IdentityDomainsApiKeyTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#timeouts IdentityDomainsApiKey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#timeouts IdentityDomainsApiKey#timeouts}
   */
   readonly timeouts?: IdentityDomainsApiKeyTimeouts;
   /**
   * urnietfparamsscimschemasoracleidcsextensionself_change_user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#urnietfparamsscimschemasoracleidcsextensionself_change_user IdentityDomainsApiKey#urnietfparamsscimschemasoracleidcsextensionself_change_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#urnietfparamsscimschemasoracleidcsextensionself_change_user IdentityDomainsApiKey#urnietfparamsscimschemasoracleidcsextensionself_change_user}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionselfChangeUser?: IdentityDomainsApiKeyUrnietfparamsscimschemasoracleidcsextensionselfChangeUser;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#user IdentityDomainsApiKey#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#user IdentityDomainsApiKey#user}
   */
   readonly user?: IdentityDomainsApiKeyUser;
 }
@@ -355,11 +355,11 @@ export class IdentityDomainsApiKeyMetaList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsApiKeyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#key IdentityDomainsApiKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#key IdentityDomainsApiKey#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#value IdentityDomainsApiKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#value IdentityDomainsApiKey#value}
   */
   readonly value: string;
 }
@@ -498,15 +498,15 @@ export class IdentityDomainsApiKeyTagsList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsApiKeyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#create IdentityDomainsApiKey#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#create IdentityDomainsApiKey#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#delete IdentityDomainsApiKey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#delete IdentityDomainsApiKey#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#update IdentityDomainsApiKey#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#update IdentityDomainsApiKey#update}
   */
   readonly update?: string;
 }
@@ -658,7 +658,7 @@ export class IdentityDomainsApiKeyTimeoutsOutputReference extends cdktf.ComplexO
 }
 export interface IdentityDomainsApiKeyUrnietfparamsscimschemasoracleidcsextensionselfChangeUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#allow_self_change IdentityDomainsApiKey#allow_self_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#allow_self_change IdentityDomainsApiKey#allow_self_change}
   */
   readonly allowSelfChange?: boolean | cdktf.IResolvable;
 }
@@ -742,11 +742,11 @@ export class IdentityDomainsApiKeyUrnietfparamsscimschemasoracleidcsextensionsel
 }
 export interface IdentityDomainsApiKeyUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#ocid IdentityDomainsApiKey#ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#ocid IdentityDomainsApiKey#ocid}
   */
   readonly ocid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#value IdentityDomainsApiKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#value IdentityDomainsApiKey#value}
   */
   readonly value?: string;
 }
@@ -874,7 +874,7 @@ export class IdentityDomainsApiKeyUserOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key oci_identity_domains_api_key}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key oci_identity_domains_api_key}
 */
 export class IdentityDomainsApiKey extends cdktf.TerraformResource {
 
@@ -890,7 +890,7 @@ export class IdentityDomainsApiKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityDomainsApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityDomainsApiKey to import
-  * @param importFromId The id of the existing IdentityDomainsApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityDomainsApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityDomainsApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -902,7 +902,7 @@ export class IdentityDomainsApiKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_api_key oci_identity_domains_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_api_key oci_identity_domains_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -913,8 +913,8 @@ export class IdentityDomainsApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'oci_identity_domains_api_key',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

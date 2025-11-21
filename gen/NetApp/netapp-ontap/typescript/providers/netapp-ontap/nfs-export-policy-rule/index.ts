@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface NfsExportPolicyRuleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Allow Creation of Devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#allow_device_creation NfsExportPolicyRule#allow_device_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#allow_device_creation NfsExportPolicyRule#allow_device_creation}
   */
   readonly allowDeviceCreation?: boolean | cdktf.IResolvable;
   /**
   * Honor SetUID Bits in SETATTR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#allow_suid NfsExportPolicyRule#allow_suid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#allow_suid NfsExportPolicyRule#allow_suid}
   */
   readonly allowSuid?: boolean | cdktf.IResolvable;
   /**
   * User ID To Which Anonymous Users Are Mapped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#anonymous_user NfsExportPolicyRule#anonymous_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#anonymous_user NfsExportPolicyRule#anonymous_user}
   */
   readonly anonymousUser?: string;
   /**
   * Specifies who is authorized to change the ownership mode of a file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#chown_mode NfsExportPolicyRule#chown_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#chown_mode NfsExportPolicyRule#chown_mode}
   */
   readonly chownMode?: string;
   /**
   * List of Client Match Hostnames, IP Addresses, Netgroups, or Domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#clients_match NfsExportPolicyRule#clients_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#clients_match NfsExportPolicyRule#clients_match}
   */
   readonly clientsMatch: string[];
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#cx_profile_name NfsExportPolicyRule#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#cx_profile_name NfsExportPolicyRule#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Export policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#export_policy_name NfsExportPolicyRule#export_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#export_policy_name NfsExportPolicyRule#export_policy_name}
   */
   readonly exportPolicyName: string;
   /**
   * NTFS export UNIX security options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#ntfs_unix_security NfsExportPolicyRule#ntfs_unix_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#ntfs_unix_security NfsExportPolicyRule#ntfs_unix_security}
   */
   readonly ntfsUnixSecurity?: string;
   /**
   * Access Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#protocols NfsExportPolicyRule#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#protocols NfsExportPolicyRule#protocols}
   */
   readonly protocols?: string[];
   /**
   * RO Access Rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#ro_rule NfsExportPolicyRule#ro_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#ro_rule NfsExportPolicyRule#ro_rule}
   */
   readonly roRule: string[];
   /**
   * RW Access Rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#rw_rule NfsExportPolicyRule#rw_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#rw_rule NfsExportPolicyRule#rw_rule}
   */
   readonly rwRule: string[];
   /**
   * Superuser Security Types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#superuser NfsExportPolicyRule#superuser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#superuser NfsExportPolicyRule#superuser}
   */
   readonly superuser?: string[];
   /**
   * Name of the svm to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#svm_name NfsExportPolicyRule#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#svm_name NfsExportPolicyRule#svm_name}
   */
   readonly svmName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule netapp-ontap_nfs_export_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule netapp-ontap_nfs_export_policy_rule}
 */
 export class NfsExportPolicyRule extends cdktf.TerraformResource {
 
@@ -104,7 +104,7 @@ export class NfsExportPolicyRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NfsExportPolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NfsExportPolicyRule to import
-  * @param importFromId The id of the existing NfsExportPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NfsExportPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NfsExportPolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +116,7 @@ export class NfsExportPolicyRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/nfs_export_policy_rule netapp-ontap_nfs_export_policy_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/nfs_export_policy_rule netapp-ontap_nfs_export_policy_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,8 +127,8 @@ export class NfsExportPolicyRule extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_nfs_export_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

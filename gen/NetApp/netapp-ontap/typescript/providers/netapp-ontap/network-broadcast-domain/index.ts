@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_broadcast_domain
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_broadcast_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface NetworkBroadcastDomainConfig extends cdktf.TerraformMetaArgumen
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_broadcast_domain#cx_profile_name NetworkBroadcastDomain#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_broadcast_domain#cx_profile_name NetworkBroadcastDomain#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Name of the IPspace the broadcast domain belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_broadcast_domain#ipspace NetworkBroadcastDomain#ipspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_broadcast_domain#ipspace NetworkBroadcastDomain#ipspace}
   */
   readonly ipspace?: string;
   /**
   * Maximum transmission unit, largest packet size on this network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_broadcast_domain#mtu NetworkBroadcastDomain#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_broadcast_domain#mtu NetworkBroadcastDomain#mtu}
   */
   readonly mtu: number;
   /**
   * Name of the broadcast domain, scoped to its IPspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_broadcast_domain#name NetworkBroadcastDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_broadcast_domain#name NetworkBroadcastDomain#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_broadcast_domain netapp-ontap_network_broadcast_domain}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_broadcast_domain netapp-ontap_network_broadcast_domain}
 */
 export class NetworkBroadcastDomain extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class NetworkBroadcastDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkBroadcastDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkBroadcastDomain to import
-  * @param importFromId The id of the existing NetworkBroadcastDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_broadcast_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkBroadcastDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_broadcast_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkBroadcastDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class NetworkBroadcastDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_broadcast_domain netapp-ontap_network_broadcast_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_broadcast_domain netapp-ontap_network_broadcast_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class NetworkBroadcastDomain extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_network_broadcast_domain',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

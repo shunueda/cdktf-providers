@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface NetappOntapProviderConfig {
   /**
   * Define connection and credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#connection_profiles NetappOntapProvider#connection_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#connection_profiles NetappOntapProvider#connection_profiles}
   */
   readonly connectionProfiles: NetappOntapProviderConnectionProfiles[] | cdktf.IResolvable;
   /**
   * Example provider attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#endpoint NetappOntapProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#endpoint NetappOntapProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Time in seconds to wait for completion. Default to 600 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#job_completion_timeout NetappOntapProvider#job_completion_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#job_completion_timeout NetappOntapProvider#job_completion_timeout}
   */
   readonly jobCompletionTimeout?: number;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#alias NetappOntapProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#alias NetappOntapProvider#alias}
   */
   readonly alias?: string;
 }
@@ -36,19 +36,19 @@ export interface NetappOntapProviderConnectionProfilesAwsLambda {
   /**
   * AWS Lambda function name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#function_name NetappOntapProvider#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#function_name NetappOntapProvider#function_name}
   */
   readonly functionName: string;
   /**
   * AWS region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#region NetappOntapProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#region NetappOntapProvider#region}
   */
   readonly region?: string;
   /**
   * AWS shared config profile. Region set in the profile will be ignored it it's different from the region set in Terraform. aws_access_key_id and aws_secret_access_key are required to be set in credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#shared_config_profile NetappOntapProvider#shared_config_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#shared_config_profile NetappOntapProvider#shared_config_profile}
   */
   readonly sharedConfigProfile: string;
 }
@@ -100,37 +100,37 @@ export interface NetappOntapProviderConnectionProfiles {
   /**
   * AWS configuration for Lambda
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#aws_lambda NetappOntapProvider#aws_lambda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#aws_lambda NetappOntapProvider#aws_lambda}
   */
   readonly awsLambda?: NetappOntapProviderConnectionProfilesAwsLambda;
   /**
   * ONTAP management interface IP address or name. For AWS Lambda, the management endpoints for the FSxN system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#hostname NetappOntapProvider#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#hostname NetappOntapProvider#hostname}
   */
   readonly hostname: string;
   /**
   * Profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#name NetappOntapProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#name NetappOntapProvider#name}
   */
   readonly name: string;
   /**
   * ONTAP management password for username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#password NetappOntapProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#password NetappOntapProvider#password}
   */
   readonly password: string;
   /**
   * ONTAP management user name (cluster or svm)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#username NetappOntapProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#username NetappOntapProvider#username}
   */
   readonly username: string;
   /**
   * Whether to enforce SSL certificate validation, defaults to true. Not applicable for AWS Lambda
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#validate_certs NetappOntapProvider#validate_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#validate_certs NetappOntapProvider#validate_certs}
   */
   readonly validateCerts?: boolean | cdktf.IResolvable;
 }
@@ -201,7 +201,7 @@ export function netappOntapProviderConnectionProfilesToHclTerraform(struct?: Net
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs netapp-ontap}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs netapp-ontap}
 */
 export class NetappOntapProvider extends cdktf.TerraformProvider {
 
@@ -217,7 +217,7 @@ export class NetappOntapProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a NetappOntapProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetappOntapProvider to import
-  * @param importFromId The id of the existing NetappOntapProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetappOntapProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetappOntapProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class NetappOntapProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs netapp-ontap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs netapp-ontap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class NetappOntapProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netapp-ontap',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       terraformProviderSource: 'NetApp/netapp-ontap'
     });

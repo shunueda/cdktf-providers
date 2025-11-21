@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/log_stream
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/log_stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface LogStreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The endpoint to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/log_stream#endpoint LogStream#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/log_stream#endpoint LogStream#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to send or drop logs for preview resources. Must be one of `send` or `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/log_stream#preview LogStream#preview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/log_stream#preview LogStream#preview}
   */
   readonly preview: string;
   /**
   * The token to use when sending logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/log_stream#token LogStream#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/log_stream#token LogStream#token}
   */
   readonly token?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/log_stream render_log_stream}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/log_stream render_log_stream}
 */
 export class LogStream extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class LogStream extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogStream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogStream to import
-  * @param importFromId The id of the existing LogStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/log_stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/log_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogStream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class LogStream extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/log_stream render_log_stream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/log_stream render_log_stream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class LogStream extends cdktf.TerraformResource {
       terraformResourceType: 'render_log_stream',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

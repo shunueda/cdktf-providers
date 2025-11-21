@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/postgres
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/postgres
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataRenderPostgresConfig extends cdktf.TerraformMetaArguments {
   /**
   * Datadog API key to use when sending postgres metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/postgres#datadog_api_key DataRenderPostgres#datadog_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/postgres#datadog_api_key DataRenderPostgres#datadog_api_key}
   */
   readonly datadogApiKey?: string;
   /**
   * Disk size in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/postgres#disk_size_gb DataRenderPostgres#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/postgres#disk_size_gb DataRenderPostgres#disk_size_gb}
   */
   readonly diskSizeGb?: number;
   /**
   * Unique identifier for this postgres
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/postgres#id DataRenderPostgres#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/postgres#id DataRenderPostgres#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,13 +31,13 @@ export interface DataRenderPostgresConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure the [log stream override settings](https://render.com/docs/log-streams#overriding-defaults) for this service. These will override the global log stream settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/postgres#log_stream_override DataRenderPostgres#log_stream_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/postgres#log_stream_override DataRenderPostgres#log_stream_override}
   */
   readonly logStreamOverride?: DataRenderPostgresLogStreamOverride;
   /**
   * If this is a replica, the ID of the primary postgres instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/postgres#primary_postgres_id DataRenderPostgres#primary_postgres_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/postgres#primary_postgres_id DataRenderPostgres#primary_postgres_id}
   */
   readonly primaryPostgresId?: string;
 }
@@ -194,19 +194,19 @@ export interface DataRenderPostgresLogStreamOverride {
   /**
   * The endpoint to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/postgres#endpoint DataRenderPostgres#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/postgres#endpoint DataRenderPostgres#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to send or drop logs for this service. Must be one of `send` or `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/postgres#setting DataRenderPostgres#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/postgres#setting DataRenderPostgres#setting}
   */
   readonly setting: string;
   /**
   * The token to use when sending logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/postgres#token DataRenderPostgres#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/postgres#token DataRenderPostgres#token}
   */
   readonly token?: string;
 }
@@ -435,7 +435,7 @@ export class DataRenderPostgresReadReplicasList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/postgres render_postgres}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/postgres render_postgres}
 */
 export class DataRenderPostgres extends cdktf.TerraformDataSource {
 
@@ -451,7 +451,7 @@ export class DataRenderPostgres extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRenderPostgres resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRenderPostgres to import
-  * @param importFromId The id of the existing DataRenderPostgres that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/postgres#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRenderPostgres that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/postgres#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRenderPostgres to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -463,7 +463,7 @@ export class DataRenderPostgres extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/postgres render_postgres} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/postgres render_postgres} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -474,8 +474,8 @@ export class DataRenderPostgres extends cdktf.TerraformDataSource {
       terraformResourceType: 'render_postgres',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

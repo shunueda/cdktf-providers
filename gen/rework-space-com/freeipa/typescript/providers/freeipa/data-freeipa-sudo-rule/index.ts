@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/data-sources/sudo_rule
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/data-sources/sudo_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataFreeipaSudoRuleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Name of the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/data-sources/sudo_rule#name DataFreeipaSudoRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/data-sources/sudo_rule#name DataFreeipaSudoRule#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/data-sources/sudo_rule freeipa_sudo_rule}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/data-sources/sudo_rule freeipa_sudo_rule}
 */
 export class DataFreeipaSudoRule extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataFreeipaSudoRule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFreeipaSudoRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFreeipaSudoRule to import
-  * @param importFromId The id of the existing DataFreeipaSudoRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/data-sources/sudo_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFreeipaSudoRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/data-sources/sudo_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFreeipaSudoRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataFreeipaSudoRule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/data-sources/sudo_rule freeipa_sudo_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/data-sources/sudo_rule freeipa_sudo_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataFreeipaSudoRule extends cdktf.TerraformDataSource {
       terraformResourceType: 'freeipa_sudo_rule',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.3',
-        providerVersionConstraint: '5.1.3'
+        providerVersion: '5.1.4',
+        providerVersionConstraint: '5.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

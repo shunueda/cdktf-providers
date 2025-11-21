@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_generate_metadata_management
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_generate_metadata_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface OsManagementHubSoftwareSourceGenerateMetadataManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_generate_metadata_management#id OsManagementHubSoftwareSourceGenerateMetadataManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_generate_metadata_management#id OsManagementHubSoftwareSourceGenerateMetadataManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_generate_metadata_management#software_source_id OsManagementHubSoftwareSourceGenerateMetadataManagement#software_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_generate_metadata_management#software_source_id OsManagementHubSoftwareSourceGenerateMetadataManagement#software_source_id}
   */
   readonly softwareSourceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_generate_metadata_management#timeouts OsManagementHubSoftwareSourceGenerateMetadataManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_generate_metadata_management#timeouts OsManagementHubSoftwareSourceGenerateMetadataManagement#timeouts}
   */
   readonly timeouts?: OsManagementHubSoftwareSourceGenerateMetadataManagementTimeouts;
 }
 export interface OsManagementHubSoftwareSourceGenerateMetadataManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_generate_metadata_management#create OsManagementHubSoftwareSourceGenerateMetadataManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_generate_metadata_management#create OsManagementHubSoftwareSourceGenerateMetadataManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_generate_metadata_management#delete OsManagementHubSoftwareSourceGenerateMetadataManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_generate_metadata_management#delete OsManagementHubSoftwareSourceGenerateMetadataManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_generate_metadata_management#update OsManagementHubSoftwareSourceGenerateMetadataManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_generate_metadata_management#update OsManagementHubSoftwareSourceGenerateMetadataManagement#update}
   */
   readonly update?: string;
 }
@@ -187,7 +187,7 @@ export class OsManagementHubSoftwareSourceGenerateMetadataManagementTimeoutsOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_generate_metadata_management oci_os_management_hub_software_source_generate_metadata_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_generate_metadata_management oci_os_management_hub_software_source_generate_metadata_management}
 */
 export class OsManagementHubSoftwareSourceGenerateMetadataManagement extends cdktf.TerraformResource {
 
@@ -203,7 +203,7 @@ export class OsManagementHubSoftwareSourceGenerateMetadataManagement extends cdk
   * Generates CDKTF code for importing a OsManagementHubSoftwareSourceGenerateMetadataManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsManagementHubSoftwareSourceGenerateMetadataManagement to import
-  * @param importFromId The id of the existing OsManagementHubSoftwareSourceGenerateMetadataManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_generate_metadata_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsManagementHubSoftwareSourceGenerateMetadataManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_generate_metadata_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsManagementHubSoftwareSourceGenerateMetadataManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -215,7 +215,7 @@ export class OsManagementHubSoftwareSourceGenerateMetadataManagement extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_generate_metadata_management oci_os_management_hub_software_source_generate_metadata_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_generate_metadata_management oci_os_management_hub_software_source_generate_metadata_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,8 +226,8 @@ export class OsManagementHubSoftwareSourceGenerateMetadataManagement extends cdk
       terraformResourceType: 'oci_os_management_hub_software_source_generate_metadata_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

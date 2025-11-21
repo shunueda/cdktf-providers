@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,57 +10,57 @@ export interface ProtocolsNfsServiceResourceConfig extends cdktf.TerraformMetaAr
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#cx_profile_name ProtocolsNfsServiceResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#cx_profile_name ProtocolsNfsServiceResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * NFS should be enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#enabled ProtocolsNfsServiceResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#enabled ProtocolsNfsServiceResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#protocol ProtocolsNfsServiceResource#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#protocol ProtocolsNfsServiceResource#protocol}
   */
   readonly protocol: ProtocolsNfsServiceResourceProtocol;
   /**
   * Specific Root user options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#root ProtocolsNfsServiceResource#root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#root ProtocolsNfsServiceResource#root}
   */
   readonly root?: ProtocolsNfsServiceResourceRoot;
   /**
   * NFS Security options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#security ProtocolsNfsServiceResource#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#security ProtocolsNfsServiceResource#security}
   */
   readonly security?: ProtocolsNfsServiceResourceSecurity;
   /**
   * Whether SVM allows showmount
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#showmount_enabled ProtocolsNfsServiceResource#showmount_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#showmount_enabled ProtocolsNfsServiceResource#showmount_enabled}
   */
   readonly showmountEnabled?: boolean | cdktf.IResolvable;
   /**
   * IPInterface svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#svm_name ProtocolsNfsServiceResource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#svm_name ProtocolsNfsServiceResource#svm_name}
   */
   readonly svmName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#transport ProtocolsNfsServiceResource#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#transport ProtocolsNfsServiceResource#transport}
   */
   readonly transport?: ProtocolsNfsServiceResourceTransport;
   /**
   * Whether Vstorage is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#vstorage_enabled ProtocolsNfsServiceResource#vstorage_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#vstorage_enabled ProtocolsNfsServiceResource#vstorage_enabled}
   */
   readonly vstorageEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#windows ProtocolsNfsServiceResource#windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#windows ProtocolsNfsServiceResource#windows}
   */
   readonly windows?: ProtocolsNfsServiceResourceWindows;
 }
@@ -68,19 +68,19 @@ export interface ProtocolsNfsServiceResourceProtocolV40Features {
   /**
   * Enable ACL for NFSv4.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#acl_enabled ProtocolsNfsServiceResource#acl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#acl_enabled ProtocolsNfsServiceResource#acl_enabled}
   */
   readonly aclEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable Read File Delegation for NFSv4.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#read_delegation_enabled ProtocolsNfsServiceResource#read_delegation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#read_delegation_enabled ProtocolsNfsServiceResource#read_delegation_enabled}
   */
   readonly readDelegationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable Write File Delegation for NFSv4.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#write_delegation_enabled ProtocolsNfsServiceResource#write_delegation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#write_delegation_enabled ProtocolsNfsServiceResource#write_delegation_enabled}
   */
   readonly writeDelegationEnabled?: boolean | cdktf.IResolvable;
 }
@@ -234,25 +234,25 @@ export interface ProtocolsNfsServiceResourceProtocolV41Features {
   /**
   * Enable ACL for NFSv4.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#acl_enabled ProtocolsNfsServiceResource#acl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#acl_enabled ProtocolsNfsServiceResource#acl_enabled}
   */
   readonly aclEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enabled pNFS (parallel NFS) for NFSv4.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#pnfs_enabled ProtocolsNfsServiceResource#pnfs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#pnfs_enabled ProtocolsNfsServiceResource#pnfs_enabled}
   */
   readonly pnfsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable Read File Delegation for NFSv4.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#read_delegation_enabled ProtocolsNfsServiceResource#read_delegation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#read_delegation_enabled ProtocolsNfsServiceResource#read_delegation_enabled}
   */
   readonly readDelegationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable Write File Delegation for NFSv4.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#write_delegation_enabled ProtocolsNfsServiceResource#write_delegation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#write_delegation_enabled ProtocolsNfsServiceResource#write_delegation_enabled}
   */
   readonly writeDelegationEnabled?: boolean | cdktf.IResolvable;
 }
@@ -435,37 +435,37 @@ export interface ProtocolsNfsServiceResourceProtocol {
   /**
   * NFSv3 enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#v3_enabled ProtocolsNfsServiceResource#v3_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#v3_enabled ProtocolsNfsServiceResource#v3_enabled}
   */
   readonly v3Enabled?: boolean | cdktf.IResolvable;
   /**
   * NFSv4.0 enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#v40_enabled ProtocolsNfsServiceResource#v40_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#v40_enabled ProtocolsNfsServiceResource#v40_enabled}
   */
   readonly v40Enabled?: boolean | cdktf.IResolvable;
   /**
   * NFSv4.0 features
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#v40_features ProtocolsNfsServiceResource#v40_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#v40_features ProtocolsNfsServiceResource#v40_features}
   */
   readonly v40Features?: ProtocolsNfsServiceResourceProtocolV40Features;
   /**
   * NFSv4.1 enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#v41_enabled ProtocolsNfsServiceResource#v41_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#v41_enabled ProtocolsNfsServiceResource#v41_enabled}
   */
   readonly v41Enabled?: boolean | cdktf.IResolvable;
   /**
   * NFSv4.1 features
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#v41_features ProtocolsNfsServiceResource#v41_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#v41_features ProtocolsNfsServiceResource#v41_features}
   */
   readonly v41Features?: ProtocolsNfsServiceResourceProtocolV41Features;
   /**
   * User ID domain for NFSv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#v4_id_domain ProtocolsNfsServiceResource#v4_id_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#v4_id_domain ProtocolsNfsServiceResource#v4_id_domain}
   */
   readonly v4IdDomain?: string;
 }
@@ -706,13 +706,13 @@ export interface ProtocolsNfsServiceResourceRoot {
   /**
   * Ignore NTFS ACL for root user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#ignore_nt_acl ProtocolsNfsServiceResource#ignore_nt_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#ignore_nt_acl ProtocolsNfsServiceResource#ignore_nt_acl}
   */
   readonly ignoreNtAcl?: boolean | cdktf.IResolvable;
   /**
   * Skip write permissions check for root user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#skip_write_permission_check ProtocolsNfsServiceResource#skip_write_permission_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#skip_write_permission_check ProtocolsNfsServiceResource#skip_write_permission_check}
   */
   readonly skipWritePermissionCheck?: boolean | cdktf.IResolvable;
 }
@@ -837,25 +837,25 @@ export interface ProtocolsNfsServiceResourceSecurity {
   /**
   * Specifies whether file ownership can be changed only by the superuser, or if a non-root user can also change file ownership
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#chown_mode ProtocolsNfsServiceResource#chown_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#chown_mode ProtocolsNfsServiceResource#chown_mode}
   */
   readonly chownMode?: string;
   /**
   * Controls the permissions that are displayed to NFSv3 and NFSv4 clients on a file or directory that has an NT ACL set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#nt_acl_display_permission ProtocolsNfsServiceResource#nt_acl_display_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#nt_acl_display_permission ProtocolsNfsServiceResource#nt_acl_display_permission}
   */
   readonly ntAclDisplayPermission?: boolean | cdktf.IResolvable;
   /**
   * Specifies how NFSv3 security changes affect NTFS volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#ntfs_unix_security ProtocolsNfsServiceResource#ntfs_unix_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#ntfs_unix_security ProtocolsNfsServiceResource#ntfs_unix_security}
   */
   readonly ntfsUnixSecurity?: string;
   /**
   * Specifies, in seconds, the amount of time a RPCSEC_GSS context is permitted to remain unused before it is deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#rpcsec_context_idle ProtocolsNfsServiceResource#rpcsec_context_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#rpcsec_context_idle ProtocolsNfsServiceResource#rpcsec_context_idle}
   */
   readonly rpcsecContextIdle?: number;
 }
@@ -1038,19 +1038,19 @@ export interface ProtocolsNfsServiceResourceTransport {
   /**
   * tcp enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#tcp_enabled ProtocolsNfsServiceResource#tcp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#tcp_enabled ProtocolsNfsServiceResource#tcp_enabled}
   */
   readonly tcpEnabled?: boolean | cdktf.IResolvable;
   /**
   * Max tcp transfer size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#tcp_max_transfer_size ProtocolsNfsServiceResource#tcp_max_transfer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#tcp_max_transfer_size ProtocolsNfsServiceResource#tcp_max_transfer_size}
   */
   readonly tcpMaxTransferSize?: number;
   /**
   * udp enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#udp_enabled ProtocolsNfsServiceResource#udp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#udp_enabled ProtocolsNfsServiceResource#udp_enabled}
   */
   readonly udpEnabled?: boolean | cdktf.IResolvable;
 }
@@ -1204,19 +1204,19 @@ export interface ProtocolsNfsServiceResourceWindows {
   /**
   * default Windows user for the NFS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#default_user ProtocolsNfsServiceResource#default_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#default_user ProtocolsNfsServiceResource#default_user}
   */
   readonly defaultUser?: string;
   /**
   * whether or not the mapping of an unknown UID to the default Windows user is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#map_unknown_uid_to_default_user ProtocolsNfsServiceResource#map_unknown_uid_to_default_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#map_unknown_uid_to_default_user ProtocolsNfsServiceResource#map_unknown_uid_to_default_user}
   */
   readonly mapUnknownUidToDefaultUser?: boolean | cdktf.IResolvable;
   /**
   * if permission checks are to be skipped for NFS WRITE calls from root/owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#v3_ms_dos_client_enabled ProtocolsNfsServiceResource#v3_ms_dos_client_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#v3_ms_dos_client_enabled ProtocolsNfsServiceResource#v3_ms_dos_client_enabled}
   */
   readonly v3MsDosClientEnabled?: boolean | cdktf.IResolvable;
 }
@@ -1368,7 +1368,7 @@ export class ProtocolsNfsServiceResourceWindowsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource netapp-ontap_protocols_nfs_service_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource netapp-ontap_protocols_nfs_service_resource}
 */
 export class ProtocolsNfsServiceResource extends cdktf.TerraformResource {
 
@@ -1384,7 +1384,7 @@ export class ProtocolsNfsServiceResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtocolsNfsServiceResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtocolsNfsServiceResource to import
-  * @param importFromId The id of the existing ProtocolsNfsServiceResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtocolsNfsServiceResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtocolsNfsServiceResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1396,7 +1396,7 @@ export class ProtocolsNfsServiceResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_nfs_service_resource netapp-ontap_protocols_nfs_service_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_nfs_service_resource netapp-ontap_protocols_nfs_service_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1407,8 +1407,8 @@ export class ProtocolsNfsServiceResource extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_protocols_nfs_service_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

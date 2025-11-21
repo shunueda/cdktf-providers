@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface DatasciencePrivateEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#compartment_id DatasciencePrivateEndpoint#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#compartment_id DatasciencePrivateEndpoint#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#data_science_resource_type DatasciencePrivateEndpoint#data_science_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#data_science_resource_type DatasciencePrivateEndpoint#data_science_resource_type}
   */
   readonly dataScienceResourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#defined_tags DatasciencePrivateEndpoint#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#defined_tags DatasciencePrivateEndpoint#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#description DatasciencePrivateEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#description DatasciencePrivateEndpoint#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#display_name DatasciencePrivateEndpoint#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#display_name DatasciencePrivateEndpoint#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#freeform_tags DatasciencePrivateEndpoint#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#freeform_tags DatasciencePrivateEndpoint#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#id DatasciencePrivateEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#id DatasciencePrivateEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#nsg_ids DatasciencePrivateEndpoint#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#nsg_ids DatasciencePrivateEndpoint#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#sub_domain DatasciencePrivateEndpoint#sub_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#sub_domain DatasciencePrivateEndpoint#sub_domain}
   */
   readonly subDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#subnet_id DatasciencePrivateEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#subnet_id DatasciencePrivateEndpoint#subnet_id}
   */
   readonly subnetId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#timeouts DatasciencePrivateEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#timeouts DatasciencePrivateEndpoint#timeouts}
   */
   readonly timeouts?: DatasciencePrivateEndpointTimeouts;
 }
 export interface DatasciencePrivateEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#create DatasciencePrivateEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#create DatasciencePrivateEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#delete DatasciencePrivateEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#delete DatasciencePrivateEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#update DatasciencePrivateEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#update DatasciencePrivateEndpoint#update}
   */
   readonly update?: string;
 }
@@ -219,7 +219,7 @@ export class DatasciencePrivateEndpointTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint oci_datascience_private_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint oci_datascience_private_endpoint}
 */
 export class DatasciencePrivateEndpoint extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class DatasciencePrivateEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatasciencePrivateEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasciencePrivateEndpoint to import
-  * @param importFromId The id of the existing DatasciencePrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasciencePrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasciencePrivateEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class DatasciencePrivateEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_private_endpoint oci_datascience_private_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_private_endpoint oci_datascience_private_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class DatasciencePrivateEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'oci_datascience_private_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

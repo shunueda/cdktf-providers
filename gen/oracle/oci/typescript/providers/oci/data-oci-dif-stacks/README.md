@@ -1,3 +1,3 @@
 # `data_oci_dif_stacks`
 
-Refer to the Terraform Registry for docs: [`data_oci_dif_stacks`](https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dif_stacks).
+Refer to the Terraform Registry for docs: [`data_oci_dif_stacks`](https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dif_stacks).

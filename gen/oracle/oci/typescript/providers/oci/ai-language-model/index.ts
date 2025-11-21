@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface AiLanguageModelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#compartment_id AiLanguageModel#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#compartment_id AiLanguageModel#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#defined_tags AiLanguageModel#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#defined_tags AiLanguageModel#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#description AiLanguageModel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#description AiLanguageModel#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#display_name AiLanguageModel#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#display_name AiLanguageModel#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#freeform_tags AiLanguageModel#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#freeform_tags AiLanguageModel#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#id AiLanguageModel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#id AiLanguageModel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#project_id AiLanguageModel#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#project_id AiLanguageModel#project_id}
   */
   readonly projectId: string;
   /**
   * model_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#model_details AiLanguageModel#model_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#model_details AiLanguageModel#model_details}
   */
   readonly modelDetails: AiLanguageModelModelDetails;
   /**
   * test_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#test_strategy AiLanguageModel#test_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#test_strategy AiLanguageModel#test_strategy}
   */
   readonly testStrategy?: AiLanguageModelTestStrategy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#timeouts AiLanguageModel#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#timeouts AiLanguageModel#timeouts}
   */
   readonly timeouts?: AiLanguageModelTimeouts;
   /**
   * training_dataset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#training_dataset AiLanguageModel#training_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#training_dataset AiLanguageModel#training_dataset}
   */
   readonly trainingDataset: AiLanguageModelTrainingDataset;
 }
@@ -473,11 +473,11 @@ export class AiLanguageModelEvaluationResultsList extends cdktf.ComplexList {
 }
 export interface AiLanguageModelModelDetailsClassificationMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#classification_mode AiLanguageModel#classification_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#classification_mode AiLanguageModel#classification_mode}
   */
   readonly classificationMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#version AiLanguageModel#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#version AiLanguageModel#version}
   */
   readonly version?: string;
 }
@@ -587,21 +587,21 @@ export class AiLanguageModelModelDetailsClassificationModeOutputReference extend
 }
 export interface AiLanguageModelModelDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#language_code AiLanguageModel#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#language_code AiLanguageModel#language_code}
   */
   readonly languageCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#model_type AiLanguageModel#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#model_type AiLanguageModel#model_type}
   */
   readonly modelType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#version AiLanguageModel#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#version AiLanguageModel#version}
   */
   readonly version?: string;
   /**
   * classification_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#classification_mode AiLanguageModel#classification_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#classification_mode AiLanguageModel#classification_mode}
   */
   readonly classificationMode?: AiLanguageModelModelDetailsClassificationMode;
 }
@@ -769,19 +769,19 @@ export class AiLanguageModelModelDetailsOutputReference extends cdktf.ComplexObj
 }
 export interface AiLanguageModelTestStrategyTestingDatasetLocationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#bucket AiLanguageModel#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#bucket AiLanguageModel#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#location_type AiLanguageModel#location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#location_type AiLanguageModel#location_type}
   */
   readonly locationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#namespace AiLanguageModel#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#namespace AiLanguageModel#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#object_names AiLanguageModel#object_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#object_names AiLanguageModel#object_names}
   */
   readonly objectNames: string[];
 }
@@ -940,17 +940,17 @@ export class AiLanguageModelTestStrategyTestingDatasetLocationDetailsOutputRefer
 }
 export interface AiLanguageModelTestStrategyTestingDataset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#dataset_id AiLanguageModel#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#dataset_id AiLanguageModel#dataset_id}
   */
   readonly datasetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#dataset_type AiLanguageModel#dataset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#dataset_type AiLanguageModel#dataset_type}
   */
   readonly datasetType: string;
   /**
   * location_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#location_details AiLanguageModel#location_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#location_details AiLanguageModel#location_details}
   */
   readonly locationDetails?: AiLanguageModelTestStrategyTestingDatasetLocationDetails;
 }
@@ -1089,19 +1089,19 @@ export class AiLanguageModelTestStrategyTestingDatasetOutputReference extends cd
 }
 export interface AiLanguageModelTestStrategyValidationDatasetLocationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#bucket AiLanguageModel#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#bucket AiLanguageModel#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#location_type AiLanguageModel#location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#location_type AiLanguageModel#location_type}
   */
   readonly locationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#namespace AiLanguageModel#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#namespace AiLanguageModel#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#object_names AiLanguageModel#object_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#object_names AiLanguageModel#object_names}
   */
   readonly objectNames: string[];
 }
@@ -1260,17 +1260,17 @@ export class AiLanguageModelTestStrategyValidationDatasetLocationDetailsOutputRe
 }
 export interface AiLanguageModelTestStrategyValidationDataset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#dataset_id AiLanguageModel#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#dataset_id AiLanguageModel#dataset_id}
   */
   readonly datasetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#dataset_type AiLanguageModel#dataset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#dataset_type AiLanguageModel#dataset_type}
   */
   readonly datasetType: string;
   /**
   * location_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#location_details AiLanguageModel#location_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#location_details AiLanguageModel#location_details}
   */
   readonly locationDetails?: AiLanguageModelTestStrategyValidationDatasetLocationDetails;
 }
@@ -1409,19 +1409,19 @@ export class AiLanguageModelTestStrategyValidationDatasetOutputReference extends
 }
 export interface AiLanguageModelTestStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#strategy_type AiLanguageModel#strategy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#strategy_type AiLanguageModel#strategy_type}
   */
   readonly strategyType: string;
   /**
   * testing_dataset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#testing_dataset AiLanguageModel#testing_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#testing_dataset AiLanguageModel#testing_dataset}
   */
   readonly testingDataset: AiLanguageModelTestStrategyTestingDataset;
   /**
   * validation_dataset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#validation_dataset AiLanguageModel#validation_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#validation_dataset AiLanguageModel#validation_dataset}
   */
   readonly validationDataset?: AiLanguageModelTestStrategyValidationDataset;
 }
@@ -1557,15 +1557,15 @@ export class AiLanguageModelTestStrategyOutputReference extends cdktf.ComplexObj
 }
 export interface AiLanguageModelTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#create AiLanguageModel#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#create AiLanguageModel#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#delete AiLanguageModel#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#delete AiLanguageModel#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#update AiLanguageModel#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#update AiLanguageModel#update}
   */
   readonly update?: string;
 }
@@ -1717,19 +1717,19 @@ export class AiLanguageModelTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 export interface AiLanguageModelTrainingDatasetLocationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#bucket AiLanguageModel#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#bucket AiLanguageModel#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#location_type AiLanguageModel#location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#location_type AiLanguageModel#location_type}
   */
   readonly locationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#namespace AiLanguageModel#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#namespace AiLanguageModel#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#object_names AiLanguageModel#object_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#object_names AiLanguageModel#object_names}
   */
   readonly objectNames: string[];
 }
@@ -1888,17 +1888,17 @@ export class AiLanguageModelTrainingDatasetLocationDetailsOutputReference extend
 }
 export interface AiLanguageModelTrainingDataset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#dataset_id AiLanguageModel#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#dataset_id AiLanguageModel#dataset_id}
   */
   readonly datasetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#dataset_type AiLanguageModel#dataset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#dataset_type AiLanguageModel#dataset_type}
   */
   readonly datasetType: string;
   /**
   * location_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#location_details AiLanguageModel#location_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#location_details AiLanguageModel#location_details}
   */
   readonly locationDetails?: AiLanguageModelTrainingDatasetLocationDetails;
 }
@@ -2037,7 +2037,7 @@ export class AiLanguageModelTrainingDatasetOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model oci_ai_language_model}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model oci_ai_language_model}
 */
 export class AiLanguageModel extends cdktf.TerraformResource {
 
@@ -2053,7 +2053,7 @@ export class AiLanguageModel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AiLanguageModel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AiLanguageModel to import
-  * @param importFromId The id of the existing AiLanguageModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AiLanguageModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AiLanguageModel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2065,7 +2065,7 @@ export class AiLanguageModel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_model oci_ai_language_model} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_model oci_ai_language_model} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2076,8 +2076,8 @@ export class AiLanguageModel extends cdktf.TerraformResource {
       terraformResourceType: 'oci_ai_language_model',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

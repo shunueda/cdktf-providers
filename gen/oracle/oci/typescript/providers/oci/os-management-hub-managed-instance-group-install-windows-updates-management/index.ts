@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#id OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#id OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#managed_instance_group_id OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#managed_instance_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#managed_instance_group_id OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#managed_instance_group_id}
   */
   readonly managedInstanceGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#windows_update_types OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#windows_update_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#windows_update_types OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#windows_update_types}
   */
   readonly windowsUpdateTypes: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#timeouts OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#timeouts OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#timeouts}
   */
   readonly timeouts?: OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagementTimeouts;
   /**
   * work_request_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#work_request_details OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#work_request_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#work_request_details OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#work_request_details}
   */
   readonly workRequestDetails?: OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagementWorkRequestDetails;
 }
 export interface OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#create OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#create OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#delete OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#delete OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#update OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#update OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#update}
   */
   readonly update?: string;
 }
@@ -197,11 +197,11 @@ export class OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagementT
 }
 export interface OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagementWorkRequestDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#description OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#description OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#display_name OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#display_name OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#display_name}
   */
   readonly displayName?: string;
 }
@@ -314,7 +314,7 @@ export class OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagementW
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management oci_os_management_hub_managed_instance_group_install_windows_updates_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management oci_os_management_hub_managed_instance_group_install_windows_updates_management}
 */
 export class OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement extends cdktf.TerraformResource {
 
@@ -330,7 +330,7 @@ export class OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement 
   * Generates CDKTF code for importing a OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement to import
-  * @param importFromId The id of the existing OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +342,7 @@ export class OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management oci_os_management_hub_managed_instance_group_install_windows_updates_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management oci_os_management_hub_managed_instance_group_install_windows_updates_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,8 +353,8 @@ export class OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement 
       terraformResourceType: 'oci_os_management_hub_managed_instance_group_install_windows_updates_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

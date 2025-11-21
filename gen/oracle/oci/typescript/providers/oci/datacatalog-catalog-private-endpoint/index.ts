@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DatacatalogCatalogPrivateEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint#compartment_id DatacatalogCatalogPrivateEndpoint#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint#compartment_id DatacatalogCatalogPrivateEndpoint#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint#defined_tags DatacatalogCatalogPrivateEndpoint#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint#defined_tags DatacatalogCatalogPrivateEndpoint#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint#display_name DatacatalogCatalogPrivateEndpoint#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint#display_name DatacatalogCatalogPrivateEndpoint#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint#dns_zones DatacatalogCatalogPrivateEndpoint#dns_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint#dns_zones DatacatalogCatalogPrivateEndpoint#dns_zones}
   */
   readonly dnsZones: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint#freeform_tags DatacatalogCatalogPrivateEndpoint#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint#freeform_tags DatacatalogCatalogPrivateEndpoint#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint#id DatacatalogCatalogPrivateEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint#id DatacatalogCatalogPrivateEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint#subnet_id DatacatalogCatalogPrivateEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint#security_attributes DatacatalogCatalogPrivateEndpoint#security_attributes}
+  */
+  readonly securityAttributes?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint#subnet_id DatacatalogCatalogPrivateEndpoint#subnet_id}
   */
   readonly subnetId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint#timeouts DatacatalogCatalogPrivateEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint#timeouts DatacatalogCatalogPrivateEndpoint#timeouts}
   */
   readonly timeouts?: DatacatalogCatalogPrivateEndpointTimeouts;
 }
@@ -137,15 +141,15 @@ export class DatacatalogCatalogPrivateEndpointLocksList extends cdktf.ComplexLis
 }
 export interface DatacatalogCatalogPrivateEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint#create DatacatalogCatalogPrivateEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint#create DatacatalogCatalogPrivateEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint#delete DatacatalogCatalogPrivateEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint#delete DatacatalogCatalogPrivateEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint#update DatacatalogCatalogPrivateEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint#update DatacatalogCatalogPrivateEndpoint#update}
   */
   readonly update?: string;
 }
@@ -297,7 +301,7 @@ export class DatacatalogCatalogPrivateEndpointTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint oci_datacatalog_catalog_private_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint oci_datacatalog_catalog_private_endpoint}
 */
 export class DatacatalogCatalogPrivateEndpoint extends cdktf.TerraformResource {
 
@@ -313,7 +317,7 @@ export class DatacatalogCatalogPrivateEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacatalogCatalogPrivateEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacatalogCatalogPrivateEndpoint to import
-  * @param importFromId The id of the existing DatacatalogCatalogPrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacatalogCatalogPrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacatalogCatalogPrivateEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -325,7 +329,7 @@ export class DatacatalogCatalogPrivateEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog_private_endpoint oci_datacatalog_catalog_private_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog_private_endpoint oci_datacatalog_catalog_private_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -336,8 +340,8 @@ export class DatacatalogCatalogPrivateEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'oci_datacatalog_catalog_private_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -353,6 +357,7 @@ export class DatacatalogCatalogPrivateEndpoint extends cdktf.TerraformResource {
     this._dnsZones = config.dnsZones;
     this._freeformTags = config.freeformTags;
     this._id = config.id;
+    this._securityAttributes = config.securityAttributes;
     this._subnetId = config.subnetId;
     this._timeouts.internalValue = config.timeouts;
   }
@@ -467,6 +472,22 @@ export class DatacatalogCatalogPrivateEndpoint extends cdktf.TerraformResource {
     return this._locks;
   }
 
+  // security_attributes - computed: true, optional: true, required: false
+  private _securityAttributes?: { [key: string]: string }; 
+  public get securityAttributes() {
+    return this.getStringMapAttribute('security_attributes');
+  }
+  public set securityAttributes(value: { [key: string]: string }) {
+    this._securityAttributes = value;
+  }
+  public resetSecurityAttributes() {
+    this._securityAttributes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get securityAttributesInput() {
+    return this._securityAttributes;
+  }
+
   // state - computed: true, optional: false, required: false
   public get state() {
     return this.getStringAttribute('state');
@@ -529,6 +550,7 @@ export class DatacatalogCatalogPrivateEndpoint extends cdktf.TerraformResource {
       dns_zones: cdktf.listMapper(cdktf.stringToTerraform, false)(this._dnsZones),
       freeform_tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._freeformTags),
       id: cdktf.stringToTerraform(this._id),
+      security_attributes: cdktf.hashMapper(cdktf.stringToTerraform)(this._securityAttributes),
       subnet_id: cdktf.stringToTerraform(this._subnetId),
       timeouts: datacatalogCatalogPrivateEndpointTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -571,6 +593,12 @@ export class DatacatalogCatalogPrivateEndpoint extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      security_attributes: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._securityAttributes),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
       },
       subnet_id: {
         value: cdktf.stringToHclTerraform(this._subnetId),

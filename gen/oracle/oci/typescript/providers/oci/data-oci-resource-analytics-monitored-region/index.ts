@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_monitored_region
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/resource_analytics_monitored_region
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciResourceAnalyticsMonitoredRegionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_monitored_region#monitored_region_id DataOciResourceAnalyticsMonitoredRegion#monitored_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/resource_analytics_monitored_region#monitored_region_id DataOciResourceAnalyticsMonitoredRegion#monitored_region_id}
   */
   readonly monitoredRegionId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_monitored_region oci_resource_analytics_monitored_region}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/resource_analytics_monitored_region oci_resource_analytics_monitored_region}
 */
 export class DataOciResourceAnalyticsMonitoredRegion extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciResourceAnalyticsMonitoredRegion extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataOciResourceAnalyticsMonitoredRegion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciResourceAnalyticsMonitoredRegion to import
-  * @param importFromId The id of the existing DataOciResourceAnalyticsMonitoredRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_monitored_region#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciResourceAnalyticsMonitoredRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/resource_analytics_monitored_region#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciResourceAnalyticsMonitoredRegion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciResourceAnalyticsMonitoredRegion extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_monitored_region oci_resource_analytics_monitored_region} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/resource_analytics_monitored_region oci_resource_analytics_monitored_region} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciResourceAnalyticsMonitoredRegion extends cdktf.TerraformData
       terraformResourceType: 'oci_resource_analytics_monitored_region',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

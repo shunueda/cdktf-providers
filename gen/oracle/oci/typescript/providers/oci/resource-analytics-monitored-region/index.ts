@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_monitored_region
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_monitored_region
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceAnalyticsMonitoredRegionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_monitored_region#id ResourceAnalyticsMonitoredRegion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_monitored_region#id ResourceAnalyticsMonitoredRegion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_monitored_region#region_id ResourceAnalyticsMonitoredRegion#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_monitored_region#region_id ResourceAnalyticsMonitoredRegion#region_id}
   */
   readonly regionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_monitored_region#resource_analytics_instance_id ResourceAnalyticsMonitoredRegion#resource_analytics_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_monitored_region#resource_analytics_instance_id ResourceAnalyticsMonitoredRegion#resource_analytics_instance_id}
   */
   readonly resourceAnalyticsInstanceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_monitored_region#timeouts ResourceAnalyticsMonitoredRegion#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_monitored_region#timeouts ResourceAnalyticsMonitoredRegion#timeouts}
   */
   readonly timeouts?: ResourceAnalyticsMonitoredRegionTimeouts;
 }
 export interface ResourceAnalyticsMonitoredRegionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_monitored_region#create ResourceAnalyticsMonitoredRegion#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_monitored_region#create ResourceAnalyticsMonitoredRegion#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_monitored_region#delete ResourceAnalyticsMonitoredRegion#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_monitored_region#delete ResourceAnalyticsMonitoredRegion#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_monitored_region#read ResourceAnalyticsMonitoredRegion#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_monitored_region#read ResourceAnalyticsMonitoredRegion#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_monitored_region#update ResourceAnalyticsMonitoredRegion#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_monitored_region#update ResourceAnalyticsMonitoredRegion#update}
   */
   readonly update?: string;
 }
@@ -224,7 +224,7 @@ export class ResourceAnalyticsMonitoredRegionTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_monitored_region oci_resource_analytics_monitored_region}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_monitored_region oci_resource_analytics_monitored_region}
 */
 export class ResourceAnalyticsMonitoredRegion extends cdktf.TerraformResource {
 
@@ -240,7 +240,7 @@ export class ResourceAnalyticsMonitoredRegion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceAnalyticsMonitoredRegion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceAnalyticsMonitoredRegion to import
-  * @param importFromId The id of the existing ResourceAnalyticsMonitoredRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_monitored_region#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceAnalyticsMonitoredRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_monitored_region#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceAnalyticsMonitoredRegion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -252,7 +252,7 @@ export class ResourceAnalyticsMonitoredRegion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_monitored_region oci_resource_analytics_monitored_region} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_monitored_region oci_resource_analytics_monitored_region} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -263,8 +263,8 @@ export class ResourceAnalyticsMonitoredRegion extends cdktf.TerraformResource {
       terraformResourceType: 'oci_resource_analytics_monitored_region',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

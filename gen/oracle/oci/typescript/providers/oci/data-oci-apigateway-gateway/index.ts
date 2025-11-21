@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_gateway
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apigateway_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciApigatewayGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_gateway#gateway_id DataOciApigatewayGateway#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apigateway_gateway#gateway_id DataOciApigatewayGateway#gateway_id}
   */
   readonly gatewayId: string;
 }
@@ -170,6 +170,161 @@ export class DataOciApigatewayGatewayIpAddressesList extends cdktf.ComplexList {
   */
   public get(index: number): DataOciApigatewayGatewayIpAddressesOutputReference {
     return new DataOciApigatewayGatewayIpAddressesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciApigatewayGatewayIpv4AddressConfiguration {
+}
+
+export function dataOciApigatewayGatewayIpv4AddressConfigurationToTerraform(struct?: DataOciApigatewayGatewayIpv4AddressConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciApigatewayGatewayIpv4AddressConfigurationToHclTerraform(struct?: DataOciApigatewayGatewayIpv4AddressConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciApigatewayGatewayIpv4AddressConfigurationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciApigatewayGatewayIpv4AddressConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciApigatewayGatewayIpv4AddressConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // reserved_ip_ids - computed: true, optional: false, required: false
+  public get reservedIpIds() {
+    return this.getListAttribute('reserved_ip_ids');
+  }
+}
+
+export class DataOciApigatewayGatewayIpv4AddressConfigurationList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciApigatewayGatewayIpv4AddressConfigurationOutputReference {
+    return new DataOciApigatewayGatewayIpv4AddressConfigurationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciApigatewayGatewayIpv6AddressConfiguration {
+}
+
+export function dataOciApigatewayGatewayIpv6AddressConfigurationToTerraform(struct?: DataOciApigatewayGatewayIpv6AddressConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciApigatewayGatewayIpv6AddressConfigurationToHclTerraform(struct?: DataOciApigatewayGatewayIpv6AddressConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciApigatewayGatewayIpv6AddressConfigurationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciApigatewayGatewayIpv6AddressConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciApigatewayGatewayIpv6AddressConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // addresses - computed: true, optional: false, required: false
+  public get addresses() {
+    return this.getListAttribute('addresses');
+  }
+
+  // subnet_cidrs - computed: true, optional: false, required: false
+  public get subnetCidrs() {
+    return this.getListAttribute('subnet_cidrs');
+  }
+}
+
+export class DataOciApigatewayGatewayIpv6AddressConfigurationList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciApigatewayGatewayIpv6AddressConfigurationOutputReference {
+    return new DataOciApigatewayGatewayIpv6AddressConfigurationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataOciApigatewayGatewayLocks {
@@ -460,7 +615,7 @@ export class DataOciApigatewayGatewayResponseCacheDetailsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_gateway oci_apigateway_gateway}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apigateway_gateway oci_apigateway_gateway}
 */
 export class DataOciApigatewayGateway extends cdktf.TerraformDataSource {
 
@@ -476,7 +631,7 @@ export class DataOciApigatewayGateway extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciApigatewayGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciApigatewayGateway to import
-  * @param importFromId The id of the existing DataOciApigatewayGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciApigatewayGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apigateway_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciApigatewayGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -488,7 +643,7 @@ export class DataOciApigatewayGateway extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_gateway oci_apigateway_gateway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apigateway_gateway oci_apigateway_gateway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -499,8 +654,8 @@ export class DataOciApigatewayGateway extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_apigateway_gateway',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -582,6 +737,23 @@ export class DataOciApigatewayGateway extends cdktf.TerraformDataSource {
   private _ipAddresses = new DataOciApigatewayGatewayIpAddressesList(this, "ip_addresses", false);
   public get ipAddresses() {
     return this._ipAddresses;
+  }
+
+  // ip_mode - computed: true, optional: false, required: false
+  public get ipMode() {
+    return this.getStringAttribute('ip_mode');
+  }
+
+  // ipv4address_configuration - computed: true, optional: false, required: false
+  private _ipv4AddressConfiguration = new DataOciApigatewayGatewayIpv4AddressConfigurationList(this, "ipv4address_configuration", false);
+  public get ipv4AddressConfiguration() {
+    return this._ipv4AddressConfiguration;
+  }
+
+  // ipv6address_configuration - computed: true, optional: false, required: false
+  private _ipv6AddressConfiguration = new DataOciApigatewayGatewayIpv6AddressConfigurationList(this, "ipv6address_configuration", false);
+  public get ipv6AddressConfiguration() {
+    return this._ipv6AddressConfiguration;
   }
 
   // is_lock_override - computed: true, optional: false, required: false

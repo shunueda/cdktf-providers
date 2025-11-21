@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/taurusdb_mysql_backup_v3
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/taurusdb_mysql_backup_v3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface TaurusdbMysqlBackupV3Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/taurusdb_mysql_backup_v3#description TaurusdbMysqlBackupV3#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/taurusdb_mysql_backup_v3#description TaurusdbMysqlBackupV3#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/taurusdb_mysql_backup_v3#id TaurusdbMysqlBackupV3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/taurusdb_mysql_backup_v3#id TaurusdbMysqlBackupV3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/taurusdb_mysql_backup_v3#instance_id TaurusdbMysqlBackupV3#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/taurusdb_mysql_backup_v3#instance_id TaurusdbMysqlBackupV3#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/taurusdb_mysql_backup_v3#name TaurusdbMysqlBackupV3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/taurusdb_mysql_backup_v3#name TaurusdbMysqlBackupV3#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/taurusdb_mysql_backup_v3#timeouts TaurusdbMysqlBackupV3#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/taurusdb_mysql_backup_v3#timeouts TaurusdbMysqlBackupV3#timeouts}
   */
   readonly timeouts?: TaurusdbMysqlBackupV3Timeouts;
 }
@@ -115,7 +115,7 @@ export class TaurusdbMysqlBackupV3DatastoreList extends cdktf.ComplexList {
 }
 export interface TaurusdbMysqlBackupV3Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/taurusdb_mysql_backup_v3#create TaurusdbMysqlBackupV3#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/taurusdb_mysql_backup_v3#create TaurusdbMysqlBackupV3#create}
   */
   readonly create?: string;
 }
@@ -209,7 +209,7 @@ export class TaurusdbMysqlBackupV3TimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/taurusdb_mysql_backup_v3 opentelekomcloud_taurusdb_mysql_backup_v3}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/taurusdb_mysql_backup_v3 opentelekomcloud_taurusdb_mysql_backup_v3}
 */
 export class TaurusdbMysqlBackupV3 extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class TaurusdbMysqlBackupV3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TaurusdbMysqlBackupV3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaurusdbMysqlBackupV3 to import
-  * @param importFromId The id of the existing TaurusdbMysqlBackupV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/taurusdb_mysql_backup_v3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaurusdbMysqlBackupV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/taurusdb_mysql_backup_v3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaurusdbMysqlBackupV3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class TaurusdbMysqlBackupV3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/taurusdb_mysql_backup_v3 opentelekomcloud_taurusdb_mysql_backup_v3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/taurusdb_mysql_backup_v3 opentelekomcloud_taurusdb_mysql_backup_v3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class TaurusdbMysqlBackupV3 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_taurusdb_mysql_backup_v3',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52',
-        providerVersionConstraint: '1.36.52'
+        providerVersion: '1.36.53',
+        providerVersionConstraint: '1.36.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

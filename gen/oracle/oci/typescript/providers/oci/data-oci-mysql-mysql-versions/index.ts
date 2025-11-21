@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_versions
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_mysql_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMysqlMysqlVersionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_versions#compartment_id DataOciMysqlMysqlVersions#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_mysql_versions#compartment_id DataOciMysqlMysqlVersions#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_versions#id DataOciMysqlMysqlVersions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_mysql_versions#id DataOciMysqlMysqlVersions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataOciMysqlMysqlVersionsConfig extends cdktf.TerraformMetaArgu
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_versions#filter DataOciMysqlMysqlVersions#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_mysql_versions#filter DataOciMysqlMysqlVersions#filter}
   */
   readonly filter?: DataOciMysqlMysqlVersionsFilter[] | cdktf.IResolvable;
 }
@@ -188,15 +188,15 @@ export class DataOciMysqlMysqlVersionsVersionsList extends cdktf.ComplexList {
 }
 export interface DataOciMysqlMysqlVersionsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_versions#name DataOciMysqlMysqlVersions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_mysql_versions#name DataOciMysqlMysqlVersions#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_versions#regex DataOciMysqlMysqlVersions#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_mysql_versions#regex DataOciMysqlMysqlVersions#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_versions#values DataOciMysqlMysqlVersions#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_mysql_versions#values DataOciMysqlMysqlVersions#values}
   */
   readonly values: string[];
 }
@@ -364,7 +364,7 @@ export class DataOciMysqlMysqlVersionsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_versions oci_mysql_mysql_versions}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_mysql_versions oci_mysql_mysql_versions}
 */
 export class DataOciMysqlMysqlVersions extends cdktf.TerraformDataSource {
 
@@ -380,7 +380,7 @@ export class DataOciMysqlMysqlVersions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciMysqlMysqlVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMysqlMysqlVersions to import
-  * @param importFromId The id of the existing DataOciMysqlMysqlVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMysqlMysqlVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_mysql_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMysqlMysqlVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -392,7 +392,7 @@ export class DataOciMysqlMysqlVersions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_versions oci_mysql_mysql_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_mysql_versions oci_mysql_mysql_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -403,8 +403,8 @@ export class DataOciMysqlMysqlVersions extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_mysql_mysql_versions',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

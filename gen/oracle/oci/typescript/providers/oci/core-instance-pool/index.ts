@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface CoreInstancePoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#compartment_id CoreInstancePool#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#compartment_id CoreInstancePool#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#defined_tags CoreInstancePool#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#defined_tags CoreInstancePool#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#display_name CoreInstancePool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#display_name CoreInstancePool#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#freeform_tags CoreInstancePool#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#freeform_tags CoreInstancePool#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#id CoreInstancePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#id CoreInstancePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#instance_configuration_id CoreInstancePool#instance_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#instance_configuration_id CoreInstancePool#instance_configuration_id}
   */
   readonly instanceConfigurationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#instance_display_name_formatter CoreInstancePool#instance_display_name_formatter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#instance_display_name_formatter CoreInstancePool#instance_display_name_formatter}
   */
   readonly instanceDisplayNameFormatter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#instance_hostname_formatter CoreInstancePool#instance_hostname_formatter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#instance_hostname_formatter CoreInstancePool#instance_hostname_formatter}
   */
   readonly instanceHostnameFormatter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#size CoreInstancePool#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#size CoreInstancePool#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#state CoreInstancePool#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#state CoreInstancePool#state}
   */
   readonly state?: string;
   /**
   * lifecycle_management block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#lifecycle_management CoreInstancePool#lifecycle_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#lifecycle_management CoreInstancePool#lifecycle_management}
   */
   readonly lifecycleManagement?: CoreInstancePoolLifecycleManagement;
   /**
   * load_balancers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#load_balancers CoreInstancePool#load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#load_balancers CoreInstancePool#load_balancers}
   */
   readonly loadBalancers?: CoreInstancePoolLoadBalancers[] | cdktf.IResolvable;
   /**
   * placement_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#placement_configurations CoreInstancePool#placement_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#placement_configurations CoreInstancePool#placement_configurations}
   */
   readonly placementConfigurations: CoreInstancePoolPlacementConfigurations[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#timeouts CoreInstancePool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#timeouts CoreInstancePool#timeouts}
   */
   readonly timeouts?: CoreInstancePoolTimeouts;
 }
 export interface CoreInstancePoolLifecycleManagementLifecycleActionsPreTerminationOnTimeout {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#preserve_block_volume_mode CoreInstancePool#preserve_block_volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#preserve_block_volume_mode CoreInstancePool#preserve_block_volume_mode}
   */
   readonly preserveBlockVolumeMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#preserve_boot_volume_mode CoreInstancePool#preserve_boot_volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#preserve_boot_volume_mode CoreInstancePool#preserve_boot_volume_mode}
   */
   readonly preserveBootVolumeMode: string;
 }
@@ -188,17 +188,17 @@ export class CoreInstancePoolLifecycleManagementLifecycleActionsPreTerminationOn
 }
 export interface CoreInstancePoolLifecycleManagementLifecycleActionsPreTermination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#is_enabled CoreInstancePool#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#is_enabled CoreInstancePool#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#timeout CoreInstancePool#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#timeout CoreInstancePool#timeout}
   */
   readonly timeout: number;
   /**
   * on_timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#on_timeout CoreInstancePool#on_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#on_timeout CoreInstancePool#on_timeout}
   */
   readonly onTimeout: CoreInstancePoolLifecycleManagementLifecycleActionsPreTerminationOnTimeout;
 }
@@ -333,7 +333,7 @@ export interface CoreInstancePoolLifecycleManagementLifecycleActions {
   /**
   * pre_termination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#pre_termination CoreInstancePool#pre_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#pre_termination CoreInstancePool#pre_termination}
   */
   readonly preTermination?: CoreInstancePoolLifecycleManagementLifecycleActionsPreTermination;
 }
@@ -419,7 +419,7 @@ export interface CoreInstancePoolLifecycleManagement {
   /**
   * lifecycle_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#lifecycle_actions CoreInstancePool#lifecycle_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#lifecycle_actions CoreInstancePool#lifecycle_actions}
   */
   readonly lifecycleActions: CoreInstancePoolLifecycleManagementLifecycleActions;
 }
@@ -500,19 +500,19 @@ export class CoreInstancePoolLifecycleManagementOutputReference extends cdktf.Co
 }
 export interface CoreInstancePoolLoadBalancers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#backend_set_name CoreInstancePool#backend_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#backend_set_name CoreInstancePool#backend_set_name}
   */
   readonly backendSetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#load_balancer_id CoreInstancePool#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#load_balancer_id CoreInstancePool#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#port CoreInstancePool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#port CoreInstancePool#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#vnic_selection CoreInstancePool#vnic_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#vnic_selection CoreInstancePool#vnic_selection}
   */
   readonly vnicSelection: string;
 }
@@ -718,7 +718,7 @@ export class CoreInstancePoolLoadBalancersList extends cdktf.ComplexList {
 }
 export interface CoreInstancePoolPlacementConfigurationsPrimaryVnicSubnetsIpv6AddressIpv6SubnetCidrPairDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#ipv6subnet_cidr CoreInstancePool#ipv6subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#ipv6subnet_cidr CoreInstancePool#ipv6subnet_cidr}
   */
   readonly ipv6SubnetCidr?: string;
 }
@@ -834,17 +834,17 @@ export class CoreInstancePoolPlacementConfigurationsPrimaryVnicSubnetsIpv6Addres
 }
 export interface CoreInstancePoolPlacementConfigurationsPrimaryVnicSubnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#is_assign_ipv6ip CoreInstancePool#is_assign_ipv6ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#is_assign_ipv6ip CoreInstancePool#is_assign_ipv6ip}
   */
   readonly isAssignIpv6Ip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#subnet_id CoreInstancePool#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#subnet_id CoreInstancePool#subnet_id}
   */
   readonly subnetId: string;
   /**
   * ipv6address_ipv6subnet_cidr_pair_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#ipv6address_ipv6subnet_cidr_pair_details CoreInstancePool#ipv6address_ipv6subnet_cidr_pair_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#ipv6address_ipv6subnet_cidr_pair_details CoreInstancePool#ipv6address_ipv6subnet_cidr_pair_details}
   */
   readonly ipv6AddressIpv6SubnetCidrPairDetails?: CoreInstancePoolPlacementConfigurationsPrimaryVnicSubnetsIpv6AddressIpv6SubnetCidrPairDetails[] | cdktf.IResolvable;
 }
@@ -983,7 +983,7 @@ export class CoreInstancePoolPlacementConfigurationsPrimaryVnicSubnetsOutputRefe
 }
 export interface CoreInstancePoolPlacementConfigurationsSecondaryVnicSubnetsIpv6AddressIpv6SubnetCidrPairDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#ipv6subnet_cidr CoreInstancePool#ipv6subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#ipv6subnet_cidr CoreInstancePool#ipv6subnet_cidr}
   */
   readonly ipv6SubnetCidr?: string;
 }
@@ -1099,21 +1099,21 @@ export class CoreInstancePoolPlacementConfigurationsSecondaryVnicSubnetsIpv6Addr
 }
 export interface CoreInstancePoolPlacementConfigurationsSecondaryVnicSubnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#display_name CoreInstancePool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#display_name CoreInstancePool#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#is_assign_ipv6ip CoreInstancePool#is_assign_ipv6ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#is_assign_ipv6ip CoreInstancePool#is_assign_ipv6ip}
   */
   readonly isAssignIpv6Ip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#subnet_id CoreInstancePool#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#subnet_id CoreInstancePool#subnet_id}
   */
   readonly subnetId: string;
   /**
   * ipv6address_ipv6subnet_cidr_pair_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#ipv6address_ipv6subnet_cidr_pair_details CoreInstancePool#ipv6address_ipv6subnet_cidr_pair_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#ipv6address_ipv6subnet_cidr_pair_details CoreInstancePool#ipv6address_ipv6subnet_cidr_pair_details}
   */
   readonly ipv6AddressIpv6SubnetCidrPairDetails?: CoreInstancePoolPlacementConfigurationsSecondaryVnicSubnetsIpv6AddressIpv6SubnetCidrPairDetails[] | cdktf.IResolvable;
 }
@@ -1313,27 +1313,27 @@ export class CoreInstancePoolPlacementConfigurationsSecondaryVnicSubnetsList ext
 }
 export interface CoreInstancePoolPlacementConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#availability_domain CoreInstancePool#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#availability_domain CoreInstancePool#availability_domain}
   */
   readonly availabilityDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#fault_domains CoreInstancePool#fault_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#fault_domains CoreInstancePool#fault_domains}
   */
   readonly faultDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#primary_subnet_id CoreInstancePool#primary_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#primary_subnet_id CoreInstancePool#primary_subnet_id}
   */
   readonly primarySubnetId?: string;
   /**
   * primary_vnic_subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#primary_vnic_subnets CoreInstancePool#primary_vnic_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#primary_vnic_subnets CoreInstancePool#primary_vnic_subnets}
   */
   readonly primaryVnicSubnets?: CoreInstancePoolPlacementConfigurationsPrimaryVnicSubnets;
   /**
   * secondary_vnic_subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#secondary_vnic_subnets CoreInstancePool#secondary_vnic_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#secondary_vnic_subnets CoreInstancePool#secondary_vnic_subnets}
   */
   readonly secondaryVnicSubnets?: CoreInstancePoolPlacementConfigurationsSecondaryVnicSubnets[] | cdktf.IResolvable;
 }
@@ -1562,15 +1562,15 @@ export class CoreInstancePoolPlacementConfigurationsList extends cdktf.ComplexLi
 }
 export interface CoreInstancePoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#create CoreInstancePool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#create CoreInstancePool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#delete CoreInstancePool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#delete CoreInstancePool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#update CoreInstancePool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#update CoreInstancePool#update}
   */
   readonly update?: string;
 }
@@ -1722,7 +1722,7 @@ export class CoreInstancePoolTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool oci_core_instance_pool}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool oci_core_instance_pool}
 */
 export class CoreInstancePool extends cdktf.TerraformResource {
 
@@ -1738,7 +1738,7 @@ export class CoreInstancePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CoreInstancePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoreInstancePool to import
-  * @param importFromId The id of the existing CoreInstancePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoreInstancePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoreInstancePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1750,7 +1750,7 @@ export class CoreInstancePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_instance_pool oci_core_instance_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_instance_pool oci_core_instance_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1761,8 +1761,8 @@ export class CoreInstancePool extends cdktf.TerraformResource {
       terraformResourceType: 'oci_core_instance_pool',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

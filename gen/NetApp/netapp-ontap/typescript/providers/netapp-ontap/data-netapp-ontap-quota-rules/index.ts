@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapQuotaRulesConfig extends cdktf.TerraformMetaArgu
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#cx_profile_name DataNetappOntapQuotaRules#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#cx_profile_name DataNetappOntapQuotaRules#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#filter DataNetappOntapQuotaRules#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#filter DataNetappOntapQuotaRules#filter}
   */
   readonly filter?: DataNetappOntapQuotaRulesFilter;
 }
@@ -22,25 +22,25 @@ export interface DataNetappOntapQuotaRulesFilter {
   /**
   * StorageQuotaRule qtree name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#qtree_name DataNetappOntapQuotaRules#qtree_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#qtree_name DataNetappOntapQuotaRules#qtree_name}
   */
   readonly qtreeName?: string;
   /**
   * StorageQuotaRule svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#svm_name DataNetappOntapQuotaRules#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#svm_name DataNetappOntapQuotaRules#svm_name}
   */
   readonly svmName?: string;
   /**
   * StorageQuotaRule type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#type DataNetappOntapQuotaRules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#type DataNetappOntapQuotaRules#type}
   */
   readonly type?: string;
   /**
   * StorageQuotaRule volume name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#volume_name DataNetappOntapQuotaRules#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#volume_name DataNetappOntapQuotaRules#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -336,7 +336,7 @@ export interface DataNetappOntapQuotaRulesStorageQuotaRulesQtree {
   /**
   * name of the qtree
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#name DataNetappOntapQuotaRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#name DataNetappOntapQuotaRules#name}
   */
   readonly name?: string;
 }
@@ -432,7 +432,7 @@ export interface DataNetappOntapQuotaRulesStorageQuotaRulesSvm {
   /**
   * name of the SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#name DataNetappOntapQuotaRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#name DataNetappOntapQuotaRules#name}
   */
   readonly name: string;
 }
@@ -590,7 +590,7 @@ export interface DataNetappOntapQuotaRulesStorageQuotaRulesVolume {
   /**
   * name of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#name DataNetappOntapQuotaRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#name DataNetappOntapQuotaRules#name}
   */
   readonly name: string;
 }
@@ -673,31 +673,31 @@ export interface DataNetappOntapQuotaRulesStorageQuotaRules {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#cx_profile_name DataNetappOntapQuotaRules#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#cx_profile_name DataNetappOntapQuotaRules#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Qtree name for the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#qtree DataNetappOntapQuotaRules#qtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#qtree DataNetappOntapQuotaRules#qtree}
   */
   readonly qtree?: DataNetappOntapQuotaRulesStorageQuotaRulesQtree;
   /**
   * Existing SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#svm DataNetappOntapQuotaRules#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#svm DataNetappOntapQuotaRules#svm}
   */
   readonly svm: DataNetappOntapQuotaRulesStorageQuotaRulesSvm;
   /**
   * Quota type for the rule. This type can be user, group, or tree
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#type DataNetappOntapQuotaRules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#type DataNetappOntapQuotaRules#type}
   */
   readonly type?: string;
   /**
   * Existing volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#volume DataNetappOntapQuotaRules#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#volume DataNetappOntapQuotaRules#volume}
   */
   readonly volume: DataNetappOntapQuotaRulesStorageQuotaRulesVolume;
 }
@@ -938,7 +938,7 @@ export class DataNetappOntapQuotaRulesStorageQuotaRulesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules netapp-ontap_quota_rules}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules netapp-ontap_quota_rules}
 */
 export class DataNetappOntapQuotaRules extends cdktf.TerraformDataSource {
 
@@ -954,7 +954,7 @@ export class DataNetappOntapQuotaRules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapQuotaRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapQuotaRules to import
-  * @param importFromId The id of the existing DataNetappOntapQuotaRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapQuotaRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapQuotaRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -966,7 +966,7 @@ export class DataNetappOntapQuotaRules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/quota_rules netapp-ontap_quota_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/quota_rules netapp-ontap_quota_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -977,8 +977,8 @@ export class DataNetappOntapQuotaRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_quota_rules',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/virtual_service_edge_cluster
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/virtual_service_edge_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataZiaVirtualServiceEdgeClusterConfig extends cdktf.TerraformM
   /**
   * System-generated Virtual Service Edge cluster ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/virtual_service_edge_cluster#id DataZiaVirtualServiceEdgeCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/virtual_service_edge_cluster#id DataZiaVirtualServiceEdgeCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataZiaVirtualServiceEdgeClusterConfig extends cdktf.TerraformM
   /**
   * Name of the Virtual Service Edge cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/virtual_service_edge_cluster#name DataZiaVirtualServiceEdgeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/virtual_service_edge_cluster#name DataZiaVirtualServiceEdgeCluster#name}
   */
   readonly name?: string;
 }
@@ -116,7 +116,7 @@ export class DataZiaVirtualServiceEdgeClusterVirtualZenNodesList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/virtual_service_edge_cluster zia_virtual_service_edge_cluster}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/virtual_service_edge_cluster zia_virtual_service_edge_cluster}
 */
 export class DataZiaVirtualServiceEdgeCluster extends cdktf.TerraformDataSource {
 
@@ -132,7 +132,7 @@ export class DataZiaVirtualServiceEdgeCluster extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataZiaVirtualServiceEdgeCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaVirtualServiceEdgeCluster to import
-  * @param importFromId The id of the existing DataZiaVirtualServiceEdgeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/virtual_service_edge_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaVirtualServiceEdgeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/virtual_service_edge_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaVirtualServiceEdgeCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -144,7 +144,7 @@ export class DataZiaVirtualServiceEdgeCluster extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/virtual_service_edge_cluster zia_virtual_service_edge_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/virtual_service_edge_cluster zia_virtual_service_edge_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -155,8 +155,8 @@ export class DataZiaVirtualServiceEdgeCluster extends cdktf.TerraformDataSource 
       terraformResourceType: 'zia_virtual_service_edge_cluster',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

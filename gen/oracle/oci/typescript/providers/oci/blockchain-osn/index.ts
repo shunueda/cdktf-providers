@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/blockchain_osn
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/blockchain_osn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface BlockchainOsnConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/blockchain_osn#ad BlockchainOsn#ad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/blockchain_osn#ad BlockchainOsn#ad}
   */
   readonly ad: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/blockchain_osn#blockchain_platform_id BlockchainOsn#blockchain_platform_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/blockchain_osn#blockchain_platform_id BlockchainOsn#blockchain_platform_id}
   */
   readonly blockchainPlatformId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/blockchain_osn#id BlockchainOsn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/blockchain_osn#id BlockchainOsn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface BlockchainOsnConfig extends cdktf.TerraformMetaArguments {
   /**
   * ocpu_allocation_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/blockchain_osn#ocpu_allocation_param BlockchainOsn#ocpu_allocation_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/blockchain_osn#ocpu_allocation_param BlockchainOsn#ocpu_allocation_param}
   */
   readonly ocpuAllocationParam?: BlockchainOsnOcpuAllocationParam;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/blockchain_osn#timeouts BlockchainOsn#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/blockchain_osn#timeouts BlockchainOsn#timeouts}
   */
   readonly timeouts?: BlockchainOsnTimeouts;
 }
 export interface BlockchainOsnOcpuAllocationParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/blockchain_osn#ocpu_allocation_number BlockchainOsn#ocpu_allocation_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/blockchain_osn#ocpu_allocation_number BlockchainOsn#ocpu_allocation_number}
   */
   readonly ocpuAllocationNumber: number;
 }
@@ -118,15 +118,15 @@ export class BlockchainOsnOcpuAllocationParamOutputReference extends cdktf.Compl
 }
 export interface BlockchainOsnTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/blockchain_osn#create BlockchainOsn#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/blockchain_osn#create BlockchainOsn#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/blockchain_osn#delete BlockchainOsn#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/blockchain_osn#delete BlockchainOsn#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/blockchain_osn#update BlockchainOsn#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/blockchain_osn#update BlockchainOsn#update}
   */
   readonly update?: string;
 }
@@ -278,7 +278,7 @@ export class BlockchainOsnTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/blockchain_osn oci_blockchain_osn}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/blockchain_osn oci_blockchain_osn}
 */
 export class BlockchainOsn extends cdktf.TerraformResource {
 
@@ -294,7 +294,7 @@ export class BlockchainOsn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockchainOsn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockchainOsn to import
-  * @param importFromId The id of the existing BlockchainOsn that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/blockchain_osn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockchainOsn that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/blockchain_osn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockchainOsn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -306,7 +306,7 @@ export class BlockchainOsn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/blockchain_osn oci_blockchain_osn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/blockchain_osn oci_blockchain_osn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -317,8 +317,8 @@ export class BlockchainOsn extends cdktf.TerraformResource {
       terraformResourceType: 'oci_blockchain_osn',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

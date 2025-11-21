@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_mutual_authentication
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_mutual_authentication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TlsMutualAuthenticationConfig extends cdktf.TerraformMetaArgume
   /**
   * List of TLS Activation IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_mutual_authentication#activation_ids TlsMutualAuthentication#activation_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_mutual_authentication#activation_ids TlsMutualAuthentication#activation_ids}
   */
   readonly activationIds?: string[];
   /**
   * One or more certificates. Enter each individual certificate blob on a new line. Must be PEM-formatted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_mutual_authentication#cert_bundle TlsMutualAuthentication#cert_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_mutual_authentication#cert_bundle TlsMutualAuthentication#cert_bundle}
   */
   readonly certBundle: string;
   /**
   * Determines whether Mutual TLS will fail closed (enforced) or fail open. A true value will require a successful Mutual TLS handshake for the connection to continue and will fail closed if unsuccessful. A false value will fail open and allow the connection to proceed (if this attribute is not set we default to `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_mutual_authentication#enforced TlsMutualAuthentication#enforced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_mutual_authentication#enforced TlsMutualAuthentication#enforced}
   */
   readonly enforced?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_mutual_authentication#id TlsMutualAuthentication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_mutual_authentication#id TlsMutualAuthentication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface TlsMutualAuthenticationConfig extends cdktf.TerraformMetaArgume
   /**
   * A comma-separated list used by the Terraform provider during a state refresh to return more data related to your mutual authentication from the Fastly API (permitted values: `tls_activations`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_mutual_authentication#include TlsMutualAuthentication#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_mutual_authentication#include TlsMutualAuthentication#include}
   */
   readonly include?: string;
   /**
   * A custom name for your mutual authentication. If name is not supplied we will auto-generate one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_mutual_authentication#name TlsMutualAuthentication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_mutual_authentication#name TlsMutualAuthentication#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_mutual_authentication fastly_tls_mutual_authentication}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_mutual_authentication fastly_tls_mutual_authentication}
 */
 export class TlsMutualAuthentication extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class TlsMutualAuthentication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TlsMutualAuthentication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TlsMutualAuthentication to import
-  * @param importFromId The id of the existing TlsMutualAuthentication that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_mutual_authentication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TlsMutualAuthentication that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_mutual_authentication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TlsMutualAuthentication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class TlsMutualAuthentication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_mutual_authentication fastly_tls_mutual_authentication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_mutual_authentication fastly_tls_mutual_authentication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class TlsMutualAuthentication extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_tls_mutual_authentication',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface NosqlIndexConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#compartment_id NosqlIndex#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#compartment_id NosqlIndex#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#id NosqlIndex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#id NosqlIndex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#is_if_not_exists NosqlIndex#is_if_not_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#is_if_not_exists NosqlIndex#is_if_not_exists}
   */
   readonly isIfNotExists?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#name NosqlIndex#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#name NosqlIndex#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#table_name_or_id NosqlIndex#table_name_or_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#table_name_or_id NosqlIndex#table_name_or_id}
   */
   readonly tableNameOrId: string;
   /**
   * keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#keys NosqlIndex#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#keys NosqlIndex#keys}
   */
   readonly keys: NosqlIndexKeys[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#timeouts NosqlIndex#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#timeouts NosqlIndex#timeouts}
   */
   readonly timeouts?: NosqlIndexTimeouts;
 }
 export interface NosqlIndexKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#column_name NosqlIndex#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#column_name NosqlIndex#column_name}
   */
   readonly columnName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#json_field_type NosqlIndex#json_field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#json_field_type NosqlIndex#json_field_type}
   */
   readonly jsonFieldType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#json_path NosqlIndex#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#json_path NosqlIndex#json_path}
   */
   readonly jsonPath?: string;
 }
@@ -224,15 +224,15 @@ export class NosqlIndexKeysList extends cdktf.ComplexList {
 }
 export interface NosqlIndexTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#create NosqlIndex#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#create NosqlIndex#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#delete NosqlIndex#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#delete NosqlIndex#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#update NosqlIndex#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#update NosqlIndex#update}
   */
   readonly update?: string;
 }
@@ -384,7 +384,7 @@ export class NosqlIndexTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index oci_nosql_index}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index oci_nosql_index}
 */
 export class NosqlIndex extends cdktf.TerraformResource {
 
@@ -400,7 +400,7 @@ export class NosqlIndex extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NosqlIndex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NosqlIndex to import
-  * @param importFromId The id of the existing NosqlIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NosqlIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NosqlIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -412,7 +412,7 @@ export class NosqlIndex extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/nosql_index oci_nosql_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/nosql_index oci_nosql_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -423,8 +423,8 @@ export class NosqlIndex extends cdktf.TerraformResource {
       terraformResourceType: 'oci_nosql_index',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

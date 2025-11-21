@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcache
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcache
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNetappOntapFlexcacheConfig extends cdktf.TerraformMetaArgum
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcache#cx_profile_name DataNetappOntapFlexcache#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcache#cx_profile_name DataNetappOntapFlexcache#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * The name of the flexcache volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcache#name DataNetappOntapFlexcache#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcache#name DataNetappOntapFlexcache#name}
   */
   readonly name: string;
   /**
   * Name of the svm to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcache#svm_name DataNetappOntapFlexcache#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcache#svm_name DataNetappOntapFlexcache#svm_name}
   */
   readonly svmName: string;
 }
@@ -282,13 +282,13 @@ export interface DataNetappOntapFlexcacheOrigins {
   /**
   * Origin volume SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcache#svm DataNetappOntapFlexcache#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcache#svm DataNetappOntapFlexcache#svm}
   */
   readonly svm: DataNetappOntapFlexcacheOriginsSvm;
   /**
   * Origin volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcache#volume DataNetappOntapFlexcache#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcache#volume DataNetappOntapFlexcache#volume}
   */
   readonly volume: DataNetappOntapFlexcacheOriginsVolume;
 }
@@ -417,7 +417,7 @@ export class DataNetappOntapFlexcacheOriginsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcache netapp-ontap_flexcache}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcache netapp-ontap_flexcache}
 */
 export class DataNetappOntapFlexcache extends cdktf.TerraformDataSource {
 
@@ -433,7 +433,7 @@ export class DataNetappOntapFlexcache extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapFlexcache resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapFlexcache to import
-  * @param importFromId The id of the existing DataNetappOntapFlexcache that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcache#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapFlexcache that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcache#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapFlexcache to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -445,7 +445,7 @@ export class DataNetappOntapFlexcache extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcache netapp-ontap_flexcache} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcache netapp-ontap_flexcache} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -456,8 +456,8 @@ export class DataNetappOntapFlexcache extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_flexcache',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

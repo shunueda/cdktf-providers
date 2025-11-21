@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface RedisRedisClusterCreateIdentityTokenConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token#defined_tags RedisRedisClusterCreateIdentityToken#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token#defined_tags RedisRedisClusterCreateIdentityToken#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token#freeform_tags RedisRedisClusterCreateIdentityToken#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token#freeform_tags RedisRedisClusterCreateIdentityToken#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token#id RedisRedisClusterCreateIdentityToken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token#id RedisRedisClusterCreateIdentityToken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token#public_key RedisRedisClusterCreateIdentityToken#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token#public_key RedisRedisClusterCreateIdentityToken#public_key}
   */
   readonly publicKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token#redis_cluster_id RedisRedisClusterCreateIdentityToken#redis_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token#redis_cluster_id RedisRedisClusterCreateIdentityToken#redis_cluster_id}
   */
   readonly redisClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token#redis_user RedisRedisClusterCreateIdentityToken#redis_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token#redis_user RedisRedisClusterCreateIdentityToken#redis_user}
   */
   readonly redisUser: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token#timeouts RedisRedisClusterCreateIdentityToken#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token#timeouts RedisRedisClusterCreateIdentityToken#timeouts}
   */
   readonly timeouts?: RedisRedisClusterCreateIdentityTokenTimeouts;
 }
 export interface RedisRedisClusterCreateIdentityTokenTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token#create RedisRedisClusterCreateIdentityToken#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token#create RedisRedisClusterCreateIdentityToken#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token#delete RedisRedisClusterCreateIdentityToken#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token#delete RedisRedisClusterCreateIdentityToken#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token#update RedisRedisClusterCreateIdentityToken#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token#update RedisRedisClusterCreateIdentityToken#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class RedisRedisClusterCreateIdentityTokenTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token oci_redis_redis_cluster_create_identity_token}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token oci_redis_redis_cluster_create_identity_token}
 */
 export class RedisRedisClusterCreateIdentityToken extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class RedisRedisClusterCreateIdentityToken extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a RedisRedisClusterCreateIdentityToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisRedisClusterCreateIdentityToken to import
-  * @param importFromId The id of the existing RedisRedisClusterCreateIdentityToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisRedisClusterCreateIdentityToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisRedisClusterCreateIdentityToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class RedisRedisClusterCreateIdentityToken extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_create_identity_token oci_redis_redis_cluster_create_identity_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster_create_identity_token oci_redis_redis_cluster_create_identity_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class RedisRedisClusterCreateIdentityToken extends cdktf.TerraformResourc
       terraformResourceType: 'oci_redis_redis_cluster_create_identity_token',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

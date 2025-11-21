@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface CloudMigrationsMigrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration#compartment_id CloudMigrationsMigration#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration#compartment_id CloudMigrationsMigration#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration#defined_tags CloudMigrationsMigration#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration#defined_tags CloudMigrationsMigration#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration#display_name CloudMigrationsMigration#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration#display_name CloudMigrationsMigration#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration#freeform_tags CloudMigrationsMigration#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration#freeform_tags CloudMigrationsMigration#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration#id CloudMigrationsMigration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration#id CloudMigrationsMigration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration#is_completed CloudMigrationsMigration#is_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration#is_completed CloudMigrationsMigration#is_completed}
   */
   readonly isCompleted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration#replication_schedule_id CloudMigrationsMigration#replication_schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration#replication_schedule_id CloudMigrationsMigration#replication_schedule_id}
   */
   readonly replicationScheduleId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration#timeouts CloudMigrationsMigration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration#timeouts CloudMigrationsMigration#timeouts}
   */
   readonly timeouts?: CloudMigrationsMigrationTimeouts;
 }
 export interface CloudMigrationsMigrationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration#create CloudMigrationsMigration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration#create CloudMigrationsMigration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration#delete CloudMigrationsMigration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration#delete CloudMigrationsMigration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration#update CloudMigrationsMigration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration#update CloudMigrationsMigration#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class CloudMigrationsMigrationTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration oci_cloud_migrations_migration}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration oci_cloud_migrations_migration}
 */
 export class CloudMigrationsMigration extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class CloudMigrationsMigration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudMigrationsMigration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudMigrationsMigration to import
-  * @param importFromId The id of the existing CloudMigrationsMigration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudMigrationsMigration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudMigrationsMigration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class CloudMigrationsMigration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_migration oci_cloud_migrations_migration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_migration oci_cloud_migrations_migration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class CloudMigrationsMigration extends cdktf.TerraformResource {
       terraformResourceType: 'oci_cloud_migrations_migration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciRecoveryProtectionPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies#compartment_id DataOciRecoveryProtectionPolicies#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies#compartment_id DataOciRecoveryProtectionPolicies#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies#display_name DataOciRecoveryProtectionPolicies#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies#display_name DataOciRecoveryProtectionPolicies#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies#id DataOciRecoveryProtectionPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies#id DataOciRecoveryProtectionPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies#owner DataOciRecoveryProtectionPolicies#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies#owner DataOciRecoveryProtectionPolicies#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies#protection_policy_id DataOciRecoveryProtectionPolicies#protection_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies#protection_policy_id DataOciRecoveryProtectionPolicies#protection_policy_id}
   */
   readonly protectionPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies#state DataOciRecoveryProtectionPolicies#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies#state DataOciRecoveryProtectionPolicies#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies#filter DataOciRecoveryProtectionPolicies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies#filter DataOciRecoveryProtectionPolicies#filter}
   */
   readonly filter?: DataOciRecoveryProtectionPoliciesFilter[] | cdktf.IResolvable;
 }
@@ -262,15 +262,15 @@ export class DataOciRecoveryProtectionPoliciesProtectionPolicyCollectionList ext
 }
 export interface DataOciRecoveryProtectionPoliciesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies#name DataOciRecoveryProtectionPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies#name DataOciRecoveryProtectionPolicies#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies#regex DataOciRecoveryProtectionPolicies#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies#regex DataOciRecoveryProtectionPolicies#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies#values DataOciRecoveryProtectionPolicies#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies#values DataOciRecoveryProtectionPolicies#values}
   */
   readonly values: string[];
 }
@@ -438,7 +438,7 @@ export class DataOciRecoveryProtectionPoliciesFilterList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies oci_recovery_protection_policies}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies oci_recovery_protection_policies}
 */
 export class DataOciRecoveryProtectionPolicies extends cdktf.TerraformDataSource {
 
@@ -454,7 +454,7 @@ export class DataOciRecoveryProtectionPolicies extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataOciRecoveryProtectionPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciRecoveryProtectionPolicies to import
-  * @param importFromId The id of the existing DataOciRecoveryProtectionPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciRecoveryProtectionPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciRecoveryProtectionPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -466,7 +466,7 @@ export class DataOciRecoveryProtectionPolicies extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/recovery_protection_policies oci_recovery_protection_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/recovery_protection_policies oci_recovery_protection_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -477,8 +477,8 @@ export class DataOciRecoveryProtectionPolicies extends cdktf.TerraformDataSource
       terraformResourceType: 'oci_recovery_protection_policies',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

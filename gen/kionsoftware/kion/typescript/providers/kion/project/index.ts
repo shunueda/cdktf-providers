@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#auto_pay Project#auto_pay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#auto_pay Project#auto_pay}
   */
   readonly autoPay?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#default_aws_region Project#default_aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#default_aws_region Project#default_aws_region}
   */
   readonly defaultAwsRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#description Project#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#id Project#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#id Project#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,47 +29,47 @@ export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * A map of labels to assign to the project. The labels must already exist in Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#labels Project#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#labels Project#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#last_updated Project#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#last_updated Project#last_updated}
   */
   readonly lastUpdated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#ou_id Project#ou_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#ou_id Project#ou_id}
   */
   readonly ouId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#permission_scheme_id Project#permission_scheme_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#permission_scheme_id Project#permission_scheme_id}
   */
   readonly permissionSchemeId: number;
   /**
   * budget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#budget Project#budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#budget Project#budget}
   */
   readonly budget?: ProjectBudget[] | cdktf.IResolvable;
   /**
   * owner_user_group_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#owner_user_group_ids Project#owner_user_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#owner_user_group_ids Project#owner_user_group_ids}
   */
   readonly ownerUserGroupIds?: ProjectOwnerUserGroupIds[] | cdktf.IResolvable;
   /**
   * owner_user_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#owner_user_ids Project#owner_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#owner_user_ids Project#owner_user_ids}
   */
   readonly ownerUserIds?: ProjectOwnerUserIds[] | cdktf.IResolvable;
   /**
   * project_funding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#project_funding Project#project_funding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#project_funding Project#project_funding}
   */
   readonly projectFunding?: ProjectProjectFunding[] | cdktf.IResolvable;
 }
@@ -77,25 +77,25 @@ export interface ProjectBudgetData {
   /**
   * Amount of the budget entry in dollars.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#amount Project#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#amount Project#amount}
   */
   readonly amount: number;
   /**
   * Year and month for the budget data entry (i.e 2023-01).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#datecode Project#datecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#datecode Project#datecode}
   */
   readonly datecode: string;
   /**
   * ID of funding source for the budget entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#funding_source_id Project#funding_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#funding_source_id Project#funding_source_id}
   */
   readonly fundingSourceId?: number;
   /**
   * Priority order of the budget entry. This is required if funding_source_id is specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#priority Project#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#priority Project#priority}
   */
   readonly priority?: number;
 }
@@ -294,31 +294,31 @@ export interface ProjectBudget {
   /**
   * Total amount for the budget. This is required if data is not specified. Budget entries are created between start_datecode and end_datecode (exclusive) with the amount evenly distributed across the months. When monthly data is provided, the sum of all monthly amounts must equal this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#amount Project#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#amount Project#amount}
   */
   readonly amount?: number;
   /**
   * Year and month the budget ends. This is an exclusive date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#end_datecode Project#end_datecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#end_datecode Project#end_datecode}
   */
   readonly endDatecode: string;
   /**
   * Funding source IDs to use when data is not specified. This value is ignored is data is specified. If specified, the amount is distributed evenly across months and funding sources. Funding sources will be processed in order from first to last.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#funding_source_ids Project#funding_source_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#funding_source_ids Project#funding_source_ids}
   */
   readonly fundingSourceIds?: number[];
   /**
   * Year and month the budget starts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#start_datecode Project#start_datecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#start_datecode Project#start_datecode}
   */
   readonly startDatecode: string;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#data Project#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#data Project#data}
   */
   readonly data?: ProjectBudgetData[] | cdktf.IResolvable;
 }
@@ -544,7 +544,7 @@ export class ProjectBudgetList extends cdktf.ComplexList {
 }
 export interface ProjectOwnerUserGroupIds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#id Project#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#id Project#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -663,7 +663,7 @@ export class ProjectOwnerUserGroupIdsList extends cdktf.ComplexList {
 }
 export interface ProjectOwnerUserIds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#id Project#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#id Project#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -782,23 +782,23 @@ export class ProjectOwnerUserIdsList extends cdktf.ComplexList {
 }
 export interface ProjectProjectFunding {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#amount Project#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#amount Project#amount}
   */
   readonly amount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#end_datecode Project#end_datecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#end_datecode Project#end_datecode}
   */
   readonly endDatecode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#funding_order Project#funding_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#funding_order Project#funding_order}
   */
   readonly fundingOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#funding_source_id Project#funding_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#funding_source_id Project#funding_source_id}
   */
   readonly fundingSourceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#start_datecode Project#start_datecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#start_datecode Project#start_datecode}
   */
   readonly startDatecode?: string;
 }
@@ -1030,7 +1030,7 @@ export class ProjectProjectFundingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project kion_project}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project kion_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -1046,7 +1046,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1058,7 +1058,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project kion_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project kion_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1069,8 +1069,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'kion_project',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeReportDefinitionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#compartment_id DataSafeReportDefinition#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#compartment_id DataSafeReportDefinition#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#defined_tags DataSafeReportDefinition#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#defined_tags DataSafeReportDefinition#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#description DataSafeReportDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#description DataSafeReportDefinition#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#display_name DataSafeReportDefinition#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#display_name DataSafeReportDefinition#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#freeform_tags DataSafeReportDefinition#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#freeform_tags DataSafeReportDefinition#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#id DataSafeReportDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#id DataSafeReportDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#parent_id DataSafeReportDefinition#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#parent_id DataSafeReportDefinition#parent_id}
   */
   readonly parentId: string;
   /**
   * column_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#column_filters DataSafeReportDefinition#column_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#column_filters DataSafeReportDefinition#column_filters}
   */
   readonly columnFilters: DataSafeReportDefinitionColumnFilters[] | cdktf.IResolvable;
   /**
   * column_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#column_info DataSafeReportDefinition#column_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#column_info DataSafeReportDefinition#column_info}
   */
   readonly columnInfo: DataSafeReportDefinitionColumnInfo[] | cdktf.IResolvable;
   /**
   * column_sortings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#column_sortings DataSafeReportDefinition#column_sortings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#column_sortings DataSafeReportDefinition#column_sortings}
   */
   readonly columnSortings: DataSafeReportDefinitionColumnSortings[] | cdktf.IResolvable;
   /**
   * summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#summary DataSafeReportDefinition#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#summary DataSafeReportDefinition#summary}
   */
   readonly summary: DataSafeReportDefinitionSummary[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#timeouts DataSafeReportDefinition#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#timeouts DataSafeReportDefinition#timeouts}
   */
   readonly timeouts?: DataSafeReportDefinitionTimeouts;
 }
 export interface DataSafeReportDefinitionColumnFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#expressions DataSafeReportDefinition#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#expressions DataSafeReportDefinition#expressions}
   */
   readonly expressions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#field_name DataSafeReportDefinition#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#field_name DataSafeReportDefinition#field_name}
   */
   readonly fieldName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#is_enabled DataSafeReportDefinition#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#is_enabled DataSafeReportDefinition#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#is_hidden DataSafeReportDefinition#is_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#is_hidden DataSafeReportDefinition#is_hidden}
   */
   readonly isHidden: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#operator DataSafeReportDefinition#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#operator DataSafeReportDefinition#operator}
   */
   readonly operator: string;
 }
@@ -304,31 +304,31 @@ export class DataSafeReportDefinitionColumnFiltersList extends cdktf.ComplexList
 }
 export interface DataSafeReportDefinitionColumnInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#applicable_operators DataSafeReportDefinition#applicable_operators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#applicable_operators DataSafeReportDefinition#applicable_operators}
   */
   readonly applicableOperators?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#data_type DataSafeReportDefinition#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#data_type DataSafeReportDefinition#data_type}
   */
   readonly dataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#display_name DataSafeReportDefinition#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#display_name DataSafeReportDefinition#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#display_order DataSafeReportDefinition#display_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#display_order DataSafeReportDefinition#display_order}
   */
   readonly displayOrder: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#field_name DataSafeReportDefinition#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#field_name DataSafeReportDefinition#field_name}
   */
   readonly fieldName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#is_hidden DataSafeReportDefinition#is_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#is_hidden DataSafeReportDefinition#is_hidden}
   */
   readonly isHidden: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#is_virtual DataSafeReportDefinition#is_virtual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#is_virtual DataSafeReportDefinition#is_virtual}
   */
   readonly isVirtual?: boolean | cdktf.IResolvable;
 }
@@ -606,15 +606,15 @@ export class DataSafeReportDefinitionColumnInfoList extends cdktf.ComplexList {
 }
 export interface DataSafeReportDefinitionColumnSortings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#field_name DataSafeReportDefinition#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#field_name DataSafeReportDefinition#field_name}
   */
   readonly fieldName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#is_ascending DataSafeReportDefinition#is_ascending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#is_ascending DataSafeReportDefinition#is_ascending}
   */
   readonly isAscending: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#sorting_order DataSafeReportDefinition#sorting_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#sorting_order DataSafeReportDefinition#sorting_order}
   */
   readonly sortingOrder: number;
 }
@@ -779,27 +779,27 @@ export class DataSafeReportDefinitionColumnSortingsList extends cdktf.ComplexLis
 }
 export interface DataSafeReportDefinitionSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#count_of DataSafeReportDefinition#count_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#count_of DataSafeReportDefinition#count_of}
   */
   readonly countOf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#display_order DataSafeReportDefinition#display_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#display_order DataSafeReportDefinition#display_order}
   */
   readonly displayOrder: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#group_by_field_name DataSafeReportDefinition#group_by_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#group_by_field_name DataSafeReportDefinition#group_by_field_name}
   */
   readonly groupByFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#is_hidden DataSafeReportDefinition#is_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#is_hidden DataSafeReportDefinition#is_hidden}
   */
   readonly isHidden?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#name DataSafeReportDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#name DataSafeReportDefinition#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#scim_filter DataSafeReportDefinition#scim_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#scim_filter DataSafeReportDefinition#scim_filter}
   */
   readonly scimFilter?: string;
 }
@@ -1054,15 +1054,15 @@ export class DataSafeReportDefinitionSummaryList extends cdktf.ComplexList {
 }
 export interface DataSafeReportDefinitionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#create DataSafeReportDefinition#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#create DataSafeReportDefinition#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#delete DataSafeReportDefinition#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#delete DataSafeReportDefinition#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#update DataSafeReportDefinition#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#update DataSafeReportDefinition#update}
   */
   readonly update?: string;
 }
@@ -1214,7 +1214,7 @@ export class DataSafeReportDefinitionTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition oci_data_safe_report_definition}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition oci_data_safe_report_definition}
 */
 export class DataSafeReportDefinition extends cdktf.TerraformResource {
 
@@ -1230,7 +1230,7 @@ export class DataSafeReportDefinition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataSafeReportDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeReportDefinition to import
-  * @param importFromId The id of the existing DataSafeReportDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeReportDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeReportDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1242,7 +1242,7 @@ export class DataSafeReportDefinition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_report_definition oci_data_safe_report_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_report_definition oci_data_safe_report_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1253,8 +1253,8 @@ export class DataSafeReportDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'oci_data_safe_report_definition',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

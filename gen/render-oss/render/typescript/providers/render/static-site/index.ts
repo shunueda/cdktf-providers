@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,109 @@ export interface StaticSiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * [Automatic deploy](https://render.com/docs/deploys#automatic-git-deploys) on every push to your repository, or changes to your service settings or environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#auto_deploy StaticSite#auto_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#auto_deploy StaticSite#auto_deploy}
   */
   readonly autoDeploy?: boolean | cdktf.IResolvable;
   /**
   * Sets the Automatic deploy behavior for a Git-based service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#auto_deploy_trigger StaticSite#auto_deploy_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#auto_deploy_trigger StaticSite#auto_deploy_trigger}
   */
   readonly autoDeployTrigger?: string;
   /**
   * Branch of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#branch StaticSite#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#branch StaticSite#branch}
   */
   readonly branch: string;
   /**
   * Command to build the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#build_command StaticSite#build_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#build_command StaticSite#build_command}
   */
   readonly buildCommand: string;
   /**
   * Apply [build filters](https://render.com/docs/monorepo-support#build-filters) to configure which changes in your git repository trigger automatic deploys. If you've defined a root directory, you can still define paths outside of the root directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#build_filter StaticSite#build_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#build_filter StaticSite#build_filter}
   */
   readonly buildFilter?: StaticSiteBuildFilter;
   /**
   * Custom domains to associate with the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#custom_domains StaticSite#custom_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#custom_domains StaticSite#custom_domains}
   */
   readonly customDomains?: StaticSiteCustomDomains[] | cdktf.IResolvable;
   /**
   * Map of environment variable names to their values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#env_vars StaticSite#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#env_vars StaticSite#env_vars}
   */
   readonly envVars?: { [key: string]: StaticSiteEnvVars } | cdktf.IResolvable;
   /**
   * ID of the [project environment](https://render.com/docs/projects) that the resource belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#environment_id StaticSite#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#environment_id StaticSite#environment_id}
   */
   readonly environmentId?: string;
   /**
   * List of [headers](https://render.com/docs/static-site-headers) to apply to requests for static sites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#headers StaticSite#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#headers StaticSite#headers}
   */
   readonly headers?: StaticSiteHeaders[] | cdktf.IResolvable;
   /**
+  * List of IP addresses that are allowed to connect to the web service. If omitted, the API default (0.0.0.0/0 - allow all) is used. If set to an empty list, all traffic is blocked. If removed after being set, it reverts to the default (0.0.0.0/0). This is an enterprise-only feature.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#ip_allow_list StaticSite#ip_allow_list}
+  */
+  readonly ipAllowList?: StaticSiteIpAllowListStruct[] | cdktf.IResolvable;
+  /**
   * Name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#name StaticSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#name StaticSite#name}
   */
   readonly name: string;
   /**
   * Configure the [notification settings](https://render.com/docs/notifications) for this service. These will override the global notification settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#notification_override StaticSite#notification_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#notification_override StaticSite#notification_override}
   */
   readonly notificationOverride?: StaticSiteNotificationOverride;
   /**
   * [Pull request previews](https://render.com/docs/pull-request-previews#pull-request-previews-git-backed) settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#previews StaticSite#previews}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#previews StaticSite#previews}
   */
   readonly previews?: StaticSitePreviews;
   /**
   * Path to the directory that contains the build artifacts to publish for a static site. Defaults to public/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#publish_path StaticSite#publish_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#publish_path StaticSite#publish_path}
   */
   readonly publishPath?: string;
   /**
   * Enable [pull request previews](https://render.com/docs/pull-request-previews#pull-request-previews-git-backed) for the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#pull_request_previews_enabled StaticSite#pull_request_previews_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#pull_request_previews_enabled StaticSite#pull_request_previews_enabled}
   */
   readonly pullRequestPreviewsEnabled?: boolean | cdktf.IResolvable;
   /**
   * URL of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#repo_url StaticSite#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#repo_url StaticSite#repo_url}
   */
   readonly repoUrl: string;
   /**
   * When you specify a [root directory](https://render.com/docs/monorepo-support#root-directory), Render runs all your commands in the specified directory and ignores changes outside the directory. Defaults to the repository root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#root_directory StaticSite#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#root_directory StaticSite#root_directory}
   */
   readonly rootDirectory?: string;
   /**
   * List of [redirect and rewrite rules](https://render.com/docs/redirects-rewrites) to apply to a static site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#routes StaticSite#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#routes StaticSite#routes}
   */
   readonly routes?: StaticSiteRoutes[] | cdktf.IResolvable;
 }
@@ -209,13 +215,13 @@ export interface StaticSiteBuildFilter {
   /**
   * Changes that match these paths will not trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#ignored_paths StaticSite#ignored_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#ignored_paths StaticSite#ignored_paths}
   */
   readonly ignoredPaths?: string[];
   /**
   * Changes that match these paths will trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#paths StaticSite#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#paths StaticSite#paths}
   */
   readonly paths?: string[];
 }
@@ -340,7 +346,7 @@ export interface StaticSiteCustomDomains {
   /**
   * DNS record of the custom domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#name StaticSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#name StaticSite#name}
   */
   readonly name: string;
 }
@@ -475,11 +481,11 @@ export interface StaticSiteEnvVars {
   /**
   * If true, Render will generate the variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#generate_value StaticSite#generate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#generate_value StaticSite#generate_value}
   */
   readonly generateValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#value StaticSite#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#value StaticSite#value}
   */
   readonly value?: string;
 }
@@ -624,19 +630,19 @@ export interface StaticSiteHeaders {
   /**
   * Name of the header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#name StaticSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#name StaticSite#name}
   */
   readonly name: string;
   /**
   * Request paths to apply the header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#path StaticSite#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#path StaticSite#path}
   */
   readonly path: string;
   /**
   * Value of the header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#value StaticSite#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#value StaticSite#value}
   */
   readonly value: string;
 }
@@ -799,17 +805,164 @@ export class StaticSiteHeadersList extends cdktf.ComplexList {
     return new StaticSiteHeadersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface StaticSiteIpAllowListStruct {
+  /**
+  * CIDR block that is allowed to connect to the Redis instance. (0.0.0.0/0 to allow traffic from all IPs) 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#cidr_block StaticSite#cidr_block}
+  */
+  readonly cidrBlock: string;
+  /**
+  * Description of the IP address or range. This is used to help identify the IP address or range in the list.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#description StaticSite#description}
+  */
+  readonly description: string;
+}
+
+export function staticSiteIpAllowListStructToTerraform(struct?: StaticSiteIpAllowListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cidr_block: cdktf.stringToTerraform(struct!.cidrBlock),
+    description: cdktf.stringToTerraform(struct!.description),
+  }
+}
+
+
+export function staticSiteIpAllowListStructToHclTerraform(struct?: StaticSiteIpAllowListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cidr_block: {
+      value: cdktf.stringToHclTerraform(struct!.cidrBlock),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class StaticSiteIpAllowListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StaticSiteIpAllowListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cidrBlock !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cidrBlock = this._cidrBlock;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StaticSiteIpAllowListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cidrBlock = undefined;
+      this._description = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cidrBlock = value.cidrBlock;
+      this._description = value.description;
+    }
+  }
+
+  // cidr_block - computed: false, optional: false, required: true
+  private _cidrBlock?: string; 
+  public get cidrBlock() {
+    return this.getStringAttribute('cidr_block');
+  }
+  public set cidrBlock(value: string) {
+    this._cidrBlock = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cidrBlockInput() {
+    return this._cidrBlock;
+  }
+
+  // description - computed: false, optional: false, required: true
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+}
+
+export class StaticSiteIpAllowListStructList extends cdktf.ComplexList {
+  public internalValue? : StaticSiteIpAllowListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StaticSiteIpAllowListStructOutputReference {
+    return new StaticSiteIpAllowListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StaticSiteNotificationOverride {
   /**
   * The types of notifications to send. Must be one of `default`, `all`, `failure`, or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#notifications_to_send StaticSite#notifications_to_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#notifications_to_send StaticSite#notifications_to_send}
   */
   readonly notificationsToSend?: string;
   /**
   * Whether notifications for previews of this service are sent. Must be one of `all`, `failure`, or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#preview_notifications_enabled StaticSite#preview_notifications_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#preview_notifications_enabled StaticSite#preview_notifications_enabled}
   */
   readonly previewNotificationsEnabled?: string;
 }
@@ -934,7 +1087,7 @@ export interface StaticSitePreviews {
   /**
   * Generation mode for [pull request previews](https://render.com/docs/pull-request-previews#pull-request-previews-git-backed). One of `off`, `manual`, or `automatic`. Defaults to `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#generation StaticSite#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#generation StaticSite#generation}
   */
   readonly generation?: string;
 }
@@ -1030,19 +1183,19 @@ export interface StaticSiteRoutes {
   /**
   * Destination path to route to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#destination StaticSite#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#destination StaticSite#destination}
   */
   readonly destination: string;
   /**
   * Source path to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#source StaticSite#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#source StaticSite#source}
   */
   readonly source: string;
   /**
   * Type of route. Either redirect or rewrite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#type StaticSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#type StaticSite#type}
   */
   readonly type: string;
 }
@@ -1207,7 +1360,7 @@ export class StaticSiteRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site render_static_site}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site render_static_site}
 */
 export class StaticSite extends cdktf.TerraformResource {
 
@@ -1223,7 +1376,7 @@ export class StaticSite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StaticSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StaticSite to import
-  * @param importFromId The id of the existing StaticSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StaticSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StaticSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1235,7 +1388,7 @@ export class StaticSite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/static_site render_static_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/static_site render_static_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1246,8 +1399,8 @@ export class StaticSite extends cdktf.TerraformResource {
       terraformResourceType: 'render_static_site',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1266,6 +1419,7 @@ export class StaticSite extends cdktf.TerraformResource {
     this._envVars.internalValue = config.envVars;
     this._environmentId = config.environmentId;
     this._headers.internalValue = config.headers;
+    this._ipAllowList.internalValue = config.ipAllowList;
     this._name = config.name;
     this._notificationOverride.internalValue = config.notificationOverride;
     this._previews.internalValue = config.previews;
@@ -1429,6 +1583,22 @@ export class StaticSite extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
+  // ip_allow_list - computed: false, optional: true, required: false
+  private _ipAllowList = new StaticSiteIpAllowListStructList(this, "ip_allow_list", true);
+  public get ipAllowList() {
+    return this._ipAllowList;
+  }
+  public putIpAllowList(value: StaticSiteIpAllowListStruct[] | cdktf.IResolvable) {
+    this._ipAllowList.internalValue = value;
+  }
+  public resetIpAllowList() {
+    this._ipAllowList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAllowListInput() {
+    return this._ipAllowList.internalValue;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -1576,6 +1746,7 @@ export class StaticSite extends cdktf.TerraformResource {
       env_vars: cdktf.hashMapper(staticSiteEnvVarsToTerraform)(this._envVars.internalValue),
       environment_id: cdktf.stringToTerraform(this._environmentId),
       headers: cdktf.listMapper(staticSiteHeadersToTerraform, false)(this._headers.internalValue),
+      ip_allow_list: cdktf.listMapper(staticSiteIpAllowListStructToTerraform, false)(this._ipAllowList.internalValue),
       name: cdktf.stringToTerraform(this._name),
       notification_override: staticSiteNotificationOverrideToTerraform(this._notificationOverride.internalValue),
       previews: staticSitePreviewsToTerraform(this._previews.internalValue),
@@ -1642,6 +1813,12 @@ export class StaticSite extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "StaticSiteHeadersList",
+      },
+      ip_allow_list: {
+        value: cdktf.listMapperHcl(staticSiteIpAllowListStructToHclTerraform, false)(this._ipAllowList.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "StaticSiteIpAllowListStructList",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

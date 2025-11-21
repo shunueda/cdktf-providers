@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection
+// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataConfluentFlinkConnectionConfig extends cdktf.TerraformMetaA
   /**
   * The unique name of the Flink Connection per organization, environment scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#display_name DataConfluentFlinkConnection#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#display_name DataConfluentFlinkConnection#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#id DataConfluentFlinkConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#id DataConfluentFlinkConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface DataConfluentFlinkConnectionConfig extends cdktf.TerraformMetaA
   /**
   * The REST endpoint of the Flink Connection cluster, for example, `https://flink.us-east-1.aws.confluent.cloud/sql/v1/organizations/1111aaaa-11aa-11aa-11aa-111111aaaaaa/environments/env-abc123`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#rest_endpoint DataConfluentFlinkConnection#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#rest_endpoint DataConfluentFlinkConnection#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * The type of the Flink Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#type DataConfluentFlinkConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#type DataConfluentFlinkConnection#type}
   */
   readonly type?: string;
   /**
   * compute_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#compute_pool DataConfluentFlinkConnection#compute_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#compute_pool DataConfluentFlinkConnection#compute_pool}
   */
   readonly computePool?: DataConfluentFlinkConnectionComputePool;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#credentials DataConfluentFlinkConnection#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#credentials DataConfluentFlinkConnection#credentials}
   */
   readonly credentials?: DataConfluentFlinkConnectionCredentials;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#environment DataConfluentFlinkConnection#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#environment DataConfluentFlinkConnection#environment}
   */
   readonly environment?: DataConfluentFlinkConnectionEnvironment;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#organization DataConfluentFlinkConnection#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#organization DataConfluentFlinkConnection#organization}
   */
   readonly organization?: DataConfluentFlinkConnectionOrganization;
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#principal DataConfluentFlinkConnection#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#principal DataConfluentFlinkConnection#principal}
   */
   readonly principal?: DataConfluentFlinkConnectionPrincipal;
 }
 export interface DataConfluentFlinkConnectionComputePool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#id DataConfluentFlinkConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#id DataConfluentFlinkConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -151,13 +151,13 @@ export interface DataConfluentFlinkConnectionCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#key DataConfluentFlinkConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#key DataConfluentFlinkConnection#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#secret DataConfluentFlinkConnection#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#secret DataConfluentFlinkConnection#secret}
   */
   readonly secret: string;
 }
@@ -264,7 +264,7 @@ export class DataConfluentFlinkConnectionCredentialsOutputReference extends cdkt
 }
 export interface DataConfluentFlinkConnectionEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#id DataConfluentFlinkConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#id DataConfluentFlinkConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -348,7 +348,7 @@ export class DataConfluentFlinkConnectionEnvironmentOutputReference extends cdkt
 }
 export interface DataConfluentFlinkConnectionOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#id DataConfluentFlinkConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#id DataConfluentFlinkConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -432,7 +432,7 @@ export class DataConfluentFlinkConnectionOrganizationOutputReference extends cdk
 }
 export interface DataConfluentFlinkConnectionPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#id DataConfluentFlinkConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#id DataConfluentFlinkConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -516,7 +516,7 @@ export class DataConfluentFlinkConnectionPrincipalOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection confluent_flink_connection}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection confluent_flink_connection}
 */
 export class DataConfluentFlinkConnection extends cdktf.TerraformDataSource {
 
@@ -532,7 +532,7 @@ export class DataConfluentFlinkConnection extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataConfluentFlinkConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataConfluentFlinkConnection to import
-  * @param importFromId The id of the existing DataConfluentFlinkConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataConfluentFlinkConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataConfluentFlinkConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -544,7 +544,7 @@ export class DataConfluentFlinkConnection extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/flink_connection confluent_flink_connection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_connection confluent_flink_connection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -555,8 +555,8 @@ export class DataConfluentFlinkConnection extends cdktf.TerraformDataSource {
       terraformResourceType: 'confluent_flink_connection',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.53.0',
-        providerVersionConstraint: '2.53.0'
+        providerVersion: '2.54.0',
+        providerVersionConstraint: '2.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

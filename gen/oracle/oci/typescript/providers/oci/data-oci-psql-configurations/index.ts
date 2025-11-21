@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciPsqlConfigurationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#compartment_id DataOciPsqlConfigurations#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#compartment_id DataOciPsqlConfigurations#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#config_type DataOciPsqlConfigurations#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#config_type DataOciPsqlConfigurations#config_type}
   */
   readonly configType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#configuration_id DataOciPsqlConfigurations#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#configuration_id DataOciPsqlConfigurations#configuration_id}
   */
   readonly configurationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#db_version DataOciPsqlConfigurations#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#db_version DataOciPsqlConfigurations#db_version}
   */
   readonly dbVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#display_name DataOciPsqlConfigurations#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#display_name DataOciPsqlConfigurations#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#id DataOciPsqlConfigurations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#id DataOciPsqlConfigurations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#instance_memory_size_in_gbs DataOciPsqlConfigurations#instance_memory_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#instance_memory_size_in_gbs DataOciPsqlConfigurations#instance_memory_size_in_gbs}
   */
   readonly instanceMemorySizeInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#instance_ocpu_count DataOciPsqlConfigurations#instance_ocpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#instance_ocpu_count DataOciPsqlConfigurations#instance_ocpu_count}
   */
   readonly instanceOcpuCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#shape DataOciPsqlConfigurations#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#shape DataOciPsqlConfigurations#shape}
   */
   readonly shape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#state DataOciPsqlConfigurations#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#state DataOciPsqlConfigurations#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#filter DataOciPsqlConfigurations#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#filter DataOciPsqlConfigurations#filter}
   */
   readonly filter?: DataOciPsqlConfigurationsFilter[] | cdktf.IResolvable;
 }
@@ -652,15 +652,15 @@ export class DataOciPsqlConfigurationsConfigurationCollectionList extends cdktf.
 }
 export interface DataOciPsqlConfigurationsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#name DataOciPsqlConfigurations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#name DataOciPsqlConfigurations#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#regex DataOciPsqlConfigurations#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#regex DataOciPsqlConfigurations#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#values DataOciPsqlConfigurations#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#values DataOciPsqlConfigurations#values}
   */
   readonly values: string[];
 }
@@ -828,7 +828,7 @@ export class DataOciPsqlConfigurationsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations oci_psql_configurations}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations oci_psql_configurations}
 */
 export class DataOciPsqlConfigurations extends cdktf.TerraformDataSource {
 
@@ -844,7 +844,7 @@ export class DataOciPsqlConfigurations extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciPsqlConfigurations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciPsqlConfigurations to import
-  * @param importFromId The id of the existing DataOciPsqlConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciPsqlConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciPsqlConfigurations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -856,7 +856,7 @@ export class DataOciPsqlConfigurations extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_configurations oci_psql_configurations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_configurations oci_psql_configurations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -867,8 +867,8 @@ export class DataOciPsqlConfigurations extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_psql_configurations',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

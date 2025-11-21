@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule
+// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FabricRouteAggregationRuleConfig extends cdktf.TerraformMetaArg
   /**
   * Customer-provided route aggregation rule description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule#description FabricRouteAggregationRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule#description FabricRouteAggregationRule#description}
   */
   readonly description?: string;
   /**
   * Customer provided name of the route aggregation rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule#name FabricRouteAggregationRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule#name FabricRouteAggregationRule#name}
   */
   readonly name: string;
   /**
   * Customer-provided route aggregation rule prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule#prefix FabricRouteAggregationRule#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule#prefix FabricRouteAggregationRule#prefix}
   */
   readonly prefix: string;
   /**
   * UUID of the Route Aggregation to apply this Rule to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule#route_aggregation_id FabricRouteAggregationRule#route_aggregation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule#route_aggregation_id FabricRouteAggregationRule#route_aggregation_id}
   */
   readonly routeAggregationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule#timeouts FabricRouteAggregationRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule#timeouts FabricRouteAggregationRule#timeouts}
   */
   readonly timeouts?: FabricRouteAggregationRuleTimeouts;
 }
@@ -40,13 +40,13 @@ export interface FabricRouteAggregationRuleChange {
   /**
   * Equinix defined Route Aggregation Change Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule#type FabricRouteAggregationRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule#type FabricRouteAggregationRule#type}
   */
   readonly type: string;
   /**
   * Equinix-assigned unique id for a change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule#uuid FabricRouteAggregationRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule#uuid FabricRouteAggregationRule#uuid}
   */
   readonly uuid: string;
 }
@@ -269,25 +269,25 @@ export interface FabricRouteAggregationRuleTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule#create FabricRouteAggregationRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule#create FabricRouteAggregationRule#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule#delete FabricRouteAggregationRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule#delete FabricRouteAggregationRule#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule#read FabricRouteAggregationRule#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule#read FabricRouteAggregationRule#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule#update FabricRouteAggregationRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule#update FabricRouteAggregationRule#update}
   */
   readonly update?: string;
 }
@@ -468,7 +468,7 @@ export class FabricRouteAggregationRuleTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule equinix_fabric_route_aggregation_rule}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule equinix_fabric_route_aggregation_rule}
 */
 export class FabricRouteAggregationRule extends cdktf.TerraformResource {
 
@@ -484,7 +484,7 @@ export class FabricRouteAggregationRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricRouteAggregationRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricRouteAggregationRule to import
-  * @param importFromId The id of the existing FabricRouteAggregationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricRouteAggregationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricRouteAggregationRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -496,7 +496,7 @@ export class FabricRouteAggregationRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_route_aggregation_rule equinix_fabric_route_aggregation_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_route_aggregation_rule equinix_fabric_route_aggregation_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,8 +507,8 @@ export class FabricRouteAggregationRule extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_fabric_route_aggregation_rule',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.10.0',
-        providerVersionConstraint: '4.10.0'
+        providerVersion: '4.11.0',
+        providerVersionConstraint: '4.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

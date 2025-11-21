@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/cloud_applications
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/cloud_applications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataZiaCloudApplicationsConfig extends cdktf.TerraformMetaArgum
   /**
   * Filter application by application category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/cloud_applications#app_class DataZiaCloudApplications#app_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/cloud_applications#app_class DataZiaCloudApplications#app_class}
   */
   readonly appClass?: string[];
   /**
   * Filter results to include only a specific application name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/cloud_applications#app_name DataZiaCloudApplications#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/cloud_applications#app_name DataZiaCloudApplications#app_name}
   */
   readonly appName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/cloud_applications#id DataZiaCloudApplications#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/cloud_applications#id DataZiaCloudApplications#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DataZiaCloudApplicationsConfig extends cdktf.TerraformMetaArgum
   /**
   * Type of policy to fetch: `cloud_application_policy` or `cloud_application_ssl_policy`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/cloud_applications#policy_type DataZiaCloudApplications#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/cloud_applications#policy_type DataZiaCloudApplications#policy_type}
   */
   readonly policyType: string;
 }
@@ -125,7 +125,7 @@ export class DataZiaCloudApplicationsApplicationsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/cloud_applications zia_cloud_applications}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/cloud_applications zia_cloud_applications}
 */
 export class DataZiaCloudApplications extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataZiaCloudApplications extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaCloudApplications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaCloudApplications to import
-  * @param importFromId The id of the existing DataZiaCloudApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/cloud_applications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaCloudApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/cloud_applications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaCloudApplications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataZiaCloudApplications extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/cloud_applications zia_cloud_applications} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/cloud_applications zia_cloud_applications} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataZiaCloudApplications extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_cloud_applications',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

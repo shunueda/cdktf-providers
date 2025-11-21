@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,107 +10,107 @@ export interface StorageVolumeResourceConfig extends cdktf.TerraformMetaArgument
   /**
   * List of aggregates to place volume on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#aggregates StorageVolumeResource#aggregates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#aggregates StorageVolumeResource#aggregates}
   */
   readonly aggregates: StorageVolumeResourceAggregates[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#analytics StorageVolumeResource#analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#analytics StorageVolumeResource#analytics}
   */
   readonly analytics?: StorageVolumeResourceAnalytics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#autosize StorageVolumeResource#autosize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#autosize StorageVolumeResource#autosize}
   */
   readonly autosize?: StorageVolumeResourceAutosize;
   /**
   * Sets a comment associated with the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#comment StorageVolumeResource#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#comment StorageVolumeResource#comment}
   */
   readonly comment?: string;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#cx_profile_name StorageVolumeResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#cx_profile_name StorageVolumeResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#efficiency StorageVolumeResource#efficiency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#efficiency StorageVolumeResource#efficiency}
   */
   readonly efficiency?: StorageVolumeResourceEfficiency;
   /**
   * Whether or not to enable Volume Encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#encryption StorageVolumeResource#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#encryption StorageVolumeResource#encryption}
   */
   readonly encryption?: boolean | cdktf.IResolvable;
   /**
   * Language to use for volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#language StorageVolumeResource#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#language StorageVolumeResource#language}
   */
   readonly language?: string;
   /**
   * The name of the volume to manage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#name StorageVolumeResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#name StorageVolumeResource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#nas StorageVolumeResource#nas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#nas StorageVolumeResource#nas}
   */
   readonly nas?: StorageVolumeResourceNas;
   /**
   * Specifies a QoS policy group to be set on volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#qos_policy_group StorageVolumeResource#qos_policy_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#qos_policy_group StorageVolumeResource#qos_policy_group}
   */
   readonly qosPolicyGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#snaplock StorageVolumeResource#snaplock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#snaplock StorageVolumeResource#snaplock}
   */
   readonly snaplock?: StorageVolumeResourceSnaplock;
   /**
   * Whether or not snapshot copy locking is enabled on the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#snapshot_locking_enabled StorageVolumeResource#snapshot_locking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#snapshot_locking_enabled StorageVolumeResource#snapshot_locking_enabled}
   */
   readonly snapshotLockingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the snapshot policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#snapshot_policy StorageVolumeResource#snapshot_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#snapshot_policy StorageVolumeResource#snapshot_policy}
   */
   readonly snapshotPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#space StorageVolumeResource#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#space StorageVolumeResource#space}
   */
   readonly space: StorageVolumeResourceSpace;
   /**
   * Space guarantee style for the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#space_guarantee StorageVolumeResource#space_guarantee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#space_guarantee StorageVolumeResource#space_guarantee}
   */
   readonly spaceGuarantee?: string;
   /**
   * Whether the specified volume is online, or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#state StorageVolumeResource#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#state StorageVolumeResource#state}
   */
   readonly state?: string;
   /**
   * Name of the svm to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#svm_name StorageVolumeResource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#svm_name StorageVolumeResource#svm_name}
   */
   readonly svmName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#tiering StorageVolumeResource#tiering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#tiering StorageVolumeResource#tiering}
   */
   readonly tiering?: StorageVolumeResourceTiering;
   /**
   * The volume type, either read-write (RW) or data-protection (DP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#type StorageVolumeResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#type StorageVolumeResource#type}
   */
   readonly type?: string;
 }
@@ -118,7 +118,7 @@ export interface StorageVolumeResourceAggregates {
   /**
   * Name of the aggregate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#name StorageVolumeResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#name StorageVolumeResource#name}
   */
   readonly name: string;
 }
@@ -233,7 +233,7 @@ export interface StorageVolumeResourceAnalytics {
   /**
   * Set file system analytics state of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#state StorageVolumeResource#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#state StorageVolumeResource#state}
   */
   readonly state?: string;
 }
@@ -329,19 +329,19 @@ export interface StorageVolumeResourceAutosize {
   /**
   * Used space threshold size, in percentage, for the automatic growth of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#grow_threshold StorageVolumeResource#grow_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#grow_threshold StorageVolumeResource#grow_threshold}
   */
   readonly growThreshold?: number;
   /**
   * Maximum size up to which a volume grows automatically. This size cannot be less than the current volume size, or less than or equal to the minimum size of volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#maximum StorageVolumeResource#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#maximum StorageVolumeResource#maximum}
   */
   readonly maximum?: number;
   /**
   * Minimum size up to which the volume shrinks automatically. This size cannot be greater than or equal to the maximum size of volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#minimum StorageVolumeResource#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#minimum StorageVolumeResource#minimum}
   */
   readonly minimum?: number;
   /**
@@ -352,19 +352,19 @@ export interface StorageVolumeResourceAutosize {
   * 											 off - Autosizing of the volume is disabled.
   * 											 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#mode StorageVolumeResource#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#mode StorageVolumeResource#mode}
   */
   readonly mode?: string;
   /**
   * Used space threshold size, in percentage, for the automatic shrinkage of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#shrink_threshold StorageVolumeResource#shrink_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#shrink_threshold StorageVolumeResource#shrink_threshold}
   */
   readonly shrinkThreshold?: number;
   /**
   * The unit used to interpret the minimum or maximum size parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#size_unit StorageVolumeResource#size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#size_unit StorageVolumeResource#size_unit}
   */
   readonly sizeUnit?: string;
 }
@@ -605,25 +605,25 @@ export interface StorageVolumeResourceEfficiency {
   /**
   * The system can be enabled/disabled compaction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#compaction StorageVolumeResource#compaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#compaction StorageVolumeResource#compaction}
   */
   readonly compaction?: string;
   /**
   * Whether to enable compression for the volume (HDD and Flash Pool aggregates)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#compression StorageVolumeResource#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#compression StorageVolumeResource#compression}
   */
   readonly compression?: string;
   /**
   * The system can be enabled/disabled dedupe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#dedupe StorageVolumeResource#dedupe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#dedupe StorageVolumeResource#dedupe}
   */
   readonly dedupe?: string;
   /**
   * Allows a storage efficiency policy to be set on volume creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#policy_name StorageVolumeResource#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#policy_name StorageVolumeResource#policy_name}
   */
   readonly policyName?: string;
 }
@@ -806,37 +806,37 @@ export interface StorageVolumeResourceNas {
   /**
   * The name of the export policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#export_policy_name StorageVolumeResource#export_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#export_policy_name StorageVolumeResource#export_policy_name}
   */
   readonly exportPolicyName?: string;
   /**
   * The UNIX group ID for the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#group_id StorageVolumeResource#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#group_id StorageVolumeResource#group_id}
   */
   readonly groupId?: number;
   /**
   * Junction path of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#junction_path StorageVolumeResource#junction_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#junction_path StorageVolumeResource#junction_path}
   */
   readonly junctionPath?: string;
   /**
   * The security style associated to the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#security_style StorageVolumeResource#security_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#security_style StorageVolumeResource#security_style}
   */
   readonly securityStyle?: string;
   /**
   * Unix permission bits in octal or symbolic format. For example, 0 is equivalent to ------------, 777 is equivalent to ---rwxrwxrwx,both formats are accepted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#unix_permissions StorageVolumeResource#unix_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#unix_permissions StorageVolumeResource#unix_permissions}
   */
   readonly unixPermissions?: number;
   /**
   * The UNIX user ID for the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#user_id StorageVolumeResource#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#user_id StorageVolumeResource#user_id}
   */
   readonly userId?: number;
 }
@@ -1077,7 +1077,7 @@ export interface StorageVolumeResourceSnaplock {
   /**
   * The SnapLock type of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#type StorageVolumeResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#type StorageVolumeResource#type}
   */
   readonly type?: string;
 }
@@ -1173,13 +1173,13 @@ export interface StorageVolumeResourceSpaceLogicalSpace {
   /**
   * Whether to perform logical space accounting on the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#enforcement StorageVolumeResource#enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#enforcement StorageVolumeResource#enforcement}
   */
   readonly enforcement?: boolean | cdktf.IResolvable;
   /**
   * Whether to report space logically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#reporting StorageVolumeResource#reporting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#reporting StorageVolumeResource#reporting}
   */
   readonly reporting?: boolean | cdktf.IResolvable;
 }
@@ -1302,25 +1302,25 @@ export class StorageVolumeResourceSpaceLogicalSpaceOutputReference extends cdktf
 }
 export interface StorageVolumeResourceSpace {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#logical_space StorageVolumeResource#logical_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#logical_space StorageVolumeResource#logical_space}
   */
   readonly logicalSpace?: StorageVolumeResourceSpaceLogicalSpace;
   /**
   * Amount of space reserved for snapshot copies of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#percent_snapshot_space StorageVolumeResource#percent_snapshot_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#percent_snapshot_space StorageVolumeResource#percent_snapshot_space}
   */
   readonly percentSnapshotSpace?: number;
   /**
   * The size of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#size StorageVolumeResource#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#size StorageVolumeResource#size}
   */
   readonly size: number;
   /**
   * The unit used to interpret the size parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#size_unit StorageVolumeResource#size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#size_unit StorageVolumeResource#size_unit}
   */
   readonly sizeUnit: string;
 }
@@ -1497,13 +1497,13 @@ export interface StorageVolumeResourceTiering {
   /**
   * Determines how many days must pass before inactive data in a volume using the Auto or Snapshot-Only policy is considered cold and eligible for tiering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#minimum_cooling_days StorageVolumeResource#minimum_cooling_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#minimum_cooling_days StorageVolumeResource#minimum_cooling_days}
   */
   readonly minimumCoolingDays?: number;
   /**
   * The tiering policy that is to be associated with the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#policy_name StorageVolumeResource#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#policy_name StorageVolumeResource#policy_name}
   */
   readonly policyName?: string;
 }
@@ -1626,7 +1626,7 @@ export class StorageVolumeResourceTieringOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource netapp-ontap_storage_volume_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource netapp-ontap_storage_volume_resource}
 */
 export class StorageVolumeResource extends cdktf.TerraformResource {
 
@@ -1642,7 +1642,7 @@ export class StorageVolumeResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageVolumeResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageVolumeResource to import
-  * @param importFromId The id of the existing StorageVolumeResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageVolumeResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageVolumeResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1654,7 +1654,7 @@ export class StorageVolumeResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_volume_resource netapp-ontap_storage_volume_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_volume_resource netapp-ontap_storage_volume_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1665,8 +1665,8 @@ export class StorageVolumeResource extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_storage_volume_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

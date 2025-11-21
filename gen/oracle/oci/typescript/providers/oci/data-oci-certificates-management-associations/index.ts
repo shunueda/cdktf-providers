@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCertificatesManagementAssociationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations#associated_resource_id DataOciCertificatesManagementAssociations#associated_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations#associated_resource_id DataOciCertificatesManagementAssociations#associated_resource_id}
   */
   readonly associatedResourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations#association_id DataOciCertificatesManagementAssociations#association_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations#association_id DataOciCertificatesManagementAssociations#association_id}
   */
   readonly associationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations#association_type DataOciCertificatesManagementAssociations#association_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations#association_type DataOciCertificatesManagementAssociations#association_type}
   */
   readonly associationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations#certificates_resource_id DataOciCertificatesManagementAssociations#certificates_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations#certificates_resource_id DataOciCertificatesManagementAssociations#certificates_resource_id}
   */
   readonly certificatesResourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations#compartment_id DataOciCertificatesManagementAssociations#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations#compartment_id DataOciCertificatesManagementAssociations#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations#id DataOciCertificatesManagementAssociations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations#id DataOciCertificatesManagementAssociations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations#name DataOciCertificatesManagementAssociations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations#name DataOciCertificatesManagementAssociations#name}
   */
   readonly name?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations#filter DataOciCertificatesManagementAssociations#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations#filter DataOciCertificatesManagementAssociations#filter}
   */
   readonly filter?: DataOciCertificatesManagementAssociationsFilter[] | cdktf.IResolvable;
 }
@@ -233,15 +233,15 @@ export class DataOciCertificatesManagementAssociationsAssociationCollectionList 
 }
 export interface DataOciCertificatesManagementAssociationsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations#name DataOciCertificatesManagementAssociations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations#name DataOciCertificatesManagementAssociations#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations#regex DataOciCertificatesManagementAssociations#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations#regex DataOciCertificatesManagementAssociations#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations#values DataOciCertificatesManagementAssociations#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations#values DataOciCertificatesManagementAssociations#values}
   */
   readonly values: string[];
 }
@@ -409,7 +409,7 @@ export class DataOciCertificatesManagementAssociationsFilterList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations oci_certificates_management_associations}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations oci_certificates_management_associations}
 */
 export class DataOciCertificatesManagementAssociations extends cdktf.TerraformDataSource {
 
@@ -425,7 +425,7 @@ export class DataOciCertificatesManagementAssociations extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataOciCertificatesManagementAssociations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCertificatesManagementAssociations to import
-  * @param importFromId The id of the existing DataOciCertificatesManagementAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCertificatesManagementAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCertificatesManagementAssociations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -437,7 +437,7 @@ export class DataOciCertificatesManagementAssociations extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_associations oci_certificates_management_associations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/certificates_management_associations oci_certificates_management_associations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -448,8 +448,8 @@ export class DataOciCertificatesManagementAssociations extends cdktf.TerraformDa
       terraformResourceType: 'oci_certificates_management_associations',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

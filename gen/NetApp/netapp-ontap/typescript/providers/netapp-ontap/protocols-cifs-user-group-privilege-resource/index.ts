@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_user_group_privilege_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_user_group_privilege_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ProtocolsCifsUserGroupPrivilegeResourceConfig extends cdktf.Ter
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_user_group_privilege_resource#cx_profile_name ProtocolsCifsUserGroupPrivilegeResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_user_group_privilege_resource#cx_profile_name ProtocolsCifsUserGroupPrivilegeResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * CifsUserGroupPrivilege name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_user_group_privilege_resource#name ProtocolsCifsUserGroupPrivilegeResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_user_group_privilege_resource#name ProtocolsCifsUserGroupPrivilegeResource#name}
   */
   readonly name: string;
   /**
   * List of privileges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_user_group_privilege_resource#privileges ProtocolsCifsUserGroupPrivilegeResource#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_user_group_privilege_resource#privileges ProtocolsCifsUserGroupPrivilegeResource#privileges}
   */
   readonly privileges: string[];
   /**
   * CifsUserGroupPrivilege svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_user_group_privilege_resource#svm_name ProtocolsCifsUserGroupPrivilegeResource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_user_group_privilege_resource#svm_name ProtocolsCifsUserGroupPrivilegeResource#svm_name}
   */
   readonly svmName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_user_group_privilege_resource netapp-ontap_protocols_cifs_user_group_privilege_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_user_group_privilege_resource netapp-ontap_protocols_cifs_user_group_privilege_resource}
 */
 export class ProtocolsCifsUserGroupPrivilegeResource extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ProtocolsCifsUserGroupPrivilegeResource extends cdktf.TerraformReso
   * Generates CDKTF code for importing a ProtocolsCifsUserGroupPrivilegeResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtocolsCifsUserGroupPrivilegeResource to import
-  * @param importFromId The id of the existing ProtocolsCifsUserGroupPrivilegeResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_user_group_privilege_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtocolsCifsUserGroupPrivilegeResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_user_group_privilege_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtocolsCifsUserGroupPrivilegeResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ProtocolsCifsUserGroupPrivilegeResource extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_user_group_privilege_resource netapp-ontap_protocols_cifs_user_group_privilege_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_user_group_privilege_resource netapp-ontap_protocols_cifs_user_group_privilege_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ProtocolsCifsUserGroupPrivilegeResource extends cdktf.TerraformReso
       terraformResourceType: 'netapp-ontap_protocols_cifs_user_group_privilege_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

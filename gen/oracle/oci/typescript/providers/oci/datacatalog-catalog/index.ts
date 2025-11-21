@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DatacatalogCatalogConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog#attached_catalog_private_endpoints DatacatalogCatalog#attached_catalog_private_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog#attached_catalog_private_endpoints DatacatalogCatalog#attached_catalog_private_endpoints}
   */
   readonly attachedCatalogPrivateEndpoints?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog#compartment_id DatacatalogCatalog#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog#compartment_id DatacatalogCatalog#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog#defined_tags DatacatalogCatalog#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog#defined_tags DatacatalogCatalog#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog#display_name DatacatalogCatalog#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog#display_name DatacatalogCatalog#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog#freeform_tags DatacatalogCatalog#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog#freeform_tags DatacatalogCatalog#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog#id DatacatalogCatalog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog#id DatacatalogCatalog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,7 +37,7 @@ export interface DatacatalogCatalogConfig extends cdktf.TerraformMetaArguments {
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog#timeouts DatacatalogCatalog#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog#timeouts DatacatalogCatalog#timeouts}
   */
   readonly timeouts?: DatacatalogCatalogTimeouts;
 }
@@ -133,15 +133,15 @@ export class DatacatalogCatalogLocksList extends cdktf.ComplexList {
 }
 export interface DatacatalogCatalogTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog#create DatacatalogCatalog#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog#create DatacatalogCatalog#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog#delete DatacatalogCatalog#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog#delete DatacatalogCatalog#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog#update DatacatalogCatalog#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog#update DatacatalogCatalog#update}
   */
   readonly update?: string;
 }
@@ -293,7 +293,7 @@ export class DatacatalogCatalogTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog oci_datacatalog_catalog}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog oci_datacatalog_catalog}
 */
 export class DatacatalogCatalog extends cdktf.TerraformResource {
 
@@ -309,7 +309,7 @@ export class DatacatalogCatalog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacatalogCatalog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacatalogCatalog to import
-  * @param importFromId The id of the existing DatacatalogCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacatalogCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacatalogCatalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -321,7 +321,7 @@ export class DatacatalogCatalog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datacatalog_catalog oci_datacatalog_catalog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datacatalog_catalog oci_datacatalog_catalog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -332,8 +332,8 @@ export class DatacatalogCatalog extends cdktf.TerraformResource {
       terraformResourceType: 'oci_datacatalog_catalog',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

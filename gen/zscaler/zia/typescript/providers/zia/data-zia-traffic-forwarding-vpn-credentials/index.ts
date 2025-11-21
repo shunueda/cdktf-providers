@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_vpn_credentials
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_vpn_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataZiaTrafficForwardingVpnCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_vpn_credentials#fqdn DataZiaTrafficForwardingVpnCredentials#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_vpn_credentials#fqdn DataZiaTrafficForwardingVpnCredentials#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_vpn_credentials#id DataZiaTrafficForwardingVpnCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_vpn_credentials#id DataZiaTrafficForwardingVpnCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_vpn_credentials#ip_address DataZiaTrafficForwardingVpnCredentials#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_vpn_credentials#ip_address DataZiaTrafficForwardingVpnCredentials#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_vpn_credentials#type DataZiaTrafficForwardingVpnCredentials#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_vpn_credentials#type DataZiaTrafficForwardingVpnCredentials#type}
   */
   readonly type?: string;
 }
@@ -201,7 +201,7 @@ export class DataZiaTrafficForwardingVpnCredentialsManagedByList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_vpn_credentials zia_traffic_forwarding_vpn_credentials}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_vpn_credentials zia_traffic_forwarding_vpn_credentials}
 */
 export class DataZiaTrafficForwardingVpnCredentials extends cdktf.TerraformDataSource {
 
@@ -217,7 +217,7 @@ export class DataZiaTrafficForwardingVpnCredentials extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataZiaTrafficForwardingVpnCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaTrafficForwardingVpnCredentials to import
-  * @param importFromId The id of the existing DataZiaTrafficForwardingVpnCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_vpn_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaTrafficForwardingVpnCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_vpn_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaTrafficForwardingVpnCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class DataZiaTrafficForwardingVpnCredentials extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_vpn_credentials zia_traffic_forwarding_vpn_credentials} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_vpn_credentials zia_traffic_forwarding_vpn_credentials} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class DataZiaTrafficForwardingVpnCredentials extends cdktf.TerraformDataS
       terraformResourceType: 'zia_traffic_forwarding_vpn_credentials',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

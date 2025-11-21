@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface GenerativeAiGenerativeAiPrivateEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#compartment_id GenerativeAiGenerativeAiPrivateEndpoint#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#compartment_id GenerativeAiGenerativeAiPrivateEndpoint#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#defined_tags GenerativeAiGenerativeAiPrivateEndpoint#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#defined_tags GenerativeAiGenerativeAiPrivateEndpoint#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#description GenerativeAiGenerativeAiPrivateEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#description GenerativeAiGenerativeAiPrivateEndpoint#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#display_name GenerativeAiGenerativeAiPrivateEndpoint#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#display_name GenerativeAiGenerativeAiPrivateEndpoint#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#dns_prefix GenerativeAiGenerativeAiPrivateEndpoint#dns_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#dns_prefix GenerativeAiGenerativeAiPrivateEndpoint#dns_prefix}
   */
   readonly dnsPrefix: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#freeform_tags GenerativeAiGenerativeAiPrivateEndpoint#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#freeform_tags GenerativeAiGenerativeAiPrivateEndpoint#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#id GenerativeAiGenerativeAiPrivateEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#id GenerativeAiGenerativeAiPrivateEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#nsg_ids GenerativeAiGenerativeAiPrivateEndpoint#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#nsg_ids GenerativeAiGenerativeAiPrivateEndpoint#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#subnet_id GenerativeAiGenerativeAiPrivateEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#subnet_id GenerativeAiGenerativeAiPrivateEndpoint#subnet_id}
   */
   readonly subnetId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#timeouts GenerativeAiGenerativeAiPrivateEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#timeouts GenerativeAiGenerativeAiPrivateEndpoint#timeouts}
   */
   readonly timeouts?: GenerativeAiGenerativeAiPrivateEndpointTimeouts;
 }
 export interface GenerativeAiGenerativeAiPrivateEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#create GenerativeAiGenerativeAiPrivateEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#create GenerativeAiGenerativeAiPrivateEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#delete GenerativeAiGenerativeAiPrivateEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#delete GenerativeAiGenerativeAiPrivateEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#update GenerativeAiGenerativeAiPrivateEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#update GenerativeAiGenerativeAiPrivateEndpoint#update}
   */
   readonly update?: string;
 }
@@ -215,7 +215,7 @@ export class GenerativeAiGenerativeAiPrivateEndpointTimeoutsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint oci_generative_ai_generative_ai_private_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint oci_generative_ai_generative_ai_private_endpoint}
 */
 export class GenerativeAiGenerativeAiPrivateEndpoint extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class GenerativeAiGenerativeAiPrivateEndpoint extends cdktf.TerraformReso
   * Generates CDKTF code for importing a GenerativeAiGenerativeAiPrivateEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GenerativeAiGenerativeAiPrivateEndpoint to import
-  * @param importFromId The id of the existing GenerativeAiGenerativeAiPrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GenerativeAiGenerativeAiPrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GenerativeAiGenerativeAiPrivateEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class GenerativeAiGenerativeAiPrivateEndpoint extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_generative_ai_private_endpoint oci_generative_ai_generative_ai_private_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_generative_ai_private_endpoint oci_generative_ai_generative_ai_private_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class GenerativeAiGenerativeAiPrivateEndpoint extends cdktf.TerraformReso
       terraformResourceType: 'oci_generative_ai_generative_ai_private_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

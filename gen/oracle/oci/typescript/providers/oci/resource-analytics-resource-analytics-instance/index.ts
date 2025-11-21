@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceAnalyticsResourceAnalyticsInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#compartment_id ResourceAnalyticsResourceAnalyticsInstance#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#compartment_id ResourceAnalyticsResourceAnalyticsInstance#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#defined_tags ResourceAnalyticsResourceAnalyticsInstance#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#defined_tags ResourceAnalyticsResourceAnalyticsInstance#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#description ResourceAnalyticsResourceAnalyticsInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#description ResourceAnalyticsResourceAnalyticsInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#display_name ResourceAnalyticsResourceAnalyticsInstance#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#display_name ResourceAnalyticsResourceAnalyticsInstance#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#freeform_tags ResourceAnalyticsResourceAnalyticsInstance#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#freeform_tags ResourceAnalyticsResourceAnalyticsInstance#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#id ResourceAnalyticsResourceAnalyticsInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#id ResourceAnalyticsResourceAnalyticsInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#is_mutual_tls_required ResourceAnalyticsResourceAnalyticsInstance#is_mutual_tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#is_mutual_tls_required ResourceAnalyticsResourceAnalyticsInstance#is_mutual_tls_required}
   */
   readonly isMutualTlsRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#license_model ResourceAnalyticsResourceAnalyticsInstance#license_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#license_model ResourceAnalyticsResourceAnalyticsInstance#license_model}
   */
   readonly licenseModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#nsg_ids ResourceAnalyticsResourceAnalyticsInstance#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#nsg_ids ResourceAnalyticsResourceAnalyticsInstance#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#subnet_id ResourceAnalyticsResourceAnalyticsInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#subnet_id ResourceAnalyticsResourceAnalyticsInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * adw_admin_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#adw_admin_password ResourceAnalyticsResourceAnalyticsInstance#adw_admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#adw_admin_password ResourceAnalyticsResourceAnalyticsInstance#adw_admin_password}
   */
   readonly adwAdminPassword: ResourceAnalyticsResourceAnalyticsInstanceAdwAdminPassword;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#timeouts ResourceAnalyticsResourceAnalyticsInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#timeouts ResourceAnalyticsResourceAnalyticsInstance#timeouts}
   */
   readonly timeouts?: ResourceAnalyticsResourceAnalyticsInstanceTimeouts;
 }
 export interface ResourceAnalyticsResourceAnalyticsInstanceAdwAdminPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#password ResourceAnalyticsResourceAnalyticsInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#password ResourceAnalyticsResourceAnalyticsInstance#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#password_type ResourceAnalyticsResourceAnalyticsInstance#password_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#password_type ResourceAnalyticsResourceAnalyticsInstance#password_type}
   */
   readonly passwordType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#secret_id ResourceAnalyticsResourceAnalyticsInstance#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#secret_id ResourceAnalyticsResourceAnalyticsInstance#secret_id}
   */
   readonly secretId?: string;
 }
@@ -212,19 +212,19 @@ export class ResourceAnalyticsResourceAnalyticsInstanceAdwAdminPasswordOutputRef
 }
 export interface ResourceAnalyticsResourceAnalyticsInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#create ResourceAnalyticsResourceAnalyticsInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#create ResourceAnalyticsResourceAnalyticsInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#delete ResourceAnalyticsResourceAnalyticsInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#delete ResourceAnalyticsResourceAnalyticsInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#read ResourceAnalyticsResourceAnalyticsInstance#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#read ResourceAnalyticsResourceAnalyticsInstance#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#update ResourceAnalyticsResourceAnalyticsInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#update ResourceAnalyticsResourceAnalyticsInstance#update}
   */
   readonly update?: string;
 }
@@ -405,7 +405,7 @@ export class ResourceAnalyticsResourceAnalyticsInstanceTimeoutsOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance oci_resource_analytics_resource_analytics_instance}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance oci_resource_analytics_resource_analytics_instance}
 */
 export class ResourceAnalyticsResourceAnalyticsInstance extends cdktf.TerraformResource {
 
@@ -421,7 +421,7 @@ export class ResourceAnalyticsResourceAnalyticsInstance extends cdktf.TerraformR
   * Generates CDKTF code for importing a ResourceAnalyticsResourceAnalyticsInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceAnalyticsResourceAnalyticsInstance to import
-  * @param importFromId The id of the existing ResourceAnalyticsResourceAnalyticsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceAnalyticsResourceAnalyticsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceAnalyticsResourceAnalyticsInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -433,7 +433,7 @@ export class ResourceAnalyticsResourceAnalyticsInstance extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_analytics_resource_analytics_instance oci_resource_analytics_resource_analytics_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance oci_resource_analytics_resource_analytics_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -444,8 +444,8 @@ export class ResourceAnalyticsResourceAnalyticsInstance extends cdktf.TerraformR
       terraformResourceType: 'oci_resource_analytics_resource_analytics_instance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

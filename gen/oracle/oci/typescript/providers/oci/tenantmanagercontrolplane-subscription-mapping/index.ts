@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/tenantmanagercontrolplane_subscription_mapping
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface TenantmanagercontrolplaneSubscriptionMappingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/tenantmanagercontrolplane_subscription_mapping#compartment_id TenantmanagercontrolplaneSubscriptionMapping#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#compartment_id TenantmanagercontrolplaneSubscriptionMapping#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/tenantmanagercontrolplane_subscription_mapping#id TenantmanagercontrolplaneSubscriptionMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#id TenantmanagercontrolplaneSubscriptionMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/tenantmanagercontrolplane_subscription_mapping#subscription_id TenantmanagercontrolplaneSubscriptionMapping#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#subscription_id TenantmanagercontrolplaneSubscriptionMapping#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/tenantmanagercontrolplane_subscription_mapping#timeouts TenantmanagercontrolplaneSubscriptionMapping#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#timeouts TenantmanagercontrolplaneSubscriptionMapping#timeouts}
   */
   readonly timeouts?: TenantmanagercontrolplaneSubscriptionMappingTimeouts;
 }
 export interface TenantmanagercontrolplaneSubscriptionMappingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/tenantmanagercontrolplane_subscription_mapping#create TenantmanagercontrolplaneSubscriptionMapping#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#create TenantmanagercontrolplaneSubscriptionMapping#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/tenantmanagercontrolplane_subscription_mapping#delete TenantmanagercontrolplaneSubscriptionMapping#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#delete TenantmanagercontrolplaneSubscriptionMapping#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/tenantmanagercontrolplane_subscription_mapping#update TenantmanagercontrolplaneSubscriptionMapping#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#update TenantmanagercontrolplaneSubscriptionMapping#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class TenantmanagercontrolplaneSubscriptionMappingTimeoutsOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/tenantmanagercontrolplane_subscription_mapping oci_tenantmanagercontrolplane_subscription_mapping}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping oci_tenantmanagercontrolplane_subscription_mapping}
 */
 export class TenantmanagercontrolplaneSubscriptionMapping extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class TenantmanagercontrolplaneSubscriptionMapping extends cdktf.Terrafor
   * Generates CDKTF code for importing a TenantmanagercontrolplaneSubscriptionMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TenantmanagercontrolplaneSubscriptionMapping to import
-  * @param importFromId The id of the existing TenantmanagercontrolplaneSubscriptionMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/tenantmanagercontrolplane_subscription_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TenantmanagercontrolplaneSubscriptionMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TenantmanagercontrolplaneSubscriptionMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class TenantmanagercontrolplaneSubscriptionMapping extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/tenantmanagercontrolplane_subscription_mapping oci_tenantmanagercontrolplane_subscription_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping oci_tenantmanagercontrolplane_subscription_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class TenantmanagercontrolplaneSubscriptionMapping extends cdktf.Terrafor
       terraformResourceType: 'oci_tenantmanagercontrolplane_subscription_mapping',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

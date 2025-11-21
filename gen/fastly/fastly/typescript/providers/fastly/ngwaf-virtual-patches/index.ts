@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_virtual_patches
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_virtual_patches
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NgwafVirtualPatchesConfig extends cdktf.TerraformMetaArguments 
   /**
   * Action to take when a signal for virtual patch is detected. Accepted values are `log` and `block`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_virtual_patches#action NgwafVirtualPatches#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_virtual_patches#action NgwafVirtualPatches#action}
   */
   readonly action: string;
   /**
   * Control for enabling and disabling a virtual patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_virtual_patches#enabled NgwafVirtualPatches#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_virtual_patches#enabled NgwafVirtualPatches#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_virtual_patches#id NgwafVirtualPatches#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_virtual_patches#id NgwafVirtualPatches#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface NgwafVirtualPatchesConfig extends cdktf.TerraformMetaArguments 
   /**
   * The ID of the virtual patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_virtual_patches#virtual_patch_id NgwafVirtualPatches#virtual_patch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_virtual_patches#virtual_patch_id NgwafVirtualPatches#virtual_patch_id}
   */
   readonly virtualPatchId: string;
   /**
   * The ID of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_virtual_patches#workspace_id NgwafVirtualPatches#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_virtual_patches#workspace_id NgwafVirtualPatches#workspace_id}
   */
   readonly workspaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_virtual_patches fastly_ngwaf_virtual_patches}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_virtual_patches fastly_ngwaf_virtual_patches}
 */
 export class NgwafVirtualPatches extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class NgwafVirtualPatches extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NgwafVirtualPatches resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NgwafVirtualPatches to import
-  * @param importFromId The id of the existing NgwafVirtualPatches that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_virtual_patches#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NgwafVirtualPatches that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_virtual_patches#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NgwafVirtualPatches to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class NgwafVirtualPatches extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_virtual_patches fastly_ngwaf_virtual_patches} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_virtual_patches fastly_ngwaf_virtual_patches} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class NgwafVirtualPatches extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_virtual_patches',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

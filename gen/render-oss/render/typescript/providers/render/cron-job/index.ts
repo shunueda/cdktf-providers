@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface CronJobConfig extends cdktf.TerraformMetaArguments {
   /**
   * Map of environment variable names to their values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#env_vars CronJob#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#env_vars CronJob#env_vars}
   */
   readonly envVars?: { [key: string]: CronJobEnvVars } | cdktf.IResolvable;
   /**
   * ID of the [project environment](https://render.com/docs/projects) that the resource belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#environment_id CronJob#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#environment_id CronJob#environment_id}
   */
   readonly environmentId?: string;
   /**
   * Configure the [log stream override settings](https://render.com/docs/log-streams#overriding-defaults) for this service. These will override the global log stream settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#log_stream_override CronJob#log_stream_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#log_stream_override CronJob#log_stream_override}
   */
   readonly logStreamOverride?: CronJobLogStreamOverride;
   /**
   * Name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#name CronJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#name CronJob#name}
   */
   readonly name: string;
   /**
   * Configure the [notification settings](https://render.com/docs/notifications) for this service. These will override the global notification settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#notification_override CronJob#notification_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#notification_override CronJob#notification_override}
   */
   readonly notificationOverride?: CronJobNotificationOverride;
   /**
   * Plan to use for the service. Must be one of `starter`, `standard`, `pro`, `pro_plus`, `pro_max`, `pro_ultra`, or a custom plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#plan CronJob#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#plan CronJob#plan}
   */
   readonly plan: string;
   /**
   * [Region](https://render.com/docs/regions) to deploy the service. One of `frankfurt`, `ohio`, `oregon`, `singapore`, `virginia`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#region CronJob#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#region CronJob#region}
   */
   readonly region: string;
   /**
   * When you specify a [root directory](https://render.com/docs/monorepo-support#root-directory), Render runs all your commands in the specified directory and ignores changes outside the directory. Defaults to the repository root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#root_directory CronJob#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#root_directory CronJob#root_directory}
   */
   readonly rootDirectory?: string;
   /**
   * Source of the build artifacts or image that run your service. You must provide one of [native_runtime](https://render.com/docs/native-runtimes), [docker](https://render.com/docs/docker), or [image](https://render.com/docs/deploy-an-image).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#runtime_source CronJob#runtime_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#runtime_source CronJob#runtime_source}
   */
   readonly runtimeSource: CronJobRuntimeSource;
   /**
   * Cron schedule to run the job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#schedule CronJob#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#schedule CronJob#schedule}
   */
   readonly schedule: string;
   /**
   * A map of secret file paths to their contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#secret_files CronJob#secret_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#secret_files CronJob#secret_files}
   */
   readonly secretFiles?: { [key: string]: CronJobSecretFiles } | cdktf.IResolvable;
   /**
   * Command to run the service. When using native runtimes, this will be used as the start command and is required. For [Docker](https://render.com/docs/docker) and [image-backed](https://render.com/docs/deploy-an-image) services, this will override the default Docker command for the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#start_command CronJob#start_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#start_command CronJob#start_command}
   */
   readonly startCommand?: string;
 }
@@ -84,11 +84,11 @@ export interface CronJobEnvVars {
   /**
   * If true, Render will generate the variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#generate_value CronJob#generate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#generate_value CronJob#generate_value}
   */
   readonly generateValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#value CronJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#value CronJob#value}
   */
   readonly value?: string;
 }
@@ -233,19 +233,19 @@ export interface CronJobLogStreamOverride {
   /**
   * The endpoint to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#endpoint CronJob#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#endpoint CronJob#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to send or drop logs for this service. Must be one of `send` or `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#setting CronJob#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#setting CronJob#setting}
   */
   readonly setting: string;
   /**
   * The token to use when sending logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#token CronJob#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#token CronJob#token}
   */
   readonly token?: string;
 }
@@ -396,13 +396,13 @@ export interface CronJobNotificationOverride {
   /**
   * The types of notifications to send. Must be one of `default`, `all`, `failure`, or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#notifications_to_send CronJob#notifications_to_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#notifications_to_send CronJob#notifications_to_send}
   */
   readonly notificationsToSend?: string;
   /**
   * Whether notifications for previews of this service are sent. Must be one of `all`, `failure`, or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#preview_notifications_enabled CronJob#preview_notifications_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#preview_notifications_enabled CronJob#preview_notifications_enabled}
   */
   readonly previewNotificationsEnabled?: string;
 }
@@ -527,13 +527,13 @@ export interface CronJobRuntimeSourceDockerBuildFilter {
   /**
   * Changes that match these paths will not trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#ignored_paths CronJob#ignored_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#ignored_paths CronJob#ignored_paths}
   */
   readonly ignoredPaths?: string[];
   /**
   * Changes that match these paths will trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#paths CronJob#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#paths CronJob#paths}
   */
   readonly paths?: string[];
 }
@@ -658,49 +658,49 @@ export interface CronJobRuntimeSourceDocker {
   /**
   * [Automatic deploy](https://render.com/docs/deploys#automatic-git-deploys) on every push to your repository, or changes to your service settings or environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#auto_deploy CronJob#auto_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#auto_deploy CronJob#auto_deploy}
   */
   readonly autoDeploy?: boolean | cdktf.IResolvable;
   /**
   * Sets the Automatic deploy behavior for a Git-based service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#auto_deploy_trigger CronJob#auto_deploy_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#auto_deploy_trigger CronJob#auto_deploy_trigger}
   */
   readonly autoDeployTrigger?: string;
   /**
   * Branch of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#branch CronJob#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#branch CronJob#branch}
   */
   readonly branch: string;
   /**
   * Apply [build filters](https://render.com/docs/monorepo-support#build-filters) to configure which changes in your git repository trigger automatic deploys. If you've defined a root directory, you can still define paths outside of the root directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#build_filter CronJob#build_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#build_filter CronJob#build_filter}
   */
   readonly buildFilter?: CronJobRuntimeSourceDockerBuildFilter;
   /**
   * [Docker build context directory.](https://docs.docker.com/reference/dockerfile/#usage) This is relative to your repository root. Defaults to the root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#context CronJob#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#context CronJob#context}
   */
   readonly context?: string;
   /**
   * Path to your Dockerfile relative to the repository root. This is not relative to your Docker build context. Example: `./subdir/Dockerfile.`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#dockerfile_path CronJob#dockerfile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#dockerfile_path CronJob#dockerfile_path}
   */
   readonly dockerfilePath?: string;
   /**
   * ID of the registry credential to use when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#registry_credential_id CronJob#registry_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#registry_credential_id CronJob#registry_credential_id}
   */
   readonly registryCredentialId?: string;
   /**
   * URL of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#repo_url CronJob#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#repo_url CronJob#repo_url}
   */
   readonly repoUrl: string;
 }
@@ -993,25 +993,25 @@ export interface CronJobRuntimeSourceImage {
   /**
   * Digest of the Docker image to deploy. Mutually exclusive with tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#digest CronJob#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#digest CronJob#digest}
   */
   readonly digest?: string;
   /**
   * URL of the Docker image to deploy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#image_url CronJob#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#image_url CronJob#image_url}
   */
   readonly imageUrl: string;
   /**
   * ID of the registry credential to use when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#registry_credential_id CronJob#registry_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#registry_credential_id CronJob#registry_credential_id}
   */
   readonly registryCredentialId?: string;
   /**
   * Tag of the Docker image to deploy. Mutually exclusive with digest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#tag CronJob#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#tag CronJob#tag}
   */
   readonly tag?: string;
 }
@@ -1191,13 +1191,13 @@ export interface CronJobRuntimeSourceNativeRuntimeBuildFilter {
   /**
   * Changes that match these paths will not trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#ignored_paths CronJob#ignored_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#ignored_paths CronJob#ignored_paths}
   */
   readonly ignoredPaths?: string[];
   /**
   * Changes that match these paths will trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#paths CronJob#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#paths CronJob#paths}
   */
   readonly paths?: string[];
 }
@@ -1322,43 +1322,43 @@ export interface CronJobRuntimeSourceNativeRuntime {
   /**
   * [Automatic deploy](https://render.com/docs/deploys#automatic-git-deploys) on every push to your repository, or changes to your service settings or environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#auto_deploy CronJob#auto_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#auto_deploy CronJob#auto_deploy}
   */
   readonly autoDeploy?: boolean | cdktf.IResolvable;
   /**
   * Sets the Automatic deploy behavior for a Git-based service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#auto_deploy_trigger CronJob#auto_deploy_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#auto_deploy_trigger CronJob#auto_deploy_trigger}
   */
   readonly autoDeployTrigger?: string;
   /**
   * Branch of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#branch CronJob#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#branch CronJob#branch}
   */
   readonly branch: string;
   /**
   * Command to build the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#build_command CronJob#build_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#build_command CronJob#build_command}
   */
   readonly buildCommand: string;
   /**
   * Apply [build filters](https://render.com/docs/monorepo-support#build-filters) to configure which changes in your git repository trigger automatic deploys. If you've defined a root directory, you can still define paths outside of the root directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#build_filter CronJob#build_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#build_filter CronJob#build_filter}
   */
   readonly buildFilter?: CronJobRuntimeSourceNativeRuntimeBuildFilter;
   /**
   * URL of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#repo_url CronJob#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#repo_url CronJob#repo_url}
   */
   readonly repoUrl: string;
   /**
   * Runtime of the service to use. Must be one of `elixir`, `go`, `node`, `python`, `ruby`, `rust`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#runtime CronJob#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#runtime CronJob#runtime}
   */
   readonly runtime: string;
 }
@@ -1616,19 +1616,19 @@ export interface CronJobRuntimeSource {
   /**
   * Details for building and deploying a service [using a Dockerfile](https://render.com/docs/docker).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#docker CronJob#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#docker CronJob#docker}
   */
   readonly docker?: CronJobRuntimeSourceDocker;
   /**
   * Details for deploying a service using a [Docker image from a registry](https://render.com/docs/deploy-an-image).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#image CronJob#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#image CronJob#image}
   */
   readonly image?: CronJobRuntimeSourceImage;
   /**
   * Details for building and deploying a service using one of Render's [native runtimes](https://render.com/docs/native-runtimes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#native_runtime CronJob#native_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#native_runtime CronJob#native_runtime}
   */
   readonly nativeRuntime?: CronJobRuntimeSourceNativeRuntime;
 }
@@ -1782,7 +1782,7 @@ export interface CronJobSecretFiles {
   /**
   * The content of the secret file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#content CronJob#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#content CronJob#content}
   */
   readonly content: string;
 }
@@ -1893,7 +1893,7 @@ export class CronJobSecretFilesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job render_cron_job}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job render_cron_job}
 */
 export class CronJob extends cdktf.TerraformResource {
 
@@ -1909,7 +1909,7 @@ export class CronJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CronJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CronJob to import
-  * @param importFromId The id of the existing CronJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CronJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CronJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1921,7 +1921,7 @@ export class CronJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/cron_job render_cron_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/cron_job render_cron_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1932,8 +1932,8 @@ export class CronJob extends cdktf.TerraformResource {
       terraformResourceType: 'render_cron_job',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

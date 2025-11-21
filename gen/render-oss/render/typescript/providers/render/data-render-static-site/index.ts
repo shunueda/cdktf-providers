@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/static_site
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/static_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataRenderStaticSiteConfig extends cdktf.TerraformMetaArguments
   /**
   * Custom domains to associate with the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/static_site#custom_domains DataRenderStaticSite#custom_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/static_site#custom_domains DataRenderStaticSite#custom_domains}
   */
   readonly customDomains?: DataRenderStaticSiteCustomDomains[] | cdktf.IResolvable;
   /**
   * Unique identifier for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/static_site#id DataRenderStaticSite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/static_site#id DataRenderStaticSite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -181,7 +181,7 @@ export interface DataRenderStaticSiteCustomDomains {
   /**
   * Unique identifier for the custom domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/static_site#id DataRenderStaticSite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/static_site#id DataRenderStaticSite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -678,7 +678,7 @@ export class DataRenderStaticSiteRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/static_site render_static_site}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/static_site render_static_site}
 */
 export class DataRenderStaticSite extends cdktf.TerraformDataSource {
 
@@ -694,7 +694,7 @@ export class DataRenderStaticSite extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRenderStaticSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRenderStaticSite to import
-  * @param importFromId The id of the existing DataRenderStaticSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/static_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRenderStaticSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/static_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRenderStaticSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -706,7 +706,7 @@ export class DataRenderStaticSite extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/static_site render_static_site} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/static_site render_static_site} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -717,8 +717,8 @@ export class DataRenderStaticSite extends cdktf.TerraformDataSource {
       terraformResourceType: 'render_static_site',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

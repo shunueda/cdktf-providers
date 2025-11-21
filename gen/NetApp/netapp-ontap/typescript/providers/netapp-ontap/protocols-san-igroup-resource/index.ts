@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface ProtocolsSanIgroupResourceConfig extends cdktf.TerraformMetaArg
   /**
   * Comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#comment ProtocolsSanIgroupResource#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#comment ProtocolsSanIgroupResource#comment}
   */
   readonly comment?: string;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#cx_profile_name ProtocolsSanIgroupResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#cx_profile_name ProtocolsSanIgroupResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * List of initiator groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#igroups ProtocolsSanIgroupResource#igroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#igroups ProtocolsSanIgroupResource#igroups}
   */
   readonly igroups?: ProtocolsSanIgroupResourceIgroups[] | cdktf.IResolvable;
   /**
   * List of initiators
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#initiators ProtocolsSanIgroupResource#initiators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#initiators ProtocolsSanIgroupResource#initiators}
   */
   readonly initiators?: ProtocolsSanIgroupResourceInitiators[] | cdktf.IResolvable;
   /**
   * Existing SVM in which to create the initiator group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#name ProtocolsSanIgroupResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#name ProtocolsSanIgroupResource#name}
   */
   readonly name: string;
   /**
   * Operating system of the initiator group's initiators.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#os_type ProtocolsSanIgroupResource#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#os_type ProtocolsSanIgroupResource#os_type}
   */
   readonly osType: string;
   /**
   * Required ONTAP 9.9 or greater. The portset to which the initiator group is bound. Binding the initiator group to a portset restricts the initiators of the group to accessing mapped LUNs only through network interfaces in the portset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#portset ProtocolsSanIgroupResource#portset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#portset ProtocolsSanIgroupResource#portset}
   */
   readonly portset?: ProtocolsSanIgroupResourcePortset;
   /**
   * If not specified, the default protocol is mixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#protocol ProtocolsSanIgroupResource#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#protocol ProtocolsSanIgroupResource#protocol}
   */
   readonly protocol?: string;
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#svm ProtocolsSanIgroupResource#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#svm ProtocolsSanIgroupResource#svm}
   */
   readonly svm: ProtocolsSanIgroupResourceSvm;
 }
@@ -67,7 +67,7 @@ export interface ProtocolsSanIgroupResourceIgroups {
   /**
   * Initiator group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#name ProtocolsSanIgroupResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#name ProtocolsSanIgroupResource#name}
   */
   readonly name: string;
 }
@@ -182,7 +182,7 @@ export interface ProtocolsSanIgroupResourceInitiators {
   /**
   * Initiator name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#name ProtocolsSanIgroupResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#name ProtocolsSanIgroupResource#name}
   */
   readonly name: string;
 }
@@ -297,7 +297,7 @@ export interface ProtocolsSanIgroupResourcePortset {
   /**
   * Portset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#name ProtocolsSanIgroupResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#name ProtocolsSanIgroupResource#name}
   */
   readonly name: string;
 }
@@ -390,7 +390,7 @@ export interface ProtocolsSanIgroupResourceSvm {
   /**
   * name of the SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#name ProtocolsSanIgroupResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#name ProtocolsSanIgroupResource#name}
   */
   readonly name: string;
 }
@@ -481,7 +481,7 @@ export class ProtocolsSanIgroupResourceSvmOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource netapp-ontap_protocols_san_igroup_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource netapp-ontap_protocols_san_igroup_resource}
 */
 export class ProtocolsSanIgroupResource extends cdktf.TerraformResource {
 
@@ -497,7 +497,7 @@ export class ProtocolsSanIgroupResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtocolsSanIgroupResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtocolsSanIgroupResource to import
-  * @param importFromId The id of the existing ProtocolsSanIgroupResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtocolsSanIgroupResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtocolsSanIgroupResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -509,7 +509,7 @@ export class ProtocolsSanIgroupResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_igroup_resource netapp-ontap_protocols_san_igroup_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_igroup_resource netapp-ontap_protocols_san_igroup_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -520,8 +520,8 @@ export class ProtocolsSanIgroupResource extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_protocols_san_igroup_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

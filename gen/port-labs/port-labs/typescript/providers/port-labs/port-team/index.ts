@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/resources/port_team
+// https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_team
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PortTeamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/resources/port_team#description PortTeam#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_team#description PortTeam#description}
   */
   readonly description?: string;
   /**
   * The name of the team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/resources/port_team#name PortTeam#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_team#name PortTeam#name}
   */
   readonly name: string;
   /**
   * The users of the team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/resources/port_team#users PortTeam#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_team#users PortTeam#users}
   */
   readonly users?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/resources/port_team port_team}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_team port_team}
 */
 export class PortTeam extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class PortTeam extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortTeam resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortTeam to import
-  * @param importFromId The id of the existing PortTeam that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/resources/port_team#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortTeam that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_team#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortTeam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class PortTeam extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/resources/port_team port_team} Resource
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_team port_team} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class PortTeam extends cdktf.TerraformResource {
       terraformResourceType: 'port_team',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.15.1',
-        providerVersionConstraint: '2.15.1'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

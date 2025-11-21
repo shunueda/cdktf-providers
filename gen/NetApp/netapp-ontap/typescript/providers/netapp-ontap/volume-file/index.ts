@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_file
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface VolumeFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of bytes used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_file#byte_offset VolumeFile#byte_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_file#byte_offset VolumeFile#byte_offset}
   */
   readonly byteOffset?: number;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_file#cx_profile_name VolumeFile#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_file#cx_profile_name VolumeFile#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * The name of the file or directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_file#name VolumeFile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_file#name VolumeFile#name}
   */
   readonly name?: string;
   /**
   * Whether the file can be overwritten
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_file#overwrite VolumeFile#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_file#overwrite VolumeFile#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
   * Relative path of a file or directory in the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_file#path VolumeFile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_file#path VolumeFile#path}
   */
   readonly path: string;
   /**
   * Name of the svm to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_file#svm_name VolumeFile#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_file#svm_name VolumeFile#svm_name}
   */
   readonly svmName: string;
   /**
   * The type of the file or directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_file#type VolumeFile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_file#type VolumeFile#type}
   */
   readonly type?: string;
   /**
   * UNIX permissions to be viewed as an octal number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_file#unix_permissions VolumeFile#unix_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_file#unix_permissions VolumeFile#unix_permissions}
   */
   readonly unixPermissions?: number;
   /**
   * Volume name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_file#volume_name VolumeFile#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_file#volume_name VolumeFile#volume_name}
   */
   readonly volumeName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_file netapp-ontap_volume_file}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_file netapp-ontap_volume_file}
 */
 export class VolumeFile extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class VolumeFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VolumeFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VolumeFile to import
-  * @param importFromId The id of the existing VolumeFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VolumeFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VolumeFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class VolumeFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_file netapp-ontap_volume_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_file netapp-ontap_volume_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class VolumeFile extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_volume_file',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

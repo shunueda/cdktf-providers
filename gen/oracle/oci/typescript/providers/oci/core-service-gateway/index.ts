@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface CoreServiceGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#compartment_id CoreServiceGateway#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#compartment_id CoreServiceGateway#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#defined_tags CoreServiceGateway#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#defined_tags CoreServiceGateway#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#display_name CoreServiceGateway#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#display_name CoreServiceGateway#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#freeform_tags CoreServiceGateway#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#freeform_tags CoreServiceGateway#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#id CoreServiceGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#id CoreServiceGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#route_table_id CoreServiceGateway#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#route_table_id CoreServiceGateway#route_table_id}
   */
   readonly routeTableId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#vcn_id CoreServiceGateway#vcn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#vcn_id CoreServiceGateway#vcn_id}
   */
   readonly vcnId: string;
   /**
   * services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#services CoreServiceGateway#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#services CoreServiceGateway#services}
   */
   readonly services: CoreServiceGatewayServices[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#timeouts CoreServiceGateway#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#timeouts CoreServiceGateway#timeouts}
   */
   readonly timeouts?: CoreServiceGatewayTimeouts;
 }
 export interface CoreServiceGatewayServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#service_id CoreServiceGateway#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#service_id CoreServiceGateway#service_id}
   */
   readonly serviceId: string;
 }
@@ -171,15 +171,15 @@ export class CoreServiceGatewayServicesList extends cdktf.ComplexList {
 }
 export interface CoreServiceGatewayTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#create CoreServiceGateway#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#create CoreServiceGateway#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#delete CoreServiceGateway#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#delete CoreServiceGateway#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#update CoreServiceGateway#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#update CoreServiceGateway#update}
   */
   readonly update?: string;
 }
@@ -331,7 +331,7 @@ export class CoreServiceGatewayTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway oci_core_service_gateway}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway oci_core_service_gateway}
 */
 export class CoreServiceGateway extends cdktf.TerraformResource {
 
@@ -347,7 +347,7 @@ export class CoreServiceGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CoreServiceGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoreServiceGateway to import
-  * @param importFromId The id of the existing CoreServiceGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoreServiceGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoreServiceGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -359,7 +359,7 @@ export class CoreServiceGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_service_gateway oci_core_service_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_service_gateway oci_core_service_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -370,8 +370,8 @@ export class CoreServiceGateway extends cdktf.TerraformResource {
       terraformResourceType: 'oci_core_service_gateway',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

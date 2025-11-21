@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SecurityAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#applications SecurityAccount#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#applications SecurityAccount#applications}
   */
   readonly applications: SecurityAccountApplications[] | cdktf.IResolvable;
   /**
   * Account comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#comment SecurityAccount#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#comment SecurityAccount#comment}
   */
   readonly comment?: string;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#cx_profile_name SecurityAccount#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#cx_profile_name SecurityAccount#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Account locked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#locked SecurityAccount#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#locked SecurityAccount#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * SecurityAccount name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#name SecurityAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#name SecurityAccount#name}
   */
   readonly name: string;
   /**
   * Account owner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#owner SecurityAccount#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#owner SecurityAccount#owner}
   */
   readonly owner?: SecurityAccountOwner;
   /**
   * Account password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#password SecurityAccount#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#password SecurityAccount#password}
   */
   readonly password?: string;
   /**
   * Account role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#role SecurityAccount#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#role SecurityAccount#role}
   */
   readonly role?: SecurityAccountRole;
 }
@@ -60,19 +60,19 @@ export interface SecurityAccountApplications {
   /**
   * Application name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#application SecurityAccount#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#application SecurityAccount#application}
   */
   readonly application: string;
   /**
   * List of authentication methods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#authentication_methods SecurityAccount#authentication_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#authentication_methods SecurityAccount#authentication_methods}
   */
   readonly authenticationMethods: string[];
   /**
   * Second authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#second_authentication_method SecurityAccount#second_authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#second_authentication_method SecurityAccount#second_authentication_method}
   */
   readonly secondAuthenticationMethod?: string;
 }
@@ -242,7 +242,7 @@ export interface SecurityAccountOwner {
   /**
   * Account owner name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#name SecurityAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#name SecurityAccount#name}
   */
   readonly name?: string;
 }
@@ -338,7 +338,7 @@ export interface SecurityAccountRole {
   /**
   * Account role name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#name SecurityAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#name SecurityAccount#name}
   */
   readonly name?: string;
 }
@@ -432,7 +432,7 @@ export class SecurityAccountRoleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account netapp-ontap_security_account}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account netapp-ontap_security_account}
 */
 export class SecurityAccount extends cdktf.TerraformResource {
 
@@ -448,7 +448,7 @@ export class SecurityAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityAccount to import
-  * @param importFromId The id of the existing SecurityAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -460,7 +460,7 @@ export class SecurityAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_account netapp-ontap_security_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_account netapp-ontap_security_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -471,8 +471,8 @@ export class SecurityAccount extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_security_account',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

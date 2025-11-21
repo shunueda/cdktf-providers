@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface AsPolicyV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#alarm_id AsPolicyV2#alarm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#alarm_id AsPolicyV2#alarm_id}
   */
   readonly alarmId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#cool_down_time AsPolicyV2#cool_down_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#cool_down_time AsPolicyV2#cool_down_time}
   */
   readonly coolDownTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#id AsPolicyV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#id AsPolicyV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#region AsPolicyV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#region AsPolicyV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#scaling_policy_name AsPolicyV2#scaling_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#scaling_policy_name AsPolicyV2#scaling_policy_name}
   */
   readonly scalingPolicyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#scaling_policy_type AsPolicyV2#scaling_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#scaling_policy_type AsPolicyV2#scaling_policy_type}
   */
   readonly scalingPolicyType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#scaling_resource_id AsPolicyV2#scaling_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#scaling_resource_id AsPolicyV2#scaling_resource_id}
   */
   readonly scalingResourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#scaling_resource_type AsPolicyV2#scaling_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#scaling_resource_type AsPolicyV2#scaling_resource_type}
   */
   readonly scalingResourceType: string;
   /**
   * scaling_policy_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#scaling_policy_action AsPolicyV2#scaling_policy_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#scaling_policy_action AsPolicyV2#scaling_policy_action}
   */
   readonly scalingPolicyAction?: AsPolicyV2ScalingPolicyAction[] | cdktf.IResolvable;
   /**
   * scheduled_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#scheduled_policy AsPolicyV2#scheduled_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#scheduled_policy AsPolicyV2#scheduled_policy}
   */
   readonly scheduledPolicy?: AsPolicyV2ScheduledPolicy[] | cdktf.IResolvable;
 }
@@ -142,19 +142,19 @@ export class AsPolicyV2MetadataList extends cdktf.ComplexList {
 }
 export interface AsPolicyV2ScalingPolicyAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#limits AsPolicyV2#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#limits AsPolicyV2#limits}
   */
   readonly limits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#operation AsPolicyV2#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#operation AsPolicyV2#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#percentage AsPolicyV2#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#percentage AsPolicyV2#percentage}
   */
   readonly percentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#size AsPolicyV2#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#size AsPolicyV2#size}
   */
   readonly size?: number;
 }
@@ -357,23 +357,23 @@ export class AsPolicyV2ScalingPolicyActionList extends cdktf.ComplexList {
 }
 export interface AsPolicyV2ScheduledPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#end_time AsPolicyV2#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#end_time AsPolicyV2#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#launch_time AsPolicyV2#launch_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#launch_time AsPolicyV2#launch_time}
   */
   readonly launchTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#recurrence_type AsPolicyV2#recurrence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#recurrence_type AsPolicyV2#recurrence_type}
   */
   readonly recurrenceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#recurrence_value AsPolicyV2#recurrence_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#recurrence_value AsPolicyV2#recurrence_value}
   */
   readonly recurrenceValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#start_time AsPolicyV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#start_time AsPolicyV2#start_time}
   */
   readonly startTime?: string;
 }
@@ -602,7 +602,7 @@ export class AsPolicyV2ScheduledPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2 opentelekomcloud_as_policy_v2}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2 opentelekomcloud_as_policy_v2}
 */
 export class AsPolicyV2 extends cdktf.TerraformResource {
 
@@ -618,7 +618,7 @@ export class AsPolicyV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsPolicyV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsPolicyV2 to import
-  * @param importFromId The id of the existing AsPolicyV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsPolicyV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsPolicyV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -630,7 +630,7 @@ export class AsPolicyV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_policy_v2 opentelekomcloud_as_policy_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_policy_v2 opentelekomcloud_as_policy_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -641,8 +641,8 @@ export class AsPolicyV2 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_as_policy_v2',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52',
-        providerVersionConstraint: '1.36.52'
+        providerVersion: '1.36.53',
+        providerVersionConstraint: '1.36.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,310 +8,310 @@ import * as cdktf from 'cdktf';
 
 export interface DevopsDeployStageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#are_hooks_enabled DevopsDeployStage#are_hooks_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#are_hooks_enabled DevopsDeployStage#are_hooks_enabled}
   */
   readonly areHooksEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#command_spec_deploy_artifact_id DevopsDeployStage#command_spec_deploy_artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#command_spec_deploy_artifact_id DevopsDeployStage#command_spec_deploy_artifact_id}
   */
   readonly commandSpecDeployArtifactId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#compute_instance_group_blue_green_deployment_deploy_stage_id DevopsDeployStage#compute_instance_group_blue_green_deployment_deploy_stage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#compute_instance_group_blue_green_deployment_deploy_stage_id DevopsDeployStage#compute_instance_group_blue_green_deployment_deploy_stage_id}
   */
   readonly computeInstanceGroupBlueGreenDeploymentDeployStageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#compute_instance_group_canary_deploy_stage_id DevopsDeployStage#compute_instance_group_canary_deploy_stage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#compute_instance_group_canary_deploy_stage_id DevopsDeployStage#compute_instance_group_canary_deploy_stage_id}
   */
   readonly computeInstanceGroupCanaryDeployStageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#compute_instance_group_canary_traffic_shift_deploy_stage_id DevopsDeployStage#compute_instance_group_canary_traffic_shift_deploy_stage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#compute_instance_group_canary_traffic_shift_deploy_stage_id DevopsDeployStage#compute_instance_group_canary_traffic_shift_deploy_stage_id}
   */
   readonly computeInstanceGroupCanaryTrafficShiftDeployStageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#compute_instance_group_deploy_environment_id DevopsDeployStage#compute_instance_group_deploy_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#compute_instance_group_deploy_environment_id DevopsDeployStage#compute_instance_group_deploy_environment_id}
   */
   readonly computeInstanceGroupDeployEnvironmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#config DevopsDeployStage#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#config DevopsDeployStage#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#defined_tags DevopsDeployStage#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#defined_tags DevopsDeployStage#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#deploy_artifact_id DevopsDeployStage#deploy_artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#deploy_artifact_id DevopsDeployStage#deploy_artifact_id}
   */
   readonly deployArtifactId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#deploy_artifact_ids DevopsDeployStage#deploy_artifact_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#deploy_artifact_ids DevopsDeployStage#deploy_artifact_ids}
   */
   readonly deployArtifactIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#deploy_environment_id_a DevopsDeployStage#deploy_environment_id_a}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#deploy_environment_id_a DevopsDeployStage#deploy_environment_id_a}
   */
   readonly deployEnvironmentIdA?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#deploy_environment_id_b DevopsDeployStage#deploy_environment_id_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#deploy_environment_id_b DevopsDeployStage#deploy_environment_id_b}
   */
   readonly deployEnvironmentIdB?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#deploy_pipeline_id DevopsDeployStage#deploy_pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#deploy_pipeline_id DevopsDeployStage#deploy_pipeline_id}
   */
   readonly deployPipelineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#deploy_stage_type DevopsDeployStage#deploy_stage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#deploy_stage_type DevopsDeployStage#deploy_stage_type}
   */
   readonly deployStageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#deployment_spec_deploy_artifact_id DevopsDeployStage#deployment_spec_deploy_artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#deployment_spec_deploy_artifact_id DevopsDeployStage#deployment_spec_deploy_artifact_id}
   */
   readonly deploymentSpecDeployArtifactId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#description DevopsDeployStage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#description DevopsDeployStage#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#display_name DevopsDeployStage#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#display_name DevopsDeployStage#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#docker_image_deploy_artifact_id DevopsDeployStage#docker_image_deploy_artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#docker_image_deploy_artifact_id DevopsDeployStage#docker_image_deploy_artifact_id}
   */
   readonly dockerImageDeployArtifactId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#freeform_tags DevopsDeployStage#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#freeform_tags DevopsDeployStage#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#function_deploy_environment_id DevopsDeployStage#function_deploy_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#function_deploy_environment_id DevopsDeployStage#function_deploy_environment_id}
   */
   readonly functionDeployEnvironmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#function_timeout_in_seconds DevopsDeployStage#function_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#function_timeout_in_seconds DevopsDeployStage#function_timeout_in_seconds}
   */
   readonly functionTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#helm_chart_deploy_artifact_id DevopsDeployStage#helm_chart_deploy_artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#helm_chart_deploy_artifact_id DevopsDeployStage#helm_chart_deploy_artifact_id}
   */
   readonly helmChartDeployArtifactId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#helm_command_artifact_ids DevopsDeployStage#helm_command_artifact_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#helm_command_artifact_ids DevopsDeployStage#helm_command_artifact_ids}
   */
   readonly helmCommandArtifactIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#id DevopsDeployStage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#id DevopsDeployStage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#is_async DevopsDeployStage#is_async}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#is_async DevopsDeployStage#is_async}
   */
   readonly isAsync?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#is_debug_enabled DevopsDeployStage#is_debug_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#is_debug_enabled DevopsDeployStage#is_debug_enabled}
   */
   readonly isDebugEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#is_force_enabled DevopsDeployStage#is_force_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#is_force_enabled DevopsDeployStage#is_force_enabled}
   */
   readonly isForceEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#is_uninstall_on_stage_delete DevopsDeployStage#is_uninstall_on_stage_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#is_uninstall_on_stage_delete DevopsDeployStage#is_uninstall_on_stage_delete}
   */
   readonly isUninstallOnStageDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#is_validation_enabled DevopsDeployStage#is_validation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#is_validation_enabled DevopsDeployStage#is_validation_enabled}
   */
   readonly isValidationEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#kubernetes_manifest_deploy_artifact_ids DevopsDeployStage#kubernetes_manifest_deploy_artifact_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#kubernetes_manifest_deploy_artifact_ids DevopsDeployStage#kubernetes_manifest_deploy_artifact_ids}
   */
   readonly kubernetesManifestDeployArtifactIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#max_history DevopsDeployStage#max_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#max_history DevopsDeployStage#max_history}
   */
   readonly maxHistory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#max_memory_in_mbs DevopsDeployStage#max_memory_in_mbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#max_memory_in_mbs DevopsDeployStage#max_memory_in_mbs}
   */
   readonly maxMemoryInMbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#namespace DevopsDeployStage#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#namespace DevopsDeployStage#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#oke_blue_green_deploy_stage_id DevopsDeployStage#oke_blue_green_deploy_stage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#oke_blue_green_deploy_stage_id DevopsDeployStage#oke_blue_green_deploy_stage_id}
   */
   readonly okeBlueGreenDeployStageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#oke_canary_deploy_stage_id DevopsDeployStage#oke_canary_deploy_stage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#oke_canary_deploy_stage_id DevopsDeployStage#oke_canary_deploy_stage_id}
   */
   readonly okeCanaryDeployStageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#oke_canary_traffic_shift_deploy_stage_id DevopsDeployStage#oke_canary_traffic_shift_deploy_stage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#oke_canary_traffic_shift_deploy_stage_id DevopsDeployStage#oke_canary_traffic_shift_deploy_stage_id}
   */
   readonly okeCanaryTrafficShiftDeployStageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#oke_cluster_deploy_environment_id DevopsDeployStage#oke_cluster_deploy_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#oke_cluster_deploy_environment_id DevopsDeployStage#oke_cluster_deploy_environment_id}
   */
   readonly okeClusterDeployEnvironmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#purpose DevopsDeployStage#purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#purpose DevopsDeployStage#purpose}
   */
   readonly purpose?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#release_name DevopsDeployStage#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#release_name DevopsDeployStage#release_name}
   */
   readonly releaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#should_cleanup_on_fail DevopsDeployStage#should_cleanup_on_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#should_cleanup_on_fail DevopsDeployStage#should_cleanup_on_fail}
   */
   readonly shouldCleanupOnFail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#should_not_wait DevopsDeployStage#should_not_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#should_not_wait DevopsDeployStage#should_not_wait}
   */
   readonly shouldNotWait?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#should_reset_values DevopsDeployStage#should_reset_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#should_reset_values DevopsDeployStage#should_reset_values}
   */
   readonly shouldResetValues?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#should_reuse_values DevopsDeployStage#should_reuse_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#should_reuse_values DevopsDeployStage#should_reuse_values}
   */
   readonly shouldReuseValues?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#should_skip_crds DevopsDeployStage#should_skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#should_skip_crds DevopsDeployStage#should_skip_crds}
   */
   readonly shouldSkipCrds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#should_skip_render_subchart_notes DevopsDeployStage#should_skip_render_subchart_notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#should_skip_render_subchart_notes DevopsDeployStage#should_skip_render_subchart_notes}
   */
   readonly shouldSkipRenderSubchartNotes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#timeout_in_seconds DevopsDeployStage#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#timeout_in_seconds DevopsDeployStage#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#traffic_shift_target DevopsDeployStage#traffic_shift_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#traffic_shift_target DevopsDeployStage#traffic_shift_target}
   */
   readonly trafficShiftTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#values_artifact_ids DevopsDeployStage#values_artifact_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#values_artifact_ids DevopsDeployStage#values_artifact_ids}
   */
   readonly valuesArtifactIds?: string[];
   /**
   * approval_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#approval_policy DevopsDeployStage#approval_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#approval_policy DevopsDeployStage#approval_policy}
   */
   readonly approvalPolicy?: DevopsDeployStageApprovalPolicy;
   /**
   * blue_backend_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#blue_backend_ips DevopsDeployStage#blue_backend_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#blue_backend_ips DevopsDeployStage#blue_backend_ips}
   */
   readonly blueBackendIps?: DevopsDeployStageBlueBackendIps;
   /**
   * blue_green_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#blue_green_strategy DevopsDeployStage#blue_green_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#blue_green_strategy DevopsDeployStage#blue_green_strategy}
   */
   readonly blueGreenStrategy?: DevopsDeployStageBlueGreenStrategy;
   /**
   * canary_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#canary_strategy DevopsDeployStage#canary_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#canary_strategy DevopsDeployStage#canary_strategy}
   */
   readonly canaryStrategy?: DevopsDeployStageCanaryStrategy;
   /**
   * container_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#container_config DevopsDeployStage#container_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#container_config DevopsDeployStage#container_config}
   */
   readonly containerConfig?: DevopsDeployStageContainerConfig;
   /**
   * deploy_stage_predecessor_collection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#deploy_stage_predecessor_collection DevopsDeployStage#deploy_stage_predecessor_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#deploy_stage_predecessor_collection DevopsDeployStage#deploy_stage_predecessor_collection}
   */
   readonly deployStagePredecessorCollection: DevopsDeployStageDeployStagePredecessorCollection;
   /**
   * failure_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#failure_policy DevopsDeployStage#failure_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#failure_policy DevopsDeployStage#failure_policy}
   */
   readonly failurePolicy?: DevopsDeployStageFailurePolicy;
   /**
   * green_backend_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#green_backend_ips DevopsDeployStage#green_backend_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#green_backend_ips DevopsDeployStage#green_backend_ips}
   */
   readonly greenBackendIps?: DevopsDeployStageGreenBackendIps;
   /**
   * load_balancer_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#load_balancer_config DevopsDeployStage#load_balancer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#load_balancer_config DevopsDeployStage#load_balancer_config}
   */
   readonly loadBalancerConfig?: DevopsDeployStageLoadBalancerConfig;
   /**
   * production_load_balancer_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#production_load_balancer_config DevopsDeployStage#production_load_balancer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#production_load_balancer_config DevopsDeployStage#production_load_balancer_config}
   */
   readonly productionLoadBalancerConfig?: DevopsDeployStageProductionLoadBalancerConfig;
   /**
   * rollback_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#rollback_policy DevopsDeployStage#rollback_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#rollback_policy DevopsDeployStage#rollback_policy}
   */
   readonly rollbackPolicy?: DevopsDeployStageRollbackPolicy;
   /**
   * rollout_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#rollout_policy DevopsDeployStage#rollout_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#rollout_policy DevopsDeployStage#rollout_policy}
   */
   readonly rolloutPolicy?: DevopsDeployStageRolloutPolicy;
   /**
   * set_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#set_string DevopsDeployStage#set_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#set_string DevopsDeployStage#set_string}
   */
   readonly setString?: DevopsDeployStageSetString;
   /**
   * set_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#set_values DevopsDeployStage#set_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#set_values DevopsDeployStage#set_values}
   */
   readonly setValues?: DevopsDeployStageSetValues;
   /**
   * test_load_balancer_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#test_load_balancer_config DevopsDeployStage#test_load_balancer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#test_load_balancer_config DevopsDeployStage#test_load_balancer_config}
   */
   readonly testLoadBalancerConfig?: DevopsDeployStageTestLoadBalancerConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#timeouts DevopsDeployStage#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#timeouts DevopsDeployStage#timeouts}
   */
   readonly timeouts?: DevopsDeployStageTimeouts;
   /**
   * wait_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#wait_criteria DevopsDeployStage#wait_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#wait_criteria DevopsDeployStage#wait_criteria}
   */
   readonly waitCriteria?: DevopsDeployStageWaitCriteria;
 }
 export interface DevopsDeployStageApprovalPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#approval_policy_type DevopsDeployStage#approval_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#approval_policy_type DevopsDeployStage#approval_policy_type}
   */
   readonly approvalPolicyType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#number_of_approvals_required DevopsDeployStage#number_of_approvals_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#number_of_approvals_required DevopsDeployStage#number_of_approvals_required}
   */
   readonly numberOfApprovalsRequired: number;
 }
@@ -418,7 +418,7 @@ export class DevopsDeployStageApprovalPolicyOutputReference extends cdktf.Comple
 }
 export interface DevopsDeployStageBlueBackendIps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
   */
   readonly items?: string[];
 }
@@ -502,19 +502,19 @@ export class DevopsDeployStageBlueBackendIpsOutputReference extends cdktf.Comple
 }
 export interface DevopsDeployStageBlueGreenStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#ingress_name DevopsDeployStage#ingress_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#ingress_name DevopsDeployStage#ingress_name}
   */
   readonly ingressName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#namespace_a DevopsDeployStage#namespace_a}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#namespace_a DevopsDeployStage#namespace_a}
   */
   readonly namespaceA: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#namespace_b DevopsDeployStage#namespace_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#namespace_b DevopsDeployStage#namespace_b}
   */
   readonly namespaceB: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#strategy_type DevopsDeployStage#strategy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#strategy_type DevopsDeployStage#strategy_type}
   */
   readonly strategyType: string;
 }
@@ -673,15 +673,15 @@ export class DevopsDeployStageBlueGreenStrategyOutputReference extends cdktf.Com
 }
 export interface DevopsDeployStageCanaryStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#ingress_name DevopsDeployStage#ingress_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#ingress_name DevopsDeployStage#ingress_name}
   */
   readonly ingressName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#namespace DevopsDeployStage#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#namespace DevopsDeployStage#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#strategy_type DevopsDeployStage#strategy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#strategy_type DevopsDeployStage#strategy_type}
   */
   readonly strategyType: string;
 }
@@ -814,15 +814,15 @@ export class DevopsDeployStageCanaryStrategyOutputReference extends cdktf.Comple
 }
 export interface DevopsDeployStageContainerConfigNetworkChannel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#network_channel_type DevopsDeployStage#network_channel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#network_channel_type DevopsDeployStage#network_channel_type}
   */
   readonly networkChannelType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#nsg_ids DevopsDeployStage#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#nsg_ids DevopsDeployStage#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#subnet_id DevopsDeployStage#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#subnet_id DevopsDeployStage#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -958,11 +958,11 @@ export class DevopsDeployStageContainerConfigNetworkChannelOutputReference exten
 }
 export interface DevopsDeployStageContainerConfigShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#memory_in_gbs DevopsDeployStage#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#memory_in_gbs DevopsDeployStage#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#ocpus DevopsDeployStage#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#ocpus DevopsDeployStage#ocpus}
   */
   readonly ocpus: number;
 }
@@ -1072,31 +1072,31 @@ export class DevopsDeployStageContainerConfigShapeConfigOutputReference extends 
 }
 export interface DevopsDeployStageContainerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#availability_domain DevopsDeployStage#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#availability_domain DevopsDeployStage#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#compartment_id DevopsDeployStage#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#compartment_id DevopsDeployStage#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#container_config_type DevopsDeployStage#container_config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#container_config_type DevopsDeployStage#container_config_type}
   */
   readonly containerConfigType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#shape_name DevopsDeployStage#shape_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#shape_name DevopsDeployStage#shape_name}
   */
   readonly shapeName: string;
   /**
   * network_channel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#network_channel DevopsDeployStage#network_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#network_channel DevopsDeployStage#network_channel}
   */
   readonly networkChannel: DevopsDeployStageContainerConfigNetworkChannel;
   /**
   * shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#shape_config DevopsDeployStage#shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#shape_config DevopsDeployStage#shape_config}
   */
   readonly shapeConfig: DevopsDeployStageContainerConfigShapeConfig;
 }
@@ -1313,7 +1313,7 @@ export class DevopsDeployStageContainerConfigOutputReference extends cdktf.Compl
 }
 export interface DevopsDeployStageDeployStagePredecessorCollectionItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#id DevopsDeployStage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#id DevopsDeployStage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1431,7 +1431,7 @@ export interface DevopsDeployStageDeployStagePredecessorCollection {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
   */
   readonly items: DevopsDeployStageDeployStagePredecessorCollectionItems[] | cdktf.IResolvable;
 }
@@ -1512,15 +1512,15 @@ export class DevopsDeployStageDeployStagePredecessorCollectionOutputReference ex
 }
 export interface DevopsDeployStageFailurePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#failure_count DevopsDeployStage#failure_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#failure_count DevopsDeployStage#failure_count}
   */
   readonly failureCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#failure_percentage DevopsDeployStage#failure_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#failure_percentage DevopsDeployStage#failure_percentage}
   */
   readonly failurePercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}
   */
   readonly policyType: string;
 }
@@ -1659,7 +1659,7 @@ export class DevopsDeployStageFailurePolicyOutputReference extends cdktf.Complex
 }
 export interface DevopsDeployStageGreenBackendIps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
   */
   readonly items?: string[];
 }
@@ -1743,15 +1743,15 @@ export class DevopsDeployStageGreenBackendIpsOutputReference extends cdktf.Compl
 }
 export interface DevopsDeployStageLoadBalancerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#backend_port DevopsDeployStage#backend_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#backend_port DevopsDeployStage#backend_port}
   */
   readonly backendPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#listener_name DevopsDeployStage#listener_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#listener_name DevopsDeployStage#listener_name}
   */
   readonly listenerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#load_balancer_id DevopsDeployStage#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#load_balancer_id DevopsDeployStage#load_balancer_id}
   */
   readonly loadBalancerId?: string;
 }
@@ -1898,15 +1898,15 @@ export class DevopsDeployStageLoadBalancerConfigOutputReference extends cdktf.Co
 }
 export interface DevopsDeployStageProductionLoadBalancerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#backend_port DevopsDeployStage#backend_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#backend_port DevopsDeployStage#backend_port}
   */
   readonly backendPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#listener_name DevopsDeployStage#listener_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#listener_name DevopsDeployStage#listener_name}
   */
   readonly listenerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#load_balancer_id DevopsDeployStage#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#load_balancer_id DevopsDeployStage#load_balancer_id}
   */
   readonly loadBalancerId?: string;
 }
@@ -2053,7 +2053,7 @@ export class DevopsDeployStageProductionLoadBalancerConfigOutputReference extend
 }
 export interface DevopsDeployStageRollbackPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}
   */
   readonly policyType?: string;
 }
@@ -2137,23 +2137,23 @@ export class DevopsDeployStageRollbackPolicyOutputReference extends cdktf.Comple
 }
 export interface DevopsDeployStageRolloutPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#batch_count DevopsDeployStage#batch_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#batch_count DevopsDeployStage#batch_count}
   */
   readonly batchCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#batch_delay_in_seconds DevopsDeployStage#batch_delay_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#batch_delay_in_seconds DevopsDeployStage#batch_delay_in_seconds}
   */
   readonly batchDelayInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#batch_percentage DevopsDeployStage#batch_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#batch_percentage DevopsDeployStage#batch_percentage}
   */
   readonly batchPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}
   */
   readonly policyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#ramp_limit_percent DevopsDeployStage#ramp_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#ramp_limit_percent DevopsDeployStage#ramp_limit_percent}
   */
   readonly rampLimitPercent?: number;
 }
@@ -2353,11 +2353,11 @@ export class DevopsDeployStageRolloutPolicyOutputReference extends cdktf.Complex
 }
 export interface DevopsDeployStageSetStringItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#name DevopsDeployStage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#name DevopsDeployStage#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#value DevopsDeployStage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#value DevopsDeployStage#value}
   */
   readonly value?: string;
 }
@@ -2504,7 +2504,7 @@ export interface DevopsDeployStageSetString {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
   */
   readonly items?: DevopsDeployStageSetStringItems[] | cdktf.IResolvable;
 }
@@ -2588,11 +2588,11 @@ export class DevopsDeployStageSetStringOutputReference extends cdktf.ComplexObje
 }
 export interface DevopsDeployStageSetValuesItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#name DevopsDeployStage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#name DevopsDeployStage#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#value DevopsDeployStage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#value DevopsDeployStage#value}
   */
   readonly value?: string;
 }
@@ -2739,7 +2739,7 @@ export interface DevopsDeployStageSetValues {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
   */
   readonly items?: DevopsDeployStageSetValuesItems[] | cdktf.IResolvable;
 }
@@ -2823,15 +2823,15 @@ export class DevopsDeployStageSetValuesOutputReference extends cdktf.ComplexObje
 }
 export interface DevopsDeployStageTestLoadBalancerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#backend_port DevopsDeployStage#backend_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#backend_port DevopsDeployStage#backend_port}
   */
   readonly backendPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#listener_name DevopsDeployStage#listener_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#listener_name DevopsDeployStage#listener_name}
   */
   readonly listenerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#load_balancer_id DevopsDeployStage#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#load_balancer_id DevopsDeployStage#load_balancer_id}
   */
   readonly loadBalancerId?: string;
 }
@@ -2978,15 +2978,15 @@ export class DevopsDeployStageTestLoadBalancerConfigOutputReference extends cdkt
 }
 export interface DevopsDeployStageTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#create DevopsDeployStage#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#create DevopsDeployStage#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#delete DevopsDeployStage#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#delete DevopsDeployStage#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#update DevopsDeployStage#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#update DevopsDeployStage#update}
   */
   readonly update?: string;
 }
@@ -3138,11 +3138,11 @@ export class DevopsDeployStageTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 export interface DevopsDeployStageWaitCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#wait_duration DevopsDeployStage#wait_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#wait_duration DevopsDeployStage#wait_duration}
   */
   readonly waitDuration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#wait_type DevopsDeployStage#wait_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#wait_type DevopsDeployStage#wait_type}
   */
   readonly waitType: string;
 }
@@ -3249,7 +3249,7 @@ export class DevopsDeployStageWaitCriteriaOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage oci_devops_deploy_stage}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage oci_devops_deploy_stage}
 */
 export class DevopsDeployStage extends cdktf.TerraformResource {
 
@@ -3265,7 +3265,7 @@ export class DevopsDeployStage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DevopsDeployStage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsDeployStage to import
-  * @param importFromId The id of the existing DevopsDeployStage that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsDeployStage that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsDeployStage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3277,7 +3277,7 @@ export class DevopsDeployStage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deploy_stage oci_devops_deploy_stage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deploy_stage oci_devops_deploy_stage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3288,8 +3288,8 @@ export class DevopsDeployStage extends cdktf.TerraformResource {
       terraformResourceType: 'oci_devops_deploy_stage',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

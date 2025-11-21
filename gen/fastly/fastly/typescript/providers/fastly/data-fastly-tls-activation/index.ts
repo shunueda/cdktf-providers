@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/tls_activation
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_activation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataFastlyTlsActivationConfig extends cdktf.TerraformMetaArgume
   /**
   * ID of the TLS Certificate used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/tls_activation#certificate_id DataFastlyTlsActivation#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_activation#certificate_id DataFastlyTlsActivation#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * ID of the TLS Configuration used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/tls_activation#configuration_id DataFastlyTlsActivation#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_activation#configuration_id DataFastlyTlsActivation#configuration_id}
   */
   readonly configurationId?: string;
   /**
   * Domain that TLS was enabled on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/tls_activation#domain DataFastlyTlsActivation#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_activation#domain DataFastlyTlsActivation#domain}
   */
   readonly domain?: string;
   /**
   * Fastly Activation ID. Conflicts with all other filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/tls_activation#id DataFastlyTlsActivation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_activation#id DataFastlyTlsActivation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,7 +37,7 @@ export interface DataFastlyTlsActivationConfig extends cdktf.TerraformMetaArgume
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/tls_activation fastly_tls_activation}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_activation fastly_tls_activation}
 */
 export class DataFastlyTlsActivation extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataFastlyTlsActivation extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFastlyTlsActivation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFastlyTlsActivation to import
-  * @param importFromId The id of the existing DataFastlyTlsActivation that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/tls_activation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFastlyTlsActivation that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_activation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFastlyTlsActivation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataFastlyTlsActivation extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/tls_activation fastly_tls_activation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_activation fastly_tls_activation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DataFastlyTlsActivation extends cdktf.TerraformDataSource {
       terraformResourceType: 'fastly_tls_activation',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_inventory
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_bridge_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface CloudBridgeInventoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_inventory#compartment_id CloudBridgeInventory#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_bridge_inventory#compartment_id CloudBridgeInventory#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_inventory#defined_tags CloudBridgeInventory#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_bridge_inventory#defined_tags CloudBridgeInventory#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_inventory#display_name CloudBridgeInventory#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_bridge_inventory#display_name CloudBridgeInventory#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_inventory#freeform_tags CloudBridgeInventory#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_bridge_inventory#freeform_tags CloudBridgeInventory#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_inventory#id CloudBridgeInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_bridge_inventory#id CloudBridgeInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,21 +33,21 @@ export interface CloudBridgeInventoryConfig extends cdktf.TerraformMetaArguments
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_inventory#timeouts CloudBridgeInventory#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_bridge_inventory#timeouts CloudBridgeInventory#timeouts}
   */
   readonly timeouts?: CloudBridgeInventoryTimeouts;
 }
 export interface CloudBridgeInventoryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_inventory#create CloudBridgeInventory#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_bridge_inventory#create CloudBridgeInventory#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_inventory#delete CloudBridgeInventory#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_bridge_inventory#delete CloudBridgeInventory#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_inventory#update CloudBridgeInventory#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_bridge_inventory#update CloudBridgeInventory#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class CloudBridgeInventoryTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_inventory oci_cloud_bridge_inventory}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_bridge_inventory oci_cloud_bridge_inventory}
 */
 export class CloudBridgeInventory extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class CloudBridgeInventory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudBridgeInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudBridgeInventory to import
-  * @param importFromId The id of the existing CloudBridgeInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudBridgeInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_bridge_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudBridgeInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class CloudBridgeInventory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_inventory oci_cloud_bridge_inventory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_bridge_inventory oci_cloud_bridge_inventory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class CloudBridgeInventory extends cdktf.TerraformResource {
       terraformResourceType: 'oci_cloud_bridge_inventory',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

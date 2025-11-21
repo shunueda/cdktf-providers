@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool
+// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FlinkComputePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cloud service provider that runs the compute pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool#cloud FlinkComputePool#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool#cloud FlinkComputePool#cloud}
   */
   readonly cloud: string;
   /**
   * The name of the Flink compute pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool#display_name FlinkComputePool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool#display_name FlinkComputePool#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool#id FlinkComputePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool#id FlinkComputePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface FlinkComputePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum number of Confluent Flink Units (CFUs) that the Flink compute pool should auto-scale to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool#max_cfu FlinkComputePool#max_cfu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool#max_cfu FlinkComputePool#max_cfu}
   */
   readonly maxCfu?: number;
   /**
   * The cloud service provider region that hosts the Flink compute pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool#region FlinkComputePool#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool#region FlinkComputePool#region}
   */
   readonly region: string;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool#environment FlinkComputePool#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool#environment FlinkComputePool#environment}
   */
   readonly environment: FlinkComputePoolEnvironment;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool#timeouts FlinkComputePool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool#timeouts FlinkComputePool#timeouts}
   */
   readonly timeouts?: FlinkComputePoolTimeouts;
 }
@@ -55,7 +55,7 @@ export interface FlinkComputePoolEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool#id FlinkComputePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool#id FlinkComputePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -139,11 +139,11 @@ export class FlinkComputePoolEnvironmentOutputReference extends cdktf.ComplexObj
 }
 export interface FlinkComputePoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool#create FlinkComputePool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool#create FlinkComputePool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool#delete FlinkComputePool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool#delete FlinkComputePool#delete}
   */
   readonly delete?: string;
 }
@@ -266,7 +266,7 @@ export class FlinkComputePoolTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool confluent_flink_compute_pool}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool confluent_flink_compute_pool}
 */
 export class FlinkComputePool extends cdktf.TerraformResource {
 
@@ -282,7 +282,7 @@ export class FlinkComputePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlinkComputePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlinkComputePool to import
-  * @param importFromId The id of the existing FlinkComputePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlinkComputePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlinkComputePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class FlinkComputePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/flink_compute_pool confluent_flink_compute_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_compute_pool confluent_flink_compute_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class FlinkComputePool extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_flink_compute_pool',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.53.0',
-        providerVersionConstraint: '2.53.0'
+        providerVersion: '2.54.0',
+        providerVersionConstraint: '2.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

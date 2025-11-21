@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/group
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add an attribute/value pair. Format is attr=value. The attribute must be part of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/group#addattr Group#addattr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/group#addattr Group#addattr}
   */
   readonly addattr?: string[];
   /**
   * Group Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/group#description Group#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/group#description Group#description}
   */
   readonly description?: string;
   /**
   * Allow adding external non-IPA members from trusted domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/group#external Group#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/group#external Group#external}
   */
   readonly external?: boolean | cdktf.IResolvable;
   /**
   * GID (use this option to set it manually)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/group#gid_number Group#gid_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/group#gid_number Group#gid_number}
   */
   readonly gidNumber?: number;
   /**
@@ -39,25 +39,25 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   * 	- The name must not start with a special character.
   * 	- A user and a group cannot have the same name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
   * Create as a non-POSIX group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/group#nonposix Group#nonposix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/group#nonposix Group#nonposix}
   */
   readonly nonposix?: boolean | cdktf.IResolvable;
   /**
   * Set an attribute to a name/value pair. Format is attr=value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/group#setattr Group#setattr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/group#setattr Group#setattr}
   */
   readonly setattr?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/group freeipa_group}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/group freeipa_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/group freeipa_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/group freeipa_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_group',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.3',
-        providerVersionConstraint: '5.1.3'
+        providerVersion: '5.1.4',
+        providerVersionConstraint: '5.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

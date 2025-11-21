@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_dictionary_items
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_dictionary_items
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ServiceDictionaryItemsConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of the dictionary that the items belong to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_dictionary_items#dictionary_id ServiceDictionaryItems#dictionary_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_dictionary_items#dictionary_id ServiceDictionaryItems#dictionary_id}
   */
   readonly dictionaryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_dictionary_items#id ServiceDictionaryItems#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_dictionary_items#id ServiceDictionaryItems#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface ServiceDictionaryItemsConfig extends cdktf.TerraformMetaArgumen
   /**
   * A map representing an entry in the dictionary, (key/value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_dictionary_items#items ServiceDictionaryItems#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_dictionary_items#items ServiceDictionaryItems#items}
   */
   readonly items?: { [key: string]: string };
   /**
   * Whether to reapply changes if the state of the items drifts, i.e. if items are managed externally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_dictionary_items#manage_items ServiceDictionaryItems#manage_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_dictionary_items#manage_items ServiceDictionaryItems#manage_items}
   */
   readonly manageItems?: boolean | cdktf.IResolvable;
   /**
   * The ID of the service that the dictionary belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_dictionary_items#service_id ServiceDictionaryItems#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_dictionary_items#service_id ServiceDictionaryItems#service_id}
   */
   readonly serviceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_dictionary_items fastly_service_dictionary_items}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_dictionary_items fastly_service_dictionary_items}
 */
 export class ServiceDictionaryItems extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ServiceDictionaryItems extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceDictionaryItems resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceDictionaryItems to import
-  * @param importFromId The id of the existing ServiceDictionaryItems that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_dictionary_items#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceDictionaryItems that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_dictionary_items#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceDictionaryItems to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ServiceDictionaryItems extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_dictionary_items fastly_service_dictionary_items} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_dictionary_items fastly_service_dictionary_items} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ServiceDictionaryItems extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_service_dictionary_items',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

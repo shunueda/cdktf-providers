@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_retentions
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_retentions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface ArchiveRetentionsConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of 4 retentions. The first retention is the default retention and can't be renamed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_retentions#retentions ArchiveRetentions#retentions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_retentions#retentions ArchiveRetentions#retentions}
   */
   readonly retentions: ArchiveRetentionsRetentions[] | cdktf.IResolvable;
 }
@@ -18,7 +18,7 @@ export interface ArchiveRetentionsRetentions {
   /**
   * The retention name. If not set, the retention will be named by backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_retentions#name ArchiveRetentions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_retentions#name ArchiveRetentions#name}
   */
   readonly name?: string;
 }
@@ -149,7 +149,7 @@ export class ArchiveRetentionsRetentionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_retentions coralogix_archive_retentions}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_retentions coralogix_archive_retentions}
 */
 export class ArchiveRetentions extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class ArchiveRetentions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArchiveRetentions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArchiveRetentions to import
-  * @param importFromId The id of the existing ArchiveRetentions that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_retentions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArchiveRetentions that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_retentions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArchiveRetentions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class ArchiveRetentions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/archive_retentions coralogix_archive_retentions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_retentions coralogix_archive_retentions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class ArchiveRetentions extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_archive_retentions',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

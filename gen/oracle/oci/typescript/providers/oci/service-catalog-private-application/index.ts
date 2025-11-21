@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceCatalogPrivateApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#compartment_id ServiceCatalogPrivateApplication#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#compartment_id ServiceCatalogPrivateApplication#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#defined_tags ServiceCatalogPrivateApplication#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#defined_tags ServiceCatalogPrivateApplication#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#display_name ServiceCatalogPrivateApplication#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#display_name ServiceCatalogPrivateApplication#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#freeform_tags ServiceCatalogPrivateApplication#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#freeform_tags ServiceCatalogPrivateApplication#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#id ServiceCatalogPrivateApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#id ServiceCatalogPrivateApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#logo_file_base64encoded ServiceCatalogPrivateApplication#logo_file_base64encoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#logo_file_base64encoded ServiceCatalogPrivateApplication#logo_file_base64encoded}
   */
   readonly logoFileBase64Encoded?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#long_description ServiceCatalogPrivateApplication#long_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#long_description ServiceCatalogPrivateApplication#long_description}
   */
   readonly longDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#short_description ServiceCatalogPrivateApplication#short_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#short_description ServiceCatalogPrivateApplication#short_description}
   */
   readonly shortDescription: string;
   /**
   * package_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#package_details ServiceCatalogPrivateApplication#package_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#package_details ServiceCatalogPrivateApplication#package_details}
   */
   readonly packageDetails: ServiceCatalogPrivateApplicationPackageDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#timeouts ServiceCatalogPrivateApplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#timeouts ServiceCatalogPrivateApplication#timeouts}
   */
   readonly timeouts?: ServiceCatalogPrivateApplicationTimeouts;
 }
@@ -142,17 +142,17 @@ export class ServiceCatalogPrivateApplicationLogoList extends cdktf.ComplexList 
 }
 export interface ServiceCatalogPrivateApplicationPackageDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#package_type ServiceCatalogPrivateApplication#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#package_type ServiceCatalogPrivateApplication#package_type}
   */
   readonly packageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#version ServiceCatalogPrivateApplication#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#version ServiceCatalogPrivateApplication#version}
   */
   readonly version: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#zip_file_base64encoded ServiceCatalogPrivateApplication#zip_file_base64encoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#zip_file_base64encoded ServiceCatalogPrivateApplication#zip_file_base64encoded}
   */
-  readonly zipFileBase64Encoded?: string;
+  readonly zipFileBase64Encoded: string;
 }
 
 export function serviceCatalogPrivateApplicationPackageDetailsToTerraform(struct?: ServiceCatalogPrivateApplicationPackageDetailsOutputReference | ServiceCatalogPrivateApplicationPackageDetails): any {
@@ -268,16 +268,13 @@ export class ServiceCatalogPrivateApplicationPackageDetailsOutputReference exten
     return this._version;
   }
 
-  // zip_file_base64encoded - computed: true, optional: true, required: false
+  // zip_file_base64encoded - computed: false, optional: false, required: true
   private _zipFileBase64Encoded?: string; 
   public get zipFileBase64Encoded() {
     return this.getStringAttribute('zip_file_base64encoded');
   }
   public set zipFileBase64Encoded(value: string) {
     this._zipFileBase64Encoded = value;
-  }
-  public resetZipFileBase64Encoded() {
-    this._zipFileBase64Encoded = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get zipFileBase64EncodedInput() {
@@ -286,15 +283,15 @@ export class ServiceCatalogPrivateApplicationPackageDetailsOutputReference exten
 }
 export interface ServiceCatalogPrivateApplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#create ServiceCatalogPrivateApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#create ServiceCatalogPrivateApplication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#delete ServiceCatalogPrivateApplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#delete ServiceCatalogPrivateApplication#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#update ServiceCatalogPrivateApplication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#update ServiceCatalogPrivateApplication#update}
   */
   readonly update?: string;
 }
@@ -446,7 +443,7 @@ export class ServiceCatalogPrivateApplicationTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application oci_service_catalog_private_application}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application oci_service_catalog_private_application}
 */
 export class ServiceCatalogPrivateApplication extends cdktf.TerraformResource {
 
@@ -462,7 +459,7 @@ export class ServiceCatalogPrivateApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceCatalogPrivateApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceCatalogPrivateApplication to import
-  * @param importFromId The id of the existing ServiceCatalogPrivateApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceCatalogPrivateApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceCatalogPrivateApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -474,7 +471,7 @@ export class ServiceCatalogPrivateApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/service_catalog_private_application oci_service_catalog_private_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/service_catalog_private_application oci_service_catalog_private_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -485,8 +482,8 @@ export class ServiceCatalogPrivateApplication extends cdktf.TerraformResource {
       terraformResourceType: 'oci_service_catalog_private_application',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -645,6 +642,12 @@ export class ServiceCatalogPrivateApplication extends cdktf.TerraformResource {
   // state - computed: true, optional: false, required: false
   public get state() {
     return this.getStringAttribute('state');
+  }
+
+  // system_tags - computed: true, optional: false, required: false
+  private _systemTags = new cdktf.StringMap(this, "system_tags");
+  public get systemTags() {
+    return this._systemTags;
   }
 
   // time_created - computed: true, optional: false, required: false

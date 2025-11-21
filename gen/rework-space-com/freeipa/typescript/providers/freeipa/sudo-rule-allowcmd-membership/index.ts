@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/sudo_rule_allowcmd_membership
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_allowcmd_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SudoRuleAllowcmdMembershipConfig extends cdktf.TerraformMetaArg
   /**
   * Unique identifier to differentiate multiple sudo rule denied membership resources on the same sudo rule. Manadatory for using sudocmds/sudocmd_groups configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/sudo_rule_allowcmd_membership#identifier SudoRuleAllowcmdMembership#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_allowcmd_membership#identifier SudoRuleAllowcmdMembership#identifier}
   */
   readonly identifier?: string;
   /**
   * Sudo rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/sudo_rule_allowcmd_membership#name SudoRuleAllowcmdMembership#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_allowcmd_membership#name SudoRuleAllowcmdMembership#name}
   */
   readonly name: string;
   /**
   * **deprecated** Sudo command to allow by the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/sudo_rule_allowcmd_membership#sudocmd SudoRuleAllowcmdMembership#sudocmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_allowcmd_membership#sudocmd SudoRuleAllowcmdMembership#sudocmd}
   */
   readonly sudocmd?: string;
   /**
   * **deprecated** Sudo command group to allow by the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/sudo_rule_allowcmd_membership#sudocmd_group SudoRuleAllowcmdMembership#sudocmd_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_allowcmd_membership#sudocmd_group SudoRuleAllowcmdMembership#sudocmd_group}
   */
   readonly sudocmdGroup?: string;
   /**
   * List of sudo command group to allow by the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/sudo_rule_allowcmd_membership#sudocmd_groups SudoRuleAllowcmdMembership#sudocmd_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_allowcmd_membership#sudocmd_groups SudoRuleAllowcmdMembership#sudocmd_groups}
   */
   readonly sudocmdGroups?: string[];
   /**
   * List of Sudo command to allow by the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/sudo_rule_allowcmd_membership#sudocmds SudoRuleAllowcmdMembership#sudocmds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_allowcmd_membership#sudocmds SudoRuleAllowcmdMembership#sudocmds}
   */
   readonly sudocmds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/sudo_rule_allowcmd_membership freeipa_sudo_rule_allowcmd_membership}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_allowcmd_membership freeipa_sudo_rule_allowcmd_membership}
 */
 export class SudoRuleAllowcmdMembership extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class SudoRuleAllowcmdMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SudoRuleAllowcmdMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SudoRuleAllowcmdMembership to import
-  * @param importFromId The id of the existing SudoRuleAllowcmdMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/sudo_rule_allowcmd_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SudoRuleAllowcmdMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_allowcmd_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SudoRuleAllowcmdMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class SudoRuleAllowcmdMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/sudo_rule_allowcmd_membership freeipa_sudo_rule_allowcmd_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/sudo_rule_allowcmd_membership freeipa_sudo_rule_allowcmd_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class SudoRuleAllowcmdMembership extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_sudo_rule_allowcmd_membership',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.3',
-        providerVersionConstraint: '5.1.3'
+        providerVersion: '5.1.4',
+        providerVersionConstraint: '5.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

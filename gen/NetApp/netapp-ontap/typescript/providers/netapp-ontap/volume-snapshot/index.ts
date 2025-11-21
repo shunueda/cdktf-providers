@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_snapshot
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface VolumeSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_snapshot#comment VolumeSnapshot#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_snapshot#comment VolumeSnapshot#comment}
   */
   readonly comment?: string;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_snapshot#cx_profile_name VolumeSnapshot#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_snapshot#cx_profile_name VolumeSnapshot#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Snapshot copies with an expiry time set are not allowed to be deleted until the retetion time is reached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_snapshot#expiry_time VolumeSnapshot#expiry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_snapshot#expiry_time VolumeSnapshot#expiry_time}
   */
   readonly expiryTime?: string;
   /**
   * Snapshot name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_snapshot#name VolumeSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_snapshot#name VolumeSnapshot#name}
   */
   readonly name: string;
   /**
   * Expiry time for Snapshot copy locking enabled volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_snapshot#snaplock_expiry_time VolumeSnapshot#snaplock_expiry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_snapshot#snaplock_expiry_time VolumeSnapshot#snaplock_expiry_time}
   */
   readonly snaplockExpiryTime?: string;
   /**
   * Label for SnapMirror Operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_snapshot#snapmirror_label VolumeSnapshot#snapmirror_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_snapshot#snapmirror_label VolumeSnapshot#snapmirror_label}
   */
   readonly snapmirrorLabel?: string;
   /**
   * The name of the SVM the snapshot is on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_snapshot#svm_name VolumeSnapshot#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_snapshot#svm_name VolumeSnapshot#svm_name}
   */
   readonly svmName: string;
   /**
   * The name of the volume the snapshot is on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_snapshot#volume_name VolumeSnapshot#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_snapshot#volume_name VolumeSnapshot#volume_name}
   */
   readonly volumeName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_snapshot netapp-ontap_volume_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_snapshot netapp-ontap_volume_snapshot}
 */
 export class VolumeSnapshot extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class VolumeSnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VolumeSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VolumeSnapshot to import
-  * @param importFromId The id of the existing VolumeSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VolumeSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VolumeSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class VolumeSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/volume_snapshot netapp-ontap_volume_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/volume_snapshot netapp-ontap_volume_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class VolumeSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_volume_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

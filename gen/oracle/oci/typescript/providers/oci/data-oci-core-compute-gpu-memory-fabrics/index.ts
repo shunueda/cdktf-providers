@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreComputeGpuMemoryFabricsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#availability_domain DataOciCoreComputeGpuMemoryFabrics#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#availability_domain DataOciCoreComputeGpuMemoryFabrics#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#compartment_id DataOciCoreComputeGpuMemoryFabrics#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#compartment_id DataOciCoreComputeGpuMemoryFabrics#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#compute_gpu_memory_fabric_health DataOciCoreComputeGpuMemoryFabrics#compute_gpu_memory_fabric_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#compute_gpu_memory_fabric_health DataOciCoreComputeGpuMemoryFabrics#compute_gpu_memory_fabric_health}
   */
   readonly computeGpuMemoryFabricHealth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#compute_gpu_memory_fabric_id DataOciCoreComputeGpuMemoryFabrics#compute_gpu_memory_fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#compute_gpu_memory_fabric_id DataOciCoreComputeGpuMemoryFabrics#compute_gpu_memory_fabric_id}
   */
   readonly computeGpuMemoryFabricId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#compute_gpu_memory_fabric_lifecycle_state DataOciCoreComputeGpuMemoryFabrics#compute_gpu_memory_fabric_lifecycle_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#compute_gpu_memory_fabric_lifecycle_state DataOciCoreComputeGpuMemoryFabrics#compute_gpu_memory_fabric_lifecycle_state}
   */
   readonly computeGpuMemoryFabricLifecycleState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#compute_hpc_island_id DataOciCoreComputeGpuMemoryFabrics#compute_hpc_island_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#compute_hpc_island_id DataOciCoreComputeGpuMemoryFabrics#compute_hpc_island_id}
   */
   readonly computeHpcIslandId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#compute_network_block_id DataOciCoreComputeGpuMemoryFabrics#compute_network_block_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#compute_network_block_id DataOciCoreComputeGpuMemoryFabrics#compute_network_block_id}
   */
   readonly computeNetworkBlockId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#display_name DataOciCoreComputeGpuMemoryFabrics#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#display_name DataOciCoreComputeGpuMemoryFabrics#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#id DataOciCoreComputeGpuMemoryFabrics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#id DataOciCoreComputeGpuMemoryFabrics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,9 +49,89 @@ export interface DataOciCoreComputeGpuMemoryFabricsConfig extends cdktf.Terrafor
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#filter DataOciCoreComputeGpuMemoryFabrics#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#filter DataOciCoreComputeGpuMemoryFabrics#filter}
   */
   readonly filter?: DataOciCoreComputeGpuMemoryFabricsFilter[] | cdktf.IResolvable;
+}
+export interface DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferences {
+}
+
+export function dataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferencesToTerraform(struct?: DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferences): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferencesToHclTerraform(struct?: DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferences): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferencesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferences | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferences | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // customer_desired_firmware_bundle_id - computed: true, optional: false, required: false
+  public get customerDesiredFirmwareBundleId() {
+    return this.getStringAttribute('customer_desired_firmware_bundle_id');
+  }
+
+  // fabric_recycle_level - computed: true, optional: false, required: false
+  public get fabricRecycleLevel() {
+    return this.getStringAttribute('fabric_recycle_level');
+  }
+}
+
+export class DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferencesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferencesOutputReference {
+    return new DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferencesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItems {
 }
@@ -140,6 +220,11 @@ export class DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionI
     return this.getStringAttribute('compute_network_block_id');
   }
 
+  // current_firmware_bundle_id - computed: true, optional: false, required: false
+  public get currentFirmwareBundleId() {
+    return this.getStringAttribute('current_firmware_bundle_id');
+  }
+
   // defined_tags - computed: true, optional: false, required: false
   private _definedTags = new cdktf.StringMap(this, "defined_tags");
   public get definedTags() {
@@ -156,6 +241,16 @@ export class DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionI
     return this.getStringAttribute('fabric_health');
   }
 
+  // firmware_update_reason - computed: true, optional: false, required: false
+  public get firmwareUpdateReason() {
+    return this.getStringAttribute('firmware_update_reason');
+  }
+
+  // firmware_update_state - computed: true, optional: false, required: false
+  public get firmwareUpdateState() {
+    return this.getStringAttribute('firmware_update_state');
+  }
+
   // freeform_tags - computed: true, optional: false, required: false
   private _freeformTags = new cdktf.StringMap(this, "freeform_tags");
   public get freeformTags() {
@@ -167,9 +262,20 @@ export class DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionI
     return this.getStringAttribute('healthy_host_count');
   }
 
+  // host_platform_name - computed: true, optional: false, required: false
+  public get hostPlatformName() {
+    return this.getStringAttribute('host_platform_name');
+  }
+
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // memory_fabric_preferences - computed: true, optional: false, required: false
+  private _memoryFabricPreferences = new DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferencesList(this, "memory_fabric_preferences", false);
+  public get memoryFabricPreferences() {
+    return this._memoryFabricPreferences;
   }
 
   // state - computed: true, optional: false, required: false
@@ -177,10 +283,20 @@ export class DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionI
     return this.getStringAttribute('state');
   }
 
+  // switch_platform_name - computed: true, optional: false, required: false
+  public get switchPlatformName() {
+    return this.getStringAttribute('switch_platform_name');
+  }
+
   // system_tags - computed: true, optional: false, required: false
   private _systemTags = new cdktf.StringMap(this, "system_tags");
   public get systemTags() {
     return this._systemTags;
+  }
+
+  // target_firmware_bundle_id - computed: true, optional: false, required: false
+  public get targetFirmwareBundleId() {
+    return this.getStringAttribute('target_firmware_bundle_id');
   }
 
   // time_created - computed: true, optional: false, required: false
@@ -290,15 +406,15 @@ export class DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionL
 }
 export interface DataOciCoreComputeGpuMemoryFabricsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#name DataOciCoreComputeGpuMemoryFabrics#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#name DataOciCoreComputeGpuMemoryFabrics#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#regex DataOciCoreComputeGpuMemoryFabrics#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#regex DataOciCoreComputeGpuMemoryFabrics#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#values DataOciCoreComputeGpuMemoryFabrics#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#values DataOciCoreComputeGpuMemoryFabrics#values}
   */
   readonly values: string[];
 }
@@ -466,7 +582,7 @@ export class DataOciCoreComputeGpuMemoryFabricsFilterList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics oci_core_compute_gpu_memory_fabrics}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics oci_core_compute_gpu_memory_fabrics}
 */
 export class DataOciCoreComputeGpuMemoryFabrics extends cdktf.TerraformDataSource {
 
@@ -482,7 +598,7 @@ export class DataOciCoreComputeGpuMemoryFabrics extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciCoreComputeGpuMemoryFabrics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreComputeGpuMemoryFabrics to import
-  * @param importFromId The id of the existing DataOciCoreComputeGpuMemoryFabrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreComputeGpuMemoryFabrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreComputeGpuMemoryFabrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -494,7 +610,7 @@ export class DataOciCoreComputeGpuMemoryFabrics extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_fabrics oci_core_compute_gpu_memory_fabrics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_gpu_memory_fabrics oci_core_compute_gpu_memory_fabrics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -505,8 +621,8 @@ export class DataOciCoreComputeGpuMemoryFabrics extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_core_compute_gpu_memory_fabrics',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

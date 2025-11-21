@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface LicenseManagerLicenseRecordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#defined_tags LicenseManagerLicenseRecord#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#defined_tags LicenseManagerLicenseRecord#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#display_name LicenseManagerLicenseRecord#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#display_name LicenseManagerLicenseRecord#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#expiration_date LicenseManagerLicenseRecord#expiration_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#expiration_date LicenseManagerLicenseRecord#expiration_date}
   */
   readonly expirationDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#freeform_tags LicenseManagerLicenseRecord#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#freeform_tags LicenseManagerLicenseRecord#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#id LicenseManagerLicenseRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#id LicenseManagerLicenseRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#is_perpetual LicenseManagerLicenseRecord#is_perpetual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#is_perpetual LicenseManagerLicenseRecord#is_perpetual}
   */
   readonly isPerpetual: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#is_unlimited LicenseManagerLicenseRecord#is_unlimited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#is_unlimited LicenseManagerLicenseRecord#is_unlimited}
   */
   readonly isUnlimited: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#license_count LicenseManagerLicenseRecord#license_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#license_count LicenseManagerLicenseRecord#license_count}
   */
   readonly licenseCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#product_id LicenseManagerLicenseRecord#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#product_id LicenseManagerLicenseRecord#product_id}
   */
   readonly productId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#product_license_id LicenseManagerLicenseRecord#product_license_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#product_license_id LicenseManagerLicenseRecord#product_license_id}
   */
   readonly productLicenseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#support_end_date LicenseManagerLicenseRecord#support_end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#support_end_date LicenseManagerLicenseRecord#support_end_date}
   */
   readonly supportEndDate?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#timeouts LicenseManagerLicenseRecord#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#timeouts LicenseManagerLicenseRecord#timeouts}
   */
   readonly timeouts?: LicenseManagerLicenseRecordTimeouts;
 }
 export interface LicenseManagerLicenseRecordTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#create LicenseManagerLicenseRecord#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#create LicenseManagerLicenseRecord#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#delete LicenseManagerLicenseRecord#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#delete LicenseManagerLicenseRecord#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#update LicenseManagerLicenseRecord#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#update LicenseManagerLicenseRecord#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class LicenseManagerLicenseRecordTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record oci_license_manager_license_record}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record oci_license_manager_license_record}
 */
 export class LicenseManagerLicenseRecord extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class LicenseManagerLicenseRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LicenseManagerLicenseRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicenseManagerLicenseRecord to import
-  * @param importFromId The id of the existing LicenseManagerLicenseRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicenseManagerLicenseRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicenseManagerLicenseRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class LicenseManagerLicenseRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/license_manager_license_record oci_license_manager_license_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/license_manager_license_record oci_license_manager_license_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class LicenseManagerLicenseRecord extends cdktf.TerraformResource {
       terraformResourceType: 'oci_license_manager_license_record',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

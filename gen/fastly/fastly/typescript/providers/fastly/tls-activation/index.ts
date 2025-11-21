@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_activation
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_activation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TlsActivationConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of certificate to use. Must have the `domain` specified in the certificate's Subject Alternative Names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_activation#certificate_id TlsActivation#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_activation#certificate_id TlsActivation#certificate_id}
   */
   readonly certificateId: string;
   /**
   * ID of TLS configuration to be used to terminate TLS traffic, or use the default one if missing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_activation#configuration_id TlsActivation#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_activation#configuration_id TlsActivation#configuration_id}
   */
   readonly configurationId?: string;
   /**
   * Domain to enable TLS on. Must be assigned to an existing Fastly Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_activation#domain TlsActivation#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_activation#domain TlsActivation#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_activation#id TlsActivation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_activation#id TlsActivation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface TlsActivationConfig extends cdktf.TerraformMetaArguments {
   /**
   * An alphanumeric string identifying a mutual authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_activation#mutual_authentication_id TlsActivation#mutual_authentication_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_activation#mutual_authentication_id TlsActivation#mutual_authentication_id}
   */
   readonly mutualAuthenticationId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_activation fastly_tls_activation}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_activation fastly_tls_activation}
 */
 export class TlsActivation extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class TlsActivation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TlsActivation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TlsActivation to import
-  * @param importFromId The id of the existing TlsActivation that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_activation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TlsActivation that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_activation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TlsActivation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class TlsActivation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_activation fastly_tls_activation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_activation fastly_tls_activation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class TlsActivation extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_tls_activation',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DbmulticloudMultiCloudResourceDiscoveryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery#compartment_id DbmulticloudMultiCloudResourceDiscovery#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#compartment_id DbmulticloudMultiCloudResourceDiscovery#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery#defined_tags DbmulticloudMultiCloudResourceDiscovery#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#defined_tags DbmulticloudMultiCloudResourceDiscovery#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery#display_name DbmulticloudMultiCloudResourceDiscovery#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#display_name DbmulticloudMultiCloudResourceDiscovery#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery#freeform_tags DbmulticloudMultiCloudResourceDiscovery#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#freeform_tags DbmulticloudMultiCloudResourceDiscovery#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery#id DbmulticloudMultiCloudResourceDiscovery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#id DbmulticloudMultiCloudResourceDiscovery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery#oracle_db_connector_id DbmulticloudMultiCloudResourceDiscovery#oracle_db_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#oracle_db_connector_id DbmulticloudMultiCloudResourceDiscovery#oracle_db_connector_id}
   */
   readonly oracleDbConnectorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery#resource_type DbmulticloudMultiCloudResourceDiscovery#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#resource_type DbmulticloudMultiCloudResourceDiscovery#resource_type}
   */
   readonly resourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery#resources_filter DbmulticloudMultiCloudResourceDiscovery#resources_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#resources_filter DbmulticloudMultiCloudResourceDiscovery#resources_filter}
   */
   readonly resourcesFilter?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery#timeouts DbmulticloudMultiCloudResourceDiscovery#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#timeouts DbmulticloudMultiCloudResourceDiscovery#timeouts}
   */
   readonly timeouts?: DbmulticloudMultiCloudResourceDiscoveryTimeouts;
 }
@@ -152,15 +152,15 @@ export class DbmulticloudMultiCloudResourceDiscoveryResourcesList extends cdktf.
 }
 export interface DbmulticloudMultiCloudResourceDiscoveryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery#create DbmulticloudMultiCloudResourceDiscovery#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#create DbmulticloudMultiCloudResourceDiscovery#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery#delete DbmulticloudMultiCloudResourceDiscovery#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#delete DbmulticloudMultiCloudResourceDiscovery#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery#update DbmulticloudMultiCloudResourceDiscovery#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#update DbmulticloudMultiCloudResourceDiscovery#update}
   */
   readonly update?: string;
 }
@@ -312,7 +312,7 @@ export class DbmulticloudMultiCloudResourceDiscoveryTimeoutsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery oci_dbmulticloud_multi_cloud_resource_discovery}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery oci_dbmulticloud_multi_cloud_resource_discovery}
 */
 export class DbmulticloudMultiCloudResourceDiscovery extends cdktf.TerraformResource {
 
@@ -328,7 +328,7 @@ export class DbmulticloudMultiCloudResourceDiscovery extends cdktf.TerraformReso
   * Generates CDKTF code for importing a DbmulticloudMultiCloudResourceDiscovery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbmulticloudMultiCloudResourceDiscovery to import
-  * @param importFromId The id of the existing DbmulticloudMultiCloudResourceDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbmulticloudMultiCloudResourceDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbmulticloudMultiCloudResourceDiscovery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -340,7 +340,7 @@ export class DbmulticloudMultiCloudResourceDiscovery extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_multi_cloud_resource_discovery oci_dbmulticloud_multi_cloud_resource_discovery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery oci_dbmulticloud_multi_cloud_resource_discovery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,8 +351,8 @@ export class DbmulticloudMultiCloudResourceDiscovery extends cdktf.TerraformReso
       terraformResourceType: 'oci_dbmulticloud_multi_cloud_resource_discovery',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

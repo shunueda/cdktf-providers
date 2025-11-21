@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface GcpAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account alias is an optional short unique name that helps identify the account within Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#account_alias GcpAccount#account_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#account_alias GcpAccount#account_alias}
   */
   readonly accountAlias?: string;
   /**
   * An ID representing the account type within Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#account_type_id GcpAccount#account_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#account_type_id GcpAccount#account_type_id}
   */
   readonly accountTypeId?: number;
   /**
-  * One of "create" or "import".  If "create", Kion will attempt to create a new Google Cloud Project.  If "import", Kion will import the existing Google Cloud Project as specified by google_cloud_project_id.
+  * One of "create" or "import".  If "create", Kion will attempt to create a new Google Cloud Project.  If "import", Kion will import the existing Google Cloud Project as specified by google_cloud_project_id. This field is only used during resource creation and is not stored by Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#create_mode GcpAccount#create_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#create_mode GcpAccount#create_mode}
   */
-  readonly createMode: string;
+  readonly createMode?: string;
   /**
   * The GCP resource identifier of the parent of this GCP Project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#google_cloud_parent_name GcpAccount#google_cloud_parent_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#google_cloud_parent_name GcpAccount#google_cloud_parent_name}
   */
   readonly googleCloudParentName?: string;
   /**
   * The Google Cloud project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#google_cloud_project_id GcpAccount#google_cloud_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#google_cloud_project_id GcpAccount#google_cloud_project_id}
   */
   readonly googleCloudProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#id GcpAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#id GcpAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GcpAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * A map of labels to assign to the account. The labels must already exist in Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#labels GcpAccount#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#labels GcpAccount#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#last_updated GcpAccount#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#last_updated GcpAccount#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * The name of the Google Cloud account within Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#name GcpAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#name GcpAccount#name}
   */
   readonly name: string;
   /**
   * The ID of the billing source containing billing data for this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#payer_id GcpAccount#payer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#payer_id GcpAccount#payer_id}
   */
   readonly payerId: number;
   /**
   * The ID of the Kion project to place this account within.  If empty, the account will be placed within the account cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#project_id GcpAccount#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#project_id GcpAccount#project_id}
   */
   readonly projectId?: number;
   /**
   * True to skip periodic access checking on the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#skip_access_checking GcpAccount#skip_access_checking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#skip_access_checking GcpAccount#skip_access_checking}
   */
   readonly skipAccessChecking?: boolean | cdktf.IResolvable;
   /**
   * Date when the Google Cloud account will starting submitting payments against a funding source (YYYY-MM).  Required if placing an account within a project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#start_datecode GcpAccount#start_datecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#start_datecode GcpAccount#start_datecode}
   */
   readonly startDatecode?: string;
   /**
   * move_project_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#move_project_settings GcpAccount#move_project_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#move_project_settings GcpAccount#move_project_settings}
   */
   readonly moveProjectSettings?: GcpAccountMoveProjectSettings;
 }
@@ -95,13 +95,13 @@ export interface GcpAccountMoveProjectSettings {
   /**
   * One of "move" or "preserve".  If "move", financial history will be moved to the new project beginning on the date specified by the move_datecode parameter.  If "preserve", financial history will be preserved on the current project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#financials GcpAccount#financials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#financials GcpAccount#financials}
   */
   readonly financials?: string;
   /**
   * The start date to use when moving financial data in YYYYMM format.  This only applies when financials is set to move.  If provided, only financial data from this date to the current month will be moved to the new project.  If omitted or 0, all financial data will be moved to the new project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#move_datecode GcpAccount#move_datecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#move_datecode GcpAccount#move_datecode}
   */
   readonly moveDatecode?: number;
 }
@@ -214,7 +214,7 @@ export class GcpAccountMoveProjectSettingsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account kion_gcp_account}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account kion_gcp_account}
 */
 export class GcpAccount extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class GcpAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpAccount to import
-  * @param importFromId The id of the existing GcpAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class GcpAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_account kion_gcp_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_account kion_gcp_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class GcpAccount extends cdktf.TerraformResource {
       terraformResourceType: 'kion_gcp_account',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -316,13 +316,16 @@ export class GcpAccount extends cdktf.TerraformResource {
     return this._accountTypeId;
   }
 
-  // create_mode - computed: false, optional: false, required: true
+  // create_mode - computed: true, optional: true, required: false
   private _createMode?: string; 
   public get createMode() {
     return this.getStringAttribute('create_mode');
   }
   public set createMode(value: string) {
     this._createMode = value;
+  }
+  public resetCreateMode() {
+    this._createMode = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get createModeInput() {

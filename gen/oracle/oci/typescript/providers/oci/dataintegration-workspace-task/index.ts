@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,136 +8,136 @@ import * as cdktf from 'cdktf';
 
 export interface DataintegrationWorkspaceTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#api_call_mode DataintegrationWorkspaceTask#api_call_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#api_call_mode DataintegrationWorkspaceTask#api_call_mode}
   */
   readonly apiCallMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#description DataintegrationWorkspaceTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#description DataintegrationWorkspaceTask#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#id DataintegrationWorkspaceTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#id DataintegrationWorkspaceTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#identifier DataintegrationWorkspaceTask#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#identifier DataintegrationWorkspaceTask#identifier}
   */
   readonly identifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#is_single_load DataintegrationWorkspaceTask#is_single_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#is_single_load DataintegrationWorkspaceTask#is_single_load}
   */
   readonly isSingleLoad?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
   */
   readonly modelVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
   */
   readonly objectStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#operation DataintegrationWorkspaceTask#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#operation DataintegrationWorkspaceTask#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parallel_load_limit DataintegrationWorkspaceTask#parallel_load_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parallel_load_limit DataintegrationWorkspaceTask#parallel_load_limit}
   */
   readonly parallelLoadLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#workspace_id DataintegrationWorkspaceTask#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#workspace_id DataintegrationWorkspaceTask#workspace_id}
   */
   readonly workspaceId: string;
   /**
   * auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#auth_config DataintegrationWorkspaceTask#auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#auth_config DataintegrationWorkspaceTask#auth_config}
   */
   readonly authConfig?: DataintegrationWorkspaceTaskAuthConfig;
   /**
   * cancel_rest_call_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#cancel_rest_call_config DataintegrationWorkspaceTask#cancel_rest_call_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#cancel_rest_call_config DataintegrationWorkspaceTask#cancel_rest_call_config}
   */
   readonly cancelRestCallConfig?: DataintegrationWorkspaceTaskCancelRestCallConfig;
   /**
   * config_provider_delegate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_provider_delegate DataintegrationWorkspaceTask#config_provider_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_provider_delegate DataintegrationWorkspaceTask#config_provider_delegate}
   */
   readonly configProviderDelegate?: DataintegrationWorkspaceTaskConfigProviderDelegate;
   /**
   * execute_rest_call_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#execute_rest_call_config DataintegrationWorkspaceTask#execute_rest_call_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#execute_rest_call_config DataintegrationWorkspaceTask#execute_rest_call_config}
   */
   readonly executeRestCallConfig?: DataintegrationWorkspaceTaskExecuteRestCallConfig;
   /**
   * input_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#input_ports DataintegrationWorkspaceTask#input_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#input_ports DataintegrationWorkspaceTask#input_ports}
   */
   readonly inputPorts?: DataintegrationWorkspaceTaskInputPorts[] | cdktf.IResolvable;
   /**
   * op_config_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#op_config_values DataintegrationWorkspaceTask#op_config_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#op_config_values DataintegrationWorkspaceTask#op_config_values}
   */
   readonly opConfigValues?: DataintegrationWorkspaceTaskOpConfigValues;
   /**
   * output_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#output_ports DataintegrationWorkspaceTask#output_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#output_ports DataintegrationWorkspaceTask#output_ports}
   */
   readonly outputPorts?: DataintegrationWorkspaceTaskOutputPorts[] | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parameters DataintegrationWorkspaceTask#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parameters DataintegrationWorkspaceTask#parameters}
   */
   readonly parameters?: DataintegrationWorkspaceTaskParameters[] | cdktf.IResolvable;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskParentRef;
   /**
   * poll_rest_call_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#poll_rest_call_config DataintegrationWorkspaceTask#poll_rest_call_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#poll_rest_call_config DataintegrationWorkspaceTask#poll_rest_call_config}
   */
   readonly pollRestCallConfig?: DataintegrationWorkspaceTaskPollRestCallConfig;
   /**
   * registry_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#registry_metadata DataintegrationWorkspaceTask#registry_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#registry_metadata DataintegrationWorkspaceTask#registry_metadata}
   */
   readonly registryMetadata: DataintegrationWorkspaceTaskRegistryMetadata;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#timeouts DataintegrationWorkspaceTask#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#timeouts DataintegrationWorkspaceTask#timeouts}
   */
   readonly timeouts?: DataintegrationWorkspaceTaskTimeouts;
   /**
   * typed_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#typed_expressions DataintegrationWorkspaceTask#typed_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#typed_expressions DataintegrationWorkspaceTask#typed_expressions}
   */
   readonly typedExpressions?: DataintegrationWorkspaceTaskTypedExpressions[] | cdktf.IResolvable;
 }
@@ -537,11 +537,11 @@ export class DataintegrationWorkspaceTaskMetadataList extends cdktf.ComplexList 
 }
 export interface DataintegrationWorkspaceTaskAuthConfigParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -654,25 +654,25 @@ export class DataintegrationWorkspaceTaskAuthConfigParentRefOutputReference exte
 }
 export interface DataintegrationWorkspaceTaskAuthConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
   */
   readonly modelVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#resource_principal_source DataintegrationWorkspaceTask#resource_principal_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#resource_principal_source DataintegrationWorkspaceTask#resource_principal_source}
   */
   readonly resourcePrincipalSource?: string;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskAuthConfigParentRef;
 }
@@ -872,7 +872,7 @@ export class DataintegrationWorkspaceTaskAuthConfigOutputReference extends cdktf
 }
 export interface DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValueConfigValuesConfigParamValuesDataParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
   */
   readonly stringValue?: string;
 }
@@ -958,7 +958,7 @@ export interface DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesCon
   /**
   * data_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#data_param DataintegrationWorkspaceTask#data_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#data_param DataintegrationWorkspaceTask#data_param}
   */
   readonly dataParam?: DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValueConfigValuesConfigParamValuesDataParam;
 }
@@ -1044,7 +1044,7 @@ export interface DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesCon
   /**
   * config_param_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
   */
   readonly configParamValues?: DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValueConfigValuesConfigParamValues;
 }
@@ -1128,17 +1128,17 @@ export class DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigP
 }
 export interface DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
   * config_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
   */
   readonly configValues?: DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValueConfigValues;
 }
@@ -1280,13 +1280,13 @@ export class DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigP
 }
 export interface DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigParamValuesRequestPayload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
   */
   readonly parameterValue?: string;
   /**
   * ref_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
   */
   readonly refValue?: DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValue;
 }
@@ -1399,7 +1399,7 @@ export class DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigP
 }
 export interface DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigParamValuesRequestUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
   */
   readonly stringValue?: string;
 }
@@ -1485,13 +1485,13 @@ export interface DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesCon
   /**
   * request_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#request_payload DataintegrationWorkspaceTask#request_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#request_payload DataintegrationWorkspaceTask#request_payload}
   */
   readonly requestPayload?: DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigParamValuesRequestPayload;
   /**
   * request_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#request_url DataintegrationWorkspaceTask#request_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#request_url DataintegrationWorkspaceTask#request_url}
   */
   readonly requestUrl?: DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigParamValuesRequestUrl;
 }
@@ -1604,11 +1604,11 @@ export class DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigP
 }
 export interface DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -1723,13 +1723,13 @@ export interface DataintegrationWorkspaceTaskCancelRestCallConfigConfigValues {
   /**
   * config_param_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
   */
   readonly configParamValues?: DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesConfigParamValues;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesParentRef;
 }
@@ -1842,25 +1842,25 @@ export class DataintegrationWorkspaceTaskCancelRestCallConfigConfigValuesOutputR
 }
 export interface DataintegrationWorkspaceTaskCancelRestCallConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#method_type DataintegrationWorkspaceTask#method_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#method_type DataintegrationWorkspaceTask#method_type}
   */
   readonly methodType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#request_headers DataintegrationWorkspaceTask#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#request_headers DataintegrationWorkspaceTask#request_headers}
   */
   readonly requestHeaders?: { [key: string]: string };
   /**
   * config_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
   */
   readonly configValues?: DataintegrationWorkspaceTaskCancelRestCallConfigConfigValues;
 }
@@ -2060,19 +2060,19 @@ export class DataintegrationWorkspaceTaskCancelRestCallConfigOutputReference ext
 }
 export interface DataintegrationWorkspaceTaskConfigProviderDelegateBindingsParameterValuesRootObjectValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
   */
   readonly modelVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
   */
   readonly objectStatus?: number;
 }
@@ -2243,13 +2243,13 @@ export class DataintegrationWorkspaceTaskConfigProviderDelegateBindingsParameter
 }
 export interface DataintegrationWorkspaceTaskConfigProviderDelegateBindingsParameterValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#simple_value DataintegrationWorkspaceTask#simple_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#simple_value DataintegrationWorkspaceTask#simple_value}
   */
   readonly simpleValue?: string;
   /**
   * root_object_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_object_value DataintegrationWorkspaceTask#root_object_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_object_value DataintegrationWorkspaceTask#root_object_value}
   */
   readonly rootObjectValue?: DataintegrationWorkspaceTaskConfigProviderDelegateBindingsParameterValuesRootObjectValue;
 }
@@ -2362,13 +2362,13 @@ export class DataintegrationWorkspaceTaskConfigProviderDelegateBindingsParameter
 }
 export interface DataintegrationWorkspaceTaskConfigProviderDelegateBindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
   * parameter_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parameter_values DataintegrationWorkspaceTask#parameter_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parameter_values DataintegrationWorkspaceTask#parameter_values}
   */
   readonly parameterValues?: DataintegrationWorkspaceTaskConfigProviderDelegateBindingsParameterValues;
 }
@@ -2515,7 +2515,7 @@ export interface DataintegrationWorkspaceTaskConfigProviderDelegate {
   /**
   * bindings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#bindings DataintegrationWorkspaceTask#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#bindings DataintegrationWorkspaceTask#bindings}
   */
   readonly bindings?: DataintegrationWorkspaceTaskConfigProviderDelegateBindings[] | cdktf.IResolvable;
 }
@@ -2599,7 +2599,7 @@ export class DataintegrationWorkspaceTaskConfigProviderDelegateOutputReference e
 }
 export interface DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValueConfigValuesConfigParamValuesDataParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
   */
   readonly stringValue?: string;
 }
@@ -2685,7 +2685,7 @@ export interface DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesCo
   /**
   * data_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#data_param DataintegrationWorkspaceTask#data_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#data_param DataintegrationWorkspaceTask#data_param}
   */
   readonly dataParam?: DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValueConfigValuesConfigParamValuesDataParam;
 }
@@ -2771,7 +2771,7 @@ export interface DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesCo
   /**
   * config_param_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
   */
   readonly configParamValues?: DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValueConfigValuesConfigParamValues;
 }
@@ -2855,17 +2855,17 @@ export class DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfig
 }
 export interface DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
   * config_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
   */
   readonly configValues?: DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValueConfigValues;
 }
@@ -3007,13 +3007,13 @@ export class DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfig
 }
 export interface DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfigParamValuesRequestPayload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
   */
   readonly parameterValue?: string;
   /**
   * ref_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
   */
   readonly refValue?: DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValue;
 }
@@ -3126,7 +3126,7 @@ export class DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfig
 }
 export interface DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfigParamValuesRequestUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
   */
   readonly stringValue?: string;
 }
@@ -3212,13 +3212,13 @@ export interface DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesCo
   /**
   * request_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#request_payload DataintegrationWorkspaceTask#request_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#request_payload DataintegrationWorkspaceTask#request_payload}
   */
   readonly requestPayload?: DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfigParamValuesRequestPayload;
   /**
   * request_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#request_url DataintegrationWorkspaceTask#request_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#request_url DataintegrationWorkspaceTask#request_url}
   */
   readonly requestUrl?: DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfigParamValuesRequestUrl;
 }
@@ -3331,11 +3331,11 @@ export class DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfig
 }
 export interface DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -3450,13 +3450,13 @@ export interface DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValues {
   /**
   * config_param_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
   */
   readonly configParamValues?: DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesConfigParamValues;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesParentRef;
 }
@@ -3569,25 +3569,25 @@ export class DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValuesOutput
 }
 export interface DataintegrationWorkspaceTaskExecuteRestCallConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#method_type DataintegrationWorkspaceTask#method_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#method_type DataintegrationWorkspaceTask#method_type}
   */
   readonly methodType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#request_headers DataintegrationWorkspaceTask#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#request_headers DataintegrationWorkspaceTask#request_headers}
   */
   readonly requestHeaders?: { [key: string]: string };
   /**
   * config_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
   */
   readonly configValues?: DataintegrationWorkspaceTaskExecuteRestCallConfigConfigValues;
 }
@@ -3787,27 +3787,27 @@ export class DataintegrationWorkspaceTaskExecuteRestCallConfigOutputReference ex
 }
 export interface DataintegrationWorkspaceTaskInputPortsConfigValuesConfigParamValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#int_value DataintegrationWorkspaceTask#int_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#int_value DataintegrationWorkspaceTask#int_value}
   */
   readonly intValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_value DataintegrationWorkspaceTask#object_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_value DataintegrationWorkspaceTask#object_value}
   */
   readonly objectValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
   */
   readonly parameterValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
   */
   readonly refValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_object_value DataintegrationWorkspaceTask#root_object_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_object_value DataintegrationWorkspaceTask#root_object_value}
   */
   readonly rootObjectValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
   */
   readonly stringValue?: string;
 }
@@ -4036,11 +4036,11 @@ export class DataintegrationWorkspaceTaskInputPortsConfigValuesConfigParamValues
 }
 export interface DataintegrationWorkspaceTaskInputPortsConfigValuesParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -4155,13 +4155,13 @@ export interface DataintegrationWorkspaceTaskInputPortsConfigValues {
   /**
   * config_param_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
   */
   readonly configParamValues?: DataintegrationWorkspaceTaskInputPortsConfigValuesConfigParamValues;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskInputPortsConfigValuesParentRef;
 }
@@ -4274,11 +4274,11 @@ export class DataintegrationWorkspaceTaskInputPortsConfigValuesOutputReference e
 }
 export interface DataintegrationWorkspaceTaskInputPortsParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -4391,47 +4391,47 @@ export class DataintegrationWorkspaceTaskInputPortsParentRefOutputReference exte
 }
 export interface DataintegrationWorkspaceTaskInputPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#description DataintegrationWorkspaceTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#description DataintegrationWorkspaceTask#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#fields DataintegrationWorkspaceTask#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#fields DataintegrationWorkspaceTask#fields}
   */
   readonly fields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
   */
   readonly modelVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
   */
   readonly objectStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#port_type DataintegrationWorkspaceTask#port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#port_type DataintegrationWorkspaceTask#port_type}
   */
   readonly portType?: string;
   /**
   * config_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
   */
   readonly configValues?: DataintegrationWorkspaceTaskInputPortsConfigValues;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskInputPortsParentRef;
 }
@@ -4805,23 +4805,23 @@ export class DataintegrationWorkspaceTaskInputPortsList extends cdktf.ComplexLis
 }
 export interface DataintegrationWorkspaceTaskOpConfigValuesConfigParamValuesConfigParamValueRefValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
   */
   readonly modelVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
   */
   readonly objectStatus?: number;
 }
@@ -5021,19 +5021,19 @@ export class DataintegrationWorkspaceTaskOpConfigValuesConfigParamValuesConfigPa
 }
 export interface DataintegrationWorkspaceTaskOpConfigValuesConfigParamValuesConfigParamValueRootObjectValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
   */
   readonly modelVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
   */
   readonly objectStatus?: number;
 }
@@ -5204,31 +5204,31 @@ export class DataintegrationWorkspaceTaskOpConfigValuesConfigParamValuesConfigPa
 }
 export interface DataintegrationWorkspaceTaskOpConfigValuesConfigParamValuesConfigParamValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#int_value DataintegrationWorkspaceTask#int_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#int_value DataintegrationWorkspaceTask#int_value}
   */
   readonly intValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_value DataintegrationWorkspaceTask#object_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_value DataintegrationWorkspaceTask#object_value}
   */
   readonly objectValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
   */
   readonly parameterValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
   */
   readonly stringValue?: string;
   /**
   * ref_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
   */
   readonly refValue?: DataintegrationWorkspaceTaskOpConfigValuesConfigParamValuesConfigParamValueRefValue;
   /**
   * root_object_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_object_value DataintegrationWorkspaceTask#root_object_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_object_value DataintegrationWorkspaceTask#root_object_value}
   */
   readonly rootObjectValue?: DataintegrationWorkspaceTaskOpConfigValuesConfigParamValuesConfigParamValueRootObjectValue;
 }
@@ -5457,13 +5457,13 @@ export class DataintegrationWorkspaceTaskOpConfigValuesConfigParamValuesConfigPa
 }
 export interface DataintegrationWorkspaceTaskOpConfigValuesConfigParamValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
   * config_param_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_param_value DataintegrationWorkspaceTask#config_param_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_param_value DataintegrationWorkspaceTask#config_param_value}
   */
   readonly configParamValue?: DataintegrationWorkspaceTaskOpConfigValuesConfigParamValuesConfigParamValue;
 }
@@ -5576,11 +5576,11 @@ export class DataintegrationWorkspaceTaskOpConfigValuesConfigParamValuesOutputRe
 }
 export interface DataintegrationWorkspaceTaskOpConfigValuesParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -5695,13 +5695,13 @@ export interface DataintegrationWorkspaceTaskOpConfigValues {
   /**
   * config_param_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
   */
   readonly configParamValues?: DataintegrationWorkspaceTaskOpConfigValuesConfigParamValues;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskOpConfigValuesParentRef;
 }
@@ -5814,27 +5814,27 @@ export class DataintegrationWorkspaceTaskOpConfigValuesOutputReference extends c
 }
 export interface DataintegrationWorkspaceTaskOutputPortsConfigValuesConfigParamValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#int_value DataintegrationWorkspaceTask#int_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#int_value DataintegrationWorkspaceTask#int_value}
   */
   readonly intValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_value DataintegrationWorkspaceTask#object_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_value DataintegrationWorkspaceTask#object_value}
   */
   readonly objectValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
   */
   readonly parameterValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
   */
   readonly refValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_object_value DataintegrationWorkspaceTask#root_object_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_object_value DataintegrationWorkspaceTask#root_object_value}
   */
   readonly rootObjectValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
   */
   readonly stringValue?: string;
 }
@@ -6063,11 +6063,11 @@ export class DataintegrationWorkspaceTaskOutputPortsConfigValuesConfigParamValue
 }
 export interface DataintegrationWorkspaceTaskOutputPortsConfigValuesParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -6182,13 +6182,13 @@ export interface DataintegrationWorkspaceTaskOutputPortsConfigValues {
   /**
   * config_param_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
   */
   readonly configParamValues?: DataintegrationWorkspaceTaskOutputPortsConfigValuesConfigParamValues;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskOutputPortsConfigValuesParentRef;
 }
@@ -6301,11 +6301,11 @@ export class DataintegrationWorkspaceTaskOutputPortsConfigValuesOutputReference 
 }
 export interface DataintegrationWorkspaceTaskOutputPortsParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -6418,47 +6418,47 @@ export class DataintegrationWorkspaceTaskOutputPortsParentRefOutputReference ext
 }
 export interface DataintegrationWorkspaceTaskOutputPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#description DataintegrationWorkspaceTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#description DataintegrationWorkspaceTask#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#fields DataintegrationWorkspaceTask#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#fields DataintegrationWorkspaceTask#fields}
   */
   readonly fields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
   */
   readonly modelVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
   */
   readonly objectStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#port_type DataintegrationWorkspaceTask#port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#port_type DataintegrationWorkspaceTask#port_type}
   */
   readonly portType?: string;
   /**
   * config_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
   */
   readonly configValues?: DataintegrationWorkspaceTaskOutputPortsConfigValues;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskOutputPortsParentRef;
 }
@@ -6832,23 +6832,23 @@ export class DataintegrationWorkspaceTaskOutputPortsList extends cdktf.ComplexLi
 }
 export interface DataintegrationWorkspaceTaskParametersConfigValuesConfigParamValuesConfigParamValueRefValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
   */
   readonly modelVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
   */
   readonly objectStatus?: number;
 }
@@ -7048,19 +7048,19 @@ export class DataintegrationWorkspaceTaskParametersConfigValuesConfigParamValues
 }
 export interface DataintegrationWorkspaceTaskParametersConfigValuesConfigParamValuesConfigParamValueRootObjectValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
   */
   readonly modelVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
   */
   readonly objectStatus?: number;
 }
@@ -7231,31 +7231,31 @@ export class DataintegrationWorkspaceTaskParametersConfigValuesConfigParamValues
 }
 export interface DataintegrationWorkspaceTaskParametersConfigValuesConfigParamValuesConfigParamValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#int_value DataintegrationWorkspaceTask#int_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#int_value DataintegrationWorkspaceTask#int_value}
   */
   readonly intValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_value DataintegrationWorkspaceTask#object_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_value DataintegrationWorkspaceTask#object_value}
   */
   readonly objectValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
   */
   readonly parameterValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
   */
   readonly stringValue?: string;
   /**
   * ref_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
   */
   readonly refValue?: DataintegrationWorkspaceTaskParametersConfigValuesConfigParamValuesConfigParamValueRefValue;
   /**
   * root_object_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_object_value DataintegrationWorkspaceTask#root_object_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_object_value DataintegrationWorkspaceTask#root_object_value}
   */
   readonly rootObjectValue?: DataintegrationWorkspaceTaskParametersConfigValuesConfigParamValuesConfigParamValueRootObjectValue;
 }
@@ -7484,13 +7484,13 @@ export class DataintegrationWorkspaceTaskParametersConfigValuesConfigParamValues
 }
 export interface DataintegrationWorkspaceTaskParametersConfigValuesConfigParamValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
   * config_param_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_param_value DataintegrationWorkspaceTask#config_param_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_param_value DataintegrationWorkspaceTask#config_param_value}
   */
   readonly configParamValue?: DataintegrationWorkspaceTaskParametersConfigValuesConfigParamValuesConfigParamValue;
 }
@@ -7603,11 +7603,11 @@ export class DataintegrationWorkspaceTaskParametersConfigValuesConfigParamValues
 }
 export interface DataintegrationWorkspaceTaskParametersConfigValuesParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -7722,13 +7722,13 @@ export interface DataintegrationWorkspaceTaskParametersConfigValues {
   /**
   * config_param_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
   */
   readonly configParamValues?: DataintegrationWorkspaceTaskParametersConfigValuesConfigParamValues;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskParametersConfigValuesParentRef;
 }
@@ -7841,11 +7841,11 @@ export class DataintegrationWorkspaceTaskParametersConfigValuesOutputReference e
 }
 export interface DataintegrationWorkspaceTaskParametersParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -7958,71 +7958,71 @@ export class DataintegrationWorkspaceTaskParametersParentRefOutputReference exte
 }
 export interface DataintegrationWorkspaceTaskParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#default_value DataintegrationWorkspaceTask#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#default_value DataintegrationWorkspaceTask#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#description DataintegrationWorkspaceTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#description DataintegrationWorkspaceTask#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#is_input DataintegrationWorkspaceTask#is_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#is_input DataintegrationWorkspaceTask#is_input}
   */
   readonly isInput?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#is_output DataintegrationWorkspaceTask#is_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#is_output DataintegrationWorkspaceTask#is_output}
   */
   readonly isOutput?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
   */
   readonly modelVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
   */
   readonly objectStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#output_aggregation_type DataintegrationWorkspaceTask#output_aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#output_aggregation_type DataintegrationWorkspaceTask#output_aggregation_type}
   */
   readonly outputAggregationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_object_default_value DataintegrationWorkspaceTask#root_object_default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_object_default_value DataintegrationWorkspaceTask#root_object_default_value}
   */
   readonly rootObjectDefaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#type DataintegrationWorkspaceTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#type DataintegrationWorkspaceTask#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#type_name DataintegrationWorkspaceTask#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#type_name DataintegrationWorkspaceTask#type_name}
   */
   readonly typeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#used_for DataintegrationWorkspaceTask#used_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#used_for DataintegrationWorkspaceTask#used_for}
   */
   readonly usedFor?: string;
   /**
   * config_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
   */
   readonly configValues?: DataintegrationWorkspaceTaskParametersConfigValues;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskParametersParentRef;
 }
@@ -8570,11 +8570,11 @@ export class DataintegrationWorkspaceTaskParametersList extends cdktf.ComplexLis
 }
 export interface DataintegrationWorkspaceTaskParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -8687,19 +8687,19 @@ export class DataintegrationWorkspaceTaskParentRefOutputReference extends cdktf.
 }
 export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesPollConditionRefValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#expr_string DataintegrationWorkspaceTask#expr_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#expr_string DataintegrationWorkspaceTask#expr_string}
   */
   readonly exprString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
   */
   readonly name?: string;
 }
@@ -8870,13 +8870,13 @@ export class DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigPar
 }
 export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesPollCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
   */
   readonly parameterValue?: string;
   /**
   * ref_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
   */
   readonly refValue?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesPollConditionRefValue;
 }
@@ -8989,7 +8989,7 @@ export class DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigPar
 }
 export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesPollInterval {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_value DataintegrationWorkspaceTask#object_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_value DataintegrationWorkspaceTask#object_value}
   */
   readonly objectValue?: number;
 }
@@ -9073,7 +9073,7 @@ export class DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigPar
 }
 export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesPollIntervalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
   */
   readonly stringValue?: string;
 }
@@ -9157,7 +9157,7 @@ export class DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigPar
 }
 export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesPollMaxDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_value DataintegrationWorkspaceTask#object_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_value DataintegrationWorkspaceTask#object_value}
   */
   readonly objectValue?: number;
 }
@@ -9241,7 +9241,7 @@ export class DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigPar
 }
 export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesPollMaxDurationUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
   */
   readonly stringValue?: string;
 }
@@ -9325,7 +9325,7 @@ export class DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigPar
 }
 export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValueConfigValuesConfigParamValuesDataParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
   */
   readonly stringValue?: string;
 }
@@ -9411,7 +9411,7 @@ export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfi
   /**
   * data_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#data_param DataintegrationWorkspaceTask#data_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#data_param DataintegrationWorkspaceTask#data_param}
   */
   readonly dataParam?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValueConfigValuesConfigParamValuesDataParam;
 }
@@ -9497,7 +9497,7 @@ export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfi
   /**
   * config_param_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
   */
   readonly configParamValues?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValueConfigValuesConfigParamValues;
 }
@@ -9581,21 +9581,21 @@ export class DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigPar
 }
 export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
   */
   readonly name?: string;
   /**
   * config_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
   */
   readonly configValues?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValueConfigValues;
 }
@@ -9766,13 +9766,13 @@ export class DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigPar
 }
 export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesRequestPayload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parameter_value DataintegrationWorkspaceTask#parameter_value}
   */
   readonly parameterValue?: string;
   /**
   * ref_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#ref_value DataintegrationWorkspaceTask#ref_value}
   */
   readonly refValue?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValue;
 }
@@ -9885,7 +9885,7 @@ export class DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigPar
 }
 export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesRequestUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#string_value DataintegrationWorkspaceTask#string_value}
   */
   readonly stringValue?: string;
 }
@@ -9971,43 +9971,43 @@ export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfi
   /**
   * poll_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#poll_condition DataintegrationWorkspaceTask#poll_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#poll_condition DataintegrationWorkspaceTask#poll_condition}
   */
   readonly pollCondition?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesPollCondition;
   /**
   * poll_interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#poll_interval DataintegrationWorkspaceTask#poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#poll_interval DataintegrationWorkspaceTask#poll_interval}
   */
   readonly pollInterval?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesPollInterval;
   /**
   * poll_interval_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#poll_interval_unit DataintegrationWorkspaceTask#poll_interval_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#poll_interval_unit DataintegrationWorkspaceTask#poll_interval_unit}
   */
   readonly pollIntervalUnit?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesPollIntervalUnit;
   /**
   * poll_max_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#poll_max_duration DataintegrationWorkspaceTask#poll_max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#poll_max_duration DataintegrationWorkspaceTask#poll_max_duration}
   */
   readonly pollMaxDuration?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesPollMaxDuration;
   /**
   * poll_max_duration_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#poll_max_duration_unit DataintegrationWorkspaceTask#poll_max_duration_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#poll_max_duration_unit DataintegrationWorkspaceTask#poll_max_duration_unit}
   */
   readonly pollMaxDurationUnit?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesPollMaxDurationUnit;
   /**
   * request_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#request_payload DataintegrationWorkspaceTask#request_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#request_payload DataintegrationWorkspaceTask#request_payload}
   */
   readonly requestPayload?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesRequestPayload;
   /**
   * request_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#request_url DataintegrationWorkspaceTask#request_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#request_url DataintegrationWorkspaceTask#request_url}
   */
   readonly requestUrl?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesRequestUrl;
 }
@@ -10265,11 +10265,11 @@ export class DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigPar
 }
 export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -10384,13 +10384,13 @@ export interface DataintegrationWorkspaceTaskPollRestCallConfigConfigValues {
   /**
   * config_param_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
   */
   readonly configParamValues?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValues;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesParentRef;
 }
@@ -10503,25 +10503,25 @@ export class DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesOutputRef
 }
 export interface DataintegrationWorkspaceTaskPollRestCallConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#method_type DataintegrationWorkspaceTask#method_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#method_type DataintegrationWorkspaceTask#method_type}
   */
   readonly methodType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#request_headers DataintegrationWorkspaceTask#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#request_headers DataintegrationWorkspaceTask#request_headers}
   */
   readonly requestHeaders?: { [key: string]: string };
   /**
   * config_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
   */
   readonly configValues?: DataintegrationWorkspaceTaskPollRestCallConfigConfigValues;
 }
@@ -10721,23 +10721,23 @@ export class DataintegrationWorkspaceTaskPollRestCallConfigOutputReference exten
 }
 export interface DataintegrationWorkspaceTaskRegistryMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#aggregator_key DataintegrationWorkspaceTask#aggregator_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#aggregator_key DataintegrationWorkspaceTask#aggregator_key}
   */
   readonly aggregatorKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#is_favorite DataintegrationWorkspaceTask#is_favorite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#is_favorite DataintegrationWorkspaceTask#is_favorite}
   */
   readonly isFavorite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#labels DataintegrationWorkspaceTask#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#labels DataintegrationWorkspaceTask#labels}
   */
   readonly labels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#registry_version DataintegrationWorkspaceTask#registry_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#registry_version DataintegrationWorkspaceTask#registry_version}
   */
   readonly registryVersion?: number;
 }
@@ -10934,15 +10934,15 @@ export class DataintegrationWorkspaceTaskRegistryMetadataOutputReference extends
 }
 export interface DataintegrationWorkspaceTaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#create DataintegrationWorkspaceTask#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#create DataintegrationWorkspaceTask#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#delete DataintegrationWorkspaceTask#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#delete DataintegrationWorkspaceTask#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#update DataintegrationWorkspaceTask#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#update DataintegrationWorkspaceTask#update}
   */
   readonly update?: string;
 }
@@ -11094,7 +11094,7 @@ export class DataintegrationWorkspaceTaskTimeoutsOutputReference extends cdktf.C
 }
 export interface DataintegrationWorkspaceTaskTypedExpressionsConfigValuesConfigParamValuesLength {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#int_value DataintegrationWorkspaceTask#int_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#int_value DataintegrationWorkspaceTask#int_value}
   */
   readonly intValue?: number;
 }
@@ -11178,7 +11178,7 @@ export class DataintegrationWorkspaceTaskTypedExpressionsConfigValuesConfigParam
 }
 export interface DataintegrationWorkspaceTaskTypedExpressionsConfigValuesConfigParamValuesScale {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#int_value DataintegrationWorkspaceTask#int_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#int_value DataintegrationWorkspaceTask#int_value}
   */
   readonly intValue?: number;
 }
@@ -11264,13 +11264,13 @@ export interface DataintegrationWorkspaceTaskTypedExpressionsConfigValuesConfigP
   /**
   * length block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#length DataintegrationWorkspaceTask#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#length DataintegrationWorkspaceTask#length}
   */
   readonly length?: DataintegrationWorkspaceTaskTypedExpressionsConfigValuesConfigParamValuesLength;
   /**
   * scale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#scale DataintegrationWorkspaceTask#scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#scale DataintegrationWorkspaceTask#scale}
   */
   readonly scale?: DataintegrationWorkspaceTaskTypedExpressionsConfigValuesConfigParamValuesScale;
 }
@@ -11383,11 +11383,11 @@ export class DataintegrationWorkspaceTaskTypedExpressionsConfigValuesConfigParam
 }
 export interface DataintegrationWorkspaceTaskTypedExpressionsConfigValuesParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -11502,13 +11502,13 @@ export interface DataintegrationWorkspaceTaskTypedExpressionsConfigValues {
   /**
   * config_param_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_param_values DataintegrationWorkspaceTask#config_param_values}
   */
   readonly configParamValues?: DataintegrationWorkspaceTaskTypedExpressionsConfigValuesConfigParamValues;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskTypedExpressionsConfigValuesParentRef;
 }
@@ -11621,11 +11621,11 @@ export class DataintegrationWorkspaceTaskTypedExpressionsConfigValuesOutputRefer
 }
 export interface DataintegrationWorkspaceTaskTypedExpressionsParentRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent DataintegrationWorkspaceTask#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#root_doc_id DataintegrationWorkspaceTask#root_doc_id}
   */
   readonly rootDocId?: string;
 }
@@ -11738,47 +11738,47 @@ export class DataintegrationWorkspaceTaskTypedExpressionsParentRefOutputReferenc
 }
 export interface DataintegrationWorkspaceTaskTypedExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#description DataintegrationWorkspaceTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#description DataintegrationWorkspaceTask#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#expression DataintegrationWorkspaceTask#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#expression DataintegrationWorkspaceTask#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#key DataintegrationWorkspaceTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_type DataintegrationWorkspaceTask#model_type}
   */
   readonly modelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#model_version DataintegrationWorkspaceTask#model_version}
   */
   readonly modelVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#name DataintegrationWorkspaceTask#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#object_status DataintegrationWorkspaceTask#object_status}
   */
   readonly objectStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#type DataintegrationWorkspaceTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#type DataintegrationWorkspaceTask#type}
   */
   readonly type?: string;
   /**
   * config_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#config_values DataintegrationWorkspaceTask#config_values}
   */
   readonly configValues?: DataintegrationWorkspaceTaskTypedExpressionsConfigValues;
   /**
   * parent_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#parent_ref DataintegrationWorkspaceTask#parent_ref}
   */
   readonly parentRef?: DataintegrationWorkspaceTaskTypedExpressionsParentRef;
 }
@@ -12155,7 +12155,7 @@ export class DataintegrationWorkspaceTaskTypedExpressionsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task oci_dataintegration_workspace_task}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task oci_dataintegration_workspace_task}
 */
 export class DataintegrationWorkspaceTask extends cdktf.TerraformResource {
 
@@ -12171,7 +12171,7 @@ export class DataintegrationWorkspaceTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataintegrationWorkspaceTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataintegrationWorkspaceTask to import
-  * @param importFromId The id of the existing DataintegrationWorkspaceTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataintegrationWorkspaceTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataintegrationWorkspaceTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12183,7 +12183,7 @@ export class DataintegrationWorkspaceTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_task oci_dataintegration_workspace_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataintegration_workspace_task oci_dataintegration_workspace_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12194,8 +12194,8 @@ export class DataintegrationWorkspaceTask extends cdktf.TerraformResource {
       terraformResourceType: 'oci_dataintegration_workspace_task',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/oda_oda_private_endpoint_scan_proxy
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/oda_oda_private_endpoint_scan_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOdaOdaPrivateEndpointScanProxyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/oda_oda_private_endpoint_scan_proxy#oda_private_endpoint_id DataOciOdaOdaPrivateEndpointScanProxy#oda_private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/oda_oda_private_endpoint_scan_proxy#oda_private_endpoint_id DataOciOdaOdaPrivateEndpointScanProxy#oda_private_endpoint_id}
   */
   readonly odaPrivateEndpointId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/oda_oda_private_endpoint_scan_proxy#oda_private_endpoint_scan_proxy_id DataOciOdaOdaPrivateEndpointScanProxy#oda_private_endpoint_scan_proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/oda_oda_private_endpoint_scan_proxy#oda_private_endpoint_scan_proxy_id DataOciOdaOdaPrivateEndpointScanProxy#oda_private_endpoint_scan_proxy_id}
   */
   readonly odaPrivateEndpointScanProxyId: string;
 }
@@ -103,7 +103,7 @@ export class DataOciOdaOdaPrivateEndpointScanProxyScanListenerInfosList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/oda_oda_private_endpoint_scan_proxy oci_oda_oda_private_endpoint_scan_proxy}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/oda_oda_private_endpoint_scan_proxy oci_oda_oda_private_endpoint_scan_proxy}
 */
 export class DataOciOdaOdaPrivateEndpointScanProxy extends cdktf.TerraformDataSource {
 
@@ -119,7 +119,7 @@ export class DataOciOdaOdaPrivateEndpointScanProxy extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataOciOdaOdaPrivateEndpointScanProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOdaOdaPrivateEndpointScanProxy to import
-  * @param importFromId The id of the existing DataOciOdaOdaPrivateEndpointScanProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/oda_oda_private_endpoint_scan_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOdaOdaPrivateEndpointScanProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/oda_oda_private_endpoint_scan_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOdaOdaPrivateEndpointScanProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +131,7 @@ export class DataOciOdaOdaPrivateEndpointScanProxy extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/oda_oda_private_endpoint_scan_proxy oci_oda_oda_private_endpoint_scan_proxy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/oda_oda_private_endpoint_scan_proxy oci_oda_oda_private_endpoint_scan_proxy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,8 +142,8 @@ export class DataOciOdaOdaPrivateEndpointScanProxy extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_oda_oda_private_endpoint_scan_proxy',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

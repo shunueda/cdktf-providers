@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface SnapmirrorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Snapmirror provision destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#create_destination Snapmirror#create_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#create_destination Snapmirror#create_destination}
   */
   readonly createDestination?: SnapmirrorCreateDestination;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#cx_profile_name Snapmirror#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#cx_profile_name Snapmirror#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Snapmirror destination endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#destination_endpoint Snapmirror#destination_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#destination_endpoint Snapmirror#destination_endpoint}
   */
   readonly destinationEndpoint: SnapmirrorDestinationEndpoint;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#healthy Snapmirror#healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#healthy Snapmirror#healthy}
   */
   readonly healthy?: boolean | cdktf.IResolvable;
   /**
   * initialize the relationship
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#initialize Snapmirror#initialize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#initialize Snapmirror#initialize}
   */
   readonly initialize?: boolean | cdktf.IResolvable;
   /**
   * policy details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#policy Snapmirror#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#policy Snapmirror#policy}
   */
   readonly policy?: SnapmirrorPolicy;
   /**
   * Snapmirror source endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#source_endpoint Snapmirror#source_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#source_endpoint Snapmirror#source_endpoint}
   */
   readonly sourceEndpoint: SnapmirrorSourceEndpoint;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#state Snapmirror#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#state Snapmirror#state}
   */
   readonly state?: string;
 }
@@ -56,7 +56,7 @@ export interface SnapmirrorCreateDestination {
   /**
   * Enable this property to provision the destination endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#enabled Snapmirror#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#enabled Snapmirror#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -149,7 +149,7 @@ export interface SnapmirrorDestinationEndpointCluster {
   /**
   * cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#name Snapmirror#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#name Snapmirror#name}
   */
   readonly name: string;
 }
@@ -242,13 +242,13 @@ export interface SnapmirrorDestinationEndpoint {
   /**
   * Cluster details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#cluster Snapmirror#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#cluster Snapmirror#cluster}
   */
   readonly cluster?: SnapmirrorDestinationEndpointCluster;
   /**
   * Path to the destination endpoint of the SnapMirror relationship
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#path Snapmirror#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#path Snapmirror#path}
   */
   readonly path: string;
 }
@@ -370,7 +370,7 @@ export interface SnapmirrorPolicyTransferSchedule {
   /**
   * schedule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#name Snapmirror#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#name Snapmirror#name}
   */
   readonly name: string;
 }
@@ -463,13 +463,13 @@ export interface SnapmirrorPolicy {
   /**
   * policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#name Snapmirror#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#name Snapmirror#name}
   */
   readonly name: string;
   /**
   * transfer schedule details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#transfer_schedule Snapmirror#transfer_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#transfer_schedule Snapmirror#transfer_schedule}
   */
   readonly transferSchedule?: SnapmirrorPolicyTransferSchedule;
 }
@@ -591,7 +591,7 @@ export interface SnapmirrorSourceEndpointCluster {
   /**
   * cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#name Snapmirror#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#name Snapmirror#name}
   */
   readonly name: string;
 }
@@ -684,13 +684,13 @@ export interface SnapmirrorSourceEndpoint {
   /**
   * Cluster details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#cluster Snapmirror#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#cluster Snapmirror#cluster}
   */
   readonly cluster?: SnapmirrorSourceEndpointCluster;
   /**
   * Path to the source endpoint of the SnapMirror relationship
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#path Snapmirror#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#path Snapmirror#path}
   */
   readonly path: string;
 }
@@ -810,7 +810,7 @@ export class SnapmirrorSourceEndpointOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror netapp-ontap_snapmirror}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror netapp-ontap_snapmirror}
 */
 export class Snapmirror extends cdktf.TerraformResource {
 
@@ -826,7 +826,7 @@ export class Snapmirror extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Snapmirror resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Snapmirror to import
-  * @param importFromId The id of the existing Snapmirror that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Snapmirror that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Snapmirror to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -838,7 +838,7 @@ export class Snapmirror extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror netapp-ontap_snapmirror} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror netapp-ontap_snapmirror} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -849,8 +849,8 @@ export class Snapmirror extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_snapmirror',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

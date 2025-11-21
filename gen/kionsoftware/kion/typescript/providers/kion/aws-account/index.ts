@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface AwsAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account alias is an optional short unique name that helps identify the account within Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#account_alias AwsAccount#account_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#account_alias AwsAccount#account_alias}
   */
   readonly accountAlias?: string;
   /**
   * The account number of the AWS account.  If account_number is provided, the existing account will be imported into Kion.  If account_number is omitted, a new account will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#account_number AwsAccount#account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#account_number AwsAccount#account_number}
   */
   readonly accountNumber?: string;
   /**
   * An ID representing the account type within Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#account_type_id AwsAccount#account_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#account_type_id AwsAccount#account_type_id}
   */
   readonly accountTypeId?: number;
   /**
   * The name used when creating new commercial account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#commercial_account_name AwsAccount#commercial_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#commercial_account_name AwsAccount#commercial_account_name}
   */
   readonly commercialAccountName?: string;
   /**
   * True to create an AWS GovCloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#create_govcloud AwsAccount#create_govcloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#create_govcloud AwsAccount#create_govcloud}
   */
   readonly createGovcloud?: boolean | cdktf.IResolvable;
   /**
   * The root email address to associate with a new account.  Required when creating a new account unless an account placeholder email has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#email AwsAccount#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#email AwsAccount#email}
   */
   readonly email?: string;
   /**
   * The name used when creating new GovCloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#gov_account_name AwsAccount#gov_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#gov_account_name AwsAccount#gov_account_name}
   */
   readonly govAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#id AwsAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#id AwsAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,71 +59,71 @@ export interface AwsAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * True to associate spend from a linked GovCloud account with this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#include_linked_account_spend AwsAccount#include_linked_account_spend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#include_linked_account_spend AwsAccount#include_linked_account_spend}
   */
   readonly includeLinkedAccountSpend?: boolean | cdktf.IResolvable;
   /**
   * A map of labels to assign to the account. The labels must already exist in Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#labels AwsAccount#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#labels AwsAccount#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#last_updated AwsAccount#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#last_updated AwsAccount#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * The AWS organization service role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#linked_role AwsAccount#linked_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#linked_role AwsAccount#linked_role}
   */
   readonly linkedRole?: string;
   /**
   * The name of the AWS account within Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#name AwsAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#name AwsAccount#name}
   */
   readonly name: string;
   /**
   * The ID of the billing source containing billing data for this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#payer_id AwsAccount#payer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#payer_id AwsAccount#payer_id}
   */
   readonly payerId: number;
   /**
   * The ID of the Kion project to place this account within. If empty, the account will be placed within the account cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#project_id AwsAccount#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#project_id AwsAccount#project_id}
   */
   readonly projectId?: number;
   /**
   * True to skip periodic access checking on the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#skip_access_checking AwsAccount#skip_access_checking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#skip_access_checking AwsAccount#skip_access_checking}
   */
   readonly skipAccessChecking?: boolean | cdktf.IResolvable;
   /**
   * Date when the AWS account will starting submitting payments against a funding source (YYYY-MM). Required if placing an account within a project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#start_datecode AwsAccount#start_datecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#start_datecode AwsAccount#start_datecode}
   */
   readonly startDatecode?: string;
   /**
   * True to keep the account name and email address in Kion in sync with the account name and email address as set in AWS Organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#use_org_account_info AwsAccount#use_org_account_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#use_org_account_info AwsAccount#use_org_account_info}
   */
   readonly useOrgAccountInfo?: boolean | cdktf.IResolvable;
   /**
   * aws_organizational_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#aws_organizational_unit AwsAccount#aws_organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#aws_organizational_unit AwsAccount#aws_organizational_unit}
   */
   readonly awsOrganizationalUnit?: AwsAccountAwsOrganizationalUnit;
   /**
   * move_project_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#move_project_settings AwsAccount#move_project_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#move_project_settings AwsAccount#move_project_settings}
   */
   readonly moveProjectSettings?: AwsAccountMoveProjectSettings;
 }
@@ -131,13 +131,13 @@ export interface AwsAccountAwsOrganizationalUnit {
   /**
   * Name of the organizational unit in AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#name AwsAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#name AwsAccount#name}
   */
   readonly name: string;
   /**
   * OUID of the AWS Organization unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#org_unit_id AwsAccount#org_unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#org_unit_id AwsAccount#org_unit_id}
   */
   readonly orgUnitId: string;
 }
@@ -246,13 +246,13 @@ export interface AwsAccountMoveProjectSettings {
   /**
   * One of "move" or "preserve".  If "move", financial history will be moved to the new project beginning on the date specified by the move_datecode parameter.  If "preserve", financial history will be preserved on the current project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#financials AwsAccount#financials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#financials AwsAccount#financials}
   */
   readonly financials?: string;
   /**
   * The start date to use when moving financial data in YYYYMM format.  This only applies when financials is set to move.  If provided, only financial data from this date to the current month will be moved to the new project.  If omitted or 0, all financial data will be moved to the new project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#move_datecode AwsAccount#move_datecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#move_datecode AwsAccount#move_datecode}
   */
   readonly moveDatecode?: number;
 }
@@ -365,7 +365,7 @@ export class AwsAccountMoveProjectSettingsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account kion_aws_account}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account kion_aws_account}
 */
 export class AwsAccount extends cdktf.TerraformResource {
 
@@ -381,7 +381,7 @@ export class AwsAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsAccount to import
-  * @param importFromId The id of the existing AwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class AwsAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_account kion_aws_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_account kion_aws_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class AwsAccount extends cdktf.TerraformResource {
       terraformResourceType: 'kion_aws_account',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

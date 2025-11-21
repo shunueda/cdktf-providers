@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_schedule
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_schedule#cron ClusterSchedule#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_schedule#cron ClusterSchedule#cron}
   */
   readonly cron?: ClusterScheduleCron;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_schedule#cx_profile_name ClusterSchedule#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_schedule#cx_profile_name ClusterSchedule#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Cluster schedule interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_schedule#interval ClusterSchedule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_schedule#interval ClusterSchedule#interval}
   */
   readonly interval?: string;
   /**
   * The name of the cluster schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_schedule#name ClusterSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_schedule#name ClusterSchedule#name}
   */
   readonly name: string;
 }
@@ -34,31 +34,31 @@ export interface ClusterScheduleCron {
   /**
   * List of cluster schedule days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_schedule#days ClusterSchedule#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_schedule#days ClusterSchedule#days}
   */
   readonly days?: number[];
   /**
   * List of cluster schedule hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_schedule#hours ClusterSchedule#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_schedule#hours ClusterSchedule#hours}
   */
   readonly hours?: number[];
   /**
   * List of cluster schedule minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_schedule#minutes ClusterSchedule#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_schedule#minutes ClusterSchedule#minutes}
   */
   readonly minutes?: number[];
   /**
   * List of cluster schedule months
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_schedule#months ClusterSchedule#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_schedule#months ClusterSchedule#months}
   */
   readonly months?: number[];
   /**
   * List of cluster schedule weekdays
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_schedule#weekdays ClusterSchedule#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_schedule#weekdays ClusterSchedule#weekdays}
   */
   readonly weekdays?: number[];
 }
@@ -268,7 +268,7 @@ export class ClusterScheduleCronOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_schedule netapp-ontap_cluster_schedule}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_schedule netapp-ontap_cluster_schedule}
 */
 export class ClusterSchedule extends cdktf.TerraformResource {
 
@@ -284,7 +284,7 @@ export class ClusterSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterSchedule to import
-  * @param importFromId The id of the existing ClusterSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +296,7 @@ export class ClusterSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_schedule netapp-ontap_cluster_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_schedule netapp-ontap_cluster_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,8 +307,8 @@ export class ClusterSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_cluster_schedule',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

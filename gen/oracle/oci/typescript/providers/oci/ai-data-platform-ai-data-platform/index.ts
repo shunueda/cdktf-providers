@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface AiDataPlatformAiDataPlatformConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform#ai_data_platform_type AiDataPlatformAiDataPlatform#ai_data_platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform#ai_data_platform_type AiDataPlatformAiDataPlatform#ai_data_platform_type}
   */
   readonly aiDataPlatformType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform#compartment_id AiDataPlatformAiDataPlatform#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform#compartment_id AiDataPlatformAiDataPlatform#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform#default_workspace_name AiDataPlatformAiDataPlatform#default_workspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform#default_workspace_name AiDataPlatformAiDataPlatform#default_workspace_name}
   */
   readonly defaultWorkspaceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform#defined_tags AiDataPlatformAiDataPlatform#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform#defined_tags AiDataPlatformAiDataPlatform#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform#display_name AiDataPlatformAiDataPlatform#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform#display_name AiDataPlatformAiDataPlatform#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform#freeform_tags AiDataPlatformAiDataPlatform#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform#freeform_tags AiDataPlatformAiDataPlatform#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform#id AiDataPlatformAiDataPlatform#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform#id AiDataPlatformAiDataPlatform#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform#system_tags AiDataPlatformAiDataPlatform#system_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform#system_tags AiDataPlatformAiDataPlatform#system_tags}
   */
   readonly systemTags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform#timeouts AiDataPlatformAiDataPlatform#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform#timeouts AiDataPlatformAiDataPlatform#timeouts}
   */
   readonly timeouts?: AiDataPlatformAiDataPlatformTimeouts;
 }
 export interface AiDataPlatformAiDataPlatformTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform#create AiDataPlatformAiDataPlatform#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform#create AiDataPlatformAiDataPlatform#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform#delete AiDataPlatformAiDataPlatform#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform#delete AiDataPlatformAiDataPlatform#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform#update AiDataPlatformAiDataPlatform#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform#update AiDataPlatformAiDataPlatform#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class AiDataPlatformAiDataPlatformTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform oci_ai_data_platform_ai_data_platform}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform oci_ai_data_platform_ai_data_platform}
 */
 export class AiDataPlatformAiDataPlatform extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class AiDataPlatformAiDataPlatform extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AiDataPlatformAiDataPlatform resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AiDataPlatformAiDataPlatform to import
-  * @param importFromId The id of the existing AiDataPlatformAiDataPlatform that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AiDataPlatformAiDataPlatform that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AiDataPlatformAiDataPlatform to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class AiDataPlatformAiDataPlatform extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_data_platform_ai_data_platform oci_ai_data_platform_ai_data_platform} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_data_platform_ai_data_platform oci_ai_data_platform_ai_data_platform} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class AiDataPlatformAiDataPlatform extends cdktf.TerraformResource {
       terraformResourceType: 'oci_ai_data_platform_ai_data_platform',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

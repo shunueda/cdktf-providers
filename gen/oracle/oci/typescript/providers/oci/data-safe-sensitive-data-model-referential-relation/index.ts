@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeSensitiveDataModelReferentialRelationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#id DataSafeSensitiveDataModelReferentialRelation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#id DataSafeSensitiveDataModelReferentialRelation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#is_sensitive DataSafeSensitiveDataModelReferentialRelation#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#is_sensitive DataSafeSensitiveDataModelReferentialRelation#is_sensitive}
   */
   readonly isSensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#relation_type DataSafeSensitiveDataModelReferentialRelation#relation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#relation_type DataSafeSensitiveDataModelReferentialRelation#relation_type}
   */
   readonly relationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#sensitive_data_model_id DataSafeSensitiveDataModelReferentialRelation#sensitive_data_model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#sensitive_data_model_id DataSafeSensitiveDataModelReferentialRelation#sensitive_data_model_id}
   */
   readonly sensitiveDataModelId: string;
   /**
   * child block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#child DataSafeSensitiveDataModelReferentialRelation#child}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#child DataSafeSensitiveDataModelReferentialRelation#child}
   */
   readonly child: DataSafeSensitiveDataModelReferentialRelationChild;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#parent DataSafeSensitiveDataModelReferentialRelation#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#parent DataSafeSensitiveDataModelReferentialRelation#parent}
   */
   readonly parent: DataSafeSensitiveDataModelReferentialRelationParent;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#timeouts DataSafeSensitiveDataModelReferentialRelation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#timeouts DataSafeSensitiveDataModelReferentialRelation#timeouts}
   */
   readonly timeouts?: DataSafeSensitiveDataModelReferentialRelationTimeouts;
 }
 export interface DataSafeSensitiveDataModelReferentialRelationChild {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#app_name DataSafeSensitiveDataModelReferentialRelation#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#app_name DataSafeSensitiveDataModelReferentialRelation#app_name}
   */
   readonly appName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#column_group DataSafeSensitiveDataModelReferentialRelation#column_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#column_group DataSafeSensitiveDataModelReferentialRelation#column_group}
   */
   readonly columnGroup: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#object DataSafeSensitiveDataModelReferentialRelation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#object DataSafeSensitiveDataModelReferentialRelation#object}
   */
   readonly object: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#object_type DataSafeSensitiveDataModelReferentialRelation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#object_type DataSafeSensitiveDataModelReferentialRelation#object_type}
   */
   readonly objectType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#schema_name DataSafeSensitiveDataModelReferentialRelation#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#schema_name DataSafeSensitiveDataModelReferentialRelation#schema_name}
   */
   readonly schemaName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#sensitive_type_ids DataSafeSensitiveDataModelReferentialRelation#sensitive_type_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#sensitive_type_ids DataSafeSensitiveDataModelReferentialRelation#sensitive_type_ids}
   */
   readonly sensitiveTypeIds?: string[];
 }
@@ -281,27 +281,27 @@ export class DataSafeSensitiveDataModelReferentialRelationChildOutputReference e
 }
 export interface DataSafeSensitiveDataModelReferentialRelationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#app_name DataSafeSensitiveDataModelReferentialRelation#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#app_name DataSafeSensitiveDataModelReferentialRelation#app_name}
   */
   readonly appName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#column_group DataSafeSensitiveDataModelReferentialRelation#column_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#column_group DataSafeSensitiveDataModelReferentialRelation#column_group}
   */
   readonly columnGroup: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#object DataSafeSensitiveDataModelReferentialRelation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#object DataSafeSensitiveDataModelReferentialRelation#object}
   */
   readonly object: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#object_type DataSafeSensitiveDataModelReferentialRelation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#object_type DataSafeSensitiveDataModelReferentialRelation#object_type}
   */
   readonly objectType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#schema_name DataSafeSensitiveDataModelReferentialRelation#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#schema_name DataSafeSensitiveDataModelReferentialRelation#schema_name}
   */
   readonly schemaName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#sensitive_type_ids DataSafeSensitiveDataModelReferentialRelation#sensitive_type_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#sensitive_type_ids DataSafeSensitiveDataModelReferentialRelation#sensitive_type_ids}
   */
   readonly sensitiveTypeIds?: string[];
 }
@@ -515,15 +515,15 @@ export class DataSafeSensitiveDataModelReferentialRelationParentOutputReference 
 }
 export interface DataSafeSensitiveDataModelReferentialRelationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#create DataSafeSensitiveDataModelReferentialRelation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#create DataSafeSensitiveDataModelReferentialRelation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#delete DataSafeSensitiveDataModelReferentialRelation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#delete DataSafeSensitiveDataModelReferentialRelation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#update DataSafeSensitiveDataModelReferentialRelation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#update DataSafeSensitiveDataModelReferentialRelation#update}
   */
   readonly update?: string;
 }
@@ -675,7 +675,7 @@ export class DataSafeSensitiveDataModelReferentialRelationTimeoutsOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation oci_data_safe_sensitive_data_model_referential_relation}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation oci_data_safe_sensitive_data_model_referential_relation}
 */
 export class DataSafeSensitiveDataModelReferentialRelation extends cdktf.TerraformResource {
 
@@ -691,7 +691,7 @@ export class DataSafeSensitiveDataModelReferentialRelation extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataSafeSensitiveDataModelReferentialRelation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeSensitiveDataModelReferentialRelation to import
-  * @param importFromId The id of the existing DataSafeSensitiveDataModelReferentialRelation that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeSensitiveDataModelReferentialRelation that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeSensitiveDataModelReferentialRelation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -703,7 +703,7 @@ export class DataSafeSensitiveDataModelReferentialRelation extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_sensitive_data_model_referential_relation oci_data_safe_sensitive_data_model_referential_relation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_sensitive_data_model_referential_relation oci_data_safe_sensitive_data_model_referential_relation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -714,8 +714,8 @@ export class DataSafeSensitiveDataModelReferentialRelation extends cdktf.Terrafo
       terraformResourceType: 'oci_data_safe_sensitive_data_model_referential_relation',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_autonomous_container_database_resource_usage
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_autonomous_container_database_resource_usage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseAutonomousContainerDatabaseResourceUsageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_autonomous_container_database_resource_usage#autonomous_container_database_id DataOciDatabaseAutonomousContainerDatabaseResourceUsage#autonomous_container_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_autonomous_container_database_resource_usage#autonomous_container_database_id DataOciDatabaseAutonomousContainerDatabaseResourceUsage#autonomous_container_database_id}
   */
   readonly autonomousContainerDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_autonomous_container_database_resource_usage#id DataOciDatabaseAutonomousContainerDatabaseResourceUsage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_autonomous_container_database_resource_usage#id DataOciDatabaseAutonomousContainerDatabaseResourceUsage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -121,7 +121,7 @@ export class DataOciDatabaseAutonomousContainerDatabaseResourceUsageAutonomousCo
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_autonomous_container_database_resource_usage oci_database_autonomous_container_database_resource_usage}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_autonomous_container_database_resource_usage oci_database_autonomous_container_database_resource_usage}
 */
 export class DataOciDatabaseAutonomousContainerDatabaseResourceUsage extends cdktf.TerraformDataSource {
 
@@ -137,7 +137,7 @@ export class DataOciDatabaseAutonomousContainerDatabaseResourceUsage extends cdk
   * Generates CDKTF code for importing a DataOciDatabaseAutonomousContainerDatabaseResourceUsage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseAutonomousContainerDatabaseResourceUsage to import
-  * @param importFromId The id of the existing DataOciDatabaseAutonomousContainerDatabaseResourceUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_autonomous_container_database_resource_usage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseAutonomousContainerDatabaseResourceUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_autonomous_container_database_resource_usage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseAutonomousContainerDatabaseResourceUsage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class DataOciDatabaseAutonomousContainerDatabaseResourceUsage extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_autonomous_container_database_resource_usage oci_database_autonomous_container_database_resource_usage} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_autonomous_container_database_resource_usage oci_database_autonomous_container_database_resource_usage} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class DataOciDatabaseAutonomousContainerDatabaseResourceUsage extends cdk
       terraformResourceType: 'oci_database_autonomous_container_database_resource_usage',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

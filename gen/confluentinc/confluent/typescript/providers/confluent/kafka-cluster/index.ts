@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster
+// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface KafkaClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The availability zone configuration of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#availability KafkaCluster#availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#availability KafkaCluster#availability}
   */
   readonly availability: string;
   /**
   * The cloud service provider that runs the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#cloud KafkaCluster#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#cloud KafkaCluster#cloud}
   */
   readonly cloud: string;
   /**
   * The name of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#display_name KafkaCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#display_name KafkaCluster#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#id KafkaCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#id KafkaCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface KafkaClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cloud service provider region where the Kafka cluster is running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#region KafkaCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#region KafkaCluster#region}
   */
   readonly region: string;
   /**
   * basic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#basic KafkaCluster#basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#basic KafkaCluster#basic}
   */
   readonly basic?: KafkaClusterBasic[] | cdktf.IResolvable;
   /**
   * byok_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#byok_key KafkaCluster#byok_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#byok_key KafkaCluster#byok_key}
   */
   readonly byokKey?: KafkaClusterByokKey;
   /**
   * dedicated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#dedicated KafkaCluster#dedicated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#dedicated KafkaCluster#dedicated}
   */
   readonly dedicated?: KafkaClusterDedicated;
   /**
   * enterprise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#enterprise KafkaCluster#enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#enterprise KafkaCluster#enterprise}
   */
   readonly enterprise?: KafkaClusterEnterprise[] | cdktf.IResolvable;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#environment KafkaCluster#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#environment KafkaCluster#environment}
   */
   readonly environment: KafkaClusterEnvironment;
   /**
   * freight block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#freight KafkaCluster#freight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#freight KafkaCluster#freight}
   */
   readonly freight?: KafkaClusterFreight[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#network KafkaCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#network KafkaCluster#network}
   */
   readonly network?: KafkaClusterNetwork;
   /**
   * standard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#standard KafkaCluster#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#standard KafkaCluster#standard}
   */
   readonly standard?: KafkaClusterStandard[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#timeouts KafkaCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#timeouts KafkaCluster#timeouts}
   */
   readonly timeouts?: KafkaClusterTimeouts;
 }
@@ -268,7 +268,7 @@ export interface KafkaClusterByokKey {
   /**
   * The ID of the Confluent key that is used to encrypt the data in the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#id KafkaCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#id KafkaCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -354,13 +354,13 @@ export interface KafkaClusterDedicated {
   /**
   * The number of Confluent Kafka Units (CKUs) for Dedicated cluster types. MULTI_ZONE dedicated clusters must have at least two CKUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#cku KafkaCluster#cku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#cku KafkaCluster#cku}
   */
   readonly cku: number;
   /**
   * The ID of the encryption key that is used to encrypt the data in the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#encryption_key KafkaCluster#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#encryption_key KafkaCluster#encryption_key}
   */
   readonly encryptionKey?: string;
 }
@@ -558,7 +558,7 @@ export interface KafkaClusterEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#id KafkaCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#id KafkaCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -730,7 +730,7 @@ export interface KafkaClusterNetwork {
   /**
   * The unique identifier for the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#id KafkaCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#id KafkaCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -895,11 +895,11 @@ export class KafkaClusterStandardList extends cdktf.ComplexList {
 }
 export interface KafkaClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#create KafkaCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#create KafkaCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#update KafkaCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#update KafkaCluster#update}
   */
   readonly update?: string;
 }
@@ -1022,7 +1022,7 @@ export class KafkaClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster confluent_kafka_cluster}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster confluent_kafka_cluster}
 */
 export class KafkaCluster extends cdktf.TerraformResource {
 
@@ -1038,7 +1038,7 @@ export class KafkaCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KafkaCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaCluster to import
-  * @param importFromId The id of the existing KafkaCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1050,7 +1050,7 @@ export class KafkaCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/kafka_cluster confluent_kafka_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_cluster confluent_kafka_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1061,8 +1061,8 @@ export class KafkaCluster extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_kafka_cluster',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.53.0',
-        providerVersionConstraint: '2.53.0'
+        providerVersion: '2.54.0',
+        providerVersionConstraint: '2.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

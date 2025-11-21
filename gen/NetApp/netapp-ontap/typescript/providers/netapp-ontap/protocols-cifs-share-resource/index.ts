@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,51 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface ProtocolsCifsShareResourceConfig extends cdktf.TerraformMetaArguments {
   /**
+  * If enabled, all folders inside this share are visible to a user based on that individual user access right; prevents
+  * 				the display of folders or other shared resources that the user does not have access to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#access_based_enumeration ProtocolsCifsShareResource#access_based_enumeration}
+  */
+  readonly accessBasedEnumeration?: boolean | cdktf.IResolvable;
+  /**
   * The permissions that users and groups have on a CIFS share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#acls ProtocolsCifsShareResource#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#acls ProtocolsCifsShareResource#acls}
   */
   readonly acls?: ProtocolsCifsShareResourceAcls[] | cdktf.IResolvable;
   /**
   * Specifies whether CIFS clients can request for change notifications for directories on this share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#change_notify ProtocolsCifsShareResource#change_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#change_notify ProtocolsCifsShareResource#change_notify}
   */
   readonly changeNotify?: boolean | cdktf.IResolvable;
   /**
   * Specify the CIFS share descriptions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#comment ProtocolsCifsShareResource#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#comment ProtocolsCifsShareResource#comment}
   */
   readonly comment?: string;
   /**
   * Specifies whether or not the clients connecting to this share can open files in a persistent manner.Files opened in this way are protected from disruptive events, such as, failover and giveback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#continuously_available ProtocolsCifsShareResource#continuously_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#continuously_available ProtocolsCifsShareResource#continuously_available}
   */
   readonly continuouslyAvailable?: boolean | cdktf.IResolvable;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#cx_profile_name ProtocolsCifsShareResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#cx_profile_name ProtocolsCifsShareResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Directory Mode Creation Mask to be viewed as an octal number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#dir_umask ProtocolsCifsShareResource#dir_umask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#dir_umask ProtocolsCifsShareResource#dir_umask}
   */
   readonly dirUmask?: number;
   /**
   * Specifies that SMB encryption must be used when accessing this share. Clients that do not support encryption are not able to access this share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#encryption ProtocolsCifsShareResource#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#encryption ProtocolsCifsShareResource#encryption}
   */
   readonly encryption?: boolean | cdktf.IResolvable;
   /**
   * File Mode Creation Mask to be viewed as an octal number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#file_umask ProtocolsCifsShareResource#file_umask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#file_umask ProtocolsCifsShareResource#file_umask}
   */
   readonly fileUmask?: number;
   /**
@@ -61,7 +68,7 @@ export interface ProtocolsCifsShareResourceConfig extends cdktf.TerraformMetaArg
   * 				database. This setting has no effect unless the security style of the volume is UNIX or mixed
   * 				security style.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#force_group_for_create ProtocolsCifsShareResource#force_group_for_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#force_group_for_create ProtocolsCifsShareResource#force_group_for_create}
   */
   readonly forceGroupForCreate?: string;
   /**
@@ -74,7 +81,7 @@ export interface ProtocolsCifsShareResourceConfig extends cdktf.TerraformMetaArg
   * 				In a home directory share, ONTAP dynamically generates the share-name and share-path by substituting
   * 				%w, %u, and %d variables with the corresponding Windows user name, UNIX user name, and domain name, respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#home_directory ProtocolsCifsShareResource#home_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#home_directory ProtocolsCifsShareResource#home_directory}
   */
   readonly homeDirectory?: boolean | cdktf.IResolvable;
   /**
@@ -84,20 +91,20 @@ export interface ProtocolsCifsShareResourceConfig extends cdktf.TerraformMetaArg
   * 				variables in any combination with this parameter to generate shares dynamically.
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#name ProtocolsCifsShareResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#name ProtocolsCifsShareResource#name}
   */
   readonly name: string;
   /**
   * Specifies whether or not the SMB clients connecting to this share can cache the directory enumeration
   * 				results returned by the CIFS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#namespace_caching ProtocolsCifsShareResource#namespace_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#namespace_caching ProtocolsCifsShareResource#namespace_caching}
   */
   readonly namespaceCaching?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether or not CIFS clients can follow a unix symlinks outside the share boundaries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#no_strict_security ProtocolsCifsShareResource#no_strict_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#no_strict_security ProtocolsCifsShareResource#no_strict_security}
   */
   readonly noStrictSecurity?: boolean | cdktf.IResolvable;
   /**
@@ -109,7 +116,7 @@ export interface ProtocolsCifsShareResourceConfig extends cdktf.TerraformMetaArg
   * 				and may use those files in an offline mode even if the share is available.
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#offline_files ProtocolsCifsShareResource#offline_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#offline_files ProtocolsCifsShareResource#offline_files}
   */
   readonly offlineFiles?: string;
   /**
@@ -117,7 +124,7 @@ export interface ProtocolsCifsShareResourceConfig extends cdktf.TerraformMetaArg
   * 				which can increase performance for file operations.
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#oplocks ProtocolsCifsShareResource#oplocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#oplocks ProtocolsCifsShareResource#oplocks}
   */
   readonly oplocks?: boolean | cdktf.IResolvable;
   /**
@@ -128,19 +135,19 @@ export interface ProtocolsCifsShareResourceConfig extends cdktf.TerraformMetaArg
   * 				search path to find the full Home Directory path.
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#path ProtocolsCifsShareResource#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#path ProtocolsCifsShareResource#path}
   */
   readonly path: string;
   /**
   * Specifies whether or not the Snapshot copies can be viewed and traversed by clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#show_snapshot ProtocolsCifsShareResource#show_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#show_snapshot ProtocolsCifsShareResource#show_snapshot}
   */
   readonly showSnapshot?: boolean | cdktf.IResolvable;
   /**
   * svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#svm_name ProtocolsCifsShareResource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#svm_name ProtocolsCifsShareResource#svm_name}
   */
   readonly svmName: string;
   /**
@@ -150,7 +157,7 @@ export interface ProtocolsCifsShareResourceConfig extends cdktf.TerraformMetaArg
   * 				* widelink - Enables both local symlinks and widelinks.
   * 				* disable - Disables local symlinks and widelinks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#unix_symlink ProtocolsCifsShareResource#unix_symlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#unix_symlink ProtocolsCifsShareResource#unix_symlink}
   */
   readonly unixSymlink?: string;
   /**
@@ -161,7 +168,7 @@ export interface ProtocolsCifsShareResourceConfig extends cdktf.TerraformMetaArg
   * 				strict - Virus scans can be triggered by open, read, close, and rename operations.
   * 				writes_only - Virus scans can be triggered only when a file that has been modified is closed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#vscan_profile ProtocolsCifsShareResource#vscan_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#vscan_profile ProtocolsCifsShareResource#vscan_profile}
   */
   readonly vscanProfile?: string;
 }
@@ -169,19 +176,19 @@ export interface ProtocolsCifsShareResourceAcls {
   /**
   * Specifies the access rights that a user or group has on the defined CIFS Share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#permission ProtocolsCifsShareResource#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#permission ProtocolsCifsShareResource#permission}
   */
   readonly permission?: string;
   /**
   * string Specifies the type of the user or group to add to the access control list of a CIFS share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#type ProtocolsCifsShareResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#type ProtocolsCifsShareResource#type}
   */
   readonly type?: string;
   /**
   * Specifies the user or group name to add to the access control list of a CIFS share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#user_or_group ProtocolsCifsShareResource#user_or_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#user_or_group ProtocolsCifsShareResource#user_or_group}
   */
   readonly userOrGroup?: string;
 }
@@ -355,7 +362,7 @@ export class ProtocolsCifsShareResourceAclsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource netapp-ontap_protocols_cifs_share_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource netapp-ontap_protocols_cifs_share_resource}
 */
 export class ProtocolsCifsShareResource extends cdktf.TerraformResource {
 
@@ -371,7 +378,7 @@ export class ProtocolsCifsShareResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtocolsCifsShareResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtocolsCifsShareResource to import
-  * @param importFromId The id of the existing ProtocolsCifsShareResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtocolsCifsShareResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtocolsCifsShareResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -383,7 +390,7 @@ export class ProtocolsCifsShareResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_share_resource netapp-ontap_protocols_cifs_share_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_share_resource netapp-ontap_protocols_cifs_share_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -394,8 +401,8 @@ export class ProtocolsCifsShareResource extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_protocols_cifs_share_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -405,6 +412,7 @@ export class ProtocolsCifsShareResource extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._accessBasedEnumeration = config.accessBasedEnumeration;
     this._acls.internalValue = config.acls;
     this._changeNotify = config.changeNotify;
     this._comment = config.comment;
@@ -430,6 +438,22 @@ export class ProtocolsCifsShareResource extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // access_based_enumeration - computed: true, optional: true, required: false
+  private _accessBasedEnumeration?: boolean | cdktf.IResolvable; 
+  public get accessBasedEnumeration() {
+    return this.getBooleanAttribute('access_based_enumeration');
+  }
+  public set accessBasedEnumeration(value: boolean | cdktf.IResolvable) {
+    this._accessBasedEnumeration = value;
+  }
+  public resetAccessBasedEnumeration() {
+    this._accessBasedEnumeration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accessBasedEnumerationInput() {
+    return this._accessBasedEnumeration;
+  }
 
   // acls - computed: true, optional: true, required: false
   private _acls = new ProtocolsCifsShareResourceAclsList(this, "acls", true);
@@ -750,6 +774,7 @@ export class ProtocolsCifsShareResource extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      access_based_enumeration: cdktf.booleanToTerraform(this._accessBasedEnumeration),
       acls: cdktf.listMapper(protocolsCifsShareResourceAclsToTerraform, false)(this._acls.internalValue),
       change_notify: cdktf.booleanToTerraform(this._changeNotify),
       comment: cdktf.stringToTerraform(this._comment),
@@ -775,6 +800,12 @@ export class ProtocolsCifsShareResource extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      access_based_enumeration: {
+        value: cdktf.booleanToHclTerraform(this._accessBasedEnumeration),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       acls: {
         value: cdktf.listMapperHcl(protocolsCifsShareResourceAclsToHclTerraform, false)(this._acls.internalValue),
         isBlock: true,

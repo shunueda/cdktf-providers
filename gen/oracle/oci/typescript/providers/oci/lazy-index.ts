@@ -432,6 +432,8 @@ Object.defineProperty(exports, 'datascienceProject', { get: function () { return
 Object.defineProperty(exports, 'datascienceSchedule', { get: function () { return require('./datascience-schedule'); } });
 Object.defineProperty(exports, 'dblmVulnerabilityScan', { get: function () { return require('./dblm-vulnerability-scan'); } });
 Object.defineProperty(exports, 'dbmulticloudMultiCloudResourceDiscovery', { get: function () { return require('./dbmulticloud-multi-cloud-resource-discovery'); } });
+Object.defineProperty(exports, 'dbmulticloudOracleDbAwsIdentityConnector', { get: function () { return require('./dbmulticloud-oracle-db-aws-identity-connector'); } });
+Object.defineProperty(exports, 'dbmulticloudOracleDbAwsKey', { get: function () { return require('./dbmulticloud-oracle-db-aws-key'); } });
 Object.defineProperty(exports, 'dbmulticloudOracleDbAzureBlobContainer', { get: function () { return require('./dbmulticloud-oracle-db-azure-blob-container'); } });
 Object.defineProperty(exports, 'dbmulticloudOracleDbAzureBlobMount', { get: function () { return require('./dbmulticloud-oracle-db-azure-blob-mount'); } });
 Object.defineProperty(exports, 'dbmulticloudOracleDbAzureConnector', { get: function () { return require('./dbmulticloud-oracle-db-azure-connector'); } });
@@ -617,10 +619,14 @@ Object.defineProperty(exports, 'integrationOracleManagedCustomEndpoint', { get: 
 Object.defineProperty(exports, 'integrationPrivateEndpointOutboundConnection', { get: function () { return require('./integration-private-endpoint-outbound-connection'); } });
 Object.defineProperty(exports, 'iotDigitalTwinAdapter', { get: function () { return require('./iot-digital-twin-adapter'); } });
 Object.defineProperty(exports, 'iotDigitalTwinInstance', { get: function () { return require('./iot-digital-twin-instance'); } });
+Object.defineProperty(exports, 'iotDigitalTwinInstanceInvokeRawCommand', { get: function () { return require('./iot-digital-twin-instance-invoke-raw-command'); } });
 Object.defineProperty(exports, 'iotDigitalTwinModel', { get: function () { return require('./iot-digital-twin-model'); } });
 Object.defineProperty(exports, 'iotDigitalTwinRelationship', { get: function () { return require('./iot-digital-twin-relationship'); } });
 Object.defineProperty(exports, 'iotIotDomain', { get: function () { return require('./iot-iot-domain'); } });
+Object.defineProperty(exports, 'iotIotDomainChangeDataRetentionPeriod', { get: function () { return require('./iot-iot-domain-change-data-retention-period'); } });
+Object.defineProperty(exports, 'iotIotDomainConfigureDataAccess', { get: function () { return require('./iot-iot-domain-configure-data-access'); } });
 Object.defineProperty(exports, 'iotIotDomainGroup', { get: function () { return require('./iot-iot-domain-group'); } });
+Object.defineProperty(exports, 'iotIotDomainGroupConfigureDataAccess', { get: function () { return require('./iot-iot-domain-group-configure-data-access'); } });
 Object.defineProperty(exports, 'jmsFleet', { get: function () { return require('./jms-fleet'); } });
 Object.defineProperty(exports, 'jmsFleetAdvancedFeatureConfiguration', { get: function () { return require('./jms-fleet-advanced-feature-configuration'); } });
 Object.defineProperty(exports, 'jmsFleetAgentConfiguration', { get: function () { return require('./jms-fleet-agent-configuration'); } });
@@ -823,6 +829,7 @@ Object.defineProperty(exports, 'osManagementHubSoftwareSourceReplacePackagesMana
 Object.defineProperty(exports, 'osManagementHubWorkRequestRerunManagement', { get: function () { return require('./os-management-hub-work-request-rerun-management'); } });
 Object.defineProperty(exports, 'ospGatewayAddressActionVerification', { get: function () { return require('./osp-gateway-address-action-verification'); } });
 Object.defineProperty(exports, 'ospGatewaySubscription', { get: function () { return require('./osp-gateway-subscription'); } });
+Object.defineProperty(exports, 'psaPrivateServiceAccess', { get: function () { return require('./psa-private-service-access'); } });
 Object.defineProperty(exports, 'psqlBackup', { get: function () { return require('./psql-backup'); } });
 Object.defineProperty(exports, 'psqlConfiguration', { get: function () { return require('./psql-configuration'); } });
 Object.defineProperty(exports, 'psqlDbSystem', { get: function () { return require('./psql-db-system'); } });
@@ -1919,6 +1926,10 @@ Object.defineProperty(exports, 'dataOciDblmVulnerabilityScans', { get: function 
 Object.defineProperty(exports, 'dataOciDblmVulnerabilityVulnerabilities', { get: function () { return require('./data-oci-dblm-vulnerability-vulnerabilities'); } });
 Object.defineProperty(exports, 'dataOciDbmulticloudMultiCloudResourceDiscoveries', { get: function () { return require('./data-oci-dbmulticloud-multi-cloud-resource-discoveries'); } });
 Object.defineProperty(exports, 'dataOciDbmulticloudMultiCloudResourceDiscovery', { get: function () { return require('./data-oci-dbmulticloud-multi-cloud-resource-discovery'); } });
+Object.defineProperty(exports, 'dataOciDbmulticloudOracleDbAwsIdentityConnector', { get: function () { return require('./data-oci-dbmulticloud-oracle-db-aws-identity-connector'); } });
+Object.defineProperty(exports, 'dataOciDbmulticloudOracleDbAwsIdentityConnectors', { get: function () { return require('./data-oci-dbmulticloud-oracle-db-aws-identity-connectors'); } });
+Object.defineProperty(exports, 'dataOciDbmulticloudOracleDbAwsKey', { get: function () { return require('./data-oci-dbmulticloud-oracle-db-aws-key'); } });
+Object.defineProperty(exports, 'dataOciDbmulticloudOracleDbAwsKeys', { get: function () { return require('./data-oci-dbmulticloud-oracle-db-aws-keys'); } });
 Object.defineProperty(exports, 'dataOciDbmulticloudOracleDbAzureBlobContainer', { get: function () { return require('./data-oci-dbmulticloud-oracle-db-azure-blob-container'); } });
 Object.defineProperty(exports, 'dataOciDbmulticloudOracleDbAzureBlobContainers', { get: function () { return require('./data-oci-dbmulticloud-oracle-db-azure-blob-containers'); } });
 Object.defineProperty(exports, 'dataOciDbmulticloudOracleDbAzureBlobMount', { get: function () { return require('./data-oci-dbmulticloud-oracle-db-azure-blob-mount'); } });
@@ -2879,6 +2890,13 @@ Object.defineProperty(exports, 'dataOciOsubSubscriptionSubscriptions', { get: fu
 Object.defineProperty(exports, 'dataOciOsubUsageComputedUsage', { get: function () { return require('./data-oci-osub-usage-computed-usage'); } });
 Object.defineProperty(exports, 'dataOciOsubUsageComputedUsageAggregateds', { get: function () { return require('./data-oci-osub-usage-computed-usage-aggregateds'); } });
 Object.defineProperty(exports, 'dataOciOsubUsageComputedUsages', { get: function () { return require('./data-oci-osub-usage-computed-usages'); } });
+Object.defineProperty(exports, 'dataOciPsaPrivateServiceAccess', { get: function () { return require('./data-oci-psa-private-service-access'); } });
+Object.defineProperty(exports, 'dataOciPsaPrivateServiceAccesses', { get: function () { return require('./data-oci-psa-private-service-accesses'); } });
+Object.defineProperty(exports, 'dataOciPsaPsaServices', { get: function () { return require('./data-oci-psa-psa-services'); } });
+Object.defineProperty(exports, 'dataOciPsaPsaWorkRequest', { get: function () { return require('./data-oci-psa-psa-work-request'); } });
+Object.defineProperty(exports, 'dataOciPsaPsaWorkRequestErrors', { get: function () { return require('./data-oci-psa-psa-work-request-errors'); } });
+Object.defineProperty(exports, 'dataOciPsaPsaWorkRequestLogs', { get: function () { return require('./data-oci-psa-psa-work-request-logs'); } });
+Object.defineProperty(exports, 'dataOciPsaPsaWorkRequests', { get: function () { return require('./data-oci-psa-psa-work-requests'); } });
 Object.defineProperty(exports, 'dataOciPsqlBackup', { get: function () { return require('./data-oci-psql-backup'); } });
 Object.defineProperty(exports, 'dataOciPsqlBackups', { get: function () { return require('./data-oci-psql-backups'); } });
 Object.defineProperty(exports, 'dataOciPsqlConfiguration', { get: function () { return require('./data-oci-psql-configuration'); } });
@@ -2932,6 +2950,8 @@ Object.defineProperty(exports, 'dataOciSecurityAttributeSecurityAttribute', { ge
 Object.defineProperty(exports, 'dataOciSecurityAttributeSecurityAttributeNamespace', { get: function () { return require('./data-oci-security-attribute-security-attribute-namespace'); } });
 Object.defineProperty(exports, 'dataOciSecurityAttributeSecurityAttributeNamespaces', { get: function () { return require('./data-oci-security-attribute-security-attribute-namespaces'); } });
 Object.defineProperty(exports, 'dataOciSecurityAttributeSecurityAttributes', { get: function () { return require('./data-oci-security-attribute-security-attributes'); } });
+Object.defineProperty(exports, 'dataOciServiceCatalogAllApplications', { get: function () { return require('./data-oci-service-catalog-all-applications'); } });
+Object.defineProperty(exports, 'dataOciServiceCatalogConfiguration', { get: function () { return require('./data-oci-service-catalog-configuration'); } });
 Object.defineProperty(exports, 'dataOciServiceCatalogPrivateApplication', { get: function () { return require('./data-oci-service-catalog-private-application'); } });
 Object.defineProperty(exports, 'dataOciServiceCatalogPrivateApplicationPackage', { get: function () { return require('./data-oci-service-catalog-private-application-package'); } });
 Object.defineProperty(exports, 'dataOciServiceCatalogPrivateApplicationPackages', { get: function () { return require('./data-oci-service-catalog-private-application-packages'); } });

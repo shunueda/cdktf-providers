@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_route
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNetappOntapNetworkIpRouteConfig extends cdktf.TerraformMeta
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_route#cx_profile_name DataNetappOntapNetworkIpRoute#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_route#cx_profile_name DataNetappOntapNetworkIpRoute#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * destination IP address information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_route#destination DataNetappOntapNetworkIpRoute#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_route#destination DataNetappOntapNetworkIpRoute#destination}
   */
   readonly destination: DataNetappOntapNetworkIpRouteDestination;
   /**
   * The IP address of the gateway router leading to the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_route#gateway DataNetappOntapNetworkIpRoute#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_route#gateway DataNetappOntapNetworkIpRoute#gateway}
   */
   readonly gateway: string;
   /**
   * IPInterface svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_route#svm_name DataNetappOntapNetworkIpRoute#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_route#svm_name DataNetappOntapNetworkIpRoute#svm_name}
   */
   readonly svmName: string;
 }
@@ -36,7 +36,7 @@ export interface DataNetappOntapNetworkIpRouteDestination {
   /**
   * IPv4 or IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_route#address DataNetappOntapNetworkIpRoute#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_route#address DataNetappOntapNetworkIpRoute#address}
   */
   readonly address: string;
 }
@@ -132,7 +132,7 @@ export class DataNetappOntapNetworkIpRouteDestinationOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_route netapp-ontap_network_ip_route}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_route netapp-ontap_network_ip_route}
 */
 export class DataNetappOntapNetworkIpRoute extends cdktf.TerraformDataSource {
 
@@ -148,7 +148,7 @@ export class DataNetappOntapNetworkIpRoute extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapNetworkIpRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapNetworkIpRoute to import
-  * @param importFromId The id of the existing DataNetappOntapNetworkIpRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapNetworkIpRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapNetworkIpRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -160,7 +160,7 @@ export class DataNetappOntapNetworkIpRoute extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_route netapp-ontap_network_ip_route} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_route netapp-ontap_network_ip_route} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -171,8 +171,8 @@ export class DataNetappOntapNetworkIpRoute extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_network_ip_route',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

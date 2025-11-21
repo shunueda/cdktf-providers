@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface AdminRolesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Admin and role management access permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#admin_acct_access AdminRoles#admin_acct_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#admin_acct_access AdminRoles#admin_acct_access}
   */
   readonly adminAcctAccess?: string;
   /**
   * Alerting access permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#alerting_access AdminRoles#alerting_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#alerting_access AdminRoles#alerting_access}
   */
   readonly alertingAccess?: string;
   /**
   * Insights logs access permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#analysis_access AdminRoles#analysis_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#analysis_access AdminRoles#analysis_access}
   */
   readonly analysisAccess?: string;
   /**
   * Dashboard access permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#dashboard_access AdminRoles#dashboard_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#dashboard_access AdminRoles#dashboard_access}
   */
   readonly dashboardAccess?: string;
   /**
   * Device information access permission. When set to NONE, device information is obfuscated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#device_info_access AdminRoles#device_info_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#device_info_access AdminRoles#device_info_access}
   */
   readonly deviceInfoAccess?: string;
   /**
   * External feature access permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#ext_feature_permissions AdminRoles#ext_feature_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#ext_feature_permissions AdminRoles#ext_feature_permissions}
   */
   readonly extFeaturePermissions?: { [key: string]: string };
   /**
   * Feature access permission. Indicates which features an admin role can access and if the admin has both read and write access, or read-only access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#feature_permissions AdminRoles#feature_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#feature_permissions AdminRoles#feature_permissions}
   */
   readonly featurePermissions?: { [key: string]: string };
   /**
   * Indicates whether this is an auditor role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#is_auditor AdminRoles#is_auditor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#is_auditor AdminRoles#is_auditor}
   */
   readonly isAuditor?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether or not this admin user is editable/deletable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#is_non_editable AdminRoles#is_non_editable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#is_non_editable AdminRoles#is_non_editable}
   */
   readonly isNonEditable?: boolean | cdktf.IResolvable;
   /**
   * Log range limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#logs_limit AdminRoles#logs_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#logs_limit AdminRoles#logs_limit}
   */
   readonly logsLimit?: string;
   /**
   * Name of the admin role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#name AdminRoles#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#name AdminRoles#name}
   */
   readonly name?: string;
   /**
   * Request method for which the rule must be applied. If not set, rule will be applied to all methods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#permissions AdminRoles#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#permissions AdminRoles#permissions}
   */
   readonly permissions?: string[];
   /**
   * Policy access permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#policy_access AdminRoles#policy_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#policy_access AdminRoles#policy_access}
   */
   readonly policyAccess?: string;
   /**
   * Admin rank of this admin role. This is applicable only when admin rank is enabled in the advanced settings. Default value is 7 (the lowest rank). The assigned admin rank determines the roles or admin users this user can manage, and which rule orders this admin can access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#rank AdminRoles#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#rank AdminRoles#rank}
   */
   readonly rank?: number;
   /**
   * Report access permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#report_access AdminRoles#report_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#report_access AdminRoles#report_access}
   */
   readonly reportAccess?: string;
   /**
   * Time duration allocated to the report dashboard. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#report_time_duration AdminRoles#report_time_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#report_time_duration AdminRoles#report_time_duration}
   */
   readonly reportTimeDuration?: number;
   /**
   * The admin role type. ()This attribute is subject to change.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#role_type AdminRoles#role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#role_type AdminRoles#role_type}
   */
   readonly roleType?: string;
   /**
   * Username access permission. When set to NONE, the username will be obfuscated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#username_access AdminRoles#username_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#username_access AdminRoles#username_access}
   */
   readonly usernameAccess?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles zia_admin_roles}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles zia_admin_roles}
 */
 export class AdminRoles extends cdktf.TerraformResource {
 
@@ -134,7 +134,7 @@ export class AdminRoles extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdminRoles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdminRoles to import
-  * @param importFromId The id of the existing AdminRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdminRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdminRoles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class AdminRoles extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_roles zia_admin_roles} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_roles zia_admin_roles} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class AdminRoles extends cdktf.TerraformResource {
       terraformResourceType: 'zia_admin_roles',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

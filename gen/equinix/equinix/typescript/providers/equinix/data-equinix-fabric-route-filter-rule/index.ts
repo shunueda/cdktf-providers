@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_filter_rule
+// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_filter_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEquinixFabricRouteFilterRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_filter_rule#id DataEquinixFabricRouteFilterRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_filter_rule#id DataEquinixFabricRouteFilterRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataEquinixFabricRouteFilterRuleConfig extends cdktf.TerraformM
   /**
   * UUID of the Route Filter Policy the rule is attached to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_filter_rule#route_filter_id DataEquinixFabricRouteFilterRule#route_filter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_filter_rule#route_filter_id DataEquinixFabricRouteFilterRule#route_filter_id}
   */
   readonly routeFilterId: string;
   /**
   * Equinix Assigned ID for Route Filter Rule to retrieve data for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_filter_rule#uuid DataEquinixFabricRouteFilterRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_filter_rule#uuid DataEquinixFabricRouteFilterRule#uuid}
   */
   readonly uuid: string;
 }
@@ -244,7 +244,7 @@ export class DataEquinixFabricRouteFilterRuleChangeLogList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_filter_rule equinix_fabric_route_filter_rule}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_filter_rule equinix_fabric_route_filter_rule}
 */
 export class DataEquinixFabricRouteFilterRule extends cdktf.TerraformDataSource {
 
@@ -260,7 +260,7 @@ export class DataEquinixFabricRouteFilterRule extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataEquinixFabricRouteFilterRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricRouteFilterRule to import
-  * @param importFromId The id of the existing DataEquinixFabricRouteFilterRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_filter_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricRouteFilterRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_filter_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricRouteFilterRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -272,7 +272,7 @@ export class DataEquinixFabricRouteFilterRule extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_filter_rule equinix_fabric_route_filter_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_filter_rule equinix_fabric_route_filter_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -283,8 +283,8 @@ export class DataEquinixFabricRouteFilterRule extends cdktf.TerraformDataSource 
       terraformResourceType: 'equinix_fabric_route_filter_rule',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.10.0',
-        providerVersionConstraint: '4.10.0'
+        providerVersion: '4.11.0',
+        providerVersionConstraint: '4.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

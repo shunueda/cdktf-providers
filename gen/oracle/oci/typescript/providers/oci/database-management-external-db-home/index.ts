@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_home
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_home
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseManagementExternalDbHomeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_home#defined_tags DatabaseManagementExternalDbHome#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_home#defined_tags DatabaseManagementExternalDbHome#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_home#external_db_home_id DatabaseManagementExternalDbHome#external_db_home_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_home#external_db_home_id DatabaseManagementExternalDbHome#external_db_home_id}
   */
   readonly externalDbHomeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_home#freeform_tags DatabaseManagementExternalDbHome#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_home#freeform_tags DatabaseManagementExternalDbHome#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_home#id DatabaseManagementExternalDbHome#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_home#id DatabaseManagementExternalDbHome#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,21 +29,21 @@ export interface DatabaseManagementExternalDbHomeConfig extends cdktf.TerraformM
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_home#timeouts DatabaseManagementExternalDbHome#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_home#timeouts DatabaseManagementExternalDbHome#timeouts}
   */
   readonly timeouts?: DatabaseManagementExternalDbHomeTimeouts;
 }
 export interface DatabaseManagementExternalDbHomeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_home#create DatabaseManagementExternalDbHome#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_home#create DatabaseManagementExternalDbHome#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_home#delete DatabaseManagementExternalDbHome#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_home#delete DatabaseManagementExternalDbHome#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_home#update DatabaseManagementExternalDbHome#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_home#update DatabaseManagementExternalDbHome#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class DatabaseManagementExternalDbHomeTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_home oci_database_management_external_db_home}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_home oci_database_management_external_db_home}
 */
 export class DatabaseManagementExternalDbHome extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class DatabaseManagementExternalDbHome extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseManagementExternalDbHome resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseManagementExternalDbHome to import
-  * @param importFromId The id of the existing DatabaseManagementExternalDbHome that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_home#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseManagementExternalDbHome that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_home#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseManagementExternalDbHome to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class DatabaseManagementExternalDbHome extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_home oci_database_management_external_db_home} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_home oci_database_management_external_db_home} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class DatabaseManagementExternalDbHome extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_management_external_db_home',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_cloud_db_system_cloud_database_managements_management
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#cloud_db_system_id DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#cloud_db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#cloud_db_system_id DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#cloud_db_system_id}
   */
   readonly cloudDbSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#enable_cloud_database_management DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#enable_cloud_database_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#enable_cloud_database_management DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#enable_cloud_database_management}
   */
   readonly enableCloudDatabaseManagement: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#id DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#id DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#is_enabled DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#is_enabled DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#metadata DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#metadata DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#metadata}
   */
   readonly metadata?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#timeouts DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#timeouts DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#timeouts}
   */
   readonly timeouts?: DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagementTimeouts;
 }
 export interface DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#create DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#create DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#delete DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#delete DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#update DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#update DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagementTi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_cloud_db_system_cloud_database_managements_management oci_database_management_cloud_db_system_cloud_database_managements_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management oci_database_management_cloud_db_system_cloud_database_managements_management}
 */
 export class DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement e
   * Generates CDKTF code for importing a DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement to import
-  * @param importFromId The id of the existing DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement e
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_cloud_db_system_cloud_database_managements_management oci_database_management_cloud_db_system_cloud_database_managements_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management oci_database_management_cloud_db_system_cloud_database_managements_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement e
       terraformResourceType: 'oci_database_management_cloud_db_system_cloud_database_managements_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface AwsCloudformationTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#description AwsCloudformationTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#description AwsCloudformationTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#id AwsCloudformationTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#id AwsCloudformationTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#last_updated AwsCloudformationTemplate#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#last_updated AwsCloudformationTemplate#last_updated}
   */
   readonly lastUpdated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#name AwsCloudformationTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#name AwsCloudformationTemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#policy AwsCloudformationTemplate#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#policy AwsCloudformationTemplate#policy}
   */
   readonly policy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#region AwsCloudformationTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#region AwsCloudformationTemplate#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#regions AwsCloudformationTemplate#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#regions AwsCloudformationTemplate#regions}
   */
   readonly regions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#sns_arns AwsCloudformationTemplate#sns_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#sns_arns AwsCloudformationTemplate#sns_arns}
   */
   readonly snsArns?: string;
   /**
   * Stack-level tags will apply to all supported resources in a CloudFormation stack.  Requires Kion >= 3.7.1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#tags AwsCloudformationTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#tags AwsCloudformationTemplate#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#template_parameters AwsCloudformationTemplate#template_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#template_parameters AwsCloudformationTemplate#template_parameters}
   */
   readonly templateParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#termination_protection AwsCloudformationTemplate#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#termination_protection AwsCloudformationTemplate#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * owner_user_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#owner_user_groups AwsCloudformationTemplate#owner_user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#owner_user_groups AwsCloudformationTemplate#owner_user_groups}
   */
   readonly ownerUserGroups?: AwsCloudformationTemplateOwnerUserGroups[] | cdktf.IResolvable;
   /**
   * owner_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#owner_users AwsCloudformationTemplate#owner_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#owner_users AwsCloudformationTemplate#owner_users}
   */
   readonly ownerUsers?: AwsCloudformationTemplateOwnerUsers[] | cdktf.IResolvable;
 }
 export interface AwsCloudformationTemplateOwnerUserGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#id AwsCloudformationTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#id AwsCloudformationTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -190,7 +190,7 @@ export class AwsCloudformationTemplateOwnerUserGroupsList extends cdktf.ComplexL
 }
 export interface AwsCloudformationTemplateOwnerUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#id AwsCloudformationTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#id AwsCloudformationTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -309,7 +309,7 @@ export class AwsCloudformationTemplateOwnerUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template kion_aws_cloudformation_template}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template kion_aws_cloudformation_template}
 */
 export class AwsCloudformationTemplate extends cdktf.TerraformResource {
 
@@ -325,7 +325,7 @@ export class AwsCloudformationTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsCloudformationTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsCloudformationTemplate to import
-  * @param importFromId The id of the existing AwsCloudformationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsCloudformationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsCloudformationTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -337,7 +337,7 @@ export class AwsCloudformationTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/aws_cloudformation_template kion_aws_cloudformation_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/aws_cloudformation_template kion_aws_cloudformation_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,8 +348,8 @@ export class AwsCloudformationTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'kion_aws_cloudformation_template',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

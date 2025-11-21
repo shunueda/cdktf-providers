@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface GcpIamRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role#description GcpIamRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role#description GcpIamRole#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role#gcp_role_launch_stage GcpIamRole#gcp_role_launch_stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role#gcp_role_launch_stage GcpIamRole#gcp_role_launch_stage}
   */
   readonly gcpRoleLaunchStage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role#id GcpIamRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role#id GcpIamRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role#last_updated GcpIamRole#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role#last_updated GcpIamRole#last_updated}
   */
   readonly lastUpdated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role#name GcpIamRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role#name GcpIamRole#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role#role_permissions GcpIamRole#role_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role#role_permissions GcpIamRole#role_permissions}
   */
   readonly rolePermissions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role#system_managed_policy GcpIamRole#system_managed_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role#system_managed_policy GcpIamRole#system_managed_policy}
   */
   readonly systemManagedPolicy?: boolean | cdktf.IResolvable;
   /**
   * owner_user_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role#owner_user_groups GcpIamRole#owner_user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role#owner_user_groups GcpIamRole#owner_user_groups}
   */
   readonly ownerUserGroups?: GcpIamRoleOwnerUserGroups[] | cdktf.IResolvable;
   /**
   * owner_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role#owner_users GcpIamRole#owner_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role#owner_users GcpIamRole#owner_users}
   */
   readonly ownerUsers?: GcpIamRoleOwnerUsers[] | cdktf.IResolvable;
 }
 export interface GcpIamRoleOwnerUserGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role#id GcpIamRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role#id GcpIamRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -172,7 +172,7 @@ export class GcpIamRoleOwnerUserGroupsList extends cdktf.ComplexList {
 }
 export interface GcpIamRoleOwnerUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role#id GcpIamRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role#id GcpIamRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -291,7 +291,7 @@ export class GcpIamRoleOwnerUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role kion_gcp_iam_role}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role kion_gcp_iam_role}
 */
 export class GcpIamRole extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class GcpIamRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpIamRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpIamRole to import
-  * @param importFromId The id of the existing GcpIamRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpIamRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpIamRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class GcpIamRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/gcp_iam_role kion_gcp_iam_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/gcp_iam_role kion_gcp_iam_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class GcpIamRole extends cdktf.TerraformResource {
       terraformResourceType: 'kion_gcp_iam_role',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

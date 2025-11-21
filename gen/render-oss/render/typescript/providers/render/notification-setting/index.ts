@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/notification_setting
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/notification_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface NotificationSettingConfig extends cdktf.TerraformMetaArguments 
   /**
   * Whether email notifications are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/notification_setting#email_enabled NotificationSetting#email_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/notification_setting#email_enabled NotificationSetting#email_enabled}
   */
   readonly emailEnabled?: boolean | cdktf.IResolvable;
   /**
   * The types of notifications to send. Must be one of `all`, `failure`, or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/notification_setting#notifications_to_send NotificationSetting#notifications_to_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/notification_setting#notifications_to_send NotificationSetting#notifications_to_send}
   */
   readonly notificationsToSend?: string;
   /**
   * Whether notifications for preview environments are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/notification_setting#preview_notifications_enabled NotificationSetting#preview_notifications_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/notification_setting#preview_notifications_enabled NotificationSetting#preview_notifications_enabled}
   */
   readonly previewNotificationsEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/notification_setting render_notification_setting}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/notification_setting render_notification_setting}
 */
 export class NotificationSetting extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class NotificationSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationSetting to import
-  * @param importFromId The id of the existing NotificationSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/notification_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/notification_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class NotificationSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/notification_setting render_notification_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/notification_setting render_notification_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class NotificationSetting extends cdktf.TerraformResource {
       terraformResourceType: 'render_notification_setting',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

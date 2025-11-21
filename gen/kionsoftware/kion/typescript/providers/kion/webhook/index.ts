@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface WebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * The URL to which the webhook will send requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#callout_url Webhook#callout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#callout_url Webhook#callout_url}
   */
   readonly calloutUrl: string;
   /**
   * Description of the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#description Webhook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#description Webhook#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#id Webhook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#id Webhook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,67 +29,67 @@ export interface WebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#name Webhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#name Webhook#name}
   */
   readonly name: string;
   /**
   * Set of user group IDs that own the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#owner_user_group_ids Webhook#owner_user_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#owner_user_group_ids Webhook#owner_user_group_ids}
   */
   readonly ownerUserGroupIds?: number[];
   /**
   * Set of user IDs that own the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#owner_user_ids Webhook#owner_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#owner_user_ids Webhook#owner_user_ids}
   */
   readonly ownerUserIds?: number[];
   /**
   * The request body to be sent with the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#request_body Webhook#request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#request_body Webhook#request_body}
   */
   readonly requestBody?: string;
   /**
   * HTTP headers to use when the webhook is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#request_headers Webhook#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#request_headers Webhook#request_headers}
   */
   readonly requestHeaders?: string;
   /**
   * HTTP method to be used for the webhook (GET, POST, etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#request_method Webhook#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#request_method Webhook#request_method}
   */
   readonly requestMethod: string;
   /**
   * Whether the webhook should send secure information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#should_send_secure_info Webhook#should_send_secure_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#should_send_secure_info Webhook#should_send_secure_info}
   */
   readonly shouldSendSecureInfo?: boolean | cdktf.IResolvable;
   /**
   * Whether to skip SSL verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#skip_ssl Webhook#skip_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#skip_ssl Webhook#skip_ssl}
   */
   readonly skipSsl?: boolean | cdktf.IResolvable;
   /**
   * The number of seconds the application will wait before considering the webhook 'timed out'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#timeout_in_seconds Webhook#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#timeout_in_seconds Webhook#timeout_in_seconds}
   */
   readonly timeoutInSeconds: number;
   /**
   * Whether to use request headers in the webhook request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#use_request_headers Webhook#use_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#use_request_headers Webhook#use_request_headers}
   */
   readonly useRequestHeaders?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook kion_webhook}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook kion_webhook}
 */
 export class Webhook extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class Webhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Webhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Webhook to import
-  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Webhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class Webhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/webhook kion_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/webhook kion_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class Webhook extends cdktf.TerraformResource {
       terraformResourceType: 'kion_webhook',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

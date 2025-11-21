@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/action
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Applies the action for specific applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/action#applications Action#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/action#applications Action#applications}
   */
   readonly applications?: string[];
   /**
   * Determines weather the action will be shown at the action menu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/action#is_hidden Action#is_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/action#is_hidden Action#is_hidden}
   */
   readonly isHidden?: boolean | cdktf.IResolvable;
   /**
   * Determines weather the action will be shared with the entire team. Can be set to false only by admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/action#is_private Action#is_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/action#is_private Action#is_private}
   */
   readonly isPrivate?: boolean | cdktf.IResolvable;
   /**
   * Action name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/action#name Action#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/action#name Action#name}
   */
   readonly name: string;
   /**
   * By selecting the data type, you can make sure that the action will be displayed only in the relevant context. Can be one of ["DataMap" "Log"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/action#source_type Action#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/action#source_type Action#source_type}
   */
   readonly sourceType: string;
   /**
   * Applies the action for specific subsystems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/action#subsystems Action#subsystems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/action#subsystems Action#subsystems}
   */
   readonly subsystems?: string[];
   /**
   * URL for the external tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/action#url Action#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/action#url Action#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/action coralogix_action}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/action coralogix_action}
 */
 export class Action extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class Action extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Action resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Action to import
-  * @param importFromId The id of the existing Action that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Action that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Action to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class Action extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/action coralogix_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/action coralogix_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class Action extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_action',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -115,7 +115,7 @@ export class Action extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // applications - computed: false, optional: true, required: false
+  // applications - computed: true, optional: true, required: false
   private _applications?: string[]; 
   public get applications() {
     return cdktf.Fn.tolist(this.getListAttribute('applications'));
@@ -199,7 +199,7 @@ export class Action extends cdktf.TerraformResource {
     return this._sourceType;
   }
 
-  // subsystems - computed: false, optional: true, required: false
+  // subsystems - computed: true, optional: true, required: false
   private _subsystems?: string[]; 
   public get subsystems() {
     return cdktf.Fn.tolist(this.getListAttribute('subsystems'));

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,9 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciGoldenGatePipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline#pipeline_id DataOciGoldenGatePipeline#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline#pipeline_id DataOciGoldenGatePipeline#pipeline_id}
   */
   readonly pipelineId: string;
+}
+export interface DataOciGoldenGatePipelineIngressIps {
+}
+
+export function dataOciGoldenGatePipelineIngressIpsToTerraform(struct?: DataOciGoldenGatePipelineIngressIps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciGoldenGatePipelineIngressIpsToHclTerraform(struct?: DataOciGoldenGatePipelineIngressIps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciGoldenGatePipelineIngressIpsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciGoldenGatePipelineIngressIps | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciGoldenGatePipelineIngressIps | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // ingress_ip - computed: true, optional: false, required: false
+  public get ingressIp() {
+    return this.getStringAttribute('ingress_ip');
+  }
+}
+
+export class DataOciGoldenGatePipelineIngressIpsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciGoldenGatePipelineIngressIpsOutputReference {
+    return new DataOciGoldenGatePipelineIngressIpsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataOciGoldenGatePipelineLocks {
 }
@@ -66,6 +141,16 @@ export class DataOciGoldenGatePipelineLocksOutputReference extends cdktf.Complex
   // message - computed: true, optional: false, required: false
   public get message() {
     return this.getStringAttribute('message');
+  }
+
+  // related_resource_id - computed: true, optional: false, required: false
+  public get relatedResourceId() {
+    return this.getStringAttribute('related_resource_id');
+  }
+
+  // time_created - computed: true, optional: false, required: false
+  public get timeCreated() {
+    return this.getStringAttribute('time_created');
   }
 
   // type - computed: true, optional: false, required: false
@@ -681,7 +766,7 @@ export class DataOciGoldenGatePipelineTargetConnectionDetailsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline oci_golden_gate_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline oci_golden_gate_pipeline}
 */
 export class DataOciGoldenGatePipeline extends cdktf.TerraformDataSource {
 
@@ -697,7 +782,7 @@ export class DataOciGoldenGatePipeline extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciGoldenGatePipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciGoldenGatePipeline to import
-  * @param importFromId The id of the existing DataOciGoldenGatePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciGoldenGatePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciGoldenGatePipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -709,7 +794,7 @@ export class DataOciGoldenGatePipeline extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline oci_golden_gate_pipeline} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline oci_golden_gate_pipeline} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -720,8 +805,8 @@ export class DataOciGoldenGatePipeline extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_golden_gate_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -773,6 +858,12 @@ export class DataOciGoldenGatePipeline extends cdktf.TerraformDataSource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // ingress_ips - computed: true, optional: false, required: false
+  private _ingressIps = new DataOciGoldenGatePipelineIngressIpsList(this, "ingress_ips", false);
+  public get ingressIps() {
+    return this._ingressIps;
   }
 
   // is_auto_scaling_enabled - computed: true, optional: false, required: false
@@ -846,6 +937,11 @@ export class DataOciGoldenGatePipeline extends cdktf.TerraformDataSource {
   // state - computed: true, optional: false, required: false
   public get state() {
     return this.getStringAttribute('state');
+  }
+
+  // subnet_id - computed: true, optional: false, required: false
+  public get subnetId() {
+    return this.getStringAttribute('subnet_id');
   }
 
   // system_tags - computed: true, optional: false, required: false

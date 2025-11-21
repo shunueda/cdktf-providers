@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,130 +8,130 @@ import * as cdktf from 'cdktf';
 
 export interface AsGroupV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#available_zones AsGroupV1#available_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#available_zones AsGroupV1#available_zones}
   */
   readonly availableZones?: string[];
   /**
   * The cooling duration, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#cool_down_time AsGroupV1#cool_down_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#cool_down_time AsGroupV1#cool_down_time}
   */
   readonly coolDownTime?: number;
   /**
   * Whether to delete instances when they are removed from the AS group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#delete_instances AsGroupV1#delete_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#delete_instances AsGroupV1#delete_instances}
   */
   readonly deleteInstances: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#delete_publicip AsGroupV1#delete_publicip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#delete_publicip AsGroupV1#delete_publicip}
   */
   readonly deletePublicip: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#desire_instance_number AsGroupV1#desire_instance_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#desire_instance_number AsGroupV1#desire_instance_number}
   */
   readonly desireInstanceNumber?: number;
   /**
   * The grace period for instance health check, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#health_periodic_audit_grace_period AsGroupV1#health_periodic_audit_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#health_periodic_audit_grace_period AsGroupV1#health_periodic_audit_grace_period}
   */
   readonly healthPeriodicAuditGracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#health_periodic_audit_method AsGroupV1#health_periodic_audit_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#health_periodic_audit_method AsGroupV1#health_periodic_audit_method}
   */
   readonly healthPeriodicAuditMethod?: string;
   /**
   * The health check period for instances, in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#health_periodic_audit_time AsGroupV1#health_periodic_audit_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#health_periodic_audit_time AsGroupV1#health_periodic_audit_time}
   */
   readonly healthPeriodicAuditTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#id AsGroupV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#id AsGroupV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#instance_terminate_policy AsGroupV1#instance_terminate_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#instance_terminate_policy AsGroupV1#instance_terminate_policy}
   */
   readonly instanceTerminatePolicy?: string;
   /**
   * The system supports the binding of up to six classic LB listeners, the IDs of which are separated using a comma.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#lb_listener_id AsGroupV1#lb_listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#lb_listener_id AsGroupV1#lb_listener_id}
   */
   readonly lbListenerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#max_instance_number AsGroupV1#max_instance_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#max_instance_number AsGroupV1#max_instance_number}
   */
   readonly maxInstanceNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#min_instance_number AsGroupV1#min_instance_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#min_instance_number AsGroupV1#min_instance_number}
   */
   readonly minInstanceNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#notifications AsGroupV1#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#notifications AsGroupV1#notifications}
   */
   readonly notifications?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#region AsGroupV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#region AsGroupV1#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#scaling_configuration_id AsGroupV1#scaling_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#scaling_configuration_id AsGroupV1#scaling_configuration_id}
   */
   readonly scalingConfigurationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#scaling_group_name AsGroupV1#scaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#scaling_group_name AsGroupV1#scaling_group_name}
   */
   readonly scalingGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#tags AsGroupV1#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#tags AsGroupV1#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#vpc_id AsGroupV1#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#vpc_id AsGroupV1#vpc_id}
   */
   readonly vpcId: string;
   /**
   * lbaas_listeners block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#lbaas_listeners AsGroupV1#lbaas_listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#lbaas_listeners AsGroupV1#lbaas_listeners}
   */
   readonly lbaasListeners?: AsGroupV1LbaasListeners[] | cdktf.IResolvable;
   /**
   * networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#networks AsGroupV1#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#networks AsGroupV1#networks}
   */
   readonly networks: AsGroupV1Networks[] | cdktf.IResolvable;
   /**
   * security_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#security_groups AsGroupV1#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#security_groups AsGroupV1#security_groups}
   */
   readonly securityGroups?: AsGroupV1SecurityGroups;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#timeouts AsGroupV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#timeouts AsGroupV1#timeouts}
   */
   readonly timeouts?: AsGroupV1Timeouts;
 }
 export interface AsGroupV1LbaasListeners {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#pool_id AsGroupV1#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#pool_id AsGroupV1#pool_id}
   */
   readonly poolId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#protocol_port AsGroupV1#protocol_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#protocol_port AsGroupV1#protocol_port}
   */
   readonly protocolPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#weight AsGroupV1#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#weight AsGroupV1#weight}
   */
   readonly weight?: number;
 }
@@ -299,7 +299,7 @@ export class AsGroupV1LbaasListenersList extends cdktf.ComplexList {
 }
 export interface AsGroupV1Networks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#id AsGroupV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#id AsGroupV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -415,7 +415,7 @@ export class AsGroupV1NetworksList extends cdktf.ComplexList {
 }
 export interface AsGroupV1SecurityGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#id AsGroupV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#id AsGroupV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -499,11 +499,11 @@ export class AsGroupV1SecurityGroupsOutputReference extends cdktf.ComplexObject 
 }
 export interface AsGroupV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#create AsGroupV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#create AsGroupV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#delete AsGroupV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#delete AsGroupV1#delete}
   */
   readonly delete?: string;
 }
@@ -626,7 +626,7 @@ export class AsGroupV1TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1 opentelekomcloud_as_group_v1}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1 opentelekomcloud_as_group_v1}
 */
 export class AsGroupV1 extends cdktf.TerraformResource {
 
@@ -642,7 +642,7 @@ export class AsGroupV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsGroupV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsGroupV1 to import
-  * @param importFromId The id of the existing AsGroupV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsGroupV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsGroupV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -654,7 +654,7 @@ export class AsGroupV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/as_group_v1 opentelekomcloud_as_group_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/as_group_v1 opentelekomcloud_as_group_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -665,8 +665,8 @@ export class AsGroupV1 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_as_group_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52',
-        providerVersionConstraint: '1.36.52'
+        providerVersion: '1.36.53',
+        providerVersionConstraint: '1.36.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

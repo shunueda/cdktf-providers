@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#enable_external_non_container_dbm_feature DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#enable_external_non_container_dbm_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#enable_external_non_container_dbm_feature DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#enable_external_non_container_dbm_feature}
   */
   readonly enableExternalNonContainerDbmFeature: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#external_non_container_database_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#external_non_container_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#external_non_container_database_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#external_non_container_database_id}
   */
   readonly externalNonContainerDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,31 +25,31 @@ export interface DatabaseManagementExternalnoncontainerdatabaseExternalNonContai
   /**
   * feature_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#feature_details DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#feature_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#feature_details DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#feature_details}
   */
   readonly featureDetails?: DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagementFeatureDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#timeouts DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#timeouts DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#timeouts}
   */
   readonly timeouts?: DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagementTimeouts;
 }
 export interface DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagementFeatureDetailsConnectorDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#connector_type DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#connector_type DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#connector_type}
   */
   readonly connectorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#database_connector_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#database_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#database_connector_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#database_connector_id}
   */
   readonly databaseConnectorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#management_agent_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#management_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#management_agent_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#management_agent_id}
   */
   readonly managementAgentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#private_end_point_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#private_end_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#private_end_point_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#private_end_point_id}
   */
   readonly privateEndPointId?: string;
 }
@@ -220,25 +220,25 @@ export class DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerD
 }
 export interface DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagementFeatureDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#can_enable_all_current_pdbs DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#can_enable_all_current_pdbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#can_enable_all_current_pdbs DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#can_enable_all_current_pdbs}
   */
   readonly canEnableAllCurrentPdbs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#feature DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#feature DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#feature}
   */
   readonly feature: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#is_auto_enable_pluggable_database DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#is_auto_enable_pluggable_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#is_auto_enable_pluggable_database DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#is_auto_enable_pluggable_database}
   */
   readonly isAutoEnablePluggableDatabase?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#license_model DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#license_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#license_model DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#license_model}
   */
   readonly licenseModel?: string;
   /**
   * connector_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#connector_details DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#connector_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#connector_details DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#connector_details}
   */
   readonly connectorDetails?: DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagementFeatureDetailsConnectorDetails;
 }
@@ -435,15 +435,15 @@ export class DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerD
 }
 export interface DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#create DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#create DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#delete DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#delete DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#update DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#update DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#update}
   */
   readonly update?: string;
 }
@@ -595,7 +595,7 @@ export class DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerD
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management oci_database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management oci_database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management}
 */
 export class DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement extends cdktf.TerraformResource {
 
@@ -611,7 +611,7 @@ export class DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerD
   * Generates CDKTF code for importing a DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement to import
-  * @param importFromId The id of the existing DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -623,7 +623,7 @@ export class DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management oci_database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management oci_database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -634,8 +634,8 @@ export class DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerD
       terraformResourceType: 'oci_database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

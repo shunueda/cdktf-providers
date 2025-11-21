@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_snapshot
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataNetappOntapVolumeSnapshotConfig extends cdktf.TerraformMeta
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_snapshot#cx_profile_name DataNetappOntapVolumeSnapshot#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_snapshot#cx_profile_name DataNetappOntapVolumeSnapshot#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Snapshot name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_snapshot#name DataNetappOntapVolumeSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_snapshot#name DataNetappOntapVolumeSnapshot#name}
   */
   readonly name: string;
   /**
   * SVM Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_snapshot#svm_name DataNetappOntapVolumeSnapshot#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_snapshot#svm_name DataNetappOntapVolumeSnapshot#svm_name}
   */
   readonly svmName: string;
   /**
   * Volume Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_snapshot#volume_name DataNetappOntapVolumeSnapshot#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_snapshot#volume_name DataNetappOntapVolumeSnapshot#volume_name}
   */
   readonly volumeName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_snapshot netapp-ontap_volume_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_snapshot netapp-ontap_volume_snapshot}
 */
 export class DataNetappOntapVolumeSnapshot extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataNetappOntapVolumeSnapshot extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapVolumeSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapVolumeSnapshot to import
-  * @param importFromId The id of the existing DataNetappOntapVolumeSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapVolumeSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapVolumeSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataNetappOntapVolumeSnapshot extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_snapshot netapp-ontap_volume_snapshot} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_snapshot netapp-ontap_volume_snapshot} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataNetappOntapVolumeSnapshot extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_volume_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

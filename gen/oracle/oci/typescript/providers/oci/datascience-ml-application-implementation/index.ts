@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface DatascienceMlApplicationImplementationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#allowed_migration_destinations DatascienceMlApplicationImplementation#allowed_migration_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#allowed_migration_destinations DatascienceMlApplicationImplementation#allowed_migration_destinations}
   */
   readonly allowedMigrationDestinations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#compartment_id DatascienceMlApplicationImplementation#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#compartment_id DatascienceMlApplicationImplementation#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#defined_tags DatascienceMlApplicationImplementation#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#defined_tags DatascienceMlApplicationImplementation#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#freeform_tags DatascienceMlApplicationImplementation#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#freeform_tags DatascienceMlApplicationImplementation#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#id DatascienceMlApplicationImplementation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#id DatascienceMlApplicationImplementation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#ml_application_id DatascienceMlApplicationImplementation#ml_application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#ml_application_id DatascienceMlApplicationImplementation#ml_application_id}
   */
   readonly mlApplicationId: string;
   /**
   * Specifies the ML application package as a map of key-value pairs. Valid keys include 'source_type', 'path', and 'uri'. Use 'file://' for local paths or 'https://' for object storage URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#ml_application_package DatascienceMlApplicationImplementation#ml_application_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#ml_application_package DatascienceMlApplicationImplementation#ml_application_package}
   */
   readonly mlApplicationPackage?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#name DatascienceMlApplicationImplementation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#name DatascienceMlApplicationImplementation#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#opc_ml_app_package_args DatascienceMlApplicationImplementation#opc_ml_app_package_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#opc_ml_app_package_args DatascienceMlApplicationImplementation#opc_ml_app_package_args}
   */
   readonly opcMlAppPackageArgs?: { [key: string]: string };
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#logging DatascienceMlApplicationImplementation#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#logging DatascienceMlApplicationImplementation#logging}
   */
   readonly logging?: DatascienceMlApplicationImplementationLogging;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#timeouts DatascienceMlApplicationImplementation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#timeouts DatascienceMlApplicationImplementation#timeouts}
   */
   readonly timeouts?: DatascienceMlApplicationImplementationTimeouts;
 }
@@ -454,15 +454,15 @@ export class DatascienceMlApplicationImplementationMlApplicationPackageArguments
 }
 export interface DatascienceMlApplicationImplementationLoggingAggregatedInstanceViewLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#enable_logging DatascienceMlApplicationImplementation#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#enable_logging DatascienceMlApplicationImplementation#enable_logging}
   */
   readonly enableLogging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#log_group_id DatascienceMlApplicationImplementation#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#log_group_id DatascienceMlApplicationImplementation#log_group_id}
   */
   readonly logGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#log_id DatascienceMlApplicationImplementation#log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#log_id DatascienceMlApplicationImplementation#log_id}
   */
   readonly logId?: string;
 }
@@ -604,15 +604,15 @@ export class DatascienceMlApplicationImplementationLoggingAggregatedInstanceView
 }
 export interface DatascienceMlApplicationImplementationLoggingImplementationLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#enable_logging DatascienceMlApplicationImplementation#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#enable_logging DatascienceMlApplicationImplementation#enable_logging}
   */
   readonly enableLogging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#log_group_id DatascienceMlApplicationImplementation#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#log_group_id DatascienceMlApplicationImplementation#log_group_id}
   */
   readonly logGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#log_id DatascienceMlApplicationImplementation#log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#log_id DatascienceMlApplicationImplementation#log_id}
   */
   readonly logId?: string;
 }
@@ -754,15 +754,15 @@ export class DatascienceMlApplicationImplementationLoggingImplementationLogOutpu
 }
 export interface DatascienceMlApplicationImplementationLoggingTriggerLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#enable_logging DatascienceMlApplicationImplementation#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#enable_logging DatascienceMlApplicationImplementation#enable_logging}
   */
   readonly enableLogging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#log_group_id DatascienceMlApplicationImplementation#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#log_group_id DatascienceMlApplicationImplementation#log_group_id}
   */
   readonly logGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#log_id DatascienceMlApplicationImplementation#log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#log_id DatascienceMlApplicationImplementation#log_id}
   */
   readonly logId?: string;
 }
@@ -906,19 +906,19 @@ export interface DatascienceMlApplicationImplementationLogging {
   /**
   * aggregated_instance_view_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#aggregated_instance_view_log DatascienceMlApplicationImplementation#aggregated_instance_view_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#aggregated_instance_view_log DatascienceMlApplicationImplementation#aggregated_instance_view_log}
   */
   readonly aggregatedInstanceViewLog?: DatascienceMlApplicationImplementationLoggingAggregatedInstanceViewLog;
   /**
   * implementation_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#implementation_log DatascienceMlApplicationImplementation#implementation_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#implementation_log DatascienceMlApplicationImplementation#implementation_log}
   */
   readonly implementationLog?: DatascienceMlApplicationImplementationLoggingImplementationLog;
   /**
   * trigger_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#trigger_log DatascienceMlApplicationImplementation#trigger_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#trigger_log DatascienceMlApplicationImplementation#trigger_log}
   */
   readonly triggerLog?: DatascienceMlApplicationImplementationLoggingTriggerLog;
 }
@@ -1060,15 +1060,15 @@ export class DatascienceMlApplicationImplementationLoggingOutputReference extend
 }
 export interface DatascienceMlApplicationImplementationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#create DatascienceMlApplicationImplementation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#create DatascienceMlApplicationImplementation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#delete DatascienceMlApplicationImplementation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#delete DatascienceMlApplicationImplementation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#update DatascienceMlApplicationImplementation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#update DatascienceMlApplicationImplementation#update}
   */
   readonly update?: string;
 }
@@ -1220,7 +1220,7 @@ export class DatascienceMlApplicationImplementationTimeoutsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation oci_datascience_ml_application_implementation}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation oci_datascience_ml_application_implementation}
 */
 export class DatascienceMlApplicationImplementation extends cdktf.TerraformResource {
 
@@ -1236,7 +1236,7 @@ export class DatascienceMlApplicationImplementation extends cdktf.TerraformResou
   * Generates CDKTF code for importing a DatascienceMlApplicationImplementation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatascienceMlApplicationImplementation to import
-  * @param importFromId The id of the existing DatascienceMlApplicationImplementation that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatascienceMlApplicationImplementation that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatascienceMlApplicationImplementation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1248,7 +1248,7 @@ export class DatascienceMlApplicationImplementation extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application_implementation oci_datascience_ml_application_implementation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_ml_application_implementation oci_datascience_ml_application_implementation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1259,8 +1259,8 @@ export class DatascienceMlApplicationImplementation extends cdktf.TerraformResou
       terraformResourceType: 'oci_datascience_ml_application_implementation',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

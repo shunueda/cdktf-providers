@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/keyvalue
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/keyvalue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataRenderKeyvalueConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/keyvalue#id DataRenderKeyvalue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/keyvalue#id DataRenderKeyvalue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataRenderKeyvalueConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure the [log stream override settings](https://render.com/docs/log-streams#overriding-defaults) for this service. These will override the global log stream settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/keyvalue#log_stream_override DataRenderKeyvalue#log_stream_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/keyvalue#log_stream_override DataRenderKeyvalue#log_stream_override}
   */
   readonly logStreamOverride?: DataRenderKeyvalueLogStreamOverride;
 }
@@ -171,19 +171,19 @@ export interface DataRenderKeyvalueLogStreamOverride {
   /**
   * The endpoint to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/keyvalue#endpoint DataRenderKeyvalue#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/keyvalue#endpoint DataRenderKeyvalue#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to send or drop logs for this service. Must be one of `send` or `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/keyvalue#setting DataRenderKeyvalue#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/keyvalue#setting DataRenderKeyvalue#setting}
   */
   readonly setting: string;
   /**
   * The token to use when sending logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/keyvalue#token DataRenderKeyvalue#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/keyvalue#token DataRenderKeyvalue#token}
   */
   readonly token?: string;
 }
@@ -332,7 +332,7 @@ export class DataRenderKeyvalueLogStreamOverrideOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/keyvalue render_keyvalue}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/keyvalue render_keyvalue}
 */
 export class DataRenderKeyvalue extends cdktf.TerraformDataSource {
 
@@ -348,7 +348,7 @@ export class DataRenderKeyvalue extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRenderKeyvalue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRenderKeyvalue to import
-  * @param importFromId The id of the existing DataRenderKeyvalue that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/keyvalue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRenderKeyvalue that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/keyvalue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRenderKeyvalue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -360,7 +360,7 @@ export class DataRenderKeyvalue extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/keyvalue render_keyvalue} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/keyvalue render_keyvalue} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -371,8 +371,8 @@ export class DataRenderKeyvalue extends cdktf.TerraformDataSource {
       terraformResourceType: 'render_keyvalue',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

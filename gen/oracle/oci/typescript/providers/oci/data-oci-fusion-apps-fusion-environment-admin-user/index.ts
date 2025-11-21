@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_admin_user
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment_admin_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciFusionAppsFusionEnvironmentAdminUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_admin_user#fusion_environment_id DataOciFusionAppsFusionEnvironmentAdminUser#fusion_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment_admin_user#fusion_environment_id DataOciFusionAppsFusionEnvironmentAdminUser#fusion_environment_id}
   */
   readonly fusionEnvironmentId: string;
 }
@@ -104,7 +104,7 @@ export class DataOciFusionAppsFusionEnvironmentAdminUserItemsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_admin_user oci_fusion_apps_fusion_environment_admin_user}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment_admin_user oci_fusion_apps_fusion_environment_admin_user}
 */
 export class DataOciFusionAppsFusionEnvironmentAdminUser extends cdktf.TerraformDataSource {
 
@@ -120,7 +120,7 @@ export class DataOciFusionAppsFusionEnvironmentAdminUser extends cdktf.Terraform
   * Generates CDKTF code for importing a DataOciFusionAppsFusionEnvironmentAdminUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciFusionAppsFusionEnvironmentAdminUser to import
-  * @param importFromId The id of the existing DataOciFusionAppsFusionEnvironmentAdminUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_admin_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciFusionAppsFusionEnvironmentAdminUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment_admin_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciFusionAppsFusionEnvironmentAdminUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -132,7 +132,7 @@ export class DataOciFusionAppsFusionEnvironmentAdminUser extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_admin_user oci_fusion_apps_fusion_environment_admin_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment_admin_user oci_fusion_apps_fusion_environment_admin_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,8 +143,8 @@ export class DataOciFusionAppsFusionEnvironmentAdminUser extends cdktf.Terraform
       terraformResourceType: 'oci_fusion_apps_fusion_environment_admin_user',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

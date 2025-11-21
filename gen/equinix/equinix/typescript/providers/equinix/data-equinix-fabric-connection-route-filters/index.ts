@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_connection_route_filters
+// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_filters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataEquinixFabricConnectionRouteFiltersConfig extends cdktf.Ter
   /**
   * Equinix Assigned UUID of the Equinix Connection to attach the Route Filter Policy to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_connection_route_filters#connection_id DataEquinixFabricConnectionRouteFilters#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_filters#connection_id DataEquinixFabricConnectionRouteFilters#connection_id}
   */
   readonly connectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_connection_route_filters#id DataEquinixFabricConnectionRouteFilters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_filters#id DataEquinixFabricConnectionRouteFilters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -213,7 +213,7 @@ export class DataEquinixFabricConnectionRouteFiltersPaginationList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_connection_route_filters equinix_fabric_connection_route_filters}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_filters equinix_fabric_connection_route_filters}
 */
 export class DataEquinixFabricConnectionRouteFilters extends cdktf.TerraformDataSource {
 
@@ -229,7 +229,7 @@ export class DataEquinixFabricConnectionRouteFilters extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataEquinixFabricConnectionRouteFilters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricConnectionRouteFilters to import
-  * @param importFromId The id of the existing DataEquinixFabricConnectionRouteFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_connection_route_filters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricConnectionRouteFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_filters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricConnectionRouteFilters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class DataEquinixFabricConnectionRouteFilters extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_connection_route_filters equinix_fabric_connection_route_filters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_filters equinix_fabric_connection_route_filters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class DataEquinixFabricConnectionRouteFilters extends cdktf.TerraformData
       terraformResourceType: 'equinix_fabric_connection_route_filters',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.10.0',
-        providerVersionConstraint: '4.10.0'
+        providerVersion: '4.11.0',
+        providerVersionConstraint: '4.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

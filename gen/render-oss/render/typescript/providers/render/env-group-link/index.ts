@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group_link
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface EnvGroupLinkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier for the environment group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group_link#env_group_id EnvGroupLink#env_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group_link#env_group_id EnvGroupLink#env_group_id}
   */
   readonly envGroupId: string;
   /**
   * Set of service ids linked to the environment group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group_link#service_ids EnvGroupLink#service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group_link#service_ids EnvGroupLink#service_ids}
   */
   readonly serviceIds: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group_link render_env_group_link}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group_link render_env_group_link}
 */
 export class EnvGroupLink extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class EnvGroupLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnvGroupLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnvGroupLink to import
-  * @param importFromId The id of the existing EnvGroupLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnvGroupLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnvGroupLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class EnvGroupLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group_link render_env_group_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group_link render_env_group_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class EnvGroupLink extends cdktf.TerraformResource {
       terraformResourceType: 'render_env_group_link',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

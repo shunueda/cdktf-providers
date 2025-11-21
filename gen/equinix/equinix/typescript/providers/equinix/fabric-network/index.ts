@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network
+// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface FabricNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#id FabricNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#id FabricNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface FabricNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Fabric Network name. An alpha-numeric 24 characters string which can include only hyphens and underscores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#name FabricNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#name FabricNetwork#name}
   */
   readonly name: string;
   /**
   * Fabric Network scope. Valid values: [REGIONAL GLOBAL LOCAL]. Note: When scope is REGIONAL, the location.region field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#scope FabricNetwork#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#scope FabricNetwork#scope}
   */
   readonly scope: string;
   /**
   * Supported Network types - EVPLAN, EPLAN, IPWAN, EVPTREE, EPTREE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#type FabricNetwork#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#type FabricNetwork#type}
   */
   readonly type: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#location FabricNetwork#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#location FabricNetwork#location}
   */
   readonly location?: FabricNetworkLocation;
   /**
   * notifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#notifications FabricNetwork#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#notifications FabricNetwork#notifications}
   */
   readonly notifications: FabricNetworkNotifications[] | cdktf.IResolvable;
   /**
   * project block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#project FabricNetwork#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#project FabricNetwork#project}
   */
   readonly project: FabricNetworkProject[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#timeouts FabricNetwork#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#timeouts FabricNetwork#timeouts}
   */
   readonly timeouts?: FabricNetworkTimeouts;
 }
@@ -351,25 +351,25 @@ export interface FabricNetworkLocation {
   /**
   * IBX Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#ibx FabricNetwork#ibx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#ibx FabricNetwork#ibx}
   */
   readonly ibx?: string;
   /**
   * Access point metro code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#metro_code FabricNetwork#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#metro_code FabricNetwork#metro_code}
   */
   readonly metroCode?: string;
   /**
   * Access point metro name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#metro_name FabricNetwork#metro_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#metro_name FabricNetwork#metro_name}
   */
   readonly metroName?: string;
   /**
   * Access point region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#region FabricNetwork#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#region FabricNetwork#region}
   */
   readonly region?: string;
 }
@@ -542,19 +542,19 @@ export interface FabricNetworkNotifications {
   /**
   * Array of contact emails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#emails FabricNetwork#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#emails FabricNetwork#emails}
   */
   readonly emails: string[];
   /**
   * Send interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#send_interval FabricNetwork#send_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#send_interval FabricNetwork#send_interval}
   */
   readonly sendInterval?: string;
   /**
   * Notification Type - ALL,CONNECTION_APPROVAL,SALES_REP_NOTIFICATIONS, NOTIFICATIONS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#type FabricNetwork#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#type FabricNetwork#type}
   */
   readonly type: string;
 }
@@ -724,7 +724,7 @@ export interface FabricNetworkProject {
   /**
   * Customer project identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#project_id FabricNetwork#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#project_id FabricNetwork#project_id}
   */
   readonly projectId: string;
 }
@@ -837,19 +837,19 @@ export class FabricNetworkProjectList extends cdktf.ComplexList {
 }
 export interface FabricNetworkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#create FabricNetwork#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#create FabricNetwork#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#delete FabricNetwork#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#delete FabricNetwork#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#read FabricNetwork#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#read FabricNetwork#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#update FabricNetwork#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#update FabricNetwork#update}
   */
   readonly update?: string;
 }
@@ -1030,7 +1030,7 @@ export class FabricNetworkTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network equinix_fabric_network}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network equinix_fabric_network}
 */
 export class FabricNetwork extends cdktf.TerraformResource {
 
@@ -1046,7 +1046,7 @@ export class FabricNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricNetwork to import
-  * @param importFromId The id of the existing FabricNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1058,7 +1058,7 @@ export class FabricNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_network equinix_fabric_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_network equinix_fabric_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1069,8 +1069,8 @@ export class FabricNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_fabric_network',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.10.0',
-        providerVersionConstraint: '4.10.0'
+        providerVersion: '4.11.0',
+        providerVersionConstraint: '4.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

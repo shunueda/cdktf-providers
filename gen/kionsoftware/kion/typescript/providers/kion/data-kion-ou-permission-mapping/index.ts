@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/ou_permission_mapping
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/ou_permission_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataKionOuPermissionMappingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/ou_permission_mapping#id DataKionOuPermissionMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/ou_permission_mapping#id DataKionOuPermissionMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataKionOuPermissionMappingConfig extends cdktf.TerraformMetaAr
   /**
   * ID of the OU to fetch permission mappings for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/ou_permission_mapping#ou_id DataKionOuPermissionMapping#ou_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/ou_permission_mapping#ou_id DataKionOuPermissionMapping#ou_id}
   */
   readonly ouId: number;
 }
@@ -108,7 +108,7 @@ export class DataKionOuPermissionMappingListStructList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/ou_permission_mapping kion_ou_permission_mapping}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/ou_permission_mapping kion_ou_permission_mapping}
 */
 export class DataKionOuPermissionMapping extends cdktf.TerraformDataSource {
 
@@ -124,7 +124,7 @@ export class DataKionOuPermissionMapping extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKionOuPermissionMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKionOuPermissionMapping to import
-  * @param importFromId The id of the existing DataKionOuPermissionMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/ou_permission_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKionOuPermissionMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/ou_permission_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKionOuPermissionMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -136,7 +136,7 @@ export class DataKionOuPermissionMapping extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/ou_permission_mapping kion_ou_permission_mapping} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/ou_permission_mapping kion_ou_permission_mapping} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,8 +147,8 @@ export class DataKionOuPermissionMapping extends cdktf.TerraformDataSource {
       terraformResourceType: 'kion_ou_permission_mapping',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

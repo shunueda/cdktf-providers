@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_smtp_credentials
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_smtp_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentitySmtpCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_smtp_credentials#id DataOciIdentitySmtpCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_smtp_credentials#id DataOciIdentitySmtpCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_smtp_credentials#user_id DataOciIdentitySmtpCredentials#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_smtp_credentials#user_id DataOciIdentitySmtpCredentials#user_id}
   */
   readonly userId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_smtp_credentials#filter DataOciIdentitySmtpCredentials#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_smtp_credentials#filter DataOciIdentitySmtpCredentials#filter}
   */
   readonly filter?: DataOciIdentitySmtpCredentialsFilter[] | cdktf.IResolvable;
 }
@@ -142,15 +142,15 @@ export class DataOciIdentitySmtpCredentialsSmtpCredentialsList extends cdktf.Com
 }
 export interface DataOciIdentitySmtpCredentialsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_smtp_credentials#name DataOciIdentitySmtpCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_smtp_credentials#name DataOciIdentitySmtpCredentials#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_smtp_credentials#regex DataOciIdentitySmtpCredentials#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_smtp_credentials#regex DataOciIdentitySmtpCredentials#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_smtp_credentials#values DataOciIdentitySmtpCredentials#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_smtp_credentials#values DataOciIdentitySmtpCredentials#values}
   */
   readonly values: string[];
 }
@@ -318,7 +318,7 @@ export class DataOciIdentitySmtpCredentialsFilterList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_smtp_credentials oci_identity_smtp_credentials}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_smtp_credentials oci_identity_smtp_credentials}
 */
 export class DataOciIdentitySmtpCredentials extends cdktf.TerraformDataSource {
 
@@ -334,7 +334,7 @@ export class DataOciIdentitySmtpCredentials extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciIdentitySmtpCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentitySmtpCredentials to import
-  * @param importFromId The id of the existing DataOciIdentitySmtpCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_smtp_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentitySmtpCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_smtp_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentitySmtpCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -346,7 +346,7 @@ export class DataOciIdentitySmtpCredentials extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_smtp_credentials oci_identity_smtp_credentials} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_smtp_credentials oci_identity_smtp_credentials} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,8 +357,8 @@ export class DataOciIdentitySmtpCredentials extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_identity_smtp_credentials',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

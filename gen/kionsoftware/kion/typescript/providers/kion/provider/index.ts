@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface KionProviderConfig {
   /**
   * The API key generated from Kion. Example: app_1_XXXXXXXXXXXX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs#apikey KionProvider#apikey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs#apikey KionProvider#apikey}
   */
   readonly apikey: string;
   /**
   * The base path of the API. Defaults to /api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs#apipath KionProvider#apipath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs#apipath KionProvider#apipath}
   */
   readonly apipath?: string;
   /**
   * If true, will skip SSL validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs#skipsslvalidation KionProvider#skipsslvalidation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs#skipsslvalidation KionProvider#skipsslvalidation}
   */
   readonly skipsslvalidation?: boolean | cdktf.IResolvable;
   /**
   * The URL of a Kion installation. Example: https://kion.example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs#url KionProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs#url KionProvider#url}
   */
   readonly url: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs#alias KionProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs#alias KionProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs kion}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs kion}
 */
 export class KionProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class KionProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a KionProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KionProvider to import
-  * @param importFromId The id of the existing KionProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KionProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KionProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class KionProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs kion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs kion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class KionProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'kion',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       terraformProviderSource: 'kionsoftware/kion'
     });

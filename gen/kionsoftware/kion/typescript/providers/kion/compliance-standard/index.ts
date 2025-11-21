@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ComplianceStandardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard#created_by_user_id ComplianceStandard#created_by_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard#created_by_user_id ComplianceStandard#created_by_user_id}
   */
   readonly createdByUserId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard#description ComplianceStandard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard#description ComplianceStandard#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard#id ComplianceStandard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard#id ComplianceStandard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard#last_updated ComplianceStandard#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard#last_updated ComplianceStandard#last_updated}
   */
   readonly lastUpdated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard#name ComplianceStandard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard#name ComplianceStandard#name}
   */
   readonly name: string;
   /**
   * compliance_checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard#compliance_checks ComplianceStandard#compliance_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard#compliance_checks ComplianceStandard#compliance_checks}
   */
   readonly complianceChecks?: ComplianceStandardComplianceChecks[] | cdktf.IResolvable;
   /**
   * owner_user_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard#owner_user_groups ComplianceStandard#owner_user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard#owner_user_groups ComplianceStandard#owner_user_groups}
   */
   readonly ownerUserGroups?: ComplianceStandardOwnerUserGroups[] | cdktf.IResolvable;
   /**
   * owner_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard#owner_users ComplianceStandard#owner_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard#owner_users ComplianceStandard#owner_users}
   */
   readonly ownerUsers?: ComplianceStandardOwnerUsers[] | cdktf.IResolvable;
 }
 export interface ComplianceStandardComplianceChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard#id ComplianceStandard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard#id ComplianceStandard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -170,7 +170,7 @@ export class ComplianceStandardComplianceChecksList extends cdktf.ComplexList {
 }
 export interface ComplianceStandardOwnerUserGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard#id ComplianceStandard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard#id ComplianceStandard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -289,7 +289,7 @@ export class ComplianceStandardOwnerUserGroupsList extends cdktf.ComplexList {
 }
 export interface ComplianceStandardOwnerUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard#id ComplianceStandard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard#id ComplianceStandard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -408,7 +408,7 @@ export class ComplianceStandardOwnerUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard kion_compliance_standard}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard kion_compliance_standard}
 */
 export class ComplianceStandard extends cdktf.TerraformResource {
 
@@ -424,7 +424,7 @@ export class ComplianceStandard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComplianceStandard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComplianceStandard to import
-  * @param importFromId The id of the existing ComplianceStandard that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComplianceStandard that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComplianceStandard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -436,7 +436,7 @@ export class ComplianceStandard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/compliance_standard kion_compliance_standard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/compliance_standard kion_compliance_standard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -447,8 +447,8 @@ export class ComplianceStandard extends cdktf.TerraformResource {
       terraformResourceType: 'kion_compliance_standard',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

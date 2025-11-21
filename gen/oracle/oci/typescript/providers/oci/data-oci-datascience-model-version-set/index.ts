@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_version_set
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_version_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatascienceModelVersionSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_version_set#model_version_set_id DataOciDatascienceModelVersionSet#model_version_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_version_set#model_version_set_id DataOciDatascienceModelVersionSet#model_version_set_id}
   */
   readonly modelVersionSetId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_version_set oci_datascience_model_version_set}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_version_set oci_datascience_model_version_set}
 */
 export class DataOciDatascienceModelVersionSet extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciDatascienceModelVersionSet extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataOciDatascienceModelVersionSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatascienceModelVersionSet to import
-  * @param importFromId The id of the existing DataOciDatascienceModelVersionSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_version_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatascienceModelVersionSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_version_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatascienceModelVersionSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciDatascienceModelVersionSet extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_version_set oci_datascience_model_version_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_version_set oci_datascience_model_version_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciDatascienceModelVersionSet extends cdktf.TerraformDataSource
       terraformResourceType: 'oci_datascience_model_version_set',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

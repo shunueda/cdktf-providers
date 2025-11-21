@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface StorageFlexcacheResourceConfig extends cdktf.TerraformMetaArgum
   /**
   * Set of the aggregates to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#aggregates StorageFlexcacheResource#aggregates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#aggregates StorageFlexcacheResource#aggregates}
   */
   readonly aggregates?: StorageFlexcacheResourceAggregates[] | cdktf.IResolvable;
   /**
   * The number of constituents per aggregate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#constituents_per_aggregate StorageFlexcacheResource#constituents_per_aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#constituents_per_aggregate StorageFlexcacheResource#constituents_per_aggregate}
   */
   readonly constituentsPerAggregate?: number;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#cx_profile_name StorageFlexcacheResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#cx_profile_name StorageFlexcacheResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * The state of the dr cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#dr_cache StorageFlexcacheResource#dr_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#dr_cache StorageFlexcacheResource#dr_cache}
   */
   readonly drCache?: boolean | cdktf.IResolvable;
   /**
   * The state of the global file locking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#global_file_locking_enabled StorageFlexcacheResource#global_file_locking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#global_file_locking_enabled StorageFlexcacheResource#global_file_locking_enabled}
   */
   readonly globalFileLockingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The guarantee of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#guarantee StorageFlexcacheResource#guarantee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#guarantee StorageFlexcacheResource#guarantee}
   */
   readonly guarantee?: StorageFlexcacheResourceGuarantee;
   /**
   * Name of the junction path. Path to mount the FlexCache volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#junction_path StorageFlexcacheResource#junction_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#junction_path StorageFlexcacheResource#junction_path}
   */
   readonly junctionPath?: string;
   /**
   * The name of the flexcache volume to manage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#name StorageFlexcacheResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#name StorageFlexcacheResource#name}
   */
   readonly name: string;
   /**
   * Set of the origin volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#origins StorageFlexcacheResource#origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#origins StorageFlexcacheResource#origins}
   */
   readonly origins: StorageFlexcacheResourceOrigins[] | cdktf.IResolvable;
   /**
   * The size of the flexcache volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#size StorageFlexcacheResource#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#size StorageFlexcacheResource#size}
   */
   readonly size?: number;
   /**
   * The unit used to interpret the size parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#size_unit StorageFlexcacheResource#size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#size_unit StorageFlexcacheResource#size_unit}
   */
   readonly sizeUnit?: string;
   /**
   * Name of the svm to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#svm_name StorageFlexcacheResource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#svm_name StorageFlexcacheResource#svm_name}
   */
   readonly svmName: string;
   /**
   * The state of the use tiered aggregates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#use_tiered_aggregate StorageFlexcacheResource#use_tiered_aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#use_tiered_aggregate StorageFlexcacheResource#use_tiered_aggregate}
   */
   readonly useTieredAggregate?: boolean | cdktf.IResolvable;
 }
@@ -90,7 +90,7 @@ export interface StorageFlexcacheResourceAggregates {
   /**
   * UUID of the aggregate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#id StorageFlexcacheResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#id StorageFlexcacheResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ export interface StorageFlexcacheResourceAggregates {
   /**
   * Name of the aggregate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#name StorageFlexcacheResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#name StorageFlexcacheResource#name}
   */
   readonly name?: string;
 }
@@ -246,7 +246,7 @@ export interface StorageFlexcacheResourceGuarantee {
   /**
   * The type of guarantee
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#type StorageFlexcacheResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#type StorageFlexcacheResource#type}
   */
   readonly type?: string;
 }
@@ -342,7 +342,7 @@ export interface StorageFlexcacheResourceOriginsSvm {
   /**
   * ID of the origin volume SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#id StorageFlexcacheResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#id StorageFlexcacheResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -351,7 +351,7 @@ export interface StorageFlexcacheResourceOriginsSvm {
   /**
   * Name of the origin volume SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#name StorageFlexcacheResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#name StorageFlexcacheResource#name}
   */
   readonly name?: string;
 }
@@ -476,7 +476,7 @@ export interface StorageFlexcacheResourceOriginsVolume {
   /**
   * ID of the origin volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#id StorageFlexcacheResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#id StorageFlexcacheResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -485,7 +485,7 @@ export interface StorageFlexcacheResourceOriginsVolume {
   /**
   * Name of the origin volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#name StorageFlexcacheResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#name StorageFlexcacheResource#name}
   */
   readonly name?: string;
 }
@@ -610,13 +610,13 @@ export interface StorageFlexcacheResourceOrigins {
   /**
   * origin volume SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#svm StorageFlexcacheResource#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#svm StorageFlexcacheResource#svm}
   */
   readonly svm: StorageFlexcacheResourceOriginsSvm;
   /**
   * origin volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#volume StorageFlexcacheResource#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#volume StorageFlexcacheResource#volume}
   */
   readonly volume: StorageFlexcacheResourceOriginsVolume;
 }
@@ -755,7 +755,7 @@ export class StorageFlexcacheResourceOriginsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource netapp-ontap_storage_flexcache_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource netapp-ontap_storage_flexcache_resource}
 */
 export class StorageFlexcacheResource extends cdktf.TerraformResource {
 
@@ -771,7 +771,7 @@ export class StorageFlexcacheResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageFlexcacheResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageFlexcacheResource to import
-  * @param importFromId The id of the existing StorageFlexcacheResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageFlexcacheResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageFlexcacheResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -783,7 +783,7 @@ export class StorageFlexcacheResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_flexcache_resource netapp-ontap_storage_flexcache_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_flexcache_resource netapp-ontap_storage_flexcache_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -794,8 +794,8 @@ export class StorageFlexcacheResource extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_storage_flexcache_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

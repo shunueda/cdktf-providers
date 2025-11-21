@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_service
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataNetappOntapNfsServiceConfig extends cdktf.TerraformMetaArgu
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_service#cx_profile_name DataNetappOntapNfsService#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_service#cx_profile_name DataNetappOntapNfsService#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * NFS svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_service#svm_name DataNetappOntapNfsService#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_service#svm_name DataNetappOntapNfsService#svm_name}
   */
   readonly svmName: string;
 }
@@ -497,7 +497,7 @@ export class DataNetappOntapNfsServiceWindowsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_service netapp-ontap_nfs_service}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_service netapp-ontap_nfs_service}
 */
 export class DataNetappOntapNfsService extends cdktf.TerraformDataSource {
 
@@ -513,7 +513,7 @@ export class DataNetappOntapNfsService extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapNfsService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapNfsService to import
-  * @param importFromId The id of the existing DataNetappOntapNfsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapNfsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapNfsService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -525,7 +525,7 @@ export class DataNetappOntapNfsService extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_service netapp-ontap_nfs_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_service netapp-ontap_nfs_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -536,8 +536,8 @@ export class DataNetappOntapNfsService extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_nfs_service',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

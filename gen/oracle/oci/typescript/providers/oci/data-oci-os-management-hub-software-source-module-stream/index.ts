@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/os_management_hub_software_source_module_stream
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/os_management_hub_software_source_module_stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOsManagementHubSoftwareSourceModuleStreamConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/os_management_hub_software_source_module_stream#id DataOciOsManagementHubSoftwareSourceModuleStream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/os_management_hub_software_source_module_stream#id DataOciOsManagementHubSoftwareSourceModuleStream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/os_management_hub_software_source_module_stream#module_name DataOciOsManagementHubSoftwareSourceModuleStream#module_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/os_management_hub_software_source_module_stream#module_name DataOciOsManagementHubSoftwareSourceModuleStream#module_name}
   */
   readonly moduleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/os_management_hub_software_source_module_stream#software_source_id DataOciOsManagementHubSoftwareSourceModuleStream#software_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/os_management_hub_software_source_module_stream#software_source_id DataOciOsManagementHubSoftwareSourceModuleStream#software_source_id}
   */
   readonly softwareSourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/os_management_hub_software_source_module_stream#stream_name DataOciOsManagementHubSoftwareSourceModuleStream#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/os_management_hub_software_source_module_stream#stream_name DataOciOsManagementHubSoftwareSourceModuleStream#stream_name}
   */
   readonly streamName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/os_management_hub_software_source_module_stream oci_os_management_hub_software_source_module_stream}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/os_management_hub_software_source_module_stream oci_os_management_hub_software_source_module_stream}
 */
 export class DataOciOsManagementHubSoftwareSourceModuleStream extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataOciOsManagementHubSoftwareSourceModuleStream extends cdktf.Terr
   * Generates CDKTF code for importing a DataOciOsManagementHubSoftwareSourceModuleStream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOsManagementHubSoftwareSourceModuleStream to import
-  * @param importFromId The id of the existing DataOciOsManagementHubSoftwareSourceModuleStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/os_management_hub_software_source_module_stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOsManagementHubSoftwareSourceModuleStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/os_management_hub_software_source_module_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOsManagementHubSoftwareSourceModuleStream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataOciOsManagementHubSoftwareSourceModuleStream extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/os_management_hub_software_source_module_stream oci_os_management_hub_software_source_module_stream} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/os_management_hub_software_source_module_stream oci_os_management_hub_software_source_module_stream} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataOciOsManagementHubSoftwareSourceModuleStream extends cdktf.Terr
       terraformResourceType: 'oci_os_management_hub_software_source_module_stream',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -33,63 +33,63 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface DashboardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#annotations Dashboard#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#annotations Dashboard#annotations}
   */
   readonly annotations?: DashboardAnnotations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#auto_refresh Dashboard#auto_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#auto_refresh Dashboard#auto_refresh}
   */
   readonly autoRefresh?: DashboardAutoRefresh;
   /**
   * an option to set the dashboard content from a json file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#content_json Dashboard#content_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#content_json Dashboard#content_json}
   */
   readonly contentJson?: string;
   /**
   * Brief description or summary of the dashboard's purpose or content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#description Dashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#description Dashboard#description}
   */
   readonly description?: string;
   /**
   * List of filters that can be applied to the dashboard's data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#folder Dashboard#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#folder Dashboard#folder}
   */
   readonly folder?: DashboardFolder;
   /**
   * Layout configuration for the dashboard's visual elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#layout Dashboard#layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#layout Dashboard#layout}
   */
   readonly layout?: DashboardLayout;
   /**
   * Display name of the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#name Dashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#name Dashboard#name}
   */
   readonly name?: string;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardTimeFrame;
   /**
   * List of variables that can be used within the dashboard for dynamic content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#variables Dashboard#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#variables Dashboard#variables}
   */
   readonly variables?: DashboardVariables[] | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard coralogix_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard coralogix_dashboard}
 */
 export class Dashboard extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class Dashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dashboard to import
-  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class Dashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard coralogix_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard coralogix_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class Dashboard extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

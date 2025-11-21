@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface ClusterResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#certificate ClusterResource#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#certificate ClusterResource#certificate}
   */
   readonly certificate?: ClusterResourceCertificate;
   /**
   * Contact information. Example: support@company.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#contact ClusterResource#contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#contact ClusterResource#contact}
   */
   readonly contact?: string;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#cx_profile_name ClusterResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#cx_profile_name ClusterResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * A list of DNS domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#dns_domains ClusterResource#dns_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#dns_domains ClusterResource#dns_domains}
   */
   readonly dnsDomains?: string[];
   /**
   * License keys or NLF contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#license ClusterResource#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#license ClusterResource#license}
   */
   readonly license?: ClusterResourceLicense;
   /**
   * Location information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#location ClusterResource#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#location ClusterResource#location}
   */
   readonly location?: string;
   /**
   * The management interface of the cluster. The subnet mask and gateway for this interface are used for the node management interfaces provided in the node configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#management_interface ClusterResource#management_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#management_interface ClusterResource#management_interface}
   */
   readonly managementInterface?: ClusterResourceManagementInterface;
   /**
   * Cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#name ClusterResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#name ClusterResource#name}
   */
   readonly name: string;
   /**
   * The list of IP addresses of the DNS servers. Addresses can be either IPv4 or IPv6 addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#name_servers ClusterResource#name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#name_servers ClusterResource#name_servers}
   */
   readonly nameServers?: string[];
   /**
   * Host name, IPv4 address, or IPv6 address for the external NTP time servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#ntp_servers ClusterResource#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#ntp_servers ClusterResource#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#password ClusterResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#password ClusterResource#password}
   */
   readonly password?: string;
   /**
   * Time zone information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#timezone ClusterResource#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#timezone ClusterResource#timezone}
   */
   readonly timezone?: ClusterResourceTimezone;
 }
 export interface ClusterResourceCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#id ClusterResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#id ClusterResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -181,7 +181,7 @@ export interface ClusterResourceLicense {
   /**
   * list of license keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#keys ClusterResource#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#keys ClusterResource#keys}
   */
   readonly keys?: string[];
 }
@@ -277,19 +277,19 @@ export interface ClusterResourceManagementInterfaceIp {
   /**
   * IPv4 or IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#address ClusterResource#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#address ClusterResource#address}
   */
   readonly address?: string;
   /**
   * The IPv4 or IPv6 address of the default router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#gateway ClusterResource#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#gateway ClusterResource#gateway}
   */
   readonly gateway?: string;
   /**
   * Input as netmask length (16) or IPv4 mask (255.255.0.0). For IPv6, the default value is 64 with a valid range of 1 to 127. Output is always netmask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#netmask ClusterResource#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#netmask ClusterResource#netmask}
   */
   readonly netmask?: string;
 }
@@ -443,7 +443,7 @@ export interface ClusterResourceManagementInterface {
   /**
   * Object to setup an interface along with its default router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#ip ClusterResource#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#ip ClusterResource#ip}
   */
   readonly ip?: ClusterResourceManagementInterfaceIp;
 }
@@ -679,7 +679,7 @@ export interface ClusterResourceTimezone {
   /**
   * Name of the time zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#name ClusterResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#name ClusterResource#name}
   */
   readonly name?: string;
 }
@@ -827,7 +827,7 @@ export class ClusterResourceVersionOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource netapp-ontap_cluster_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource netapp-ontap_cluster_resource}
 */
 export class ClusterResource extends cdktf.TerraformResource {
 
@@ -843,7 +843,7 @@ export class ClusterResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterResource to import
-  * @param importFromId The id of the existing ClusterResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -855,7 +855,7 @@ export class ClusterResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_resource netapp-ontap_cluster_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_resource netapp-ontap_cluster_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -866,8 +866,8 @@ export class ClusterResource extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_cluster_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/health_checks_ping_monitor
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/health_checks_ping_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciHealthChecksPingMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/health_checks_ping_monitor#monitor_id DataOciHealthChecksPingMonitor#monitor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/health_checks_ping_monitor#monitor_id DataOciHealthChecksPingMonitor#monitor_id}
   */
   readonly monitorId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/health_checks_ping_monitor oci_health_checks_ping_monitor}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/health_checks_ping_monitor oci_health_checks_ping_monitor}
 */
 export class DataOciHealthChecksPingMonitor extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciHealthChecksPingMonitor extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciHealthChecksPingMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciHealthChecksPingMonitor to import
-  * @param importFromId The id of the existing DataOciHealthChecksPingMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/health_checks_ping_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciHealthChecksPingMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/health_checks_ping_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciHealthChecksPingMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciHealthChecksPingMonitor extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/health_checks_ping_monitor oci_health_checks_ping_monitor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/health_checks_ping_monitor oci_health_checks_ping_monitor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciHealthChecksPingMonitor extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_health_checks_ping_monitor',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

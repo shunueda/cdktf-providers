@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ServiceComputeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Conditionally prevents new service versions from being activated. The apply step will create a new draft version but will not activate it if this is set to `false`. Default `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#activate ServiceCompute#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#activate ServiceCompute#activate}
   */
   readonly activate?: boolean | cdktf.IResolvable;
   /**
   * Description field for the service. Default `Managed by Terraform`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#comment ServiceCompute#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#comment ServiceCompute#comment}
   */
   readonly comment?: string;
   /**
   * Services that are active cannot be destroyed. In order to destroy the Service, set `force_destroy` to `true`. Default `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#force_destroy ServiceCompute#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#force_destroy ServiceCompute#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#id ServiceCompute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#id ServiceCompute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,241 +35,241 @@ export interface ServiceComputeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique name for the Service to create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Services that are active cannot be destroyed. If set to `true` a service Terraform intends to destroy will instead be deactivated (allowing it to be reused by importing it into another Terraform project). If `false`, attempting to destroy an active service will cause an error. Default `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#reuse ServiceCompute#reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#reuse ServiceCompute#reuse}
   */
   readonly reuse?: boolean | cdktf.IResolvable;
   /**
   * Conditionally enables new service versions to be staged. If set to `true`, all changes made by an `apply` step will be staged, even if `apply` did not create a new draft version. Default `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#stage ServiceCompute#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#stage ServiceCompute#stage}
   */
   readonly stage?: boolean | cdktf.IResolvable;
   /**
   * Description field for the version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#version_comment ServiceCompute#version_comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#version_comment ServiceCompute#version_comment}
   */
   readonly versionComment?: string;
   /**
   * backend block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#backend ServiceCompute#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#backend ServiceCompute#backend}
   */
   readonly backend?: ServiceComputeBackend[] | cdktf.IResolvable;
   /**
   * dictionary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#dictionary ServiceCompute#dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#dictionary ServiceCompute#dictionary}
   */
   readonly dictionary?: ServiceComputeDictionary[] | cdktf.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#domain ServiceCompute#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#domain ServiceCompute#domain}
   */
   readonly domain?: ServiceComputeDomain[] | cdktf.IResolvable;
   /**
   * healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#healthcheck ServiceCompute#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#healthcheck ServiceCompute#healthcheck}
   */
   readonly healthcheck?: ServiceComputeHealthcheck[] | cdktf.IResolvable;
   /**
   * image_optimizer_default_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#image_optimizer_default_settings ServiceCompute#image_optimizer_default_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#image_optimizer_default_settings ServiceCompute#image_optimizer_default_settings}
   */
   readonly imageOptimizerDefaultSettings?: ServiceComputeImageOptimizerDefaultSettings;
   /**
   * logging_bigquery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_bigquery ServiceCompute#logging_bigquery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_bigquery ServiceCompute#logging_bigquery}
   */
   readonly loggingBigquery?: ServiceComputeLoggingBigquery[] | cdktf.IResolvable;
   /**
   * logging_blobstorage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_blobstorage ServiceCompute#logging_blobstorage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_blobstorage ServiceCompute#logging_blobstorage}
   */
   readonly loggingBlobstorage?: ServiceComputeLoggingBlobstorage[] | cdktf.IResolvable;
   /**
   * logging_cloudfiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_cloudfiles ServiceCompute#logging_cloudfiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_cloudfiles ServiceCompute#logging_cloudfiles}
   */
   readonly loggingCloudfiles?: ServiceComputeLoggingCloudfiles[] | cdktf.IResolvable;
   /**
   * logging_datadog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_datadog ServiceCompute#logging_datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_datadog ServiceCompute#logging_datadog}
   */
   readonly loggingDatadog?: ServiceComputeLoggingDatadog[] | cdktf.IResolvable;
   /**
   * logging_digitalocean block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_digitalocean ServiceCompute#logging_digitalocean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_digitalocean ServiceCompute#logging_digitalocean}
   */
   readonly loggingDigitalocean?: ServiceComputeLoggingDigitalocean[] | cdktf.IResolvable;
   /**
   * logging_elasticsearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_elasticsearch ServiceCompute#logging_elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_elasticsearch ServiceCompute#logging_elasticsearch}
   */
   readonly loggingElasticsearch?: ServiceComputeLoggingElasticsearch[] | cdktf.IResolvable;
   /**
   * logging_ftp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_ftp ServiceCompute#logging_ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_ftp ServiceCompute#logging_ftp}
   */
   readonly loggingFtp?: ServiceComputeLoggingFtp[] | cdktf.IResolvable;
   /**
   * logging_gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_gcs ServiceCompute#logging_gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_gcs ServiceCompute#logging_gcs}
   */
   readonly loggingGcs?: ServiceComputeLoggingGcs[] | cdktf.IResolvable;
   /**
   * logging_googlepubsub block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_googlepubsub ServiceCompute#logging_googlepubsub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_googlepubsub ServiceCompute#logging_googlepubsub}
   */
   readonly loggingGooglepubsub?: ServiceComputeLoggingGooglepubsub[] | cdktf.IResolvable;
   /**
   * logging_grafanacloudlogs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_grafanacloudlogs ServiceCompute#logging_grafanacloudlogs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_grafanacloudlogs ServiceCompute#logging_grafanacloudlogs}
   */
   readonly loggingGrafanacloudlogs?: ServiceComputeLoggingGrafanacloudlogs[] | cdktf.IResolvable;
   /**
   * logging_heroku block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_heroku ServiceCompute#logging_heroku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_heroku ServiceCompute#logging_heroku}
   */
   readonly loggingHeroku?: ServiceComputeLoggingHeroku[] | cdktf.IResolvable;
   /**
   * logging_honeycomb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_honeycomb ServiceCompute#logging_honeycomb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_honeycomb ServiceCompute#logging_honeycomb}
   */
   readonly loggingHoneycomb?: ServiceComputeLoggingHoneycomb[] | cdktf.IResolvable;
   /**
   * logging_https block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_https ServiceCompute#logging_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_https ServiceCompute#logging_https}
   */
   readonly loggingHttps?: ServiceComputeLoggingHttps[] | cdktf.IResolvable;
   /**
   * logging_kafka block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_kafka ServiceCompute#logging_kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_kafka ServiceCompute#logging_kafka}
   */
   readonly loggingKafka?: ServiceComputeLoggingKafka[] | cdktf.IResolvable;
   /**
   * logging_kinesis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_kinesis ServiceCompute#logging_kinesis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_kinesis ServiceCompute#logging_kinesis}
   */
   readonly loggingKinesis?: ServiceComputeLoggingKinesis[] | cdktf.IResolvable;
   /**
   * logging_logentries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_logentries ServiceCompute#logging_logentries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_logentries ServiceCompute#logging_logentries}
   */
   readonly loggingLogentries?: ServiceComputeLoggingLogentries[] | cdktf.IResolvable;
   /**
   * logging_loggly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_loggly ServiceCompute#logging_loggly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_loggly ServiceCompute#logging_loggly}
   */
   readonly loggingLoggly?: ServiceComputeLoggingLoggly[] | cdktf.IResolvable;
   /**
   * logging_logshuttle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_logshuttle ServiceCompute#logging_logshuttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_logshuttle ServiceCompute#logging_logshuttle}
   */
   readonly loggingLogshuttle?: ServiceComputeLoggingLogshuttle[] | cdktf.IResolvable;
   /**
   * logging_newrelic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_newrelic ServiceCompute#logging_newrelic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_newrelic ServiceCompute#logging_newrelic}
   */
   readonly loggingNewrelic?: ServiceComputeLoggingNewrelic[] | cdktf.IResolvable;
   /**
   * logging_newrelicotlp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_newrelicotlp ServiceCompute#logging_newrelicotlp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_newrelicotlp ServiceCompute#logging_newrelicotlp}
   */
   readonly loggingNewrelicotlp?: ServiceComputeLoggingNewrelicotlp[] | cdktf.IResolvable;
   /**
   * logging_openstack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_openstack ServiceCompute#logging_openstack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_openstack ServiceCompute#logging_openstack}
   */
   readonly loggingOpenstack?: ServiceComputeLoggingOpenstack[] | cdktf.IResolvable;
   /**
   * logging_papertrail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_papertrail ServiceCompute#logging_papertrail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_papertrail ServiceCompute#logging_papertrail}
   */
   readonly loggingPapertrail?: ServiceComputeLoggingPapertrail[] | cdktf.IResolvable;
   /**
   * logging_s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_s3 ServiceCompute#logging_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_s3 ServiceCompute#logging_s3}
   */
   readonly loggingS3?: ServiceComputeLoggingS3[] | cdktf.IResolvable;
   /**
   * logging_scalyr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_scalyr ServiceCompute#logging_scalyr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_scalyr ServiceCompute#logging_scalyr}
   */
   readonly loggingScalyr?: ServiceComputeLoggingScalyr[] | cdktf.IResolvable;
   /**
   * logging_sftp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_sftp ServiceCompute#logging_sftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_sftp ServiceCompute#logging_sftp}
   */
   readonly loggingSftp?: ServiceComputeLoggingSftp[] | cdktf.IResolvable;
   /**
   * logging_splunk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_splunk ServiceCompute#logging_splunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_splunk ServiceCompute#logging_splunk}
   */
   readonly loggingSplunk?: ServiceComputeLoggingSplunk[] | cdktf.IResolvable;
   /**
   * logging_sumologic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_sumologic ServiceCompute#logging_sumologic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_sumologic ServiceCompute#logging_sumologic}
   */
   readonly loggingSumologic?: ServiceComputeLoggingSumologic[] | cdktf.IResolvable;
   /**
   * logging_syslog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#logging_syslog ServiceCompute#logging_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#logging_syslog ServiceCompute#logging_syslog}
   */
   readonly loggingSyslog?: ServiceComputeLoggingSyslog[] | cdktf.IResolvable;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#package ServiceCompute#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#package ServiceCompute#package}
   */
   readonly package?: ServiceComputePackage;
   /**
   * product_enablement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#product_enablement ServiceCompute#product_enablement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#product_enablement ServiceCompute#product_enablement}
   */
   readonly productEnablement?: ServiceComputeProductEnablement;
   /**
   * resource_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#resource_link ServiceCompute#resource_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#resource_link ServiceCompute#resource_link}
   */
   readonly resourceLink?: ServiceComputeResourceLink[] | cdktf.IResolvable;
 }
@@ -277,151 +277,151 @@ export interface ServiceComputeBackend {
   /**
   * An IPv4, hostname, or IPv6 address for the Backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#address ServiceCompute#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#address ServiceCompute#address}
   */
   readonly address: string;
   /**
   * How long to wait between bytes in milliseconds. Default `10000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#between_bytes_timeout ServiceCompute#between_bytes_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#between_bytes_timeout ServiceCompute#between_bytes_timeout}
   */
   readonly betweenBytesTimeout?: number;
   /**
   * How long to wait for a timeout in milliseconds. Default `1000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#connect_timeout ServiceCompute#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#connect_timeout ServiceCompute#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * Number of errors to allow before the Backend is marked as down. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#error_threshold ServiceCompute#error_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#error_threshold ServiceCompute#error_threshold}
   */
   readonly errorThreshold?: number;
   /**
   * How long to wait for the first bytes in milliseconds. Default `15000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#first_byte_timeout ServiceCompute#first_byte_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#first_byte_timeout ServiceCompute#first_byte_timeout}
   */
   readonly firstByteTimeout?: number;
   /**
   * Name of a defined `healthcheck` to assign to this backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#healthcheck ServiceCompute#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#healthcheck ServiceCompute#healthcheck}
   */
   readonly healthcheck?: string;
   /**
   * How long in seconds to keep a persistent connection to the backend between requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#keepalive_time ServiceCompute#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#keepalive_time ServiceCompute#keepalive_time}
   */
   readonly keepaliveTime?: number;
   /**
   * Maximum number of connections for this Backend. Default `200`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#max_conn ServiceCompute#max_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#max_conn ServiceCompute#max_conn}
   */
   readonly maxConn?: number;
   /**
   * Maximum allowed TLS version on SSL connections to this backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#max_tls_version ServiceCompute#max_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#max_tls_version ServiceCompute#max_tls_version}
   */
   readonly maxTlsVersion?: string;
   /**
   * Minimum allowed TLS version on SSL connections to this backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#min_tls_version ServiceCompute#min_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#min_tls_version ServiceCompute#min_tls_version}
   */
   readonly minTlsVersion?: string;
   /**
   * Name for this Backend. Must be unique to this Service. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * The hostname to override the Host header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#override_host ServiceCompute#override_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#override_host ServiceCompute#override_host}
   */
   readonly overrideHost?: string;
   /**
   * The port number on which the Backend responds. Default `80`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#port ServiceCompute#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#port ServiceCompute#port}
   */
   readonly port?: number;
   /**
   * Prefer IPv6 connections to origins for hostname backends. Default `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#prefer_ipv6 ServiceCompute#prefer_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#prefer_ipv6 ServiceCompute#prefer_ipv6}
   */
   readonly preferIpv6?: boolean | cdktf.IResolvable;
   /**
   * Value that when shared across backends will enable those backends to share the same health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#share_key ServiceCompute#share_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#share_key ServiceCompute#share_key}
   */
   readonly shareKey?: string;
   /**
   * The POP of the shield designated to reduce inbound load. Valid values for `shield` are included in the `GET /datacenters` API response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#shield ServiceCompute#shield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#shield ServiceCompute#shield}
   */
   readonly shield?: string;
   /**
   * CA certificate attached to origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#ssl_ca_cert ServiceCompute#ssl_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#ssl_ca_cert ServiceCompute#ssl_ca_cert}
   */
   readonly sslCaCert?: string;
   /**
   * Configure certificate validation. Does not affect SNI at all
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#ssl_cert_hostname ServiceCompute#ssl_cert_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#ssl_cert_hostname ServiceCompute#ssl_cert_hostname}
   */
   readonly sslCertHostname?: string;
   /**
   * Be strict about checking SSL certs. Default `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#ssl_check_cert ServiceCompute#ssl_check_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#ssl_check_cert ServiceCompute#ssl_check_cert}
   */
   readonly sslCheckCert?: boolean | cdktf.IResolvable;
   /**
   * Cipher list consisting of one or more cipher strings separated by colons. Commas or spaces are also acceptable separators but colons are normally used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#ssl_ciphers ServiceCompute#ssl_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#ssl_ciphers ServiceCompute#ssl_ciphers}
   */
   readonly sslCiphers?: string;
   /**
   * Client certificate attached to origin. Used when connecting to the backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#ssl_client_cert ServiceCompute#ssl_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#ssl_client_cert ServiceCompute#ssl_client_cert}
   */
   readonly sslClientCert?: string;
   /**
   * Client key attached to origin. Used when connecting to the backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#ssl_client_key ServiceCompute#ssl_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#ssl_client_key ServiceCompute#ssl_client_key}
   */
   readonly sslClientKey?: string;
   /**
   * Configure SNI in the TLS handshake. Does not affect cert validation at all
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#ssl_sni_hostname ServiceCompute#ssl_sni_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#ssl_sni_hostname ServiceCompute#ssl_sni_hostname}
   */
   readonly sslSniHostname?: string;
   /**
   * Whether or not to use SSL to reach the Backend. Default `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#use_ssl ServiceCompute#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#use_ssl ServiceCompute#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * The [portion of traffic](https://docs.fastly.com/en/guides/load-balancing-configuration#how-weight-affects-load-balancing) to send to this Backend. Each Backend receives weight / total of the traffic. Default `100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#weight ServiceCompute#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#weight ServiceCompute#weight}
   */
   readonly weight?: number;
 }
@@ -1229,19 +1229,19 @@ export interface ServiceComputeDictionary {
   /**
   * Allow the dictionary to be deleted, even if it contains entries. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#force_destroy ServiceCompute#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#force_destroy ServiceCompute#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
   * A unique name to identify this dictionary. It is important to note that changing this attribute will delete and recreate the dictionary, and discard the current items in the dictionary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * If `true`, the dictionary is a [private dictionary](https://docs.fastly.com/en/guides/private-dictionaries). Default is `false`. Please note that changing this attribute will delete and recreate the dictionary, and discard the current items in the dictionary. `fastly_service_vcl` resource will only manage the dictionary object itself, and items under private dictionaries can not be managed using [`fastly_service_dictionary_items`](https://registry.terraform.io/providers/fastly/fastly/latest/docs/resources/service_dictionary_items#limitations) resource. Therefore, using a write-only/private dictionary should only be done if the items are managed outside of Terraform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#write_only ServiceCompute#write_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#write_only ServiceCompute#write_only}
   */
   readonly writeOnly?: boolean | cdktf.IResolvable;
 }
@@ -1419,13 +1419,13 @@ export interface ServiceComputeDomain {
   /**
   * An optional comment about the Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#comment ServiceCompute#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#comment ServiceCompute#comment}
   */
   readonly comment?: string;
   /**
   * The domain that this Service will respond to. It is important to note that changing this attribute will delete and recreate the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
 }
@@ -1569,73 +1569,73 @@ export interface ServiceComputeHealthcheck {
   /**
   * How often to run the Healthcheck in milliseconds. Default `5000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#check_interval ServiceCompute#check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#check_interval ServiceCompute#check_interval}
   */
   readonly checkInterval?: number;
   /**
   * The status code expected from the host. Default `200`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#expected_response ServiceCompute#expected_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#expected_response ServiceCompute#expected_response}
   */
   readonly expectedResponse?: number;
   /**
   * Custom health check HTTP headers (e.g. if your health check requires an API key to be provided).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#headers ServiceCompute#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#headers ServiceCompute#headers}
   */
   readonly headers?: string[];
   /**
   * The Host header to send for this Healthcheck
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#host ServiceCompute#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#host ServiceCompute#host}
   */
   readonly host: string;
   /**
   * Whether to use version 1.0 or 1.1 HTTP. Default `1.1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#http_version ServiceCompute#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#http_version ServiceCompute#http_version}
   */
   readonly httpVersion?: string;
   /**
   * When loading a config, the initial number of probes to be seen as OK. Default `3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#initial ServiceCompute#initial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#initial ServiceCompute#initial}
   */
   readonly initial?: number;
   /**
   * Which HTTP method to use. Default `HEAD`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#method ServiceCompute#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#method ServiceCompute#method}
   */
   readonly method?: string;
   /**
   * A unique name to identify this Healthcheck. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * The path to check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#path ServiceCompute#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#path ServiceCompute#path}
   */
   readonly path: string;
   /**
   * How many Healthchecks must succeed to be considered healthy. Default `3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#threshold ServiceCompute#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#threshold ServiceCompute#threshold}
   */
   readonly threshold?: number;
   /**
   * Timeout in milliseconds. Default `5000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#timeout ServiceCompute#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#timeout ServiceCompute#timeout}
   */
   readonly timeout?: number;
   /**
   * The number of most recent Healthcheck queries to keep for this Healthcheck. Default `5`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#window ServiceCompute#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#window ServiceCompute#window}
   */
   readonly window?: number;
 }
@@ -2063,13 +2063,13 @@ export interface ServiceComputeImageOptimizerDefaultSettings {
   /**
   * Enables GIF to MP4 transformations on this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#allow_video ServiceCompute#allow_video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#allow_video ServiceCompute#allow_video}
   */
   readonly allowVideo?: boolean | cdktf.IResolvable;
   /**
   * The default quality to use with JPEG output. This can be overridden with the "quality" parameter on specific image optimizer requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#jpeg_quality ServiceCompute#jpeg_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#jpeg_quality ServiceCompute#jpeg_quality}
   */
   readonly jpegQuality?: number;
   /**
@@ -2078,13 +2078,13 @@ export interface ServiceComputeImageOptimizerDefaultSettings {
   * 	- baseline: Output baseline JPEG images
   * 	- progressive: Output progressive JPEG images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#jpeg_type ServiceCompute#jpeg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#jpeg_type ServiceCompute#jpeg_type}
   */
   readonly jpegType?: string;
   /**
   * Used by the provider to identify modified settings. Changing this value will force the entire block to be deleted, then recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name?: string;
   /**
@@ -2095,25 +2095,25 @@ export interface ServiceComputeImageOptimizerDefaultSettings {
   * 	- bilinear: A filter using an average of a 2x2 environment of pixels.
   * 	- nearest: A filter using the value of nearby translated pixel values. Preserves hard edges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#resize_filter ServiceCompute#resize_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#resize_filter ServiceCompute#resize_filter}
   */
   readonly resizeFilter?: string;
   /**
   * Whether or not we should allow output images to render at sizes larger than input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#upscale ServiceCompute#upscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#upscale ServiceCompute#upscale}
   */
   readonly upscale?: boolean | cdktf.IResolvable;
   /**
   * Controls whether or not to default to WebP output when the client supports it. This is equivalent to adding "auto=webp" to all image optimizer requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#webp ServiceCompute#webp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#webp ServiceCompute#webp}
   */
   readonly webp?: boolean | cdktf.IResolvable;
   /**
   * The default quality to use with WebP output. This can be overridden with the second option in the "quality" URL parameter on specific image optimizer requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#webp_quality ServiceCompute#webp_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#webp_quality ServiceCompute#webp_quality}
   */
   readonly webpQuality?: number;
 }
@@ -2402,55 +2402,55 @@ export interface ServiceComputeLoggingBigquery {
   /**
   * The google account name used to obtain temporary credentials (default none). You may optionally provide this via an environment variable, `FASTLY_GCS_ACCOUNT_NAME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#account_name ServiceCompute#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#account_name ServiceCompute#account_name}
   */
   readonly accountName?: string;
   /**
   * The ID of your BigQuery dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#dataset ServiceCompute#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#dataset ServiceCompute#dataset}
   */
   readonly dataset: string;
   /**
   * The email for the service account with write access to your BigQuery dataset. If not provided, this will be pulled from a `FASTLY_BQ_EMAIL` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#email ServiceCompute#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#email ServiceCompute#email}
   */
   readonly email?: string;
   /**
   * A unique name to identify this BigQuery logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The ID of your GCP project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#project_id ServiceCompute#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#project_id ServiceCompute#project_id}
   */
   readonly projectId: string;
   /**
   * The secret key associated with the service account that has write access to your BigQuery table. If not provided, this will be pulled from the `FASTLY_BQ_SECRET_KEY` environment variable. Typical format for this is a private key in a string with newlines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#secret_key ServiceCompute#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#secret_key ServiceCompute#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The ID of your BigQuery table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#table ServiceCompute#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#table ServiceCompute#table}
   */
   readonly table: string;
   /**
   * BigQuery table name suffix template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#template ServiceCompute#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#template ServiceCompute#template}
   */
   readonly template?: string;
 }
@@ -2788,79 +2788,79 @@ export interface ServiceComputeLoggingBlobstorage {
   /**
   * The unique Azure Blob Storage namespace in which your data objects are stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#account_name ServiceCompute#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#account_name ServiceCompute#account_name}
   */
   readonly accountName: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * The name of the Azure Blob Storage container in which to store logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#container ServiceCompute#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#container ServiceCompute#container}
   */
   readonly container: string;
   /**
   * Maximum size of an uploaded log file, if non-zero.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#file_max_bytes ServiceCompute#file_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#file_max_bytes ServiceCompute#file_max_bytes}
   */
   readonly fileMaxBytes?: number;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
   */
   readonly messageType?: string;
   /**
   * A unique name to identify the Azure Blob Storage endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * The path to upload logs to. Must end with a trailing slash. If this field is left empty, the files will be saved in the container's root path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#path ServiceCompute#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#path ServiceCompute#path}
   */
   readonly path?: string;
   /**
   * How frequently the logs should be transferred in seconds. Default `3600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#period ServiceCompute#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#period ServiceCompute#period}
   */
   readonly period?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * A PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
   */
   readonly publicKey?: string;
   /**
   * The Azure shared access signature providing write access to the blob service objects. Be sure to update your token before it expires or the logging functionality will not work
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#sas_token ServiceCompute#sas_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#sas_token ServiceCompute#sas_token}
   */
   readonly sasToken?: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
   */
   readonly timestampFormat?: string;
 }
@@ -3317,79 +3317,79 @@ export interface ServiceComputeLoggingCloudfiles {
   /**
   * Your Cloud File account access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#access_key ServiceCompute#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#access_key ServiceCompute#access_key}
   */
   readonly accessKey: string;
   /**
   * The name of your Cloud Files container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#bucket_name ServiceCompute#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#bucket_name ServiceCompute#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
   */
   readonly messageType?: string;
   /**
   * The unique name of the Rackspace Cloud Files logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * The path to upload logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#path ServiceCompute#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#path ServiceCompute#path}
   */
   readonly path?: string;
   /**
   * How frequently log files are finalized so they can be available for reading (in seconds, default `3600`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#period ServiceCompute#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#period ServiceCompute#period}
   */
   readonly period?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
   */
   readonly publicKey?: string;
   /**
   * The region to stream logs to. One of: DFW (Dallas), ORD (Chicago), IAD (Northern Virginia), LON (London), SYD (Sydney), HKG (Hong Kong)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#region ServiceCompute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#region ServiceCompute#region}
   */
   readonly region?: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
   */
   readonly timestampFormat?: string;
   /**
   * The username for your Cloud Files account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#user ServiceCompute#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#user ServiceCompute#user}
   */
   readonly user: string;
 }
@@ -3843,25 +3843,25 @@ export interface ServiceComputeLoggingDatadog {
   /**
   * The unique name of the Datadog logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The region that log data will be sent to. Defaults to `US` if undefined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#region ServiceCompute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#region ServiceCompute#region}
   */
   readonly region?: string;
   /**
   * The API key from your Datadog account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#token ServiceCompute#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#token ServiceCompute#token}
   */
   readonly token: string;
 }
@@ -4060,79 +4060,79 @@ export interface ServiceComputeLoggingDigitalocean {
   /**
   * Your DigitalOcean Spaces account access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#access_key ServiceCompute#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#access_key ServiceCompute#access_key}
   */
   readonly accessKey: string;
   /**
   * The name of the DigitalOcean Space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#bucket_name ServiceCompute#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#bucket_name ServiceCompute#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * The domain of the DigitalOcean Spaces endpoint (default `nyc3.digitaloceanspaces.com`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#domain ServiceCompute#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#domain ServiceCompute#domain}
   */
   readonly domain?: string;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
   */
   readonly messageType?: string;
   /**
   * The unique name of the DigitalOcean Spaces logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * The path to upload logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#path ServiceCompute#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#path ServiceCompute#path}
   */
   readonly path?: string;
   /**
   * How frequently log files are finalized so they can be available for reading (in seconds, default `3600`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#period ServiceCompute#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#period ServiceCompute#period}
   */
   readonly period?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * A PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
   */
   readonly publicKey?: string;
   /**
   * Your DigitalOcean Spaces account secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#secret_key ServiceCompute#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#secret_key ServiceCompute#secret_key}
   */
   readonly secretKey: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
   */
   readonly timestampFormat?: string;
 }
@@ -4586,79 +4586,79 @@ export interface ServiceComputeLoggingElasticsearch {
   /**
   * The name of the Elasticsearch index to send documents (logs) to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#index ServiceCompute#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#index ServiceCompute#index}
   */
   readonly index: string;
   /**
   * The unique name of the Elasticsearch logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * BasicAuth password for Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#password ServiceCompute#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#password ServiceCompute#password}
   */
   readonly password?: string;
   /**
   * The ID of the Elasticsearch ingest pipeline to apply pre-process transformations to before indexing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#pipeline ServiceCompute#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#pipeline ServiceCompute#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The maximum number of logs sent in one request. Defaults to `0` for unbounded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#request_max_bytes ServiceCompute#request_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#request_max_bytes ServiceCompute#request_max_bytes}
   */
   readonly requestMaxBytes?: number;
   /**
   * The maximum number of bytes sent in one request. Defaults to `0` for unbounded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#request_max_entries ServiceCompute#request_max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#request_max_entries ServiceCompute#request_max_entries}
   */
   readonly requestMaxEntries?: number;
   /**
   * A secure certificate to authenticate the server with. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_ca_cert ServiceCompute#tls_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_ca_cert ServiceCompute#tls_ca_cert}
   */
   readonly tlsCaCert?: string;
   /**
   * The client certificate used to make authenticated requests. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_client_cert ServiceCompute#tls_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_client_cert ServiceCompute#tls_client_cert}
   */
   readonly tlsClientCert?: string;
   /**
   * The client private key used to make authenticated requests. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_client_key ServiceCompute#tls_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_client_key ServiceCompute#tls_client_key}
   */
   readonly tlsClientKey?: string;
   /**
   * The hostname used to verify the server's certificate. It can either be the Common Name (CN) or a Subject Alternative Name (SAN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_hostname ServiceCompute#tls_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_hostname ServiceCompute#tls_hostname}
   */
   readonly tlsHostname?: string;
   /**
   * The Elasticsearch URL to stream logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#url ServiceCompute#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#url ServiceCompute#url}
   */
   readonly url: string;
   /**
   * BasicAuth username for Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#user ServiceCompute#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#user ServiceCompute#user}
   */
   readonly user?: string;
 }
@@ -5115,79 +5115,79 @@ export interface ServiceComputeLoggingFtp {
   /**
   * The FTP address to stream logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#address ServiceCompute#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#address ServiceCompute#address}
   */
   readonly address: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
   */
   readonly messageType?: string;
   /**
   * The unique name of the FTP logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * The password for the server (for anonymous use an email address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#password ServiceCompute#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#password ServiceCompute#password}
   */
   readonly password: string;
   /**
   * The path to upload log files to. If the path ends in `/` then it is treated as a directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#path ServiceCompute#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#path ServiceCompute#path}
   */
   readonly path: string;
   /**
   * How frequently the logs should be transferred, in seconds (Default `3600`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#period ServiceCompute#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#period ServiceCompute#period}
   */
   readonly period?: number;
   /**
   * The port number. Default: `21`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#port ServiceCompute#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#port ServiceCompute#port}
   */
   readonly port?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
   */
   readonly publicKey?: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
   */
   readonly timestampFormat?: string;
   /**
   * The username for the server (can be `anonymous`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#user ServiceCompute#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#user ServiceCompute#user}
   */
   readonly user: string;
 }
@@ -5638,79 +5638,79 @@ export interface ServiceComputeLoggingGcs {
   /**
   * The google account name used to obtain temporary credentials (default none). You may optionally provide this via an environment variable, `FASTLY_GCS_ACCOUNT_NAME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#account_name ServiceCompute#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#account_name ServiceCompute#account_name}
   */
   readonly accountName?: string;
   /**
   * The name of the bucket in which to store the logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#bucket_name ServiceCompute#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#bucket_name ServiceCompute#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
   */
   readonly messageType?: string;
   /**
   * A unique name to identify this GCS endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Path to store the files. Must end with a trailing slash. If this field is left empty, the files will be saved in the bucket's root path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#path ServiceCompute#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#path ServiceCompute#path}
   */
   readonly path?: string;
   /**
   * How frequently the logs should be transferred, in seconds (Default 3600)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#period ServiceCompute#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#period ServiceCompute#period}
   */
   readonly period?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The ID of your Google Cloud Platform project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#project_id ServiceCompute#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#project_id ServiceCompute#project_id}
   */
   readonly projectId?: string;
   /**
   * The secret key associated with the target gcs bucket on your account. You may optionally provide this secret via an environment variable, `FASTLY_GCS_SECRET_KEY`. A typical format for the key is PEM format, containing actual newline characters where required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#secret_key ServiceCompute#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#secret_key ServiceCompute#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
   */
   readonly timestampFormat?: string;
   /**
   * Your Google Cloud Platform service account email address. The `client_email` field in your service account authentication JSON. You may optionally provide this via an environment variable, `FASTLY_GCS_EMAIL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#user ServiceCompute#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#user ServiceCompute#user}
   */
   readonly user?: string;
 }
@@ -6170,43 +6170,43 @@ export interface ServiceComputeLoggingGooglepubsub {
   /**
   * The google account name used to obtain temporary credentials (default none). You may optionally provide this via an environment variable, `FASTLY_GCS_ACCOUNT_NAME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#account_name ServiceCompute#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#account_name ServiceCompute#account_name}
   */
   readonly accountName?: string;
   /**
   * The unique name of the Google Cloud Pub/Sub logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The ID of your Google Cloud Platform project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#project_id ServiceCompute#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#project_id ServiceCompute#project_id}
   */
   readonly projectId: string;
   /**
   * Your Google Cloud Platform account secret key. The `private_key` field in your service account authentication JSON. You may optionally provide this secret via an environment variable, `FASTLY_GOOGLE_PUBSUB_SECRET_KEY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#secret_key ServiceCompute#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#secret_key ServiceCompute#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The Google Cloud Pub/Sub topic to which logs will be published
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#topic ServiceCompute#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#topic ServiceCompute#topic}
   */
   readonly topic: string;
   /**
   * Your Google Cloud Platform service account email address. The `client_email` field in your service account authentication JSON. You may optionally provide this via an environment variable, `FASTLY_GOOGLE_PUBSUB_EMAIL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#user ServiceCompute#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#user ServiceCompute#user}
   */
   readonly user?: string;
 }
@@ -6489,37 +6489,37 @@ export interface ServiceComputeLoggingGrafanacloudlogs {
   /**
   * The stream identifier as a JSON string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#index ServiceCompute#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#index ServiceCompute#index}
   */
   readonly index: string;
   /**
   * The unique name of the GrafanaCloudLogs logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The Access Policy Token key for your GrafanaCloudLogs account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#token ServiceCompute#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#token ServiceCompute#token}
   */
   readonly token: string;
   /**
   * The URL to stream logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#url ServiceCompute#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#url ServiceCompute#url}
   */
   readonly url: string;
   /**
   * The Grafana User ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#user ServiceCompute#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#user ServiceCompute#user}
   */
   readonly user: string;
 }
@@ -6767,25 +6767,25 @@ export interface ServiceComputeLoggingHeroku {
   /**
   * The unique name of the Heroku logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The token to use for authentication (https://www.heroku.com/docs/customer-token-authentication-token/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#token ServiceCompute#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#token ServiceCompute#token}
   */
   readonly token: string;
   /**
   * The URL to stream logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#url ServiceCompute#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#url ServiceCompute#url}
   */
   readonly url: string;
 }
@@ -6981,25 +6981,25 @@ export interface ServiceComputeLoggingHoneycomb {
   /**
   * The Honeycomb Dataset you want to log to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#dataset ServiceCompute#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#dataset ServiceCompute#dataset}
   */
   readonly dataset: string;
   /**
   * The unique name of the Honeycomb logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The Write Key from the Account page of your Honeycomb account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#token ServiceCompute#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#token ServiceCompute#token}
   */
   readonly token: string;
 }
@@ -7195,109 +7195,109 @@ export interface ServiceComputeLoggingHttps {
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * Value of the `Content-Type` header sent with the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#content_type ServiceCompute#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#content_type ServiceCompute#content_type}
   */
   readonly contentType?: string;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * Custom header sent with the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#header_name ServiceCompute#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#header_name ServiceCompute#header_name}
   */
   readonly headerName?: string;
   /**
   * Value of the custom header sent with the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#header_value ServiceCompute#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#header_value ServiceCompute#header_value}
   */
   readonly headerValue?: string;
   /**
   * Formats log entries as JSON. Can be either disabled (`0`), array of json (`1`), or newline delimited json (`2`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#json_format ServiceCompute#json_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#json_format ServiceCompute#json_format}
   */
   readonly jsonFormat?: string;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
   */
   readonly messageType?: string;
   /**
   * HTTP method used for request. Can be either `POST` or `PUT`. Default `POST`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#method ServiceCompute#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#method ServiceCompute#method}
   */
   readonly method?: string;
   /**
   * The unique name of the HTTPS logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * How frequently, in seconds, batches of log data are sent to the HTTPS endpoint. A value of 0 sends logs at the same interval as the default, which is 5 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#period ServiceCompute#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#period ServiceCompute#period}
   */
   readonly period?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The maximum number of bytes sent in one request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#request_max_bytes ServiceCompute#request_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#request_max_bytes ServiceCompute#request_max_bytes}
   */
   readonly requestMaxBytes?: number;
   /**
   * The maximum number of logs sent in one request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#request_max_entries ServiceCompute#request_max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#request_max_entries ServiceCompute#request_max_entries}
   */
   readonly requestMaxEntries?: number;
   /**
   * A secure certificate to authenticate the server with. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_ca_cert ServiceCompute#tls_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_ca_cert ServiceCompute#tls_ca_cert}
   */
   readonly tlsCaCert?: string;
   /**
   * The client certificate used to make authenticated requests. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_client_cert ServiceCompute#tls_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_client_cert ServiceCompute#tls_client_cert}
   */
   readonly tlsClientCert?: string;
   /**
   * The client private key used to make authenticated requests. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_client_key ServiceCompute#tls_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_client_key ServiceCompute#tls_client_key}
   */
   readonly tlsClientKey?: string;
   /**
   * Used during the TLS handshake to validate the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_hostname ServiceCompute#tls_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_hostname ServiceCompute#tls_hostname}
   */
   readonly tlsHostname?: string;
   /**
   * URL that log data will be sent to. Must use the https protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#url ServiceCompute#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#url ServiceCompute#url}
   */
   readonly url: string;
 }
@@ -7902,97 +7902,97 @@ export interface ServiceComputeLoggingKafka {
   /**
   * SASL authentication method. One of: plain, scram-sha-256, scram-sha-512
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#auth_method ServiceCompute#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#auth_method ServiceCompute#auth_method}
   */
   readonly authMethod?: string;
   /**
   * A comma-separated list of IP addresses or hostnames of Kafka brokers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#brokers ServiceCompute#brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#brokers ServiceCompute#brokers}
   */
   readonly brokers: string;
   /**
   * The codec used for compression of your logs. One of: `gzip`, `snappy`, `lz4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * The unique name of the Kafka logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Enables parsing of key=value tuples from the beginning of a logline, turning them into record headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#parse_log_keyvals ServiceCompute#parse_log_keyvals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#parse_log_keyvals ServiceCompute#parse_log_keyvals}
   */
   readonly parseLogKeyvals?: boolean | cdktf.IResolvable;
   /**
   * SASL Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#password ServiceCompute#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#password ServiceCompute#password}
   */
   readonly password?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * Maximum size of log batch, if non-zero. Defaults to 0 for unbounded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#request_max_bytes ServiceCompute#request_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#request_max_bytes ServiceCompute#request_max_bytes}
   */
   readonly requestMaxBytes?: number;
   /**
   * The Number of acknowledgements a leader must receive before a write is considered successful. One of: `1` (default) One server needs to respond. `0` No servers need to respond. `-1` Wait for all in-sync replicas to respond
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#required_acks ServiceCompute#required_acks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#required_acks ServiceCompute#required_acks}
   */
   readonly requiredAcks?: string;
   /**
   * A secure certificate to authenticate the server with. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_ca_cert ServiceCompute#tls_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_ca_cert ServiceCompute#tls_ca_cert}
   */
   readonly tlsCaCert?: string;
   /**
   * The client certificate used to make authenticated requests. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_client_cert ServiceCompute#tls_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_client_cert ServiceCompute#tls_client_cert}
   */
   readonly tlsClientCert?: string;
   /**
   * The client private key used to make authenticated requests. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_client_key ServiceCompute#tls_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_client_key ServiceCompute#tls_client_key}
   */
   readonly tlsClientKey?: string;
   /**
   * The hostname used to verify the server's certificate. It can either be the Common Name or a Subject Alternative Name (SAN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_hostname ServiceCompute#tls_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_hostname ServiceCompute#tls_hostname}
   */
   readonly tlsHostname?: string;
   /**
   * The Kafka topic to send logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#topic ServiceCompute#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#topic ServiceCompute#topic}
   */
   readonly topic: string;
   /**
   * Whether to use TLS for secure logging. Can be either `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#use_tls ServiceCompute#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#use_tls ServiceCompute#use_tls}
   */
   readonly useTls?: boolean | cdktf.IResolvable;
   /**
   * SASL User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#user ServiceCompute#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#user ServiceCompute#user}
   */
   readonly user?: string;
 }
@@ -8536,43 +8536,43 @@ export interface ServiceComputeLoggingKinesis {
   /**
   * The AWS access key to be used to write to the stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#access_key ServiceCompute#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#access_key ServiceCompute#access_key}
   */
   readonly accessKey?: string;
   /**
   * The Amazon Resource Name (ARN) for the IAM role granting Fastly access to Kinesis. Not required if `access_key` and `secret_key` are provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#iam_role ServiceCompute#iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#iam_role ServiceCompute#iam_role}
   */
   readonly iamRole?: string;
   /**
   * The unique name of the Kinesis logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The AWS region the stream resides in. (Default: `us-east-1`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#region ServiceCompute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#region ServiceCompute#region}
   */
   readonly region?: string;
   /**
   * The AWS secret access key to authenticate with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#secret_key ServiceCompute#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#secret_key ServiceCompute#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The Kinesis stream name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#topic ServiceCompute#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#topic ServiceCompute#topic}
   */
   readonly topic: string;
 }
@@ -8858,31 +8858,31 @@ export interface ServiceComputeLoggingLogentries {
   /**
   * The unique name of the Logentries logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * The port number configured in Logentries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#port ServiceCompute#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#port ServiceCompute#port}
   */
   readonly port?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * Use token based authentication (https://logentries.com/doc/input-token/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#token ServiceCompute#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#token ServiceCompute#token}
   */
   readonly token: string;
   /**
   * Whether to use TLS for secure logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#use_tls ServiceCompute#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#use_tls ServiceCompute#use_tls}
   */
   readonly useTls?: boolean | cdktf.IResolvable;
 }
@@ -9110,19 +9110,19 @@ export interface ServiceComputeLoggingLoggly {
   /**
   * The unique name of the Loggly logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The token to use for authentication (https://www.loggly.com/docs/customer-token-authentication-token/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#token ServiceCompute#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#token ServiceCompute#token}
   */
   readonly token: string;
 }
@@ -9292,25 +9292,25 @@ export interface ServiceComputeLoggingLogshuttle {
   /**
   * The unique name of the Log Shuttle logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The data authentication token associated with this endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#token ServiceCompute#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#token ServiceCompute#token}
   */
   readonly token: string;
   /**
   * Your Log Shuttle endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#url ServiceCompute#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#url ServiceCompute#url}
   */
   readonly url: string;
 }
@@ -9506,25 +9506,25 @@ export interface ServiceComputeLoggingNewrelic {
   /**
   * The unique name of the New Relic logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The region that log data will be sent to. Default: `US`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#region ServiceCompute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#region ServiceCompute#region}
   */
   readonly region?: string;
   /**
   * The Insert API key from the Account page of your New Relic account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#token ServiceCompute#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#token ServiceCompute#token}
   */
   readonly token: string;
 }
@@ -9723,55 +9723,55 @@ export interface ServiceComputeLoggingNewrelicotlp {
   /**
   * Apache style log formatting. Your log must produce valid JSON that New Relic OTLP can ingest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#format ServiceCompute#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#format ServiceCompute#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either `1` or `2`. (default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#format_version ServiceCompute#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#format_version ServiceCompute#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The unique name of the New Relic OTLP logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#placement ServiceCompute#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#placement ServiceCompute#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The region that log data will be sent to. Default: `US`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#region ServiceCompute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#region ServiceCompute#region}
   */
   readonly region?: string;
   /**
   * The name of the condition to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#response_condition ServiceCompute#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#response_condition ServiceCompute#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The Insert API key from the Account page of your New Relic account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#token ServiceCompute#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#token ServiceCompute#token}
   */
   readonly token: string;
   /**
   * The optional New Relic Trace Observer URL to stream logs to for Infinite Tracing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#url ServiceCompute#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#url ServiceCompute#url}
   */
   readonly url?: string;
 }
@@ -10115,79 +10115,79 @@ export interface ServiceComputeLoggingOpenstack {
   /**
   * Your OpenStack account access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#access_key ServiceCompute#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#access_key ServiceCompute#access_key}
   */
   readonly accessKey: string;
   /**
   * The name of your OpenStack container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#bucket_name ServiceCompute#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#bucket_name ServiceCompute#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
   */
   readonly messageType?: string;
   /**
   * The unique name of the OpenStack logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Path to store the files. Must end with a trailing slash. If this field is left empty, the files will be saved in the bucket's root path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#path ServiceCompute#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#path ServiceCompute#path}
   */
   readonly path?: string;
   /**
   * How frequently the logs should be transferred, in seconds. Default `3600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#period ServiceCompute#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#period ServiceCompute#period}
   */
   readonly period?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * A PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
   */
   readonly publicKey?: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
   */
   readonly timestampFormat?: string;
   /**
   * Your OpenStack auth url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#url ServiceCompute#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#url ServiceCompute#url}
   */
   readonly url: string;
   /**
   * The username for your OpenStack account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#user ServiceCompute#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#user ServiceCompute#user}
   */
   readonly user: string;
 }
@@ -10638,25 +10638,25 @@ export interface ServiceComputeLoggingPapertrail {
   /**
   * The address of the Papertrail endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#address ServiceCompute#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#address ServiceCompute#address}
   */
   readonly address: string;
   /**
   * A unique name to identify this Papertrail endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * The port associated with the address where the Papertrail endpoint can be accessed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#port ServiceCompute#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#port ServiceCompute#port}
   */
   readonly port: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
 }
@@ -10852,115 +10852,115 @@ export interface ServiceComputeLoggingS3 {
   /**
   * The AWS [Canned ACL](https://docs.aws.amazon.com/AmazonS3/latest/userguide/acl-overview.html#canned-acl) to use for objects uploaded to the S3 bucket. Options are: `private`, `public-read`, `public-read-write`, `aws-exec-read`, `authenticated-read`, `bucket-owner-read`, `bucket-owner-full-control`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#acl ServiceCompute#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#acl ServiceCompute#acl}
   */
   readonly acl?: string;
   /**
   * The name of the bucket in which to store the logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#bucket_name ServiceCompute#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#bucket_name ServiceCompute#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * If you created the S3 bucket outside of `us-east-1`, then specify the corresponding bucket endpoint. Example: `s3-us-west-2.amazonaws.com`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#domain ServiceCompute#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#domain ServiceCompute#domain}
   */
   readonly domain?: string;
   /**
   * Maximum size of an uploaded log file, if non-zero.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#file_max_bytes ServiceCompute#file_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#file_max_bytes ServiceCompute#file_max_bytes}
   */
   readonly fileMaxBytes?: number;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
   */
   readonly messageType?: string;
   /**
   * The unique name of the S3 logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Path to store the files. Must end with a trailing slash. If this field is left empty, the files will be saved in the bucket's root path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#path ServiceCompute#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#path ServiceCompute#path}
   */
   readonly path?: string;
   /**
   * How frequently the logs should be transferred, in seconds. Default `3600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#period ServiceCompute#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#period ServiceCompute#period}
   */
   readonly period?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * A PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
   */
   readonly publicKey?: string;
   /**
   * The S3 storage class (redundancy level). Should be one of: `standard`, `intelligent_tiering`, `standard_ia`, `onezone_ia`, `glacier`, `glacier_ir`, `deep_archive`, or `reduced_redundancy`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#redundancy ServiceCompute#redundancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#redundancy ServiceCompute#redundancy}
   */
   readonly redundancy?: string;
   /**
   * AWS Access Key of an account with the required permissions to post logs. It is **strongly** recommended you create a separate IAM user with permissions to only operate on this Bucket. This key will be not be encrypted. Not required if `iam_role` is provided. You can provide this key via an environment variable, `FASTLY_S3_ACCESS_KEY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#s3_access_key ServiceCompute#s3_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#s3_access_key ServiceCompute#s3_access_key}
   */
   readonly s3AccessKey?: string;
   /**
   * The Amazon Resource Name (ARN) for the IAM role granting Fastly access to S3. Not required if `access_key` and `secret_key` are provided. You can provide this value via an environment variable, `FASTLY_S3_IAM_ROLE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#s3_iam_role ServiceCompute#s3_iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#s3_iam_role ServiceCompute#s3_iam_role}
   */
   readonly s3IamRole?: string;
   /**
   * AWS Secret Key of an account with the required permissions to post logs. It is **strongly** recommended you create a separate IAM user with permissions to only operate on this Bucket. This secret will be not be encrypted. Not required if `iam_role` is provided. You can provide this secret via an environment variable, `FASTLY_S3_SECRET_KEY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#s3_secret_key ServiceCompute#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#s3_secret_key ServiceCompute#s3_secret_key}
   */
   readonly s3SecretKey?: string;
   /**
   * Specify what type of server side encryption should be used. Can be either `AES256` or `aws:kms`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#server_side_encryption ServiceCompute#server_side_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#server_side_encryption ServiceCompute#server_side_encryption}
   */
   readonly serverSideEncryption?: string;
   /**
   * Optional server-side KMS Key Id. Must be set if server_side_encryption is set to `aws:kms`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#server_side_encryption_kms_key_id ServiceCompute#server_side_encryption_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#server_side_encryption_kms_key_id ServiceCompute#server_side_encryption_kms_key_id}
   */
   readonly serverSideEncryptionKmsKeyId?: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
   */
   readonly timestampFormat?: string;
 }
@@ -11594,31 +11594,31 @@ export interface ServiceComputeLoggingScalyr {
   /**
   * The unique name of the Scalyr logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The name of the logfile field sent to Scalyr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#project_id ServiceCompute#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#project_id ServiceCompute#project_id}
   */
   readonly projectId?: string;
   /**
   * The region that log data will be sent to. One of `US` or `EU`. Defaults to `US` if undefined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#region ServiceCompute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#region ServiceCompute#region}
   */
   readonly region?: string;
   /**
   * The token to use for authentication (https://www.scalyr.com/keys)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#token ServiceCompute#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#token ServiceCompute#token}
   */
   readonly token: string;
 }
@@ -11846,91 +11846,91 @@ export interface ServiceComputeLoggingSftp {
   /**
   * The SFTP address to stream logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#address ServiceCompute#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#address ServiceCompute#address}
   */
   readonly address: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#compression_codec ServiceCompute#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#gzip_level ServiceCompute#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
   */
   readonly messageType?: string;
   /**
   * The unique name of the SFTP logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * The password for the server. If both `password` and `secret_key` are passed, `secret_key` will be preferred
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#password ServiceCompute#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#password ServiceCompute#password}
   */
   readonly password?: string;
   /**
   * The path to upload log files to. If the path ends in `/` then it is treated as a directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#path ServiceCompute#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#path ServiceCompute#path}
   */
   readonly path: string;
   /**
   * How frequently log files are finalized so they can be available for reading (in seconds, default `3600`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#period ServiceCompute#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#period ServiceCompute#period}
   */
   readonly period?: number;
   /**
   * The port the SFTP service listens on. (Default: `22`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#port ServiceCompute#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#port ServiceCompute#port}
   */
   readonly port?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * A PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#public_key ServiceCompute#public_key}
   */
   readonly publicKey?: string;
   /**
   * The SSH private key for the server. If both `password` and `secret_key` are passed, `secret_key` will be preferred
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#secret_key ServiceCompute#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#secret_key ServiceCompute#secret_key}
   */
   readonly secretKey?: string;
   /**
   * A list of host keys for all hosts we can connect to over SFTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#ssh_known_hosts ServiceCompute#ssh_known_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#ssh_known_hosts ServiceCompute#ssh_known_hosts}
   */
   readonly sshKnownHosts: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#timestamp_format ServiceCompute#timestamp_format}
   */
   readonly timestampFormat?: string;
   /**
   * The username for the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#user ServiceCompute#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#user ServiceCompute#user}
   */
   readonly user: string;
 }
@@ -12439,55 +12439,55 @@ export interface ServiceComputeLoggingSplunk {
   /**
   * A unique name to identify the Splunk endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * A secure certificate to authenticate the server with. Must be in PEM format. You can provide this certificate via an environment variable, `FASTLY_SPLUNK_CA_CERT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_ca_cert ServiceCompute#tls_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_ca_cert ServiceCompute#tls_ca_cert}
   */
   readonly tlsCaCert?: string;
   /**
   * The client certificate used to make authenticated requests. Must be in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_client_cert ServiceCompute#tls_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_client_cert ServiceCompute#tls_client_cert}
   */
   readonly tlsClientCert?: string;
   /**
   * The client private key used to make authenticated requests. Must be in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_client_key ServiceCompute#tls_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_client_key ServiceCompute#tls_client_key}
   */
   readonly tlsClientKey?: string;
   /**
   * The hostname used to verify the server's certificate. It can either be the Common Name or a Subject Alternative Name (SAN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_hostname ServiceCompute#tls_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_hostname ServiceCompute#tls_hostname}
   */
   readonly tlsHostname?: string;
   /**
   * The Splunk token to be used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#token ServiceCompute#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#token ServiceCompute#token}
   */
   readonly token: string;
   /**
   * The Splunk URL to stream logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#url ServiceCompute#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#url ServiceCompute#url}
   */
   readonly url: string;
   /**
   * Whether to use TLS for secure logging. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#use_tls ServiceCompute#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#use_tls ServiceCompute#use_tls}
   */
   readonly useTls?: boolean | cdktf.IResolvable;
 }
@@ -12828,25 +12828,25 @@ export interface ServiceComputeLoggingSumologic {
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
   */
   readonly messageType?: string;
   /**
   * A unique name to identify this Sumologic endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The URL to Sumologic collector endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#url ServiceCompute#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#url ServiceCompute#url}
   */
   readonly url: string;
 }
@@ -13045,67 +13045,67 @@ export interface ServiceComputeLoggingSyslog {
   /**
   * A hostname or IPv4 address of the Syslog endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#address ServiceCompute#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#address ServiceCompute#address}
   */
   readonly address: string;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#message_type ServiceCompute#message_type}
   */
   readonly messageType?: string;
   /**
   * A unique name to identify this Syslog endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * The port associated with the address where the Syslog endpoint can be accessed. Default `514`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#port ServiceCompute#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#port ServiceCompute#port}
   */
   readonly port?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#processing_region ServiceCompute#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * A secure certificate to authenticate the server with. Must be in PEM format. You can provide this certificate via an environment variable, `FASTLY_SYSLOG_CA_CERT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_ca_cert ServiceCompute#tls_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_ca_cert ServiceCompute#tls_ca_cert}
   */
   readonly tlsCaCert?: string;
   /**
   * The client certificate used to make authenticated requests. Must be in PEM format. You can provide this certificate via an environment variable, `FASTLY_SYSLOG_CLIENT_CERT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_client_cert ServiceCompute#tls_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_client_cert ServiceCompute#tls_client_cert}
   */
   readonly tlsClientCert?: string;
   /**
   * The client private key used to make authenticated requests. Must be in PEM format. You can provide this key via an environment variable, `FASTLY_SYSLOG_CLIENT_KEY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_client_key ServiceCompute#tls_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_client_key ServiceCompute#tls_client_key}
   */
   readonly tlsClientKey?: string;
   /**
   * Used during the TLS handshake to validate the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#tls_hostname ServiceCompute#tls_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#tls_hostname ServiceCompute#tls_hostname}
   */
   readonly tlsHostname?: string;
   /**
   * Whether to prepend each message with a specific token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#token ServiceCompute#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#token ServiceCompute#token}
   */
   readonly token?: string;
   /**
   * Whether to use TLS for secure logging. Default `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#use_tls ServiceCompute#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#use_tls ServiceCompute#use_tls}
   */
   readonly useTls?: boolean | cdktf.IResolvable;
 }
@@ -13507,19 +13507,19 @@ export interface ServiceComputePackage {
   /**
   * The contents of the Wasm deployment package as a base64 encoded string (e.g. could be provided using an input variable or via external data source output variable). Conflicts with `filename`. Exactly one of these two arguments must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#content ServiceCompute#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#content ServiceCompute#content}
   */
   readonly content?: string;
   /**
   * The path to the Wasm deployment package within your local filesystem. Conflicts with `content`. Exactly one of these two arguments must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#filename ServiceCompute#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#filename ServiceCompute#filename}
   */
   readonly filename?: string;
   /**
   * Used to trigger updates. Must be set to a SHA512 hash of all files (in sorted order) within the package. The usual way to set this is using the fastly_package_hash data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#source_code_hash ServiceCompute#source_code_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#source_code_hash ServiceCompute#source_code_hash}
   */
   readonly sourceCodeHash?: string;
 }
@@ -13663,13 +13663,13 @@ export interface ServiceComputeProductEnablementDdosProtection {
   /**
   * Enable DDoS Protection support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#enabled ServiceCompute#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#enabled ServiceCompute#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Operation mode. Can be either `off`, `log`, or `block`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#mode ServiceCompute#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#mode ServiceCompute#mode}
   */
   readonly mode: string;
 }
@@ -13778,19 +13778,19 @@ export interface ServiceComputeProductEnablementNgwaf {
   /**
   * Enable Next-Gen WAF support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#enabled ServiceCompute#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#enabled ServiceCompute#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The percentage of traffic to inspect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#traffic_ramp ServiceCompute#traffic_ramp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#traffic_ramp ServiceCompute#traffic_ramp}
   */
   readonly trafficRamp?: number;
   /**
   * The workspace to link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#workspace_id ServiceCompute#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#workspace_id ServiceCompute#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -13928,43 +13928,43 @@ export interface ServiceComputeProductEnablement {
   /**
   * Enable API Discovery support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#api_discovery ServiceCompute#api_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#api_discovery ServiceCompute#api_discovery}
   */
   readonly apiDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Enable Fanout support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#fanout ServiceCompute#fanout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#fanout ServiceCompute#fanout}
   */
   readonly fanout?: boolean | cdktf.IResolvable;
   /**
   * Enable Log Explorer & Insights
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#log_explorer_insights ServiceCompute#log_explorer_insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#log_explorer_insights ServiceCompute#log_explorer_insights}
   */
   readonly logExplorerInsights?: boolean | cdktf.IResolvable;
   /**
   * Used by the provider to identify modified settings (changing this value will force the entire block to be deleted, then recreated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name?: string;
   /**
   * Enable WebSockets support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#websockets ServiceCompute#websockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#websockets ServiceCompute#websockets}
   */
   readonly websockets?: boolean | cdktf.IResolvable;
   /**
   * ddos_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#ddos_protection ServiceCompute#ddos_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#ddos_protection ServiceCompute#ddos_protection}
   */
   readonly ddosProtection?: ServiceComputeProductEnablementDdosProtection;
   /**
   * ngwaf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#ngwaf ServiceCompute#ngwaf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#ngwaf ServiceCompute#ngwaf}
   */
   readonly ngwaf?: ServiceComputeProductEnablementNgwaf;
 }
@@ -14224,13 +14224,13 @@ export interface ServiceComputeResourceLink {
   /**
   * The name of the resource link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#name ServiceCompute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#name ServiceCompute#name}
   */
   readonly name: string;
   /**
   * The ID of the underlying linked resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#resource_id ServiceCompute#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#resource_id ServiceCompute#resource_id}
   */
   readonly resourceId: string;
 }
@@ -14374,7 +14374,7 @@ export class ServiceComputeResourceLinkList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute fastly_service_compute}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute fastly_service_compute}
 */
 export class ServiceCompute extends cdktf.TerraformResource {
 
@@ -14390,7 +14390,7 @@ export class ServiceCompute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceCompute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceCompute to import
-  * @param importFromId The id of the existing ServiceCompute that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceCompute that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceCompute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -14402,7 +14402,7 @@ export class ServiceCompute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_compute fastly_service_compute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_compute fastly_service_compute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -14413,8 +14413,8 @@ export class ServiceCompute extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_service_compute',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface VaultSecretConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#compartment_id VaultSecret#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#compartment_id VaultSecret#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#defined_tags VaultSecret#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#defined_tags VaultSecret#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#description VaultSecret#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#description VaultSecret#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#enable_auto_generation VaultSecret#enable_auto_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#enable_auto_generation VaultSecret#enable_auto_generation}
   */
   readonly enableAutoGeneration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#freeform_tags VaultSecret#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#freeform_tags VaultSecret#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#id VaultSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#id VaultSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#key_id VaultSecret#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#key_id VaultSecret#key_id}
   */
   readonly keyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#metadata VaultSecret#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#metadata VaultSecret#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#secret_name VaultSecret#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#secret_name VaultSecret#secret_name}
   */
   readonly secretName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#vault_id VaultSecret#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#vault_id VaultSecret#vault_id}
   */
   readonly vaultId: string;
   /**
   * replication_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#replication_config VaultSecret#replication_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#replication_config VaultSecret#replication_config}
   */
   readonly replicationConfig?: VaultSecretReplicationConfig;
   /**
   * rotation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#rotation_config VaultSecret#rotation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#rotation_config VaultSecret#rotation_config}
   */
   readonly rotationConfig?: VaultSecretRotationConfig;
   /**
   * secret_content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#secret_content VaultSecret#secret_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#secret_content VaultSecret#secret_content}
   */
   readonly secretContent?: VaultSecretSecretContent;
   /**
   * secret_generation_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#secret_generation_context VaultSecret#secret_generation_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#secret_generation_context VaultSecret#secret_generation_context}
   */
   readonly secretGenerationContext?: VaultSecretSecretGenerationContext;
   /**
   * secret_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#secret_rules VaultSecret#secret_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#secret_rules VaultSecret#secret_rules}
   */
   readonly secretRules?: VaultSecretSecretRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#timeouts VaultSecret#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#timeouts VaultSecret#timeouts}
   */
   readonly timeouts?: VaultSecretTimeouts;
 }
@@ -174,15 +174,15 @@ export class VaultSecretSourceRegionInformationList extends cdktf.ComplexList {
 }
 export interface VaultSecretReplicationConfigReplicationTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#target_key_id VaultSecret#target_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#target_key_id VaultSecret#target_key_id}
   */
   readonly targetKeyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#target_region VaultSecret#target_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#target_region VaultSecret#target_region}
   */
   readonly targetRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#target_vault_id VaultSecret#target_vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#target_vault_id VaultSecret#target_vault_id}
   */
   readonly targetVaultId: string;
 }
@@ -347,13 +347,13 @@ export class VaultSecretReplicationConfigReplicationTargetsList extends cdktf.Co
 }
 export interface VaultSecretReplicationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#is_write_forward_enabled VaultSecret#is_write_forward_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#is_write_forward_enabled VaultSecret#is_write_forward_enabled}
   */
   readonly isWriteForwardEnabled?: boolean | cdktf.IResolvable;
   /**
   * replication_targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#replication_targets VaultSecret#replication_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#replication_targets VaultSecret#replication_targets}
   */
   readonly replicationTargets: VaultSecretReplicationConfigReplicationTargets[] | cdktf.IResolvable;
 }
@@ -463,15 +463,15 @@ export class VaultSecretReplicationConfigOutputReference extends cdktf.ComplexOb
 }
 export interface VaultSecretRotationConfigTargetSystemDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#adb_id VaultSecret#adb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#adb_id VaultSecret#adb_id}
   */
   readonly adbId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#function_id VaultSecret#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#function_id VaultSecret#function_id}
   */
   readonly functionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#target_system_type VaultSecret#target_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#target_system_type VaultSecret#target_system_type}
   */
   readonly targetSystemType: string;
 }
@@ -610,17 +610,17 @@ export class VaultSecretRotationConfigTargetSystemDetailsOutputReference extends
 }
 export interface VaultSecretRotationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#is_scheduled_rotation_enabled VaultSecret#is_scheduled_rotation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#is_scheduled_rotation_enabled VaultSecret#is_scheduled_rotation_enabled}
   */
   readonly isScheduledRotationEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#rotation_interval VaultSecret#rotation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#rotation_interval VaultSecret#rotation_interval}
   */
   readonly rotationInterval?: string;
   /**
   * target_system_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#target_system_details VaultSecret#target_system_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#target_system_details VaultSecret#target_system_details}
   */
   readonly targetSystemDetails: VaultSecretRotationConfigTargetSystemDetails;
 }
@@ -759,19 +759,19 @@ export class VaultSecretRotationConfigOutputReference extends cdktf.ComplexObjec
 }
 export interface VaultSecretSecretContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#content VaultSecret#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#content VaultSecret#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#content_type VaultSecret#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#content_type VaultSecret#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#name VaultSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#name VaultSecret#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#stage VaultSecret#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#stage VaultSecret#stage}
   */
   readonly stage?: string;
 }
@@ -939,19 +939,19 @@ export class VaultSecretSecretContentOutputReference extends cdktf.ComplexObject
 }
 export interface VaultSecretSecretGenerationContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#generation_template VaultSecret#generation_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#generation_template VaultSecret#generation_template}
   */
   readonly generationTemplate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#generation_type VaultSecret#generation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#generation_type VaultSecret#generation_type}
   */
   readonly generationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#passphrase_length VaultSecret#passphrase_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#passphrase_length VaultSecret#passphrase_length}
   */
   readonly passphraseLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#secret_template VaultSecret#secret_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#secret_template VaultSecret#secret_template}
   */
   readonly secretTemplate?: string;
 }
@@ -1116,23 +1116,23 @@ export class VaultSecretSecretGenerationContextOutputReference extends cdktf.Com
 }
 export interface VaultSecretSecretRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#is_enforced_on_deleted_secret_versions VaultSecret#is_enforced_on_deleted_secret_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#is_enforced_on_deleted_secret_versions VaultSecret#is_enforced_on_deleted_secret_versions}
   */
   readonly isEnforcedOnDeletedSecretVersions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#is_secret_content_retrieval_blocked_on_expiry VaultSecret#is_secret_content_retrieval_blocked_on_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#is_secret_content_retrieval_blocked_on_expiry VaultSecret#is_secret_content_retrieval_blocked_on_expiry}
   */
   readonly isSecretContentRetrievalBlockedOnExpiry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#rule_type VaultSecret#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#rule_type VaultSecret#rule_type}
   */
   readonly ruleType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#secret_version_expiry_interval VaultSecret#secret_version_expiry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#secret_version_expiry_interval VaultSecret#secret_version_expiry_interval}
   */
   readonly secretVersionExpiryInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#time_of_absolute_expiry VaultSecret#time_of_absolute_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#time_of_absolute_expiry VaultSecret#time_of_absolute_expiry}
   */
   readonly timeOfAbsoluteExpiry?: string;
 }
@@ -1361,15 +1361,15 @@ export class VaultSecretSecretRulesList extends cdktf.ComplexList {
 }
 export interface VaultSecretTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#create VaultSecret#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#create VaultSecret#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#delete VaultSecret#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#delete VaultSecret#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#update VaultSecret#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#update VaultSecret#update}
   */
   readonly update?: string;
 }
@@ -1521,7 +1521,7 @@ export class VaultSecretTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret oci_vault_secret}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret oci_vault_secret}
 */
 export class VaultSecret extends cdktf.TerraformResource {
 
@@ -1537,7 +1537,7 @@ export class VaultSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VaultSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VaultSecret to import
-  * @param importFromId The id of the existing VaultSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VaultSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VaultSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1549,7 +1549,7 @@ export class VaultSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/vault_secret oci_vault_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/vault_secret oci_vault_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1560,8 +1560,8 @@ export class VaultSecret extends cdktf.TerraformResource {
       terraformResourceType: 'oci_vault_secret',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

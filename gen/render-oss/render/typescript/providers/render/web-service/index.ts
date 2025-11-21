@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,133 @@ export interface WebServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * [Autoscaling settings](https://render.com/docs/scaling#autoscaling) for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#autoscaling WebService#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#autoscaling WebService#autoscaling}
   */
   readonly autoscaling?: WebServiceAutoscaling;
   /**
   * Custom domains to associate with the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#custom_domains WebService#custom_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#custom_domains WebService#custom_domains}
   */
   readonly customDomains?: WebServiceCustomDomains[] | cdktf.IResolvable;
   /**
   * [Persistent disk](https://render.com/docs/disks) to attach to the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#disk WebService#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#disk WebService#disk}
   */
   readonly disk?: WebServiceDisk;
   /**
   * Map of environment variable names to their values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#env_vars WebService#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#env_vars WebService#env_vars}
   */
   readonly envVars?: { [key: string]: WebServiceEnvVars } | cdktf.IResolvable;
   /**
   * ID of the [project environment](https://render.com/docs/projects) that the resource belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#environment_id WebService#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#environment_id WebService#environment_id}
   */
   readonly environmentId?: string;
   /**
   * If you're running a server, enter the path where your server will always return a 200 OK response. We use it to monitor your app and for [zero downtime deploys](https://render.com/docs/deploys#zero-downtime-deploys).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#health_check_path WebService#health_check_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#health_check_path WebService#health_check_path}
   */
   readonly healthCheckPath?: string;
   /**
+  * List of IP addresses that are allowed to connect to the web service. If omitted, the API default (0.0.0.0/0 - allow all) is used. If set to an empty list, all traffic is blocked. If removed after being set, it reverts to the default (0.0.0.0/0). This is an enterprise-only feature.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#ip_allow_list WebService#ip_allow_list}
+  */
+  readonly ipAllowList?: WebServiceIpAllowListStruct[] | cdktf.IResolvable;
+  /**
   * Configure the [log stream override settings](https://render.com/docs/log-streams#overriding-defaults) for this service. These will override the global log stream settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#log_stream_override WebService#log_stream_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#log_stream_override WebService#log_stream_override}
   */
   readonly logStreamOverride?: WebServiceLogStreamOverride;
   /**
   * Maintenance mode settings for the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#maintenance_mode WebService#maintenance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#maintenance_mode WebService#maintenance_mode}
   */
   readonly maintenanceMode?: WebServiceMaintenanceMode;
   /**
   * The maximum amount of time (in seconds) that Render waits for your application process to exit gracefully after sending it a SIGTERM signal before sending a SIGKILL signal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#max_shutdown_delay_seconds WebService#max_shutdown_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#max_shutdown_delay_seconds WebService#max_shutdown_delay_seconds}
   */
   readonly maxShutdownDelaySeconds?: number;
   /**
   * Name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#name WebService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#name WebService#name}
   */
   readonly name: string;
   /**
   * Configure the [notification settings](https://render.com/docs/notifications) for this service. These will override the global notification settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#notification_override WebService#notification_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#notification_override WebService#notification_override}
   */
   readonly notificationOverride?: WebServiceNotificationOverride;
   /**
   * Number of replicas of the service to run. Defaults to 1 on service creation and current instance count on update. If you want to manage the service's instance count outside Terraform, leave num_instances unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#num_instances WebService#num_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#num_instances WebService#num_instances}
   */
   readonly numInstances?: number;
   /**
   * Plan to use for the service. Must be one of `starter`, `standard`, `pro`, `pro_plus`, `pro_max`, `pro_ultra`, or a custom plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#plan WebService#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#plan WebService#plan}
   */
   readonly plan: string;
   /**
   * This command runs before starting your service. It is typically used for tasks like running a database migration or uploading assets to a CDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#pre_deploy_command WebService#pre_deploy_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#pre_deploy_command WebService#pre_deploy_command}
   */
   readonly preDeployCommand?: string;
   /**
   * [Pull request previews](https://render.com/docs/pull-request-previews#pull-request-previews-git-backed) settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#previews WebService#previews}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#previews WebService#previews}
   */
   readonly previews?: WebServicePreviews;
   /**
   * Enable [pull request previews](https://render.com/docs/pull-request-previews#pull-request-previews-git-backed) for the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#pull_request_previews_enabled WebService#pull_request_previews_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#pull_request_previews_enabled WebService#pull_request_previews_enabled}
   */
   readonly pullRequestPreviewsEnabled?: boolean | cdktf.IResolvable;
   /**
   * [Region](https://render.com/docs/regions) to deploy the service. One of `frankfurt`, `ohio`, `oregon`, `singapore`, `virginia`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#region WebService#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#region WebService#region}
   */
   readonly region: string;
   /**
   * When you specify a [root directory](https://render.com/docs/monorepo-support#root-directory), Render runs all your commands in the specified directory and ignores changes outside the directory. Defaults to the repository root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#root_directory WebService#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#root_directory WebService#root_directory}
   */
   readonly rootDirectory?: string;
   /**
   * Source of the build artifacts or image that run your service. You must provide one of [native_runtime](https://render.com/docs/native-runtimes), [docker](https://render.com/docs/docker), or [image](https://render.com/docs/deploy-an-image).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#runtime_source WebService#runtime_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#runtime_source WebService#runtime_source}
   */
   readonly runtimeSource: WebServiceRuntimeSource;
   /**
   * A map of secret file paths to their contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#secret_files WebService#secret_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#secret_files WebService#secret_files}
   */
   readonly secretFiles?: { [key: string]: WebServiceSecretFiles } | cdktf.IResolvable;
   /**
   * Command to run the service. When using native runtimes, this will be used as the start command and is required. For [Docker](https://render.com/docs/docker) and [image-backed](https://render.com/docs/deploy-an-image) services, this will override the default Docker command for the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#start_command WebService#start_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#start_command WebService#start_command}
   */
   readonly startCommand?: string;
 }
@@ -233,13 +239,13 @@ export interface WebServiceAutoscalingCriteriaCpu {
   /**
   * Whether CPU-based autoscaling is enabled for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#enabled WebService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#enabled WebService#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Determines when your service will be scaled. If the average resource utilization is significantly above/below the target, we will increase/decrease the number of instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#percentage WebService#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#percentage WebService#percentage}
   */
   readonly percentage: number;
 }
@@ -358,13 +364,13 @@ export interface WebServiceAutoscalingCriteriaMemory {
   /**
   * Whether memory-based autoscaling is enabled for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#enabled WebService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#enabled WebService#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Determines when your service will be scaled. If the average resource utilization is significantly above/below the target, we will increase/decrease the number of instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#percentage WebService#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#percentage WebService#percentage}
   */
   readonly percentage: number;
 }
@@ -481,11 +487,11 @@ export class WebServiceAutoscalingCriteriaMemoryOutputReference extends cdktf.Co
 }
 export interface WebServiceAutoscalingCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#cpu WebService#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#cpu WebService#cpu}
   */
   readonly cpu?: WebServiceAutoscalingCriteriaCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#memory WebService#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#memory WebService#memory}
   */
   readonly memory?: WebServiceAutoscalingCriteriaMemory;
 }
@@ -608,25 +614,25 @@ export class WebServiceAutoscalingCriteriaOutputReference extends cdktf.ComplexO
 }
 export interface WebServiceAutoscaling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#criteria WebService#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#criteria WebService#criteria}
   */
   readonly criteria: WebServiceAutoscalingCriteria;
   /**
   * Whether autoscaling is enabled for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#enabled WebService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#enabled WebService#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The maximum number of instances for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#max WebService#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#max WebService#max}
   */
   readonly max: number;
   /**
   * The minimum number of instances for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#min WebService#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#min WebService#min}
   */
   readonly min: number;
 }
@@ -797,7 +803,7 @@ export interface WebServiceCustomDomains {
   /**
   * DNS record of the custom domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#name WebService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#name WebService#name}
   */
   readonly name: string;
 }
@@ -932,19 +938,19 @@ export interface WebServiceDisk {
   /**
   * Absolute path to mount the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#mount_path WebService#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#mount_path WebService#mount_path}
   */
   readonly mountPath: string;
   /**
   * Name of the disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#name WebService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#name WebService#name}
   */
   readonly name: string;
   /**
   * Size of the disk in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#size_gb WebService#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#size_gb WebService#size_gb}
   */
   readonly sizeGb: number;
 }
@@ -1094,11 +1100,11 @@ export interface WebServiceEnvVars {
   /**
   * If true, Render will generate the variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#generate_value WebService#generate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#generate_value WebService#generate_value}
   */
   readonly generateValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#value WebService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#value WebService#value}
   */
   readonly value?: string;
 }
@@ -1239,23 +1245,170 @@ export class WebServiceEnvVarsMap extends cdktf.ComplexMap {
     return new WebServiceEnvVarsOutputReference(this.terraformResource, this.terraformAttribute, key);
   }
 }
+export interface WebServiceIpAllowListStruct {
+  /**
+  * CIDR block that is allowed to connect to the Redis instance. (0.0.0.0/0 to allow traffic from all IPs) 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#cidr_block WebService#cidr_block}
+  */
+  readonly cidrBlock: string;
+  /**
+  * Description of the IP address or range. This is used to help identify the IP address or range in the list.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#description WebService#description}
+  */
+  readonly description: string;
+}
+
+export function webServiceIpAllowListStructToTerraform(struct?: WebServiceIpAllowListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cidr_block: cdktf.stringToTerraform(struct!.cidrBlock),
+    description: cdktf.stringToTerraform(struct!.description),
+  }
+}
+
+
+export function webServiceIpAllowListStructToHclTerraform(struct?: WebServiceIpAllowListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cidr_block: {
+      value: cdktf.stringToHclTerraform(struct!.cidrBlock),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class WebServiceIpAllowListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): WebServiceIpAllowListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cidrBlock !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cidrBlock = this._cidrBlock;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: WebServiceIpAllowListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cidrBlock = undefined;
+      this._description = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cidrBlock = value.cidrBlock;
+      this._description = value.description;
+    }
+  }
+
+  // cidr_block - computed: false, optional: false, required: true
+  private _cidrBlock?: string; 
+  public get cidrBlock() {
+    return this.getStringAttribute('cidr_block');
+  }
+  public set cidrBlock(value: string) {
+    this._cidrBlock = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cidrBlockInput() {
+    return this._cidrBlock;
+  }
+
+  // description - computed: false, optional: false, required: true
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+}
+
+export class WebServiceIpAllowListStructList extends cdktf.ComplexList {
+  public internalValue? : WebServiceIpAllowListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): WebServiceIpAllowListStructOutputReference {
+    return new WebServiceIpAllowListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface WebServiceLogStreamOverride {
   /**
   * The endpoint to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#endpoint WebService#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#endpoint WebService#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to send or drop logs for this service. Must be one of `send` or `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#setting WebService#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#setting WebService#setting}
   */
   readonly setting: string;
   /**
   * The token to use when sending logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#token WebService#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#token WebService#token}
   */
   readonly token?: string;
 }
@@ -1406,13 +1559,13 @@ export interface WebServiceMaintenanceMode {
   /**
   * Whether maintenance mode is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#enabled WebService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#enabled WebService#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * URI to redirect to when maintenance mode is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#uri WebService#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#uri WebService#uri}
   */
   readonly uri?: string;
 }
@@ -1537,13 +1690,13 @@ export interface WebServiceNotificationOverride {
   /**
   * The types of notifications to send. Must be one of `default`, `all`, `failure`, or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#notifications_to_send WebService#notifications_to_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#notifications_to_send WebService#notifications_to_send}
   */
   readonly notificationsToSend?: string;
   /**
   * Whether notifications for previews of this service are sent. Must be one of `all`, `failure`, or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#preview_notifications_enabled WebService#preview_notifications_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#preview_notifications_enabled WebService#preview_notifications_enabled}
   */
   readonly previewNotificationsEnabled?: string;
 }
@@ -1668,7 +1821,7 @@ export interface WebServicePreviews {
   /**
   * Generation mode for [pull request previews](https://render.com/docs/pull-request-previews#pull-request-previews-git-backed). One of `off`, `manual`, or `automatic`. Defaults to `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#generation WebService#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#generation WebService#generation}
   */
   readonly generation?: string;
 }
@@ -1764,13 +1917,13 @@ export interface WebServiceRuntimeSourceDockerBuildFilter {
   /**
   * Changes that match these paths will not trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#ignored_paths WebService#ignored_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#ignored_paths WebService#ignored_paths}
   */
   readonly ignoredPaths?: string[];
   /**
   * Changes that match these paths will trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#paths WebService#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#paths WebService#paths}
   */
   readonly paths?: string[];
 }
@@ -1895,49 +2048,49 @@ export interface WebServiceRuntimeSourceDocker {
   /**
   * [Automatic deploy](https://render.com/docs/deploys#automatic-git-deploys) on every push to your repository, or changes to your service settings or environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#auto_deploy WebService#auto_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#auto_deploy WebService#auto_deploy}
   */
   readonly autoDeploy?: boolean | cdktf.IResolvable;
   /**
   * Sets the Automatic deploy behavior for a Git-based service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#auto_deploy_trigger WebService#auto_deploy_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#auto_deploy_trigger WebService#auto_deploy_trigger}
   */
   readonly autoDeployTrigger?: string;
   /**
   * Branch of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#branch WebService#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#branch WebService#branch}
   */
   readonly branch: string;
   /**
   * Apply [build filters](https://render.com/docs/monorepo-support#build-filters) to configure which changes in your git repository trigger automatic deploys. If you've defined a root directory, you can still define paths outside of the root directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#build_filter WebService#build_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#build_filter WebService#build_filter}
   */
   readonly buildFilter?: WebServiceRuntimeSourceDockerBuildFilter;
   /**
   * [Docker build context directory.](https://docs.docker.com/reference/dockerfile/#usage) This is relative to your repository root. Defaults to the root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#context WebService#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#context WebService#context}
   */
   readonly context?: string;
   /**
   * Path to your Dockerfile relative to the repository root. This is not relative to your Docker build context. Example: `./subdir/Dockerfile.`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#dockerfile_path WebService#dockerfile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#dockerfile_path WebService#dockerfile_path}
   */
   readonly dockerfilePath?: string;
   /**
   * ID of the registry credential to use when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#registry_credential_id WebService#registry_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#registry_credential_id WebService#registry_credential_id}
   */
   readonly registryCredentialId?: string;
   /**
   * URL of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#repo_url WebService#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#repo_url WebService#repo_url}
   */
   readonly repoUrl: string;
 }
@@ -2230,25 +2383,25 @@ export interface WebServiceRuntimeSourceImage {
   /**
   * Digest of the Docker image to deploy. Mutually exclusive with tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#digest WebService#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#digest WebService#digest}
   */
   readonly digest?: string;
   /**
   * URL of the Docker image to deploy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#image_url WebService#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#image_url WebService#image_url}
   */
   readonly imageUrl: string;
   /**
   * ID of the registry credential to use when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#registry_credential_id WebService#registry_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#registry_credential_id WebService#registry_credential_id}
   */
   readonly registryCredentialId?: string;
   /**
   * Tag of the Docker image to deploy. Mutually exclusive with digest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#tag WebService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#tag WebService#tag}
   */
   readonly tag?: string;
 }
@@ -2428,13 +2581,13 @@ export interface WebServiceRuntimeSourceNativeRuntimeBuildFilter {
   /**
   * Changes that match these paths will not trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#ignored_paths WebService#ignored_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#ignored_paths WebService#ignored_paths}
   */
   readonly ignoredPaths?: string[];
   /**
   * Changes that match these paths will trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#paths WebService#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#paths WebService#paths}
   */
   readonly paths?: string[];
 }
@@ -2559,43 +2712,43 @@ export interface WebServiceRuntimeSourceNativeRuntime {
   /**
   * [Automatic deploy](https://render.com/docs/deploys#automatic-git-deploys) on every push to your repository, or changes to your service settings or environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#auto_deploy WebService#auto_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#auto_deploy WebService#auto_deploy}
   */
   readonly autoDeploy?: boolean | cdktf.IResolvable;
   /**
   * Sets the Automatic deploy behavior for a Git-based service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#auto_deploy_trigger WebService#auto_deploy_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#auto_deploy_trigger WebService#auto_deploy_trigger}
   */
   readonly autoDeployTrigger?: string;
   /**
   * Branch of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#branch WebService#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#branch WebService#branch}
   */
   readonly branch: string;
   /**
   * Command to build the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#build_command WebService#build_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#build_command WebService#build_command}
   */
   readonly buildCommand: string;
   /**
   * Apply [build filters](https://render.com/docs/monorepo-support#build-filters) to configure which changes in your git repository trigger automatic deploys. If you've defined a root directory, you can still define paths outside of the root directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#build_filter WebService#build_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#build_filter WebService#build_filter}
   */
   readonly buildFilter?: WebServiceRuntimeSourceNativeRuntimeBuildFilter;
   /**
   * URL of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#repo_url WebService#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#repo_url WebService#repo_url}
   */
   readonly repoUrl: string;
   /**
   * Runtime of the service to use. Must be one of `elixir`, `go`, `node`, `python`, `ruby`, `rust`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#runtime WebService#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#runtime WebService#runtime}
   */
   readonly runtime: string;
 }
@@ -2853,19 +3006,19 @@ export interface WebServiceRuntimeSource {
   /**
   * Details for building and deploying a service [using a Dockerfile](https://render.com/docs/docker).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#docker WebService#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#docker WebService#docker}
   */
   readonly docker?: WebServiceRuntimeSourceDocker;
   /**
   * Details for deploying a service using a [Docker image from a registry](https://render.com/docs/deploy-an-image).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#image WebService#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#image WebService#image}
   */
   readonly image?: WebServiceRuntimeSourceImage;
   /**
   * Details for building and deploying a service using one of Render's [native runtimes](https://render.com/docs/native-runtimes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#native_runtime WebService#native_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#native_runtime WebService#native_runtime}
   */
   readonly nativeRuntime?: WebServiceRuntimeSourceNativeRuntime;
 }
@@ -3019,7 +3172,7 @@ export interface WebServiceSecretFiles {
   /**
   * The content of the secret file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#content WebService#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#content WebService#content}
   */
   readonly content: string;
 }
@@ -3130,7 +3283,7 @@ export class WebServiceSecretFilesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service render_web_service}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service render_web_service}
 */
 export class WebService extends cdktf.TerraformResource {
 
@@ -3146,7 +3299,7 @@ export class WebService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebService to import
-  * @param importFromId The id of the existing WebService that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebService that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3158,7 +3311,7 @@ export class WebService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/web_service render_web_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/web_service render_web_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3169,8 +3322,8 @@ export class WebService extends cdktf.TerraformResource {
       terraformResourceType: 'render_web_service',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3186,6 +3339,7 @@ export class WebService extends cdktf.TerraformResource {
     this._envVars.internalValue = config.envVars;
     this._environmentId = config.environmentId;
     this._healthCheckPath = config.healthCheckPath;
+    this._ipAllowList.internalValue = config.ipAllowList;
     this._logStreamOverride.internalValue = config.logStreamOverride;
     this._maintenanceMode.internalValue = config.maintenanceMode;
     this._maxShutdownDelaySeconds = config.maxShutdownDelaySeconds;
@@ -3312,6 +3466,22 @@ export class WebService extends cdktf.TerraformResource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // ip_allow_list - computed: false, optional: true, required: false
+  private _ipAllowList = new WebServiceIpAllowListStructList(this, "ip_allow_list", true);
+  public get ipAllowList() {
+    return this._ipAllowList;
+  }
+  public putIpAllowList(value: WebServiceIpAllowListStruct[] | cdktf.IResolvable) {
+    this._ipAllowList.internalValue = value;
+  }
+  public resetIpAllowList() {
+    this._ipAllowList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAllowListInput() {
+    return this._ipAllowList.internalValue;
   }
 
   // log_stream_override - computed: true, optional: true, required: false
@@ -3564,6 +3734,7 @@ export class WebService extends cdktf.TerraformResource {
       env_vars: cdktf.hashMapper(webServiceEnvVarsToTerraform)(this._envVars.internalValue),
       environment_id: cdktf.stringToTerraform(this._environmentId),
       health_check_path: cdktf.stringToTerraform(this._healthCheckPath),
+      ip_allow_list: cdktf.listMapper(webServiceIpAllowListStructToTerraform, false)(this._ipAllowList.internalValue),
       log_stream_override: webServiceLogStreamOverrideToTerraform(this._logStreamOverride.internalValue),
       maintenance_mode: webServiceMaintenanceModeToTerraform(this._maintenanceMode.internalValue),
       max_shutdown_delay_seconds: cdktf.numberToTerraform(this._maxShutdownDelaySeconds),
@@ -3619,6 +3790,12 @@ export class WebService extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      ip_allow_list: {
+        value: cdktf.listMapperHcl(webServiceIpAllowListStructToHclTerraform, false)(this._ipAllowList.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "WebServiceIpAllowListStructList",
       },
       log_stream_override: {
         value: webServiceLogStreamOverrideToHclTerraform(this._logStreamOverride.internalValue),

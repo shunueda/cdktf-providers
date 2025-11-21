@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/cron_job
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/cron_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataRenderCronJobConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/cron_job#id DataRenderCronJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/cron_job#id DataRenderCronJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataRenderCronJobConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure the [log stream override settings](https://render.com/docs/log-streams#overriding-defaults) for this service. These will override the global log stream settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/cron_job#log_stream_override DataRenderCronJob#log_stream_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/cron_job#log_stream_override DataRenderCronJob#log_stream_override}
   */
   readonly logStreamOverride?: DataRenderCronJobLogStreamOverride;
 }
@@ -105,19 +105,19 @@ export interface DataRenderCronJobLogStreamOverride {
   /**
   * The endpoint to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/cron_job#endpoint DataRenderCronJob#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/cron_job#endpoint DataRenderCronJob#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to send or drop logs for this service. Must be one of `send` or `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/cron_job#setting DataRenderCronJob#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/cron_job#setting DataRenderCronJob#setting}
   */
   readonly setting: string;
   /**
   * The token to use when sending logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/cron_job#token DataRenderCronJob#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/cron_job#token DataRenderCronJob#token}
   */
   readonly token?: string;
 }
@@ -476,13 +476,13 @@ export interface DataRenderCronJobRuntimeSourceImage {
   /**
   * Digest of the Docker image to deploy. Mutually exclusive with tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/cron_job#digest DataRenderCronJob#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/cron_job#digest DataRenderCronJob#digest}
   */
   readonly digest?: string;
   /**
   * Tag of the Docker image to deploy. Mutually exclusive with digest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/cron_job#tag DataRenderCronJob#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/cron_job#tag DataRenderCronJob#tag}
   */
   readonly tag?: string;
 }
@@ -889,7 +889,7 @@ export class DataRenderCronJobSecretFilesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/cron_job render_cron_job}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/cron_job render_cron_job}
 */
 export class DataRenderCronJob extends cdktf.TerraformDataSource {
 
@@ -905,7 +905,7 @@ export class DataRenderCronJob extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRenderCronJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRenderCronJob to import
-  * @param importFromId The id of the existing DataRenderCronJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/cron_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRenderCronJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/cron_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRenderCronJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -917,7 +917,7 @@ export class DataRenderCronJob extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/cron_job render_cron_job} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/cron_job render_cron_job} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -928,8 +928,8 @@ export class DataRenderCronJob extends cdktf.TerraformDataSource {
       terraformResourceType: 'render_cron_job',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

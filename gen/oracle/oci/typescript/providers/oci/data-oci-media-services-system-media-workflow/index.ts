@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_system_media_workflow
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_system_media_workflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMediaServicesSystemMediaWorkflowConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_system_media_workflow#compartment_id DataOciMediaServicesSystemMediaWorkflow#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_system_media_workflow#compartment_id DataOciMediaServicesSystemMediaWorkflow#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_system_media_workflow#id DataOciMediaServicesSystemMediaWorkflow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_system_media_workflow#id DataOciMediaServicesSystemMediaWorkflow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_system_media_workflow#name DataOciMediaServicesSystemMediaWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_system_media_workflow#name DataOciMediaServicesSystemMediaWorkflow#name}
   */
   readonly name?: string;
 }
@@ -222,7 +222,7 @@ export class DataOciMediaServicesSystemMediaWorkflowItemsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_system_media_workflow oci_media_services_system_media_workflow}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_system_media_workflow oci_media_services_system_media_workflow}
 */
 export class DataOciMediaServicesSystemMediaWorkflow extends cdktf.TerraformDataSource {
 
@@ -238,7 +238,7 @@ export class DataOciMediaServicesSystemMediaWorkflow extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataOciMediaServicesSystemMediaWorkflow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMediaServicesSystemMediaWorkflow to import
-  * @param importFromId The id of the existing DataOciMediaServicesSystemMediaWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_system_media_workflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMediaServicesSystemMediaWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_system_media_workflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMediaServicesSystemMediaWorkflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -250,7 +250,7 @@ export class DataOciMediaServicesSystemMediaWorkflow extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_system_media_workflow oci_media_services_system_media_workflow} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_system_media_workflow oci_media_services_system_media_workflow} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,8 +261,8 @@ export class DataOciMediaServicesSystemMediaWorkflow extends cdktf.TerraformData
       terraformResourceType: 'oci_media_services_system_media_workflow',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

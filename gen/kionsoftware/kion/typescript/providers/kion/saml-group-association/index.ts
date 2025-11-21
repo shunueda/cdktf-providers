@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/saml_group_association
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/saml_group_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface SamlGroupAssociationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/saml_group_association#assertion_name SamlGroupAssociation#assertion_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/saml_group_association#assertion_name SamlGroupAssociation#assertion_name}
   */
   readonly assertionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/saml_group_association#assertion_regex SamlGroupAssociation#assertion_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/saml_group_association#assertion_regex SamlGroupAssociation#assertion_regex}
   */
   readonly assertionRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/saml_group_association#id SamlGroupAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/saml_group_association#id SamlGroupAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/saml_group_association#idms_id SamlGroupAssociation#idms_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/saml_group_association#idms_id SamlGroupAssociation#idms_id}
   */
   readonly idmsId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/saml_group_association#last_updated SamlGroupAssociation#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/saml_group_association#last_updated SamlGroupAssociation#last_updated}
   */
   readonly lastUpdated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/saml_group_association#update_on_login SamlGroupAssociation#update_on_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/saml_group_association#update_on_login SamlGroupAssociation#update_on_login}
   */
   readonly updateOnLogin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/saml_group_association#user_group_id SamlGroupAssociation#user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/saml_group_association#user_group_id SamlGroupAssociation#user_group_id}
   */
   readonly userGroupId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/saml_group_association kion_saml_group_association}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/saml_group_association kion_saml_group_association}
 */
 export class SamlGroupAssociation extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class SamlGroupAssociation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SamlGroupAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SamlGroupAssociation to import
-  * @param importFromId The id of the existing SamlGroupAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/saml_group_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SamlGroupAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/saml_group_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SamlGroupAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class SamlGroupAssociation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/saml_group_association kion_saml_group_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/saml_group_association kion_saml_group_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class SamlGroupAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'kion_saml_group_association',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

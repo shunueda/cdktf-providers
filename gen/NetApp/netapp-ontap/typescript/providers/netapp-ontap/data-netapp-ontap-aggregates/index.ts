@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/aggregates
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/aggregates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapAggregatesConfig extends cdktf.TerraformMetaArgu
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/aggregates#cx_profile_name DataNetappOntapAggregates#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/aggregates#cx_profile_name DataNetappOntapAggregates#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/aggregates#filter DataNetappOntapAggregates#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/aggregates#filter DataNetappOntapAggregates#filter}
   */
   readonly filter?: DataNetappOntapAggregatesFilter;
 }
@@ -22,13 +22,13 @@ export interface DataNetappOntapAggregatesFilter {
   /**
   * StorageAggregate name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/aggregates#name DataNetappOntapAggregates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/aggregates#name DataNetappOntapAggregates#name}
   */
   readonly name?: string;
   /**
   * StorageAggregate svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/aggregates#svm_name DataNetappOntapAggregates#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/aggregates#svm_name DataNetappOntapAggregates#svm_name}
   */
   readonly svmName?: string;
 }
@@ -262,13 +262,13 @@ export interface DataNetappOntapAggregatesStorageAggregates {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/aggregates#cx_profile_name DataNetappOntapAggregates#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/aggregates#cx_profile_name DataNetappOntapAggregates#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * StorageAggregate name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/aggregates#name DataNetappOntapAggregates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/aggregates#name DataNetappOntapAggregates#name}
   */
   readonly name: string;
 }
@@ -453,7 +453,7 @@ export class DataNetappOntapAggregatesStorageAggregatesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/aggregates netapp-ontap_aggregates}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/aggregates netapp-ontap_aggregates}
 */
 export class DataNetappOntapAggregates extends cdktf.TerraformDataSource {
 
@@ -469,7 +469,7 @@ export class DataNetappOntapAggregates extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapAggregates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapAggregates to import
-  * @param importFromId The id of the existing DataNetappOntapAggregates that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/aggregates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapAggregates that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/aggregates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapAggregates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -481,7 +481,7 @@ export class DataNetappOntapAggregates extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/aggregates netapp-ontap_aggregates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/aggregates netapp-ontap_aggregates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -492,8 +492,8 @@ export class DataNetappOntapAggregates extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_aggregates',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

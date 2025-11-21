@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_alert_webhook_integration
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_webhook_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NgwafAlertWebhookIntegrationConfig extends cdktf.TerraformMetaA
   /**
   * The description of the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_alert_webhook_integration#description NgwafAlertWebhookIntegration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_webhook_integration#description NgwafAlertWebhookIntegration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_alert_webhook_integration#id NgwafAlertWebhookIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_webhook_integration#id NgwafAlertWebhookIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface NgwafAlertWebhookIntegrationConfig extends cdktf.TerraformMetaA
   /**
   * The webhook URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_alert_webhook_integration#webhook NgwafAlertWebhookIntegration#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_webhook_integration#webhook NgwafAlertWebhookIntegration#webhook}
   */
   readonly webhook: string;
   /**
   * The ID of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_alert_webhook_integration#workspace_id NgwafAlertWebhookIntegration#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_webhook_integration#workspace_id NgwafAlertWebhookIntegration#workspace_id}
   */
   readonly workspaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_alert_webhook_integration fastly_ngwaf_alert_webhook_integration}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_webhook_integration fastly_ngwaf_alert_webhook_integration}
 */
 export class NgwafAlertWebhookIntegration extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class NgwafAlertWebhookIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NgwafAlertWebhookIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NgwafAlertWebhookIntegration to import
-  * @param importFromId The id of the existing NgwafAlertWebhookIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_alert_webhook_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NgwafAlertWebhookIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_webhook_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NgwafAlertWebhookIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class NgwafAlertWebhookIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_alert_webhook_integration fastly_ngwaf_alert_webhook_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_webhook_integration fastly_ngwaf_alert_webhook_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class NgwafAlertWebhookIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_alert_webhook_integration',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

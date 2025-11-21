@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/subscription_alert
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/subscription_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataZiaSubscriptionAlertConfig extends cdktf.TerraformMetaArgum
   /**
   * The email address of the alert recipient
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/subscription_alert#email DataZiaSubscriptionAlert#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/subscription_alert#email DataZiaSubscriptionAlert#email}
   */
   readonly email?: string;
   /**
   * System-generated identifier for the alert subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/subscription_alert#id DataZiaSubscriptionAlert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/subscription_alert#id DataZiaSubscriptionAlert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataZiaSubscriptionAlertConfig extends cdktf.TerraformMetaArgum
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/subscription_alert zia_subscription_alert}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/subscription_alert zia_subscription_alert}
 */
 export class DataZiaSubscriptionAlert extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataZiaSubscriptionAlert extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaSubscriptionAlert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaSubscriptionAlert to import
-  * @param importFromId The id of the existing DataZiaSubscriptionAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/subscription_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaSubscriptionAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/subscription_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaSubscriptionAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataZiaSubscriptionAlert extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/subscription_alert zia_subscription_alert} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/subscription_alert zia_subscription_alert} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataZiaSubscriptionAlert extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_subscription_alert',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

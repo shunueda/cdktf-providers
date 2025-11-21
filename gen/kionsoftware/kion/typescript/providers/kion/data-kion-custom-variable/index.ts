@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/custom_variable
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/custom_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataKionCustomVariableConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/custom_variable#id DataKionCustomVariable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/custom_variable#id DataKionCustomVariable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataKionCustomVariableConfig extends cdktf.TerraformMetaArgumen
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/custom_variable#filter DataKionCustomVariable#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/custom_variable#filter DataKionCustomVariable#filter}
   */
   readonly filter?: DataKionCustomVariableFilter[] | cdktf.IResolvable;
 }
@@ -156,19 +156,19 @@ export interface DataKionCustomVariableFilter {
   /**
   * The field name whose values you wish to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/custom_variable#name DataKionCustomVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/custom_variable#name DataKionCustomVariable#name}
   */
   readonly name: string;
   /**
   * Dictates if the values provided should be treated as regular expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/custom_variable#regex DataKionCustomVariable#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/custom_variable#regex DataKionCustomVariable#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The values of the field name you specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/custom_variable#values DataKionCustomVariable#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/custom_variable#values DataKionCustomVariable#values}
   */
   readonly values: string[];
 }
@@ -336,7 +336,7 @@ export class DataKionCustomVariableFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/custom_variable kion_custom_variable}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/custom_variable kion_custom_variable}
 */
 export class DataKionCustomVariable extends cdktf.TerraformDataSource {
 
@@ -352,7 +352,7 @@ export class DataKionCustomVariable extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKionCustomVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKionCustomVariable to import
-  * @param importFromId The id of the existing DataKionCustomVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/custom_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKionCustomVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/custom_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKionCustomVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -364,7 +364,7 @@ export class DataKionCustomVariable extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/custom_variable kion_custom_variable} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/custom_variable kion_custom_variable} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,8 +375,8 @@ export class DataKionCustomVariable extends cdktf.TerraformDataSource {
       terraformResourceType: 'kion_custom_variable',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

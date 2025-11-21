@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface WafDedicatedDataMaskingRuleV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1#category WafDedicatedDataMaskingRuleV1#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1#category WafDedicatedDataMaskingRuleV1#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1#description WafDedicatedDataMaskingRuleV1#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1#description WafDedicatedDataMaskingRuleV1#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1#id WafDedicatedDataMaskingRuleV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1#id WafDedicatedDataMaskingRuleV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1#name WafDedicatedDataMaskingRuleV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1#name WafDedicatedDataMaskingRuleV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1#policy_id WafDedicatedDataMaskingRuleV1#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1#policy_id WafDedicatedDataMaskingRuleV1#policy_id}
   */
   readonly policyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1#url WafDedicatedDataMaskingRuleV1#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1#url WafDedicatedDataMaskingRuleV1#url}
   */
   readonly url: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1#timeouts WafDedicatedDataMaskingRuleV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1#timeouts WafDedicatedDataMaskingRuleV1#timeouts}
   */
   readonly timeouts?: WafDedicatedDataMaskingRuleV1Timeouts;
 }
 export interface WafDedicatedDataMaskingRuleV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1#create WafDedicatedDataMaskingRuleV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1#create WafDedicatedDataMaskingRuleV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1#delete WafDedicatedDataMaskingRuleV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1#delete WafDedicatedDataMaskingRuleV1#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1#update WafDedicatedDataMaskingRuleV1#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1#update WafDedicatedDataMaskingRuleV1#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class WafDedicatedDataMaskingRuleV1TimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1 opentelekomcloud_waf_dedicated_data_masking_rule_v1}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1 opentelekomcloud_waf_dedicated_data_masking_rule_v1}
 */
 export class WafDedicatedDataMaskingRuleV1 extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class WafDedicatedDataMaskingRuleV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafDedicatedDataMaskingRuleV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafDedicatedDataMaskingRuleV1 to import
-  * @param importFromId The id of the existing WafDedicatedDataMaskingRuleV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafDedicatedDataMaskingRuleV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafDedicatedDataMaskingRuleV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class WafDedicatedDataMaskingRuleV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/waf_dedicated_data_masking_rule_v1 opentelekomcloud_waf_dedicated_data_masking_rule_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/waf_dedicated_data_masking_rule_v1 opentelekomcloud_waf_dedicated_data_masking_rule_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class WafDedicatedDataMaskingRuleV1 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_waf_dedicated_data_masking_rule_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52',
-        providerVersionConstraint: '1.36.52'
+        providerVersion: '1.36.53',
+        providerVersionConstraint: '1.36.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

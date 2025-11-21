@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_schedule
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataNetappOntapClusterScheduleConfig extends cdktf.TerraformMet
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_schedule#cx_profile_name DataNetappOntapClusterSchedule#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_schedule#cx_profile_name DataNetappOntapClusterSchedule#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Schedule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_schedule#name DataNetappOntapClusterSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_schedule#name DataNetappOntapClusterSchedule#name}
   */
   readonly name: string;
 }
@@ -96,7 +96,7 @@ export class DataNetappOntapClusterScheduleCronOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_schedule netapp-ontap_cluster_schedule}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_schedule netapp-ontap_cluster_schedule}
 */
 export class DataNetappOntapClusterSchedule extends cdktf.TerraformDataSource {
 
@@ -112,7 +112,7 @@ export class DataNetappOntapClusterSchedule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapClusterSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapClusterSchedule to import
-  * @param importFromId The id of the existing DataNetappOntapClusterSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapClusterSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapClusterSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -124,7 +124,7 @@ export class DataNetappOntapClusterSchedule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_schedule netapp-ontap_cluster_schedule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_schedule netapp-ontap_cluster_schedule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -135,8 +135,8 @@ export class DataNetappOntapClusterSchedule extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_cluster_schedule',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

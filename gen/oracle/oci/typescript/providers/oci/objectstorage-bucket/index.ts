@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectstorageBucketConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#access_type ObjectstorageBucket#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#access_type ObjectstorageBucket#access_type}
   */
   readonly accessType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#auto_tiering ObjectstorageBucket#auto_tiering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#auto_tiering ObjectstorageBucket#auto_tiering}
   */
   readonly autoTiering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#compartment_id ObjectstorageBucket#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#compartment_id ObjectstorageBucket#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#defined_tags ObjectstorageBucket#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#defined_tags ObjectstorageBucket#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#freeform_tags ObjectstorageBucket#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#freeform_tags ObjectstorageBucket#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#id ObjectstorageBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#id ObjectstorageBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#kms_key_id ObjectstorageBucket#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#kms_key_id ObjectstorageBucket#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#metadata ObjectstorageBucket#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#metadata ObjectstorageBucket#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#name ObjectstorageBucket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#name ObjectstorageBucket#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#namespace ObjectstorageBucket#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#namespace ObjectstorageBucket#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#object_events_enabled ObjectstorageBucket#object_events_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#object_events_enabled ObjectstorageBucket#object_events_enabled}
   */
   readonly objectEventsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#storage_tier ObjectstorageBucket#storage_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#storage_tier ObjectstorageBucket#storage_tier}
   */
   readonly storageTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#versioning ObjectstorageBucket#versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#versioning ObjectstorageBucket#versioning}
   */
   readonly versioning?: string;
   /**
   * retention_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#retention_rules ObjectstorageBucket#retention_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#retention_rules ObjectstorageBucket#retention_rules}
   */
   readonly retentionRules?: ObjectstorageBucketRetentionRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#timeouts ObjectstorageBucket#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#timeouts ObjectstorageBucket#timeouts}
   */
   readonly timeouts?: ObjectstorageBucketTimeouts;
 }
 export interface ObjectstorageBucketRetentionRulesDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#time_amount ObjectstorageBucket#time_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#time_amount ObjectstorageBucket#time_amount}
   */
   readonly timeAmount: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#time_unit ObjectstorageBucket#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#time_unit ObjectstorageBucket#time_unit}
   */
   readonly timeUnit: string;
 }
@@ -188,17 +188,17 @@ export class ObjectstorageBucketRetentionRulesDurationOutputReference extends cd
 }
 export interface ObjectstorageBucketRetentionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#display_name ObjectstorageBucket#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#display_name ObjectstorageBucket#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#time_rule_locked ObjectstorageBucket#time_rule_locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#time_rule_locked ObjectstorageBucket#time_rule_locked}
   */
   readonly timeRuleLocked?: string;
   /**
   * duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#duration ObjectstorageBucket#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#duration ObjectstorageBucket#duration}
   */
   readonly duration?: ObjectstorageBucketRetentionRulesDuration;
 }
@@ -384,15 +384,15 @@ export class ObjectstorageBucketRetentionRulesList extends cdktf.ComplexList {
 }
 export interface ObjectstorageBucketTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#create ObjectstorageBucket#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#create ObjectstorageBucket#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#delete ObjectstorageBucket#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#delete ObjectstorageBucket#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#update ObjectstorageBucket#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#update ObjectstorageBucket#update}
   */
   readonly update?: string;
 }
@@ -544,7 +544,7 @@ export class ObjectstorageBucketTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket oci_objectstorage_bucket}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket oci_objectstorage_bucket}
 */
 export class ObjectstorageBucket extends cdktf.TerraformResource {
 
@@ -560,7 +560,7 @@ export class ObjectstorageBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectstorageBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectstorageBucket to import
-  * @param importFromId The id of the existing ObjectstorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectstorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectstorageBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -572,7 +572,7 @@ export class ObjectstorageBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_bucket oci_objectstorage_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/objectstorage_bucket oci_objectstorage_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -583,8 +583,8 @@ export class ObjectstorageBucket extends cdktf.TerraformResource {
       terraformResourceType: 'oci_objectstorage_bucket',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

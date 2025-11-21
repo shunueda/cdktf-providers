@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_network_perimeter
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_network_perimeter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDomainsNetworkPerimeterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_network_perimeter#attribute_sets DataOciIdentityDomainsNetworkPerimeter#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_network_perimeter#attribute_sets DataOciIdentityDomainsNetworkPerimeter#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_network_perimeter#attributes DataOciIdentityDomainsNetworkPerimeter#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_network_perimeter#attributes DataOciIdentityDomainsNetworkPerimeter#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_network_perimeter#authorization DataOciIdentityDomainsNetworkPerimeter#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_network_perimeter#authorization DataOciIdentityDomainsNetworkPerimeter#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_network_perimeter#idcs_endpoint DataOciIdentityDomainsNetworkPerimeter#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_network_perimeter#idcs_endpoint DataOciIdentityDomainsNetworkPerimeter#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_network_perimeter#network_perimeter_id DataOciIdentityDomainsNetworkPerimeter#network_perimeter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_network_perimeter#network_perimeter_id DataOciIdentityDomainsNetworkPerimeter#network_perimeter_id}
   */
   readonly networkPerimeterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_network_perimeter#resource_type_schema_version DataOciIdentityDomainsNetworkPerimeter#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_network_perimeter#resource_type_schema_version DataOciIdentityDomainsNetworkPerimeter#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
 }
@@ -484,7 +484,7 @@ export class DataOciIdentityDomainsNetworkPerimeterTagsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_network_perimeter oci_identity_domains_network_perimeter}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_network_perimeter oci_identity_domains_network_perimeter}
 */
 export class DataOciIdentityDomainsNetworkPerimeter extends cdktf.TerraformDataSource {
 
@@ -500,7 +500,7 @@ export class DataOciIdentityDomainsNetworkPerimeter extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOciIdentityDomainsNetworkPerimeter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDomainsNetworkPerimeter to import
-  * @param importFromId The id of the existing DataOciIdentityDomainsNetworkPerimeter that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_network_perimeter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDomainsNetworkPerimeter that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_network_perimeter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDomainsNetworkPerimeter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -512,7 +512,7 @@ export class DataOciIdentityDomainsNetworkPerimeter extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_network_perimeter oci_identity_domains_network_perimeter} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_network_perimeter oci_identity_domains_network_perimeter} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -523,8 +523,8 @@ export class DataOciIdentityDomainsNetworkPerimeter extends cdktf.TerraformDataS
       terraformResourceType: 'oci_identity_domains_network_perimeter',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

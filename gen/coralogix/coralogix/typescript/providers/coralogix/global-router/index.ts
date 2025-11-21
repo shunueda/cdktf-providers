@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,44 @@ export interface GlobalRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the GlobalRouter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#description GlobalRouter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#description GlobalRouter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#entity_labels GlobalRouter#entity_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#entity_labels GlobalRouter#entity_labels}
   */
   readonly entityLabels?: { [key: string]: string };
   /**
-  * Type of the entity. Valid values are: alerts, unspecified
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#entity_type GlobalRouter#entity_type}
-  */
-  readonly entityType: string;
-  /**
   * Fallback routing targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#fallback GlobalRouter#fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#fallback GlobalRouter#fallback}
   */
   readonly fallback?: GlobalRouterFallback[] | cdktf.IResolvable;
   /**
+  * The ID of the GlobalRouter. Use `router_default` for the default; leave empty for auto generated or provide your own (unique) id.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#id GlobalRouter#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
   * Name of the GlobalRouter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#name GlobalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#name GlobalRouter#name}
   */
   readonly name: string;
   /**
+  * Routers other than `router_default` require at least one of the properties to be set. Note that these values are globally unique.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#routing_labels GlobalRouter#routing_labels}
+  */
+  readonly routingLabels?: GlobalRouterRoutingLabels;
+  /**
   * Routing rules for the GlobalRouter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#rules GlobalRouter#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#rules GlobalRouter#rules}
   */
   readonly rules?: GlobalRouterRules[] | cdktf.IResolvable;
 }
@@ -46,19 +55,19 @@ export interface GlobalRouterFallback {
   /**
   * ID of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#connector_id GlobalRouter#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#connector_id GlobalRouter#connector_id}
   */
   readonly connectorId: string;
   /**
   * Custom details for the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#custom_details GlobalRouter#custom_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#custom_details GlobalRouter#custom_details}
   */
   readonly customDetails?: { [key: string]: string };
   /**
   * ID of the preset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#preset_id GlobalRouter#preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#preset_id GlobalRouter#preset_id}
   */
   readonly presetId?: string;
 }
@@ -162,7 +171,7 @@ export class GlobalRouterFallbackOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // connector_id - computed: false, optional: false, required: true
+  // connector_id - computed: true, optional: false, required: true
   private _connectorId?: string; 
   public get connectorId() {
     return this.getStringAttribute('connector_id');
@@ -175,7 +184,7 @@ export class GlobalRouterFallbackOutputReference extends cdktf.ComplexObject {
     return this._connectorId;
   }
 
-  // custom_details - computed: false, optional: true, required: false
+  // custom_details - computed: true, optional: true, required: false
   private _customDetails?: { [key: string]: string }; 
   public get customDetails() {
     return this.getStringMapAttribute('custom_details');
@@ -191,7 +200,7 @@ export class GlobalRouterFallbackOutputReference extends cdktf.ComplexObject {
     return this._customDetails;
   }
 
-  // preset_id - computed: false, optional: true, required: false
+  // preset_id - computed: true, optional: true, required: false
   private _presetId?: string; 
   public get presetId() {
     return this.getStringAttribute('preset_id');
@@ -227,23 +236,183 @@ export class GlobalRouterFallbackList extends cdktf.ComplexList {
     return new GlobalRouterFallbackOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GlobalRouterRoutingLabels {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#environment GlobalRouter#environment}
+  */
+  readonly environment?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#service GlobalRouter#service}
+  */
+  readonly service?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#team GlobalRouter#team}
+  */
+  readonly team?: string;
+}
+
+export function globalRouterRoutingLabelsToTerraform(struct?: GlobalRouterRoutingLabels | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    environment: cdktf.stringToTerraform(struct!.environment),
+    service: cdktf.stringToTerraform(struct!.service),
+    team: cdktf.stringToTerraform(struct!.team),
+  }
+}
+
+
+export function globalRouterRoutingLabelsToHclTerraform(struct?: GlobalRouterRoutingLabels | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    environment: {
+      value: cdktf.stringToHclTerraform(struct!.environment),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    service: {
+      value: cdktf.stringToHclTerraform(struct!.service),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    team: {
+      value: cdktf.stringToHclTerraform(struct!.team),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GlobalRouterRoutingLabelsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GlobalRouterRoutingLabels | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._environment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.environment = this._environment;
+    }
+    if (this._service !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.service = this._service;
+    }
+    if (this._team !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.team = this._team;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GlobalRouterRoutingLabels | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._environment = undefined;
+      this._service = undefined;
+      this._team = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._environment = value.environment;
+      this._service = value.service;
+      this._team = value.team;
+    }
+  }
+
+  // environment - computed: true, optional: true, required: false
+  private _environment?: string; 
+  public get environment() {
+    return this.getStringAttribute('environment');
+  }
+  public set environment(value: string) {
+    this._environment = value;
+  }
+  public resetEnvironment() {
+    this._environment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get environmentInput() {
+    return this._environment;
+  }
+
+  // service - computed: true, optional: true, required: false
+  private _service?: string; 
+  public get service() {
+    return this.getStringAttribute('service');
+  }
+  public set service(value: string) {
+    this._service = value;
+  }
+  public resetService() {
+    this._service = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceInput() {
+    return this._service;
+  }
+
+  // team - computed: true, optional: true, required: false
+  private _team?: string; 
+  public get team() {
+    return this.getStringAttribute('team');
+  }
+  public set team(value: string) {
+    this._team = value;
+  }
+  public resetTeam() {
+    this._team = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get teamInput() {
+    return this._team;
+  }
+}
 export interface GlobalRouterRulesTargets {
   /**
   * ID of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#connector_id GlobalRouter#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#connector_id GlobalRouter#connector_id}
   */
   readonly connectorId: string;
   /**
   * Custom details for the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#custom_details GlobalRouter#custom_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#custom_details GlobalRouter#custom_details}
   */
   readonly customDetails?: { [key: string]: string };
   /**
   * ID of the preset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#preset_id GlobalRouter#preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#preset_id GlobalRouter#preset_id}
   */
   readonly presetId?: string;
 }
@@ -347,7 +516,7 @@ export class GlobalRouterRulesTargetsOutputReference extends cdktf.ComplexObject
     }
   }
 
-  // connector_id - computed: false, optional: false, required: true
+  // connector_id - computed: true, optional: false, required: true
   private _connectorId?: string; 
   public get connectorId() {
     return this.getStringAttribute('connector_id');
@@ -360,7 +529,7 @@ export class GlobalRouterRulesTargetsOutputReference extends cdktf.ComplexObject
     return this._connectorId;
   }
 
-  // custom_details - computed: false, optional: true, required: false
+  // custom_details - computed: true, optional: true, required: false
   private _customDetails?: { [key: string]: string }; 
   public get customDetails() {
     return this.getStringMapAttribute('custom_details');
@@ -376,7 +545,7 @@ export class GlobalRouterRulesTargetsOutputReference extends cdktf.ComplexObject
     return this._customDetails;
   }
 
-  // preset_id - computed: false, optional: true, required: false
+  // preset_id - computed: true, optional: true, required: false
   private _presetId?: string; 
   public get presetId() {
     return this.getStringAttribute('preset_id');
@@ -414,25 +583,29 @@ export class GlobalRouterRulesTargetsList extends cdktf.ComplexList {
 }
 export interface GlobalRouterRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#condition GlobalRouter#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#condition GlobalRouter#condition}
   */
   readonly condition: string;
   /**
   * Custom details for the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#custom_details GlobalRouter#custom_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#custom_details GlobalRouter#custom_details}
   */
   readonly customDetails?: { [key: string]: string };
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#entity_type GlobalRouter#entity_type}
+  */
+  readonly entityType?: string;
+  /**
   * Name of the routing rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#name GlobalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#name GlobalRouter#name}
   */
   readonly name: string;
   /**
   * Routing targets for the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#targets GlobalRouter#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#targets GlobalRouter#targets}
   */
   readonly targets?: GlobalRouterRulesTargets[] | cdktf.IResolvable;
 }
@@ -445,6 +618,7 @@ export function globalRouterRulesToTerraform(struct?: GlobalRouterRules | cdktf.
   return {
     condition: cdktf.stringToTerraform(struct!.condition),
     custom_details: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.customDetails),
+    entity_type: cdktf.stringToTerraform(struct!.entityType),
     name: cdktf.stringToTerraform(struct!.name),
     targets: cdktf.listMapper(globalRouterRulesTargetsToTerraform, false)(struct!.targets),
   }
@@ -468,6 +642,12 @@ export function globalRouterRulesToHclTerraform(struct?: GlobalRouterRules | cdk
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
+    },
+    entity_type: {
+      value: cdktf.stringToHclTerraform(struct!.entityType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
@@ -515,6 +695,10 @@ export class GlobalRouterRulesOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.customDetails = this._customDetails;
     }
+    if (this._entityType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityType = this._entityType;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -532,6 +716,7 @@ export class GlobalRouterRulesOutputReference extends cdktf.ComplexObject {
       this.resolvableValue = undefined;
       this._condition = undefined;
       this._customDetails = undefined;
+      this._entityType = undefined;
       this._name = undefined;
       this._targets.internalValue = undefined;
     }
@@ -544,12 +729,13 @@ export class GlobalRouterRulesOutputReference extends cdktf.ComplexObject {
       this.resolvableValue = undefined;
       this._condition = value.condition;
       this._customDetails = value.customDetails;
+      this._entityType = value.entityType;
       this._name = value.name;
       this._targets.internalValue = value.targets;
     }
   }
 
-  // condition - computed: false, optional: false, required: true
+  // condition - computed: true, optional: false, required: true
   private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
@@ -562,7 +748,7 @@ export class GlobalRouterRulesOutputReference extends cdktf.ComplexObject {
     return this._condition;
   }
 
-  // custom_details - computed: false, optional: true, required: false
+  // custom_details - computed: true, optional: true, required: false
   private _customDetails?: { [key: string]: string }; 
   public get customDetails() {
     return this.getStringMapAttribute('custom_details');
@@ -578,7 +764,23 @@ export class GlobalRouterRulesOutputReference extends cdktf.ComplexObject {
     return this._customDetails;
   }
 
-  // name - computed: false, optional: false, required: true
+  // entity_type - computed: true, optional: true, required: false
+  private _entityType?: string; 
+  public get entityType() {
+    return this.getStringAttribute('entity_type');
+  }
+  public set entityType(value: string) {
+    this._entityType = value;
+  }
+  public resetEntityType() {
+    this._entityType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityTypeInput() {
+    return this._entityType;
+  }
+
+  // name - computed: true, optional: false, required: true
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -591,7 +793,7 @@ export class GlobalRouterRulesOutputReference extends cdktf.ComplexObject {
     return this._name;
   }
 
-  // targets - computed: false, optional: true, required: false
+  // targets - computed: true, optional: true, required: false
   private _targets = new GlobalRouterRulesTargetsList(this, "targets", false);
   public get targets() {
     return this._targets;
@@ -629,7 +831,7 @@ export class GlobalRouterRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router coralogix_global_router}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router coralogix_global_router}
 */
 export class GlobalRouter extends cdktf.TerraformResource {
 
@@ -645,7 +847,7 @@ export class GlobalRouter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GlobalRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlobalRouter to import
-  * @param importFromId The id of the existing GlobalRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlobalRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlobalRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -657,7 +859,7 @@ export class GlobalRouter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/global_router coralogix_global_router} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router coralogix_global_router} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -668,8 +870,8 @@ export class GlobalRouter extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_global_router',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -681,9 +883,10 @@ export class GlobalRouter extends cdktf.TerraformResource {
     });
     this._description = config.description;
     this._entityLabels = config.entityLabels;
-    this._entityType = config.entityType;
     this._fallback.internalValue = config.fallback;
+    this._id = config.id;
     this._name = config.name;
+    this._routingLabels.internalValue = config.routingLabels;
     this._rules.internalValue = config.rules;
   }
 
@@ -707,7 +910,7 @@ export class GlobalRouter extends cdktf.TerraformResource {
     return this._description;
   }
 
-  // entity_labels - computed: false, optional: true, required: false
+  // entity_labels - computed: true, optional: true, required: false
   private _entityLabels?: { [key: string]: string }; 
   public get entityLabels() {
     return this.getStringMapAttribute('entity_labels');
@@ -723,20 +926,7 @@ export class GlobalRouter extends cdktf.TerraformResource {
     return this._entityLabels;
   }
 
-  // entity_type - computed: false, optional: false, required: true
-  private _entityType?: string; 
-  public get entityType() {
-    return this.getStringAttribute('entity_type');
-  }
-  public set entityType(value: string) {
-    this._entityType = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get entityTypeInput() {
-    return this._entityType;
-  }
-
-  // fallback - computed: false, optional: true, required: false
+  // fallback - computed: true, optional: true, required: false
   private _fallback = new GlobalRouterFallbackList(this, "fallback", false);
   public get fallback() {
     return this._fallback;
@@ -752,9 +942,20 @@ export class GlobalRouter extends cdktf.TerraformResource {
     return this._fallback.internalValue;
   }
 
-  // id - computed: true, optional: false, required: false
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
   }
 
   // name - computed: false, optional: false, required: true
@@ -770,7 +971,23 @@ export class GlobalRouter extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // rules - computed: false, optional: true, required: false
+  // routing_labels - computed: false, optional: true, required: false
+  private _routingLabels = new GlobalRouterRoutingLabelsOutputReference(this, "routing_labels");
+  public get routingLabels() {
+    return this._routingLabels;
+  }
+  public putRoutingLabels(value: GlobalRouterRoutingLabels) {
+    this._routingLabels.internalValue = value;
+  }
+  public resetRoutingLabels() {
+    this._routingLabels.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get routingLabelsInput() {
+    return this._routingLabels.internalValue;
+  }
+
+  // rules - computed: true, optional: true, required: false
   private _rules = new GlobalRouterRulesList(this, "rules", false);
   public get rules() {
     return this._rules;
@@ -794,9 +1011,10 @@ export class GlobalRouter extends cdktf.TerraformResource {
     return {
       description: cdktf.stringToTerraform(this._description),
       entity_labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._entityLabels),
-      entity_type: cdktf.stringToTerraform(this._entityType),
       fallback: cdktf.listMapper(globalRouterFallbackToTerraform, false)(this._fallback.internalValue),
+      id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      routing_labels: globalRouterRoutingLabelsToTerraform(this._routingLabels.internalValue),
       rules: cdktf.listMapper(globalRouterRulesToTerraform, false)(this._rules.internalValue),
     };
   }
@@ -815,23 +1033,29 @@ export class GlobalRouter extends cdktf.TerraformResource {
         type: "map",
         storageClassType: "stringMap",
       },
-      entity_type: {
-        value: cdktf.stringToHclTerraform(this._entityType),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       fallback: {
         value: cdktf.listMapperHcl(globalRouterFallbackToHclTerraform, false)(this._fallback.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GlobalRouterFallbackList",
       },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      routing_labels: {
+        value: globalRouterRoutingLabelsToHclTerraform(this._routingLabels.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "GlobalRouterRoutingLabels",
       },
       rules: {
         value: cdktf.listMapperHcl(globalRouterRulesToHclTerraform, false)(this._rules.internalValue),

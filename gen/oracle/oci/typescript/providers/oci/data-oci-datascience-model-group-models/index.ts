@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatascienceModelGroupModelsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models#compartment_id DataOciDatascienceModelGroupModels#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models#compartment_id DataOciDatascienceModelGroupModels#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models#created_by DataOciDatascienceModelGroupModels#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models#created_by DataOciDatascienceModelGroupModels#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models#display_name DataOciDatascienceModelGroupModels#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models#display_name DataOciDatascienceModelGroupModels#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models#id DataOciDatascienceModelGroupModels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models#id DataOciDatascienceModelGroupModels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models#model_group_id DataOciDatascienceModelGroupModels#model_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models#model_group_id DataOciDatascienceModelGroupModels#model_group_id}
   */
   readonly modelGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models#state DataOciDatascienceModelGroupModels#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models#state DataOciDatascienceModelGroupModels#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models#filter DataOciDatascienceModelGroupModels#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models#filter DataOciDatascienceModelGroupModels#filter}
   */
   readonly filter?: DataOciDatascienceModelGroupModelsFilter[] | cdktf.IResolvable;
 }
@@ -191,15 +191,15 @@ export class DataOciDatascienceModelGroupModelsModelGroupModelsList extends cdkt
 }
 export interface DataOciDatascienceModelGroupModelsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models#name DataOciDatascienceModelGroupModels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models#name DataOciDatascienceModelGroupModels#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models#regex DataOciDatascienceModelGroupModels#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models#regex DataOciDatascienceModelGroupModels#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models#values DataOciDatascienceModelGroupModels#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models#values DataOciDatascienceModelGroupModels#values}
   */
   readonly values: string[];
 }
@@ -367,7 +367,7 @@ export class DataOciDatascienceModelGroupModelsFilterList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models oci_datascience_model_group_models}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models oci_datascience_model_group_models}
 */
 export class DataOciDatascienceModelGroupModels extends cdktf.TerraformDataSource {
 
@@ -383,7 +383,7 @@ export class DataOciDatascienceModelGroupModels extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciDatascienceModelGroupModels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatascienceModelGroupModels to import
-  * @param importFromId The id of the existing DataOciDatascienceModelGroupModels that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatascienceModelGroupModels that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatascienceModelGroupModels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -395,7 +395,7 @@ export class DataOciDatascienceModelGroupModels extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_group_models oci_datascience_model_group_models} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_model_group_models oci_datascience_model_group_models} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -406,8 +406,8 @@ export class DataOciDatascienceModelGroupModels extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_datascience_model_group_models',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_app_catalog_listings
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_app_catalog_listings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreAppCatalogListingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_app_catalog_listings#display_name DataOciCoreAppCatalogListings#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_app_catalog_listings#display_name DataOciCoreAppCatalogListings#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_app_catalog_listings#id DataOciCoreAppCatalogListings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_app_catalog_listings#id DataOciCoreAppCatalogListings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_app_catalog_listings#publisher_name DataOciCoreAppCatalogListings#publisher_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_app_catalog_listings#publisher_name DataOciCoreAppCatalogListings#publisher_name}
   */
   readonly publisherName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_app_catalog_listings#publisher_type DataOciCoreAppCatalogListings#publisher_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_app_catalog_listings#publisher_type DataOciCoreAppCatalogListings#publisher_type}
   */
   readonly publisherType?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_app_catalog_listings#filter DataOciCoreAppCatalogListings#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_app_catalog_listings#filter DataOciCoreAppCatalogListings#filter}
   */
   readonly filter?: DataOciCoreAppCatalogListingsFilter[] | cdktf.IResolvable;
 }
@@ -145,15 +145,15 @@ export class DataOciCoreAppCatalogListingsAppCatalogListingsList extends cdktf.C
 }
 export interface DataOciCoreAppCatalogListingsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_app_catalog_listings#name DataOciCoreAppCatalogListings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_app_catalog_listings#name DataOciCoreAppCatalogListings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_app_catalog_listings#regex DataOciCoreAppCatalogListings#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_app_catalog_listings#regex DataOciCoreAppCatalogListings#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_app_catalog_listings#values DataOciCoreAppCatalogListings#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_app_catalog_listings#values DataOciCoreAppCatalogListings#values}
   */
   readonly values: string[];
 }
@@ -321,7 +321,7 @@ export class DataOciCoreAppCatalogListingsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_app_catalog_listings oci_core_app_catalog_listings}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_app_catalog_listings oci_core_app_catalog_listings}
 */
 export class DataOciCoreAppCatalogListings extends cdktf.TerraformDataSource {
 
@@ -337,7 +337,7 @@ export class DataOciCoreAppCatalogListings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreAppCatalogListings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreAppCatalogListings to import
-  * @param importFromId The id of the existing DataOciCoreAppCatalogListings that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_app_catalog_listings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreAppCatalogListings that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_app_catalog_listings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreAppCatalogListings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -349,7 +349,7 @@ export class DataOciCoreAppCatalogListings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_app_catalog_listings oci_core_app_catalog_listings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_app_catalog_listings oci_core_app_catalog_listings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -360,8 +360,8 @@ export class DataOciCoreAppCatalogListings extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_app_catalog_listings',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

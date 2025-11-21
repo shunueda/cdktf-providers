@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_runbook_import_statuses
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_runbook_import_statuses
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciFleetAppsManagementRunbookImportStatusesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_runbook_import_statuses#compartment_id DataOciFleetAppsManagementRunbookImportStatuses#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#compartment_id DataOciFleetAppsManagementRunbookImportStatuses#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_runbook_import_statuses#id DataOciFleetAppsManagementRunbookImportStatuses#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#id DataOciFleetAppsManagementRunbookImportStatuses#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataOciFleetAppsManagementRunbookImportStatusesConfig extends c
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_runbook_import_statuses#filter DataOciFleetAppsManagementRunbookImportStatuses#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#filter DataOciFleetAppsManagementRunbookImportStatuses#filter}
   */
   readonly filter?: DataOciFleetAppsManagementRunbookImportStatusesFilter[] | cdktf.IResolvable;
 }
@@ -198,15 +198,15 @@ export class DataOciFleetAppsManagementRunbookImportStatusesRunbookImportStatusC
 }
 export interface DataOciFleetAppsManagementRunbookImportStatusesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_runbook_import_statuses#name DataOciFleetAppsManagementRunbookImportStatuses#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#name DataOciFleetAppsManagementRunbookImportStatuses#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_runbook_import_statuses#regex DataOciFleetAppsManagementRunbookImportStatuses#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#regex DataOciFleetAppsManagementRunbookImportStatuses#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_runbook_import_statuses#values DataOciFleetAppsManagementRunbookImportStatuses#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#values DataOciFleetAppsManagementRunbookImportStatuses#values}
   */
   readonly values: string[];
 }
@@ -374,7 +374,7 @@ export class DataOciFleetAppsManagementRunbookImportStatusesFilterList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_runbook_import_statuses oci_fleet_apps_management_runbook_import_statuses}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_runbook_import_statuses oci_fleet_apps_management_runbook_import_statuses}
 */
 export class DataOciFleetAppsManagementRunbookImportStatuses extends cdktf.TerraformDataSource {
 
@@ -390,7 +390,7 @@ export class DataOciFleetAppsManagementRunbookImportStatuses extends cdktf.Terra
   * Generates CDKTF code for importing a DataOciFleetAppsManagementRunbookImportStatuses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciFleetAppsManagementRunbookImportStatuses to import
-  * @param importFromId The id of the existing DataOciFleetAppsManagementRunbookImportStatuses that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_runbook_import_statuses#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciFleetAppsManagementRunbookImportStatuses that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciFleetAppsManagementRunbookImportStatuses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -402,7 +402,7 @@ export class DataOciFleetAppsManagementRunbookImportStatuses extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_runbook_import_statuses oci_fleet_apps_management_runbook_import_statuses} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fleet_apps_management_runbook_import_statuses oci_fleet_apps_management_runbook_import_statuses} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -413,8 +413,8 @@ export class DataOciFleetAppsManagementRunbookImportStatuses extends cdktf.Terra
       terraformResourceType: 'oci_fleet_apps_management_runbook_import_statuses',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

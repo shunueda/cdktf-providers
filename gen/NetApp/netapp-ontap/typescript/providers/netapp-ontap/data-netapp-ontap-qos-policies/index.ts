@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapQosPoliciesConfig extends cdktf.TerraformMetaArg
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies#cx_profile_name DataNetappOntapQosPolicies#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies#cx_profile_name DataNetappOntapQosPolicies#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies#filter DataNetappOntapQosPolicies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies#filter DataNetappOntapQosPolicies#filter}
   */
   readonly filter?: DataNetappOntapQosPoliciesFilter;
 }
@@ -22,13 +22,13 @@ export interface DataNetappOntapQosPoliciesFilter {
   /**
   * QOSPolicy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies#name DataNetappOntapQosPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies#name DataNetappOntapQosPolicies#name}
   */
   readonly name?: string;
   /**
   * QOSPolicy svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies#svm_name DataNetappOntapQosPolicies#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies#svm_name DataNetappOntapQosPolicies#svm_name}
   */
   readonly svmName?: string;
 }
@@ -153,13 +153,13 @@ export interface DataNetappOntapQosPoliciesQosPoliciesAdaptive {
   /**
   * Absolute minimum IOPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies#absolute_min_iops DataNetappOntapQosPolicies#absolute_min_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies#absolute_min_iops DataNetappOntapQosPolicies#absolute_min_iops}
   */
   readonly absoluteMinIops?: number;
   /**
   * Peak IOPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies#peak_iops DataNetappOntapQosPolicies#peak_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies#peak_iops DataNetappOntapQosPolicies#peak_iops}
   */
   readonly peakIops: number;
 }
@@ -375,31 +375,31 @@ export interface DataNetappOntapQosPoliciesQosPolicies {
   /**
   * Adaptive QoS policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies#adaptive DataNetappOntapQosPolicies#adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies#adaptive DataNetappOntapQosPolicies#adaptive}
   */
   readonly adaptive?: DataNetappOntapQosPoliciesQosPoliciesAdaptive;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies#cx_profile_name DataNetappOntapQosPolicies#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies#cx_profile_name DataNetappOntapQosPolicies#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * QOSPolicy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies#name DataNetappOntapQosPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies#name DataNetappOntapQosPolicies#name}
   */
   readonly name: string;
   /**
   * QoS policy scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies#scope DataNetappOntapQosPolicies#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies#scope DataNetappOntapQosPolicies#scope}
   */
   readonly scope?: string;
   /**
   * QOSPolicy svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies#svm_name DataNetappOntapQosPolicies#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies#svm_name DataNetappOntapQosPolicies#svm_name}
   */
   readonly svmName: string;
 }
@@ -623,7 +623,7 @@ export class DataNetappOntapQosPoliciesQosPoliciesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies netapp-ontap_qos_policies}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies netapp-ontap_qos_policies}
 */
 export class DataNetappOntapQosPolicies extends cdktf.TerraformDataSource {
 
@@ -639,7 +639,7 @@ export class DataNetappOntapQosPolicies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapQosPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapQosPolicies to import
-  * @param importFromId The id of the existing DataNetappOntapQosPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapQosPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapQosPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -651,7 +651,7 @@ export class DataNetappOntapQosPolicies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/qos_policies netapp-ontap_qos_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/qos_policies netapp-ontap_qos_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -662,8 +662,8 @@ export class DataNetappOntapQosPolicies extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_qos_policies',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_platform_certificate
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_platform_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TlsPlatformCertificateConfig extends cdktf.TerraformMetaArgumen
   /**
   * Disable checking whether the root of the certificate chain is trusted. Useful for development purposes to allow use of self-signed CAs. Defaults to false. Write-only on create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_platform_certificate#allow_untrusted_root TlsPlatformCertificate#allow_untrusted_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_platform_certificate#allow_untrusted_root TlsPlatformCertificate#allow_untrusted_root}
   */
   readonly allowUntrustedRoot?: boolean | cdktf.IResolvable;
   /**
   * PEM-formatted certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_platform_certificate#certificate_body TlsPlatformCertificate#certificate_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_platform_certificate#certificate_body TlsPlatformCertificate#certificate_body}
   */
   readonly certificateBody: string;
   /**
   * ID of TLS configuration to be used to terminate TLS traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_platform_certificate#configuration_id TlsPlatformCertificate#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_platform_certificate#configuration_id TlsPlatformCertificate#configuration_id}
   */
   readonly configurationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_platform_certificate#id TlsPlatformCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_platform_certificate#id TlsPlatformCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface TlsPlatformCertificateConfig extends cdktf.TerraformMetaArgumen
   /**
   * PEM-formatted certificate chain from the `certificate_body` to its root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_platform_certificate#intermediates_blob TlsPlatformCertificate#intermediates_blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_platform_certificate#intermediates_blob TlsPlatformCertificate#intermediates_blob}
   */
   readonly intermediatesBlob: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_platform_certificate fastly_tls_platform_certificate}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_platform_certificate fastly_tls_platform_certificate}
 */
 export class TlsPlatformCertificate extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class TlsPlatformCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TlsPlatformCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TlsPlatformCertificate to import
-  * @param importFromId The id of the existing TlsPlatformCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_platform_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TlsPlatformCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_platform_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TlsPlatformCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class TlsPlatformCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/tls_platform_certificate fastly_tls_platform_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_platform_certificate fastly_tls_platform_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class TlsPlatformCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_tls_platform_certificate',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

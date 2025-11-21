@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_deployment_backups
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_deployment_backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciGoldenGateDeploymentBackupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_deployment_backups#compartment_id DataOciGoldenGateDeploymentBackups#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_deployment_backups#compartment_id DataOciGoldenGateDeploymentBackups#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_deployment_backups#deployment_id DataOciGoldenGateDeploymentBackups#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_deployment_backups#deployment_id DataOciGoldenGateDeploymentBackups#deployment_id}
   */
   readonly deploymentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_deployment_backups#display_name DataOciGoldenGateDeploymentBackups#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_deployment_backups#display_name DataOciGoldenGateDeploymentBackups#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_deployment_backups#id DataOciGoldenGateDeploymentBackups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_deployment_backups#id DataOciGoldenGateDeploymentBackups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_deployment_backups#state DataOciGoldenGateDeploymentBackups#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_deployment_backups#state DataOciGoldenGateDeploymentBackups#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_deployment_backups#filter DataOciGoldenGateDeploymentBackups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_deployment_backups#filter DataOciGoldenGateDeploymentBackups#filter}
   */
   readonly filter?: DataOciGoldenGateDeploymentBackupsFilter[] | cdktf.IResolvable;
 }
@@ -404,15 +404,15 @@ export class DataOciGoldenGateDeploymentBackupsDeploymentBackupCollectionList ex
 }
 export interface DataOciGoldenGateDeploymentBackupsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_deployment_backups#name DataOciGoldenGateDeploymentBackups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_deployment_backups#name DataOciGoldenGateDeploymentBackups#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_deployment_backups#regex DataOciGoldenGateDeploymentBackups#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_deployment_backups#regex DataOciGoldenGateDeploymentBackups#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_deployment_backups#values DataOciGoldenGateDeploymentBackups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_deployment_backups#values DataOciGoldenGateDeploymentBackups#values}
   */
   readonly values: string[];
 }
@@ -580,7 +580,7 @@ export class DataOciGoldenGateDeploymentBackupsFilterList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_deployment_backups oci_golden_gate_deployment_backups}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_deployment_backups oci_golden_gate_deployment_backups}
 */
 export class DataOciGoldenGateDeploymentBackups extends cdktf.TerraformDataSource {
 
@@ -596,7 +596,7 @@ export class DataOciGoldenGateDeploymentBackups extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciGoldenGateDeploymentBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciGoldenGateDeploymentBackups to import
-  * @param importFromId The id of the existing DataOciGoldenGateDeploymentBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_deployment_backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciGoldenGateDeploymentBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_deployment_backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciGoldenGateDeploymentBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -608,7 +608,7 @@ export class DataOciGoldenGateDeploymentBackups extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_deployment_backups oci_golden_gate_deployment_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_deployment_backups oci_golden_gate_deployment_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -619,8 +619,8 @@ export class DataOciGoldenGateDeploymentBackups extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_golden_gate_deployment_backups',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

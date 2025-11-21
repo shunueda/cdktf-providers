@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface BackgroundWorkerConfig extends cdktf.TerraformMetaArguments {
   /**
   * [Autoscaling settings](https://render.com/docs/scaling#autoscaling) for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#autoscaling BackgroundWorker#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#autoscaling BackgroundWorker#autoscaling}
   */
   readonly autoscaling?: BackgroundWorkerAutoscaling;
   /**
   * [Persistent disk](https://render.com/docs/disks) to attach to the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#disk BackgroundWorker#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#disk BackgroundWorker#disk}
   */
   readonly disk?: BackgroundWorkerDisk;
   /**
   * Map of environment variable names to their values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#env_vars BackgroundWorker#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#env_vars BackgroundWorker#env_vars}
   */
   readonly envVars?: { [key: string]: BackgroundWorkerEnvVars } | cdktf.IResolvable;
   /**
   * ID of the [project environment](https://render.com/docs/projects) that the resource belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#environment_id BackgroundWorker#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#environment_id BackgroundWorker#environment_id}
   */
   readonly environmentId?: string;
   /**
   * Configure the [log stream override settings](https://render.com/docs/log-streams#overriding-defaults) for this service. These will override the global log stream settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#log_stream_override BackgroundWorker#log_stream_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#log_stream_override BackgroundWorker#log_stream_override}
   */
   readonly logStreamOverride?: BackgroundWorkerLogStreamOverride;
   /**
   * The maximum amount of time (in seconds) that Render waits for your application process to exit gracefully after sending it a SIGTERM signal before sending a SIGKILL signal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#max_shutdown_delay_seconds BackgroundWorker#max_shutdown_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#max_shutdown_delay_seconds BackgroundWorker#max_shutdown_delay_seconds}
   */
   readonly maxShutdownDelaySeconds?: number;
   /**
   * Name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#name BackgroundWorker#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#name BackgroundWorker#name}
   */
   readonly name: string;
   /**
   * Configure the [notification settings](https://render.com/docs/notifications) for this service. These will override the global notification settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#notification_override BackgroundWorker#notification_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#notification_override BackgroundWorker#notification_override}
   */
   readonly notificationOverride?: BackgroundWorkerNotificationOverride;
   /**
   * Number of replicas of the service to run. Defaults to 1 on service creation and current instance count on update. If you want to manage the service's instance count outside Terraform, leave num_instances unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#num_instances BackgroundWorker#num_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#num_instances BackgroundWorker#num_instances}
   */
   readonly numInstances?: number;
   /**
   * Plan to use for the service. Must be one of `starter`, `standard`, `pro`, `pro_plus`, `pro_max`, `pro_ultra`, or a custom plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#plan BackgroundWorker#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#plan BackgroundWorker#plan}
   */
   readonly plan: string;
   /**
   * This command runs before starting your service. It is typically used for tasks like running a database migration or uploading assets to a CDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#pre_deploy_command BackgroundWorker#pre_deploy_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#pre_deploy_command BackgroundWorker#pre_deploy_command}
   */
   readonly preDeployCommand?: string;
   /**
   * [Pull request previews](https://render.com/docs/pull-request-previews#pull-request-previews-git-backed) settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#previews BackgroundWorker#previews}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#previews BackgroundWorker#previews}
   */
   readonly previews?: BackgroundWorkerPreviews;
   /**
   * Enable [pull request previews](https://render.com/docs/pull-request-previews#pull-request-previews-git-backed) for the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#pull_request_previews_enabled BackgroundWorker#pull_request_previews_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#pull_request_previews_enabled BackgroundWorker#pull_request_previews_enabled}
   */
   readonly pullRequestPreviewsEnabled?: boolean | cdktf.IResolvable;
   /**
   * [Region](https://render.com/docs/regions) to deploy the service. One of `frankfurt`, `ohio`, `oregon`, `singapore`, `virginia`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#region BackgroundWorker#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#region BackgroundWorker#region}
   */
   readonly region: string;
   /**
   * When you specify a [root directory](https://render.com/docs/monorepo-support#root-directory), Render runs all your commands in the specified directory and ignores changes outside the directory. Defaults to the repository root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#root_directory BackgroundWorker#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#root_directory BackgroundWorker#root_directory}
   */
   readonly rootDirectory?: string;
   /**
   * Source of the build artifacts or image that run your service. You must provide one of [native_runtime](https://render.com/docs/native-runtimes), [docker](https://render.com/docs/docker), or [image](https://render.com/docs/deploy-an-image).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#runtime_source BackgroundWorker#runtime_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#runtime_source BackgroundWorker#runtime_source}
   */
   readonly runtimeSource: BackgroundWorkerRuntimeSource;
   /**
   * A map of secret file paths to their contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#secret_files BackgroundWorker#secret_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#secret_files BackgroundWorker#secret_files}
   */
   readonly secretFiles?: { [key: string]: BackgroundWorkerSecretFiles } | cdktf.IResolvable;
   /**
   * Command to run the service. When using native runtimes, this will be used as the start command and is required. For [Docker](https://render.com/docs/docker) and [image-backed](https://render.com/docs/deploy-an-image) services, this will override the default Docker command for the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#start_command BackgroundWorker#start_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#start_command BackgroundWorker#start_command}
   */
   readonly startCommand?: string;
 }
@@ -120,13 +120,13 @@ export interface BackgroundWorkerAutoscalingCriteriaCpu {
   /**
   * Whether CPU-based autoscaling is enabled for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#enabled BackgroundWorker#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#enabled BackgroundWorker#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Determines when your service will be scaled. If the average resource utilization is significantly above/below the target, we will increase/decrease the number of instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#percentage BackgroundWorker#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#percentage BackgroundWorker#percentage}
   */
   readonly percentage: number;
 }
@@ -245,13 +245,13 @@ export interface BackgroundWorkerAutoscalingCriteriaMemory {
   /**
   * Whether memory-based autoscaling is enabled for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#enabled BackgroundWorker#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#enabled BackgroundWorker#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Determines when your service will be scaled. If the average resource utilization is significantly above/below the target, we will increase/decrease the number of instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#percentage BackgroundWorker#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#percentage BackgroundWorker#percentage}
   */
   readonly percentage: number;
 }
@@ -368,11 +368,11 @@ export class BackgroundWorkerAutoscalingCriteriaMemoryOutputReference extends cd
 }
 export interface BackgroundWorkerAutoscalingCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#cpu BackgroundWorker#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#cpu BackgroundWorker#cpu}
   */
   readonly cpu?: BackgroundWorkerAutoscalingCriteriaCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#memory BackgroundWorker#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#memory BackgroundWorker#memory}
   */
   readonly memory?: BackgroundWorkerAutoscalingCriteriaMemory;
 }
@@ -495,25 +495,25 @@ export class BackgroundWorkerAutoscalingCriteriaOutputReference extends cdktf.Co
 }
 export interface BackgroundWorkerAutoscaling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#criteria BackgroundWorker#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#criteria BackgroundWorker#criteria}
   */
   readonly criteria: BackgroundWorkerAutoscalingCriteria;
   /**
   * Whether autoscaling is enabled for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#enabled BackgroundWorker#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#enabled BackgroundWorker#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The maximum number of instances for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#max BackgroundWorker#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#max BackgroundWorker#max}
   */
   readonly max: number;
   /**
   * The minimum number of instances for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#min BackgroundWorker#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#min BackgroundWorker#min}
   */
   readonly min: number;
 }
@@ -684,19 +684,19 @@ export interface BackgroundWorkerDisk {
   /**
   * Absolute path to mount the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#mount_path BackgroundWorker#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#mount_path BackgroundWorker#mount_path}
   */
   readonly mountPath: string;
   /**
   * Name of the disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#name BackgroundWorker#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#name BackgroundWorker#name}
   */
   readonly name: string;
   /**
   * Size of the disk in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#size_gb BackgroundWorker#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#size_gb BackgroundWorker#size_gb}
   */
   readonly sizeGb: number;
 }
@@ -846,11 +846,11 @@ export interface BackgroundWorkerEnvVars {
   /**
   * If true, Render will generate the variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#generate_value BackgroundWorker#generate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#generate_value BackgroundWorker#generate_value}
   */
   readonly generateValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#value BackgroundWorker#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#value BackgroundWorker#value}
   */
   readonly value?: string;
 }
@@ -995,19 +995,19 @@ export interface BackgroundWorkerLogStreamOverride {
   /**
   * The endpoint to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#endpoint BackgroundWorker#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#endpoint BackgroundWorker#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to send or drop logs for this service. Must be one of `send` or `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#setting BackgroundWorker#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#setting BackgroundWorker#setting}
   */
   readonly setting: string;
   /**
   * The token to use when sending logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#token BackgroundWorker#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#token BackgroundWorker#token}
   */
   readonly token?: string;
 }
@@ -1158,13 +1158,13 @@ export interface BackgroundWorkerNotificationOverride {
   /**
   * The types of notifications to send. Must be one of `default`, `all`, `failure`, or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#notifications_to_send BackgroundWorker#notifications_to_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#notifications_to_send BackgroundWorker#notifications_to_send}
   */
   readonly notificationsToSend?: string;
   /**
   * Whether notifications for previews of this service are sent. Must be one of `all`, `failure`, or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#preview_notifications_enabled BackgroundWorker#preview_notifications_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#preview_notifications_enabled BackgroundWorker#preview_notifications_enabled}
   */
   readonly previewNotificationsEnabled?: string;
 }
@@ -1289,7 +1289,7 @@ export interface BackgroundWorkerPreviews {
   /**
   * Generation mode for [pull request previews](https://render.com/docs/pull-request-previews#pull-request-previews-git-backed). One of `off`, `manual`, or `automatic`. Defaults to `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#generation BackgroundWorker#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#generation BackgroundWorker#generation}
   */
   readonly generation?: string;
 }
@@ -1385,13 +1385,13 @@ export interface BackgroundWorkerRuntimeSourceDockerBuildFilter {
   /**
   * Changes that match these paths will not trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#ignored_paths BackgroundWorker#ignored_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#ignored_paths BackgroundWorker#ignored_paths}
   */
   readonly ignoredPaths?: string[];
   /**
   * Changes that match these paths will trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#paths BackgroundWorker#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#paths BackgroundWorker#paths}
   */
   readonly paths?: string[];
 }
@@ -1516,49 +1516,49 @@ export interface BackgroundWorkerRuntimeSourceDocker {
   /**
   * [Automatic deploy](https://render.com/docs/deploys#automatic-git-deploys) on every push to your repository, or changes to your service settings or environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#auto_deploy BackgroundWorker#auto_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#auto_deploy BackgroundWorker#auto_deploy}
   */
   readonly autoDeploy?: boolean | cdktf.IResolvable;
   /**
   * Sets the Automatic deploy behavior for a Git-based service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#auto_deploy_trigger BackgroundWorker#auto_deploy_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#auto_deploy_trigger BackgroundWorker#auto_deploy_trigger}
   */
   readonly autoDeployTrigger?: string;
   /**
   * Branch of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#branch BackgroundWorker#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#branch BackgroundWorker#branch}
   */
   readonly branch: string;
   /**
   * Apply [build filters](https://render.com/docs/monorepo-support#build-filters) to configure which changes in your git repository trigger automatic deploys. If you've defined a root directory, you can still define paths outside of the root directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#build_filter BackgroundWorker#build_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#build_filter BackgroundWorker#build_filter}
   */
   readonly buildFilter?: BackgroundWorkerRuntimeSourceDockerBuildFilter;
   /**
   * [Docker build context directory.](https://docs.docker.com/reference/dockerfile/#usage) This is relative to your repository root. Defaults to the root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#context BackgroundWorker#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#context BackgroundWorker#context}
   */
   readonly context?: string;
   /**
   * Path to your Dockerfile relative to the repository root. This is not relative to your Docker build context. Example: `./subdir/Dockerfile.`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#dockerfile_path BackgroundWorker#dockerfile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#dockerfile_path BackgroundWorker#dockerfile_path}
   */
   readonly dockerfilePath?: string;
   /**
   * ID of the registry credential to use when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#registry_credential_id BackgroundWorker#registry_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#registry_credential_id BackgroundWorker#registry_credential_id}
   */
   readonly registryCredentialId?: string;
   /**
   * URL of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#repo_url BackgroundWorker#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#repo_url BackgroundWorker#repo_url}
   */
   readonly repoUrl: string;
 }
@@ -1851,25 +1851,25 @@ export interface BackgroundWorkerRuntimeSourceImage {
   /**
   * Digest of the Docker image to deploy. Mutually exclusive with tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#digest BackgroundWorker#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#digest BackgroundWorker#digest}
   */
   readonly digest?: string;
   /**
   * URL of the Docker image to deploy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#image_url BackgroundWorker#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#image_url BackgroundWorker#image_url}
   */
   readonly imageUrl: string;
   /**
   * ID of the registry credential to use when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#registry_credential_id BackgroundWorker#registry_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#registry_credential_id BackgroundWorker#registry_credential_id}
   */
   readonly registryCredentialId?: string;
   /**
   * Tag of the Docker image to deploy. Mutually exclusive with digest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#tag BackgroundWorker#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#tag BackgroundWorker#tag}
   */
   readonly tag?: string;
 }
@@ -2049,13 +2049,13 @@ export interface BackgroundWorkerRuntimeSourceNativeRuntimeBuildFilter {
   /**
   * Changes that match these paths will not trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#ignored_paths BackgroundWorker#ignored_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#ignored_paths BackgroundWorker#ignored_paths}
   */
   readonly ignoredPaths?: string[];
   /**
   * Changes that match these paths will trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#paths BackgroundWorker#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#paths BackgroundWorker#paths}
   */
   readonly paths?: string[];
 }
@@ -2180,43 +2180,43 @@ export interface BackgroundWorkerRuntimeSourceNativeRuntime {
   /**
   * [Automatic deploy](https://render.com/docs/deploys#automatic-git-deploys) on every push to your repository, or changes to your service settings or environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#auto_deploy BackgroundWorker#auto_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#auto_deploy BackgroundWorker#auto_deploy}
   */
   readonly autoDeploy?: boolean | cdktf.IResolvable;
   /**
   * Sets the Automatic deploy behavior for a Git-based service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#auto_deploy_trigger BackgroundWorker#auto_deploy_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#auto_deploy_trigger BackgroundWorker#auto_deploy_trigger}
   */
   readonly autoDeployTrigger?: string;
   /**
   * Branch of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#branch BackgroundWorker#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#branch BackgroundWorker#branch}
   */
   readonly branch: string;
   /**
   * Command to build the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#build_command BackgroundWorker#build_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#build_command BackgroundWorker#build_command}
   */
   readonly buildCommand: string;
   /**
   * Apply [build filters](https://render.com/docs/monorepo-support#build-filters) to configure which changes in your git repository trigger automatic deploys. If you've defined a root directory, you can still define paths outside of the root directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#build_filter BackgroundWorker#build_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#build_filter BackgroundWorker#build_filter}
   */
   readonly buildFilter?: BackgroundWorkerRuntimeSourceNativeRuntimeBuildFilter;
   /**
   * URL of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#repo_url BackgroundWorker#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#repo_url BackgroundWorker#repo_url}
   */
   readonly repoUrl: string;
   /**
   * Runtime of the service to use. Must be one of `elixir`, `go`, `node`, `python`, `ruby`, `rust`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#runtime BackgroundWorker#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#runtime BackgroundWorker#runtime}
   */
   readonly runtime: string;
 }
@@ -2474,19 +2474,19 @@ export interface BackgroundWorkerRuntimeSource {
   /**
   * Details for building and deploying a service [using a Dockerfile](https://render.com/docs/docker).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#docker BackgroundWorker#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#docker BackgroundWorker#docker}
   */
   readonly docker?: BackgroundWorkerRuntimeSourceDocker;
   /**
   * Details for deploying a service using a [Docker image from a registry](https://render.com/docs/deploy-an-image).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#image BackgroundWorker#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#image BackgroundWorker#image}
   */
   readonly image?: BackgroundWorkerRuntimeSourceImage;
   /**
   * Details for building and deploying a service using one of Render's [native runtimes](https://render.com/docs/native-runtimes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#native_runtime BackgroundWorker#native_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#native_runtime BackgroundWorker#native_runtime}
   */
   readonly nativeRuntime?: BackgroundWorkerRuntimeSourceNativeRuntime;
 }
@@ -2640,7 +2640,7 @@ export interface BackgroundWorkerSecretFiles {
   /**
   * The content of the secret file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#content BackgroundWorker#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#content BackgroundWorker#content}
   */
   readonly content: string;
 }
@@ -2751,7 +2751,7 @@ export class BackgroundWorkerSecretFilesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker render_background_worker}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker render_background_worker}
 */
 export class BackgroundWorker extends cdktf.TerraformResource {
 
@@ -2767,7 +2767,7 @@ export class BackgroundWorker extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BackgroundWorker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackgroundWorker to import
-  * @param importFromId The id of the existing BackgroundWorker that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackgroundWorker that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackgroundWorker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2779,7 +2779,7 @@ export class BackgroundWorker extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/background_worker render_background_worker} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/background_worker render_background_worker} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2790,8 +2790,8 @@ export class BackgroundWorker extends cdktf.TerraformResource {
       terraformResourceType: 'render_background_worker',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

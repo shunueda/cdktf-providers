@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataRenderBackgroundWorkerConfig extends cdktf.TerraformMetaArg
   /**
   * Unique identifier for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker#id DataRenderBackgroundWorker#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker#id DataRenderBackgroundWorker#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataRenderBackgroundWorkerConfig extends cdktf.TerraformMetaArg
   /**
   * Configure the [log stream override settings](https://render.com/docs/log-streams#overriding-defaults) for this service. These will override the global log stream settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker#log_stream_override DataRenderBackgroundWorker#log_stream_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker#log_stream_override DataRenderBackgroundWorker#log_stream_override}
   */
   readonly logStreamOverride?: DataRenderBackgroundWorkerLogStreamOverride;
 }
@@ -276,19 +276,19 @@ export interface DataRenderBackgroundWorkerDisk {
   /**
   * Absolute path to mount the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker#mount_path DataRenderBackgroundWorker#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker#mount_path DataRenderBackgroundWorker#mount_path}
   */
   readonly mountPath: string;
   /**
   * Name of the disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker#name DataRenderBackgroundWorker#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker#name DataRenderBackgroundWorker#name}
   */
   readonly name: string;
   /**
   * Size of the disk in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker#size_gb DataRenderBackgroundWorker#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker#size_gb DataRenderBackgroundWorker#size_gb}
   */
   readonly sizeGb: number;
 }
@@ -506,19 +506,19 @@ export interface DataRenderBackgroundWorkerLogStreamOverride {
   /**
   * The endpoint to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker#endpoint DataRenderBackgroundWorker#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker#endpoint DataRenderBackgroundWorker#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to send or drop logs for this service. Must be one of `send` or `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker#setting DataRenderBackgroundWorker#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker#setting DataRenderBackgroundWorker#setting}
   */
   readonly setting: string;
   /**
   * The token to use when sending logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker#token DataRenderBackgroundWorker#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker#token DataRenderBackgroundWorker#token}
   */
   readonly token?: string;
 }
@@ -931,13 +931,13 @@ export interface DataRenderBackgroundWorkerRuntimeSourceImage {
   /**
   * Digest of the Docker image to deploy. Mutually exclusive with tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker#digest DataRenderBackgroundWorker#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker#digest DataRenderBackgroundWorker#digest}
   */
   readonly digest?: string;
   /**
   * Tag of the Docker image to deploy. Mutually exclusive with digest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker#tag DataRenderBackgroundWorker#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker#tag DataRenderBackgroundWorker#tag}
   */
   readonly tag?: string;
 }
@@ -1344,7 +1344,7 @@ export class DataRenderBackgroundWorkerSecretFilesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker render_background_worker}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker render_background_worker}
 */
 export class DataRenderBackgroundWorker extends cdktf.TerraformDataSource {
 
@@ -1360,7 +1360,7 @@ export class DataRenderBackgroundWorker extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRenderBackgroundWorker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRenderBackgroundWorker to import
-  * @param importFromId The id of the existing DataRenderBackgroundWorker that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRenderBackgroundWorker that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRenderBackgroundWorker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1372,7 +1372,7 @@ export class DataRenderBackgroundWorker extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/background_worker render_background_worker} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/background_worker render_background_worker} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1383,8 +1383,8 @@ export class DataRenderBackgroundWorker extends cdktf.TerraformDataSource {
       terraformResourceType: 'render_background_worker',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

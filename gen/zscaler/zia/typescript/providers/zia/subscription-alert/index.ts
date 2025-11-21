@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/subscription_alert
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/subscription_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SubscriptionAlertConfig extends cdktf.TerraformMetaArguments {
   /**
   * Lists the severity levels of the Patient 0, Secure Alert class, System Alerts class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/subscription_alert#comply_severities SubscriptionAlert#comply_severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/subscription_alert#comply_severities SubscriptionAlert#comply_severities}
   */
   readonly complySeverities?: string[];
   /**
   * Enables or disables the status of the alert subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/subscription_alert#description SubscriptionAlert#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/subscription_alert#description SubscriptionAlert#description}
   */
   readonly description?: string;
   /**
   * The email address of the alert recipient
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/subscription_alert#email SubscriptionAlert#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/subscription_alert#email SubscriptionAlert#email}
   */
   readonly email?: string;
   /**
   * Lists the severity levels of the Patient 0, Secure Alert class, System Alerts class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/subscription_alert#manage_severities SubscriptionAlert#manage_severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/subscription_alert#manage_severities SubscriptionAlert#manage_severities}
   */
   readonly manageSeverities?: string[];
   /**
   * Lists the severity levels of the Patient 0, Secure Alert class, System Alerts class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/subscription_alert#pt0_severities SubscriptionAlert#pt0_severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/subscription_alert#pt0_severities SubscriptionAlert#pt0_severities}
   */
   readonly pt0Severities?: string[];
   /**
   * Lists the severity levels of the Patient 0, Secure Alert class, System Alerts class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/subscription_alert#secure_severities SubscriptionAlert#secure_severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/subscription_alert#secure_severities SubscriptionAlert#secure_severities}
   */
   readonly secureSeverities?: string[];
   /**
   * Lists the severity levels of the Patient 0, Secure Alert class, System Alerts class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/subscription_alert#system_severities SubscriptionAlert#system_severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/subscription_alert#system_severities SubscriptionAlert#system_severities}
   */
   readonly systemSeverities?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/subscription_alert zia_subscription_alert}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/subscription_alert zia_subscription_alert}
 */
 export class SubscriptionAlert extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class SubscriptionAlert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SubscriptionAlert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SubscriptionAlert to import
-  * @param importFromId The id of the existing SubscriptionAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/subscription_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SubscriptionAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/subscription_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SubscriptionAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class SubscriptionAlert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/subscription_alert zia_subscription_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/subscription_alert zia_subscription_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class SubscriptionAlert extends cdktf.TerraformResource {
       terraformResourceType: 'zia_subscription_alert',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

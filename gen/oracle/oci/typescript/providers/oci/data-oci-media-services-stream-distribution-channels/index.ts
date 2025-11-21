@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_stream_distribution_channels
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_stream_distribution_channels
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMediaServicesStreamDistributionChannelsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_stream_distribution_channels#compartment_id DataOciMediaServicesStreamDistributionChannels#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_stream_distribution_channels#compartment_id DataOciMediaServicesStreamDistributionChannels#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_stream_distribution_channels#display_name DataOciMediaServicesStreamDistributionChannels#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_stream_distribution_channels#display_name DataOciMediaServicesStreamDistributionChannels#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_stream_distribution_channels#id DataOciMediaServicesStreamDistributionChannels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_stream_distribution_channels#id DataOciMediaServicesStreamDistributionChannels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_stream_distribution_channels#state DataOciMediaServicesStreamDistributionChannels#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_stream_distribution_channels#state DataOciMediaServicesStreamDistributionChannels#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_stream_distribution_channels#filter DataOciMediaServicesStreamDistributionChannels#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_stream_distribution_channels#filter DataOciMediaServicesStreamDistributionChannels#filter}
   */
   readonly filter?: DataOciMediaServicesStreamDistributionChannelsFilter[] | cdktf.IResolvable;
 }
@@ -340,15 +340,15 @@ export class DataOciMediaServicesStreamDistributionChannelsStreamDistributionCha
 }
 export interface DataOciMediaServicesStreamDistributionChannelsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_stream_distribution_channels#name DataOciMediaServicesStreamDistributionChannels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_stream_distribution_channels#name DataOciMediaServicesStreamDistributionChannels#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_stream_distribution_channels#regex DataOciMediaServicesStreamDistributionChannels#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_stream_distribution_channels#regex DataOciMediaServicesStreamDistributionChannels#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_stream_distribution_channels#values DataOciMediaServicesStreamDistributionChannels#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_stream_distribution_channels#values DataOciMediaServicesStreamDistributionChannels#values}
   */
   readonly values: string[];
 }
@@ -516,7 +516,7 @@ export class DataOciMediaServicesStreamDistributionChannelsFilterList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_stream_distribution_channels oci_media_services_stream_distribution_channels}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_stream_distribution_channels oci_media_services_stream_distribution_channels}
 */
 export class DataOciMediaServicesStreamDistributionChannels extends cdktf.TerraformDataSource {
 
@@ -532,7 +532,7 @@ export class DataOciMediaServicesStreamDistributionChannels extends cdktf.Terraf
   * Generates CDKTF code for importing a DataOciMediaServicesStreamDistributionChannels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMediaServicesStreamDistributionChannels to import
-  * @param importFromId The id of the existing DataOciMediaServicesStreamDistributionChannels that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_stream_distribution_channels#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMediaServicesStreamDistributionChannels that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_stream_distribution_channels#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMediaServicesStreamDistributionChannels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -544,7 +544,7 @@ export class DataOciMediaServicesStreamDistributionChannels extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_stream_distribution_channels oci_media_services_stream_distribution_channels} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_stream_distribution_channels oci_media_services_stream_distribution_channels} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -555,8 +555,8 @@ export class DataOciMediaServicesStreamDistributionChannels extends cdktf.Terraf
       terraformResourceType: 'oci_media_services_stream_distribution_channels',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,205 +10,205 @@ export interface RiskProfilesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Filters applications based on their support for logging and tracking all administrative activities to identify potential security threats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#admin_audit_logs RiskProfiles#admin_audit_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#admin_audit_logs RiskProfiles#admin_audit_logs}
   */
   readonly adminAuditLogs?: string;
   /**
   * List of certifications to be included or excluded for the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#certifications RiskProfiles#certifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#certifications RiskProfiles#certifications}
   */
   readonly certifications?: string[];
   /**
   * Filters applications based on their history of reported data breaches in the last three years.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#data_breach RiskProfiles#data_breach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#data_breach RiskProfiles#data_breach}
   */
   readonly dataBreach?: string;
   /**
   * Filters applications based on their support for encrypting data in transit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#data_encryption_in_transit RiskProfiles#data_encryption_in_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#data_encryption_in_transit RiskProfiles#data_encryption_in_transit}
   */
   readonly dataEncryptionInTransit?: string[];
   /**
   * Filters applications based on their implementation of the DNS Certification Authority Authorization (CAA) policy that helps prevent unauthorized SSL certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#dns_caa_policy RiskProfiles#dns_caa_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#dns_caa_policy RiskProfiles#dns_caa_policy}
   */
   readonly dnsCaaPolicy?: string;
   /**
   * Filters applications based on their support for Domain-Based Message Authentication, Reporting, and Conformance (DMARC), which helps prevent email spoofing and phishing attacks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#domain_based_message_auth RiskProfiles#domain_based_message_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#domain_based_message_auth RiskProfiles#domain_based_message_auth}
   */
   readonly domainBasedMessageAuth?: string;
   /**
   * Filters applications based on their support for DomainKeys Identified Mail (DKIM) authentication, which helps prevent email tampering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#domain_keys_identified_mail RiskProfiles#domain_keys_identified_mail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#domain_keys_identified_mail RiskProfiles#domain_keys_identified_mail}
   */
   readonly domainKeysIdentifiedMail?: string;
   /**
   * Filters applications based on their support for anonymous access without requiring user authentication that can increase the risk of malicious activity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#evasive RiskProfiles#evasive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#evasive RiskProfiles#evasive}
   */
   readonly evasive?: string;
   /**
   * Indicates if the certificates are included or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#exclude_certificates RiskProfiles#exclude_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#exclude_certificates RiskProfiles#exclude_certificates}
   */
   readonly excludeCertificates?: number;
   /**
   * Filters applications based on their support for file sharing features that can increase the risk of data exfiltration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#file_sharing RiskProfiles#file_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#file_sharing RiskProfiles#file_sharing}
   */
   readonly fileSharing?: string;
   /**
   * Filters applications based on their implementation of all security headers (X-XSS-Protection, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy, and X-Content-Type-Options) to protect against common web attacks. This field is not applicable to the Lite API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#http_security_headers RiskProfiles#http_security_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#http_security_headers RiskProfiles#http_security_headers}
   */
   readonly httpSecurityHeaders?: string;
   /**
   * Filters applications based on their support for content malware scanning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#malware_scanning_for_content RiskProfiles#malware_scanning_for_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#malware_scanning_for_content RiskProfiles#malware_scanning_for_content}
   */
   readonly malwareScanningForContent?: string;
   /**
   * Filters applications based on their support for multi-factor authentication to enhance user account security.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#mfa_support RiskProfiles#mfa_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#mfa_support RiskProfiles#mfa_support}
   */
   readonly mfaSupport?: string;
   /**
   * Filters applications based on their password strength requirements under Hosting Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#password_strength RiskProfiles#password_strength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#password_strength RiskProfiles#password_strength}
   */
   readonly passwordStrength?: string;
   /**
   * Filters applications based on the presence of questionable terms and conditions in their legal agreements, such as sharing customer data with third-party applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#poor_items_of_service RiskProfiles#poor_items_of_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#poor_items_of_service RiskProfiles#poor_items_of_service}
   */
   readonly poorItemsOfService?: string;
   /**
   * Cloud application risk profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#profile_name RiskProfiles#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#profile_name RiskProfiles#profile_name}
   */
   readonly profileName: string;
   /**
   * Risk profile type. The default profile type is CLOUD_APPLICATIONS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#profile_type RiskProfiles#profile_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#profile_type RiskProfiles#profile_type}
   */
   readonly profileType?: string;
   /**
   * Filters applications based on their support for remote access screen sharing, which can increase the risk of data exfiltration if not properly secured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#remote_screen_sharing RiskProfiles#remote_screen_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#remote_screen_sharing RiskProfiles#remote_screen_sharing}
   */
   readonly remoteScreenSharing?: string;
   /**
   * The risk index number of the cloud applications. It represents the risk score assigned to each cloud application based on the risk attribute values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#risk_index RiskProfiles#risk_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#risk_index RiskProfiles#risk_index}
   */
   readonly riskIndex?: number[];
   /**
   * Filters applications based on their support for sender policy framework (SPF) authentication, which helps prevent email spoofing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#sender_policy_framework RiskProfiles#sender_policy_framework}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#sender_policy_framework RiskProfiles#sender_policy_framework}
   */
   readonly senderPolicyFramework?: string;
   /**
   * Filters applications based on their ability to restrict access to specific IP addresses, reducing the attack surface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#source_ip_restrictions RiskProfiles#source_ip_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#source_ip_restrictions RiskProfiles#source_ip_restrictions}
   */
   readonly sourceIpRestrictions?: string;
   /**
   * Filters applications based on the key size of their SSL certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#ssl_cert_key_size RiskProfiles#ssl_cert_key_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#ssl_cert_key_size RiskProfiles#ssl_cert_key_size}
   */
   readonly sslCertKeySize?: string;
   /**
   * Filters applications based on the validity period of their SSL certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#ssl_cert_validity RiskProfiles#ssl_cert_validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#ssl_cert_validity RiskProfiles#ssl_cert_validity}
   */
   readonly sslCertValidity?: string;
   /**
   * Filters applications based on their use of pinned SSL certificates, making it difficult for attackers to decrypt and validate traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#ssl_pinned RiskProfiles#ssl_pinned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#ssl_pinned RiskProfiles#ssl_pinned}
   */
   readonly sslPinned?: string;
   /**
   * Status of the applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#status RiskProfiles#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#status RiskProfiles#status}
   */
   readonly status?: string;
   /**
   * Filters applications based on their support for web application firewalls (WAFs) to protect against common web attacks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#support_for_waf RiskProfiles#support_for_waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#support_for_waf RiskProfiles#support_for_waf}
   */
   readonly supportForWaf?: string;
   /**
   * Filters applications based on their published CVE vulnerabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#vulnerability RiskProfiles#vulnerability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#vulnerability RiskProfiles#vulnerability}
   */
   readonly vulnerability?: string;
   /**
   * Filters applications based on their policy for disclosing known vulnerabilities, allowing ethical hackers to report potential security threats
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#vulnerability_disclosure RiskProfiles#vulnerability_disclosure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#vulnerability_disclosure RiskProfiles#vulnerability_disclosure}
   */
   readonly vulnerabilityDisclosure?: string;
   /**
   * Filters applications based on their vulnerability to the Heartbleed attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#vulnerable_to_heart_bleed RiskProfiles#vulnerable_to_heart_bleed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#vulnerable_to_heart_bleed RiskProfiles#vulnerable_to_heart_bleed}
   */
   readonly vulnerableToHeartBleed?: string;
   /**
   * Filters applications based on their vulnerability to the Logjam attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#vulnerable_to_log_jam RiskProfiles#vulnerable_to_log_jam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#vulnerable_to_log_jam RiskProfiles#vulnerable_to_log_jam}
   */
   readonly vulnerableToLogJam?: string;
   /**
   * Filters applications based on their vulnerability to the POODLE attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#vulnerable_to_poodle RiskProfiles#vulnerable_to_poodle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#vulnerable_to_poodle RiskProfiles#vulnerable_to_poodle}
   */
   readonly vulnerableToPoodle?: string;
   /**
   * Filters applications based on their support for weak ciphers with key sizes less than 128 bits that can compromise SSL connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#weak_cipher_support RiskProfiles#weak_cipher_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#weak_cipher_support RiskProfiles#weak_cipher_support}
   */
   readonly weakCipherSupport?: string;
   /**
   * custom_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#custom_tags RiskProfiles#custom_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#custom_tags RiskProfiles#custom_tags}
   */
   readonly customTags?: RiskProfilesCustomTags;
 }
 export interface RiskProfilesCustomTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#id RiskProfiles#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#id RiskProfiles#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -292,7 +292,7 @@ export class RiskProfilesCustomTagsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles zia_risk_profiles}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles zia_risk_profiles}
 */
 export class RiskProfiles extends cdktf.TerraformResource {
 
@@ -308,7 +308,7 @@ export class RiskProfiles extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RiskProfiles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RiskProfiles to import
-  * @param importFromId The id of the existing RiskProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RiskProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RiskProfiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -320,7 +320,7 @@ export class RiskProfiles extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/risk_profiles zia_risk_profiles} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/risk_profiles zia_risk_profiles} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -331,8 +331,8 @@ export class RiskProfiles extends cdktf.TerraformResource {
       terraformResourceType: 'zia_risk_profiles',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

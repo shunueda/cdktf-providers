@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface KeyvalueConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the [project environment](https://render.com/docs/projects) that the resource belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue#environment_id Keyvalue#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue#environment_id Keyvalue#environment_id}
   */
   readonly environmentId?: string;
   /**
   * List of IP addresses that are allowed to connect to the instance. If no IP addresses are provided, only connections via the private network will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue#ip_allow_list Keyvalue#ip_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue#ip_allow_list Keyvalue#ip_allow_list}
   */
   readonly ipAllowList?: KeyvalueIpAllowListStruct[] | cdktf.IResolvable;
   /**
   * Configure the [log stream override settings](https://render.com/docs/log-streams#overriding-defaults) for this service. These will override the global log stream settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue#log_stream_override Keyvalue#log_stream_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue#log_stream_override Keyvalue#log_stream_override}
   */
   readonly logStreamOverride?: KeyvalueLogStreamOverride;
   /**
   * Policy for evicting keys when the maxmemory limit is reached. Valid values are `allkeys_lfu`, `allkeys_lru`, `allkeys_random`, `noeviction`, `volatile_lfu`, `volatile_lru`, `volatile_random`, `volatile_ttl.`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue#max_memory_policy Keyvalue#max_memory_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue#max_memory_policy Keyvalue#max_memory_policy}
   */
   readonly maxMemoryPolicy: string;
   /**
   * Name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue#name Keyvalue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue#name Keyvalue#name}
   */
   readonly name: string;
   /**
   * Plan for the Key Value instance. Must be one of `free`, `starter`, `standard`, `pro`, `pro_plus`, or a custom plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue#plan Keyvalue#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue#plan Keyvalue#plan}
   */
   readonly plan?: string;
   /**
   * [Region](https://render.com/docs/regions) to deploy the service. One of `frankfurt`, `ohio`, `oregon`, `singapore`, `virginia`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue#region Keyvalue#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue#region Keyvalue#region}
   */
   readonly region: string;
 }
@@ -118,13 +118,13 @@ export interface KeyvalueIpAllowListStruct {
   /**
   * CIDR block that is allowed to connect to the Redis instance. (0.0.0.0/0 to allow traffic from all IPs) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue#cidr_block Keyvalue#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue#cidr_block Keyvalue#cidr_block}
   */
   readonly cidrBlock: string;
   /**
   * Description of the IP address or range. This is used to help identify the IP address or range in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue#description Keyvalue#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue#description Keyvalue#description}
   */
   readonly description: string;
 }
@@ -265,19 +265,19 @@ export interface KeyvalueLogStreamOverride {
   /**
   * The endpoint to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue#endpoint Keyvalue#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue#endpoint Keyvalue#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to send or drop logs for this service. Must be one of `send` or `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue#setting Keyvalue#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue#setting Keyvalue#setting}
   */
   readonly setting: string;
   /**
   * The token to use when sending logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue#token Keyvalue#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue#token Keyvalue#token}
   */
   readonly token?: string;
 }
@@ -426,7 +426,7 @@ export class KeyvalueLogStreamOverrideOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue render_keyvalue}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue render_keyvalue}
 */
 export class Keyvalue extends cdktf.TerraformResource {
 
@@ -442,7 +442,7 @@ export class Keyvalue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Keyvalue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Keyvalue to import
-  * @param importFromId The id of the existing Keyvalue that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Keyvalue that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Keyvalue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -454,7 +454,7 @@ export class Keyvalue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/keyvalue render_keyvalue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/keyvalue render_keyvalue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -465,8 +465,8 @@ export class Keyvalue extends cdktf.TerraformResource {
       terraformResourceType: 'render_keyvalue',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

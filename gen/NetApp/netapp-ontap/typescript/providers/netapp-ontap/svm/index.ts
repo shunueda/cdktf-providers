@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface SvmConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of Aggregates to be assigned use for svm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm#aggregates Svm#aggregates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm#aggregates Svm#aggregates}
   */
   readonly aggregates: SvmAggregates[] | cdktf.IResolvable;
   /**
   * Comment for svm to be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm#comment Svm#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm#comment Svm#comment}
   */
   readonly comment?: string;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm#cx_profile_name Svm#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm#cx_profile_name Svm#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * The name of the ipspace to manage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm#ipspace Svm#ipspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm#ipspace Svm#ipspace}
   */
   readonly ipspace?: string;
   /**
   * Language to use for svm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm#language Svm#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm#language Svm#language}
   */
   readonly language?: string;
   /**
   * Maximum number of volumes that can be created on the svm. Expects an integer or unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm#max_volumes Svm#max_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm#max_volumes Svm#max_volumes}
   */
   readonly maxVolumes?: string;
   /**
   * The name of the svm to manage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm#name Svm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm#name Svm#name}
   */
   readonly name: string;
   /**
   * The name of the snapshot policy to manage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm#snapshot_policy Svm#snapshot_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm#snapshot_policy Svm#snapshot_policy}
   */
   readonly snapshotPolicy?: string;
   /**
   * Maximum storage permitted on svm, in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm#storage_limit Svm#storage_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm#storage_limit Svm#storage_limit}
   */
   readonly storageLimit?: number;
   /**
   * The subtype for svm to be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm#subtype Svm#subtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm#subtype Svm#subtype}
   */
   readonly subtype?: string;
 }
@@ -72,7 +72,7 @@ export interface SvmAggregates {
   /**
   * Name of the aggregate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm#name Svm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm#name Svm#name}
   */
   readonly name: string;
 }
@@ -185,7 +185,7 @@ export class SvmAggregatesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm netapp-ontap_svm}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm netapp-ontap_svm}
 */
 export class Svm extends cdktf.TerraformResource {
 
@@ -201,7 +201,7 @@ export class Svm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Svm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Svm to import
-  * @param importFromId The id of the existing Svm that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Svm that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Svm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -213,7 +213,7 @@ export class Svm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm netapp-ontap_svm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm netapp-ontap_svm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,8 +224,8 @@ export class Svm extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_svm',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciJmsFleetUncorrelatedPackageManagedInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#application_id DataOciJmsFleetUncorrelatedPackageManagedInstances#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#application_id DataOciJmsFleetUncorrelatedPackageManagedInstances#application_id}
   */
   readonly applicationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#fleet_id DataOciJmsFleetUncorrelatedPackageManagedInstances#fleet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#fleet_id DataOciJmsFleetUncorrelatedPackageManagedInstances#fleet_id}
   */
   readonly fleetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#id DataOciJmsFleetUncorrelatedPackageManagedInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#id DataOciJmsFleetUncorrelatedPackageManagedInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#managed_instance_id DataOciJmsFleetUncorrelatedPackageManagedInstances#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#managed_instance_id DataOciJmsFleetUncorrelatedPackageManagedInstances#managed_instance_id}
   */
   readonly managedInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#package_name DataOciJmsFleetUncorrelatedPackageManagedInstances#package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#package_name DataOciJmsFleetUncorrelatedPackageManagedInstances#package_name}
   */
   readonly packageName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#time_end DataOciJmsFleetUncorrelatedPackageManagedInstances#time_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#time_end DataOciJmsFleetUncorrelatedPackageManagedInstances#time_end}
   */
   readonly timeEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#time_start DataOciJmsFleetUncorrelatedPackageManagedInstances#time_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#time_start DataOciJmsFleetUncorrelatedPackageManagedInstances#time_start}
   */
   readonly timeStart?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#filter DataOciJmsFleetUncorrelatedPackageManagedInstances#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#filter DataOciJmsFleetUncorrelatedPackageManagedInstances#filter}
   */
   readonly filter?: DataOciJmsFleetUncorrelatedPackageManagedInstancesFilter[] | cdktf.IResolvable;
 }
@@ -213,15 +213,15 @@ export class DataOciJmsFleetUncorrelatedPackageManagedInstancesUncorrelatedPacka
 }
 export interface DataOciJmsFleetUncorrelatedPackageManagedInstancesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#name DataOciJmsFleetUncorrelatedPackageManagedInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#name DataOciJmsFleetUncorrelatedPackageManagedInstances#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#regex DataOciJmsFleetUncorrelatedPackageManagedInstances#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#regex DataOciJmsFleetUncorrelatedPackageManagedInstances#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#values DataOciJmsFleetUncorrelatedPackageManagedInstances#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#values DataOciJmsFleetUncorrelatedPackageManagedInstances#values}
   */
   readonly values: string[];
 }
@@ -389,7 +389,7 @@ export class DataOciJmsFleetUncorrelatedPackageManagedInstancesFilterList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances oci_jms_fleet_uncorrelated_package_managed_instances}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances oci_jms_fleet_uncorrelated_package_managed_instances}
 */
 export class DataOciJmsFleetUncorrelatedPackageManagedInstances extends cdktf.TerraformDataSource {
 
@@ -405,7 +405,7 @@ export class DataOciJmsFleetUncorrelatedPackageManagedInstances extends cdktf.Te
   * Generates CDKTF code for importing a DataOciJmsFleetUncorrelatedPackageManagedInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciJmsFleetUncorrelatedPackageManagedInstances to import
-  * @param importFromId The id of the existing DataOciJmsFleetUncorrelatedPackageManagedInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciJmsFleetUncorrelatedPackageManagedInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciJmsFleetUncorrelatedPackageManagedInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -417,7 +417,7 @@ export class DataOciJmsFleetUncorrelatedPackageManagedInstances extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances oci_jms_fleet_uncorrelated_package_managed_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances oci_jms_fleet_uncorrelated_package_managed_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -428,8 +428,8 @@ export class DataOciJmsFleetUncorrelatedPackageManagedInstances extends cdktf.Te
       terraformResourceType: 'oci_jms_fleet_uncorrelated_package_managed_instances',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

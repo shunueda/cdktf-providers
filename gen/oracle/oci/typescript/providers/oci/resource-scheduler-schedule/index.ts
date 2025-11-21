@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceSchedulerScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#action ResourceSchedulerSchedule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#action ResourceSchedulerSchedule#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#compartment_id ResourceSchedulerSchedule#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#compartment_id ResourceSchedulerSchedule#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#defined_tags ResourceSchedulerSchedule#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#defined_tags ResourceSchedulerSchedule#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#description ResourceSchedulerSchedule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#description ResourceSchedulerSchedule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#display_name ResourceSchedulerSchedule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#display_name ResourceSchedulerSchedule#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#freeform_tags ResourceSchedulerSchedule#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#freeform_tags ResourceSchedulerSchedule#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#id ResourceSchedulerSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#id ResourceSchedulerSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#recurrence_details ResourceSchedulerSchedule#recurrence_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#recurrence_details ResourceSchedulerSchedule#recurrence_details}
   */
   readonly recurrenceDetails: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#recurrence_type ResourceSchedulerSchedule#recurrence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#recurrence_type ResourceSchedulerSchedule#recurrence_type}
   */
   readonly recurrenceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#state ResourceSchedulerSchedule#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#state ResourceSchedulerSchedule#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#time_ends ResourceSchedulerSchedule#time_ends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#time_ends ResourceSchedulerSchedule#time_ends}
   */
   readonly timeEnds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#time_starts ResourceSchedulerSchedule#time_starts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#time_starts ResourceSchedulerSchedule#time_starts}
   */
   readonly timeStarts?: string;
   /**
   * resource_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#resource_filters ResourceSchedulerSchedule#resource_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#resource_filters ResourceSchedulerSchedule#resource_filters}
   */
   readonly resourceFilters?: ResourceSchedulerScheduleResourceFilters[] | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#resources ResourceSchedulerSchedule#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#resources ResourceSchedulerSchedule#resources}
   */
   readonly resources?: ResourceSchedulerScheduleResources[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#timeouts ResourceSchedulerSchedule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#timeouts ResourceSchedulerSchedule#timeouts}
   */
   readonly timeouts?: ResourceSchedulerScheduleTimeouts;
 }
 export interface ResourceSchedulerScheduleResourceFiltersValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#namespace ResourceSchedulerSchedule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#namespace ResourceSchedulerSchedule#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#tag_key ResourceSchedulerSchedule#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#tag_key ResourceSchedulerSchedule#tag_key}
   */
   readonly tagKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#value ResourceSchedulerSchedule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#value ResourceSchedulerSchedule#value}
   */
   readonly value?: string;
 }
@@ -261,21 +261,21 @@ export class ResourceSchedulerScheduleResourceFiltersValueList extends cdktf.Com
 }
 export interface ResourceSchedulerScheduleResourceFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#attribute ResourceSchedulerSchedule#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#attribute ResourceSchedulerSchedule#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#condition ResourceSchedulerSchedule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#condition ResourceSchedulerSchedule#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#should_include_child_compartments ResourceSchedulerSchedule#should_include_child_compartments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#should_include_child_compartments ResourceSchedulerSchedule#should_include_child_compartments}
   */
   readonly shouldIncludeChildCompartments?: boolean | cdktf.IResolvable;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#value ResourceSchedulerSchedule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#value ResourceSchedulerSchedule#value}
   */
   readonly value?: ResourceSchedulerScheduleResourceFiltersValue[] | cdktf.IResolvable;
 }
@@ -475,11 +475,11 @@ export class ResourceSchedulerScheduleResourceFiltersList extends cdktf.ComplexL
 }
 export interface ResourceSchedulerScheduleResourcesParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#parameter_type ResourceSchedulerSchedule#parameter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#parameter_type ResourceSchedulerSchedule#parameter_type}
   */
   readonly parameterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#value ResourceSchedulerSchedule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#value ResourceSchedulerSchedule#value}
   */
   readonly value?: string[];
 }
@@ -621,20 +621,20 @@ export class ResourceSchedulerScheduleResourcesParametersList extends cdktf.Comp
 }
 export interface ResourceSchedulerScheduleResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#id ResourceSchedulerSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#id ResourceSchedulerSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#metadata ResourceSchedulerSchedule#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#metadata ResourceSchedulerSchedule#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#parameters ResourceSchedulerSchedule#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#parameters ResourceSchedulerSchedule#parameters}
   */
   readonly parameters?: ResourceSchedulerScheduleResourcesParameters[] | cdktf.IResolvable;
 }
@@ -805,15 +805,15 @@ export class ResourceSchedulerScheduleResourcesList extends cdktf.ComplexList {
 }
 export interface ResourceSchedulerScheduleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#create ResourceSchedulerSchedule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#create ResourceSchedulerSchedule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#delete ResourceSchedulerSchedule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#delete ResourceSchedulerSchedule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#update ResourceSchedulerSchedule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#update ResourceSchedulerSchedule#update}
   */
   readonly update?: string;
 }
@@ -965,7 +965,7 @@ export class ResourceSchedulerScheduleTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule oci_resource_scheduler_schedule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule oci_resource_scheduler_schedule}
 */
 export class ResourceSchedulerSchedule extends cdktf.TerraformResource {
 
@@ -981,7 +981,7 @@ export class ResourceSchedulerSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceSchedulerSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceSchedulerSchedule to import
-  * @param importFromId The id of the existing ResourceSchedulerSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceSchedulerSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceSchedulerSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -993,7 +993,7 @@ export class ResourceSchedulerSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/resource_scheduler_schedule oci_resource_scheduler_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_scheduler_schedule oci_resource_scheduler_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1004,8 +1004,8 @@ export class ResourceSchedulerSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'oci_resource_scheduler_schedule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

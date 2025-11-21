@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface CloudGuardAdhocQueryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#compartment_id CloudGuardAdhocQuery#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#compartment_id CloudGuardAdhocQuery#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#defined_tags CloudGuardAdhocQuery#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#defined_tags CloudGuardAdhocQuery#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#freeform_tags CloudGuardAdhocQuery#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#freeform_tags CloudGuardAdhocQuery#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#id CloudGuardAdhocQuery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#id CloudGuardAdhocQuery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface CloudGuardAdhocQueryConfig extends cdktf.TerraformMetaArguments
   /**
   * adhoc_query_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#adhoc_query_details CloudGuardAdhocQuery#adhoc_query_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#adhoc_query_details CloudGuardAdhocQuery#adhoc_query_details}
   */
   readonly adhocQueryDetails: CloudGuardAdhocQueryAdhocQueryDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#timeouts CloudGuardAdhocQuery#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#timeouts CloudGuardAdhocQuery#timeouts}
   */
   readonly timeouts?: CloudGuardAdhocQueryTimeouts;
 }
@@ -146,15 +146,15 @@ export class CloudGuardAdhocQueryAdhocQueryRegionalDetailsList extends cdktf.Com
 }
 export interface CloudGuardAdhocQueryAdhocQueryDetailsAdhocQueryResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#region CloudGuardAdhocQuery#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#region CloudGuardAdhocQuery#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#resource_ids CloudGuardAdhocQuery#resource_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#resource_ids CloudGuardAdhocQuery#resource_ids}
   */
   readonly resourceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#resource_type CloudGuardAdhocQuery#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#resource_type CloudGuardAdhocQuery#resource_type}
   */
   readonly resourceType?: string;
 }
@@ -328,13 +328,13 @@ export class CloudGuardAdhocQueryAdhocQueryDetailsAdhocQueryResourcesList extend
 }
 export interface CloudGuardAdhocQueryAdhocQueryDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#query CloudGuardAdhocQuery#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#query CloudGuardAdhocQuery#query}
   */
   readonly query: string;
   /**
   * adhoc_query_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#adhoc_query_resources CloudGuardAdhocQuery#adhoc_query_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#adhoc_query_resources CloudGuardAdhocQuery#adhoc_query_resources}
   */
   readonly adhocQueryResources: CloudGuardAdhocQueryAdhocQueryDetailsAdhocQueryResources[] | cdktf.IResolvable;
 }
@@ -441,15 +441,15 @@ export class CloudGuardAdhocQueryAdhocQueryDetailsOutputReference extends cdktf.
 }
 export interface CloudGuardAdhocQueryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#create CloudGuardAdhocQuery#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#create CloudGuardAdhocQuery#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#delete CloudGuardAdhocQuery#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#delete CloudGuardAdhocQuery#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#update CloudGuardAdhocQuery#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#update CloudGuardAdhocQuery#update}
   */
   readonly update?: string;
 }
@@ -601,7 +601,7 @@ export class CloudGuardAdhocQueryTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query oci_cloud_guard_adhoc_query}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query oci_cloud_guard_adhoc_query}
 */
 export class CloudGuardAdhocQuery extends cdktf.TerraformResource {
 
@@ -617,7 +617,7 @@ export class CloudGuardAdhocQuery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudGuardAdhocQuery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudGuardAdhocQuery to import
-  * @param importFromId The id of the existing CloudGuardAdhocQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudGuardAdhocQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudGuardAdhocQuery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -629,7 +629,7 @@ export class CloudGuardAdhocQuery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_adhoc_query oci_cloud_guard_adhoc_query} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_guard_adhoc_query oci_cloud_guard_adhoc_query} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -640,8 +640,8 @@ export class CloudGuardAdhocQuery extends cdktf.TerraformResource {
       terraformResourceType: 'oci_cloud_guard_adhoc_query',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

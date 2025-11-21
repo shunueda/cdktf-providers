@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface PrivateServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * [Autoscaling settings](https://render.com/docs/scaling#autoscaling) for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#autoscaling PrivateService#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#autoscaling PrivateService#autoscaling}
   */
   readonly autoscaling?: PrivateServiceAutoscaling;
   /**
   * [Persistent disk](https://render.com/docs/disks) to attach to the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#disk PrivateService#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#disk PrivateService#disk}
   */
   readonly disk?: PrivateServiceDisk;
   /**
   * Map of environment variable names to their values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#env_vars PrivateService#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#env_vars PrivateService#env_vars}
   */
   readonly envVars?: { [key: string]: PrivateServiceEnvVars } | cdktf.IResolvable;
   /**
   * ID of the [project environment](https://render.com/docs/projects) that the resource belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#environment_id PrivateService#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#environment_id PrivateService#environment_id}
   */
   readonly environmentId?: string;
   /**
   * Configure the [log stream override settings](https://render.com/docs/log-streams#overriding-defaults) for this service. These will override the global log stream settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#log_stream_override PrivateService#log_stream_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#log_stream_override PrivateService#log_stream_override}
   */
   readonly logStreamOverride?: PrivateServiceLogStreamOverride;
   /**
   * The maximum amount of time (in seconds) that Render waits for your application process to exit gracefully after sending it a SIGTERM signal before sending a SIGKILL signal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#max_shutdown_delay_seconds PrivateService#max_shutdown_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#max_shutdown_delay_seconds PrivateService#max_shutdown_delay_seconds}
   */
   readonly maxShutdownDelaySeconds?: number;
   /**
   * Name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#name PrivateService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#name PrivateService#name}
   */
   readonly name: string;
   /**
   * Configure the [notification settings](https://render.com/docs/notifications) for this service. These will override the global notification settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#notification_override PrivateService#notification_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#notification_override PrivateService#notification_override}
   */
   readonly notificationOverride?: PrivateServiceNotificationOverride;
   /**
   * Number of replicas of the service to run. Defaults to 1 on service creation and current instance count on update. If you want to manage the service's instance count outside Terraform, leave num_instances unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#num_instances PrivateService#num_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#num_instances PrivateService#num_instances}
   */
   readonly numInstances?: number;
   /**
   * Plan to use for the service. Must be one of `starter`, `standard`, `pro`, `pro_plus`, `pro_max`, `pro_ultra`, or a custom plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#plan PrivateService#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#plan PrivateService#plan}
   */
   readonly plan: string;
   /**
   * This command runs before starting your service. It is typically used for tasks like running a database migration or uploading assets to a CDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#pre_deploy_command PrivateService#pre_deploy_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#pre_deploy_command PrivateService#pre_deploy_command}
   */
   readonly preDeployCommand?: string;
   /**
   * [Pull request previews](https://render.com/docs/pull-request-previews#pull-request-previews-git-backed) settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#previews PrivateService#previews}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#previews PrivateService#previews}
   */
   readonly previews?: PrivateServicePreviews;
   /**
   * Enable [pull request previews](https://render.com/docs/pull-request-previews#pull-request-previews-git-backed) for the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#pull_request_previews_enabled PrivateService#pull_request_previews_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#pull_request_previews_enabled PrivateService#pull_request_previews_enabled}
   */
   readonly pullRequestPreviewsEnabled?: boolean | cdktf.IResolvable;
   /**
   * [Region](https://render.com/docs/regions) to deploy the service. One of `frankfurt`, `ohio`, `oregon`, `singapore`, `virginia`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#region PrivateService#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#region PrivateService#region}
   */
   readonly region: string;
   /**
   * When you specify a [root directory](https://render.com/docs/monorepo-support#root-directory), Render runs all your commands in the specified directory and ignores changes outside the directory. Defaults to the repository root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#root_directory PrivateService#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#root_directory PrivateService#root_directory}
   */
   readonly rootDirectory?: string;
   /**
   * Source of the build artifacts or image that run your service. You must provide one of [native_runtime](https://render.com/docs/native-runtimes), [docker](https://render.com/docs/docker), or [image](https://render.com/docs/deploy-an-image).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#runtime_source PrivateService#runtime_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#runtime_source PrivateService#runtime_source}
   */
   readonly runtimeSource: PrivateServiceRuntimeSource;
   /**
   * A map of secret file paths to their contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#secret_files PrivateService#secret_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#secret_files PrivateService#secret_files}
   */
   readonly secretFiles?: { [key: string]: PrivateServiceSecretFiles } | cdktf.IResolvable;
   /**
   * Command to run the service. When using native runtimes, this will be used as the start command and is required. For [Docker](https://render.com/docs/docker) and [image-backed](https://render.com/docs/deploy-an-image) services, this will override the default Docker command for the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#start_command PrivateService#start_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#start_command PrivateService#start_command}
   */
   readonly startCommand?: string;
 }
@@ -120,13 +120,13 @@ export interface PrivateServiceAutoscalingCriteriaCpu {
   /**
   * Whether CPU-based autoscaling is enabled for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#enabled PrivateService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#enabled PrivateService#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Determines when your service will be scaled. If the average resource utilization is significantly above/below the target, we will increase/decrease the number of instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#percentage PrivateService#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#percentage PrivateService#percentage}
   */
   readonly percentage: number;
 }
@@ -245,13 +245,13 @@ export interface PrivateServiceAutoscalingCriteriaMemory {
   /**
   * Whether memory-based autoscaling is enabled for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#enabled PrivateService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#enabled PrivateService#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Determines when your service will be scaled. If the average resource utilization is significantly above/below the target, we will increase/decrease the number of instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#percentage PrivateService#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#percentage PrivateService#percentage}
   */
   readonly percentage: number;
 }
@@ -368,11 +368,11 @@ export class PrivateServiceAutoscalingCriteriaMemoryOutputReference extends cdkt
 }
 export interface PrivateServiceAutoscalingCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#cpu PrivateService#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#cpu PrivateService#cpu}
   */
   readonly cpu?: PrivateServiceAutoscalingCriteriaCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#memory PrivateService#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#memory PrivateService#memory}
   */
   readonly memory?: PrivateServiceAutoscalingCriteriaMemory;
 }
@@ -495,25 +495,25 @@ export class PrivateServiceAutoscalingCriteriaOutputReference extends cdktf.Comp
 }
 export interface PrivateServiceAutoscaling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#criteria PrivateService#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#criteria PrivateService#criteria}
   */
   readonly criteria: PrivateServiceAutoscalingCriteria;
   /**
   * Whether autoscaling is enabled for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#enabled PrivateService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#enabled PrivateService#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The maximum number of instances for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#max PrivateService#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#max PrivateService#max}
   */
   readonly max: number;
   /**
   * The minimum number of instances for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#min PrivateService#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#min PrivateService#min}
   */
   readonly min: number;
 }
@@ -684,19 +684,19 @@ export interface PrivateServiceDisk {
   /**
   * Absolute path to mount the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#mount_path PrivateService#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#mount_path PrivateService#mount_path}
   */
   readonly mountPath: string;
   /**
   * Name of the disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#name PrivateService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#name PrivateService#name}
   */
   readonly name: string;
   /**
   * Size of the disk in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#size_gb PrivateService#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#size_gb PrivateService#size_gb}
   */
   readonly sizeGb: number;
 }
@@ -846,11 +846,11 @@ export interface PrivateServiceEnvVars {
   /**
   * If true, Render will generate the variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#generate_value PrivateService#generate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#generate_value PrivateService#generate_value}
   */
   readonly generateValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#value PrivateService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#value PrivateService#value}
   */
   readonly value?: string;
 }
@@ -995,19 +995,19 @@ export interface PrivateServiceLogStreamOverride {
   /**
   * The endpoint to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#endpoint PrivateService#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#endpoint PrivateService#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to send or drop logs for this service. Must be one of `send` or `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#setting PrivateService#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#setting PrivateService#setting}
   */
   readonly setting: string;
   /**
   * The token to use when sending logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#token PrivateService#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#token PrivateService#token}
   */
   readonly token?: string;
 }
@@ -1158,13 +1158,13 @@ export interface PrivateServiceNotificationOverride {
   /**
   * The types of notifications to send. Must be one of `default`, `all`, `failure`, or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#notifications_to_send PrivateService#notifications_to_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#notifications_to_send PrivateService#notifications_to_send}
   */
   readonly notificationsToSend?: string;
   /**
   * Whether notifications for previews of this service are sent. Must be one of `all`, `failure`, or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#preview_notifications_enabled PrivateService#preview_notifications_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#preview_notifications_enabled PrivateService#preview_notifications_enabled}
   */
   readonly previewNotificationsEnabled?: string;
 }
@@ -1289,7 +1289,7 @@ export interface PrivateServicePreviews {
   /**
   * Generation mode for [pull request previews](https://render.com/docs/pull-request-previews#pull-request-previews-git-backed). One of `off`, `manual`, or `automatic`. Defaults to `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#generation PrivateService#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#generation PrivateService#generation}
   */
   readonly generation?: string;
 }
@@ -1385,13 +1385,13 @@ export interface PrivateServiceRuntimeSourceDockerBuildFilter {
   /**
   * Changes that match these paths will not trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#ignored_paths PrivateService#ignored_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#ignored_paths PrivateService#ignored_paths}
   */
   readonly ignoredPaths?: string[];
   /**
   * Changes that match these paths will trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#paths PrivateService#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#paths PrivateService#paths}
   */
   readonly paths?: string[];
 }
@@ -1516,49 +1516,49 @@ export interface PrivateServiceRuntimeSourceDocker {
   /**
   * [Automatic deploy](https://render.com/docs/deploys#automatic-git-deploys) on every push to your repository, or changes to your service settings or environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#auto_deploy PrivateService#auto_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#auto_deploy PrivateService#auto_deploy}
   */
   readonly autoDeploy?: boolean | cdktf.IResolvable;
   /**
   * Sets the Automatic deploy behavior for a Git-based service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#auto_deploy_trigger PrivateService#auto_deploy_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#auto_deploy_trigger PrivateService#auto_deploy_trigger}
   */
   readonly autoDeployTrigger?: string;
   /**
   * Branch of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#branch PrivateService#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#branch PrivateService#branch}
   */
   readonly branch: string;
   /**
   * Apply [build filters](https://render.com/docs/monorepo-support#build-filters) to configure which changes in your git repository trigger automatic deploys. If you've defined a root directory, you can still define paths outside of the root directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#build_filter PrivateService#build_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#build_filter PrivateService#build_filter}
   */
   readonly buildFilter?: PrivateServiceRuntimeSourceDockerBuildFilter;
   /**
   * [Docker build context directory.](https://docs.docker.com/reference/dockerfile/#usage) This is relative to your repository root. Defaults to the root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#context PrivateService#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#context PrivateService#context}
   */
   readonly context?: string;
   /**
   * Path to your Dockerfile relative to the repository root. This is not relative to your Docker build context. Example: `./subdir/Dockerfile.`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#dockerfile_path PrivateService#dockerfile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#dockerfile_path PrivateService#dockerfile_path}
   */
   readonly dockerfilePath?: string;
   /**
   * ID of the registry credential to use when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#registry_credential_id PrivateService#registry_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#registry_credential_id PrivateService#registry_credential_id}
   */
   readonly registryCredentialId?: string;
   /**
   * URL of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#repo_url PrivateService#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#repo_url PrivateService#repo_url}
   */
   readonly repoUrl: string;
 }
@@ -1851,25 +1851,25 @@ export interface PrivateServiceRuntimeSourceImage {
   /**
   * Digest of the Docker image to deploy. Mutually exclusive with tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#digest PrivateService#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#digest PrivateService#digest}
   */
   readonly digest?: string;
   /**
   * URL of the Docker image to deploy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#image_url PrivateService#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#image_url PrivateService#image_url}
   */
   readonly imageUrl: string;
   /**
   * ID of the registry credential to use when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#registry_credential_id PrivateService#registry_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#registry_credential_id PrivateService#registry_credential_id}
   */
   readonly registryCredentialId?: string;
   /**
   * Tag of the Docker image to deploy. Mutually exclusive with digest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#tag PrivateService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#tag PrivateService#tag}
   */
   readonly tag?: string;
 }
@@ -2049,13 +2049,13 @@ export interface PrivateServiceRuntimeSourceNativeRuntimeBuildFilter {
   /**
   * Changes that match these paths will not trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#ignored_paths PrivateService#ignored_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#ignored_paths PrivateService#ignored_paths}
   */
   readonly ignoredPaths?: string[];
   /**
   * Changes that match these paths will trigger a new build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#paths PrivateService#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#paths PrivateService#paths}
   */
   readonly paths?: string[];
 }
@@ -2180,43 +2180,43 @@ export interface PrivateServiceRuntimeSourceNativeRuntime {
   /**
   * [Automatic deploy](https://render.com/docs/deploys#automatic-git-deploys) on every push to your repository, or changes to your service settings or environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#auto_deploy PrivateService#auto_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#auto_deploy PrivateService#auto_deploy}
   */
   readonly autoDeploy?: boolean | cdktf.IResolvable;
   /**
   * Sets the Automatic deploy behavior for a Git-based service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#auto_deploy_trigger PrivateService#auto_deploy_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#auto_deploy_trigger PrivateService#auto_deploy_trigger}
   */
   readonly autoDeployTrigger?: string;
   /**
   * Branch of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#branch PrivateService#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#branch PrivateService#branch}
   */
   readonly branch: string;
   /**
   * Command to build the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#build_command PrivateService#build_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#build_command PrivateService#build_command}
   */
   readonly buildCommand: string;
   /**
   * Apply [build filters](https://render.com/docs/monorepo-support#build-filters) to configure which changes in your git repository trigger automatic deploys. If you've defined a root directory, you can still define paths outside of the root directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#build_filter PrivateService#build_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#build_filter PrivateService#build_filter}
   */
   readonly buildFilter?: PrivateServiceRuntimeSourceNativeRuntimeBuildFilter;
   /**
   * URL of the git repository to build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#repo_url PrivateService#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#repo_url PrivateService#repo_url}
   */
   readonly repoUrl: string;
   /**
   * Runtime of the service to use. Must be one of `elixir`, `go`, `node`, `python`, `ruby`, `rust`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#runtime PrivateService#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#runtime PrivateService#runtime}
   */
   readonly runtime: string;
 }
@@ -2474,19 +2474,19 @@ export interface PrivateServiceRuntimeSource {
   /**
   * Details for building and deploying a service [using a Dockerfile](https://render.com/docs/docker).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#docker PrivateService#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#docker PrivateService#docker}
   */
   readonly docker?: PrivateServiceRuntimeSourceDocker;
   /**
   * Details for deploying a service using a [Docker image from a registry](https://render.com/docs/deploy-an-image).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#image PrivateService#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#image PrivateService#image}
   */
   readonly image?: PrivateServiceRuntimeSourceImage;
   /**
   * Details for building and deploying a service using one of Render's [native runtimes](https://render.com/docs/native-runtimes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#native_runtime PrivateService#native_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#native_runtime PrivateService#native_runtime}
   */
   readonly nativeRuntime?: PrivateServiceRuntimeSourceNativeRuntime;
 }
@@ -2640,7 +2640,7 @@ export interface PrivateServiceSecretFiles {
   /**
   * The content of the secret file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#content PrivateService#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#content PrivateService#content}
   */
   readonly content: string;
 }
@@ -2751,7 +2751,7 @@ export class PrivateServiceSecretFilesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service render_private_service}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service render_private_service}
 */
 export class PrivateService extends cdktf.TerraformResource {
 
@@ -2767,7 +2767,7 @@ export class PrivateService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateService to import
-  * @param importFromId The id of the existing PrivateService that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateService that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2779,7 +2779,7 @@ export class PrivateService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/private_service render_private_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/private_service render_private_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2790,8 +2790,8 @@ export class PrivateService extends cdktf.TerraformResource {
       terraformResourceType: 'render_private_service',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

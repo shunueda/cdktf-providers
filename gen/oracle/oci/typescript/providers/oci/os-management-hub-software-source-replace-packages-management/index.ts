@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_replace_packages_management
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_replace_packages_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface OsManagementHubSoftwareSourceReplacePackagesManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_replace_packages_management#id OsManagementHubSoftwareSourceReplacePackagesManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_replace_packages_management#id OsManagementHubSoftwareSourceReplacePackagesManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_replace_packages_management#packages OsManagementHubSoftwareSourceReplacePackagesManagement#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_replace_packages_management#packages OsManagementHubSoftwareSourceReplacePackagesManagement#packages}
   */
   readonly packages: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_replace_packages_management#software_source_id OsManagementHubSoftwareSourceReplacePackagesManagement#software_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_replace_packages_management#software_source_id OsManagementHubSoftwareSourceReplacePackagesManagement#software_source_id}
   */
   readonly softwareSourceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_replace_packages_management#timeouts OsManagementHubSoftwareSourceReplacePackagesManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_replace_packages_management#timeouts OsManagementHubSoftwareSourceReplacePackagesManagement#timeouts}
   */
   readonly timeouts?: OsManagementHubSoftwareSourceReplacePackagesManagementTimeouts;
 }
 export interface OsManagementHubSoftwareSourceReplacePackagesManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_replace_packages_management#create OsManagementHubSoftwareSourceReplacePackagesManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_replace_packages_management#create OsManagementHubSoftwareSourceReplacePackagesManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_replace_packages_management#delete OsManagementHubSoftwareSourceReplacePackagesManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_replace_packages_management#delete OsManagementHubSoftwareSourceReplacePackagesManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_replace_packages_management#update OsManagementHubSoftwareSourceReplacePackagesManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_replace_packages_management#update OsManagementHubSoftwareSourceReplacePackagesManagement#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class OsManagementHubSoftwareSourceReplacePackagesManagementTimeoutsOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_replace_packages_management oci_os_management_hub_software_source_replace_packages_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_replace_packages_management oci_os_management_hub_software_source_replace_packages_management}
 */
 export class OsManagementHubSoftwareSourceReplacePackagesManagement extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class OsManagementHubSoftwareSourceReplacePackagesManagement extends cdkt
   * Generates CDKTF code for importing a OsManagementHubSoftwareSourceReplacePackagesManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsManagementHubSoftwareSourceReplacePackagesManagement to import
-  * @param importFromId The id of the existing OsManagementHubSoftwareSourceReplacePackagesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_replace_packages_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsManagementHubSoftwareSourceReplacePackagesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_replace_packages_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsManagementHubSoftwareSourceReplacePackagesManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class OsManagementHubSoftwareSourceReplacePackagesManagement extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_replace_packages_management oci_os_management_hub_software_source_replace_packages_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_software_source_replace_packages_management oci_os_management_hub_software_source_replace_packages_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class OsManagementHubSoftwareSourceReplacePackagesManagement extends cdkt
       terraformResourceType: 'oci_os_management_hub_software_source_replace_packages_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

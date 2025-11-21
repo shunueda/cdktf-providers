@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,96 +8,96 @@ import * as cdktf from 'cdktf';
 
 export interface ProjectCloudAccessRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#apply_to_all_accounts ProjectCloudAccessRole#apply_to_all_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#apply_to_all_accounts ProjectCloudAccessRole#apply_to_all_accounts}
   */
   readonly applyToAllAccounts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#aws_iam_path ProjectCloudAccessRole#aws_iam_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#aws_iam_path ProjectCloudAccessRole#aws_iam_path}
   */
   readonly awsIamPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#aws_iam_permissions_boundary ProjectCloudAccessRole#aws_iam_permissions_boundary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#aws_iam_permissions_boundary ProjectCloudAccessRole#aws_iam_permissions_boundary}
   */
   readonly awsIamPermissionsBoundary?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#aws_iam_role_name ProjectCloudAccessRole#aws_iam_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#aws_iam_role_name ProjectCloudAccessRole#aws_iam_role_name}
   */
   readonly awsIamRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#future_accounts ProjectCloudAccessRole#future_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#future_accounts ProjectCloudAccessRole#future_accounts}
   */
   readonly futureAccounts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#last_updated ProjectCloudAccessRole#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#last_updated ProjectCloudAccessRole#last_updated}
   */
   readonly lastUpdated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#long_term_access_keys ProjectCloudAccessRole#long_term_access_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#long_term_access_keys ProjectCloudAccessRole#long_term_access_keys}
   */
   readonly longTermAccessKeys?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#name ProjectCloudAccessRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#name ProjectCloudAccessRole#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#project_id ProjectCloudAccessRole#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#project_id ProjectCloudAccessRole#project_id}
   */
   readonly projectId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#short_term_access_keys ProjectCloudAccessRole#short_term_access_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#short_term_access_keys ProjectCloudAccessRole#short_term_access_keys}
   */
   readonly shortTermAccessKeys?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#web_access ProjectCloudAccessRole#web_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#web_access ProjectCloudAccessRole#web_access}
   */
   readonly webAccess?: boolean | cdktf.IResolvable;
   /**
   * accounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#accounts ProjectCloudAccessRole#accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#accounts ProjectCloudAccessRole#accounts}
   */
   readonly accounts?: ProjectCloudAccessRoleAccounts[] | cdktf.IResolvable;
   /**
   * aws_iam_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#aws_iam_policies ProjectCloudAccessRole#aws_iam_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#aws_iam_policies ProjectCloudAccessRole#aws_iam_policies}
   */
   readonly awsIamPolicies?: ProjectCloudAccessRoleAwsIamPolicies[] | cdktf.IResolvable;
   /**
   * azure_role_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#azure_role_definitions ProjectCloudAccessRole#azure_role_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#azure_role_definitions ProjectCloudAccessRole#azure_role_definitions}
   */
   readonly azureRoleDefinitions?: ProjectCloudAccessRoleAzureRoleDefinitions[] | cdktf.IResolvable;
   /**
   * gcp_iam_roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#gcp_iam_roles ProjectCloudAccessRole#gcp_iam_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#gcp_iam_roles ProjectCloudAccessRole#gcp_iam_roles}
   */
   readonly gcpIamRoles?: ProjectCloudAccessRoleGcpIamRoles[] | cdktf.IResolvable;
   /**
   * user_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#user_groups ProjectCloudAccessRole#user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#user_groups ProjectCloudAccessRole#user_groups}
   */
   readonly userGroups?: ProjectCloudAccessRoleUserGroups[] | cdktf.IResolvable;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#users ProjectCloudAccessRole#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#users ProjectCloudAccessRole#users}
   */
   readonly users?: ProjectCloudAccessRoleUsers[] | cdktf.IResolvable;
 }
 export interface ProjectCloudAccessRoleAccounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -216,7 +216,7 @@ export class ProjectCloudAccessRoleAccountsList extends cdktf.ComplexList {
 }
 export interface ProjectCloudAccessRoleAwsIamPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -335,7 +335,7 @@ export class ProjectCloudAccessRoleAwsIamPoliciesList extends cdktf.ComplexList 
 }
 export interface ProjectCloudAccessRoleAzureRoleDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -454,7 +454,7 @@ export class ProjectCloudAccessRoleAzureRoleDefinitionsList extends cdktf.Comple
 }
 export interface ProjectCloudAccessRoleGcpIamRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -573,7 +573,7 @@ export class ProjectCloudAccessRoleGcpIamRolesList extends cdktf.ComplexList {
 }
 export interface ProjectCloudAccessRoleUserGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -692,7 +692,7 @@ export class ProjectCloudAccessRoleUserGroupsList extends cdktf.ComplexList {
 }
 export interface ProjectCloudAccessRoleUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#id ProjectCloudAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -811,7 +811,7 @@ export class ProjectCloudAccessRoleUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role kion_project_cloud_access_role}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role kion_project_cloud_access_role}
 */
 export class ProjectCloudAccessRole extends cdktf.TerraformResource {
 
@@ -827,7 +827,7 @@ export class ProjectCloudAccessRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectCloudAccessRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectCloudAccessRole to import
-  * @param importFromId The id of the existing ProjectCloudAccessRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectCloudAccessRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectCloudAccessRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -839,7 +839,7 @@ export class ProjectCloudAccessRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_cloud_access_role kion_project_cloud_access_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_cloud_access_role kion_project_cloud_access_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -850,8 +850,8 @@ export class ProjectCloudAccessRole extends cdktf.TerraformResource {
       terraformResourceType: 'kion_project_cloud_access_role',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

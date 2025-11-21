@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/metrics_stream
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/metrics_stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface MetricsStreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The metrics provider to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/metrics_stream#metrics_provider MetricsStream#metrics_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/metrics_stream#metrics_provider MetricsStream#metrics_provider}
   */
   readonly metricsProvider: string;
   /**
   * The token to use when sending metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/metrics_stream#token MetricsStream#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/metrics_stream#token MetricsStream#token}
   */
   readonly token: string;
   /**
   * The URL to send metrics to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/metrics_stream#url MetricsStream#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/metrics_stream#url MetricsStream#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/metrics_stream render_metrics_stream}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/metrics_stream render_metrics_stream}
 */
 export class MetricsStream extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class MetricsStream extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetricsStream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetricsStream to import
-  * @param importFromId The id of the existing MetricsStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/metrics_stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetricsStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/metrics_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetricsStream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class MetricsStream extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/metrics_stream render_metrics_stream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/metrics_stream render_metrics_stream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class MetricsStream extends cdktf.TerraformResource {
       terraformResourceType: 'render_metrics_stream',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

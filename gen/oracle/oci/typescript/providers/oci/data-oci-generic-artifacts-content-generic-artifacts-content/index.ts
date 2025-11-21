@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generic_artifacts_content_generic_artifacts_content
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/generic_artifacts_content_generic_artifacts_content
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciGenericArtifactsContentGenericArtifactsContentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generic_artifacts_content_generic_artifacts_content#artifact_id DataOciGenericArtifactsContentGenericArtifactsContent#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/generic_artifacts_content_generic_artifacts_content#artifact_id DataOciGenericArtifactsContentGenericArtifactsContent#artifact_id}
   */
   readonly artifactId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generic_artifacts_content_generic_artifacts_content#id DataOciGenericArtifactsContentGenericArtifactsContent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/generic_artifacts_content_generic_artifacts_content#id DataOciGenericArtifactsContentGenericArtifactsContent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataOciGenericArtifactsContentGenericArtifactsContentConfig ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generic_artifacts_content_generic_artifacts_content oci_generic_artifacts_content_generic_artifacts_content}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/generic_artifacts_content_generic_artifacts_content oci_generic_artifacts_content_generic_artifacts_content}
 */
 export class DataOciGenericArtifactsContentGenericArtifactsContent extends cdktf.TerraformDataSource {
 
@@ -37,7 +37,7 @@ export class DataOciGenericArtifactsContentGenericArtifactsContent extends cdktf
   * Generates CDKTF code for importing a DataOciGenericArtifactsContentGenericArtifactsContent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciGenericArtifactsContentGenericArtifactsContent to import
-  * @param importFromId The id of the existing DataOciGenericArtifactsContentGenericArtifactsContent that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generic_artifacts_content_generic_artifacts_content#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciGenericArtifactsContentGenericArtifactsContent that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/generic_artifacts_content_generic_artifacts_content#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciGenericArtifactsContentGenericArtifactsContent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class DataOciGenericArtifactsContentGenericArtifactsContent extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generic_artifacts_content_generic_artifacts_content oci_generic_artifacts_content_generic_artifacts_content} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/generic_artifacts_content_generic_artifacts_content oci_generic_artifacts_content_generic_artifacts_content} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class DataOciGenericArtifactsContentGenericArtifactsContent extends cdktf
       terraformResourceType: 'oci_generic_artifacts_content_generic_artifacts_content',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface DevopsDeploymentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#defined_tags DevopsDeployment#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#defined_tags DevopsDeployment#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#deploy_pipeline_id DevopsDeployment#deploy_pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#deploy_pipeline_id DevopsDeployment#deploy_pipeline_id}
   */
   readonly deployPipelineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#deploy_stage_id DevopsDeployment#deploy_stage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#deploy_stage_id DevopsDeployment#deploy_stage_id}
   */
   readonly deployStageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#deployment_type DevopsDeployment#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#deployment_type DevopsDeployment#deployment_type}
   */
   readonly deploymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#display_name DevopsDeployment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#display_name DevopsDeployment#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#freeform_tags DevopsDeployment#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#freeform_tags DevopsDeployment#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#id DevopsDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#id DevopsDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#previous_deployment_id DevopsDeployment#previous_deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#previous_deployment_id DevopsDeployment#previous_deployment_id}
   */
   readonly previousDeploymentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#trigger_new_devops_deployment DevopsDeployment#trigger_new_devops_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#trigger_new_devops_deployment DevopsDeployment#trigger_new_devops_deployment}
   */
   readonly triggerNewDevopsDeployment?: boolean | cdktf.IResolvable;
   /**
   * deploy_artifact_override_arguments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#deploy_artifact_override_arguments DevopsDeployment#deploy_artifact_override_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#deploy_artifact_override_arguments DevopsDeployment#deploy_artifact_override_arguments}
   */
   readonly deployArtifactOverrideArguments?: DevopsDeploymentDeployArtifactOverrideArguments;
   /**
   * deploy_stage_override_arguments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#deploy_stage_override_arguments DevopsDeployment#deploy_stage_override_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#deploy_stage_override_arguments DevopsDeployment#deploy_stage_override_arguments}
   */
   readonly deployStageOverrideArguments?: DevopsDeploymentDeployStageOverrideArguments;
   /**
   * deployment_arguments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#deployment_arguments DevopsDeployment#deployment_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#deployment_arguments DevopsDeployment#deployment_arguments}
   */
   readonly deploymentArguments?: DevopsDeploymentDeploymentArguments;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#timeouts DevopsDeployment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#timeouts DevopsDeployment#timeouts}
   */
   readonly timeouts?: DevopsDeploymentTimeouts;
 }
@@ -795,15 +795,15 @@ export class DevopsDeploymentDeploymentExecutionProgressList extends cdktf.Compl
 }
 export interface DevopsDeploymentDeployArtifactOverrideArgumentsItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#deploy_artifact_id DevopsDeployment#deploy_artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#deploy_artifact_id DevopsDeployment#deploy_artifact_id}
   */
   readonly deployArtifactId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#name DevopsDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#name DevopsDeployment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#value DevopsDeployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#value DevopsDeployment#value}
   */
   readonly value?: string;
 }
@@ -979,7 +979,7 @@ export interface DevopsDeploymentDeployArtifactOverrideArguments {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#items DevopsDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#items DevopsDeployment#items}
   */
   readonly items?: DevopsDeploymentDeployArtifactOverrideArgumentsItems[] | cdktf.IResolvable;
 }
@@ -1063,15 +1063,15 @@ export class DevopsDeploymentDeployArtifactOverrideArgumentsOutputReference exte
 }
 export interface DevopsDeploymentDeployStageOverrideArgumentsItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#deploy_stage_id DevopsDeployment#deploy_stage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#deploy_stage_id DevopsDeployment#deploy_stage_id}
   */
   readonly deployStageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#name DevopsDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#name DevopsDeployment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#value DevopsDeployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#value DevopsDeployment#value}
   */
   readonly value?: string;
 }
@@ -1247,7 +1247,7 @@ export interface DevopsDeploymentDeployStageOverrideArguments {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#items DevopsDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#items DevopsDeployment#items}
   */
   readonly items?: DevopsDeploymentDeployStageOverrideArgumentsItems[] | cdktf.IResolvable;
 }
@@ -1331,11 +1331,11 @@ export class DevopsDeploymentDeployStageOverrideArgumentsOutputReference extends
 }
 export interface DevopsDeploymentDeploymentArgumentsItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#name DevopsDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#name DevopsDeployment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#value DevopsDeployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#value DevopsDeployment#value}
   */
   readonly value?: string;
 }
@@ -1482,7 +1482,7 @@ export interface DevopsDeploymentDeploymentArguments {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#items DevopsDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#items DevopsDeployment#items}
   */
   readonly items?: DevopsDeploymentDeploymentArgumentsItems[] | cdktf.IResolvable;
 }
@@ -1566,15 +1566,15 @@ export class DevopsDeploymentDeploymentArgumentsOutputReference extends cdktf.Co
 }
 export interface DevopsDeploymentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#create DevopsDeployment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#create DevopsDeployment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#delete DevopsDeployment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#delete DevopsDeployment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#update DevopsDeployment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#update DevopsDeployment#update}
   */
   readonly update?: string;
 }
@@ -1726,7 +1726,7 @@ export class DevopsDeploymentTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment oci_devops_deployment}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment oci_devops_deployment}
 */
 export class DevopsDeployment extends cdktf.TerraformResource {
 
@@ -1742,7 +1742,7 @@ export class DevopsDeployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DevopsDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsDeployment to import
-  * @param importFromId The id of the existing DevopsDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1754,7 +1754,7 @@ export class DevopsDeployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_deployment oci_devops_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_deployment oci_devops_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1765,8 +1765,8 @@ export class DevopsDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'oci_devops_deployment',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

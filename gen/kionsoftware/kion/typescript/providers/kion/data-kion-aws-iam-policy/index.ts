@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/aws_iam_policy
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/aws_iam_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataKionAwsIamPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/aws_iam_policy#id DataKionAwsIamPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/aws_iam_policy#id DataKionAwsIamPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataKionAwsIamPolicyConfig extends cdktf.TerraformMetaArguments
   /**
   * Page number of results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/aws_iam_policy#page DataKionAwsIamPolicy#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/aws_iam_policy#page DataKionAwsIamPolicy#page}
   */
   readonly page?: number;
   /**
   * Number of results per page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/aws_iam_policy#page_size DataKionAwsIamPolicy#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/aws_iam_policy#page_size DataKionAwsIamPolicy#page_size}
   */
   readonly pageSize?: number;
   /**
   * Policy type filter. Valid values are 'user', 'aws', or 'system'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/aws_iam_policy#policy_type DataKionAwsIamPolicy#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/aws_iam_policy#policy_type DataKionAwsIamPolicy#policy_type}
   */
   readonly policyType?: string;
   /**
   * Query string for IAM policy name matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/aws_iam_policy#query DataKionAwsIamPolicy#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/aws_iam_policy#query DataKionAwsIamPolicy#query}
   */
   readonly query?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/aws_iam_policy#filter DataKionAwsIamPolicy#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/aws_iam_policy#filter DataKionAwsIamPolicy#filter}
   */
   readonly filter?: DataKionAwsIamPolicyFilter[] | cdktf.IResolvable;
 }
@@ -321,19 +321,19 @@ export interface DataKionAwsIamPolicyFilter {
   /**
   * The field name whose values you wish to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/aws_iam_policy#name DataKionAwsIamPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/aws_iam_policy#name DataKionAwsIamPolicy#name}
   */
   readonly name: string;
   /**
   * Dictates if the values provided should be treated as regular expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/aws_iam_policy#regex DataKionAwsIamPolicy#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/aws_iam_policy#regex DataKionAwsIamPolicy#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The values of the field name you specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/aws_iam_policy#values DataKionAwsIamPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/aws_iam_policy#values DataKionAwsIamPolicy#values}
   */
   readonly values: string[];
 }
@@ -501,7 +501,7 @@ export class DataKionAwsIamPolicyFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/aws_iam_policy kion_aws_iam_policy}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/aws_iam_policy kion_aws_iam_policy}
 */
 export class DataKionAwsIamPolicy extends cdktf.TerraformDataSource {
 
@@ -517,7 +517,7 @@ export class DataKionAwsIamPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKionAwsIamPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKionAwsIamPolicy to import
-  * @param importFromId The id of the existing DataKionAwsIamPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/aws_iam_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKionAwsIamPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/aws_iam_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKionAwsIamPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -529,7 +529,7 @@ export class DataKionAwsIamPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/aws_iam_policy kion_aws_iam_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/aws_iam_policy kion_aws_iam_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -540,8 +540,8 @@ export class DataKionAwsIamPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'kion_aws_iam_policy',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

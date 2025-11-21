@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/env_group_link
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/env_group_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataRenderEnvGroupLinkConfig extends cdktf.TerraformMetaArgumen
   /**
   * Unique identifier for the environment group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/env_group_link#env_group_id DataRenderEnvGroupLink#env_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/env_group_link#env_group_id DataRenderEnvGroupLink#env_group_id}
   */
   readonly envGroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/env_group_link render_env_group_link}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/env_group_link render_env_group_link}
 */
 export class DataRenderEnvGroupLink extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataRenderEnvGroupLink extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRenderEnvGroupLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRenderEnvGroupLink to import
-  * @param importFromId The id of the existing DataRenderEnvGroupLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/env_group_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRenderEnvGroupLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/env_group_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRenderEnvGroupLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataRenderEnvGroupLink extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/env_group_link render_env_group_link} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/env_group_link render_env_group_link} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataRenderEnvGroupLink extends cdktf.TerraformDataSource {
       terraformResourceType: 'render_env_group_link',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

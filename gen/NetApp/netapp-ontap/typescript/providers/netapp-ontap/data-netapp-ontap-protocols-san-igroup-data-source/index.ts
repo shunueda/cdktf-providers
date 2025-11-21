@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_igroup_data_source
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_igroup_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNetappOntapProtocolsSanIgroupDataSourceConfig extends cdktf
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_igroup_data_source#cx_profile_name DataNetappOntapProtocolsSanIgroupDataSource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_igroup_data_source#cx_profile_name DataNetappOntapProtocolsSanIgroupDataSource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * The name of the initiator group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_igroup_data_source#name DataNetappOntapProtocolsSanIgroupDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_igroup_data_source#name DataNetappOntapProtocolsSanIgroupDataSource#name}
   */
   readonly name: string;
   /**
   * The name of the SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_igroup_data_source#svm_name DataNetappOntapProtocolsSanIgroupDataSource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_igroup_data_source#svm_name DataNetappOntapProtocolsSanIgroupDataSource#svm_name}
   */
   readonly svmName: string;
 }
@@ -392,7 +392,7 @@ export class DataNetappOntapProtocolsSanIgroupDataSourcePortsetOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_igroup_data_source netapp-ontap_protocols_san_igroup_data_source}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_igroup_data_source netapp-ontap_protocols_san_igroup_data_source}
 */
 export class DataNetappOntapProtocolsSanIgroupDataSource extends cdktf.TerraformDataSource {
 
@@ -408,7 +408,7 @@ export class DataNetappOntapProtocolsSanIgroupDataSource extends cdktf.Terraform
   * Generates CDKTF code for importing a DataNetappOntapProtocolsSanIgroupDataSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapProtocolsSanIgroupDataSource to import
-  * @param importFromId The id of the existing DataNetappOntapProtocolsSanIgroupDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_igroup_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapProtocolsSanIgroupDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_igroup_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapProtocolsSanIgroupDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -420,7 +420,7 @@ export class DataNetappOntapProtocolsSanIgroupDataSource extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_igroup_data_source netapp-ontap_protocols_san_igroup_data_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_igroup_data_source netapp-ontap_protocols_san_igroup_data_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -431,8 +431,8 @@ export class DataNetappOntapProtocolsSanIgroupDataSource extends cdktf.Terraform
       terraformResourceType: 'netapp-ontap_protocols_san_igroup_data_source',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

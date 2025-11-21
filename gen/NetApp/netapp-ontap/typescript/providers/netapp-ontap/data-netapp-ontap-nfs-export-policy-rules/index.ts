@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_export_policy_rules
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_export_policy_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataNetappOntapNfsExportPolicyRulesConfig extends cdktf.Terrafo
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_export_policy_rules#cx_profile_name DataNetappOntapNfsExportPolicyRules#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_export_policy_rules#cx_profile_name DataNetappOntapNfsExportPolicyRules#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Export policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_export_policy_rules#export_policy_name DataNetappOntapNfsExportPolicyRules#export_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_export_policy_rules#export_policy_name DataNetappOntapNfsExportPolicyRules#export_policy_name}
   */
   readonly exportPolicyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_export_policy_rules#filter DataNetappOntapNfsExportPolicyRules#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_export_policy_rules#filter DataNetappOntapNfsExportPolicyRules#filter}
   */
   readonly filter?: DataNetappOntapNfsExportPolicyRulesFilter;
   /**
   * Name of the svm to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_export_policy_rules#svm_name DataNetappOntapNfsExportPolicyRules#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_export_policy_rules#svm_name DataNetappOntapNfsExportPolicyRules#svm_name}
   */
   readonly svmName: string;
 }
@@ -34,7 +34,7 @@ export interface DataNetappOntapNfsExportPolicyRulesFilter {
   /**
   * ProtocolsNFSExportPolicyRule svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_export_policy_rules#svm_name DataNetappOntapNfsExportPolicyRules#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_export_policy_rules#svm_name DataNetappOntapNfsExportPolicyRules#svm_name}
   */
   readonly svmName?: string;
 }
@@ -273,7 +273,7 @@ export class DataNetappOntapNfsExportPolicyRulesProtocolsNfsExportPolicyRulesLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_export_policy_rules netapp-ontap_nfs_export_policy_rules}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_export_policy_rules netapp-ontap_nfs_export_policy_rules}
 */
 export class DataNetappOntapNfsExportPolicyRules extends cdktf.TerraformDataSource {
 
@@ -289,7 +289,7 @@ export class DataNetappOntapNfsExportPolicyRules extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataNetappOntapNfsExportPolicyRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapNfsExportPolicyRules to import
-  * @param importFromId The id of the existing DataNetappOntapNfsExportPolicyRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_export_policy_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapNfsExportPolicyRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_export_policy_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapNfsExportPolicyRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class DataNetappOntapNfsExportPolicyRules extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/nfs_export_policy_rules netapp-ontap_nfs_export_policy_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/nfs_export_policy_rules netapp-ontap_nfs_export_policy_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class DataNetappOntapNfsExportPolicyRules extends cdktf.TerraformDataSour
       terraformResourceType: 'netapp-ontap_nfs_export_policy_rules',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

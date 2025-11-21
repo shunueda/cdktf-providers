@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PortConfig extends cdktf.TerraformMetaArguments {
   /**
   * Broadcast domain properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#broadcast_domain Port#broadcast_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#broadcast_domain Port#broadcast_domain}
   */
   readonly broadcastDomain?: PortBroadcastDomain;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#cx_profile_name Port#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#cx_profile_name Port#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Port enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#enabled Port#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#enabled Port#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * LAG (ifgrp) properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#lag Port#lag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#lag Port#lag}
   */
   readonly lag?: PortLag;
   /**
   * Node properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#node Port#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#node Port#node}
   */
   readonly nodeAttribute: PortNode;
   /**
   * Type of physical or virtual port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#type Port#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#type Port#type}
   */
   readonly type: string;
   /**
   * VLAN properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#vlan Port#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#vlan Port#vlan}
   */
   readonly vlan?: PortVlan;
 }
@@ -54,7 +54,7 @@ export interface PortBroadcastDomain {
   /**
   * Broadcast domain UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#id Port#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#id Port#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,13 +63,13 @@ export interface PortBroadcastDomain {
   /**
   * Name of the broadcast domain's IPspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#ipspace Port#ipspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#ipspace Port#ipspace}
   */
   readonly ipspace?: string;
   /**
   * Name of the broadcast domain, scoped to its IPspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#name Port#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#name Port#name}
   */
   readonly name?: string;
 }
@@ -223,19 +223,19 @@ export interface PortLag {
   /**
   * Policy for mapping flows to ports for outbound packets through a LAG (ifgrp)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#distribution_policy Port#distribution_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#distribution_policy Port#distribution_policy}
   */
   readonly distributionPolicy: string;
   /**
   * Array of ports belonging to the LAG, regardless of their state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#member_ports Port#member_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#member_ports Port#member_ports}
   */
   readonly memberPorts: string[];
   /**
   * Determines how the ports interact with the switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#mode Port#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#mode Port#mode}
   */
   readonly mode: string;
 }
@@ -385,7 +385,7 @@ export interface PortNode {
   /**
   * Node UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#id Port#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#id Port#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -394,7 +394,7 @@ export interface PortNode {
   /**
   * Name of the node on which the port is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#name Port#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#name Port#name}
   */
   readonly name?: string;
 }
@@ -519,13 +519,13 @@ export interface PortVlan {
   /**
   * VLAN base port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#base_port Port#base_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#base_port Port#base_port}
   */
   readonly basePort: string;
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#tag Port#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#tag Port#tag}
   */
   readonly tag: number;
 }
@@ -642,7 +642,7 @@ export class PortVlanOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port netapp-ontap_port}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port netapp-ontap_port}
 */
 export class Port extends cdktf.TerraformResource {
 
@@ -658,7 +658,7 @@ export class Port extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Port resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Port to import
-  * @param importFromId The id of the existing Port that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Port that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Port to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -670,7 +670,7 @@ export class Port extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/port netapp-ontap_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/port netapp-ontap_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -681,8 +681,8 @@ export class Port extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_port',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

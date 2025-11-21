@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_license
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_license
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataNetappOntapClusterLicensingLicenseConfig extends cdktf.Terr
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_license#cx_profile_name DataNetappOntapClusterLicensingLicense#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_license#cx_profile_name DataNetappOntapClusterLicensingLicense#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * ClusterLicensingLicense name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_license#name DataNetappOntapClusterLicensingLicense#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_license#name DataNetappOntapClusterLicensingLicense#name}
   */
   readonly name: string;
 }
@@ -177,7 +177,7 @@ export class DataNetappOntapClusterLicensingLicenseLicensesList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_license netapp-ontap_cluster_licensing_license}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_license netapp-ontap_cluster_licensing_license}
 */
 export class DataNetappOntapClusterLicensingLicense extends cdktf.TerraformDataSource {
 
@@ -193,7 +193,7 @@ export class DataNetappOntapClusterLicensingLicense extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataNetappOntapClusterLicensingLicense resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapClusterLicensingLicense to import
-  * @param importFromId The id of the existing DataNetappOntapClusterLicensingLicense that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_license#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapClusterLicensingLicense that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_license#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapClusterLicensingLicense to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class DataNetappOntapClusterLicensingLicense extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_license netapp-ontap_cluster_licensing_license} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_license netapp-ontap_cluster_licensing_license} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class DataNetappOntapClusterLicensingLicense extends cdktf.TerraformDataS
       terraformResourceType: 'netapp-ontap_cluster_licensing_license',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

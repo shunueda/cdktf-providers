@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface CloudRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to run CFTs concurrently or not. If true, templates deploy in parallel (faster). If false, templates deploy sequentially (slower).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#concurrent_cft_sync CloudRule#concurrent_cft_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#concurrent_cft_sync CloudRule#concurrent_cft_sync}
   */
   readonly concurrentCftSync?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#description CloudRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#description CloudRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,113 +27,113 @@ export interface CloudRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * A map of labels to assign to the cloud rule. The labels must already exist in Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#labels CloudRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#labels CloudRule#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#last_updated CloudRule#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#last_updated CloudRule#last_updated}
   */
   readonly lastUpdated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#name CloudRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#name CloudRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#post_webhook_id CloudRule#post_webhook_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#post_webhook_id CloudRule#post_webhook_id}
   */
   readonly postWebhookId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#pre_webhook_id CloudRule#pre_webhook_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#pre_webhook_id CloudRule#pre_webhook_id}
   */
   readonly preWebhookId?: number;
   /**
   * aws_cloudformation_templates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#aws_cloudformation_templates CloudRule#aws_cloudformation_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#aws_cloudformation_templates CloudRule#aws_cloudformation_templates}
   */
   readonly awsCloudformationTemplates?: CloudRuleAwsCloudformationTemplates[] | cdktf.IResolvable;
   /**
   * aws_iam_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#aws_iam_policies CloudRule#aws_iam_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#aws_iam_policies CloudRule#aws_iam_policies}
   */
   readonly awsIamPolicies?: CloudRuleAwsIamPolicies[] | cdktf.IResolvable;
   /**
   * azure_arm_template_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#azure_arm_template_definitions CloudRule#azure_arm_template_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#azure_arm_template_definitions CloudRule#azure_arm_template_definitions}
   */
   readonly azureArmTemplateDefinitions?: CloudRuleAzureArmTemplateDefinitions[] | cdktf.IResolvable;
   /**
   * azure_policy_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#azure_policy_definitions CloudRule#azure_policy_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#azure_policy_definitions CloudRule#azure_policy_definitions}
   */
   readonly azurePolicyDefinitions?: CloudRuleAzurePolicyDefinitions[] | cdktf.IResolvable;
   /**
   * azure_role_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#azure_role_definitions CloudRule#azure_role_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#azure_role_definitions CloudRule#azure_role_definitions}
   */
   readonly azureRoleDefinitions?: CloudRuleAzureRoleDefinitions[] | cdktf.IResolvable;
   /**
   * compliance_standards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#compliance_standards CloudRule#compliance_standards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#compliance_standards CloudRule#compliance_standards}
   */
   readonly complianceStandards?: CloudRuleComplianceStandards[] | cdktf.IResolvable;
   /**
   * gcp_iam_roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#gcp_iam_roles CloudRule#gcp_iam_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#gcp_iam_roles CloudRule#gcp_iam_roles}
   */
   readonly gcpIamRoles?: CloudRuleGcpIamRoles[] | cdktf.IResolvable;
   /**
   * internal_aws_amis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#internal_aws_amis CloudRule#internal_aws_amis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#internal_aws_amis CloudRule#internal_aws_amis}
   */
   readonly internalAwsAmis?: CloudRuleInternalAwsAmis[] | cdktf.IResolvable;
   /**
   * internal_aws_service_catalog_portfolios block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#internal_aws_service_catalog_portfolios CloudRule#internal_aws_service_catalog_portfolios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#internal_aws_service_catalog_portfolios CloudRule#internal_aws_service_catalog_portfolios}
   */
   readonly internalAwsServiceCatalogPortfolios?: CloudRuleInternalAwsServiceCatalogPortfolios[] | cdktf.IResolvable;
   /**
   * ous block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#ous CloudRule#ous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#ous CloudRule#ous}
   */
   readonly ous?: CloudRuleOus[] | cdktf.IResolvable;
   /**
   * owner_user_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#owner_user_groups CloudRule#owner_user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#owner_user_groups CloudRule#owner_user_groups}
   */
   readonly ownerUserGroups?: CloudRuleOwnerUserGroups[] | cdktf.IResolvable;
   /**
   * owner_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#owner_users CloudRule#owner_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#owner_users CloudRule#owner_users}
   */
   readonly ownerUsers?: CloudRuleOwnerUsers[] | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#projects CloudRule#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#projects CloudRule#projects}
   */
   readonly projects?: CloudRuleProjects[] | cdktf.IResolvable;
   /**
   * service_control_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#service_control_policies CloudRule#service_control_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#service_control_policies CloudRule#service_control_policies}
   */
   readonly serviceControlPolicies?: CloudRuleServiceControlPolicies[] | cdktf.IResolvable;
 }
 export interface CloudRuleAwsCloudformationTemplates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -252,7 +252,7 @@ export class CloudRuleAwsCloudformationTemplatesList extends cdktf.ComplexList {
 }
 export interface CloudRuleAwsIamPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -371,7 +371,7 @@ export class CloudRuleAwsIamPoliciesList extends cdktf.ComplexList {
 }
 export interface CloudRuleAzureArmTemplateDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -490,7 +490,7 @@ export class CloudRuleAzureArmTemplateDefinitionsList extends cdktf.ComplexList 
 }
 export interface CloudRuleAzurePolicyDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -609,7 +609,7 @@ export class CloudRuleAzurePolicyDefinitionsList extends cdktf.ComplexList {
 }
 export interface CloudRuleAzureRoleDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -728,7 +728,7 @@ export class CloudRuleAzureRoleDefinitionsList extends cdktf.ComplexList {
 }
 export interface CloudRuleComplianceStandards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -847,7 +847,7 @@ export class CloudRuleComplianceStandardsList extends cdktf.ComplexList {
 }
 export interface CloudRuleGcpIamRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -966,7 +966,7 @@ export class CloudRuleGcpIamRolesList extends cdktf.ComplexList {
 }
 export interface CloudRuleInternalAwsAmis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1085,7 +1085,7 @@ export class CloudRuleInternalAwsAmisList extends cdktf.ComplexList {
 }
 export interface CloudRuleInternalAwsServiceCatalogPortfolios {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1204,7 +1204,7 @@ export class CloudRuleInternalAwsServiceCatalogPortfoliosList extends cdktf.Comp
 }
 export interface CloudRuleOus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1323,7 +1323,7 @@ export class CloudRuleOusList extends cdktf.ComplexList {
 }
 export interface CloudRuleOwnerUserGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1442,7 +1442,7 @@ export class CloudRuleOwnerUserGroupsList extends cdktf.ComplexList {
 }
 export interface CloudRuleOwnerUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1561,7 +1561,7 @@ export class CloudRuleOwnerUsersList extends cdktf.ComplexList {
 }
 export interface CloudRuleProjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1680,7 +1680,7 @@ export class CloudRuleProjectsList extends cdktf.ComplexList {
 }
 export interface CloudRuleServiceControlPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#id CloudRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#id CloudRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1799,7 +1799,7 @@ export class CloudRuleServiceControlPoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule kion_cloud_rule}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule kion_cloud_rule}
 */
 export class CloudRule extends cdktf.TerraformResource {
 
@@ -1815,7 +1815,7 @@ export class CloudRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudRule to import
-  * @param importFromId The id of the existing CloudRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1827,7 +1827,7 @@ export class CloudRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/cloud_rule kion_cloud_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/cloud_rule kion_cloud_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1838,8 +1838,8 @@ export class CloudRule extends cdktf.TerraformResource {
       terraformResourceType: 'kion_cloud_rule',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

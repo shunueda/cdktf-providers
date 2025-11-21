@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface ApigatewayGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#certificate_id ApigatewayGateway#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#certificate_id ApigatewayGateway#certificate_id}
   */
   readonly certificateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#compartment_id ApigatewayGateway#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#compartment_id ApigatewayGateway#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#defined_tags ApigatewayGateway#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#defined_tags ApigatewayGateway#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#display_name ApigatewayGateway#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#display_name ApigatewayGateway#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#endpoint_type ApigatewayGateway#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#endpoint_type ApigatewayGateway#endpoint_type}
   */
   readonly endpointType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#freeform_tags ApigatewayGateway#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#freeform_tags ApigatewayGateway#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#id ApigatewayGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#id ApigatewayGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#is_lock_override ApigatewayGateway#is_lock_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#ip_mode ApigatewayGateway#ip_mode}
+  */
+  readonly ipMode?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#is_lock_override ApigatewayGateway#is_lock_override}
   */
   readonly isLockOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#network_security_group_ids ApigatewayGateway#network_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#network_security_group_ids ApigatewayGateway#network_security_group_ids}
   */
   readonly networkSecurityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#subnet_id ApigatewayGateway#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#subnet_id ApigatewayGateway#subnet_id}
   */
   readonly subnetId: string;
   /**
   * ca_bundles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#ca_bundles ApigatewayGateway#ca_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#ca_bundles ApigatewayGateway#ca_bundles}
   */
   readonly caBundles?: ApigatewayGatewayCaBundles[] | cdktf.IResolvable;
   /**
+  * ipv4address_configuration block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#ipv4address_configuration ApigatewayGateway#ipv4address_configuration}
+  */
+  readonly ipv4AddressConfiguration?: ApigatewayGatewayIpv4AddressConfiguration;
+  /**
+  * ipv6address_configuration block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#ipv6address_configuration ApigatewayGateway#ipv6address_configuration}
+  */
+  readonly ipv6AddressConfiguration?: ApigatewayGatewayIpv6AddressConfiguration;
+  /**
   * locks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#locks ApigatewayGateway#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#locks ApigatewayGateway#locks}
   */
   readonly locks?: ApigatewayGatewayLocks[] | cdktf.IResolvable;
   /**
   * response_cache_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#response_cache_details ApigatewayGateway#response_cache_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#response_cache_details ApigatewayGateway#response_cache_details}
   */
   readonly responseCacheDetails?: ApigatewayGatewayResponseCacheDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#timeouts ApigatewayGateway#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#timeouts ApigatewayGateway#timeouts}
   */
   readonly timeouts?: ApigatewayGatewayTimeouts;
 }
@@ -152,15 +168,15 @@ export class ApigatewayGatewayIpAddressesList extends cdktf.ComplexList {
 }
 export interface ApigatewayGatewayCaBundles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#ca_bundle_id ApigatewayGateway#ca_bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#ca_bundle_id ApigatewayGateway#ca_bundle_id}
   */
   readonly caBundleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#certificate_authority_id ApigatewayGateway#certificate_authority_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#certificate_authority_id ApigatewayGateway#certificate_authority_id}
   */
   readonly certificateAuthorityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#type ApigatewayGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#type ApigatewayGateway#type}
   */
   readonly type: string;
 }
@@ -329,13 +345,214 @@ export class ApigatewayGatewayCaBundlesList extends cdktf.ComplexList {
     return new ApigatewayGatewayCaBundlesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ApigatewayGatewayIpv4AddressConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#reserved_ip_ids ApigatewayGateway#reserved_ip_ids}
+  */
+  readonly reservedIpIds?: string[];
+}
+
+export function apigatewayGatewayIpv4AddressConfigurationToTerraform(struct?: ApigatewayGatewayIpv4AddressConfigurationOutputReference | ApigatewayGatewayIpv4AddressConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    reserved_ip_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.reservedIpIds),
+  }
+}
+
+
+export function apigatewayGatewayIpv4AddressConfigurationToHclTerraform(struct?: ApigatewayGatewayIpv4AddressConfigurationOutputReference | ApigatewayGatewayIpv4AddressConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    reserved_ip_ids: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.reservedIpIds),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApigatewayGatewayIpv4AddressConfigurationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApigatewayGatewayIpv4AddressConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._reservedIpIds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reservedIpIds = this._reservedIpIds;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApigatewayGatewayIpv4AddressConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._reservedIpIds = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._reservedIpIds = value.reservedIpIds;
+    }
+  }
+
+  // reserved_ip_ids - computed: true, optional: true, required: false
+  private _reservedIpIds?: string[]; 
+  public get reservedIpIds() {
+    return this.getListAttribute('reserved_ip_ids');
+  }
+  public set reservedIpIds(value: string[]) {
+    this._reservedIpIds = value;
+  }
+  public resetReservedIpIds() {
+    this._reservedIpIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reservedIpIdsInput() {
+    return this._reservedIpIds;
+  }
+}
+export interface ApigatewayGatewayIpv6AddressConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#addresses ApigatewayGateway#addresses}
+  */
+  readonly addresses?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#subnet_cidrs ApigatewayGateway#subnet_cidrs}
+  */
+  readonly subnetCidrs?: string[];
+}
+
+export function apigatewayGatewayIpv6AddressConfigurationToTerraform(struct?: ApigatewayGatewayIpv6AddressConfigurationOutputReference | ApigatewayGatewayIpv6AddressConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addresses: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.addresses),
+    subnet_cidrs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.subnetCidrs),
+  }
+}
+
+
+export function apigatewayGatewayIpv6AddressConfigurationToHclTerraform(struct?: ApigatewayGatewayIpv6AddressConfigurationOutputReference | ApigatewayGatewayIpv6AddressConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addresses: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.addresses),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    subnet_cidrs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.subnetCidrs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApigatewayGatewayIpv6AddressConfigurationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApigatewayGatewayIpv6AddressConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addresses !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addresses = this._addresses;
+    }
+    if (this._subnetCidrs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnetCidrs = this._subnetCidrs;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApigatewayGatewayIpv6AddressConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._addresses = undefined;
+      this._subnetCidrs = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._addresses = value.addresses;
+      this._subnetCidrs = value.subnetCidrs;
+    }
+  }
+
+  // addresses - computed: true, optional: true, required: false
+  private _addresses?: string[]; 
+  public get addresses() {
+    return this.getListAttribute('addresses');
+  }
+  public set addresses(value: string[]) {
+    this._addresses = value;
+  }
+  public resetAddresses() {
+    this._addresses = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressesInput() {
+    return this._addresses;
+  }
+
+  // subnet_cidrs - computed: true, optional: true, required: false
+  private _subnetCidrs?: string[]; 
+  public get subnetCidrs() {
+    return this.getListAttribute('subnet_cidrs');
+  }
+  public set subnetCidrs(value: string[]) {
+    this._subnetCidrs = value;
+  }
+  public resetSubnetCidrs() {
+    this._subnetCidrs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetCidrsInput() {
+    return this._subnetCidrs;
+  }
+}
 export interface ApigatewayGatewayLocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#message ApigatewayGateway#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#message ApigatewayGateway#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#type ApigatewayGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#type ApigatewayGateway#type}
   */
   readonly type: string;
 }
@@ -487,11 +704,11 @@ export class ApigatewayGatewayLocksList extends cdktf.ComplexList {
 }
 export interface ApigatewayGatewayResponseCacheDetailsServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#host ApigatewayGateway#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#host ApigatewayGateway#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#port ApigatewayGateway#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#port ApigatewayGateway#port}
   */
   readonly port?: number;
 }
@@ -636,41 +853,41 @@ export class ApigatewayGatewayResponseCacheDetailsServersList extends cdktf.Comp
 }
 export interface ApigatewayGatewayResponseCacheDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#authentication_secret_id ApigatewayGateway#authentication_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#authentication_secret_id ApigatewayGateway#authentication_secret_id}
   */
   readonly authenticationSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#authentication_secret_version_number ApigatewayGateway#authentication_secret_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#authentication_secret_version_number ApigatewayGateway#authentication_secret_version_number}
   */
   readonly authenticationSecretVersionNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#connect_timeout_in_ms ApigatewayGateway#connect_timeout_in_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#connect_timeout_in_ms ApigatewayGateway#connect_timeout_in_ms}
   */
   readonly connectTimeoutInMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#is_ssl_enabled ApigatewayGateway#is_ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#is_ssl_enabled ApigatewayGateway#is_ssl_enabled}
   */
   readonly isSslEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#is_ssl_verify_disabled ApigatewayGateway#is_ssl_verify_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#is_ssl_verify_disabled ApigatewayGateway#is_ssl_verify_disabled}
   */
   readonly isSslVerifyDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#read_timeout_in_ms ApigatewayGateway#read_timeout_in_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#read_timeout_in_ms ApigatewayGateway#read_timeout_in_ms}
   */
   readonly readTimeoutInMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#send_timeout_in_ms ApigatewayGateway#send_timeout_in_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#send_timeout_in_ms ApigatewayGateway#send_timeout_in_ms}
   */
   readonly sendTimeoutInMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#type ApigatewayGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#type ApigatewayGateway#type}
   */
   readonly type: string;
   /**
   * servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#servers ApigatewayGateway#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#servers ApigatewayGateway#servers}
   */
   readonly servers?: ApigatewayGatewayResponseCacheDetailsServers[] | cdktf.IResolvable;
 }
@@ -983,15 +1200,15 @@ export class ApigatewayGatewayResponseCacheDetailsOutputReference extends cdktf.
 }
 export interface ApigatewayGatewayTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#create ApigatewayGateway#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#create ApigatewayGateway#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#delete ApigatewayGateway#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#delete ApigatewayGateway#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#update ApigatewayGateway#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#update ApigatewayGateway#update}
   */
   readonly update?: string;
 }
@@ -1143,7 +1360,7 @@ export class ApigatewayGatewayTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway oci_apigateway_gateway}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway oci_apigateway_gateway}
 */
 export class ApigatewayGateway extends cdktf.TerraformResource {
 
@@ -1159,7 +1376,7 @@ export class ApigatewayGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigatewayGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayGateway to import
-  * @param importFromId The id of the existing ApigatewayGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1171,7 +1388,7 @@ export class ApigatewayGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway oci_apigateway_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_gateway oci_apigateway_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1182,8 +1399,8 @@ export class ApigatewayGateway extends cdktf.TerraformResource {
       terraformResourceType: 'oci_apigateway_gateway',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1200,10 +1417,13 @@ export class ApigatewayGateway extends cdktf.TerraformResource {
     this._endpointType = config.endpointType;
     this._freeformTags = config.freeformTags;
     this._id = config.id;
+    this._ipMode = config.ipMode;
     this._isLockOverride = config.isLockOverride;
     this._networkSecurityGroupIds = config.networkSecurityGroupIds;
     this._subnetId = config.subnetId;
     this._caBundles.internalValue = config.caBundles;
+    this._ipv4AddressConfiguration.internalValue = config.ipv4AddressConfiguration;
+    this._ipv6AddressConfiguration.internalValue = config.ipv6AddressConfiguration;
     this._locks.internalValue = config.locks;
     this._responseCacheDetails.internalValue = config.responseCacheDetails;
     this._timeouts.internalValue = config.timeouts;
@@ -1330,6 +1550,22 @@ export class ApigatewayGateway extends cdktf.TerraformResource {
     return this._ipAddresses;
   }
 
+  // ip_mode - computed: true, optional: true, required: false
+  private _ipMode?: string; 
+  public get ipMode() {
+    return this.getStringAttribute('ip_mode');
+  }
+  public set ipMode(value: string) {
+    this._ipMode = value;
+  }
+  public resetIpMode() {
+    this._ipMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipModeInput() {
+    return this._ipMode;
+  }
+
   // is_lock_override - computed: true, optional: true, required: false
   private _isLockOverride?: boolean | cdktf.IResolvable; 
   public get isLockOverride() {
@@ -1417,6 +1653,38 @@ export class ApigatewayGateway extends cdktf.TerraformResource {
     return this._caBundles.internalValue;
   }
 
+  // ipv4address_configuration - computed: false, optional: true, required: false
+  private _ipv4AddressConfiguration = new ApigatewayGatewayIpv4AddressConfigurationOutputReference(this, "ipv4address_configuration");
+  public get ipv4AddressConfiguration() {
+    return this._ipv4AddressConfiguration;
+  }
+  public putIpv4AddressConfiguration(value: ApigatewayGatewayIpv4AddressConfiguration) {
+    this._ipv4AddressConfiguration.internalValue = value;
+  }
+  public resetIpv4AddressConfiguration() {
+    this._ipv4AddressConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4AddressConfigurationInput() {
+    return this._ipv4AddressConfiguration.internalValue;
+  }
+
+  // ipv6address_configuration - computed: false, optional: true, required: false
+  private _ipv6AddressConfiguration = new ApigatewayGatewayIpv6AddressConfigurationOutputReference(this, "ipv6address_configuration");
+  public get ipv6AddressConfiguration() {
+    return this._ipv6AddressConfiguration;
+  }
+  public putIpv6AddressConfiguration(value: ApigatewayGatewayIpv6AddressConfiguration) {
+    this._ipv6AddressConfiguration.internalValue = value;
+  }
+  public resetIpv6AddressConfiguration() {
+    this._ipv6AddressConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6AddressConfigurationInput() {
+    return this._ipv6AddressConfiguration.internalValue;
+  }
+
   // locks - computed: false, optional: true, required: false
   private _locks = new ApigatewayGatewayLocksList(this, "locks", false);
   public get locks() {
@@ -1478,10 +1746,13 @@ export class ApigatewayGateway extends cdktf.TerraformResource {
       endpoint_type: cdktf.stringToTerraform(this._endpointType),
       freeform_tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._freeformTags),
       id: cdktf.stringToTerraform(this._id),
+      ip_mode: cdktf.stringToTerraform(this._ipMode),
       is_lock_override: cdktf.booleanToTerraform(this._isLockOverride),
       network_security_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._networkSecurityGroupIds),
       subnet_id: cdktf.stringToTerraform(this._subnetId),
       ca_bundles: cdktf.listMapper(apigatewayGatewayCaBundlesToTerraform, true)(this._caBundles.internalValue),
+      ipv4address_configuration: apigatewayGatewayIpv4AddressConfigurationToTerraform(this._ipv4AddressConfiguration.internalValue),
+      ipv6address_configuration: apigatewayGatewayIpv6AddressConfigurationToTerraform(this._ipv6AddressConfiguration.internalValue),
       locks: cdktf.listMapper(apigatewayGatewayLocksToTerraform, true)(this._locks.internalValue),
       response_cache_details: apigatewayGatewayResponseCacheDetailsToTerraform(this._responseCacheDetails.internalValue),
       timeouts: apigatewayGatewayTimeoutsToTerraform(this._timeouts.internalValue),
@@ -1532,6 +1803,12 @@ export class ApigatewayGateway extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      ip_mode: {
+        value: cdktf.stringToHclTerraform(this._ipMode),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       is_lock_override: {
         value: cdktf.booleanToHclTerraform(this._isLockOverride),
         isBlock: false,
@@ -1555,6 +1832,18 @@ export class ApigatewayGateway extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "ApigatewayGatewayCaBundlesList",
+      },
+      ipv4address_configuration: {
+        value: apigatewayGatewayIpv4AddressConfigurationToHclTerraform(this._ipv4AddressConfiguration.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ApigatewayGatewayIpv4AddressConfigurationList",
+      },
+      ipv6address_configuration: {
+        value: apigatewayGatewayIpv6AddressConfigurationToHclTerraform(this._ipv6AddressConfiguration.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ApigatewayGatewayIpv6AddressConfigurationList",
       },
       locks: {
         value: cdktf.listMapperHcl(apigatewayGatewayLocksToHclTerraform, true)(this._locks.internalValue),

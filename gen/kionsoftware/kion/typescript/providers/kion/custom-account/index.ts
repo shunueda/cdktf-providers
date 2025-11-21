@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CustomAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account alias is an optional short unique name that helps identify the account within Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account#account_alias CustomAccount#account_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account#account_alias CustomAccount#account_alias}
   */
   readonly accountAlias?: string;
   /**
   * The account number of the custom account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account#account_number CustomAccount#account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account#account_number CustomAccount#account_number}
   */
   readonly accountNumber: string;
   /**
   * An ID representing the account type within Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account#account_type_id CustomAccount#account_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account#account_type_id CustomAccount#account_type_id}
   */
   readonly accountTypeId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account#id CustomAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account#id CustomAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,47 +35,47 @@ export interface CustomAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * A map of labels to assign to the account. The labels must already exist in Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account#labels CustomAccount#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account#labels CustomAccount#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account#last_updated CustomAccount#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account#last_updated CustomAccount#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * The name of the custom account within Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account#name CustomAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account#name CustomAccount#name}
   */
   readonly name: string;
   /**
   * The ID of the billing source containing billing data for this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account#payer_id CustomAccount#payer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account#payer_id CustomAccount#payer_id}
   */
   readonly payerId: number;
   /**
   * The ID of the Kion project to place this account within. If empty, the account will be placed within the account cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account#project_id CustomAccount#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account#project_id CustomAccount#project_id}
   */
   readonly projectId?: number;
   /**
   * True to skip periodic access checking on the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account#skip_access_checking CustomAccount#skip_access_checking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account#skip_access_checking CustomAccount#skip_access_checking}
   */
   readonly skipAccessChecking?: boolean | cdktf.IResolvable;
   /**
   * Date when the custom account will starting submitting payments against a funding source (YYYY-MM). Required if placing an account within a project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account#start_datecode CustomAccount#start_datecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account#start_datecode CustomAccount#start_datecode}
   */
   readonly startDatecode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account kion_custom_account}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account kion_custom_account}
 */
 export class CustomAccount extends cdktf.TerraformResource {
 
@@ -91,7 +91,7 @@ export class CustomAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomAccount to import
-  * @param importFromId The id of the existing CustomAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -103,7 +103,7 @@ export class CustomAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_account kion_custom_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_account kion_custom_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,8 +114,8 @@ export class CustomAccount extends cdktf.TerraformResource {
       terraformResourceType: 'kion_custom_account',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

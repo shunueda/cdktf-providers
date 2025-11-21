@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/security_attribute_security_attribute_namespace
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/security_attribute_security_attribute_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciSecurityAttributeSecurityAttributeNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/security_attribute_security_attribute_namespace#security_attribute_namespace_id DataOciSecurityAttributeSecurityAttributeNamespace#security_attribute_namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/security_attribute_security_attribute_namespace#security_attribute_namespace_id DataOciSecurityAttributeSecurityAttributeNamespace#security_attribute_namespace_id}
   */
   readonly securityAttributeNamespaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/security_attribute_security_attribute_namespace oci_security_attribute_security_attribute_namespace}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/security_attribute_security_attribute_namespace oci_security_attribute_security_attribute_namespace}
 */
 export class DataOciSecurityAttributeSecurityAttributeNamespace extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciSecurityAttributeSecurityAttributeNamespace extends cdktf.Te
   * Generates CDKTF code for importing a DataOciSecurityAttributeSecurityAttributeNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciSecurityAttributeSecurityAttributeNamespace to import
-  * @param importFromId The id of the existing DataOciSecurityAttributeSecurityAttributeNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/security_attribute_security_attribute_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciSecurityAttributeSecurityAttributeNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/security_attribute_security_attribute_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciSecurityAttributeSecurityAttributeNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciSecurityAttributeSecurityAttributeNamespace extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/security_attribute_security_attribute_namespace oci_security_attribute_security_attribute_namespace} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/security_attribute_security_attribute_namespace oci_security_attribute_security_attribute_namespace} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciSecurityAttributeSecurityAttributeNamespace extends cdktf.Te
       terraformResourceType: 'oci_security_attribute_security_attribute_namespace',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

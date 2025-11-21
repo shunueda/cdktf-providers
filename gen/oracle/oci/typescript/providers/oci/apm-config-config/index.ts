@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,142 +8,142 @@ import * as cdktf from 'cdktf';
 
 export interface ApmConfigConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#agent_version ApmConfigConfig#agent_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#agent_version ApmConfigConfig#agent_version}
   */
   readonly agentVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#apm_domain_id ApmConfigConfig#apm_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#apm_domain_id ApmConfigConfig#apm_domain_id}
   */
   readonly apmDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#attach_install_dir ApmConfigConfig#attach_install_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#attach_install_dir ApmConfigConfig#attach_install_dir}
   */
   readonly attachInstallDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#config_type ApmConfigConfig#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#config_type ApmConfigConfig#config_type}
   */
   readonly configType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#defined_tags ApmConfigConfig#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#defined_tags ApmConfigConfig#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#description ApmConfigConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#description ApmConfigConfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#display_name ApmConfigConfig#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#display_name ApmConfigConfig#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#filter_id ApmConfigConfig#filter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#filter_id ApmConfigConfig#filter_id}
   */
   readonly filterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#filter_text ApmConfigConfig#filter_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#filter_text ApmConfigConfig#filter_text}
   */
   readonly filterText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#freeform_tags ApmConfigConfig#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#freeform_tags ApmConfigConfig#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#group ApmConfigConfig#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#group ApmConfigConfig#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#id ApmConfigConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#id ApmConfigConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#management_agent_id ApmConfigConfig#management_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#management_agent_id ApmConfigConfig#management_agent_id}
   */
   readonly managementAgentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#match_agents_with_attribute_value ApmConfigConfig#match_agents_with_attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#match_agents_with_attribute_value ApmConfigConfig#match_agents_with_attribute_value}
   */
   readonly matchAgentsWithAttributeValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#namespace ApmConfigConfig#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#namespace ApmConfigConfig#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#opc_dry_run ApmConfigConfig#opc_dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#opc_dry_run ApmConfigConfig#opc_dry_run}
   */
   readonly opcDryRun?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#options ApmConfigConfig#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#options ApmConfigConfig#options}
   */
   readonly options?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#process_filter ApmConfigConfig#process_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#process_filter ApmConfigConfig#process_filter}
   */
   readonly processFilter?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#run_as_user ApmConfigConfig#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#run_as_user ApmConfigConfig#run_as_user}
   */
   readonly runAsUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#service_name ApmConfigConfig#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#service_name ApmConfigConfig#service_name}
   */
   readonly serviceName?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#config ApmConfigConfig#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#config ApmConfigConfig#config}
   */
   readonly config?: ApmConfigConfigConfigA;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#dimensions ApmConfigConfig#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#dimensions ApmConfigConfig#dimensions}
   */
   readonly dimensions?: ApmConfigConfigDimensions[] | cdktf.IResolvable;
   /**
   * in_use_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#in_use_by ApmConfigConfig#in_use_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#in_use_by ApmConfigConfig#in_use_by}
   */
   readonly inUseBy?: ApmConfigConfigInUseBy[] | cdktf.IResolvable;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#metrics ApmConfigConfig#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#metrics ApmConfigConfig#metrics}
   */
   readonly metrics?: ApmConfigConfigMetrics[] | cdktf.IResolvable;
   /**
   * overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#overrides ApmConfigConfig#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#overrides ApmConfigConfig#overrides}
   */
   readonly overrides?: ApmConfigConfigOverrides;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#rules ApmConfigConfig#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#rules ApmConfigConfig#rules}
   */
   readonly rules?: ApmConfigConfigRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#timeouts ApmConfigConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#timeouts ApmConfigConfig#timeouts}
   */
   readonly timeouts?: ApmConfigConfigTimeouts;
 }
 export interface ApmConfigConfigConfigConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#body ApmConfigConfig#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#body ApmConfigConfig#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#content_type ApmConfigConfig#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#content_type ApmConfigConfig#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#file_name ApmConfigConfig#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#file_name ApmConfigConfig#file_name}
   */
   readonly fileName?: string;
 }
@@ -319,7 +319,7 @@ export interface ApmConfigConfigConfigA {
   /**
   * config_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#config_map ApmConfigConfig#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#config_map ApmConfigConfig#config_map}
   */
   readonly configMap?: ApmConfigConfigConfigConfigMap[] | cdktf.IResolvable;
 }
@@ -403,11 +403,11 @@ export class ApmConfigConfigConfigAOutputReference extends cdktf.ComplexObject {
 }
 export interface ApmConfigConfigDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#name ApmConfigConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#name ApmConfigConfig#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#value_source ApmConfigConfig#value_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#value_source ApmConfigConfig#value_source}
   */
   readonly valueSource?: string;
 }
@@ -653,19 +653,19 @@ export class ApmConfigConfigInUseByList extends cdktf.ComplexList {
 }
 export interface ApmConfigConfigMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#description ApmConfigConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#description ApmConfigConfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#name ApmConfigConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#name ApmConfigConfig#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#unit ApmConfigConfig#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#unit ApmConfigConfig#unit}
   */
   readonly unit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#value_source ApmConfigConfig#value_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#value_source ApmConfigConfig#value_source}
   */
   readonly valueSource?: string;
 }
@@ -868,11 +868,11 @@ export class ApmConfigConfigMetricsList extends cdktf.ComplexList {
 }
 export interface ApmConfigConfigOverridesOverrideListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#agent_filter ApmConfigConfig#agent_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#agent_filter ApmConfigConfig#agent_filter}
   */
   readonly agentFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#override_map ApmConfigConfig#override_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#override_map ApmConfigConfig#override_map}
   */
   readonly overrideMap?: { [key: string]: string };
 }
@@ -1019,7 +1019,7 @@ export interface ApmConfigConfigOverrides {
   /**
   * override_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#override_list ApmConfigConfig#override_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#override_list ApmConfigConfig#override_list}
   */
   readonly overrideList?: ApmConfigConfigOverridesOverrideListStruct[] | cdktf.IResolvable;
 }
@@ -1103,31 +1103,31 @@ export class ApmConfigConfigOverridesOutputReference extends cdktf.ComplexObject
 }
 export interface ApmConfigConfigRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#display_name ApmConfigConfig#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#display_name ApmConfigConfig#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#filter_text ApmConfigConfig#filter_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#filter_text ApmConfigConfig#filter_text}
   */
   readonly filterText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#is_apply_to_error_spans ApmConfigConfig#is_apply_to_error_spans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#is_apply_to_error_spans ApmConfigConfig#is_apply_to_error_spans}
   */
   readonly isApplyToErrorSpans?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#is_enabled ApmConfigConfig#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#is_enabled ApmConfigConfig#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#priority ApmConfigConfig#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#priority ApmConfigConfig#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#satisfied_response_time ApmConfigConfig#satisfied_response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#satisfied_response_time ApmConfigConfig#satisfied_response_time}
   */
   readonly satisfiedResponseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#tolerating_response_time ApmConfigConfig#tolerating_response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#tolerating_response_time ApmConfigConfig#tolerating_response_time}
   */
   readonly toleratingResponseTime?: number;
 }
@@ -1417,15 +1417,15 @@ export class ApmConfigConfigRulesList extends cdktf.ComplexList {
 }
 export interface ApmConfigConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#create ApmConfigConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#create ApmConfigConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#delete ApmConfigConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#delete ApmConfigConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#update ApmConfigConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#update ApmConfigConfig#update}
   */
   readonly update?: string;
 }
@@ -1577,7 +1577,7 @@ export class ApmConfigConfigTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config oci_apm_config_config}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config oci_apm_config_config}
 */
 export class ApmConfigConfig extends cdktf.TerraformResource {
 
@@ -1593,7 +1593,7 @@ export class ApmConfigConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApmConfigConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApmConfigConfig to import
-  * @param importFromId The id of the existing ApmConfigConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApmConfigConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApmConfigConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1605,7 +1605,7 @@ export class ApmConfigConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apm_config_config oci_apm_config_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_config_config oci_apm_config_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1616,8 +1616,8 @@ export class ApmConfigConfig extends cdktf.TerraformResource {
       terraformResourceType: 'oci_apm_config_config',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

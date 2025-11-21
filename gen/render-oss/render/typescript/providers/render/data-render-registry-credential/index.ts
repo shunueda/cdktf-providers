@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/registry_credential
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/registry_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataRenderRegistryCredentialConfig extends cdktf.TerraformMetaA
   /**
   * Unique identifier for this credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/registry_credential#id DataRenderRegistryCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/registry_credential#id DataRenderRegistryCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataRenderRegistryCredentialConfig extends cdktf.TerraformMetaA
   /**
   * The username associated with the credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/registry_credential#username DataRenderRegistryCredential#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/registry_credential#username DataRenderRegistryCredential#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/registry_credential render_registry_credential}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/registry_credential render_registry_credential}
 */
 export class DataRenderRegistryCredential extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataRenderRegistryCredential extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRenderRegistryCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRenderRegistryCredential to import
-  * @param importFromId The id of the existing DataRenderRegistryCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/registry_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRenderRegistryCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/registry_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRenderRegistryCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataRenderRegistryCredential extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/registry_credential render_registry_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/registry_credential render_registry_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataRenderRegistryCredential extends cdktf.TerraformDataSource {
       terraformResourceType: 'render_registry_credential',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

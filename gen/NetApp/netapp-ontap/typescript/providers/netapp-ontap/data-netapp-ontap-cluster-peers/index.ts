@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peers
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapClusterPeersConfig extends cdktf.TerraformMetaAr
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peers#cx_profile_name DataNetappOntapClusterPeers#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peers#cx_profile_name DataNetappOntapClusterPeers#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peers#filter DataNetappOntapClusterPeers#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peers#filter DataNetappOntapClusterPeers#filter}
   */
   readonly filter?: DataNetappOntapClusterPeersFilter;
 }
@@ -248,13 +248,13 @@ export interface DataNetappOntapClusterPeersClusterPeers {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peers#cx_profile_name DataNetappOntapClusterPeers#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peers#cx_profile_name DataNetappOntapClusterPeers#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * ClusterPeer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peers#name DataNetappOntapClusterPeers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peers#name DataNetappOntapClusterPeers#name}
   */
   readonly name: string;
 }
@@ -424,7 +424,7 @@ export interface DataNetappOntapClusterPeersFilter {
   /**
   * ClusterPeer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peers#name DataNetappOntapClusterPeers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peers#name DataNetappOntapClusterPeers#name}
   */
   readonly name?: string;
 }
@@ -518,7 +518,7 @@ export class DataNetappOntapClusterPeersFilterOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peers netapp-ontap_cluster_peers}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peers netapp-ontap_cluster_peers}
 */
 export class DataNetappOntapClusterPeers extends cdktf.TerraformDataSource {
 
@@ -534,7 +534,7 @@ export class DataNetappOntapClusterPeers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapClusterPeers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapClusterPeers to import
-  * @param importFromId The id of the existing DataNetappOntapClusterPeers that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapClusterPeers that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapClusterPeers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -546,7 +546,7 @@ export class DataNetappOntapClusterPeers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peers netapp-ontap_cluster_peers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peers netapp-ontap_cluster_peers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -557,8 +557,8 @@ export class DataNetappOntapClusterPeers extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_cluster_peers',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

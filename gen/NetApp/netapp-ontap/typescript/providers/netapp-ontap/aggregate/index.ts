@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface AggregateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#cx_profile_name Aggregate#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#cx_profile_name Aggregate#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Class of disk to use to build aggregate. capacity_flash is listed in swagger, but rejected as invalid by ONTAP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#disk_class Aggregate#disk_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#disk_class Aggregate#disk_class}
   */
   readonly diskClass?: string;
   /**
@@ -29,72 +29,72 @@ export interface AggregateConfig extends cdktf.TerraformMetaArguments {
   * 				If disk_count is 5, raid_type is raid4, raid_size 4, 5/4 * 4 = 4 will be added. 1 will not be added.
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#disk_count Aggregate#disk_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#disk_count Aggregate#disk_count}
   */
   readonly diskCount: number;
   /**
   * Disk size to use in 4K block size.  Disks within 10 precent of specified size will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#disk_size Aggregate#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#disk_size Aggregate#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Disk size to use in the specified unit. This is converted to bytes, assuming K=1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#disk_size_unit Aggregate#disk_size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#disk_size_unit Aggregate#disk_size_unit}
   */
   readonly diskSizeUnit?: string;
   /**
   * Whether to enable software encryption. This is equivalent to -encrypt-with-aggr-key when using the CLI.Requires a VE license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#encryption Aggregate#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#encryption Aggregate#encryption}
   */
   readonly encryption?: boolean | cdktf.IResolvable;
   /**
   * Specifies that the new aggregate be mirrored (have two plexes).
   * 				If set to true, then the indicated disks will be split across the two plexes. By default, the new aggregate will not be mirrored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#is_mirrored Aggregate#is_mirrored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#is_mirrored Aggregate#is_mirrored}
   */
   readonly isMirrored?: boolean | cdktf.IResolvable;
   /**
   * The name of the aggregate to manage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#name Aggregate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#name Aggregate#name}
   */
   readonly name: string;
   /**
   * Node for the aggregate to be created on. If no node specified, mgmt lif home will be used. If disk_count is present, node name is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#node Aggregate#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#node Aggregate#node}
   */
   readonly nodeAttribute: string;
   /**
   * Sets the maximum number of drives per raid group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#raid_size Aggregate#raid_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#raid_size Aggregate#raid_size}
   */
   readonly raidSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#raid_type Aggregate#raid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#raid_type Aggregate#raid_type}
   */
   readonly raidType?: string;
   /**
   * Type of snaplock for the aggregate being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#snaplock_type Aggregate#snaplock_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#snaplock_type Aggregate#snaplock_type}
   */
   readonly snaplockType?: string;
   /**
   * Whether the specified aggregate should be enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#state Aggregate#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#state Aggregate#state}
   */
   readonly state?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate netapp-ontap_aggregate}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate netapp-ontap_aggregate}
 */
 export class Aggregate extends cdktf.TerraformResource {
 
@@ -110,7 +110,7 @@ export class Aggregate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Aggregate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Aggregate to import
-  * @param importFromId The id of the existing Aggregate that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Aggregate that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Aggregate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class Aggregate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/aggregate netapp-ontap_aggregate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/aggregate netapp-ontap_aggregate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class Aggregate extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_aggregate',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

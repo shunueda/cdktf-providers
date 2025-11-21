@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_db_credentials
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_db_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDbCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_db_credentials#id DataOciIdentityDbCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_db_credentials#id DataOciIdentityDbCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_db_credentials#name DataOciIdentityDbCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_db_credentials#name DataOciIdentityDbCredentials#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_db_credentials#state DataOciIdentityDbCredentials#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_db_credentials#state DataOciIdentityDbCredentials#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_db_credentials#user_id DataOciIdentityDbCredentials#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_db_credentials#user_id DataOciIdentityDbCredentials#user_id}
   */
   readonly userId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_db_credentials#filter DataOciIdentityDbCredentials#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_db_credentials#filter DataOciIdentityDbCredentials#filter}
   */
   readonly filter?: DataOciIdentityDbCredentialsFilter[] | cdktf.IResolvable;
 }
@@ -145,15 +145,15 @@ export class DataOciIdentityDbCredentialsDbCredentialsList extends cdktf.Complex
 }
 export interface DataOciIdentityDbCredentialsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_db_credentials#name DataOciIdentityDbCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_db_credentials#name DataOciIdentityDbCredentials#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_db_credentials#regex DataOciIdentityDbCredentials#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_db_credentials#regex DataOciIdentityDbCredentials#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_db_credentials#values DataOciIdentityDbCredentials#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_db_credentials#values DataOciIdentityDbCredentials#values}
   */
   readonly values: string[];
 }
@@ -321,7 +321,7 @@ export class DataOciIdentityDbCredentialsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_db_credentials oci_identity_db_credentials}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_db_credentials oci_identity_db_credentials}
 */
 export class DataOciIdentityDbCredentials extends cdktf.TerraformDataSource {
 
@@ -337,7 +337,7 @@ export class DataOciIdentityDbCredentials extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciIdentityDbCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDbCredentials to import
-  * @param importFromId The id of the existing DataOciIdentityDbCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_db_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDbCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_db_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDbCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -349,7 +349,7 @@ export class DataOciIdentityDbCredentials extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_db_credentials oci_identity_db_credentials} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_db_credentials oci_identity_db_credentials} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -360,8 +360,8 @@ export class DataOciIdentityDbCredentials extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_identity_db_credentials',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

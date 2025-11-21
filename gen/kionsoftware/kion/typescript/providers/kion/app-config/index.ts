@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,107 +10,107 @@ export interface AppConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether all users can see the names of OU's in the organization chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#all_users_see_ou_names AppConfig#all_users_see_ou_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#all_users_see_ou_names AppConfig#all_users_see_ou_names}
   */
   readonly allUsersSeeOuNames?: boolean | cdktf.IResolvable;
   /**
   * Indicates if allocation mode is enabled in the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#allocation_mode AppConfig#allocation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#allocation_mode AppConfig#allocation_mode}
   */
   readonly allocationMode?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether custom permission schemes are allowed or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#allow_custom_permission_schemes AppConfig#allow_custom_permission_schemes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#allow_custom_permission_schemes AppConfig#allow_custom_permission_schemes}
   */
   readonly allowCustomPermissionSchemes?: boolean | cdktf.IResolvable;
   /**
   * Indicates if App API Key creation is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#app_api_key_creation_enabled AppConfig#app_api_key_creation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#app_api_key_creation_enabled AppConfig#app_api_key_creation_enabled}
   */
   readonly appApiKeyCreationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the lifespan of App API Keys in days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#app_api_key_lifespan AppConfig#app_api_key_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#app_api_key_lifespan AppConfig#app_api_key_lifespan}
   */
   readonly appApiKeyLifespan?: number;
   /**
   * Indicates the max amount of App API Keys per user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#app_api_key_limit AppConfig#app_api_key_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#app_api_key_limit AppConfig#app_api_key_limit}
   */
   readonly appApiKeyLimit?: number;
   /**
   * Indicates whether AWS access keys creation is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#aws_access_key_creation_enabled AppConfig#aws_access_key_creation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#aws_access_key_creation_enabled AppConfig#aws_access_key_creation_enabled}
   */
   readonly awsAccessKeyCreationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates if budget mode is enabled in the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#budget_mode AppConfig#budget_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#budget_mode AppConfig#budget_mode}
   */
   readonly budgetMode?: boolean | cdktf.IResolvable;
   /**
   * Indicates if cloud rules are restricted to User Group ownership only. Setting this to true will remove all users from cloud rules. This cannot be undone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#cloud_rule_group_ownership_only AppConfig#cloud_rule_group_ownership_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#cloud_rule_group_ownership_only AppConfig#cloud_rule_group_ownership_only}
   */
   readonly cloudRuleGroupOwnershipOnly?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether resource termination is allowed in-app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#cost_savings_allow_terminate AppConfig#cost_savings_allow_terminate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#cost_savings_allow_terminate AppConfig#cost_savings_allow_terminate}
   */
   readonly costSavingsAllowTerminate?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether Cost Savings is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#cost_savings_enabled AppConfig#cost_savings_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#cost_savings_enabled AppConfig#cost_savings_enabled}
   */
   readonly costSavingsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Post token life (hours) for Cloud Custodian webhook actions to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#cost_savings_post_token_life_hours AppConfig#cost_savings_post_token_life_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#cost_savings_post_token_life_hours AppConfig#cost_savings_post_token_life_hours}
   */
   readonly costSavingsPostTokenLifeHours?: number;
   /**
   * Defines the default organization chart view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#default_org_chart_view AppConfig#default_org_chart_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#default_org_chart_view AppConfig#default_org_chart_view}
   */
   readonly defaultOrgChartView?: string;
   /**
   * Indicates whether spend plans or budgets must be created on all projects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#enforce_funding AppConfig#enforce_funding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#enforce_funding AppConfig#enforce_funding}
   */
   readonly enforceFunding?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether every project should have a funding source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#enforce_funding_sources AppConfig#enforce_funding_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#enforce_funding_sources AppConfig#enforce_funding_sources}
   */
   readonly enforceFundingSources?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether event driven is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#event_driven_enabled AppConfig#event_driven_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#event_driven_enabled AppConfig#event_driven_enabled}
   */
   readonly eventDrivenEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether forecasting is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#forecasting_enabled AppConfig#forecasting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#forecasting_enabled AppConfig#forecasting_enabled}
   */
   readonly forecastingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#id AppConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#id AppConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,79 +119,79 @@ export interface AppConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether, when new groups are created via IDMS, the group will be set as a viewer by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#idms_groups_as_viewers_default AppConfig#idms_groups_as_viewers_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#idms_groups_as_viewers_default AppConfig#idms_groups_as_viewers_default}
   */
   readonly idmsGroupsAsViewersDefault?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether reserved instances are enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#reserved_instances_enabled AppConfig#reserved_instances_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#reserved_instances_enabled AppConfig#reserved_instances_enabled}
   */
   readonly reservedInstancesEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether resource inventory is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#resource_inventory_enabled AppConfig#resource_inventory_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#resource_inventory_enabled AppConfig#resource_inventory_enabled}
   */
   readonly resourceInventoryEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether SAML debugging is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#saml_debug AppConfig#saml_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#saml_debug AppConfig#saml_debug}
   */
   readonly samlDebug?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether SMTP is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#smtp_enabled AppConfig#smtp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#smtp_enabled AppConfig#smtp_enabled}
   */
   readonly smtpEnabled?: boolean | cdktf.IResolvable;
   /**
   * The SMTP from address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#smtp_from AppConfig#smtp_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#smtp_from AppConfig#smtp_from}
   */
   readonly smtpFrom?: string;
   /**
   * The SMTP host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#smtp_host AppConfig#smtp_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#smtp_host AppConfig#smtp_host}
   */
   readonly smtpHost?: string;
   /**
   * The SMTP password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#smtp_password AppConfig#smtp_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#smtp_password AppConfig#smtp_password}
   */
   readonly smtpPassword?: string;
   /**
   * The SMTP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#smtp_port AppConfig#smtp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#smtp_port AppConfig#smtp_port}
   */
   readonly smtpPort?: number;
   /**
   * Indicates if the app should skip SMTP verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#smtp_skip_verify AppConfig#smtp_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#smtp_skip_verify AppConfig#smtp_skip_verify}
   */
   readonly smtpSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * The SMTP username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#smtp_username AppConfig#smtp_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#smtp_username AppConfig#smtp_username}
   */
   readonly smtpUsername?: string;
   /**
   * The list of supported AWS regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#supported_aws_regions AppConfig#supported_aws_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#supported_aws_regions AppConfig#supported_aws_regions}
   */
   readonly supportedAwsRegions?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config kion_app_config}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config kion_app_config}
 */
 export class AppConfig extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class AppConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppConfig to import
-  * @param importFromId The id of the existing AppConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class AppConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/app_config kion_app_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/app_config kion_app_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class AppConfig extends cdktf.TerraformResource {
       terraformResourceType: 'kion_app_config',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

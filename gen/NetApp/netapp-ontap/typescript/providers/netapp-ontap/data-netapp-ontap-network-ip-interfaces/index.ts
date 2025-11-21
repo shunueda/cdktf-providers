@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_interfaces
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapNetworkIpInterfacesConfig extends cdktf.Terrafor
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_interfaces#cx_profile_name DataNetappOntapNetworkIpInterfaces#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_interfaces#cx_profile_name DataNetappOntapNetworkIpInterfaces#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_interfaces#filter DataNetappOntapNetworkIpInterfaces#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_interfaces#filter DataNetappOntapNetworkIpInterfaces#filter}
   */
   readonly filter?: DataNetappOntapNetworkIpInterfacesFilter;
 }
@@ -22,19 +22,19 @@ export interface DataNetappOntapNetworkIpInterfacesFilter {
   /**
   * IPInterface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_interfaces#name DataNetappOntapNetworkIpInterfaces#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_interfaces#name DataNetappOntapNetworkIpInterfaces#name}
   */
   readonly name?: string;
   /**
   * IPInterface scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_interfaces#scope DataNetappOntapNetworkIpInterfaces#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_interfaces#scope DataNetappOntapNetworkIpInterfaces#scope}
   */
   readonly scope?: string;
   /**
   * IPInterface svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_interfaces#svm_name DataNetappOntapNetworkIpInterfaces#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_interfaces#svm_name DataNetappOntapNetworkIpInterfaces#svm_name}
   */
   readonly svmName?: string;
 }
@@ -541,7 +541,7 @@ export class DataNetappOntapNetworkIpInterfacesIpInterfacesList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_interfaces netapp-ontap_network_ip_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_interfaces netapp-ontap_network_ip_interfaces}
 */
 export class DataNetappOntapNetworkIpInterfaces extends cdktf.TerraformDataSource {
 
@@ -557,7 +557,7 @@ export class DataNetappOntapNetworkIpInterfaces extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataNetappOntapNetworkIpInterfaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapNetworkIpInterfaces to import
-  * @param importFromId The id of the existing DataNetappOntapNetworkIpInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapNetworkIpInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapNetworkIpInterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -569,7 +569,7 @@ export class DataNetappOntapNetworkIpInterfaces extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_ip_interfaces netapp-ontap_network_ip_interfaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_ip_interfaces netapp-ontap_network_ip_interfaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -580,8 +580,8 @@ export class DataNetappOntapNetworkIpInterfaces extends cdktf.TerraformDataSourc
       terraformResourceType: 'netapp-ontap_network_ip_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

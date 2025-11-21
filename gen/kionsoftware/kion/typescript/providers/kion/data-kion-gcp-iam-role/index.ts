@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/gcp_iam_role
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/gcp_iam_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataKionGcpIamRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/gcp_iam_role#id DataKionGcpIamRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/gcp_iam_role#id DataKionGcpIamRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataKionGcpIamRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/gcp_iam_role#filter DataKionGcpIamRole#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/gcp_iam_role#filter DataKionGcpIamRole#filter}
   */
   readonly filter?: DataKionGcpIamRoleFilter[] | cdktf.IResolvable;
 }
@@ -297,19 +297,19 @@ export interface DataKionGcpIamRoleFilter {
   /**
   * The field name whose values you wish to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/gcp_iam_role#name DataKionGcpIamRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/gcp_iam_role#name DataKionGcpIamRole#name}
   */
   readonly name: string;
   /**
   * Dictates if the values provided should be treated as regular expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/gcp_iam_role#regex DataKionGcpIamRole#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/gcp_iam_role#regex DataKionGcpIamRole#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The values of the field name you specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/gcp_iam_role#values DataKionGcpIamRole#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/gcp_iam_role#values DataKionGcpIamRole#values}
   */
   readonly values: string[];
 }
@@ -477,7 +477,7 @@ export class DataKionGcpIamRoleFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/gcp_iam_role kion_gcp_iam_role}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/gcp_iam_role kion_gcp_iam_role}
 */
 export class DataKionGcpIamRole extends cdktf.TerraformDataSource {
 
@@ -493,7 +493,7 @@ export class DataKionGcpIamRole extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKionGcpIamRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKionGcpIamRole to import
-  * @param importFromId The id of the existing DataKionGcpIamRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/gcp_iam_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKionGcpIamRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/gcp_iam_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKionGcpIamRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -505,7 +505,7 @@ export class DataKionGcpIamRole extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/gcp_iam_role kion_gcp_iam_role} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/gcp_iam_role kion_gcp_iam_role} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -516,8 +516,8 @@ export class DataKionGcpIamRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'kion_gcp_iam_role',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

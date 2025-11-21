@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface CloudMigrationsReplicationScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule#compartment_id CloudMigrationsReplicationSchedule#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule#compartment_id CloudMigrationsReplicationSchedule#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule#defined_tags CloudMigrationsReplicationSchedule#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule#defined_tags CloudMigrationsReplicationSchedule#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule#display_name CloudMigrationsReplicationSchedule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule#display_name CloudMigrationsReplicationSchedule#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule#execution_recurrences CloudMigrationsReplicationSchedule#execution_recurrences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule#execution_recurrences CloudMigrationsReplicationSchedule#execution_recurrences}
   */
   readonly executionRecurrences: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule#freeform_tags CloudMigrationsReplicationSchedule#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule#freeform_tags CloudMigrationsReplicationSchedule#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule#id CloudMigrationsReplicationSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule#id CloudMigrationsReplicationSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,21 +37,21 @@ export interface CloudMigrationsReplicationScheduleConfig extends cdktf.Terrafor
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule#timeouts CloudMigrationsReplicationSchedule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule#timeouts CloudMigrationsReplicationSchedule#timeouts}
   */
   readonly timeouts?: CloudMigrationsReplicationScheduleTimeouts;
 }
 export interface CloudMigrationsReplicationScheduleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule#create CloudMigrationsReplicationSchedule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule#create CloudMigrationsReplicationSchedule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule#delete CloudMigrationsReplicationSchedule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule#delete CloudMigrationsReplicationSchedule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule#update CloudMigrationsReplicationSchedule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule#update CloudMigrationsReplicationSchedule#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class CloudMigrationsReplicationScheduleTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule oci_cloud_migrations_replication_schedule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule oci_cloud_migrations_replication_schedule}
 */
 export class CloudMigrationsReplicationSchedule extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class CloudMigrationsReplicationSchedule extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a CloudMigrationsReplicationSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudMigrationsReplicationSchedule to import
-  * @param importFromId The id of the existing CloudMigrationsReplicationSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudMigrationsReplicationSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudMigrationsReplicationSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class CloudMigrationsReplicationSchedule extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_migrations_replication_schedule oci_cloud_migrations_replication_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/cloud_migrations_replication_schedule oci_cloud_migrations_replication_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class CloudMigrationsReplicationSchedule extends cdktf.TerraformResource 
       terraformResourceType: 'oci_cloud_migrations_replication_schedule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/waa_web_app_acceleration_policy
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waa_web_app_acceleration_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciWaaWebAppAccelerationPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/waa_web_app_acceleration_policy#web_app_acceleration_policy_id DataOciWaaWebAppAccelerationPolicy#web_app_acceleration_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waa_web_app_acceleration_policy#web_app_acceleration_policy_id DataOciWaaWebAppAccelerationPolicy#web_app_acceleration_policy_id}
   */
   readonly webAppAccelerationPolicyId: string;
 }
@@ -240,7 +240,7 @@ export class DataOciWaaWebAppAccelerationPolicyResponseCompressionPolicyList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/waa_web_app_acceleration_policy oci_waa_web_app_acceleration_policy}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waa_web_app_acceleration_policy oci_waa_web_app_acceleration_policy}
 */
 export class DataOciWaaWebAppAccelerationPolicy extends cdktf.TerraformDataSource {
 
@@ -256,7 +256,7 @@ export class DataOciWaaWebAppAccelerationPolicy extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciWaaWebAppAccelerationPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciWaaWebAppAccelerationPolicy to import
-  * @param importFromId The id of the existing DataOciWaaWebAppAccelerationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/waa_web_app_acceleration_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciWaaWebAppAccelerationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waa_web_app_acceleration_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciWaaWebAppAccelerationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -268,7 +268,7 @@ export class DataOciWaaWebAppAccelerationPolicy extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/waa_web_app_acceleration_policy oci_waa_web_app_acceleration_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waa_web_app_acceleration_policy oci_waa_web_app_acceleration_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,8 +279,8 @@ export class DataOciWaaWebAppAccelerationPolicy extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_waa_web_app_acceleration_policy',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

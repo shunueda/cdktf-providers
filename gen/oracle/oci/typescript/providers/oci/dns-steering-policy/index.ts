@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface DnsSteeringPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#compartment_id DnsSteeringPolicy#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#compartment_id DnsSteeringPolicy#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#defined_tags DnsSteeringPolicy#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#defined_tags DnsSteeringPolicy#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#display_name DnsSteeringPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#display_name DnsSteeringPolicy#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#freeform_tags DnsSteeringPolicy#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#freeform_tags DnsSteeringPolicy#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#health_check_monitor_id DnsSteeringPolicy#health_check_monitor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#health_check_monitor_id DnsSteeringPolicy#health_check_monitor_id}
   */
   readonly healthCheckMonitorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#id DnsSteeringPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#id DnsSteeringPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#template DnsSteeringPolicy#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#template DnsSteeringPolicy#template}
   */
   readonly template: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#ttl DnsSteeringPolicy#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#ttl DnsSteeringPolicy#ttl}
   */
   readonly ttl?: number;
   /**
   * answers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#answers DnsSteeringPolicy#answers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#answers DnsSteeringPolicy#answers}
   */
   readonly answers?: DnsSteeringPolicyAnswers[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#rules DnsSteeringPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#rules DnsSteeringPolicy#rules}
   */
   readonly rules?: DnsSteeringPolicyRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#timeouts DnsSteeringPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#timeouts DnsSteeringPolicy#timeouts}
   */
   readonly timeouts?: DnsSteeringPolicyTimeouts;
 }
 export interface DnsSteeringPolicyAnswers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#is_disabled DnsSteeringPolicy#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#is_disabled DnsSteeringPolicy#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#name DnsSteeringPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#name DnsSteeringPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#pool DnsSteeringPolicy#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#pool DnsSteeringPolicy#pool}
   */
   readonly pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#rdata DnsSteeringPolicy#rdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#rdata DnsSteeringPolicy#rdata}
   */
   readonly rdata: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#rtype DnsSteeringPolicy#rtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#rtype DnsSteeringPolicy#rtype}
   */
   readonly rtype: string;
 }
@@ -302,15 +302,15 @@ export class DnsSteeringPolicyAnswersList extends cdktf.ComplexList {
 }
 export interface DnsSteeringPolicyRulesCasesAnswerData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#answer_condition DnsSteeringPolicy#answer_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#answer_condition DnsSteeringPolicy#answer_condition}
   */
   readonly answerCondition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#should_keep DnsSteeringPolicy#should_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#should_keep DnsSteeringPolicy#should_keep}
   */
   readonly shouldKeep?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#value DnsSteeringPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#value DnsSteeringPolicy#value}
   */
   readonly value?: number;
 }
@@ -484,17 +484,17 @@ export class DnsSteeringPolicyRulesCasesAnswerDataList extends cdktf.ComplexList
 }
 export interface DnsSteeringPolicyRulesCases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#case_condition DnsSteeringPolicy#case_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#case_condition DnsSteeringPolicy#case_condition}
   */
   readonly caseCondition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#count DnsSteeringPolicy#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#count DnsSteeringPolicy#count}
   */
   readonly count?: number;
   /**
   * answer_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#answer_data DnsSteeringPolicy#answer_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#answer_data DnsSteeringPolicy#answer_data}
   */
   readonly answerData?: DnsSteeringPolicyRulesCasesAnswerData[] | cdktf.IResolvable;
 }
@@ -668,15 +668,15 @@ export class DnsSteeringPolicyRulesCasesList extends cdktf.ComplexList {
 }
 export interface DnsSteeringPolicyRulesDefaultAnswerData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#answer_condition DnsSteeringPolicy#answer_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#answer_condition DnsSteeringPolicy#answer_condition}
   */
   readonly answerCondition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#should_keep DnsSteeringPolicy#should_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#should_keep DnsSteeringPolicy#should_keep}
   */
   readonly shouldKeep?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#value DnsSteeringPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#value DnsSteeringPolicy#value}
   */
   readonly value?: number;
 }
@@ -850,27 +850,27 @@ export class DnsSteeringPolicyRulesDefaultAnswerDataList extends cdktf.ComplexLi
 }
 export interface DnsSteeringPolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#default_count DnsSteeringPolicy#default_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#default_count DnsSteeringPolicy#default_count}
   */
   readonly defaultCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#description DnsSteeringPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#description DnsSteeringPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#rule_type DnsSteeringPolicy#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#rule_type DnsSteeringPolicy#rule_type}
   */
   readonly ruleType: string;
   /**
   * cases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#cases DnsSteeringPolicy#cases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#cases DnsSteeringPolicy#cases}
   */
   readonly cases?: DnsSteeringPolicyRulesCases[] | cdktf.IResolvable;
   /**
   * default_answer_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#default_answer_data DnsSteeringPolicy#default_answer_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#default_answer_data DnsSteeringPolicy#default_answer_data}
   */
   readonly defaultAnswerData?: DnsSteeringPolicyRulesDefaultAnswerData[] | cdktf.IResolvable;
 }
@@ -1099,15 +1099,15 @@ export class DnsSteeringPolicyRulesList extends cdktf.ComplexList {
 }
 export interface DnsSteeringPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#create DnsSteeringPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#create DnsSteeringPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#delete DnsSteeringPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#delete DnsSteeringPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#update DnsSteeringPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#update DnsSteeringPolicy#update}
   */
   readonly update?: string;
 }
@@ -1259,7 +1259,7 @@ export class DnsSteeringPolicyTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy oci_dns_steering_policy}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy oci_dns_steering_policy}
 */
 export class DnsSteeringPolicy extends cdktf.TerraformResource {
 
@@ -1275,7 +1275,7 @@ export class DnsSteeringPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsSteeringPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsSteeringPolicy to import
-  * @param importFromId The id of the existing DnsSteeringPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsSteeringPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsSteeringPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1287,7 +1287,7 @@ export class DnsSteeringPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dns_steering_policy oci_dns_steering_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dns_steering_policy oci_dns_steering_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1298,8 +1298,8 @@ export class DnsSteeringPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'oci_dns_steering_policy',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

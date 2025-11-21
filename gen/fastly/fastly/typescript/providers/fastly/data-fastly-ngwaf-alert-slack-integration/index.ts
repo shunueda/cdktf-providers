@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/ngwaf_alert_slack_integration
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_slack_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataFastlyNgwafAlertSlackIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/ngwaf_alert_slack_integration#id DataFastlyNgwafAlertSlackIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_slack_integration#id DataFastlyNgwafAlertSlackIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataFastlyNgwafAlertSlackIntegrationConfig extends cdktf.Terraf
   /**
   * The ID of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/ngwaf_alert_slack_integration#workspace_id DataFastlyNgwafAlertSlackIntegration#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_slack_integration#workspace_id DataFastlyNgwafAlertSlackIntegration#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -98,7 +98,7 @@ export class DataFastlyNgwafAlertSlackIntegrationSlackAlertsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/ngwaf_alert_slack_integration fastly_ngwaf_alert_slack_integration}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_slack_integration fastly_ngwaf_alert_slack_integration}
 */
 export class DataFastlyNgwafAlertSlackIntegration extends cdktf.TerraformDataSource {
 
@@ -114,7 +114,7 @@ export class DataFastlyNgwafAlertSlackIntegration extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataFastlyNgwafAlertSlackIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFastlyNgwafAlertSlackIntegration to import
-  * @param importFromId The id of the existing DataFastlyNgwafAlertSlackIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/ngwaf_alert_slack_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFastlyNgwafAlertSlackIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_slack_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFastlyNgwafAlertSlackIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -126,7 +126,7 @@ export class DataFastlyNgwafAlertSlackIntegration extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/data-sources/ngwaf_alert_slack_integration fastly_ngwaf_alert_slack_integration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_slack_integration fastly_ngwaf_alert_slack_integration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -137,8 +137,8 @@ export class DataFastlyNgwafAlertSlackIntegration extends cdktf.TerraformDataSou
       terraformResourceType: 'fastly_ngwaf_alert_slack_integration',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseDbNodeSnapshotManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management#defined_tags DatabaseDbNodeSnapshotManagement#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management#defined_tags DatabaseDbNodeSnapshotManagement#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management#exadb_vm_cluster_id DatabaseDbNodeSnapshotManagement#exadb_vm_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management#exadb_vm_cluster_id DatabaseDbNodeSnapshotManagement#exadb_vm_cluster_id}
   */
   readonly exadbVmClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management#freeform_tags DatabaseDbNodeSnapshotManagement#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management#freeform_tags DatabaseDbNodeSnapshotManagement#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management#id DatabaseDbNodeSnapshotManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management#id DatabaseDbNodeSnapshotManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management#name DatabaseDbNodeSnapshotManagement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management#name DatabaseDbNodeSnapshotManagement#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management#source_dbnode_ids DatabaseDbNodeSnapshotManagement#source_dbnode_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management#source_dbnode_ids DatabaseDbNodeSnapshotManagement#source_dbnode_ids}
   */
   readonly sourceDbnodeIds: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management#timeouts DatabaseDbNodeSnapshotManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management#timeouts DatabaseDbNodeSnapshotManagement#timeouts}
   */
   readonly timeouts?: DatabaseDbNodeSnapshotManagementTimeouts;
 }
@@ -343,15 +343,15 @@ export class DatabaseDbNodeSnapshotManagementSnapshotsList extends cdktf.Complex
 }
 export interface DatabaseDbNodeSnapshotManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management#create DatabaseDbNodeSnapshotManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management#create DatabaseDbNodeSnapshotManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management#delete DatabaseDbNodeSnapshotManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management#delete DatabaseDbNodeSnapshotManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management#update DatabaseDbNodeSnapshotManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management#update DatabaseDbNodeSnapshotManagement#update}
   */
   readonly update?: string;
 }
@@ -503,7 +503,7 @@ export class DatabaseDbNodeSnapshotManagementTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management oci_database_db_node_snapshot_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management oci_database_db_node_snapshot_management}
 */
 export class DatabaseDbNodeSnapshotManagement extends cdktf.TerraformResource {
 
@@ -519,7 +519,7 @@ export class DatabaseDbNodeSnapshotManagement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseDbNodeSnapshotManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseDbNodeSnapshotManagement to import
-  * @param importFromId The id of the existing DatabaseDbNodeSnapshotManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseDbNodeSnapshotManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseDbNodeSnapshotManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -531,7 +531,7 @@ export class DatabaseDbNodeSnapshotManagement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_node_snapshot_management oci_database_db_node_snapshot_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_db_node_snapshot_management oci_database_db_node_snapshot_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -542,8 +542,8 @@ export class DatabaseDbNodeSnapshotManagement extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_db_node_snapshot_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

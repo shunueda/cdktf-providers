@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_ml_application_implementation
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_ml_application_implementation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatascienceMlApplicationImplementationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_ml_application_implementation#ml_application_implementation_id DataOciDatascienceMlApplicationImplementation#ml_application_implementation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_ml_application_implementation#ml_application_implementation_id DataOciDatascienceMlApplicationImplementation#ml_application_implementation_id}
   */
   readonly mlApplicationImplementationId: string;
 }
@@ -748,7 +748,7 @@ export class DataOciDatascienceMlApplicationImplementationMlApplicationPackageAr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_ml_application_implementation oci_datascience_ml_application_implementation}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_ml_application_implementation oci_datascience_ml_application_implementation}
 */
 export class DataOciDatascienceMlApplicationImplementation extends cdktf.TerraformDataSource {
 
@@ -764,7 +764,7 @@ export class DataOciDatascienceMlApplicationImplementation extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataOciDatascienceMlApplicationImplementation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatascienceMlApplicationImplementation to import
-  * @param importFromId The id of the existing DataOciDatascienceMlApplicationImplementation that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_ml_application_implementation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatascienceMlApplicationImplementation that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_ml_application_implementation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatascienceMlApplicationImplementation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -776,7 +776,7 @@ export class DataOciDatascienceMlApplicationImplementation extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_ml_application_implementation oci_datascience_ml_application_implementation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_ml_application_implementation oci_datascience_ml_application_implementation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -787,8 +787,8 @@ export class DataOciDatascienceMlApplicationImplementation extends cdktf.Terrafo
       terraformResourceType: 'oci_datascience_ml_application_implementation',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

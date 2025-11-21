@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/stack_monitoring_metric_extension
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_metric_extension
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciStackMonitoringMetricExtensionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/stack_monitoring_metric_extension#metric_extension_id DataOciStackMonitoringMetricExtension#metric_extension_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_metric_extension#metric_extension_id DataOciStackMonitoringMetricExtension#metric_extension_id}
   */
   readonly metricExtensionId: string;
 }
@@ -688,7 +688,7 @@ export class DataOciStackMonitoringMetricExtensionQueryPropertiesList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/stack_monitoring_metric_extension oci_stack_monitoring_metric_extension}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_metric_extension oci_stack_monitoring_metric_extension}
 */
 export class DataOciStackMonitoringMetricExtension extends cdktf.TerraformDataSource {
 
@@ -704,7 +704,7 @@ export class DataOciStackMonitoringMetricExtension extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataOciStackMonitoringMetricExtension resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciStackMonitoringMetricExtension to import
-  * @param importFromId The id of the existing DataOciStackMonitoringMetricExtension that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/stack_monitoring_metric_extension#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciStackMonitoringMetricExtension that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_metric_extension#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciStackMonitoringMetricExtension to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -716,7 +716,7 @@ export class DataOciStackMonitoringMetricExtension extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/stack_monitoring_metric_extension oci_stack_monitoring_metric_extension} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_metric_extension oci_stack_monitoring_metric_extension} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -727,8 +727,8 @@ export class DataOciStackMonitoringMetricExtension extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_stack_monitoring_metric_extension',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

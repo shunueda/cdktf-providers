@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_document_projects
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ai_document_projects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciAiDocumentProjectsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_document_projects#compartment_id DataOciAiDocumentProjects#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ai_document_projects#compartment_id DataOciAiDocumentProjects#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_document_projects#display_name DataOciAiDocumentProjects#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ai_document_projects#display_name DataOciAiDocumentProjects#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_document_projects#id DataOciAiDocumentProjects#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ai_document_projects#id DataOciAiDocumentProjects#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_document_projects#state DataOciAiDocumentProjects#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ai_document_projects#state DataOciAiDocumentProjects#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_document_projects#filter DataOciAiDocumentProjects#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ai_document_projects#filter DataOciAiDocumentProjects#filter}
   */
   readonly filter?: DataOciAiDocumentProjectsFilter[] | cdktf.IResolvable;
 }
@@ -340,15 +340,15 @@ export class DataOciAiDocumentProjectsProjectCollectionList extends cdktf.Comple
 }
 export interface DataOciAiDocumentProjectsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_document_projects#name DataOciAiDocumentProjects#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ai_document_projects#name DataOciAiDocumentProjects#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_document_projects#regex DataOciAiDocumentProjects#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ai_document_projects#regex DataOciAiDocumentProjects#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_document_projects#values DataOciAiDocumentProjects#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ai_document_projects#values DataOciAiDocumentProjects#values}
   */
   readonly values: string[];
 }
@@ -516,7 +516,7 @@ export class DataOciAiDocumentProjectsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_document_projects oci_ai_document_projects}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ai_document_projects oci_ai_document_projects}
 */
 export class DataOciAiDocumentProjects extends cdktf.TerraformDataSource {
 
@@ -532,7 +532,7 @@ export class DataOciAiDocumentProjects extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciAiDocumentProjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciAiDocumentProjects to import
-  * @param importFromId The id of the existing DataOciAiDocumentProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_document_projects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciAiDocumentProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ai_document_projects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciAiDocumentProjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -544,7 +544,7 @@ export class DataOciAiDocumentProjects extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_document_projects oci_ai_document_projects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ai_document_projects oci_ai_document_projects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -555,8 +555,8 @@ export class DataOciAiDocumentProjects extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_ai_document_projects',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/registry_credential
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/registry_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface RegistryCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * The auth token to use when pulling the image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/registry_credential#auth_token RegistryCredential#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/registry_credential#auth_token RegistryCredential#auth_token}
   */
   readonly authToken: string;
   /**
   * Descriptive name for this credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/registry_credential#name RegistryCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/registry_credential#name RegistryCredential#name}
   */
   readonly name: string;
   /**
   * The registry to use this credential with. One of `GITHUB`, `GITLAB`, `DOCKER`, `AWS_ECR`, `GOOGLE_ARTIFACT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/registry_credential#registry RegistryCredential#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/registry_credential#registry RegistryCredential#registry}
   */
   readonly registry: string;
   /**
   * The username associated with the credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/registry_credential#username RegistryCredential#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/registry_credential#username RegistryCredential#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/registry_credential render_registry_credential}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/registry_credential render_registry_credential}
 */
 export class RegistryCredential extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class RegistryCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RegistryCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RegistryCredential to import
-  * @param importFromId The id of the existing RegistryCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/registry_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RegistryCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/registry_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RegistryCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class RegistryCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/registry_credential render_registry_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/registry_credential render_registry_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class RegistryCredential extends cdktf.TerraformResource {
       terraformResourceType: 'render_registry_credential',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

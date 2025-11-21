@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_agent_installers
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_agent_installers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciJmsAgentInstallersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_agent_installers#compartment_id DataOciJmsAgentInstallers#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_agent_installers#compartment_id DataOciJmsAgentInstallers#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_agent_installers#fleet_id DataOciJmsAgentInstallers#fleet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_agent_installers#fleet_id DataOciJmsAgentInstallers#fleet_id}
   */
   readonly fleetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_agent_installers#id DataOciJmsAgentInstallers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_agent_installers#id DataOciJmsAgentInstallers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_agent_installers#os_family DataOciJmsAgentInstallers#os_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_agent_installers#os_family DataOciJmsAgentInstallers#os_family}
   */
   readonly osFamily?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_agent_installers#platform_architecture DataOciJmsAgentInstallers#platform_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_agent_installers#platform_architecture DataOciJmsAgentInstallers#platform_architecture}
   */
   readonly platformArchitecture?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_agent_installers#filter DataOciJmsAgentInstallers#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_agent_installers#filter DataOciJmsAgentInstallers#filter}
   */
   readonly filter?: DataOciJmsAgentInstallersFilter[] | cdktf.IResolvable;
 }
@@ -235,15 +235,15 @@ export class DataOciJmsAgentInstallersAgentInstallerCollectionList extends cdktf
 }
 export interface DataOciJmsAgentInstallersFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_agent_installers#name DataOciJmsAgentInstallers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_agent_installers#name DataOciJmsAgentInstallers#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_agent_installers#regex DataOciJmsAgentInstallers#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_agent_installers#regex DataOciJmsAgentInstallers#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_agent_installers#values DataOciJmsAgentInstallers#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_agent_installers#values DataOciJmsAgentInstallers#values}
   */
   readonly values: string[];
 }
@@ -411,7 +411,7 @@ export class DataOciJmsAgentInstallersFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_agent_installers oci_jms_agent_installers}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_agent_installers oci_jms_agent_installers}
 */
 export class DataOciJmsAgentInstallers extends cdktf.TerraformDataSource {
 
@@ -427,7 +427,7 @@ export class DataOciJmsAgentInstallers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciJmsAgentInstallers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciJmsAgentInstallers to import
-  * @param importFromId The id of the existing DataOciJmsAgentInstallers that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_agent_installers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciJmsAgentInstallers that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_agent_installers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciJmsAgentInstallers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -439,7 +439,7 @@ export class DataOciJmsAgentInstallers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_agent_installers oci_jms_agent_installers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_agent_installers oci_jms_agent_installers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -450,8 +450,8 @@ export class DataOciJmsAgentInstallers extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_jms_agent_installers',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

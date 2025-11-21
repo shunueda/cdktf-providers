@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_dns_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_dns_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface NameServicesDnsResourceConfig extends cdktf.TerraformMetaArgume
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_dns_resource#cx_profile_name NameServicesDnsResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_dns_resource#cx_profile_name NameServicesDnsResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * List of DNS domains such as 'sales.bar.com'. The first domain is the one that the svm belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_dns_resource#dns_domains NameServicesDnsResource#dns_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_dns_resource#dns_domains NameServicesDnsResource#dns_domains}
   */
   readonly dnsDomains?: string[];
   /**
   * List of IPv4 addresses of name servers such as '123.123.123.123'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_dns_resource#name_servers NameServicesDnsResource#name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_dns_resource#name_servers NameServicesDnsResource#name_servers}
   */
   readonly nameServers?: string[];
   /**
   * Indicates whether or not the validation for the specified DNS configuration is disabled. (9.9)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_dns_resource#skip_config_validation NameServicesDnsResource#skip_config_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_dns_resource#skip_config_validation NameServicesDnsResource#skip_config_validation}
   */
   readonly skipConfigValidation?: boolean | cdktf.IResolvable;
   /**
   * IPInterface svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_dns_resource#svm_name NameServicesDnsResource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_dns_resource#svm_name NameServicesDnsResource#svm_name}
   */
   readonly svmName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_dns_resource netapp-ontap_name_services_dns_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_dns_resource netapp-ontap_name_services_dns_resource}
 */
 export class NameServicesDnsResource extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class NameServicesDnsResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NameServicesDnsResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NameServicesDnsResource to import
-  * @param importFromId The id of the existing NameServicesDnsResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_dns_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NameServicesDnsResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_dns_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NameServicesDnsResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class NameServicesDnsResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_dns_resource netapp-ontap_name_services_dns_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_dns_resource netapp-ontap_name_services_dns_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class NameServicesDnsResource extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_name_services_dns_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

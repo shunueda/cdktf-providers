@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface ManagedKafkaKafkaClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#client_certificate_bundle ManagedKafkaKafkaCluster#client_certificate_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#client_certificate_bundle ManagedKafkaKafkaCluster#client_certificate_bundle}
   */
   readonly clientCertificateBundle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#cluster_config_id ManagedKafkaKafkaCluster#cluster_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#cluster_config_id ManagedKafkaKafkaCluster#cluster_config_id}
   */
   readonly clusterConfigId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#cluster_config_version ManagedKafkaKafkaCluster#cluster_config_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#cluster_config_version ManagedKafkaKafkaCluster#cluster_config_version}
   */
   readonly clusterConfigVersion: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#cluster_type ManagedKafkaKafkaCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#cluster_type ManagedKafkaKafkaCluster#cluster_type}
   */
   readonly clusterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#compartment_id ManagedKafkaKafkaCluster#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#compartment_id ManagedKafkaKafkaCluster#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#coordination_type ManagedKafkaKafkaCluster#coordination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#coordination_type ManagedKafkaKafkaCluster#coordination_type}
   */
   readonly coordinationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#defined_tags ManagedKafkaKafkaCluster#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#defined_tags ManagedKafkaKafkaCluster#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#display_name ManagedKafkaKafkaCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#display_name ManagedKafkaKafkaCluster#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#freeform_tags ManagedKafkaKafkaCluster#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#freeform_tags ManagedKafkaKafkaCluster#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#id ManagedKafkaKafkaCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#id ManagedKafkaKafkaCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#kafka_version ManagedKafkaKafkaCluster#kafka_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#kafka_version ManagedKafkaKafkaCluster#kafka_version}
   */
   readonly kafkaVersion: string;
   /**
   * access_subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#access_subnets ManagedKafkaKafkaCluster#access_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#access_subnets ManagedKafkaKafkaCluster#access_subnets}
   */
   readonly accessSubnets: ManagedKafkaKafkaClusterAccessSubnets[] | cdktf.IResolvable;
   /**
   * broker_shape block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#broker_shape ManagedKafkaKafkaCluster#broker_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#broker_shape ManagedKafkaKafkaCluster#broker_shape}
   */
   readonly brokerShape: ManagedKafkaKafkaClusterBrokerShape;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#timeouts ManagedKafkaKafkaCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#timeouts ManagedKafkaKafkaCluster#timeouts}
   */
   readonly timeouts?: ManagedKafkaKafkaClusterTimeouts;
 }
@@ -155,7 +155,7 @@ export class ManagedKafkaKafkaClusterKafkaBootstrapUrlsList extends cdktf.Comple
 }
 export interface ManagedKafkaKafkaClusterAccessSubnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#subnets ManagedKafkaKafkaCluster#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#subnets ManagedKafkaKafkaCluster#subnets}
   */
   readonly subnets: string[];
 }
@@ -268,15 +268,15 @@ export class ManagedKafkaKafkaClusterAccessSubnetsList extends cdktf.ComplexList
 }
 export interface ManagedKafkaKafkaClusterBrokerShape {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#node_count ManagedKafkaKafkaCluster#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#node_count ManagedKafkaKafkaCluster#node_count}
   */
   readonly nodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#ocpu_count ManagedKafkaKafkaCluster#ocpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#ocpu_count ManagedKafkaKafkaCluster#ocpu_count}
   */
   readonly ocpuCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#storage_size_in_gbs ManagedKafkaKafkaCluster#storage_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#storage_size_in_gbs ManagedKafkaKafkaCluster#storage_size_in_gbs}
   */
   readonly storageSizeInGbs?: number;
 }
@@ -412,15 +412,15 @@ export class ManagedKafkaKafkaClusterBrokerShapeOutputReference extends cdktf.Co
 }
 export interface ManagedKafkaKafkaClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#create ManagedKafkaKafkaCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#create ManagedKafkaKafkaCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#delete ManagedKafkaKafkaCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#delete ManagedKafkaKafkaCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#update ManagedKafkaKafkaCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#update ManagedKafkaKafkaCluster#update}
   */
   readonly update?: string;
 }
@@ -572,7 +572,7 @@ export class ManagedKafkaKafkaClusterTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster oci_managed_kafka_kafka_cluster}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster oci_managed_kafka_kafka_cluster}
 */
 export class ManagedKafkaKafkaCluster extends cdktf.TerraformResource {
 
@@ -588,7 +588,7 @@ export class ManagedKafkaKafkaCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedKafkaKafkaCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedKafkaKafkaCluster to import
-  * @param importFromId The id of the existing ManagedKafkaKafkaCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedKafkaKafkaCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedKafkaKafkaCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -600,7 +600,7 @@ export class ManagedKafkaKafkaCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/managed_kafka_kafka_cluster oci_managed_kafka_kafka_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/managed_kafka_kafka_cluster oci_managed_kafka_kafka_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -611,8 +611,8 @@ export class ManagedKafkaKafkaCluster extends cdktf.TerraformResource {
       terraformResourceType: 'oci_managed_kafka_kafka_cluster',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

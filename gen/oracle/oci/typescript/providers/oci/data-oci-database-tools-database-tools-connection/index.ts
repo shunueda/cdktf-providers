@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_tools_database_tools_connection
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_tools_database_tools_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseToolsDatabaseToolsConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_tools_database_tools_connection#database_tools_connection_id DataOciDatabaseToolsDatabaseToolsConnection#database_tools_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_tools_database_tools_connection#database_tools_connection_id DataOciDatabaseToolsDatabaseToolsConnection#database_tools_connection_id}
   */
   readonly databaseToolsConnectionId: string;
 }
@@ -682,7 +682,7 @@ export class DataOciDatabaseToolsDatabaseToolsConnectionUserPasswordList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_tools_database_tools_connection oci_database_tools_database_tools_connection}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_tools_database_tools_connection oci_database_tools_database_tools_connection}
 */
 export class DataOciDatabaseToolsDatabaseToolsConnection extends cdktf.TerraformDataSource {
 
@@ -698,7 +698,7 @@ export class DataOciDatabaseToolsDatabaseToolsConnection extends cdktf.Terraform
   * Generates CDKTF code for importing a DataOciDatabaseToolsDatabaseToolsConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseToolsDatabaseToolsConnection to import
-  * @param importFromId The id of the existing DataOciDatabaseToolsDatabaseToolsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_tools_database_tools_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseToolsDatabaseToolsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_tools_database_tools_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseToolsDatabaseToolsConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -710,7 +710,7 @@ export class DataOciDatabaseToolsDatabaseToolsConnection extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_tools_database_tools_connection oci_database_tools_database_tools_connection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_tools_database_tools_connection oci_database_tools_database_tools_connection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -721,8 +721,8 @@ export class DataOciDatabaseToolsDatabaseToolsConnection extends cdktf.Terraform
       terraformResourceType: 'oci_database_tools_database_tools_connection',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

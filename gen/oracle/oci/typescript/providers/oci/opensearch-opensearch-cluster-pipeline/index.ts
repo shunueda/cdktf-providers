@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,96 +8,96 @@ import * as cdktf from 'cdktf';
 
 export interface OpensearchOpensearchClusterPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#compartment_id OpensearchOpensearchClusterPipeline#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#compartment_id OpensearchOpensearchClusterPipeline#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#data_prepper_configuration_body OpensearchOpensearchClusterPipeline#data_prepper_configuration_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#data_prepper_configuration_body OpensearchOpensearchClusterPipeline#data_prepper_configuration_body}
   */
   readonly dataPrepperConfigurationBody: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#defined_tags OpensearchOpensearchClusterPipeline#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#defined_tags OpensearchOpensearchClusterPipeline#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#display_name OpensearchOpensearchClusterPipeline#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#display_name OpensearchOpensearchClusterPipeline#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#freeform_tags OpensearchOpensearchClusterPipeline#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#freeform_tags OpensearchOpensearchClusterPipeline#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#id OpensearchOpensearchClusterPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#id OpensearchOpensearchClusterPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#memory_gb OpensearchOpensearchClusterPipeline#memory_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#memory_gb OpensearchOpensearchClusterPipeline#memory_gb}
   */
   readonly memoryGb: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#node_count OpensearchOpensearchClusterPipeline#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#node_count OpensearchOpensearchClusterPipeline#node_count}
   */
   readonly nodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#node_shape OpensearchOpensearchClusterPipeline#node_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#node_shape OpensearchOpensearchClusterPipeline#node_shape}
   */
   readonly nodeShape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#nsg_id OpensearchOpensearchClusterPipeline#nsg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#nsg_id OpensearchOpensearchClusterPipeline#nsg_id}
   */
   readonly nsgId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#ocpu_count OpensearchOpensearchClusterPipeline#ocpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#ocpu_count OpensearchOpensearchClusterPipeline#ocpu_count}
   */
   readonly ocpuCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#opc_dry_run OpensearchOpensearchClusterPipeline#opc_dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#opc_dry_run OpensearchOpensearchClusterPipeline#opc_dry_run}
   */
   readonly opcDryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#pipeline_configuration_body OpensearchOpensearchClusterPipeline#pipeline_configuration_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#pipeline_configuration_body OpensearchOpensearchClusterPipeline#pipeline_configuration_body}
   */
   readonly pipelineConfigurationBody: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#subnet_compartment_id OpensearchOpensearchClusterPipeline#subnet_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#subnet_compartment_id OpensearchOpensearchClusterPipeline#subnet_compartment_id}
   */
   readonly subnetCompartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#subnet_id OpensearchOpensearchClusterPipeline#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#subnet_id OpensearchOpensearchClusterPipeline#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#vcn_compartment_id OpensearchOpensearchClusterPipeline#vcn_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#vcn_compartment_id OpensearchOpensearchClusterPipeline#vcn_compartment_id}
   */
   readonly vcnCompartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#vcn_id OpensearchOpensearchClusterPipeline#vcn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#vcn_id OpensearchOpensearchClusterPipeline#vcn_id}
   */
   readonly vcnId?: string;
   /**
   * reverse_connection_endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#reverse_connection_endpoints OpensearchOpensearchClusterPipeline#reverse_connection_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#reverse_connection_endpoints OpensearchOpensearchClusterPipeline#reverse_connection_endpoints}
   */
   readonly reverseConnectionEndpoints?: OpensearchOpensearchClusterPipelineReverseConnectionEndpoints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#timeouts OpensearchOpensearchClusterPipeline#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#timeouts OpensearchOpensearchClusterPipeline#timeouts}
   */
   readonly timeouts?: OpensearchOpensearchClusterPipelineTimeouts;
 }
 export interface OpensearchOpensearchClusterPipelineReverseConnectionEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#customer_fqdn OpensearchOpensearchClusterPipeline#customer_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#customer_fqdn OpensearchOpensearchClusterPipeline#customer_fqdn}
   */
   readonly customerFqdn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#customer_ip OpensearchOpensearchClusterPipeline#customer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#customer_ip OpensearchOpensearchClusterPipeline#customer_ip}
   */
   readonly customerIp: string;
 }
@@ -236,15 +236,15 @@ export class OpensearchOpensearchClusterPipelineReverseConnectionEndpointsList e
 }
 export interface OpensearchOpensearchClusterPipelineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#create OpensearchOpensearchClusterPipeline#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#create OpensearchOpensearchClusterPipeline#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#delete OpensearchOpensearchClusterPipeline#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#delete OpensearchOpensearchClusterPipeline#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#update OpensearchOpensearchClusterPipeline#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#update OpensearchOpensearchClusterPipeline#update}
   */
   readonly update?: string;
 }
@@ -396,7 +396,7 @@ export class OpensearchOpensearchClusterPipelineTimeoutsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline oci_opensearch_opensearch_cluster_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline oci_opensearch_opensearch_cluster_pipeline}
 */
 export class OpensearchOpensearchClusterPipeline extends cdktf.TerraformResource {
 
@@ -412,7 +412,7 @@ export class OpensearchOpensearchClusterPipeline extends cdktf.TerraformResource
   * Generates CDKTF code for importing a OpensearchOpensearchClusterPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchOpensearchClusterPipeline to import
-  * @param importFromId The id of the existing OpensearchOpensearchClusterPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchOpensearchClusterPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchOpensearchClusterPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -424,7 +424,7 @@ export class OpensearchOpensearchClusterPipeline extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opensearch_opensearch_cluster_pipeline oci_opensearch_opensearch_cluster_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/opensearch_opensearch_cluster_pipeline oci_opensearch_opensearch_cluster_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -435,8 +435,8 @@ export class OpensearchOpensearchClusterPipeline extends cdktf.TerraformResource
       terraformResourceType: 'oci_opensearch_opensearch_cluster_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

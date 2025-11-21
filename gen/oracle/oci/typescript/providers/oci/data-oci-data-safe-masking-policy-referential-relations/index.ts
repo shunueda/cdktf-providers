@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataSafeMaskingPolicyReferentialRelationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations#column_name DataOciDataSafeMaskingPolicyReferentialRelations#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations#column_name DataOciDataSafeMaskingPolicyReferentialRelations#column_name}
   */
   readonly columnName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations#id DataOciDataSafeMaskingPolicyReferentialRelations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations#id DataOciDataSafeMaskingPolicyReferentialRelations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations#masking_policy_id DataOciDataSafeMaskingPolicyReferentialRelations#masking_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations#masking_policy_id DataOciDataSafeMaskingPolicyReferentialRelations#masking_policy_id}
   */
   readonly maskingPolicyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations#object DataOciDataSafeMaskingPolicyReferentialRelations#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations#object DataOciDataSafeMaskingPolicyReferentialRelations#object}
   */
   readonly object?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations#relation_type DataOciDataSafeMaskingPolicyReferentialRelations#relation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations#relation_type DataOciDataSafeMaskingPolicyReferentialRelations#relation_type}
   */
   readonly relationType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations#schema_name DataOciDataSafeMaskingPolicyReferentialRelations#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations#schema_name DataOciDataSafeMaskingPolicyReferentialRelations#schema_name}
   */
   readonly schemaName?: string[];
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations#filter DataOciDataSafeMaskingPolicyReferentialRelations#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations#filter DataOciDataSafeMaskingPolicyReferentialRelations#filter}
   */
   readonly filter?: DataOciDataSafeMaskingPolicyReferentialRelationsFilter[] | cdktf.IResolvable;
 }
@@ -396,15 +396,15 @@ export class DataOciDataSafeMaskingPolicyReferentialRelationsMaskingPolicyRefere
 }
 export interface DataOciDataSafeMaskingPolicyReferentialRelationsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations#name DataOciDataSafeMaskingPolicyReferentialRelations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations#name DataOciDataSafeMaskingPolicyReferentialRelations#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations#regex DataOciDataSafeMaskingPolicyReferentialRelations#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations#regex DataOciDataSafeMaskingPolicyReferentialRelations#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations#values DataOciDataSafeMaskingPolicyReferentialRelations#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations#values DataOciDataSafeMaskingPolicyReferentialRelations#values}
   */
   readonly values: string[];
 }
@@ -572,7 +572,7 @@ export class DataOciDataSafeMaskingPolicyReferentialRelationsFilterList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations oci_data_safe_masking_policy_referential_relations}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations oci_data_safe_masking_policy_referential_relations}
 */
 export class DataOciDataSafeMaskingPolicyReferentialRelations extends cdktf.TerraformDataSource {
 
@@ -588,7 +588,7 @@ export class DataOciDataSafeMaskingPolicyReferentialRelations extends cdktf.Terr
   * Generates CDKTF code for importing a DataOciDataSafeMaskingPolicyReferentialRelations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataSafeMaskingPolicyReferentialRelations to import
-  * @param importFromId The id of the existing DataOciDataSafeMaskingPolicyReferentialRelations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataSafeMaskingPolicyReferentialRelations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataSafeMaskingPolicyReferentialRelations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -600,7 +600,7 @@ export class DataOciDataSafeMaskingPolicyReferentialRelations extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_masking_policy_referential_relations oci_data_safe_masking_policy_referential_relations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_referential_relations oci_data_safe_masking_policy_referential_relations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -611,8 +611,8 @@ export class DataOciDataSafeMaskingPolicyReferentialRelations extends cdktf.Terr
       terraformResourceType: 'oci_data_safe_masking_policy_referential_relations',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

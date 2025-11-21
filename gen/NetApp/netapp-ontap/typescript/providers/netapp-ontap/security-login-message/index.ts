@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_login_message
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_login_message
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SecurityLoginMessageConfig extends cdktf.TerraformMetaArguments
   /**
   * SecurityLoginMessage login banner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_login_message#banner SecurityLoginMessage#banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_login_message#banner SecurityLoginMessage#banner}
   */
   readonly banner?: string;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_login_message#cx_profile_name SecurityLoginMessage#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_login_message#cx_profile_name SecurityLoginMessage#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * SecurityLoginMessage the message of the day (MOTD). This message appears just before the clustershell prompt after a successful login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_login_message#message SecurityLoginMessage#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_login_message#message SecurityLoginMessage#message}
   */
   readonly message?: string;
   /**
   * SecurityLoginMessage network scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_login_message#scope SecurityLoginMessage#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_login_message#scope SecurityLoginMessage#scope}
   */
   readonly scope?: string;
   /**
   * Specifies whether to show a cluster-level message before the SVM message when logging in as an SVM administrator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_login_message#show_cluster_message SecurityLoginMessage#show_cluster_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_login_message#show_cluster_message SecurityLoginMessage#show_cluster_message}
   */
   readonly showClusterMessage?: boolean | cdktf.IResolvable;
   /**
   * SecurityLoginMessage svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_login_message#svm_name SecurityLoginMessage#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_login_message#svm_name SecurityLoginMessage#svm_name}
   */
   readonly svmName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_login_message netapp-ontap_security_login_message}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_login_message netapp-ontap_security_login_message}
 */
 export class SecurityLoginMessage extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class SecurityLoginMessage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityLoginMessage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityLoginMessage to import
-  * @param importFromId The id of the existing SecurityLoginMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_login_message#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityLoginMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_login_message#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityLoginMessage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class SecurityLoginMessage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_login_message netapp-ontap_security_login_message} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_login_message netapp-ontap_security_login_message} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class SecurityLoginMessage extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_security_login_message',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

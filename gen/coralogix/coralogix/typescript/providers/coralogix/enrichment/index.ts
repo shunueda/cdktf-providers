@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EnrichmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#id Enrichment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#id Enrichment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface EnrichmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#aws Enrichment#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#aws Enrichment#aws}
   */
   readonly aws?: EnrichmentAws;
   /**
   * custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#custom Enrichment#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#custom Enrichment#custom}
   */
   readonly custom?: EnrichmentCustom;
   /**
   * geo_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#geo_ip Enrichment#geo_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#geo_ip Enrichment#geo_ip}
   */
   readonly geoIp?: EnrichmentGeoIp;
   /**
   * suspicious_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#suspicious_ip Enrichment#suspicious_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#suspicious_ip Enrichment#suspicious_ip}
   */
   readonly suspiciousIp?: EnrichmentSuspiciousIp;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#timeouts Enrichment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#timeouts Enrichment#timeouts}
   */
   readonly timeouts?: EnrichmentTimeouts;
 }
 export interface EnrichmentAwsFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#name Enrichment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#name Enrichment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#resource Enrichment#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#resource Enrichment#resource}
   */
   readonly resource: string;
 }
@@ -197,7 +197,7 @@ export interface EnrichmentAws {
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#fields Enrichment#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#fields Enrichment#fields}
   */
   readonly fields?: EnrichmentAwsFields[] | cdktf.IResolvable;
 }
@@ -281,7 +281,7 @@ export class EnrichmentAwsOutputReference extends cdktf.ComplexObject {
 }
 export interface EnrichmentCustomFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#name Enrichment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#name Enrichment#name}
   */
   readonly name: string;
 }
@@ -399,13 +399,13 @@ export class EnrichmentCustomFieldsList extends cdktf.ComplexList {
 }
 export interface EnrichmentCustom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#custom_enrichment_id Enrichment#custom_enrichment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#custom_enrichment_id Enrichment#custom_enrichment_id}
   */
   readonly customEnrichmentId: number;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#fields Enrichment#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#fields Enrichment#fields}
   */
   readonly fields?: EnrichmentCustomFields[] | cdktf.IResolvable;
 }
@@ -515,7 +515,7 @@ export class EnrichmentCustomOutputReference extends cdktf.ComplexObject {
 }
 export interface EnrichmentGeoIpFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#name Enrichment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#name Enrichment#name}
   */
   readonly name: string;
 }
@@ -635,7 +635,7 @@ export interface EnrichmentGeoIp {
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#fields Enrichment#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#fields Enrichment#fields}
   */
   readonly fields?: EnrichmentGeoIpFields[] | cdktf.IResolvable;
 }
@@ -719,7 +719,7 @@ export class EnrichmentGeoIpOutputReference extends cdktf.ComplexObject {
 }
 export interface EnrichmentSuspiciousIpFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#name Enrichment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#name Enrichment#name}
   */
   readonly name: string;
 }
@@ -839,7 +839,7 @@ export interface EnrichmentSuspiciousIp {
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#fields Enrichment#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#fields Enrichment#fields}
   */
   readonly fields?: EnrichmentSuspiciousIpFields[] | cdktf.IResolvable;
 }
@@ -923,19 +923,19 @@ export class EnrichmentSuspiciousIpOutputReference extends cdktf.ComplexObject {
 }
 export interface EnrichmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#create Enrichment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#create Enrichment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#delete Enrichment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#delete Enrichment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#read Enrichment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#read Enrichment#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#update Enrichment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#update Enrichment#update}
   */
   readonly update?: string;
 }
@@ -1116,7 +1116,7 @@ export class EnrichmentTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment coralogix_enrichment}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment coralogix_enrichment}
 */
 export class Enrichment extends cdktf.TerraformResource {
 
@@ -1132,7 +1132,7 @@ export class Enrichment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Enrichment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Enrichment to import
-  * @param importFromId The id of the existing Enrichment that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Enrichment that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Enrichment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1144,7 +1144,7 @@ export class Enrichment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/enrichment coralogix_enrichment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/enrichment coralogix_enrichment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1155,8 +1155,8 @@ export class Enrichment extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_enrichment',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

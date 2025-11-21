@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDelegateAccessControlDelegatedResourceAccessRequestsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests#compartment_id DataOciDelegateAccessControlDelegatedResourceAccessRequests#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests#compartment_id DataOciDelegateAccessControlDelegatedResourceAccessRequests#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests#delegation_control_id DataOciDelegateAccessControlDelegatedResourceAccessRequests#delegation_control_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests#delegation_control_id DataOciDelegateAccessControlDelegatedResourceAccessRequests#delegation_control_id}
   */
   readonly delegationControlId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests#id DataOciDelegateAccessControlDelegatedResourceAccessRequests#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests#id DataOciDelegateAccessControlDelegatedResourceAccessRequests#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests#request_status DataOciDelegateAccessControlDelegatedResourceAccessRequests#request_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests#request_status DataOciDelegateAccessControlDelegatedResourceAccessRequests#request_status}
   */
   readonly requestStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests#resource_id DataOciDelegateAccessControlDelegatedResourceAccessRequests#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests#resource_id DataOciDelegateAccessControlDelegatedResourceAccessRequests#resource_id}
   */
   readonly resourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests#state DataOciDelegateAccessControlDelegatedResourceAccessRequests#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests#state DataOciDelegateAccessControlDelegatedResourceAccessRequests#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests#time_end DataOciDelegateAccessControlDelegatedResourceAccessRequests#time_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests#time_end DataOciDelegateAccessControlDelegatedResourceAccessRequests#time_end}
   */
   readonly timeEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests#time_start DataOciDelegateAccessControlDelegatedResourceAccessRequests#time_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests#time_start DataOciDelegateAccessControlDelegatedResourceAccessRequests#time_start}
   */
   readonly timeStart?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests#filter DataOciDelegateAccessControlDelegatedResourceAccessRequests#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests#filter DataOciDelegateAccessControlDelegatedResourceAccessRequests#filter}
   */
   readonly filter?: DataOciDelegateAccessControlDelegatedResourceAccessRequestsFilter[] | cdktf.IResolvable;
 }
@@ -471,15 +471,15 @@ export class DataOciDelegateAccessControlDelegatedResourceAccessRequestsDelegate
 }
 export interface DataOciDelegateAccessControlDelegatedResourceAccessRequestsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests#name DataOciDelegateAccessControlDelegatedResourceAccessRequests#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests#name DataOciDelegateAccessControlDelegatedResourceAccessRequests#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests#regex DataOciDelegateAccessControlDelegatedResourceAccessRequests#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests#regex DataOciDelegateAccessControlDelegatedResourceAccessRequests#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests#values DataOciDelegateAccessControlDelegatedResourceAccessRequests#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests#values DataOciDelegateAccessControlDelegatedResourceAccessRequests#values}
   */
   readonly values: string[];
 }
@@ -647,7 +647,7 @@ export class DataOciDelegateAccessControlDelegatedResourceAccessRequestsFilterLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests oci_delegate_access_control_delegated_resource_access_requests}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests oci_delegate_access_control_delegated_resource_access_requests}
 */
 export class DataOciDelegateAccessControlDelegatedResourceAccessRequests extends cdktf.TerraformDataSource {
 
@@ -663,7 +663,7 @@ export class DataOciDelegateAccessControlDelegatedResourceAccessRequests extends
   * Generates CDKTF code for importing a DataOciDelegateAccessControlDelegatedResourceAccessRequests resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDelegateAccessControlDelegatedResourceAccessRequests to import
-  * @param importFromId The id of the existing DataOciDelegateAccessControlDelegatedResourceAccessRequests that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDelegateAccessControlDelegatedResourceAccessRequests that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDelegateAccessControlDelegatedResourceAccessRequests to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -675,7 +675,7 @@ export class DataOciDelegateAccessControlDelegatedResourceAccessRequests extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/delegate_access_control_delegated_resource_access_requests oci_delegate_access_control_delegated_resource_access_requests} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_requests oci_delegate_access_control_delegated_resource_access_requests} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -686,8 +686,8 @@ export class DataOciDelegateAccessControlDelegatedResourceAccessRequests extends
       terraformResourceType: 'oci_delegate_access_control_delegated_resource_access_requests',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

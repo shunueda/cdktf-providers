@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_migrations_migration_plan
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_migration_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCloudMigrationsMigrationPlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_migrations_migration_plan#migration_plan_id DataOciCloudMigrationsMigrationPlan#migration_plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_migration_plan#migration_plan_id DataOciCloudMigrationsMigrationPlan#migration_plan_id}
   */
   readonly migrationPlanId: string;
 }
@@ -804,7 +804,7 @@ export class DataOciCloudMigrationsMigrationPlanTargetEnvironmentsList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_migrations_migration_plan oci_cloud_migrations_migration_plan}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_migration_plan oci_cloud_migrations_migration_plan}
 */
 export class DataOciCloudMigrationsMigrationPlan extends cdktf.TerraformDataSource {
 
@@ -820,7 +820,7 @@ export class DataOciCloudMigrationsMigrationPlan extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataOciCloudMigrationsMigrationPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCloudMigrationsMigrationPlan to import
-  * @param importFromId The id of the existing DataOciCloudMigrationsMigrationPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_migrations_migration_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCloudMigrationsMigrationPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_migration_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCloudMigrationsMigrationPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -832,7 +832,7 @@ export class DataOciCloudMigrationsMigrationPlan extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_migrations_migration_plan oci_cloud_migrations_migration_plan} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_migration_plan oci_cloud_migrations_migration_plan} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -843,8 +843,8 @@ export class DataOciCloudMigrationsMigrationPlan extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_cloud_migrations_migration_plan',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

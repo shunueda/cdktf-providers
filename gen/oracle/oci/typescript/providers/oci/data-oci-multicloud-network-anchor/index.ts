@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_network_anchor
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMulticloudNetworkAnchorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_network_anchor#external_location DataOciMulticloudNetworkAnchor#external_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor#external_location DataOciMulticloudNetworkAnchor#external_location}
   */
   readonly externalLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_network_anchor#network_anchor_id DataOciMulticloudNetworkAnchor#network_anchor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor#network_anchor_id DataOciMulticloudNetworkAnchor#network_anchor_id}
   */
   readonly networkAnchorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_network_anchor#subscription_id DataOciMulticloudNetworkAnchor#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor#subscription_id DataOciMulticloudNetworkAnchor#subscription_id}
   */
   readonly subscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_network_anchor#subscription_service_name DataOciMulticloudNetworkAnchor#subscription_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor#subscription_service_name DataOciMulticloudNetworkAnchor#subscription_service_name}
   */
   readonly subscriptionServiceName: string;
 }
@@ -479,7 +479,7 @@ export class DataOciMulticloudNetworkAnchorOciMetadataItemList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_network_anchor oci_multicloud_network_anchor}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor oci_multicloud_network_anchor}
 */
 export class DataOciMulticloudNetworkAnchor extends cdktf.TerraformDataSource {
 
@@ -495,7 +495,7 @@ export class DataOciMulticloudNetworkAnchor extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciMulticloudNetworkAnchor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMulticloudNetworkAnchor to import
-  * @param importFromId The id of the existing DataOciMulticloudNetworkAnchor that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_network_anchor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMulticloudNetworkAnchor that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMulticloudNetworkAnchor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -507,7 +507,7 @@ export class DataOciMulticloudNetworkAnchor extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_network_anchor oci_multicloud_network_anchor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor oci_multicloud_network_anchor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -518,8 +518,8 @@ export class DataOciMulticloudNetworkAnchor extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_multicloud_network_anchor',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_organization_member
+// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MetalOrganizationMemberConfig extends cdktf.TerraformMetaArgume
   /**
   * The email address of the user to invite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_organization_member#invitee MetalOrganizationMember#invitee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization_member#invitee MetalOrganizationMember#invitee}
   */
   readonly invitee: string;
   /**
   * A message to the invitee (only used during the invitation stage)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_organization_member#message MetalOrganizationMember#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization_member#message MetalOrganizationMember#message}
   */
   readonly message?: string;
   /**
   * The organization to invite the user to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_organization_member#organization_id MetalOrganizationMember#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization_member#organization_id MetalOrganizationMember#organization_id}
   */
   readonly organizationId: string;
   /**
   * Project IDs the member has access to within the organization. If the member is an 'owner', the projects list should be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_organization_member#projects_ids MetalOrganizationMember#projects_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization_member#projects_ids MetalOrganizationMember#projects_ids}
   */
   readonly projectsIds: string[];
   /**
   * Organization roles (owner, collaborator, limited_collaborator, billing)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_organization_member#roles MetalOrganizationMember#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization_member#roles MetalOrganizationMember#roles}
   */
   readonly roles: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_organization_member equinix_metal_organization_member}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization_member equinix_metal_organization_member}
 */
 export class MetalOrganizationMember extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class MetalOrganizationMember extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalOrganizationMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalOrganizationMember to import
-  * @param importFromId The id of the existing MetalOrganizationMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_organization_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalOrganizationMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalOrganizationMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class MetalOrganizationMember extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_organization_member equinix_metal_organization_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization_member equinix_metal_organization_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class MetalOrganizationMember extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_organization_member',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.10.0',
-        providerVersionConstraint: '4.10.0'
+        providerVersion: '4.11.0',
+        providerVersionConstraint: '4.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

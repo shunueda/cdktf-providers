@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/certificate_pool
+// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/certificate_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CertificatePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * A description of the Certificate Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/certificate_pool#description CertificatePool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/certificate_pool#description CertificatePool#description}
   */
   readonly description: string;
   /**
   * A name for the Certificate Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/certificate_pool#display_name CertificatePool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/certificate_pool#display_name CertificatePool#display_name}
   */
   readonly displayName: string;
   /**
   * The certificate field that will be used to represent the pool's external identity for audit logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/certificate_pool#external_identifier CertificatePool#external_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/certificate_pool#external_identifier CertificatePool#external_identifier}
   */
   readonly externalIdentifier: string;
   /**
   * A filter expression in Supported Common Expression Language (CEL) that specifies which identities can authenticate using your certificate pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/certificate_pool#filter CertificatePool#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/certificate_pool#filter CertificatePool#filter}
   */
   readonly filter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/certificate_pool#id CertificatePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/certificate_pool#id CertificatePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ export interface CertificatePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * certificate_authority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/certificate_pool#certificate_authority CertificatePool#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/certificate_pool#certificate_authority CertificatePool#certificate_authority}
   */
   readonly certificateAuthority: CertificatePoolCertificateAuthority;
 }
@@ -49,7 +49,7 @@ export interface CertificatePoolCertificateAuthority {
   /**
   * The unique identifier for the Certificate Authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/certificate_pool#id CertificatePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/certificate_pool#id CertificatePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -133,7 +133,7 @@ export class CertificatePoolCertificateAuthorityOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/certificate_pool confluent_certificate_pool}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/certificate_pool confluent_certificate_pool}
 */
 export class CertificatePool extends cdktf.TerraformResource {
 
@@ -149,7 +149,7 @@ export class CertificatePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CertificatePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificatePool to import
-  * @param importFromId The id of the existing CertificatePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/certificate_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificatePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/certificate_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificatePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -161,7 +161,7 @@ export class CertificatePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/certificate_pool confluent_certificate_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/certificate_pool confluent_certificate_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -172,8 +172,8 @@ export class CertificatePool extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_certificate_pool',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.53.0',
-        providerVersionConstraint: '2.53.0'
+        providerVersion: '2.54.0',
+        providerVersionConstraint: '2.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

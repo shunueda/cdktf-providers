@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface StackMonitoringMaintenanceWindowsRetryFailedOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#id StackMonitoringMaintenanceWindowsRetryFailedOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#id StackMonitoringMaintenanceWindowsRetryFailedOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#maintenance_window_id StackMonitoringMaintenanceWindowsRetryFailedOperation#maintenance_window_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#maintenance_window_id StackMonitoringMaintenanceWindowsRetryFailedOperation#maintenance_window_id}
   */
   readonly maintenanceWindowId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#timeouts StackMonitoringMaintenanceWindowsRetryFailedOperation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#timeouts StackMonitoringMaintenanceWindowsRetryFailedOperation#timeouts}
   */
   readonly timeouts?: StackMonitoringMaintenanceWindowsRetryFailedOperationTimeouts;
 }
 export interface StackMonitoringMaintenanceWindowsRetryFailedOperationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#create StackMonitoringMaintenanceWindowsRetryFailedOperation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#create StackMonitoringMaintenanceWindowsRetryFailedOperation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#delete StackMonitoringMaintenanceWindowsRetryFailedOperation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#delete StackMonitoringMaintenanceWindowsRetryFailedOperation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#update StackMonitoringMaintenanceWindowsRetryFailedOperation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#update StackMonitoringMaintenanceWindowsRetryFailedOperation#update}
   */
   readonly update?: string;
 }
@@ -187,7 +187,7 @@ export class StackMonitoringMaintenanceWindowsRetryFailedOperationTimeoutsOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation oci_stack_monitoring_maintenance_windows_retry_failed_operation}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation oci_stack_monitoring_maintenance_windows_retry_failed_operation}
 */
 export class StackMonitoringMaintenanceWindowsRetryFailedOperation extends cdktf.TerraformResource {
 
@@ -203,7 +203,7 @@ export class StackMonitoringMaintenanceWindowsRetryFailedOperation extends cdktf
   * Generates CDKTF code for importing a StackMonitoringMaintenanceWindowsRetryFailedOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StackMonitoringMaintenanceWindowsRetryFailedOperation to import
-  * @param importFromId The id of the existing StackMonitoringMaintenanceWindowsRetryFailedOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StackMonitoringMaintenanceWindowsRetryFailedOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StackMonitoringMaintenanceWindowsRetryFailedOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -215,7 +215,7 @@ export class StackMonitoringMaintenanceWindowsRetryFailedOperation extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation oci_stack_monitoring_maintenance_windows_retry_failed_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation oci_stack_monitoring_maintenance_windows_retry_failed_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,8 +226,8 @@ export class StackMonitoringMaintenanceWindowsRetryFailedOperation extends cdktf
       terraformResourceType: 'oci_stack_monitoring_maintenance_windows_retry_failed_operation',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

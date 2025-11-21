@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface ProtocolsCifsServiceResourceConfig extends cdktf.TerraformMetaA
   /**
   * Ad domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#ad_domain ProtocolsCifsServiceResource#ad_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#ad_domain ProtocolsCifsServiceResource#ad_domain}
   */
   readonly adDomain: ProtocolsCifsServiceResourceAdDomain;
   /**
   * Text comment of up to 48 characters about the CIFS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#comment ProtocolsCifsServiceResource#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#comment ProtocolsCifsServiceResource#comment}
   */
   readonly comment?: string;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#cx_profile_name ProtocolsCifsServiceResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#cx_profile_name ProtocolsCifsServiceResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Default unix user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#default_unix_user ProtocolsCifsServiceResource#default_unix_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#default_unix_user ProtocolsCifsServiceResource#default_unix_user}
   */
   readonly defaultUnixUser?: string;
   /**
   * Specifies if the CIFS service is administratively enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#enabled ProtocolsCifsServiceResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#enabled ProtocolsCifsServiceResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specifies if the CIFS service is administratively enabled (9.11)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#force ProtocolsCifsServiceResource#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#force ProtocolsCifsServiceResource#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * CifsService name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#name ProtocolsCifsServiceResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#name ProtocolsCifsServiceResource#name}
   */
   readonly name: string;
   /**
   * Netbios
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#netbios ProtocolsCifsServiceResource#netbios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#netbios ProtocolsCifsServiceResource#netbios}
   */
   readonly netbios?: ProtocolsCifsServiceResourceNetbios;
   /**
   * Security
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#security ProtocolsCifsServiceResource#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#security ProtocolsCifsServiceResource#security}
   */
   readonly security?: ProtocolsCifsServiceResourceSecurity;
   /**
   * CifsService svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#svm_name ProtocolsCifsServiceResource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#svm_name ProtocolsCifsServiceResource#svm_name}
   */
   readonly svmName: string;
 }
@@ -72,25 +72,25 @@ export interface ProtocolsCifsServiceResourceAdDomain {
   /**
   *  Fully qualified domain name of the Windows Active Directory to which this CIFS server belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#fqdn ProtocolsCifsServiceResource#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#fqdn ProtocolsCifsServiceResource#fqdn}
   */
   readonly fqdn: string;
   /**
   * Organizational unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#organizational_unit ProtocolsCifsServiceResource#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#organizational_unit ProtocolsCifsServiceResource#organizational_unit}
   */
   readonly organizationalUnit?: string;
   /**
   * Account password used to add this CIFS server to the Active Directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#password ProtocolsCifsServiceResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#password ProtocolsCifsServiceResource#password}
   */
   readonly password: string;
   /**
   * User account with the access to add the CIFS server to the Active Directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#user ProtocolsCifsServiceResource#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#user ProtocolsCifsServiceResource#user}
   */
   readonly user: string;
 }
@@ -264,19 +264,19 @@ export interface ProtocolsCifsServiceResourceNetbios {
   /**
   * list of one or more NetBIOS aliases for the CIFS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#aliases ProtocolsCifsServiceResource#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#aliases ProtocolsCifsServiceResource#aliases}
   */
   readonly aliases?: string[];
   /**
   * NetBios name service (NBNS) is enabled for the CIFS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#enabled ProtocolsCifsServiceResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#enabled ProtocolsCifsServiceResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * list of Windows Internet Name Server (WINS) addresses that manage and map the NetBIOS name of the CIFS server to their network IP addresses. The IP addresses must be IPv4 addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#wins_servers ProtocolsCifsServiceResource#wins_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#wins_servers ProtocolsCifsServiceResource#wins_servers}
   */
   readonly winsServers?: string[];
 }
@@ -430,79 +430,79 @@ export interface ProtocolsCifsServiceResourceSecurity {
   /**
   * List of advertised KDC encryptions (9.12)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#advertised_kdc_encryptions ProtocolsCifsServiceResource#advertised_kdc_encryptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#advertised_kdc_encryptions ProtocolsCifsServiceResource#advertised_kdc_encryptions}
   */
   readonly advertisedKdcEncryptions?: string[];
   /**
   * An AES session key is enabled for the Netlogon channel (9.10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#aes_netlogon_enabled ProtocolsCifsServiceResource#aes_netlogon_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#aes_netlogon_enabled ProtocolsCifsServiceResource#aes_netlogon_enabled}
   */
   readonly aesNetlogonEnabled?: boolean | cdktf.IResolvable;
   /**
   * Encryption is required for domain controller connections (9.8)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#encrypt_dc_connection ProtocolsCifsServiceResource#encrypt_dc_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#encrypt_dc_connection ProtocolsCifsServiceResource#encrypt_dc_connection}
   */
   readonly encryptDcConnection?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether AES-128 and AES-256 encryption is enabled for all Kerberos-based communication with the Active Directory KDC. Deprecated in 9.12. Use 'advertised_kdc_encryptions' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#kdc_encryption ProtocolsCifsServiceResource#kdc_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#kdc_encryption ProtocolsCifsServiceResource#kdc_encryption}
   */
   readonly kdcEncryption?: boolean | cdktf.IResolvable;
   /**
   * Specifies if LDAP referral chasing is enabled for AD LDAP connections (9.10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#ldap_referral_enabled ProtocolsCifsServiceResource#ldap_referral_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#ldap_referral_enabled ProtocolsCifsServiceResource#ldap_referral_enabled}
   */
   readonly ldapReferralEnabled?: boolean | cdktf.IResolvable;
   /**
   * CIFS server minimum security level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#lm_compatibility_level ProtocolsCifsServiceResource#lm_compatibility_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#lm_compatibility_level ProtocolsCifsServiceResource#lm_compatibility_level}
   */
   readonly lmCompatibilityLevel?: string;
   /**
   * Specifies what level of access an anonymous user is granted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#restrict_anonymous ProtocolsCifsServiceResource#restrict_anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#restrict_anonymous ProtocolsCifsServiceResource#restrict_anonymous}
   */
   readonly restrictAnonymous?: string;
   /**
   * Client session security for AD LDAP connections (9.10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#session_security ProtocolsCifsServiceResource#session_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#session_security ProtocolsCifsServiceResource#session_security}
   */
   readonly sessionSecurity?: string;
   /**
   * Specifies if encryption is required for incoming CIFS traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#smb_encryption ProtocolsCifsServiceResource#smb_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#smb_encryption ProtocolsCifsServiceResource#smb_encryption}
   */
   readonly smbEncryption?: boolean | cdktf.IResolvable;
   /**
   * Specifies if signing is required for incoming CIFS traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#smb_signing ProtocolsCifsServiceResource#smb_signing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#smb_signing ProtocolsCifsServiceResource#smb_signing}
   */
   readonly smbSigning?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether or not channel binding is attempted in the case of TLS/LDAPS (9.10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#try_ldap_channel_binding ProtocolsCifsServiceResource#try_ldap_channel_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#try_ldap_channel_binding ProtocolsCifsServiceResource#try_ldap_channel_binding}
   */
   readonly tryLdapChannelBinding?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether or not to use use LDAPS for secure Active Directory LDAP connections by using the TLS/SSL protocols (9.10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#use_ldaps ProtocolsCifsServiceResource#use_ldaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#use_ldaps ProtocolsCifsServiceResource#use_ldaps}
   */
   readonly useLdaps?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether or not to use SSL/TLS for allowing secure LDAP communication with Active Directory LDAP servers (9.10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#use_start_tls ProtocolsCifsServiceResource#use_start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#use_start_tls ProtocolsCifsServiceResource#use_start_tls}
   */
   readonly useStartTls?: boolean | cdktf.IResolvable;
 }
@@ -944,7 +944,7 @@ export class ProtocolsCifsServiceResourceSecurityOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource netapp-ontap_protocols_cifs_service_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource netapp-ontap_protocols_cifs_service_resource}
 */
 export class ProtocolsCifsServiceResource extends cdktf.TerraformResource {
 
@@ -960,7 +960,7 @@ export class ProtocolsCifsServiceResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtocolsCifsServiceResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtocolsCifsServiceResource to import
-  * @param importFromId The id of the existing ProtocolsCifsServiceResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtocolsCifsServiceResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtocolsCifsServiceResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -972,7 +972,7 @@ export class ProtocolsCifsServiceResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_service_resource netapp-ontap_protocols_cifs_service_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_service_resource netapp-ontap_protocols_cifs_service_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -983,8 +983,8 @@ export class ProtocolsCifsServiceResource extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_protocols_cifs_service_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

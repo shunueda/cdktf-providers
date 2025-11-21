@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_external_db_system
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_external_db_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementExternalDbSystemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_external_db_system#external_db_system_id DataOciDatabaseManagementExternalDbSystem#external_db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_external_db_system#external_db_system_id DataOciDatabaseManagementExternalDbSystem#external_db_system_id}
   */
   readonly externalDbSystemId: string;
 }
@@ -169,7 +169,7 @@ export class DataOciDatabaseManagementExternalDbSystemStackMonitoringConfigList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_external_db_system oci_database_management_external_db_system}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_external_db_system oci_database_management_external_db_system}
 */
 export class DataOciDatabaseManagementExternalDbSystem extends cdktf.TerraformDataSource {
 
@@ -185,7 +185,7 @@ export class DataOciDatabaseManagementExternalDbSystem extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataOciDatabaseManagementExternalDbSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementExternalDbSystem to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementExternalDbSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_external_db_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementExternalDbSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_external_db_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementExternalDbSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class DataOciDatabaseManagementExternalDbSystem extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_external_db_system oci_database_management_external_db_system} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_external_db_system oci_database_management_external_db_system} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class DataOciDatabaseManagementExternalDbSystem extends cdktf.TerraformDa
       terraformResourceType: 'oci_database_management_external_db_system',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

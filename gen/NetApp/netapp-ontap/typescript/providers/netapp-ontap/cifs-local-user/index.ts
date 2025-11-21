@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cifs_local_user
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cifs_local_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface CifsLocalUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * CifsLocalUser account disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cifs_local_user#account_disabled CifsLocalUser#account_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cifs_local_user#account_disabled CifsLocalUser#account_disabled}
   */
   readonly accountDisabled?: boolean | cdktf.IResolvable;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cifs_local_user#cx_profile_name CifsLocalUser#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cifs_local_user#cx_profile_name CifsLocalUser#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * CifsLocalUser description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cifs_local_user#description CifsLocalUser#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cifs_local_user#description CifsLocalUser#description}
   */
   readonly description?: string;
   /**
   * CifsLocalUser full name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cifs_local_user#full_name CifsLocalUser#full_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cifs_local_user#full_name CifsLocalUser#full_name}
   */
   readonly fullName?: string;
   /**
   * CifsLocalUser name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cifs_local_user#name CifsLocalUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cifs_local_user#name CifsLocalUser#name}
   */
   readonly name: string;
   /**
   * CifsLocalUser password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cifs_local_user#password CifsLocalUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cifs_local_user#password CifsLocalUser#password}
   */
   readonly password: string;
   /**
   * CifsLocalUser svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cifs_local_user#svm_name CifsLocalUser#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cifs_local_user#svm_name CifsLocalUser#svm_name}
   */
   readonly svmName: string;
 }
@@ -127,7 +127,7 @@ export class CifsLocalUserMembershipList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cifs_local_user netapp-ontap_cifs_local_user}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cifs_local_user netapp-ontap_cifs_local_user}
 */
 export class CifsLocalUser extends cdktf.TerraformResource {
 
@@ -143,7 +143,7 @@ export class CifsLocalUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CifsLocalUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CifsLocalUser to import
-  * @param importFromId The id of the existing CifsLocalUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cifs_local_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CifsLocalUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cifs_local_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CifsLocalUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -155,7 +155,7 @@ export class CifsLocalUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cifs_local_user netapp-ontap_cifs_local_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cifs_local_user netapp-ontap_cifs_local_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -166,8 +166,8 @@ export class CifsLocalUser extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_cifs_local_user',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

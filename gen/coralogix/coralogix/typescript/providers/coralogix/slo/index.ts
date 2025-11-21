@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface SloConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional SLO description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo#description Slo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo#description Slo#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo#filters Slo#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo#filters Slo#filters}
   */
   readonly filters?: SloFilters[] | cdktf.IResolvable;
   /**
   * SLO name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
   * Period. This is the period of the SLO. Valid values are: ["14_days" "30_days" "7_days" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo#period Slo#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo#period Slo#period}
   */
   readonly period: string;
   /**
   * Service name. This is the name of the service that the SLO is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo#service_name Slo#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo#service_name Slo#service_name}
   */
   readonly serviceName: string;
   /**
   * Target percentage. This is the target percentage of the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo#target_percentage Slo#target_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo#target_percentage Slo#target_percentage}
   */
   readonly targetPercentage: number;
   /**
   * Threshold in microseconds. Required when `type` is `latency`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo#threshold_microseconds Slo#threshold_microseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo#threshold_microseconds Slo#threshold_microseconds}
   */
   readonly thresholdMicroseconds?: number;
   /**
   * Threshold symbol type. Required when `type` is `latency`. Valid values are: ["equal" "greater" "greater_or_equal" "less" "less_or_equal"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo#threshold_symbol_type Slo#threshold_symbol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo#threshold_symbol_type Slo#threshold_symbol_type}
   */
   readonly thresholdSymbolType?: string;
   /**
   * Type. This is the type of the SLO. Valid values are: "error", "latency".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo#type Slo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo#type Slo#type}
   */
   readonly type: string;
 }
@@ -64,15 +64,15 @@ export interface SloFilters {
   /**
   * Compare type. This is the compare type of the SLO. Valid values are: ["ends_with" "includes" "is" "starts_with" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo#compare_type Slo#compare_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo#compare_type Slo#compare_type}
   */
   readonly compareType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo#field Slo#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo#field Slo#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo#field_values Slo#field_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo#field_values Slo#field_values}
   */
   readonly fieldValues?: string[];
 }
@@ -240,7 +240,7 @@ export class SloFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo coralogix_slo}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo coralogix_slo}
 */
 export class Slo extends cdktf.TerraformResource {
 
@@ -256,7 +256,7 @@ export class Slo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Slo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Slo to import
-  * @param importFromId The id of the existing Slo that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Slo that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Slo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -268,7 +268,7 @@ export class Slo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/slo coralogix_slo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo coralogix_slo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,8 +279,8 @@ export class Slo extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_slo',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

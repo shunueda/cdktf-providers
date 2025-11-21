@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface AlertConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alert description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#description Alert#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#description Alert#description}
   */
   readonly description?: string;
   /**
   * Alert enabled status. True by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#enabled Alert#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#enabled Alert#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Group by fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#group_by Alert#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#group_by Alert#group_by}
   */
   readonly groupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#incidents_settings Alert#incidents_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#incidents_settings Alert#incidents_settings}
   */
   readonly incidentsSettings?: AlertIncidentsSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#labels Alert#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#labels Alert#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Alert name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#name Alert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#name Alert#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notification_group Alert#notification_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notification_group Alert#notification_group}
   */
   readonly notificationGroup?: AlertNotificationGroup;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#phantom_mode Alert#phantom_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#phantom_mode Alert#phantom_mode}
   */
   readonly phantomMode?: boolean | cdktf.IResolvable;
   /**
   * Alert priority. Valid values: ["P1" "P2" "P3" "P4" "P5"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#priority Alert#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#priority Alert#priority}
   */
   readonly priority?: string;
   /**
   * Alert schedule. Will be activated all the time if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#schedule Alert#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#schedule Alert#schedule}
   */
   readonly schedule?: AlertSchedule;
   /**
   * Alert type definition. Exactly one of the following must be specified: logs_immediate, logs_threshold, logs_anomaly, logs_ratio_threshold, logs_new_value, logs_unique_count, logs_time_relative_threshold, metric_threshold, metric_anomaly, tracing_immediate, tracing_threshold, flow, slo_threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#type_definition Alert#type_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#type_definition Alert#type_definition}
   */
   readonly typeDefinition: AlertTypeDefinition;
 }
 export interface AlertIncidentsSettingsRetriggeringPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#minutes Alert#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#minutes Alert#minutes}
   */
   readonly minutes: number;
 }
@@ -151,11 +151,11 @@ export interface AlertIncidentsSettings {
   /**
   * Notify on. Valid values: ["Triggered Only" "Triggered and Resolved"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notify_on Alert#notify_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notify_on Alert#notify_on}
   */
   readonly notifyOn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#retriggering_period Alert#retriggering_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#retriggering_period Alert#retriggering_period}
   */
   readonly retriggeringPeriod: AlertIncidentsSettingsRetriggeringPeriod;
 }
@@ -272,11 +272,11 @@ export class AlertIncidentsSettingsOutputReference extends cdktf.ComplexObject {
 }
 export interface AlertNotificationGroupDestinationsResolvedRoutingOverridesConnectorOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#field_name Alert#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#field_name Alert#field_name}
   */
   readonly fieldName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#template Alert#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#template Alert#template}
   */
   readonly template: string;
 }
@@ -415,11 +415,11 @@ export class AlertNotificationGroupDestinationsResolvedRoutingOverridesConnector
 }
 export interface AlertNotificationGroupDestinationsResolvedRoutingOverridesPresetOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#field_name Alert#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#field_name Alert#field_name}
   */
   readonly fieldName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#template Alert#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#template Alert#template}
   */
   readonly template: string;
 }
@@ -558,15 +558,15 @@ export class AlertNotificationGroupDestinationsResolvedRoutingOverridesPresetOve
 }
 export interface AlertNotificationGroupDestinationsResolvedRoutingOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#connector_overrides Alert#connector_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#connector_overrides Alert#connector_overrides}
   */
   readonly connectorOverrides?: AlertNotificationGroupDestinationsResolvedRoutingOverridesConnectorOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#payload_type Alert#payload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#payload_type Alert#payload_type}
   */
   readonly payloadType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#preset_overrides Alert#preset_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#preset_overrides Alert#preset_overrides}
   */
   readonly presetOverrides?: AlertNotificationGroupDestinationsResolvedRoutingOverridesPresetOverrides[] | cdktf.IResolvable;
 }
@@ -715,11 +715,11 @@ export class AlertNotificationGroupDestinationsResolvedRoutingOverridesOutputRef
 }
 export interface AlertNotificationGroupDestinationsTriggeredRoutingOverridesConnectorOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#field_name Alert#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#field_name Alert#field_name}
   */
   readonly fieldName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#template Alert#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#template Alert#template}
   */
   readonly template: string;
 }
@@ -858,11 +858,11 @@ export class AlertNotificationGroupDestinationsTriggeredRoutingOverridesConnecto
 }
 export interface AlertNotificationGroupDestinationsTriggeredRoutingOverridesPresetOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#field_name Alert#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#field_name Alert#field_name}
   */
   readonly fieldName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#template Alert#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#template Alert#template}
   */
   readonly template: string;
 }
@@ -1001,15 +1001,15 @@ export class AlertNotificationGroupDestinationsTriggeredRoutingOverridesPresetOv
 }
 export interface AlertNotificationGroupDestinationsTriggeredRoutingOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#connector_overrides Alert#connector_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#connector_overrides Alert#connector_overrides}
   */
   readonly connectorOverrides?: AlertNotificationGroupDestinationsTriggeredRoutingOverridesConnectorOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#payload_type Alert#payload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#payload_type Alert#payload_type}
   */
   readonly payloadType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#preset_overrides Alert#preset_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#preset_overrides Alert#preset_overrides}
   */
   readonly presetOverrides?: AlertNotificationGroupDestinationsTriggeredRoutingOverridesPresetOverrides[] | cdktf.IResolvable;
 }
@@ -1158,23 +1158,23 @@ export class AlertNotificationGroupDestinationsTriggeredRoutingOverridesOutputRe
 }
 export interface AlertNotificationGroupDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#connector_id Alert#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#connector_id Alert#connector_id}
   */
   readonly connectorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notify_on Alert#notify_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notify_on Alert#notify_on}
   */
   readonly notifyOn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#preset_id Alert#preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#preset_id Alert#preset_id}
   */
   readonly presetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#resolved_routing_overrides Alert#resolved_routing_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#resolved_routing_overrides Alert#resolved_routing_overrides}
   */
   readonly resolvedRoutingOverrides?: AlertNotificationGroupDestinationsResolvedRoutingOverrides;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#triggered_routing_overrides Alert#triggered_routing_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#triggered_routing_overrides Alert#triggered_routing_overrides}
   */
   readonly triggeredRoutingOverrides?: AlertNotificationGroupDestinationsTriggeredRoutingOverrides;
 }
@@ -1400,7 +1400,7 @@ export class AlertNotificationGroupDestinationsList extends cdktf.ComplexList {
 }
 export interface AlertNotificationGroupRouter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notify_on Alert#notify_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notify_on Alert#notify_on}
   */
   readonly notifyOn?: string;
 }
@@ -1494,7 +1494,7 @@ export class AlertNotificationGroupRouterOutputReference extends cdktf.ComplexOb
 }
 export interface AlertNotificationGroupWebhooksSettingsRetriggeringPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#minutes Alert#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#minutes Alert#minutes}
   */
   readonly minutes: number;
 }
@@ -1585,23 +1585,23 @@ export class AlertNotificationGroupWebhooksSettingsRetriggeringPeriodOutputRefer
 }
 export interface AlertNotificationGroupWebhooksSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#integration_id Alert#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#integration_id Alert#integration_id}
   */
   readonly integrationId?: string;
   /**
   * Notify on. Valid values: ["Triggered Only" "Triggered and Resolved"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notify_on Alert#notify_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notify_on Alert#notify_on}
   */
   readonly notifyOn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#recipients Alert#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#recipients Alert#recipients}
   */
   readonly recipients?: string[];
   /**
   * Retriggering period in minutes. 10 minutes by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#retriggering_period Alert#retriggering_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#retriggering_period Alert#retriggering_period}
   */
   readonly retriggeringPeriod?: AlertNotificationGroupWebhooksSettingsRetriggeringPeriod;
 }
@@ -1801,21 +1801,21 @@ export class AlertNotificationGroupWebhooksSettingsList extends cdktf.ComplexLis
 }
 export interface AlertNotificationGroup {
   /**
-  * Deprecated: Link a 3rd party notification to an alert.
+  * Link a 3rd party notification to an alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#destinations Alert#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#destinations Alert#destinations}
   */
   readonly destinations?: AlertNotificationGroupDestinations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#group_by_keys Alert#group_by_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#group_by_keys Alert#group_by_keys}
   */
   readonly groupByKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#router Alert#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#router Alert#router}
   */
   readonly router?: AlertNotificationGroupRouter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#webhooks_settings Alert#webhooks_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#webhooks_settings Alert#webhooks_settings}
   */
   readonly webhooksSettings?: AlertNotificationGroupWebhooksSettings[] | cdktf.IResolvable;
 }
@@ -1998,19 +1998,19 @@ export interface AlertScheduleActiveOn {
   /**
   * Days of the week. Valid values: ["Friday" "Monday" "Saturday" "Sunday" "Thursday" "Tuesday" "Wednesday"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#days_of_week Alert#days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#days_of_week Alert#days_of_week}
   */
   readonly daysOfWeek: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#end_time Alert#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#end_time Alert#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#start_time Alert#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#start_time Alert#start_time}
   */
   readonly startTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#utc_offset Alert#utc_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#utc_offset Alert#utc_offset}
   */
   readonly utcOffset?: string;
 }
@@ -2182,7 +2182,7 @@ export class AlertScheduleActiveOnOutputReference extends cdktf.ComplexObject {
 }
 export interface AlertSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#active_on Alert#active_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#active_on Alert#active_on}
   */
   readonly activeOn: AlertScheduleActiveOn;
 }
@@ -2273,14 +2273,14 @@ export class AlertScheduleOutputReference extends cdktf.ComplexObject {
 }
 export interface AlertTypeDefinitionFlowStagesFlowStagesGroupsAlertDefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#id Alert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#id Alert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#not Alert#not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#not Alert#not}
   */
   readonly not?: boolean | cdktf.IResolvable;
 }
@@ -2422,19 +2422,19 @@ export class AlertTypeDefinitionFlowStagesFlowStagesGroupsAlertDefsList extends 
 }
 export interface AlertTypeDefinitionFlowStagesFlowStagesGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#alert_defs Alert#alert_defs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#alert_defs Alert#alert_defs}
   */
   readonly alertDefs: AlertTypeDefinitionFlowStagesFlowStagesGroupsAlertDefs[] | cdktf.IResolvable;
   /**
   * Alerts operation. Valid values: ["AND" "OR"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#alerts_op Alert#alerts_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#alerts_op Alert#alerts_op}
   */
   readonly alertsOp: string;
   /**
   * Next operation. Valid values: ["AND" "OR"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#next_op Alert#next_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#next_op Alert#next_op}
   */
   readonly nextOp: string;
 }
@@ -2599,15 +2599,15 @@ export class AlertTypeDefinitionFlowStagesFlowStagesGroupsList extends cdktf.Com
 }
 export interface AlertTypeDefinitionFlowStages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#flow_stages_groups Alert#flow_stages_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#flow_stages_groups Alert#flow_stages_groups}
   */
   readonly flowStagesGroups: AlertTypeDefinitionFlowStagesFlowStagesGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#timeframe_ms Alert#timeframe_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#timeframe_ms Alert#timeframe_ms}
   */
   readonly timeframeMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#timeframe_type Alert#timeframe_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#timeframe_type Alert#timeframe_type}
   */
   readonly timeframeType: string;
 }
@@ -2775,11 +2775,11 @@ export class AlertTypeDefinitionFlowStagesList extends cdktf.ComplexList {
 }
 export interface AlertTypeDefinitionFlow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#enforce_suppression Alert#enforce_suppression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#enforce_suppression Alert#enforce_suppression}
   */
   readonly enforceSuppression?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#stages Alert#stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#stages Alert#stages}
   */
   readonly stages: AlertTypeDefinitionFlowStages[] | cdktf.IResolvable;
 }
@@ -2899,13 +2899,13 @@ export class AlertTypeDefinitionFlowOutputReference extends cdktf.ComplexObject 
 }
 export interface AlertTypeDefinitionLogsAnomalyLogsFilterSimpleFilterLabelFiltersApplicationName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -3047,13 +3047,13 @@ export class AlertTypeDefinitionLogsAnomalyLogsFilterSimpleFilterLabelFiltersApp
 }
 export interface AlertTypeDefinitionLogsAnomalyLogsFilterSimpleFilterLabelFiltersSubsystemName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -3195,17 +3195,17 @@ export class AlertTypeDefinitionLogsAnomalyLogsFilterSimpleFilterLabelFiltersSub
 }
 export interface AlertTypeDefinitionLogsAnomalyLogsFilterSimpleFilterLabelFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#application_name Alert#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#application_name Alert#application_name}
   */
   readonly applicationName?: AlertTypeDefinitionLogsAnomalyLogsFilterSimpleFilterLabelFiltersApplicationName[] | cdktf.IResolvable;
   /**
   * Severities. Valid values: ["Critical" "Debug" "Error" "Info" "Unspecified" "Warning"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#severities Alert#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#severities Alert#severities}
   */
   readonly severities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#subsystem_name Alert#subsystem_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#subsystem_name Alert#subsystem_name}
   */
   readonly subsystemName?: AlertTypeDefinitionLogsAnomalyLogsFilterSimpleFilterLabelFiltersSubsystemName[] | cdktf.IResolvable;
 }
@@ -3357,11 +3357,11 @@ export class AlertTypeDefinitionLogsAnomalyLogsFilterSimpleFilterLabelFiltersOut
 }
 export interface AlertTypeDefinitionLogsAnomalyLogsFilterSimpleFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#label_filters Alert#label_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#label_filters Alert#label_filters}
   */
   readonly labelFilters?: AlertTypeDefinitionLogsAnomalyLogsFilterSimpleFilterLabelFilters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#lucene_query Alert#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#lucene_query Alert#lucene_query}
   */
   readonly luceneQuery?: string;
 }
@@ -3484,7 +3484,7 @@ export class AlertTypeDefinitionLogsAnomalyLogsFilterSimpleFilterOutputReference
 }
 export interface AlertTypeDefinitionLogsAnomalyLogsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#simple_filter Alert#simple_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#simple_filter Alert#simple_filter}
   */
   readonly simpleFilter?: AlertTypeDefinitionLogsAnomalyLogsFilterSimpleFilter;
 }
@@ -3578,13 +3578,13 @@ export class AlertTypeDefinitionLogsAnomalyLogsFilterOutputReference extends cdk
 }
 export interface AlertTypeDefinitionLogsAnomalyRulesCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#minimum_threshold Alert#minimum_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#minimum_threshold Alert#minimum_threshold}
   */
   readonly minimumThreshold: number;
   /**
   * Time window to evaluate the threshold with. Valid values: ["10_MINUTES" "12_HOURS" "15_MINUTES" "1_HOUR" "20_MINUTES" "24_HOURS" "2_HOURS" "30_MINUTES" "36_HOURS" "4_HOURS" "5_MINUTES" "6_HOURS"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#time_window Alert#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#time_window Alert#time_window}
   */
   readonly timeWindow: string;
 }
@@ -3706,7 +3706,7 @@ export class AlertTypeDefinitionLogsAnomalyRulesConditionOutputReference extends
 }
 export interface AlertTypeDefinitionLogsAnomalyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition Alert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition Alert#condition}
   */
   readonly condition: AlertTypeDefinitionLogsAnomalyRulesCondition;
 }
@@ -3821,19 +3821,19 @@ export interface AlertTypeDefinitionLogsAnomaly {
   /**
   * Delay evaluation of the rules by n milliseconds. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#custom_evaluation_delay Alert#custom_evaluation_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#custom_evaluation_delay Alert#custom_evaluation_delay}
   */
   readonly customEvaluationDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#logs_filter Alert#logs_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#logs_filter Alert#logs_filter}
   */
   readonly logsFilter?: AlertTypeDefinitionLogsAnomalyLogsFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
   */
   readonly notificationPayloadFilter?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#rules Alert#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#rules Alert#rules}
   */
   readonly rules: AlertTypeDefinitionLogsAnomalyRules[] | cdktf.IResolvable;
 }
@@ -4011,13 +4011,13 @@ export class AlertTypeDefinitionLogsAnomalyOutputReference extends cdktf.Complex
 }
 export interface AlertTypeDefinitionLogsImmediateLogsFilterSimpleFilterLabelFiltersApplicationName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -4159,13 +4159,13 @@ export class AlertTypeDefinitionLogsImmediateLogsFilterSimpleFilterLabelFiltersA
 }
 export interface AlertTypeDefinitionLogsImmediateLogsFilterSimpleFilterLabelFiltersSubsystemName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -4307,17 +4307,17 @@ export class AlertTypeDefinitionLogsImmediateLogsFilterSimpleFilterLabelFiltersS
 }
 export interface AlertTypeDefinitionLogsImmediateLogsFilterSimpleFilterLabelFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#application_name Alert#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#application_name Alert#application_name}
   */
   readonly applicationName?: AlertTypeDefinitionLogsImmediateLogsFilterSimpleFilterLabelFiltersApplicationName[] | cdktf.IResolvable;
   /**
   * Severities. Valid values: ["Critical" "Debug" "Error" "Info" "Unspecified" "Warning"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#severities Alert#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#severities Alert#severities}
   */
   readonly severities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#subsystem_name Alert#subsystem_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#subsystem_name Alert#subsystem_name}
   */
   readonly subsystemName?: AlertTypeDefinitionLogsImmediateLogsFilterSimpleFilterLabelFiltersSubsystemName[] | cdktf.IResolvable;
 }
@@ -4469,11 +4469,11 @@ export class AlertTypeDefinitionLogsImmediateLogsFilterSimpleFilterLabelFiltersO
 }
 export interface AlertTypeDefinitionLogsImmediateLogsFilterSimpleFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#label_filters Alert#label_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#label_filters Alert#label_filters}
   */
   readonly labelFilters?: AlertTypeDefinitionLogsImmediateLogsFilterSimpleFilterLabelFilters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#lucene_query Alert#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#lucene_query Alert#lucene_query}
   */
   readonly luceneQuery?: string;
 }
@@ -4596,7 +4596,7 @@ export class AlertTypeDefinitionLogsImmediateLogsFilterSimpleFilterOutputReferen
 }
 export interface AlertTypeDefinitionLogsImmediateLogsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#simple_filter Alert#simple_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#simple_filter Alert#simple_filter}
   */
   readonly simpleFilter?: AlertTypeDefinitionLogsImmediateLogsFilterSimpleFilter;
 }
@@ -4690,11 +4690,11 @@ export class AlertTypeDefinitionLogsImmediateLogsFilterOutputReference extends c
 }
 export interface AlertTypeDefinitionLogsImmediate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#logs_filter Alert#logs_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#logs_filter Alert#logs_filter}
   */
   readonly logsFilter?: AlertTypeDefinitionLogsImmediateLogsFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
   */
   readonly notificationPayloadFilter?: string[];
 }
@@ -4817,13 +4817,13 @@ export class AlertTypeDefinitionLogsImmediateOutputReference extends cdktf.Compl
 }
 export interface AlertTypeDefinitionLogsNewValueLogsFilterSimpleFilterLabelFiltersApplicationName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -4965,13 +4965,13 @@ export class AlertTypeDefinitionLogsNewValueLogsFilterSimpleFilterLabelFiltersAp
 }
 export interface AlertTypeDefinitionLogsNewValueLogsFilterSimpleFilterLabelFiltersSubsystemName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -5113,17 +5113,17 @@ export class AlertTypeDefinitionLogsNewValueLogsFilterSimpleFilterLabelFiltersSu
 }
 export interface AlertTypeDefinitionLogsNewValueLogsFilterSimpleFilterLabelFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#application_name Alert#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#application_name Alert#application_name}
   */
   readonly applicationName?: AlertTypeDefinitionLogsNewValueLogsFilterSimpleFilterLabelFiltersApplicationName[] | cdktf.IResolvable;
   /**
   * Severities. Valid values: ["Critical" "Debug" "Error" "Info" "Unspecified" "Warning"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#severities Alert#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#severities Alert#severities}
   */
   readonly severities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#subsystem_name Alert#subsystem_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#subsystem_name Alert#subsystem_name}
   */
   readonly subsystemName?: AlertTypeDefinitionLogsNewValueLogsFilterSimpleFilterLabelFiltersSubsystemName[] | cdktf.IResolvable;
 }
@@ -5275,11 +5275,11 @@ export class AlertTypeDefinitionLogsNewValueLogsFilterSimpleFilterLabelFiltersOu
 }
 export interface AlertTypeDefinitionLogsNewValueLogsFilterSimpleFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#label_filters Alert#label_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#label_filters Alert#label_filters}
   */
   readonly labelFilters?: AlertTypeDefinitionLogsNewValueLogsFilterSimpleFilterLabelFilters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#lucene_query Alert#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#lucene_query Alert#lucene_query}
   */
   readonly luceneQuery?: string;
 }
@@ -5402,7 +5402,7 @@ export class AlertTypeDefinitionLogsNewValueLogsFilterSimpleFilterOutputReferenc
 }
 export interface AlertTypeDefinitionLogsNewValueLogsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#simple_filter Alert#simple_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#simple_filter Alert#simple_filter}
   */
   readonly simpleFilter?: AlertTypeDefinitionLogsNewValueLogsFilterSimpleFilter;
 }
@@ -5496,13 +5496,13 @@ export class AlertTypeDefinitionLogsNewValueLogsFilterOutputReference extends cd
 }
 export interface AlertTypeDefinitionLogsNewValueRulesCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#keypath_to_track Alert#keypath_to_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#keypath_to_track Alert#keypath_to_track}
   */
   readonly keypathToTrack: string;
   /**
   * Time window to evaluate the threshold with. Valid values: ["12_HOURS" "1_MONTH" "1_WEEK" "24_HOURS" "2_MONTHS" "3_MONTHS" "48_HOURS" "72_HOURS"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#time_window Alert#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#time_window Alert#time_window}
   */
   readonly timeWindow: string;
 }
@@ -5619,7 +5619,7 @@ export class AlertTypeDefinitionLogsNewValueRulesConditionOutputReference extend
 }
 export interface AlertTypeDefinitionLogsNewValueRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition Alert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition Alert#condition}
   */
   readonly condition: AlertTypeDefinitionLogsNewValueRulesCondition;
 }
@@ -5732,15 +5732,15 @@ export class AlertTypeDefinitionLogsNewValueRulesList extends cdktf.ComplexList 
 }
 export interface AlertTypeDefinitionLogsNewValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#logs_filter Alert#logs_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#logs_filter Alert#logs_filter}
   */
   readonly logsFilter?: AlertTypeDefinitionLogsNewValueLogsFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
   */
   readonly notificationPayloadFilter?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#rules Alert#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#rules Alert#rules}
   */
   readonly rules: AlertTypeDefinitionLogsNewValueRules[] | cdktf.IResolvable;
 }
@@ -5889,13 +5889,13 @@ export class AlertTypeDefinitionLogsNewValueOutputReference extends cdktf.Comple
 }
 export interface AlertTypeDefinitionLogsRatioThresholdDenominatorSimpleFilterLabelFiltersApplicationName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -6037,13 +6037,13 @@ export class AlertTypeDefinitionLogsRatioThresholdDenominatorSimpleFilterLabelFi
 }
 export interface AlertTypeDefinitionLogsRatioThresholdDenominatorSimpleFilterLabelFiltersSubsystemName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -6185,17 +6185,17 @@ export class AlertTypeDefinitionLogsRatioThresholdDenominatorSimpleFilterLabelFi
 }
 export interface AlertTypeDefinitionLogsRatioThresholdDenominatorSimpleFilterLabelFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#application_name Alert#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#application_name Alert#application_name}
   */
   readonly applicationName?: AlertTypeDefinitionLogsRatioThresholdDenominatorSimpleFilterLabelFiltersApplicationName[] | cdktf.IResolvable;
   /**
   * Severities. Valid values: ["Critical" "Debug" "Error" "Info" "Unspecified" "Warning"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#severities Alert#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#severities Alert#severities}
   */
   readonly severities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#subsystem_name Alert#subsystem_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#subsystem_name Alert#subsystem_name}
   */
   readonly subsystemName?: AlertTypeDefinitionLogsRatioThresholdDenominatorSimpleFilterLabelFiltersSubsystemName[] | cdktf.IResolvable;
 }
@@ -6347,11 +6347,11 @@ export class AlertTypeDefinitionLogsRatioThresholdDenominatorSimpleFilterLabelFi
 }
 export interface AlertTypeDefinitionLogsRatioThresholdDenominatorSimpleFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#label_filters Alert#label_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#label_filters Alert#label_filters}
   */
   readonly labelFilters?: AlertTypeDefinitionLogsRatioThresholdDenominatorSimpleFilterLabelFilters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#lucene_query Alert#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#lucene_query Alert#lucene_query}
   */
   readonly luceneQuery?: string;
 }
@@ -6474,7 +6474,7 @@ export class AlertTypeDefinitionLogsRatioThresholdDenominatorSimpleFilterOutputR
 }
 export interface AlertTypeDefinitionLogsRatioThresholdDenominator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#simple_filter Alert#simple_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#simple_filter Alert#simple_filter}
   */
   readonly simpleFilter?: AlertTypeDefinitionLogsRatioThresholdDenominatorSimpleFilter;
 }
@@ -6568,13 +6568,13 @@ export class AlertTypeDefinitionLogsRatioThresholdDenominatorOutputReference ext
 }
 export interface AlertTypeDefinitionLogsRatioThresholdNumeratorSimpleFilterLabelFiltersApplicationName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -6716,13 +6716,13 @@ export class AlertTypeDefinitionLogsRatioThresholdNumeratorSimpleFilterLabelFilt
 }
 export interface AlertTypeDefinitionLogsRatioThresholdNumeratorSimpleFilterLabelFiltersSubsystemName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -6864,17 +6864,17 @@ export class AlertTypeDefinitionLogsRatioThresholdNumeratorSimpleFilterLabelFilt
 }
 export interface AlertTypeDefinitionLogsRatioThresholdNumeratorSimpleFilterLabelFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#application_name Alert#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#application_name Alert#application_name}
   */
   readonly applicationName?: AlertTypeDefinitionLogsRatioThresholdNumeratorSimpleFilterLabelFiltersApplicationName[] | cdktf.IResolvable;
   /**
   * Severities. Valid values: ["Critical" "Debug" "Error" "Info" "Unspecified" "Warning"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#severities Alert#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#severities Alert#severities}
   */
   readonly severities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#subsystem_name Alert#subsystem_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#subsystem_name Alert#subsystem_name}
   */
   readonly subsystemName?: AlertTypeDefinitionLogsRatioThresholdNumeratorSimpleFilterLabelFiltersSubsystemName[] | cdktf.IResolvable;
 }
@@ -7026,11 +7026,11 @@ export class AlertTypeDefinitionLogsRatioThresholdNumeratorSimpleFilterLabelFilt
 }
 export interface AlertTypeDefinitionLogsRatioThresholdNumeratorSimpleFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#label_filters Alert#label_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#label_filters Alert#label_filters}
   */
   readonly labelFilters?: AlertTypeDefinitionLogsRatioThresholdNumeratorSimpleFilterLabelFilters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#lucene_query Alert#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#lucene_query Alert#lucene_query}
   */
   readonly luceneQuery?: string;
 }
@@ -7153,7 +7153,7 @@ export class AlertTypeDefinitionLogsRatioThresholdNumeratorSimpleFilterOutputRef
 }
 export interface AlertTypeDefinitionLogsRatioThresholdNumerator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#simple_filter Alert#simple_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#simple_filter Alert#simple_filter}
   */
   readonly simpleFilter?: AlertTypeDefinitionLogsRatioThresholdNumeratorSimpleFilter;
 }
@@ -7249,17 +7249,17 @@ export interface AlertTypeDefinitionLogsRatioThresholdRulesCondition {
   /**
   * Condition to evaluate the threshold with. Valid values: ["LESS_THAN" "MORE_THAN"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition_type Alert#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition_type Alert#condition_type}
   */
   readonly conditionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#threshold Alert#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#threshold Alert#threshold}
   */
   readonly threshold: number;
   /**
   * Time window to evaluate the threshold with. Valid values: ["10_MINUTES" "12_HOURS" "15_MINUTES" "1_HOUR" "24_HOURS" "2_HOURS" "30_MINUTES" "36_HOURS" "4_HOURS" "5_MINUTES" "6_HOURS"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#time_window Alert#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#time_window Alert#time_window}
   */
   readonly timeWindow: string;
 }
@@ -7404,7 +7404,7 @@ export interface AlertTypeDefinitionLogsRatioThresholdRulesOverride {
   /**
   * Alert priority. Valid values: ["P1" "P2" "P3" "P4" "P5"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#priority Alert#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#priority Alert#priority}
   */
   readonly priority?: string;
 }
@@ -7498,11 +7498,11 @@ export class AlertTypeDefinitionLogsRatioThresholdRulesOverrideOutputReference e
 }
 export interface AlertTypeDefinitionLogsRatioThresholdRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition Alert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition Alert#condition}
   */
   readonly condition: AlertTypeDefinitionLogsRatioThresholdRulesCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#override Alert#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#override Alert#override}
   */
   readonly override: AlertTypeDefinitionLogsRatioThresholdRulesOverride;
 }
@@ -7643,37 +7643,37 @@ export interface AlertTypeDefinitionLogsRatioThreshold {
   /**
   * Delay evaluation of the rules by n milliseconds. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#custom_evaluation_delay Alert#custom_evaluation_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#custom_evaluation_delay Alert#custom_evaluation_delay}
   */
   readonly customEvaluationDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#denominator Alert#denominator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#denominator Alert#denominator}
   */
   readonly denominator?: AlertTypeDefinitionLogsRatioThresholdDenominator;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#denominator_alias Alert#denominator_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#denominator_alias Alert#denominator_alias}
   */
   readonly denominatorAlias: string;
   /**
   * Group by for. Valid values: ["Both" "Denominator Only" "Numerator Only"]. 'Both' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#group_by_for Alert#group_by_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#group_by_for Alert#group_by_for}
   */
   readonly groupByFor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
   */
   readonly notificationPayloadFilter?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#numerator Alert#numerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#numerator Alert#numerator}
   */
   readonly numerator?: AlertTypeDefinitionLogsRatioThresholdNumerator;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#numerator_alias Alert#numerator_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#numerator_alias Alert#numerator_alias}
   */
   readonly numeratorAlias: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#rules Alert#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#rules Alert#rules}
   */
   readonly rules: AlertTypeDefinitionLogsRatioThresholdRules[] | cdktf.IResolvable;
 }
@@ -7961,13 +7961,13 @@ export class AlertTypeDefinitionLogsRatioThresholdOutputReference extends cdktf.
 }
 export interface AlertTypeDefinitionLogsThresholdLogsFilterSimpleFilterLabelFiltersApplicationName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -8109,13 +8109,13 @@ export class AlertTypeDefinitionLogsThresholdLogsFilterSimpleFilterLabelFiltersA
 }
 export interface AlertTypeDefinitionLogsThresholdLogsFilterSimpleFilterLabelFiltersSubsystemName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -8257,17 +8257,17 @@ export class AlertTypeDefinitionLogsThresholdLogsFilterSimpleFilterLabelFiltersS
 }
 export interface AlertTypeDefinitionLogsThresholdLogsFilterSimpleFilterLabelFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#application_name Alert#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#application_name Alert#application_name}
   */
   readonly applicationName?: AlertTypeDefinitionLogsThresholdLogsFilterSimpleFilterLabelFiltersApplicationName[] | cdktf.IResolvable;
   /**
   * Severities. Valid values: ["Critical" "Debug" "Error" "Info" "Unspecified" "Warning"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#severities Alert#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#severities Alert#severities}
   */
   readonly severities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#subsystem_name Alert#subsystem_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#subsystem_name Alert#subsystem_name}
   */
   readonly subsystemName?: AlertTypeDefinitionLogsThresholdLogsFilterSimpleFilterLabelFiltersSubsystemName[] | cdktf.IResolvable;
 }
@@ -8419,11 +8419,11 @@ export class AlertTypeDefinitionLogsThresholdLogsFilterSimpleFilterLabelFiltersO
 }
 export interface AlertTypeDefinitionLogsThresholdLogsFilterSimpleFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#label_filters Alert#label_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#label_filters Alert#label_filters}
   */
   readonly labelFilters?: AlertTypeDefinitionLogsThresholdLogsFilterSimpleFilterLabelFilters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#lucene_query Alert#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#lucene_query Alert#lucene_query}
   */
   readonly luceneQuery?: string;
 }
@@ -8546,7 +8546,7 @@ export class AlertTypeDefinitionLogsThresholdLogsFilterSimpleFilterOutputReferen
 }
 export interface AlertTypeDefinitionLogsThresholdLogsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#simple_filter Alert#simple_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#simple_filter Alert#simple_filter}
   */
   readonly simpleFilter?: AlertTypeDefinitionLogsThresholdLogsFilterSimpleFilter;
 }
@@ -8642,17 +8642,17 @@ export interface AlertTypeDefinitionLogsThresholdRulesCondition {
   /**
   * Condition to evaluate the threshold with. Valid values: ["LESS_THAN" "MORE_THAN"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition_type Alert#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition_type Alert#condition_type}
   */
   readonly conditionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#threshold Alert#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#threshold Alert#threshold}
   */
   readonly threshold: number;
   /**
   * Time window to evaluate the threshold with. Valid values: ["10_MINUTES" "12_HOURS" "15_MINUTES" "1_HOUR" "20_MINUTES" "24_HOURS" "2_HOURS" "30_MINUTES" "36_HOURS" "4_HOURS" "5_MINUTES" "6_HOURS"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#time_window Alert#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#time_window Alert#time_window}
   */
   readonly timeWindow: string;
 }
@@ -8797,7 +8797,7 @@ export interface AlertTypeDefinitionLogsThresholdRulesOverride {
   /**
   * Alert priority. Valid values: ["P1" "P2" "P3" "P4" "P5"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#priority Alert#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#priority Alert#priority}
   */
   readonly priority?: string;
 }
@@ -8891,11 +8891,11 @@ export class AlertTypeDefinitionLogsThresholdRulesOverrideOutputReference extend
 }
 export interface AlertTypeDefinitionLogsThresholdRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition Alert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition Alert#condition}
   */
   readonly condition: AlertTypeDefinitionLogsThresholdRulesCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#override Alert#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#override Alert#override}
   */
   readonly override: AlertTypeDefinitionLogsThresholdRulesOverride;
 }
@@ -9036,11 +9036,11 @@ export interface AlertTypeDefinitionLogsThresholdUndetectedValuesManagement {
   /**
   * Auto retire timeframe. Valid values: ["10_MINUTES" "12_HOURS" "1_HOUR" "24_HOURS" "2_HOURS" "5_MINUTES" "6_HOURS" "NEVER"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#auto_retire_timeframe Alert#auto_retire_timeframe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#auto_retire_timeframe Alert#auto_retire_timeframe}
   */
   readonly autoRetireTimeframe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#trigger_undetected_values Alert#trigger_undetected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#trigger_undetected_values Alert#trigger_undetected_values}
   */
   readonly triggerUndetectedValues?: boolean | cdktf.IResolvable;
 }
@@ -9165,23 +9165,23 @@ export interface AlertTypeDefinitionLogsThreshold {
   /**
   * Delay evaluation of the rules by n milliseconds. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#custom_evaluation_delay Alert#custom_evaluation_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#custom_evaluation_delay Alert#custom_evaluation_delay}
   */
   readonly customEvaluationDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#logs_filter Alert#logs_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#logs_filter Alert#logs_filter}
   */
   readonly logsFilter?: AlertTypeDefinitionLogsThresholdLogsFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
   */
   readonly notificationPayloadFilter?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#rules Alert#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#rules Alert#rules}
   */
   readonly rules: AlertTypeDefinitionLogsThresholdRules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#undetected_values_management Alert#undetected_values_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#undetected_values_management Alert#undetected_values_management}
   */
   readonly undetectedValuesManagement?: AlertTypeDefinitionLogsThresholdUndetectedValuesManagement;
 }
@@ -9388,13 +9388,13 @@ export class AlertTypeDefinitionLogsThresholdOutputReference extends cdktf.Compl
 }
 export interface AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilterSimpleFilterLabelFiltersApplicationName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -9536,13 +9536,13 @@ export class AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilterSimpleFilterL
 }
 export interface AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilterSimpleFilterLabelFiltersSubsystemName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -9684,17 +9684,17 @@ export class AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilterSimpleFilterL
 }
 export interface AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilterSimpleFilterLabelFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#application_name Alert#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#application_name Alert#application_name}
   */
   readonly applicationName?: AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilterSimpleFilterLabelFiltersApplicationName[] | cdktf.IResolvable;
   /**
   * Severities. Valid values: ["Critical" "Debug" "Error" "Info" "Unspecified" "Warning"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#severities Alert#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#severities Alert#severities}
   */
   readonly severities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#subsystem_name Alert#subsystem_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#subsystem_name Alert#subsystem_name}
   */
   readonly subsystemName?: AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilterSimpleFilterLabelFiltersSubsystemName[] | cdktf.IResolvable;
 }
@@ -9846,11 +9846,11 @@ export class AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilterSimpleFilterL
 }
 export interface AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilterSimpleFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#label_filters Alert#label_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#label_filters Alert#label_filters}
   */
   readonly labelFilters?: AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilterSimpleFilterLabelFilters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#lucene_query Alert#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#lucene_query Alert#lucene_query}
   */
   readonly luceneQuery?: string;
 }
@@ -9973,7 +9973,7 @@ export class AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilterSimpleFilterO
 }
 export interface AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#simple_filter Alert#simple_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#simple_filter Alert#simple_filter}
   */
   readonly simpleFilter?: AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilterSimpleFilter;
 }
@@ -10069,17 +10069,17 @@ export interface AlertTypeDefinitionLogsTimeRelativeThresholdRulesCondition {
   /**
   * Compared to a different time frame. Valid values: ["Previous Hour" "Same Day Last Month" "Same Day Last Week" "Same Hour Last Week" "Same Hour Yesterday" "Yesterday"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#compared_to Alert#compared_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#compared_to Alert#compared_to}
   */
   readonly comparedTo: string;
   /**
   * Condition . Valid values: ["LESS_THAN" "MORE_THAN"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition_type Alert#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition_type Alert#condition_type}
   */
   readonly conditionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#threshold Alert#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#threshold Alert#threshold}
   */
   readonly threshold: number;
 }
@@ -10224,7 +10224,7 @@ export interface AlertTypeDefinitionLogsTimeRelativeThresholdRulesOverride {
   /**
   * Alert priority. Valid values: ["P1" "P2" "P3" "P4" "P5"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#priority Alert#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#priority Alert#priority}
   */
   readonly priority?: string;
 }
@@ -10318,11 +10318,11 @@ export class AlertTypeDefinitionLogsTimeRelativeThresholdRulesOverrideOutputRefe
 }
 export interface AlertTypeDefinitionLogsTimeRelativeThresholdRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition Alert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition Alert#condition}
   */
   readonly condition: AlertTypeDefinitionLogsTimeRelativeThresholdRulesCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#override Alert#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#override Alert#override}
   */
   readonly override: AlertTypeDefinitionLogsTimeRelativeThresholdRulesOverride;
 }
@@ -10463,11 +10463,11 @@ export interface AlertTypeDefinitionLogsTimeRelativeThresholdUndetectedValuesMan
   /**
   * Auto retire timeframe. Valid values: ["10_MINUTES" "12_HOURS" "1_HOUR" "24_HOURS" "2_HOURS" "5_MINUTES" "6_HOURS" "NEVER"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#auto_retire_timeframe Alert#auto_retire_timeframe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#auto_retire_timeframe Alert#auto_retire_timeframe}
   */
   readonly autoRetireTimeframe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#trigger_undetected_values Alert#trigger_undetected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#trigger_undetected_values Alert#trigger_undetected_values}
   */
   readonly triggerUndetectedValues?: boolean | cdktf.IResolvable;
 }
@@ -10592,23 +10592,23 @@ export interface AlertTypeDefinitionLogsTimeRelativeThreshold {
   /**
   * Delay evaluation of the rules by n milliseconds. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#custom_evaluation_delay Alert#custom_evaluation_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#custom_evaluation_delay Alert#custom_evaluation_delay}
   */
   readonly customEvaluationDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#logs_filter Alert#logs_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#logs_filter Alert#logs_filter}
   */
   readonly logsFilter?: AlertTypeDefinitionLogsTimeRelativeThresholdLogsFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
   */
   readonly notificationPayloadFilter?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#rules Alert#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#rules Alert#rules}
   */
   readonly rules: AlertTypeDefinitionLogsTimeRelativeThresholdRules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#undetected_values_management Alert#undetected_values_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#undetected_values_management Alert#undetected_values_management}
   */
   readonly undetectedValuesManagement?: AlertTypeDefinitionLogsTimeRelativeThresholdUndetectedValuesManagement;
 }
@@ -10815,13 +10815,13 @@ export class AlertTypeDefinitionLogsTimeRelativeThresholdOutputReference extends
 }
 export interface AlertTypeDefinitionLogsUniqueCountLogsFilterSimpleFilterLabelFiltersApplicationName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -10963,13 +10963,13 @@ export class AlertTypeDefinitionLogsUniqueCountLogsFilterSimpleFilterLabelFilter
 }
 export interface AlertTypeDefinitionLogsUniqueCountLogsFilterSimpleFilterLabelFiltersSubsystemName {
   /**
-  * Operation. Valid values: ["ENDS_WITH" "IS" "NOT" "STARTS_WITH"].'IS' by default.
+  * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "STARTS_WITH"].'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#value Alert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#value Alert#value}
   */
   readonly value: string;
 }
@@ -11111,17 +11111,17 @@ export class AlertTypeDefinitionLogsUniqueCountLogsFilterSimpleFilterLabelFilter
 }
 export interface AlertTypeDefinitionLogsUniqueCountLogsFilterSimpleFilterLabelFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#application_name Alert#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#application_name Alert#application_name}
   */
   readonly applicationName?: AlertTypeDefinitionLogsUniqueCountLogsFilterSimpleFilterLabelFiltersApplicationName[] | cdktf.IResolvable;
   /**
   * Severities. Valid values: ["Critical" "Debug" "Error" "Info" "Unspecified" "Warning"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#severities Alert#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#severities Alert#severities}
   */
   readonly severities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#subsystem_name Alert#subsystem_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#subsystem_name Alert#subsystem_name}
   */
   readonly subsystemName?: AlertTypeDefinitionLogsUniqueCountLogsFilterSimpleFilterLabelFiltersSubsystemName[] | cdktf.IResolvable;
 }
@@ -11273,11 +11273,11 @@ export class AlertTypeDefinitionLogsUniqueCountLogsFilterSimpleFilterLabelFilter
 }
 export interface AlertTypeDefinitionLogsUniqueCountLogsFilterSimpleFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#label_filters Alert#label_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#label_filters Alert#label_filters}
   */
   readonly labelFilters?: AlertTypeDefinitionLogsUniqueCountLogsFilterSimpleFilterLabelFilters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#lucene_query Alert#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#lucene_query Alert#lucene_query}
   */
   readonly luceneQuery?: string;
 }
@@ -11400,7 +11400,7 @@ export class AlertTypeDefinitionLogsUniqueCountLogsFilterSimpleFilterOutputRefer
 }
 export interface AlertTypeDefinitionLogsUniqueCountLogsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#simple_filter Alert#simple_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#simple_filter Alert#simple_filter}
   */
   readonly simpleFilter?: AlertTypeDefinitionLogsUniqueCountLogsFilterSimpleFilter;
 }
@@ -11494,13 +11494,13 @@ export class AlertTypeDefinitionLogsUniqueCountLogsFilterOutputReference extends
 }
 export interface AlertTypeDefinitionLogsUniqueCountRulesCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#max_unique_count Alert#max_unique_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#max_unique_count Alert#max_unique_count}
   */
   readonly maxUniqueCount: number;
   /**
   * Time window to evaluate the threshold with. Valid values: ["10_MINUTES" "12_HOURS" "15_MINUTES" "1_HOUR" "1_MINUTE" "20_MINUTES" "24_HOURS" "2_HOURS" "30_MINUTES" "36_HOURS" "4_HOURS" "5_MINUTES" "6_HOURS"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#time_window Alert#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#time_window Alert#time_window}
   */
   readonly timeWindow: string;
 }
@@ -11617,7 +11617,7 @@ export class AlertTypeDefinitionLogsUniqueCountRulesConditionOutputReference ext
 }
 export interface AlertTypeDefinitionLogsUniqueCountRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition Alert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition Alert#condition}
   */
   readonly condition: AlertTypeDefinitionLogsUniqueCountRulesCondition;
 }
@@ -11730,23 +11730,23 @@ export class AlertTypeDefinitionLogsUniqueCountRulesList extends cdktf.ComplexLi
 }
 export interface AlertTypeDefinitionLogsUniqueCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#logs_filter Alert#logs_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#logs_filter Alert#logs_filter}
   */
   readonly logsFilter?: AlertTypeDefinitionLogsUniqueCountLogsFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#max_unique_count_per_group_by_key Alert#max_unique_count_per_group_by_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#max_unique_count_per_group_by_key Alert#max_unique_count_per_group_by_key}
   */
   readonly maxUniqueCountPerGroupByKey?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
   */
   readonly notificationPayloadFilter?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#rules Alert#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#rules Alert#rules}
   */
   readonly rules: AlertTypeDefinitionLogsUniqueCountRules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#unique_count_keypath Alert#unique_count_keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#unique_count_keypath Alert#unique_count_keypath}
   */
   readonly uniqueCountKeypath: string;
 }
@@ -11950,7 +11950,7 @@ export class AlertTypeDefinitionLogsUniqueCountOutputReference extends cdktf.Com
 }
 export interface AlertTypeDefinitionMetricAnomalyMetricFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#promql Alert#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#promql Alert#promql}
   */
   readonly promql: string;
 }
@@ -12043,27 +12043,27 @@ export interface AlertTypeDefinitionMetricAnomalyRulesCondition {
   /**
   * Condition to evaluate the threshold with. Valid values: ["LESS_THAN" "MORE_THAN"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition_type Alert#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition_type Alert#condition_type}
   */
   readonly conditionType: string;
   /**
   * Percentage of metrics over the threshold. 0 means 'for at least once', 100 means 'for at least'. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#for_over_pct Alert#for_over_pct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#for_over_pct Alert#for_over_pct}
   */
   readonly forOverPct: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#min_non_null_values_pct Alert#min_non_null_values_pct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#min_non_null_values_pct Alert#min_non_null_values_pct}
   */
   readonly minNonNullValuesPct: number;
   /**
   * Time window to evaluate the threshold with. Valid values: ["10_MINUTES" "12_HOURS" "15_MINUTES" "1_HOUR" "1_MINUTE" "20_MINUTES" "24_HOURS" "2_HOURS" "30_MINUTES" "36_HOURS" "4_HOURS" "5_MINUTES" "6_HOURS"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#of_the_last Alert#of_the_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#of_the_last Alert#of_the_last}
   */
   readonly ofTheLast: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#threshold Alert#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#threshold Alert#threshold}
   */
   readonly threshold: number;
 }
@@ -12258,7 +12258,7 @@ export class AlertTypeDefinitionMetricAnomalyRulesConditionOutputReference exten
 }
 export interface AlertTypeDefinitionMetricAnomalyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition Alert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition Alert#condition}
   */
   readonly condition: AlertTypeDefinitionMetricAnomalyRulesCondition;
 }
@@ -12373,15 +12373,15 @@ export interface AlertTypeDefinitionMetricAnomaly {
   /**
   * Delay evaluation of the rules by n milliseconds. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#custom_evaluation_delay Alert#custom_evaluation_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#custom_evaluation_delay Alert#custom_evaluation_delay}
   */
   readonly customEvaluationDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#metric_filter Alert#metric_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#metric_filter Alert#metric_filter}
   */
   readonly metricFilter: AlertTypeDefinitionMetricAnomalyMetricFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#rules Alert#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#rules Alert#rules}
   */
   readonly rules: AlertTypeDefinitionMetricAnomalyRules[] | cdktf.IResolvable;
 }
@@ -12527,7 +12527,7 @@ export class AlertTypeDefinitionMetricAnomalyOutputReference extends cdktf.Compl
 }
 export interface AlertTypeDefinitionMetricThresholdMetricFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#promql Alert#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#promql Alert#promql}
   */
   readonly promql: string;
 }
@@ -12618,11 +12618,11 @@ export class AlertTypeDefinitionMetricThresholdMetricFilterOutputReference exten
 }
 export interface AlertTypeDefinitionMetricThresholdMissingValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#min_non_null_values_pct Alert#min_non_null_values_pct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#min_non_null_values_pct Alert#min_non_null_values_pct}
   */
   readonly minNonNullValuesPct?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#replace_with_zero Alert#replace_with_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#replace_with_zero Alert#replace_with_zero}
   */
   readonly replaceWithZero?: boolean | cdktf.IResolvable;
 }
@@ -12747,13 +12747,13 @@ export interface AlertTypeDefinitionMetricThresholdRulesCondition {
   /**
   * Condition to evaluate the threshold with. Valid values: ["LESS_THAN" "LESS_THAN_OR_EQUALS" "MORE_THAN" "MORE_THAN_OR_EQUALS"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition_type Alert#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition_type Alert#condition_type}
   */
   readonly conditionType: string;
   /**
   * Percentage of metrics over the threshold. 0 means 'for at least once', 100 means 'for at least'. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#for_over_pct Alert#for_over_pct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#for_over_pct Alert#for_over_pct}
   */
   readonly forOverPct: number;
   /**
@@ -12761,11 +12761,11 @@ export interface AlertTypeDefinitionMetricThresholdRulesCondition {
   * Or having valid time duration - Supported units: y, w, d, h, m, s, ms.
   * Examples: `30s`, `1m`, `1h20m15s`, `15d`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#of_the_last Alert#of_the_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#of_the_last Alert#of_the_last}
   */
   readonly ofTheLast: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#threshold Alert#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#threshold Alert#threshold}
   */
   readonly threshold: number;
 }
@@ -12936,7 +12936,7 @@ export interface AlertTypeDefinitionMetricThresholdRulesOverride {
   /**
   * Alert priority. Valid values: ["P1" "P2" "P3" "P4" "P5"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#priority Alert#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#priority Alert#priority}
   */
   readonly priority?: string;
 }
@@ -13030,11 +13030,11 @@ export class AlertTypeDefinitionMetricThresholdRulesOverrideOutputReference exte
 }
 export interface AlertTypeDefinitionMetricThresholdRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition Alert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition Alert#condition}
   */
   readonly condition: AlertTypeDefinitionMetricThresholdRulesCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#override Alert#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#override Alert#override}
   */
   readonly override: AlertTypeDefinitionMetricThresholdRulesOverride;
 }
@@ -13175,11 +13175,11 @@ export interface AlertTypeDefinitionMetricThresholdUndetectedValuesManagement {
   /**
   * Auto retire timeframe. Valid values: ["10_MINUTES" "12_HOURS" "1_HOUR" "24_HOURS" "2_HOURS" "5_MINUTES" "6_HOURS" "NEVER"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#auto_retire_timeframe Alert#auto_retire_timeframe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#auto_retire_timeframe Alert#auto_retire_timeframe}
   */
   readonly autoRetireTimeframe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#trigger_undetected_values Alert#trigger_undetected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#trigger_undetected_values Alert#trigger_undetected_values}
   */
   readonly triggerUndetectedValues?: boolean | cdktf.IResolvable;
 }
@@ -13304,23 +13304,23 @@ export interface AlertTypeDefinitionMetricThreshold {
   /**
   * Delay evaluation of the rules by n milliseconds. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#custom_evaluation_delay Alert#custom_evaluation_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#custom_evaluation_delay Alert#custom_evaluation_delay}
   */
   readonly customEvaluationDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#metric_filter Alert#metric_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#metric_filter Alert#metric_filter}
   */
   readonly metricFilter: AlertTypeDefinitionMetricThresholdMetricFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#missing_values Alert#missing_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#missing_values Alert#missing_values}
   */
   readonly missingValues: AlertTypeDefinitionMetricThresholdMissingValues;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#rules Alert#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#rules Alert#rules}
   */
   readonly rules: AlertTypeDefinitionMetricThresholdRules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#undetected_values_management Alert#undetected_values_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#undetected_values_management Alert#undetected_values_management}
   */
   readonly undetectedValuesManagement?: AlertTypeDefinitionMetricThresholdUndetectedValuesManagement;
 }
@@ -13521,11 +13521,11 @@ export class AlertTypeDefinitionMetricThresholdOutputReference extends cdktf.Com
 }
 export interface AlertTypeDefinitionSloThresholdBurnRateDualTimeDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#duration Alert#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#duration Alert#duration}
   */
   readonly duration: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#unit Alert#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#unit Alert#unit}
   */
   readonly unit: string;
 }
@@ -13642,7 +13642,7 @@ export class AlertTypeDefinitionSloThresholdBurnRateDualTimeDurationOutputRefere
 }
 export interface AlertTypeDefinitionSloThresholdBurnRateDual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#time_duration Alert#time_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#time_duration Alert#time_duration}
   */
   readonly timeDuration: AlertTypeDefinitionSloThresholdBurnRateDualTimeDuration;
 }
@@ -13733,7 +13733,7 @@ export class AlertTypeDefinitionSloThresholdBurnRateDualOutputReference extends 
 }
 export interface AlertTypeDefinitionSloThresholdBurnRateRulesCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#threshold Alert#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#threshold Alert#threshold}
   */
   readonly threshold: number;
 }
@@ -13826,7 +13826,7 @@ export interface AlertTypeDefinitionSloThresholdBurnRateRulesOverride {
   /**
   * Alert priority. Valid values: ["P1" "P2" "P3" "P4" "P5"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#priority Alert#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#priority Alert#priority}
   */
   readonly priority?: string;
 }
@@ -13920,11 +13920,11 @@ export class AlertTypeDefinitionSloThresholdBurnRateRulesOverrideOutputReference
 }
 export interface AlertTypeDefinitionSloThresholdBurnRateRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition Alert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition Alert#condition}
   */
   readonly condition: AlertTypeDefinitionSloThresholdBurnRateRulesCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#override Alert#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#override Alert#override}
   */
   readonly override: AlertTypeDefinitionSloThresholdBurnRateRulesOverride;
 }
@@ -14063,11 +14063,11 @@ export class AlertTypeDefinitionSloThresholdBurnRateRulesList extends cdktf.Comp
 }
 export interface AlertTypeDefinitionSloThresholdBurnRateSingleTimeDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#duration Alert#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#duration Alert#duration}
   */
   readonly duration: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#unit Alert#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#unit Alert#unit}
   */
   readonly unit: string;
 }
@@ -14184,7 +14184,7 @@ export class AlertTypeDefinitionSloThresholdBurnRateSingleTimeDurationOutputRefe
 }
 export interface AlertTypeDefinitionSloThresholdBurnRateSingle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#time_duration Alert#time_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#time_duration Alert#time_duration}
   */
   readonly timeDuration: AlertTypeDefinitionSloThresholdBurnRateSingleTimeDuration;
 }
@@ -14275,15 +14275,15 @@ export class AlertTypeDefinitionSloThresholdBurnRateSingleOutputReference extend
 }
 export interface AlertTypeDefinitionSloThresholdBurnRate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#dual Alert#dual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#dual Alert#dual}
   */
   readonly dual?: AlertTypeDefinitionSloThresholdBurnRateDual;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#rules Alert#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#rules Alert#rules}
   */
   readonly rules: AlertTypeDefinitionSloThresholdBurnRateRules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#single Alert#single}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#single Alert#single}
   */
   readonly single?: AlertTypeDefinitionSloThresholdBurnRateSingle;
 }
@@ -14432,7 +14432,7 @@ export class AlertTypeDefinitionSloThresholdBurnRateOutputReference extends cdkt
 }
 export interface AlertTypeDefinitionSloThresholdErrorBudgetRulesCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#threshold Alert#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#threshold Alert#threshold}
   */
   readonly threshold: number;
 }
@@ -14525,7 +14525,7 @@ export interface AlertTypeDefinitionSloThresholdErrorBudgetRulesOverride {
   /**
   * Alert priority. Valid values: ["P1" "P2" "P3" "P4" "P5"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#priority Alert#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#priority Alert#priority}
   */
   readonly priority?: string;
 }
@@ -14619,11 +14619,11 @@ export class AlertTypeDefinitionSloThresholdErrorBudgetRulesOverrideOutputRefere
 }
 export interface AlertTypeDefinitionSloThresholdErrorBudgetRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition Alert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition Alert#condition}
   */
   readonly condition: AlertTypeDefinitionSloThresholdErrorBudgetRulesCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#override Alert#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#override Alert#override}
   */
   readonly override: AlertTypeDefinitionSloThresholdErrorBudgetRulesOverride;
 }
@@ -14762,7 +14762,7 @@ export class AlertTypeDefinitionSloThresholdErrorBudgetRulesList extends cdktf.C
 }
 export interface AlertTypeDefinitionSloThresholdErrorBudget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#rules Alert#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#rules Alert#rules}
   */
   readonly rules: AlertTypeDefinitionSloThresholdErrorBudgetRules[] | cdktf.IResolvable;
 }
@@ -14855,7 +14855,7 @@ export interface AlertTypeDefinitionSloThresholdSloDefinition {
   /**
   * The SLO ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#slo_id Alert#slo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#slo_id Alert#slo_id}
   */
   readonly sloId: string;
 }
@@ -14948,19 +14948,19 @@ export interface AlertTypeDefinitionSloThreshold {
   /**
   * Burn rate threshold configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#burn_rate Alert#burn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#burn_rate Alert#burn_rate}
   */
   readonly burnRate?: AlertTypeDefinitionSloThresholdBurnRate;
   /**
   * Error budget threshold configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#error_budget Alert#error_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#error_budget Alert#error_budget}
   */
   readonly errorBudget?: AlertTypeDefinitionSloThresholdErrorBudget;
   /**
   * Configuration for the referenced SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#slo_definition Alert#slo_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#slo_definition Alert#slo_definition}
   */
   readonly sloDefinition: AlertTypeDefinitionSloThresholdSloDefinition;
 }
@@ -15111,11 +15111,11 @@ export interface AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFil
   /**
   * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "IS_NOT" "STARTS_WITH"]. 'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#values Alert#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#values Alert#values}
   */
   readonly values: string[];
 }
@@ -15259,11 +15259,11 @@ export interface AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFil
   /**
   * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "IS_NOT" "STARTS_WITH"]. 'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#values Alert#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#values Alert#values}
   */
   readonly values: string[];
 }
@@ -15407,11 +15407,11 @@ export interface AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFil
   /**
   * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "IS_NOT" "STARTS_WITH"]. 'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#values Alert#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#values Alert#values}
   */
   readonly values: string[];
 }
@@ -15555,11 +15555,11 @@ export interface AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFil
   /**
   * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "IS_NOT" "STARTS_WITH"]. 'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#values Alert#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#values Alert#values}
   */
   readonly values: string[];
 }
@@ -15679,11 +15679,11 @@ export class AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFilters
 }
 export interface AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFiltersSpanFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#filter_type Alert#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#filter_type Alert#filter_type}
   */
   readonly filterType?: AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFiltersSpanFieldsFilterType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#key Alert#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#key Alert#key}
   */
   readonly key: string;
 }
@@ -15827,11 +15827,11 @@ export interface AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFil
   /**
   * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "IS_NOT" "STARTS_WITH"]. 'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#values Alert#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#values Alert#values}
   */
   readonly values: string[];
 }
@@ -15973,23 +15973,23 @@ export class AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFilters
 }
 export interface AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#application_name Alert#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#application_name Alert#application_name}
   */
   readonly applicationName?: AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFiltersApplicationName[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation_name Alert#operation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation_name Alert#operation_name}
   */
   readonly operationName?: AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFiltersOperationName[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#service_name Alert#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#service_name Alert#service_name}
   */
   readonly serviceName?: AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFiltersServiceName[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#span_fields Alert#span_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#span_fields Alert#span_fields}
   */
   readonly spanFields?: AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFiltersSpanFields[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#subsystem_name Alert#subsystem_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#subsystem_name Alert#subsystem_name}
   */
   readonly subsystemName?: AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFiltersSubsystemName[] | cdktf.IResolvable;
 }
@@ -16199,11 +16199,11 @@ export class AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFilters
 }
 export interface AlertTypeDefinitionTracingImmediateTracingFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#latency_threshold_ms Alert#latency_threshold_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#latency_threshold_ms Alert#latency_threshold_ms}
   */
   readonly latencyThresholdMs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#tracing_label_filters Alert#tracing_label_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#tracing_label_filters Alert#tracing_label_filters}
   */
   readonly tracingLabelFilters: AlertTypeDefinitionTracingImmediateTracingFilterTracingLabelFilters;
 }
@@ -16320,11 +16320,11 @@ export class AlertTypeDefinitionTracingImmediateTracingFilterOutputReference ext
 }
 export interface AlertTypeDefinitionTracingImmediate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
   */
   readonly notificationPayloadFilter?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#tracing_filter Alert#tracing_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#tracing_filter Alert#tracing_filter}
   */
   readonly tracingFilter: AlertTypeDefinitionTracingImmediateTracingFilter;
 }
@@ -16444,13 +16444,13 @@ export class AlertTypeDefinitionTracingImmediateOutputReference extends cdktf.Co
 }
 export interface AlertTypeDefinitionTracingThresholdRulesCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#span_amount Alert#span_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#span_amount Alert#span_amount}
   */
   readonly spanAmount: number;
   /**
   * Time window to evaluate the threshold with. Valid values: ["10_MINUTES" "12_HOURS" "15_MINUTES" "1_HOUR" "20_MINUTES" "24_HOURS" "2_HOURS" "30_MINUTES" "36_HOURS" "4_HOURS" "5_MINUTES" "6_HOURS"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#time_window Alert#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#time_window Alert#time_window}
   */
   readonly timeWindow: string;
 }
@@ -16572,7 +16572,7 @@ export class AlertTypeDefinitionTracingThresholdRulesConditionOutputReference ex
 }
 export interface AlertTypeDefinitionTracingThresholdRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#condition Alert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#condition Alert#condition}
   */
   readonly condition: AlertTypeDefinitionTracingThresholdRulesCondition;
 }
@@ -16687,11 +16687,11 @@ export interface AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFil
   /**
   * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "IS_NOT" "STARTS_WITH"]. 'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#values Alert#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#values Alert#values}
   */
   readonly values: string[];
 }
@@ -16835,11 +16835,11 @@ export interface AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFil
   /**
   * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "IS_NOT" "STARTS_WITH"]. 'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#values Alert#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#values Alert#values}
   */
   readonly values: string[];
 }
@@ -16983,11 +16983,11 @@ export interface AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFil
   /**
   * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "IS_NOT" "STARTS_WITH"]. 'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#values Alert#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#values Alert#values}
   */
   readonly values: string[];
 }
@@ -17131,11 +17131,11 @@ export interface AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFil
   /**
   * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "IS_NOT" "STARTS_WITH"]. 'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#values Alert#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#values Alert#values}
   */
   readonly values: string[];
 }
@@ -17255,11 +17255,11 @@ export class AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFilters
 }
 export interface AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFiltersSpanFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#filter_type Alert#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#filter_type Alert#filter_type}
   */
   readonly filterType?: AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFiltersSpanFieldsFilterType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#key Alert#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#key Alert#key}
   */
   readonly key: string;
 }
@@ -17403,11 +17403,11 @@ export interface AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFil
   /**
   * Operation. Valid values: ["ENDS_WITH" "INCLUDES" "IS" "IS_NOT" "STARTS_WITH"]. 'IS' by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation Alert#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation Alert#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#values Alert#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#values Alert#values}
   */
   readonly values: string[];
 }
@@ -17549,23 +17549,23 @@ export class AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFilters
 }
 export interface AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#application_name Alert#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#application_name Alert#application_name}
   */
   readonly applicationName?: AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFiltersApplicationName[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#operation_name Alert#operation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#operation_name Alert#operation_name}
   */
   readonly operationName?: AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFiltersOperationName[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#service_name Alert#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#service_name Alert#service_name}
   */
   readonly serviceName?: AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFiltersServiceName[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#span_fields Alert#span_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#span_fields Alert#span_fields}
   */
   readonly spanFields?: AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFiltersSpanFields[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#subsystem_name Alert#subsystem_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#subsystem_name Alert#subsystem_name}
   */
   readonly subsystemName?: AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFiltersSubsystemName[] | cdktf.IResolvable;
 }
@@ -17775,11 +17775,11 @@ export class AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFilters
 }
 export interface AlertTypeDefinitionTracingThresholdTracingFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#latency_threshold_ms Alert#latency_threshold_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#latency_threshold_ms Alert#latency_threshold_ms}
   */
   readonly latencyThresholdMs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#tracing_label_filters Alert#tracing_label_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#tracing_label_filters Alert#tracing_label_filters}
   */
   readonly tracingLabelFilters: AlertTypeDefinitionTracingThresholdTracingFilterTracingLabelFilters;
 }
@@ -17896,15 +17896,15 @@ export class AlertTypeDefinitionTracingThresholdTracingFilterOutputReference ext
 }
 export interface AlertTypeDefinitionTracingThreshold {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#notification_payload_filter Alert#notification_payload_filter}
   */
   readonly notificationPayloadFilter?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#rules Alert#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#rules Alert#rules}
   */
   readonly rules: AlertTypeDefinitionTracingThresholdRules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#tracing_filter Alert#tracing_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#tracing_filter Alert#tracing_filter}
   */
   readonly tracingFilter: AlertTypeDefinitionTracingThresholdTracingFilter;
 }
@@ -18050,57 +18050,57 @@ export class AlertTypeDefinitionTracingThresholdOutputReference extends cdktf.Co
 }
 export interface AlertTypeDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#flow Alert#flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#flow Alert#flow}
   */
   readonly flow?: AlertTypeDefinitionFlow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#logs_anomaly Alert#logs_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#logs_anomaly Alert#logs_anomaly}
   */
   readonly logsAnomaly?: AlertTypeDefinitionLogsAnomaly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#logs_immediate Alert#logs_immediate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#logs_immediate Alert#logs_immediate}
   */
   readonly logsImmediate?: AlertTypeDefinitionLogsImmediate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#logs_new_value Alert#logs_new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#logs_new_value Alert#logs_new_value}
   */
   readonly logsNewValue?: AlertTypeDefinitionLogsNewValue;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#logs_ratio_threshold Alert#logs_ratio_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#logs_ratio_threshold Alert#logs_ratio_threshold}
   */
   readonly logsRatioThreshold?: AlertTypeDefinitionLogsRatioThreshold;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#logs_threshold Alert#logs_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#logs_threshold Alert#logs_threshold}
   */
   readonly logsThreshold?: AlertTypeDefinitionLogsThreshold;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#logs_time_relative_threshold Alert#logs_time_relative_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#logs_time_relative_threshold Alert#logs_time_relative_threshold}
   */
   readonly logsTimeRelativeThreshold?: AlertTypeDefinitionLogsTimeRelativeThreshold;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#logs_unique_count Alert#logs_unique_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#logs_unique_count Alert#logs_unique_count}
   */
   readonly logsUniqueCount?: AlertTypeDefinitionLogsUniqueCount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#metric_anomaly Alert#metric_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#metric_anomaly Alert#metric_anomaly}
   */
   readonly metricAnomaly?: AlertTypeDefinitionMetricAnomaly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#metric_threshold Alert#metric_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#metric_threshold Alert#metric_threshold}
   */
   readonly metricThreshold?: AlertTypeDefinitionMetricThreshold;
   /**
   * SLO threshold alert type definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#slo_threshold Alert#slo_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#slo_threshold Alert#slo_threshold}
   */
   readonly sloThreshold?: AlertTypeDefinitionSloThreshold;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#tracing_immediate Alert#tracing_immediate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#tracing_immediate Alert#tracing_immediate}
   */
   readonly tracingImmediate?: AlertTypeDefinitionTracingImmediate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#tracing_threshold Alert#tracing_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#tracing_threshold Alert#tracing_threshold}
   */
   readonly tracingThreshold?: AlertTypeDefinitionTracingThreshold;
 }
@@ -18542,7 +18542,7 @@ export class AlertTypeDefinitionOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert coralogix_alert}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert coralogix_alert}
 */
 export class Alert extends cdktf.TerraformResource {
 
@@ -18558,7 +18558,7 @@ export class Alert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Alert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Alert to import
-  * @param importFromId The id of the existing Alert that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Alert that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Alert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -18570,7 +18570,7 @@ export class Alert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/alert coralogix_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alert coralogix_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -18581,8 +18581,8 @@ export class Alert extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_alert',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -18683,7 +18683,7 @@ export class Alert extends cdktf.TerraformResource {
     return this._incidentsSettings.internalValue;
   }
 
-  // labels - computed: false, optional: true, required: false
+  // labels - computed: true, optional: true, required: false
   private _labels?: { [key: string]: string }; 
   public get labels() {
     return this.getStringMapAttribute('labels');

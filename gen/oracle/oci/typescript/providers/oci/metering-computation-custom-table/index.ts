@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface MeteringComputationCustomTableConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#compartment_id MeteringComputationCustomTable#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#compartment_id MeteringComputationCustomTable#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#id MeteringComputationCustomTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#id MeteringComputationCustomTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#saved_report_id MeteringComputationCustomTable#saved_report_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#saved_report_id MeteringComputationCustomTable#saved_report_id}
   */
   readonly savedReportId: string;
   /**
   * saved_custom_table block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#saved_custom_table MeteringComputationCustomTable#saved_custom_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#saved_custom_table MeteringComputationCustomTable#saved_custom_table}
   */
   readonly savedCustomTable: MeteringComputationCustomTableSavedCustomTable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#timeouts MeteringComputationCustomTable#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#timeouts MeteringComputationCustomTable#timeouts}
   */
   readonly timeouts?: MeteringComputationCustomTableTimeouts;
 }
 export interface MeteringComputationCustomTableSavedCustomTableGroupByTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#key MeteringComputationCustomTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#key MeteringComputationCustomTable#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#namespace MeteringComputationCustomTable#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#namespace MeteringComputationCustomTable#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#value MeteringComputationCustomTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#value MeteringComputationCustomTable#value}
   */
   readonly value?: string;
 }
@@ -219,29 +219,29 @@ export class MeteringComputationCustomTableSavedCustomTableGroupByTagList extend
 }
 export interface MeteringComputationCustomTableSavedCustomTable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#column_group_by MeteringComputationCustomTable#column_group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#column_group_by MeteringComputationCustomTable#column_group_by}
   */
   readonly columnGroupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#compartment_depth MeteringComputationCustomTable#compartment_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#compartment_depth MeteringComputationCustomTable#compartment_depth}
   */
   readonly compartmentDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#display_name MeteringComputationCustomTable#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#display_name MeteringComputationCustomTable#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#row_group_by MeteringComputationCustomTable#row_group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#row_group_by MeteringComputationCustomTable#row_group_by}
   */
   readonly rowGroupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#version MeteringComputationCustomTable#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#version MeteringComputationCustomTable#version}
   */
   readonly version?: number;
   /**
   * group_by_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#group_by_tag MeteringComputationCustomTable#group_by_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#group_by_tag MeteringComputationCustomTable#group_by_tag}
   */
   readonly groupByTag?: MeteringComputationCustomTableSavedCustomTableGroupByTag[] | cdktf.IResolvable;
 }
@@ -467,15 +467,15 @@ export class MeteringComputationCustomTableSavedCustomTableOutputReference exten
 }
 export interface MeteringComputationCustomTableTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#create MeteringComputationCustomTable#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#create MeteringComputationCustomTable#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#delete MeteringComputationCustomTable#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#delete MeteringComputationCustomTable#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#update MeteringComputationCustomTable#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#update MeteringComputationCustomTable#update}
   */
   readonly update?: string;
 }
@@ -627,7 +627,7 @@ export class MeteringComputationCustomTableTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table oci_metering_computation_custom_table}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table oci_metering_computation_custom_table}
 */
 export class MeteringComputationCustomTable extends cdktf.TerraformResource {
 
@@ -643,7 +643,7 @@ export class MeteringComputationCustomTable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MeteringComputationCustomTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MeteringComputationCustomTable to import
-  * @param importFromId The id of the existing MeteringComputationCustomTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MeteringComputationCustomTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MeteringComputationCustomTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -655,7 +655,7 @@ export class MeteringComputationCustomTable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_custom_table oci_metering_computation_custom_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/metering_computation_custom_table oci_metering_computation_custom_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -666,8 +666,8 @@ export class MeteringComputationCustomTable extends cdktf.TerraformResource {
       terraformResourceType: 'oci_metering_computation_custom_table',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

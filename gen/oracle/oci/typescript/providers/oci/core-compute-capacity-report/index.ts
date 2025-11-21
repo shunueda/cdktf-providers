@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface CoreComputeCapacityReportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#availability_domain CoreComputeCapacityReport#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#availability_domain CoreComputeCapacityReport#availability_domain}
   */
   readonly availabilityDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#compartment_id CoreComputeCapacityReport#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#compartment_id CoreComputeCapacityReport#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#id CoreComputeCapacityReport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#id CoreComputeCapacityReport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,27 +25,27 @@ export interface CoreComputeCapacityReportConfig extends cdktf.TerraformMetaArgu
   /**
   * shape_availabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#shape_availabilities CoreComputeCapacityReport#shape_availabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#shape_availabilities CoreComputeCapacityReport#shape_availabilities}
   */
   readonly shapeAvailabilities: CoreComputeCapacityReportShapeAvailabilities[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#timeouts CoreComputeCapacityReport#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#timeouts CoreComputeCapacityReport#timeouts}
   */
   readonly timeouts?: CoreComputeCapacityReportTimeouts;
 }
 export interface CoreComputeCapacityReportShapeAvailabilitiesInstanceShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#memory_in_gbs CoreComputeCapacityReport#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#memory_in_gbs CoreComputeCapacityReport#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#nvmes CoreComputeCapacityReport#nvmes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#nvmes CoreComputeCapacityReport#nvmes}
   */
   readonly nvmes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#ocpus CoreComputeCapacityReport#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#ocpus CoreComputeCapacityReport#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -187,17 +187,17 @@ export class CoreComputeCapacityReportShapeAvailabilitiesInstanceShapeConfigOutp
 }
 export interface CoreComputeCapacityReportShapeAvailabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#fault_domain CoreComputeCapacityReport#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#fault_domain CoreComputeCapacityReport#fault_domain}
   */
   readonly faultDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#instance_shape CoreComputeCapacityReport#instance_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#instance_shape CoreComputeCapacityReport#instance_shape}
   */
   readonly instanceShape: string;
   /**
   * instance_shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#instance_shape_config CoreComputeCapacityReport#instance_shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#instance_shape_config CoreComputeCapacityReport#instance_shape_config}
   */
   readonly instanceShapeConfig?: CoreComputeCapacityReportShapeAvailabilitiesInstanceShapeConfig;
 }
@@ -378,15 +378,15 @@ export class CoreComputeCapacityReportShapeAvailabilitiesList extends cdktf.Comp
 }
 export interface CoreComputeCapacityReportTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#create CoreComputeCapacityReport#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#create CoreComputeCapacityReport#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#delete CoreComputeCapacityReport#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#delete CoreComputeCapacityReport#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#update CoreComputeCapacityReport#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#update CoreComputeCapacityReport#update}
   */
   readonly update?: string;
 }
@@ -538,7 +538,7 @@ export class CoreComputeCapacityReportTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report oci_core_compute_capacity_report}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report oci_core_compute_capacity_report}
 */
 export class CoreComputeCapacityReport extends cdktf.TerraformResource {
 
@@ -554,7 +554,7 @@ export class CoreComputeCapacityReport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CoreComputeCapacityReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoreComputeCapacityReport to import
-  * @param importFromId The id of the existing CoreComputeCapacityReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoreComputeCapacityReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoreComputeCapacityReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -566,7 +566,7 @@ export class CoreComputeCapacityReport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_capacity_report oci_core_compute_capacity_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_capacity_report oci_core_compute_capacity_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -577,8 +577,8 @@ export class CoreComputeCapacityReport extends cdktf.TerraformResource {
       terraformResourceType: 'oci_core_compute_capacity_report',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

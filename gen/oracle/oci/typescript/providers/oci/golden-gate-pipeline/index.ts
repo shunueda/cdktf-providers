@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,149 @@ import * as cdktf from 'cdktf';
 
 export interface GoldenGatePipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#compartment_id GoldenGatePipeline#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#compartment_id GoldenGatePipeline#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#defined_tags GoldenGatePipeline#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#defined_tags GoldenGatePipeline#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#description GoldenGatePipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#description GoldenGatePipeline#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#display_name GoldenGatePipeline#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#display_name GoldenGatePipeline#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#freeform_tags GoldenGatePipeline#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#freeform_tags GoldenGatePipeline#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#id GoldenGatePipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#id GoldenGatePipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#license_model GoldenGatePipeline#license_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#license_model GoldenGatePipeline#license_model}
   */
   readonly licenseModel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#recipe_type GoldenGatePipeline#recipe_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#recipe_type GoldenGatePipeline#recipe_type}
   */
   readonly recipeType: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#subnet_id GoldenGatePipeline#subnet_id}
+  */
+  readonly subnetId?: string;
+  /**
   * locks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#locks GoldenGatePipeline#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#locks GoldenGatePipeline#locks}
   */
   readonly locks?: GoldenGatePipelineLocks[] | cdktf.IResolvable;
   /**
   * process_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#process_options GoldenGatePipeline#process_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#process_options GoldenGatePipeline#process_options}
   */
   readonly processOptions?: GoldenGatePipelineProcessOptions;
   /**
   * source_connection_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#source_connection_details GoldenGatePipeline#source_connection_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#source_connection_details GoldenGatePipeline#source_connection_details}
   */
   readonly sourceConnectionDetails: GoldenGatePipelineSourceConnectionDetails;
   /**
   * target_connection_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#target_connection_details GoldenGatePipeline#target_connection_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#target_connection_details GoldenGatePipeline#target_connection_details}
   */
   readonly targetConnectionDetails: GoldenGatePipelineTargetConnectionDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#timeouts GoldenGatePipeline#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#timeouts GoldenGatePipeline#timeouts}
   */
   readonly timeouts?: GoldenGatePipelineTimeouts;
+}
+export interface GoldenGatePipelineIngressIps {
+}
+
+export function goldenGatePipelineIngressIpsToTerraform(struct?: GoldenGatePipelineIngressIps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function goldenGatePipelineIngressIpsToHclTerraform(struct?: GoldenGatePipelineIngressIps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoldenGatePipelineIngressIpsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoldenGatePipelineIngressIps | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoldenGatePipelineIngressIps | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // ingress_ip - computed: true, optional: false, required: false
+  public get ingressIp() {
+    return this.getStringAttribute('ingress_ip');
+  }
+}
+
+export class GoldenGatePipelineIngressIpsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoldenGatePipelineIngressIpsOutputReference {
+    return new GoldenGatePipelineIngressIpsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface GoldenGatePipelineMappingRules {
 }
@@ -255,11 +334,19 @@ export class GoldenGatePipelinePipelineDiagnosticDataList extends cdktf.ComplexL
 }
 export interface GoldenGatePipelineLocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#message GoldenGatePipeline#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#message GoldenGatePipeline#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#type GoldenGatePipeline#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#related_resource_id GoldenGatePipeline#related_resource_id}
+  */
+  readonly relatedResourceId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#time_created GoldenGatePipeline#time_created}
+  */
+  readonly timeCreated?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#type GoldenGatePipeline#type}
   */
   readonly type: string;
 }
@@ -271,6 +358,8 @@ export function goldenGatePipelineLocksToTerraform(struct?: GoldenGatePipelineLo
   }
   return {
     message: cdktf.stringToTerraform(struct!.message),
+    related_resource_id: cdktf.stringToTerraform(struct!.relatedResourceId),
+    time_created: cdktf.stringToTerraform(struct!.timeCreated),
     type: cdktf.stringToTerraform(struct!.type),
   }
 }
@@ -284,6 +373,18 @@ export function goldenGatePipelineLocksToHclTerraform(struct?: GoldenGatePipelin
   const attrs = {
     message: {
       value: cdktf.stringToHclTerraform(struct!.message),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    related_resource_id: {
+      value: cdktf.stringToHclTerraform(struct!.relatedResourceId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    time_created: {
+      value: cdktf.stringToHclTerraform(struct!.timeCreated),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -324,6 +425,14 @@ export class GoldenGatePipelineLocksOutputReference extends cdktf.ComplexObject 
       hasAnyValues = true;
       internalValueResult.message = this._message;
     }
+    if (this._relatedResourceId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.relatedResourceId = this._relatedResourceId;
+    }
+    if (this._timeCreated !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.timeCreated = this._timeCreated;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -336,6 +445,8 @@ export class GoldenGatePipelineLocksOutputReference extends cdktf.ComplexObject 
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._message = undefined;
+      this._relatedResourceId = undefined;
+      this._timeCreated = undefined;
       this._type = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -346,6 +457,8 @@ export class GoldenGatePipelineLocksOutputReference extends cdktf.ComplexObject 
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._message = value.message;
+      this._relatedResourceId = value.relatedResourceId;
+      this._timeCreated = value.timeCreated;
       this._type = value.type;
     }
   }
@@ -364,6 +477,38 @@ export class GoldenGatePipelineLocksOutputReference extends cdktf.ComplexObject 
   // Temporarily expose input value. Use with caution.
   public get messageInput() {
     return this._message;
+  }
+
+  // related_resource_id - computed: true, optional: true, required: false
+  private _relatedResourceId?: string; 
+  public get relatedResourceId() {
+    return this.getStringAttribute('related_resource_id');
+  }
+  public set relatedResourceId(value: string) {
+    this._relatedResourceId = value;
+  }
+  public resetRelatedResourceId() {
+    this._relatedResourceId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get relatedResourceIdInput() {
+    return this._relatedResourceId;
+  }
+
+  // time_created - computed: true, optional: true, required: false
+  private _timeCreated?: string; 
+  public get timeCreated() {
+    return this.getStringAttribute('time_created');
+  }
+  public set timeCreated(value: string) {
+    this._timeCreated = value;
+  }
+  public resetTimeCreated() {
+    this._timeCreated = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeCreatedInput() {
+    return this._timeCreated;
   }
 
   // type - computed: false, optional: false, required: true
@@ -401,11 +546,11 @@ export class GoldenGatePipelineLocksList extends cdktf.ComplexList {
 }
 export interface GoldenGatePipelineProcessOptionsInitialDataLoad {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#action_on_existing_table GoldenGatePipeline#action_on_existing_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#action_on_existing_table GoldenGatePipeline#action_on_existing_table}
   */
   readonly actionOnExistingTable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#is_initial_load GoldenGatePipeline#is_initial_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#is_initial_load GoldenGatePipeline#is_initial_load}
   */
   readonly isInitialLoad: string;
 }
@@ -515,15 +660,15 @@ export class GoldenGatePipelineProcessOptionsInitialDataLoadOutputReference exte
 }
 export interface GoldenGatePipelineProcessOptionsReplicateSchemaChange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#action_on_ddl_error GoldenGatePipeline#action_on_ddl_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#action_on_ddl_error GoldenGatePipeline#action_on_ddl_error}
   */
   readonly actionOnDdlError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#action_on_dml_error GoldenGatePipeline#action_on_dml_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#action_on_dml_error GoldenGatePipeline#action_on_dml_error}
   */
   readonly actionOnDmlError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#can_replicate_schema_change GoldenGatePipeline#can_replicate_schema_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#can_replicate_schema_change GoldenGatePipeline#can_replicate_schema_change}
   */
   readonly canReplicateSchemaChange: string;
 }
@@ -662,23 +807,23 @@ export class GoldenGatePipelineProcessOptionsReplicateSchemaChangeOutputReferenc
 }
 export interface GoldenGatePipelineProcessOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#should_restart_on_failure GoldenGatePipeline#should_restart_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#should_restart_on_failure GoldenGatePipeline#should_restart_on_failure}
   */
   readonly shouldRestartOnFailure: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#start_using_default_mapping GoldenGatePipeline#start_using_default_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#start_using_default_mapping GoldenGatePipeline#start_using_default_mapping}
   */
   readonly startUsingDefaultMapping?: string;
   /**
   * initial_data_load block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#initial_data_load GoldenGatePipeline#initial_data_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#initial_data_load GoldenGatePipeline#initial_data_load}
   */
   readonly initialDataLoad: GoldenGatePipelineProcessOptionsInitialDataLoad;
   /**
   * replicate_schema_change block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#replicate_schema_change GoldenGatePipeline#replicate_schema_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#replicate_schema_change GoldenGatePipeline#replicate_schema_change}
   */
   readonly replicateSchemaChange: GoldenGatePipelineProcessOptionsReplicateSchemaChange;
 }
@@ -840,7 +985,7 @@ export class GoldenGatePipelineProcessOptionsOutputReference extends cdktf.Compl
 }
 export interface GoldenGatePipelineSourceConnectionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#connection_id GoldenGatePipeline#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#connection_id GoldenGatePipeline#connection_id}
   */
   readonly connectionId: string;
 }
@@ -921,7 +1066,7 @@ export class GoldenGatePipelineSourceConnectionDetailsOutputReference extends cd
 }
 export interface GoldenGatePipelineTargetConnectionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#connection_id GoldenGatePipeline#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#connection_id GoldenGatePipeline#connection_id}
   */
   readonly connectionId: string;
 }
@@ -1002,15 +1147,15 @@ export class GoldenGatePipelineTargetConnectionDetailsOutputReference extends cd
 }
 export interface GoldenGatePipelineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#create GoldenGatePipeline#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#create GoldenGatePipeline#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#delete GoldenGatePipeline#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#delete GoldenGatePipeline#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#update GoldenGatePipeline#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#update GoldenGatePipeline#update}
   */
   readonly update?: string;
 }
@@ -1162,7 +1307,7 @@ export class GoldenGatePipelineTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline oci_golden_gate_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline oci_golden_gate_pipeline}
 */
 export class GoldenGatePipeline extends cdktf.TerraformResource {
 
@@ -1178,7 +1323,7 @@ export class GoldenGatePipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GoldenGatePipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoldenGatePipeline to import
-  * @param importFromId The id of the existing GoldenGatePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoldenGatePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoldenGatePipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1190,7 +1335,7 @@ export class GoldenGatePipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline oci_golden_gate_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_pipeline oci_golden_gate_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1201,8 +1346,8 @@ export class GoldenGatePipeline extends cdktf.TerraformResource {
       terraformResourceType: 'oci_golden_gate_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1220,6 +1365,7 @@ export class GoldenGatePipeline extends cdktf.TerraformResource {
     this._id = config.id;
     this._licenseModel = config.licenseModel;
     this._recipeType = config.recipeType;
+    this._subnetId = config.subnetId;
     this._locks.internalValue = config.locks;
     this._processOptions.internalValue = config.processOptions;
     this._sourceConnectionDetails.internalValue = config.sourceConnectionDetails;
@@ -1326,6 +1472,12 @@ export class GoldenGatePipeline extends cdktf.TerraformResource {
     return this._id;
   }
 
+  // ingress_ips - computed: true, optional: false, required: false
+  private _ingressIps = new GoldenGatePipelineIngressIpsList(this, "ingress_ips", false);
+  public get ingressIps() {
+    return this._ingressIps;
+  }
+
   // is_auto_scaling_enabled - computed: true, optional: false, required: false
   public get isAutoScalingEnabled() {
     return this.getBooleanAttribute('is_auto_scaling_enabled');
@@ -1382,6 +1534,22 @@ export class GoldenGatePipeline extends cdktf.TerraformResource {
   // state - computed: true, optional: false, required: false
   public get state() {
     return this.getStringAttribute('state');
+  }
+
+  // subnet_id - computed: true, optional: true, required: false
+  private _subnetId?: string; 
+  public get subnetId() {
+    return this.getStringAttribute('subnet_id');
+  }
+  public set subnetId(value: string) {
+    this._subnetId = value;
+  }
+  public resetSubnetId() {
+    this._subnetId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetIdInput() {
+    return this._subnetId;
   }
 
   // system_tags - computed: true, optional: false, required: false
@@ -1493,6 +1661,7 @@ export class GoldenGatePipeline extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       license_model: cdktf.stringToTerraform(this._licenseModel),
       recipe_type: cdktf.stringToTerraform(this._recipeType),
+      subnet_id: cdktf.stringToTerraform(this._subnetId),
       locks: cdktf.listMapper(goldenGatePipelineLocksToTerraform, true)(this._locks.internalValue),
       process_options: goldenGatePipelineProcessOptionsToTerraform(this._processOptions.internalValue),
       source_connection_details: goldenGatePipelineSourceConnectionDetailsToTerraform(this._sourceConnectionDetails.internalValue),
@@ -1547,6 +1716,12 @@ export class GoldenGatePipeline extends cdktf.TerraformResource {
       },
       recipe_type: {
         value: cdktf.stringToHclTerraform(this._recipeType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      subnet_id: {
+        value: cdktf.stringToHclTerraform(this._subnetId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

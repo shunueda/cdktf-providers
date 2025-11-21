@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapmirror_policy
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapmirror_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataNetappOntapSnapmirrorPolicyAConfig extends cdktf.TerraformM
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapmirror_policy#cx_profile_name DataNetappOntapSnapmirrorPolicyA#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapmirror_policy#cx_profile_name DataNetappOntapSnapmirrorPolicyA#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * SnapmirrorPolicy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapmirror_policy#name DataNetappOntapSnapmirrorPolicyA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapmirror_policy#name DataNetappOntapSnapmirrorPolicyA#name}
   */
   readonly name: string;
 }
@@ -112,7 +112,7 @@ export class DataNetappOntapSnapmirrorPolicyRetentionList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapmirror_policy netapp-ontap_snapmirror_policy}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapmirror_policy netapp-ontap_snapmirror_policy}
 */
 export class DataNetappOntapSnapmirrorPolicyA extends cdktf.TerraformDataSource {
 
@@ -128,7 +128,7 @@ export class DataNetappOntapSnapmirrorPolicyA extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataNetappOntapSnapmirrorPolicyA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapSnapmirrorPolicyA to import
-  * @param importFromId The id of the existing DataNetappOntapSnapmirrorPolicyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapmirror_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapSnapmirrorPolicyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapmirror_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapSnapmirrorPolicyA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class DataNetappOntapSnapmirrorPolicyA extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapmirror_policy netapp-ontap_snapmirror_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapmirror_policy netapp-ontap_snapmirror_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class DataNetappOntapSnapmirrorPolicyA extends cdktf.TerraformDataSource 
       terraformResourceType: 'netapp-ontap_snapmirror_policy',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

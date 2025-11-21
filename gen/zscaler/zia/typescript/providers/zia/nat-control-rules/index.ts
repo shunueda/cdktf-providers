@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,195 +10,195 @@ export interface NatControlRulesConfig extends cdktf.TerraformMetaArguments {
   /**
   * If set to true, the default rule is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#default_rule NatControlRules#default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#default_rule NatControlRules#default_rule}
   */
   readonly defaultRule?: boolean | cdktf.IResolvable;
   /**
   * Additional information about the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#description NatControlRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#description NatControlRules#description}
   */
   readonly description?: string;
   /**
   * Destination addresses. Supports IPv4, FQDNs, or wildcard FQDNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#dest_addresses NatControlRules#dest_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#dest_addresses NatControlRules#dest_addresses}
   */
   readonly destAddresses?: string[];
   /**
   * Destination countries for which the rule is applicable. If not set, the rule is not restricted to specific destination countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#dest_countries NatControlRules#dest_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#dest_countries NatControlRules#dest_countries}
   */
   readonly destCountries?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#dest_ip_categories NatControlRules#dest_ip_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#dest_ip_categories NatControlRules#dest_ip_categories}
   */
   readonly destIpCategories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#enable_full_logging NatControlRules#enable_full_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#enable_full_logging NatControlRules#enable_full_logging}
   */
   readonly enableFullLogging?: boolean | cdktf.IResolvable;
   /**
   * Name of the nat control policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#name NatControlRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#name NatControlRules#name}
   */
   readonly name: string;
   /**
   * Rule order number. If omitted, the rule will be added to the end of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#order NatControlRules#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#order NatControlRules#order}
   */
   readonly order: number;
   /**
   * If set to true, a predefined rule is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#predefined NatControlRules#predefined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#predefined NatControlRules#predefined}
   */
   readonly predefined?: boolean | cdktf.IResolvable;
   /**
   * Admin rank of the nat control policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#rank NatControlRules#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#rank NatControlRules#rank}
   */
   readonly rank?: number;
   /**
   * The action the nat control policy rule takes when packets match the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#redirect_fqdn NatControlRules#redirect_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#redirect_fqdn NatControlRules#redirect_fqdn}
   */
   readonly redirectFqdn?: string;
   /**
   * The action the nat control policy rule takes when packets match the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#redirect_ip NatControlRules#redirect_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#redirect_ip NatControlRules#redirect_ip}
   */
   readonly redirectIp?: string;
   /**
   * The action the nat control policy rule takes when packets match the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#redirect_port NatControlRules#redirect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#redirect_port NatControlRules#redirect_port}
   */
   readonly redirectPort?: number;
   /**
   * List of destination domain categories to which the rule applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#res_categories NatControlRules#res_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#res_categories NatControlRules#res_categories}
   */
   readonly resCategories?: string[];
   /**
   * User-defined source IP addresses for which the rule is applicable. If not set, the rule is not restricted to a specific source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#src_ips NatControlRules#src_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#src_ips NatControlRules#src_ips}
   */
   readonly srcIps?: string[];
   /**
   * Determines whether the nat control policy rule is enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#state NatControlRules#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#state NatControlRules#state}
   */
   readonly state?: string;
   /**
   * departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#departments NatControlRules#departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#departments NatControlRules#departments}
   */
   readonly departments?: NatControlRulesDepartments;
   /**
   * dest_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#dest_ip_groups NatControlRules#dest_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#dest_ip_groups NatControlRules#dest_ip_groups}
   */
   readonly destIpGroups?: NatControlRulesDestIpGroups;
   /**
   * dest_ipv6_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#dest_ipv6_groups NatControlRules#dest_ipv6_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#dest_ipv6_groups NatControlRules#dest_ipv6_groups}
   */
   readonly destIpv6Groups?: NatControlRulesDestIpv6Groups;
   /**
   * device_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#device_groups NatControlRules#device_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#device_groups NatControlRules#device_groups}
   */
   readonly deviceGroups?: NatControlRulesDeviceGroups;
   /**
   * devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#devices NatControlRules#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#devices NatControlRules#devices}
   */
   readonly devices?: NatControlRulesDevices;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#groups NatControlRules#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#groups NatControlRules#groups}
   */
   readonly groups?: NatControlRulesGroups;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#labels NatControlRules#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#labels NatControlRules#labels}
   */
   readonly labels?: NatControlRulesLabels;
   /**
   * location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#location_groups NatControlRules#location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#location_groups NatControlRules#location_groups}
   */
   readonly locationGroups?: NatControlRulesLocationGroups;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#locations NatControlRules#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#locations NatControlRules#locations}
   */
   readonly locations?: NatControlRulesLocations;
   /**
   * nw_service_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#nw_service_groups NatControlRules#nw_service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#nw_service_groups NatControlRules#nw_service_groups}
   */
   readonly nwServiceGroups?: NatControlRulesNwServiceGroups;
   /**
   * nw_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#nw_services NatControlRules#nw_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#nw_services NatControlRules#nw_services}
   */
   readonly nwServices?: NatControlRulesNwServices;
   /**
   * src_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#src_ip_groups NatControlRules#src_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#src_ip_groups NatControlRules#src_ip_groups}
   */
   readonly srcIpGroups?: NatControlRulesSrcIpGroups;
   /**
   * src_ipv6_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#src_ipv6_groups NatControlRules#src_ipv6_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#src_ipv6_groups NatControlRules#src_ipv6_groups}
   */
   readonly srcIpv6Groups?: NatControlRulesSrcIpv6Groups;
   /**
   * time_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#time_windows NatControlRules#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#time_windows NatControlRules#time_windows}
   */
   readonly timeWindows?: NatControlRulesTimeWindows;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#timeouts NatControlRules#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#timeouts NatControlRules#timeouts}
   */
   readonly timeouts?: NatControlRulesTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#users NatControlRules#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#users NatControlRules#users}
   */
   readonly users?: NatControlRulesUsers;
 }
 export interface NatControlRulesDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -285,7 +285,7 @@ export class NatControlRulesDepartmentsOutputReference extends cdktf.ComplexObje
 }
 export interface NatControlRulesDestIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -372,7 +372,7 @@ export class NatControlRulesDestIpGroupsOutputReference extends cdktf.ComplexObj
 }
 export interface NatControlRulesDestIpv6Groups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -459,7 +459,7 @@ export class NatControlRulesDestIpv6GroupsOutputReference extends cdktf.ComplexO
 }
 export interface NatControlRulesDeviceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -546,7 +546,7 @@ export class NatControlRulesDeviceGroupsOutputReference extends cdktf.ComplexObj
 }
 export interface NatControlRulesDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -633,7 +633,7 @@ export class NatControlRulesDevicesOutputReference extends cdktf.ComplexObject {
 }
 export interface NatControlRulesGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -720,7 +720,7 @@ export class NatControlRulesGroupsOutputReference extends cdktf.ComplexObject {
 }
 export interface NatControlRulesLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ export class NatControlRulesLabelsOutputReference extends cdktf.ComplexObject {
 }
 export interface NatControlRulesLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -894,7 +894,7 @@ export class NatControlRulesLocationGroupsOutputReference extends cdktf.ComplexO
 }
 export interface NatControlRulesLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -981,7 +981,7 @@ export class NatControlRulesLocationsOutputReference extends cdktf.ComplexObject
 }
 export interface NatControlRulesNwServiceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1068,7 +1068,7 @@ export class NatControlRulesNwServiceGroupsOutputReference extends cdktf.Complex
 }
 export interface NatControlRulesNwServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1155,7 +1155,7 @@ export class NatControlRulesNwServicesOutputReference extends cdktf.ComplexObjec
 }
 export interface NatControlRulesSrcIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1242,7 +1242,7 @@ export class NatControlRulesSrcIpGroupsOutputReference extends cdktf.ComplexObje
 }
 export interface NatControlRulesSrcIpv6Groups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1329,7 +1329,7 @@ export class NatControlRulesSrcIpv6GroupsOutputReference extends cdktf.ComplexOb
 }
 export interface NatControlRulesTimeWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1416,11 +1416,11 @@ export class NatControlRulesTimeWindowsOutputReference extends cdktf.ComplexObje
 }
 export interface NatControlRulesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#create NatControlRules#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#create NatControlRules#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#update NatControlRules#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#update NatControlRules#update}
   */
   readonly update?: string;
 }
@@ -1543,7 +1543,7 @@ export class NatControlRulesTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 export interface NatControlRulesUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#id NatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#id NatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1630,7 +1630,7 @@ export class NatControlRulesUsersOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules zia_nat_control_rules}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules zia_nat_control_rules}
 */
 export class NatControlRules extends cdktf.TerraformResource {
 
@@ -1646,7 +1646,7 @@ export class NatControlRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NatControlRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NatControlRules to import
-  * @param importFromId The id of the existing NatControlRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NatControlRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NatControlRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1658,7 +1658,7 @@ export class NatControlRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/nat_control_rules zia_nat_control_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/nat_control_rules zia_nat_control_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1669,8 +1669,8 @@ export class NatControlRules extends cdktf.TerraformResource {
       terraformResourceType: 'zia_nat_control_rules',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

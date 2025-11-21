@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/port
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNetappOntapPortConfig extends cdktf.TerraformMetaArguments 
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/port#cx_profile_name DataNetappOntapPort#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/port#cx_profile_name DataNetappOntapPort#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Portname, such as e0a, e1b-100 (VLAN on Ethernet), a0c (LAG/ifgrp), a0d-200 (VLAN on LAG/ifgrp), e0a.pv1 (p-VLAN, in select environments only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/port#name DataNetappOntapPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/port#name DataNetappOntapPort#name}
   */
   readonly name: string;
   /**
   * Node properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/port#node DataNetappOntapPort#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/port#node DataNetappOntapPort#node}
   */
   readonly nodeAttribute: DataNetappOntapPortNode;
 }
@@ -163,7 +163,7 @@ export interface DataNetappOntapPortNode {
   /**
   * Name of the node on which the port is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/port#name DataNetappOntapPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/port#name DataNetappOntapPort#name}
   */
   readonly name: string;
 }
@@ -318,7 +318,7 @@ export class DataNetappOntapPortVlanOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/port netapp-ontap_port}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/port netapp-ontap_port}
 */
 export class DataNetappOntapPort extends cdktf.TerraformDataSource {
 
@@ -334,7 +334,7 @@ export class DataNetappOntapPort extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapPort to import
-  * @param importFromId The id of the existing DataNetappOntapPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -346,7 +346,7 @@ export class DataNetappOntapPort extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/port netapp-ontap_port} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/port netapp-ontap_port} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,8 +357,8 @@ export class DataNetappOntapPort extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_port',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

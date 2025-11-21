@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_recommendation
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_recommendation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface OptimizerRecommendationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_recommendation#id OptimizerRecommendation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_recommendation#id OptimizerRecommendation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_recommendation#recommendation_id OptimizerRecommendation#recommendation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_recommendation#recommendation_id OptimizerRecommendation#recommendation_id}
   */
   readonly recommendationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_recommendation#status OptimizerRecommendation#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_recommendation#status OptimizerRecommendation#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_recommendation#time_status_end OptimizerRecommendation#time_status_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_recommendation#time_status_end OptimizerRecommendation#time_status_end}
   */
   readonly timeStatusEnd?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_recommendation#timeouts OptimizerRecommendation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_recommendation#timeouts OptimizerRecommendation#timeouts}
   */
   readonly timeouts?: OptimizerRecommendationTimeouts;
 }
@@ -266,15 +266,15 @@ export class OptimizerRecommendationSupportedLevelsList extends cdktf.ComplexLis
 }
 export interface OptimizerRecommendationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_recommendation#create OptimizerRecommendation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_recommendation#create OptimizerRecommendation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_recommendation#delete OptimizerRecommendation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_recommendation#delete OptimizerRecommendation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_recommendation#update OptimizerRecommendation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_recommendation#update OptimizerRecommendation#update}
   */
   readonly update?: string;
 }
@@ -426,7 +426,7 @@ export class OptimizerRecommendationTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_recommendation oci_optimizer_recommendation}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_recommendation oci_optimizer_recommendation}
 */
 export class OptimizerRecommendation extends cdktf.TerraformResource {
 
@@ -442,7 +442,7 @@ export class OptimizerRecommendation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OptimizerRecommendation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OptimizerRecommendation to import
-  * @param importFromId The id of the existing OptimizerRecommendation that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_recommendation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OptimizerRecommendation that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_recommendation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OptimizerRecommendation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -454,7 +454,7 @@ export class OptimizerRecommendation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_recommendation oci_optimizer_recommendation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_recommendation oci_optimizer_recommendation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -465,8 +465,8 @@ export class OptimizerRecommendation extends cdktf.TerraformResource {
       terraformResourceType: 'oci_optimizer_recommendation',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

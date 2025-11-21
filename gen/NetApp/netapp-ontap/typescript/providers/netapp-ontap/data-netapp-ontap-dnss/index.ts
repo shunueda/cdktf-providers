@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/dnss
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/dnss
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapDnssConfig extends cdktf.TerraformMetaArguments 
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/dnss#cx_profile_name DataNetappOntapDnss#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/dnss#cx_profile_name DataNetappOntapDnss#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/dnss#filter DataNetappOntapDnss#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/dnss#filter DataNetappOntapDnss#filter}
   */
   readonly filter?: DataNetappOntapDnssFilter;
 }
@@ -22,19 +22,19 @@ export interface DataNetappOntapDnssFilter {
   /**
   * DNS domain such as 'sales.bar.com'. The first domain is the one that the svm belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/dnss#dns_domains DataNetappOntapDnss#dns_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/dnss#dns_domains DataNetappOntapDnss#dns_domains}
   */
   readonly dnsDomains?: string;
   /**
   * IPv4 address of name servers such as '123.123.123.123'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/dnss#name_servers DataNetappOntapDnss#name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/dnss#name_servers DataNetappOntapDnss#name_servers}
   */
   readonly nameServers?: string;
   /**
   * IPInterface svm name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/dnss#svm_name DataNetappOntapDnss#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/dnss#svm_name DataNetappOntapDnss#svm_name}
   */
   readonly svmName?: string;
 }
@@ -281,7 +281,7 @@ export class DataNetappOntapDnssNameServicesDnssList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/dnss netapp-ontap_dnss}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/dnss netapp-ontap_dnss}
 */
 export class DataNetappOntapDnss extends cdktf.TerraformDataSource {
 
@@ -297,7 +297,7 @@ export class DataNetappOntapDnss extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapDnss resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapDnss to import
-  * @param importFromId The id of the existing DataNetappOntapDnss that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/dnss#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapDnss that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/dnss#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapDnss to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -309,7 +309,7 @@ export class DataNetappOntapDnss extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/dnss netapp-ontap_dnss} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/dnss netapp-ontap_dnss} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -320,8 +320,8 @@ export class DataNetappOntapDnss extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_dnss',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

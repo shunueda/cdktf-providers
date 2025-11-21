@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,156 +8,156 @@ import * as cdktf from 'cdktf';
 
 export interface GoldenGateDeploymentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#availability_domain GoldenGateDeployment#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#availability_domain GoldenGateDeployment#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#byol_cpu_core_count_limit GoldenGateDeployment#byol_cpu_core_count_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#byol_cpu_core_count_limit GoldenGateDeployment#byol_cpu_core_count_limit}
   */
   readonly byolCpuCoreCountLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#cluster_placement_group_id GoldenGateDeployment#cluster_placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#cluster_placement_group_id GoldenGateDeployment#cluster_placement_group_id}
   */
   readonly clusterPlacementGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#compartment_id GoldenGateDeployment#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#compartment_id GoldenGateDeployment#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#cpu_core_count GoldenGateDeployment#cpu_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#cpu_core_count GoldenGateDeployment#cpu_core_count}
   */
   readonly cpuCoreCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#defined_tags GoldenGateDeployment#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#defined_tags GoldenGateDeployment#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#deployment_backup_id GoldenGateDeployment#deployment_backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#deployment_backup_id GoldenGateDeployment#deployment_backup_id}
   */
   readonly deploymentBackupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#deployment_type GoldenGateDeployment#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#deployment_type GoldenGateDeployment#deployment_type}
   */
   readonly deploymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#description GoldenGateDeployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#description GoldenGateDeployment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#display_name GoldenGateDeployment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#display_name GoldenGateDeployment#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#environment_type GoldenGateDeployment#environment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#environment_type GoldenGateDeployment#environment_type}
   */
   readonly environmentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#fault_domain GoldenGateDeployment#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#fault_domain GoldenGateDeployment#fault_domain}
   */
   readonly faultDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#fqdn GoldenGateDeployment#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#fqdn GoldenGateDeployment#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#freeform_tags GoldenGateDeployment#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#freeform_tags GoldenGateDeployment#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#id GoldenGateDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#id GoldenGateDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#is_auto_scaling_enabled GoldenGateDeployment#is_auto_scaling_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#is_auto_scaling_enabled GoldenGateDeployment#is_auto_scaling_enabled}
   */
   readonly isAutoScalingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#is_byol_cpu_core_count_limit_enabled GoldenGateDeployment#is_byol_cpu_core_count_limit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#is_byol_cpu_core_count_limit_enabled GoldenGateDeployment#is_byol_cpu_core_count_limit_enabled}
   */
   readonly isByolCpuCoreCountLimitEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#is_lock_override GoldenGateDeployment#is_lock_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#is_lock_override GoldenGateDeployment#is_lock_override}
   */
   readonly isLockOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#is_public GoldenGateDeployment#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#is_public GoldenGateDeployment#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#license_model GoldenGateDeployment#license_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#license_model GoldenGateDeployment#license_model}
   */
   readonly licenseModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#load_balancer_subnet_id GoldenGateDeployment#load_balancer_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#load_balancer_subnet_id GoldenGateDeployment#load_balancer_subnet_id}
   */
   readonly loadBalancerSubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#nsg_ids GoldenGateDeployment#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#nsg_ids GoldenGateDeployment#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#security_attributes GoldenGateDeployment#security_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#security_attributes GoldenGateDeployment#security_attributes}
   */
   readonly securityAttributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#source_deployment_id GoldenGateDeployment#source_deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#source_deployment_id GoldenGateDeployment#source_deployment_id}
   */
   readonly sourceDeploymentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#state GoldenGateDeployment#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#state GoldenGateDeployment#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#subnet_id GoldenGateDeployment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#subnet_id GoldenGateDeployment#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#subscription_id GoldenGateDeployment#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#subscription_id GoldenGateDeployment#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
   * backup_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#backup_schedule GoldenGateDeployment#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#backup_schedule GoldenGateDeployment#backup_schedule}
   */
   readonly backupSchedule?: GoldenGateDeploymentBackupSchedule;
   /**
   * locks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#locks GoldenGateDeployment#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#locks GoldenGateDeployment#locks}
   */
   readonly locks?: GoldenGateDeploymentLocks[] | cdktf.IResolvable;
   /**
   * maintenance_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#maintenance_configuration GoldenGateDeployment#maintenance_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#maintenance_configuration GoldenGateDeployment#maintenance_configuration}
   */
   readonly maintenanceConfiguration?: GoldenGateDeploymentMaintenanceConfiguration;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#maintenance_window GoldenGateDeployment#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#maintenance_window GoldenGateDeployment#maintenance_window}
   */
   readonly maintenanceWindow?: GoldenGateDeploymentMaintenanceWindow;
   /**
   * ogg_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#ogg_data GoldenGateDeployment#ogg_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#ogg_data GoldenGateDeployment#ogg_data}
   */
   readonly oggData?: GoldenGateDeploymentOggData;
   /**
   * placements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#placements GoldenGateDeployment#placements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#placements GoldenGateDeployment#placements}
   */
   readonly placements?: GoldenGateDeploymentPlacements[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#timeouts GoldenGateDeployment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#timeouts GoldenGateDeployment#timeouts}
   */
   readonly timeouts?: GoldenGateDeploymentTimeouts;
 }
@@ -338,27 +338,27 @@ export class GoldenGateDeploymentIngressIpsList extends cdktf.ComplexList {
 }
 export interface GoldenGateDeploymentBackupSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#bucket GoldenGateDeployment#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#bucket GoldenGateDeployment#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#compartment_id GoldenGateDeployment#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#compartment_id GoldenGateDeployment#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#frequency_backup_scheduled GoldenGateDeployment#frequency_backup_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#frequency_backup_scheduled GoldenGateDeployment#frequency_backup_scheduled}
   */
   readonly frequencyBackupScheduled: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#is_metadata_only GoldenGateDeployment#is_metadata_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#is_metadata_only GoldenGateDeployment#is_metadata_only}
   */
   readonly isMetadataOnly: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#namespace GoldenGateDeployment#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#namespace GoldenGateDeployment#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#time_backup_scheduled GoldenGateDeployment#time_backup_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#time_backup_scheduled GoldenGateDeployment#time_backup_scheduled}
   */
   readonly timeBackupScheduled: string;
 }
@@ -569,11 +569,11 @@ export class GoldenGateDeploymentBackupScheduleOutputReference extends cdktf.Com
 }
 export interface GoldenGateDeploymentLocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#message GoldenGateDeployment#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#message GoldenGateDeployment#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#type GoldenGateDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#type GoldenGateDeployment#type}
   */
   readonly type: string;
 }
@@ -725,23 +725,23 @@ export class GoldenGateDeploymentLocksList extends cdktf.ComplexList {
 }
 export interface GoldenGateDeploymentMaintenanceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#bundle_release_upgrade_period_in_days GoldenGateDeployment#bundle_release_upgrade_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#bundle_release_upgrade_period_in_days GoldenGateDeployment#bundle_release_upgrade_period_in_days}
   */
   readonly bundleReleaseUpgradePeriodInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#interim_release_upgrade_period_in_days GoldenGateDeployment#interim_release_upgrade_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#interim_release_upgrade_period_in_days GoldenGateDeployment#interim_release_upgrade_period_in_days}
   */
   readonly interimReleaseUpgradePeriodInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#is_interim_release_auto_upgrade_enabled GoldenGateDeployment#is_interim_release_auto_upgrade_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#is_interim_release_auto_upgrade_enabled GoldenGateDeployment#is_interim_release_auto_upgrade_enabled}
   */
   readonly isInterimReleaseAutoUpgradeEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#major_release_upgrade_period_in_days GoldenGateDeployment#major_release_upgrade_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#major_release_upgrade_period_in_days GoldenGateDeployment#major_release_upgrade_period_in_days}
   */
   readonly majorReleaseUpgradePeriodInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#security_patch_upgrade_period_in_days GoldenGateDeployment#security_patch_upgrade_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#security_patch_upgrade_period_in_days GoldenGateDeployment#security_patch_upgrade_period_in_days}
   */
   readonly securityPatchUpgradePeriodInDays?: number;
 }
@@ -941,11 +941,11 @@ export class GoldenGateDeploymentMaintenanceConfigurationOutputReference extends
 }
 export interface GoldenGateDeploymentMaintenanceWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#day GoldenGateDeployment#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#day GoldenGateDeployment#day}
   */
   readonly day: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#start_hour GoldenGateDeployment#start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#start_hour GoldenGateDeployment#start_hour}
   */
   readonly startHour: number;
 }
@@ -1052,19 +1052,19 @@ export class GoldenGateDeploymentMaintenanceWindowOutputReference extends cdktf.
 }
 export interface GoldenGateDeploymentOggDataGroupToRolesMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#administrator_group_id GoldenGateDeployment#administrator_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#administrator_group_id GoldenGateDeployment#administrator_group_id}
   */
   readonly administratorGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#operator_group_id GoldenGateDeployment#operator_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#operator_group_id GoldenGateDeployment#operator_group_id}
   */
   readonly operatorGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#security_group_id GoldenGateDeployment#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#security_group_id GoldenGateDeployment#security_group_id}
   */
   readonly securityGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#user_group_id GoldenGateDeployment#user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#user_group_id GoldenGateDeployment#user_group_id}
   */
   readonly userGroupId?: string;
 }
@@ -1232,45 +1232,45 @@ export class GoldenGateDeploymentOggDataGroupToRolesMappingOutputReference exten
 }
 export interface GoldenGateDeploymentOggData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#admin_password GoldenGateDeployment#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#admin_password GoldenGateDeployment#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#admin_username GoldenGateDeployment#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#admin_username GoldenGateDeployment#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#certificate GoldenGateDeployment#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#certificate GoldenGateDeployment#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#credential_store GoldenGateDeployment#credential_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#credential_store GoldenGateDeployment#credential_store}
   */
   readonly credentialStore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#deployment_name GoldenGateDeployment#deployment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#deployment_name GoldenGateDeployment#deployment_name}
   */
   readonly deploymentName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#identity_domain_id GoldenGateDeployment#identity_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#identity_domain_id GoldenGateDeployment#identity_domain_id}
   */
   readonly identityDomainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#key GoldenGateDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#key GoldenGateDeployment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#ogg_version GoldenGateDeployment#ogg_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#ogg_version GoldenGateDeployment#ogg_version}
   */
   readonly oggVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#password_secret_id GoldenGateDeployment#password_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#password_secret_id GoldenGateDeployment#password_secret_id}
   */
   readonly passwordSecretId?: string;
   /**
   * group_to_roles_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#group_to_roles_mapping GoldenGateDeployment#group_to_roles_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#group_to_roles_mapping GoldenGateDeployment#group_to_roles_mapping}
   */
   readonly groupToRolesMapping?: GoldenGateDeploymentOggDataGroupToRolesMapping;
 }
@@ -1612,11 +1612,11 @@ export class GoldenGateDeploymentOggDataOutputReference extends cdktf.ComplexObj
 }
 export interface GoldenGateDeploymentPlacements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#availability_domain GoldenGateDeployment#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#availability_domain GoldenGateDeployment#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#fault_domain GoldenGateDeployment#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#fault_domain GoldenGateDeployment#fault_domain}
   */
   readonly faultDomain?: string;
 }
@@ -1761,15 +1761,15 @@ export class GoldenGateDeploymentPlacementsList extends cdktf.ComplexList {
 }
 export interface GoldenGateDeploymentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#create GoldenGateDeployment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#create GoldenGateDeployment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#delete GoldenGateDeployment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#delete GoldenGateDeployment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#update GoldenGateDeployment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#update GoldenGateDeployment#update}
   */
   readonly update?: string;
 }
@@ -1921,7 +1921,7 @@ export class GoldenGateDeploymentTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment oci_golden_gate_deployment}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment oci_golden_gate_deployment}
 */
 export class GoldenGateDeployment extends cdktf.TerraformResource {
 
@@ -1937,7 +1937,7 @@ export class GoldenGateDeployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GoldenGateDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoldenGateDeployment to import
-  * @param importFromId The id of the existing GoldenGateDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoldenGateDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoldenGateDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1949,7 +1949,7 @@ export class GoldenGateDeployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_deployment oci_golden_gate_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/golden_gate_deployment oci_golden_gate_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1960,8 +1960,8 @@ export class GoldenGateDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'oci_golden_gate_deployment',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

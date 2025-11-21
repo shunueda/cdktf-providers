@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface AiLanguageJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#compartment_id AiLanguageJob#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#compartment_id AiLanguageJob#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#description AiLanguageJob#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#description AiLanguageJob#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#display_name AiLanguageJob#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#display_name AiLanguageJob#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#id AiLanguageJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#id AiLanguageJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,41 +29,41 @@ export interface AiLanguageJobConfig extends cdktf.TerraformMetaArguments {
   /**
   * input_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#input_configuration AiLanguageJob#input_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#input_configuration AiLanguageJob#input_configuration}
   */
   readonly inputConfiguration?: AiLanguageJobInputConfiguration;
   /**
   * input_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#input_location AiLanguageJob#input_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#input_location AiLanguageJob#input_location}
   */
   readonly inputLocation: AiLanguageJobInputLocation;
   /**
   * model_metadata_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#model_metadata_details AiLanguageJob#model_metadata_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#model_metadata_details AiLanguageJob#model_metadata_details}
   */
   readonly modelMetadataDetails: AiLanguageJobModelMetadataDetails[] | cdktf.IResolvable;
   /**
   * output_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#output_location AiLanguageJob#output_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#output_location AiLanguageJob#output_location}
   */
   readonly outputLocation: AiLanguageJobOutputLocation;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#timeouts AiLanguageJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#timeouts AiLanguageJob#timeouts}
   */
   readonly timeouts?: AiLanguageJobTimeouts;
 }
 export interface AiLanguageJobInputConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#configuration AiLanguageJob#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#configuration AiLanguageJob#configuration}
   */
   readonly configuration?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#document_types AiLanguageJob#document_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#document_types AiLanguageJob#document_types}
   */
   readonly documentTypes?: string[];
 }
@@ -176,19 +176,19 @@ export class AiLanguageJobInputConfigurationOutputReference extends cdktf.Comple
 }
 export interface AiLanguageJobInputLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#bucket AiLanguageJob#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#bucket AiLanguageJob#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#location_type AiLanguageJob#location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#location_type AiLanguageJob#location_type}
   */
   readonly locationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#namespace AiLanguageJob#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#namespace AiLanguageJob#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#object_names AiLanguageJob#object_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#object_names AiLanguageJob#object_names}
   */
   readonly objectNames?: string[];
 }
@@ -350,23 +350,23 @@ export class AiLanguageJobInputLocationOutputReference extends cdktf.ComplexObje
 }
 export interface AiLanguageJobModelMetadataDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#configuration AiLanguageJob#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#configuration AiLanguageJob#configuration}
   */
   readonly configuration?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#endpoint_id AiLanguageJob#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#endpoint_id AiLanguageJob#endpoint_id}
   */
   readonly endpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#language_code AiLanguageJob#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#language_code AiLanguageJob#language_code}
   */
   readonly languageCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#model_id AiLanguageJob#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#model_id AiLanguageJob#model_id}
   */
   readonly modelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#model_type AiLanguageJob#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#model_type AiLanguageJob#model_type}
   */
   readonly modelType?: string;
 }
@@ -598,15 +598,15 @@ export class AiLanguageJobModelMetadataDetailsList extends cdktf.ComplexList {
 }
 export interface AiLanguageJobOutputLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#bucket AiLanguageJob#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#bucket AiLanguageJob#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#namespace AiLanguageJob#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#namespace AiLanguageJob#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#prefix AiLanguageJob#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#prefix AiLanguageJob#prefix}
   */
   readonly prefix?: string;
 }
@@ -742,15 +742,15 @@ export class AiLanguageJobOutputLocationOutputReference extends cdktf.ComplexObj
 }
 export interface AiLanguageJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#create AiLanguageJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#create AiLanguageJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#delete AiLanguageJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#delete AiLanguageJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#update AiLanguageJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#update AiLanguageJob#update}
   */
   readonly update?: string;
 }
@@ -902,7 +902,7 @@ export class AiLanguageJobTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job oci_ai_language_job}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job oci_ai_language_job}
 */
 export class AiLanguageJob extends cdktf.TerraformResource {
 
@@ -918,7 +918,7 @@ export class AiLanguageJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AiLanguageJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AiLanguageJob to import
-  * @param importFromId The id of the existing AiLanguageJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AiLanguageJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AiLanguageJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -930,7 +930,7 @@ export class AiLanguageJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ai_language_job oci_ai_language_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_language_job oci_ai_language_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -941,8 +941,8 @@ export class AiLanguageJob extends cdktf.TerraformResource {
       terraformResourceType: 'oci_ai_language_job',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

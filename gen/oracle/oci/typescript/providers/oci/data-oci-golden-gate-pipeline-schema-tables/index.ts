@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline_schema_tables
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline_schema_tables
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciGoldenGatePipelineSchemaTablesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline_schema_tables#display_name DataOciGoldenGatePipelineSchemaTables#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline_schema_tables#display_name DataOciGoldenGatePipelineSchemaTables#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline_schema_tables#id DataOciGoldenGatePipelineSchemaTables#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline_schema_tables#id DataOciGoldenGatePipelineSchemaTables#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline_schema_tables#pipeline_id DataOciGoldenGatePipelineSchemaTables#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline_schema_tables#pipeline_id DataOciGoldenGatePipelineSchemaTables#pipeline_id}
   */
   readonly pipelineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline_schema_tables#source_schema_name DataOciGoldenGatePipelineSchemaTables#source_schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline_schema_tables#source_schema_name DataOciGoldenGatePipelineSchemaTables#source_schema_name}
   */
   readonly sourceSchemaName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline_schema_tables#target_schema_name DataOciGoldenGatePipelineSchemaTables#target_schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline_schema_tables#target_schema_name DataOciGoldenGatePipelineSchemaTables#target_schema_name}
   */
   readonly targetSchemaName: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline_schema_tables#filter DataOciGoldenGatePipelineSchemaTables#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline_schema_tables#filter DataOciGoldenGatePipelineSchemaTables#filter}
   */
   readonly filter?: DataOciGoldenGatePipelineSchemaTablesFilter[] | cdktf.IResolvable;
 }
@@ -205,15 +205,15 @@ export class DataOciGoldenGatePipelineSchemaTablesPipelineSchemaTableCollectionL
 }
 export interface DataOciGoldenGatePipelineSchemaTablesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline_schema_tables#name DataOciGoldenGatePipelineSchemaTables#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline_schema_tables#name DataOciGoldenGatePipelineSchemaTables#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline_schema_tables#regex DataOciGoldenGatePipelineSchemaTables#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline_schema_tables#regex DataOciGoldenGatePipelineSchemaTables#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline_schema_tables#values DataOciGoldenGatePipelineSchemaTables#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline_schema_tables#values DataOciGoldenGatePipelineSchemaTables#values}
   */
   readonly values: string[];
 }
@@ -381,7 +381,7 @@ export class DataOciGoldenGatePipelineSchemaTablesFilterList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline_schema_tables oci_golden_gate_pipeline_schema_tables}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline_schema_tables oci_golden_gate_pipeline_schema_tables}
 */
 export class DataOciGoldenGatePipelineSchemaTables extends cdktf.TerraformDataSource {
 
@@ -397,7 +397,7 @@ export class DataOciGoldenGatePipelineSchemaTables extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataOciGoldenGatePipelineSchemaTables resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciGoldenGatePipelineSchemaTables to import
-  * @param importFromId The id of the existing DataOciGoldenGatePipelineSchemaTables that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline_schema_tables#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciGoldenGatePipelineSchemaTables that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline_schema_tables#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciGoldenGatePipelineSchemaTables to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -409,7 +409,7 @@ export class DataOciGoldenGatePipelineSchemaTables extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline_schema_tables oci_golden_gate_pipeline_schema_tables} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipeline_schema_tables oci_golden_gate_pipeline_schema_tables} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -420,8 +420,8 @@ export class DataOciGoldenGatePipelineSchemaTables extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_golden_gate_pipeline_schema_tables',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_licenses
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_licenses
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapClusterLicensingLicensesConfig extends cdktf.Ter
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_licenses#cx_profile_name DataNetappOntapClusterLicensingLicenses#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_licenses#cx_profile_name DataNetappOntapClusterLicensingLicenses#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_licenses#filter DataNetappOntapClusterLicensingLicenses#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_licenses#filter DataNetappOntapClusterLicensingLicenses#filter}
   */
   readonly filter?: DataNetappOntapClusterLicensingLicensesFilter;
 }
@@ -177,13 +177,13 @@ export interface DataNetappOntapClusterLicensingLicensesClusterLicensingLicenses
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_licenses#cx_profile_name DataNetappOntapClusterLicensingLicenses#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_licenses#cx_profile_name DataNetappOntapClusterLicensingLicenses#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * ClusterLicensingLicense name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_licenses#name DataNetappOntapClusterLicensingLicenses#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_licenses#name DataNetappOntapClusterLicensingLicenses#name}
   */
   readonly name: string;
 }
@@ -330,7 +330,7 @@ export interface DataNetappOntapClusterLicensingLicensesFilter {
   /**
   * ClusterLicensingLicense name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_licenses#name DataNetappOntapClusterLicensingLicenses#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_licenses#name DataNetappOntapClusterLicensingLicenses#name}
   */
   readonly name?: string;
 }
@@ -424,7 +424,7 @@ export class DataNetappOntapClusterLicensingLicensesFilterOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_licenses netapp-ontap_cluster_licensing_licenses}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_licenses netapp-ontap_cluster_licensing_licenses}
 */
 export class DataNetappOntapClusterLicensingLicenses extends cdktf.TerraformDataSource {
 
@@ -440,7 +440,7 @@ export class DataNetappOntapClusterLicensingLicenses extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataNetappOntapClusterLicensingLicenses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapClusterLicensingLicenses to import
-  * @param importFromId The id of the existing DataNetappOntapClusterLicensingLicenses that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_licenses#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapClusterLicensingLicenses that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_licenses#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapClusterLicensingLicenses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -452,7 +452,7 @@ export class DataNetappOntapClusterLicensingLicenses extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_licensing_licenses netapp-ontap_cluster_licensing_licenses} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_licensing_licenses netapp-ontap_cluster_licensing_licenses} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -463,8 +463,8 @@ export class DataNetappOntapClusterLicensingLicenses extends cdktf.TerraformData
       terraformResourceType: 'netapp-ontap_cluster_licensing_licenses',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

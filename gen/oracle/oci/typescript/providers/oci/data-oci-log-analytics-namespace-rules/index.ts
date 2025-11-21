@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciLogAnalyticsNamespaceRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules#compartment_id DataOciLogAnalyticsNamespaceRules#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules#compartment_id DataOciLogAnalyticsNamespaceRules#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules#display_name DataOciLogAnalyticsNamespaceRules#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules#display_name DataOciLogAnalyticsNamespaceRules#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules#id DataOciLogAnalyticsNamespaceRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules#id DataOciLogAnalyticsNamespaceRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules#kind DataOciLogAnalyticsNamespaceRules#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules#kind DataOciLogAnalyticsNamespaceRules#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules#namespace DataOciLogAnalyticsNamespaceRules#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules#namespace DataOciLogAnalyticsNamespaceRules#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules#state DataOciLogAnalyticsNamespaceRules#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules#state DataOciLogAnalyticsNamespaceRules#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules#target_service DataOciLogAnalyticsNamespaceRules#target_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules#target_service DataOciLogAnalyticsNamespaceRules#target_service}
   */
   readonly targetService?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules#filter DataOciLogAnalyticsNamespaceRules#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules#filter DataOciLogAnalyticsNamespaceRules#filter}
   */
   readonly filter?: DataOciLogAnalyticsNamespaceRulesFilter[] | cdktf.IResolvable;
 }
@@ -265,15 +265,15 @@ export class DataOciLogAnalyticsNamespaceRulesRuleSummaryCollectionList extends 
 }
 export interface DataOciLogAnalyticsNamespaceRulesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules#name DataOciLogAnalyticsNamespaceRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules#name DataOciLogAnalyticsNamespaceRules#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules#regex DataOciLogAnalyticsNamespaceRules#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules#regex DataOciLogAnalyticsNamespaceRules#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules#values DataOciLogAnalyticsNamespaceRules#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules#values DataOciLogAnalyticsNamespaceRules#values}
   */
   readonly values: string[];
 }
@@ -441,7 +441,7 @@ export class DataOciLogAnalyticsNamespaceRulesFilterList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules oci_log_analytics_namespace_rules}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules oci_log_analytics_namespace_rules}
 */
 export class DataOciLogAnalyticsNamespaceRules extends cdktf.TerraformDataSource {
 
@@ -457,7 +457,7 @@ export class DataOciLogAnalyticsNamespaceRules extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataOciLogAnalyticsNamespaceRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciLogAnalyticsNamespaceRules to import
-  * @param importFromId The id of the existing DataOciLogAnalyticsNamespaceRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciLogAnalyticsNamespaceRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciLogAnalyticsNamespaceRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -469,7 +469,7 @@ export class DataOciLogAnalyticsNamespaceRules extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_rules oci_log_analytics_namespace_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_rules oci_log_analytics_namespace_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -480,8 +480,8 @@ export class DataOciLogAnalyticsNamespaceRules extends cdktf.TerraformDataSource
       terraformResourceType: 'oci_log_analytics_namespace_rules',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

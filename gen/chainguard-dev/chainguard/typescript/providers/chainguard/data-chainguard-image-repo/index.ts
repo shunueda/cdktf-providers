@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repo
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataChainguardImageRepoConfig extends cdktf.TerraformMetaArgume
   /**
   * The exact UIDP of the repository to look up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repo#id DataChainguardImageRepo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repo#id DataChainguardImageRepo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataChainguardImageRepoConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of the repository to lookup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repo#name DataChainguardImageRepo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repo#name DataChainguardImageRepo#name}
   */
   readonly name?: string;
   /**
   * The UIDP of the group in which to lookup the repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repo#parent_id DataChainguardImageRepo#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repo#parent_id DataChainguardImageRepo#parent_id}
   */
   readonly parentId?: string;
 }
@@ -112,35 +112,35 @@ export interface DataChainguardImageRepoItems {
   /**
   * List of active tags for this repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repo#active_tags DataChainguardImageRepo#active_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repo#active_tags DataChainguardImageRepo#active_tags}
   */
   readonly activeTags?: string[];
   /**
   * Known aliases for a given image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repo#aliases DataChainguardImageRepo#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repo#aliases DataChainguardImageRepo#aliases}
   */
   readonly aliases?: string[];
   /**
   * List of bundles associated with this repo (a-z freeform keywords for sales purposes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repo#bundles DataChainguardImageRepo#bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repo#bundles DataChainguardImageRepo#bundles}
   */
   readonly bundles?: string[];
   /**
   * The README for this repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repo#readme DataChainguardImageRepo#readme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repo#readme DataChainguardImageRepo#readme}
   */
   readonly readme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repo#sync_config DataChainguardImageRepo#sync_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repo#sync_config DataChainguardImageRepo#sync_config}
   */
   readonly syncConfig?: DataChainguardImageRepoItemsSyncConfig;
   /**
   * Image tier associated with this repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repo#tier DataChainguardImageRepo#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repo#tier DataChainguardImageRepo#tier}
   */
   readonly tier?: string;
 }
@@ -401,7 +401,7 @@ export class DataChainguardImageRepoItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repo chainguard_image_repo}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repo chainguard_image_repo}
 */
 export class DataChainguardImageRepo extends cdktf.TerraformDataSource {
 
@@ -417,7 +417,7 @@ export class DataChainguardImageRepo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataChainguardImageRepo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataChainguardImageRepo to import
-  * @param importFromId The id of the existing DataChainguardImageRepo that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataChainguardImageRepo that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataChainguardImageRepo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -429,7 +429,7 @@ export class DataChainguardImageRepo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repo chainguard_image_repo} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repo chainguard_image_repo} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -440,8 +440,8 @@ export class DataChainguardImageRepo extends cdktf.TerraformDataSource {
       terraformResourceType: 'chainguard_image_repo',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.40',
-        providerVersionConstraint: '0.1.40'
+        providerVersion: '0.1.41',
+        providerVersionConstraint: '0.1.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

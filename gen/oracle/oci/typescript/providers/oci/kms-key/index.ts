@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface KmsKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#compartment_id KmsKey#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#compartment_id KmsKey#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#defined_tags KmsKey#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#defined_tags KmsKey#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#desired_state KmsKey#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#desired_state KmsKey#desired_state}
   */
   readonly desiredState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#display_name KmsKey#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#display_name KmsKey#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#freeform_tags KmsKey#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#freeform_tags KmsKey#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#id KmsKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#id KmsKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#is_auto_rotation_enabled KmsKey#is_auto_rotation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#is_auto_rotation_enabled KmsKey#is_auto_rotation_enabled}
   */
   readonly isAutoRotationEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#management_endpoint KmsKey#management_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#management_endpoint KmsKey#management_endpoint}
   */
   readonly managementEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#protection_mode KmsKey#protection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#protection_mode KmsKey#protection_mode}
   */
   readonly protectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#restore_trigger KmsKey#restore_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#restore_trigger KmsKey#restore_trigger}
   */
   readonly restoreTrigger?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#time_of_deletion KmsKey#time_of_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#time_of_deletion KmsKey#time_of_deletion}
   */
   readonly timeOfDeletion?: string;
   /**
   * auto_key_rotation_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#auto_key_rotation_details KmsKey#auto_key_rotation_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#auto_key_rotation_details KmsKey#auto_key_rotation_details}
   */
   readonly autoKeyRotationDetails?: KmsKeyAutoKeyRotationDetails;
   /**
   * external_key_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#external_key_reference KmsKey#external_key_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#external_key_reference KmsKey#external_key_reference}
   */
   readonly externalKeyReference?: KmsKeyExternalKeyReference;
   /**
   * key_shape block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#key_shape KmsKey#key_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#key_shape KmsKey#key_shape}
   */
   readonly keyShape: KmsKeyKeyShape;
   /**
   * restore_from_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#restore_from_file KmsKey#restore_from_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#restore_from_file KmsKey#restore_from_file}
   */
   readonly restoreFromFile?: KmsKeyRestoreFromFile;
   /**
   * restore_from_object_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#restore_from_object_store KmsKey#restore_from_object_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#restore_from_object_store KmsKey#restore_from_object_store}
   */
   readonly restoreFromObjectStore?: KmsKeyRestoreFromObjectStore;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#timeouts KmsKey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#timeouts KmsKey#timeouts}
   */
   readonly timeouts?: KmsKeyTimeouts;
 }
@@ -248,27 +248,27 @@ export class KmsKeyReplicaDetailsList extends cdktf.ComplexList {
 }
 export interface KmsKeyAutoKeyRotationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#last_rotation_message KmsKey#last_rotation_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#last_rotation_message KmsKey#last_rotation_message}
   */
   readonly lastRotationMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#last_rotation_status KmsKey#last_rotation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#last_rotation_status KmsKey#last_rotation_status}
   */
   readonly lastRotationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#rotation_interval_in_days KmsKey#rotation_interval_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#rotation_interval_in_days KmsKey#rotation_interval_in_days}
   */
   readonly rotationIntervalInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#time_of_last_rotation KmsKey#time_of_last_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#time_of_last_rotation KmsKey#time_of_last_rotation}
   */
   readonly timeOfLastRotation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#time_of_next_rotation KmsKey#time_of_next_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#time_of_next_rotation KmsKey#time_of_next_rotation}
   */
   readonly timeOfNextRotation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#time_of_schedule_start KmsKey#time_of_schedule_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#time_of_schedule_start KmsKey#time_of_schedule_start}
   */
   readonly timeOfScheduleStart?: string;
 }
@@ -497,7 +497,7 @@ export class KmsKeyAutoKeyRotationDetailsOutputReference extends cdktf.ComplexOb
 }
 export interface KmsKeyExternalKeyReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#external_key_id KmsKey#external_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#external_key_id KmsKey#external_key_id}
   */
   readonly externalKeyId: string;
 }
@@ -578,15 +578,15 @@ export class KmsKeyExternalKeyReferenceOutputReference extends cdktf.ComplexObje
 }
 export interface KmsKeyKeyShape {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#algorithm KmsKey#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#algorithm KmsKey#algorithm}
   */
   readonly algorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#curve_id KmsKey#curve_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#curve_id KmsKey#curve_id}
   */
   readonly curveId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#length KmsKey#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#length KmsKey#length}
   */
   readonly length: number;
 }
@@ -722,15 +722,15 @@ export class KmsKeyKeyShapeOutputReference extends cdktf.ComplexObject {
 }
 export interface KmsKeyRestoreFromFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#content_length KmsKey#content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#content_length KmsKey#content_length}
   */
   readonly contentLength: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#content_md5 KmsKey#content_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#content_md5 KmsKey#content_md5}
   */
   readonly contentMd5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#restore_key_from_file_details KmsKey#restore_key_from_file_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#restore_key_from_file_details KmsKey#restore_key_from_file_details}
   */
   readonly restoreKeyFromFileDetails: string;
 }
@@ -866,23 +866,23 @@ export class KmsKeyRestoreFromFileOutputReference extends cdktf.ComplexObject {
 }
 export interface KmsKeyRestoreFromObjectStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#bucket KmsKey#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#bucket KmsKey#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#destination KmsKey#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#destination KmsKey#destination}
   */
   readonly destination: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#namespace KmsKey#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#namespace KmsKey#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#object KmsKey#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#object KmsKey#object}
   */
   readonly object?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#uri KmsKey#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#uri KmsKey#uri}
   */
   readonly uri?: string;
 }
@@ -1079,15 +1079,15 @@ export class KmsKeyRestoreFromObjectStoreOutputReference extends cdktf.ComplexOb
 }
 export interface KmsKeyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#create KmsKey#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#create KmsKey#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#delete KmsKey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#delete KmsKey#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#update KmsKey#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#update KmsKey#update}
   */
   readonly update?: string;
 }
@@ -1239,7 +1239,7 @@ export class KmsKeyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key oci_kms_key}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key oci_kms_key}
 */
 export class KmsKey extends cdktf.TerraformResource {
 
@@ -1255,7 +1255,7 @@ export class KmsKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KmsKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsKey to import
-  * @param importFromId The id of the existing KmsKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1267,7 +1267,7 @@ export class KmsKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_key oci_kms_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/kms_key oci_kms_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1278,8 +1278,8 @@ export class KmsKey extends cdktf.TerraformResource {
       terraformResourceType: 'oci_kms_key',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

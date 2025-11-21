@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciJmsPluginErrorsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors#compartment_id DataOciJmsPluginErrors#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors#compartment_id DataOciJmsPluginErrors#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors#compartment_id_in_subtree DataOciJmsPluginErrors#compartment_id_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors#compartment_id_in_subtree DataOciJmsPluginErrors#compartment_id_in_subtree}
   */
   readonly compartmentIdInSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors#id DataOciJmsPluginErrors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors#id DataOciJmsPluginErrors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors#managed_instance_id DataOciJmsPluginErrors#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors#managed_instance_id DataOciJmsPluginErrors#managed_instance_id}
   */
   readonly managedInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors#time_first_seen_greater_than_or_equal_to DataOciJmsPluginErrors#time_first_seen_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors#time_first_seen_greater_than_or_equal_to DataOciJmsPluginErrors#time_first_seen_greater_than_or_equal_to}
   */
   readonly timeFirstSeenGreaterThanOrEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors#time_first_seen_less_than_or_equal_to DataOciJmsPluginErrors#time_first_seen_less_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors#time_first_seen_less_than_or_equal_to DataOciJmsPluginErrors#time_first_seen_less_than_or_equal_to}
   */
   readonly timeFirstSeenLessThanOrEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors#time_last_seen_greater_than_or_equal_to DataOciJmsPluginErrors#time_last_seen_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors#time_last_seen_greater_than_or_equal_to DataOciJmsPluginErrors#time_last_seen_greater_than_or_equal_to}
   */
   readonly timeLastSeenGreaterThanOrEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors#time_last_seen_less_than_or_equal_to DataOciJmsPluginErrors#time_last_seen_less_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors#time_last_seen_less_than_or_equal_to DataOciJmsPluginErrors#time_last_seen_less_than_or_equal_to}
   */
   readonly timeLastSeenLessThanOrEqualTo?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors#filter DataOciJmsPluginErrors#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors#filter DataOciJmsPluginErrors#filter}
   */
   readonly filter?: DataOciJmsPluginErrorsFilter[] | cdktf.IResolvable;
 }
@@ -318,15 +318,15 @@ export class DataOciJmsPluginErrorsPluginErrorCollectionList extends cdktf.Compl
 }
 export interface DataOciJmsPluginErrorsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors#name DataOciJmsPluginErrors#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors#name DataOciJmsPluginErrors#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors#regex DataOciJmsPluginErrors#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors#regex DataOciJmsPluginErrors#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors#values DataOciJmsPluginErrors#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors#values DataOciJmsPluginErrors#values}
   */
   readonly values: string[];
 }
@@ -494,7 +494,7 @@ export class DataOciJmsPluginErrorsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors oci_jms_plugin_errors}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors oci_jms_plugin_errors}
 */
 export class DataOciJmsPluginErrors extends cdktf.TerraformDataSource {
 
@@ -510,7 +510,7 @@ export class DataOciJmsPluginErrors extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciJmsPluginErrors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciJmsPluginErrors to import
-  * @param importFromId The id of the existing DataOciJmsPluginErrors that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciJmsPluginErrors that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciJmsPluginErrors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -522,7 +522,7 @@ export class DataOciJmsPluginErrors extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_plugin_errors oci_jms_plugin_errors} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/jms_plugin_errors oci_jms_plugin_errors} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -533,8 +533,8 @@ export class DataOciJmsPluginErrors extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_jms_plugin_errors',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

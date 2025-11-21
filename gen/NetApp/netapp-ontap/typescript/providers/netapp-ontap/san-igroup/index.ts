@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface SanIgroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#comment SanIgroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#comment SanIgroup#comment}
   */
   readonly comment?: string;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#cx_profile_name SanIgroup#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#cx_profile_name SanIgroup#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * List of initiator groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#igroups SanIgroup#igroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#igroups SanIgroup#igroups}
   */
   readonly igroups?: SanIgroupIgroups[] | cdktf.IResolvable;
   /**
   * List of initiators
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#initiators SanIgroup#initiators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#initiators SanIgroup#initiators}
   */
   readonly initiators?: SanIgroupInitiators[] | cdktf.IResolvable;
   /**
   * Existing SVM in which to create the initiator group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#name SanIgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#name SanIgroup#name}
   */
   readonly name: string;
   /**
   * Operating system of the initiator group's initiators.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#os_type SanIgroup#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#os_type SanIgroup#os_type}
   */
   readonly osType: string;
   /**
   * Required ONTAP 9.9 or greater. The portset to which the initiator group is bound. Binding the initiator group to a portset restricts the initiators of the group to accessing mapped LUNs only through network interfaces in the portset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#portset SanIgroup#portset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#portset SanIgroup#portset}
   */
   readonly portset?: SanIgroupPortset;
   /**
   * If not specified, the default protocol is mixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#protocol SanIgroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#protocol SanIgroup#protocol}
   */
   readonly protocol?: string;
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#svm SanIgroup#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#svm SanIgroup#svm}
   */
   readonly svm: SanIgroupSvm;
 }
@@ -67,7 +67,7 @@ export interface SanIgroupIgroups {
   /**
   * Initiator group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#name SanIgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#name SanIgroup#name}
   */
   readonly name: string;
 }
@@ -182,7 +182,7 @@ export interface SanIgroupInitiators {
   /**
   * Initiator name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#name SanIgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#name SanIgroup#name}
   */
   readonly name: string;
 }
@@ -297,7 +297,7 @@ export interface SanIgroupPortset {
   /**
   * Portset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#name SanIgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#name SanIgroup#name}
   */
   readonly name: string;
 }
@@ -390,7 +390,7 @@ export interface SanIgroupSvm {
   /**
   * name of the SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#name SanIgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#name SanIgroup#name}
   */
   readonly name: string;
 }
@@ -481,7 +481,7 @@ export class SanIgroupSvmOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup netapp-ontap_san_igroup}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup netapp-ontap_san_igroup}
 */
 export class SanIgroup extends cdktf.TerraformResource {
 
@@ -497,7 +497,7 @@ export class SanIgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SanIgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SanIgroup to import
-  * @param importFromId The id of the existing SanIgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SanIgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SanIgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -509,7 +509,7 @@ export class SanIgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/san_igroup netapp-ontap_san_igroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/san_igroup netapp-ontap_san_igroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -520,8 +520,8 @@ export class SanIgroup extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_san_igroup',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

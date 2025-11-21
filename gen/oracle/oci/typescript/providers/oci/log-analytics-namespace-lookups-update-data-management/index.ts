@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookups_update_data_management
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface LogAnalyticsNamespaceLookupsUpdateDataManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookups_update_data_management#char_encoding LogAnalyticsNamespaceLookupsUpdateDataManagement#char_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management#char_encoding LogAnalyticsNamespaceLookupsUpdateDataManagement#char_encoding}
   */
   readonly charEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookups_update_data_management#expect LogAnalyticsNamespaceLookupsUpdateDataManagement#expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management#expect LogAnalyticsNamespaceLookupsUpdateDataManagement#expect}
   */
   readonly expect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookups_update_data_management#id LogAnalyticsNamespaceLookupsUpdateDataManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management#id LogAnalyticsNamespaceLookupsUpdateDataManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookups_update_data_management#is_force LogAnalyticsNamespaceLookupsUpdateDataManagement#is_force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management#is_force LogAnalyticsNamespaceLookupsUpdateDataManagement#is_force}
   */
   readonly isForce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookups_update_data_management#lookup_name LogAnalyticsNamespaceLookupsUpdateDataManagement#lookup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management#lookup_name LogAnalyticsNamespaceLookupsUpdateDataManagement#lookup_name}
   */
   readonly lookupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookups_update_data_management#namespace LogAnalyticsNamespaceLookupsUpdateDataManagement#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management#namespace LogAnalyticsNamespaceLookupsUpdateDataManagement#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookups_update_data_management#update_lookup_file LogAnalyticsNamespaceLookupsUpdateDataManagement#update_lookup_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management#update_lookup_file LogAnalyticsNamespaceLookupsUpdateDataManagement#update_lookup_file}
   */
   readonly updateLookupFile: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookups_update_data_management#timeouts LogAnalyticsNamespaceLookupsUpdateDataManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management#timeouts LogAnalyticsNamespaceLookupsUpdateDataManagement#timeouts}
   */
   readonly timeouts?: LogAnalyticsNamespaceLookupsUpdateDataManagementTimeouts;
 }
 export interface LogAnalyticsNamespaceLookupsUpdateDataManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookups_update_data_management#create LogAnalyticsNamespaceLookupsUpdateDataManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management#create LogAnalyticsNamespaceLookupsUpdateDataManagement#create}
   */
   readonly create?: string;
 }
@@ -141,7 +141,7 @@ export class LogAnalyticsNamespaceLookupsUpdateDataManagementTimeoutsOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookups_update_data_management oci_log_analytics_namespace_lookups_update_data_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management oci_log_analytics_namespace_lookups_update_data_management}
 */
 export class LogAnalyticsNamespaceLookupsUpdateDataManagement extends cdktf.TerraformResource {
 
@@ -157,7 +157,7 @@ export class LogAnalyticsNamespaceLookupsUpdateDataManagement extends cdktf.Terr
   * Generates CDKTF code for importing a LogAnalyticsNamespaceLookupsUpdateDataManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogAnalyticsNamespaceLookupsUpdateDataManagement to import
-  * @param importFromId The id of the existing LogAnalyticsNamespaceLookupsUpdateDataManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookups_update_data_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogAnalyticsNamespaceLookupsUpdateDataManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogAnalyticsNamespaceLookupsUpdateDataManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class LogAnalyticsNamespaceLookupsUpdateDataManagement extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookups_update_data_management oci_log_analytics_namespace_lookups_update_data_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management oci_log_analytics_namespace_lookups_update_data_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class LogAnalyticsNamespaceLookupsUpdateDataManagement extends cdktf.Terr
       terraformResourceType: 'oci_log_analytics_namespace_lookups_update_data_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

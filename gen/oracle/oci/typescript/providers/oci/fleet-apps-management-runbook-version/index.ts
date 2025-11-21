@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface FleetAppsManagementRunbookVersionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#defined_tags FleetAppsManagementRunbookVersion#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#defined_tags FleetAppsManagementRunbookVersion#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#freeform_tags FleetAppsManagementRunbookVersion#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#freeform_tags FleetAppsManagementRunbookVersion#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#id FleetAppsManagementRunbookVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#id FleetAppsManagementRunbookVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#runbook_id FleetAppsManagementRunbookVersion#runbook_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#runbook_id FleetAppsManagementRunbookVersion#runbook_id}
   */
   readonly runbookId: string;
   /**
   * execution_workflow_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#execution_workflow_details FleetAppsManagementRunbookVersion#execution_workflow_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#execution_workflow_details FleetAppsManagementRunbookVersion#execution_workflow_details}
   */
   readonly executionWorkflowDetails: FleetAppsManagementRunbookVersionExecutionWorkflowDetails;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#groups FleetAppsManagementRunbookVersion#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#groups FleetAppsManagementRunbookVersion#groups}
   */
   readonly groups: FleetAppsManagementRunbookVersionGroups[] | cdktf.IResolvable;
   /**
   * rollback_workflow_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#rollback_workflow_details FleetAppsManagementRunbookVersion#rollback_workflow_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#rollback_workflow_details FleetAppsManagementRunbookVersion#rollback_workflow_details}
   */
   readonly rollbackWorkflowDetails?: FleetAppsManagementRunbookVersionRollbackWorkflowDetails;
   /**
   * tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#tasks FleetAppsManagementRunbookVersion#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#tasks FleetAppsManagementRunbookVersion#tasks}
   */
   readonly tasks: FleetAppsManagementRunbookVersionTasks[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#timeouts FleetAppsManagementRunbookVersion#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#timeouts FleetAppsManagementRunbookVersion#timeouts}
   */
   readonly timeouts?: FleetAppsManagementRunbookVersionTimeouts;
 }
 export interface FleetAppsManagementRunbookVersionExecutionWorkflowDetailsWorkflowSteps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#group_name FleetAppsManagementRunbookVersion#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#group_name FleetAppsManagementRunbookVersion#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#step_name FleetAppsManagementRunbookVersion#step_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#step_name FleetAppsManagementRunbookVersion#step_name}
   */
   readonly stepName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#steps FleetAppsManagementRunbookVersion#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#steps FleetAppsManagementRunbookVersion#steps}
   */
   readonly steps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#type FleetAppsManagementRunbookVersion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#type FleetAppsManagementRunbookVersion#type}
   */
   readonly type: string;
 }
@@ -271,17 +271,17 @@ export class FleetAppsManagementRunbookVersionExecutionWorkflowDetailsWorkflowSt
 }
 export interface FleetAppsManagementRunbookVersionExecutionWorkflowDetailsWorkflow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#group_name FleetAppsManagementRunbookVersion#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#group_name FleetAppsManagementRunbookVersion#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#type FleetAppsManagementRunbookVersion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#type FleetAppsManagementRunbookVersion#type}
   */
   readonly type: string;
   /**
   * steps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#steps FleetAppsManagementRunbookVersion#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#steps FleetAppsManagementRunbookVersion#steps}
   */
   readonly steps: FleetAppsManagementRunbookVersionExecutionWorkflowDetailsWorkflowSteps[] | cdktf.IResolvable;
 }
@@ -448,7 +448,7 @@ export interface FleetAppsManagementRunbookVersionExecutionWorkflowDetails {
   /**
   * workflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#workflow FleetAppsManagementRunbookVersion#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#workflow FleetAppsManagementRunbookVersion#workflow}
   */
   readonly workflow: FleetAppsManagementRunbookVersionExecutionWorkflowDetailsWorkflow[] | cdktf.IResolvable;
 }
@@ -529,15 +529,15 @@ export class FleetAppsManagementRunbookVersionExecutionWorkflowDetailsOutputRefe
 }
 export interface FleetAppsManagementRunbookVersionGroupsPropertiesNotificationPreferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#should_notify_on_pause FleetAppsManagementRunbookVersion#should_notify_on_pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#should_notify_on_pause FleetAppsManagementRunbookVersion#should_notify_on_pause}
   */
   readonly shouldNotifyOnPause?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#should_notify_on_task_failure FleetAppsManagementRunbookVersion#should_notify_on_task_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#should_notify_on_task_failure FleetAppsManagementRunbookVersion#should_notify_on_task_failure}
   */
   readonly shouldNotifyOnTaskFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#should_notify_on_task_success FleetAppsManagementRunbookVersion#should_notify_on_task_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#should_notify_on_task_success FleetAppsManagementRunbookVersion#should_notify_on_task_success}
   */
   readonly shouldNotifyOnTaskSuccess?: boolean | cdktf.IResolvable;
 }
@@ -679,11 +679,11 @@ export class FleetAppsManagementRunbookVersionGroupsPropertiesNotificationPrefer
 }
 export interface FleetAppsManagementRunbookVersionGroupsPropertiesPauseDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#duration_in_minutes FleetAppsManagementRunbookVersion#duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#duration_in_minutes FleetAppsManagementRunbookVersion#duration_in_minutes}
   */
   readonly durationInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#kind FleetAppsManagementRunbookVersion#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#kind FleetAppsManagementRunbookVersion#kind}
   */
   readonly kind: string;
 }
@@ -793,11 +793,11 @@ export class FleetAppsManagementRunbookVersionGroupsPropertiesPauseDetailsOutput
 }
 export interface FleetAppsManagementRunbookVersionGroupsPropertiesRunOnPreviousTaskInstanceDetailsOutputVariableDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#output_variable_name FleetAppsManagementRunbookVersion#output_variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#output_variable_name FleetAppsManagementRunbookVersion#output_variable_name}
   */
   readonly outputVariableName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#step_name FleetAppsManagementRunbookVersion#step_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#step_name FleetAppsManagementRunbookVersion#step_name}
   */
   readonly stepName?: string;
 }
@@ -910,17 +910,17 @@ export class FleetAppsManagementRunbookVersionGroupsPropertiesRunOnPreviousTaskI
 }
 export interface FleetAppsManagementRunbookVersionGroupsPropertiesRunOnPreviousTaskInstanceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#resource_id FleetAppsManagementRunbookVersion#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#resource_id FleetAppsManagementRunbookVersion#resource_id}
   */
   readonly resourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#resource_type FleetAppsManagementRunbookVersion#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#resource_type FleetAppsManagementRunbookVersion#resource_type}
   */
   readonly resourceType?: string;
   /**
   * output_variable_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#output_variable_details FleetAppsManagementRunbookVersion#output_variable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#output_variable_details FleetAppsManagementRunbookVersion#output_variable_details}
   */
   readonly outputVariableDetails?: FleetAppsManagementRunbookVersionGroupsPropertiesRunOnPreviousTaskInstanceDetailsOutputVariableDetails;
 }
@@ -1094,21 +1094,21 @@ export class FleetAppsManagementRunbookVersionGroupsPropertiesRunOnPreviousTaskI
 }
 export interface FleetAppsManagementRunbookVersionGroupsPropertiesRunOn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#condition FleetAppsManagementRunbookVersion#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#condition FleetAppsManagementRunbookVersion#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#host FleetAppsManagementRunbookVersion#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#host FleetAppsManagementRunbookVersion#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#kind FleetAppsManagementRunbookVersion#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#kind FleetAppsManagementRunbookVersion#kind}
   */
   readonly kind: string;
   /**
   * previous_task_instance_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#previous_task_instance_details FleetAppsManagementRunbookVersion#previous_task_instance_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#previous_task_instance_details FleetAppsManagementRunbookVersion#previous_task_instance_details}
   */
   readonly previousTaskInstanceDetails?: FleetAppsManagementRunbookVersionGroupsPropertiesRunOnPreviousTaskInstanceDetails[] | cdktf.IResolvable;
 }
@@ -1276,29 +1276,29 @@ export class FleetAppsManagementRunbookVersionGroupsPropertiesRunOnOutputReferen
 }
 export interface FleetAppsManagementRunbookVersionGroupsProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#action_on_failure FleetAppsManagementRunbookVersion#action_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#action_on_failure FleetAppsManagementRunbookVersion#action_on_failure}
   */
   readonly actionOnFailure: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#pre_condition FleetAppsManagementRunbookVersion#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#pre_condition FleetAppsManagementRunbookVersion#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * notification_preferences block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#notification_preferences FleetAppsManagementRunbookVersion#notification_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#notification_preferences FleetAppsManagementRunbookVersion#notification_preferences}
   */
   readonly notificationPreferences?: FleetAppsManagementRunbookVersionGroupsPropertiesNotificationPreferences;
   /**
   * pause_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#pause_details FleetAppsManagementRunbookVersion#pause_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#pause_details FleetAppsManagementRunbookVersion#pause_details}
   */
   readonly pauseDetails?: FleetAppsManagementRunbookVersionGroupsPropertiesPauseDetails;
   /**
   * run_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#run_on FleetAppsManagementRunbookVersion#run_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#run_on FleetAppsManagementRunbookVersion#run_on}
   */
   readonly runOn?: FleetAppsManagementRunbookVersionGroupsPropertiesRunOn;
 }
@@ -1495,17 +1495,17 @@ export class FleetAppsManagementRunbookVersionGroupsPropertiesOutputReference ex
 }
 export interface FleetAppsManagementRunbookVersionGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#name FleetAppsManagementRunbookVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#name FleetAppsManagementRunbookVersion#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#type FleetAppsManagementRunbookVersion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#type FleetAppsManagementRunbookVersion#type}
   */
   readonly type: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#properties FleetAppsManagementRunbookVersion#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#properties FleetAppsManagementRunbookVersion#properties}
   */
   readonly properties?: FleetAppsManagementRunbookVersionGroupsProperties;
 }
@@ -1673,19 +1673,19 @@ export class FleetAppsManagementRunbookVersionGroupsList extends cdktf.ComplexLi
 }
 export interface FleetAppsManagementRunbookVersionRollbackWorkflowDetailsWorkflowSteps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#group_name FleetAppsManagementRunbookVersion#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#group_name FleetAppsManagementRunbookVersion#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#step_name FleetAppsManagementRunbookVersion#step_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#step_name FleetAppsManagementRunbookVersion#step_name}
   */
   readonly stepName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#steps FleetAppsManagementRunbookVersion#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#steps FleetAppsManagementRunbookVersion#steps}
   */
   readonly steps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#type FleetAppsManagementRunbookVersion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#type FleetAppsManagementRunbookVersion#type}
   */
   readonly type: string;
 }
@@ -1885,17 +1885,17 @@ export class FleetAppsManagementRunbookVersionRollbackWorkflowDetailsWorkflowSte
 }
 export interface FleetAppsManagementRunbookVersionRollbackWorkflowDetailsWorkflow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#group_name FleetAppsManagementRunbookVersion#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#group_name FleetAppsManagementRunbookVersion#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#type FleetAppsManagementRunbookVersion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#type FleetAppsManagementRunbookVersion#type}
   */
   readonly type: string;
   /**
   * steps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#steps FleetAppsManagementRunbookVersion#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#steps FleetAppsManagementRunbookVersion#steps}
   */
   readonly steps: FleetAppsManagementRunbookVersionRollbackWorkflowDetailsWorkflowSteps[] | cdktf.IResolvable;
 }
@@ -2060,13 +2060,13 @@ export class FleetAppsManagementRunbookVersionRollbackWorkflowDetailsWorkflowLis
 }
 export interface FleetAppsManagementRunbookVersionRollbackWorkflowDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#scope FleetAppsManagementRunbookVersion#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#scope FleetAppsManagementRunbookVersion#scope}
   */
   readonly scope: string;
   /**
   * workflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#workflow FleetAppsManagementRunbookVersion#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#workflow FleetAppsManagementRunbookVersion#workflow}
   */
   readonly workflow: FleetAppsManagementRunbookVersionRollbackWorkflowDetailsWorkflow[] | cdktf.IResolvable;
 }
@@ -2173,11 +2173,11 @@ export class FleetAppsManagementRunbookVersionRollbackWorkflowDetailsOutputRefer
 }
 export interface FleetAppsManagementRunbookVersionTasksOutputVariableMappingsOutputVariableDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#output_variable_name FleetAppsManagementRunbookVersion#output_variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#output_variable_name FleetAppsManagementRunbookVersion#output_variable_name}
   */
   readonly outputVariableName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#step_name FleetAppsManagementRunbookVersion#step_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#step_name FleetAppsManagementRunbookVersion#step_name}
   */
   readonly stepName: string;
 }
@@ -2284,13 +2284,13 @@ export class FleetAppsManagementRunbookVersionTasksOutputVariableMappingsOutputV
 }
 export interface FleetAppsManagementRunbookVersionTasksOutputVariableMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#name FleetAppsManagementRunbookVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#name FleetAppsManagementRunbookVersion#name}
   */
   readonly name: string;
   /**
   * output_variable_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#output_variable_details FleetAppsManagementRunbookVersion#output_variable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#output_variable_details FleetAppsManagementRunbookVersion#output_variable_details}
   */
   readonly outputVariableDetails: FleetAppsManagementRunbookVersionTasksOutputVariableMappingsOutputVariableDetails;
 }
@@ -2429,15 +2429,15 @@ export class FleetAppsManagementRunbookVersionTasksOutputVariableMappingsList ex
 }
 export interface FleetAppsManagementRunbookVersionTasksStepPropertiesNotificationPreferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#should_notify_on_pause FleetAppsManagementRunbookVersion#should_notify_on_pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#should_notify_on_pause FleetAppsManagementRunbookVersion#should_notify_on_pause}
   */
   readonly shouldNotifyOnPause?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#should_notify_on_task_failure FleetAppsManagementRunbookVersion#should_notify_on_task_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#should_notify_on_task_failure FleetAppsManagementRunbookVersion#should_notify_on_task_failure}
   */
   readonly shouldNotifyOnTaskFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#should_notify_on_task_success FleetAppsManagementRunbookVersion#should_notify_on_task_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#should_notify_on_task_success FleetAppsManagementRunbookVersion#should_notify_on_task_success}
   */
   readonly shouldNotifyOnTaskSuccess?: boolean | cdktf.IResolvable;
 }
@@ -2579,11 +2579,11 @@ export class FleetAppsManagementRunbookVersionTasksStepPropertiesNotificationPre
 }
 export interface FleetAppsManagementRunbookVersionTasksStepPropertiesPauseDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#duration_in_minutes FleetAppsManagementRunbookVersion#duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#duration_in_minutes FleetAppsManagementRunbookVersion#duration_in_minutes}
   */
   readonly durationInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#kind FleetAppsManagementRunbookVersion#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#kind FleetAppsManagementRunbookVersion#kind}
   */
   readonly kind: string;
 }
@@ -2693,11 +2693,11 @@ export class FleetAppsManagementRunbookVersionTasksStepPropertiesPauseDetailsOut
 }
 export interface FleetAppsManagementRunbookVersionTasksStepPropertiesRunOnPreviousTaskInstanceDetailsOutputVariableDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#output_variable_name FleetAppsManagementRunbookVersion#output_variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#output_variable_name FleetAppsManagementRunbookVersion#output_variable_name}
   */
   readonly outputVariableName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#step_name FleetAppsManagementRunbookVersion#step_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#step_name FleetAppsManagementRunbookVersion#step_name}
   */
   readonly stepName?: string;
 }
@@ -2810,17 +2810,17 @@ export class FleetAppsManagementRunbookVersionTasksStepPropertiesRunOnPreviousTa
 }
 export interface FleetAppsManagementRunbookVersionTasksStepPropertiesRunOnPreviousTaskInstanceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#resource_id FleetAppsManagementRunbookVersion#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#resource_id FleetAppsManagementRunbookVersion#resource_id}
   */
   readonly resourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#resource_type FleetAppsManagementRunbookVersion#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#resource_type FleetAppsManagementRunbookVersion#resource_type}
   */
   readonly resourceType?: string;
   /**
   * output_variable_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#output_variable_details FleetAppsManagementRunbookVersion#output_variable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#output_variable_details FleetAppsManagementRunbookVersion#output_variable_details}
   */
   readonly outputVariableDetails?: FleetAppsManagementRunbookVersionTasksStepPropertiesRunOnPreviousTaskInstanceDetailsOutputVariableDetails;
 }
@@ -2994,21 +2994,21 @@ export class FleetAppsManagementRunbookVersionTasksStepPropertiesRunOnPreviousTa
 }
 export interface FleetAppsManagementRunbookVersionTasksStepPropertiesRunOn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#condition FleetAppsManagementRunbookVersion#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#condition FleetAppsManagementRunbookVersion#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#host FleetAppsManagementRunbookVersion#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#host FleetAppsManagementRunbookVersion#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#kind FleetAppsManagementRunbookVersion#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#kind FleetAppsManagementRunbookVersion#kind}
   */
   readonly kind: string;
   /**
   * previous_task_instance_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#previous_task_instance_details FleetAppsManagementRunbookVersion#previous_task_instance_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#previous_task_instance_details FleetAppsManagementRunbookVersion#previous_task_instance_details}
   */
   readonly previousTaskInstanceDetails?: FleetAppsManagementRunbookVersionTasksStepPropertiesRunOnPreviousTaskInstanceDetails[] | cdktf.IResolvable;
 }
@@ -3176,29 +3176,29 @@ export class FleetAppsManagementRunbookVersionTasksStepPropertiesRunOnOutputRefe
 }
 export interface FleetAppsManagementRunbookVersionTasksStepProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#action_on_failure FleetAppsManagementRunbookVersion#action_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#action_on_failure FleetAppsManagementRunbookVersion#action_on_failure}
   */
   readonly actionOnFailure: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#pre_condition FleetAppsManagementRunbookVersion#pre_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#pre_condition FleetAppsManagementRunbookVersion#pre_condition}
   */
   readonly preCondition?: string;
   /**
   * notification_preferences block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#notification_preferences FleetAppsManagementRunbookVersion#notification_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#notification_preferences FleetAppsManagementRunbookVersion#notification_preferences}
   */
   readonly notificationPreferences?: FleetAppsManagementRunbookVersionTasksStepPropertiesNotificationPreferences;
   /**
   * pause_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#pause_details FleetAppsManagementRunbookVersion#pause_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#pause_details FleetAppsManagementRunbookVersion#pause_details}
   */
   readonly pauseDetails?: FleetAppsManagementRunbookVersionTasksStepPropertiesPauseDetails;
   /**
   * run_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#run_on FleetAppsManagementRunbookVersion#run_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#run_on FleetAppsManagementRunbookVersion#run_on}
   */
   readonly runOn?: FleetAppsManagementRunbookVersionTasksStepPropertiesRunOn;
 }
@@ -3395,27 +3395,27 @@ export class FleetAppsManagementRunbookVersionTasksStepPropertiesOutputReference
 }
 export interface FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#bucket FleetAppsManagementRunbookVersion#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#bucket FleetAppsManagementRunbookVersion#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#catalog_id FleetAppsManagementRunbookVersion#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#catalog_id FleetAppsManagementRunbookVersion#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#checksum FleetAppsManagementRunbookVersion#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#checksum FleetAppsManagementRunbookVersion#checksum}
   */
   readonly checksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#namespace FleetAppsManagementRunbookVersion#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#namespace FleetAppsManagementRunbookVersion#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#object FleetAppsManagementRunbookVersion#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#object FleetAppsManagementRunbookVersion#object}
   */
   readonly object?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#source_type FleetAppsManagementRunbookVersion#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#source_type FleetAppsManagementRunbookVersion#source_type}
   */
   readonly sourceType: string;
 }
@@ -3641,11 +3641,11 @@ export class FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDet
 }
 export interface FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#display_name FleetAppsManagementRunbookVersion#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#display_name FleetAppsManagementRunbookVersion#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#id FleetAppsManagementRunbookVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#id FleetAppsManagementRunbookVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3793,15 +3793,15 @@ export class FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDet
 }
 export interface FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsVariablesInputVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#description FleetAppsManagementRunbookVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#description FleetAppsManagementRunbookVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#name FleetAppsManagementRunbookVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#name FleetAppsManagementRunbookVersion#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#type FleetAppsManagementRunbookVersion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#type FleetAppsManagementRunbookVersion#type}
   */
   readonly type?: string;
 }
@@ -3975,13 +3975,13 @@ export class FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDet
 }
 export interface FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#output_variables FleetAppsManagementRunbookVersion#output_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#output_variables FleetAppsManagementRunbookVersion#output_variables}
   */
   readonly outputVariables?: string[];
   /**
   * input_variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#input_variables FleetAppsManagementRunbookVersion#input_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#input_variables FleetAppsManagementRunbookVersion#input_variables}
   */
   readonly inputVariables?: FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsVariablesInputVariables[] | cdktf.IResolvable;
 }
@@ -4094,57 +4094,57 @@ export class FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDet
 }
 export interface FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#catalog_id FleetAppsManagementRunbookVersion#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#catalog_id FleetAppsManagementRunbookVersion#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#command FleetAppsManagementRunbookVersion#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#command FleetAppsManagementRunbookVersion#command}
   */
   readonly command?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#config_file FleetAppsManagementRunbookVersion#config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#config_file FleetAppsManagementRunbookVersion#config_file}
   */
   readonly configFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#endpoint FleetAppsManagementRunbookVersion#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#endpoint FleetAppsManagementRunbookVersion#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#execution_type FleetAppsManagementRunbookVersion#execution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#execution_type FleetAppsManagementRunbookVersion#execution_type}
   */
   readonly executionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#is_executable_content FleetAppsManagementRunbookVersion#is_executable_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#is_executable_content FleetAppsManagementRunbookVersion#is_executable_content}
   */
   readonly isExecutableContent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#is_locked FleetAppsManagementRunbookVersion#is_locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#is_locked FleetAppsManagementRunbookVersion#is_locked}
   */
   readonly isLocked?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#is_read_output_variable_enabled FleetAppsManagementRunbookVersion#is_read_output_variable_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#is_read_output_variable_enabled FleetAppsManagementRunbookVersion#is_read_output_variable_enabled}
   */
   readonly isReadOutputVariableEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#target_compartment_id FleetAppsManagementRunbookVersion#target_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#target_compartment_id FleetAppsManagementRunbookVersion#target_compartment_id}
   */
   readonly targetCompartmentId?: string;
   /**
   * content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#content FleetAppsManagementRunbookVersion#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#content FleetAppsManagementRunbookVersion#content}
   */
   readonly content?: FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsContent;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#credentials FleetAppsManagementRunbookVersion#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#credentials FleetAppsManagementRunbookVersion#credentials}
   */
   readonly credentials?: FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsCredentials[] | cdktf.IResolvable;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#variables FleetAppsManagementRunbookVersion#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#variables FleetAppsManagementRunbookVersion#variables}
   */
   readonly variables?: FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsVariables;
 }
@@ -4549,11 +4549,11 @@ export class FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDet
 }
 export interface FleetAppsManagementRunbookVersionTasksTaskRecordDetailsProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#num_retries FleetAppsManagementRunbookVersion#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#num_retries FleetAppsManagementRunbookVersion#num_retries}
   */
   readonly numRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#timeout_in_seconds FleetAppsManagementRunbookVersion#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#timeout_in_seconds FleetAppsManagementRunbookVersion#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
 }
@@ -4666,51 +4666,51 @@ export class FleetAppsManagementRunbookVersionTasksTaskRecordDetailsPropertiesOu
 }
 export interface FleetAppsManagementRunbookVersionTasksTaskRecordDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#description FleetAppsManagementRunbookVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#description FleetAppsManagementRunbookVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#is_apply_subject_task FleetAppsManagementRunbookVersion#is_apply_subject_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#is_apply_subject_task FleetAppsManagementRunbookVersion#is_apply_subject_task}
   */
   readonly isApplySubjectTask?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#is_copy_to_library_enabled FleetAppsManagementRunbookVersion#is_copy_to_library_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#is_copy_to_library_enabled FleetAppsManagementRunbookVersion#is_copy_to_library_enabled}
   */
   readonly isCopyToLibraryEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#is_discovery_output_task FleetAppsManagementRunbookVersion#is_discovery_output_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#is_discovery_output_task FleetAppsManagementRunbookVersion#is_discovery_output_task}
   */
   readonly isDiscoveryOutputTask?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#name FleetAppsManagementRunbookVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#name FleetAppsManagementRunbookVersion#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#os_type FleetAppsManagementRunbookVersion#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#os_type FleetAppsManagementRunbookVersion#os_type}
   */
   readonly osType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#platform FleetAppsManagementRunbookVersion#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#platform FleetAppsManagementRunbookVersion#platform}
   */
   readonly platform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#scope FleetAppsManagementRunbookVersion#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#scope FleetAppsManagementRunbookVersion#scope}
   */
   readonly scope: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#task_record_id FleetAppsManagementRunbookVersion#task_record_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#task_record_id FleetAppsManagementRunbookVersion#task_record_id}
   */
   readonly taskRecordId?: string;
   /**
   * execution_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#execution_details FleetAppsManagementRunbookVersion#execution_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#execution_details FleetAppsManagementRunbookVersion#execution_details}
   */
   readonly executionDetails?: FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetails;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#properties FleetAppsManagementRunbookVersion#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#properties FleetAppsManagementRunbookVersion#properties}
   */
   readonly properties?: FleetAppsManagementRunbookVersionTasksTaskRecordDetailsProperties;
 }
@@ -5081,25 +5081,25 @@ export class FleetAppsManagementRunbookVersionTasksTaskRecordDetailsOutputRefere
 }
 export interface FleetAppsManagementRunbookVersionTasks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#step_name FleetAppsManagementRunbookVersion#step_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#step_name FleetAppsManagementRunbookVersion#step_name}
   */
   readonly stepName: string;
   /**
   * output_variable_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#output_variable_mappings FleetAppsManagementRunbookVersion#output_variable_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#output_variable_mappings FleetAppsManagementRunbookVersion#output_variable_mappings}
   */
   readonly outputVariableMappings?: FleetAppsManagementRunbookVersionTasksOutputVariableMappings[] | cdktf.IResolvable;
   /**
   * step_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#step_properties FleetAppsManagementRunbookVersion#step_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#step_properties FleetAppsManagementRunbookVersion#step_properties}
   */
   readonly stepProperties?: FleetAppsManagementRunbookVersionTasksStepProperties;
   /**
   * task_record_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#task_record_details FleetAppsManagementRunbookVersion#task_record_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#task_record_details FleetAppsManagementRunbookVersion#task_record_details}
   */
   readonly taskRecordDetails: FleetAppsManagementRunbookVersionTasksTaskRecordDetails;
 }
@@ -5296,15 +5296,15 @@ export class FleetAppsManagementRunbookVersionTasksList extends cdktf.ComplexLis
 }
 export interface FleetAppsManagementRunbookVersionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#create FleetAppsManagementRunbookVersion#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#create FleetAppsManagementRunbookVersion#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#delete FleetAppsManagementRunbookVersion#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#delete FleetAppsManagementRunbookVersion#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#update FleetAppsManagementRunbookVersion#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#update FleetAppsManagementRunbookVersion#update}
   */
   readonly update?: string;
 }
@@ -5456,7 +5456,7 @@ export class FleetAppsManagementRunbookVersionTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version oci_fleet_apps_management_runbook_version}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version oci_fleet_apps_management_runbook_version}
 */
 export class FleetAppsManagementRunbookVersion extends cdktf.TerraformResource {
 
@@ -5472,7 +5472,7 @@ export class FleetAppsManagementRunbookVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FleetAppsManagementRunbookVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FleetAppsManagementRunbookVersion to import
-  * @param importFromId The id of the existing FleetAppsManagementRunbookVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FleetAppsManagementRunbookVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FleetAppsManagementRunbookVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5484,7 +5484,7 @@ export class FleetAppsManagementRunbookVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_runbook_version oci_fleet_apps_management_runbook_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_runbook_version oci_fleet_apps_management_runbook_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5495,8 +5495,8 @@ export class FleetAppsManagementRunbookVersion extends cdktf.TerraformResource {
       terraformResourceType: 'oci_fleet_apps_management_runbook_version',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

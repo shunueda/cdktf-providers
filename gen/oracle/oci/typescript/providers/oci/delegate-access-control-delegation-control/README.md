@@ -1,3 +1,3 @@
 # `oci_delegate_access_control_delegation_control`
 
-Refer to the Terraform Registry for docs: [`oci_delegate_access_control_delegation_control`](https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/delegate_access_control_delegation_control).
+Refer to the Terraform Registry for docs: [`oci_delegate_access_control_delegation_control`](https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/delegate_access_control_delegation_control).

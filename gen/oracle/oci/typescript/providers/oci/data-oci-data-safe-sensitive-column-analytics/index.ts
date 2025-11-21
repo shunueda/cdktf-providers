@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataSafeSensitiveColumnAnalyticsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#access_level DataOciDataSafeSensitiveColumnAnalytics#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#access_level DataOciDataSafeSensitiveColumnAnalytics#access_level}
   */
   readonly accessLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#column_name DataOciDataSafeSensitiveColumnAnalytics#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#column_name DataOciDataSafeSensitiveColumnAnalytics#column_name}
   */
   readonly columnName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#compartment_id DataOciDataSafeSensitiveColumnAnalytics#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#compartment_id DataOciDataSafeSensitiveColumnAnalytics#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#compartment_id_in_subtree DataOciDataSafeSensitiveColumnAnalytics#compartment_id_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#compartment_id_in_subtree DataOciDataSafeSensitiveColumnAnalytics#compartment_id_in_subtree}
   */
   readonly compartmentIdInSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#group_by DataOciDataSafeSensitiveColumnAnalytics#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#group_by DataOciDataSafeSensitiveColumnAnalytics#group_by}
   */
   readonly groupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#id DataOciDataSafeSensitiveColumnAnalytics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#id DataOciDataSafeSensitiveColumnAnalytics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#object DataOciDataSafeSensitiveColumnAnalytics#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#object DataOciDataSafeSensitiveColumnAnalytics#object}
   */
   readonly object?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#schema_name DataOciDataSafeSensitiveColumnAnalytics#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#schema_name DataOciDataSafeSensitiveColumnAnalytics#schema_name}
   */
   readonly schemaName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#sensitive_data_model_id DataOciDataSafeSensitiveColumnAnalytics#sensitive_data_model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#sensitive_data_model_id DataOciDataSafeSensitiveColumnAnalytics#sensitive_data_model_id}
   */
   readonly sensitiveDataModelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#sensitive_type_group_id DataOciDataSafeSensitiveColumnAnalytics#sensitive_type_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#sensitive_type_group_id DataOciDataSafeSensitiveColumnAnalytics#sensitive_type_group_id}
   */
   readonly sensitiveTypeGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#sensitive_type_id DataOciDataSafeSensitiveColumnAnalytics#sensitive_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#sensitive_type_id DataOciDataSafeSensitiveColumnAnalytics#sensitive_type_id}
   */
   readonly sensitiveTypeId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#target_database_group_id DataOciDataSafeSensitiveColumnAnalytics#target_database_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#target_database_group_id DataOciDataSafeSensitiveColumnAnalytics#target_database_group_id}
   */
   readonly targetDatabaseGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#target_id DataOciDataSafeSensitiveColumnAnalytics#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#target_id DataOciDataSafeSensitiveColumnAnalytics#target_id}
   */
   readonly targetId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#filter DataOciDataSafeSensitiveColumnAnalytics#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#filter DataOciDataSafeSensitiveColumnAnalytics#filter}
   */
   readonly filter?: DataOciDataSafeSensitiveColumnAnalyticsFilter[] | cdktf.IResolvable;
 }
@@ -328,15 +328,15 @@ export class DataOciDataSafeSensitiveColumnAnalyticsSensitiveColumnAnalyticsColl
 }
 export interface DataOciDataSafeSensitiveColumnAnalyticsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#name DataOciDataSafeSensitiveColumnAnalytics#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#name DataOciDataSafeSensitiveColumnAnalytics#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#regex DataOciDataSafeSensitiveColumnAnalytics#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#regex DataOciDataSafeSensitiveColumnAnalytics#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#values DataOciDataSafeSensitiveColumnAnalytics#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#values DataOciDataSafeSensitiveColumnAnalytics#values}
   */
   readonly values: string[];
 }
@@ -504,7 +504,7 @@ export class DataOciDataSafeSensitiveColumnAnalyticsFilterList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics oci_data_safe_sensitive_column_analytics}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics oci_data_safe_sensitive_column_analytics}
 */
 export class DataOciDataSafeSensitiveColumnAnalytics extends cdktf.TerraformDataSource {
 
@@ -520,7 +520,7 @@ export class DataOciDataSafeSensitiveColumnAnalytics extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataOciDataSafeSensitiveColumnAnalytics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataSafeSensitiveColumnAnalytics to import
-  * @param importFromId The id of the existing DataOciDataSafeSensitiveColumnAnalytics that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataSafeSensitiveColumnAnalytics that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataSafeSensitiveColumnAnalytics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -532,7 +532,7 @@ export class DataOciDataSafeSensitiveColumnAnalytics extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_sensitive_column_analytics oci_data_safe_sensitive_column_analytics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_column_analytics oci_data_safe_sensitive_column_analytics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -543,8 +543,8 @@ export class DataOciDataSafeSensitiveColumnAnalytics extends cdktf.TerraformData
       terraformResourceType: 'oci_data_safe_sensitive_column_analytics',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

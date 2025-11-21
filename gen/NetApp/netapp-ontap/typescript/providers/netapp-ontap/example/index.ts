@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/example
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/example
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ExampleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Example configurable attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/example#configurable_attribute Example#configurable_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/example#configurable_attribute Example#configurable_attribute}
   */
   readonly configurableAttribute?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/example netapp-ontap_example}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/example netapp-ontap_example}
 */
 export class Example extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class Example extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Example resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Example to import
-  * @param importFromId The id of the existing Example that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/example#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Example that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/example#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Example to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class Example extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/example netapp-ontap_example} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/example netapp-ontap_example} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class Example extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_example',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

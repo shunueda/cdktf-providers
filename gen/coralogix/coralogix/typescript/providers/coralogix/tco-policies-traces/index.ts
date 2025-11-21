@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface TcoPoliciesTracesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#policies TcoPoliciesTraces#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#policies TcoPoliciesTraces#policies}
   */
   readonly policies: TcoPoliciesTracesPolicies[] | cdktf.IResolvable;
 }
 export interface TcoPoliciesTracesPoliciesActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#names TcoPoliciesTraces#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#names TcoPoliciesTraces#names}
   */
   readonly names: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#rule_type TcoPoliciesTraces#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#rule_type TcoPoliciesTraces#rule_type}
   */
   readonly ruleType?: string;
 }
@@ -138,11 +138,11 @@ export class TcoPoliciesTracesPoliciesActionsOutputReference extends cdktf.Compl
 }
 export interface TcoPoliciesTracesPoliciesApplications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#names TcoPoliciesTraces#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#names TcoPoliciesTraces#names}
   */
   readonly names: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#rule_type TcoPoliciesTraces#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#rule_type TcoPoliciesTraces#rule_type}
   */
   readonly ruleType?: string;
 }
@@ -262,11 +262,11 @@ export class TcoPoliciesTracesPoliciesApplicationsOutputReference extends cdktf.
 }
 export interface TcoPoliciesTracesPoliciesServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#names TcoPoliciesTraces#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#names TcoPoliciesTraces#names}
   */
   readonly names: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#rule_type TcoPoliciesTraces#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#rule_type TcoPoliciesTraces#rule_type}
   */
   readonly ruleType?: string;
 }
@@ -386,11 +386,11 @@ export class TcoPoliciesTracesPoliciesServicesOutputReference extends cdktf.Comp
 }
 export interface TcoPoliciesTracesPoliciesSubsystems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#names TcoPoliciesTraces#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#names TcoPoliciesTraces#names}
   */
   readonly names: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#rule_type TcoPoliciesTraces#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#rule_type TcoPoliciesTraces#rule_type}
   */
   readonly ruleType?: string;
 }
@@ -510,11 +510,11 @@ export class TcoPoliciesTracesPoliciesSubsystemsOutputReference extends cdktf.Co
 }
 export interface TcoPoliciesTracesPoliciesTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#names TcoPoliciesTraces#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#names TcoPoliciesTraces#names}
   */
   readonly names: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#rule_type TcoPoliciesTraces#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#rule_type TcoPoliciesTraces#rule_type}
   */
   readonly ruleType?: string;
 }
@@ -656,61 +656,61 @@ export interface TcoPoliciesTracesPolicies {
   /**
   * The actions to apply the policy on. Applies the policy on all the actions by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#actions TcoPoliciesTraces#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#actions TcoPoliciesTraces#actions}
   */
   readonly actions?: TcoPoliciesTracesPoliciesActions;
   /**
   * The applications to apply the policy on. Applies the policy on all the applications by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#applications TcoPoliciesTraces#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#applications TcoPoliciesTraces#applications}
   */
   readonly applications?: TcoPoliciesTracesPoliciesApplications;
   /**
   * Allowing logs with a specific retention to be tagged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#archive_retention_id TcoPoliciesTraces#archive_retention_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#archive_retention_id TcoPoliciesTraces#archive_retention_id}
   */
   readonly archiveRetentionId?: string;
   /**
   * The policy description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#description TcoPoliciesTraces#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#description TcoPoliciesTraces#description}
   */
   readonly description?: string;
   /**
   * Determines weather the policy will be enabled. True by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#enabled TcoPoliciesTraces#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#enabled TcoPoliciesTraces#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * tco-policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#name TcoPoliciesTraces#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#name TcoPoliciesTraces#name}
   */
   readonly name: string;
   /**
   * The policy priority. Can be one of ["block" "high" "low" "medium"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#priority TcoPoliciesTraces#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#priority TcoPoliciesTraces#priority}
   */
   readonly priority: string;
   /**
   * The services to apply the policy on. Applies the policy on all the services by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#services TcoPoliciesTraces#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#services TcoPoliciesTraces#services}
   */
   readonly services?: TcoPoliciesTracesPoliciesServices;
   /**
   * The subsystems to apply the policy on. Applies the policy on all the subsystems by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#subsystems TcoPoliciesTraces#subsystems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#subsystems TcoPoliciesTraces#subsystems}
   */
   readonly subsystems?: TcoPoliciesTracesPoliciesSubsystems;
   /**
   * The tags to apply the policy on. Applies the policy on all the tags by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#tags TcoPoliciesTraces#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#tags TcoPoliciesTraces#tags}
   */
   readonly tags?: { [key: string]: TcoPoliciesTracesPoliciesTags } | cdktf.IResolvable;
 }
@@ -1091,7 +1091,7 @@ export class TcoPoliciesTracesPoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces coralogix_tco_policies_traces}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces coralogix_tco_policies_traces}
 */
 export class TcoPoliciesTraces extends cdktf.TerraformResource {
 
@@ -1107,7 +1107,7 @@ export class TcoPoliciesTraces extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcoPoliciesTraces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcoPoliciesTraces to import
-  * @param importFromId The id of the existing TcoPoliciesTraces that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcoPoliciesTraces that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcoPoliciesTraces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1119,7 +1119,7 @@ export class TcoPoliciesTraces extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/tco_policies_traces coralogix_tco_policies_traces} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_traces coralogix_tco_policies_traces} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1130,8 +1130,8 @@ export class TcoPoliciesTraces extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_tco_policies_traces',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policy
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataSafeUnifiedAuditPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policy#unified_audit_policy_id DataOciDataSafeUnifiedAuditPolicy#unified_audit_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policy#unified_audit_policy_id DataOciDataSafeUnifiedAuditPolicy#unified_audit_policy_id}
   */
   readonly unifiedAuditPolicyId: string;
 }
@@ -114,7 +114,7 @@ export class DataOciDataSafeUnifiedAuditPolicyConditionsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policy oci_data_safe_unified_audit_policy}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policy oci_data_safe_unified_audit_policy}
 */
 export class DataOciDataSafeUnifiedAuditPolicy extends cdktf.TerraformDataSource {
 
@@ -130,7 +130,7 @@ export class DataOciDataSafeUnifiedAuditPolicy extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataOciDataSafeUnifiedAuditPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataSafeUnifiedAuditPolicy to import
-  * @param importFromId The id of the existing DataOciDataSafeUnifiedAuditPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataSafeUnifiedAuditPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataSafeUnifiedAuditPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class DataOciDataSafeUnifiedAuditPolicy extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policy oci_data_safe_unified_audit_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policy oci_data_safe_unified_audit_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class DataOciDataSafeUnifiedAuditPolicy extends cdktf.TerraformDataSource
       terraformResourceType: 'oci_data_safe_unified_audit_policy',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

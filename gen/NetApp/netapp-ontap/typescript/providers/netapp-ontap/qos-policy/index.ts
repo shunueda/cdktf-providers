@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface QosPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Adaptive QoS policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#adaptive QosPolicy#adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#adaptive QosPolicy#adaptive}
   */
   readonly adaptive?: QosPolicyAdaptive;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#cx_profile_name QosPolicy#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#cx_profile_name QosPolicy#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Fixed QoS policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#fixed QosPolicy#fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#fixed QosPolicy#fixed}
   */
   readonly fixed?: QosPolicyFixed;
   /**
   * QOSPolicies name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#name QosPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#name QosPolicy#name}
   */
   readonly name: string;
   /**
   * QoS policy scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#scope QosPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#scope QosPolicy#scope}
   */
   readonly scope?: string;
   /**
   * QOSPolicies svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#svm_name QosPolicy#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#svm_name QosPolicy#svm_name}
   */
   readonly svmName: string;
 }
@@ -48,37 +48,37 @@ export interface QosPolicyAdaptive {
   /**
   * Absolute minimum IOPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#absolute_min_iops QosPolicy#absolute_min_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#absolute_min_iops QosPolicy#absolute_min_iops}
   */
   readonly absoluteMinIops?: number;
   /**
   * Block size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#block_size QosPolicy#block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#block_size QosPolicy#block_size}
   */
   readonly blockSize?: string;
   /**
   * Expected IOPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#expected_iops QosPolicy#expected_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#expected_iops QosPolicy#expected_iops}
   */
   readonly expectedIops: number;
   /**
   * Expected IOPS allocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#expected_iops_allocation QosPolicy#expected_iops_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#expected_iops_allocation QosPolicy#expected_iops_allocation}
   */
   readonly expectedIopsAllocation?: string;
   /**
   * Peak IOPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#peak_iops QosPolicy#peak_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#peak_iops QosPolicy#peak_iops}
   */
   readonly peakIops: number;
   /**
   * Peak IOPS allocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#peak_iops_allocation QosPolicy#peak_iops_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#peak_iops_allocation QosPolicy#peak_iops_allocation}
   */
   readonly peakIopsAllocation?: string;
 }
@@ -313,31 +313,31 @@ export interface QosPolicyFixed {
   /**
   * Capacity shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#capacity_shared QosPolicy#capacity_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#capacity_shared QosPolicy#capacity_shared}
   */
   readonly capacityShared?: boolean | cdktf.IResolvable;
   /**
   * Maximum throughput in IOPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#max_throughput_iops QosPolicy#max_throughput_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#max_throughput_iops QosPolicy#max_throughput_iops}
   */
   readonly maxThroughputIops?: number;
   /**
   * Maximum throughput in MBPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#max_throughput_mbps QosPolicy#max_throughput_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#max_throughput_mbps QosPolicy#max_throughput_mbps}
   */
   readonly maxThroughputMbps?: number;
   /**
   * Minimum throughput in IOPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#min_throughput_iops QosPolicy#min_throughput_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#min_throughput_iops QosPolicy#min_throughput_iops}
   */
   readonly minThroughputIops?: number;
   /**
   * Minimum throughput in MBPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#min_throughput_mbps QosPolicy#min_throughput_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#min_throughput_mbps QosPolicy#min_throughput_mbps}
   */
   readonly minThroughputMbps?: number;
 }
@@ -547,7 +547,7 @@ export class QosPolicyFixedOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy netapp-ontap_qos_policy}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy netapp-ontap_qos_policy}
 */
 export class QosPolicy extends cdktf.TerraformResource {
 
@@ -563,7 +563,7 @@ export class QosPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QosPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QosPolicy to import
-  * @param importFromId The id of the existing QosPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QosPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QosPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -575,7 +575,7 @@ export class QosPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qos_policy netapp-ontap_qos_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qos_policy netapp-ontap_qos_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -586,8 +586,8 @@ export class QosPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_qos_policy',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

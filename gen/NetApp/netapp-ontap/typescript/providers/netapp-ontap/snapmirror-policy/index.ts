@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface SnapmirrorPolicyAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment associated with the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#comment SnapmirrorPolicyA#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#comment SnapmirrorPolicyA#comment}
   */
   readonly comment?: string;
   /**
   * Specifies that all the source Snapshot copies (including the one created by SnapMirror before the transfer begins) should be copied to the destination on a transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#copy_all_source_snapshots SnapmirrorPolicyA#copy_all_source_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#copy_all_source_snapshots SnapmirrorPolicyA#copy_all_source_snapshots}
   */
   readonly copyAllSourceSnapshots?: boolean | cdktf.IResolvable;
   /**
   * Specifies that the latest source Snapshot copy (created by SnapMirror before the transfer begins) should be copied to the destination on a transfer. 'Retention' properties cannot be specified along with this property. This is applicable only to async policies. Property can only be set to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#copy_latest_source_snapshot SnapmirrorPolicyA#copy_latest_source_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#copy_latest_source_snapshot SnapmirrorPolicyA#copy_latest_source_snapshot}
   */
   readonly copyLatestSourceSnapshot?: boolean | cdktf.IResolvable;
   /**
   * Specifies that all the source Snapshot copies (including the one created by SnapMirror before the transfer begins) should be copied to the destination on a transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#create_snapshot_on_source SnapmirrorPolicyA#create_snapshot_on_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#create_snapshot_on_source SnapmirrorPolicyA#create_snapshot_on_source}
   */
   readonly createSnapshotOnSource?: boolean | cdktf.IResolvable;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#cx_profile_name SnapmirrorPolicyA#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#cx_profile_name SnapmirrorPolicyA#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Specifies which configuration of the source SVM is replicated to the destination SVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#identity_preservation SnapmirrorPolicyA#identity_preservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#identity_preservation SnapmirrorPolicyA#identity_preservation}
   */
   readonly identityPreservation?: string;
   /**
   * SnapmirrorPolicy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#name SnapmirrorPolicyA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#name SnapmirrorPolicyA#name}
   */
   readonly name: string;
   /**
   * Specifies whether network compression is enabled for transfers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#network_compression_enabled SnapmirrorPolicyA#network_compression_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#network_compression_enabled SnapmirrorPolicyA#network_compression_enabled}
   */
   readonly networkCompressionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Rules for Snapshot copy retention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#retention SnapmirrorPolicyA#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#retention SnapmirrorPolicyA#retention}
   */
   readonly retention?: SnapmirrorPolicyRetention[] | cdktf.IResolvable;
   /**
   * SnapmirrorPolicy svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#svm_name SnapmirrorPolicyA#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#svm_name SnapmirrorPolicyA#svm_name}
   */
   readonly svmName: string;
   /**
   * SnapmirrorPolicy sync type. [sync, strict_sync, automated_failover]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#sync_type SnapmirrorPolicyA#sync_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#sync_type SnapmirrorPolicyA#sync_type}
   */
   readonly syncType?: string;
   /**
   * The schedule used to update asynchronous relationships
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#transfer_schedule_name SnapmirrorPolicyA#transfer_schedule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#transfer_schedule_name SnapmirrorPolicyA#transfer_schedule_name}
   */
   readonly transferScheduleName?: string;
   /**
   * SnapmirrorPolicy type. [async, sync, continuous]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#type SnapmirrorPolicyA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#type SnapmirrorPolicyA#type}
   */
   readonly type?: string;
 }
@@ -90,25 +90,25 @@ export interface SnapmirrorPolicyRetention {
   /**
   * Number of Snapshot copies to be kept for retention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#count SnapmirrorPolicyA#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#count SnapmirrorPolicyA#count}
   */
   readonly count?: number;
   /**
   * Schedule used to create Snapshot copies on the destination for long term retention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#creation_schedule_name SnapmirrorPolicyA#creation_schedule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#creation_schedule_name SnapmirrorPolicyA#creation_schedule_name}
   */
   readonly creationScheduleName?: string;
   /**
   * Snapshot copy label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#label SnapmirrorPolicyA#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#label SnapmirrorPolicyA#label}
   */
   readonly label: string;
   /**
   * Specifies the prefix for the Snapshot copy name to be created as per the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#prefix SnapmirrorPolicyA#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#prefix SnapmirrorPolicyA#prefix}
   */
   readonly prefix?: string;
 }
@@ -308,7 +308,7 @@ export class SnapmirrorPolicyRetentionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy netapp-ontap_snapmirror_policy}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy netapp-ontap_snapmirror_policy}
 */
 export class SnapmirrorPolicyA extends cdktf.TerraformResource {
 
@@ -324,7 +324,7 @@ export class SnapmirrorPolicyA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnapmirrorPolicyA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnapmirrorPolicyA to import
-  * @param importFromId The id of the existing SnapmirrorPolicyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnapmirrorPolicyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnapmirrorPolicyA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -336,7 +336,7 @@ export class SnapmirrorPolicyA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/snapmirror_policy netapp-ontap_snapmirror_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/snapmirror_policy netapp-ontap_snapmirror_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -347,8 +347,8 @@ export class SnapmirrorPolicyA extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_snapmirror_policy',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

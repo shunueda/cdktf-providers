@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_aggregate_data_source
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_aggregate_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataNetappOntapStorageAggregateDataSourceConfig extends cdktf.T
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_aggregate_data_source#cx_profile_name DataNetappOntapStorageAggregateDataSource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_aggregate_data_source#cx_profile_name DataNetappOntapStorageAggregateDataSource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * StorageAggregate name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_aggregate_data_source#name DataNetappOntapStorageAggregateDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_aggregate_data_source#name DataNetappOntapStorageAggregateDataSource#name}
   */
   readonly name: string;
 }
@@ -131,7 +131,7 @@ export class DataNetappOntapStorageAggregateDataSourceSpaceOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_aggregate_data_source netapp-ontap_storage_aggregate_data_source}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_aggregate_data_source netapp-ontap_storage_aggregate_data_source}
 */
 export class DataNetappOntapStorageAggregateDataSource extends cdktf.TerraformDataSource {
 
@@ -147,7 +147,7 @@ export class DataNetappOntapStorageAggregateDataSource extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataNetappOntapStorageAggregateDataSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapStorageAggregateDataSource to import
-  * @param importFromId The id of the existing DataNetappOntapStorageAggregateDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_aggregate_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapStorageAggregateDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_aggregate_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapStorageAggregateDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class DataNetappOntapStorageAggregateDataSource extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/storage_aggregate_data_source netapp-ontap_storage_aggregate_data_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/storage_aggregate_data_source netapp-ontap_storage_aggregate_data_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class DataNetappOntapStorageAggregateDataSource extends cdktf.TerraformDa
       terraformResourceType: 'netapp-ontap_storage_aggregate_data_source',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface RedisRedisClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#cluster_mode RedisRedisCluster#cluster_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#cluster_mode RedisRedisCluster#cluster_mode}
   */
   readonly clusterMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#compartment_id RedisRedisCluster#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#compartment_id RedisRedisCluster#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#defined_tags RedisRedisCluster#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#defined_tags RedisRedisCluster#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#display_name RedisRedisCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#display_name RedisRedisCluster#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#freeform_tags RedisRedisCluster#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#freeform_tags RedisRedisCluster#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#id RedisRedisCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#id RedisRedisCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#node_count RedisRedisCluster#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#node_count RedisRedisCluster#node_count}
   */
   readonly nodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#node_memory_in_gbs RedisRedisCluster#node_memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#node_memory_in_gbs RedisRedisCluster#node_memory_in_gbs}
   */
   readonly nodeMemoryInGbs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#nsg_ids RedisRedisCluster#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#nsg_ids RedisRedisCluster#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#oci_cache_config_set_id RedisRedisCluster#oci_cache_config_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#oci_cache_config_set_id RedisRedisCluster#oci_cache_config_set_id}
   */
   readonly ociCacheConfigSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#security_attributes RedisRedisCluster#security_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#security_attributes RedisRedisCluster#security_attributes}
   */
   readonly securityAttributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#shard_count RedisRedisCluster#shard_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#shard_count RedisRedisCluster#shard_count}
   */
   readonly shardCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#software_version RedisRedisCluster#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#software_version RedisRedisCluster#software_version}
   */
   readonly softwareVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#subnet_id RedisRedisCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#subnet_id RedisRedisCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#timeouts RedisRedisCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#timeouts RedisRedisCluster#timeouts}
   */
   readonly timeouts?: RedisRedisClusterTimeouts;
 }
@@ -236,15 +236,15 @@ export class RedisRedisClusterNodeCollectionList extends cdktf.ComplexList {
 }
 export interface RedisRedisClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#create RedisRedisCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#create RedisRedisCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#delete RedisRedisCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#delete RedisRedisCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#update RedisRedisCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#update RedisRedisCluster#update}
   */
   readonly update?: string;
 }
@@ -396,7 +396,7 @@ export class RedisRedisClusterTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster oci_redis_redis_cluster}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster oci_redis_redis_cluster}
 */
 export class RedisRedisCluster extends cdktf.TerraformResource {
 
@@ -412,7 +412,7 @@ export class RedisRedisCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisRedisCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisRedisCluster to import
-  * @param importFromId The id of the existing RedisRedisCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisRedisCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisRedisCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -424,7 +424,7 @@ export class RedisRedisCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster oci_redis_redis_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/redis_redis_cluster oci_redis_redis_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -435,8 +435,8 @@ export class RedisRedisCluster extends cdktf.TerraformResource {
       terraformResourceType: 'oci_redis_redis_cluster',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

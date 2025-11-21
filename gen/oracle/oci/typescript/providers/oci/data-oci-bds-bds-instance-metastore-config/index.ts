@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/bds_bds_instance_metastore_config
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/bds_bds_instance_metastore_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciBdsBdsInstanceMetastoreConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/bds_bds_instance_metastore_config#bds_instance_id DataOciBdsBdsInstanceMetastoreConfig#bds_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/bds_bds_instance_metastore_config#bds_instance_id DataOciBdsBdsInstanceMetastoreConfig#bds_instance_id}
   */
   readonly bdsInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/bds_bds_instance_metastore_config#metastore_config_id DataOciBdsBdsInstanceMetastoreConfig#metastore_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/bds_bds_instance_metastore_config#metastore_config_id DataOciBdsBdsInstanceMetastoreConfig#metastore_config_id}
   */
   readonly metastoreConfigId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/bds_bds_instance_metastore_config oci_bds_bds_instance_metastore_config}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/bds_bds_instance_metastore_config oci_bds_bds_instance_metastore_config}
 */
 export class DataOciBdsBdsInstanceMetastoreConfig extends cdktf.TerraformDataSource {
 
@@ -34,7 +34,7 @@ export class DataOciBdsBdsInstanceMetastoreConfig extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataOciBdsBdsInstanceMetastoreConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciBdsBdsInstanceMetastoreConfig to import
-  * @param importFromId The id of the existing DataOciBdsBdsInstanceMetastoreConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/bds_bds_instance_metastore_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciBdsBdsInstanceMetastoreConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/bds_bds_instance_metastore_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciBdsBdsInstanceMetastoreConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class DataOciBdsBdsInstanceMetastoreConfig extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/bds_bds_instance_metastore_config oci_bds_bds_instance_metastore_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/bds_bds_instance_metastore_config oci_bds_bds_instance_metastore_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class DataOciBdsBdsInstanceMetastoreConfig extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_bds_bds_instance_metastore_config',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

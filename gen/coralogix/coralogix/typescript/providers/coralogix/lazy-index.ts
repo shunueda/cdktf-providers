@@ -19,6 +19,7 @@ Object.defineProperty(exports, 'group', { get: function () { return require('./g
 Object.defineProperty(exports, 'groupAttachment', { get: function () { return require('./group-attachment'); } });
 Object.defineProperty(exports, 'hostedDashboard', { get: function () { return require('./hosted-dashboard'); } });
 Object.defineProperty(exports, 'integration', { get: function () { return require('./integration'); } });
+Object.defineProperty(exports, 'ipAccess', { get: function () { return require('./ip-access'); } });
 Object.defineProperty(exports, 'preset', { get: function () { return require('./preset'); } });
 Object.defineProperty(exports, 'recordingRulesGroupsSet', { get: function () { return require('./recording-rules-groups-set'); } });
 Object.defineProperty(exports, 'rulesGroup', { get: function () { return require('./rules-group'); } });
@@ -27,6 +28,7 @@ Object.defineProperty(exports, 'slo', { get: function () { return require('./slo
 Object.defineProperty(exports, 'sloV2', { get: function () { return require('./slo-v2'); } });
 Object.defineProperty(exports, 'tcoPoliciesLogs', { get: function () { return require('./tco-policies-logs'); } });
 Object.defineProperty(exports, 'tcoPoliciesTraces', { get: function () { return require('./tco-policies-traces'); } });
+Object.defineProperty(exports, 'team', { get: function () { return require('./team'); } });
 Object.defineProperty(exports, 'user', { get: function () { return require('./user'); } });
 Object.defineProperty(exports, 'webhook', { get: function () { return require('./webhook'); } });
 Object.defineProperty(exports, 'dataCoralogixAction', { get: function () { return require('./data-coralogix-action'); } });
@@ -47,6 +49,7 @@ Object.defineProperty(exports, 'dataCoralogixGlobalRouter', { get: function () {
 Object.defineProperty(exports, 'dataCoralogixGroup', { get: function () { return require('./data-coralogix-group'); } });
 Object.defineProperty(exports, 'dataCoralogixHostedDashboard', { get: function () { return require('./data-coralogix-hosted-dashboard'); } });
 Object.defineProperty(exports, 'dataCoralogixIntegration', { get: function () { return require('./data-coralogix-integration'); } });
+Object.defineProperty(exports, 'dataCoralogixIpAccess', { get: function () { return require('./data-coralogix-ip-access'); } });
 Object.defineProperty(exports, 'dataCoralogixPreset', { get: function () { return require('./data-coralogix-preset'); } });
 Object.defineProperty(exports, 'dataCoralogixRecordingRulesGroupsSet', { get: function () { return require('./data-coralogix-recording-rules-groups-set'); } });
 Object.defineProperty(exports, 'dataCoralogixRulesGroup', { get: function () { return require('./data-coralogix-rules-group'); } });

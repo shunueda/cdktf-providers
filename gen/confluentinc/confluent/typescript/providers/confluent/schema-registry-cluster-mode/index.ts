@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_registry_cluster_mode
+// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/schema_registry_cluster_mode
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,36 +10,36 @@ export interface SchemaRegistryClusterModeConfig extends cdktf.TerraformMetaArgu
   /**
   * Controls whether it should force a mode change even if the Schema Registry has existing schemas. This can be useful in disaster recovery (DR) scenarios using Schema Linking. Defaults to `false`, which does not allow a mode change to IMPORT if Schema Registry has registered schemas. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_registry_cluster_mode#force SchemaRegistryClusterMode#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/schema_registry_cluster_mode#force SchemaRegistryClusterMode#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_registry_cluster_mode#id SchemaRegistryClusterMode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/schema_registry_cluster_mode#id SchemaRegistryClusterMode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_registry_cluster_mode#mode SchemaRegistryClusterMode#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/schema_registry_cluster_mode#mode SchemaRegistryClusterMode#mode}
   */
   readonly mode?: string;
   /**
   * The REST endpoint of the Schema Registry cluster, for example, `https://psrc-00000.us-central1.gcp.confluent.cloud:443`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_registry_cluster_mode#rest_endpoint SchemaRegistryClusterMode#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/schema_registry_cluster_mode#rest_endpoint SchemaRegistryClusterMode#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_registry_cluster_mode#credentials SchemaRegistryClusterMode#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/schema_registry_cluster_mode#credentials SchemaRegistryClusterMode#credentials}
   */
   readonly credentials?: SchemaRegistryClusterModeCredentials;
   /**
   * schema_registry_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_registry_cluster_mode#schema_registry_cluster SchemaRegistryClusterMode#schema_registry_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/schema_registry_cluster_mode#schema_registry_cluster SchemaRegistryClusterMode#schema_registry_cluster}
   */
   readonly schemaRegistryCluster?: SchemaRegistryClusterModeSchemaRegistryCluster;
 }
@@ -47,13 +47,13 @@ export interface SchemaRegistryClusterModeCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_registry_cluster_mode#key SchemaRegistryClusterMode#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/schema_registry_cluster_mode#key SchemaRegistryClusterMode#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_registry_cluster_mode#secret SchemaRegistryClusterMode#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/schema_registry_cluster_mode#secret SchemaRegistryClusterMode#secret}
   */
   readonly secret: string;
 }
@@ -162,7 +162,7 @@ export interface SchemaRegistryClusterModeSchemaRegistryCluster {
   /**
   * The Schema Registry cluster ID (e.g., `lsrc-abc123`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_registry_cluster_mode#id SchemaRegistryClusterMode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/schema_registry_cluster_mode#id SchemaRegistryClusterMode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -246,7 +246,7 @@ export class SchemaRegistryClusterModeSchemaRegistryClusterOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_registry_cluster_mode confluent_schema_registry_cluster_mode}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/schema_registry_cluster_mode confluent_schema_registry_cluster_mode}
 */
 export class SchemaRegistryClusterMode extends cdktf.TerraformResource {
 
@@ -262,7 +262,7 @@ export class SchemaRegistryClusterMode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaRegistryClusterMode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaRegistryClusterMode to import
-  * @param importFromId The id of the existing SchemaRegistryClusterMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_registry_cluster_mode#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaRegistryClusterMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/schema_registry_cluster_mode#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaRegistryClusterMode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -274,7 +274,7 @@ export class SchemaRegistryClusterMode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_registry_cluster_mode confluent_schema_registry_cluster_mode} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/schema_registry_cluster_mode confluent_schema_registry_cluster_mode} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -285,8 +285,8 @@ export class SchemaRegistryClusterMode extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_schema_registry_cluster_mode',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.53.0',
-        providerVersionConstraint: '2.53.0'
+        providerVersion: '2.54.0',
+        providerVersionConstraint: '2.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

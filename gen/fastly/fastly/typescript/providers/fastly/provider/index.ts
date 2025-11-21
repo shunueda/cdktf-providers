@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface FastlyProviderConfig {
   /**
   * Fastly API Key from https://app.fastly.com/#account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs#api_key FastlyProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs#api_key FastlyProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Fastly API URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs#base_url FastlyProvider#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs#base_url FastlyProvider#base_url}
   */
   readonly baseUrl?: string;
   /**
   * Set this to `true` to disable HTTP/1.x fallback mechanism that the underlying Go library will attempt upon connection to `api.fastly.com:443` by default. This may slightly improve the provider's performance and reduce unnecessary TLS handshakes. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs#force_http2 FastlyProvider#force_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs#force_http2 FastlyProvider#force_http2}
   */
   readonly forceHttp2?: boolean | cdktf.IResolvable;
   /**
   * Set to `true` if your configuration only consumes data sources that do not require authentication, such as `fastly_ip_ranges`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs#no_auth FastlyProvider#no_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs#no_auth FastlyProvider#no_auth}
   */
   readonly noAuth?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs#alias FastlyProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs#alias FastlyProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs fastly}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs fastly}
 */
 export class FastlyProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class FastlyProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a FastlyProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FastlyProvider to import
-  * @param importFromId The id of the existing FastlyProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FastlyProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FastlyProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class FastlyProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs fastly} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs fastly} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class FastlyProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fastly',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       terraformProviderSource: 'fastly/fastly'
     });

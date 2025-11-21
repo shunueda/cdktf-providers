@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_shares_data_source
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_shares_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapProtocolsCifsSharesDataSourceConfig extends cdkt
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_shares_data_source#cx_profile_name DataNetappOntapProtocolsCifsSharesDataSource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_shares_data_source#cx_profile_name DataNetappOntapProtocolsCifsSharesDataSource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_shares_data_source#filter DataNetappOntapProtocolsCifsSharesDataSource#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_shares_data_source#filter DataNetappOntapProtocolsCifsSharesDataSource#filter}
   */
   readonly filter?: DataNetappOntapProtocolsCifsSharesDataSourceFilter;
 }
@@ -22,13 +22,13 @@ export interface DataNetappOntapProtocolsCifsSharesDataSourceFilter {
   /**
   * ProtocolsCIFSShare name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_shares_data_source#name DataNetappOntapProtocolsCifsSharesDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_shares_data_source#name DataNetappOntapProtocolsCifsSharesDataSource#name}
   */
   readonly name?: string;
   /**
   * ProtocolsCIFSShare svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_shares_data_source#svm_name DataNetappOntapProtocolsCifsSharesDataSource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_shares_data_source#svm_name DataNetappOntapProtocolsCifsSharesDataSource#svm_name}
   */
   readonly svmName?: string;
 }
@@ -238,7 +238,7 @@ export interface DataNetappOntapProtocolsCifsSharesDataSourceProtocolsCifsShares
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_shares_data_source#cx_profile_name DataNetappOntapProtocolsCifsSharesDataSource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_shares_data_source#cx_profile_name DataNetappOntapProtocolsCifsSharesDataSource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
@@ -248,13 +248,13 @@ export interface DataNetappOntapProtocolsCifsSharesDataSourceProtocolsCifsShares
   * 							variables in any combination with this parameter to generate shares dynamically.
   * 							
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_shares_data_source#name DataNetappOntapProtocolsCifsSharesDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_shares_data_source#name DataNetappOntapProtocolsCifsSharesDataSource#name}
   */
   readonly name: string;
   /**
   * IPInterface svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_shares_data_source#svm_name DataNetappOntapProtocolsCifsSharesDataSource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_shares_data_source#svm_name DataNetappOntapProtocolsCifsSharesDataSource#svm_name}
   */
   readonly svmName?: string;
 }
@@ -346,6 +346,11 @@ export class DataNetappOntapProtocolsCifsSharesDataSourceProtocolsCifsSharesOutp
       this._name = value.name;
       this._svmName = value.svmName;
     }
+  }
+
+  // access_based_enumeration - computed: true, optional: false, required: false
+  public get accessBasedEnumeration() {
+    return this.getBooleanAttribute('access_based_enumeration');
   }
 
   // acls - computed: true, optional: false, required: false
@@ -498,7 +503,7 @@ export class DataNetappOntapProtocolsCifsSharesDataSourceProtocolsCifsSharesList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_shares_data_source netapp-ontap_protocols_cifs_shares_data_source}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_shares_data_source netapp-ontap_protocols_cifs_shares_data_source}
 */
 export class DataNetappOntapProtocolsCifsSharesDataSource extends cdktf.TerraformDataSource {
 
@@ -514,7 +519,7 @@ export class DataNetappOntapProtocolsCifsSharesDataSource extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataNetappOntapProtocolsCifsSharesDataSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapProtocolsCifsSharesDataSource to import
-  * @param importFromId The id of the existing DataNetappOntapProtocolsCifsSharesDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_shares_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapProtocolsCifsSharesDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_shares_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapProtocolsCifsSharesDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -526,7 +531,7 @@ export class DataNetappOntapProtocolsCifsSharesDataSource extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_shares_data_source netapp-ontap_protocols_cifs_shares_data_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_shares_data_source netapp-ontap_protocols_cifs_shares_data_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -537,8 +542,8 @@ export class DataNetappOntapProtocolsCifsSharesDataSource extends cdktf.Terrafor
       terraformResourceType: 'netapp-ontap_protocols_cifs_shares_data_source',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

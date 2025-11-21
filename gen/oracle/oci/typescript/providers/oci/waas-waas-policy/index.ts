@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface WaasWaasPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#additional_domains WaasWaasPolicy#additional_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#additional_domains WaasWaasPolicy#additional_domains}
   */
   readonly additionalDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#compartment_id WaasWaasPolicy#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#compartment_id WaasWaasPolicy#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#defined_tags WaasWaasPolicy#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#defined_tags WaasWaasPolicy#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#display_name WaasWaasPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#display_name WaasWaasPolicy#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#domain WaasWaasPolicy#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#domain WaasWaasPolicy#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#freeform_tags WaasWaasPolicy#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#freeform_tags WaasWaasPolicy#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#id WaasWaasPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#id WaasWaasPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,41 +41,41 @@ export interface WaasWaasPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * origin_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#origin_groups WaasWaasPolicy#origin_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#origin_groups WaasWaasPolicy#origin_groups}
   */
   readonly originGroups?: WaasWaasPolicyOriginGroups[] | cdktf.IResolvable;
   /**
   * origins block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#origins WaasWaasPolicy#origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#origins WaasWaasPolicy#origins}
   */
   readonly origins?: WaasWaasPolicyOrigins[] | cdktf.IResolvable;
   /**
   * policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#policy_config WaasWaasPolicy#policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#policy_config WaasWaasPolicy#policy_config}
   */
   readonly policyConfig?: WaasWaasPolicyPolicyConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#timeouts WaasWaasPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#timeouts WaasWaasPolicy#timeouts}
   */
   readonly timeouts?: WaasWaasPolicyTimeouts;
   /**
   * waf_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#waf_config WaasWaasPolicy#waf_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#waf_config WaasWaasPolicy#waf_config}
   */
   readonly wafConfig?: WaasWaasPolicyWafConfig;
 }
 export interface WaasWaasPolicyOriginGroupsOriginGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#origin WaasWaasPolicy#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#origin WaasWaasPolicy#origin}
   */
   readonly origin: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#weight WaasWaasPolicy#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#weight WaasWaasPolicy#weight}
   */
   readonly weight?: number;
 }
@@ -217,13 +217,13 @@ export class WaasWaasPolicyOriginGroupsOriginGroupList extends cdktf.ComplexList
 }
 export interface WaasWaasPolicyOriginGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#label WaasWaasPolicy#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#label WaasWaasPolicy#label}
   */
   readonly label: string;
   /**
   * origin_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#origin_group WaasWaasPolicy#origin_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#origin_group WaasWaasPolicy#origin_group}
   */
   readonly originGroup: WaasWaasPolicyOriginGroupsOriginGroup[] | cdktf.IResolvable;
 }
@@ -362,11 +362,11 @@ export class WaasWaasPolicyOriginGroupsList extends cdktf.ComplexList {
 }
 export interface WaasWaasPolicyOriginsCustomHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
   */
   readonly value: string;
 }
@@ -505,25 +505,25 @@ export class WaasWaasPolicyOriginsCustomHeadersList extends cdktf.ComplexList {
 }
 export interface WaasWaasPolicyOrigins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#http_port WaasWaasPolicy#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#http_port WaasWaasPolicy#http_port}
   */
   readonly httpPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#https_port WaasWaasPolicy#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#https_port WaasWaasPolicy#https_port}
   */
   readonly httpsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#label WaasWaasPolicy#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#label WaasWaasPolicy#label}
   */
   readonly label: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#uri WaasWaasPolicy#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#uri WaasWaasPolicy#uri}
   */
   readonly uri: string;
   /**
   * custom_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#custom_headers WaasWaasPolicy#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#custom_headers WaasWaasPolicy#custom_headers}
   */
   readonly customHeaders?: WaasWaasPolicyOriginsCustomHeaders[] | cdktf.IResolvable;
 }
@@ -749,47 +749,47 @@ export class WaasWaasPolicyOriginsList extends cdktf.ComplexList {
 }
 export interface WaasWaasPolicyPolicyConfigHealthChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#expected_response_code_group WaasWaasPolicy#expected_response_code_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#expected_response_code_group WaasWaasPolicy#expected_response_code_group}
   */
   readonly expectedResponseCodeGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#expected_response_text WaasWaasPolicy#expected_response_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#expected_response_text WaasWaasPolicy#expected_response_text}
   */
   readonly expectedResponseText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#headers WaasWaasPolicy#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#headers WaasWaasPolicy#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#healthy_threshold WaasWaasPolicy#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#healthy_threshold WaasWaasPolicy#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#interval_in_seconds WaasWaasPolicy#interval_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#interval_in_seconds WaasWaasPolicy#interval_in_seconds}
   */
   readonly intervalInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_enabled WaasWaasPolicy#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_enabled WaasWaasPolicy#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_response_text_check_enabled WaasWaasPolicy#is_response_text_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_response_text_check_enabled WaasWaasPolicy#is_response_text_check_enabled}
   */
   readonly isResponseTextCheckEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#method WaasWaasPolicy#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#method WaasWaasPolicy#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#path WaasWaasPolicy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#path WaasWaasPolicy#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#timeout_in_seconds WaasWaasPolicy#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#timeout_in_seconds WaasWaasPolicy#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#unhealthy_threshold WaasWaasPolicy#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#unhealthy_threshold WaasWaasPolicy#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
 }
@@ -1163,19 +1163,19 @@ export class WaasWaasPolicyPolicyConfigHealthChecksOutputReference extends cdktf
 }
 export interface WaasWaasPolicyPolicyConfigLoadBalancingMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#domain WaasWaasPolicy#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#domain WaasWaasPolicy#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#expiration_time_in_seconds WaasWaasPolicy#expiration_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#expiration_time_in_seconds WaasWaasPolicy#expiration_time_in_seconds}
   */
   readonly expirationTimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#method WaasWaasPolicy#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#method WaasWaasPolicy#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
   */
   readonly name?: string;
 }
@@ -1343,63 +1343,63 @@ export class WaasWaasPolicyPolicyConfigLoadBalancingMethodOutputReference extend
 }
 export interface WaasWaasPolicyPolicyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#certificate_id WaasWaasPolicy#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#certificate_id WaasWaasPolicy#certificate_id}
   */
   readonly certificateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#cipher_group WaasWaasPolicy#cipher_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#cipher_group WaasWaasPolicy#cipher_group}
   */
   readonly cipherGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#client_address_header WaasWaasPolicy#client_address_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#client_address_header WaasWaasPolicy#client_address_header}
   */
   readonly clientAddressHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_behind_cdn WaasWaasPolicy#is_behind_cdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_behind_cdn WaasWaasPolicy#is_behind_cdn}
   */
   readonly isBehindCdn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_cache_control_respected WaasWaasPolicy#is_cache_control_respected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_cache_control_respected WaasWaasPolicy#is_cache_control_respected}
   */
   readonly isCacheControlRespected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_https_enabled WaasWaasPolicy#is_https_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_https_enabled WaasWaasPolicy#is_https_enabled}
   */
   readonly isHttpsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_https_forced WaasWaasPolicy#is_https_forced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_https_forced WaasWaasPolicy#is_https_forced}
   */
   readonly isHttpsForced?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_origin_compression_enabled WaasWaasPolicy#is_origin_compression_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_origin_compression_enabled WaasWaasPolicy#is_origin_compression_enabled}
   */
   readonly isOriginCompressionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_response_buffering_enabled WaasWaasPolicy#is_response_buffering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_response_buffering_enabled WaasWaasPolicy#is_response_buffering_enabled}
   */
   readonly isResponseBufferingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_sni_enabled WaasWaasPolicy#is_sni_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_sni_enabled WaasWaasPolicy#is_sni_enabled}
   */
   readonly isSniEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#tls_protocols WaasWaasPolicy#tls_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#tls_protocols WaasWaasPolicy#tls_protocols}
   */
   readonly tlsProtocols?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#websocket_path_prefixes WaasWaasPolicy#websocket_path_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#websocket_path_prefixes WaasWaasPolicy#websocket_path_prefixes}
   */
   readonly websocketPathPrefixes?: string[];
   /**
   * health_checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#health_checks WaasWaasPolicy#health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#health_checks WaasWaasPolicy#health_checks}
   */
   readonly healthChecks?: WaasWaasPolicyPolicyConfigHealthChecks;
   /**
   * load_balancing_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#load_balancing_method WaasWaasPolicy#load_balancing_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#load_balancing_method WaasWaasPolicy#load_balancing_method}
   */
   readonly loadBalancingMethod?: WaasWaasPolicyPolicyConfigLoadBalancingMethod;
 }
@@ -1860,15 +1860,15 @@ export class WaasWaasPolicyPolicyConfigOutputReference extends cdktf.ComplexObje
 }
 export interface WaasWaasPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#create WaasWaasPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#create WaasWaasPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#delete WaasWaasPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#delete WaasWaasPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#update WaasWaasPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#update WaasWaasPolicy#update}
   */
   readonly update?: string;
 }
@@ -2020,15 +2020,15 @@ export class WaasWaasPolicyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface WaasWaasPolicyWafConfigAccessRulesCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#condition WaasWaasPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#condition WaasWaasPolicy#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_case_sensitive WaasWaasPolicy#is_case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_case_sensitive WaasWaasPolicy#is_case_sensitive}
   */
   readonly isCaseSensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
   */
   readonly value: string;
 }
@@ -2196,15 +2196,15 @@ export class WaasWaasPolicyWafConfigAccessRulesCriteriaList extends cdktf.Comple
 }
 export interface WaasWaasPolicyWafConfigAccessRulesResponseHeaderManipulation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#header WaasWaasPolicy#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#header WaasWaasPolicy#header}
   */
   readonly header: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
   */
   readonly value?: string;
 }
@@ -2372,71 +2372,71 @@ export class WaasWaasPolicyWafConfigAccessRulesResponseHeaderManipulationList ex
 }
 export interface WaasWaasPolicyWafConfigAccessRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_action WaasWaasPolicy#block_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_action WaasWaasPolicy#block_action}
   */
   readonly blockAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_code WaasWaasPolicy#block_error_page_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_code WaasWaasPolicy#block_error_page_code}
   */
   readonly blockErrorPageCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_description WaasWaasPolicy#block_error_page_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_description WaasWaasPolicy#block_error_page_description}
   */
   readonly blockErrorPageDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_message WaasWaasPolicy#block_error_page_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_message WaasWaasPolicy#block_error_page_message}
   */
   readonly blockErrorPageMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}
   */
   readonly blockResponseCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#bypass_challenges WaasWaasPolicy#bypass_challenges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#bypass_challenges WaasWaasPolicy#bypass_challenges}
   */
   readonly bypassChallenges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_footer WaasWaasPolicy#captcha_footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_footer WaasWaasPolicy#captcha_footer}
   */
   readonly captchaFooter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_header WaasWaasPolicy#captcha_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_header WaasWaasPolicy#captcha_header}
   */
   readonly captchaHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_submit_label WaasWaasPolicy#captcha_submit_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_submit_label WaasWaasPolicy#captcha_submit_label}
   */
   readonly captchaSubmitLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_title WaasWaasPolicy#captcha_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_title WaasWaasPolicy#captcha_title}
   */
   readonly captchaTitle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#redirect_response_code WaasWaasPolicy#redirect_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#redirect_response_code WaasWaasPolicy#redirect_response_code}
   */
   readonly redirectResponseCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#redirect_url WaasWaasPolicy#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#redirect_url WaasWaasPolicy#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#criteria WaasWaasPolicy#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#criteria WaasWaasPolicy#criteria}
   */
   readonly criteria: WaasWaasPolicyWafConfigAccessRulesCriteria[] | cdktf.IResolvable;
   /**
   * response_header_manipulation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#response_header_manipulation WaasWaasPolicy#response_header_manipulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#response_header_manipulation WaasWaasPolicy#response_header_manipulation}
   */
   readonly responseHeaderManipulation?: WaasWaasPolicyWafConfigAccessRulesResponseHeaderManipulation[] | cdktf.IResolvable;
 }
@@ -2978,19 +2978,19 @@ export class WaasWaasPolicyWafConfigAccessRulesList extends cdktf.ComplexList {
 }
 export interface WaasWaasPolicyWafConfigAddressRateLimiting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#allowed_rate_per_address WaasWaasPolicy#allowed_rate_per_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#allowed_rate_per_address WaasWaasPolicy#allowed_rate_per_address}
   */
   readonly allowedRatePerAddress?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}
   */
   readonly blockResponseCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_enabled WaasWaasPolicy#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_enabled WaasWaasPolicy#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#max_delayed_count_per_address WaasWaasPolicy#max_delayed_count_per_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#max_delayed_count_per_address WaasWaasPolicy#max_delayed_count_per_address}
   */
   readonly maxDelayedCountPerAddress?: number;
 }
@@ -3158,11 +3158,11 @@ export class WaasWaasPolicyWafConfigAddressRateLimitingOutputReference extends c
 }
 export interface WaasWaasPolicyWafConfigCachingRulesCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#condition WaasWaasPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#condition WaasWaasPolicy#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
   */
   readonly value: string;
 }
@@ -3301,33 +3301,33 @@ export class WaasWaasPolicyWafConfigCachingRulesCriteriaList extends cdktf.Compl
 }
 export interface WaasWaasPolicyWafConfigCachingRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#caching_duration WaasWaasPolicy#caching_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#caching_duration WaasWaasPolicy#caching_duration}
   */
   readonly cachingDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#client_caching_duration WaasWaasPolicy#client_caching_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#client_caching_duration WaasWaasPolicy#client_caching_duration}
   */
   readonly clientCachingDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_client_caching_enabled WaasWaasPolicy#is_client_caching_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_client_caching_enabled WaasWaasPolicy#is_client_caching_enabled}
   */
   readonly isClientCachingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#key WaasWaasPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#key WaasWaasPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
   */
   readonly name: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#criteria WaasWaasPolicy#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#criteria WaasWaasPolicy#criteria}
   */
   readonly criteria: WaasWaasPolicyWafConfigCachingRulesCriteria[] | cdktf.IResolvable;
 }
@@ -3608,31 +3608,31 @@ export class WaasWaasPolicyWafConfigCachingRulesList extends cdktf.ComplexList {
 }
 export interface WaasWaasPolicyWafConfigCaptchas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#failure_message WaasWaasPolicy#failure_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#failure_message WaasWaasPolicy#failure_message}
   */
   readonly failureMessage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#footer_text WaasWaasPolicy#footer_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#footer_text WaasWaasPolicy#footer_text}
   */
   readonly footerText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#header_text WaasWaasPolicy#header_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#header_text WaasWaasPolicy#header_text}
   */
   readonly headerText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#session_expiration_in_seconds WaasWaasPolicy#session_expiration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#session_expiration_in_seconds WaasWaasPolicy#session_expiration_in_seconds}
   */
   readonly sessionExpirationInSeconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#submit_label WaasWaasPolicy#submit_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#submit_label WaasWaasPolicy#submit_label}
   */
   readonly submitLabel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#title WaasWaasPolicy#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#title WaasWaasPolicy#title}
   */
   readonly title: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#url WaasWaasPolicy#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#url WaasWaasPolicy#url}
   */
   readonly url: string;
 }
@@ -3907,11 +3907,11 @@ export class WaasWaasPolicyWafConfigCaptchasList extends cdktf.ComplexList {
 }
 export interface WaasWaasPolicyWafConfigCustomProtectionRulesExclusions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#exclusions WaasWaasPolicy#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#exclusions WaasWaasPolicy#exclusions}
   */
   readonly exclusions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#target WaasWaasPolicy#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#target WaasWaasPolicy#target}
   */
   readonly target?: string;
 }
@@ -4056,11 +4056,11 @@ export class WaasWaasPolicyWafConfigCustomProtectionRulesExclusionsList extends 
 }
 export interface WaasWaasPolicyWafConfigCustomProtectionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#id WaasWaasPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#id WaasWaasPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4069,7 +4069,7 @@ export interface WaasWaasPolicyWafConfigCustomProtectionRules {
   /**
   * exclusions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#exclusions WaasWaasPolicy#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#exclusions WaasWaasPolicy#exclusions}
   */
   readonly exclusions?: WaasWaasPolicyWafConfigCustomProtectionRulesExclusions[] | cdktf.IResolvable;
 }
@@ -4243,39 +4243,39 @@ export class WaasWaasPolicyWafConfigCustomProtectionRulesList extends cdktf.Comp
 }
 export interface WaasWaasPolicyWafConfigDeviceFingerprintChallengeChallengeSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_action WaasWaasPolicy#block_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_action WaasWaasPolicy#block_action}
   */
   readonly blockAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_code WaasWaasPolicy#block_error_page_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_code WaasWaasPolicy#block_error_page_code}
   */
   readonly blockErrorPageCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_description WaasWaasPolicy#block_error_page_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_description WaasWaasPolicy#block_error_page_description}
   */
   readonly blockErrorPageDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_message WaasWaasPolicy#block_error_page_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_message WaasWaasPolicy#block_error_page_message}
   */
   readonly blockErrorPageMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}
   */
   readonly blockResponseCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_footer WaasWaasPolicy#captcha_footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_footer WaasWaasPolicy#captcha_footer}
   */
   readonly captchaFooter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_header WaasWaasPolicy#captcha_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_header WaasWaasPolicy#captcha_header}
   */
   readonly captchaHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_submit_label WaasWaasPolicy#captcha_submit_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_submit_label WaasWaasPolicy#captcha_submit_label}
   */
   readonly captchaSubmitLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_title WaasWaasPolicy#captcha_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_title WaasWaasPolicy#captcha_title}
   */
   readonly captchaTitle?: string;
 }
@@ -4591,37 +4591,37 @@ export class WaasWaasPolicyWafConfigDeviceFingerprintChallengeChallengeSettingsO
 }
 export interface WaasWaasPolicyWafConfigDeviceFingerprintChallenge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#action_expiration_in_seconds WaasWaasPolicy#action_expiration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#action_expiration_in_seconds WaasWaasPolicy#action_expiration_in_seconds}
   */
   readonly actionExpirationInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#failure_threshold WaasWaasPolicy#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#failure_threshold WaasWaasPolicy#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#failure_threshold_expiration_in_seconds WaasWaasPolicy#failure_threshold_expiration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#failure_threshold_expiration_in_seconds WaasWaasPolicy#failure_threshold_expiration_in_seconds}
   */
   readonly failureThresholdExpirationInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_enabled WaasWaasPolicy#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_enabled WaasWaasPolicy#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#max_address_count WaasWaasPolicy#max_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#max_address_count WaasWaasPolicy#max_address_count}
   */
   readonly maxAddressCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#max_address_count_expiration_in_seconds WaasWaasPolicy#max_address_count_expiration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#max_address_count_expiration_in_seconds WaasWaasPolicy#max_address_count_expiration_in_seconds}
   */
   readonly maxAddressCountExpirationInSeconds?: number;
   /**
   * challenge_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#challenge_settings WaasWaasPolicy#challenge_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#challenge_settings WaasWaasPolicy#challenge_settings}
   */
   readonly challengeSettings?: WaasWaasPolicyWafConfigDeviceFingerprintChallengeChallengeSettings;
 }
@@ -4905,39 +4905,39 @@ export class WaasWaasPolicyWafConfigDeviceFingerprintChallengeOutputReference ex
 }
 export interface WaasWaasPolicyWafConfigHumanInteractionChallengeChallengeSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_action WaasWaasPolicy#block_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_action WaasWaasPolicy#block_action}
   */
   readonly blockAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_code WaasWaasPolicy#block_error_page_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_code WaasWaasPolicy#block_error_page_code}
   */
   readonly blockErrorPageCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_description WaasWaasPolicy#block_error_page_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_description WaasWaasPolicy#block_error_page_description}
   */
   readonly blockErrorPageDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_message WaasWaasPolicy#block_error_page_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_message WaasWaasPolicy#block_error_page_message}
   */
   readonly blockErrorPageMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}
   */
   readonly blockResponseCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_footer WaasWaasPolicy#captcha_footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_footer WaasWaasPolicy#captcha_footer}
   */
   readonly captchaFooter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_header WaasWaasPolicy#captcha_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_header WaasWaasPolicy#captcha_header}
   */
   readonly captchaHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_submit_label WaasWaasPolicy#captcha_submit_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_submit_label WaasWaasPolicy#captcha_submit_label}
   */
   readonly captchaSubmitLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_title WaasWaasPolicy#captcha_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_title WaasWaasPolicy#captcha_title}
   */
   readonly captchaTitle?: string;
 }
@@ -5253,11 +5253,11 @@ export class WaasWaasPolicyWafConfigHumanInteractionChallengeChallengeSettingsOu
 }
 export interface WaasWaasPolicyWafConfigHumanInteractionChallengeSetHttpHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
   */
   readonly value: string;
 }
@@ -5364,47 +5364,47 @@ export class WaasWaasPolicyWafConfigHumanInteractionChallengeSetHttpHeaderOutput
 }
 export interface WaasWaasPolicyWafConfigHumanInteractionChallenge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#action_expiration_in_seconds WaasWaasPolicy#action_expiration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#action_expiration_in_seconds WaasWaasPolicy#action_expiration_in_seconds}
   */
   readonly actionExpirationInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#failure_threshold WaasWaasPolicy#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#failure_threshold WaasWaasPolicy#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#failure_threshold_expiration_in_seconds WaasWaasPolicy#failure_threshold_expiration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#failure_threshold_expiration_in_seconds WaasWaasPolicy#failure_threshold_expiration_in_seconds}
   */
   readonly failureThresholdExpirationInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#interaction_threshold WaasWaasPolicy#interaction_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#interaction_threshold WaasWaasPolicy#interaction_threshold}
   */
   readonly interactionThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_enabled WaasWaasPolicy#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_enabled WaasWaasPolicy#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_nat_enabled WaasWaasPolicy#is_nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_nat_enabled WaasWaasPolicy#is_nat_enabled}
   */
   readonly isNatEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#recording_period_in_seconds WaasWaasPolicy#recording_period_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#recording_period_in_seconds WaasWaasPolicy#recording_period_in_seconds}
   */
   readonly recordingPeriodInSeconds?: number;
   /**
   * challenge_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#challenge_settings WaasWaasPolicy#challenge_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#challenge_settings WaasWaasPolicy#challenge_settings}
   */
   readonly challengeSettings?: WaasWaasPolicyWafConfigHumanInteractionChallengeChallengeSettings;
   /**
   * set_http_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#set_http_header WaasWaasPolicy#set_http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#set_http_header WaasWaasPolicy#set_http_header}
   */
   readonly setHttpHeader?: WaasWaasPolicyWafConfigHumanInteractionChallengeSetHttpHeader;
 }
@@ -5746,39 +5746,39 @@ export class WaasWaasPolicyWafConfigHumanInteractionChallengeOutputReference ext
 }
 export interface WaasWaasPolicyWafConfigJsChallengeChallengeSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_action WaasWaasPolicy#block_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_action WaasWaasPolicy#block_action}
   */
   readonly blockAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_code WaasWaasPolicy#block_error_page_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_code WaasWaasPolicy#block_error_page_code}
   */
   readonly blockErrorPageCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_description WaasWaasPolicy#block_error_page_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_description WaasWaasPolicy#block_error_page_description}
   */
   readonly blockErrorPageDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_message WaasWaasPolicy#block_error_page_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_message WaasWaasPolicy#block_error_page_message}
   */
   readonly blockErrorPageMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}
   */
   readonly blockResponseCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_footer WaasWaasPolicy#captcha_footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_footer WaasWaasPolicy#captcha_footer}
   */
   readonly captchaFooter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_header WaasWaasPolicy#captcha_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_header WaasWaasPolicy#captcha_header}
   */
   readonly captchaHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_submit_label WaasWaasPolicy#captcha_submit_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_submit_label WaasWaasPolicy#captcha_submit_label}
   */
   readonly captchaSubmitLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captcha_title WaasWaasPolicy#captcha_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captcha_title WaasWaasPolicy#captcha_title}
   */
   readonly captchaTitle?: string;
 }
@@ -6094,15 +6094,15 @@ export class WaasWaasPolicyWafConfigJsChallengeChallengeSettingsOutputReference 
 }
 export interface WaasWaasPolicyWafConfigJsChallengeCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#condition WaasWaasPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#condition WaasWaasPolicy#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_case_sensitive WaasWaasPolicy#is_case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_case_sensitive WaasWaasPolicy#is_case_sensitive}
   */
   readonly isCaseSensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
   */
   readonly value: string;
 }
@@ -6270,11 +6270,11 @@ export class WaasWaasPolicyWafConfigJsChallengeCriteriaList extends cdktf.Comple
 }
 export interface WaasWaasPolicyWafConfigJsChallengeSetHttpHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}
   */
   readonly value: string;
 }
@@ -6381,45 +6381,45 @@ export class WaasWaasPolicyWafConfigJsChallengeSetHttpHeaderOutputReference exte
 }
 export interface WaasWaasPolicyWafConfigJsChallenge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#action_expiration_in_seconds WaasWaasPolicy#action_expiration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#action_expiration_in_seconds WaasWaasPolicy#action_expiration_in_seconds}
   */
   readonly actionExpirationInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#are_redirects_challenged WaasWaasPolicy#are_redirects_challenged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#are_redirects_challenged WaasWaasPolicy#are_redirects_challenged}
   */
   readonly areRedirectsChallenged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#failure_threshold WaasWaasPolicy#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#failure_threshold WaasWaasPolicy#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_enabled WaasWaasPolicy#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_enabled WaasWaasPolicy#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_nat_enabled WaasWaasPolicy#is_nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_nat_enabled WaasWaasPolicy#is_nat_enabled}
   */
   readonly isNatEnabled?: boolean | cdktf.IResolvable;
   /**
   * challenge_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#challenge_settings WaasWaasPolicy#challenge_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#challenge_settings WaasWaasPolicy#challenge_settings}
   */
   readonly challengeSettings?: WaasWaasPolicyWafConfigJsChallengeChallengeSettings;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#criteria WaasWaasPolicy#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#criteria WaasWaasPolicy#criteria}
   */
   readonly criteria?: WaasWaasPolicyWafConfigJsChallengeCriteria[] | cdktf.IResolvable;
   /**
   * set_http_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#set_http_header WaasWaasPolicy#set_http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#set_http_header WaasWaasPolicy#set_http_header}
   */
   readonly setHttpHeader?: WaasWaasPolicyWafConfigJsChallengeSetHttpHeader;
 }
@@ -6732,55 +6732,55 @@ export class WaasWaasPolicyWafConfigJsChallengeOutputReference extends cdktf.Com
 }
 export interface WaasWaasPolicyWafConfigProtectionSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#allowed_http_methods WaasWaasPolicy#allowed_http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#allowed_http_methods WaasWaasPolicy#allowed_http_methods}
   */
   readonly allowedHttpMethods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_action WaasWaasPolicy#block_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_action WaasWaasPolicy#block_action}
   */
   readonly blockAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_code WaasWaasPolicy#block_error_page_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_code WaasWaasPolicy#block_error_page_code}
   */
   readonly blockErrorPageCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_description WaasWaasPolicy#block_error_page_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_description WaasWaasPolicy#block_error_page_description}
   */
   readonly blockErrorPageDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_error_page_message WaasWaasPolicy#block_error_page_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_error_page_message WaasWaasPolicy#block_error_page_message}
   */
   readonly blockErrorPageMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}
   */
   readonly blockResponseCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#is_response_inspected WaasWaasPolicy#is_response_inspected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#is_response_inspected WaasWaasPolicy#is_response_inspected}
   */
   readonly isResponseInspected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#max_argument_count WaasWaasPolicy#max_argument_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#max_argument_count WaasWaasPolicy#max_argument_count}
   */
   readonly maxArgumentCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#max_name_length_per_argument WaasWaasPolicy#max_name_length_per_argument}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#max_name_length_per_argument WaasWaasPolicy#max_name_length_per_argument}
   */
   readonly maxNameLengthPerArgument?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#max_response_size_in_ki_b WaasWaasPolicy#max_response_size_in_ki_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#max_response_size_in_ki_b WaasWaasPolicy#max_response_size_in_ki_b}
   */
   readonly maxResponseSizeInKiB?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#max_total_name_length_of_arguments WaasWaasPolicy#max_total_name_length_of_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#max_total_name_length_of_arguments WaasWaasPolicy#max_total_name_length_of_arguments}
   */
   readonly maxTotalNameLengthOfArguments?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#media_types WaasWaasPolicy#media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#media_types WaasWaasPolicy#media_types}
   */
   readonly mediaTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#recommendations_period_in_days WaasWaasPolicy#recommendations_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#recommendations_period_in_days WaasWaasPolicy#recommendations_period_in_days}
   */
   readonly recommendationsPeriodInDays?: number;
 }
@@ -7212,15 +7212,15 @@ export class WaasWaasPolicyWafConfigProtectionSettingsOutputReference extends cd
 }
 export interface WaasWaasPolicyWafConfigWhitelists {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#address_lists WaasWaasPolicy#address_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#address_lists WaasWaasPolicy#address_lists}
   */
   readonly addressLists?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#addresses WaasWaasPolicy#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#addresses WaasWaasPolicy#addresses}
   */
   readonly addresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}
   */
   readonly name: string;
 }
@@ -7391,71 +7391,71 @@ export class WaasWaasPolicyWafConfigWhitelistsList extends cdktf.ComplexList {
 }
 export interface WaasWaasPolicyWafConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#origin WaasWaasPolicy#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#origin WaasWaasPolicy#origin}
   */
   readonly origin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#origin_groups WaasWaasPolicy#origin_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#origin_groups WaasWaasPolicy#origin_groups}
   */
   readonly originGroups?: string[];
   /**
   * access_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#access_rules WaasWaasPolicy#access_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#access_rules WaasWaasPolicy#access_rules}
   */
   readonly accessRules?: WaasWaasPolicyWafConfigAccessRules[] | cdktf.IResolvable;
   /**
   * address_rate_limiting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#address_rate_limiting WaasWaasPolicy#address_rate_limiting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#address_rate_limiting WaasWaasPolicy#address_rate_limiting}
   */
   readonly addressRateLimiting?: WaasWaasPolicyWafConfigAddressRateLimiting;
   /**
   * caching_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#caching_rules WaasWaasPolicy#caching_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#caching_rules WaasWaasPolicy#caching_rules}
   */
   readonly cachingRules?: WaasWaasPolicyWafConfigCachingRules[] | cdktf.IResolvable;
   /**
   * captchas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#captchas WaasWaasPolicy#captchas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#captchas WaasWaasPolicy#captchas}
   */
   readonly captchas?: WaasWaasPolicyWafConfigCaptchas[] | cdktf.IResolvable;
   /**
   * custom_protection_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#custom_protection_rules WaasWaasPolicy#custom_protection_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#custom_protection_rules WaasWaasPolicy#custom_protection_rules}
   */
   readonly customProtectionRules?: WaasWaasPolicyWafConfigCustomProtectionRules[] | cdktf.IResolvable;
   /**
   * device_fingerprint_challenge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#device_fingerprint_challenge WaasWaasPolicy#device_fingerprint_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#device_fingerprint_challenge WaasWaasPolicy#device_fingerprint_challenge}
   */
   readonly deviceFingerprintChallenge?: WaasWaasPolicyWafConfigDeviceFingerprintChallenge;
   /**
   * human_interaction_challenge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#human_interaction_challenge WaasWaasPolicy#human_interaction_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#human_interaction_challenge WaasWaasPolicy#human_interaction_challenge}
   */
   readonly humanInteractionChallenge?: WaasWaasPolicyWafConfigHumanInteractionChallenge;
   /**
   * js_challenge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#js_challenge WaasWaasPolicy#js_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#js_challenge WaasWaasPolicy#js_challenge}
   */
   readonly jsChallenge?: WaasWaasPolicyWafConfigJsChallenge;
   /**
   * protection_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#protection_settings WaasWaasPolicy#protection_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#protection_settings WaasWaasPolicy#protection_settings}
   */
   readonly protectionSettings?: WaasWaasPolicyWafConfigProtectionSettings;
   /**
   * whitelists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#whitelists WaasWaasPolicy#whitelists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#whitelists WaasWaasPolicy#whitelists}
   */
   readonly whitelists?: WaasWaasPolicyWafConfigWhitelists[] | cdktf.IResolvable;
 }
@@ -7858,7 +7858,7 @@ export class WaasWaasPolicyWafConfigOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy oci_waas_waas_policy}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy oci_waas_waas_policy}
 */
 export class WaasWaasPolicy extends cdktf.TerraformResource {
 
@@ -7874,7 +7874,7 @@ export class WaasWaasPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WaasWaasPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WaasWaasPolicy to import
-  * @param importFromId The id of the existing WaasWaasPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WaasWaasPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WaasWaasPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7886,7 +7886,7 @@ export class WaasWaasPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_waas_policy oci_waas_waas_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waas_waas_policy oci_waas_waas_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7897,8 +7897,8 @@ export class WaasWaasPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'oci_waas_waas_policy',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface FleetAppsManagementCatalogItemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#clone_catalog_item_trigger FleetAppsManagementCatalogItem#clone_catalog_item_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#clone_catalog_item_trigger FleetAppsManagementCatalogItem#clone_catalog_item_trigger}
   */
   readonly cloneCatalogItemTrigger?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#compartment_id FleetAppsManagementCatalogItem#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#compartment_id FleetAppsManagementCatalogItem#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#config_source_type FleetAppsManagementCatalogItem#config_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#config_source_type FleetAppsManagementCatalogItem#config_source_type}
   */
   readonly configSourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#defined_tags FleetAppsManagementCatalogItem#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#defined_tags FleetAppsManagementCatalogItem#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#description FleetAppsManagementCatalogItem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#description FleetAppsManagementCatalogItem#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#display_name FleetAppsManagementCatalogItem#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#display_name FleetAppsManagementCatalogItem#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#freeform_tags FleetAppsManagementCatalogItem#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#freeform_tags FleetAppsManagementCatalogItem#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#id FleetAppsManagementCatalogItem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#id FleetAppsManagementCatalogItem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#listing_id FleetAppsManagementCatalogItem#listing_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#listing_id FleetAppsManagementCatalogItem#listing_id}
   */
   readonly listingId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#listing_version FleetAppsManagementCatalogItem#listing_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#listing_version FleetAppsManagementCatalogItem#listing_version}
   */
   readonly listingVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#package_type FleetAppsManagementCatalogItem#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#package_type FleetAppsManagementCatalogItem#package_type}
   */
   readonly packageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#short_description FleetAppsManagementCatalogItem#short_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#short_description FleetAppsManagementCatalogItem#short_description}
   */
   readonly shortDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#time_released FleetAppsManagementCatalogItem#time_released}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#time_released FleetAppsManagementCatalogItem#time_released}
   */
   readonly timeReleased?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#version_description FleetAppsManagementCatalogItem#version_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#version_description FleetAppsManagementCatalogItem#version_description}
   */
   readonly versionDescription?: string;
   /**
   * catalog_source_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#catalog_source_payload FleetAppsManagementCatalogItem#catalog_source_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#catalog_source_payload FleetAppsManagementCatalogItem#catalog_source_payload}
   */
   readonly catalogSourcePayload?: FleetAppsManagementCatalogItemCatalogSourcePayload;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#timeouts FleetAppsManagementCatalogItem#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#timeouts FleetAppsManagementCatalogItem#timeouts}
   */
   readonly timeouts?: FleetAppsManagementCatalogItemTimeouts;
 }
@@ -191,67 +191,67 @@ export class FleetAppsManagementCatalogItemCatalogResultPayloadList extends cdkt
 }
 export interface FleetAppsManagementCatalogItemCatalogSourcePayload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#access_uri FleetAppsManagementCatalogItem#access_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#access_uri FleetAppsManagementCatalogItem#access_uri}
   */
   readonly accessUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#branch_name FleetAppsManagementCatalogItem#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#branch_name FleetAppsManagementCatalogItem#branch_name}
   */
   readonly branchName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#bucket FleetAppsManagementCatalogItem#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#bucket FleetAppsManagementCatalogItem#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#config_source_type FleetAppsManagementCatalogItem#config_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#config_source_type FleetAppsManagementCatalogItem#config_source_type}
   */
   readonly configSourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#configuration_source_provider_id FleetAppsManagementCatalogItem#configuration_source_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#configuration_source_provider_id FleetAppsManagementCatalogItem#configuration_source_provider_id}
   */
   readonly configurationSourceProviderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#description FleetAppsManagementCatalogItem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#description FleetAppsManagementCatalogItem#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#listing_id FleetAppsManagementCatalogItem#listing_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#listing_id FleetAppsManagementCatalogItem#listing_id}
   */
   readonly listingId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#long_description FleetAppsManagementCatalogItem#long_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#long_description FleetAppsManagementCatalogItem#long_description}
   */
   readonly longDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#namespace FleetAppsManagementCatalogItem#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#namespace FleetAppsManagementCatalogItem#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#object FleetAppsManagementCatalogItem#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#object FleetAppsManagementCatalogItem#object}
   */
   readonly object?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#repository_url FleetAppsManagementCatalogItem#repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#repository_url FleetAppsManagementCatalogItem#repository_url}
   */
   readonly repositoryUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#template_display_name FleetAppsManagementCatalogItem#template_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#template_display_name FleetAppsManagementCatalogItem#template_display_name}
   */
   readonly templateDisplayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#time_expires FleetAppsManagementCatalogItem#time_expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#time_expires FleetAppsManagementCatalogItem#time_expires}
   */
   readonly timeExpires?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#version FleetAppsManagementCatalogItem#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#version FleetAppsManagementCatalogItem#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#working_directory FleetAppsManagementCatalogItem#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#working_directory FleetAppsManagementCatalogItem#working_directory}
   */
   readonly workingDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#zip_file_base64encoded FleetAppsManagementCatalogItem#zip_file_base64encoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#zip_file_base64encoded FleetAppsManagementCatalogItem#zip_file_base64encoded}
   */
   readonly zipFileBase64Encoded?: string;
 }
@@ -767,15 +767,15 @@ export class FleetAppsManagementCatalogItemCatalogSourcePayloadOutputReference e
 }
 export interface FleetAppsManagementCatalogItemTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#create FleetAppsManagementCatalogItem#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#create FleetAppsManagementCatalogItem#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#delete FleetAppsManagementCatalogItem#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#delete FleetAppsManagementCatalogItem#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#update FleetAppsManagementCatalogItem#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#update FleetAppsManagementCatalogItem#update}
   */
   readonly update?: string;
 }
@@ -927,7 +927,7 @@ export class FleetAppsManagementCatalogItemTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item oci_fleet_apps_management_catalog_item}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item oci_fleet_apps_management_catalog_item}
 */
 export class FleetAppsManagementCatalogItem extends cdktf.TerraformResource {
 
@@ -943,7 +943,7 @@ export class FleetAppsManagementCatalogItem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FleetAppsManagementCatalogItem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FleetAppsManagementCatalogItem to import
-  * @param importFromId The id of the existing FleetAppsManagementCatalogItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FleetAppsManagementCatalogItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FleetAppsManagementCatalogItem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -955,7 +955,7 @@ export class FleetAppsManagementCatalogItem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_catalog_item oci_fleet_apps_management_catalog_item} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/fleet_apps_management_catalog_item oci_fleet_apps_management_catalog_item} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -966,8 +966,8 @@ export class FleetAppsManagementCatalogItem extends cdktf.TerraformResource {
       terraformResourceType: 'oci_fleet_apps_management_catalog_item',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

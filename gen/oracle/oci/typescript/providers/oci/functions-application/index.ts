@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface FunctionsApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#compartment_id FunctionsApplication#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#compartment_id FunctionsApplication#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#config FunctionsApplication#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#config FunctionsApplication#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#defined_tags FunctionsApplication#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#defined_tags FunctionsApplication#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#display_name FunctionsApplication#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#display_name FunctionsApplication#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#freeform_tags FunctionsApplication#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#freeform_tags FunctionsApplication#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#id FunctionsApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#id FunctionsApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#network_security_group_ids FunctionsApplication#network_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#network_security_group_ids FunctionsApplication#network_security_group_ids}
   */
   readonly networkSecurityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#security_attributes FunctionsApplication#security_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#security_attributes FunctionsApplication#security_attributes}
   */
   readonly securityAttributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#shape FunctionsApplication#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#shape FunctionsApplication#shape}
   */
   readonly shape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#subnet_ids FunctionsApplication#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#subnet_ids FunctionsApplication#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#syslog_url FunctionsApplication#syslog_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#syslog_url FunctionsApplication#syslog_url}
   */
   readonly syslogUrl?: string;
   /**
   * image_policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#image_policy_config FunctionsApplication#image_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#image_policy_config FunctionsApplication#image_policy_config}
   */
   readonly imagePolicyConfig?: FunctionsApplicationImagePolicyConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#timeouts FunctionsApplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#timeouts FunctionsApplication#timeouts}
   */
   readonly timeouts?: FunctionsApplicationTimeouts;
   /**
   * trace_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#trace_config FunctionsApplication#trace_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#trace_config FunctionsApplication#trace_config}
   */
   readonly traceConfig?: FunctionsApplicationTraceConfig;
 }
 export interface FunctionsApplicationImagePolicyConfigKeyDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#kms_key_id FunctionsApplication#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#kms_key_id FunctionsApplication#kms_key_id}
   */
   readonly kmsKeyId: string;
 }
@@ -188,13 +188,13 @@ export class FunctionsApplicationImagePolicyConfigKeyDetailsList extends cdktf.C
 }
 export interface FunctionsApplicationImagePolicyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#is_policy_enabled FunctionsApplication#is_policy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#is_policy_enabled FunctionsApplication#is_policy_enabled}
   */
   readonly isPolicyEnabled: boolean | cdktf.IResolvable;
   /**
   * key_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#key_details FunctionsApplication#key_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#key_details FunctionsApplication#key_details}
   */
   readonly keyDetails?: FunctionsApplicationImagePolicyConfigKeyDetails[] | cdktf.IResolvable;
 }
@@ -304,15 +304,15 @@ export class FunctionsApplicationImagePolicyConfigOutputReference extends cdktf.
 }
 export interface FunctionsApplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#create FunctionsApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#create FunctionsApplication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#delete FunctionsApplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#delete FunctionsApplication#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#update FunctionsApplication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#update FunctionsApplication#update}
   */
   readonly update?: string;
 }
@@ -464,11 +464,11 @@ export class FunctionsApplicationTimeoutsOutputReference extends cdktf.ComplexOb
 }
 export interface FunctionsApplicationTraceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#domain_id FunctionsApplication#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#domain_id FunctionsApplication#domain_id}
   */
   readonly domainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#is_enabled FunctionsApplication#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#is_enabled FunctionsApplication#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -581,7 +581,7 @@ export class FunctionsApplicationTraceConfigOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application oci_functions_application}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application oci_functions_application}
 */
 export class FunctionsApplication extends cdktf.TerraformResource {
 
@@ -597,7 +597,7 @@ export class FunctionsApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FunctionsApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FunctionsApplication to import
-  * @param importFromId The id of the existing FunctionsApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FunctionsApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FunctionsApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -609,7 +609,7 @@ export class FunctionsApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_application oci_functions_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/functions_application oci_functions_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -620,8 +620,8 @@ export class FunctionsApplication extends cdktf.TerraformResource {
       terraformResourceType: 'oci_functions_application',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

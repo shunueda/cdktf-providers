@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface NetworkingIpInterfaceResourceConfig extends cdktf.TerraformMeta
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#cx_profile_name NetworkingIpInterfaceResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#cx_profile_name NetworkingIpInterfaceResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#ip NetworkingIpInterfaceResource#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#ip NetworkingIpInterfaceResource#ip}
   */
   readonly ip: NetworkingIpInterfaceResourceIp;
   /**
   * IPInterface ipspace name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#ipspace NetworkingIpInterfaceResource#ipspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#ipspace NetworkingIpInterfaceResource#ipspace}
   */
   readonly ipspace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#location NetworkingIpInterfaceResource#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#location NetworkingIpInterfaceResource#location}
   */
   readonly location: NetworkingIpInterfaceResourceLocation;
   /**
   * IPInterface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#name NetworkingIpInterfaceResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#name NetworkingIpInterfaceResource#name}
   */
   readonly name: string;
   /**
   * IPInterface service policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#service_policy NetworkingIpInterfaceResource#service_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#service_policy NetworkingIpInterfaceResource#service_policy}
   */
   readonly servicePolicy?: string;
   /**
   * IPInterface svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#svm_name NetworkingIpInterfaceResource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#svm_name NetworkingIpInterfaceResource#svm_name}
   */
   readonly svmName?: string;
 }
@@ -50,13 +50,13 @@ export interface NetworkingIpInterfaceResourceIp {
   /**
   * IPInterface IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#address NetworkingIpInterfaceResource#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#address NetworkingIpInterfaceResource#address}
   */
   readonly address: string;
   /**
   * IPInterface IP netmask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#netmask NetworkingIpInterfaceResource#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#netmask NetworkingIpInterfaceResource#netmask}
   */
   readonly netmask: number;
 }
@@ -175,7 +175,7 @@ export interface NetworkingIpInterfaceResourceLocationBroadcastDomain {
   /**
   * Broadcast domain UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#id NetworkingIpInterfaceResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#id NetworkingIpInterfaceResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -184,7 +184,7 @@ export interface NetworkingIpInterfaceResourceLocationBroadcastDomain {
   /**
   * Name of the broadcast domain, scoped to its IPspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#name NetworkingIpInterfaceResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#name NetworkingIpInterfaceResource#name}
   */
   readonly name?: string;
 }
@@ -309,19 +309,19 @@ export interface NetworkingIpInterfaceResourceLocation {
   /**
   * Broadcast domain UUID along with a readable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#broadcast_domain NetworkingIpInterfaceResource#broadcast_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#broadcast_domain NetworkingIpInterfaceResource#broadcast_domain}
   */
   readonly broadcastDomain?: NetworkingIpInterfaceResourceLocationBroadcastDomain;
   /**
   * IPInterface home node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#home_node NetworkingIpInterfaceResource#home_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#home_node NetworkingIpInterfaceResource#home_node}
   */
   readonly homeNode?: string;
   /**
   * IPInterface home port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#home_port NetworkingIpInterfaceResource#home_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#home_port NetworkingIpInterfaceResource#home_port}
   */
   readonly homePort?: string;
 }
@@ -473,7 +473,7 @@ export class NetworkingIpInterfaceResourceLocationOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource netapp-ontap_networking_ip_interface_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource netapp-ontap_networking_ip_interface_resource}
 */
 export class NetworkingIpInterfaceResource extends cdktf.TerraformResource {
 
@@ -489,7 +489,7 @@ export class NetworkingIpInterfaceResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingIpInterfaceResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingIpInterfaceResource to import
-  * @param importFromId The id of the existing NetworkingIpInterfaceResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingIpInterfaceResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingIpInterfaceResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -501,7 +501,7 @@ export class NetworkingIpInterfaceResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_interface_resource netapp-ontap_networking_ip_interface_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_interface_resource netapp-ontap_networking_ip_interface_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -512,8 +512,8 @@ export class NetworkingIpInterfaceResource extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_networking_ip_interface_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

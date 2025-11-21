@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/identity
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataChainguardIdentityConfig extends cdktf.TerraformMetaArgumen
   /**
   * The exact issuer of the identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/identity#issuer DataChainguardIdentity#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/identity#issuer DataChainguardIdentity#issuer}
   */
   readonly issuer: string;
   /**
   * The exact subject of the identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/identity#subject DataChainguardIdentity#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/identity#subject DataChainguardIdentity#subject}
   */
   readonly subject: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/identity chainguard_identity}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/identity chainguard_identity}
 */
 export class DataChainguardIdentity extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataChainguardIdentity extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataChainguardIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataChainguardIdentity to import
-  * @param importFromId The id of the existing DataChainguardIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataChainguardIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataChainguardIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataChainguardIdentity extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/identity chainguard_identity} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/identity chainguard_identity} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataChainguardIdentity extends cdktf.TerraformDataSource {
       terraformResourceType: 'chainguard_identity',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.40',
-        providerVersionConstraint: '0.1.40'
+        providerVersion: '0.1.41',
+        providerVersionConstraint: '0.1.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

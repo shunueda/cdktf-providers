@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapshot_policies
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapshot_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapSnapshotPoliciesConfig extends cdktf.TerraformMe
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapshot_policies#cx_profile_name DataNetappOntapSnapshotPolicies#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapshot_policies#cx_profile_name DataNetappOntapSnapshotPolicies#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapshot_policies#filter DataNetappOntapSnapshotPolicies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapshot_policies#filter DataNetappOntapSnapshotPolicies#filter}
   */
   readonly filter?: DataNetappOntapSnapshotPoliciesFilter;
 }
@@ -22,13 +22,13 @@ export interface DataNetappOntapSnapshotPoliciesFilter {
   /**
   * SnapshotPolicy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapshot_policies#name DataNetappOntapSnapshotPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapshot_policies#name DataNetappOntapSnapshotPolicies#name}
   */
   readonly name?: string;
   /**
   * SnapshotPolicy svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapshot_policies#svm_name DataNetappOntapSnapshotPolicies#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapshot_policies#svm_name DataNetappOntapSnapshotPolicies#svm_name}
   */
   readonly svmName?: string;
 }
@@ -207,7 +207,7 @@ export interface DataNetappOntapSnapshotPoliciesStorageSnapshotPoliciesCopies {
   /**
   * Schedule at which Snapshot copies are captured on the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapshot_policies#schedule DataNetappOntapSnapshotPolicies#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapshot_policies#schedule DataNetappOntapSnapshotPolicies#schedule}
   */
   readonly schedule: DataNetappOntapSnapshotPoliciesStorageSnapshotPoliciesCopiesSchedule;
 }
@@ -332,13 +332,13 @@ export interface DataNetappOntapSnapshotPoliciesStorageSnapshotPolicies {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapshot_policies#cx_profile_name DataNetappOntapSnapshotPolicies#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapshot_policies#cx_profile_name DataNetappOntapSnapshotPolicies#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * SnapshotPolicy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapshot_policies#name DataNetappOntapSnapshotPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapshot_policies#name DataNetappOntapSnapshotPolicies#name}
   */
   readonly name: string;
 }
@@ -493,7 +493,7 @@ export class DataNetappOntapSnapshotPoliciesStorageSnapshotPoliciesList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapshot_policies netapp-ontap_snapshot_policies}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapshot_policies netapp-ontap_snapshot_policies}
 */
 export class DataNetappOntapSnapshotPolicies extends cdktf.TerraformDataSource {
 
@@ -509,7 +509,7 @@ export class DataNetappOntapSnapshotPolicies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapSnapshotPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapSnapshotPolicies to import
-  * @param importFromId The id of the existing DataNetappOntapSnapshotPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapshot_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapSnapshotPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapshot_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapSnapshotPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -521,7 +521,7 @@ export class DataNetappOntapSnapshotPolicies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapshot_policies netapp-ontap_snapshot_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapshot_policies netapp-ontap_snapshot_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -532,8 +532,8 @@ export class DataNetappOntapSnapshotPolicies extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_snapshot_policies',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

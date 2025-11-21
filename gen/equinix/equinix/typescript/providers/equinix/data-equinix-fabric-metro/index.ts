@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_metro
+// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_metro
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataEquinixFabricMetroConfig extends cdktf.TerraformMetaArgumen
   /**
   * The metro code this data source should retrieve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_metro#metro_code DataEquinixFabricMetro#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_metro#metro_code DataEquinixFabricMetro#metro_code}
   */
   readonly metroCode: string;
 }
@@ -165,7 +165,7 @@ export class DataEquinixFabricMetroGeoCoordinatesOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_metro equinix_fabric_metro}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_metro equinix_fabric_metro}
 */
 export class DataEquinixFabricMetro extends cdktf.TerraformDataSource {
 
@@ -181,7 +181,7 @@ export class DataEquinixFabricMetro extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixFabricMetro resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricMetro to import
-  * @param importFromId The id of the existing DataEquinixFabricMetro that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_metro#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricMetro that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_metro#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricMetro to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class DataEquinixFabricMetro extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_metro equinix_fabric_metro} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_metro equinix_fabric_metro} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class DataEquinixFabricMetro extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_fabric_metro',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.10.0',
-        providerVersionConstraint: '4.10.0'
+        providerVersion: '4.11.0',
+        providerVersionConstraint: '4.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

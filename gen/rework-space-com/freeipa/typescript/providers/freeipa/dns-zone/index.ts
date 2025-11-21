@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,133 +10,133 @@ export interface DnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Administrator e-mail address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#admin_email_address DnsZone#admin_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#admin_email_address DnsZone#admin_email_address}
   */
   readonly adminEmailAddress?: string;
   /**
   * Allow inline DNSSEC signing of records in the zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#allow_inline_dnssec_signing DnsZone#allow_inline_dnssec_signing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#allow_inline_dnssec_signing DnsZone#allow_inline_dnssec_signing}
   */
   readonly allowInlineDnssecSigning?: boolean | cdktf.IResolvable;
   /**
   * Allow synchronization of forward (A, AAAA) and reverse (PTR) records in the zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#allow_prt_sync DnsZone#allow_prt_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#allow_prt_sync DnsZone#allow_prt_sync}
   */
   readonly allowPrtSync?: boolean | cdktf.IResolvable;
   /**
   * Semicolon separated list of IP addresses or networks which are allowed to issue queries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#allow_query DnsZone#allow_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#allow_query DnsZone#allow_query}
   */
   readonly allowQuery?: string;
   /**
   * Semicolon separated list of IP addresses or networks which are allowed to transfer the zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#allow_transfer DnsZone#allow_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#allow_transfer DnsZone#allow_transfer}
   */
   readonly allowTransfer?: string;
   /**
   * Authoritative nameserver domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#authoritative_nameserver DnsZone#authoritative_nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#authoritative_nameserver DnsZone#authoritative_nameserver}
   */
   readonly authoritativeNameserver?: string;
   /**
   * BIND update policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#bind_update_policy DnsZone#bind_update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#bind_update_policy DnsZone#bind_update_policy}
   */
   readonly bindUpdatePolicy?: string;
   /**
   * Time to live for records without explicit TTL definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#default_ttl DnsZone#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#default_ttl DnsZone#default_ttl}
   */
   readonly defaultTtl?: number;
   /**
   * Allow disabled the zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#disable_zone DnsZone#disable_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#disable_zone DnsZone#disable_zone}
   */
   readonly disableZone?: boolean | cdktf.IResolvable;
   /**
   * Allow dynamic updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#dynamic_updates DnsZone#dynamic_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#dynamic_updates DnsZone#dynamic_updates}
   */
   readonly dynamicUpdates?: boolean | cdktf.IResolvable;
   /**
   * Allow create the reverse zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#is_reverse_zone DnsZone#is_reverse_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#is_reverse_zone DnsZone#is_reverse_zone}
   */
   readonly isReverseZone?: boolean | cdktf.IResolvable;
   /**
   * NSEC3PARAM record for zone in format: hash_algorithm flags iterations salt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#nsec3param_record DnsZone#nsec3param_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#nsec3param_record DnsZone#nsec3param_record}
   */
   readonly nsec3ParamRecord?: string;
   /**
   * Force DNS zone creation even if nameserver is not resolvable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#skip_nameserver_check DnsZone#skip_nameserver_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#skip_nameserver_check DnsZone#skip_nameserver_check}
   */
   readonly skipNameserverCheck?: boolean | cdktf.IResolvable;
   /**
   * Force DNS zone creation even if it will overlap with an existing zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#skip_overlap_check DnsZone#skip_overlap_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#skip_overlap_check DnsZone#skip_overlap_check}
   */
   readonly skipOverlapCheck?: boolean | cdktf.IResolvable;
   /**
   * SOA record expire time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#soa_expire DnsZone#soa_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#soa_expire DnsZone#soa_expire}
   */
   readonly soaExpire?: number;
   /**
   * How long should negative responses be cached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#soa_minimum DnsZone#soa_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#soa_minimum DnsZone#soa_minimum}
   */
   readonly soaMinimum?: number;
   /**
   * SOA record refresh time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#soa_refresh DnsZone#soa_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#soa_refresh DnsZone#soa_refresh}
   */
   readonly soaRefresh?: number;
   /**
   * SOA record retry time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#soa_retry DnsZone#soa_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#soa_retry DnsZone#soa_retry}
   */
   readonly soaRetry?: number;
   /**
   * Time to live for records at zone apex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#ttl DnsZone#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#ttl DnsZone#ttl}
   */
   readonly ttl?: number;
   /**
   * Per-zone forwarders. A custom port can be specified for each forwarder using a standard format IP_ADDRESS port PORT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#zone_forwarders DnsZone#zone_forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#zone_forwarders DnsZone#zone_forwarders}
   */
   readonly zoneForwarders?: string[];
   /**
   * Zone name (FQDN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#zone_name DnsZone#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#zone_name DnsZone#zone_name}
   */
   readonly zoneName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone freeipa_dns_zone}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone freeipa_dns_zone}
 */
 export class DnsZone extends cdktf.TerraformResource {
 
@@ -152,7 +152,7 @@ export class DnsZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsZone to import
-  * @param importFromId The id of the existing DnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class DnsZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.3/docs/resources/dns_zone freeipa_dns_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.1.4/docs/resources/dns_zone freeipa_dns_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,8 +175,8 @@ export class DnsZone extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.3',
-        providerVersionConstraint: '5.1.3'
+        providerVersion: '5.1.4',
+        providerVersionConstraint: '5.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

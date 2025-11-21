@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TrafficForwardingGreTunnelConfig extends cdktf.TerraformMetaArg
   /**
   * Additional information about this GRE tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#comment TrafficForwardingGreTunnel#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#comment TrafficForwardingGreTunnel#comment}
   */
   readonly comment?: string;
   /**
   * When within_country is enabled, you must set this to the country code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#country_code TrafficForwardingGreTunnel#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#country_code TrafficForwardingGreTunnel#country_code}
   */
   readonly countryCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#id TrafficForwardingGreTunnel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#id TrafficForwardingGreTunnel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface TrafficForwardingGreTunnelConfig extends cdktf.TerraformMetaArg
   /**
   * The start of the internal IP address in /29 CIDR range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#internal_ip_range TrafficForwardingGreTunnel#internal_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#internal_ip_range TrafficForwardingGreTunnel#internal_ip_range}
   */
   readonly internalIpRange?: string;
   /**
   * This is required to support the automated SD-WAN provisioning of GRE tunnels, when set to true gre_tun_ip and gre_tun_id are set to null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#ip_unnumbered TrafficForwardingGreTunnel#ip_unnumbered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#ip_unnumbered TrafficForwardingGreTunnel#ip_unnumbered}
   */
   readonly ipUnnumbered?: boolean | cdktf.IResolvable;
   /**
   * The source IP address of the GRE tunnel. This is typically a static IP address in the organization or SD-WAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#source_ip TrafficForwardingGreTunnel#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#source_ip TrafficForwardingGreTunnel#source_ip}
   */
   readonly sourceIp: string;
   /**
   * Restrict the data center virtual IP addresses (VIPs) only to those within the same country as the source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#within_country TrafficForwardingGreTunnel#within_country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#within_country TrafficForwardingGreTunnel#within_country}
   */
   readonly withinCountry?: boolean | cdktf.IResolvable;
   /**
   * primary_dest_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#primary_dest_vip TrafficForwardingGreTunnel#primary_dest_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#primary_dest_vip TrafficForwardingGreTunnel#primary_dest_vip}
   */
   readonly primaryDestVip?: TrafficForwardingGreTunnelPrimaryDestVip[] | cdktf.IResolvable;
   /**
   * secondary_dest_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#secondary_dest_vip TrafficForwardingGreTunnel#secondary_dest_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#secondary_dest_vip TrafficForwardingGreTunnel#secondary_dest_vip}
   */
   readonly secondaryDestVip?: TrafficForwardingGreTunnelSecondaryDestVip[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface TrafficForwardingGreTunnelPrimaryDestVip {
   /**
   * Data center information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#datacenter TrafficForwardingGreTunnel#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#datacenter TrafficForwardingGreTunnel#datacenter}
   */
   readonly datacenter?: string;
   /**
   * GRE cluster virtual IP ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#id TrafficForwardingGreTunnel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#id TrafficForwardingGreTunnel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ export interface TrafficForwardingGreTunnelPrimaryDestVip {
   /**
   * GRE cluster virtual IP address (VIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#virtual_ip TrafficForwardingGreTunnel#virtual_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#virtual_ip TrafficForwardingGreTunnel#virtual_ip}
   */
   readonly virtualIp?: string;
 }
@@ -258,13 +258,13 @@ export interface TrafficForwardingGreTunnelSecondaryDestVip {
   /**
   * Data center information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#datacenter TrafficForwardingGreTunnel#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#datacenter TrafficForwardingGreTunnel#datacenter}
   */
   readonly datacenter?: string;
   /**
   * GRE cluster virtual IP ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#id TrafficForwardingGreTunnel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#id TrafficForwardingGreTunnel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -273,7 +273,7 @@ export interface TrafficForwardingGreTunnelSecondaryDestVip {
   /**
   * GRE cluster virtual IP address (VIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#virtual_ip TrafficForwardingGreTunnel#virtual_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#virtual_ip TrafficForwardingGreTunnel#virtual_ip}
   */
   readonly virtualIp?: string;
 }
@@ -447,7 +447,7 @@ export class TrafficForwardingGreTunnelSecondaryDestVipList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel zia_traffic_forwarding_gre_tunnel}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel zia_traffic_forwarding_gre_tunnel}
 */
 export class TrafficForwardingGreTunnel extends cdktf.TerraformResource {
 
@@ -463,7 +463,7 @@ export class TrafficForwardingGreTunnel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrafficForwardingGreTunnel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrafficForwardingGreTunnel to import
-  * @param importFromId The id of the existing TrafficForwardingGreTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrafficForwardingGreTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrafficForwardingGreTunnel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -475,7 +475,7 @@ export class TrafficForwardingGreTunnel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/traffic_forwarding_gre_tunnel zia_traffic_forwarding_gre_tunnel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_gre_tunnel zia_traffic_forwarding_gre_tunnel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -486,8 +486,8 @@ export class TrafficForwardingGreTunnel extends cdktf.TerraformResource {
       terraformResourceType: 'zia_traffic_forwarding_gre_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

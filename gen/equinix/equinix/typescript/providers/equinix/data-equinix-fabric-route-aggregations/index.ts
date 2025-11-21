@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations
+// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataEquinixFabricRouteAggregationsConfig extends cdktf.Terrafor
   /**
   * Filters for the Data Source Search Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations#filter DataEquinixFabricRouteAggregations#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations#filter DataEquinixFabricRouteAggregations#filter}
   */
   readonly filter: DataEquinixFabricRouteAggregationsFilter;
   /**
   * Pagination details for the returned route aggregations list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations#pagination DataEquinixFabricRouteAggregations#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations#pagination DataEquinixFabricRouteAggregations#pagination}
   */
   readonly pagination?: DataEquinixFabricRouteAggregationsPagination;
   /**
   * Filters for the Data Source Search Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations#sort DataEquinixFabricRouteAggregations#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations#sort DataEquinixFabricRouteAggregations#sort}
   */
   readonly sort?: DataEquinixFabricRouteAggregationsSort;
 }
@@ -385,19 +385,19 @@ export interface DataEquinixFabricRouteAggregationsFilter {
   /**
   * Operators to use on your filtered field with the values given. One of [ =, !=, >, >=, <, <=, BETWEEN, NOT BETWEEN, LIKE, NOT LIKE, IN, NOT IN, IS NOT NULL, IS NULL]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations#operator DataEquinixFabricRouteAggregations#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations#operator DataEquinixFabricRouteAggregations#operator}
   */
   readonly operator: string;
   /**
   * possible field names to use on filters. One of [/type /name /project/projectId /uuid /state]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations#property DataEquinixFabricRouteAggregations#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations#property DataEquinixFabricRouteAggregations#property}
   */
   readonly property: string;
   /**
   * The values that you want to apply the property+operator combination to in order to filter your data search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations#values DataEquinixFabricRouteAggregations#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations#values DataEquinixFabricRouteAggregations#values}
   */
   readonly values: string[];
 }
@@ -542,13 +542,13 @@ export interface DataEquinixFabricRouteAggregationsPagination {
   /**
   * Maximum number of search results returned per page. Number must be between 1 and 100, and the default is 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations#limit DataEquinixFabricRouteAggregations#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations#limit DataEquinixFabricRouteAggregations#limit}
   */
   readonly limit?: number;
   /**
   * Index of the first item returned in the response. The default is 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations#offset DataEquinixFabricRouteAggregations#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations#offset DataEquinixFabricRouteAggregations#offset}
   */
   readonly offset?: number;
 }
@@ -688,13 +688,13 @@ export interface DataEquinixFabricRouteAggregationsSort {
   /**
   * The sorting direction. Can be one of: [DESC, ASC], Defaults to DESC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations#direction DataEquinixFabricRouteAggregations#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations#direction DataEquinixFabricRouteAggregations#direction}
   */
   readonly direction?: string;
   /**
   * The property name to use in sorting. One of [/type /name /project/projectId /uuid /state] Defaults to /name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations#property DataEquinixFabricRouteAggregations#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations#property DataEquinixFabricRouteAggregations#property}
   */
   readonly property?: string;
 }
@@ -817,7 +817,7 @@ export class DataEquinixFabricRouteAggregationsSortOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations equinix_fabric_route_aggregations}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations equinix_fabric_route_aggregations}
 */
 export class DataEquinixFabricRouteAggregations extends cdktf.TerraformDataSource {
 
@@ -833,7 +833,7 @@ export class DataEquinixFabricRouteAggregations extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataEquinixFabricRouteAggregations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricRouteAggregations to import
-  * @param importFromId The id of the existing DataEquinixFabricRouteAggregations that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricRouteAggregations that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricRouteAggregations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -845,7 +845,7 @@ export class DataEquinixFabricRouteAggregations extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_route_aggregations equinix_fabric_route_aggregations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregations equinix_fabric_route_aggregations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -856,8 +856,8 @@ export class DataEquinixFabricRouteAggregations extends cdktf.TerraformDataSourc
       terraformResourceType: 'equinix_fabric_route_aggregations',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.10.0',
-        providerVersionConstraint: '4.10.0'
+        providerVersion: '4.11.0',
+        providerVersionConstraint: '4.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

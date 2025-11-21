@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_broadcast_domains
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_broadcast_domains
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataNetappOntapNetworkBroadcastDomainsConfig extends cdktf.Terr
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_broadcast_domains#cx_profile_name DataNetappOntapNetworkBroadcastDomains#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_broadcast_domains#cx_profile_name DataNetappOntapNetworkBroadcastDomains#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Filter broadcast domains by their properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_broadcast_domains#filter DataNetappOntapNetworkBroadcastDomains#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_broadcast_domains#filter DataNetappOntapNetworkBroadcastDomains#filter}
   */
   readonly filter?: DataNetappOntapNetworkBroadcastDomainsFilter;
 }
@@ -124,13 +124,13 @@ export interface DataNetappOntapNetworkBroadcastDomainsFilter {
   /**
   * Name of the IPspace the broadcast domain belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_broadcast_domains#ipspace DataNetappOntapNetworkBroadcastDomains#ipspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_broadcast_domains#ipspace DataNetappOntapNetworkBroadcastDomains#ipspace}
   */
   readonly ipspace?: string;
   /**
   * Name of the broadcast domain, scoped to its IPspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_broadcast_domains#name DataNetappOntapNetworkBroadcastDomains#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_broadcast_domains#name DataNetappOntapNetworkBroadcastDomains#name}
   */
   readonly name?: string;
 }
@@ -253,7 +253,7 @@ export class DataNetappOntapNetworkBroadcastDomainsFilterOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_broadcast_domains netapp-ontap_network_broadcast_domains}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_broadcast_domains netapp-ontap_network_broadcast_domains}
 */
 export class DataNetappOntapNetworkBroadcastDomains extends cdktf.TerraformDataSource {
 
@@ -269,7 +269,7 @@ export class DataNetappOntapNetworkBroadcastDomains extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataNetappOntapNetworkBroadcastDomains resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapNetworkBroadcastDomains to import
-  * @param importFromId The id of the existing DataNetappOntapNetworkBroadcastDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_broadcast_domains#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapNetworkBroadcastDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_broadcast_domains#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapNetworkBroadcastDomains to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -281,7 +281,7 @@ export class DataNetappOntapNetworkBroadcastDomains extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/network_broadcast_domains netapp-ontap_network_broadcast_domains} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/network_broadcast_domains netapp-ontap_network_broadcast_domains} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -292,8 +292,8 @@ export class DataNetappOntapNetworkBroadcastDomains extends cdktf.TerraformDataS
       terraformResourceType: 'netapp-ontap_network_broadcast_domains',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

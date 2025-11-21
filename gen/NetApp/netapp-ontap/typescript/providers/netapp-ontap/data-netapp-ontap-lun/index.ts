@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/lun
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/lun
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataNetappOntapLunConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/lun#cx_profile_name DataNetappOntapLun#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/lun#cx_profile_name DataNetappOntapLun#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/lun#location DataNetappOntapLun#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/lun#location DataNetappOntapLun#location}
   */
   readonly location?: DataNetappOntapLunLocation;
   /**
   * Name for lun
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/lun#name DataNetappOntapLun#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/lun#name DataNetappOntapLun#name}
   */
   readonly name: string;
   /**
   * svm name for lun
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/lun#svm_name DataNetappOntapLun#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/lun#svm_name DataNetappOntapLun#svm_name}
   */
   readonly svmName: string;
 }
@@ -34,7 +34,7 @@ export interface DataNetappOntapLunLocationVolume {
   /**
   * Volume name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/lun#name DataNetappOntapLun#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/lun#name DataNetappOntapLun#name}
   */
   readonly name: string;
 }
@@ -130,7 +130,7 @@ export class DataNetappOntapLunLocationVolumeOutputReference extends cdktf.Compl
 }
 export interface DataNetappOntapLunLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/lun#volume DataNetappOntapLun#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/lun#volume DataNetappOntapLun#volume}
   */
   readonly volume?: DataNetappOntapLunLocationVolume;
 }
@@ -352,7 +352,7 @@ export class DataNetappOntapLunSpaceOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/lun netapp-ontap_lun}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/lun netapp-ontap_lun}
 */
 export class DataNetappOntapLun extends cdktf.TerraformDataSource {
 
@@ -368,7 +368,7 @@ export class DataNetappOntapLun extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapLun resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapLun to import
-  * @param importFromId The id of the existing DataNetappOntapLun that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/lun#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapLun that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/lun#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapLun to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -380,7 +380,7 @@ export class DataNetappOntapLun extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/lun netapp-ontap_lun} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/lun netapp-ontap_lun} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -391,8 +391,8 @@ export class DataNetappOntapLun extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_lun',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

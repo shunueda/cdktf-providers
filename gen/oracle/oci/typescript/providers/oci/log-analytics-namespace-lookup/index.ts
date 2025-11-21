@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface LogAnalyticsNamespaceLookupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#char_encoding LogAnalyticsNamespaceLookup#char_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#char_encoding LogAnalyticsNamespaceLookup#char_encoding}
   */
   readonly charEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#compartment_id LogAnalyticsNamespaceLookup#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#compartment_id LogAnalyticsNamespaceLookup#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#default_match_value LogAnalyticsNamespaceLookup#default_match_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#default_match_value LogAnalyticsNamespaceLookup#default_match_value}
   */
   readonly defaultMatchValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#defined_tags LogAnalyticsNamespaceLookup#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#defined_tags LogAnalyticsNamespaceLookup#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#description LogAnalyticsNamespaceLookup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#description LogAnalyticsNamespaceLookup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#freeform_tags LogAnalyticsNamespaceLookup#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#freeform_tags LogAnalyticsNamespaceLookup#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#id LogAnalyticsNamespaceLookup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#id LogAnalyticsNamespaceLookup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#is_hidden LogAnalyticsNamespaceLookup#is_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#is_hidden LogAnalyticsNamespaceLookup#is_hidden}
   */
   readonly isHidden?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#lookup_name LogAnalyticsNamespaceLookup#lookup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#lookup_name LogAnalyticsNamespaceLookup#lookup_name}
   */
   readonly lookupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#max_matches LogAnalyticsNamespaceLookup#max_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#max_matches LogAnalyticsNamespaceLookup#max_matches}
   */
   readonly maxMatches?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#namespace LogAnalyticsNamespaceLookup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#namespace LogAnalyticsNamespaceLookup#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#register_lookup_file LogAnalyticsNamespaceLookup#register_lookup_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#register_lookup_file LogAnalyticsNamespaceLookup#register_lookup_file}
   */
   readonly registerLookupFile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#type LogAnalyticsNamespaceLookup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#type LogAnalyticsNamespaceLookup#type}
   */
   readonly type: string;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#categories LogAnalyticsNamespaceLookup#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#categories LogAnalyticsNamespaceLookup#categories}
   */
   readonly categories?: LogAnalyticsNamespaceLookupCategories[] | cdktf.IResolvable;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#fields LogAnalyticsNamespaceLookup#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#fields LogAnalyticsNamespaceLookup#fields}
   */
   readonly fields?: LogAnalyticsNamespaceLookupFields[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#timeouts LogAnalyticsNamespaceLookup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#timeouts LogAnalyticsNamespaceLookup#timeouts}
   */
   readonly timeouts?: LogAnalyticsNamespaceLookupTimeouts;
 }
@@ -258,23 +258,23 @@ export class LogAnalyticsNamespaceLookupStatusSummaryList extends cdktf.ComplexL
 }
 export interface LogAnalyticsNamespaceLookupCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#description LogAnalyticsNamespaceLookup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#description LogAnalyticsNamespaceLookup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#display_name LogAnalyticsNamespaceLookup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#display_name LogAnalyticsNamespaceLookup#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#is_system LogAnalyticsNamespaceLookup#is_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#is_system LogAnalyticsNamespaceLookup#is_system}
   */
   readonly isSystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#name LogAnalyticsNamespaceLookup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#name LogAnalyticsNamespaceLookup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#type LogAnalyticsNamespaceLookup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#type LogAnalyticsNamespaceLookup#type}
   */
   readonly type?: string;
 }
@@ -506,31 +506,31 @@ export class LogAnalyticsNamespaceLookupCategoriesList extends cdktf.ComplexList
 }
 export interface LogAnalyticsNamespaceLookupFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#common_field_name LogAnalyticsNamespaceLookup#common_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#common_field_name LogAnalyticsNamespaceLookup#common_field_name}
   */
   readonly commonFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#default_match_value LogAnalyticsNamespaceLookup#default_match_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#default_match_value LogAnalyticsNamespaceLookup#default_match_value}
   */
   readonly defaultMatchValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#display_name LogAnalyticsNamespaceLookup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#display_name LogAnalyticsNamespaceLookup#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#is_common_field LogAnalyticsNamespaceLookup#is_common_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#is_common_field LogAnalyticsNamespaceLookup#is_common_field}
   */
   readonly isCommonField?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#match_operator LogAnalyticsNamespaceLookup#match_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#match_operator LogAnalyticsNamespaceLookup#match_operator}
   */
   readonly matchOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#name LogAnalyticsNamespaceLookup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#name LogAnalyticsNamespaceLookup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#position LogAnalyticsNamespaceLookup#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#position LogAnalyticsNamespaceLookup#position}
   */
   readonly position?: string;
 }
@@ -820,11 +820,11 @@ export class LogAnalyticsNamespaceLookupFieldsList extends cdktf.ComplexList {
 }
 export interface LogAnalyticsNamespaceLookupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#create LogAnalyticsNamespaceLookup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#create LogAnalyticsNamespaceLookup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#delete LogAnalyticsNamespaceLookup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#delete LogAnalyticsNamespaceLookup#delete}
   */
   readonly delete?: string;
 }
@@ -947,7 +947,7 @@ export class LogAnalyticsNamespaceLookupTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup oci_log_analytics_namespace_lookup}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup oci_log_analytics_namespace_lookup}
 */
 export class LogAnalyticsNamespaceLookup extends cdktf.TerraformResource {
 
@@ -963,7 +963,7 @@ export class LogAnalyticsNamespaceLookup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogAnalyticsNamespaceLookup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogAnalyticsNamespaceLookup to import
-  * @param importFromId The id of the existing LogAnalyticsNamespaceLookup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogAnalyticsNamespaceLookup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogAnalyticsNamespaceLookup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -975,7 +975,7 @@ export class LogAnalyticsNamespaceLookup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_lookup oci_log_analytics_namespace_lookup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_lookup oci_log_analytics_namespace_lookup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -986,8 +986,8 @@ export class LogAnalyticsNamespaceLookup extends cdktf.TerraformResource {
       terraformResourceType: 'oci_log_analytics_namespace_lookup',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

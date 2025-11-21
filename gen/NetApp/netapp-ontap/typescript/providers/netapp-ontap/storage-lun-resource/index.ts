@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface StorageLunResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource#cx_profile_name StorageLunResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource#cx_profile_name StorageLunResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * The base name component of the LUN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource#logical_unit StorageLunResource#logical_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource#logical_unit StorageLunResource#logical_unit}
   */
   readonly logicalUnit?: string;
   /**
   * Path for the LUN you want to create or modify. Example of correct LUN path: /vol/vol1/lun1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource#name StorageLunResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource#name StorageLunResource#name}
   */
   readonly name?: string;
   /**
   * The operating system type of the LUN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource#os_type StorageLunResource#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource#os_type StorageLunResource#os_type}
   */
   readonly osType: string;
   /**
   * QoS policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource#qos_policy_name StorageLunResource#qos_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource#qos_policy_name StorageLunResource#qos_policy_name}
   */
   readonly qosPolicyName?: string;
   /**
   * Specifies the value for the space allocation attribute, which determines if the LUN supports the SCSI Thin Provisioning features
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource#scsi_thin_provisioning_support_enabled StorageLunResource#scsi_thin_provisioning_support_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource#scsi_thin_provisioning_support_enabled StorageLunResource#scsi_thin_provisioning_support_enabled}
   */
   readonly scsiThinProvisioningSupportEnabled?: boolean | cdktf.IResolvable;
   /**
   * Size of the lun in byte if size_unit is not provided, otherwise size in the specified unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource#size StorageLunResource#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource#size StorageLunResource#size}
   */
   readonly size: number;
   /**
   * The unit used to interpret the size parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource#size_unit StorageLunResource#size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource#size_unit StorageLunResource#size_unit}
   */
   readonly sizeUnit?: string;
   /**
   * The name of the SVM in which the LUN is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource#svm_name StorageLunResource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource#svm_name StorageLunResource#svm_name}
   */
   readonly svmName: string;
   /**
   * The volume in which the LUN is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource#volume_name StorageLunResource#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource#volume_name StorageLunResource#volume_name}
   */
   readonly volumeName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource netapp-ontap_storage_lun_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource netapp-ontap_storage_lun_resource}
 */
 export class StorageLunResource extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class StorageLunResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageLunResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageLunResource to import
-  * @param importFromId The id of the existing StorageLunResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageLunResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageLunResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class StorageLunResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/storage_lun_resource netapp-ontap_storage_lun_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/storage_lun_resource netapp-ontap_storage_lun_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class StorageLunResource extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_storage_lun_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

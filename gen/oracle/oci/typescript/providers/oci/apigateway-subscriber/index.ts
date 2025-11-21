@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface ApigatewaySubscriberConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#compartment_id ApigatewaySubscriber#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#compartment_id ApigatewaySubscriber#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#defined_tags ApigatewaySubscriber#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#defined_tags ApigatewaySubscriber#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#display_name ApigatewaySubscriber#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#display_name ApigatewaySubscriber#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#freeform_tags ApigatewaySubscriber#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#freeform_tags ApigatewaySubscriber#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#id ApigatewaySubscriber#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#id ApigatewaySubscriber#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#is_lock_override ApigatewaySubscriber#is_lock_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#is_lock_override ApigatewaySubscriber#is_lock_override}
   */
   readonly isLockOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#usage_plans ApigatewaySubscriber#usage_plans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#usage_plans ApigatewaySubscriber#usage_plans}
   */
   readonly usagePlans: string[];
   /**
   * clients block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#clients ApigatewaySubscriber#clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#clients ApigatewaySubscriber#clients}
   */
   readonly clients: ApigatewaySubscriberClients[] | cdktf.IResolvable;
   /**
   * locks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#locks ApigatewaySubscriber#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#locks ApigatewaySubscriber#locks}
   */
   readonly locks?: ApigatewaySubscriberLocks[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#timeouts ApigatewaySubscriber#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#timeouts ApigatewaySubscriber#timeouts}
   */
   readonly timeouts?: ApigatewaySubscriberTimeouts;
 }
 export interface ApigatewaySubscriberClients {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#name ApigatewaySubscriber#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#name ApigatewaySubscriber#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#token ApigatewaySubscriber#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#token ApigatewaySubscriber#token}
   */
   readonly token: string;
 }
@@ -202,11 +202,11 @@ export class ApigatewaySubscriberClientsList extends cdktf.ComplexList {
 }
 export interface ApigatewaySubscriberLocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#message ApigatewaySubscriber#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#message ApigatewaySubscriber#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#type ApigatewaySubscriber#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#type ApigatewaySubscriber#type}
   */
   readonly type: string;
 }
@@ -358,15 +358,15 @@ export class ApigatewaySubscriberLocksList extends cdktf.ComplexList {
 }
 export interface ApigatewaySubscriberTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#create ApigatewaySubscriber#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#create ApigatewaySubscriber#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#delete ApigatewaySubscriber#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#delete ApigatewaySubscriber#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#update ApigatewaySubscriber#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#update ApigatewaySubscriber#update}
   */
   readonly update?: string;
 }
@@ -518,7 +518,7 @@ export class ApigatewaySubscriberTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber oci_apigateway_subscriber}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber oci_apigateway_subscriber}
 */
 export class ApigatewaySubscriber extends cdktf.TerraformResource {
 
@@ -534,7 +534,7 @@ export class ApigatewaySubscriber extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigatewaySubscriber resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewaySubscriber to import
-  * @param importFromId The id of the existing ApigatewaySubscriber that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewaySubscriber that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewaySubscriber to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -546,7 +546,7 @@ export class ApigatewaySubscriber extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_subscriber oci_apigateway_subscriber} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apigateway_subscriber oci_apigateway_subscriber} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -557,8 +557,8 @@ export class ApigatewaySubscriber extends cdktf.TerraformResource {
       terraformResourceType: 'oci_apigateway_subscriber',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

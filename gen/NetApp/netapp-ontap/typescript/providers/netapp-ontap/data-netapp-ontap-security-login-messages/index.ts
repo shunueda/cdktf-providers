@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_login_messages
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_login_messages
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapSecurityLoginMessagesConfig extends cdktf.Terraf
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_login_messages#cx_profile_name DataNetappOntapSecurityLoginMessages#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_login_messages#cx_profile_name DataNetappOntapSecurityLoginMessages#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_login_messages#filter DataNetappOntapSecurityLoginMessages#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_login_messages#filter DataNetappOntapSecurityLoginMessages#filter}
   */
   readonly filter?: DataNetappOntapSecurityLoginMessagesFilter;
 }
@@ -22,25 +22,25 @@ export interface DataNetappOntapSecurityLoginMessagesFilter {
   /**
   * SecurityLoginMessage banner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_login_messages#banner DataNetappOntapSecurityLoginMessages#banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_login_messages#banner DataNetappOntapSecurityLoginMessages#banner}
   */
   readonly banner?: string;
   /**
   * SecurityLoginMessage message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_login_messages#message DataNetappOntapSecurityLoginMessages#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_login_messages#message DataNetappOntapSecurityLoginMessages#message}
   */
   readonly message?: string;
   /**
   * SecurityLoginMessage scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_login_messages#scope DataNetappOntapSecurityLoginMessages#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_login_messages#scope DataNetappOntapSecurityLoginMessages#scope}
   */
   readonly scope?: string;
   /**
   * SecurityLoginMessage svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_login_messages#svm_name DataNetappOntapSecurityLoginMessages#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_login_messages#svm_name DataNetappOntapSecurityLoginMessages#svm_name}
   */
   readonly svmName?: string;
 }
@@ -223,13 +223,13 @@ export interface DataNetappOntapSecurityLoginMessagesSecurityLoginMessages {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_login_messages#cx_profile_name DataNetappOntapSecurityLoginMessages#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_login_messages#cx_profile_name DataNetappOntapSecurityLoginMessages#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * SecurityLoginMessage svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_login_messages#svm_name DataNetappOntapSecurityLoginMessages#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_login_messages#svm_name DataNetappOntapSecurityLoginMessages#svm_name}
   */
   readonly svmName?: string;
 }
@@ -386,7 +386,7 @@ export class DataNetappOntapSecurityLoginMessagesSecurityLoginMessagesList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_login_messages netapp-ontap_security_login_messages}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_login_messages netapp-ontap_security_login_messages}
 */
 export class DataNetappOntapSecurityLoginMessages extends cdktf.TerraformDataSource {
 
@@ -402,7 +402,7 @@ export class DataNetappOntapSecurityLoginMessages extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataNetappOntapSecurityLoginMessages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapSecurityLoginMessages to import
-  * @param importFromId The id of the existing DataNetappOntapSecurityLoginMessages that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_login_messages#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapSecurityLoginMessages that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_login_messages#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapSecurityLoginMessages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +414,7 @@ export class DataNetappOntapSecurityLoginMessages extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_login_messages netapp-ontap_security_login_messages} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_login_messages netapp-ontap_security_login_messages} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,8 +425,8 @@ export class DataNetappOntapSecurityLoginMessages extends cdktf.TerraformDataSou
       terraformResourceType: 'netapp-ontap_security_login_messages',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

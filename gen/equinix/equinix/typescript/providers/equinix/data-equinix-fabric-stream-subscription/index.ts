@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_subscription
+// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_stream_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataEquinixFabricStreamSubscriptionConfig extends cdktf.Terrafo
   /**
   * The uuid of the stream that is the target of the stream subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_subscription#stream_id DataEquinixFabricStreamSubscription#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_stream_subscription#stream_id DataEquinixFabricStreamSubscription#stream_id}
   */
   readonly streamId: string;
   /**
   * The uuid of the stream subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_subscription#subscription_id DataEquinixFabricStreamSubscription#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_stream_subscription#subscription_id DataEquinixFabricStreamSubscription#subscription_id}
   */
   readonly subscriptionId: string;
 }
@@ -503,7 +503,7 @@ export class DataEquinixFabricStreamSubscriptionSinkOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_subscription equinix_fabric_stream_subscription}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_stream_subscription equinix_fabric_stream_subscription}
 */
 export class DataEquinixFabricStreamSubscription extends cdktf.TerraformDataSource {
 
@@ -519,7 +519,7 @@ export class DataEquinixFabricStreamSubscription extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataEquinixFabricStreamSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricStreamSubscription to import
-  * @param importFromId The id of the existing DataEquinixFabricStreamSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricStreamSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_stream_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricStreamSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -531,7 +531,7 @@ export class DataEquinixFabricStreamSubscription extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_subscription equinix_fabric_stream_subscription} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_stream_subscription equinix_fabric_stream_subscription} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -542,8 +542,8 @@ export class DataEquinixFabricStreamSubscription extends cdktf.TerraformDataSour
       terraformResourceType: 'equinix_fabric_stream_subscription',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.10.0',
-        providerVersionConstraint: '4.10.0'
+        providerVersion: '4.11.0',
+        providerVersionConstraint: '4.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

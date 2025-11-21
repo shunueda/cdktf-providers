@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_host
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface CoreComputeHostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_host#compute_host_group_id CoreComputeHost#compute_host_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_host#compute_host_group_id CoreComputeHost#compute_host_group_id}
   */
   readonly computeHostGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_host#compute_host_id CoreComputeHost#compute_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_host#compute_host_id CoreComputeHost#compute_host_id}
   */
   readonly computeHostId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_host#id CoreComputeHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_host#id CoreComputeHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface CoreComputeHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_host#timeouts CoreComputeHost#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_host#timeouts CoreComputeHost#timeouts}
   */
   readonly timeouts?: CoreComputeHostTimeouts;
 }
@@ -282,15 +282,15 @@ export class CoreComputeHostRecycleDetailsList extends cdktf.ComplexList {
 }
 export interface CoreComputeHostTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_host#create CoreComputeHost#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_host#create CoreComputeHost#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_host#delete CoreComputeHost#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_host#delete CoreComputeHost#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_host#update CoreComputeHost#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_host#update CoreComputeHost#update}
   */
   readonly update?: string;
 }
@@ -442,7 +442,7 @@ export class CoreComputeHostTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_host oci_core_compute_host}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_host oci_core_compute_host}
 */
 export class CoreComputeHost extends cdktf.TerraformResource {
 
@@ -458,7 +458,7 @@ export class CoreComputeHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CoreComputeHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoreComputeHost to import
-  * @param importFromId The id of the existing CoreComputeHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoreComputeHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoreComputeHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +470,7 @@ export class CoreComputeHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_host oci_core_compute_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_host oci_core_compute_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +481,8 @@ export class CoreComputeHost extends cdktf.TerraformResource {
       terraformResourceType: 'oci_core_compute_host',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/iscsi_services
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/iscsi_services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataNetappOntapIscsiServicesConfig extends cdktf.TerraformMetaA
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/iscsi_services#cx_profile_name DataNetappOntapIscsiServices#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/iscsi_services#cx_profile_name DataNetappOntapIscsiServices#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Filter iSCSI services by their properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/iscsi_services#filter DataNetappOntapIscsiServices#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/iscsi_services#filter DataNetappOntapIscsiServices#filter}
   */
   readonly filter?: DataNetappOntapIscsiServicesFilter;
 }
@@ -24,7 +24,7 @@ export interface DataNetappOntapIscsiServicesFilter {
   /**
   * iSCSI SVM name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/iscsi_services#svm_name DataNetappOntapIscsiServices#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/iscsi_services#svm_name DataNetappOntapIscsiServices#svm_name}
   */
   readonly svmName?: string;
 }
@@ -268,7 +268,7 @@ export class DataNetappOntapIscsiServicesIscsiServicesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/iscsi_services netapp-ontap_iscsi_services}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/iscsi_services netapp-ontap_iscsi_services}
 */
 export class DataNetappOntapIscsiServices extends cdktf.TerraformDataSource {
 
@@ -284,7 +284,7 @@ export class DataNetappOntapIscsiServices extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapIscsiServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapIscsiServices to import
-  * @param importFromId The id of the existing DataNetappOntapIscsiServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/iscsi_services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapIscsiServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/iscsi_services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapIscsiServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +296,7 @@ export class DataNetappOntapIscsiServices extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/iscsi_services netapp-ontap_iscsi_services} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/iscsi_services netapp-ontap_iscsi_services} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,8 +307,8 @@ export class DataNetappOntapIscsiServices extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_iscsi_services',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

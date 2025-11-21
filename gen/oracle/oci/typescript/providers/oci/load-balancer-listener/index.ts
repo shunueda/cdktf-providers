@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface LoadBalancerListenerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#default_backend_set_name LoadBalancerListener#default_backend_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#default_backend_set_name LoadBalancerListener#default_backend_set_name}
   */
   readonly defaultBackendSetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#hostname_names LoadBalancerListener#hostname_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#hostname_names LoadBalancerListener#hostname_names}
   */
   readonly hostnameNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#id LoadBalancerListener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#id LoadBalancerListener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#load_balancer_id LoadBalancerListener#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#load_balancer_id LoadBalancerListener#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#name LoadBalancerListener#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#name LoadBalancerListener#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#path_route_set_name LoadBalancerListener#path_route_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#path_route_set_name LoadBalancerListener#path_route_set_name}
   */
   readonly pathRouteSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#port LoadBalancerListener#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#port LoadBalancerListener#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#protocol LoadBalancerListener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#protocol LoadBalancerListener#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#routing_policy_name LoadBalancerListener#routing_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#routing_policy_name LoadBalancerListener#routing_policy_name}
   */
   readonly routingPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#rule_set_names LoadBalancerListener#rule_set_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#rule_set_names LoadBalancerListener#rule_set_names}
   */
   readonly ruleSetNames?: string[];
   /**
   * connection_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#connection_configuration LoadBalancerListener#connection_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#connection_configuration LoadBalancerListener#connection_configuration}
   */
   readonly connectionConfiguration?: LoadBalancerListenerConnectionConfiguration;
   /**
   * ssl_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#ssl_configuration LoadBalancerListener#ssl_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#ssl_configuration LoadBalancerListener#ssl_configuration}
   */
   readonly sslConfiguration?: LoadBalancerListenerSslConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#timeouts LoadBalancerListener#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#timeouts LoadBalancerListener#timeouts}
   */
   readonly timeouts?: LoadBalancerListenerTimeouts;
 }
 export interface LoadBalancerListenerConnectionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#backend_tcp_proxy_protocol_options LoadBalancerListener#backend_tcp_proxy_protocol_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#backend_tcp_proxy_protocol_options LoadBalancerListener#backend_tcp_proxy_protocol_options}
   */
   readonly backendTcpProxyProtocolOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#backend_tcp_proxy_protocol_version LoadBalancerListener#backend_tcp_proxy_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#backend_tcp_proxy_protocol_version LoadBalancerListener#backend_tcp_proxy_protocol_version}
   */
   readonly backendTcpProxyProtocolVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#idle_timeout_in_seconds LoadBalancerListener#idle_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#idle_timeout_in_seconds LoadBalancerListener#idle_timeout_in_seconds}
   */
   readonly idleTimeoutInSeconds: string;
 }
@@ -218,39 +218,39 @@ export class LoadBalancerListenerConnectionConfigurationOutputReference extends 
 }
 export interface LoadBalancerListenerSslConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#certificate_ids LoadBalancerListener#certificate_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#certificate_ids LoadBalancerListener#certificate_ids}
   */
   readonly certificateIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#certificate_name LoadBalancerListener#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#certificate_name LoadBalancerListener#certificate_name}
   */
   readonly certificateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#cipher_suite_name LoadBalancerListener#cipher_suite_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#cipher_suite_name LoadBalancerListener#cipher_suite_name}
   */
   readonly cipherSuiteName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#has_session_resumption LoadBalancerListener#has_session_resumption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#has_session_resumption LoadBalancerListener#has_session_resumption}
   */
   readonly hasSessionResumption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#protocols LoadBalancerListener#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#protocols LoadBalancerListener#protocols}
   */
   readonly protocols?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#server_order_preference LoadBalancerListener#server_order_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#server_order_preference LoadBalancerListener#server_order_preference}
   */
   readonly serverOrderPreference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#trusted_certificate_authority_ids LoadBalancerListener#trusted_certificate_authority_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#trusted_certificate_authority_ids LoadBalancerListener#trusted_certificate_authority_ids}
   */
   readonly trustedCertificateAuthorityIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#verify_depth LoadBalancerListener#verify_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#verify_depth LoadBalancerListener#verify_depth}
   */
   readonly verifyDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#verify_peer_certificate LoadBalancerListener#verify_peer_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#verify_peer_certificate LoadBalancerListener#verify_peer_certificate}
   */
   readonly verifyPeerCertificate?: boolean | cdktf.IResolvable;
 }
@@ -566,15 +566,15 @@ export class LoadBalancerListenerSslConfigurationOutputReference extends cdktf.C
 }
 export interface LoadBalancerListenerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#create LoadBalancerListener#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#create LoadBalancerListener#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#delete LoadBalancerListener#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#delete LoadBalancerListener#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#update LoadBalancerListener#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#update LoadBalancerListener#update}
   */
   readonly update?: string;
 }
@@ -726,7 +726,7 @@ export class LoadBalancerListenerTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener oci_load_balancer_listener}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener oci_load_balancer_listener}
 */
 export class LoadBalancerListener extends cdktf.TerraformResource {
 
@@ -742,7 +742,7 @@ export class LoadBalancerListener extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadBalancerListener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadBalancerListener to import
-  * @param importFromId The id of the existing LoadBalancerListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadBalancerListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadBalancerListener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -754,7 +754,7 @@ export class LoadBalancerListener extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_listener oci_load_balancer_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_listener oci_load_balancer_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -765,8 +765,8 @@ export class LoadBalancerListener extends cdktf.TerraformResource {
       terraformResourceType: 'oci_load_balancer_listener',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

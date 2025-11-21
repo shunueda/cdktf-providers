@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface SecurityCertificateConfig extends cdktf.TerraformMetaArguments 
   /**
   * Common name of the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate#common_name SecurityCertificate#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate#common_name SecurityCertificate#common_name}
   */
   readonly commonName: string;
   /**
   * Connection profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate#cx_profile_name SecurityCertificate#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate#cx_profile_name SecurityCertificate#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Certificate expiration time, in ISO 8601 duration format or date and time format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate#expiry_time SecurityCertificate#expiry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate#expiry_time SecurityCertificate#expiry_time}
   */
   readonly expiryTime?: string;
   /**
   * Hashing function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate#hash_function SecurityCertificate#hash_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate#hash_function SecurityCertificate#hash_function}
   */
   readonly hashFunction?: string;
   /**
   * Chain of intermediate Certificates in PEM format. Only valid in POST when installing a certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate#intermediate_certificates SecurityCertificate#intermediate_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate#intermediate_certificates SecurityCertificate#intermediate_certificates}
   */
   readonly intermediateCertificates?: string[];
   /**
   * Key size of the certificate in bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate#key_size SecurityCertificate#key_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate#key_size SecurityCertificate#key_size}
   */
   readonly keySize?: number;
   /**
   * The unique name of the security certificate per SVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate#name SecurityCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate#name SecurityCertificate#name}
   */
   readonly name?: string;
   /**
   * Private key Certificate in PEM format. Only valid when installing a CA-signed certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate#private_key SecurityCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate#private_key SecurityCertificate#private_key}
   */
   readonly privateKey?: string;
   /**
   * Public key Certificate in PEM format. If this is not provided during create action, a self-signed certificate is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate#public_certificate SecurityCertificate#public_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate#public_certificate SecurityCertificate#public_certificate}
   */
   readonly publicCertificate?: string;
   /**
   * Certificate signing request to be signed by the given certificate authority. Request should be in X509 PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate#signing_request SecurityCertificate#signing_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate#signing_request SecurityCertificate#signing_request}
   */
   readonly signingRequest?: string;
   /**
   * Name of the SVM in which the certificate is created or installed or the SVM on which the signed certificate will exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate#svm_name SecurityCertificate#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate#svm_name SecurityCertificate#svm_name}
   */
   readonly svmName?: string;
   /**
   * Type of certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate#type SecurityCertificate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate#type SecurityCertificate#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate netapp-ontap_security_certificate}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate netapp-ontap_security_certificate}
 */
 export class SecurityCertificate extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class SecurityCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityCertificate to import
-  * @param importFromId The id of the existing SecurityCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class SecurityCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_certificate netapp-ontap_security_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_certificate netapp-ontap_security_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class SecurityCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_security_certificate',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

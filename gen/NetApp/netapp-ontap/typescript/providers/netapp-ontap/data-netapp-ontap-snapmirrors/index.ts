@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapmirrors
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapmirrors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapSnapmirrorsConfig extends cdktf.TerraformMetaArg
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapmirrors#cx_profile_name DataNetappOntapSnapmirrors#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapmirrors#cx_profile_name DataNetappOntapSnapmirrors#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapmirrors#filter DataNetappOntapSnapmirrors#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapmirrors#filter DataNetappOntapSnapmirrors#filter}
   */
   readonly filter?: DataNetappOntapSnapmirrorsFilter;
 }
@@ -22,7 +22,7 @@ export interface DataNetappOntapSnapmirrorsFilter {
   /**
   * Destination path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapmirrors#destination_path DataNetappOntapSnapmirrors#destination_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapmirrors#destination_path DataNetappOntapSnapmirrors#destination_path}
   */
   readonly destinationPath?: string;
 }
@@ -656,7 +656,7 @@ export class DataNetappOntapSnapmirrorsSnapmirrorsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapmirrors netapp-ontap_snapmirrors}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapmirrors netapp-ontap_snapmirrors}
 */
 export class DataNetappOntapSnapmirrors extends cdktf.TerraformDataSource {
 
@@ -672,7 +672,7 @@ export class DataNetappOntapSnapmirrors extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapSnapmirrors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapSnapmirrors to import
-  * @param importFromId The id of the existing DataNetappOntapSnapmirrors that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapmirrors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapSnapmirrors that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapmirrors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapSnapmirrors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -684,7 +684,7 @@ export class DataNetappOntapSnapmirrors extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/snapmirrors netapp-ontap_snapmirrors} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/snapmirrors netapp-ontap_snapmirrors} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -695,8 +695,8 @@ export class DataNetappOntapSnapmirrors extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_snapmirrors',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

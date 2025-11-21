@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/azure_arm_template
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/azure_arm_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataKionAzureArmTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/azure_arm_template#id DataKionAzureArmTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/azure_arm_template#id DataKionAzureArmTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataKionAzureArmTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/azure_arm_template#filter DataKionAzureArmTemplate#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/azure_arm_template#filter DataKionAzureArmTemplate#filter}
   */
   readonly filter?: DataKionAzureArmTemplateFilter[] | cdktf.IResolvable;
 }
@@ -307,19 +307,19 @@ export interface DataKionAzureArmTemplateFilter {
   /**
   * The field name whose values you wish to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/azure_arm_template#name DataKionAzureArmTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/azure_arm_template#name DataKionAzureArmTemplate#name}
   */
   readonly name: string;
   /**
   * Dictates if the values provided should be treated as regular expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/azure_arm_template#regex DataKionAzureArmTemplate#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/azure_arm_template#regex DataKionAzureArmTemplate#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The values of the field name you specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/azure_arm_template#values DataKionAzureArmTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/azure_arm_template#values DataKionAzureArmTemplate#values}
   */
   readonly values: string[];
 }
@@ -487,7 +487,7 @@ export class DataKionAzureArmTemplateFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/azure_arm_template kion_azure_arm_template}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/azure_arm_template kion_azure_arm_template}
 */
 export class DataKionAzureArmTemplate extends cdktf.TerraformDataSource {
 
@@ -503,7 +503,7 @@ export class DataKionAzureArmTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKionAzureArmTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKionAzureArmTemplate to import
-  * @param importFromId The id of the existing DataKionAzureArmTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/azure_arm_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKionAzureArmTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/azure_arm_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKionAzureArmTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -515,7 +515,7 @@ export class DataKionAzureArmTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/data-sources/azure_arm_template kion_azure_arm_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/data-sources/azure_arm_template kion_azure_arm_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -526,8 +526,8 @@ export class DataKionAzureArmTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'kion_azure_arm_template',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/dlp_notification_templates
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_notification_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataZiaDlpNotificationTemplatesConfig extends cdktf.TerraformMe
   /**
   * The unique identifier for a DLP notification template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/dlp_notification_templates#id DataZiaDlpNotificationTemplates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_notification_templates#id DataZiaDlpNotificationTemplates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataZiaDlpNotificationTemplatesConfig extends cdktf.TerraformMe
   /**
   * The DLP notification template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/dlp_notification_templates#name DataZiaDlpNotificationTemplates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_notification_templates#name DataZiaDlpNotificationTemplates#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/dlp_notification_templates zia_dlp_notification_templates}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_notification_templates zia_dlp_notification_templates}
 */
 export class DataZiaDlpNotificationTemplates extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataZiaDlpNotificationTemplates extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaDlpNotificationTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaDlpNotificationTemplates to import
-  * @param importFromId The id of the existing DataZiaDlpNotificationTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/dlp_notification_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaDlpNotificationTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_notification_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaDlpNotificationTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataZiaDlpNotificationTemplates extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/dlp_notification_templates zia_dlp_notification_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_notification_templates zia_dlp_notification_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataZiaDlpNotificationTemplates extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_dlp_notification_templates',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

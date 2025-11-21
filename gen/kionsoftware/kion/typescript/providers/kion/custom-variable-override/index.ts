@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_variable_override
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_variable_override
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface CustomVariableOverrideConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_variable_override#custom_variable_id CustomVariableOverride#custom_variable_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_variable_override#custom_variable_id CustomVariableOverride#custom_variable_id}
   */
   readonly customVariableId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_variable_override#entity_id CustomVariableOverride#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_variable_override#entity_id CustomVariableOverride#entity_id}
   */
   readonly entityId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_variable_override#entity_type CustomVariableOverride#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_variable_override#entity_type CustomVariableOverride#entity_type}
   */
   readonly entityType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_variable_override#id CustomVariableOverride#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_variable_override#id CustomVariableOverride#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_variable_override#last_updated CustomVariableOverride#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_variable_override#last_updated CustomVariableOverride#last_updated}
   */
   readonly lastUpdated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_variable_override#value_list CustomVariableOverride#value_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_variable_override#value_list CustomVariableOverride#value_list}
   */
   readonly valueList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_variable_override#value_map CustomVariableOverride#value_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_variable_override#value_map CustomVariableOverride#value_map}
   */
   readonly valueMap?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_variable_override#value_string CustomVariableOverride#value_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_variable_override#value_string CustomVariableOverride#value_string}
   */
   readonly valueString?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_variable_override kion_custom_variable_override}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_variable_override kion_custom_variable_override}
 */
 export class CustomVariableOverride extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class CustomVariableOverride extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomVariableOverride resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomVariableOverride to import
-  * @param importFromId The id of the existing CustomVariableOverride that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_variable_override#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomVariableOverride that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_variable_override#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomVariableOverride to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class CustomVariableOverride extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/custom_variable_override kion_custom_variable_override} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/custom_variable_override kion_custom_variable_override} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class CustomVariableOverride extends cdktf.TerraformResource {
       terraformResourceType: 'kion_custom_variable_override',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface RecordingRulesGroupsSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set#groups RecordingRulesGroupsSet#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set#groups RecordingRulesGroupsSet#groups}
   */
   readonly groups?: RecordingRulesGroupsSetGroups[] | cdktf.IResolvable;
   /**
   * The name of the rule group. Overrides the name specified in the YAML if provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set#name RecordingRulesGroupsSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set#name RecordingRulesGroupsSet#name}
   */
   readonly name?: string;
   /**
   * YAML specification of rules. Cannot be used together with `groups`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set#yaml_content RecordingRulesGroupsSet#yaml_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set#yaml_content RecordingRulesGroupsSet#yaml_content}
   */
   readonly yamlContent?: string;
 }
@@ -28,19 +28,19 @@ export interface RecordingRulesGroupsSetGroupsRules {
   /**
   * The PromQL expression to evaluate. Every evaluation cycle this is evaluated at the current time, and the result recorded as a new set of time series with the metric name as given by 'record'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set#expr RecordingRulesGroupsSet#expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set#expr RecordingRulesGroupsSet#expr}
   */
   readonly expr: string;
   /**
   * Labels to add or overwrite before storing the result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set#labels RecordingRulesGroupsSet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set#labels RecordingRulesGroupsSet#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the time series to output to. Must be a valid metric name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set#record RecordingRulesGroupsSet#record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set#record RecordingRulesGroupsSet#record}
   */
   readonly record: string;
 }
@@ -200,23 +200,23 @@ export interface RecordingRulesGroupsSetGroups {
   /**
   * How often rules in the group are evaluated (in seconds). Default is 60 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set#interval RecordingRulesGroupsSet#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set#interval RecordingRulesGroupsSet#interval}
   */
   readonly interval?: number;
   /**
   * Limits the number of alerts an alerting rule and series a recording-rule can produce. 0 is no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set#limit RecordingRulesGroupsSet#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set#limit RecordingRulesGroupsSet#limit}
   */
   readonly limit?: number;
   /**
   * The (unique) rule-group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set#name RecordingRulesGroupsSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set#name RecordingRulesGroupsSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set#rules RecordingRulesGroupsSet#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set#rules RecordingRulesGroupsSet#rules}
   */
   readonly rules: RecordingRulesGroupsSetGroupsRules[] | cdktf.IResolvable;
 }
@@ -413,7 +413,7 @@ export class RecordingRulesGroupsSetGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set coralogix_recording_rules_groups_set}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set coralogix_recording_rules_groups_set}
 */
 export class RecordingRulesGroupsSet extends cdktf.TerraformResource {
 
@@ -429,7 +429,7 @@ export class RecordingRulesGroupsSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RecordingRulesGroupsSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RecordingRulesGroupsSet to import
-  * @param importFromId The id of the existing RecordingRulesGroupsSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RecordingRulesGroupsSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RecordingRulesGroupsSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -441,7 +441,7 @@ export class RecordingRulesGroupsSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/recording_rules_groups_set coralogix_recording_rules_groups_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/recording_rules_groups_set coralogix_recording_rules_groups_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -452,8 +452,8 @@ export class RecordingRulesGroupsSet extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_recording_rules_groups_set',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

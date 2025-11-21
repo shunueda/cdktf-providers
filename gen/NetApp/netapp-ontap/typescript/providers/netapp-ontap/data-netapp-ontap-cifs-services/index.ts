@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_services
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapCifsServicesConfig extends cdktf.TerraformMetaAr
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_services#cx_profile_name DataNetappOntapCifsServices#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_services#cx_profile_name DataNetappOntapCifsServices#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_services#filter DataNetappOntapCifsServices#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_services#filter DataNetappOntapCifsServices#filter}
   */
   readonly filter?: DataNetappOntapCifsServicesFilter;
 }
@@ -22,13 +22,13 @@ export interface DataNetappOntapCifsServicesFilter {
   /**
   * CifsService name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_services#name DataNetappOntapCifsServices#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_services#name DataNetappOntapCifsServices#name}
   */
   readonly name?: string;
   /**
   * CifsService svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_services#svm_name DataNetappOntapCifsServices#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_services#svm_name DataNetappOntapCifsServices#svm_name}
   */
   readonly svmName?: string;
 }
@@ -400,7 +400,7 @@ export interface DataNetappOntapCifsServicesProtocolsCifsServices {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_services#cx_profile_name DataNetappOntapCifsServices#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_services#cx_profile_name DataNetappOntapCifsServices#cx_profile_name}
   */
   readonly cxProfileName: string;
 }
@@ -546,7 +546,7 @@ export class DataNetappOntapCifsServicesProtocolsCifsServicesList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_services netapp-ontap_cifs_services}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_services netapp-ontap_cifs_services}
 */
 export class DataNetappOntapCifsServices extends cdktf.TerraformDataSource {
 
@@ -562,7 +562,7 @@ export class DataNetappOntapCifsServices extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapCifsServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapCifsServices to import
-  * @param importFromId The id of the existing DataNetappOntapCifsServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapCifsServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapCifsServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -574,7 +574,7 @@ export class DataNetappOntapCifsServices extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_services netapp-ontap_cifs_services} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_services netapp-ontap_cifs_services} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -585,8 +585,8 @@ export class DataNetappOntapCifsServices extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_cifs_services',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

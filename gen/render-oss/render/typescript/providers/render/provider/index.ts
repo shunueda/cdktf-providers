@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface RenderProviderConfig {
   /**
   * API key to use when interacting with the API. You can generate an API key from the user settings on the Render dashboard. The provider will read this value from the RENDER_API_KEY environment variable if set. This key is sensitive and should not be committed to source control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs#api_key RenderProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs#api_key RenderProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * The user or team ID that owns the managed resources. All resources will be created under this owner ID. You can find the owner ID in the Render dashboard by navigating to the user or team settings and finding the ID in the URL. The ID will start with usr- for individual accounts and tea- for team accounts. The provider will read this value from the RENDER_OWNER_ID environment variable if set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs#owner_id RenderProvider#owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs#owner_id RenderProvider#owner_id}
   */
   readonly ownerId?: string;
   /**
   * If set to true, the provider won't deploy a service after updating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs#skip_deploy_after_service_update RenderProvider#skip_deploy_after_service_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs#skip_deploy_after_service_update RenderProvider#skip_deploy_after_service_update}
   */
   readonly skipDeployAfterServiceUpdate?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the provider will wait for deployments to complete when creating web services, private services, and background workers before continuing. This is useful when you have services that depend on one another and the dependencies must be live for the dependent service to successfully start. The default value is false. The provider will read this value from the RENDER_WAIT_FOR_DEPLOY_COMPLETION environment variable if set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs#wait_for_deploy_completion RenderProvider#wait_for_deploy_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs#wait_for_deploy_completion RenderProvider#wait_for_deploy_completion}
   */
   readonly waitForDeployCompletion?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs#alias RenderProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs#alias RenderProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs render}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs render}
 */
 export class RenderProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class RenderProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a RenderProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RenderProvider to import
-  * @param importFromId The id of the existing RenderProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RenderProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RenderProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class RenderProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs render} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs render} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class RenderProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'render',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       terraformProviderSource: 'render-oss/render'
     });

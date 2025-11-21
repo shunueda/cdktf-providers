@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_ip_route
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_ip_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface NetworkIpRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_ip_route#cx_profile_name NetworkIpRoute#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_ip_route#cx_profile_name NetworkIpRoute#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * destination IP address information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_ip_route#destination NetworkIpRoute#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_ip_route#destination NetworkIpRoute#destination}
   */
   readonly destination?: NetworkIpRouteDestination;
   /**
   * The IP address of the gateway router leading to the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_ip_route#gateway NetworkIpRoute#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_ip_route#gateway NetworkIpRoute#gateway}
   */
   readonly gateway: string;
   /**
   * Indicates a preference order between several routes to the same destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_ip_route#metric NetworkIpRoute#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_ip_route#metric NetworkIpRoute#metric}
   */
   readonly metric?: number;
   /**
   * IPInterface svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_ip_route#svm_name NetworkIpRoute#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_ip_route#svm_name NetworkIpRoute#svm_name}
   */
   readonly svmName?: string;
 }
@@ -42,13 +42,13 @@ export interface NetworkIpRouteDestination {
   /**
   * IPv4 or IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_ip_route#address NetworkIpRoute#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_ip_route#address NetworkIpRoute#address}
   */
   readonly address?: string;
   /**
   * netmask length (16) or IPv4 mask (255.255.0.0). For IPv6, valid range is 1 to 127.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_ip_route#netmask NetworkIpRoute#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_ip_route#netmask NetworkIpRoute#netmask}
   */
   readonly netmask?: string;
 }
@@ -171,7 +171,7 @@ export class NetworkIpRouteDestinationOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_ip_route netapp-ontap_network_ip_route}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_ip_route netapp-ontap_network_ip_route}
 */
 export class NetworkIpRoute extends cdktf.TerraformResource {
 
@@ -187,7 +187,7 @@ export class NetworkIpRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkIpRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkIpRoute to import
-  * @param importFromId The id of the existing NetworkIpRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_ip_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkIpRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_ip_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkIpRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class NetworkIpRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/network_ip_route netapp-ontap_network_ip_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/network_ip_route netapp-ontap_network_ip_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class NetworkIpRoute extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_network_ip_route',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

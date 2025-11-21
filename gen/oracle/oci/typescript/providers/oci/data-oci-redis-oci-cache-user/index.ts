@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/redis_oci_cache_user
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/redis_oci_cache_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciRedisOciCacheUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/redis_oci_cache_user#oci_cache_user_id DataOciRedisOciCacheUser#oci_cache_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/redis_oci_cache_user#oci_cache_user_id DataOciRedisOciCacheUser#oci_cache_user_id}
   */
   readonly ociCacheUserId: string;
 }
@@ -94,7 +94,7 @@ export class DataOciRedisOciCacheUserAuthenticationModeList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/redis_oci_cache_user oci_redis_oci_cache_user}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/redis_oci_cache_user oci_redis_oci_cache_user}
 */
 export class DataOciRedisOciCacheUser extends cdktf.TerraformDataSource {
 
@@ -110,7 +110,7 @@ export class DataOciRedisOciCacheUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciRedisOciCacheUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciRedisOciCacheUser to import
-  * @param importFromId The id of the existing DataOciRedisOciCacheUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/redis_oci_cache_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciRedisOciCacheUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/redis_oci_cache_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciRedisOciCacheUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class DataOciRedisOciCacheUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/redis_oci_cache_user oci_redis_oci_cache_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/redis_oci_cache_user oci_redis_oci_cache_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class DataOciRedisOciCacheUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_redis_oci_cache_user',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

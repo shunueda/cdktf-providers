@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "render": "1.7.5"
+    "render": "1.8.0"
   }
 }

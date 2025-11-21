@@ -9,11 +9,11 @@ dashboardLayoutSectionsRowsToHclTerraform,
 DashboardLayoutSectionsRowsList } from './structs400'
 export interface DashboardLayoutSections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#options Dashboard#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#options Dashboard#options}
   */
   readonly options?: DashboardLayoutSectionsOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#rows Dashboard#rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#rows Dashboard#rows}
   */
   readonly rows?: DashboardLayoutSectionsRows[] | cdktf.IResolvable;
 }
@@ -163,7 +163,7 @@ export class DashboardLayoutSectionsList extends cdktf.ComplexList {
 }
 export interface DashboardLayout {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#sections Dashboard#sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#sections Dashboard#sections}
   */
   readonly sections?: DashboardLayoutSections[] | cdktf.IResolvable;
 }
@@ -257,11 +257,11 @@ export class DashboardLayoutOutputReference extends cdktf.ComplexObject {
 }
 export interface DashboardTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -378,7 +378,7 @@ export class DashboardTimeFrameAbsoluteOutputReference extends cdktf.ComplexObje
 }
 export interface DashboardTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -471,13 +471,13 @@ export interface DashboardTimeFrame {
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardTimeFrameRelative;
 }
@@ -600,11 +600,11 @@ export class DashboardTimeFrameOutputReference extends cdktf.ComplexObject {
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceMetricLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#label Dashboard#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label Dashboard#label}
   */
   readonly label: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#metric_name Dashboard#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric_name Dashboard#metric_name}
   */
   readonly metricName?: string;
 }
@@ -724,7 +724,7 @@ export class DashboardVariablesDefinitionMultiSelectSourceMetricLabelOutputRefer
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryLogsFieldName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#log_regex Dashboard#log_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#log_regex Dashboard#log_regex}
   */
   readonly logRegex: string;
 }
@@ -815,11 +815,11 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryLogsFieldNam
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryLogsFieldValueObservationField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -936,7 +936,7 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryLogsFieldVal
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryLogsFieldValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#observation_field Dashboard#observation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#observation_field Dashboard#observation_field}
   */
   readonly observationField: DashboardVariablesDefinitionMultiSelectSourceQueryQueryLogsFieldValueObservationField;
 }
@@ -1027,11 +1027,11 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryLogsFieldVal
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#field_name Dashboard#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field_name Dashboard#field_name}
   */
   readonly fieldName?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryLogsFieldName;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#field_value Dashboard#field_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field_value Dashboard#field_value}
   */
   readonly fieldValue?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryLogsFieldValue;
 }
@@ -1154,7 +1154,7 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryLogsOutputRe
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#metric_regex Dashboard#metric_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric_regex Dashboard#metric_regex}
   */
   readonly metricRegex: string;
 }
@@ -1245,11 +1245,11 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabel
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueLabelFiltersLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#string_value Dashboard#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#string_value Dashboard#string_value}
   */
   readonly stringValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#variable_name Dashboard#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#variable_name Dashboard#variable_name}
   */
   readonly variableName?: string;
 }
@@ -1372,11 +1372,11 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabel
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueLabelFiltersMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#string_value Dashboard#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#string_value Dashboard#string_value}
   */
   readonly stringValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#variable_name Dashboard#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#variable_name Dashboard#variable_name}
   */
   readonly variableName?: string;
 }
@@ -1499,11 +1499,11 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabel
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueLabelFiltersOperatorSelectedValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#string_value Dashboard#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#string_value Dashboard#string_value}
   */
   readonly stringValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#variable_name Dashboard#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#variable_name Dashboard#variable_name}
   */
   readonly variableName?: string;
 }
@@ -1648,11 +1648,11 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabel
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueLabelFiltersOperator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueLabelFiltersOperatorSelectedValues[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -1772,15 +1772,15 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabel
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueLabelFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#label Dashboard#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label Dashboard#label}
   */
   readonly label?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueLabelFiltersLabel;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#metric Dashboard#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric Dashboard#metric}
   */
   readonly metric?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueLabelFiltersMetric;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueLabelFiltersOperator;
 }
@@ -1954,11 +1954,11 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabel
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueLabelName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#string_value Dashboard#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#string_value Dashboard#string_value}
   */
   readonly stringValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#variable_name Dashboard#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#variable_name Dashboard#variable_name}
   */
   readonly variableName?: string;
 }
@@ -2081,11 +2081,11 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabel
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueMetricName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#string_value Dashboard#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#string_value Dashboard#string_value}
   */
   readonly stringValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#variable_name Dashboard#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#variable_name Dashboard#variable_name}
   */
   readonly variableName?: string;
 }
@@ -2208,15 +2208,15 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabel
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#label_filters Dashboard#label_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label_filters Dashboard#label_filters}
   */
   readonly labelFilters?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueLabelFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#label_name Dashboard#label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label_name Dashboard#label_name}
   */
   readonly labelName?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueLabelName;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#metric_name Dashboard#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric_name Dashboard#metric_name}
   */
   readonly metricName?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValueMetricName;
 }
@@ -2368,7 +2368,7 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabel
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsMetricName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#metric_regex Dashboard#metric_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric_regex Dashboard#metric_regex}
   */
   readonly metricRegex: string;
 }
@@ -2459,15 +2459,15 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsMetri
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#label_name Dashboard#label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label_name Dashboard#label_name}
   */
   readonly labelName?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelName;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#label_value Dashboard#label_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label_value Dashboard#label_value}
   */
   readonly labelValue?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsLabelValue;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#metric_name Dashboard#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric_name Dashboard#metric_name}
   */
   readonly metricName?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsMetricName;
 }
@@ -2619,7 +2619,7 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetricsOutpu
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQuerySpansFieldName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#span_regex Dashboard#span_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#span_regex Dashboard#span_regex}
   */
   readonly spanRegex: string;
 }
@@ -2712,13 +2712,13 @@ export interface DashboardVariablesDefinitionMultiSelectSourceQueryQuerySpansFie
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -2835,11 +2835,11 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQuerySpansFieldVa
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQuerySpans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#field_name Dashboard#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field_name Dashboard#field_name}
   */
   readonly fieldName?: DashboardVariablesDefinitionMultiSelectSourceQueryQuerySpansFieldName;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#field_value Dashboard#field_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field_value Dashboard#field_value}
   */
   readonly fieldValue?: DashboardVariablesDefinitionMultiSelectSourceQueryQuerySpansFieldValue;
 }
@@ -2962,15 +2962,15 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQuerySpansOutputR
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#logs Dashboard#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#logs Dashboard#logs}
   */
   readonly logs?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#metrics Dashboard#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metrics Dashboard#metrics}
   */
   readonly metrics?: DashboardVariablesDefinitionMultiSelectSourceQueryQueryMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#spans Dashboard#spans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#spans Dashboard#spans}
   */
   readonly spans?: DashboardVariablesDefinitionMultiSelectSourceQueryQuerySpans;
 }
@@ -3122,11 +3122,11 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryQueryOutputRefere
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQueryValueDisplayOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#label_regex Dashboard#label_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label_regex Dashboard#label_regex}
   */
   readonly labelRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#value_regex Dashboard#value_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value_regex Dashboard#value_regex}
   */
   readonly valueRegex?: string;
 }
@@ -3249,15 +3249,15 @@ export class DashboardVariablesDefinitionMultiSelectSourceQueryValueDisplayOptio
 }
 export interface DashboardVariablesDefinitionMultiSelectSourceQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#query Dashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#query Dashboard#query}
   */
   readonly query: DashboardVariablesDefinitionMultiSelectSourceQueryQuery;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#refresh_strategy Dashboard#refresh_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#refresh_strategy Dashboard#refresh_strategy}
   */
   readonly refreshStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#value_display_options Dashboard#value_display_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value_display_options Dashboard#value_display_options}
   */
   readonly valueDisplayOptions?: DashboardVariablesDefinitionMultiSelectSourceQueryValueDisplayOptions;
 }
@@ -3408,13 +3408,13 @@ export interface DashboardVariablesDefinitionMultiSelectSourceSpanField {
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -3531,23 +3531,23 @@ export class DashboardVariablesDefinitionMultiSelectSourceSpanFieldOutputReferen
 }
 export interface DashboardVariablesDefinitionMultiSelectSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#constant_list Dashboard#constant_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#constant_list Dashboard#constant_list}
   */
   readonly constantList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#logs_path Dashboard#logs_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#logs_path Dashboard#logs_path}
   */
   readonly logsPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#metric_label Dashboard#metric_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric_label Dashboard#metric_label}
   */
   readonly metricLabel?: DashboardVariablesDefinitionMultiSelectSourceMetricLabel;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#query Dashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#query Dashboard#query}
   */
   readonly query?: DashboardVariablesDefinitionMultiSelectSourceQuery;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#span_field Dashboard#span_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#span_field Dashboard#span_field}
   */
   readonly spanField?: DashboardVariablesDefinitionMultiSelectSourceSpanField;
 }
@@ -3757,17 +3757,17 @@ export class DashboardVariablesDefinitionMultiSelectSourceOutputReference extend
 }
 export interface DashboardVariablesDefinitionMultiSelect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#source Dashboard#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#source Dashboard#source}
   */
   readonly source?: DashboardVariablesDefinitionMultiSelectSource;
   /**
   * The order direction of the values. Can be one of `asc`, `desc`, `unspecified`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#values_order_direction Dashboard#values_order_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#values_order_direction Dashboard#values_order_direction}
   */
   readonly valuesOrderDirection: string;
 }
@@ -3916,11 +3916,11 @@ export class DashboardVariablesDefinitionMultiSelectOutputReference extends cdkt
 }
 export interface DashboardVariablesDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#constant_value Dashboard#constant_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#constant_value Dashboard#constant_value}
   */
   readonly constantValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#multi_select Dashboard#multi_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#multi_select Dashboard#multi_select}
   */
   readonly multiSelect?: DashboardVariablesDefinitionMultiSelect;
 }
@@ -4043,15 +4043,15 @@ export class DashboardVariablesDefinitionOutputReference extends cdktf.ComplexOb
 }
 export interface DashboardVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#definition Dashboard#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#definition Dashboard#definition}
   */
   readonly definition: DashboardVariablesDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#display_name Dashboard#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#display_name Dashboard#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/dashboard#name Dashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#name Dashboard#name}
   */
   readonly name?: string;
 }

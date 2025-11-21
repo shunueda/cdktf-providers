@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_local_group_members
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_local_group_members
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNetappOntapCifsLocalGroupMembersAConfig extends cdktf.Terra
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_local_group_members#cx_profile_name DataNetappOntapCifsLocalGroupMembersA#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_local_group_members#cx_profile_name DataNetappOntapCifsLocalGroupMembersA#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Local group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_local_group_members#group_name DataNetappOntapCifsLocalGroupMembersA#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_local_group_members#group_name DataNetappOntapCifsLocalGroupMembersA#group_name}
   */
   readonly groupName: string;
   /**
   * IPInterface svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_local_group_members#svm_name DataNetappOntapCifsLocalGroupMembersA#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_local_group_members#svm_name DataNetappOntapCifsLocalGroupMembersA#svm_name}
   */
   readonly svmName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_local_group_members netapp-ontap_cifs_local_group_members}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_local_group_members netapp-ontap_cifs_local_group_members}
 */
 export class DataNetappOntapCifsLocalGroupMembersA extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataNetappOntapCifsLocalGroupMembersA extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataNetappOntapCifsLocalGroupMembersA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapCifsLocalGroupMembersA to import
-  * @param importFromId The id of the existing DataNetappOntapCifsLocalGroupMembersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_local_group_members#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapCifsLocalGroupMembersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_local_group_members#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapCifsLocalGroupMembersA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataNetappOntapCifsLocalGroupMembersA extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_local_group_members netapp-ontap_cifs_local_group_members} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_local_group_members netapp-ontap_cifs_local_group_members} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataNetappOntapCifsLocalGroupMembersA extends cdktf.TerraformDataSo
       terraformResourceType: 'netapp-ontap_cifs_local_group_members',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

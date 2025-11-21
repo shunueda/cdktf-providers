@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcaches
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcaches
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapFlexcachesConfig extends cdktf.TerraformMetaArgu
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcaches#cx_profile_name DataNetappOntapFlexcaches#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcaches#cx_profile_name DataNetappOntapFlexcaches#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcaches#filter DataNetappOntapFlexcaches#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcaches#filter DataNetappOntapFlexcaches#filter}
   */
   readonly filter?: DataNetappOntapFlexcachesFilter;
 }
@@ -22,13 +22,13 @@ export interface DataNetappOntapFlexcachesFilter {
   /**
   * StorageFlexcache name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcaches#name DataNetappOntapFlexcaches#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcaches#name DataNetappOntapFlexcaches#name}
   */
   readonly name?: string;
   /**
   * StorageFlexcache svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcaches#svm_name DataNetappOntapFlexcaches#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcaches#svm_name DataNetappOntapFlexcaches#svm_name}
   */
   readonly svmName?: string;
 }
@@ -405,13 +405,13 @@ export interface DataNetappOntapFlexcachesStorageFlexcachesOrigins {
   /**
   * Origin volume SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcaches#svm DataNetappOntapFlexcaches#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcaches#svm DataNetappOntapFlexcaches#svm}
   */
   readonly svm: DataNetappOntapFlexcachesStorageFlexcachesOriginsSvm;
   /**
   * Origin volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcaches#volume DataNetappOntapFlexcaches#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcaches#volume DataNetappOntapFlexcaches#volume}
   */
   readonly volume: DataNetappOntapFlexcachesStorageFlexcachesOriginsVolume;
 }
@@ -542,19 +542,19 @@ export interface DataNetappOntapFlexcachesStorageFlexcaches {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcaches#cx_profile_name DataNetappOntapFlexcaches#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcaches#cx_profile_name DataNetappOntapFlexcaches#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * The name of the flexcache volume to manage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcaches#name DataNetappOntapFlexcaches#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcaches#name DataNetappOntapFlexcaches#name}
   */
   readonly name: string;
   /**
   * Name of the svm to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcaches#svm_name DataNetappOntapFlexcaches#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcaches#svm_name DataNetappOntapFlexcaches#svm_name}
   */
   readonly svmName: string;
 }
@@ -767,7 +767,7 @@ export class DataNetappOntapFlexcachesStorageFlexcachesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcaches netapp-ontap_flexcaches}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcaches netapp-ontap_flexcaches}
 */
 export class DataNetappOntapFlexcaches extends cdktf.TerraformDataSource {
 
@@ -783,7 +783,7 @@ export class DataNetappOntapFlexcaches extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapFlexcaches resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapFlexcaches to import
-  * @param importFromId The id of the existing DataNetappOntapFlexcaches that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcaches#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapFlexcaches that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcaches#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapFlexcaches to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -795,7 +795,7 @@ export class DataNetappOntapFlexcaches extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/flexcaches netapp-ontap_flexcaches} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/flexcaches netapp-ontap_flexcaches} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -806,8 +806,8 @@ export class DataNetappOntapFlexcaches extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_flexcaches',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

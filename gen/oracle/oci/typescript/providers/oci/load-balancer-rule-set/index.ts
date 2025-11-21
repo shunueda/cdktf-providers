@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface LoadBalancerRuleSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#id LoadBalancerRuleSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#id LoadBalancerRuleSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#load_balancer_id LoadBalancerRuleSet#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#load_balancer_id LoadBalancerRuleSet#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#name LoadBalancerRuleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#name LoadBalancerRuleSet#name}
   */
   readonly name: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#items LoadBalancerRuleSet#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#items LoadBalancerRuleSet#items}
   */
   readonly items: LoadBalancerRuleSetItems[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#timeouts LoadBalancerRuleSet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#timeouts LoadBalancerRuleSet#timeouts}
   */
   readonly timeouts?: LoadBalancerRuleSetTimeouts;
 }
 export interface LoadBalancerRuleSetItemsConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#attribute_name LoadBalancerRuleSet#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#attribute_name LoadBalancerRuleSet#attribute_name}
   */
   readonly attributeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#attribute_value LoadBalancerRuleSet#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#attribute_value LoadBalancerRuleSet#attribute_value}
   */
   readonly attributeValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#operator LoadBalancerRuleSet#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#operator LoadBalancerRuleSet#operator}
   */
   readonly operator?: string;
 }
@@ -213,11 +213,11 @@ export class LoadBalancerRuleSetItemsConditionsList extends cdktf.ComplexList {
 }
 export interface LoadBalancerRuleSetItemsIpMaxConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#ip_addresses LoadBalancerRuleSet#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#ip_addresses LoadBalancerRuleSet#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#max_connections LoadBalancerRuleSet#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#max_connections LoadBalancerRuleSet#max_connections}
   */
   readonly maxConnections?: number;
 }
@@ -362,23 +362,23 @@ export class LoadBalancerRuleSetItemsIpMaxConnectionsList extends cdktf.ComplexL
 }
 export interface LoadBalancerRuleSetItemsRedirectUri {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#host LoadBalancerRuleSet#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#host LoadBalancerRuleSet#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#path LoadBalancerRuleSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#path LoadBalancerRuleSet#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#port LoadBalancerRuleSet#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#port LoadBalancerRuleSet#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#protocol LoadBalancerRuleSet#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#protocol LoadBalancerRuleSet#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#query LoadBalancerRuleSet#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#query LoadBalancerRuleSet#query}
   */
   readonly query?: string;
 }
@@ -578,69 +578,69 @@ export class LoadBalancerRuleSetItemsRedirectUriOutputReference extends cdktf.Co
 }
 export interface LoadBalancerRuleSetItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#action LoadBalancerRuleSet#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#action LoadBalancerRuleSet#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#allowed_methods LoadBalancerRuleSet#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#allowed_methods LoadBalancerRuleSet#allowed_methods}
   */
   readonly allowedMethods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#are_invalid_characters_allowed LoadBalancerRuleSet#are_invalid_characters_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#are_invalid_characters_allowed LoadBalancerRuleSet#are_invalid_characters_allowed}
   */
   readonly areInvalidCharactersAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#default_max_connections LoadBalancerRuleSet#default_max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#default_max_connections LoadBalancerRuleSet#default_max_connections}
   */
   readonly defaultMaxConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#description LoadBalancerRuleSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#description LoadBalancerRuleSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#header LoadBalancerRuleSet#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#header LoadBalancerRuleSet#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#http_large_header_size_in_kb LoadBalancerRuleSet#http_large_header_size_in_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#http_large_header_size_in_kb LoadBalancerRuleSet#http_large_header_size_in_kb}
   */
   readonly httpLargeHeaderSizeInKb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#prefix LoadBalancerRuleSet#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#prefix LoadBalancerRuleSet#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#response_code LoadBalancerRuleSet#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#response_code LoadBalancerRuleSet#response_code}
   */
   readonly responseCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#status_code LoadBalancerRuleSet#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#status_code LoadBalancerRuleSet#status_code}
   */
   readonly statusCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#suffix LoadBalancerRuleSet#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#suffix LoadBalancerRuleSet#suffix}
   */
   readonly suffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#value LoadBalancerRuleSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#value LoadBalancerRuleSet#value}
   */
   readonly value?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#conditions LoadBalancerRuleSet#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#conditions LoadBalancerRuleSet#conditions}
   */
   readonly conditions?: LoadBalancerRuleSetItemsConditions[] | cdktf.IResolvable;
   /**
   * ip_max_connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#ip_max_connections LoadBalancerRuleSet#ip_max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#ip_max_connections LoadBalancerRuleSet#ip_max_connections}
   */
   readonly ipMaxConnections?: LoadBalancerRuleSetItemsIpMaxConnections[] | cdktf.IResolvable;
   /**
   * redirect_uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#redirect_uri LoadBalancerRuleSet#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#redirect_uri LoadBalancerRuleSet#redirect_uri}
   */
   readonly redirectUri?: LoadBalancerRuleSetItemsRedirectUri;
 }
@@ -1159,15 +1159,15 @@ export class LoadBalancerRuleSetItemsList extends cdktf.ComplexList {
 }
 export interface LoadBalancerRuleSetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#create LoadBalancerRuleSet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#create LoadBalancerRuleSet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#delete LoadBalancerRuleSet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#delete LoadBalancerRuleSet#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#update LoadBalancerRuleSet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#update LoadBalancerRuleSet#update}
   */
   readonly update?: string;
 }
@@ -1319,7 +1319,7 @@ export class LoadBalancerRuleSetTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set oci_load_balancer_rule_set}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set oci_load_balancer_rule_set}
 */
 export class LoadBalancerRuleSet extends cdktf.TerraformResource {
 
@@ -1335,7 +1335,7 @@ export class LoadBalancerRuleSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadBalancerRuleSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadBalancerRuleSet to import
-  * @param importFromId The id of the existing LoadBalancerRuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadBalancerRuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadBalancerRuleSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1347,7 +1347,7 @@ export class LoadBalancerRuleSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_rule_set oci_load_balancer_rule_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_rule_set oci_load_balancer_rule_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1358,8 +1358,8 @@ export class LoadBalancerRuleSet extends cdktf.TerraformResource {
       terraformResourceType: 'oci_load_balancer_rule_set',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

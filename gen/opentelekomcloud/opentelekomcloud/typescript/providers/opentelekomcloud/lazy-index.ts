@@ -127,6 +127,7 @@ Object.defineProperty(exports, 'fwPolicyV2', { get: function () { return require
 Object.defineProperty(exports, 'fwRuleV2', { get: function () { return require('./fw-rule-v2'); } });
 Object.defineProperty(exports, 'gaussdbMysqlInstanceV3', { get: function () { return require('./gaussdb-mysql-instance-v3'); } });
 Object.defineProperty(exports, 'geminiInstanceV3', { get: function () { return require('./gemini-instance-v3'); } });
+Object.defineProperty(exports, 'geminiTemplateV3', { get: function () { return require('./gemini-template-v3'); } });
 Object.defineProperty(exports, 'hssHostGroupV5', { get: function () { return require('./hss-host-group-v5'); } });
 Object.defineProperty(exports, 'hssHostProtectionV5', { get: function () { return require('./hss-host-protection-v5'); } });
 Object.defineProperty(exports, 'identityAclV3', { get: function () { return require('./identity-acl-v3'); } });
@@ -219,6 +220,7 @@ Object.defineProperty(exports, 'privateNatGatewayV3', { get: function () { retur
 Object.defineProperty(exports, 'privateNatSnatRuleV3', { get: function () { return require('./private-nat-snat-rule-v3'); } });
 Object.defineProperty(exports, 'privateNatTransitIpV3', { get: function () { return require('./private-nat-transit-ip-v3'); } });
 Object.defineProperty(exports, 'rdsBackupV3', { get: function () { return require('./rds-backup-v3'); } });
+Object.defineProperty(exports, 'rdsInstanceMinorVersionUpgradeV3', { get: function () { return require('./rds-instance-minor-version-upgrade-v3'); } });
 Object.defineProperty(exports, 'rdsInstanceV1', { get: function () { return require('./rds-instance-v1'); } });
 Object.defineProperty(exports, 'rdsInstanceV3', { get: function () { return require('./rds-instance-v3'); } });
 Object.defineProperty(exports, 'rdsMaintenanceV3', { get: function () { return require('./rds-maintenance-v3'); } });
@@ -372,6 +374,10 @@ Object.defineProperty(exports, 'dataOpentelekomcloudErQuotasV3', { get: function
 Object.defineProperty(exports, 'dataOpentelekomcloudErRouteTablesV3', { get: function () { return require('./data-opentelekomcloud-er-route-tables-v3'); } });
 Object.defineProperty(exports, 'dataOpentelekomcloudEvsVolumesV2', { get: function () { return require('./data-opentelekomcloud-evs-volumes-v2'); } });
 Object.defineProperty(exports, 'dataOpentelekomcloudFgsFunctionsV2', { get: function () { return require('./data-opentelekomcloud-fgs-functions-v2'); } });
+Object.defineProperty(exports, 'dataOpentelekomcloudGeminiInstanceTemplateV3', { get: function () { return require('./data-opentelekomcloud-gemini-instance-template-v3'); } });
+Object.defineProperty(exports, 'dataOpentelekomcloudGeminiInstancesV3', { get: function () { return require('./data-opentelekomcloud-gemini-instances-v3'); } });
+Object.defineProperty(exports, 'dataOpentelekomcloudGeminiQuotasV3', { get: function () { return require('./data-opentelekomcloud-gemini-quotas-v3'); } });
+Object.defineProperty(exports, 'dataOpentelekomcloudGeminiTemplatesV3', { get: function () { return require('./data-opentelekomcloud-gemini-templates-v3'); } });
 Object.defineProperty(exports, 'dataOpentelekomcloudHssHostGroupsV5', { get: function () { return require('./data-opentelekomcloud-hss-host-groups-v5'); } });
 Object.defineProperty(exports, 'dataOpentelekomcloudHssHostsV5', { get: function () { return require('./data-opentelekomcloud-hss-hosts-v5'); } });
 Object.defineProperty(exports, 'dataOpentelekomcloudHssIntrusionEventsV5', { get: function () { return require('./data-opentelekomcloud-hss-intrusion-events-v5'); } });

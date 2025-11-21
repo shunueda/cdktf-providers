@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_local_group_member_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_local_group_member_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ProtocolsCifsLocalGroupMemberResourceConfig extends cdktf.Terra
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_local_group_member_resource#cx_profile_name ProtocolsCifsLocalGroupMemberResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_local_group_member_resource#cx_profile_name ProtocolsCifsLocalGroupMemberResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * CifsLocalGroupMember name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_local_group_member_resource#group_name ProtocolsCifsLocalGroupMemberResource#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_local_group_member_resource#group_name ProtocolsCifsLocalGroupMemberResource#group_name}
   */
   readonly groupName: string;
   /**
   * Member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_local_group_member_resource#member ProtocolsCifsLocalGroupMemberResource#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_local_group_member_resource#member ProtocolsCifsLocalGroupMemberResource#member}
   */
   readonly member: string;
   /**
   * CifsLocalGroupMember svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_local_group_member_resource#svm_name ProtocolsCifsLocalGroupMemberResource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_local_group_member_resource#svm_name ProtocolsCifsLocalGroupMemberResource#svm_name}
   */
   readonly svmName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_local_group_member_resource netapp-ontap_protocols_cifs_local_group_member_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_local_group_member_resource netapp-ontap_protocols_cifs_local_group_member_resource}
 */
 export class ProtocolsCifsLocalGroupMemberResource extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ProtocolsCifsLocalGroupMemberResource extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ProtocolsCifsLocalGroupMemberResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtocolsCifsLocalGroupMemberResource to import
-  * @param importFromId The id of the existing ProtocolsCifsLocalGroupMemberResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_local_group_member_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtocolsCifsLocalGroupMemberResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_local_group_member_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtocolsCifsLocalGroupMemberResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ProtocolsCifsLocalGroupMemberResource extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_cifs_local_group_member_resource netapp-ontap_protocols_cifs_local_group_member_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_cifs_local_group_member_resource netapp-ontap_protocols_cifs_local_group_member_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ProtocolsCifsLocalGroupMemberResource extends cdktf.TerraformResour
       terraformResourceType: 'netapp-ontap_protocols_cifs_local_group_member_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

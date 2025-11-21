@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_share
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_share
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataNetappOntapCifsShareConfig extends cdktf.TerraformMetaArgum
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_share#cx_profile_name DataNetappOntapCifsShare#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_share#cx_profile_name DataNetappOntapCifsShare#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
@@ -20,13 +20,13 @@ export interface DataNetappOntapCifsShareConfig extends cdktf.TerraformMetaArgum
   * 				variables in any combination with this parameter to generate shares dynamically.
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_share#name DataNetappOntapCifsShare#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_share#name DataNetappOntapCifsShare#name}
   */
   readonly name: string;
   /**
   * IPInterface svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_share#svm_name DataNetappOntapCifsShare#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_share#svm_name DataNetappOntapCifsShare#svm_name}
   */
   readonly svmName?: string;
 }
@@ -117,7 +117,7 @@ export class DataNetappOntapCifsShareAclsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_share netapp-ontap_cifs_share}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_share netapp-ontap_cifs_share}
 */
 export class DataNetappOntapCifsShare extends cdktf.TerraformDataSource {
 
@@ -133,7 +133,7 @@ export class DataNetappOntapCifsShare extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapCifsShare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapCifsShare to import
-  * @param importFromId The id of the existing DataNetappOntapCifsShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_share#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapCifsShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_share#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapCifsShare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class DataNetappOntapCifsShare extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cifs_share netapp-ontap_cifs_share} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cifs_share netapp-ontap_cifs_share} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +156,8 @@ export class DataNetappOntapCifsShare extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_cifs_share',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -175,6 +175,11 @@ export class DataNetappOntapCifsShare extends cdktf.TerraformDataSource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // access_based_enumeration - computed: true, optional: false, required: false
+  public get accessBasedEnumeration() {
+    return this.getBooleanAttribute('access_based_enumeration');
+  }
 
   // acls - computed: true, optional: false, required: false
   private _acls = new DataNetappOntapCifsShareAclsList(this, "acls", true);

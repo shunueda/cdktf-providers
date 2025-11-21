@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_file_system_quota_rule
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/file_storage_file_system_quota_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciFileStorageFileSystemQuotaRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_file_system_quota_rule#are_violators_only DataOciFileStorageFileSystemQuotaRule#are_violators_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/file_storage_file_system_quota_rule#are_violators_only DataOciFileStorageFileSystemQuotaRule#are_violators_only}
   */
   readonly areViolatorsOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_file_system_quota_rule#file_system_id DataOciFileStorageFileSystemQuotaRule#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/file_storage_file_system_quota_rule#file_system_id DataOciFileStorageFileSystemQuotaRule#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_file_system_quota_rule#quota_rule_id DataOciFileStorageFileSystemQuotaRule#quota_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/file_storage_file_system_quota_rule#quota_rule_id DataOciFileStorageFileSystemQuotaRule#quota_rule_id}
   */
   readonly quotaRuleId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_file_system_quota_rule oci_file_storage_file_system_quota_rule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/file_storage_file_system_quota_rule oci_file_storage_file_system_quota_rule}
 */
 export class DataOciFileStorageFileSystemQuotaRule extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataOciFileStorageFileSystemQuotaRule extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataOciFileStorageFileSystemQuotaRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciFileStorageFileSystemQuotaRule to import
-  * @param importFromId The id of the existing DataOciFileStorageFileSystemQuotaRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_file_system_quota_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciFileStorageFileSystemQuotaRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/file_storage_file_system_quota_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciFileStorageFileSystemQuotaRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataOciFileStorageFileSystemQuotaRule extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_file_system_quota_rule oci_file_storage_file_system_quota_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/file_storage_file_system_quota_rule oci_file_storage_file_system_quota_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataOciFileStorageFileSystemQuotaRule extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_file_storage_file_system_quota_rule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

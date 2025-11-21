@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs
+// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface EquinixProviderConfig {
   /**
   * The Equinix Metal API auth key for API operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#auth_token EquinixProvider#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#auth_token EquinixProvider#auth_token}
   */
   readonly authToken?: string;
   /**
   * API Consumer Key available under "My Apps" in developer portal. This argument can also be specified with the `EQUINIX_API_CLIENTID` shell environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#client_id EquinixProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#client_id EquinixProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * API Consumer secret available under "My Apps" in developer portal. This argument can also be specified with the `EQUINIX_API_CLIENTSECRET` shell environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#client_secret EquinixProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#client_secret EquinixProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The Equinix API base URL to point out desired environment. This argument can also be specified with the `EQUINIX_API_ENDPOINT` shell environment variable. (Defaults to `https://api.equinix.com`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#endpoint EquinixProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#endpoint EquinixProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Maximum number of retries in case of network failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#max_retries EquinixProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#max_retries EquinixProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Maximum number of seconds to wait before retrying a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#max_retry_wait_seconds EquinixProvider#max_retry_wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#max_retry_wait_seconds EquinixProvider#max_retry_wait_seconds}
   */
   readonly maxRetryWaitSeconds?: number;
   /**
   * The duration of time, in seconds, that the Equinix Platform API Client should wait before canceling an API request. Canceled requests may still result in provisioned resources. (Defaults to `30`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#request_timeout EquinixProvider#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#request_timeout EquinixProvider#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * The maximum number of records in a single response for REST queries that produce paginated responses. (Default is client specific)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#response_max_page_size EquinixProvider#response_max_page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#response_max_page_size EquinixProvider#response_max_page_size}
   */
   readonly responseMaxPageSize?: number;
   /**
   * The STS API base URL to point to the desired environment. This argument can also be specified with the `EQUINIX_STS_ENDPOINT` shell environment variable. (Defaults to `https://sts.eqix.equinix.com`). Please note that STS is an alpha feature and not available for all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#sts_endpoint EquinixProvider#sts_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#sts_endpoint EquinixProvider#sts_endpoint}
   */
   readonly stsEndpoint?: string;
   /**
   * API tokens are generated from API Consumer clients using the [OAuth2 API](https://developer.equinix.com/dev-docs/fabric/getting-started/getting-access-token#request-access-and-refresh-tokens). This argument can also be specified with the `EQUINIX_API_TOKEN` shell environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#token EquinixProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#token EquinixProvider#token}
   */
   readonly token?: string;
   /**
   * The scope of the authentication token. Must be an access policy ERN or a string of the form `roleassignments:<org_id>`. This argument can also be specified with the `EQUINIX_TOKEN_EXCHANGE_SCOPE` shell environment variable. Please note that token exchange is an alpha feature and not available for all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#token_exchange_scope EquinixProvider#token_exchange_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#token_exchange_scope EquinixProvider#token_exchange_scope}
   */
   readonly tokenExchangeScope?: string;
   /**
   * The subject token to use for token exchange authentication. Must be an OIDC ID token issued by an OIDC provider trusted by Equinix STS. If not set, the provider will use the environment variable specified in `token_exchange_subject_token_env_var`. Please note that token exchange is an alpha feature and not available for all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#token_exchange_subject_token EquinixProvider#token_exchange_subject_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#token_exchange_subject_token EquinixProvider#token_exchange_subject_token}
   */
   readonly tokenExchangeSubjectToken?: string;
   /**
   * The name of the environment variable containing the subject token for token exchange. This argument can also be specified with the `EQUINIX_TOKEN_EXCHANGE_SUBJECT_TOKEN_ENV_VAR` shell environment variable. (Defaults to `EQUINIX_TOKEN_EXCHANGE_SUBJECT_TOKEN`). Please note that token exchange is an alpha feature and not available for all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#token_exchange_subject_token_env_var EquinixProvider#token_exchange_subject_token_env_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#token_exchange_subject_token_env_var EquinixProvider#token_exchange_subject_token_env_var}
   */
   readonly tokenExchangeSubjectTokenEnvVar?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#alias EquinixProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#alias EquinixProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs equinix}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs equinix}
 */
 export class EquinixProvider extends cdktf.TerraformProvider {
 
@@ -110,7 +110,7 @@ export class EquinixProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a EquinixProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EquinixProvider to import
-  * @param importFromId The id of the existing EquinixProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EquinixProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EquinixProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class EquinixProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs equinix} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs equinix} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class EquinixProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'equinix',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.10.0',
-        providerVersionConstraint: '4.10.0'
+        providerVersion: '4.11.0',
+        providerVersionConstraint: '4.11.0'
       },
       terraformProviderSource: 'equinix/equinix'
     });

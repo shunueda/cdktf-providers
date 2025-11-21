@@ -1,3 +1,3 @@
 # `netapp-ontap_lun`
 
-Refer to the Terraform Registry for docs: [`netapp-ontap_lun`](https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/lun).
+Refer to the Terraform Registry for docs: [`netapp-ontap_lun`](https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/lun).

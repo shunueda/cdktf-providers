@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_responder_recipe
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_guard_responder_recipe
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCloudGuardResponderRecipeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_responder_recipe#responder_recipe_id DataOciCloudGuardResponderRecipe#responder_recipe_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_guard_responder_recipe#responder_recipe_id DataOciCloudGuardResponderRecipe#responder_recipe_id}
   */
   readonly responderRecipeId: string;
 }
@@ -628,7 +628,7 @@ export class DataOciCloudGuardResponderRecipeResponderRulesList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_responder_recipe oci_cloud_guard_responder_recipe}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_guard_responder_recipe oci_cloud_guard_responder_recipe}
 */
 export class DataOciCloudGuardResponderRecipe extends cdktf.TerraformDataSource {
 
@@ -644,7 +644,7 @@ export class DataOciCloudGuardResponderRecipe extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOciCloudGuardResponderRecipe resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCloudGuardResponderRecipe to import
-  * @param importFromId The id of the existing DataOciCloudGuardResponderRecipe that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_responder_recipe#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCloudGuardResponderRecipe that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_guard_responder_recipe#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCloudGuardResponderRecipe to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -656,7 +656,7 @@ export class DataOciCloudGuardResponderRecipe extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_responder_recipe oci_cloud_guard_responder_recipe} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_guard_responder_recipe oci_cloud_guard_responder_recipe} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -667,8 +667,8 @@ export class DataOciCloudGuardResponderRecipe extends cdktf.TerraformDataSource 
       terraformResourceType: 'oci_cloud_guard_responder_recipe',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

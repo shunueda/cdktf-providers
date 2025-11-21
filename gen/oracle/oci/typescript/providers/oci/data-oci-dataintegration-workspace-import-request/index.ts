@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dataintegration_workspace_import_request
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_import_request
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataintegrationWorkspaceImportRequestConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dataintegration_workspace_import_request#import_request_key DataOciDataintegrationWorkspaceImportRequest#import_request_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_import_request#import_request_key DataOciDataintegrationWorkspaceImportRequest#import_request_key}
   */
   readonly importRequestKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dataintegration_workspace_import_request#workspace_id DataOciDataintegrationWorkspaceImportRequest#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_import_request#workspace_id DataOciDataintegrationWorkspaceImportRequest#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -223,7 +223,7 @@ export class DataOciDataintegrationWorkspaceImportRequestImportedObjectsList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dataintegration_workspace_import_request oci_dataintegration_workspace_import_request}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_import_request oci_dataintegration_workspace_import_request}
 */
 export class DataOciDataintegrationWorkspaceImportRequest extends cdktf.TerraformDataSource {
 
@@ -239,7 +239,7 @@ export class DataOciDataintegrationWorkspaceImportRequest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataOciDataintegrationWorkspaceImportRequest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataintegrationWorkspaceImportRequest to import
-  * @param importFromId The id of the existing DataOciDataintegrationWorkspaceImportRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dataintegration_workspace_import_request#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataintegrationWorkspaceImportRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_import_request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataintegrationWorkspaceImportRequest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class DataOciDataintegrationWorkspaceImportRequest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dataintegration_workspace_import_request oci_dataintegration_workspace_import_request} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_import_request oci_dataintegration_workspace_import_request} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class DataOciDataintegrationWorkspaceImportRequest extends cdktf.Terrafor
       terraformResourceType: 'oci_dataintegration_workspace_import_request',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

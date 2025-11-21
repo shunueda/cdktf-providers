@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface OptimizerProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#aggregation_interval_in_days OptimizerProfile#aggregation_interval_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#aggregation_interval_in_days OptimizerProfile#aggregation_interval_in_days}
   */
   readonly aggregationIntervalInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#compartment_id OptimizerProfile#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#compartment_id OptimizerProfile#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#defined_tags OptimizerProfile#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#defined_tags OptimizerProfile#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#description OptimizerProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#description OptimizerProfile#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#freeform_tags OptimizerProfile#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#freeform_tags OptimizerProfile#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#id OptimizerProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#id OptimizerProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#name OptimizerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#name OptimizerProfile#name}
   */
   readonly name: string;
   /**
   * levels_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#levels_configuration OptimizerProfile#levels_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#levels_configuration OptimizerProfile#levels_configuration}
   */
   readonly levelsConfiguration: OptimizerProfileLevelsConfiguration;
   /**
   * target_compartments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#target_compartments OptimizerProfile#target_compartments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#target_compartments OptimizerProfile#target_compartments}
   */
   readonly targetCompartments?: OptimizerProfileTargetCompartments;
   /**
   * target_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#target_tags OptimizerProfile#target_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#target_tags OptimizerProfile#target_tags}
   */
   readonly targetTags?: OptimizerProfileTargetTags;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#timeouts OptimizerProfile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#timeouts OptimizerProfile#timeouts}
   */
   readonly timeouts?: OptimizerProfileTimeouts;
 }
 export interface OptimizerProfileLevelsConfigurationItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#level OptimizerProfile#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#level OptimizerProfile#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#recommendation_id OptimizerProfile#recommendation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#recommendation_id OptimizerProfile#recommendation_id}
   */
   readonly recommendationId?: string;
 }
@@ -216,7 +216,7 @@ export interface OptimizerProfileLevelsConfiguration {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#items OptimizerProfile#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#items OptimizerProfile#items}
   */
   readonly items?: OptimizerProfileLevelsConfigurationItems[] | cdktf.IResolvable;
 }
@@ -300,7 +300,7 @@ export class OptimizerProfileLevelsConfigurationOutputReference extends cdktf.Co
 }
 export interface OptimizerProfileTargetCompartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#items OptimizerProfile#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#items OptimizerProfile#items}
   */
   readonly items: string[];
 }
@@ -381,19 +381,19 @@ export class OptimizerProfileTargetCompartmentsOutputReference extends cdktf.Com
 }
 export interface OptimizerProfileTargetTagsItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#tag_definition_name OptimizerProfile#tag_definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#tag_definition_name OptimizerProfile#tag_definition_name}
   */
   readonly tagDefinitionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#tag_namespace_name OptimizerProfile#tag_namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#tag_namespace_name OptimizerProfile#tag_namespace_name}
   */
   readonly tagNamespaceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#tag_value_type OptimizerProfile#tag_value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#tag_value_type OptimizerProfile#tag_value_type}
   */
   readonly tagValueType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#tag_values OptimizerProfile#tag_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#tag_values OptimizerProfile#tag_values}
   */
   readonly tagValues?: string[];
 }
@@ -589,7 +589,7 @@ export interface OptimizerProfileTargetTags {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#items OptimizerProfile#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#items OptimizerProfile#items}
   */
   readonly items: OptimizerProfileTargetTagsItems[] | cdktf.IResolvable;
 }
@@ -670,15 +670,15 @@ export class OptimizerProfileTargetTagsOutputReference extends cdktf.ComplexObje
 }
 export interface OptimizerProfileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#create OptimizerProfile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#create OptimizerProfile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#delete OptimizerProfile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#delete OptimizerProfile#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#update OptimizerProfile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#update OptimizerProfile#update}
   */
   readonly update?: string;
 }
@@ -830,7 +830,7 @@ export class OptimizerProfileTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile oci_optimizer_profile}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile oci_optimizer_profile}
 */
 export class OptimizerProfile extends cdktf.TerraformResource {
 
@@ -846,7 +846,7 @@ export class OptimizerProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OptimizerProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OptimizerProfile to import
-  * @param importFromId The id of the existing OptimizerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OptimizerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OptimizerProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -858,7 +858,7 @@ export class OptimizerProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_profile oci_optimizer_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_profile oci_optimizer_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -869,8 +869,8 @@ export class OptimizerProfile extends cdktf.TerraformResource {
       terraformResourceType: 'oci_optimizer_profile',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

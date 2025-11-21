@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataRenderPrivateServiceConfig extends cdktf.TerraformMetaArgum
   /**
   * Unique identifier for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service#id DataRenderPrivateService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service#id DataRenderPrivateService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataRenderPrivateServiceConfig extends cdktf.TerraformMetaArgum
   /**
   * Configure the [log stream override settings](https://render.com/docs/log-streams#overriding-defaults) for this service. These will override the global log stream settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service#log_stream_override DataRenderPrivateService#log_stream_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service#log_stream_override DataRenderPrivateService#log_stream_override}
   */
   readonly logStreamOverride?: DataRenderPrivateServiceLogStreamOverride;
 }
@@ -276,19 +276,19 @@ export interface DataRenderPrivateServiceDisk {
   /**
   * Absolute path to mount the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service#mount_path DataRenderPrivateService#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service#mount_path DataRenderPrivateService#mount_path}
   */
   readonly mountPath: string;
   /**
   * Name of the disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service#name DataRenderPrivateService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service#name DataRenderPrivateService#name}
   */
   readonly name: string;
   /**
   * Size of the disk in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service#size_gb DataRenderPrivateService#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service#size_gb DataRenderPrivateService#size_gb}
   */
   readonly sizeGb: number;
 }
@@ -506,19 +506,19 @@ export interface DataRenderPrivateServiceLogStreamOverride {
   /**
   * The endpoint to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service#endpoint DataRenderPrivateService#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service#endpoint DataRenderPrivateService#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to send or drop logs for this service. Must be one of `send` or `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service#setting DataRenderPrivateService#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service#setting DataRenderPrivateService#setting}
   */
   readonly setting: string;
   /**
   * The token to use when sending logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service#token DataRenderPrivateService#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service#token DataRenderPrivateService#token}
   */
   readonly token?: string;
 }
@@ -931,13 +931,13 @@ export interface DataRenderPrivateServiceRuntimeSourceImage {
   /**
   * Digest of the Docker image to deploy. Mutually exclusive with tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service#digest DataRenderPrivateService#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service#digest DataRenderPrivateService#digest}
   */
   readonly digest?: string;
   /**
   * Tag of the Docker image to deploy. Mutually exclusive with digest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service#tag DataRenderPrivateService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service#tag DataRenderPrivateService#tag}
   */
   readonly tag?: string;
 }
@@ -1344,7 +1344,7 @@ export class DataRenderPrivateServiceSecretFilesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service render_private_service}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service render_private_service}
 */
 export class DataRenderPrivateService extends cdktf.TerraformDataSource {
 
@@ -1360,7 +1360,7 @@ export class DataRenderPrivateService extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRenderPrivateService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRenderPrivateService to import
-  * @param importFromId The id of the existing DataRenderPrivateService that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRenderPrivateService that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRenderPrivateService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1372,7 +1372,7 @@ export class DataRenderPrivateService extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/private_service render_private_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/private_service render_private_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1383,8 +1383,8 @@ export class DataRenderPrivateService extends cdktf.TerraformDataSource {
       terraformResourceType: 'render_private_service',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlReplicaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#db_system_id MysqlReplica#db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#db_system_id MysqlReplica#db_system_id}
   */
   readonly dbSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#defined_tags MysqlReplica#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#defined_tags MysqlReplica#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#description MysqlReplica#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#description MysqlReplica#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#display_name MysqlReplica#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#display_name MysqlReplica#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#freeform_tags MysqlReplica#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#freeform_tags MysqlReplica#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#id MysqlReplica#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#id MysqlReplica#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#is_delete_protected MysqlReplica#is_delete_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#is_delete_protected MysqlReplica#is_delete_protected}
   */
   readonly isDeleteProtected?: boolean | cdktf.IResolvable;
   /**
   * replica_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#replica_overrides MysqlReplica#replica_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#replica_overrides MysqlReplica#replica_overrides}
   */
   readonly replicaOverrides?: MysqlReplicaReplicaOverrides;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#timeouts MysqlReplica#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#timeouts MysqlReplica#timeouts}
   */
   readonly timeouts?: MysqlReplicaTimeouts;
 }
@@ -213,23 +213,23 @@ export class MysqlReplicaSecureConnectionsList extends cdktf.ComplexList {
 }
 export interface MysqlReplicaReplicaOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#configuration_id MysqlReplica#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#configuration_id MysqlReplica#configuration_id}
   */
   readonly configurationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#mysql_version MysqlReplica#mysql_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#mysql_version MysqlReplica#mysql_version}
   */
   readonly mysqlVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#nsg_ids MysqlReplica#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#nsg_ids MysqlReplica#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#security_attributes MysqlReplica#security_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#security_attributes MysqlReplica#security_attributes}
   */
   readonly securityAttributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#shape_name MysqlReplica#shape_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#shape_name MysqlReplica#shape_name}
   */
   readonly shapeName?: string;
 }
@@ -429,15 +429,15 @@ export class MysqlReplicaReplicaOverridesOutputReference extends cdktf.ComplexOb
 }
 export interface MysqlReplicaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#create MysqlReplica#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#create MysqlReplica#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#delete MysqlReplica#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#delete MysqlReplica#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#update MysqlReplica#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#update MysqlReplica#update}
   */
   readonly update?: string;
 }
@@ -589,7 +589,7 @@ export class MysqlReplicaTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica oci_mysql_replica}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica oci_mysql_replica}
 */
 export class MysqlReplica extends cdktf.TerraformResource {
 
@@ -605,7 +605,7 @@ export class MysqlReplica extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlReplica resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlReplica to import
-  * @param importFromId The id of the existing MysqlReplica that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlReplica that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlReplica to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -617,7 +617,7 @@ export class MysqlReplica extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_replica oci_mysql_replica} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_replica oci_mysql_replica} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -628,8 +628,8 @@ export class MysqlReplica extends cdktf.TerraformResource {
       terraformResourceType: 'oci_mysql_replica',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

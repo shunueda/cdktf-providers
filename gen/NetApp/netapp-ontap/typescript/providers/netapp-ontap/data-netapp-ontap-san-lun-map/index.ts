@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_lun-map
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_lun-map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNetappOntapSanLunMapConfig extends cdktf.TerraformMetaArgum
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_lun-map#cx_profile_name DataNetappOntapSanLunMap#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_lun-map#cx_profile_name DataNetappOntapSanLunMap#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_lun-map#igroup DataNetappOntapSanLunMap#igroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_lun-map#igroup DataNetappOntapSanLunMap#igroup}
   */
   readonly igroup: DataNetappOntapSanLunMapIgroup;
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_lun-map#lun DataNetappOntapSanLunMap#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_lun-map#lun DataNetappOntapSanLunMap#lun}
   */
   readonly lun: DataNetappOntapSanLunMapLun;
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_lun-map#svm DataNetappOntapSanLunMap#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_lun-map#svm DataNetappOntapSanLunMap#svm}
   */
   readonly svm: DataNetappOntapSanLunMapSvm;
 }
@@ -36,7 +36,7 @@ export interface DataNetappOntapSanLunMapIgroup {
   /**
   * name of the igroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_lun-map#name DataNetappOntapSanLunMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_lun-map#name DataNetappOntapSanLunMap#name}
   */
   readonly name: string;
 }
@@ -129,7 +129,7 @@ export interface DataNetappOntapSanLunMapLun {
   /**
   * name of the lun
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_lun-map#name DataNetappOntapSanLunMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_lun-map#name DataNetappOntapSanLunMap#name}
   */
   readonly name: string;
 }
@@ -222,7 +222,7 @@ export interface DataNetappOntapSanLunMapSvm {
   /**
   * name of the SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_lun-map#name DataNetappOntapSanLunMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_lun-map#name DataNetappOntapSanLunMap#name}
   */
   readonly name: string;
 }
@@ -313,7 +313,7 @@ export class DataNetappOntapSanLunMapSvmOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_lun-map netapp-ontap_san_lun-map}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_lun-map netapp-ontap_san_lun-map}
 */
 export class DataNetappOntapSanLunMap extends cdktf.TerraformDataSource {
 
@@ -329,7 +329,7 @@ export class DataNetappOntapSanLunMap extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapSanLunMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapSanLunMap to import
-  * @param importFromId The id of the existing DataNetappOntapSanLunMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_lun-map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapSanLunMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_lun-map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapSanLunMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -341,7 +341,7 @@ export class DataNetappOntapSanLunMap extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/san_lun-map netapp-ontap_san_lun-map} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/san_lun-map netapp-ontap_san_lun-map} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -352,8 +352,8 @@ export class DataNetappOntapSanLunMap extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_san_lun-map',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

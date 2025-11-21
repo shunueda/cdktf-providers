@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface PostgresConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the database in the postgres instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#database_name Postgres#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#database_name Postgres#database_name}
   */
   readonly databaseName?: string;
   /**
   * Name of the user in the postgres instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#database_user Postgres#database_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#database_user Postgres#database_user}
   */
   readonly databaseUser?: string;
   /**
   * Datadog API key to use when sending postgres metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#datadog_api_key Postgres#datadog_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#datadog_api_key Postgres#datadog_api_key}
   */
   readonly datadogApiKey?: string;
   /**
   * Disk size in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#disk_size_gb Postgres#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#disk_size_gb Postgres#disk_size_gb}
   */
   readonly diskSizeGb?: number;
   /**
   * ID of the [project environment](https://render.com/docs/projects) that the resource belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#environment_id Postgres#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#environment_id Postgres#environment_id}
   */
   readonly environmentId?: string;
   /**
   * Whether high availability is enabled for this postgres
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#high_availability_enabled Postgres#high_availability_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#high_availability_enabled Postgres#high_availability_enabled}
   */
   readonly highAvailabilityEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of IP addresses that are allowed to connect to the instance. If no IP addresses are provided, only connections via the private network will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#ip_allow_list Postgres#ip_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#ip_allow_list Postgres#ip_allow_list}
   */
   readonly ipAllowList?: PostgresIpAllowListStruct[] | cdktf.IResolvable;
   /**
   * Configure the [log stream override settings](https://render.com/docs/log-streams#overriding-defaults) for this service. These will override the global log stream settings of the user or team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#log_stream_override Postgres#log_stream_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#log_stream_override Postgres#log_stream_override}
   */
   readonly logStreamOverride?: PostgresLogStreamOverride;
   /**
   * Descriptive name for this postgres
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#name Postgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#name Postgres#name}
   */
   readonly name: string;
   /**
   * Plan to use for this postgres. Must be `free`, a basic plan (like `basic_256mb`), a pro plan (like `pro_4gb`), an accelerated plan (like `accelerated_16gb`), `starter`, `standard`, `pro`, `pro_plus`, or a custom plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#plan Postgres#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#plan Postgres#plan}
   */
   readonly plan: string;
   /**
   * List of read replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#read_replicas Postgres#read_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#read_replicas Postgres#read_replicas}
   */
   readonly readReplicas?: PostgresReadReplicas[] | cdktf.IResolvable;
   /**
   * Region the postgres instance in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#region Postgres#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#region Postgres#region}
   */
   readonly region: string;
   /**
   * The Postgres version. Currently supported: `11`, `12`, `13`, `14`, `15`, `16`, and `17`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#version Postgres#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#version Postgres#version}
   */
   readonly version: string;
 }
@@ -159,13 +159,13 @@ export interface PostgresIpAllowListStruct {
   /**
   * CIDR block that is allowed to connect to the Redis instance. (0.0.0.0/0 to allow traffic from all IPs) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#cidr_block Postgres#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#cidr_block Postgres#cidr_block}
   */
   readonly cidrBlock: string;
   /**
   * Description of the IP address or range. This is used to help identify the IP address or range in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#description Postgres#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#description Postgres#description}
   */
   readonly description: string;
 }
@@ -306,19 +306,19 @@ export interface PostgresLogStreamOverride {
   /**
   * The endpoint to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#endpoint Postgres#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#endpoint Postgres#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to send or drop logs for this service. Must be one of `send` or `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#setting Postgres#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#setting Postgres#setting}
   */
   readonly setting: string;
   /**
   * The token to use when sending logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#token Postgres#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#token Postgres#token}
   */
   readonly token?: string;
 }
@@ -469,7 +469,7 @@ export interface PostgresReadReplicas {
   /**
   * Name of the read replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#name Postgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#name Postgres#name}
   */
   readonly name: string;
 }
@@ -587,7 +587,7 @@ export class PostgresReadReplicasList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres render_postgres}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres render_postgres}
 */
 export class Postgres extends cdktf.TerraformResource {
 
@@ -603,7 +603,7 @@ export class Postgres extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Postgres resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Postgres to import
-  * @param importFromId The id of the existing Postgres that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Postgres that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Postgres to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -615,7 +615,7 @@ export class Postgres extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/postgres render_postgres} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/postgres render_postgres} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -626,8 +626,8 @@ export class Postgres extends cdktf.TerraformResource {
       terraformResourceType: 'render_postgres',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

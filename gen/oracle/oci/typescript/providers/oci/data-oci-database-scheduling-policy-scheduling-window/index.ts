@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_scheduling_policy_scheduling_window
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_scheduling_policy_scheduling_window
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseSchedulingPolicySchedulingWindowConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_policy_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_policy_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}
   */
   readonly schedulingPolicyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_window_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_window_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_window_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_window_id}
   */
   readonly schedulingWindowId: string;
 }
@@ -270,7 +270,7 @@ export class DataOciDatabaseSchedulingPolicySchedulingWindowWindowPreferenceList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_scheduling_policy_scheduling_window oci_database_scheduling_policy_scheduling_window}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_scheduling_policy_scheduling_window oci_database_scheduling_policy_scheduling_window}
 */
 export class DataOciDatabaseSchedulingPolicySchedulingWindow extends cdktf.TerraformDataSource {
 
@@ -286,7 +286,7 @@ export class DataOciDatabaseSchedulingPolicySchedulingWindow extends cdktf.Terra
   * Generates CDKTF code for importing a DataOciDatabaseSchedulingPolicySchedulingWindow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseSchedulingPolicySchedulingWindow to import
-  * @param importFromId The id of the existing DataOciDatabaseSchedulingPolicySchedulingWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_scheduling_policy_scheduling_window#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseSchedulingPolicySchedulingWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_scheduling_policy_scheduling_window#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseSchedulingPolicySchedulingWindow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class DataOciDatabaseSchedulingPolicySchedulingWindow extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_scheduling_policy_scheduling_window oci_database_scheduling_policy_scheduling_window} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_scheduling_policy_scheduling_window oci_database_scheduling_policy_scheduling_window} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class DataOciDatabaseSchedulingPolicySchedulingWindow extends cdktf.Terra
       terraformResourceType: 'oci_database_scheduling_policy_scheduling_window',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

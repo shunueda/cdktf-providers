@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/notification_setting
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/notification_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataRenderNotificationSettingConfig extends cdktf.TerraformMeta
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/notification_setting render_notification_setting}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/notification_setting render_notification_setting}
 */
 export class DataRenderNotificationSetting extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataRenderNotificationSetting extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRenderNotificationSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRenderNotificationSetting to import
-  * @param importFromId The id of the existing DataRenderNotificationSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/notification_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRenderNotificationSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/notification_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRenderNotificationSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataRenderNotificationSetting extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/data-sources/notification_setting render_notification_setting} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/data-sources/notification_setting render_notification_setting} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataRenderNotificationSetting extends cdktf.TerraformDataSource {
       terraformResourceType: 'render_notification_setting',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseKeyStoreConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#compartment_id DatabaseKeyStore#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#compartment_id DatabaseKeyStore#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#confirm_details_trigger DatabaseKeyStore#confirm_details_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#confirm_details_trigger DatabaseKeyStore#confirm_details_trigger}
   */
   readonly confirmDetailsTrigger?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#defined_tags DatabaseKeyStore#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#defined_tags DatabaseKeyStore#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#display_name DatabaseKeyStore#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#display_name DatabaseKeyStore#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#freeform_tags DatabaseKeyStore#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#freeform_tags DatabaseKeyStore#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#id DatabaseKeyStore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#id DatabaseKeyStore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,13 +37,13 @@ export interface DatabaseKeyStoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#timeouts DatabaseKeyStore#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#timeouts DatabaseKeyStore#timeouts}
   */
   readonly timeouts?: DatabaseKeyStoreTimeouts;
   /**
   * type_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#type_details DatabaseKeyStore#type_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#type_details DatabaseKeyStore#type_details}
   */
   readonly typeDetails: DatabaseKeyStoreTypeDetails;
 }
@@ -214,15 +214,15 @@ export class DatabaseKeyStoreAssociatedLongTermBackupsList extends cdktf.Complex
 }
 export interface DatabaseKeyStoreTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#create DatabaseKeyStore#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#create DatabaseKeyStore#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#delete DatabaseKeyStore#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#delete DatabaseKeyStore#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#update DatabaseKeyStore#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#update DatabaseKeyStore#update}
   */
   readonly update?: string;
 }
@@ -374,23 +374,23 @@ export class DatabaseKeyStoreTimeoutsOutputReference extends cdktf.ComplexObject
 }
 export interface DatabaseKeyStoreTypeDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#admin_username DatabaseKeyStore#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#admin_username DatabaseKeyStore#admin_username}
   */
   readonly adminUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#connection_ips DatabaseKeyStore#connection_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#connection_ips DatabaseKeyStore#connection_ips}
   */
   readonly connectionIps: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#secret_id DatabaseKeyStore#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#secret_id DatabaseKeyStore#secret_id}
   */
   readonly secretId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#type DatabaseKeyStore#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#type DatabaseKeyStore#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#vault_id DatabaseKeyStore#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#vault_id DatabaseKeyStore#vault_id}
   */
   readonly vaultId: string;
 }
@@ -575,7 +575,7 @@ export class DatabaseKeyStoreTypeDetailsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store oci_database_key_store}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store oci_database_key_store}
 */
 export class DatabaseKeyStore extends cdktf.TerraformResource {
 
@@ -591,7 +591,7 @@ export class DatabaseKeyStore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseKeyStore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseKeyStore to import
-  * @param importFromId The id of the existing DatabaseKeyStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseKeyStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseKeyStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -603,7 +603,7 @@ export class DatabaseKeyStore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_key_store oci_database_key_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_key_store oci_database_key_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -614,8 +614,8 @@ export class DatabaseKeyStore extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_key_store',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

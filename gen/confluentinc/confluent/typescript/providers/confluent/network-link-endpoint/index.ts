@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network_link_endpoint
+// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/network_link_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkLinkEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network_link_endpoint#description NetworkLinkEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/network_link_endpoint#description NetworkLinkEndpoint#description}
   */
   readonly description?: string;
   /**
   * The display name of the Network Link Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network_link_endpoint#display_name NetworkLinkEndpoint#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/network_link_endpoint#display_name NetworkLinkEndpoint#display_name}
   */
   readonly displayName?: string;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network_link_endpoint#environment NetworkLinkEndpoint#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/network_link_endpoint#environment NetworkLinkEndpoint#environment}
   */
   readonly environment: NetworkLinkEndpointEnvironment;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network_link_endpoint#network NetworkLinkEndpoint#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/network_link_endpoint#network NetworkLinkEndpoint#network}
   */
   readonly network: NetworkLinkEndpointNetwork;
   /**
   * network_link_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network_link_endpoint#network_link_service NetworkLinkEndpoint#network_link_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/network_link_endpoint#network_link_service NetworkLinkEndpoint#network_link_service}
   */
   readonly networkLinkService: NetworkLinkEndpointNetworkLinkService;
 }
@@ -40,7 +40,7 @@ export interface NetworkLinkEndpointEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network_link_endpoint#id NetworkLinkEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/network_link_endpoint#id NetworkLinkEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -126,7 +126,7 @@ export interface NetworkLinkEndpointNetwork {
   /**
   * The unique identifier for the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network_link_endpoint#id NetworkLinkEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/network_link_endpoint#id NetworkLinkEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -212,7 +212,7 @@ export interface NetworkLinkEndpointNetworkLinkService {
   /**
   * The unique identifier for the Network Link Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network_link_endpoint#id NetworkLinkEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/network_link_endpoint#id NetworkLinkEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -296,7 +296,7 @@ export class NetworkLinkEndpointNetworkLinkServiceOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network_link_endpoint confluent_network_link_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/network_link_endpoint confluent_network_link_endpoint}
 */
 export class NetworkLinkEndpoint extends cdktf.TerraformResource {
 
@@ -312,7 +312,7 @@ export class NetworkLinkEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkLinkEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkLinkEndpoint to import
-  * @param importFromId The id of the existing NetworkLinkEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network_link_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkLinkEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/network_link_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkLinkEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -324,7 +324,7 @@ export class NetworkLinkEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network_link_endpoint confluent_network_link_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/network_link_endpoint confluent_network_link_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,8 +335,8 @@ export class NetworkLinkEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_network_link_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.53.0',
-        providerVersionConstraint: '2.53.0'
+        providerVersion: '2.54.0',
+        providerVersionConstraint: '2.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

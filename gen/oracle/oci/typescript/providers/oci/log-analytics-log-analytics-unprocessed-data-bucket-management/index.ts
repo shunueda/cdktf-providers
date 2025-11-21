@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface LogAnalyticsLogAnalyticsUnprocessedDataBucketManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#bucket LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#bucket LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#id LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#id LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#is_enabled LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#is_enabled LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#namespace LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#namespace LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#namespace}
   */
   readonly namespace: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#timeouts LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#timeouts LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#timeouts}
   */
   readonly timeouts?: LogAnalyticsLogAnalyticsUnprocessedDataBucketManagementTimeouts;
 }
 export interface LogAnalyticsLogAnalyticsUnprocessedDataBucketManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#create LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#create LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#delete LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#delete LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#update LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#update LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class LogAnalyticsLogAnalyticsUnprocessedDataBucketManagementTimeoutsOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management oci_log_analytics_log_analytics_unprocessed_data_bucket_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management oci_log_analytics_log_analytics_unprocessed_data_bucket_management}
 */
 export class LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement extends cdk
   * Generates CDKTF code for importing a LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement to import
-  * @param importFromId The id of the existing LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management oci_log_analytics_log_analytics_unprocessed_data_bucket_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management oci_log_analytics_log_analytics_unprocessed_data_bucket_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement extends cdk
       terraformResourceType: 'oci_log_analytics_log_analytics_unprocessed_data_bucket_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

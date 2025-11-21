@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface QuotaRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#cx_profile_name QuotaRule#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#cx_profile_name QuotaRule#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#files QuotaRule#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#files QuotaRule#files}
   */
   readonly files?: QuotaRuleFiles;
   /**
   * If the quota type is group, this property takes the group name. For default group quota rules, the group name must be specified as ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#group QuotaRule#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#group QuotaRule#group}
   */
   readonly group?: QuotaRuleGroup;
   /**
   * Qtree for which to create the rule. For default tree rules, the qtree name must be specified as ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#qtree QuotaRule#qtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#qtree QuotaRule#qtree}
   */
   readonly qtree: QuotaRuleQtree;
   /**
   * Existing SVM in which to create the qtree
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#svm QuotaRule#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#svm QuotaRule#svm}
   */
   readonly svm: QuotaRuleSvm;
   /**
   * Quota type for the rule. This type can be user, group, or tree
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#type QuotaRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#type QuotaRule#type}
   */
   readonly type: string;
   /**
   * If the quota type is user, this property takes the user name. For default user quota rules, the user name must be specified as ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#users QuotaRule#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#users QuotaRule#users}
   */
   readonly users?: QuotaRuleUsers[] | cdktf.IResolvable;
   /**
   * Existing volume in which to create the qtree
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#volume QuotaRule#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#volume QuotaRule#volume}
   */
   readonly volume: QuotaRuleVolume;
 }
@@ -58,13 +58,13 @@ export interface QuotaRuleFiles {
   /**
   * Specifies the hard limit for files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#hard_limit QuotaRule#hard_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#hard_limit QuotaRule#hard_limit}
   */
   readonly hardLimit?: number;
   /**
   * Specifies the soft limit for files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#soft_limit QuotaRule#soft_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#soft_limit QuotaRule#soft_limit}
   */
   readonly softLimit?: number;
 }
@@ -189,7 +189,7 @@ export interface QuotaRuleGroup {
   /**
   * name of the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#name QuotaRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#name QuotaRule#name}
   */
   readonly name: string;
 }
@@ -282,7 +282,7 @@ export interface QuotaRuleQtree {
   /**
   * name of the qtree
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#name QuotaRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#name QuotaRule#name}
   */
   readonly name: string;
 }
@@ -375,7 +375,7 @@ export interface QuotaRuleSvm {
   /**
   * name of the SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#name QuotaRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#name QuotaRule#name}
   */
   readonly name: string;
 }
@@ -468,7 +468,7 @@ export interface QuotaRuleUsers {
   /**
   * name of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#name QuotaRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#name QuotaRule#name}
   */
   readonly name?: string;
 }
@@ -586,7 +586,7 @@ export interface QuotaRuleVolume {
   /**
   * name of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#name QuotaRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#name QuotaRule#name}
   */
   readonly name: string;
 }
@@ -677,7 +677,7 @@ export class QuotaRuleVolumeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule netapp-ontap_quota_rule}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule netapp-ontap_quota_rule}
 */
 export class QuotaRule extends cdktf.TerraformResource {
 
@@ -693,7 +693,7 @@ export class QuotaRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QuotaRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuotaRule to import
-  * @param importFromId The id of the existing QuotaRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuotaRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuotaRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -705,7 +705,7 @@ export class QuotaRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/quota_rule netapp-ontap_quota_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/quota_rule netapp-ontap_quota_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -716,8 +716,8 @@ export class QuotaRule extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_quota_rule',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

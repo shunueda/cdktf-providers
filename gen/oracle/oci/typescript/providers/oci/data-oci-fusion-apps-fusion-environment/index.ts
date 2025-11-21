@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciFusionAppsFusionEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment#fusion_environment_id DataOciFusionAppsFusionEnvironment#fusion_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment#fusion_environment_id DataOciFusionAppsFusionEnvironment#fusion_environment_id}
   */
   readonly fusionEnvironmentId: string;
 }
@@ -631,7 +631,7 @@ export class DataOciFusionAppsFusionEnvironmentRulesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment oci_fusion_apps_fusion_environment}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment oci_fusion_apps_fusion_environment}
 */
 export class DataOciFusionAppsFusionEnvironment extends cdktf.TerraformDataSource {
 
@@ -647,7 +647,7 @@ export class DataOciFusionAppsFusionEnvironment extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciFusionAppsFusionEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciFusionAppsFusionEnvironment to import
-  * @param importFromId The id of the existing DataOciFusionAppsFusionEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciFusionAppsFusionEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciFusionAppsFusionEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -659,7 +659,7 @@ export class DataOciFusionAppsFusionEnvironment extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment oci_fusion_apps_fusion_environment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment oci_fusion_apps_fusion_environment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -670,8 +670,8 @@ export class DataOciFusionAppsFusionEnvironment extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_fusion_apps_fusion_environment',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface PresetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#config_overrides Preset#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#config_overrides Preset#config_overrides}
   */
   readonly configOverrides?: PresetConfigOverrides[] | cdktf.IResolvable;
   /**
-  * The type of connector for the preset. Valid values are: generic_https, pagerduty, slack, unspecified
+  * The type of connector for the preset. Valid values are: generic_https, pagerduty, service_now, slack, unspecified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#connector_type Preset#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#connector_type Preset#connector_type}
   */
   readonly connectorType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#description Preset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#description Preset#description}
   */
   readonly description?: string;
   /**
-  * The type of entity for the preset. Valid values are: alerts, unspecified
+  * The type of entity for the preset. Valid values are: alerts, cases, test_notifications, unspecified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#entity_type Preset#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#entity_type Preset#entity_type}
   */
   readonly entityType: string;
   /**
   * The ID of the Preset. Can be set to a custom value, or left empty to auto-generate. Requires recreation in case of change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#id Preset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#id Preset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#name Preset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#name Preset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#parent_id Preset#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#parent_id Preset#parent_id}
   */
   readonly parentId: string;
 }
@@ -106,7 +106,7 @@ export class PresetConfigOverridesConditionTypeMatchEntityTypeOutputReference ex
 }
 export interface PresetConfigOverridesConditionTypeMatchEntityTypeAndSubType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#entity_sub_type Preset#entity_sub_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#entity_sub_type Preset#entity_sub_type}
   */
   readonly entitySubType: string;
 }
@@ -182,7 +182,7 @@ export class PresetConfigOverridesConditionTypeMatchEntityTypeAndSubTypeOutputRe
     }
   }
 
-  // entity_sub_type - computed: false, optional: false, required: true
+  // entity_sub_type - computed: true, optional: false, required: true
   private _entitySubType?: string; 
   public get entitySubType() {
     return this.getStringAttribute('entity_sub_type');
@@ -197,16 +197,16 @@ export class PresetConfigOverridesConditionTypeMatchEntityTypeAndSubTypeOutputRe
 }
 export interface PresetConfigOverridesConditionType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#match_entity_type Preset#match_entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#match_entity_type Preset#match_entity_type}
   */
   readonly matchEntityType?: PresetConfigOverridesConditionTypeMatchEntityType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#match_entity_type_and_sub_type Preset#match_entity_type_and_sub_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#match_entity_type_and_sub_type Preset#match_entity_type_and_sub_type}
   */
   readonly matchEntityTypeAndSubType?: PresetConfigOverridesConditionTypeMatchEntityTypeAndSubType;
 }
 
-export function presetConfigOverridesConditionTypeToTerraform(struct?: PresetConfigOverridesConditionType | cdktf.IResolvable): any {
+export function presetConfigOverridesConditionTypeToTerraform(struct?: PresetConfigOverridesConditionType): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -218,7 +218,7 @@ export function presetConfigOverridesConditionTypeToTerraform(struct?: PresetCon
 }
 
 
-export function presetConfigOverridesConditionTypeToHclTerraform(struct?: PresetConfigOverridesConditionType | cdktf.IResolvable): any {
+export function presetConfigOverridesConditionTypeToHclTerraform(struct?: PresetConfigOverridesConditionType): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -244,7 +244,6 @@ export function presetConfigOverridesConditionTypeToHclTerraform(struct?: Preset
 
 export class PresetConfigOverridesConditionTypeOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -254,10 +253,7 @@ export class PresetConfigOverridesConditionTypeOutputReference extends cdktf.Com
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): PresetConfigOverridesConditionType | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): PresetConfigOverridesConditionType | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._matchEntityType?.internalValue !== undefined) {
@@ -271,26 +267,20 @@ export class PresetConfigOverridesConditionTypeOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: PresetConfigOverridesConditionType | cdktf.IResolvable | undefined) {
+  public set internalValue(value: PresetConfigOverridesConditionType | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
       this._matchEntityType.internalValue = undefined;
       this._matchEntityTypeAndSubType.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
       this._matchEntityType.internalValue = value.matchEntityType;
       this._matchEntityTypeAndSubType.internalValue = value.matchEntityTypeAndSubType;
     }
   }
 
-  // match_entity_type - computed: false, optional: true, required: false
+  // match_entity_type - computed: true, optional: true, required: false
   private _matchEntityType = new PresetConfigOverridesConditionTypeMatchEntityTypeOutputReference(this, "match_entity_type");
   public get matchEntityType() {
     return this._matchEntityType;
@@ -306,7 +296,7 @@ export class PresetConfigOverridesConditionTypeOutputReference extends cdktf.Com
     return this._matchEntityType.internalValue;
   }
 
-  // match_entity_type_and_sub_type - computed: false, optional: true, required: false
+  // match_entity_type_and_sub_type - computed: true, optional: true, required: false
   private _matchEntityTypeAndSubType = new PresetConfigOverridesConditionTypeMatchEntityTypeAndSubTypeOutputReference(this, "match_entity_type_and_sub_type");
   public get matchEntityTypeAndSubType() {
     return this._matchEntityTypeAndSubType;
@@ -324,16 +314,16 @@ export class PresetConfigOverridesConditionTypeOutputReference extends cdktf.Com
 }
 export interface PresetConfigOverridesMessageConfigFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#field_name Preset#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#field_name Preset#field_name}
   */
   readonly fieldName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#template Preset#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#template Preset#template}
   */
   readonly template: string;
 }
 
-export function presetConfigOverridesMessageConfigFieldsToTerraform(struct?: PresetConfigOverridesMessageConfigFields | cdktf.IResolvable): any {
+export function presetConfigOverridesMessageConfigFieldsToTerraform(struct?: PresetConfigOverridesMessageConfigFields): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -345,7 +335,7 @@ export function presetConfigOverridesMessageConfigFieldsToTerraform(struct?: Pre
 }
 
 
-export function presetConfigOverridesMessageConfigFieldsToHclTerraform(struct?: PresetConfigOverridesMessageConfigFields | cdktf.IResolvable): any {
+export function presetConfigOverridesMessageConfigFieldsToHclTerraform(struct?: PresetConfigOverridesMessageConfigFields): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -371,7 +361,6 @@ export function presetConfigOverridesMessageConfigFieldsToHclTerraform(struct?: 
 
 export class PresetConfigOverridesMessageConfigFieldsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -383,10 +372,7 @@ export class PresetConfigOverridesMessageConfigFieldsOutputReference extends cdk
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): PresetConfigOverridesMessageConfigFields | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): PresetConfigOverridesMessageConfigFields | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._fieldName !== undefined) {
@@ -400,26 +386,20 @@ export class PresetConfigOverridesMessageConfigFieldsOutputReference extends cdk
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: PresetConfigOverridesMessageConfigFields | cdktf.IResolvable | undefined) {
+  public set internalValue(value: PresetConfigOverridesMessageConfigFields | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
       this._fieldName = undefined;
       this._template = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
       this._fieldName = value.fieldName;
       this._template = value.template;
     }
   }
 
-  // field_name - computed: false, optional: false, required: true
+  // field_name - computed: true, optional: false, required: true
   private _fieldName?: string; 
   public get fieldName() {
     return this.getStringAttribute('field_name');
@@ -432,7 +412,7 @@ export class PresetConfigOverridesMessageConfigFieldsOutputReference extends cdk
     return this._fieldName;
   }
 
-  // template - computed: false, optional: false, required: true
+  // template - computed: true, optional: false, required: true
   private _template?: string; 
   public get template() {
     return this.getStringAttribute('template');
@@ -467,12 +447,12 @@ export class PresetConfigOverridesMessageConfigFieldsList extends cdktf.ComplexL
 }
 export interface PresetConfigOverridesMessageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#fields Preset#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#fields Preset#fields}
   */
   readonly fields: PresetConfigOverridesMessageConfigFields[] | cdktf.IResolvable;
 }
 
-export function presetConfigOverridesMessageConfigToTerraform(struct?: PresetConfigOverridesMessageConfig | cdktf.IResolvable): any {
+export function presetConfigOverridesMessageConfigToTerraform(struct?: PresetConfigOverridesMessageConfig): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -483,7 +463,7 @@ export function presetConfigOverridesMessageConfigToTerraform(struct?: PresetCon
 }
 
 
-export function presetConfigOverridesMessageConfigToHclTerraform(struct?: PresetConfigOverridesMessageConfig | cdktf.IResolvable): any {
+export function presetConfigOverridesMessageConfigToHclTerraform(struct?: PresetConfigOverridesMessageConfig): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -503,7 +483,6 @@ export function presetConfigOverridesMessageConfigToHclTerraform(struct?: Preset
 
 export class PresetConfigOverridesMessageConfigOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -513,10 +492,7 @@ export class PresetConfigOverridesMessageConfigOutputReference extends cdktf.Com
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): PresetConfigOverridesMessageConfig | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): PresetConfigOverridesMessageConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._fields?.internalValue !== undefined) {
@@ -526,24 +502,18 @@ export class PresetConfigOverridesMessageConfigOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: PresetConfigOverridesMessageConfig | cdktf.IResolvable | undefined) {
+  public set internalValue(value: PresetConfigOverridesMessageConfig | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
       this._fields.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
       this._fields.internalValue = value.fields;
     }
   }
 
-  // fields - computed: false, optional: false, required: true
+  // fields - computed: true, optional: false, required: true
   private _fields = new PresetConfigOverridesMessageConfigFieldsList(this, "fields", true);
   public get fields() {
     return this._fields;
@@ -560,15 +530,15 @@ export interface PresetConfigOverrides {
   /**
   * Condition type for the preset. Must be either match_entity_type or match_entity_type_and_sub_type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#condition_type Preset#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#condition_type Preset#condition_type}
   */
   readonly conditionType: PresetConfigOverridesConditionType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#message_config Preset#message_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#message_config Preset#message_config}
   */
   readonly messageConfig: PresetConfigOverridesMessageConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#payload_type Preset#payload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#payload_type Preset#payload_type}
   */
   readonly payloadType?: string;
 }
@@ -672,7 +642,7 @@ export class PresetConfigOverridesOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // condition_type - computed: false, optional: false, required: true
+  // condition_type - computed: true, optional: false, required: true
   private _conditionType = new PresetConfigOverridesConditionTypeOutputReference(this, "condition_type");
   public get conditionType() {
     return this._conditionType;
@@ -685,7 +655,7 @@ export class PresetConfigOverridesOutputReference extends cdktf.ComplexObject {
     return this._conditionType.internalValue;
   }
 
-  // message_config - computed: false, optional: false, required: true
+  // message_config - computed: true, optional: false, required: true
   private _messageConfig = new PresetConfigOverridesMessageConfigOutputReference(this, "message_config");
   public get messageConfig() {
     return this._messageConfig;
@@ -736,7 +706,7 @@ export class PresetConfigOverridesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset coralogix_preset}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset coralogix_preset}
 */
 export class Preset extends cdktf.TerraformResource {
 
@@ -752,7 +722,7 @@ export class Preset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Preset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Preset to import
-  * @param importFromId The id of the existing Preset that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Preset that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Preset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -764,7 +734,7 @@ export class Preset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/preset coralogix_preset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/preset coralogix_preset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -775,8 +745,8 @@ export class Preset extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_preset',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -799,7 +769,7 @@ export class Preset extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // config_overrides - computed: false, optional: true, required: false
+  // config_overrides - computed: true, optional: true, required: false
   private _configOverrides = new PresetConfigOverridesList(this, "config_overrides", false);
   public get configOverrides() {
     return this._configOverrides;

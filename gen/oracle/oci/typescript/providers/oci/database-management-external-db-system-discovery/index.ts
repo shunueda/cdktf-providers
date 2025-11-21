@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseManagementExternalDbSystemDiscoveryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#agent_id DatabaseManagementExternalDbSystemDiscovery#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#agent_id DatabaseManagementExternalDbSystemDiscovery#agent_id}
   */
   readonly agentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#compartment_id DatabaseManagementExternalDbSystemDiscovery#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#compartment_id DatabaseManagementExternalDbSystemDiscovery#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#defined_tags DatabaseManagementExternalDbSystemDiscovery#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#defined_tags DatabaseManagementExternalDbSystemDiscovery#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#display_name DatabaseManagementExternalDbSystemDiscovery#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#display_name DatabaseManagementExternalDbSystemDiscovery#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#freeform_tags DatabaseManagementExternalDbSystemDiscovery#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#freeform_tags DatabaseManagementExternalDbSystemDiscovery#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#id DatabaseManagementExternalDbSystemDiscovery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#id DatabaseManagementExternalDbSystemDiscovery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,13 +37,13 @@ export interface DatabaseManagementExternalDbSystemDiscoveryConfig extends cdktf
   /**
   * patch_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#patch_operations DatabaseManagementExternalDbSystemDiscovery#patch_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#patch_operations DatabaseManagementExternalDbSystemDiscovery#patch_operations}
   */
   readonly patchOperations?: DatabaseManagementExternalDbSystemDiscoveryPatchOperations[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#timeouts DatabaseManagementExternalDbSystemDiscovery#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#timeouts DatabaseManagementExternalDbSystemDiscovery#timeouts}
   */
   readonly timeouts?: DatabaseManagementExternalDbSystemDiscoveryTimeouts;
 }
@@ -2693,27 +2693,27 @@ export class DatabaseManagementExternalDbSystemDiscoveryDiscoveredComponentsList
 }
 export interface DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#credential_name DatabaseManagementExternalDbSystemDiscovery#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#credential_name DatabaseManagementExternalDbSystemDiscovery#credential_name}
   */
   readonly credentialName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#credential_type DatabaseManagementExternalDbSystemDiscovery#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#credential_type DatabaseManagementExternalDbSystemDiscovery#credential_type}
   */
   readonly credentialType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#password_secret_id DatabaseManagementExternalDbSystemDiscovery#password_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#password_secret_id DatabaseManagementExternalDbSystemDiscovery#password_secret_id}
   */
   readonly passwordSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#role DatabaseManagementExternalDbSystemDiscovery#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#role DatabaseManagementExternalDbSystemDiscovery#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#ssl_secret_id DatabaseManagementExternalDbSystemDiscovery#ssl_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#ssl_secret_id DatabaseManagementExternalDbSystemDiscovery#ssl_secret_id}
   */
   readonly sslSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#user_name DatabaseManagementExternalDbSystemDiscovery#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#user_name DatabaseManagementExternalDbSystemDiscovery#user_name}
   */
   readonly userName?: string;
 }
@@ -2939,23 +2939,23 @@ export class DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConn
 }
 export interface DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionString {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#host_name DatabaseManagementExternalDbSystemDiscovery#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#host_name DatabaseManagementExternalDbSystemDiscovery#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#hosts DatabaseManagementExternalDbSystemDiscovery#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#hosts DatabaseManagementExternalDbSystemDiscovery#hosts}
   */
   readonly hosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#port DatabaseManagementExternalDbSystemDiscovery#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#port DatabaseManagementExternalDbSystemDiscovery#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#protocol DatabaseManagementExternalDbSystemDiscovery#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#protocol DatabaseManagementExternalDbSystemDiscovery#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#service DatabaseManagementExternalDbSystemDiscovery#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#service DatabaseManagementExternalDbSystemDiscovery#service}
   */
   readonly service?: string;
 }
@@ -3155,19 +3155,19 @@ export class DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConn
 }
 export interface DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#component_type DatabaseManagementExternalDbSystemDiscovery#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#component_type DatabaseManagementExternalDbSystemDiscovery#component_type}
   */
   readonly componentType: string;
   /**
   * connection_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#connection_credentials DatabaseManagementExternalDbSystemDiscovery#connection_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#connection_credentials DatabaseManagementExternalDbSystemDiscovery#connection_credentials}
   */
   readonly connectionCredentials?: DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionCredentials;
   /**
   * connection_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#connection_string DatabaseManagementExternalDbSystemDiscovery#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#connection_string DatabaseManagementExternalDbSystemDiscovery#connection_string}
   */
   readonly connectionString?: DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionString;
 }
@@ -3306,21 +3306,21 @@ export class DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConn
 }
 export interface DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#agent_id DatabaseManagementExternalDbSystemDiscovery#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#agent_id DatabaseManagementExternalDbSystemDiscovery#agent_id}
   */
   readonly agentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#connector_type DatabaseManagementExternalDbSystemDiscovery#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#connector_type DatabaseManagementExternalDbSystemDiscovery#connector_type}
   */
   readonly connectorType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#display_name DatabaseManagementExternalDbSystemDiscovery#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#display_name DatabaseManagementExternalDbSystemDiscovery#display_name}
   */
   readonly displayName: string;
   /**
   * connection_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#connection_info DatabaseManagementExternalDbSystemDiscovery#connection_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#connection_info DatabaseManagementExternalDbSystemDiscovery#connection_info}
   */
   readonly connectionInfo?: DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfo;
 }
@@ -3485,21 +3485,21 @@ export class DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConn
 }
 export interface DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#compartment_id DatabaseManagementExternalDbSystemDiscovery#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#compartment_id DatabaseManagementExternalDbSystemDiscovery#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#display_name DatabaseManagementExternalDbSystemDiscovery#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#display_name DatabaseManagementExternalDbSystemDiscovery#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#is_selected_for_monitoring DatabaseManagementExternalDbSystemDiscovery#is_selected_for_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#is_selected_for_monitoring DatabaseManagementExternalDbSystemDiscovery#is_selected_for_monitoring}
   */
   readonly isSelectedForMonitoring?: boolean | cdktf.IResolvable;
   /**
   * connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#connector DatabaseManagementExternalDbSystemDiscovery#connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#connector DatabaseManagementExternalDbSystemDiscovery#connector}
   */
   readonly connector?: DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnector;
 }
@@ -3670,17 +3670,17 @@ export class DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueOutp
 }
 export interface DatabaseManagementExternalDbSystemDiscoveryPatchOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#operation DatabaseManagementExternalDbSystemDiscovery#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#operation DatabaseManagementExternalDbSystemDiscovery#operation}
   */
   readonly operation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#selection DatabaseManagementExternalDbSystemDiscovery#selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#selection DatabaseManagementExternalDbSystemDiscovery#selection}
   */
   readonly selection: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#value DatabaseManagementExternalDbSystemDiscovery#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#value DatabaseManagementExternalDbSystemDiscovery#value}
   */
   readonly value?: DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValue;
 }
@@ -3848,15 +3848,15 @@ export class DatabaseManagementExternalDbSystemDiscoveryPatchOperationsList exte
 }
 export interface DatabaseManagementExternalDbSystemDiscoveryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#create DatabaseManagementExternalDbSystemDiscovery#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#create DatabaseManagementExternalDbSystemDiscovery#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#delete DatabaseManagementExternalDbSystemDiscovery#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#delete DatabaseManagementExternalDbSystemDiscovery#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#update DatabaseManagementExternalDbSystemDiscovery#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#update DatabaseManagementExternalDbSystemDiscovery#update}
   */
   readonly update?: string;
 }
@@ -4008,7 +4008,7 @@ export class DatabaseManagementExternalDbSystemDiscoveryTimeoutsOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery oci_database_management_external_db_system_discovery}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery oci_database_management_external_db_system_discovery}
 */
 export class DatabaseManagementExternalDbSystemDiscovery extends cdktf.TerraformResource {
 
@@ -4024,7 +4024,7 @@ export class DatabaseManagementExternalDbSystemDiscovery extends cdktf.Terraform
   * Generates CDKTF code for importing a DatabaseManagementExternalDbSystemDiscovery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseManagementExternalDbSystemDiscovery to import
-  * @param importFromId The id of the existing DatabaseManagementExternalDbSystemDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseManagementExternalDbSystemDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseManagementExternalDbSystemDiscovery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4036,7 +4036,7 @@ export class DatabaseManagementExternalDbSystemDiscovery extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_db_system_discovery oci_database_management_external_db_system_discovery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_management_external_db_system_discovery oci_database_management_external_db_system_discovery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4047,8 +4047,8 @@ export class DatabaseManagementExternalDbSystemDiscovery extends cdktf.Terraform
       terraformResourceType: 'oci_database_management_external_db_system_discovery',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

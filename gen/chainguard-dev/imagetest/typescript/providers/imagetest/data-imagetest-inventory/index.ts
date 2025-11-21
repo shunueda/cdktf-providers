@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.102/docs/data-sources/inventory
+// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/data-sources/inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataImagetestInventoryConfig extends cdktf.TerraformMetaArgumen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.102/docs/data-sources/inventory imagetest_inventory}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/data-sources/inventory imagetest_inventory}
 */
 export class DataImagetestInventory extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataImagetestInventory extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataImagetestInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataImagetestInventory to import
-  * @param importFromId The id of the existing DataImagetestInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.102/docs/data-sources/inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataImagetestInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/data-sources/inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataImagetestInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataImagetestInventory extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.102/docs/data-sources/inventory imagetest_inventory} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/data-sources/inventory imagetest_inventory} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataImagetestInventory extends cdktf.TerraformDataSource {
       terraformResourceType: 'imagetest_inventory',
       terraformGeneratorMetadata: {
         providerName: 'imagetest',
-        providerVersion: '0.0.102',
-        providerVersionConstraint: '0.0.102'
+        providerVersion: '0.0.103',
+        providerVersionConstraint: '0.0.103'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

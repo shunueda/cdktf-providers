@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group
+// https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface EnvGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Map of environment variable names to their values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group#env_vars EnvGroup#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group#env_vars EnvGroup#env_vars}
   */
   readonly envVars?: { [key: string]: EnvGroupEnvVars } | cdktf.IResolvable;
   /**
   * ID of the [project environment](https://render.com/docs/projects) that the resource belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group#environment_id EnvGroup#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group#environment_id EnvGroup#environment_id}
   */
   readonly environmentId?: string;
   /**
   * Descriptive name for this environment group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group#name EnvGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group#name EnvGroup#name}
   */
   readonly name: string;
   /**
   * A map of secret file paths to their contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group#secret_files EnvGroup#secret_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group#secret_files EnvGroup#secret_files}
   */
   readonly secretFiles?: { [key: string]: EnvGroupSecretFiles } | cdktf.IResolvable;
 }
@@ -36,11 +36,11 @@ export interface EnvGroupEnvVars {
   /**
   * If true, Render will generate the variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group#generate_value EnvGroup#generate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group#generate_value EnvGroup#generate_value}
   */
   readonly generateValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group#value EnvGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group#value EnvGroup#value}
   */
   readonly value?: string;
 }
@@ -185,7 +185,7 @@ export interface EnvGroupSecretFiles {
   /**
   * The content of the secret file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group#content EnvGroup#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group#content EnvGroup#content}
   */
   readonly content: string;
 }
@@ -296,7 +296,7 @@ export class EnvGroupSecretFilesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group render_env_group}
+* Represents a {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group render_env_group}
 */
 export class EnvGroup extends cdktf.TerraformResource {
 
@@ -312,7 +312,7 @@ export class EnvGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnvGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnvGroup to import
-  * @param importFromId The id of the existing EnvGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnvGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnvGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -324,7 +324,7 @@ export class EnvGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.7.5/docs/resources/env_group render_env_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/render-oss/render/1.8.0/docs/resources/env_group render_env_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,8 +335,8 @@ export class EnvGroup extends cdktf.TerraformResource {
       terraformResourceType: 'render_env_group',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5',
-        providerVersionConstraint: '1.7.5'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

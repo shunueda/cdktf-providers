@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_refresh_activity
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciFusionAppsFusionEnvironmentRefreshActivityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_refresh_activity#fusion_environment_id DataOciFusionAppsFusionEnvironmentRefreshActivity#fusion_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activity#fusion_environment_id DataOciFusionAppsFusionEnvironmentRefreshActivity#fusion_environment_id}
   */
   readonly fusionEnvironmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_refresh_activity#refresh_activity_id DataOciFusionAppsFusionEnvironmentRefreshActivity#refresh_activity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activity#refresh_activity_id DataOciFusionAppsFusionEnvironmentRefreshActivity#refresh_activity_id}
   */
   readonly refreshActivityId: string;
 }
@@ -93,7 +93,7 @@ export class DataOciFusionAppsFusionEnvironmentRefreshActivityRefreshIssueDetail
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_refresh_activity oci_fusion_apps_fusion_environment_refresh_activity}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activity oci_fusion_apps_fusion_environment_refresh_activity}
 */
 export class DataOciFusionAppsFusionEnvironmentRefreshActivity extends cdktf.TerraformDataSource {
 
@@ -109,7 +109,7 @@ export class DataOciFusionAppsFusionEnvironmentRefreshActivity extends cdktf.Ter
   * Generates CDKTF code for importing a DataOciFusionAppsFusionEnvironmentRefreshActivity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciFusionAppsFusionEnvironmentRefreshActivity to import
-  * @param importFromId The id of the existing DataOciFusionAppsFusionEnvironmentRefreshActivity that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_refresh_activity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciFusionAppsFusionEnvironmentRefreshActivity that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciFusionAppsFusionEnvironmentRefreshActivity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -121,7 +121,7 @@ export class DataOciFusionAppsFusionEnvironmentRefreshActivity extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_refresh_activity oci_fusion_apps_fusion_environment_refresh_activity} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activity oci_fusion_apps_fusion_environment_refresh_activity} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -132,8 +132,8 @@ export class DataOciFusionAppsFusionEnvironmentRefreshActivity extends cdktf.Ter
       terraformResourceType: 'oci_fusion_apps_fusion_environment_refresh_activity',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

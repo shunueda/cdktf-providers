@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_lun-maps_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_lun-maps_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ProtocolsSanLunMapsResourceConfig extends cdktf.TerraformMetaAr
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_lun-maps_resource#cx_profile_name ProtocolsSanLunMapsResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_lun-maps_resource#cx_profile_name ProtocolsSanLunMapsResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_lun-maps_resource#igroup ProtocolsSanLunMapsResource#igroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_lun-maps_resource#igroup ProtocolsSanLunMapsResource#igroup}
   */
   readonly igroup: ProtocolsSanLunMapsResourceIgroup;
   /**
   * If no value is provided, ONTAP assigns the lowest available value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_lun-maps_resource#logical_unit_number ProtocolsSanLunMapsResource#logical_unit_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_lun-maps_resource#logical_unit_number ProtocolsSanLunMapsResource#logical_unit_number}
   */
   readonly logicalUnitNumber?: number;
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_lun-maps_resource#lun ProtocolsSanLunMapsResource#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_lun-maps_resource#lun ProtocolsSanLunMapsResource#lun}
   */
   readonly lun: ProtocolsSanLunMapsResourceLun;
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_lun-maps_resource#svm ProtocolsSanLunMapsResource#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_lun-maps_resource#svm ProtocolsSanLunMapsResource#svm}
   */
   readonly svm: ProtocolsSanLunMapsResourceSvm;
 }
@@ -42,7 +42,7 @@ export interface ProtocolsSanLunMapsResourceIgroup {
   /**
   * name of the igroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_lun-maps_resource#name ProtocolsSanLunMapsResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_lun-maps_resource#name ProtocolsSanLunMapsResource#name}
   */
   readonly name: string;
 }
@@ -135,7 +135,7 @@ export interface ProtocolsSanLunMapsResourceLun {
   /**
   * name of the lun
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_lun-maps_resource#name ProtocolsSanLunMapsResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_lun-maps_resource#name ProtocolsSanLunMapsResource#name}
   */
   readonly name: string;
 }
@@ -228,7 +228,7 @@ export interface ProtocolsSanLunMapsResourceSvm {
   /**
   * name of the SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_lun-maps_resource#name ProtocolsSanLunMapsResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_lun-maps_resource#name ProtocolsSanLunMapsResource#name}
   */
   readonly name: string;
 }
@@ -319,7 +319,7 @@ export class ProtocolsSanLunMapsResourceSvmOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_lun-maps_resource netapp-ontap_protocols_san_lun-maps_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_lun-maps_resource netapp-ontap_protocols_san_lun-maps_resource}
 */
 export class ProtocolsSanLunMapsResource extends cdktf.TerraformResource {
 
@@ -335,7 +335,7 @@ export class ProtocolsSanLunMapsResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtocolsSanLunMapsResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtocolsSanLunMapsResource to import
-  * @param importFromId The id of the existing ProtocolsSanLunMapsResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_lun-maps_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtocolsSanLunMapsResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_lun-maps_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtocolsSanLunMapsResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class ProtocolsSanLunMapsResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/protocols_san_lun-maps_resource netapp-ontap_protocols_san_lun-maps_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/protocols_san_lun-maps_resource netapp-ontap_protocols_san_lun-maps_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class ProtocolsSanLunMapsResource extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_protocols_san_lun-maps_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

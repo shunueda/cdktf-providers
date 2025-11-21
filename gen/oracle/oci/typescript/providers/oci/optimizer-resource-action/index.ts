@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_resource_action
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_resource_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface OptimizerResourceActionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_resource_action#id OptimizerResourceAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_resource_action#id OptimizerResourceAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_resource_action#resource_action_id OptimizerResourceAction#resource_action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_resource_action#resource_action_id OptimizerResourceAction#resource_action_id}
   */
   readonly resourceActionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_resource_action#status OptimizerResourceAction#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_resource_action#status OptimizerResourceAction#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_resource_action#time_status_end OptimizerResourceAction#time_status_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_resource_action#time_status_end OptimizerResourceAction#time_status_end}
   */
   readonly timeStatusEnd?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_resource_action#timeouts OptimizerResourceAction#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_resource_action#timeouts OptimizerResourceAction#timeouts}
   */
   readonly timeouts?: OptimizerResourceActionTimeouts;
 }
@@ -120,15 +120,15 @@ export class OptimizerResourceActionActionList extends cdktf.ComplexList {
 }
 export interface OptimizerResourceActionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_resource_action#create OptimizerResourceAction#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_resource_action#create OptimizerResourceAction#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_resource_action#delete OptimizerResourceAction#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_resource_action#delete OptimizerResourceAction#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_resource_action#update OptimizerResourceAction#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_resource_action#update OptimizerResourceAction#update}
   */
   readonly update?: string;
 }
@@ -280,7 +280,7 @@ export class OptimizerResourceActionTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_resource_action oci_optimizer_resource_action}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_resource_action oci_optimizer_resource_action}
 */
 export class OptimizerResourceAction extends cdktf.TerraformResource {
 
@@ -296,7 +296,7 @@ export class OptimizerResourceAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OptimizerResourceAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OptimizerResourceAction to import
-  * @param importFromId The id of the existing OptimizerResourceAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_resource_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OptimizerResourceAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_resource_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OptimizerResourceAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -308,7 +308,7 @@ export class OptimizerResourceAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/optimizer_resource_action oci_optimizer_resource_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/optimizer_resource_action oci_optimizer_resource_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -319,8 +319,8 @@ export class OptimizerResourceAction extends cdktf.TerraformResource {
       terraformResourceType: 'oci_optimizer_resource_action',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

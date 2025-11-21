@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "netapp-ontap": "2.3.0"
+    "netapp-ontap": "2.4.0"
   }
 }

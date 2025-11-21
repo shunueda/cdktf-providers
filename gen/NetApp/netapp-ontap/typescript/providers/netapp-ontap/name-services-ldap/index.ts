@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,121 @@ export interface NameServicesLdapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the name of the Active Directory domain used to discover LDAP servers for use by this client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#ad_domain NameServicesLdap#ad_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#ad_domain NameServicesLdap#ad_domain}
   */
   readonly adDomain?: string;
   /**
   * Specifies the default base DN for all searches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#base_dn NameServicesLdap#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#base_dn NameServicesLdap#base_dn}
   */
   readonly baseDn?: string;
   /**
   * Specifies the default search scope for LDAP queries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#base_scope NameServicesLdap#base_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#base_scope NameServicesLdap#base_scope}
   */
   readonly baseScope?: string;
   /**
   * Specifies whether or not CIFS server's credentials are used to bind to the LDAP server (9.9)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#bind_as_cifs_server NameServicesLdap#bind_as_cifs_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#bind_as_cifs_server NameServicesLdap#bind_as_cifs_server}
   */
   readonly bindAsCifsServer?: boolean | cdktf.IResolvable;
   /**
   * Specifies the user that binds to the LDAP servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#bind_dn NameServicesLdap#bind_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#bind_dn NameServicesLdap#bind_dn}
   */
   readonly bindDn?: string;
   /**
   * Specifies the bind password for the LDAP servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#bind_password NameServicesLdap#bind_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#bind_password NameServicesLdap#bind_password}
   */
   readonly bindPassword?: string;
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#cx_profile_name NameServicesLdap#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#cx_profile_name NameServicesLdap#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Specifies whether or not LDAPS is enabled (9.9)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#ldaps_enabled NameServicesLdap#ldaps_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#ldaps_enabled NameServicesLdap#ldaps_enabled}
   */
   readonly ldapsEnabled?: boolean | cdktf.IResolvable;
   /**
   * The minimum bind authentication level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#min_bind_level NameServicesLdap#min_bind_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#min_bind_level NameServicesLdap#min_bind_level}
   */
   readonly minBindLevel?: string;
   /**
   * The port used to connect to the LDAP Servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#port NameServicesLdap#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#port NameServicesLdap#port}
   */
   readonly port?: number;
   /**
   * This parameter specifies a list of LDAP servers preferred over discovered servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#preferred_ad_servers NameServicesLdap#preferred_ad_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#preferred_ad_servers NameServicesLdap#preferred_ad_servers}
   */
   readonly preferredAdServers?: string[];
   /**
   * Specifies the timeout for LDAP queries in seconds (9.9)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#query_timeout NameServicesLdap#query_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#query_timeout NameServicesLdap#query_timeout}
   */
   readonly queryTimeout?: number;
   /**
   * Specifies whether or not LDAP referral is enabled (9.9)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#referral_enabled NameServicesLdap#referral_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#referral_enabled NameServicesLdap#referral_enabled}
   */
   readonly referralEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the schema template used by the SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#schema NameServicesLdap#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#schema NameServicesLdap#schema}
   */
   readonly schema?: string;
   /**
   * List of LDAP servers used for this client configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#servers NameServicesLdap#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#servers NameServicesLdap#servers}
   */
   readonly servers?: string[];
   /**
   * Specifies the level of security to be used for LDAP communications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#session_security NameServicesLdap#session_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#session_security NameServicesLdap#session_security}
   */
   readonly sessionSecurity?: string;
   /**
   * Specifies whether or not to skip the validation of the LDAP configuration (9.9)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#skip_config_validation NameServicesLdap#skip_config_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#skip_config_validation NameServicesLdap#skip_config_validation}
   */
   readonly skipConfigValidation?: boolean | cdktf.IResolvable;
   /**
   * NameServicesLDAP svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#svm_name NameServicesLdap#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#svm_name NameServicesLdap#svm_name}
   */
   readonly svmName: string;
   /**
   * Specifies whether or not to use Start TLS over LDAP connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#use_start_tls NameServicesLdap#use_start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#use_start_tls NameServicesLdap#use_start_tls}
   */
   readonly useStartTls?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap netapp-ontap_name_services_ldap}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap netapp-ontap_name_services_ldap}
 */
 export class NameServicesLdap extends cdktf.TerraformResource {
 
@@ -140,7 +140,7 @@ export class NameServicesLdap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NameServicesLdap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NameServicesLdap to import
-  * @param importFromId The id of the existing NameServicesLdap that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NameServicesLdap that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NameServicesLdap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class NameServicesLdap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/name_services_ldap netapp-ontap_name_services_ldap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/name_services_ldap netapp-ontap_name_services_ldap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class NameServicesLdap extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_name_services_ldap',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

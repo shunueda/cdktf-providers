@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_accounts
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_accounts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapSecurityAccountsConfig extends cdktf.TerraformMe
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_accounts#cx_profile_name DataNetappOntapSecurityAccounts#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_accounts#cx_profile_name DataNetappOntapSecurityAccounts#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_accounts#filter DataNetappOntapSecurityAccounts#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_accounts#filter DataNetappOntapSecurityAccounts#filter}
   */
   readonly filter?: DataNetappOntapSecurityAccountsFilter;
 }
@@ -22,13 +22,13 @@ export interface DataNetappOntapSecurityAccountsFilter {
   /**
   * SecurityAccount name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_accounts#name DataNetappOntapSecurityAccounts#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_accounts#name DataNetappOntapSecurityAccounts#name}
   */
   readonly name?: string;
   /**
   * SecurityAccount svm name (Owner name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_accounts#svm_name DataNetappOntapSecurityAccounts#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_accounts#svm_name DataNetappOntapSecurityAccounts#svm_name}
   */
   readonly svmName?: string;
 }
@@ -351,13 +351,13 @@ export interface DataNetappOntapSecurityAccountsSecurityAccounts {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_accounts#cx_profile_name DataNetappOntapSecurityAccounts#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_accounts#cx_profile_name DataNetappOntapSecurityAccounts#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * SecurityAccount name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_accounts#name DataNetappOntapSecurityAccounts#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_accounts#name DataNetappOntapSecurityAccounts#name}
   */
   readonly name: string;
 }
@@ -524,7 +524,7 @@ export class DataNetappOntapSecurityAccountsSecurityAccountsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_accounts netapp-ontap_security_accounts}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_accounts netapp-ontap_security_accounts}
 */
 export class DataNetappOntapSecurityAccounts extends cdktf.TerraformDataSource {
 
@@ -540,7 +540,7 @@ export class DataNetappOntapSecurityAccounts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapSecurityAccounts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapSecurityAccounts to import
-  * @param importFromId The id of the existing DataNetappOntapSecurityAccounts that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_accounts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapSecurityAccounts that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_accounts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapSecurityAccounts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -552,7 +552,7 @@ export class DataNetappOntapSecurityAccounts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/security_accounts netapp-ontap_security_accounts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/security_accounts netapp-ontap_security_accounts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -563,8 +563,8 @@ export class DataNetappOntapSecurityAccounts extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_security_accounts',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

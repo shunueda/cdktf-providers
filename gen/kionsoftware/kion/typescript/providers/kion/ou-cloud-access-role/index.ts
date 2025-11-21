@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface OuCloudAccessRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#aws_iam_path OuCloudAccessRole#aws_iam_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#aws_iam_path OuCloudAccessRole#aws_iam_path}
   */
   readonly awsIamPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#aws_iam_permissions_boundary OuCloudAccessRole#aws_iam_permissions_boundary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#aws_iam_permissions_boundary OuCloudAccessRole#aws_iam_permissions_boundary}
   */
   readonly awsIamPermissionsBoundary?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#aws_iam_role_name OuCloudAccessRole#aws_iam_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#aws_iam_role_name OuCloudAccessRole#aws_iam_role_name}
   */
   readonly awsIamRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#id OuCloudAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#id OuCloudAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#last_updated OuCloudAccessRole#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#last_updated OuCloudAccessRole#last_updated}
   */
   readonly lastUpdated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#long_term_access_keys OuCloudAccessRole#long_term_access_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#long_term_access_keys OuCloudAccessRole#long_term_access_keys}
   */
   readonly longTermAccessKeys?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#name OuCloudAccessRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#name OuCloudAccessRole#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#ou_id OuCloudAccessRole#ou_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#ou_id OuCloudAccessRole#ou_id}
   */
   readonly ouId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#short_term_access_keys OuCloudAccessRole#short_term_access_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#short_term_access_keys OuCloudAccessRole#short_term_access_keys}
   */
   readonly shortTermAccessKeys?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#web_access OuCloudAccessRole#web_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#web_access OuCloudAccessRole#web_access}
   */
   readonly webAccess?: boolean | cdktf.IResolvable;
   /**
   * aws_iam_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#aws_iam_policies OuCloudAccessRole#aws_iam_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#aws_iam_policies OuCloudAccessRole#aws_iam_policies}
   */
   readonly awsIamPolicies?: OuCloudAccessRoleAwsIamPolicies[] | cdktf.IResolvable;
   /**
   * azure_role_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#azure_role_definitions OuCloudAccessRole#azure_role_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#azure_role_definitions OuCloudAccessRole#azure_role_definitions}
   */
   readonly azureRoleDefinitions?: OuCloudAccessRoleAzureRoleDefinitions[] | cdktf.IResolvable;
   /**
   * gcp_iam_roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#gcp_iam_roles OuCloudAccessRole#gcp_iam_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#gcp_iam_roles OuCloudAccessRole#gcp_iam_roles}
   */
   readonly gcpIamRoles?: OuCloudAccessRoleGcpIamRoles[] | cdktf.IResolvable;
   /**
   * user_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#user_groups OuCloudAccessRole#user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#user_groups OuCloudAccessRole#user_groups}
   */
   readonly userGroups?: OuCloudAccessRoleUserGroups[] | cdktf.IResolvable;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#users OuCloudAccessRole#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#users OuCloudAccessRole#users}
   */
   readonly users?: OuCloudAccessRoleUsers[] | cdktf.IResolvable;
 }
 export interface OuCloudAccessRoleAwsIamPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#id OuCloudAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#id OuCloudAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -202,7 +202,7 @@ export class OuCloudAccessRoleAwsIamPoliciesList extends cdktf.ComplexList {
 }
 export interface OuCloudAccessRoleAzureRoleDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#id OuCloudAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#id OuCloudAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -321,7 +321,7 @@ export class OuCloudAccessRoleAzureRoleDefinitionsList extends cdktf.ComplexList
 }
 export interface OuCloudAccessRoleGcpIamRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#id OuCloudAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#id OuCloudAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -440,7 +440,7 @@ export class OuCloudAccessRoleGcpIamRolesList extends cdktf.ComplexList {
 }
 export interface OuCloudAccessRoleUserGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#id OuCloudAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#id OuCloudAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -559,7 +559,7 @@ export class OuCloudAccessRoleUserGroupsList extends cdktf.ComplexList {
 }
 export interface OuCloudAccessRoleUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#id OuCloudAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#id OuCloudAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -678,7 +678,7 @@ export class OuCloudAccessRoleUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role kion_ou_cloud_access_role}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role kion_ou_cloud_access_role}
 */
 export class OuCloudAccessRole extends cdktf.TerraformResource {
 
@@ -694,7 +694,7 @@ export class OuCloudAccessRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OuCloudAccessRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OuCloudAccessRole to import
-  * @param importFromId The id of the existing OuCloudAccessRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OuCloudAccessRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OuCloudAccessRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -706,7 +706,7 @@ export class OuCloudAccessRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/ou_cloud_access_role kion_ou_cloud_access_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/ou_cloud_access_role kion_ou_cloud_access_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -717,8 +717,8 @@ export class OuCloudAccessRole extends cdktf.TerraformResource {
       terraformResourceType: 'kion_ou_cloud_access_role',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

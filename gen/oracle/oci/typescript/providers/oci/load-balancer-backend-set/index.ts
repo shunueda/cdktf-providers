@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface LoadBalancerBackendSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#backend_max_connections LoadBalancerBackendSet#backend_max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#backend_max_connections LoadBalancerBackendSet#backend_max_connections}
   */
   readonly backendMaxConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#id LoadBalancerBackendSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#id LoadBalancerBackendSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#load_balancer_id LoadBalancerBackendSet#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#load_balancer_id LoadBalancerBackendSet#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#name LoadBalancerBackendSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#name LoadBalancerBackendSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#policy LoadBalancerBackendSet#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#policy LoadBalancerBackendSet#policy}
   */
   readonly policy: string;
   /**
   * health_checker block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#health_checker LoadBalancerBackendSet#health_checker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#health_checker LoadBalancerBackendSet#health_checker}
   */
   readonly healthChecker: LoadBalancerBackendSetHealthChecker;
   /**
   * lb_cookie_session_persistence_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#lb_cookie_session_persistence_configuration LoadBalancerBackendSet#lb_cookie_session_persistence_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#lb_cookie_session_persistence_configuration LoadBalancerBackendSet#lb_cookie_session_persistence_configuration}
   */
   readonly lbCookieSessionPersistenceConfiguration?: LoadBalancerBackendSetLbCookieSessionPersistenceConfiguration;
   /**
   * session_persistence_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#session_persistence_configuration LoadBalancerBackendSet#session_persistence_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#session_persistence_configuration LoadBalancerBackendSet#session_persistence_configuration}
   */
   readonly sessionPersistenceConfiguration?: LoadBalancerBackendSetSessionPersistenceConfiguration;
   /**
   * ssl_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#ssl_configuration LoadBalancerBackendSet#ssl_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#ssl_configuration LoadBalancerBackendSet#ssl_configuration}
   */
   readonly sslConfiguration?: LoadBalancerBackendSetSslConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#timeouts LoadBalancerBackendSet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#timeouts LoadBalancerBackendSet#timeouts}
   */
   readonly timeouts?: LoadBalancerBackendSetTimeouts;
 }
@@ -173,39 +173,39 @@ export class LoadBalancerBackendSetBackendList extends cdktf.ComplexList {
 }
 export interface LoadBalancerBackendSetHealthChecker {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#interval_ms LoadBalancerBackendSet#interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#interval_ms LoadBalancerBackendSet#interval_ms}
   */
   readonly intervalMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#is_force_plain_text LoadBalancerBackendSet#is_force_plain_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#is_force_plain_text LoadBalancerBackendSet#is_force_plain_text}
   */
   readonly isForcePlainText?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#port LoadBalancerBackendSet#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#port LoadBalancerBackendSet#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#protocol LoadBalancerBackendSet#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#protocol LoadBalancerBackendSet#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#response_body_regex LoadBalancerBackendSet#response_body_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#response_body_regex LoadBalancerBackendSet#response_body_regex}
   */
   readonly responseBodyRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#retries LoadBalancerBackendSet#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#retries LoadBalancerBackendSet#retries}
   */
   readonly retries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#return_code LoadBalancerBackendSet#return_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#return_code LoadBalancerBackendSet#return_code}
   */
   readonly returnCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#timeout_in_millis LoadBalancerBackendSet#timeout_in_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#timeout_in_millis LoadBalancerBackendSet#timeout_in_millis}
   */
   readonly timeoutInMillis?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#url_path LoadBalancerBackendSet#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#url_path LoadBalancerBackendSet#url_path}
   */
   readonly urlPath?: string;
 }
@@ -518,31 +518,31 @@ export class LoadBalancerBackendSetHealthCheckerOutputReference extends cdktf.Co
 }
 export interface LoadBalancerBackendSetLbCookieSessionPersistenceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#cookie_name LoadBalancerBackendSet#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#cookie_name LoadBalancerBackendSet#cookie_name}
   */
   readonly cookieName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#disable_fallback LoadBalancerBackendSet#disable_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#disable_fallback LoadBalancerBackendSet#disable_fallback}
   */
   readonly disableFallback?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#domain LoadBalancerBackendSet#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#domain LoadBalancerBackendSet#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#is_http_only LoadBalancerBackendSet#is_http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#is_http_only LoadBalancerBackendSet#is_http_only}
   */
   readonly isHttpOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#is_secure LoadBalancerBackendSet#is_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#is_secure LoadBalancerBackendSet#is_secure}
   */
   readonly isSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#max_age_in_seconds LoadBalancerBackendSet#max_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#max_age_in_seconds LoadBalancerBackendSet#max_age_in_seconds}
   */
   readonly maxAgeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#path LoadBalancerBackendSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#path LoadBalancerBackendSet#path}
   */
   readonly path?: string;
 }
@@ -800,11 +800,11 @@ export class LoadBalancerBackendSetLbCookieSessionPersistenceConfigurationOutput
 }
 export interface LoadBalancerBackendSetSessionPersistenceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#cookie_name LoadBalancerBackendSet#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#cookie_name LoadBalancerBackendSet#cookie_name}
   */
   readonly cookieName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#disable_fallback LoadBalancerBackendSet#disable_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#disable_fallback LoadBalancerBackendSet#disable_fallback}
   */
   readonly disableFallback?: boolean | cdktf.IResolvable;
 }
@@ -914,35 +914,35 @@ export class LoadBalancerBackendSetSessionPersistenceConfigurationOutputReferenc
 }
 export interface LoadBalancerBackendSetSslConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#certificate_ids LoadBalancerBackendSet#certificate_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#certificate_ids LoadBalancerBackendSet#certificate_ids}
   */
   readonly certificateIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#certificate_name LoadBalancerBackendSet#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#certificate_name LoadBalancerBackendSet#certificate_name}
   */
   readonly certificateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#cipher_suite_name LoadBalancerBackendSet#cipher_suite_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#cipher_suite_name LoadBalancerBackendSet#cipher_suite_name}
   */
   readonly cipherSuiteName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#protocols LoadBalancerBackendSet#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#protocols LoadBalancerBackendSet#protocols}
   */
   readonly protocols?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#server_order_preference LoadBalancerBackendSet#server_order_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#server_order_preference LoadBalancerBackendSet#server_order_preference}
   */
   readonly serverOrderPreference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#trusted_certificate_authority_ids LoadBalancerBackendSet#trusted_certificate_authority_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#trusted_certificate_authority_ids LoadBalancerBackendSet#trusted_certificate_authority_ids}
   */
   readonly trustedCertificateAuthorityIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#verify_depth LoadBalancerBackendSet#verify_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#verify_depth LoadBalancerBackendSet#verify_depth}
   */
   readonly verifyDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#verify_peer_certificate LoadBalancerBackendSet#verify_peer_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#verify_peer_certificate LoadBalancerBackendSet#verify_peer_certificate}
   */
   readonly verifyPeerCertificate?: boolean | cdktf.IResolvable;
 }
@@ -1229,15 +1229,15 @@ export class LoadBalancerBackendSetSslConfigurationOutputReference extends cdktf
 }
 export interface LoadBalancerBackendSetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#create LoadBalancerBackendSet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#create LoadBalancerBackendSet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#delete LoadBalancerBackendSet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#delete LoadBalancerBackendSet#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#update LoadBalancerBackendSet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#update LoadBalancerBackendSet#update}
   */
   readonly update?: string;
 }
@@ -1389,7 +1389,7 @@ export class LoadBalancerBackendSetTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set oci_load_balancer_backend_set}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set oci_load_balancer_backend_set}
 */
 export class LoadBalancerBackendSet extends cdktf.TerraformResource {
 
@@ -1405,7 +1405,7 @@ export class LoadBalancerBackendSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadBalancerBackendSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadBalancerBackendSet to import
-  * @param importFromId The id of the existing LoadBalancerBackendSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadBalancerBackendSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadBalancerBackendSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1417,7 +1417,7 @@ export class LoadBalancerBackendSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/load_balancer_backend_set oci_load_balancer_backend_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/load_balancer_backend_set oci_load_balancer_backend_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1428,8 +1428,8 @@ export class LoadBalancerBackendSet extends cdktf.TerraformResource {
       terraformResourceType: 'oci_load_balancer_backend_set',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

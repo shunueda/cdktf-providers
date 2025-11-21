@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peer
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataNetappOntapClusterPeerConfig extends cdktf.TerraformMetaArg
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peer#cx_profile_name DataNetappOntapClusterPeer#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peer#cx_profile_name DataNetappOntapClusterPeer#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * ClusterPeer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peer#name DataNetappOntapClusterPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peer#name DataNetappOntapClusterPeer#name}
   */
   readonly name: string;
 }
@@ -248,7 +248,7 @@ export class DataNetappOntapClusterPeerStatusOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peer netapp-ontap_cluster_peer}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peer netapp-ontap_cluster_peer}
 */
 export class DataNetappOntapClusterPeer extends cdktf.TerraformDataSource {
 
@@ -264,7 +264,7 @@ export class DataNetappOntapClusterPeer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappOntapClusterPeer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapClusterPeer to import
-  * @param importFromId The id of the existing DataNetappOntapClusterPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapClusterPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapClusterPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class DataNetappOntapClusterPeer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/cluster_peer netapp-ontap_cluster_peer} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/cluster_peer netapp-ontap_cluster_peer} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class DataNetappOntapClusterPeer extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_cluster_peer',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

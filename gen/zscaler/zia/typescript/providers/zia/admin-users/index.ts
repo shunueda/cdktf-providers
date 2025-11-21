@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,89 +8,89 @@ import * as cdktf from 'cdktf';
 
 export interface AdminUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#admin_scope_type AdminUsers#admin_scope_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#admin_scope_type AdminUsers#admin_scope_type}
   */
   readonly adminScopeType?: string;
   /**
   * Additional information about the admin or auditor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#comments AdminUsers#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#comments AdminUsers#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#disabled AdminUsers#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#disabled AdminUsers#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Admin or auditor's email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#email AdminUsers#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#email AdminUsers#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#is_auditor AdminUsers#is_auditor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#is_auditor AdminUsers#is_auditor}
   */
   readonly isAuditor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#is_exec_mobile_app_enabled AdminUsers#is_exec_mobile_app_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#is_exec_mobile_app_enabled AdminUsers#is_exec_mobile_app_enabled}
   */
   readonly isExecMobileAppEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#is_non_editable AdminUsers#is_non_editable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#is_non_editable AdminUsers#is_non_editable}
   */
   readonly isNonEditable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#is_password_expired AdminUsers#is_password_expired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#is_password_expired AdminUsers#is_password_expired}
   */
   readonly isPasswordExpired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#is_password_login_allowed AdminUsers#is_password_login_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#is_password_login_allowed AdminUsers#is_password_login_allowed}
   */
   readonly isPasswordLoginAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#is_product_update_comm_enabled AdminUsers#is_product_update_comm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#is_product_update_comm_enabled AdminUsers#is_product_update_comm_enabled}
   */
   readonly isProductUpdateCommEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#is_security_report_comm_enabled AdminUsers#is_security_report_comm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#is_security_report_comm_enabled AdminUsers#is_security_report_comm_enabled}
   */
   readonly isSecurityReportCommEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#is_service_update_comm_enabled AdminUsers#is_service_update_comm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#is_service_update_comm_enabled AdminUsers#is_service_update_comm_enabled}
   */
   readonly isServiceUpdateCommEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#login_name AdminUsers#login_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#login_name AdminUsers#login_name}
   */
   readonly loginName: string;
   /**
   * The admin's password. If admin single sign-on (SSO) is disabled, then this field is mandatory for POST requests. This information is not provided in a GET response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#password AdminUsers#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#password AdminUsers#password}
   */
   readonly password?: string;
   /**
   * Admin or auditor's username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#username AdminUsers#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#username AdminUsers#username}
   */
   readonly username: string;
   /**
   * admin_scope_entities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#admin_scope_entities AdminUsers#admin_scope_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#admin_scope_entities AdminUsers#admin_scope_entities}
   */
   readonly adminScopeEntities?: AdminUsersAdminScopeEntities;
   /**
   * role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#role AdminUsers#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#role AdminUsers#role}
   */
   readonly role?: AdminUsersRole[] | cdktf.IResolvable;
 }
 export interface AdminUsersAdminScopeEntities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#id AdminUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#id AdminUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -177,7 +177,7 @@ export class AdminUsersAdminScopeEntitiesOutputReference extends cdktf.ComplexOb
 }
 export interface AdminUsersRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#id AdminUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#id AdminUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -296,7 +296,7 @@ export class AdminUsersRoleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users zia_admin_users}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users zia_admin_users}
 */
 export class AdminUsers extends cdktf.TerraformResource {
 
@@ -312,7 +312,7 @@ export class AdminUsers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdminUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdminUsers to import
-  * @param importFromId The id of the existing AdminUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdminUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdminUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -324,7 +324,7 @@ export class AdminUsers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/admin_users zia_admin_users} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/admin_users zia_admin_users} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,8 +335,8 @@ export class AdminUsers extends cdktf.TerraformResource {
       terraformResourceType: 'zia_admin_users',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_database
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_database#database_id DataOciDatabaseDatabase#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_database#database_id DataOciDatabaseDatabase#database_id}
   */
   readonly databaseId: string;
 }
@@ -159,6 +159,11 @@ export class DataOciDatabaseDatabaseDataGuardGroupMembersOutputReference extends
     return this.getStringAttribute('apply_rate');
   }
 
+  // data_loss_exposure - computed: true, optional: false, required: false
+  public get dataLossExposure() {
+    return this.getStringAttribute('data_loss_exposure');
+  }
+
   // database_id - computed: true, optional: false, required: false
   public get databaseId() {
     return this.getStringAttribute('database_id');
@@ -169,6 +174,16 @@ export class DataOciDatabaseDatabaseDataGuardGroupMembersOutputReference extends
     return this.getStringAttribute('db_system_id');
   }
 
+  // failover_readiness - computed: true, optional: false, required: false
+  public get failoverReadiness() {
+    return this.getStringAttribute('failover_readiness');
+  }
+
+  // failover_readiness_message - computed: true, optional: false, required: false
+  public get failoverReadinessMessage() {
+    return this.getStringAttribute('failover_readiness_message');
+  }
+
   // is_active_data_guard_enabled - computed: true, optional: false, required: false
   public get isActiveDataGuardEnabled() {
     return this.getBooleanAttribute('is_active_data_guard_enabled');
@@ -177,6 +192,21 @@ export class DataOciDatabaseDatabaseDataGuardGroupMembersOutputReference extends
   // role - computed: true, optional: false, required: false
   public get role() {
     return this.getStringAttribute('role');
+  }
+
+  // switchover_readiness - computed: true, optional: false, required: false
+  public get switchoverReadiness() {
+    return this.getStringAttribute('switchover_readiness');
+  }
+
+  // switchover_readiness_message - computed: true, optional: false, required: false
+  public get switchoverReadinessMessage() {
+    return this.getStringAttribute('switchover_readiness_message');
+  }
+
+  // time_updated - computed: true, optional: false, required: false
+  public get timeUpdated() {
+    return this.getStringAttribute('time_updated');
   }
 
   // transport_lag - computed: true, optional: false, required: false
@@ -571,9 +601,19 @@ export class DataOciDatabaseDatabaseDatabaseEncryptionKeyLocationDetailsOutputRe
     }
   }
 
+  // aws_encryption_key_id - computed: true, optional: false, required: false
+  public get awsEncryptionKeyId() {
+    return this.getStringAttribute('aws_encryption_key_id');
+  }
+
   // azure_encryption_key_id - computed: true, optional: false, required: false
   public get azureEncryptionKeyId() {
     return this.getStringAttribute('azure_encryption_key_id');
+  }
+
+  // google_cloud_provider_encryption_key_id - computed: true, optional: false, required: false
+  public get googleCloudProviderEncryptionKeyId() {
+    return this.getStringAttribute('google_cloud_provider_encryption_key_id');
   }
 
   // hsm_password - computed: true, optional: false, required: false
@@ -1379,7 +1419,7 @@ export class DataOciDatabaseDatabaseStorageSizeDetailsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_database oci_database_database}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_database oci_database_database}
 */
 export class DataOciDatabaseDatabase extends cdktf.TerraformDataSource {
 
@@ -1395,7 +1435,7 @@ export class DataOciDatabaseDatabase extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDatabaseDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseDatabase to import
-  * @param importFromId The id of the existing DataOciDatabaseDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1407,7 +1447,7 @@ export class DataOciDatabaseDatabase extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_database oci_database_database} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_database oci_database_database} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1418,8 +1458,8 @@ export class DataOciDatabaseDatabase extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_database_database',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

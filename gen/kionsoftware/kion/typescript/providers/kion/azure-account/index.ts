@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AzureAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account alias is an optional short unique name that helps identify the account within Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#account_alias AzureAccount#account_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#account_alias AzureAccount#account_alias}
   */
   readonly accountAlias?: string;
   /**
   * An ID representing the account type within Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#account_type_id AzureAccount#account_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#account_type_id AzureAccount#account_type_id}
   */
   readonly accountTypeId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#id AzureAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#id AzureAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,83 +29,83 @@ export interface AzureAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * A map of labels to assign to the account. The labels must already exist in Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#labels AzureAccount#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#labels AzureAccount#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#last_updated AzureAccount#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#last_updated AzureAccount#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * The name of the Azure account within Kion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#name AzureAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#name AzureAccount#name}
   */
   readonly name: string;
   /**
   * The parent management group ID when creating an Azure subscription. If provided, the subscription will be created under the provided management group.  If not provided, the subscription will be created at the root level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#parent_management_group_id AzureAccount#parent_management_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#parent_management_group_id AzureAccount#parent_management_group_id}
   */
   readonly parentManagementGroupId?: string;
   /**
   * The ID of the billing source containing billing data for this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#payer_id AzureAccount#payer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#payer_id AzureAccount#payer_id}
   */
   readonly payerId: number;
   /**
   * The ID of the Kion project to place this account within.  If empty, the account will be placed within the account cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#project_id AzureAccount#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#project_id AzureAccount#project_id}
   */
   readonly projectId?: number;
   /**
   * True to skip periodic access checking on the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#skip_access_checking AzureAccount#skip_access_checking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#skip_access_checking AzureAccount#skip_access_checking}
   */
   readonly skipAccessChecking?: boolean | cdktf.IResolvable;
   /**
   * Date when the Azure account will starting submitting payments against a funding source (YYYY-MM).  Required if placing an account within a project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#start_datecode AzureAccount#start_datecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#start_datecode AzureAccount#start_datecode}
   */
   readonly startDatecode?: string;
   /**
   * Name of the subscription as it appears in Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#subscription_name AzureAccount#subscription_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#subscription_name AzureAccount#subscription_name}
   */
   readonly subscriptionName?: string;
   /**
   * The UUID of the Azure subscription.  If subscription_uuid is provided, the existing subscription will be imported into Kion.  If subscription_uuid is omitted, a new subscription will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#subscription_uuid AzureAccount#subscription_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#subscription_uuid AzureAccount#subscription_uuid}
   */
   readonly subscriptionUuid?: string;
   /**
   * csp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#csp AzureAccount#csp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#csp AzureAccount#csp}
   */
   readonly csp?: AzureAccountCsp;
   /**
   * ea block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#ea AzureAccount#ea}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#ea AzureAccount#ea}
   */
   readonly ea?: AzureAccountEa;
   /**
   * mca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#mca AzureAccount#mca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#mca AzureAccount#mca}
   */
   readonly mca?: AzureAccountMca;
   /**
   * move_project_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#move_project_settings AzureAccount#move_project_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#move_project_settings AzureAccount#move_project_settings}
   */
   readonly moveProjectSettings?: AzureAccountMoveProjectSettings;
 }
@@ -113,13 +113,13 @@ export interface AzureAccountCsp {
   /**
   * Azure CSP billing cycle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#billing_cycle AzureAccount#billing_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#billing_cycle AzureAccount#billing_cycle}
   */
   readonly billingCycle?: string;
   /**
   * Azure CSP offer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#offer_id AzureAccount#offer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#offer_id AzureAccount#offer_id}
   */
   readonly offerId: string;
 }
@@ -231,13 +231,13 @@ export interface AzureAccountEa {
   /**
   * Azure EA account number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#account AzureAccount#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#account AzureAccount#account}
   */
   readonly account: string;
   /**
   * Azure billing account number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#billing_account AzureAccount#billing_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#billing_account AzureAccount#billing_account}
   */
   readonly billingAccount: string;
 }
@@ -346,19 +346,19 @@ export interface AzureAccountMca {
   /**
   * Azure MCA billing account number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#billing_account AzureAccount#billing_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#billing_account AzureAccount#billing_account}
   */
   readonly billingAccount: string;
   /**
   * Azure MCA billing profile number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#billing_profile AzureAccount#billing_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#billing_profile AzureAccount#billing_profile}
   */
   readonly billingProfile: string;
   /**
   * Azure MCA billing profile invoice section number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#billing_profile_invoice AzureAccount#billing_profile_invoice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#billing_profile_invoice AzureAccount#billing_profile_invoice}
   */
   readonly billingProfileInvoice: string;
 }
@@ -493,13 +493,13 @@ export interface AzureAccountMoveProjectSettings {
   /**
   * One of "move" or "preserve".  If "move", financial history will be moved to the new project beginning on the date specified by the move_datecode parameter.  If "preserve", financial history will be preserved on the current project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#financials AzureAccount#financials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#financials AzureAccount#financials}
   */
   readonly financials?: string;
   /**
   * The start date to use when moving financial data in YYYYMM format.  This only applies when financials is set to move.  If provided, only financial data from this date to the current month will be moved to the new project.  If omitted or 0, all financial data will be moved to the new project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#move_datecode AzureAccount#move_datecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#move_datecode AzureAccount#move_datecode}
   */
   readonly moveDatecode?: number;
 }
@@ -612,7 +612,7 @@ export class AzureAccountMoveProjectSettingsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account kion_azure_account}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account kion_azure_account}
 */
 export class AzureAccount extends cdktf.TerraformResource {
 
@@ -628,7 +628,7 @@ export class AzureAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureAccount to import
-  * @param importFromId The id of the existing AzureAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -640,7 +640,7 @@ export class AzureAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/azure_account kion_azure_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/azure_account kion_azure_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -651,8 +651,8 @@ export class AzureAccount extends cdktf.TerraformResource {
       terraformResourceType: 'kion_azure_account',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

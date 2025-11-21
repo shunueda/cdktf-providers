@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_oauth2client_credential
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_oauth2client_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDomainsMyOauth2ClientCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_oauth2client_credential#authorization DataOciIdentityDomainsMyOauth2ClientCredential#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_oauth2client_credential#authorization DataOciIdentityDomainsMyOauth2ClientCredential#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_oauth2client_credential#idcs_endpoint DataOciIdentityDomainsMyOauth2ClientCredential#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_oauth2client_credential#idcs_endpoint DataOciIdentityDomainsMyOauth2ClientCredential#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_oauth2client_credential#my_oauth2client_credential_id DataOciIdentityDomainsMyOauth2ClientCredential#my_oauth2client_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_oauth2client_credential#my_oauth2client_credential_id DataOciIdentityDomainsMyOauth2ClientCredential#my_oauth2client_credential_id}
   */
   readonly myOauth2ClientCredentialId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_oauth2client_credential#resource_type_schema_version DataOciIdentityDomainsMyOauth2ClientCredential#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_oauth2client_credential#resource_type_schema_version DataOciIdentityDomainsMyOauth2ClientCredential#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
 }
@@ -566,7 +566,7 @@ export class DataOciIdentityDomainsMyOauth2ClientCredentialUserList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_oauth2client_credential oci_identity_domains_my_oauth2client_credential}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_oauth2client_credential oci_identity_domains_my_oauth2client_credential}
 */
 export class DataOciIdentityDomainsMyOauth2ClientCredential extends cdktf.TerraformDataSource {
 
@@ -582,7 +582,7 @@ export class DataOciIdentityDomainsMyOauth2ClientCredential extends cdktf.Terraf
   * Generates CDKTF code for importing a DataOciIdentityDomainsMyOauth2ClientCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDomainsMyOauth2ClientCredential to import
-  * @param importFromId The id of the existing DataOciIdentityDomainsMyOauth2ClientCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_oauth2client_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDomainsMyOauth2ClientCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_oauth2client_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDomainsMyOauth2ClientCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -594,7 +594,7 @@ export class DataOciIdentityDomainsMyOauth2ClientCredential extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_oauth2client_credential oci_identity_domains_my_oauth2client_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_oauth2client_credential oci_identity_domains_my_oauth2client_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -605,8 +605,8 @@ export class DataOciIdentityDomainsMyOauth2ClientCredential extends cdktf.Terraf
       terraformResourceType: 'oci_identity_domains_my_oauth2client_credential',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

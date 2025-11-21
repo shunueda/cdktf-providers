@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_db_systems
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_db_systems
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciPsqlDbSystemsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_db_systems#compartment_id DataOciPsqlDbSystems#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_db_systems#compartment_id DataOciPsqlDbSystems#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_db_systems#display_name DataOciPsqlDbSystems#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_db_systems#display_name DataOciPsqlDbSystems#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_db_systems#id DataOciPsqlDbSystems#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_db_systems#id DataOciPsqlDbSystems#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_db_systems#state DataOciPsqlDbSystems#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_db_systems#state DataOciPsqlDbSystems#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_db_systems#filter DataOciPsqlDbSystems#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_db_systems#filter DataOciPsqlDbSystems#filter}
   */
   readonly filter?: DataOciPsqlDbSystemsFilter[] | cdktf.IResolvable;
 }
@@ -1331,15 +1331,15 @@ export class DataOciPsqlDbSystemsDbSystemCollectionList extends cdktf.ComplexLis
 }
 export interface DataOciPsqlDbSystemsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_db_systems#name DataOciPsqlDbSystems#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_db_systems#name DataOciPsqlDbSystems#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_db_systems#regex DataOciPsqlDbSystems#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_db_systems#regex DataOciPsqlDbSystems#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_db_systems#values DataOciPsqlDbSystems#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_db_systems#values DataOciPsqlDbSystems#values}
   */
   readonly values: string[];
 }
@@ -1507,7 +1507,7 @@ export class DataOciPsqlDbSystemsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_db_systems oci_psql_db_systems}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_db_systems oci_psql_db_systems}
 */
 export class DataOciPsqlDbSystems extends cdktf.TerraformDataSource {
 
@@ -1523,7 +1523,7 @@ export class DataOciPsqlDbSystems extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciPsqlDbSystems resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciPsqlDbSystems to import
-  * @param importFromId The id of the existing DataOciPsqlDbSystems that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_db_systems#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciPsqlDbSystems that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_db_systems#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciPsqlDbSystems to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1535,7 +1535,7 @@ export class DataOciPsqlDbSystems extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/psql_db_systems oci_psql_db_systems} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_db_systems oci_psql_db_systems} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1546,8 +1546,8 @@ export class DataOciPsqlDbSystems extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_psql_db_systems',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

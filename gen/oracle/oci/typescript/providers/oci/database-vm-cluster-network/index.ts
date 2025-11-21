@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseVmClusterNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#action DatabaseVmClusterNetwork#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#action DatabaseVmClusterNetwork#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#compartment_id DatabaseVmClusterNetwork#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#compartment_id DatabaseVmClusterNetwork#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#defined_tags DatabaseVmClusterNetwork#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#defined_tags DatabaseVmClusterNetwork#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#display_name DatabaseVmClusterNetwork#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#display_name DatabaseVmClusterNetwork#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#dns DatabaseVmClusterNetwork#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#dns DatabaseVmClusterNetwork#dns}
   */
   readonly dns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#exadata_infrastructure_id DatabaseVmClusterNetwork#exadata_infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#exadata_infrastructure_id DatabaseVmClusterNetwork#exadata_infrastructure_id}
   */
   readonly exadataInfrastructureId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#freeform_tags DatabaseVmClusterNetwork#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#freeform_tags DatabaseVmClusterNetwork#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#id DatabaseVmClusterNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#id DatabaseVmClusterNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#ntp DatabaseVmClusterNetwork#ntp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#ntp DatabaseVmClusterNetwork#ntp}
   */
   readonly ntp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#validate_vm_cluster_network DatabaseVmClusterNetwork#validate_vm_cluster_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#validate_vm_cluster_network DatabaseVmClusterNetwork#validate_vm_cluster_network}
   */
   readonly validateVmClusterNetwork?: boolean | cdktf.IResolvable;
   /**
   * dr_scans block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#dr_scans DatabaseVmClusterNetwork#dr_scans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#dr_scans DatabaseVmClusterNetwork#dr_scans}
   */
   readonly drScans?: DatabaseVmClusterNetworkDrScans[] | cdktf.IResolvable;
   /**
   * scans block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#scans DatabaseVmClusterNetwork#scans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#scans DatabaseVmClusterNetwork#scans}
   */
   readonly scans: DatabaseVmClusterNetworkScans[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#timeouts DatabaseVmClusterNetwork#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#timeouts DatabaseVmClusterNetwork#timeouts}
   */
   readonly timeouts?: DatabaseVmClusterNetworkTimeouts;
   /**
   * vm_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#vm_networks DatabaseVmClusterNetwork#vm_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#vm_networks DatabaseVmClusterNetwork#vm_networks}
   */
   readonly vmNetworks: DatabaseVmClusterNetworkVmNetworks[] | cdktf.IResolvable;
 }
 export interface DatabaseVmClusterNetworkDrScans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#hostname DatabaseVmClusterNetwork#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#hostname DatabaseVmClusterNetwork#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#ips DatabaseVmClusterNetwork#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#ips DatabaseVmClusterNetwork#ips}
   */
   readonly ips: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#scan_listener_port_tcp DatabaseVmClusterNetwork#scan_listener_port_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#scan_listener_port_tcp DatabaseVmClusterNetwork#scan_listener_port_tcp}
   */
   readonly scanListenerPortTcp: number;
 }
@@ -250,23 +250,23 @@ export class DatabaseVmClusterNetworkDrScansList extends cdktf.ComplexList {
 }
 export interface DatabaseVmClusterNetworkScans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#hostname DatabaseVmClusterNetwork#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#hostname DatabaseVmClusterNetwork#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#ips DatabaseVmClusterNetwork#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#ips DatabaseVmClusterNetwork#ips}
   */
   readonly ips: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#port DatabaseVmClusterNetwork#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#port DatabaseVmClusterNetwork#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#scan_listener_port_tcp DatabaseVmClusterNetwork#scan_listener_port_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#scan_listener_port_tcp DatabaseVmClusterNetwork#scan_listener_port_tcp}
   */
   readonly scanListenerPortTcp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#scan_listener_port_tcp_ssl DatabaseVmClusterNetwork#scan_listener_port_tcp_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#scan_listener_port_tcp_ssl DatabaseVmClusterNetwork#scan_listener_port_tcp_ssl}
   */
   readonly scanListenerPortTcpSsl?: number;
 }
@@ -492,15 +492,15 @@ export class DatabaseVmClusterNetworkScansList extends cdktf.ComplexList {
 }
 export interface DatabaseVmClusterNetworkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#create DatabaseVmClusterNetwork#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#create DatabaseVmClusterNetwork#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#delete DatabaseVmClusterNetwork#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#delete DatabaseVmClusterNetwork#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#update DatabaseVmClusterNetwork#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#update DatabaseVmClusterNetwork#update}
   */
   readonly update?: string;
 }
@@ -652,27 +652,27 @@ export class DatabaseVmClusterNetworkTimeoutsOutputReference extends cdktf.Compl
 }
 export interface DatabaseVmClusterNetworkVmNetworksNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#db_server_id DatabaseVmClusterNetwork#db_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#db_server_id DatabaseVmClusterNetwork#db_server_id}
   */
   readonly dbServerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#hostname DatabaseVmClusterNetwork#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#hostname DatabaseVmClusterNetwork#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#ip DatabaseVmClusterNetwork#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#ip DatabaseVmClusterNetwork#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#state DatabaseVmClusterNetwork#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#state DatabaseVmClusterNetwork#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#vip DatabaseVmClusterNetwork#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#vip DatabaseVmClusterNetwork#vip}
   */
   readonly vip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#vip_hostname DatabaseVmClusterNetwork#vip_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#vip_hostname DatabaseVmClusterNetwork#vip_hostname}
   */
   readonly vipHostname?: string;
 }
@@ -927,29 +927,29 @@ export class DatabaseVmClusterNetworkVmNetworksNodesList extends cdktf.ComplexLi
 }
 export interface DatabaseVmClusterNetworkVmNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#domain_name DatabaseVmClusterNetwork#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#domain_name DatabaseVmClusterNetwork#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#gateway DatabaseVmClusterNetwork#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#gateway DatabaseVmClusterNetwork#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#netmask DatabaseVmClusterNetwork#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#netmask DatabaseVmClusterNetwork#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#network_type DatabaseVmClusterNetwork#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#network_type DatabaseVmClusterNetwork#network_type}
   */
   readonly networkType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#vlan_id DatabaseVmClusterNetwork#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#vlan_id DatabaseVmClusterNetwork#vlan_id}
   */
   readonly vlanId?: string;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#nodes DatabaseVmClusterNetwork#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#nodes DatabaseVmClusterNetwork#nodes}
   */
   readonly nodes: DatabaseVmClusterNetworkVmNetworksNodes[] | cdktf.IResolvable;
 }
@@ -1204,7 +1204,7 @@ export class DatabaseVmClusterNetworkVmNetworksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network oci_database_vm_cluster_network}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network oci_database_vm_cluster_network}
 */
 export class DatabaseVmClusterNetwork extends cdktf.TerraformResource {
 
@@ -1220,7 +1220,7 @@ export class DatabaseVmClusterNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseVmClusterNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseVmClusterNetwork to import
-  * @param importFromId The id of the existing DatabaseVmClusterNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseVmClusterNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseVmClusterNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1232,7 +1232,7 @@ export class DatabaseVmClusterNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_vm_cluster_network oci_database_vm_cluster_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_vm_cluster_network oci_database_vm_cluster_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1243,8 +1243,8 @@ export class DatabaseVmClusterNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_vm_cluster_network',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

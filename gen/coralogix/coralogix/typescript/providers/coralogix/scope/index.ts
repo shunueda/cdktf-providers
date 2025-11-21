@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/scope
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/scope
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ScopeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default expression to use when no filter matches the query. Until further notice, this is limited to `true` (everything is included) or `false` (nothing is included). Use a version tag (e.g `<v1>true` or `<v1>false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/scope#default_expression Scope#default_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/scope#default_expression Scope#default_expression}
   */
   readonly defaultExpression: string;
   /**
   * Description of the scope. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/scope#description Scope#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/scope#description Scope#description}
   */
   readonly description?: string;
   /**
   * Scope display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/scope#display_name Scope#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/scope#display_name Scope#display_name}
   */
   readonly displayName: string;
   /**
   * Filters applied to include data in the scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/scope#filters Scope#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/scope#filters Scope#filters}
   */
   readonly filters: ScopeFilters[] | cdktf.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface ScopeFilters {
   /**
   * Entity type to apply the expression on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/scope#entity_type Scope#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/scope#entity_type Scope#entity_type}
   */
   readonly entityType: string;
   /**
   * Expression to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/scope#expression Scope#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/scope#expression Scope#expression}
   */
   readonly expression: string;
 }
@@ -181,7 +181,7 @@ export class ScopeFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/scope coralogix_scope}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/scope coralogix_scope}
 */
 export class Scope extends cdktf.TerraformResource {
 
@@ -197,7 +197,7 @@ export class Scope extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Scope resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Scope to import
-  * @param importFromId The id of the existing Scope that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/scope#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Scope that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/scope#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Scope to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +209,7 @@ export class Scope extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/scope coralogix_scope} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/scope coralogix_scope} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +220,8 @@ export class Scope extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_scope',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

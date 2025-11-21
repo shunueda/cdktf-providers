@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlHeatWaveClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster#cluster_size MysqlHeatWaveCluster#cluster_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster#cluster_size MysqlHeatWaveCluster#cluster_size}
   */
   readonly clusterSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster#db_system_id MysqlHeatWaveCluster#db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster#db_system_id MysqlHeatWaveCluster#db_system_id}
   */
   readonly dbSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster#id MysqlHeatWaveCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster#id MysqlHeatWaveCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster#is_lakehouse_enabled MysqlHeatWaveCluster#is_lakehouse_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster#is_lakehouse_enabled MysqlHeatWaveCluster#is_lakehouse_enabled}
   */
   readonly isLakehouseEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster#shape_name MysqlHeatWaveCluster#shape_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster#shape_name MysqlHeatWaveCluster#shape_name}
   */
   readonly shapeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster#state MysqlHeatWaveCluster#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster#state MysqlHeatWaveCluster#state}
   */
   readonly state?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster#timeouts MysqlHeatWaveCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster#timeouts MysqlHeatWaveCluster#timeouts}
   */
   readonly timeouts?: MysqlHeatWaveClusterTimeouts;
 }
@@ -133,15 +133,15 @@ export class MysqlHeatWaveClusterClusterNodesList extends cdktf.ComplexList {
 }
 export interface MysqlHeatWaveClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster#create MysqlHeatWaveCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster#create MysqlHeatWaveCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster#delete MysqlHeatWaveCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster#delete MysqlHeatWaveCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster#update MysqlHeatWaveCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster#update MysqlHeatWaveCluster#update}
   */
   readonly update?: string;
 }
@@ -293,7 +293,7 @@ export class MysqlHeatWaveClusterTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster oci_mysql_heat_wave_cluster}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster oci_mysql_heat_wave_cluster}
 */
 export class MysqlHeatWaveCluster extends cdktf.TerraformResource {
 
@@ -309,7 +309,7 @@ export class MysqlHeatWaveCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlHeatWaveCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlHeatWaveCluster to import
-  * @param importFromId The id of the existing MysqlHeatWaveCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlHeatWaveCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlHeatWaveCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -321,7 +321,7 @@ export class MysqlHeatWaveCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_heat_wave_cluster oci_mysql_heat_wave_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_heat_wave_cluster oci_mysql_heat_wave_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -332,8 +332,8 @@ export class MysqlHeatWaveCluster extends cdktf.TerraformResource {
       terraformResourceType: 'oci_mysql_heat_wave_cluster',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_schedule
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatascienceScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_schedule#schedule_id DataOciDatascienceSchedule#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_schedule#schedule_id DataOciDatascienceSchedule#schedule_id}
   */
   readonly scheduleId: string;
 }
@@ -1525,7 +1525,7 @@ export class DataOciDatascienceScheduleTriggerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_schedule oci_datascience_schedule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_schedule oci_datascience_schedule}
 */
 export class DataOciDatascienceSchedule extends cdktf.TerraformDataSource {
 
@@ -1541,7 +1541,7 @@ export class DataOciDatascienceSchedule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDatascienceSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatascienceSchedule to import
-  * @param importFromId The id of the existing DataOciDatascienceSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatascienceSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatascienceSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1553,7 +1553,7 @@ export class DataOciDatascienceSchedule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_schedule oci_datascience_schedule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_schedule oci_datascience_schedule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1564,8 +1564,8 @@ export class DataOciDatascienceSchedule extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_datascience_schedule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

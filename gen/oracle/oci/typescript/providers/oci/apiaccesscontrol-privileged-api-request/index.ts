@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface ApiaccesscontrolPrivilegedApiRequestConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#compartment_id ApiaccesscontrolPrivilegedApiRequest#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#compartment_id ApiaccesscontrolPrivilegedApiRequest#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#defined_tags ApiaccesscontrolPrivilegedApiRequest#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#defined_tags ApiaccesscontrolPrivilegedApiRequest#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#duration_in_hrs ApiaccesscontrolPrivilegedApiRequest#duration_in_hrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#duration_in_hrs ApiaccesscontrolPrivilegedApiRequest#duration_in_hrs}
   */
   readonly durationInHrs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#freeform_tags ApiaccesscontrolPrivilegedApiRequest#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#freeform_tags ApiaccesscontrolPrivilegedApiRequest#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#id ApiaccesscontrolPrivilegedApiRequest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#id ApiaccesscontrolPrivilegedApiRequest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#notification_topic_id ApiaccesscontrolPrivilegedApiRequest#notification_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#notification_topic_id ApiaccesscontrolPrivilegedApiRequest#notification_topic_id}
   */
   readonly notificationTopicId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#reason_detail ApiaccesscontrolPrivilegedApiRequest#reason_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#reason_detail ApiaccesscontrolPrivilegedApiRequest#reason_detail}
   */
   readonly reasonDetail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#reason_summary ApiaccesscontrolPrivilegedApiRequest#reason_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#reason_summary ApiaccesscontrolPrivilegedApiRequest#reason_summary}
   */
   readonly reasonSummary: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#resource_id ApiaccesscontrolPrivilegedApiRequest#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#resource_id ApiaccesscontrolPrivilegedApiRequest#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#severity ApiaccesscontrolPrivilegedApiRequest#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#severity ApiaccesscontrolPrivilegedApiRequest#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#sub_resource_name_list ApiaccesscontrolPrivilegedApiRequest#sub_resource_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#sub_resource_name_list ApiaccesscontrolPrivilegedApiRequest#sub_resource_name_list}
   */
   readonly subResourceNameList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#ticket_numbers ApiaccesscontrolPrivilegedApiRequest#ticket_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#ticket_numbers ApiaccesscontrolPrivilegedApiRequest#ticket_numbers}
   */
   readonly ticketNumbers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#time_requested_for_future_access ApiaccesscontrolPrivilegedApiRequest#time_requested_for_future_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#time_requested_for_future_access ApiaccesscontrolPrivilegedApiRequest#time_requested_for_future_access}
   */
   readonly timeRequestedForFutureAccess?: string;
   /**
   * privileged_operation_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#privileged_operation_list ApiaccesscontrolPrivilegedApiRequest#privileged_operation_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#privileged_operation_list ApiaccesscontrolPrivilegedApiRequest#privileged_operation_list}
   */
   readonly privilegedOperationList: ApiaccesscontrolPrivilegedApiRequestPrivilegedOperationListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#timeouts ApiaccesscontrolPrivilegedApiRequest#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#timeouts ApiaccesscontrolPrivilegedApiRequest#timeouts}
   */
   readonly timeouts?: ApiaccesscontrolPrivilegedApiRequestTimeouts;
 }
@@ -172,11 +172,11 @@ export class ApiaccesscontrolPrivilegedApiRequestApproverDetailsList extends cdk
 }
 export interface ApiaccesscontrolPrivilegedApiRequestPrivilegedOperationListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#api_name ApiaccesscontrolPrivilegedApiRequest#api_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#api_name ApiaccesscontrolPrivilegedApiRequest#api_name}
   */
   readonly apiName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#attribute_names ApiaccesscontrolPrivilegedApiRequest#attribute_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#attribute_names ApiaccesscontrolPrivilegedApiRequest#attribute_names}
   */
   readonly attributeNames?: string[];
 }
@@ -318,15 +318,15 @@ export class ApiaccesscontrolPrivilegedApiRequestPrivilegedOperationListStructLi
 }
 export interface ApiaccesscontrolPrivilegedApiRequestTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#create ApiaccesscontrolPrivilegedApiRequest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#create ApiaccesscontrolPrivilegedApiRequest#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#delete ApiaccesscontrolPrivilegedApiRequest#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#delete ApiaccesscontrolPrivilegedApiRequest#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#update ApiaccesscontrolPrivilegedApiRequest#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#update ApiaccesscontrolPrivilegedApiRequest#update}
   */
   readonly update?: string;
 }
@@ -478,7 +478,7 @@ export class ApiaccesscontrolPrivilegedApiRequestTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request oci_apiaccesscontrol_privileged_api_request}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request oci_apiaccesscontrol_privileged_api_request}
 */
 export class ApiaccesscontrolPrivilegedApiRequest extends cdktf.TerraformResource {
 
@@ -494,7 +494,7 @@ export class ApiaccesscontrolPrivilegedApiRequest extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ApiaccesscontrolPrivilegedApiRequest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiaccesscontrolPrivilegedApiRequest to import
-  * @param importFromId The id of the existing ApiaccesscontrolPrivilegedApiRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiaccesscontrolPrivilegedApiRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiaccesscontrolPrivilegedApiRequest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -506,7 +506,7 @@ export class ApiaccesscontrolPrivilegedApiRequest extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apiaccesscontrol_privileged_api_request oci_apiaccesscontrol_privileged_api_request} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apiaccesscontrol_privileged_api_request oci_apiaccesscontrol_privileged_api_request} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -517,8 +517,8 @@ export class ApiaccesscontrolPrivilegedApiRequest extends cdktf.TerraformResourc
       terraformResourceType: 'oci_apiaccesscontrol_privileged_api_request',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

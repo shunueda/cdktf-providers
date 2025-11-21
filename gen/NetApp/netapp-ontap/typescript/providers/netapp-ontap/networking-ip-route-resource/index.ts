@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_route_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_route_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface NetworkingIpRouteResourceConfig extends cdktf.TerraformMetaArgu
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_route_resource#cx_profile_name NetworkingIpRouteResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_route_resource#cx_profile_name NetworkingIpRouteResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * destination IP address information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_route_resource#destination NetworkingIpRouteResource#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_route_resource#destination NetworkingIpRouteResource#destination}
   */
   readonly destination?: NetworkingIpRouteResourceDestination;
   /**
   * The IP address of the gateway router leading to the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_route_resource#gateway NetworkingIpRouteResource#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_route_resource#gateway NetworkingIpRouteResource#gateway}
   */
   readonly gateway: string;
   /**
   * Indicates a preference order between several routes to the same destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_route_resource#metric NetworkingIpRouteResource#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_route_resource#metric NetworkingIpRouteResource#metric}
   */
   readonly metric?: number;
   /**
   * IPInterface svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_route_resource#svm_name NetworkingIpRouteResource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_route_resource#svm_name NetworkingIpRouteResource#svm_name}
   */
   readonly svmName?: string;
 }
@@ -42,13 +42,13 @@ export interface NetworkingIpRouteResourceDestination {
   /**
   * IPv4 or IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_route_resource#address NetworkingIpRouteResource#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_route_resource#address NetworkingIpRouteResource#address}
   */
   readonly address?: string;
   /**
   * netmask length (16) or IPv4 mask (255.255.0.0). For IPv6, valid range is 1 to 127.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_route_resource#netmask NetworkingIpRouteResource#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_route_resource#netmask NetworkingIpRouteResource#netmask}
   */
   readonly netmask?: string;
 }
@@ -171,7 +171,7 @@ export class NetworkingIpRouteResourceDestinationOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_route_resource netapp-ontap_networking_ip_route_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_route_resource netapp-ontap_networking_ip_route_resource}
 */
 export class NetworkingIpRouteResource extends cdktf.TerraformResource {
 
@@ -187,7 +187,7 @@ export class NetworkingIpRouteResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingIpRouteResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingIpRouteResource to import
-  * @param importFromId The id of the existing NetworkingIpRouteResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_route_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingIpRouteResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_route_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingIpRouteResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class NetworkingIpRouteResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/networking_ip_route_resource netapp-ontap_networking_ip_route_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/networking_ip_route_resource netapp-ontap_networking_ip_route_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class NetworkingIpRouteResource extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_networking_ip_route_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

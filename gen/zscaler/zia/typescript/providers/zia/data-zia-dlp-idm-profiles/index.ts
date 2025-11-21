@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/dlp_idm_profiles
+// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_idm_profiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZiaDlpIdmProfilesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/dlp_idm_profiles#id DataZiaDlpIdmProfiles#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_idm_profiles#id DataZiaDlpIdmProfiles#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataZiaDlpIdmProfilesConfig extends cdktf.TerraformMetaArgument
   /**
   * The identifier (1-64) for the IDM template (i.e., IDM profile) that is unique within the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/dlp_idm_profiles#profile_id DataZiaDlpIdmProfiles#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_idm_profiles#profile_id DataZiaDlpIdmProfiles#profile_id}
   */
   readonly profileId?: number;
   /**
   * The IDM template name, which is unique per Index Tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/dlp_idm_profiles#profile_name DataZiaDlpIdmProfiles#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_idm_profiles#profile_name DataZiaDlpIdmProfiles#profile_name}
   */
   readonly profileName?: string;
 }
@@ -201,7 +201,7 @@ export class DataZiaDlpIdmProfilesLastModifiedByList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/dlp_idm_profiles zia_dlp_idm_profiles}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_idm_profiles zia_dlp_idm_profiles}
 */
 export class DataZiaDlpIdmProfiles extends cdktf.TerraformDataSource {
 
@@ -217,7 +217,7 @@ export class DataZiaDlpIdmProfiles extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaDlpIdmProfiles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaDlpIdmProfiles to import
-  * @param importFromId The id of the existing DataZiaDlpIdmProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/dlp_idm_profiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaDlpIdmProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_idm_profiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaDlpIdmProfiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class DataZiaDlpIdmProfiles extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/dlp_idm_profiles zia_dlp_idm_profiles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_idm_profiles zia_dlp_idm_profiles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class DataZiaDlpIdmProfiles extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_dlp_idm_profiles',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.0',
-        providerVersionConstraint: '4.6.0'
+        providerVersion: '4.6.2',
+        providerVersionConstraint: '4.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol
+// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface FabricRoutingProtocolConfig extends cdktf.TerraformMetaArgument
   /**
   * Enable AS number override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#as_override_enabled FabricRoutingProtocol#as_override_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#as_override_enabled FabricRoutingProtocol#as_override_enabled}
   */
   readonly asOverrideEnabled?: boolean | cdktf.IResolvable;
   /**
   * BGP authorization key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#bgp_auth_key FabricRoutingProtocol#bgp_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#bgp_auth_key FabricRoutingProtocol#bgp_auth_key}
   */
   readonly bgpAuthKey?: string;
   /**
   * Connection URI associated with Routing Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#connection_uuid FabricRoutingProtocol#connection_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#connection_uuid FabricRoutingProtocol#connection_uuid}
   */
   readonly connectionUuid: string;
   /**
   * Customer-provided ASN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#customer_asn FabricRoutingProtocol#customer_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#customer_asn FabricRoutingProtocol#customer_asn}
   */
   readonly customerAsn?: number;
   /**
   * Customer-provided Fabric Routing Protocol description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#description FabricRoutingProtocol#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#description FabricRoutingProtocol#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#id FabricRoutingProtocol#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#id FabricRoutingProtocol#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,55 +47,55 @@ export interface FabricRoutingProtocolConfig extends cdktf.TerraformMetaArgument
   /**
   * Routing Protocol name. An alpha-numeric 24 characters string which can include only hyphens and underscores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#name FabricRoutingProtocol#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#name FabricRoutingProtocol#name}
   */
   readonly name?: string;
   /**
   * Defines the routing protocol type like BGP or DIRECT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#type FabricRoutingProtocol#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#type FabricRoutingProtocol#type}
   */
   readonly type?: string;
   /**
   * Equinix-assigned routing protocol identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#uuid FabricRoutingProtocol#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#uuid FabricRoutingProtocol#uuid}
   */
   readonly uuid?: string;
   /**
   * bfd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#bfd FabricRoutingProtocol#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#bfd FabricRoutingProtocol#bfd}
   */
   readonly bfd?: FabricRoutingProtocolBfd[] | cdktf.IResolvable;
   /**
   * bgp_ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#bgp_ipv4 FabricRoutingProtocol#bgp_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#bgp_ipv4 FabricRoutingProtocol#bgp_ipv4}
   */
   readonly bgpIpv4?: FabricRoutingProtocolBgpIpv4[] | cdktf.IResolvable;
   /**
   * bgp_ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#bgp_ipv6 FabricRoutingProtocol#bgp_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#bgp_ipv6 FabricRoutingProtocol#bgp_ipv6}
   */
   readonly bgpIpv6?: FabricRoutingProtocolBgpIpv6[] | cdktf.IResolvable;
   /**
   * direct_ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#direct_ipv4 FabricRoutingProtocol#direct_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#direct_ipv4 FabricRoutingProtocol#direct_ipv4}
   */
   readonly directIpv4?: FabricRoutingProtocolDirectIpv4[] | cdktf.IResolvable;
   /**
   * direct_ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#direct_ipv6 FabricRoutingProtocol#direct_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#direct_ipv6 FabricRoutingProtocol#direct_ipv6}
   */
   readonly directIpv6?: FabricRoutingProtocolDirectIpv6[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#timeouts FabricRoutingProtocol#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#timeouts FabricRoutingProtocol#timeouts}
   */
   readonly timeouts?: FabricRoutingProtocolTimeouts;
 }
@@ -575,13 +575,13 @@ export interface FabricRoutingProtocolBfd {
   /**
   * Bidirectional Forwarding Detection enablement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#enabled FabricRoutingProtocol#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#enabled FabricRoutingProtocol#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Interval range between the received BFD control packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#interval FabricRoutingProtocol#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#interval FabricRoutingProtocol#interval}
   */
   readonly interval?: string;
 }
@@ -725,31 +725,31 @@ export interface FabricRoutingProtocolBgpIpv4 {
   /**
   * Customer side peering ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#customer_peer_ip FabricRoutingProtocol#customer_peer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#customer_peer_ip FabricRoutingProtocol#customer_peer_ip}
   */
   readonly customerPeerIp: string;
   /**
   * Admin status for the BGP session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#enabled FabricRoutingProtocol#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#enabled FabricRoutingProtocol#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Inbound Multi Exit Discriminator attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#inbound_med FabricRoutingProtocol#inbound_med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#inbound_med FabricRoutingProtocol#inbound_med}
   */
   readonly inboundMed?: number;
   /**
   * AS path prepend count. One of: 0, 1, 3, 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#outbound_as_prepend_count FabricRoutingProtocol#outbound_as_prepend_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#outbound_as_prepend_count FabricRoutingProtocol#outbound_as_prepend_count}
   */
   readonly outboundAsPrependCount?: string;
   /**
   * Outbound Multi Exit Discriminator attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#outbound_med FabricRoutingProtocol#outbound_med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#outbound_med FabricRoutingProtocol#outbound_med}
   */
   readonly outboundMed?: number;
 }
@@ -985,31 +985,31 @@ export interface FabricRoutingProtocolBgpIpv6 {
   /**
   * Customer side peering ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#customer_peer_ip FabricRoutingProtocol#customer_peer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#customer_peer_ip FabricRoutingProtocol#customer_peer_ip}
   */
   readonly customerPeerIp: string;
   /**
   * Admin status for the BGP session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#enabled FabricRoutingProtocol#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#enabled FabricRoutingProtocol#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Inbound Multi Exit Discriminator attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#inbound_med FabricRoutingProtocol#inbound_med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#inbound_med FabricRoutingProtocol#inbound_med}
   */
   readonly inboundMed?: number;
   /**
   * AS path prepend count. One of: 0, 1, 3, 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#outbound_as_prepend_count FabricRoutingProtocol#outbound_as_prepend_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#outbound_as_prepend_count FabricRoutingProtocol#outbound_as_prepend_count}
   */
   readonly outboundAsPrependCount?: string;
   /**
   * Outbound Multi Exit Discriminator attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#outbound_med FabricRoutingProtocol#outbound_med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#outbound_med FabricRoutingProtocol#outbound_med}
   */
   readonly outboundMed?: number;
 }
@@ -1245,7 +1245,7 @@ export interface FabricRoutingProtocolDirectIpv4 {
   /**
   * Equinix side Interface IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#equinix_iface_ip FabricRoutingProtocol#equinix_iface_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#equinix_iface_ip FabricRoutingProtocol#equinix_iface_ip}
   */
   readonly equinixIfaceIp: string;
 }
@@ -1362,7 +1362,7 @@ export interface FabricRoutingProtocolDirectIpv6 {
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#equinix_iface_ip FabricRoutingProtocol#equinix_iface_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#equinix_iface_ip FabricRoutingProtocol#equinix_iface_ip}
   */
   readonly equinixIfaceIp?: string;
 }
@@ -1478,19 +1478,19 @@ export class FabricRoutingProtocolDirectIpv6List extends cdktf.ComplexList {
 }
 export interface FabricRoutingProtocolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#create FabricRoutingProtocol#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#create FabricRoutingProtocol#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#delete FabricRoutingProtocol#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#delete FabricRoutingProtocol#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#read FabricRoutingProtocol#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#read FabricRoutingProtocol#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#update FabricRoutingProtocol#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#update FabricRoutingProtocol#update}
   */
   readonly update?: string;
 }
@@ -1671,7 +1671,7 @@ export class FabricRoutingProtocolTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol equinix_fabric_routing_protocol}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol equinix_fabric_routing_protocol}
 */
 export class FabricRoutingProtocol extends cdktf.TerraformResource {
 
@@ -1687,7 +1687,7 @@ export class FabricRoutingProtocol extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricRoutingProtocol resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricRoutingProtocol to import
-  * @param importFromId The id of the existing FabricRoutingProtocol that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricRoutingProtocol that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricRoutingProtocol to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1699,7 +1699,7 @@ export class FabricRoutingProtocol extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_routing_protocol equinix_fabric_routing_protocol} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_routing_protocol equinix_fabric_routing_protocol} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1710,8 +1710,8 @@ export class FabricRoutingProtocol extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_fabric_routing_protocol',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.10.0',
-        providerVersionConstraint: '4.10.0'
+        providerVersion: '4.11.0',
+        providerVersionConstraint: '4.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

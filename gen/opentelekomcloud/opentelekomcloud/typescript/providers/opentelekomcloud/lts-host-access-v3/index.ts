@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface LtsHostAccessV3Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#binary_collect LtsHostAccessV3#binary_collect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#binary_collect LtsHostAccessV3#binary_collect}
   */
   readonly binaryCollect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#host_group_ids LtsHostAccessV3#host_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#host_group_ids LtsHostAccessV3#host_group_ids}
   */
   readonly hostGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#id LtsHostAccessV3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#id LtsHostAccessV3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#log_group_id LtsHostAccessV3#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#log_group_id LtsHostAccessV3#log_group_id}
   */
   readonly logGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#log_split LtsHostAccessV3#log_split}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#log_split LtsHostAccessV3#log_split}
   */
   readonly logSplit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#log_stream_id LtsHostAccessV3#log_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#log_stream_id LtsHostAccessV3#log_stream_id}
   */
   readonly logStreamId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#name LtsHostAccessV3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#name LtsHostAccessV3#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#tags LtsHostAccessV3#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#tags LtsHostAccessV3#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#access_config LtsHostAccessV3#access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#access_config LtsHostAccessV3#access_config}
   */
   readonly accessConfig: LtsHostAccessV3AccessConfig;
 }
 export interface LtsHostAccessV3AccessConfigMultiLogFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#mode LtsHostAccessV3#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#mode LtsHostAccessV3#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#value LtsHostAccessV3#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#value LtsHostAccessV3#value}
   */
   readonly value?: string;
 }
@@ -165,11 +165,11 @@ export class LtsHostAccessV3AccessConfigMultiLogFormatOutputReference extends cd
 }
 export interface LtsHostAccessV3AccessConfigSingleLogFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#mode LtsHostAccessV3#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#mode LtsHostAccessV3#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#value LtsHostAccessV3#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#value LtsHostAccessV3#value}
   */
   readonly value?: string;
 }
@@ -279,19 +279,19 @@ export class LtsHostAccessV3AccessConfigSingleLogFormatOutputReference extends c
 }
 export interface LtsHostAccessV3AccessConfigWindowsLogInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#categories LtsHostAccessV3#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#categories LtsHostAccessV3#categories}
   */
   readonly categories: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#event_level LtsHostAccessV3#event_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#event_level LtsHostAccessV3#event_level}
   */
   readonly eventLevel: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#time_offset LtsHostAccessV3#time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#time_offset LtsHostAccessV3#time_offset}
   */
   readonly timeOffset: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#time_offset_unit LtsHostAccessV3#time_offset_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#time_offset_unit LtsHostAccessV3#time_offset_unit}
   */
   readonly timeOffsetUnit: string;
 }
@@ -450,29 +450,29 @@ export class LtsHostAccessV3AccessConfigWindowsLogInfoOutputReference extends cd
 }
 export interface LtsHostAccessV3AccessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#black_paths LtsHostAccessV3#black_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#black_paths LtsHostAccessV3#black_paths}
   */
   readonly blackPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#paths LtsHostAccessV3#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#paths LtsHostAccessV3#paths}
   */
   readonly paths: string[];
   /**
   * multi_log_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#multi_log_format LtsHostAccessV3#multi_log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#multi_log_format LtsHostAccessV3#multi_log_format}
   */
   readonly multiLogFormat?: LtsHostAccessV3AccessConfigMultiLogFormat;
   /**
   * single_log_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#single_log_format LtsHostAccessV3#single_log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#single_log_format LtsHostAccessV3#single_log_format}
   */
   readonly singleLogFormat?: LtsHostAccessV3AccessConfigSingleLogFormat;
   /**
   * windows_log_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#windows_log_info LtsHostAccessV3#windows_log_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#windows_log_info LtsHostAccessV3#windows_log_info}
   */
   readonly windowsLogInfo?: LtsHostAccessV3AccessConfigWindowsLogInfo;
 }
@@ -669,7 +669,7 @@ export class LtsHostAccessV3AccessConfigOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3 opentelekomcloud_lts_host_access_v3}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3 opentelekomcloud_lts_host_access_v3}
 */
 export class LtsHostAccessV3 extends cdktf.TerraformResource {
 
@@ -685,7 +685,7 @@ export class LtsHostAccessV3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LtsHostAccessV3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LtsHostAccessV3 to import
-  * @param importFromId The id of the existing LtsHostAccessV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LtsHostAccessV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LtsHostAccessV3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -697,7 +697,7 @@ export class LtsHostAccessV3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/lts_host_access_v3 opentelekomcloud_lts_host_access_v3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_host_access_v3 opentelekomcloud_lts_host_access_v3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -708,8 +708,8 @@ export class LtsHostAccessV3 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_lts_host_access_v3',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52',
-        providerVersionConstraint: '1.36.52'
+        providerVersion: '1.36.53',
+        providerVersionConstraint: '1.36.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface NgwafWorkspaceRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#description NgwafWorkspaceRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#description NgwafWorkspaceRule#description}
   */
   readonly description: string;
   /**
   * Whether the rule is currently enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#enabled NgwafWorkspaceRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#enabled NgwafWorkspaceRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Logical operator to apply to group conditions. Accepted values are `any` and `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#group_operator NgwafWorkspaceRule#group_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#group_operator NgwafWorkspaceRule#group_operator}
   */
   readonly groupOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#id NgwafWorkspaceRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#id NgwafWorkspaceRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface NgwafWorkspaceRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Logging behavior for matching requests. Accepted values are `sampled` and `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#request_logging NgwafWorkspaceRule#request_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#request_logging NgwafWorkspaceRule#request_logging}
   */
   readonly requestLogging?: string;
   /**
   * The type of the rule. Accepted values are `request`, `signal`, `rate_limit`, and `templated_signal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#type NgwafWorkspaceRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#type NgwafWorkspaceRule#type}
   */
   readonly type: string;
   /**
   * The ID of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#workspace_id NgwafWorkspaceRule#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#workspace_id NgwafWorkspaceRule#workspace_id}
   */
   readonly workspaceId: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#action NgwafWorkspaceRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#action NgwafWorkspaceRule#action}
   */
   readonly action: NgwafWorkspaceRuleAction[] | cdktf.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#condition NgwafWorkspaceRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#condition NgwafWorkspaceRule#condition}
   */
   readonly condition?: NgwafWorkspaceRuleCondition[] | cdktf.IResolvable;
   /**
   * group_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#group_condition NgwafWorkspaceRule#group_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#group_condition NgwafWorkspaceRule#group_condition}
   */
   readonly groupCondition?: NgwafWorkspaceRuleGroupCondition[] | cdktf.IResolvable;
   /**
   * multival_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#multival_condition NgwafWorkspaceRule#multival_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#multival_condition NgwafWorkspaceRule#multival_condition}
   */
   readonly multivalCondition?: NgwafWorkspaceRuleMultivalCondition[] | cdktf.IResolvable;
   /**
   * rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#rate_limit NgwafWorkspaceRule#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#rate_limit NgwafWorkspaceRule#rate_limit}
   */
   readonly rateLimit?: NgwafWorkspaceRuleRateLimit;
 }
@@ -85,37 +85,37 @@ export interface NgwafWorkspaceRuleAction {
   /**
   * Specifies if interaction is allowed (used when `type = browser_challenge`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#allow_interactive NgwafWorkspaceRule#allow_interactive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#allow_interactive NgwafWorkspaceRule#allow_interactive}
   */
   readonly allowInteractive?: boolean | cdktf.IResolvable;
   /**
   * specifies the type of deception (used when `type = deception`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#deception_type NgwafWorkspaceRule#deception_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#deception_type NgwafWorkspaceRule#deception_type}
   */
   readonly deceptionType?: string;
   /**
   * Redirect target (used when `type = redirect`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#redirect_url NgwafWorkspaceRule#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#redirect_url NgwafWorkspaceRule#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
   * Response code used with redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#response_code NgwafWorkspaceRule#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#response_code NgwafWorkspaceRule#response_code}
   */
   readonly responseCode?: number;
   /**
   * Signal name to exclude (used when `type = exclude_signal`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#signal NgwafWorkspaceRule#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#signal NgwafWorkspaceRule#signal}
   */
   readonly signal?: string;
   /**
   * The action type. One of: `add_signal`, `allow`, `block`, `browser_challenge`, `dynamic_challenge`, `exclude_signal`, `verify_token` or for rate limit rule valid values: `log_request`, `block_signal`, `browser_challenge`, `verify_token`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#type NgwafWorkspaceRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#type NgwafWorkspaceRule#type}
   */
   readonly type: string;
 }
@@ -375,19 +375,19 @@ export interface NgwafWorkspaceRuleCondition {
   /**
   * Field to inspect (e.g., `ip`, `path`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#field NgwafWorkspaceRule#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#field NgwafWorkspaceRule#field}
   */
   readonly field: string;
   /**
   * Operator to apply (e.g., `equals`, `contains`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#operator NgwafWorkspaceRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#operator NgwafWorkspaceRule#operator}
   */
   readonly operator: string;
   /**
   * The value to test the field against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#value NgwafWorkspaceRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#value NgwafWorkspaceRule#value}
   */
   readonly value: string;
 }
@@ -554,19 +554,19 @@ export interface NgwafWorkspaceRuleGroupConditionCondition {
   /**
   * Field to inspect (e.g., `ip`, `path`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#field NgwafWorkspaceRule#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#field NgwafWorkspaceRule#field}
   */
   readonly field: string;
   /**
   * Operator to apply (e.g., `equals`, `contains`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#operator NgwafWorkspaceRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#operator NgwafWorkspaceRule#operator}
   */
   readonly operator: string;
   /**
   * The value to test the field against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#value NgwafWorkspaceRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#value NgwafWorkspaceRule#value}
   */
   readonly value: string;
 }
@@ -733,13 +733,13 @@ export interface NgwafWorkspaceRuleGroupCondition {
   /**
   * Logical operator for the group. Accepted values are `any` and `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#group_operator NgwafWorkspaceRule#group_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#group_operator NgwafWorkspaceRule#group_operator}
   */
   readonly groupOperator: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#condition NgwafWorkspaceRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#condition NgwafWorkspaceRule#condition}
   */
   readonly condition: NgwafWorkspaceRuleGroupConditionCondition[] | cdktf.IResolvable;
 }
@@ -880,19 +880,19 @@ export interface NgwafWorkspaceRuleMultivalConditionCondition {
   /**
   * Field to inspect (e.g., `name`, `value`, `signal_id`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#field NgwafWorkspaceRule#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#field NgwafWorkspaceRule#field}
   */
   readonly field: string;
   /**
   * Operator to apply (e.g., `equals`, `contains`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#operator NgwafWorkspaceRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#operator NgwafWorkspaceRule#operator}
   */
   readonly operator: string;
   /**
   * The value to test the field against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#value NgwafWorkspaceRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#value NgwafWorkspaceRule#value}
   */
   readonly value: string;
 }
@@ -1059,25 +1059,25 @@ export interface NgwafWorkspaceRuleMultivalCondition {
   /**
   * Enums for multival condition field.. Accepted values are `post_parameter`, `query_parameter`, `request_cookie`, `request_header`, `response_header`, and `signal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#field NgwafWorkspaceRule#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#field NgwafWorkspaceRule#field}
   */
   readonly field: string;
   /**
   * Logical operator for the group. Accepted values are `any` and `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#group_operator NgwafWorkspaceRule#group_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#group_operator NgwafWorkspaceRule#group_operator}
   */
   readonly groupOperator: string;
   /**
   * Indicates whether the supplied conditions will check for existence or non-existence of matching field values. Accepted values are `exists` and `does_not_exist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#operator NgwafWorkspaceRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#operator NgwafWorkspaceRule#operator}
   */
   readonly operator: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#condition NgwafWorkspaceRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#condition NgwafWorkspaceRule#condition}
   */
   readonly condition: NgwafWorkspaceRuleMultivalConditionCondition[] | cdktf.IResolvable;
 }
@@ -1270,19 +1270,19 @@ export interface NgwafWorkspaceRuleRateLimitClientIdentifiers {
   /**
   * Key for the Client Identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#key NgwafWorkspaceRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#key NgwafWorkspaceRule#key}
   */
   readonly key?: string;
   /**
   * Name for the Client Identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#name NgwafWorkspaceRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#name NgwafWorkspaceRule#name}
   */
   readonly name?: string;
   /**
   * Type of the Client Identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#type NgwafWorkspaceRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#type NgwafWorkspaceRule#type}
   */
   readonly type: string;
 }
@@ -1455,31 +1455,31 @@ export interface NgwafWorkspaceRuleRateLimit {
   /**
   * Duration in seconds for the rate limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#duration NgwafWorkspaceRule#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#duration NgwafWorkspaceRule#duration}
   */
   readonly duration: number;
   /**
   * Time interval for the rate limit in seconds. Accepted values are 60, 600, and 3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#interval NgwafWorkspaceRule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#interval NgwafWorkspaceRule#interval}
   */
   readonly interval: number;
   /**
   * Reference ID of the custom signal this rule uses to count requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#signal NgwafWorkspaceRule#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#signal NgwafWorkspaceRule#signal}
   */
   readonly signal: string;
   /**
   * Rate limit threshold. Minimum 1 and maximum 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#threshold NgwafWorkspaceRule#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#threshold NgwafWorkspaceRule#threshold}
   */
   readonly threshold: number;
   /**
   * client_identifiers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#client_identifiers NgwafWorkspaceRule#client_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#client_identifiers NgwafWorkspaceRule#client_identifiers}
   */
   readonly clientIdentifiers: NgwafWorkspaceRuleRateLimitClientIdentifiers[] | cdktf.IResolvable;
 }
@@ -1664,7 +1664,7 @@ export class NgwafWorkspaceRuleRateLimitOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule fastly_ngwaf_workspace_rule}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule fastly_ngwaf_workspace_rule}
 */
 export class NgwafWorkspaceRule extends cdktf.TerraformResource {
 
@@ -1680,7 +1680,7 @@ export class NgwafWorkspaceRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NgwafWorkspaceRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NgwafWorkspaceRule to import
-  * @param importFromId The id of the existing NgwafWorkspaceRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NgwafWorkspaceRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NgwafWorkspaceRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1692,7 +1692,7 @@ export class NgwafWorkspaceRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_workspace_rule fastly_ngwaf_workspace_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_rule fastly_ngwaf_workspace_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1703,8 +1703,8 @@ export class NgwafWorkspaceRule extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_workspace_rule',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_redaction
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_redaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NgwafRedactionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the field that should be redacted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_redaction#field NgwafRedaction#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_redaction#field NgwafRedaction#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_redaction#id NgwafRedaction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_redaction#id NgwafRedaction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface NgwafRedactionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The type of field that is being redacted. Accepted values are `request_parameter`, `request_header`, and `response_header`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_redaction#type NgwafRedaction#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_redaction#type NgwafRedaction#type}
   */
   readonly type: string;
   /**
   * The ID of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_redaction#workspace_id NgwafRedaction#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_redaction#workspace_id NgwafRedaction#workspace_id}
   */
   readonly workspaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_redaction fastly_ngwaf_redaction}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_redaction fastly_ngwaf_redaction}
 */
 export class NgwafRedaction extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class NgwafRedaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NgwafRedaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NgwafRedaction to import
-  * @param importFromId The id of the existing NgwafRedaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_redaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NgwafRedaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_redaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NgwafRedaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class NgwafRedaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/ngwaf_redaction fastly_ngwaf_redaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_redaction fastly_ngwaf_redaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class NgwafRedaction extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_redaction',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

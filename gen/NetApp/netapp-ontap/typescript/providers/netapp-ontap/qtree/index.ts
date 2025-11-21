@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface QtreeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#cx_profile_name Qtree#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#cx_profile_name Qtree#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * The export policy that controls access to the qtree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#export_policy Qtree#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#export_policy Qtree#export_policy}
   */
   readonly exportPolicy?: QtreeExportPolicy;
   /**
   * The user set as owner of the qtree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#group Qtree#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#group Qtree#group}
   */
   readonly group?: QtreeGroup;
   /**
   * StorageQtree name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#name Qtree#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#name Qtree#name}
   */
   readonly name: string;
   /**
   * StorageQtree security style
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#security_style Qtree#security_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#security_style Qtree#security_style}
   */
   readonly securityStyle?: string;
   /**
   * StorageQtree svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#svm_name Qtree#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#svm_name Qtree#svm_name}
   */
   readonly svmName?: string;
   /**
   * The UNIX permissions for the qtree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#unix_permissions Qtree#unix_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#unix_permissions Qtree#unix_permissions}
   */
   readonly unixPermissions?: number;
   /**
   * The user set as owner of the qtree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#user Qtree#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#user Qtree#user}
   */
   readonly user?: QtreeUser;
   /**
   * The volume that contains the qtree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#volume_name Qtree#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#volume_name Qtree#volume_name}
   */
   readonly volumeName: string;
 }
@@ -66,7 +66,7 @@ export interface QtreeExportPolicy {
   /**
   * The UUID of the export policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#id Qtree#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#id Qtree#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ export interface QtreeExportPolicy {
   /**
   * The name of the export policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#name Qtree#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#name Qtree#name}
   */
   readonly name?: string;
 }
@@ -200,7 +200,7 @@ export interface QtreeGroup {
   /**
   * Alphanumeric group name of group that owns the qtree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#name Qtree#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#name Qtree#name}
   */
   readonly name?: string;
 }
@@ -350,7 +350,7 @@ export interface QtreeUser {
   /**
   * Alphanumeric username of user who owns the qtree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#name Qtree#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#name Qtree#name}
   */
   readonly name?: string;
 }
@@ -444,7 +444,7 @@ export class QtreeUserOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree netapp-ontap_qtree}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree netapp-ontap_qtree}
 */
 export class Qtree extends cdktf.TerraformResource {
 
@@ -460,7 +460,7 @@ export class Qtree extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Qtree resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Qtree to import
-  * @param importFromId The id of the existing Qtree that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Qtree that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Qtree to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -472,7 +472,7 @@ export class Qtree extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/qtree netapp-ontap_qtree} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/qtree netapp-ontap_qtree} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -483,8 +483,8 @@ export class Qtree extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_qtree',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ClusterPeersResourceConfig extends cdktf.TerraformMetaArguments
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource#cx_profile_name ClusterPeersResource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource#cx_profile_name ClusterPeersResource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * When true, ONTAP automatically generates a passphrase to authenticate cluster peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource#generate_passphrase ClusterPeersResource#generate_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource#generate_passphrase ClusterPeersResource#generate_passphrase}
   */
   readonly generatePassphrase?: boolean | cdktf.IResolvable;
   /**
   * Name of the peering relationship or name of the remote peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource#name ClusterPeersResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource#name ClusterPeersResource#name}
   */
   readonly name?: string;
   /**
   * User generated passphrase for use in authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource#passphrase ClusterPeersResource#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource#passphrase ClusterPeersResource#passphrase}
   */
   readonly passphrase?: string;
   /**
   * SVM peering applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource#peer_applications ClusterPeersResource#peer_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource#peer_applications ClusterPeersResource#peer_applications}
   */
   readonly peerApplications?: string[];
   /**
   * Peer connection profile name, to be accepted from peer side to make the status OK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource#peer_cx_profile_name ClusterPeersResource#peer_cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource#peer_cx_profile_name ClusterPeersResource#peer_cx_profile_name}
   */
   readonly peerCxProfileName: string;
   /**
   * Remote cluster details for cluster peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource#remote ClusterPeersResource#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource#remote ClusterPeersResource#remote}
   */
   readonly remote: ClusterPeersResourceRemote;
   /**
   * Source cluster details for cluster peer from remote cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource#source_details ClusterPeersResource#source_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource#source_details ClusterPeersResource#source_details}
   */
   readonly sourceDetails: ClusterPeersResourceSourceDetails;
 }
@@ -60,7 +60,7 @@ export interface ClusterPeersResourceRemote {
   /**
   * list of the remote ip addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource#ip_addresses ClusterPeersResource#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource#ip_addresses ClusterPeersResource#ip_addresses}
   */
   readonly ipAddresses: string[];
 }
@@ -153,7 +153,7 @@ export interface ClusterPeersResourceSourceDetails {
   /**
   * list of the source ip addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource#ip_addresses ClusterPeersResource#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource#ip_addresses ClusterPeersResource#ip_addresses}
   */
   readonly ipAddresses: string[];
 }
@@ -244,7 +244,7 @@ export class ClusterPeersResourceSourceDetailsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource netapp-ontap_cluster_peers_resource}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource netapp-ontap_cluster_peers_resource}
 */
 export class ClusterPeersResource extends cdktf.TerraformResource {
 
@@ -260,7 +260,7 @@ export class ClusterPeersResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterPeersResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterPeersResource to import
-  * @param importFromId The id of the existing ClusterPeersResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterPeersResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterPeersResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -272,7 +272,7 @@ export class ClusterPeersResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/cluster_peers_resource netapp-ontap_cluster_peers_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/cluster_peers_resource netapp-ontap_cluster_peers_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -283,8 +283,8 @@ export class ClusterPeersResource extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_cluster_peers_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

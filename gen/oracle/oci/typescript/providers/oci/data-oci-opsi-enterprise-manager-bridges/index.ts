@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_enterprise_manager_bridges
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/opsi_enterprise_manager_bridges
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOpsiEnterpriseManagerBridgesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_enterprise_manager_bridges#compartment_id DataOciOpsiEnterpriseManagerBridges#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/opsi_enterprise_manager_bridges#compartment_id DataOciOpsiEnterpriseManagerBridges#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_enterprise_manager_bridges#compartment_id_in_subtree DataOciOpsiEnterpriseManagerBridges#compartment_id_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/opsi_enterprise_manager_bridges#compartment_id_in_subtree DataOciOpsiEnterpriseManagerBridges#compartment_id_in_subtree}
   */
   readonly compartmentIdInSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_enterprise_manager_bridges#display_name DataOciOpsiEnterpriseManagerBridges#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/opsi_enterprise_manager_bridges#display_name DataOciOpsiEnterpriseManagerBridges#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_enterprise_manager_bridges#id DataOciOpsiEnterpriseManagerBridges#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/opsi_enterprise_manager_bridges#id DataOciOpsiEnterpriseManagerBridges#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_enterprise_manager_bridges#state DataOciOpsiEnterpriseManagerBridges#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/opsi_enterprise_manager_bridges#state DataOciOpsiEnterpriseManagerBridges#state}
   */
   readonly state?: string[];
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_enterprise_manager_bridges#filter DataOciOpsiEnterpriseManagerBridges#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/opsi_enterprise_manager_bridges#filter DataOciOpsiEnterpriseManagerBridges#filter}
   */
   readonly filter?: DataOciOpsiEnterpriseManagerBridgesFilter[] | cdktf.IResolvable;
 }
@@ -258,15 +258,15 @@ export class DataOciOpsiEnterpriseManagerBridgesEnterpriseManagerBridgeCollectio
 }
 export interface DataOciOpsiEnterpriseManagerBridgesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_enterprise_manager_bridges#name DataOciOpsiEnterpriseManagerBridges#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/opsi_enterprise_manager_bridges#name DataOciOpsiEnterpriseManagerBridges#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_enterprise_manager_bridges#regex DataOciOpsiEnterpriseManagerBridges#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/opsi_enterprise_manager_bridges#regex DataOciOpsiEnterpriseManagerBridges#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_enterprise_manager_bridges#values DataOciOpsiEnterpriseManagerBridges#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/opsi_enterprise_manager_bridges#values DataOciOpsiEnterpriseManagerBridges#values}
   */
   readonly values: string[];
 }
@@ -434,7 +434,7 @@ export class DataOciOpsiEnterpriseManagerBridgesFilterList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_enterprise_manager_bridges oci_opsi_enterprise_manager_bridges}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/opsi_enterprise_manager_bridges oci_opsi_enterprise_manager_bridges}
 */
 export class DataOciOpsiEnterpriseManagerBridges extends cdktf.TerraformDataSource {
 
@@ -450,7 +450,7 @@ export class DataOciOpsiEnterpriseManagerBridges extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataOciOpsiEnterpriseManagerBridges resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOpsiEnterpriseManagerBridges to import
-  * @param importFromId The id of the existing DataOciOpsiEnterpriseManagerBridges that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_enterprise_manager_bridges#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOpsiEnterpriseManagerBridges that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/opsi_enterprise_manager_bridges#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOpsiEnterpriseManagerBridges to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -462,7 +462,7 @@ export class DataOciOpsiEnterpriseManagerBridges extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_enterprise_manager_bridges oci_opsi_enterprise_manager_bridges} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/opsi_enterprise_manager_bridges oci_opsi_enterprise_manager_bridges} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -473,8 +473,8 @@ export class DataOciOpsiEnterpriseManagerBridges extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_opsi_enterprise_manager_bridges',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

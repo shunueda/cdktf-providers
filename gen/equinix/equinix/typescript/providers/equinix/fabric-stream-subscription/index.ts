@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription
+// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface FabricStreamSubscriptionConfig extends cdktf.TerraformMetaArgum
   /**
   * Customer-provided stream subscription description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#description FabricStreamSubscription#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#description FabricStreamSubscription#description}
   */
   readonly description: string;
   /**
   * Stream subscription enabled status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#enabled FabricStreamSubscription#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#enabled FabricStreamSubscription#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Lists of events to be included/excluded on the stream subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#event_selector FabricStreamSubscription#event_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#event_selector FabricStreamSubscription#event_selector}
   */
   readonly eventSelector?: FabricStreamSubscriptionEventSelector;
   /**
   * Lists of metrics to be included/excluded on the stream subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#metric_selector FabricStreamSubscription#metric_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#metric_selector FabricStreamSubscription#metric_selector}
   */
   readonly metricSelector?: FabricStreamSubscriptionMetricSelector;
   /**
   * Customer-provided stream subscription name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#name FabricStreamSubscription#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#name FabricStreamSubscription#name}
   */
   readonly name: string;
   /**
   * The details of the subscriber to the Equinix Stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#sink FabricStreamSubscription#sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#sink FabricStreamSubscription#sink}
   */
   readonly sink: FabricStreamSubscriptionSink;
   /**
   * The uuid of the stream that is the target of the stream subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#stream_id FabricStreamSubscription#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#stream_id FabricStreamSubscription#stream_id}
   */
   readonly streamId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#timeouts FabricStreamSubscription#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#timeouts FabricStreamSubscription#timeouts}
   */
   readonly timeouts?: FabricStreamSubscriptionTimeouts;
   /**
   * Type of the stream subscription request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#type FabricStreamSubscription#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#type FabricStreamSubscription#type}
   */
   readonly type: string;
 }
@@ -173,13 +173,13 @@ export interface FabricStreamSubscriptionEventSelector {
   /**
   * List of events to exclude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#except FabricStreamSubscription#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#except FabricStreamSubscription#except}
   */
   readonly except?: string[];
   /**
   * List of events to include
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#include FabricStreamSubscription#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#include FabricStreamSubscription#include}
   */
   readonly include: string[];
 }
@@ -301,13 +301,13 @@ export interface FabricStreamSubscriptionMetricSelector {
   /**
   * List of metrics to exclude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#except FabricStreamSubscription#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#except FabricStreamSubscription#except}
   */
   readonly except?: string[];
   /**
   * List of metrics to include
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#include FabricStreamSubscription#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#include FabricStreamSubscription#include}
   */
   readonly include: string[];
 }
@@ -429,37 +429,37 @@ export interface FabricStreamSubscriptionSinkCredential {
   /**
   * Passed as Authorization header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#access_token FabricStreamSubscription#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#access_token FabricStreamSubscription#access_token}
   */
   readonly accessToken?: string;
   /**
   * Passed as Authorization header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#api_key FabricStreamSubscription#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#api_key FabricStreamSubscription#api_key}
   */
   readonly apiKey?: string;
   /**
   * Passed as Authorization header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#integration_key FabricStreamSubscription#integration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#integration_key FabricStreamSubscription#integration_key}
   */
   readonly integrationKey?: string;
   /**
   * Passed as Authorization header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#password FabricStreamSubscription#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#password FabricStreamSubscription#password}
   */
   readonly password?: string;
   /**
   * Type of the credential being passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#type FabricStreamSubscription#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#type FabricStreamSubscription#type}
   */
   readonly type: string;
   /**
   * Passed as Authorization header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#username FabricStreamSubscription#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#username FabricStreamSubscription#username}
   */
   readonly username?: string;
 }
@@ -695,31 +695,31 @@ export class FabricStreamSubscriptionSinkCredentialOutputReference extends cdktf
 }
 export interface FabricStreamSubscriptionSinkSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#application_key FabricStreamSubscription#application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#application_key FabricStreamSubscription#application_key}
   */
   readonly applicationKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#event_index FabricStreamSubscription#event_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#event_index FabricStreamSubscription#event_index}
   */
   readonly eventIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#event_uri FabricStreamSubscription#event_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#event_uri FabricStreamSubscription#event_uri}
   */
   readonly eventUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#format FabricStreamSubscription#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#format FabricStreamSubscription#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#metric_index FabricStreamSubscription#metric_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#metric_index FabricStreamSubscription#metric_index}
   */
   readonly metricIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#metric_uri FabricStreamSubscription#metric_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#metric_uri FabricStreamSubscription#metric_uri}
   */
   readonly metricUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#source FabricStreamSubscription#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#source FabricStreamSubscription#source}
   */
   readonly source?: string;
 }
@@ -989,49 +989,49 @@ export interface FabricStreamSubscriptionSink {
   /**
   * Boolean switch enabling batch delivery of data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#batch_enabled FabricStreamSubscription#batch_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#batch_enabled FabricStreamSubscription#batch_enabled}
   */
   readonly batchEnabled?: boolean | cdktf.IResolvable;
   /**
   * Maximum size of the batch delivery if enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#batch_size_max FabricStreamSubscription#batch_size_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#batch_size_max FabricStreamSubscription#batch_size_max}
   */
   readonly batchSizeMax?: number;
   /**
   * Maximum time to wait for batch delivery if enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#batch_wait_time_max FabricStreamSubscription#batch_wait_time_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#batch_wait_time_max FabricStreamSubscription#batch_wait_time_max}
   */
   readonly batchWaitTimeMax?: number;
   /**
   * Access details for the specified sink type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#credential FabricStreamSubscription#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#credential FabricStreamSubscription#credential}
   */
   readonly credential?: FabricStreamSubscriptionSinkCredential;
   /**
   * Known hostname of certain data stream subscription products. Not to be confused with a variable URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#host FabricStreamSubscription#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#host FabricStreamSubscription#host}
   */
   readonly host?: string;
   /**
   * Stream subscription sink settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#settings FabricStreamSubscription#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#settings FabricStreamSubscription#settings}
   */
   readonly settings?: FabricStreamSubscriptionSinkSettings;
   /**
   * Type of the subscriber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#type FabricStreamSubscription#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#type FabricStreamSubscription#type}
   */
   readonly type: string;
   /**
   * Publicly reachable http endpoint destination for data stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#uri FabricStreamSubscription#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#uri FabricStreamSubscription#uri}
   */
   readonly uri?: string;
 }
@@ -1327,25 +1327,25 @@ export interface FabricStreamSubscriptionTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#create FabricStreamSubscription#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#create FabricStreamSubscription#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#delete FabricStreamSubscription#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#delete FabricStreamSubscription#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#read FabricStreamSubscription#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#read FabricStreamSubscription#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#update FabricStreamSubscription#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#update FabricStreamSubscription#update}
   */
   readonly update?: string;
 }
@@ -1526,7 +1526,7 @@ export class FabricStreamSubscriptionTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription equinix_fabric_stream_subscription}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription equinix_fabric_stream_subscription}
 */
 export class FabricStreamSubscription extends cdktf.TerraformResource {
 
@@ -1542,7 +1542,7 @@ export class FabricStreamSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricStreamSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricStreamSubscription to import
-  * @param importFromId The id of the existing FabricStreamSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricStreamSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricStreamSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1554,7 +1554,7 @@ export class FabricStreamSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_subscription equinix_fabric_stream_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_stream_subscription equinix_fabric_stream_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1565,8 +1565,8 @@ export class FabricStreamSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_fabric_stream_subscription',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.10.0',
-        providerVersionConstraint: '4.10.0'
+        providerVersion: '4.11.0',
+        providerVersionConstraint: '4.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

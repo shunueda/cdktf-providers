@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/child_site_management_policy
+// https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/child_site_management_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ChildSiteManagementPolicyConfig extends cdktf.TerraformMetaArgu
   /**
   * Description for this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/child_site_management_policy#description ChildSiteManagementPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/child_site_management_policy#description ChildSiteManagementPolicy#description}
   */
   readonly description?: string;
   /**
   * Name for this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/child_site_management_policy#name ChildSiteManagementPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/child_site_management_policy#name ChildSiteManagementPolicy#name}
   */
   readonly name?: string;
   /**
   * Type of policy.  Valid values: `settings`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/child_site_management_policy#policy_type ChildSiteManagementPolicy#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/child_site_management_policy#policy_type ChildSiteManagementPolicy#policy_type}
   */
   readonly policyType: string;
   /**
   * IDs of child sites that this policy has been exempted from. If `skip_child_site_ids` is empty, the policy will be applied to all child sites. To apply a policy to a child site that has been exempted, remove it from `skip_child_site_ids` or set it to an empty array (`[]`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/child_site_management_policy#skip_child_site_ids ChildSiteManagementPolicy#skip_child_site_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/child_site_management_policy#skip_child_site_ids ChildSiteManagementPolicy#skip_child_site_ids}
   */
   readonly skipChildSiteIds?: number[];
   /**
   * Policy configuration data. Attributes differ by policy type. For more information, refer to the Value Hash section of the developer documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/child_site_management_policy#value ChildSiteManagementPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/child_site_management_policy#value ChildSiteManagementPolicy#value}
   */
   readonly value?: { [key: string]: any };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/child_site_management_policy files_child_site_management_policy}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/child_site_management_policy files_child_site_management_policy}
 */
 export class ChildSiteManagementPolicy extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class ChildSiteManagementPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ChildSiteManagementPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChildSiteManagementPolicy to import
-  * @param importFromId The id of the existing ChildSiteManagementPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/child_site_management_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChildSiteManagementPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/child_site_management_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChildSiteManagementPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class ChildSiteManagementPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/child_site_management_policy files_child_site_management_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/child_site_management_policy files_child_site_management_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class ChildSiteManagementPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'files_child_site_management_policy',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.391',
-        providerVersionConstraint: '0.1.391'
+        providerVersion: '0.1.392',
+        providerVersionConstraint: '0.1.392'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

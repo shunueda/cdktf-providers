@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement
+// https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ProjectEnforcementConfig extends cdktf.TerraformMetaArguments {
   /**
   * Type of the amount. Valid values are 'custom', 'last_month'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#amount_type ProjectEnforcement#amount_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#amount_type ProjectEnforcement#amount_type}
   */
   readonly amountType?: string;
   /**
   * Defines a Cloud Rule ID associated with the enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#cloud_rule_id ProjectEnforcement#cloud_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#cloud_rule_id ProjectEnforcement#cloud_rule_id}
   */
   readonly cloudRuleId?: number;
   /**
   * Optional, user-provided description of the enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#description ProjectEnforcement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#description ProjectEnforcement#description}
   */
   readonly description?: string;
   /**
   * Flag that specifies if the enforcement is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#enabled ProjectEnforcement#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#enabled ProjectEnforcement#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#id ProjectEnforcement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#id ProjectEnforcement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,67 +41,67 @@ export interface ProjectEnforcementConfig extends cdktf.TerraformMetaArguments {
   /**
   * Frequency at which notifications are sent for this enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#notification_frequency ProjectEnforcement#notification_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#notification_frequency ProjectEnforcement#notification_frequency}
   */
   readonly notificationFrequency?: string;
   /**
   * Flag that specifies if enforcement will place project in an overburn state when triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#overburn ProjectEnforcement#overburn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#overburn ProjectEnforcement#overburn}
   */
   readonly overburn?: boolean | cdktf.IResolvable;
   /**
   * ID of the project under enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#project_id ProjectEnforcement#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#project_id ProjectEnforcement#project_id}
   */
   readonly projectId: number;
   /**
   * ID of the service related to the enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#service_id ProjectEnforcement#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#service_id ProjectEnforcement#service_id}
   */
   readonly serviceId?: number;
   /**
   * Type of spend option. Valid values are 'spend', 'remaining'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#spend_option ProjectEnforcement#spend_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#spend_option ProjectEnforcement#spend_option}
   */
   readonly spendOption?: string;
   /**
   * Threshold value. Either a dollar amount or a percentage, depending on the threshold type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#threshold ProjectEnforcement#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#threshold ProjectEnforcement#threshold}
   */
   readonly threshold: number;
   /**
   * Type of the threshold value. Valid values are 'dollar', 'percent'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#threshold_type ProjectEnforcement#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#threshold_type ProjectEnforcement#threshold_type}
   */
   readonly thresholdType?: string;
   /**
   * Timeframe of the enforcement. Valid values are 'lifetime', 'month', 'year', 'funding_source'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#timeframe ProjectEnforcement#timeframe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#timeframe ProjectEnforcement#timeframe}
   */
   readonly timeframe: string;
   /**
   * List of user group IDs that will receive notifications from the enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#user_group_ids ProjectEnforcement#user_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#user_group_ids ProjectEnforcement#user_group_ids}
   */
   readonly userGroupIds?: number[];
   /**
   * List of user IDs that will receive notifications from the enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#user_ids ProjectEnforcement#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#user_ids ProjectEnforcement#user_ids}
   */
   readonly userIds?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement kion_project_enforcement}
+* Represents a {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement kion_project_enforcement}
 */
 export class ProjectEnforcement extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class ProjectEnforcement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectEnforcement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectEnforcement to import
-  * @param importFromId The id of the existing ProjectEnforcement that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectEnforcement that should be imported. Refer to the {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectEnforcement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class ProjectEnforcement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.29/docs/resources/project_enforcement kion_project_enforcement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kionsoftware/kion/0.3.30/docs/resources/project_enforcement kion_project_enforcement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class ProjectEnforcement extends cdktf.TerraformResource {
       terraformResourceType: 'kion_project_enforcement',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29',
-        providerVersionConstraint: '0.3.29'
+        providerVersion: '0.3.30',
+        providerVersionConstraint: '0.3.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

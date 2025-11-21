@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SvmPeerConfig extends cdktf.TerraformMetaArguments {
   /**
   * SVMPeering applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer#applications SvmPeer#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer#applications SvmPeer#applications}
   */
   readonly applications: string[];
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer#cx_profile_name SvmPeer#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer#cx_profile_name SvmPeer#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * Peer details for SVMPeer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer#peer SvmPeer#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer#peer SvmPeer#peer}
   */
   readonly peer: SvmPeerPeer;
   /**
   * SVM details for SVMPeer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer#svm SvmPeer#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer#svm SvmPeer#svm}
   */
   readonly svm: SvmPeerSvm;
 }
@@ -36,7 +36,7 @@ export interface SvmPeerPeerCluster {
   /**
   * name of the peer Cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer#name SvmPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer#name SvmPeer#name}
   */
   readonly name: string;
 }
@@ -129,7 +129,7 @@ export interface SvmPeerPeerSvm {
   /**
   * name of the peer SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer#name SvmPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer#name SvmPeer#name}
   */
   readonly name: string;
 }
@@ -222,19 +222,19 @@ export interface SvmPeerPeer {
   /**
   * peer Cluster details for SVMPeer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer#cluster SvmPeer#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer#cluster SvmPeer#cluster}
   */
   readonly cluster: SvmPeerPeerCluster;
   /**
   * Peer connection profile name, if not provided, status will be only initiated and need to be accepted from peer side to make the status peered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer#peer_cx_profile_name SvmPeer#peer_cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer#peer_cx_profile_name SvmPeer#peer_cx_profile_name}
   */
   readonly peerCxProfileName?: string;
   /**
   * peer SVM details for SVMPeer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer#svm SvmPeer#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer#svm SvmPeer#svm}
   */
   readonly svm: SvmPeerPeerSvm;
 }
@@ -382,7 +382,7 @@ export interface SvmPeerSvm {
   /**
   * name of the SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer#name SvmPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer#name SvmPeer#name}
   */
   readonly name: string;
 }
@@ -473,7 +473,7 @@ export class SvmPeerSvmOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer netapp-ontap_svm_peer}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer netapp-ontap_svm_peer}
 */
 export class SvmPeer extends cdktf.TerraformResource {
 
@@ -489,7 +489,7 @@ export class SvmPeer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SvmPeer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SvmPeer to import
-  * @param importFromId The id of the existing SvmPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SvmPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SvmPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -501,7 +501,7 @@ export class SvmPeer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peer netapp-ontap_svm_peer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/svm_peer netapp-ontap_svm_peer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -512,8 +512,8 @@ export class SvmPeer extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_svm_peer',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

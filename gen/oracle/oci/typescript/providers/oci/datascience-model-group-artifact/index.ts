@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model_group_artifact
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group_artifact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DatascienceModelGroupArtifactConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model_group_artifact#content_disposition DatascienceModelGroupArtifact#content_disposition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group_artifact#content_disposition DatascienceModelGroupArtifact#content_disposition}
   */
   readonly contentDisposition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model_group_artifact#content_length DatascienceModelGroupArtifact#content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group_artifact#content_length DatascienceModelGroupArtifact#content_length}
   */
   readonly contentLength: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model_group_artifact#id DatascienceModelGroupArtifact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group_artifact#id DatascienceModelGroupArtifact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model_group_artifact#model_group_artifact DatascienceModelGroupArtifact#model_group_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group_artifact#model_group_artifact DatascienceModelGroupArtifact#model_group_artifact}
   */
   readonly modelGroupArtifact: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model_group_artifact#model_group_id DatascienceModelGroupArtifact#model_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group_artifact#model_group_id DatascienceModelGroupArtifact#model_group_id}
   */
   readonly modelGroupId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model_group_artifact#timeouts DatascienceModelGroupArtifact#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group_artifact#timeouts DatascienceModelGroupArtifact#timeouts}
   */
   readonly timeouts?: DatascienceModelGroupArtifactTimeouts;
 }
 export interface DatascienceModelGroupArtifactTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model_group_artifact#create DatascienceModelGroupArtifact#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group_artifact#create DatascienceModelGroupArtifact#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model_group_artifact#delete DatascienceModelGroupArtifact#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group_artifact#delete DatascienceModelGroupArtifact#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model_group_artifact#update DatascienceModelGroupArtifact#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group_artifact#update DatascienceModelGroupArtifact#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class DatascienceModelGroupArtifactTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model_group_artifact oci_datascience_model_group_artifact}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group_artifact oci_datascience_model_group_artifact}
 */
 export class DatascienceModelGroupArtifact extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class DatascienceModelGroupArtifact extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatascienceModelGroupArtifact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatascienceModelGroupArtifact to import
-  * @param importFromId The id of the existing DatascienceModelGroupArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model_group_artifact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatascienceModelGroupArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group_artifact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatascienceModelGroupArtifact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DatascienceModelGroupArtifact extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model_group_artifact oci_datascience_model_group_artifact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group_artifact oci_datascience_model_group_artifact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DatascienceModelGroupArtifact extends cdktf.TerraformResource {
       terraformResourceType: 'oci_datascience_model_group_artifact',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

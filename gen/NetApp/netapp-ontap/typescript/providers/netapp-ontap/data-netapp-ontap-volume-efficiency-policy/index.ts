@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_efficiency_policy
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_efficiency_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNetappOntapVolumeEfficiencyPolicyConfig extends cdktf.Terra
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_efficiency_policy#cx_profile_name DataNetappOntapVolumeEfficiencyPolicy#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_efficiency_policy#cx_profile_name DataNetappOntapVolumeEfficiencyPolicy#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * VolumeEfficiencyPolicy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_efficiency_policy#name DataNetappOntapVolumeEfficiencyPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_efficiency_policy#name DataNetappOntapVolumeEfficiencyPolicy#name}
   */
   readonly name: string;
   /**
   * SVM details for StorageVolumeEfficiencyPolicies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_efficiency_policy#svm DataNetappOntapVolumeEfficiencyPolicy#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_efficiency_policy#svm DataNetappOntapVolumeEfficiencyPolicy#svm}
   */
   readonly svm: DataNetappOntapVolumeEfficiencyPolicySvm;
 }
@@ -84,7 +84,7 @@ export interface DataNetappOntapVolumeEfficiencyPolicySvm {
   /**
   * name of the SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_efficiency_policy#name DataNetappOntapVolumeEfficiencyPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_efficiency_policy#name DataNetappOntapVolumeEfficiencyPolicy#name}
   */
   readonly name: string;
 }
@@ -175,7 +175,7 @@ export class DataNetappOntapVolumeEfficiencyPolicySvmOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_efficiency_policy netapp-ontap_volume_efficiency_policy}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_efficiency_policy netapp-ontap_volume_efficiency_policy}
 */
 export class DataNetappOntapVolumeEfficiencyPolicy extends cdktf.TerraformDataSource {
 
@@ -191,7 +191,7 @@ export class DataNetappOntapVolumeEfficiencyPolicy extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataNetappOntapVolumeEfficiencyPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapVolumeEfficiencyPolicy to import
-  * @param importFromId The id of the existing DataNetappOntapVolumeEfficiencyPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_efficiency_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapVolumeEfficiencyPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_efficiency_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapVolumeEfficiencyPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -203,7 +203,7 @@ export class DataNetappOntapVolumeEfficiencyPolicy extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/volume_efficiency_policy netapp-ontap_volume_efficiency_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/volume_efficiency_policy netapp-ontap_volume_efficiency_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,8 +214,8 @@ export class DataNetappOntapVolumeEfficiencyPolicy extends cdktf.TerraformDataSo
       terraformResourceType: 'netapp-ontap_volume_efficiency_policy',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

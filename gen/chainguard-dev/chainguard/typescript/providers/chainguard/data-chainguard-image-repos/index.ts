@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repos
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repos
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataChainguardImageReposConfig extends cdktf.TerraformMetaArgum
   /**
   * Filter repositories by name (supports partial matching).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repos#name DataChainguardImageRepos#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repos#name DataChainguardImageRepos#name}
   */
   readonly name?: string;
   /**
   * Filter repositories by parent group UIDP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repos#parent_id DataChainguardImageRepos#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repos#parent_id DataChainguardImageRepos#parent_id}
   */
   readonly parentId?: string;
 }
@@ -202,7 +202,7 @@ export class DataChainguardImageReposItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repos chainguard_image_repos}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repos chainguard_image_repos}
 */
 export class DataChainguardImageRepos extends cdktf.TerraformDataSource {
 
@@ -218,7 +218,7 @@ export class DataChainguardImageRepos extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataChainguardImageRepos resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataChainguardImageRepos to import
-  * @param importFromId The id of the existing DataChainguardImageRepos that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repos#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataChainguardImageRepos that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repos#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataChainguardImageRepos to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class DataChainguardImageRepos extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/data-sources/image_repos chainguard_image_repos} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.41/docs/data-sources/image_repos chainguard_image_repos} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class DataChainguardImageRepos extends cdktf.TerraformDataSource {
       terraformResourceType: 'chainguard_image_repos',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.40',
-        providerVersionConstraint: '0.1.40'
+        providerVersion: '0.1.41',
+        providerVersionConstraint: '0.1.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

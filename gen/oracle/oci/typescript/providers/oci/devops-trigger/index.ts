@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface DevopsTriggerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#connection_id DevopsTrigger#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#connection_id DevopsTrigger#connection_id}
   */
   readonly connectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#defined_tags DevopsTrigger#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#defined_tags DevopsTrigger#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#description DevopsTrigger#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#description DevopsTrigger#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#display_name DevopsTrigger#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#display_name DevopsTrigger#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#freeform_tags DevopsTrigger#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#freeform_tags DevopsTrigger#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#id DevopsTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#id DevopsTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#project_id DevopsTrigger#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#project_id DevopsTrigger#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#repository_id DevopsTrigger#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#repository_id DevopsTrigger#repository_id}
   */
   readonly repositoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#trigger_source DevopsTrigger#trigger_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#trigger_source DevopsTrigger#trigger_source}
   */
   readonly triggerSource: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#actions DevopsTrigger#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#actions DevopsTrigger#actions}
   */
   readonly actions: DevopsTriggerActions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#timeouts DevopsTrigger#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#timeouts DevopsTrigger#timeouts}
   */
   readonly timeouts?: DevopsTriggerTimeouts;
 }
 export interface DevopsTriggerActionsFilterExcludeFileFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#file_paths DevopsTrigger#file_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#file_paths DevopsTrigger#file_paths}
   */
   readonly filePaths?: string[];
 }
@@ -147,7 +147,7 @@ export interface DevopsTriggerActionsFilterExclude {
   /**
   * file_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#file_filter DevopsTrigger#file_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#file_filter DevopsTrigger#file_filter}
   */
   readonly fileFilter?: DevopsTriggerActionsFilterExcludeFileFilter;
 }
@@ -231,7 +231,7 @@ export class DevopsTriggerActionsFilterExcludeOutputReference extends cdktf.Comp
 }
 export interface DevopsTriggerActionsFilterIncludeFileFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#file_paths DevopsTrigger#file_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#file_paths DevopsTrigger#file_paths}
   */
   readonly filePaths?: string[];
 }
@@ -315,21 +315,21 @@ export class DevopsTriggerActionsFilterIncludeFileFilterOutputReference extends 
 }
 export interface DevopsTriggerActionsFilterInclude {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#base_ref DevopsTrigger#base_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#base_ref DevopsTrigger#base_ref}
   */
   readonly baseRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#head_ref DevopsTrigger#head_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#head_ref DevopsTrigger#head_ref}
   */
   readonly headRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#repository_name DevopsTrigger#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#repository_name DevopsTrigger#repository_name}
   */
   readonly repositoryName?: string;
   /**
   * file_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#file_filter DevopsTrigger#file_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#file_filter DevopsTrigger#file_filter}
   */
   readonly fileFilter?: DevopsTriggerActionsFilterIncludeFileFilter;
 }
@@ -500,23 +500,23 @@ export class DevopsTriggerActionsFilterIncludeOutputReference extends cdktf.Comp
 }
 export interface DevopsTriggerActionsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#events DevopsTrigger#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#events DevopsTrigger#events}
   */
   readonly events?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#trigger_source DevopsTrigger#trigger_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#trigger_source DevopsTrigger#trigger_source}
   */
   readonly triggerSource: string;
   /**
   * exclude block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#exclude DevopsTrigger#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#exclude DevopsTrigger#exclude}
   */
   readonly exclude?: DevopsTriggerActionsFilterExclude;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#include DevopsTrigger#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#include DevopsTrigger#include}
   */
   readonly include?: DevopsTriggerActionsFilterInclude;
 }
@@ -684,17 +684,17 @@ export class DevopsTriggerActionsFilterOutputReference extends cdktf.ComplexObje
 }
 export interface DevopsTriggerActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#build_pipeline_id DevopsTrigger#build_pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#build_pipeline_id DevopsTrigger#build_pipeline_id}
   */
   readonly buildPipelineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#type DevopsTrigger#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#type DevopsTrigger#type}
   */
   readonly type: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#filter DevopsTrigger#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#filter DevopsTrigger#filter}
   */
   readonly filter?: DevopsTriggerActionsFilter;
 }
@@ -862,15 +862,15 @@ export class DevopsTriggerActionsList extends cdktf.ComplexList {
 }
 export interface DevopsTriggerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#create DevopsTrigger#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#create DevopsTrigger#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#delete DevopsTrigger#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#delete DevopsTrigger#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#update DevopsTrigger#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#update DevopsTrigger#update}
   */
   readonly update?: string;
 }
@@ -1022,7 +1022,7 @@ export class DevopsTriggerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger oci_devops_trigger}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger oci_devops_trigger}
 */
 export class DevopsTrigger extends cdktf.TerraformResource {
 
@@ -1038,7 +1038,7 @@ export class DevopsTrigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DevopsTrigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsTrigger to import
-  * @param importFromId The id of the existing DevopsTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1050,7 +1050,7 @@ export class DevopsTrigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_trigger oci_devops_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_trigger oci_devops_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1061,8 +1061,8 @@ export class DevopsTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'oci_devops_trigger',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

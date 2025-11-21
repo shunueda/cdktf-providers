@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_run_statement
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataflow_run_statement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataflowRunStatementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_run_statement#code DataflowRunStatement#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataflow_run_statement#code DataflowRunStatement#code}
   */
   readonly code: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_run_statement#id DataflowRunStatement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataflow_run_statement#id DataflowRunStatement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_run_statement#run_id DataflowRunStatement#run_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataflow_run_statement#run_id DataflowRunStatement#run_id}
   */
   readonly runId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_run_statement#timeouts DataflowRunStatement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataflow_run_statement#timeouts DataflowRunStatement#timeouts}
   */
   readonly timeouts?: DataflowRunStatementTimeouts;
 }
@@ -207,15 +207,15 @@ export class DataflowRunStatementOutputList extends cdktf.ComplexList {
 }
 export interface DataflowRunStatementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_run_statement#create DataflowRunStatement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataflow_run_statement#create DataflowRunStatement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_run_statement#delete DataflowRunStatement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataflow_run_statement#delete DataflowRunStatement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_run_statement#update DataflowRunStatement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataflow_run_statement#update DataflowRunStatement#update}
   */
   readonly update?: string;
 }
@@ -367,7 +367,7 @@ export class DataflowRunStatementTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_run_statement oci_dataflow_run_statement}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataflow_run_statement oci_dataflow_run_statement}
 */
 export class DataflowRunStatement extends cdktf.TerraformResource {
 
@@ -383,7 +383,7 @@ export class DataflowRunStatement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataflowRunStatement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataflowRunStatement to import
-  * @param importFromId The id of the existing DataflowRunStatement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_run_statement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataflowRunStatement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataflow_run_statement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataflowRunStatement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -395,7 +395,7 @@ export class DataflowRunStatement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_run_statement oci_dataflow_run_statement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dataflow_run_statement oci_dataflow_run_statement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -406,8 +406,8 @@ export class DataflowRunStatement extends cdktf.TerraformResource {
       terraformResourceType: 'oci_dataflow_run_statement',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

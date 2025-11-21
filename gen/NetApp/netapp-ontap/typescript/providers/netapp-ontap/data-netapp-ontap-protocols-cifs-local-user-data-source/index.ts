@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_local_user_data_source
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_local_user_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNetappOntapProtocolsCifsLocalUserDataSourceConfig extends c
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_local_user_data_source#cx_profile_name DataNetappOntapProtocolsCifsLocalUserDataSource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_local_user_data_source#cx_profile_name DataNetappOntapProtocolsCifsLocalUserDataSource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * CifsLocalUser name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_local_user_data_source#name DataNetappOntapProtocolsCifsLocalUserDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_local_user_data_source#name DataNetappOntapProtocolsCifsLocalUserDataSource#name}
   */
   readonly name: string;
   /**
   * IPInterface svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_local_user_data_source#svm_name DataNetappOntapProtocolsCifsLocalUserDataSource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_local_user_data_source#svm_name DataNetappOntapProtocolsCifsLocalUserDataSource#svm_name}
   */
   readonly svmName: string;
 }
@@ -103,7 +103,7 @@ export class DataNetappOntapProtocolsCifsLocalUserDataSourceMembershipList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_local_user_data_source netapp-ontap_protocols_cifs_local_user_data_source}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_local_user_data_source netapp-ontap_protocols_cifs_local_user_data_source}
 */
 export class DataNetappOntapProtocolsCifsLocalUserDataSource extends cdktf.TerraformDataSource {
 
@@ -119,7 +119,7 @@ export class DataNetappOntapProtocolsCifsLocalUserDataSource extends cdktf.Terra
   * Generates CDKTF code for importing a DataNetappOntapProtocolsCifsLocalUserDataSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapProtocolsCifsLocalUserDataSource to import
-  * @param importFromId The id of the existing DataNetappOntapProtocolsCifsLocalUserDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_local_user_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapProtocolsCifsLocalUserDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_local_user_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapProtocolsCifsLocalUserDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +131,7 @@ export class DataNetappOntapProtocolsCifsLocalUserDataSource extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_cifs_local_user_data_source netapp-ontap_protocols_cifs_local_user_data_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_cifs_local_user_data_source netapp-ontap_protocols_cifs_local_user_data_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,8 +142,8 @@ export class DataNetappOntapProtocolsCifsLocalUserDataSource extends cdktf.Terra
       terraformResourceType: 'netapp-ontap_protocols_cifs_local_user_data_source',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

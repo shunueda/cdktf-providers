@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GenerativeAiAgentDataIngestionJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job#compartment_id GenerativeAiAgentDataIngestionJob#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job#compartment_id GenerativeAiAgentDataIngestionJob#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job#data_source_id GenerativeAiAgentDataIngestionJob#data_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job#data_source_id GenerativeAiAgentDataIngestionJob#data_source_id}
   */
   readonly dataSourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job#defined_tags GenerativeAiAgentDataIngestionJob#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job#defined_tags GenerativeAiAgentDataIngestionJob#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job#description GenerativeAiAgentDataIngestionJob#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job#description GenerativeAiAgentDataIngestionJob#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job#display_name GenerativeAiAgentDataIngestionJob#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job#display_name GenerativeAiAgentDataIngestionJob#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job#freeform_tags GenerativeAiAgentDataIngestionJob#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job#freeform_tags GenerativeAiAgentDataIngestionJob#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job#id GenerativeAiAgentDataIngestionJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job#id GenerativeAiAgentDataIngestionJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ export interface GenerativeAiAgentDataIngestionJobConfig extends cdktf.Terraform
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job#timeouts GenerativeAiAgentDataIngestionJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job#timeouts GenerativeAiAgentDataIngestionJob#timeouts}
   */
   readonly timeouts?: GenerativeAiAgentDataIngestionJobTimeouts;
 }
@@ -212,15 +212,15 @@ export class GenerativeAiAgentDataIngestionJobDataIngestionJobTypeList extends c
 }
 export interface GenerativeAiAgentDataIngestionJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job#create GenerativeAiAgentDataIngestionJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job#create GenerativeAiAgentDataIngestionJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job#delete GenerativeAiAgentDataIngestionJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job#delete GenerativeAiAgentDataIngestionJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job#update GenerativeAiAgentDataIngestionJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job#update GenerativeAiAgentDataIngestionJob#update}
   */
   readonly update?: string;
 }
@@ -372,7 +372,7 @@ export class GenerativeAiAgentDataIngestionJobTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job oci_generative_ai_agent_data_ingestion_job}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job oci_generative_ai_agent_data_ingestion_job}
 */
 export class GenerativeAiAgentDataIngestionJob extends cdktf.TerraformResource {
 
@@ -388,7 +388,7 @@ export class GenerativeAiAgentDataIngestionJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GenerativeAiAgentDataIngestionJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GenerativeAiAgentDataIngestionJob to import
-  * @param importFromId The id of the existing GenerativeAiAgentDataIngestionJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GenerativeAiAgentDataIngestionJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GenerativeAiAgentDataIngestionJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -400,7 +400,7 @@ export class GenerativeAiAgentDataIngestionJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_data_ingestion_job oci_generative_ai_agent_data_ingestion_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/generative_ai_agent_data_ingestion_job oci_generative_ai_agent_data_ingestion_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -411,8 +411,8 @@ export class GenerativeAiAgentDataIngestionJob extends cdktf.TerraformResource {
       terraformResourceType: 'oci_generative_ai_agent_data_ingestion_job',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

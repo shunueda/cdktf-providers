@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DmsReassignPartitionsV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#execute_at DmsReassignPartitionsV2#execute_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#execute_at DmsReassignPartitionsV2#execute_at}
   */
   readonly executeAt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#id DmsReassignPartitionsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#id DmsReassignPartitionsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#instance_id DmsReassignPartitionsV2#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#instance_id DmsReassignPartitionsV2#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#is_schedule DmsReassignPartitionsV2#is_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#is_schedule DmsReassignPartitionsV2#is_schedule}
   */
   readonly isSchedule?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#throttle DmsReassignPartitionsV2#throttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#throttle DmsReassignPartitionsV2#throttle}
   */
   readonly throttle?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#time_estimate DmsReassignPartitionsV2#time_estimate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#time_estimate DmsReassignPartitionsV2#time_estimate}
   */
   readonly timeEstimate?: boolean | cdktf.IResolvable;
   /**
   * reassignments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#reassignments DmsReassignPartitionsV2#reassignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#reassignments DmsReassignPartitionsV2#reassignments}
   */
   readonly reassignments: DmsReassignPartitionsV2Reassignments[] | cdktf.IResolvable;
 }
 export interface DmsReassignPartitionsV2ReassignmentsAssignments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#partition DmsReassignPartitionsV2#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#partition DmsReassignPartitionsV2#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#partition_brokers DmsReassignPartitionsV2#partition_brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#partition_brokers DmsReassignPartitionsV2#partition_brokers}
   */
   readonly partitionBrokers?: number[];
 }
@@ -192,21 +192,21 @@ export class DmsReassignPartitionsV2ReassignmentsAssignmentsList extends cdktf.C
 }
 export interface DmsReassignPartitionsV2Reassignments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#brokers DmsReassignPartitionsV2#brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#brokers DmsReassignPartitionsV2#brokers}
   */
   readonly brokers?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#replication_factor DmsReassignPartitionsV2#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#replication_factor DmsReassignPartitionsV2#replication_factor}
   */
   readonly replicationFactor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#topic DmsReassignPartitionsV2#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#topic DmsReassignPartitionsV2#topic}
   */
   readonly topic: string;
   /**
   * assignments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#assignments DmsReassignPartitionsV2#assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#assignments DmsReassignPartitionsV2#assignments}
   */
   readonly assignments?: DmsReassignPartitionsV2ReassignmentsAssignments[] | cdktf.IResolvable;
 }
@@ -406,7 +406,7 @@ export class DmsReassignPartitionsV2ReassignmentsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2 opentelekomcloud_dms_reassign_partitions_v2}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2 opentelekomcloud_dms_reassign_partitions_v2}
 */
 export class DmsReassignPartitionsV2 extends cdktf.TerraformResource {
 
@@ -422,7 +422,7 @@ export class DmsReassignPartitionsV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsReassignPartitionsV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsReassignPartitionsV2 to import
-  * @param importFromId The id of the existing DmsReassignPartitionsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsReassignPartitionsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsReassignPartitionsV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -434,7 +434,7 @@ export class DmsReassignPartitionsV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.52/docs/resources/dms_reassign_partitions_v2 opentelekomcloud_dms_reassign_partitions_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/dms_reassign_partitions_v2 opentelekomcloud_dms_reassign_partitions_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -445,8 +445,8 @@ export class DmsReassignPartitionsV2 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_dms_reassign_partitions_v2',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52',
-        providerVersionConstraint: '1.36.52'
+        providerVersion: '1.36.53',
+        providerVersionConstraint: '1.36.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

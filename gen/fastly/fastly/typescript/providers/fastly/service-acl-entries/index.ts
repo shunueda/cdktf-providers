@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_acl_entries
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_acl_entries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ServiceAclEntriesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the ACL that the items belong to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_acl_entries#acl_id ServiceAclEntries#acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_acl_entries#acl_id ServiceAclEntries#acl_id}
   */
   readonly aclId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_acl_entries#id ServiceAclEntries#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_acl_entries#id ServiceAclEntries#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ServiceAclEntriesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to reapply changes if the state of the entries drifts, i.e. if entries are managed externally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_acl_entries#manage_entries ServiceAclEntries#manage_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_acl_entries#manage_entries ServiceAclEntries#manage_entries}
   */
   readonly manageEntries?: boolean | cdktf.IResolvable;
   /**
   * The ID of the Service that the ACL belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_acl_entries#service_id ServiceAclEntries#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_acl_entries#service_id ServiceAclEntries#service_id}
   */
   readonly serviceId: string;
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_acl_entries#entry ServiceAclEntries#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_acl_entries#entry ServiceAclEntries#entry}
   */
   readonly entry?: ServiceAclEntriesEntry[] | cdktf.IResolvable;
 }
@@ -43,25 +43,25 @@ export interface ServiceAclEntriesEntry {
   /**
   * A personal freeform descriptive note
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_acl_entries#comment ServiceAclEntries#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_acl_entries#comment ServiceAclEntries#comment}
   */
   readonly comment?: string;
   /**
   * An IP address that is the focus for the ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_acl_entries#ip ServiceAclEntries#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_acl_entries#ip ServiceAclEntries#ip}
   */
   readonly ip: string;
   /**
   * A boolean that will negate the match if true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_acl_entries#negated ServiceAclEntries#negated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_acl_entries#negated ServiceAclEntries#negated}
   */
   readonly negated?: boolean | cdktf.IResolvable;
   /**
   * An optional subnet mask applied to the IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_acl_entries#subnet ServiceAclEntries#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_acl_entries#subnet ServiceAclEntries#subnet}
   */
   readonly subnet?: string;
 }
@@ -266,7 +266,7 @@ export class ServiceAclEntriesEntryList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_acl_entries fastly_service_acl_entries}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_acl_entries fastly_service_acl_entries}
 */
 export class ServiceAclEntries extends cdktf.TerraformResource {
 
@@ -282,7 +282,7 @@ export class ServiceAclEntries extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAclEntries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAclEntries to import
-  * @param importFromId The id of the existing ServiceAclEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_acl_entries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAclEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_acl_entries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAclEntries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class ServiceAclEntries extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_acl_entries fastly_service_acl_entries} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_acl_entries fastly_service_acl_entries} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class ServiceAclEntries extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_service_acl_entries',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

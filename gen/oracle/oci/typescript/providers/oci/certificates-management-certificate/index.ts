@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface CertificatesManagementCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#compartment_id CertificatesManagementCertificate#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#compartment_id CertificatesManagementCertificate#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#defined_tags CertificatesManagementCertificate#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#defined_tags CertificatesManagementCertificate#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#description CertificatesManagementCertificate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#description CertificatesManagementCertificate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#freeform_tags CertificatesManagementCertificate#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#freeform_tags CertificatesManagementCertificate#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#id CertificatesManagementCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#id CertificatesManagementCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#name CertificatesManagementCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#name CertificatesManagementCertificate#name}
   */
   readonly name: string;
   /**
   * certificate_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#certificate_config CertificatesManagementCertificate#certificate_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#certificate_config CertificatesManagementCertificate#certificate_config}
   */
   readonly certificateConfig: CertificatesManagementCertificateCertificateConfig;
   /**
   * certificate_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#certificate_rules CertificatesManagementCertificate#certificate_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#certificate_rules CertificatesManagementCertificate#certificate_rules}
   */
   readonly certificateRules?: CertificatesManagementCertificateCertificateRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#timeouts CertificatesManagementCertificate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#timeouts CertificatesManagementCertificate#timeouts}
   */
   readonly timeouts?: CertificatesManagementCertificateTimeouts;
 }
@@ -744,71 +744,71 @@ export class CertificatesManagementCertificateSubjectList extends cdktf.ComplexL
 }
 export interface CertificatesManagementCertificateCertificateConfigSubject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#common_name CertificatesManagementCertificate#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#common_name CertificatesManagementCertificate#common_name}
   */
   readonly commonName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#country CertificatesManagementCertificate#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#country CertificatesManagementCertificate#country}
   */
   readonly country?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#distinguished_name_qualifier CertificatesManagementCertificate#distinguished_name_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#distinguished_name_qualifier CertificatesManagementCertificate#distinguished_name_qualifier}
   */
   readonly distinguishedNameQualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#domain_component CertificatesManagementCertificate#domain_component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#domain_component CertificatesManagementCertificate#domain_component}
   */
   readonly domainComponent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#generation_qualifier CertificatesManagementCertificate#generation_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#generation_qualifier CertificatesManagementCertificate#generation_qualifier}
   */
   readonly generationQualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#given_name CertificatesManagementCertificate#given_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#given_name CertificatesManagementCertificate#given_name}
   */
   readonly givenName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#initials CertificatesManagementCertificate#initials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#initials CertificatesManagementCertificate#initials}
   */
   readonly initials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#locality_name CertificatesManagementCertificate#locality_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#locality_name CertificatesManagementCertificate#locality_name}
   */
   readonly localityName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#organization CertificatesManagementCertificate#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#organization CertificatesManagementCertificate#organization}
   */
   readonly organization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#organizational_unit CertificatesManagementCertificate#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#organizational_unit CertificatesManagementCertificate#organizational_unit}
   */
   readonly organizationalUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#pseudonym CertificatesManagementCertificate#pseudonym}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#pseudonym CertificatesManagementCertificate#pseudonym}
   */
   readonly pseudonym?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#serial_number CertificatesManagementCertificate#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#serial_number CertificatesManagementCertificate#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#state_or_province_name CertificatesManagementCertificate#state_or_province_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#state_or_province_name CertificatesManagementCertificate#state_or_province_name}
   */
   readonly stateOrProvinceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#street CertificatesManagementCertificate#street}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#street CertificatesManagementCertificate#street}
   */
   readonly street?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#surname CertificatesManagementCertificate#surname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#surname CertificatesManagementCertificate#surname}
   */
   readonly surname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#title CertificatesManagementCertificate#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#title CertificatesManagementCertificate#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#user_id CertificatesManagementCertificate#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#user_id CertificatesManagementCertificate#user_id}
   */
   readonly userId?: string;
 }
@@ -1353,11 +1353,11 @@ export class CertificatesManagementCertificateCertificateConfigSubjectOutputRefe
 }
 export interface CertificatesManagementCertificateCertificateConfigSubjectAlternativeNames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#type CertificatesManagementCertificate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#type CertificatesManagementCertificate#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#value CertificatesManagementCertificate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#value CertificatesManagementCertificate#value}
   */
   readonly value: string;
 }
@@ -1496,11 +1496,11 @@ export class CertificatesManagementCertificateCertificateConfigSubjectAlternativ
 }
 export interface CertificatesManagementCertificateCertificateConfigValidity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#time_of_validity_not_after CertificatesManagementCertificate#time_of_validity_not_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#time_of_validity_not_after CertificatesManagementCertificate#time_of_validity_not_after}
   */
   readonly timeOfValidityNotAfter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#time_of_validity_not_before CertificatesManagementCertificate#time_of_validity_not_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#time_of_validity_not_before CertificatesManagementCertificate#time_of_validity_not_before}
   */
   readonly timeOfValidityNotBefore?: string;
 }
@@ -1610,49 +1610,49 @@ export class CertificatesManagementCertificateCertificateConfigValidityOutputRef
 }
 export interface CertificatesManagementCertificateCertificateConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#certificate_profile_type CertificatesManagementCertificate#certificate_profile_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#certificate_profile_type CertificatesManagementCertificate#certificate_profile_type}
   */
   readonly certificateProfileType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#config_type CertificatesManagementCertificate#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#config_type CertificatesManagementCertificate#config_type}
   */
   readonly configType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#csr_pem CertificatesManagementCertificate#csr_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#csr_pem CertificatesManagementCertificate#csr_pem}
   */
   readonly csrPem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#issuer_certificate_authority_id CertificatesManagementCertificate#issuer_certificate_authority_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#issuer_certificate_authority_id CertificatesManagementCertificate#issuer_certificate_authority_id}
   */
   readonly issuerCertificateAuthorityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#key_algorithm CertificatesManagementCertificate#key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#key_algorithm CertificatesManagementCertificate#key_algorithm}
   */
   readonly keyAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#signature_algorithm CertificatesManagementCertificate#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#signature_algorithm CertificatesManagementCertificate#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#version_name CertificatesManagementCertificate#version_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#version_name CertificatesManagementCertificate#version_name}
   */
   readonly versionName?: string;
   /**
   * subject block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#subject CertificatesManagementCertificate#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#subject CertificatesManagementCertificate#subject}
   */
   readonly subject?: CertificatesManagementCertificateCertificateConfigSubject;
   /**
   * subject_alternative_names block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#subject_alternative_names CertificatesManagementCertificate#subject_alternative_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#subject_alternative_names CertificatesManagementCertificate#subject_alternative_names}
   */
   readonly subjectAlternativeNames?: CertificatesManagementCertificateCertificateConfigSubjectAlternativeNames[] | cdktf.IResolvable;
   /**
   * validity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#validity CertificatesManagementCertificate#validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#validity CertificatesManagementCertificate#validity}
   */
   readonly validity?: CertificatesManagementCertificateCertificateConfigValidity;
 }
@@ -1994,15 +1994,15 @@ export class CertificatesManagementCertificateCertificateConfigOutputReference e
 }
 export interface CertificatesManagementCertificateCertificateRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#advance_renewal_period CertificatesManagementCertificate#advance_renewal_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#advance_renewal_period CertificatesManagementCertificate#advance_renewal_period}
   */
   readonly advanceRenewalPeriod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#renewal_interval CertificatesManagementCertificate#renewal_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#renewal_interval CertificatesManagementCertificate#renewal_interval}
   */
   readonly renewalInterval: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#rule_type CertificatesManagementCertificate#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#rule_type CertificatesManagementCertificate#rule_type}
   */
   readonly ruleType: string;
 }
@@ -2167,15 +2167,15 @@ export class CertificatesManagementCertificateCertificateRulesList extends cdktf
 }
 export interface CertificatesManagementCertificateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#create CertificatesManagementCertificate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#create CertificatesManagementCertificate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#delete CertificatesManagementCertificate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#delete CertificatesManagementCertificate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#update CertificatesManagementCertificate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#update CertificatesManagementCertificate#update}
   */
   readonly update?: string;
 }
@@ -2327,7 +2327,7 @@ export class CertificatesManagementCertificateTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate oci_certificates_management_certificate}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate oci_certificates_management_certificate}
 */
 export class CertificatesManagementCertificate extends cdktf.TerraformResource {
 
@@ -2343,7 +2343,7 @@ export class CertificatesManagementCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CertificatesManagementCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificatesManagementCertificate to import
-  * @param importFromId The id of the existing CertificatesManagementCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificatesManagementCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificatesManagementCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2355,7 +2355,7 @@ export class CertificatesManagementCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/certificates_management_certificate oci_certificates_management_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/certificates_management_certificate oci_certificates_management_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2366,8 +2366,8 @@ export class CertificatesManagementCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'oci_certificates_management_certificate',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

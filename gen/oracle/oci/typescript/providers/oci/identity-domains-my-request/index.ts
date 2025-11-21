@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,69 +8,69 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityDomainsMyRequestConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#action IdentityDomainsMyRequest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#action IdentityDomainsMyRequest#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#attribute_sets IdentityDomainsMyRequest#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#attribute_sets IdentityDomainsMyRequest#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#attributes IdentityDomainsMyRequest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#attributes IdentityDomainsMyRequest#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#authorization IdentityDomainsMyRequest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#authorization IdentityDomainsMyRequest#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#idcs_endpoint IdentityDomainsMyRequest#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#idcs_endpoint IdentityDomainsMyRequest#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#justification IdentityDomainsMyRequest#justification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#justification IdentityDomainsMyRequest#justification}
   */
   readonly justification: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#ocid IdentityDomainsMyRequest#ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#ocid IdentityDomainsMyRequest#ocid}
   */
   readonly ocid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#resource_type_schema_version IdentityDomainsMyRequest#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#resource_type_schema_version IdentityDomainsMyRequest#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#schemas IdentityDomainsMyRequest#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#schemas IdentityDomainsMyRequest#schemas}
   */
   readonly schemas: string[];
   /**
   * approval_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#approval_details IdentityDomainsMyRequest#approval_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#approval_details IdentityDomainsMyRequest#approval_details}
   */
   readonly approvalDetails?: IdentityDomainsMyRequestApprovalDetails[] | cdktf.IResolvable;
   /**
   * requesting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#requesting IdentityDomainsMyRequest#requesting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#requesting IdentityDomainsMyRequest#requesting}
   */
   readonly requesting: IdentityDomainsMyRequestRequesting;
   /**
   * requestor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#requestor IdentityDomainsMyRequest#requestor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#requestor IdentityDomainsMyRequest#requestor}
   */
   readonly requestor?: IdentityDomainsMyRequestRequestor;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#tags IdentityDomainsMyRequest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#tags IdentityDomainsMyRequest#tags}
   */
   readonly tags?: IdentityDomainsMyRequestTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#timeouts IdentityDomainsMyRequest#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#timeouts IdentityDomainsMyRequest#timeouts}
   */
   readonly timeouts?: IdentityDomainsMyRequestTimeouts;
 }
@@ -477,11 +477,11 @@ export class IdentityDomainsMyRequestApprovalDetailsList extends cdktf.ComplexLi
 }
 export interface IdentityDomainsMyRequestRequesting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#type IdentityDomainsMyRequest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#type IdentityDomainsMyRequest#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}
   */
   readonly value: string;
 }
@@ -603,7 +603,7 @@ export class IdentityDomainsMyRequestRequestingOutputReference extends cdktf.Com
 }
 export interface IdentityDomainsMyRequestRequestor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}
   */
   readonly value: string;
 }
@@ -694,11 +694,11 @@ export class IdentityDomainsMyRequestRequestorOutputReference extends cdktf.Comp
 }
 export interface IdentityDomainsMyRequestTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#key IdentityDomainsMyRequest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#key IdentityDomainsMyRequest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}
   */
   readonly value: string;
 }
@@ -837,15 +837,15 @@ export class IdentityDomainsMyRequestTagsList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsMyRequestTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#create IdentityDomainsMyRequest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#create IdentityDomainsMyRequest#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#delete IdentityDomainsMyRequest#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#delete IdentityDomainsMyRequest#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#update IdentityDomainsMyRequest#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#update IdentityDomainsMyRequest#update}
   */
   readonly update?: string;
 }
@@ -997,7 +997,7 @@ export class IdentityDomainsMyRequestTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request oci_identity_domains_my_request}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request oci_identity_domains_my_request}
 */
 export class IdentityDomainsMyRequest extends cdktf.TerraformResource {
 
@@ -1013,7 +1013,7 @@ export class IdentityDomainsMyRequest extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityDomainsMyRequest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityDomainsMyRequest to import
-  * @param importFromId The id of the existing IdentityDomainsMyRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityDomainsMyRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityDomainsMyRequest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1025,7 +1025,7 @@ export class IdentityDomainsMyRequest extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_my_request oci_identity_domains_my_request} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_request oci_identity_domains_my_request} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1036,8 +1036,8 @@ export class IdentityDomainsMyRequest extends cdktf.TerraformResource {
       terraformResourceType: 'oci_identity_domains_my_request',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

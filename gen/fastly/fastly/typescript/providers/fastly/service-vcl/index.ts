@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl
+// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ServiceVclConfig extends cdktf.TerraformMetaArguments {
   /**
   * Conditionally prevents new service versions from being activated. The apply step will create a new draft version but will not activate it if this is set to `false`. Default `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#activate ServiceVcl#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#activate ServiceVcl#activate}
   */
   readonly activate?: boolean | cdktf.IResolvable;
   /**
   * Description field for the service. Default `Managed by Terraform`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#comment ServiceVcl#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#comment ServiceVcl#comment}
   */
   readonly comment?: string;
   /**
   * The default hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#default_host ServiceVcl#default_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#default_host ServiceVcl#default_host}
   */
   readonly defaultHost?: string;
   /**
   * The default Time-to-live (TTL) for requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#default_ttl ServiceVcl#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#default_ttl ServiceVcl#default_ttl}
   */
   readonly defaultTtl?: number;
   /**
   * Services that are active cannot be destroyed. In order to destroy the Service, set `force_destroy` to `true`. Default `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#force_destroy ServiceVcl#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#force_destroy ServiceVcl#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
   * Enables support for the HTTP/3 (QUIC) protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#http3 ServiceVcl#http3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#http3 ServiceVcl#http3}
   */
   readonly http3?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#id ServiceVcl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#id ServiceVcl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,313 +53,313 @@ export interface ServiceVclConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique name for the Service to create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Services that are active cannot be destroyed. If set to `true` a service Terraform intends to destroy will instead be deactivated (allowing it to be reused by importing it into another Terraform project). If `false`, attempting to destroy an active service will cause an error. Default `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#reuse ServiceVcl#reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#reuse ServiceVcl#reuse}
   */
   readonly reuse?: boolean | cdktf.IResolvable;
   /**
   * Conditionally enables new service versions to be staged. If set to `true`, all changes made by an `apply` step will be staged, even if `apply` did not create a new draft version. Default `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#stage ServiceVcl#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#stage ServiceVcl#stage}
   */
   readonly stage?: boolean | cdktf.IResolvable;
   /**
   * Enables serving a stale object if there is an error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#stale_if_error ServiceVcl#stale_if_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#stale_if_error ServiceVcl#stale_if_error}
   */
   readonly staleIfError?: boolean | cdktf.IResolvable;
   /**
   * The default time-to-live (TTL) for serving the stale object for the version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#stale_if_error_ttl ServiceVcl#stale_if_error_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#stale_if_error_ttl ServiceVcl#stale_if_error_ttl}
   */
   readonly staleIfErrorTtl?: number;
   /**
   * Description field for the version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#version_comment ServiceVcl#version_comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#version_comment ServiceVcl#version_comment}
   */
   readonly versionComment?: string;
   /**
   * acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#acl ServiceVcl#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#acl ServiceVcl#acl}
   */
   readonly acl?: ServiceVclAcl[] | cdktf.IResolvable;
   /**
   * backend block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#backend ServiceVcl#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#backend ServiceVcl#backend}
   */
   readonly backend?: ServiceVclBackend[] | cdktf.IResolvable;
   /**
   * cache_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#cache_setting ServiceVcl#cache_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#cache_setting ServiceVcl#cache_setting}
   */
   readonly cacheSetting?: ServiceVclCacheSetting[] | cdktf.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#condition ServiceVcl#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#condition ServiceVcl#condition}
   */
   readonly condition?: ServiceVclCondition[] | cdktf.IResolvable;
   /**
   * dictionary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#dictionary ServiceVcl#dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#dictionary ServiceVcl#dictionary}
   */
   readonly dictionary?: ServiceVclDictionary[] | cdktf.IResolvable;
   /**
   * director block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#director ServiceVcl#director}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#director ServiceVcl#director}
   */
   readonly director?: ServiceVclDirector[] | cdktf.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#domain ServiceVcl#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#domain ServiceVcl#domain}
   */
   readonly domain?: ServiceVclDomain[] | cdktf.IResolvable;
   /**
   * dynamicsnippet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#dynamicsnippet ServiceVcl#dynamicsnippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#dynamicsnippet ServiceVcl#dynamicsnippet}
   */
   readonly dynamicsnippet?: ServiceVclDynamicsnippet[] | cdktf.IResolvable;
   /**
   * gzip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#gzip ServiceVcl#gzip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#gzip ServiceVcl#gzip}
   */
   readonly gzip?: ServiceVclGzip[] | cdktf.IResolvable;
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#header ServiceVcl#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#header ServiceVcl#header}
   */
   readonly header?: ServiceVclHeader[] | cdktf.IResolvable;
   /**
   * healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#healthcheck ServiceVcl#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#healthcheck ServiceVcl#healthcheck}
   */
   readonly healthcheck?: ServiceVclHealthcheck[] | cdktf.IResolvable;
   /**
   * image_optimizer_default_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#image_optimizer_default_settings ServiceVcl#image_optimizer_default_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#image_optimizer_default_settings ServiceVcl#image_optimizer_default_settings}
   */
   readonly imageOptimizerDefaultSettings?: ServiceVclImageOptimizerDefaultSettings;
   /**
   * logging_bigquery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_bigquery ServiceVcl#logging_bigquery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_bigquery ServiceVcl#logging_bigquery}
   */
   readonly loggingBigquery?: ServiceVclLoggingBigquery[] | cdktf.IResolvable;
   /**
   * logging_blobstorage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_blobstorage ServiceVcl#logging_blobstorage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_blobstorage ServiceVcl#logging_blobstorage}
   */
   readonly loggingBlobstorage?: ServiceVclLoggingBlobstorage[] | cdktf.IResolvable;
   /**
   * logging_cloudfiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_cloudfiles ServiceVcl#logging_cloudfiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_cloudfiles ServiceVcl#logging_cloudfiles}
   */
   readonly loggingCloudfiles?: ServiceVclLoggingCloudfiles[] | cdktf.IResolvable;
   /**
   * logging_datadog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_datadog ServiceVcl#logging_datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_datadog ServiceVcl#logging_datadog}
   */
   readonly loggingDatadog?: ServiceVclLoggingDatadog[] | cdktf.IResolvable;
   /**
   * logging_digitalocean block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_digitalocean ServiceVcl#logging_digitalocean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_digitalocean ServiceVcl#logging_digitalocean}
   */
   readonly loggingDigitalocean?: ServiceVclLoggingDigitalocean[] | cdktf.IResolvable;
   /**
   * logging_elasticsearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_elasticsearch ServiceVcl#logging_elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_elasticsearch ServiceVcl#logging_elasticsearch}
   */
   readonly loggingElasticsearch?: ServiceVclLoggingElasticsearch[] | cdktf.IResolvable;
   /**
   * logging_ftp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_ftp ServiceVcl#logging_ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_ftp ServiceVcl#logging_ftp}
   */
   readonly loggingFtp?: ServiceVclLoggingFtp[] | cdktf.IResolvable;
   /**
   * logging_gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_gcs ServiceVcl#logging_gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_gcs ServiceVcl#logging_gcs}
   */
   readonly loggingGcs?: ServiceVclLoggingGcs[] | cdktf.IResolvable;
   /**
   * logging_googlepubsub block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_googlepubsub ServiceVcl#logging_googlepubsub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_googlepubsub ServiceVcl#logging_googlepubsub}
   */
   readonly loggingGooglepubsub?: ServiceVclLoggingGooglepubsub[] | cdktf.IResolvable;
   /**
   * logging_grafanacloudlogs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_grafanacloudlogs ServiceVcl#logging_grafanacloudlogs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_grafanacloudlogs ServiceVcl#logging_grafanacloudlogs}
   */
   readonly loggingGrafanacloudlogs?: ServiceVclLoggingGrafanacloudlogs[] | cdktf.IResolvable;
   /**
   * logging_heroku block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_heroku ServiceVcl#logging_heroku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_heroku ServiceVcl#logging_heroku}
   */
   readonly loggingHeroku?: ServiceVclLoggingHeroku[] | cdktf.IResolvable;
   /**
   * logging_honeycomb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_honeycomb ServiceVcl#logging_honeycomb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_honeycomb ServiceVcl#logging_honeycomb}
   */
   readonly loggingHoneycomb?: ServiceVclLoggingHoneycomb[] | cdktf.IResolvable;
   /**
   * logging_https block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_https ServiceVcl#logging_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_https ServiceVcl#logging_https}
   */
   readonly loggingHttps?: ServiceVclLoggingHttps[] | cdktf.IResolvable;
   /**
   * logging_kafka block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_kafka ServiceVcl#logging_kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_kafka ServiceVcl#logging_kafka}
   */
   readonly loggingKafka?: ServiceVclLoggingKafka[] | cdktf.IResolvable;
   /**
   * logging_kinesis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_kinesis ServiceVcl#logging_kinesis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_kinesis ServiceVcl#logging_kinesis}
   */
   readonly loggingKinesis?: ServiceVclLoggingKinesis[] | cdktf.IResolvable;
   /**
   * logging_logentries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_logentries ServiceVcl#logging_logentries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_logentries ServiceVcl#logging_logentries}
   */
   readonly loggingLogentries?: ServiceVclLoggingLogentries[] | cdktf.IResolvable;
   /**
   * logging_loggly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_loggly ServiceVcl#logging_loggly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_loggly ServiceVcl#logging_loggly}
   */
   readonly loggingLoggly?: ServiceVclLoggingLoggly[] | cdktf.IResolvable;
   /**
   * logging_logshuttle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_logshuttle ServiceVcl#logging_logshuttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_logshuttle ServiceVcl#logging_logshuttle}
   */
   readonly loggingLogshuttle?: ServiceVclLoggingLogshuttle[] | cdktf.IResolvable;
   /**
   * logging_newrelic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_newrelic ServiceVcl#logging_newrelic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_newrelic ServiceVcl#logging_newrelic}
   */
   readonly loggingNewrelic?: ServiceVclLoggingNewrelic[] | cdktf.IResolvable;
   /**
   * logging_newrelicotlp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_newrelicotlp ServiceVcl#logging_newrelicotlp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_newrelicotlp ServiceVcl#logging_newrelicotlp}
   */
   readonly loggingNewrelicotlp?: ServiceVclLoggingNewrelicotlp[] | cdktf.IResolvable;
   /**
   * logging_openstack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_openstack ServiceVcl#logging_openstack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_openstack ServiceVcl#logging_openstack}
   */
   readonly loggingOpenstack?: ServiceVclLoggingOpenstack[] | cdktf.IResolvable;
   /**
   * logging_papertrail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_papertrail ServiceVcl#logging_papertrail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_papertrail ServiceVcl#logging_papertrail}
   */
   readonly loggingPapertrail?: ServiceVclLoggingPapertrail[] | cdktf.IResolvable;
   /**
   * logging_s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_s3 ServiceVcl#logging_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_s3 ServiceVcl#logging_s3}
   */
   readonly loggingS3?: ServiceVclLoggingS3[] | cdktf.IResolvable;
   /**
   * logging_scalyr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_scalyr ServiceVcl#logging_scalyr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_scalyr ServiceVcl#logging_scalyr}
   */
   readonly loggingScalyr?: ServiceVclLoggingScalyr[] | cdktf.IResolvable;
   /**
   * logging_sftp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_sftp ServiceVcl#logging_sftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_sftp ServiceVcl#logging_sftp}
   */
   readonly loggingSftp?: ServiceVclLoggingSftp[] | cdktf.IResolvable;
   /**
   * logging_splunk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_splunk ServiceVcl#logging_splunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_splunk ServiceVcl#logging_splunk}
   */
   readonly loggingSplunk?: ServiceVclLoggingSplunk[] | cdktf.IResolvable;
   /**
   * logging_sumologic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_sumologic ServiceVcl#logging_sumologic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_sumologic ServiceVcl#logging_sumologic}
   */
   readonly loggingSumologic?: ServiceVclLoggingSumologic[] | cdktf.IResolvable;
   /**
   * logging_syslog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logging_syslog ServiceVcl#logging_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logging_syslog ServiceVcl#logging_syslog}
   */
   readonly loggingSyslog?: ServiceVclLoggingSyslog[] | cdktf.IResolvable;
   /**
   * product_enablement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#product_enablement ServiceVcl#product_enablement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#product_enablement ServiceVcl#product_enablement}
   */
   readonly productEnablement?: ServiceVclProductEnablement;
   /**
   * rate_limiter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#rate_limiter ServiceVcl#rate_limiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#rate_limiter ServiceVcl#rate_limiter}
   */
   readonly rateLimiter?: ServiceVclRateLimiter[] | cdktf.IResolvable;
   /**
   * request_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#request_setting ServiceVcl#request_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#request_setting ServiceVcl#request_setting}
   */
   readonly requestSetting?: ServiceVclRequestSetting[] | cdktf.IResolvable;
   /**
   * response_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_object ServiceVcl#response_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_object ServiceVcl#response_object}
   */
   readonly responseObject?: ServiceVclResponseObject[] | cdktf.IResolvable;
   /**
   * snippet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#snippet ServiceVcl#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#snippet ServiceVcl#snippet}
   */
   readonly snippet?: ServiceVclSnippet[] | cdktf.IResolvable;
   /**
   * vcl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#vcl ServiceVcl#vcl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#vcl ServiceVcl#vcl}
   */
   readonly vcl?: ServiceVclVcl[] | cdktf.IResolvable;
 }
@@ -367,13 +367,13 @@ export interface ServiceVclAcl {
   /**
   * Allow the ACL to be deleted, even if it contains entries. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#force_destroy ServiceVcl#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#force_destroy ServiceVcl#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
   * A unique name to identify this ACL. It is important to note that changing this attribute will delete and recreate the ACL, and discard the current items in the ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
 }
@@ -522,163 +522,163 @@ export interface ServiceVclBackend {
   /**
   * An IPv4, hostname, or IPv6 address for the Backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#address ServiceVcl#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#address ServiceVcl#address}
   */
   readonly address: string;
   /**
   * Denotes if this Backend should be included in the pool of backends that requests are load balanced against. Default `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#auto_loadbalance ServiceVcl#auto_loadbalance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#auto_loadbalance ServiceVcl#auto_loadbalance}
   */
   readonly autoLoadbalance?: boolean | cdktf.IResolvable;
   /**
   * How long to wait between bytes in milliseconds. Default `10000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#between_bytes_timeout ServiceVcl#between_bytes_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#between_bytes_timeout ServiceVcl#between_bytes_timeout}
   */
   readonly betweenBytesTimeout?: number;
   /**
   * How long to wait for a timeout in milliseconds. Default `1000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#connect_timeout ServiceVcl#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#connect_timeout ServiceVcl#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * Number of errors to allow before the Backend is marked as down. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#error_threshold ServiceVcl#error_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#error_threshold ServiceVcl#error_threshold}
   */
   readonly errorThreshold?: number;
   /**
   * How long to wait for the first bytes in milliseconds. Default `15000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#first_byte_timeout ServiceVcl#first_byte_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#first_byte_timeout ServiceVcl#first_byte_timeout}
   */
   readonly firstByteTimeout?: number;
   /**
   * Name of a defined `healthcheck` to assign to this backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#healthcheck ServiceVcl#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#healthcheck ServiceVcl#healthcheck}
   */
   readonly healthcheck?: string;
   /**
   * How long in seconds to keep a persistent connection to the backend between requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#keepalive_time ServiceVcl#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#keepalive_time ServiceVcl#keepalive_time}
   */
   readonly keepaliveTime?: number;
   /**
   * Maximum number of connections for this Backend. Default `200`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#max_conn ServiceVcl#max_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#max_conn ServiceVcl#max_conn}
   */
   readonly maxConn?: number;
   /**
   * Maximum allowed TLS version on SSL connections to this backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#max_tls_version ServiceVcl#max_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#max_tls_version ServiceVcl#max_tls_version}
   */
   readonly maxTlsVersion?: string;
   /**
   * Minimum allowed TLS version on SSL connections to this backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#min_tls_version ServiceVcl#min_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#min_tls_version ServiceVcl#min_tls_version}
   */
   readonly minTlsVersion?: string;
   /**
   * Name for this Backend. Must be unique to this Service. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * The hostname to override the Host header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#override_host ServiceVcl#override_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#override_host ServiceVcl#override_host}
   */
   readonly overrideHost?: string;
   /**
   * The port number on which the Backend responds. Default `80`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#port ServiceVcl#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#port ServiceVcl#port}
   */
   readonly port?: number;
   /**
   * Prefer IPv6 connections to origins for hostname backends. Default `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#prefer_ipv6 ServiceVcl#prefer_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#prefer_ipv6 ServiceVcl#prefer_ipv6}
   */
   readonly preferIpv6?: boolean | cdktf.IResolvable;
   /**
   * Name of a condition, which if met, will select this backend during a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#request_condition ServiceVcl#request_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#request_condition ServiceVcl#request_condition}
   */
   readonly requestCondition?: string;
   /**
   * Value that when shared across backends will enable those backends to share the same health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#share_key ServiceVcl#share_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#share_key ServiceVcl#share_key}
   */
   readonly shareKey?: string;
   /**
   * The POP of the shield designated to reduce inbound load. Valid values for `shield` are included in the `GET /datacenters` API response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#shield ServiceVcl#shield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#shield ServiceVcl#shield}
   */
   readonly shield?: string;
   /**
   * CA certificate attached to origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#ssl_ca_cert ServiceVcl#ssl_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#ssl_ca_cert ServiceVcl#ssl_ca_cert}
   */
   readonly sslCaCert?: string;
   /**
   * Configure certificate validation. Does not affect SNI at all
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#ssl_cert_hostname ServiceVcl#ssl_cert_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#ssl_cert_hostname ServiceVcl#ssl_cert_hostname}
   */
   readonly sslCertHostname?: string;
   /**
   * Be strict about checking SSL certs. Default `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#ssl_check_cert ServiceVcl#ssl_check_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#ssl_check_cert ServiceVcl#ssl_check_cert}
   */
   readonly sslCheckCert?: boolean | cdktf.IResolvable;
   /**
   * Cipher list consisting of one or more cipher strings separated by colons. Commas or spaces are also acceptable separators but colons are normally used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#ssl_ciphers ServiceVcl#ssl_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#ssl_ciphers ServiceVcl#ssl_ciphers}
   */
   readonly sslCiphers?: string;
   /**
   * Client certificate attached to origin. Used when connecting to the backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#ssl_client_cert ServiceVcl#ssl_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#ssl_client_cert ServiceVcl#ssl_client_cert}
   */
   readonly sslClientCert?: string;
   /**
   * Client key attached to origin. Used when connecting to the backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#ssl_client_key ServiceVcl#ssl_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#ssl_client_key ServiceVcl#ssl_client_key}
   */
   readonly sslClientKey?: string;
   /**
   * Configure SNI in the TLS handshake. Does not affect cert validation at all
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#ssl_sni_hostname ServiceVcl#ssl_sni_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#ssl_sni_hostname ServiceVcl#ssl_sni_hostname}
   */
   readonly sslSniHostname?: string;
   /**
   * Whether or not to use SSL to reach the Backend. Default `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#use_ssl ServiceVcl#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#use_ssl ServiceVcl#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * The [portion of traffic](https://docs.fastly.com/en/guides/load-balancing-configuration#how-weight-affects-load-balancing) to send to this Backend. Each Backend receives weight / total of the traffic. Default `100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#weight ServiceVcl#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#weight ServiceVcl#weight}
   */
   readonly weight?: number;
 }
@@ -1544,31 +1544,31 @@ export interface ServiceVclCacheSetting {
   /**
   * One of cache, pass, or restart, as defined on Fastly's documentation under "[Caching action descriptions](https://docs.fastly.com/en/guides/controlling-caching#caching-action-descriptions)"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#action ServiceVcl#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#action ServiceVcl#action}
   */
   readonly action?: string;
   /**
   * Name of already defined `condition` used to test whether this settings object should be used. This `condition` must be of type `CACHE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#cache_condition ServiceVcl#cache_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#cache_condition ServiceVcl#cache_condition}
   */
   readonly cacheCondition?: string;
   /**
   * Unique name for this Cache Setting. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Max "Time To Live" for stale (unreachable) objects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#stale_ttl ServiceVcl#stale_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#stale_ttl ServiceVcl#stale_ttl}
   */
   readonly staleTtl?: number;
   /**
   * The Time-To-Live (TTL) for the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#ttl ServiceVcl#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#ttl ServiceVcl#ttl}
   */
   readonly ttl?: number;
 }
@@ -1799,25 +1799,25 @@ export interface ServiceVclCondition {
   /**
   * The unique name for the condition. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * A number used to determine the order in which multiple conditions execute. Lower numbers execute first. Default `10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#priority ServiceVcl#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#priority ServiceVcl#priority}
   */
   readonly priority?: number;
   /**
   * The statement used to determine if the condition is met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#statement ServiceVcl#statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#statement ServiceVcl#statement}
   */
   readonly statement: string;
   /**
   * Type of condition, either `REQUEST` (req), `RESPONSE` (req, resp), or `CACHE` (req, beresp)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#type ServiceVcl#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#type ServiceVcl#type}
   */
   readonly type: string;
 }
@@ -2013,19 +2013,19 @@ export interface ServiceVclDictionary {
   /**
   * Allow the dictionary to be deleted, even if it contains entries. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#force_destroy ServiceVcl#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#force_destroy ServiceVcl#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
   * A unique name to identify this dictionary. It is important to note that changing this attribute will delete and recreate the dictionary, and discard the current items in the dictionary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * If `true`, the dictionary is a [private dictionary](https://docs.fastly.com/en/guides/private-dictionaries). Default is `false`. Please note that changing this attribute will delete and recreate the dictionary, and discard the current items in the dictionary. `fastly_service_vcl` resource will only manage the dictionary object itself, and items under private dictionaries can not be managed using [`fastly_service_dictionary_items`](https://registry.terraform.io/providers/fastly/fastly/latest/docs/resources/service_dictionary_items#limitations) resource. Therefore, using a write-only/private dictionary should only be done if the items are managed outside of Terraform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#write_only ServiceVcl#write_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#write_only ServiceVcl#write_only}
   */
   readonly writeOnly?: boolean | cdktf.IResolvable;
 }
@@ -2203,43 +2203,43 @@ export interface ServiceVclDirector {
   /**
   * Names of defined backends to map the director to. Example: `[ "origin1", "origin2" ]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#backends ServiceVcl#backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#backends ServiceVcl#backends}
   */
   readonly backends: string[];
   /**
   * An optional comment about the Director
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#comment ServiceVcl#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#comment ServiceVcl#comment}
   */
   readonly comment?: string;
   /**
   * Unique name for this Director. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Percentage of capacity that needs to be up for the director itself to be considered up. Default `75`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#quorum ServiceVcl#quorum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#quorum ServiceVcl#quorum}
   */
   readonly quorum?: number;
   /**
   * How many backends to search if it fails. Default `5`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#retries ServiceVcl#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#retries ServiceVcl#retries}
   */
   readonly retries?: number;
   /**
   * Selected POP to serve as a "shield" for backends. Valid values for `shield` are included in the [`GET /datacenters`](https://developer.fastly.com/reference/api/utils/datacenter/) API response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#shield ServiceVcl#shield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#shield ServiceVcl#shield}
   */
   readonly shield?: string;
   /**
   * Type of load balance group to use. Integer, 1 to 4. Values: `1` (random), `3` (hash), `4` (client). Default `1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#type ServiceVcl#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#type ServiceVcl#type}
   */
   readonly type?: number;
 }
@@ -2525,13 +2525,13 @@ export interface ServiceVclDomain {
   /**
   * An optional comment about the Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#comment ServiceVcl#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#comment ServiceVcl#comment}
   */
   readonly comment?: string;
   /**
   * The domain that this Service will respond to. It is important to note that changing this attribute will delete and recreate the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
 }
@@ -2675,25 +2675,25 @@ export interface ServiceVclDynamicsnippet {
   /**
   * The VCL code that specifies exactly what the snippet does
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#content ServiceVcl#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#content ServiceVcl#content}
   */
   readonly content?: string;
   /**
   * A name that is unique across "regular" and "dynamic" VCL Snippet configuration blocks. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Priority determines the ordering for multiple snippets. Lower numbers execute first. Defaults to `100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#priority ServiceVcl#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#priority ServiceVcl#priority}
   */
   readonly priority?: number;
   /**
   * The location in generated VCL where the snippet should be placed (can be one of `init`, `recv`, `hash`, `hit`, `miss`, `pass`, `fetch`, `error`, `deliver`, `log` or `none`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#type ServiceVcl#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#type ServiceVcl#type}
   */
   readonly type: string;
 }
@@ -2897,25 +2897,25 @@ export interface ServiceVclGzip {
   /**
   * Name of already defined `condition` controlling when this gzip configuration applies. This `condition` must be of type `CACHE`. For detailed information about Conditionals, see [Fastly's Documentation on Conditionals](https://docs.fastly.com/en/guides/using-conditions)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#cache_condition ServiceVcl#cache_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#cache_condition ServiceVcl#cache_condition}
   */
   readonly cacheCondition?: string;
   /**
   * The content-type for each type of content you wish to have dynamically gzip'ed. Example: `["text/html", "text/css"]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#content_types ServiceVcl#content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#content_types ServiceVcl#content_types}
   */
   readonly contentTypes?: string[];
   /**
   * File extensions for each file type to dynamically gzip. Example: `["css", "js"]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#extensions ServiceVcl#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#extensions ServiceVcl#extensions}
   */
   readonly extensions?: string[];
   /**
   * A name to refer to this gzip condition. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
 }
@@ -3117,73 +3117,73 @@ export interface ServiceVclHeader {
   /**
   * The Header manipulation action to take; must be one of `set`, `append`, `delete`, `regex`, or `regex_repeat`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#action ServiceVcl#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#action ServiceVcl#action}
   */
   readonly action: string;
   /**
   * Name of already defined `condition` to apply. This `condition` must be of type `CACHE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#cache_condition ServiceVcl#cache_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#cache_condition ServiceVcl#cache_condition}
   */
   readonly cacheCondition?: string;
   /**
   * The name of the header that is going to be affected by the Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#destination ServiceVcl#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#destination ServiceVcl#destination}
   */
   readonly destination: string;
   /**
   * Don't add the header if it is already. (Only applies to `set` action.). Default `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#ignore_if_set ServiceVcl#ignore_if_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#ignore_if_set ServiceVcl#ignore_if_set}
   */
   readonly ignoreIfSet?: boolean | cdktf.IResolvable;
   /**
   * Unique name for this header attribute. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Lower priorities execute first. Default: `100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#priority ServiceVcl#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#priority ServiceVcl#priority}
   */
   readonly priority?: number;
   /**
   * Regular expression to use (Only applies to `regex` and `regex_repeat` actions.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#regex ServiceVcl#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#regex ServiceVcl#regex}
   */
   readonly regex?: string;
   /**
   * Name of already defined `condition` to apply. This `condition` must be of type `REQUEST`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#request_condition ServiceVcl#request_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#request_condition ServiceVcl#request_condition}
   */
   readonly requestCondition?: string;
   /**
   * Name of already defined `condition` to apply. This `condition` must be of type `RESPONSE`. For detailed information about Conditionals, see [Fastly's Documentation on Conditionals](https://docs.fastly.com/en/guides/using-conditions)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * Variable to be used as a source for the header content (Does not apply to `delete` action.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#source ServiceVcl#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#source ServiceVcl#source}
   */
   readonly source?: string;
   /**
   * Value to substitute in place of regular expression. (Only applies to `regex` and `regex_repeat`.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#substitution ServiceVcl#substitution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#substitution ServiceVcl#substitution}
   */
   readonly substitution?: string;
   /**
   * The Request type on which to apply the selected Action; must be one of `request`, `fetch`, `cache` or `response`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#type ServiceVcl#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#type ServiceVcl#type}
   */
   readonly type: string;
 }
@@ -3608,73 +3608,73 @@ export interface ServiceVclHealthcheck {
   /**
   * How often to run the Healthcheck in milliseconds. Default `5000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#check_interval ServiceVcl#check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#check_interval ServiceVcl#check_interval}
   */
   readonly checkInterval?: number;
   /**
   * The status code expected from the host. Default `200`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#expected_response ServiceVcl#expected_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#expected_response ServiceVcl#expected_response}
   */
   readonly expectedResponse?: number;
   /**
   * Custom health check HTTP headers (e.g. if your health check requires an API key to be provided).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#headers ServiceVcl#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#headers ServiceVcl#headers}
   */
   readonly headers?: string[];
   /**
   * The Host header to send for this Healthcheck
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#host ServiceVcl#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#host ServiceVcl#host}
   */
   readonly host: string;
   /**
   * Whether to use version 1.0 or 1.1 HTTP. Default `1.1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#http_version ServiceVcl#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#http_version ServiceVcl#http_version}
   */
   readonly httpVersion?: string;
   /**
   * When loading a config, the initial number of probes to be seen as OK. Default `3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#initial ServiceVcl#initial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#initial ServiceVcl#initial}
   */
   readonly initial?: number;
   /**
   * Which HTTP method to use. Default `HEAD`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#method ServiceVcl#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#method ServiceVcl#method}
   */
   readonly method?: string;
   /**
   * A unique name to identify this Healthcheck. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * The path to check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#path ServiceVcl#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#path ServiceVcl#path}
   */
   readonly path: string;
   /**
   * How many Healthchecks must succeed to be considered healthy. Default `3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#threshold ServiceVcl#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#threshold ServiceVcl#threshold}
   */
   readonly threshold?: number;
   /**
   * Timeout in milliseconds. Default `5000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#timeout ServiceVcl#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#timeout ServiceVcl#timeout}
   */
   readonly timeout?: number;
   /**
   * The number of most recent Healthcheck queries to keep for this Healthcheck. Default `5`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#window ServiceVcl#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#window ServiceVcl#window}
   */
   readonly window?: number;
 }
@@ -4102,13 +4102,13 @@ export interface ServiceVclImageOptimizerDefaultSettings {
   /**
   * Enables GIF to MP4 transformations on this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#allow_video ServiceVcl#allow_video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#allow_video ServiceVcl#allow_video}
   */
   readonly allowVideo?: boolean | cdktf.IResolvable;
   /**
   * The default quality to use with JPEG output. This can be overridden with the "quality" parameter on specific image optimizer requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#jpeg_quality ServiceVcl#jpeg_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#jpeg_quality ServiceVcl#jpeg_quality}
   */
   readonly jpegQuality?: number;
   /**
@@ -4117,13 +4117,13 @@ export interface ServiceVclImageOptimizerDefaultSettings {
   * 	- baseline: Output baseline JPEG images
   * 	- progressive: Output progressive JPEG images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#jpeg_type ServiceVcl#jpeg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#jpeg_type ServiceVcl#jpeg_type}
   */
   readonly jpegType?: string;
   /**
   * Used by the provider to identify modified settings. Changing this value will force the entire block to be deleted, then recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name?: string;
   /**
@@ -4134,25 +4134,25 @@ export interface ServiceVclImageOptimizerDefaultSettings {
   * 	- bilinear: A filter using an average of a 2x2 environment of pixels.
   * 	- nearest: A filter using the value of nearby translated pixel values. Preserves hard edges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#resize_filter ServiceVcl#resize_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#resize_filter ServiceVcl#resize_filter}
   */
   readonly resizeFilter?: string;
   /**
   * Whether or not we should allow output images to render at sizes larger than input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#upscale ServiceVcl#upscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#upscale ServiceVcl#upscale}
   */
   readonly upscale?: boolean | cdktf.IResolvable;
   /**
   * Controls whether or not to default to WebP output when the client supports it. This is equivalent to adding "auto=webp" to all image optimizer requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#webp ServiceVcl#webp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#webp ServiceVcl#webp}
   */
   readonly webp?: boolean | cdktf.IResolvable;
   /**
   * The default quality to use with WebP output. This can be overridden with the second option in the "quality" URL parameter on specific image optimizer requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#webp_quality ServiceVcl#webp_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#webp_quality ServiceVcl#webp_quality}
   */
   readonly webpQuality?: number;
 }
@@ -4441,73 +4441,73 @@ export interface ServiceVclLoggingBigquery {
   /**
   * The google account name used to obtain temporary credentials (default none). You may optionally provide this via an environment variable, `FASTLY_GCS_ACCOUNT_NAME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#account_name ServiceVcl#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#account_name ServiceVcl#account_name}
   */
   readonly accountName?: string;
   /**
   * The ID of your BigQuery dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#dataset ServiceVcl#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#dataset ServiceVcl#dataset}
   */
   readonly dataset: string;
   /**
   * The email for the service account with write access to your BigQuery dataset. If not provided, this will be pulled from a `FASTLY_BQ_EMAIL` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#email ServiceVcl#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#email ServiceVcl#email}
   */
   readonly email?: string;
   /**
   * The logging format desired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * A unique name to identify this BigQuery logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The ID of your GCP project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#project_id ServiceVcl#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#project_id ServiceVcl#project_id}
   */
   readonly projectId: string;
   /**
   * Name of a condition to apply this logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The secret key associated with the service account that has write access to your BigQuery table. If not provided, this will be pulled from the `FASTLY_BQ_SECRET_KEY` environment variable. Typical format for this is a private key in a string with newlines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#secret_key ServiceVcl#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#secret_key ServiceVcl#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The ID of your BigQuery table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#table ServiceVcl#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#table ServiceVcl#table}
   */
   readonly table: string;
   /**
   * BigQuery table name suffix template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#template ServiceVcl#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#template ServiceVcl#template}
   */
   readonly template?: string;
 }
@@ -4932,103 +4932,103 @@ export interface ServiceVclLoggingBlobstorage {
   /**
   * The unique Azure Blob Storage namespace in which your data objects are stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#account_name ServiceVcl#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#account_name ServiceVcl#account_name}
   */
   readonly accountName: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * The name of the Azure Blob Storage container in which to store logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#container ServiceVcl#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#container ServiceVcl#container}
   */
   readonly container: string;
   /**
   * Maximum size of an uploaded log file, if non-zero.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#file_max_bytes ServiceVcl#file_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#file_max_bytes ServiceVcl#file_max_bytes}
   */
   readonly fileMaxBytes?: number;
   /**
   * Apache-style string or VCL variables to use for log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either 1 or 2. (default: 2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
   */
   readonly messageType?: string;
   /**
   * A unique name to identify the Azure Blob Storage endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * The path to upload logs to. Must end with a trailing slash. If this field is left empty, the files will be saved in the container's root path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#path ServiceVcl#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#path ServiceVcl#path}
   */
   readonly path?: string;
   /**
   * How frequently the logs should be transferred in seconds. Default `3600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#period ServiceVcl#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#period ServiceVcl#period}
   */
   readonly period?: number;
   /**
   * Where in the generated VCL the logging call should be placed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * A PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
   */
   readonly publicKey?: string;
   /**
   * The name of the condition to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The Azure shared access signature providing write access to the blob service objects. Be sure to update your token before it expires or the logging functionality will not work
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#sas_token ServiceVcl#sas_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#sas_token ServiceVcl#sas_token}
   */
   readonly sasToken?: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
   */
   readonly timestampFormat?: string;
 }
@@ -5601,103 +5601,103 @@ export interface ServiceVclLoggingCloudfiles {
   /**
   * Your Cloud File account access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#access_key ServiceVcl#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#access_key ServiceVcl#access_key}
   */
   readonly accessKey: string;
   /**
   * The name of your Cloud Files container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#bucket_name ServiceVcl#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#bucket_name ServiceVcl#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * Apache style log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either `1` or `2`. (default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
   */
   readonly messageType?: string;
   /**
   * The unique name of the Rackspace Cloud Files logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * The path to upload logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#path ServiceVcl#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#path ServiceVcl#path}
   */
   readonly path?: string;
   /**
   * How frequently log files are finalized so they can be available for reading (in seconds, default `3600`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#period ServiceVcl#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#period ServiceVcl#period}
   */
   readonly period?: number;
   /**
   * Where in the generated VCL the logging call should be placed. Can be `none` or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
   */
   readonly publicKey?: string;
   /**
   * The region to stream logs to. One of: DFW (Dallas), ORD (Chicago), IAD (Northern Virginia), LON (London), SYD (Sydney), HKG (Hong Kong)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#region ServiceVcl#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#region ServiceVcl#region}
   */
   readonly region?: string;
   /**
   * The name of an existing condition in the configured endpoint, or leave blank to always execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
   */
   readonly timestampFormat?: string;
   /**
   * The username for your Cloud Files account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#user ServiceVcl#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#user ServiceVcl#user}
   */
   readonly user: string;
 }
@@ -6267,49 +6267,49 @@ export interface ServiceVclLoggingDatadog {
   /**
   * Apache-style string or VCL variables to use for log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either `1` or `2`. (default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The unique name of the Datadog logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The region that log data will be sent to. Defaults to `US` if undefined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#region ServiceVcl#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#region ServiceVcl#region}
   */
   readonly region?: string;
   /**
   * The name of the condition to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The API key from your Datadog account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#token ServiceVcl#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#token ServiceVcl#token}
   */
   readonly token: string;
 }
@@ -6624,103 +6624,103 @@ export interface ServiceVclLoggingDigitalocean {
   /**
   * Your DigitalOcean Spaces account access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#access_key ServiceVcl#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#access_key ServiceVcl#access_key}
   */
   readonly accessKey: string;
   /**
   * The name of the DigitalOcean Space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#bucket_name ServiceVcl#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#bucket_name ServiceVcl#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * The domain of the DigitalOcean Spaces endpoint (default `nyc3.digitaloceanspaces.com`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#domain ServiceVcl#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#domain ServiceVcl#domain}
   */
   readonly domain?: string;
   /**
   * Apache style log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either `1` or `2`. (default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
   */
   readonly messageType?: string;
   /**
   * The unique name of the DigitalOcean Spaces logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * The path to upload logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#path ServiceVcl#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#path ServiceVcl#path}
   */
   readonly path?: string;
   /**
   * How frequently log files are finalized so they can be available for reading (in seconds, default `3600`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#period ServiceVcl#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#period ServiceVcl#period}
   */
   readonly period?: number;
   /**
   * Where in the generated VCL the logging call should be placed. Can be `none` or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * A PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
   */
   readonly publicKey?: string;
   /**
   * The name of an existing condition in the configured endpoint, or leave blank to always execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * Your DigitalOcean Spaces account secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#secret_key ServiceVcl#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#secret_key ServiceVcl#secret_key}
   */
   readonly secretKey: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
   */
   readonly timestampFormat?: string;
 }
@@ -7290,103 +7290,103 @@ export interface ServiceVclLoggingElasticsearch {
   /**
   * Apache-style string or VCL variables to use for log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either 1 or 2. (default: 2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The name of the Elasticsearch index to send documents (logs) to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#index ServiceVcl#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#index ServiceVcl#index}
   */
   readonly index: string;
   /**
   * The unique name of the Elasticsearch logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * BasicAuth password for Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#password ServiceVcl#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#password ServiceVcl#password}
   */
   readonly password?: string;
   /**
   * The ID of the Elasticsearch ingest pipeline to apply pre-process transformations to before indexing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#pipeline ServiceVcl#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#pipeline ServiceVcl#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The maximum number of logs sent in one request. Defaults to `0` for unbounded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#request_max_bytes ServiceVcl#request_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#request_max_bytes ServiceVcl#request_max_bytes}
   */
   readonly requestMaxBytes?: number;
   /**
   * The maximum number of bytes sent in one request. Defaults to `0` for unbounded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#request_max_entries ServiceVcl#request_max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#request_max_entries ServiceVcl#request_max_entries}
   */
   readonly requestMaxEntries?: number;
   /**
   * The name of the condition to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * A secure certificate to authenticate the server with. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_ca_cert ServiceVcl#tls_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_ca_cert ServiceVcl#tls_ca_cert}
   */
   readonly tlsCaCert?: string;
   /**
   * The client certificate used to make authenticated requests. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_client_cert ServiceVcl#tls_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_client_cert ServiceVcl#tls_client_cert}
   */
   readonly tlsClientCert?: string;
   /**
   * The client private key used to make authenticated requests. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_client_key ServiceVcl#tls_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_client_key ServiceVcl#tls_client_key}
   */
   readonly tlsClientKey?: string;
   /**
   * The hostname used to verify the server's certificate. It can either be the Common Name (CN) or a Subject Alternative Name (SAN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_hostname ServiceVcl#tls_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_hostname ServiceVcl#tls_hostname}
   */
   readonly tlsHostname?: string;
   /**
   * The Elasticsearch URL to stream logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#url ServiceVcl#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#url ServiceVcl#url}
   */
   readonly url: string;
   /**
   * BasicAuth username for Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#user ServiceVcl#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#user ServiceVcl#user}
   */
   readonly user?: string;
 }
@@ -7959,103 +7959,103 @@ export interface ServiceVclLoggingFtp {
   /**
   * The FTP address to stream logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#address ServiceVcl#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#address ServiceVcl#address}
   */
   readonly address: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * Apache-style string or VCL variables to use for log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either 1 or 2. (default: 2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
   */
   readonly messageType?: string;
   /**
   * The unique name of the FTP logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * The password for the server (for anonymous use an email address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#password ServiceVcl#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#password ServiceVcl#password}
   */
   readonly password: string;
   /**
   * The path to upload log files to. If the path ends in `/` then it is treated as a directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#path ServiceVcl#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#path ServiceVcl#path}
   */
   readonly path: string;
   /**
   * How frequently the logs should be transferred, in seconds (Default `3600`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#period ServiceVcl#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#period ServiceVcl#period}
   */
   readonly period?: number;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * The port number. Default: `21`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#port ServiceVcl#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#port ServiceVcl#port}
   */
   readonly port?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
   */
   readonly publicKey?: string;
   /**
   * The name of the condition to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
   */
   readonly timestampFormat?: string;
   /**
   * The username for the server (can be `anonymous`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#user ServiceVcl#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#user ServiceVcl#user}
   */
   readonly user: string;
 }
@@ -8622,103 +8622,103 @@ export interface ServiceVclLoggingGcs {
   /**
   * The google account name used to obtain temporary credentials (default none). You may optionally provide this via an environment variable, `FASTLY_GCS_ACCOUNT_NAME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#account_name ServiceVcl#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#account_name ServiceVcl#account_name}
   */
   readonly accountName?: string;
   /**
   * The name of the bucket in which to store the logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#bucket_name ServiceVcl#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#bucket_name ServiceVcl#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * Apache-style string or VCL variables to use for log formatting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either 1 or 2. (Default: 2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
   */
   readonly messageType?: string;
   /**
   * A unique name to identify this GCS endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Path to store the files. Must end with a trailing slash. If this field is left empty, the files will be saved in the bucket's root path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#path ServiceVcl#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#path ServiceVcl#path}
   */
   readonly path?: string;
   /**
   * How frequently the logs should be transferred, in seconds (Default 3600)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#period ServiceVcl#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#period ServiceVcl#period}
   */
   readonly period?: number;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The ID of your Google Cloud Platform project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#project_id ServiceVcl#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#project_id ServiceVcl#project_id}
   */
   readonly projectId?: string;
   /**
   * Name of a condition to apply this logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The secret key associated with the target gcs bucket on your account. You may optionally provide this secret via an environment variable, `FASTLY_GCS_SECRET_KEY`. A typical format for the key is PEM format, containing actual newline characters where required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#secret_key ServiceVcl#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#secret_key ServiceVcl#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
   */
   readonly timestampFormat?: string;
   /**
   * Your Google Cloud Platform service account email address. The `client_email` field in your service account authentication JSON. You may optionally provide this via an environment variable, `FASTLY_GCS_EMAIL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#user ServiceVcl#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#user ServiceVcl#user}
   */
   readonly user?: string;
 }
@@ -9294,67 +9294,67 @@ export interface ServiceVclLoggingGooglepubsub {
   /**
   * The google account name used to obtain temporary credentials (default none). You may optionally provide this via an environment variable, `FASTLY_GCS_ACCOUNT_NAME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#account_name ServiceVcl#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#account_name ServiceVcl#account_name}
   */
   readonly accountName?: string;
   /**
   * Apache style log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either 1 or 2. (default: 2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The unique name of the Google Cloud Pub/Sub logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The ID of your Google Cloud Platform project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#project_id ServiceVcl#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#project_id ServiceVcl#project_id}
   */
   readonly projectId: string;
   /**
   * The name of an existing condition in the configured endpoint, or leave blank to always execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * Your Google Cloud Platform account secret key. The `private_key` field in your service account authentication JSON. You may optionally provide this secret via an environment variable, `FASTLY_GOOGLE_PUBSUB_SECRET_KEY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#secret_key ServiceVcl#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#secret_key ServiceVcl#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The Google Cloud Pub/Sub topic to which logs will be published
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#topic ServiceVcl#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#topic ServiceVcl#topic}
   */
   readonly topic: string;
   /**
   * Your Google Cloud Platform service account email address. The `client_email` field in your service account authentication JSON. You may optionally provide this via an environment variable, `FASTLY_GOOGLE_PUBSUB_EMAIL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#user ServiceVcl#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#user ServiceVcl#user}
   */
   readonly user?: string;
 }
@@ -9753,61 +9753,61 @@ export interface ServiceVclLoggingGrafanacloudlogs {
   /**
   * Apache-style string or VCL variables to use for log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either `1` or `2`. (default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The stream identifier as a JSON string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#index ServiceVcl#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#index ServiceVcl#index}
   */
   readonly index: string;
   /**
   * The unique name of the GrafanaCloudLogs logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The name of the condition to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The Access Policy Token key for your GrafanaCloudLogs account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#token ServiceVcl#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#token ServiceVcl#token}
   */
   readonly token: string;
   /**
   * The URL to stream logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#url ServiceVcl#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#url ServiceVcl#url}
   */
   readonly url: string;
   /**
   * The Grafana User ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#user ServiceVcl#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#user ServiceVcl#user}
   */
   readonly user: string;
 }
@@ -10171,49 +10171,49 @@ export interface ServiceVclLoggingHeroku {
   /**
   * Apache-style string or VCL variables to use for log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either `1` or `2`. (default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The unique name of the Heroku logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed. Can be `none` or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The name of an existing condition in the configured endpoint, or leave blank to always execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The token to use for authentication (https://www.heroku.com/docs/customer-token-authentication-token/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#token ServiceVcl#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#token ServiceVcl#token}
   */
   readonly token: string;
   /**
   * The URL to stream logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#url ServiceVcl#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#url ServiceVcl#url}
   */
   readonly url: string;
 }
@@ -10525,49 +10525,49 @@ export interface ServiceVclLoggingHoneycomb {
   /**
   * The Honeycomb Dataset you want to log to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#dataset ServiceVcl#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#dataset ServiceVcl#dataset}
   */
   readonly dataset: string;
   /**
   * Apache style log formatting. Your log must produce valid JSON that Honeycomb can ingest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either `1` or `2`. (default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The unique name of the Honeycomb logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed. Can be `none` or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The name of an existing condition in the configured endpoint, or leave blank to always execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The Write Key from the Account page of your Honeycomb account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#token ServiceVcl#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#token ServiceVcl#token}
   */
   readonly token: string;
 }
@@ -10879,133 +10879,133 @@ export interface ServiceVclLoggingHttps {
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * Value of the `Content-Type` header sent with the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#content_type ServiceVcl#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#content_type ServiceVcl#content_type}
   */
   readonly contentType?: string;
   /**
   * Apache-style string or VCL variables to use for log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either 1 or 2. (default: 2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * Custom header sent with the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#header_name ServiceVcl#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#header_name ServiceVcl#header_name}
   */
   readonly headerName?: string;
   /**
   * Value of the custom header sent with the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#header_value ServiceVcl#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#header_value ServiceVcl#header_value}
   */
   readonly headerValue?: string;
   /**
   * Formats log entries as JSON. Can be either disabled (`0`), array of json (`1`), or newline delimited json (`2`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#json_format ServiceVcl#json_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#json_format ServiceVcl#json_format}
   */
   readonly jsonFormat?: string;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
   */
   readonly messageType?: string;
   /**
   * HTTP method used for request. Can be either `POST` or `PUT`. Default `POST`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#method ServiceVcl#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#method ServiceVcl#method}
   */
   readonly method?: string;
   /**
   * The unique name of the HTTPS logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * How frequently, in seconds, batches of log data are sent to the HTTPS endpoint. A value of 0 sends logs at the same interval as the default, which is 5 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#period ServiceVcl#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#period ServiceVcl#period}
   */
   readonly period?: number;
   /**
   * Where in the generated VCL the logging call should be placed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The maximum number of bytes sent in one request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#request_max_bytes ServiceVcl#request_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#request_max_bytes ServiceVcl#request_max_bytes}
   */
   readonly requestMaxBytes?: number;
   /**
   * The maximum number of logs sent in one request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#request_max_entries ServiceVcl#request_max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#request_max_entries ServiceVcl#request_max_entries}
   */
   readonly requestMaxEntries?: number;
   /**
   * The name of the condition to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * A secure certificate to authenticate the server with. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_ca_cert ServiceVcl#tls_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_ca_cert ServiceVcl#tls_ca_cert}
   */
   readonly tlsCaCert?: string;
   /**
   * The client certificate used to make authenticated requests. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_client_cert ServiceVcl#tls_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_client_cert ServiceVcl#tls_client_cert}
   */
   readonly tlsClientCert?: string;
   /**
   * The client private key used to make authenticated requests. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_client_key ServiceVcl#tls_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_client_key ServiceVcl#tls_client_key}
   */
   readonly tlsClientKey?: string;
   /**
   * Used during the TLS handshake to validate the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_hostname ServiceVcl#tls_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_hostname ServiceVcl#tls_hostname}
   */
   readonly tlsHostname?: string;
   /**
   * URL that log data will be sent to. Must use the https protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#url ServiceVcl#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#url ServiceVcl#url}
   */
   readonly url: string;
 }
@@ -11726,121 +11726,121 @@ export interface ServiceVclLoggingKafka {
   /**
   * SASL authentication method. One of: plain, scram-sha-256, scram-sha-512
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#auth_method ServiceVcl#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#auth_method ServiceVcl#auth_method}
   */
   readonly authMethod?: string;
   /**
   * A comma-separated list of IP addresses or hostnames of Kafka brokers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#brokers ServiceVcl#brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#brokers ServiceVcl#brokers}
   */
   readonly brokers: string;
   /**
   * The codec used for compression of your logs. One of: `gzip`, `snappy`, `lz4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * Apache style log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either 1 or 2. (default: 2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The unique name of the Kafka logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Enables parsing of key=value tuples from the beginning of a logline, turning them into record headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#parse_log_keyvals ServiceVcl#parse_log_keyvals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#parse_log_keyvals ServiceVcl#parse_log_keyvals}
   */
   readonly parseLogKeyvals?: boolean | cdktf.IResolvable;
   /**
   * SASL Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#password ServiceVcl#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#password ServiceVcl#password}
   */
   readonly password?: string;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * Maximum size of log batch, if non-zero. Defaults to 0 for unbounded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#request_max_bytes ServiceVcl#request_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#request_max_bytes ServiceVcl#request_max_bytes}
   */
   readonly requestMaxBytes?: number;
   /**
   * The Number of acknowledgements a leader must receive before a write is considered successful. One of: `1` (default) One server needs to respond. `0` No servers need to respond. `-1` Wait for all in-sync replicas to respond
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#required_acks ServiceVcl#required_acks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#required_acks ServiceVcl#required_acks}
   */
   readonly requiredAcks?: string;
   /**
   * The name of an existing condition in the configured endpoint, or leave blank to always execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * A secure certificate to authenticate the server with. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_ca_cert ServiceVcl#tls_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_ca_cert ServiceVcl#tls_ca_cert}
   */
   readonly tlsCaCert?: string;
   /**
   * The client certificate used to make authenticated requests. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_client_cert ServiceVcl#tls_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_client_cert ServiceVcl#tls_client_cert}
   */
   readonly tlsClientCert?: string;
   /**
   * The client private key used to make authenticated requests. Must be in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_client_key ServiceVcl#tls_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_client_key ServiceVcl#tls_client_key}
   */
   readonly tlsClientKey?: string;
   /**
   * The hostname used to verify the server's certificate. It can either be the Common Name or a Subject Alternative Name (SAN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_hostname ServiceVcl#tls_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_hostname ServiceVcl#tls_hostname}
   */
   readonly tlsHostname?: string;
   /**
   * The Kafka topic to send logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#topic ServiceVcl#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#topic ServiceVcl#topic}
   */
   readonly topic: string;
   /**
   * Whether to use TLS for secure logging. Can be either `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#use_tls ServiceVcl#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#use_tls ServiceVcl#use_tls}
   */
   readonly useTls?: boolean | cdktf.IResolvable;
   /**
   * SASL User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#user ServiceVcl#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#user ServiceVcl#user}
   */
   readonly user?: string;
 }
@@ -12500,67 +12500,67 @@ export interface ServiceVclLoggingKinesis {
   /**
   * The AWS access key to be used to write to the stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#access_key ServiceVcl#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#access_key ServiceVcl#access_key}
   */
   readonly accessKey?: string;
   /**
   * Apache style log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either `1` or `2`. (default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The Amazon Resource Name (ARN) for the IAM role granting Fastly access to Kinesis. Not required if `access_key` and `secret_key` are provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#iam_role ServiceVcl#iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#iam_role ServiceVcl#iam_role}
   */
   readonly iamRole?: string;
   /**
   * The unique name of the Kinesis logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed. Can be `none` or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The AWS region the stream resides in. (Default: `us-east-1`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#region ServiceVcl#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#region ServiceVcl#region}
   */
   readonly region?: string;
   /**
   * The name of an existing condition in the configured endpoint, or leave blank to always execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The AWS secret access key to authenticate with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#secret_key ServiceVcl#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#secret_key ServiceVcl#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The Kinesis stream name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#topic ServiceVcl#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#topic ServiceVcl#topic}
   */
   readonly topic: string;
 }
@@ -12962,55 +12962,55 @@ export interface ServiceVclLoggingLogentries {
   /**
   * Apache-style string or VCL variables to use for log formatting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either 1 or 2. (Default: 2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The unique name of the Logentries logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * The port number configured in Logentries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#port ServiceVcl#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#port ServiceVcl#port}
   */
   readonly port?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * Name of blockAttributes condition to apply this logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * Use token based authentication (https://logentries.com/doc/input-token/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#token ServiceVcl#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#token ServiceVcl#token}
   */
   readonly token: string;
   /**
   * Whether to use TLS for secure logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#use_tls ServiceVcl#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#use_tls ServiceVcl#use_tls}
   */
   readonly useTls?: boolean | cdktf.IResolvable;
 }
@@ -13354,43 +13354,43 @@ export interface ServiceVclLoggingLoggly {
   /**
   * Apache-style string or VCL variables to use for log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either `1` or `2`. (default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The unique name of the Loggly logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed. Can be `none` or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The name of an existing condition in the configured endpoint, or leave blank to always execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The token to use for authentication (https://www.loggly.com/docs/customer-token-authentication-token/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#token ServiceVcl#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#token ServiceVcl#token}
   */
   readonly token: string;
 }
@@ -13676,49 +13676,49 @@ export interface ServiceVclLoggingLogshuttle {
   /**
   * Apache style log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either `1` or `2`. (default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The unique name of the Log Shuttle logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed. Can be `none` or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The name of an existing condition in the configured endpoint, or leave blank to always execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The data authentication token associated with this endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#token ServiceVcl#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#token ServiceVcl#token}
   */
   readonly token: string;
   /**
   * Your Log Shuttle endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#url ServiceVcl#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#url ServiceVcl#url}
   */
   readonly url: string;
 }
@@ -14030,49 +14030,49 @@ export interface ServiceVclLoggingNewrelic {
   /**
   * Apache style log formatting. Your log must produce valid JSON that New Relic Logs can ingest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either `1` or `2`. (default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The unique name of the New Relic logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The region that log data will be sent to. Default: `US`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#region ServiceVcl#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#region ServiceVcl#region}
   */
   readonly region?: string;
   /**
   * The name of the condition to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The Insert API key from the Account page of your New Relic account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#token ServiceVcl#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#token ServiceVcl#token}
   */
   readonly token: string;
 }
@@ -14387,55 +14387,55 @@ export interface ServiceVclLoggingNewrelicotlp {
   /**
   * Apache style log formatting. Your log must produce valid JSON that New Relic OTLP can ingest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either `1` or `2`. (default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The unique name of the New Relic OTLP logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The region that log data will be sent to. Default: `US`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#region ServiceVcl#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#region ServiceVcl#region}
   */
   readonly region?: string;
   /**
   * The name of the condition to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The Insert API key from the Account page of your New Relic account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#token ServiceVcl#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#token ServiceVcl#token}
   */
   readonly token: string;
   /**
   * The optional New Relic Trace Observer URL to stream logs to for Infinite Tracing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#url ServiceVcl#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#url ServiceVcl#url}
   */
   readonly url?: string;
 }
@@ -14779,103 +14779,103 @@ export interface ServiceVclLoggingOpenstack {
   /**
   * Your OpenStack account access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#access_key ServiceVcl#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#access_key ServiceVcl#access_key}
   */
   readonly accessKey: string;
   /**
   * The name of your OpenStack container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#bucket_name ServiceVcl#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#bucket_name ServiceVcl#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * Apache style log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either `1` or `2`. (default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
   */
   readonly messageType?: string;
   /**
   * The unique name of the OpenStack logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Path to store the files. Must end with a trailing slash. If this field is left empty, the files will be saved in the bucket's root path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#path ServiceVcl#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#path ServiceVcl#path}
   */
   readonly path?: string;
   /**
   * How frequently the logs should be transferred, in seconds. Default `3600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#period ServiceVcl#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#period ServiceVcl#period}
   */
   readonly period?: number;
   /**
   * Where in the generated VCL the logging call should be placed. Can be `none` or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * A PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
   */
   readonly publicKey?: string;
   /**
   * The name of an existing condition in the configured endpoint, or leave blank to always execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
   */
   readonly timestampFormat?: string;
   /**
   * Your OpenStack auth url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#url ServiceVcl#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#url ServiceVcl#url}
   */
   readonly url: string;
   /**
   * The username for your OpenStack account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#user ServiceVcl#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#user ServiceVcl#user}
   */
   readonly user: string;
 }
@@ -15442,49 +15442,49 @@ export interface ServiceVclLoggingPapertrail {
   /**
   * The address of the Papertrail endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#address ServiceVcl#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#address ServiceVcl#address}
   */
   readonly address: string;
   /**
   * A Fastly [log format string](https://docs.fastly.com/en/guides/custom-log-formats)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. The logging call gets placed by default in `vcl_log` if `format_version` is set to `2` and in `vcl_deliver` if `format_version` is set to `1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * A unique name to identify this Papertrail endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed. If not set, endpoints with `format_version` of 2 are placed in `vcl_log` and those with `format_version` of 1 are placed in `vcl_deliver`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * The port associated with the address where the Papertrail endpoint can be accessed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#port ServiceVcl#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#port ServiceVcl#port}
   */
   readonly port: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The name of an existing condition in the configured endpoint, or leave blank to always execute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
 }
@@ -15796,139 +15796,139 @@ export interface ServiceVclLoggingS3 {
   /**
   * The AWS [Canned ACL](https://docs.aws.amazon.com/AmazonS3/latest/userguide/acl-overview.html#canned-acl) to use for objects uploaded to the S3 bucket. Options are: `private`, `public-read`, `public-read-write`, `aws-exec-read`, `authenticated-read`, `bucket-owner-read`, `bucket-owner-full-control`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#acl ServiceVcl#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#acl ServiceVcl#acl}
   */
   readonly acl?: string;
   /**
   * The name of the bucket in which to store the logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#bucket_name ServiceVcl#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#bucket_name ServiceVcl#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * If you created the S3 bucket outside of `us-east-1`, then specify the corresponding bucket endpoint. Example: `s3-us-west-2.amazonaws.com`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#domain ServiceVcl#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#domain ServiceVcl#domain}
   */
   readonly domain?: string;
   /**
   * Maximum size of an uploaded log file, if non-zero.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#file_max_bytes ServiceVcl#file_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#file_max_bytes ServiceVcl#file_max_bytes}
   */
   readonly fileMaxBytes?: number;
   /**
   * Apache-style string or VCL variables to use for log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either 1 or 2. (Default: 2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
   */
   readonly messageType?: string;
   /**
   * The unique name of the S3 logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Path to store the files. Must end with a trailing slash. If this field is left empty, the files will be saved in the bucket's root path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#path ServiceVcl#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#path ServiceVcl#path}
   */
   readonly path?: string;
   /**
   * How frequently the logs should be transferred, in seconds. Default `3600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#period ServiceVcl#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#period ServiceVcl#period}
   */
   readonly period?: number;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * A PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
   */
   readonly publicKey?: string;
   /**
   * The S3 storage class (redundancy level). Should be one of: `standard`, `intelligent_tiering`, `standard_ia`, `onezone_ia`, `glacier`, `glacier_ir`, `deep_archive`, or `reduced_redundancy`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#redundancy ServiceVcl#redundancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#redundancy ServiceVcl#redundancy}
   */
   readonly redundancy?: string;
   /**
   * Name of blockAttributes condition to apply this logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * AWS Access Key of an account with the required permissions to post logs. It is **strongly** recommended you create a separate IAM user with permissions to only operate on this Bucket. This key will be not be encrypted. Not required if `iam_role` is provided. You can provide this key via an environment variable, `FASTLY_S3_ACCESS_KEY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#s3_access_key ServiceVcl#s3_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#s3_access_key ServiceVcl#s3_access_key}
   */
   readonly s3AccessKey?: string;
   /**
   * The Amazon Resource Name (ARN) for the IAM role granting Fastly access to S3. Not required if `access_key` and `secret_key` are provided. You can provide this value via an environment variable, `FASTLY_S3_IAM_ROLE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#s3_iam_role ServiceVcl#s3_iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#s3_iam_role ServiceVcl#s3_iam_role}
   */
   readonly s3IamRole?: string;
   /**
   * AWS Secret Key of an account with the required permissions to post logs. It is **strongly** recommended you create a separate IAM user with permissions to only operate on this Bucket. This secret will be not be encrypted. Not required if `iam_role` is provided. You can provide this secret via an environment variable, `FASTLY_S3_SECRET_KEY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#s3_secret_key ServiceVcl#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#s3_secret_key ServiceVcl#s3_secret_key}
   */
   readonly s3SecretKey?: string;
   /**
   * Specify what type of server side encryption should be used. Can be either `AES256` or `aws:kms`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#server_side_encryption ServiceVcl#server_side_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#server_side_encryption ServiceVcl#server_side_encryption}
   */
   readonly serverSideEncryption?: string;
   /**
   * Optional server-side KMS Key Id. Must be set if server_side_encryption is set to `aws:kms`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#server_side_encryption_kms_key_id ServiceVcl#server_side_encryption_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#server_side_encryption_kms_key_id ServiceVcl#server_side_encryption_kms_key_id}
   */
   readonly serverSideEncryptionKmsKeyId?: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
   */
   readonly timestampFormat?: string;
 }
@@ -16678,55 +16678,55 @@ export interface ServiceVclLoggingScalyr {
   /**
   * Apache style log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either 1 or 2. (default: 2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * The unique name of the Scalyr logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The name of the logfile field sent to Scalyr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#project_id ServiceVcl#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#project_id ServiceVcl#project_id}
   */
   readonly projectId?: string;
   /**
   * The region that log data will be sent to. One of `US` or `EU`. Defaults to `US` if undefined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#region ServiceVcl#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#region ServiceVcl#region}
   */
   readonly region?: string;
   /**
   * The name of an existing condition in the configured endpoint, or leave blank to always execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The token to use for authentication (https://www.scalyr.com/keys)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#token ServiceVcl#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#token ServiceVcl#token}
   */
   readonly token: string;
 }
@@ -17070,115 +17070,115 @@ export interface ServiceVclLoggingSftp {
   /**
   * The SFTP address to stream logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#address ServiceVcl#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#address ServiceVcl#address}
   */
   readonly address: string;
   /**
   * The codec used for compression of your logs. Valid values are zstd, snappy, and gzip. If the specified codec is "gzip", gzip_level will default to 3. To specify a different level, leave compression_codec blank and explicitly set the level using gzip_level. Specifying both compression_codec and gzip_level in the same API request will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#compression_codec ServiceVcl#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * Apache-style string or VCL variables to use for log formatting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either 1 or 2. (default: 2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * Level of Gzip compression from `0-9`. `0` means no compression. `1` is the fastest and the least compressed version, `9` is the slowest and the most compressed version. Default `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#gzip_level ServiceVcl#gzip_level}
   */
   readonly gzipLevel?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
   */
   readonly messageType?: string;
   /**
   * The unique name of the SFTP logging endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * The password for the server. If both `password` and `secret_key` are passed, `secret_key` will be preferred
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#password ServiceVcl#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#password ServiceVcl#password}
   */
   readonly password?: string;
   /**
   * The path to upload log files to. If the path ends in `/` then it is treated as a directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#path ServiceVcl#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#path ServiceVcl#path}
   */
   readonly path: string;
   /**
   * How frequently log files are finalized so they can be available for reading (in seconds, default `3600`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#period ServiceVcl#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#period ServiceVcl#period}
   */
   readonly period?: number;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * The port the SFTP service listens on. (Default: `22`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#port ServiceVcl#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#port ServiceVcl#port}
   */
   readonly port?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * A PGP public key that Fastly will use to encrypt your log files before writing them to disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#public_key ServiceVcl#public_key}
   */
   readonly publicKey?: string;
   /**
   * The name of the condition to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The SSH private key for the server. If both `password` and `secret_key` are passed, `secret_key` will be preferred
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#secret_key ServiceVcl#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#secret_key ServiceVcl#secret_key}
   */
   readonly secretKey?: string;
   /**
   * A list of host keys for all hosts we can connect to over SFTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#ssh_known_hosts ServiceVcl#ssh_known_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#ssh_known_hosts ServiceVcl#ssh_known_hosts}
   */
   readonly sshKnownHosts: string;
   /**
   * The `strftime` specified timestamp formatting (default `%Y-%m-%dT%H:%M:%S.000`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#timestamp_format ServiceVcl#timestamp_format}
   */
   readonly timestampFormat?: string;
   /**
   * The username for the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#user ServiceVcl#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#user ServiceVcl#user}
   */
   readonly user: string;
 }
@@ -17803,79 +17803,79 @@ export interface ServiceVclLoggingSplunk {
   /**
   * Apache-style string or VCL variables to use for log formatting (default: `%h %l %u %t "%r" %>s %b`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either 1 or 2. (default: 2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * A unique name to identify the Splunk endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * The name of the condition to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * A secure certificate to authenticate the server with. Must be in PEM format. You can provide this certificate via an environment variable, `FASTLY_SPLUNK_CA_CERT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_ca_cert ServiceVcl#tls_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_ca_cert ServiceVcl#tls_ca_cert}
   */
   readonly tlsCaCert?: string;
   /**
   * The client certificate used to make authenticated requests. Must be in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_client_cert ServiceVcl#tls_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_client_cert ServiceVcl#tls_client_cert}
   */
   readonly tlsClientCert?: string;
   /**
   * The client private key used to make authenticated requests. Must be in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_client_key ServiceVcl#tls_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_client_key ServiceVcl#tls_client_key}
   */
   readonly tlsClientKey?: string;
   /**
   * The hostname used to verify the server's certificate. It can either be the Common Name or a Subject Alternative Name (SAN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_hostname ServiceVcl#tls_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_hostname ServiceVcl#tls_hostname}
   */
   readonly tlsHostname?: string;
   /**
   * The Splunk token to be used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#token ServiceVcl#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#token ServiceVcl#token}
   */
   readonly token: string;
   /**
   * The Splunk URL to stream logs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#url ServiceVcl#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#url ServiceVcl#url}
   */
   readonly url: string;
   /**
   * Whether to use TLS for secure logging. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#use_tls ServiceVcl#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#use_tls ServiceVcl#use_tls}
   */
   readonly useTls?: boolean | cdktf.IResolvable;
 }
@@ -18332,49 +18332,49 @@ export interface ServiceVclLoggingSumologic {
   /**
   * Apache-style string or VCL variables to use for log formatting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format used for the configured endpoint. Can be either 1 or 2. (Default: 2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
   */
   readonly messageType?: string;
   /**
   * A unique name to identify this Sumologic endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * Name of blockAttributes condition to apply this logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * The URL to Sumologic collector endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#url ServiceVcl#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#url ServiceVcl#url}
   */
   readonly url: string;
 }
@@ -18689,91 +18689,91 @@ export interface ServiceVclLoggingSyslog {
   /**
   * A hostname or IPv4 address of the Syslog endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#address ServiceVcl#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#address ServiceVcl#address}
   */
   readonly address: string;
   /**
   * Apache-style string or VCL variables to use for log formatting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format ServiceVcl#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format ServiceVcl#format}
   */
   readonly format?: string;
   /**
   * The version of the custom logging format. Can be either 1 or 2. (Default: 2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#format_version ServiceVcl#format_version}
   */
   readonly formatVersion?: number;
   /**
   * How the message should be formatted. Can be either `classic`, `loggly`, `logplex` or `blank`. Default is `classic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#message_type ServiceVcl#message_type}
   */
   readonly messageType?: string;
   /**
   * A unique name to identify this Syslog endpoint. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Where in the generated VCL the logging call should be placed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#placement ServiceVcl#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#placement ServiceVcl#placement}
   */
   readonly placement?: string;
   /**
   * The port associated with the address where the Syslog endpoint can be accessed. Default `514`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#port ServiceVcl#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#port ServiceVcl#port}
   */
   readonly port?: number;
   /**
   * Region where logs will be processed before streaming to BigQuery. Valid values are 'none', 'us' and 'eu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#processing_region ServiceVcl#processing_region}
   */
   readonly processingRegion?: string;
   /**
   * Name of blockAttributes condition to apply this logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_condition ServiceVcl#response_condition}
   */
   readonly responseCondition?: string;
   /**
   * A secure certificate to authenticate the server with. Must be in PEM format. You can provide this certificate via an environment variable, `FASTLY_SYSLOG_CA_CERT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_ca_cert ServiceVcl#tls_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_ca_cert ServiceVcl#tls_ca_cert}
   */
   readonly tlsCaCert?: string;
   /**
   * The client certificate used to make authenticated requests. Must be in PEM format. You can provide this certificate via an environment variable, `FASTLY_SYSLOG_CLIENT_CERT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_client_cert ServiceVcl#tls_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_client_cert ServiceVcl#tls_client_cert}
   */
   readonly tlsClientCert?: string;
   /**
   * The client private key used to make authenticated requests. Must be in PEM format. You can provide this key via an environment variable, `FASTLY_SYSLOG_CLIENT_KEY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_client_key ServiceVcl#tls_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_client_key ServiceVcl#tls_client_key}
   */
   readonly tlsClientKey?: string;
   /**
   * Used during the TLS handshake to validate the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#tls_hostname ServiceVcl#tls_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#tls_hostname ServiceVcl#tls_hostname}
   */
   readonly tlsHostname?: string;
   /**
   * Whether to prepend each message with a specific token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#token ServiceVcl#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#token ServiceVcl#token}
   */
   readonly token?: string;
   /**
   * Whether to use TLS for secure logging. Default `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#use_tls ServiceVcl#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#use_tls ServiceVcl#use_tls}
   */
   readonly useTls?: boolean | cdktf.IResolvable;
 }
@@ -19291,13 +19291,13 @@ export interface ServiceVclProductEnablementDdosProtection {
   /**
   * Enable DDoS Protection support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#enabled ServiceVcl#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#enabled ServiceVcl#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Operation mode. Can be either `off`, `log`, or `block`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#mode ServiceVcl#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#mode ServiceVcl#mode}
   */
   readonly mode: string;
 }
@@ -19406,19 +19406,19 @@ export interface ServiceVclProductEnablementNgwaf {
   /**
   * Enable Next-Gen WAF support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#enabled ServiceVcl#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#enabled ServiceVcl#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The percentage of traffic to inspect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#traffic_ramp ServiceVcl#traffic_ramp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#traffic_ramp ServiceVcl#traffic_ramp}
   */
   readonly trafficRamp?: number;
   /**
   * The workspace to link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#workspace_id ServiceVcl#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#workspace_id ServiceVcl#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -19556,67 +19556,67 @@ export interface ServiceVclProductEnablement {
   /**
   * Enable API Discovery support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#api_discovery ServiceVcl#api_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#api_discovery ServiceVcl#api_discovery}
   */
   readonly apiDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Enable Bot Management support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#bot_management ServiceVcl#bot_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#bot_management ServiceVcl#bot_management}
   */
   readonly botManagement?: boolean | cdktf.IResolvable;
   /**
   * Enable Brotli Compression support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#brotli_compression ServiceVcl#brotli_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#brotli_compression ServiceVcl#brotli_compression}
   */
   readonly brotliCompression?: boolean | cdktf.IResolvable;
   /**
   * Enable Domain Inspector support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#domain_inspector ServiceVcl#domain_inspector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#domain_inspector ServiceVcl#domain_inspector}
   */
   readonly domainInspector?: boolean | cdktf.IResolvable;
   /**
   * Enable Image Optimizer support (all backends must have a `shield` attribute)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#image_optimizer ServiceVcl#image_optimizer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#image_optimizer ServiceVcl#image_optimizer}
   */
   readonly imageOptimizer?: boolean | cdktf.IResolvable;
   /**
   * Enable Log Explorer & Insights
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#log_explorer_insights ServiceVcl#log_explorer_insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#log_explorer_insights ServiceVcl#log_explorer_insights}
   */
   readonly logExplorerInsights?: boolean | cdktf.IResolvable;
   /**
   * Used by the provider to identify modified settings (changing this value will force the entire block to be deleted, then recreated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name?: string;
   /**
   * Enable Origin Inspector support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#origin_inspector ServiceVcl#origin_inspector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#origin_inspector ServiceVcl#origin_inspector}
   */
   readonly originInspector?: boolean | cdktf.IResolvable;
   /**
   * Enable WebSockets support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#websockets ServiceVcl#websockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#websockets ServiceVcl#websockets}
   */
   readonly websockets?: boolean | cdktf.IResolvable;
   /**
   * ddos_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#ddos_protection ServiceVcl#ddos_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#ddos_protection ServiceVcl#ddos_protection}
   */
   readonly ddosProtection?: ServiceVclProductEnablementDdosProtection;
   /**
   * ngwaf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#ngwaf ServiceVcl#ngwaf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#ngwaf ServiceVcl#ngwaf}
   */
   readonly ngwaf?: ServiceVclProductEnablementNgwaf;
 }
@@ -19992,19 +19992,19 @@ export interface ServiceVclRateLimiterResponse {
   /**
   * HTTP response body data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#content ServiceVcl#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#content ServiceVcl#content}
   */
   readonly content: string;
   /**
   * HTTP Content-Type (e.g. application/json)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#content_type ServiceVcl#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#content_type ServiceVcl#content_type}
   */
   readonly contentType: string;
   /**
   * HTTP response status code (e.g. 429)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#status ServiceVcl#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#status ServiceVcl#status}
   */
   readonly status: number;
 }
@@ -20139,73 +20139,73 @@ export interface ServiceVclRateLimiter {
   /**
   * The action to take when a rate limiter violation is detected (one of: log_only, response, response_object)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#action ServiceVcl#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#action ServiceVcl#action}
   */
   readonly action: string;
   /**
   * Comma-separated list of VCL variables used to generate a counter key to identify a client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#client_key ServiceVcl#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#client_key ServiceVcl#client_key}
   */
   readonly clientKey: string;
   /**
   * Revision number of the rate limiting feature implementation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#feature_revision ServiceVcl#feature_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#feature_revision ServiceVcl#feature_revision}
   */
   readonly featureRevision?: number;
   /**
   * Comma-separated list of HTTP methods to apply rate limiting to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#http_methods ServiceVcl#http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#http_methods ServiceVcl#http_methods}
   */
   readonly httpMethods: string;
   /**
   * Name of the type of logging endpoint to be used when action is log_only (one of: azureblob, bigquery, cloudfiles, datadog, digitalocean, elasticsearch, ftp, gcs, googleanalytics, heroku, honeycomb, http, https, kafka, kinesis, logentries, loggly, logshuttle, newrelic, openstack, papertrail, pubsub, s3, scalyr, sftp, splunk, stackdriver, sumologic, syslog)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#logger_type ServiceVcl#logger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#logger_type ServiceVcl#logger_type}
   */
   readonly loggerType?: string;
   /**
   * A unique human readable name for the rate limiting rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Length of time in minutes that the rate limiter is in effect after the initial violation is detected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#penalty_box_duration ServiceVcl#penalty_box_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#penalty_box_duration ServiceVcl#penalty_box_duration}
   */
   readonly penaltyBoxDuration: number;
   /**
   * Name of existing response object. Required if action is response_object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response_object_name ServiceVcl#response_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response_object_name ServiceVcl#response_object_name}
   */
   readonly responseObjectName?: string;
   /**
   * Upper limit of requests per second allowed by the rate limiter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#rps_limit ServiceVcl#rps_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#rps_limit ServiceVcl#rps_limit}
   */
   readonly rpsLimit: number;
   /**
   * The name of an Edge Dictionary containing URIs as keys. If not defined or null, all origin URIs will be rate limited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#uri_dictionary_name ServiceVcl#uri_dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#uri_dictionary_name ServiceVcl#uri_dictionary_name}
   */
   readonly uriDictionaryName?: string;
   /**
   * Number of seconds during which the RPS limit must be exceeded in order to trigger a violation (one of: 1, 10, 60)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#window_size ServiceVcl#window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#window_size ServiceVcl#window_size}
   */
   readonly windowSize: number;
   /**
   * response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response ServiceVcl#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response ServiceVcl#response}
   */
   readonly response?: ServiceVclRateLimiterResponse;
 }
@@ -20626,67 +20626,67 @@ export interface ServiceVclRequestSetting {
   /**
   * Allows you to terminate request handling and immediately perform an action. When set it can be `lookup` or `pass` (Ignore the cache completely)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#action ServiceVcl#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#action ServiceVcl#action}
   */
   readonly action?: string;
   /**
   * Disable collapsed forwarding, so you don't wait for other objects to origin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#bypass_busy_wait ServiceVcl#bypass_busy_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#bypass_busy_wait ServiceVcl#bypass_busy_wait}
   */
   readonly bypassBusyWait?: boolean | cdktf.IResolvable;
   /**
   * Sets the host header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#default_host ServiceVcl#default_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#default_host ServiceVcl#default_host}
   */
   readonly defaultHost?: string;
   /**
   * Force a cache miss for the request. If specified, can be `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#force_miss ServiceVcl#force_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#force_miss ServiceVcl#force_miss}
   */
   readonly forceMiss?: boolean | cdktf.IResolvable;
   /**
   * Forces the request to use SSL (Redirects a non-SSL request to SSL)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#force_ssl ServiceVcl#force_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#force_ssl ServiceVcl#force_ssl}
   */
   readonly forceSsl?: boolean | cdktf.IResolvable;
   /**
   * Comma separated list of varnish request object fields that should be in the hash key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#hash_keys ServiceVcl#hash_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#hash_keys ServiceVcl#hash_keys}
   */
   readonly hashKeys?: string;
   /**
   * How old an object is allowed to be to serve `stale-if-error` or `stale-while-revalidate`, in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#max_stale_age ServiceVcl#max_stale_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#max_stale_age ServiceVcl#max_stale_age}
   */
   readonly maxStaleAge?: number;
   /**
   * Unique name to refer to this Request Setting. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Name of already defined `condition` to determine if this request setting should be applied (should be unique across multiple instances of `request_setting`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#request_condition ServiceVcl#request_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#request_condition ServiceVcl#request_condition}
   */
   readonly requestCondition?: string;
   /**
   * Injects the X-Timer info into the request for viewing origin fetch durations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#timer_support ServiceVcl#timer_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#timer_support ServiceVcl#timer_support}
   */
   readonly timerSupport?: boolean | cdktf.IResolvable;
   /**
   * X-Forwarded-For, should be `clear`, `leave`, `append`, `append_all`, or `overwrite`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#xff ServiceVcl#xff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#xff ServiceVcl#xff}
   */
   readonly xff?: string;
 }
@@ -21091,43 +21091,43 @@ export interface ServiceVclResponseObject {
   /**
   * Name of already defined `condition` to check after we have retrieved an object. If the condition passes then deliver this Request Object instead. This `condition` must be of type `CACHE`. For detailed information about Conditionals, see [Fastly's Documentation on Conditionals](https://docs.fastly.com/en/guides/using-conditions)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#cache_condition ServiceVcl#cache_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#cache_condition ServiceVcl#cache_condition}
   */
   readonly cacheCondition?: string;
   /**
   * The content to deliver for the response object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#content ServiceVcl#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#content ServiceVcl#content}
   */
   readonly content?: string;
   /**
   * The MIME type of the content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#content_type ServiceVcl#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#content_type ServiceVcl#content_type}
   */
   readonly contentType?: string;
   /**
   * A unique name to identify this Response Object. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Name of already defined `condition` to be checked during the request phase. If the condition passes then this object will be delivered. This `condition` must be of type `REQUEST`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#request_condition ServiceVcl#request_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#request_condition ServiceVcl#request_condition}
   */
   readonly requestCondition?: string;
   /**
   * The HTTP Response. Default `OK`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#response ServiceVcl#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#response ServiceVcl#response}
   */
   readonly response?: string;
   /**
   * The HTTP Status Code. Default `200`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#status ServiceVcl#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#status ServiceVcl#status}
   */
   readonly status?: number;
 }
@@ -21416,25 +21416,25 @@ export interface ServiceVclSnippet {
   /**
   * The VCL code that specifies exactly what the snippet does
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#content ServiceVcl#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#content ServiceVcl#content}
   */
   readonly content: string;
   /**
   * A name that is unique across "regular" and "dynamic" VCL Snippet configuration blocks. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
   /**
   * Priority determines the ordering for multiple snippets. Lower numbers execute first. Defaults to `100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#priority ServiceVcl#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#priority ServiceVcl#priority}
   */
   readonly priority?: number;
   /**
   * The location in generated VCL where the snippet should be placed (can be one of `init`, `recv`, `hash`, `hit`, `miss`, `pass`, `fetch`, `error`, `deliver`, `log` or `none`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#type ServiceVcl#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#type ServiceVcl#type}
   */
   readonly type: string;
 }
@@ -21630,19 +21630,19 @@ export interface ServiceVclVcl {
   /**
   * The custom VCL code to upload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#content ServiceVcl#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#content ServiceVcl#content}
   */
   readonly content: string;
   /**
   * If `true`, use this block as the main configuration. If `false`, use this block as an includable library. Only a single VCL block can be marked as the main block. Default is `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#main ServiceVcl#main}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#main ServiceVcl#main}
   */
   readonly main?: boolean | cdktf.IResolvable;
   /**
   * A unique name for this configuration block. It is important to note that changing this attribute will delete and recreate the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#name ServiceVcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#name ServiceVcl#name}
   */
   readonly name: string;
 }
@@ -21810,7 +21810,7 @@ export class ServiceVclVclList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl fastly_service_vcl}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl fastly_service_vcl}
 */
 export class ServiceVcl extends cdktf.TerraformResource {
 
@@ -21826,7 +21826,7 @@ export class ServiceVcl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceVcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceVcl to import
-  * @param importFromId The id of the existing ServiceVcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceVcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceVcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -21838,7 +21838,7 @@ export class ServiceVcl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.4.0/docs/resources/service_vcl fastly_service_vcl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_vcl fastly_service_vcl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -21849,8 +21849,8 @@ export class ServiceVcl extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_service_vcl',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#end_time_less_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#end_time_less_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#end_time_less_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#end_time_less_than_or_equal_to}
   */
   readonly endTimeLessThanOrEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#filter_by DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#filter_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#filter_by DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#filter_by}
   */
   readonly filterBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#limit DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#limit DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#managed_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#managed_database_id}
   */
   readonly managedDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#start_time_greater_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#start_time_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#start_time_greater_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#start_time_greater_than_or_equal_to}
   */
   readonly startTimeGreaterThanOrEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#task_type DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#task_type DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#task_type}
   */
   readonly taskType?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#filter DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#filter DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#filter}
   */
   readonly filter?: DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperationsFilter[] | cdktf.IResolvable;
 }
@@ -470,15 +470,15 @@ export class DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollecti
 }
 export interface DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperationsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#regex DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#regex DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#values DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#values DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations#values}
   */
   readonly values: string[];
 }
@@ -646,7 +646,7 @@ export class DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollecti
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations oci_database_management_managed_database_optimizer_statistics_collection_operations}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations oci_database_management_managed_database_optimizer_statistics_collection_operations}
 */
 export class DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations extends cdktf.TerraformDataSource {
 
@@ -662,7 +662,7 @@ export class DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollecti
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -674,7 +674,7 @@ export class DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollecti
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations oci_database_management_managed_database_optimizer_statistics_collection_operations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations oci_database_management_managed_database_optimizer_statistics_collection_operations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -685,8 +685,8 @@ export class DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollecti
       terraformResourceType: 'oci_database_management_managed_database_optimizer_statistics_collection_operations',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

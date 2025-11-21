@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface WebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Generic webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#custom Webhook#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#custom Webhook#custom}
   */
   readonly custom?: WebhookCustom;
   /**
   * Demisto webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#demisto Webhook#demisto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#demisto Webhook#demisto}
   */
   readonly demisto?: WebhookDemisto;
   /**
   * Email group webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#email_group Webhook#email_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#email_group Webhook#email_group}
   */
   readonly emailGroup?: WebhookEmailGroup;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#event_bridge Webhook#event_bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#event_bridge Webhook#event_bridge}
   */
   readonly eventBridge?: WebhookEventBridge;
   /**
   * Jira webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#jira Webhook#jira}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#jira Webhook#jira}
   */
   readonly jira?: WebhookJira;
   /**
   * Microsoft Teams webhook. (Deprecated, please use microsoft_teams_workflow)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#microsoft_teams Webhook#microsoft_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#microsoft_teams Webhook#microsoft_teams}
   */
   readonly microsoftTeams?: WebhookMicrosoftTeams;
   /**
   * Microsoft Teams Workflow webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#microsoft_teams_workflow Webhook#microsoft_teams_workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#microsoft_teams_workflow Webhook#microsoft_teams_workflow}
   */
   readonly microsoftTeamsWorkflow?: WebhookMicrosoftTeamsWorkflow;
   /**
   * Webhook name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#name Webhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#name Webhook#name}
   */
   readonly name?: string;
   /**
   * Opsgenie webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#opsgenie Webhook#opsgenie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#opsgenie Webhook#opsgenie}
   */
   readonly opsgenie?: WebhookOpsgenie;
   /**
   * PagerDuty webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#pager_duty Webhook#pager_duty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#pager_duty Webhook#pager_duty}
   */
   readonly pagerDuty?: WebhookPagerDuty;
   /**
   * Send log webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#sendlog Webhook#sendlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#sendlog Webhook#sendlog}
   */
   readonly sendlog?: WebhookSendlog;
   /**
   * Slack webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#slack Webhook#slack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#slack Webhook#slack}
   */
   readonly slack?: WebhookSlack;
 }
@@ -82,31 +82,31 @@ export interface WebhookCustom {
   /**
   * Webhook headers. Map of string to string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#headers Webhook#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#headers Webhook#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Webhook method. can be one of: get, post, put
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#method Webhook#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#method Webhook#method}
   */
   readonly method?: string;
   /**
   * Webhook payload. JSON string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#payload Webhook#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#payload Webhook#payload}
   */
   readonly payload?: string;
   /**
   * Webhook URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#url Webhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#url Webhook#url}
   */
   readonly url?: string;
   /**
   * Webhook UUID. Computed automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#uuid Webhook#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#uuid Webhook#uuid}
   */
   readonly uuid?: string;
 }
@@ -234,7 +234,7 @@ export class WebhookCustomOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // headers - computed: false, optional: true, required: false
+  // headers - computed: true, optional: true, required: false
   private _headers?: { [key: string]: string }; 
   public get headers() {
     return this.getStringMapAttribute('headers');
@@ -318,19 +318,19 @@ export interface WebhookDemisto {
   /**
   * Webhook payload. JSON string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#payload Webhook#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#payload Webhook#payload}
   */
   readonly payload?: string;
   /**
   * Microsoft Teams URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#url Webhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#url Webhook#url}
   */
   readonly url: string;
   /**
   * Webhook UUID. Computed automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#uuid Webhook#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#uuid Webhook#uuid}
   */
   readonly uuid?: string;
 }
@@ -481,7 +481,7 @@ export interface WebhookEmailGroup {
   /**
   * Emails list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#emails Webhook#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#emails Webhook#emails}
   */
   readonly emails?: string[];
 }
@@ -557,7 +557,7 @@ export class WebhookEmailGroupOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // emails - computed: false, optional: true, required: false
+  // emails - computed: true, optional: true, required: false
   private _emails?: string[]; 
   public get emails() {
     return this.getListAttribute('emails');
@@ -577,31 +577,31 @@ export interface WebhookEventBridge {
   /**
   * Event bridge message. JSON string. More details about the token ["here"](https://coralogix.com/docs/user-guides/alerting/outbound-webhooks/generic-outbound-webhooks-alert-webhooks/#placeholders)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#detail Webhook#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#detail Webhook#detail}
   */
   readonly detail: string;
   /**
   * Free text to be included in the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#detail_type Webhook#detail_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#detail_type Webhook#detail_type}
   */
   readonly detailType: string;
   /**
   * Corresponds to the event bus, which will receive notifications. The policy attached must contain permission to publish.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#event_bus_arn Webhook#event_bus_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#event_bus_arn Webhook#event_bus_arn}
   */
   readonly eventBusArn: string;
   /**
   * Corresponds to the AWS IAM role that will be created in your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#role_name Webhook#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#role_name Webhook#role_name}
   */
   readonly roleName: string;
   /**
   * Free text is used to identify the messages Coralogix sends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#source Webhook#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#source Webhook#source}
   */
   readonly source: string;
 }
@@ -798,25 +798,25 @@ export interface WebhookJira {
   /**
   * Jira API token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#api_token Webhook#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#api_token Webhook#api_token}
   */
   readonly apiToken?: string;
   /**
   * email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#email Webhook#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#email Webhook#email}
   */
   readonly email?: string;
   /**
   * Jira project key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#project_key Webhook#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#project_key Webhook#project_key}
   */
   readonly projectKey?: string;
   /**
   * Jira URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#url Webhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#url Webhook#url}
   */
   readonly url: string;
 }
@@ -996,7 +996,7 @@ export interface WebhookMicrosoftTeams {
   /**
   * Microsoft Teams URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#url Webhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#url Webhook#url}
   */
   readonly url?: string;
 }
@@ -1092,7 +1092,7 @@ export interface WebhookMicrosoftTeamsWorkflow {
   /**
   * Microsoft Teams Workflow URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#url Webhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#url Webhook#url}
   */
   readonly url?: string;
 }
@@ -1188,7 +1188,7 @@ export interface WebhookOpsgenie {
   /**
   * Opsgenie URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#url Webhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#url Webhook#url}
   */
   readonly url: string;
 }
@@ -1281,7 +1281,7 @@ export interface WebhookPagerDuty {
   /**
   * PagerDuty service key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#service_key Webhook#service_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#service_key Webhook#service_key}
   */
   readonly serviceKey?: string;
 }
@@ -1377,19 +1377,19 @@ export interface WebhookSendlog {
   /**
   * Webhook payload. JSON string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#payload Webhook#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#payload Webhook#payload}
   */
   readonly payload?: string;
   /**
   * Webhook URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#url Webhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#url Webhook#url}
   */
   readonly url: string;
   /**
   * Webhook UUID. Computed automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#uuid Webhook#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#uuid Webhook#uuid}
   */
   readonly uuid?: string;
 }
@@ -1540,13 +1540,13 @@ export interface WebhookSlackAttachments {
   /**
   * Determines if the attachment is active. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#active Webhook#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#active Webhook#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Slack attachment type. can be one of: empty, logs, metric_snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#type Webhook#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#type Webhook#type}
   */
   readonly type: string;
 }
@@ -1653,7 +1653,7 @@ export class WebhookSlackAttachmentsOutputReference extends cdktf.ComplexObject 
     return this._active;
   }
 
-  // type - computed: false, optional: false, required: true
+  // type - computed: true, optional: false, required: true
   private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
@@ -1690,19 +1690,19 @@ export interface WebhookSlack {
   /**
   * Slack attachments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#attachments Webhook#attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#attachments Webhook#attachments}
   */
   readonly attachments?: WebhookSlackAttachments[] | cdktf.IResolvable;
   /**
   * Slack notifications. can be one of: data_usage, error_and_critical_logs, flow_anomalies, spike_anomalies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#notify_on Webhook#notify_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#notify_on Webhook#notify_on}
   */
   readonly notifyOn?: string[];
   /**
   * Slack URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#url Webhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#url Webhook#url}
   */
   readonly url?: string;
 }
@@ -1804,7 +1804,7 @@ export class WebhookSlackOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // attachments - computed: false, optional: true, required: false
+  // attachments - computed: true, optional: true, required: false
   private _attachments = new WebhookSlackAttachmentsList(this, "attachments", false);
   public get attachments() {
     return this._attachments;
@@ -1854,7 +1854,7 @@ export class WebhookSlackOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook coralogix_webhook}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook coralogix_webhook}
 */
 export class Webhook extends cdktf.TerraformResource {
 
@@ -1870,7 +1870,7 @@ export class Webhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Webhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Webhook to import
-  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Webhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1882,7 +1882,7 @@ export class Webhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/2.2.3/docs/resources/webhook coralogix_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/webhook coralogix_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1893,8 +1893,8 @@ export class Webhook extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_webhook',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

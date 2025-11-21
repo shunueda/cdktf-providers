@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_role
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface SecurityRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_role#cx_profile_name SecurityRole#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_role#cx_profile_name SecurityRole#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * SecurityRole name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_role#name SecurityRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_role#name SecurityRole#name}
   */
   readonly name: string;
   /**
@@ -24,13 +24,13 @@ export interface SecurityRoleConfig extends cdktf.TerraformMetaArguments {
   * 				For example, 'volume create' is bundled with 'volume modify' and 'volume show'. When either one is created, the other two are also created automatically behind the scene.
   * 				But the API only allows to take one of those in the body and create the other two silently. If you put more than one in the resource file, it will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_role#privileges SecurityRole#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_role#privileges SecurityRole#privileges}
   */
   readonly privileges?: SecurityRolePrivileges[] | cdktf.IResolvable;
   /**
   * SecurityRole svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_role#svm_name SecurityRole#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_role#svm_name SecurityRole#svm_name}
   */
   readonly svmName?: string;
 }
@@ -38,19 +38,19 @@ export interface SecurityRolePrivileges {
   /**
   * Access level for the REST endpoint or command/command directory path. If it denotes the access level for a command/command directory path, the only supported enum values are 'none','readonly' and 'all'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_role#access SecurityRole#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_role#access SecurityRole#access}
   */
   readonly access?: string;
   /**
   * Either of REST URI/endpoint OR command/command directory path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_role#path SecurityRole#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_role#path SecurityRole#path}
   */
   readonly path?: string;
   /**
   * Optional attribute that can be specified only if the 'path' attribute refers to a command/command directory path. The privilege tuple implicitly defines a set of objects the role can or cannot access at the specified access level. The query further reduces this set of objects to a subset of objects that the role is allowed to access. The query attribute must be applicable to the command/command directory specified by the 'path' attribute. It is defined using one or more parameters of the command/command directory path specified by the 'path' attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_role#query SecurityRole#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_role#query SecurityRole#query}
   */
   readonly query?: string;
 }
@@ -224,7 +224,7 @@ export class SecurityRolePrivilegesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_role netapp-ontap_security_role}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_role netapp-ontap_security_role}
 */
 export class SecurityRole extends cdktf.TerraformResource {
 
@@ -240,7 +240,7 @@ export class SecurityRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityRole to import
-  * @param importFromId The id of the existing SecurityRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -252,7 +252,7 @@ export class SecurityRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/security_role netapp-ontap_security_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/resources/security_role netapp-ontap_security_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -263,8 +263,8 @@ export class SecurityRole extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_security_role',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

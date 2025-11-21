@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface BdsBdsCapacityReportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report#compartment_id BdsBdsCapacityReport#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report#compartment_id BdsBdsCapacityReport#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report#id BdsBdsCapacityReport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report#id BdsBdsCapacityReport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,13 +21,13 @@ export interface BdsBdsCapacityReportConfig extends cdktf.TerraformMetaArguments
   /**
   * shape_availabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report#shape_availabilities BdsBdsCapacityReport#shape_availabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report#shape_availabilities BdsBdsCapacityReport#shape_availabilities}
   */
   readonly shapeAvailabilities: BdsBdsCapacityReportShapeAvailabilities[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report#timeouts BdsBdsCapacityReport#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report#timeouts BdsBdsCapacityReport#timeouts}
   */
   readonly timeouts?: BdsBdsCapacityReportTimeouts;
 }
@@ -204,15 +204,15 @@ export class BdsBdsCapacityReportShapeAvailabilitiesDomainLevelCapacityReportsLi
 }
 export interface BdsBdsCapacityReportShapeAvailabilitiesShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report#memory_in_gbs BdsBdsCapacityReport#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report#memory_in_gbs BdsBdsCapacityReport#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report#nvmes BdsBdsCapacityReport#nvmes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report#nvmes BdsBdsCapacityReport#nvmes}
   */
   readonly nvmes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report#ocpus BdsBdsCapacityReport#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report#ocpus BdsBdsCapacityReport#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -354,13 +354,13 @@ export class BdsBdsCapacityReportShapeAvailabilitiesShapeConfigOutputReference e
 }
 export interface BdsBdsCapacityReportShapeAvailabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report#shape BdsBdsCapacityReport#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report#shape BdsBdsCapacityReport#shape}
   */
   readonly shape: string;
   /**
   * shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report#shape_config BdsBdsCapacityReport#shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report#shape_config BdsBdsCapacityReport#shape_config}
   */
   readonly shapeConfig?: BdsBdsCapacityReportShapeAvailabilitiesShapeConfig;
 }
@@ -508,15 +508,15 @@ export class BdsBdsCapacityReportShapeAvailabilitiesList extends cdktf.ComplexLi
 }
 export interface BdsBdsCapacityReportTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report#create BdsBdsCapacityReport#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report#create BdsBdsCapacityReport#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report#delete BdsBdsCapacityReport#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report#delete BdsBdsCapacityReport#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report#update BdsBdsCapacityReport#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report#update BdsBdsCapacityReport#update}
   */
   readonly update?: string;
 }
@@ -668,7 +668,7 @@ export class BdsBdsCapacityReportTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report oci_bds_bds_capacity_report}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report oci_bds_bds_capacity_report}
 */
 export class BdsBdsCapacityReport extends cdktf.TerraformResource {
 
@@ -684,7 +684,7 @@ export class BdsBdsCapacityReport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BdsBdsCapacityReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BdsBdsCapacityReport to import
-  * @param importFromId The id of the existing BdsBdsCapacityReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BdsBdsCapacityReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BdsBdsCapacityReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -696,7 +696,7 @@ export class BdsBdsCapacityReport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_capacity_report oci_bds_bds_capacity_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_capacity_report oci_bds_bds_capacity_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -707,8 +707,8 @@ export class BdsBdsCapacityReport extends cdktf.TerraformResource {
       terraformResourceType: 'oci_bds_bds_capacity_report',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

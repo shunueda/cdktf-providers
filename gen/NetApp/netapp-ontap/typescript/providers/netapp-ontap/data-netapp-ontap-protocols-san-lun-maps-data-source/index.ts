@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapProtocolsSanLunMapsDataSourceConfig extends cdkt
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#cx_profile_name DataNetappOntapProtocolsSanLunMapsDataSource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#cx_profile_name DataNetappOntapProtocolsSanLunMapsDataSource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#filter DataNetappOntapProtocolsSanLunMapsDataSource#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#filter DataNetappOntapProtocolsSanLunMapsDataSource#filter}
   */
   readonly filter?: DataNetappOntapProtocolsSanLunMapsDataSourceFilter;
 }
@@ -22,7 +22,7 @@ export interface DataNetappOntapProtocolsSanLunMapsDataSourceFilterIgroup {
   /**
   * name of the igroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#name DataNetappOntapProtocolsSanLunMapsDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#name DataNetappOntapProtocolsSanLunMapsDataSource#name}
   */
   readonly name?: string;
 }
@@ -118,7 +118,7 @@ export interface DataNetappOntapProtocolsSanLunMapsDataSourceFilterLun {
   /**
   * name of the lun
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#name DataNetappOntapProtocolsSanLunMapsDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#name DataNetappOntapProtocolsSanLunMapsDataSource#name}
   */
   readonly name?: string;
 }
@@ -214,7 +214,7 @@ export interface DataNetappOntapProtocolsSanLunMapsDataSourceFilterSvm {
   /**
   * name of the SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#name DataNetappOntapProtocolsSanLunMapsDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#name DataNetappOntapProtocolsSanLunMapsDataSource#name}
   */
   readonly name?: string;
 }
@@ -310,19 +310,19 @@ export interface DataNetappOntapProtocolsSanLunMapsDataSourceFilter {
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#igroup DataNetappOntapProtocolsSanLunMapsDataSource#igroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#igroup DataNetappOntapProtocolsSanLunMapsDataSource#igroup}
   */
   readonly igroup?: DataNetappOntapProtocolsSanLunMapsDataSourceFilterIgroup;
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#lun DataNetappOntapProtocolsSanLunMapsDataSource#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#lun DataNetappOntapProtocolsSanLunMapsDataSource#lun}
   */
   readonly lun?: DataNetappOntapProtocolsSanLunMapsDataSourceFilterLun;
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#svm DataNetappOntapProtocolsSanLunMapsDataSource#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#svm DataNetappOntapProtocolsSanLunMapsDataSource#svm}
   */
   readonly svm?: DataNetappOntapProtocolsSanLunMapsDataSourceFilterSvm;
 }
@@ -476,7 +476,7 @@ export interface DataNetappOntapProtocolsSanLunMapsDataSourceProtocolsSanLunMaps
   /**
   * name of the igroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#name DataNetappOntapProtocolsSanLunMapsDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#name DataNetappOntapProtocolsSanLunMapsDataSource#name}
   */
   readonly name: string;
 }
@@ -559,7 +559,7 @@ export interface DataNetappOntapProtocolsSanLunMapsDataSourceProtocolsSanLunMaps
   /**
   * name of the lun
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#name DataNetappOntapProtocolsSanLunMapsDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#name DataNetappOntapProtocolsSanLunMapsDataSource#name}
   */
   readonly name: string;
 }
@@ -642,7 +642,7 @@ export interface DataNetappOntapProtocolsSanLunMapsDataSourceProtocolsSanLunMaps
   /**
   * name of the SVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#name DataNetappOntapProtocolsSanLunMapsDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#name DataNetappOntapProtocolsSanLunMapsDataSource#name}
   */
   readonly name: string;
 }
@@ -725,25 +725,25 @@ export interface DataNetappOntapProtocolsSanLunMapsDataSourceProtocolsSanLunMaps
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#cx_profile_name DataNetappOntapProtocolsSanLunMapsDataSource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#cx_profile_name DataNetappOntapProtocolsSanLunMapsDataSource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#igroup DataNetappOntapProtocolsSanLunMapsDataSource#igroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#igroup DataNetappOntapProtocolsSanLunMapsDataSource#igroup}
   */
   readonly igroup: DataNetappOntapProtocolsSanLunMapsDataSourceProtocolsSanLunMapsIgroup;
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#lun DataNetappOntapProtocolsSanLunMapsDataSource#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#lun DataNetappOntapProtocolsSanLunMapsDataSource#lun}
   */
   readonly lun: DataNetappOntapProtocolsSanLunMapsDataSourceProtocolsSanLunMapsLun;
   /**
   * SVM details for ProtocolsSanLunMaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#svm DataNetappOntapProtocolsSanLunMapsDataSource#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#svm DataNetappOntapProtocolsSanLunMapsDataSource#svm}
   */
   readonly svm: DataNetappOntapProtocolsSanLunMapsDataSourceProtocolsSanLunMapsSvm;
 }
@@ -929,7 +929,7 @@ export class DataNetappOntapProtocolsSanLunMapsDataSourceProtocolsSanLunMapsList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source netapp-ontap_protocols_san_lun-maps_data_source}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source netapp-ontap_protocols_san_lun-maps_data_source}
 */
 export class DataNetappOntapProtocolsSanLunMapsDataSource extends cdktf.TerraformDataSource {
 
@@ -945,7 +945,7 @@ export class DataNetappOntapProtocolsSanLunMapsDataSource extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataNetappOntapProtocolsSanLunMapsDataSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapProtocolsSanLunMapsDataSource to import
-  * @param importFromId The id of the existing DataNetappOntapProtocolsSanLunMapsDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapProtocolsSanLunMapsDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapProtocolsSanLunMapsDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -957,7 +957,7 @@ export class DataNetappOntapProtocolsSanLunMapsDataSource extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/protocols_san_lun-maps_data_source netapp-ontap_protocols_san_lun-maps_data_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/protocols_san_lun-maps_data_source netapp-ontap_protocols_san_lun-maps_data_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -968,8 +968,8 @@ export class DataNetappOntapProtocolsSanLunMapsDataSource extends cdktf.Terrafor
       terraformResourceType: 'netapp-ontap_protocols_san_lun-maps_data_source',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

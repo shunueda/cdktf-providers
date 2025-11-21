@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_file
+// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface NetworkFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Boolean value that determines device licensing mode: bring your own license or subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_file#byol NetworkFile#byol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_file#byol NetworkFile#byol}
   */
   readonly byol: boolean | cdktf.IResolvable;
   /**
   * Uploaded file content, expected to be a UTF-8 encoded string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_file#content NetworkFile#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_file#content NetworkFile#content}
   */
   readonly content: string;
   /**
   * Device type code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_file#device_type_code NetworkFile#device_type_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_file#device_type_code NetworkFile#device_type_code}
   */
   readonly deviceTypeCode: string;
   /**
   * File name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_file#file_name NetworkFile#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_file#file_name NetworkFile#file_name}
   */
   readonly fileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_file#id NetworkFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_file#id NetworkFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface NetworkFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * File upload location metro code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_file#metro_code NetworkFile#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_file#metro_code NetworkFile#metro_code}
   */
   readonly metroCode: string;
   /**
   * File process type (LICENSE or CLOUD_INIT)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_file#process_type NetworkFile#process_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_file#process_type NetworkFile#process_type}
   */
   readonly processType: string;
   /**
   * Boolean value that determines device management mode: self-managed or equinix-managed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_file#self_managed NetworkFile#self_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_file#self_managed NetworkFile#self_managed}
   */
   readonly selfManaged: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_file equinix_network_file}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_file equinix_network_file}
 */
 export class NetworkFile extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class NetworkFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkFile to import
-  * @param importFromId The id of the existing NetworkFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class NetworkFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_file equinix_network_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_file equinix_network_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class NetworkFile extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_network_file',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.10.0',
-        providerVersionConstraint: '4.10.0'
+        providerVersion: '4.11.0',
+        providerVersionConstraint: '4.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

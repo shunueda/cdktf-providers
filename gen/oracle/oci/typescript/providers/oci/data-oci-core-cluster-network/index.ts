@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cluster_network
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_cluster_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreClusterNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cluster_network#cluster_network_id DataOciCoreClusterNetwork#cluster_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_cluster_network#cluster_network_id DataOciCoreClusterNetwork#cluster_network_id}
   */
   readonly clusterNetworkId: string;
 }
@@ -1186,7 +1186,7 @@ export class DataOciCoreClusterNetworkPlacementConfigurationList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cluster_network oci_core_cluster_network}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_cluster_network oci_core_cluster_network}
 */
 export class DataOciCoreClusterNetwork extends cdktf.TerraformDataSource {
 
@@ -1202,7 +1202,7 @@ export class DataOciCoreClusterNetwork extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreClusterNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreClusterNetwork to import
-  * @param importFromId The id of the existing DataOciCoreClusterNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cluster_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreClusterNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_cluster_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreClusterNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1214,7 +1214,7 @@ export class DataOciCoreClusterNetwork extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cluster_network oci_core_cluster_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_cluster_network oci_core_cluster_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1225,8 +1225,8 @@ export class DataOciCoreClusterNetwork extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_cluster_network',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

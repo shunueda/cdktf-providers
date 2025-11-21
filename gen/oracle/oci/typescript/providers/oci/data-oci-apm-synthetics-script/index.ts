@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_script
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_synthetics_script
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciApmSyntheticsScriptConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_script#apm_domain_id DataOciApmSyntheticsScript#apm_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_synthetics_script#apm_domain_id DataOciApmSyntheticsScript#apm_domain_id}
   */
   readonly apmDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_script#script_id DataOciApmSyntheticsScript#script_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_synthetics_script#script_id DataOciApmSyntheticsScript#script_id}
   */
   readonly scriptId: string;
 }
@@ -289,7 +289,7 @@ export class DataOciApmSyntheticsScriptParametersList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_script oci_apm_synthetics_script}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_synthetics_script oci_apm_synthetics_script}
 */
 export class DataOciApmSyntheticsScript extends cdktf.TerraformDataSource {
 
@@ -305,7 +305,7 @@ export class DataOciApmSyntheticsScript extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciApmSyntheticsScript resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciApmSyntheticsScript to import
-  * @param importFromId The id of the existing DataOciApmSyntheticsScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_script#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciApmSyntheticsScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_synthetics_script#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciApmSyntheticsScript to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -317,7 +317,7 @@ export class DataOciApmSyntheticsScript extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_script oci_apm_synthetics_script} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_synthetics_script oci_apm_synthetics_script} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -328,8 +328,8 @@ export class DataOciApmSyntheticsScript extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_apm_synthetics_script',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

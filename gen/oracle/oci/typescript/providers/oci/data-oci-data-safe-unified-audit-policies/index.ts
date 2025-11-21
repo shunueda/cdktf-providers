@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies
+// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataSafeUnifiedAuditPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#access_level DataOciDataSafeUnifiedAuditPolicies#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#access_level DataOciDataSafeUnifiedAuditPolicies#access_level}
   */
   readonly accessLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#compartment_id DataOciDataSafeUnifiedAuditPolicies#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#compartment_id DataOciDataSafeUnifiedAuditPolicies#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#compartment_id_in_subtree DataOciDataSafeUnifiedAuditPolicies#compartment_id_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#compartment_id_in_subtree DataOciDataSafeUnifiedAuditPolicies#compartment_id_in_subtree}
   */
   readonly compartmentIdInSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#display_name DataOciDataSafeUnifiedAuditPolicies#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#display_name DataOciDataSafeUnifiedAuditPolicies#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#id DataOciDataSafeUnifiedAuditPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#id DataOciDataSafeUnifiedAuditPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#is_seeded DataOciDataSafeUnifiedAuditPolicies#is_seeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#is_seeded DataOciDataSafeUnifiedAuditPolicies#is_seeded}
   */
   readonly isSeeded?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#security_policy_id DataOciDataSafeUnifiedAuditPolicies#security_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#security_policy_id DataOciDataSafeUnifiedAuditPolicies#security_policy_id}
   */
   readonly securityPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#state DataOciDataSafeUnifiedAuditPolicies#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#state DataOciDataSafeUnifiedAuditPolicies#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#time_created_greater_than_or_equal_to DataOciDataSafeUnifiedAuditPolicies#time_created_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#time_created_greater_than_or_equal_to DataOciDataSafeUnifiedAuditPolicies#time_created_greater_than_or_equal_to}
   */
   readonly timeCreatedGreaterThanOrEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#time_created_less_than DataOciDataSafeUnifiedAuditPolicies#time_created_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#time_created_less_than DataOciDataSafeUnifiedAuditPolicies#time_created_less_than}
   */
   readonly timeCreatedLessThan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#unified_audit_policy_definition_id DataOciDataSafeUnifiedAuditPolicies#unified_audit_policy_definition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#unified_audit_policy_definition_id DataOciDataSafeUnifiedAuditPolicies#unified_audit_policy_definition_id}
   */
   readonly unifiedAuditPolicyDefinitionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#unified_audit_policy_id DataOciDataSafeUnifiedAuditPolicies#unified_audit_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#unified_audit_policy_id DataOciDataSafeUnifiedAuditPolicies#unified_audit_policy_id}
   */
   readonly unifiedAuditPolicyId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#filter DataOciDataSafeUnifiedAuditPolicies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#filter DataOciDataSafeUnifiedAuditPolicies#filter}
   */
   readonly filter?: DataOciDataSafeUnifiedAuditPoliciesFilter[] | cdktf.IResolvable;
 }
@@ -402,15 +402,15 @@ export class DataOciDataSafeUnifiedAuditPoliciesUnifiedAuditPolicyCollectionList
 }
 export interface DataOciDataSafeUnifiedAuditPoliciesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#name DataOciDataSafeUnifiedAuditPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#name DataOciDataSafeUnifiedAuditPolicies#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#regex DataOciDataSafeUnifiedAuditPolicies#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#regex DataOciDataSafeUnifiedAuditPolicies#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#values DataOciDataSafeUnifiedAuditPolicies#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#values DataOciDataSafeUnifiedAuditPolicies#values}
   */
   readonly values: string[];
 }
@@ -578,7 +578,7 @@ export class DataOciDataSafeUnifiedAuditPoliciesFilterList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies oci_data_safe_unified_audit_policies}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies oci_data_safe_unified_audit_policies}
 */
 export class DataOciDataSafeUnifiedAuditPolicies extends cdktf.TerraformDataSource {
 
@@ -594,7 +594,7 @@ export class DataOciDataSafeUnifiedAuditPolicies extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataOciDataSafeUnifiedAuditPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataSafeUnifiedAuditPolicies to import
-  * @param importFromId The id of the existing DataOciDataSafeUnifiedAuditPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataSafeUnifiedAuditPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataSafeUnifiedAuditPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -606,7 +606,7 @@ export class DataOciDataSafeUnifiedAuditPolicies extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_unified_audit_policies oci_data_safe_unified_audit_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_unified_audit_policies oci_data_safe_unified_audit_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -617,8 +617,8 @@ export class DataOciDataSafeUnifiedAuditPolicies extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_data_safe_unified_audit_policies',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.26.1',
-        providerVersionConstraint: '7.26.1'
+        providerVersion: '7.27.0',
+        providerVersionConstraint: '7.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

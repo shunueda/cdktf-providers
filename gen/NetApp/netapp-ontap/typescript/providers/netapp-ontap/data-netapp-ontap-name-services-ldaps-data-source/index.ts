@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/name_services_ldaps_data_source
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/name_services_ldaps_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNetappOntapNameServicesLdapsDataSourceConfig extends cdktf.
   /**
   * Connection profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/name_services_ldaps_data_source#cx_profile_name DataNetappOntapNameServicesLdapsDataSource#cx_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/name_services_ldaps_data_source#cx_profile_name DataNetappOntapNameServicesLdapsDataSource#cx_profile_name}
   */
   readonly cxProfileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/name_services_ldaps_data_source#filter DataNetappOntapNameServicesLdapsDataSource#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/name_services_ldaps_data_source#filter DataNetappOntapNameServicesLdapsDataSource#filter}
   */
   readonly filter?: DataNetappOntapNameServicesLdapsDataSourceFilter;
 }
@@ -22,19 +22,19 @@ export interface DataNetappOntapNameServicesLdapsDataSourceFilter {
   /**
   * Specifies the default search scope for LDAP queries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/name_services_ldaps_data_source#base_scope DataNetappOntapNameServicesLdapsDataSource#base_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/name_services_ldaps_data_source#base_scope DataNetappOntapNameServicesLdapsDataSource#base_scope}
   */
   readonly baseScope?: string;
   /**
   * The minimum bind authentication level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/name_services_ldaps_data_source#min_bind_level DataNetappOntapNameServicesLdapsDataSource#min_bind_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/name_services_ldaps_data_source#min_bind_level DataNetappOntapNameServicesLdapsDataSource#min_bind_level}
   */
   readonly minBindLevel?: string;
   /**
   * NameServicesLDAP svm name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/name_services_ldaps_data_source#svm_name DataNetappOntapNameServicesLdapsDataSource#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/name_services_ldaps_data_source#svm_name DataNetappOntapNameServicesLdapsDataSource#svm_name}
   */
   readonly svmName?: string;
 }
@@ -341,7 +341,7 @@ export class DataNetappOntapNameServicesLdapsDataSourceNameServicesLdapsList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/name_services_ldaps_data_source netapp-ontap_name_services_ldaps_data_source}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/name_services_ldaps_data_source netapp-ontap_name_services_ldaps_data_source}
 */
 export class DataNetappOntapNameServicesLdapsDataSource extends cdktf.TerraformDataSource {
 
@@ -357,7 +357,7 @@ export class DataNetappOntapNameServicesLdapsDataSource extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataNetappOntapNameServicesLdapsDataSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappOntapNameServicesLdapsDataSource to import
-  * @param importFromId The id of the existing DataNetappOntapNameServicesLdapsDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/name_services_ldaps_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappOntapNameServicesLdapsDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/name_services_ldaps_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappOntapNameServicesLdapsDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -369,7 +369,7 @@ export class DataNetappOntapNameServicesLdapsDataSource extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/data-sources/name_services_ldaps_data_source netapp-ontap_name_services_ldaps_data_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.4.0/docs/data-sources/name_services_ldaps_data_source netapp-ontap_name_services_ldaps_data_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -380,8 +380,8 @@ export class DataNetappOntapNameServicesLdapsDataSource extends cdktf.TerraformD
       terraformResourceType: 'netapp-ontap_name_services_ldaps_data_source',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0',
-        providerVersionConstraint: '2.3.0'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
