@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dasb_bind_device_account_private_key
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dasb_bind_device_account_private_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DasbBindDeviceAccountPrivateKeyConfig extends cdktf.TerraformMe
   /**
   * Host account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dasb_bind_device_account_private_key#device_account_id DasbBindDeviceAccountPrivateKey#device_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dasb_bind_device_account_private_key#device_account_id DasbBindDeviceAccountPrivateKey#device_account_id}
   */
   readonly deviceAccountId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dasb_bind_device_account_private_key#id DasbBindDeviceAccountPrivateKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dasb_bind_device_account_private_key#id DasbBindDeviceAccountPrivateKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DasbBindDeviceAccountPrivateKeyConfig extends cdktf.TerraformMe
   /**
   * Host account private key, the latest length is 128 bytes, the maximum length is 8192 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dasb_bind_device_account_private_key#private_key DasbBindDeviceAccountPrivateKey#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dasb_bind_device_account_private_key#private_key DasbBindDeviceAccountPrivateKey#private_key}
   */
   readonly privateKey: string;
   /**
   * Host account private key password, maximum length 256 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dasb_bind_device_account_private_key#private_key_password DasbBindDeviceAccountPrivateKey#private_key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dasb_bind_device_account_private_key#private_key_password DasbBindDeviceAccountPrivateKey#private_key_password}
   */
   readonly privateKeyPassword?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dasb_bind_device_account_private_key tencentcloud_dasb_bind_device_account_private_key}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dasb_bind_device_account_private_key tencentcloud_dasb_bind_device_account_private_key}
 */
 export class DasbBindDeviceAccountPrivateKey extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class DasbBindDeviceAccountPrivateKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DasbBindDeviceAccountPrivateKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DasbBindDeviceAccountPrivateKey to import
-  * @param importFromId The id of the existing DasbBindDeviceAccountPrivateKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dasb_bind_device_account_private_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DasbBindDeviceAccountPrivateKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dasb_bind_device_account_private_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DasbBindDeviceAccountPrivateKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DasbBindDeviceAccountPrivateKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dasb_bind_device_account_private_key tencentcloud_dasb_bind_device_account_private_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dasb_bind_device_account_private_key tencentcloud_dasb_bind_device_account_private_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DasbBindDeviceAccountPrivateKey extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dasb_bind_device_account_private_key',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

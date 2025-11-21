@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_data_mask_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_data_mask_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DlcAttachDataMaskPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_data_mask_policy#id DlcAttachDataMaskPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_data_mask_policy#id DlcAttachDataMaskPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DlcAttachDataMaskPolicyConfig extends cdktf.TerraformMetaArgume
   /**
   * data_mask_strategy_policy_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_data_mask_policy#data_mask_strategy_policy_set DlcAttachDataMaskPolicy#data_mask_strategy_policy_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_data_mask_policy#data_mask_strategy_policy_set DlcAttachDataMaskPolicy#data_mask_strategy_policy_set}
   */
   readonly dataMaskStrategyPolicySet?: DlcAttachDataMaskPolicyDataMaskStrategyPolicySet;
 }
@@ -25,25 +25,25 @@ export interface DlcAttachDataMaskPolicyDataMaskStrategyPolicySetPolicyInfo {
   /**
   * The name of the data source to be authorized. For administrator-level authorization, only * is allowed (representing all resources at this level). For data source-level and database-level authorization, only COSDataCatalog or * is allowed. For table-level authorization, custom data sources can be specified. Defaults to DataLakeCatalog if not specified. Note: For custom data sources, DLC can only manage a subset of permissions provided by the user during data source integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_data_mask_policy#catalog DlcAttachDataMaskPolicy#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_data_mask_policy#catalog DlcAttachDataMaskPolicy#catalog}
   */
   readonly catalog: string;
   /**
   * The name of the column to be authorized. Use * to represent all columns. For administrator-level authorization, only * is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_data_mask_policy#column DlcAttachDataMaskPolicy#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_data_mask_policy#column DlcAttachDataMaskPolicy#column}
   */
   readonly column?: string;
   /**
   * The name of the database to be authorized. Use * to represent all databases under the current Catalog. For administrator-level authorization, only * is allowed. For data connection-level authorization, leave it empty. For other types, specify the database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_data_mask_policy#database DlcAttachDataMaskPolicy#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_data_mask_policy#database DlcAttachDataMaskPolicy#database}
   */
   readonly database: string;
   /**
   * The name of the table to be authorized. Use * to represent all tables under the current Database. For administrator-level authorization, only * is allowed. For data connection-level and database-level authorization, leave it empty. For other types, specify the table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_data_mask_policy#table DlcAttachDataMaskPolicy#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_data_mask_policy#table DlcAttachDataMaskPolicy#table}
   */
   readonly table: string;
 }
@@ -207,19 +207,19 @@ export interface DlcAttachDataMaskPolicyDataMaskStrategyPolicySet {
   /**
   * The type of the bound field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_data_mask_policy#column_type DlcAttachDataMaskPolicy#column_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_data_mask_policy#column_type DlcAttachDataMaskPolicy#column_type}
   */
   readonly columnType?: string;
   /**
   * The ID of the data masking strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_data_mask_policy#data_mask_strategy_id DlcAttachDataMaskPolicy#data_mask_strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_data_mask_policy#data_mask_strategy_id DlcAttachDataMaskPolicy#data_mask_strategy_id}
   */
   readonly dataMaskStrategyId?: string;
   /**
   * policy_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_data_mask_policy#policy_info DlcAttachDataMaskPolicy#policy_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_data_mask_policy#policy_info DlcAttachDataMaskPolicy#policy_info}
   */
   readonly policyInfo?: DlcAttachDataMaskPolicyDataMaskStrategyPolicySetPolicyInfo;
 }
@@ -361,7 +361,7 @@ export class DlcAttachDataMaskPolicyDataMaskStrategyPolicySetOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_data_mask_policy tencentcloud_dlc_attach_data_mask_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_data_mask_policy tencentcloud_dlc_attach_data_mask_policy}
 */
 export class DlcAttachDataMaskPolicy extends cdktf.TerraformResource {
 
@@ -377,7 +377,7 @@ export class DlcAttachDataMaskPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlcAttachDataMaskPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlcAttachDataMaskPolicy to import
-  * @param importFromId The id of the existing DlcAttachDataMaskPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_data_mask_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlcAttachDataMaskPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_data_mask_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlcAttachDataMaskPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -389,7 +389,7 @@ export class DlcAttachDataMaskPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_data_mask_policy tencentcloud_dlc_attach_data_mask_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_data_mask_policy tencentcloud_dlc_attach_data_mask_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -400,8 +400,8 @@ export class DlcAttachDataMaskPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dlc_attach_data_mask_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

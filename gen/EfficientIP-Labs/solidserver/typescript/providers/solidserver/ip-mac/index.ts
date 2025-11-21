@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_mac
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_mac
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IpMacConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IP address to map with the MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_mac#address IpMac#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_mac#address IpMac#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_mac#id IpMac#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_mac#id IpMac#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface IpMacConfig extends cdktf.TerraformMetaArguments {
   /**
   * The MAC Address o map with the IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_mac#mac IpMac#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_mac#mac IpMac#mac}
   */
   readonly mac: string;
   /**
   * The name of the space into which mapping the IP and the MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_mac#space IpMac#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_mac#space IpMac#space}
   */
   readonly space: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_mac solidserver_ip_mac}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_mac solidserver_ip_mac}
 */
 export class IpMac extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class IpMac extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpMac resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpMac to import
-  * @param importFromId The id of the existing IpMac that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_mac#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpMac that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_mac#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpMac to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class IpMac extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_mac solidserver_ip_mac} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_mac solidserver_ip_mac} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class IpMac extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_ip_mac',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

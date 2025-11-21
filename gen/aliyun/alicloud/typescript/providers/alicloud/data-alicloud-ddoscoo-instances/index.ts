@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ddoscoo_instances
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ddoscoo_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudDdoscooInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ddoscoo_instances#id DataAlicloudDdoscooInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ddoscoo_instances#id DataAlicloudDdoscooInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ddoscoo_instances#ids DataAlicloudDdoscooInstances#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ddoscoo_instances#ids DataAlicloudDdoscooInstances#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ddoscoo_instances#name_regex DataAlicloudDdoscooInstances#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ddoscoo_instances#name_regex DataAlicloudDdoscooInstances#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ddoscoo_instances#output_file DataAlicloudDdoscooInstances#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ddoscoo_instances#output_file DataAlicloudDdoscooInstances#output_file}
   */
   readonly outputFile?: string;
 }
@@ -179,7 +179,7 @@ export class DataAlicloudDdoscooInstancesInstancesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ddoscoo_instances alicloud_ddoscoo_instances}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ddoscoo_instances alicloud_ddoscoo_instances}
 */
 export class DataAlicloudDdoscooInstances extends cdktf.TerraformDataSource {
 
@@ -195,7 +195,7 @@ export class DataAlicloudDdoscooInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudDdoscooInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudDdoscooInstances to import
-  * @param importFromId The id of the existing DataAlicloudDdoscooInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ddoscoo_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudDdoscooInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ddoscoo_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudDdoscooInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DataAlicloudDdoscooInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ddoscoo_instances alicloud_ddoscoo_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ddoscoo_instances alicloud_ddoscoo_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class DataAlicloudDdoscooInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_ddoscoo_instances',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

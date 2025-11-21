@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable
+// https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface VariableConfig extends cdktf.TerraformMetaArguments {
   /**
   * A string that specifies the context of the variable.  Options are `company`, `flow`, `flowInstance`, `user`.  This field is immutable and will trigger a replace plan if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable#context Variable#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable#context Variable#context}
   */
   readonly context: string;
   /**
   * A string that specifies the description of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable#description Variable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable#description Variable#description}
   */
   readonly description?: string;
   /**
   * A boolean that specifies whether the variable's `value` must be kept as an empty string.  Conflicts with `value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable#empty_value Variable#empty_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable#empty_value Variable#empty_value}
   */
   readonly emptyValue?: boolean | cdktf.IResolvable;
   /**
   * The ID of the PingOne environment to manage the DaVinci variable in.  Must be a valid PingOne resource ID.  This field is immutable and will trigger a replace plan if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable#environment_id Variable#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable#environment_id Variable#environment_id}
   */
   readonly environmentId: string;
   /**
   * A string that specifies the ID of the flow to which the variable is assigned.  This field is required when the `context` field is set to `flow`.  Must be a valid PingOne resource ID.  This field is immutable and will trigger a replace plan if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable#flow_id Variable#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable#flow_id Variable#flow_id}
   */
   readonly flowId?: string;
   /**
   * An integer that specifies the maximum value of the variable, if the `type` parameter is set as `number`.  Defaults to `2000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable#max Variable#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable#max Variable#max}
   */
   readonly max?: number;
   /**
   * An integer that specifies the minimum value of the variable, if the `type` parameter is set as `number`.  Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable#min Variable#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable#min Variable#min}
   */
   readonly min?: number;
   /**
   * A boolean that specifies whether the variable is mutable.  If `true`, the variable can be modified by the flow. If `false`, the variable is read-only and cannot be modified by the flow.  Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable#mutable Variable#mutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable#mutable Variable#mutable}
   */
   readonly mutable?: boolean | cdktf.IResolvable;
   /**
   * A string that specifies the name of the variable.  This field is immutable and will trigger a replace plan if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable#name Variable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable#name Variable#name}
   */
   readonly name: string;
   /**
   * A string that specifies the variable's data type.  Options are `boolean`, `number`, `object`, `secret`, `string`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable#type Variable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable#type Variable#type}
   */
   readonly type: string;
   /**
   * A string that specifies the default value of the variable, the type will be inferred from the value specified in the `type` parameter.  If left blank or omitted, the resource will not track the variable's value in state.  If the variable value should be tracked in state as an empty string, use the `empty_value` parameter.  Note that if the `type` is `secret`, the provider will not be able to remediate the value's configuration drift in the DaVinci service.  Conflicts with `empty_value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable#value Variable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable#value Variable#value}
   */
   readonly value?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable davinci_variable}
+* Represents a {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable davinci_variable}
 */
 export class Variable extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class Variable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Variable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Variable to import
-  * @param importFromId The id of the existing Variable that should be imported. Refer to the {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Variable that should be imported. Refer to the {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Variable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class Variable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/variable davinci_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/variable davinci_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class Variable extends cdktf.TerraformResource {
       terraformResourceType: 'davinci_variable',
       terraformGeneratorMetadata: {
         providerName: 'davinci',
-        providerVersion: '0.5.2',
-        providerVersionConstraint: '0.5.2'
+        providerVersion: '0.5.3',
+        providerVersionConstraint: '0.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

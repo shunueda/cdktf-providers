@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface VpcPeerConnectManagerConfig extends cdktf.TerraformMetaArgument
   /**
   * Bandwidth upper limit, unit Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager#bandwidth VpcPeerConnectManager#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager#bandwidth VpcPeerConnectManager#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Billing mode, daily peak value POSTPAID_BY_DAY_MAX, monthly value 95 POSTPAID_BY_MONTH_95.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager#charge_type VpcPeerConnectManager#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager#charge_type VpcPeerConnectManager#charge_type}
   */
   readonly chargeType?: string;
   /**
   * Peer region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager#destination_region VpcPeerConnectManager#destination_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager#destination_region VpcPeerConnectManager#destination_region}
   */
   readonly destinationRegion: string;
   /**
   * Peer user UIN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager#destination_uin VpcPeerConnectManager#destination_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager#destination_uin VpcPeerConnectManager#destination_uin}
   */
   readonly destinationUin: string;
   /**
   * The unique ID of the peer VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager#destination_vpc_id VpcPeerConnectManager#destination_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager#destination_vpc_id VpcPeerConnectManager#destination_vpc_id}
   */
   readonly destinationVpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager#id VpcPeerConnectManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager#id VpcPeerConnectManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,31 +47,31 @@ export interface VpcPeerConnectManagerConfig extends cdktf.TerraformMetaArgument
   /**
   * Peer connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager#peering_connection_name VpcPeerConnectManager#peering_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager#peering_connection_name VpcPeerConnectManager#peering_connection_name}
   */
   readonly peeringConnectionName: string;
   /**
   * Service classification PT, AU, AG.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager#qos_level VpcPeerConnectManager#qos_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager#qos_level VpcPeerConnectManager#qos_level}
   */
   readonly qosLevel?: string;
   /**
   * The unique ID of the local VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager#source_vpc_id VpcPeerConnectManager#source_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager#source_vpc_id VpcPeerConnectManager#source_vpc_id}
   */
   readonly sourceVpcId: string;
   /**
   * Interworking type, VPC_PEER interworking between VPCs; VPC_BM_PEER interworking between VPC and BM Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager#type VpcPeerConnectManager#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager#type VpcPeerConnectManager#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager tencentcloud_vpc_peer_connect_manager}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager tencentcloud_vpc_peer_connect_manager}
 */
 export class VpcPeerConnectManager extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class VpcPeerConnectManager extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcPeerConnectManager resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcPeerConnectManager to import
-  * @param importFromId The id of the existing VpcPeerConnectManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcPeerConnectManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcPeerConnectManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class VpcPeerConnectManager extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_peer_connect_manager tencentcloud_vpc_peer_connect_manager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_peer_connect_manager tencentcloud_vpc_peer_connect_manager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class VpcPeerConnectManager extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpc_peer_connect_manager',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

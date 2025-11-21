@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_push_auth_key_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_push_auth_key_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CssPushAuthKeyConfigConfig extends cdktf.TerraformMetaArguments
   /**
   * Valid time, unit: second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_push_auth_key_config#auth_delta CssPushAuthKeyConfig#auth_delta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_push_auth_key_config#auth_delta CssPushAuthKeyConfig#auth_delta}
   */
   readonly authDelta?: number;
   /**
   * Standby authentication key. No transfer means that the current value is not modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_push_auth_key_config#backup_auth_key CssPushAuthKeyConfig#backup_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_push_auth_key_config#backup_auth_key CssPushAuthKeyConfig#backup_auth_key}
   */
   readonly backupAuthKey?: string;
   /**
   * Domain Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_push_auth_key_config#domain_name CssPushAuthKeyConfig#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_push_auth_key_config#domain_name CssPushAuthKeyConfig#domain_name}
   */
   readonly domainName: string;
   /**
   * Enable or not, 0: Close, 1: Enable. No transfer means that the current value is not modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_push_auth_key_config#enable CssPushAuthKeyConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_push_auth_key_config#enable CssPushAuthKeyConfig#enable}
   */
   readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_push_auth_key_config#id CssPushAuthKeyConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_push_auth_key_config#id CssPushAuthKeyConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface CssPushAuthKeyConfigConfig extends cdktf.TerraformMetaArguments
   /**
   * Primary authentication key. No transfer means that the current value is not modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_push_auth_key_config#master_auth_key CssPushAuthKeyConfig#master_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_push_auth_key_config#master_auth_key CssPushAuthKeyConfig#master_auth_key}
   */
   readonly masterAuthKey?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_push_auth_key_config tencentcloud_css_push_auth_key_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_push_auth_key_config tencentcloud_css_push_auth_key_config}
 */
 export class CssPushAuthKeyConfig extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CssPushAuthKeyConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssPushAuthKeyConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssPushAuthKeyConfig to import
-  * @param importFromId The id of the existing CssPushAuthKeyConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_push_auth_key_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssPushAuthKeyConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_push_auth_key_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssPushAuthKeyConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CssPushAuthKeyConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_push_auth_key_config tencentcloud_css_push_auth_key_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_push_auth_key_config tencentcloud_css_push_auth_key_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CssPushAuthKeyConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_push_auth_key_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

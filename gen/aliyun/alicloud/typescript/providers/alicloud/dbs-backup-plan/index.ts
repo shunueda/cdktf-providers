@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,182 +8,182 @@ import * as cdktf from 'cdktf';
 
 export interface DbsBackupPlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#backup_gateway_id DbsBackupPlan#backup_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#backup_gateway_id DbsBackupPlan#backup_gateway_id}
   */
   readonly backupGatewayId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#backup_log_interval_seconds DbsBackupPlan#backup_log_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#backup_log_interval_seconds DbsBackupPlan#backup_log_interval_seconds}
   */
   readonly backupLogIntervalSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#backup_method DbsBackupPlan#backup_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#backup_method DbsBackupPlan#backup_method}
   */
   readonly backupMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#backup_objects DbsBackupPlan#backup_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#backup_objects DbsBackupPlan#backup_objects}
   */
   readonly backupObjects?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#backup_period DbsBackupPlan#backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#backup_period DbsBackupPlan#backup_period}
   */
   readonly backupPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#backup_plan_name DbsBackupPlan#backup_plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#backup_plan_name DbsBackupPlan#backup_plan_name}
   */
   readonly backupPlanName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#backup_rate_limit DbsBackupPlan#backup_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#backup_rate_limit DbsBackupPlan#backup_rate_limit}
   */
   readonly backupRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#backup_retention_period DbsBackupPlan#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#backup_retention_period DbsBackupPlan#backup_retention_period}
   */
   readonly backupRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#backup_speed_limit DbsBackupPlan#backup_speed_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#backup_speed_limit DbsBackupPlan#backup_speed_limit}
   */
   readonly backupSpeedLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#backup_start_time DbsBackupPlan#backup_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#backup_start_time DbsBackupPlan#backup_start_time}
   */
   readonly backupStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#backup_storage_type DbsBackupPlan#backup_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#backup_storage_type DbsBackupPlan#backup_storage_type}
   */
   readonly backupStorageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#backup_strategy_type DbsBackupPlan#backup_strategy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#backup_strategy_type DbsBackupPlan#backup_strategy_type}
   */
   readonly backupStrategyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#cross_aliyun_id DbsBackupPlan#cross_aliyun_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#cross_aliyun_id DbsBackupPlan#cross_aliyun_id}
   */
   readonly crossAliyunId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#cross_role_name DbsBackupPlan#cross_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#cross_role_name DbsBackupPlan#cross_role_name}
   */
   readonly crossRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#database_region DbsBackupPlan#database_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#database_region DbsBackupPlan#database_region}
   */
   readonly databaseRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#database_type DbsBackupPlan#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#database_type DbsBackupPlan#database_type}
   */
   readonly databaseType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#duplication_archive_period DbsBackupPlan#duplication_archive_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#duplication_archive_period DbsBackupPlan#duplication_archive_period}
   */
   readonly duplicationArchivePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#duplication_infrequent_access_period DbsBackupPlan#duplication_infrequent_access_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#duplication_infrequent_access_period DbsBackupPlan#duplication_infrequent_access_period}
   */
   readonly duplicationInfrequentAccessPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#enable_backup_log DbsBackupPlan#enable_backup_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#enable_backup_log DbsBackupPlan#enable_backup_log}
   */
   readonly enableBackupLog?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#id DbsBackupPlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#id DbsBackupPlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#instance_class DbsBackupPlan#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#instance_class DbsBackupPlan#instance_class}
   */
   readonly instanceClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#instance_type DbsBackupPlan#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#instance_type DbsBackupPlan#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#oss_bucket_name DbsBackupPlan#oss_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#oss_bucket_name DbsBackupPlan#oss_bucket_name}
   */
   readonly ossBucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#payment_type DbsBackupPlan#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#payment_type DbsBackupPlan#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#period DbsBackupPlan#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#period DbsBackupPlan#period}
   */
   readonly period?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#resource_group_id DbsBackupPlan#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#resource_group_id DbsBackupPlan#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#source_endpoint_database_name DbsBackupPlan#source_endpoint_database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#source_endpoint_database_name DbsBackupPlan#source_endpoint_database_name}
   */
   readonly sourceEndpointDatabaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#source_endpoint_instance_id DbsBackupPlan#source_endpoint_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#source_endpoint_instance_id DbsBackupPlan#source_endpoint_instance_id}
   */
   readonly sourceEndpointInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#source_endpoint_instance_type DbsBackupPlan#source_endpoint_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#source_endpoint_instance_type DbsBackupPlan#source_endpoint_instance_type}
   */
   readonly sourceEndpointInstanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#source_endpoint_ip DbsBackupPlan#source_endpoint_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#source_endpoint_ip DbsBackupPlan#source_endpoint_ip}
   */
   readonly sourceEndpointIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#source_endpoint_oracle_sid DbsBackupPlan#source_endpoint_oracle_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#source_endpoint_oracle_sid DbsBackupPlan#source_endpoint_oracle_sid}
   */
   readonly sourceEndpointOracleSid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#source_endpoint_password DbsBackupPlan#source_endpoint_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#source_endpoint_password DbsBackupPlan#source_endpoint_password}
   */
   readonly sourceEndpointPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#source_endpoint_port DbsBackupPlan#source_endpoint_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#source_endpoint_port DbsBackupPlan#source_endpoint_port}
   */
   readonly sourceEndpointPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#source_endpoint_region DbsBackupPlan#source_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#source_endpoint_region DbsBackupPlan#source_endpoint_region}
   */
   readonly sourceEndpointRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#source_endpoint_sid DbsBackupPlan#source_endpoint_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#source_endpoint_sid DbsBackupPlan#source_endpoint_sid}
   */
   readonly sourceEndpointSid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#source_endpoint_user_name DbsBackupPlan#source_endpoint_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#source_endpoint_user_name DbsBackupPlan#source_endpoint_user_name}
   */
   readonly sourceEndpointUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#status DbsBackupPlan#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#status DbsBackupPlan#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#storage_region DbsBackupPlan#storage_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#storage_region DbsBackupPlan#storage_region}
   */
   readonly storageRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#used_time DbsBackupPlan#used_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#used_time DbsBackupPlan#used_time}
   */
   readonly usedTime?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#timeouts DbsBackupPlan#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#timeouts DbsBackupPlan#timeouts}
   */
   readonly timeouts?: DbsBackupPlanTimeouts;
 }
 export interface DbsBackupPlanTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#create DbsBackupPlan#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#create DbsBackupPlan#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#delete DbsBackupPlan#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#delete DbsBackupPlan#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#update DbsBackupPlan#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#update DbsBackupPlan#update}
   */
   readonly update?: string;
 }
@@ -335,7 +335,7 @@ export class DbsBackupPlanTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan alicloud_dbs_backup_plan}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan alicloud_dbs_backup_plan}
 */
 export class DbsBackupPlan extends cdktf.TerraformResource {
 
@@ -351,7 +351,7 @@ export class DbsBackupPlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbsBackupPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbsBackupPlan to import
-  * @param importFromId The id of the existing DbsBackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbsBackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbsBackupPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -363,7 +363,7 @@ export class DbsBackupPlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dbs_backup_plan alicloud_dbs_backup_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbs_backup_plan alicloud_dbs_backup_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,8 +374,8 @@ export class DbsBackupPlan extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dbs_backup_plan',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

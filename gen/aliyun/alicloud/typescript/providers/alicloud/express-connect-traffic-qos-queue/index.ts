@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ExpressConnectTrafficQosQueueConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue#bandwidth_percent ExpressConnectTrafficQosQueue#bandwidth_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue#bandwidth_percent ExpressConnectTrafficQosQueue#bandwidth_percent}
   */
   readonly bandwidthPercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue#id ExpressConnectTrafficQosQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue#id ExpressConnectTrafficQosQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue#qos_id ExpressConnectTrafficQosQueue#qos_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue#qos_id ExpressConnectTrafficQosQueue#qos_id}
   */
   readonly qosId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue#queue_description ExpressConnectTrafficQosQueue#queue_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue#queue_description ExpressConnectTrafficQosQueue#queue_description}
   */
   readonly queueDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue#queue_name ExpressConnectTrafficQosQueue#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue#queue_name ExpressConnectTrafficQosQueue#queue_name}
   */
   readonly queueName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue#queue_type ExpressConnectTrafficQosQueue#queue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue#queue_type ExpressConnectTrafficQosQueue#queue_type}
   */
   readonly queueType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue#timeouts ExpressConnectTrafficQosQueue#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue#timeouts ExpressConnectTrafficQosQueue#timeouts}
   */
   readonly timeouts?: ExpressConnectTrafficQosQueueTimeouts;
 }
 export interface ExpressConnectTrafficQosQueueTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue#create ExpressConnectTrafficQosQueue#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue#create ExpressConnectTrafficQosQueue#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue#delete ExpressConnectTrafficQosQueue#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue#delete ExpressConnectTrafficQosQueue#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue#update ExpressConnectTrafficQosQueue#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue#update ExpressConnectTrafficQosQueue#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class ExpressConnectTrafficQosQueueTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue alicloud_express_connect_traffic_qos_queue}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue alicloud_express_connect_traffic_qos_queue}
 */
 export class ExpressConnectTrafficQosQueue extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class ExpressConnectTrafficQosQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExpressConnectTrafficQosQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExpressConnectTrafficQosQueue to import
-  * @param importFromId The id of the existing ExpressConnectTrafficQosQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExpressConnectTrafficQosQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExpressConnectTrafficQosQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class ExpressConnectTrafficQosQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue alicloud_express_connect_traffic_qos_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue alicloud_express_connect_traffic_qos_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class ExpressConnectTrafficQosQueue extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_express_connect_traffic_qos_queue',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

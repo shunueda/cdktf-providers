@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudOosSecretParametersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters#enable_details DataAlicloudOosSecretParameters#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters#enable_details DataAlicloudOosSecretParameters#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters#id DataAlicloudOosSecretParameters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters#id DataAlicloudOosSecretParameters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters#ids DataAlicloudOosSecretParameters#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters#ids DataAlicloudOosSecretParameters#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters#name_regex DataAlicloudOosSecretParameters#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters#name_regex DataAlicloudOosSecretParameters#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters#output_file DataAlicloudOosSecretParameters#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters#output_file DataAlicloudOosSecretParameters#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters#resource_group_id DataAlicloudOosSecretParameters#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters#resource_group_id DataAlicloudOosSecretParameters#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters#secret_parameter_name DataAlicloudOosSecretParameters#secret_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters#secret_parameter_name DataAlicloudOosSecretParameters#secret_parameter_name}
   */
   readonly secretParameterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters#sort_field DataAlicloudOosSecretParameters#sort_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters#sort_field DataAlicloudOosSecretParameters#sort_field}
   */
   readonly sortField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters#sort_order DataAlicloudOosSecretParameters#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters#sort_order DataAlicloudOosSecretParameters#sort_order}
   */
   readonly sortOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters#tags DataAlicloudOosSecretParameters#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters#tags DataAlicloudOosSecretParameters#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters#with_decryption DataAlicloudOosSecretParameters#with_decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters#with_decryption DataAlicloudOosSecretParameters#with_decryption}
   */
   readonly withDecryption?: boolean | cdktf.IResolvable;
 }
@@ -208,7 +208,7 @@ export class DataAlicloudOosSecretParametersParametersList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters alicloud_oos_secret_parameters}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters alicloud_oos_secret_parameters}
 */
 export class DataAlicloudOosSecretParameters extends cdktf.TerraformDataSource {
 
@@ -224,7 +224,7 @@ export class DataAlicloudOosSecretParameters extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudOosSecretParameters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudOosSecretParameters to import
-  * @param importFromId The id of the existing DataAlicloudOosSecretParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudOosSecretParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudOosSecretParameters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class DataAlicloudOosSecretParameters extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_secret_parameters alicloud_oos_secret_parameters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_secret_parameters alicloud_oos_secret_parameters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class DataAlicloudOosSecretParameters extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_oos_secret_parameters',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

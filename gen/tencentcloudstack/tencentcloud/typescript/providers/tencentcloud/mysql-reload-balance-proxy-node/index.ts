@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mysql_reload_balance_proxy_node
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_reload_balance_proxy_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlReloadBalanceProxyNodeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mysql_reload_balance_proxy_node#id MysqlReloadBalanceProxyNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_reload_balance_proxy_node#id MysqlReloadBalanceProxyNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface MysqlReloadBalanceProxyNodeConfig extends cdktf.TerraformMetaAr
   /**
   * Proxy address id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mysql_reload_balance_proxy_node#proxy_address_id MysqlReloadBalanceProxyNode#proxy_address_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_reload_balance_proxy_node#proxy_address_id MysqlReloadBalanceProxyNode#proxy_address_id}
   */
   readonly proxyAddressId?: string;
   /**
   * Proxy id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mysql_reload_balance_proxy_node#proxy_group_id MysqlReloadBalanceProxyNode#proxy_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_reload_balance_proxy_node#proxy_group_id MysqlReloadBalanceProxyNode#proxy_group_id}
   */
   readonly proxyGroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mysql_reload_balance_proxy_node tencentcloud_mysql_reload_balance_proxy_node}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_reload_balance_proxy_node tencentcloud_mysql_reload_balance_proxy_node}
 */
 export class MysqlReloadBalanceProxyNode extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class MysqlReloadBalanceProxyNode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlReloadBalanceProxyNode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlReloadBalanceProxyNode to import
-  * @param importFromId The id of the existing MysqlReloadBalanceProxyNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mysql_reload_balance_proxy_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlReloadBalanceProxyNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_reload_balance_proxy_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlReloadBalanceProxyNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class MysqlReloadBalanceProxyNode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mysql_reload_balance_proxy_node tencentcloud_mysql_reload_balance_proxy_node} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mysql_reload_balance_proxy_node tencentcloud_mysql_reload_balance_proxy_node} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class MysqlReloadBalanceProxyNode extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_reload_balance_proxy_node',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

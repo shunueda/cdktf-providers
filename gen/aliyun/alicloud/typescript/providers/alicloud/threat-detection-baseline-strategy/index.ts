@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_baseline_strategy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_baseline_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionBaselineStrategyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_baseline_strategy#baseline_strategy_name ThreatDetectionBaselineStrategy#baseline_strategy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_baseline_strategy#baseline_strategy_name ThreatDetectionBaselineStrategy#baseline_strategy_name}
   */
   readonly baselineStrategyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_baseline_strategy#custom_type ThreatDetectionBaselineStrategy#custom_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_baseline_strategy#custom_type ThreatDetectionBaselineStrategy#custom_type}
   */
   readonly customType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_baseline_strategy#cycle_days ThreatDetectionBaselineStrategy#cycle_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_baseline_strategy#cycle_days ThreatDetectionBaselineStrategy#cycle_days}
   */
   readonly cycleDays: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_baseline_strategy#cycle_start_time ThreatDetectionBaselineStrategy#cycle_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_baseline_strategy#cycle_start_time ThreatDetectionBaselineStrategy#cycle_start_time}
   */
   readonly cycleStartTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_baseline_strategy#end_time ThreatDetectionBaselineStrategy#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_baseline_strategy#end_time ThreatDetectionBaselineStrategy#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_baseline_strategy#id ThreatDetectionBaselineStrategy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_baseline_strategy#id ThreatDetectionBaselineStrategy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_baseline_strategy#risk_sub_type_name ThreatDetectionBaselineStrategy#risk_sub_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_baseline_strategy#risk_sub_type_name ThreatDetectionBaselineStrategy#risk_sub_type_name}
   */
   readonly riskSubTypeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_baseline_strategy#start_time ThreatDetectionBaselineStrategy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_baseline_strategy#start_time ThreatDetectionBaselineStrategy#start_time}
   */
   readonly startTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_baseline_strategy#target_type ThreatDetectionBaselineStrategy#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_baseline_strategy#target_type ThreatDetectionBaselineStrategy#target_type}
   */
   readonly targetType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_baseline_strategy alicloud_threat_detection_baseline_strategy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_baseline_strategy alicloud_threat_detection_baseline_strategy}
 */
 export class ThreatDetectionBaselineStrategy extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class ThreatDetectionBaselineStrategy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatDetectionBaselineStrategy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionBaselineStrategy to import
-  * @param importFromId The id of the existing ThreatDetectionBaselineStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_baseline_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionBaselineStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_baseline_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionBaselineStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class ThreatDetectionBaselineStrategy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_baseline_strategy alicloud_threat_detection_baseline_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_baseline_strategy alicloud_threat_detection_baseline_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class ThreatDetectionBaselineStrategy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_threat_detection_baseline_strategy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

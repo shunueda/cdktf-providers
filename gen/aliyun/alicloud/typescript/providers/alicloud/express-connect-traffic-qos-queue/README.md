@@ -1,3 +1,3 @@
 # `alicloud_express_connect_traffic_qos_queue`
 
-Refer to the Terraform Registry for docs: [`alicloud_express_connect_traffic_qos_queue`](https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_traffic_qos_queue).
+Refer to the Terraform Registry for docs: [`alicloud_express_connect_traffic_qos_queue`](https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_traffic_qos_queue).

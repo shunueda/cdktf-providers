@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface EdasK8SSlbAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#app_id EdasK8SSlbAttachment#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#app_id EdasK8SSlbAttachment#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#id EdasK8SSlbAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#id EdasK8SSlbAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,27 +21,27 @@ export interface EdasK8SSlbAttachmentConfig extends cdktf.TerraformMetaArguments
   /**
   * slb_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#slb_configs EdasK8SSlbAttachment#slb_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#slb_configs EdasK8SSlbAttachment#slb_configs}
   */
   readonly slbConfigs?: EdasK8SSlbAttachmentSlbConfigs[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#timeouts EdasK8SSlbAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#timeouts EdasK8SSlbAttachment#timeouts}
   */
   readonly timeouts?: EdasK8SSlbAttachmentTimeouts;
 }
 export interface EdasK8SSlbAttachmentSlbConfigsPortMappingsServicePort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#port EdasK8SSlbAttachment#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#port EdasK8SSlbAttachment#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#protocol EdasK8SSlbAttachment#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#protocol EdasK8SSlbAttachment#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#target_port EdasK8SSlbAttachment#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#target_port EdasK8SSlbAttachment#target_port}
   */
   readonly targetPort: number;
 }
@@ -174,17 +174,17 @@ export class EdasK8SSlbAttachmentSlbConfigsPortMappingsServicePortOutputReferenc
 }
 export interface EdasK8SSlbAttachmentSlbConfigsPortMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#cert_id EdasK8SSlbAttachment#cert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#cert_id EdasK8SSlbAttachment#cert_id}
   */
   readonly certId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#loadbalancer_protocol EdasK8SSlbAttachment#loadbalancer_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#loadbalancer_protocol EdasK8SSlbAttachment#loadbalancer_protocol}
   */
   readonly loadbalancerProtocol: string;
   /**
   * service_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#service_port EdasK8SSlbAttachment#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#service_port EdasK8SSlbAttachment#service_port}
   */
   readonly servicePort: EdasK8SSlbAttachmentSlbConfigsPortMappingsServicePort;
 }
@@ -352,27 +352,27 @@ export class EdasK8SSlbAttachmentSlbConfigsPortMappingsList extends cdktf.Comple
 }
 export interface EdasK8SSlbAttachmentSlbConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#scheduler EdasK8SSlbAttachment#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#scheduler EdasK8SSlbAttachment#scheduler}
   */
   readonly scheduler: string;
   /**
   * if field 'slb_id' is empty, EDAS will purchase a new slb for this config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#slb_id EdasK8SSlbAttachment#slb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#slb_id EdasK8SSlbAttachment#slb_id}
   */
   readonly slbId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#specification EdasK8SSlbAttachment#specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#specification EdasK8SSlbAttachment#specification}
   */
   readonly specification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#type EdasK8SSlbAttachment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#type EdasK8SSlbAttachment#type}
   */
   readonly type: string;
   /**
   * port_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#port_mappings EdasK8SSlbAttachment#port_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#port_mappings EdasK8SSlbAttachment#port_mappings}
   */
   readonly portMappings: EdasK8SSlbAttachmentSlbConfigsPortMappings[] | cdktf.IResolvable;
 }
@@ -600,15 +600,15 @@ export class EdasK8SSlbAttachmentSlbConfigsList extends cdktf.ComplexList {
 }
 export interface EdasK8SSlbAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#create EdasK8SSlbAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#create EdasK8SSlbAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#delete EdasK8SSlbAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#delete EdasK8SSlbAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#update EdasK8SSlbAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#update EdasK8SSlbAttachment#update}
   */
   readonly update?: string;
 }
@@ -760,7 +760,7 @@ export class EdasK8SSlbAttachmentTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment alicloud_edas_k8s_slb_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment alicloud_edas_k8s_slb_attachment}
 */
 export class EdasK8SSlbAttachment extends cdktf.TerraformResource {
 
@@ -776,7 +776,7 @@ export class EdasK8SSlbAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdasK8SSlbAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdasK8SSlbAttachment to import
-  * @param importFromId The id of the existing EdasK8SSlbAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdasK8SSlbAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdasK8SSlbAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -788,7 +788,7 @@ export class EdasK8SSlbAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/edas_k8s_slb_attachment alicloud_edas_k8s_slb_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/edas_k8s_slb_attachment alicloud_edas_k8s_slb_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -799,8 +799,8 @@ export class EdasK8SSlbAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_edas_k8s_slb_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

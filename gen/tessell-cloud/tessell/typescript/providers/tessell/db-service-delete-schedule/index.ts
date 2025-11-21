@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_delete_schedule
+// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_delete_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DbServiceDeleteScheduleConfig extends cdktf.TerraformMetaArgume
   /**
   * Time at which the DB Service should be deleted at
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_delete_schedule#delete_at DbServiceDeleteSchedule#delete_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_delete_schedule#delete_at DbServiceDeleteSchedule#delete_at}
   */
   readonly deleteAt: string;
   /**
   * The ID of the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_delete_schedule#service_id DbServiceDeleteSchedule#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_delete_schedule#service_id DbServiceDeleteSchedule#service_id}
   */
   readonly serviceId: string;
   /**
   * deletion_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_delete_schedule#deletion_config DbServiceDeleteSchedule#deletion_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_delete_schedule#deletion_config DbServiceDeleteSchedule#deletion_config}
   */
   readonly deletionConfig?: DbServiceDeleteScheduleDeletionConfig;
 }
@@ -30,7 +30,7 @@ export interface DbServiceDeleteScheduleDeletionConfig {
   /**
   * If specified as true, the associated Availability Machine (snapshots, sanitized-snapshots, logs) would be retained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_delete_schedule#retain_availability_machine DbServiceDeleteSchedule#retain_availability_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_delete_schedule#retain_availability_machine DbServiceDeleteSchedule#retain_availability_machine}
   */
   readonly retainAvailabilityMachine?: boolean | cdktf.IResolvable;
 }
@@ -114,7 +114,7 @@ export class DbServiceDeleteScheduleDeletionConfigOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_delete_schedule tessell_db_service_delete_schedule}
+* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_delete_schedule tessell_db_service_delete_schedule}
 */
 export class DbServiceDeleteSchedule extends cdktf.TerraformResource {
 
@@ -130,7 +130,7 @@ export class DbServiceDeleteSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbServiceDeleteSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbServiceDeleteSchedule to import
-  * @param importFromId The id of the existing DbServiceDeleteSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_delete_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbServiceDeleteSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_delete_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbServiceDeleteSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class DbServiceDeleteSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_delete_schedule tessell_db_service_delete_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_delete_schedule tessell_db_service_delete_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class DbServiceDeleteSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'tessell_db_service_delete_schedule',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.27',
-        providerVersionConstraint: '0.0.27'
+        providerVersion: '0.0.28',
+        providerVersionConstraint: '0.0.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/vpc_security_group_limits
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_security_group_limits
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudVpcSecurityGroupLimitsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/vpc_security_group_limits#id DataTencentcloudVpcSecurityGroupLimits#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_security_group_limits#id DataTencentcloudVpcSecurityGroupLimits#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataTencentcloudVpcSecurityGroupLimitsConfig extends cdktf.Terr
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/vpc_security_group_limits#result_output_file DataTencentcloudVpcSecurityGroupLimits#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_security_group_limits#result_output_file DataTencentcloudVpcSecurityGroupLimits#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -133,7 +133,7 @@ export class DataTencentcloudVpcSecurityGroupLimitsSecurityGroupLimitSetList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/vpc_security_group_limits tencentcloud_vpc_security_group_limits}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_security_group_limits tencentcloud_vpc_security_group_limits}
 */
 export class DataTencentcloudVpcSecurityGroupLimits extends cdktf.TerraformDataSource {
 
@@ -149,7 +149,7 @@ export class DataTencentcloudVpcSecurityGroupLimits extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataTencentcloudVpcSecurityGroupLimits resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudVpcSecurityGroupLimits to import
-  * @param importFromId The id of the existing DataTencentcloudVpcSecurityGroupLimits that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/vpc_security_group_limits#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudVpcSecurityGroupLimits that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_security_group_limits#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudVpcSecurityGroupLimits to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -161,7 +161,7 @@ export class DataTencentcloudVpcSecurityGroupLimits extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/vpc_security_group_limits tencentcloud_vpc_security_group_limits} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/vpc_security_group_limits tencentcloud_vpc_security_group_limits} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -172,8 +172,8 @@ export class DataTencentcloudVpcSecurityGroupLimits extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_vpc_security_group_limits',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

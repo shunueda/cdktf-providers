@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/eb_put_events
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eb_put_events
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EbPutEventsConfig extends cdktf.TerraformMetaArguments {
   /**
   * event bus Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/eb_put_events#event_bus_id EbPutEvents#event_bus_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eb_put_events#event_bus_id EbPutEvents#event_bus_id}
   */
   readonly eventBusId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/eb_put_events#id EbPutEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eb_put_events#id EbPutEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface EbPutEventsConfig extends cdktf.TerraformMetaArguments {
   /**
   * event_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/eb_put_events#event_list EbPutEvents#event_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eb_put_events#event_list EbPutEvents#event_list}
   */
   readonly eventList: EbPutEventsEventListStruct[] | cdktf.IResolvable;
 }
@@ -31,31 +31,31 @@ export interface EbPutEventsEventListStruct {
   /**
   * Event data, the content is controlled by the system that created the event, the current datacontenttype only supports application/json;charset=utf-8, so this field is a json string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/eb_put_events#data EbPutEvents#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eb_put_events#data EbPutEvents#data}
   */
   readonly data: string;
   /**
   * Event source information, new product reporting must comply with EB specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/eb_put_events#source EbPutEvents#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eb_put_events#source EbPutEvents#source}
   */
   readonly source: string;
   /**
   * Detailed description of the event source, customizable, optional. The cloud service defaults to the standard qcs resource representation syntax: qcs::dts:ap-guangzhou:appid/uin:xxx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/eb_put_events#subject EbPutEvents#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eb_put_events#subject EbPutEvents#subject}
   */
   readonly subject: string;
   /**
   * The timestamp in milliseconds when the event occurred,time.Now().UnixNano()/1e6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/eb_put_events#time EbPutEvents#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eb_put_events#time EbPutEvents#time}
   */
   readonly time?: number;
   /**
   * Event type, customizable, optional. The cloud service writes COS:Created:PostObject by default, use: to separate the type field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/eb_put_events#type EbPutEvents#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eb_put_events#type EbPutEvents#type}
   */
   readonly type: string;
 }
@@ -275,7 +275,7 @@ export class EbPutEventsEventListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/eb_put_events tencentcloud_eb_put_events}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eb_put_events tencentcloud_eb_put_events}
 */
 export class EbPutEvents extends cdktf.TerraformResource {
 
@@ -291,7 +291,7 @@ export class EbPutEvents extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EbPutEvents resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EbPutEvents to import
-  * @param importFromId The id of the existing EbPutEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/eb_put_events#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EbPutEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eb_put_events#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EbPutEvents to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -303,7 +303,7 @@ export class EbPutEvents extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/eb_put_events tencentcloud_eb_put_events} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/eb_put_events tencentcloud_eb_put_events} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -314,8 +314,8 @@ export class EbPutEvents extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_eb_put_events',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

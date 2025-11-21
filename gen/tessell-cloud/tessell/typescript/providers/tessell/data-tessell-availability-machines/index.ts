@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/availability_machines
+// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTessellAvailabilityMachinesConfig extends cdktf.TerraformMe
   /**
   * Availaility Machine's engine-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/availability_machines#engine_type DataTessellAvailabilityMachines#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#engine_type DataTessellAvailabilityMachines#engine_type}
   */
   readonly engineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/availability_machines#id DataTessellAvailabilityMachines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#id DataTessellAvailabilityMachines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTessellAvailabilityMachinesConfig extends cdktf.TerraformMe
   /**
   * Load ACL information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/availability_machines#load_acls DataTessellAvailabilityMachines#load_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#load_acls DataTessellAvailabilityMachines#load_acls}
   */
   readonly loadAcls?: boolean | cdktf.IResolvable;
   /**
   * Name of the Availability Machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/availability_machines#name DataTessellAvailabilityMachines#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#name DataTessellAvailabilityMachines#name}
   */
   readonly name?: string;
   /**
   * List of Email Addresses for entity or resource owners
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/availability_machines#owners DataTessellAvailabilityMachines#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#owners DataTessellAvailabilityMachines#owners}
   */
   readonly owners?: string[];
   /**
   * status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/availability_machines#status DataTessellAvailabilityMachines#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#status DataTessellAvailabilityMachines#status}
   */
   readonly status?: string;
 }
@@ -658,6 +658,11 @@ export class DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesA
   // provider - computed: true, optional: false, required: false
   public get provider() {
     return this.getStringAttribute('provider');
+  }
+
+  // volume_type - computed: true, optional: false, required: false
+  public get volumeType() {
+    return this.getStringAttribute('volume_type');
   }
 }
 
@@ -1413,6 +1418,96 @@ export class DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesM
     return new DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesMonitoringConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesOptionProfile {
+}
+
+export function dataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesOptionProfileToTerraform(struct?: DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesOptionProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesOptionProfileToHclTerraform(struct?: DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesOptionProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesOptionProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesOptionProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesOptionProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+
+  // version - computed: true, optional: false, required: false
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+}
+
+export class DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesOptionProfileList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesOptionProfileOutputReference {
+    return new DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesOptionProfileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesParameterProfile {
 }
 
@@ -1501,6 +1596,106 @@ export class DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesP
   */
   public get(index: number): DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesParameterProfileOutputReference {
     return new DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesParameterProfileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesPrivateLinkInfo {
+}
+
+export function dataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesPrivateLinkInfoToTerraform(struct?: DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesPrivateLinkInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesPrivateLinkInfoToHclTerraform(struct?: DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesPrivateLinkInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesPrivateLinkInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesPrivateLinkInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesPrivateLinkInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // client_azure_subscription_ids - computed: true, optional: false, required: false
+  public get clientAzureSubscriptionIds() {
+    return this.getListAttribute('client_azure_subscription_ids');
+  }
+
+  // endpoint_service_name - computed: true, optional: false, required: false
+  public get endpointServiceName() {
+    return this.getStringAttribute('endpoint_service_name');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // private_link_service_alias - computed: true, optional: false, required: false
+  public get privateLinkServiceAlias() {
+    return this.getStringAttribute('private_link_service_alias');
+  }
+
+  // service_principals - computed: true, optional: false, required: false
+  public get servicePrincipals() {
+    return this.getListAttribute('service_principals');
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+}
+
+export class DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesPrivateLinkInfoList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesPrivateLinkInfoOutputReference {
+    return new DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesPrivateLinkInfoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesStorageConfigAzureNetAppConfigEncryptionKeyInfo {
@@ -1876,6 +2071,11 @@ export class DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesS
   public get provider() {
     return this.getStringAttribute('provider');
   }
+
+  // volume_type - computed: true, optional: false, required: false
+  public get volumeType() {
+    return this.getStringAttribute('volume_type');
+  }
 }
 
 export class DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesStorageConfigList extends cdktf.ComplexList {
@@ -2149,10 +2349,22 @@ export class DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesO
     return this.getStringAttribute('name');
   }
 
+  // option_profile - computed: true, optional: false, required: false
+  private _optionProfile = new DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesOptionProfileList(this, "option_profile", false);
+  public get optionProfile() {
+    return this._optionProfile;
+  }
+
   // parameter_profile - computed: true, optional: false, required: false
   private _parameterProfile = new DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesParameterProfileList(this, "parameter_profile", false);
   public get parameterProfile() {
     return this._parameterProfile;
+  }
+
+  // private_link_info - computed: true, optional: false, required: false
+  private _privateLinkInfo = new DataTessellAvailabilityMachinesAvailabilityMachinesClonesInstancesPrivateLinkInfoList(this, "private_link_info", false);
+  public get privateLinkInfo() {
+    return this._privateLinkInfo;
   }
 
   // private_subnet - computed: true, optional: false, required: false
@@ -6911,7 +7123,7 @@ export class DataTessellAvailabilityMachinesAvailabilityMachinesList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/availability_machines tessell_availability_machines}
+* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines tessell_availability_machines}
 */
 export class DataTessellAvailabilityMachines extends cdktf.TerraformDataSource {
 
@@ -6927,7 +7139,7 @@ export class DataTessellAvailabilityMachines extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTessellAvailabilityMachines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTessellAvailabilityMachines to import
-  * @param importFromId The id of the existing DataTessellAvailabilityMachines that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/availability_machines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTessellAvailabilityMachines that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTessellAvailabilityMachines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6939,7 +7151,7 @@ export class DataTessellAvailabilityMachines extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/availability_machines tessell_availability_machines} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines tessell_availability_machines} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6950,8 +7162,8 @@ export class DataTessellAvailabilityMachines extends cdktf.TerraformDataSource {
       terraformResourceType: 'tessell_availability_machines',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.27',
-        providerVersionConstraint: '0.0.27'
+        providerVersion: '0.0.28',
+        providerVersionConstraint: '0.0.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

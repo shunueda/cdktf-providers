@@ -509,6 +509,7 @@ Object.defineProperty(exports, 'identityCenterScimSynchronizationStatus', { get:
 Object.defineProperty(exports, 'identityCenterUser', { get: function () { return require('./identity-center-user'); } });
 Object.defineProperty(exports, 'identityCenterUserGroupAttachment', { get: function () { return require('./identity-center-user-group-attachment'); } });
 Object.defineProperty(exports, 'identityCenterUserSyncProvisioning', { get: function () { return require('./identity-center-user-sync-provisioning'); } });
+Object.defineProperty(exports, 'igtmAddressPool', { get: function () { return require('./igtm-address-pool'); } });
 Object.defineProperty(exports, 'image', { get: function () { return require('./image'); } });
 Object.defineProperty(exports, 'instance', { get: function () { return require('./instance'); } });
 Object.defineProperty(exports, 'instanceSet', { get: function () { return require('./instance-set'); } });
@@ -1125,6 +1126,9 @@ Object.defineProperty(exports, 'wafIpAccessControlV2', { get: function () { retu
 Object.defineProperty(exports, 'wafLogPostCkafkaFlow', { get: function () { return require('./waf-log-post-ckafka-flow'); } });
 Object.defineProperty(exports, 'wafLogPostClsFlow', { get: function () { return require('./waf-log-post-cls-flow'); } });
 Object.defineProperty(exports, 'wafModuleStatus', { get: function () { return require('./waf-module-status'); } });
+Object.defineProperty(exports, 'wafOwaspRuleStatusConfig', { get: function () { return require('./waf-owasp-rule-status-config'); } });
+Object.defineProperty(exports, 'wafOwaspRuleTypeConfig', { get: function () { return require('./waf-owasp-rule-type-config'); } });
+Object.defineProperty(exports, 'wafOwaspWhiteRule', { get: function () { return require('./waf-owasp-white-rule'); } });
 Object.defineProperty(exports, 'wafProtectionMode', { get: function () { return require('./waf-protection-mode'); } });
 Object.defineProperty(exports, 'wafSaasDomain', { get: function () { return require('./waf-saas-domain'); } });
 Object.defineProperty(exports, 'wafSaasInstance', { get: function () { return require('./waf-saas-instance'); } });
@@ -1527,6 +1531,7 @@ Object.defineProperty(exports, 'dataTencentcloudHaVips', { get: function () { re
 Object.defineProperty(exports, 'dataTencentcloudIdentityCenterGroups', { get: function () { return require('./data-tencentcloud-identity-center-groups'); } });
 Object.defineProperty(exports, 'dataTencentcloudIdentityCenterRoleConfigurations', { get: function () { return require('./data-tencentcloud-identity-center-role-configurations'); } });
 Object.defineProperty(exports, 'dataTencentcloudIdentityCenterUsers', { get: function () { return require('./data-tencentcloud-identity-center-users'); } });
+Object.defineProperty(exports, 'dataTencentcloudIgtmAddressPoolList', { get: function () { return require('./data-tencentcloud-igtm-address-pool-list'); } });
 Object.defineProperty(exports, 'dataTencentcloudImage', { get: function () { return require('./data-tencentcloud-image'); } });
 Object.defineProperty(exports, 'dataTencentcloudImageFromFamily', { get: function () { return require('./data-tencentcloud-image-from-family'); } });
 Object.defineProperty(exports, 'dataTencentcloudImages', { get: function () { return require('./data-tencentcloud-images'); } });
@@ -1544,6 +1549,7 @@ Object.defineProperty(exports, 'dataTencentcloudKmsServiceStatus', { get: functi
 Object.defineProperty(exports, 'dataTencentcloudKmsWhiteBoxDecryptKey', { get: function () { return require('./data-tencentcloud-kms-white-box-decrypt-key'); } });
 Object.defineProperty(exports, 'dataTencentcloudKmsWhiteBoxDeviceFingerprints', { get: function () { return require('./data-tencentcloud-kms-white-box-device-fingerprints'); } });
 Object.defineProperty(exports, 'dataTencentcloudKmsWhiteBoxKeyDetails', { get: function () { return require('./data-tencentcloud-kms-white-box-key-details'); } });
+Object.defineProperty(exports, 'dataTencentcloudKubernetesAddons', { get: function () { return require('./data-tencentcloud-kubernetes-addons'); } });
 Object.defineProperty(exports, 'dataTencentcloudKubernetesAvailableClusterVersions', { get: function () { return require('./data-tencentcloud-kubernetes-available-cluster-versions'); } });
 Object.defineProperty(exports, 'dataTencentcloudKubernetesCharts', { get: function () { return require('./data-tencentcloud-kubernetes-charts'); } });
 Object.defineProperty(exports, 'dataTencentcloudKubernetesClusterAuthenticationOptions', { get: function () { return require('./data-tencentcloud-kubernetes-cluster-authentication-options'); } });
@@ -1955,6 +1961,8 @@ Object.defineProperty(exports, 'dataTencentcloudWafCiphers', { get: function () 
 Object.defineProperty(exports, 'dataTencentcloudWafDomains', { get: function () { return require('./data-tencentcloud-waf-domains'); } });
 Object.defineProperty(exports, 'dataTencentcloudWafFindDomains', { get: function () { return require('./data-tencentcloud-waf-find-domains'); } });
 Object.defineProperty(exports, 'dataTencentcloudWafInstanceQpsLimit', { get: function () { return require('./data-tencentcloud-waf-instance-qps-limit'); } });
+Object.defineProperty(exports, 'dataTencentcloudWafOwaspRuleTypes', { get: function () { return require('./data-tencentcloud-waf-owasp-rule-types'); } });
+Object.defineProperty(exports, 'dataTencentcloudWafOwaspRules', { get: function () { return require('./data-tencentcloud-waf-owasp-rules'); } });
 Object.defineProperty(exports, 'dataTencentcloudWafPeakPoints', { get: function () { return require('./data-tencentcloud-waf-peak-points'); } });
 Object.defineProperty(exports, 'dataTencentcloudWafPorts', { get: function () { return require('./data-tencentcloud-waf-ports'); } });
 Object.defineProperty(exports, 'dataTencentcloudWafTlsVersions', { get: function () { return require('./data-tencentcloud-waf-tls-versions'); } });

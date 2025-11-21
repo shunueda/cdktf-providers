@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/rds_parameter_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_parameter_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface RdsParameterGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/rds_parameter_group#engine RdsParameterGroup#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_parameter_group#engine RdsParameterGroup#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/rds_parameter_group#engine_version RdsParameterGroup#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_parameter_group#engine_version RdsParameterGroup#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/rds_parameter_group#id RdsParameterGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_parameter_group#id RdsParameterGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/rds_parameter_group#parameter_group_desc RdsParameterGroup#parameter_group_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_parameter_group#parameter_group_desc RdsParameterGroup#parameter_group_desc}
   */
   readonly parameterGroupDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/rds_parameter_group#parameter_group_name RdsParameterGroup#parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_parameter_group#parameter_group_name RdsParameterGroup#parameter_group_name}
   */
   readonly parameterGroupName: string;
   /**
   * param_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/rds_parameter_group#param_detail RdsParameterGroup#param_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_parameter_group#param_detail RdsParameterGroup#param_detail}
   */
   readonly paramDetail: RdsParameterGroupParamDetail[] | cdktf.IResolvable;
 }
 export interface RdsParameterGroupParamDetail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/rds_parameter_group#param_name RdsParameterGroup#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_parameter_group#param_name RdsParameterGroup#param_name}
   */
   readonly paramName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/rds_parameter_group#param_value RdsParameterGroup#param_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_parameter_group#param_value RdsParameterGroup#param_value}
   */
   readonly paramValue: string;
 }
@@ -182,7 +182,7 @@ export class RdsParameterGroupParamDetailList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/rds_parameter_group alicloud_rds_parameter_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_parameter_group alicloud_rds_parameter_group}
 */
 export class RdsParameterGroup extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class RdsParameterGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsParameterGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsParameterGroup to import
-  * @param importFromId The id of the existing RdsParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/rds_parameter_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_parameter_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsParameterGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class RdsParameterGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/rds_parameter_group alicloud_rds_parameter_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_parameter_group alicloud_rds_parameter_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class RdsParameterGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_rds_parameter_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

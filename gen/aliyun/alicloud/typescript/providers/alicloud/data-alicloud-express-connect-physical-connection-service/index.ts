@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_physical_connection_service
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_physical_connection_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudExpressConnectPhysicalConnectionServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_physical_connection_service#enable DataAlicloudExpressConnectPhysicalConnectionService#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_physical_connection_service#enable DataAlicloudExpressConnectPhysicalConnectionService#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_physical_connection_service#id DataAlicloudExpressConnectPhysicalConnectionService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_physical_connection_service#id DataAlicloudExpressConnectPhysicalConnectionService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataAlicloudExpressConnectPhysicalConnectionServiceConfig exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_physical_connection_service alicloud_express_connect_physical_connection_service}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_physical_connection_service alicloud_express_connect_physical_connection_service}
 */
 export class DataAlicloudExpressConnectPhysicalConnectionService extends cdktf.TerraformDataSource {
 
@@ -37,7 +37,7 @@ export class DataAlicloudExpressConnectPhysicalConnectionService extends cdktf.T
   * Generates CDKTF code for importing a DataAlicloudExpressConnectPhysicalConnectionService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudExpressConnectPhysicalConnectionService to import
-  * @param importFromId The id of the existing DataAlicloudExpressConnectPhysicalConnectionService that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_physical_connection_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudExpressConnectPhysicalConnectionService that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_physical_connection_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudExpressConnectPhysicalConnectionService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class DataAlicloudExpressConnectPhysicalConnectionService extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_physical_connection_service alicloud_express_connect_physical_connection_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_physical_connection_service alicloud_express_connect_physical_connection_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class DataAlicloudExpressConnectPhysicalConnectionService extends cdktf.T
       terraformResourceType: 'alicloud_express_connect_physical_connection_service',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

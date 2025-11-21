@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat
+// https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,37 +12,37 @@ export interface CheckHeartbeatConfig extends cdktf.TerraformMetaArguments {
   * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat#contact_groups CheckHeartbeat#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat#contact_groups CheckHeartbeat#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Include this check in uptime/response time calculations for the dashboard and status pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat#include_in_global_metrics CheckHeartbeat#include_in_global_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat#include_in_global_metrics CheckHeartbeat#include_in_global_metrics}
   */
   readonly includeInGlobalMetrics?: boolean | cdktf.IResolvable;
   /**
   * The interval between checks in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat#interval CheckHeartbeat#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat#interval CheckHeartbeat#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat#is_paused CheckHeartbeat#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat#is_paused CheckHeartbeat#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat#name CheckHeartbeat#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat#name CheckHeartbeat#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat#notes CheckHeartbeat#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat#notes CheckHeartbeat#notes}
   */
   readonly notes?: string;
   /**
   * SLA related attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat#sla CheckHeartbeat#sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat#sla CheckHeartbeat#sla}
   */
   readonly sla?: CheckHeartbeatSla;
   /**
@@ -52,7 +52,7 @@ export interface CheckHeartbeatConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat#tags CheckHeartbeat#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat#tags CheckHeartbeat#tags}
   */
   readonly tags?: string[];
 }
@@ -60,13 +60,13 @@ export interface CheckHeartbeatSla {
   /**
   * The maximum average response time. Unit is mandatory (e.g. 1500ms or 1.5s or 1s500ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat#latency CheckHeartbeat#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat#latency CheckHeartbeat#latency}
   */
   readonly latency?: string;
   /**
   * The minimum uptime percentage. \nMust be a fraction with exactly 4 decimal places (e.g. 0.9995 for 99.95% uptime)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat#uptime CheckHeartbeat#uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat#uptime CheckHeartbeat#uptime}
   */
   readonly uptime?: string;
 }
@@ -189,7 +189,7 @@ export class CheckHeartbeatSlaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat uptime_check_heartbeat}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat uptime_check_heartbeat}
 */
 export class CheckHeartbeat extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class CheckHeartbeat extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckHeartbeat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckHeartbeat to import
-  * @param importFromId The id of the existing CheckHeartbeat that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckHeartbeat that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckHeartbeat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class CheckHeartbeat extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_heartbeat uptime_check_heartbeat} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_heartbeat uptime_check_heartbeat} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class CheckHeartbeat extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_heartbeat',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.16.0',
-        providerVersionConstraint: '2.16.0'
+        providerVersion: '2.17.1',
+        providerVersionConstraint: '2.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

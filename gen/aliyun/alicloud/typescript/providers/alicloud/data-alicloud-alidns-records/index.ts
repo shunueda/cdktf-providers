@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudAlidnsRecordsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#direction DataAlicloudAlidnsRecords#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#direction DataAlicloudAlidnsRecords#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#domain_name DataAlicloudAlidnsRecords#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#domain_name DataAlicloudAlidnsRecords#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#group_id DataAlicloudAlidnsRecords#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#group_id DataAlicloudAlidnsRecords#group_id}
   */
   readonly groupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#id DataAlicloudAlidnsRecords#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#id DataAlicloudAlidnsRecords#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#ids DataAlicloudAlidnsRecords#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#ids DataAlicloudAlidnsRecords#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#key_word DataAlicloudAlidnsRecords#key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#key_word DataAlicloudAlidnsRecords#key_word}
   */
   readonly keyWord?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#lang DataAlicloudAlidnsRecords#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#lang DataAlicloudAlidnsRecords#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#line DataAlicloudAlidnsRecords#line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#line DataAlicloudAlidnsRecords#line}
   */
   readonly line?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#order_by DataAlicloudAlidnsRecords#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#order_by DataAlicloudAlidnsRecords#order_by}
   */
   readonly orderBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#output_file DataAlicloudAlidnsRecords#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#output_file DataAlicloudAlidnsRecords#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#rr_key_word DataAlicloudAlidnsRecords#rr_key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#rr_key_word DataAlicloudAlidnsRecords#rr_key_word}
   */
   readonly rrKeyWord?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#rr_regex DataAlicloudAlidnsRecords#rr_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#rr_regex DataAlicloudAlidnsRecords#rr_regex}
   */
   readonly rrRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#search_mode DataAlicloudAlidnsRecords#search_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#search_mode DataAlicloudAlidnsRecords#search_mode}
   */
   readonly searchMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#status DataAlicloudAlidnsRecords#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#status DataAlicloudAlidnsRecords#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#type DataAlicloudAlidnsRecords#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#type DataAlicloudAlidnsRecords#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#type_key_word DataAlicloudAlidnsRecords#type_key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#type_key_word DataAlicloudAlidnsRecords#type_key_word}
   */
   readonly typeKeyWord?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#value_key_word DataAlicloudAlidnsRecords#value_key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#value_key_word DataAlicloudAlidnsRecords#value_key_word}
   */
   readonly valueKeyWord?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#value_regex DataAlicloudAlidnsRecords#value_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#value_regex DataAlicloudAlidnsRecords#value_regex}
   */
   readonly valueRegex?: string;
 }
@@ -215,7 +215,7 @@ export class DataAlicloudAlidnsRecordsRecordsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records alicloud_alidns_records}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records alicloud_alidns_records}
 */
 export class DataAlicloudAlidnsRecords extends cdktf.TerraformDataSource {
 
@@ -231,7 +231,7 @@ export class DataAlicloudAlidnsRecords extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudAlidnsRecords resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudAlidnsRecords to import
-  * @param importFromId The id of the existing DataAlicloudAlidnsRecords that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudAlidnsRecords that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudAlidnsRecords to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class DataAlicloudAlidnsRecords extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/alidns_records alicloud_alidns_records} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alidns_records alicloud_alidns_records} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class DataAlicloudAlidnsRecords extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_alidns_records',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

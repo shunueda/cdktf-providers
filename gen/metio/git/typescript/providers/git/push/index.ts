@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push
+// https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface PushConfig extends cdktf.TerraformMetaArguments {
   /**
   * The authentication credentials, if required, to use with the remote repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#auth Push#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#auth Push#auth}
   */
   readonly auth?: PushAuth;
   /**
   * File system path to an additional CA bundle to use together with the system cert pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#ca_bundle_file_path Push#ca_bundle_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#ca_bundle_file_path Push#ca_bundle_file_path}
   */
   readonly caBundleFilePath?: string;
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#directory Push#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#directory Push#directory}
   */
   readonly directory: string;
   /**
   * Allow updating a remote ref that is not an ancestor of the local ref used to overwrite it. Can cause the remote repository to lose commits; use it with care. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#force Push#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#force Push#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * Skip SSL verification if protocol is HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#insecure_skip_tls Push#insecure_skip_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#insecure_skip_tls Push#insecure_skip_tls}
   */
   readonly insecureSkipTls?: boolean | cdktf.IResolvable;
   /**
   * Remove remote branches that don’t have a local counterpart. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#prune Push#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#prune Push#prune}
   */
   readonly prune?: boolean | cdktf.IResolvable;
   /**
   * Specify what destination refs to update with what source objects. Note that these must be fully qualified refspecs, e.g. `refs/heads/master` instead of just `master`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#refspecs Push#refspecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#refspecs Push#refspecs}
   */
   readonly refspecs: string[];
   /**
   * The name of the remote to push into. Defaults to `origin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#remote Push#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#remote Push#remote}
   */
   readonly remote?: string;
 }
@@ -60,13 +60,13 @@ export interface PushAuthBasic {
   /**
   * The basic auth password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#password Push#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#password Push#password}
   */
   readonly password: string;
   /**
   * The basic auth username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#username Push#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#username Push#username}
   */
   readonly username: string;
 }
@@ -185,13 +185,13 @@ export interface PushAuthSshAgent {
   /**
   * The list of known hosts files to accept. If none are specified, system defaults will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#known_hosts Push#known_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#known_hosts Push#known_hosts}
   */
   readonly knownHosts?: string[];
   /**
   * The system username of the user talking to the SSH agent. Use an empty string in order to automatically fetch this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#username Push#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#username Push#username}
   */
   readonly username?: string;
 }
@@ -316,31 +316,31 @@ export interface PushAuthSshKey {
   /**
   * The list of known hosts files to accept. If none are specified, system defaults will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#known_hosts Push#known_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#known_hosts Push#known_hosts}
   */
   readonly knownHosts?: string[];
   /**
   * The SSH key password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#password Push#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#password Push#password}
   */
   readonly password?: string;
   /**
   * The absolute path to the private SSH key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#private_key_path Push#private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#private_key_path Push#private_key_path}
   */
   readonly privateKeyPath?: string;
   /**
   * The private SSH key in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#private_key_pem Push#private_key_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#private_key_pem Push#private_key_pem}
   */
   readonly privateKeyPem?: string;
   /**
   * The SSH auth username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#username Push#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#username Push#username}
   */
   readonly username?: string;
 }
@@ -552,19 +552,19 @@ export interface PushAuthSshPassword {
   /**
   * The list of known hosts files to accept. If none are specified, system defaults will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#known_hosts Push#known_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#known_hosts Push#known_hosts}
   */
   readonly knownHosts?: string[];
   /**
   * The SSH password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#password Push#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#password Push#password}
   */
   readonly password: string;
   /**
   * The SSH username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#username Push#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#username Push#username}
   */
   readonly username: string;
 }
@@ -712,31 +712,31 @@ export interface PushAuth {
   /**
   * Configure basic auth authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#basic Push#basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#basic Push#basic}
   */
   readonly basic?: PushAuthBasic;
   /**
   * Configure HTTP bearer token authentication. **Note**: Services like GitHub use basic auth with your OAuth2 personal access token as the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#bearer Push#bearer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#bearer Push#bearer}
   */
   readonly bearer?: string;
   /**
   * Configure SSH agent based authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#ssh_agent Push#ssh_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#ssh_agent Push#ssh_agent}
   */
   readonly sshAgent?: PushAuthSshAgent;
   /**
   * Configure SSH public/private key authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#ssh_key Push#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#ssh_key Push#ssh_key}
   */
   readonly sshKey?: PushAuthSshKey;
   /**
   * Configure password based SSH authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#ssh_password Push#ssh_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#ssh_password Push#ssh_password}
   */
   readonly sshPassword?: PushAuthSshPassword;
 }
@@ -946,7 +946,7 @@ export class PushAuthOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push git_push}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push git_push}
 */
 export class Push extends cdktf.TerraformResource {
 
@@ -962,7 +962,7 @@ export class Push extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Push resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Push to import
-  * @param importFromId The id of the existing Push that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Push that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Push to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -974,7 +974,7 @@ export class Push extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/push git_push} Resource
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/resources/push git_push} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -985,8 +985,8 @@ export class Push extends cdktf.TerraformResource {
       terraformResourceType: 'git_push',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.11.14',
-        providerVersionConstraint: '2025.11.14'
+        providerVersion: '2025.11.21',
+        providerVersionConstraint: '2025.11.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

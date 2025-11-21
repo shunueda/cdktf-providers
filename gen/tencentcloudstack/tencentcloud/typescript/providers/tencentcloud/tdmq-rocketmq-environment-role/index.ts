@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_rocketmq_environment_role
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_environment_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TdmqRocketmqEnvironmentRoleConfig extends cdktf.TerraformMetaAr
   /**
   * Cluster ID (required).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_rocketmq_environment_role#cluster_id TdmqRocketmqEnvironmentRole#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_environment_role#cluster_id TdmqRocketmqEnvironmentRole#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Environment (namespace) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_rocketmq_environment_role#environment_name TdmqRocketmqEnvironmentRole#environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_environment_role#environment_name TdmqRocketmqEnvironmentRole#environment_name}
   */
   readonly environmentName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_rocketmq_environment_role#id TdmqRocketmqEnvironmentRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_environment_role#id TdmqRocketmqEnvironmentRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface TdmqRocketmqEnvironmentRoleConfig extends cdktf.TerraformMetaAr
   /**
   * Permissions, which is a non-empty string array of `produce` and `consume` at the most.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_rocketmq_environment_role#permissions TdmqRocketmqEnvironmentRole#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_environment_role#permissions TdmqRocketmqEnvironmentRole#permissions}
   */
   readonly permissions: string[];
   /**
   * Role Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_rocketmq_environment_role#role_name TdmqRocketmqEnvironmentRole#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_environment_role#role_name TdmqRocketmqEnvironmentRole#role_name}
   */
   readonly roleName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_rocketmq_environment_role tencentcloud_tdmq_rocketmq_environment_role}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_environment_role tencentcloud_tdmq_rocketmq_environment_role}
 */
 export class TdmqRocketmqEnvironmentRole extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class TdmqRocketmqEnvironmentRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqRocketmqEnvironmentRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqRocketmqEnvironmentRole to import
-  * @param importFromId The id of the existing TdmqRocketmqEnvironmentRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_rocketmq_environment_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqRocketmqEnvironmentRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_environment_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqRocketmqEnvironmentRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class TdmqRocketmqEnvironmentRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_rocketmq_environment_role tencentcloud_tdmq_rocketmq_environment_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tdmq_rocketmq_environment_role tencentcloud_tdmq_rocketmq_environment_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class TdmqRocketmqEnvironmentRole extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_rocketmq_environment_role',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudVpcPublicIpAddressPoolCidrBlocksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#cidr_block DataAlicloudVpcPublicIpAddressPoolCidrBlocks#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#cidr_block DataAlicloudVpcPublicIpAddressPoolCidrBlocks#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#id DataAlicloudVpcPublicIpAddressPoolCidrBlocks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#id DataAlicloudVpcPublicIpAddressPoolCidrBlocks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#ids DataAlicloudVpcPublicIpAddressPoolCidrBlocks#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#ids DataAlicloudVpcPublicIpAddressPoolCidrBlocks#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#output_file DataAlicloudVpcPublicIpAddressPoolCidrBlocks#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#output_file DataAlicloudVpcPublicIpAddressPoolCidrBlocks#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#public_ip_address_pool_id DataAlicloudVpcPublicIpAddressPoolCidrBlocks#public_ip_address_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#public_ip_address_pool_id DataAlicloudVpcPublicIpAddressPoolCidrBlocks#public_ip_address_pool_id}
   */
   readonly publicIpAddressPoolId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#status DataAlicloudVpcPublicIpAddressPoolCidrBlocks#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#status DataAlicloudVpcPublicIpAddressPoolCidrBlocks#status}
   */
   readonly status?: string;
 }
@@ -142,7 +142,7 @@ export class DataAlicloudVpcPublicIpAddressPoolCidrBlocksBlocksList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks alicloud_vpc_public_ip_address_pool_cidr_blocks}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks alicloud_vpc_public_ip_address_pool_cidr_blocks}
 */
 export class DataAlicloudVpcPublicIpAddressPoolCidrBlocks extends cdktf.TerraformDataSource {
 
@@ -158,7 +158,7 @@ export class DataAlicloudVpcPublicIpAddressPoolCidrBlocks extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataAlicloudVpcPublicIpAddressPoolCidrBlocks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudVpcPublicIpAddressPoolCidrBlocks to import
-  * @param importFromId The id of the existing DataAlicloudVpcPublicIpAddressPoolCidrBlocks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudVpcPublicIpAddressPoolCidrBlocks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudVpcPublicIpAddressPoolCidrBlocks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -170,7 +170,7 @@ export class DataAlicloudVpcPublicIpAddressPoolCidrBlocks extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks alicloud_vpc_public_ip_address_pool_cidr_blocks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pool_cidr_blocks alicloud_vpc_public_ip_address_pool_cidr_blocks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -181,8 +181,8 @@ export class DataAlicloudVpcPublicIpAddressPoolCidrBlocks extends cdktf.Terrafor
       terraformResourceType: 'alicloud_vpc_public_ip_address_pool_cidr_blocks',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

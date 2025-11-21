@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_address
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSolidserverIp6AddressConfig extends cdktf.TerraformMetaArgu
   /**
   * The IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_address#address DataSolidserverIp6Address#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_address#address DataSolidserverIp6Address#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_address#id DataSolidserverIp6Address#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_address#id DataSolidserverIp6Address#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataSolidserverIp6AddressConfig extends cdktf.TerraformMetaArgu
   /**
   * The name of the space of the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_address#space DataSolidserverIp6Address#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_address#space DataSolidserverIp6Address#space}
   */
   readonly space: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_address solidserver_ip6_address}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_address solidserver_ip6_address}
 */
 export class DataSolidserverIp6Address extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataSolidserverIp6Address extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSolidserverIp6Address resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolidserverIp6Address to import
-  * @param importFromId The id of the existing DataSolidserverIp6Address that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolidserverIp6Address that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolidserverIp6Address to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataSolidserverIp6Address extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_address solidserver_ip6_address} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_address solidserver_ip6_address} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataSolidserverIp6Address extends cdktf.TerraformDataSource {
       terraformResourceType: 'solidserver_ip6_address',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

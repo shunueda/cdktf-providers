@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_download_task
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_instance_backup_download_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MongodbInstanceBackupDownloadTaskConfig extends cdktf.Terraform
   /**
   * The name of the backup file to be downloaded can be obtained through the DescribeDBBackups interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_download_task#backup_name MongodbInstanceBackupDownloadTask#backup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_instance_backup_download_task#backup_name MongodbInstanceBackupDownloadTask#backup_name}
   */
   readonly backupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_download_task#id MongodbInstanceBackupDownloadTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_instance_backup_download_task#id MongodbInstanceBackupDownloadTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface MongodbInstanceBackupDownloadTaskConfig extends cdktf.Terraform
   /**
   * Instance ID, the format is: cmgo-9d0p6umb.Same as the instance ID displayed in the cloud database console page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_download_task#instance_id MongodbInstanceBackupDownloadTask#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_instance_backup_download_task#instance_id MongodbInstanceBackupDownloadTask#instance_id}
   */
   readonly instanceId: string;
   /**
   * backup_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_download_task#backup_sets MongodbInstanceBackupDownloadTask#backup_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_instance_backup_download_task#backup_sets MongodbInstanceBackupDownloadTask#backup_sets}
   */
   readonly backupSets: MongodbInstanceBackupDownloadTaskBackupSets[] | cdktf.IResolvable;
 }
@@ -37,7 +37,7 @@ export interface MongodbInstanceBackupDownloadTaskBackupSets {
   /**
   * Replication Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_download_task#replica_set_id MongodbInstanceBackupDownloadTask#replica_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_instance_backup_download_task#replica_set_id MongodbInstanceBackupDownloadTask#replica_set_id}
   */
   readonly replicaSetId: string;
 }
@@ -150,7 +150,7 @@ export class MongodbInstanceBackupDownloadTaskBackupSetsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_download_task tencentcloud_mongodb_instance_backup_download_task}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_instance_backup_download_task tencentcloud_mongodb_instance_backup_download_task}
 */
 export class MongodbInstanceBackupDownloadTask extends cdktf.TerraformResource {
 
@@ -166,7 +166,7 @@ export class MongodbInstanceBackupDownloadTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbInstanceBackupDownloadTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbInstanceBackupDownloadTask to import
-  * @param importFromId The id of the existing MongodbInstanceBackupDownloadTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_download_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbInstanceBackupDownloadTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_instance_backup_download_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbInstanceBackupDownloadTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class MongodbInstanceBackupDownloadTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_download_task tencentcloud_mongodb_instance_backup_download_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_instance_backup_download_task tencentcloud_mongodb_instance_backup_download_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class MongodbInstanceBackupDownloadTask extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mongodb_instance_backup_download_task',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

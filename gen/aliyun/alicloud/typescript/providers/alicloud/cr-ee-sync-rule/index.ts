@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface CrEeSyncRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#id CrEeSyncRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#id CrEeSyncRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#instance_id CrEeSyncRule#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#instance_id CrEeSyncRule#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#name CrEeSyncRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#name CrEeSyncRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#namespace_name CrEeSyncRule#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#namespace_name CrEeSyncRule#namespace_name}
   */
   readonly namespaceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#repo_name CrEeSyncRule#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#repo_name CrEeSyncRule#repo_name}
   */
   readonly repoName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#sync_rule_name CrEeSyncRule#sync_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#sync_rule_name CrEeSyncRule#sync_rule_name}
   */
   readonly syncRuleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#sync_scope CrEeSyncRule#sync_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#sync_scope CrEeSyncRule#sync_scope}
   */
   readonly syncScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#sync_trigger CrEeSyncRule#sync_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#sync_trigger CrEeSyncRule#sync_trigger}
   */
   readonly syncTrigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#tag_filter CrEeSyncRule#tag_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#tag_filter CrEeSyncRule#tag_filter}
   */
   readonly tagFilter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#target_instance_id CrEeSyncRule#target_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#target_instance_id CrEeSyncRule#target_instance_id}
   */
   readonly targetInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#target_namespace_name CrEeSyncRule#target_namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#target_namespace_name CrEeSyncRule#target_namespace_name}
   */
   readonly targetNamespaceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#target_region_id CrEeSyncRule#target_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#target_region_id CrEeSyncRule#target_region_id}
   */
   readonly targetRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#target_repo_name CrEeSyncRule#target_repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#target_repo_name CrEeSyncRule#target_repo_name}
   */
   readonly targetRepoName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#target_user_id CrEeSyncRule#target_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#target_user_id CrEeSyncRule#target_user_id}
   */
   readonly targetUserId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#timeouts CrEeSyncRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#timeouts CrEeSyncRule#timeouts}
   */
   readonly timeouts?: CrEeSyncRuleTimeouts;
 }
 export interface CrEeSyncRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#create CrEeSyncRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#create CrEeSyncRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#delete CrEeSyncRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#delete CrEeSyncRule#delete}
   */
   readonly delete?: string;
 }
@@ -202,7 +202,7 @@ export class CrEeSyncRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule alicloud_cr_ee_sync_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule alicloud_cr_ee_sync_rule}
 */
 export class CrEeSyncRule extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class CrEeSyncRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CrEeSyncRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CrEeSyncRule to import
-  * @param importFromId The id of the existing CrEeSyncRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CrEeSyncRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CrEeSyncRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class CrEeSyncRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_ee_sync_rule alicloud_cr_ee_sync_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_ee_sync_rule alicloud_cr_ee_sync_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class CrEeSyncRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cr_ee_sync_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

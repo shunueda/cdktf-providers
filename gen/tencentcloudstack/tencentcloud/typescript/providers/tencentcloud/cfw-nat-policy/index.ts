@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CfwNatPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#description CfwNatPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#description CfwNatPolicy#description}
   */
   readonly description?: string;
   /**
   * Rule direction: 1, inbound; 0, outbound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#direction CfwNatPolicy#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#direction CfwNatPolicy#direction}
   */
   readonly direction: number;
   /**
   * Rule status, true means enabled, false means disabled. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#enable CfwNatPolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#enable CfwNatPolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#id CfwNatPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#id CfwNatPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface CfwNatPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Parameter template id. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#param_template_id CfwNatPolicy#param_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#param_template_id CfwNatPolicy#param_template_id}
   */
   readonly paramTemplateId?: string;
   /**
   * The port for the access control policy. Value: -1/-1: All ports 80: Port 80.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#port CfwNatPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#port CfwNatPolicy#port}
   */
   readonly port: string;
   /**
   * Protocol. If Direction=1, optional values: TCP, UDP, ANY; If Direction=0, optional values: TCP, UDP, ICMP, ANY, HTTP, HTTPS, HTTP/HTTPS, SMTP, SMTPS, SMTP/SMTPS, FTP, and DNS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#protocol CfwNatPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#protocol CfwNatPolicy#protocol}
   */
   readonly protocol: string;
   /**
   * How the traffic set in the access control policy passes through the cloud firewall. Values: accept: allow; drop: reject; log: observe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#rule_action CfwNatPolicy#rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#rule_action CfwNatPolicy#rule_action}
   */
   readonly ruleAction: string;
   /**
   * Scope of effective rules. ALL: Global effectiveness; ap-guangzhou: Effective territory; cfwnat-xxx: Effectiveness based on instance dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#scope CfwNatPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#scope CfwNatPolicy#scope}
   */
   readonly scope?: string;
   /**
   * Access source example: net:IP/CIDR(192.168.0.2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#source_content CfwNatPolicy#source_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#source_content CfwNatPolicy#source_content}
   */
   readonly sourceContent: string;
   /**
   * Access source type: for inbound rules, the type can be net, location, vendor, template; for outbound rules, it can be net, instance, tag, template, group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#source_type CfwNatPolicy#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#source_type CfwNatPolicy#source_type}
   */
   readonly sourceType: string;
   /**
   * Example of access purpose: net: IP/CIDR(192.168.0.2) domain: domain name rules, such as *.qq.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#target_content CfwNatPolicy#target_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#target_content CfwNatPolicy#target_content}
   */
   readonly targetContent: string;
   /**
   * Access purpose type: For inbound rules, the type can be net, instance, tag, template, group; for outbound rules, it can be net, location, vendor, template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#target_type CfwNatPolicy#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#target_type CfwNatPolicy#target_type}
   */
   readonly targetType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy tencentcloud_cfw_nat_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy tencentcloud_cfw_nat_policy}
 */
 export class CfwNatPolicy extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class CfwNatPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwNatPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwNatPolicy to import
-  * @param importFromId The id of the existing CfwNatPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwNatPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwNatPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class CfwNatPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_nat_policy tencentcloud_cfw_nat_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cfw_nat_policy tencentcloud_cfw_nat_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class CfwNatPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cfw_nat_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

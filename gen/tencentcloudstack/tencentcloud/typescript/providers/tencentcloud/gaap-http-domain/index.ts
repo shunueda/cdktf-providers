@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface GaapHttpDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether basic authentication is enable, default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#basic_auth GaapHttpDomain#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#basic_auth GaapHttpDomain#basic_auth}
   */
   readonly basicAuth?: boolean | cdktf.IResolvable;
   /**
   * ID of the basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#basic_auth_id GaapHttpDomain#basic_auth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#basic_auth_id GaapHttpDomain#basic_auth_id}
   */
   readonly basicAuthId?: string;
   /**
   * ID of the server certificate, default value is `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#certificate_id GaapHttpDomain#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#certificate_id GaapHttpDomain#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * ID of the client certificate, default value is `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#client_certificate_id GaapHttpDomain#client_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#client_certificate_id GaapHttpDomain#client_certificate_id}
   */
   readonly clientCertificateId?: string;
   /**
   * ID list of the poly client certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#client_certificate_ids GaapHttpDomain#client_certificate_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#client_certificate_ids GaapHttpDomain#client_certificate_ids}
   */
   readonly clientCertificateIds?: string[];
   /**
   * Forward domain of the layer7 listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#domain GaapHttpDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#domain GaapHttpDomain#domain}
   */
   readonly domain: string;
   /**
   * Indicates whether SSL certificate authentication is enable, default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#gaap_auth GaapHttpDomain#gaap_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#gaap_auth GaapHttpDomain#gaap_auth}
   */
   readonly gaapAuth?: boolean | cdktf.IResolvable;
   /**
   * ID of the SSL certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#gaap_auth_id GaapHttpDomain#gaap_auth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#gaap_auth_id GaapHttpDomain#gaap_auth_id}
   */
   readonly gaapAuthId?: string;
   /**
   * Group Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#group_id GaapHttpDomain#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#group_id GaapHttpDomain#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#id GaapHttpDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#id GaapHttpDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,43 +71,43 @@ export interface GaapHttpDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to use as the default domain name, the default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#is_default_server GaapHttpDomain#is_default_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#is_default_server GaapHttpDomain#is_default_server}
   */
   readonly isDefaultServer?: boolean | cdktf.IResolvable;
   /**
   * ID of the layer7 listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#listener_id GaapHttpDomain#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#listener_id GaapHttpDomain#listener_id}
   */
   readonly listenerId: string;
   /**
   * Indicates whether realserver authentication is enable, default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#realserver_auth GaapHttpDomain#realserver_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#realserver_auth GaapHttpDomain#realserver_auth}
   */
   readonly realserverAuth?: boolean | cdktf.IResolvable;
   /**
   * CA certificate domain of the realserver. It has been deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#realserver_certificate_domain GaapHttpDomain#realserver_certificate_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#realserver_certificate_domain GaapHttpDomain#realserver_certificate_domain}
   */
   readonly realserverCertificateDomain?: string;
   /**
   * CA certificate ID of the realserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#realserver_certificate_id GaapHttpDomain#realserver_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#realserver_certificate_id GaapHttpDomain#realserver_certificate_id}
   */
   readonly realserverCertificateId?: string;
   /**
   * CA certificate ID list of the realserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#realserver_certificate_ids GaapHttpDomain#realserver_certificate_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#realserver_certificate_ids GaapHttpDomain#realserver_certificate_ids}
   */
   readonly realserverCertificateIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain tencentcloud_gaap_http_domain}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain tencentcloud_gaap_http_domain}
 */
 export class GaapHttpDomain extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class GaapHttpDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaapHttpDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaapHttpDomain to import
-  * @param importFromId The id of the existing GaapHttpDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaapHttpDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaapHttpDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class GaapHttpDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/gaap_http_domain tencentcloud_gaap_http_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/gaap_http_domain tencentcloud_gaap_http_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class GaapHttpDomain extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_gaap_http_domain',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionOssScanConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#all_key_prefix ThreatDetectionOssScanConfig#all_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#all_key_prefix ThreatDetectionOssScanConfig#all_key_prefix}
   */
   readonly allKeyPrefix?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#bucket_name_list ThreatDetectionOssScanConfig#bucket_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#bucket_name_list ThreatDetectionOssScanConfig#bucket_name_list}
   */
   readonly bucketNameList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#decompress_max_file_count ThreatDetectionOssScanConfig#decompress_max_file_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#decompress_max_file_count ThreatDetectionOssScanConfig#decompress_max_file_count}
   */
   readonly decompressMaxFileCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#decompress_max_layer ThreatDetectionOssScanConfig#decompress_max_layer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#decompress_max_layer ThreatDetectionOssScanConfig#decompress_max_layer}
   */
   readonly decompressMaxLayer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#decryption_list ThreatDetectionOssScanConfig#decryption_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#decryption_list ThreatDetectionOssScanConfig#decryption_list}
   */
   readonly decryptionList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#enable ThreatDetectionOssScanConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#enable ThreatDetectionOssScanConfig#enable}
   */
   readonly enable: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#end_time ThreatDetectionOssScanConfig#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#end_time ThreatDetectionOssScanConfig#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#id ThreatDetectionOssScanConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#id ThreatDetectionOssScanConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#key_prefix_list ThreatDetectionOssScanConfig#key_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#key_prefix_list ThreatDetectionOssScanConfig#key_prefix_list}
   */
   readonly keyPrefixList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#key_suffix_list ThreatDetectionOssScanConfig#key_suffix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#key_suffix_list ThreatDetectionOssScanConfig#key_suffix_list}
   */
   readonly keySuffixList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#last_modified_start_time ThreatDetectionOssScanConfig#last_modified_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#last_modified_start_time ThreatDetectionOssScanConfig#last_modified_start_time}
   */
   readonly lastModifiedStartTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#oss_scan_config_name ThreatDetectionOssScanConfig#oss_scan_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#oss_scan_config_name ThreatDetectionOssScanConfig#oss_scan_config_name}
   */
   readonly ossScanConfigName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#scan_day_list ThreatDetectionOssScanConfig#scan_day_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#scan_day_list ThreatDetectionOssScanConfig#scan_day_list}
   */
   readonly scanDayList: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#start_time ThreatDetectionOssScanConfig#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#start_time ThreatDetectionOssScanConfig#start_time}
   */
   readonly startTime: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#timeouts ThreatDetectionOssScanConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#timeouts ThreatDetectionOssScanConfig#timeouts}
   */
   readonly timeouts?: ThreatDetectionOssScanConfigTimeouts;
 }
 export interface ThreatDetectionOssScanConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#create ThreatDetectionOssScanConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#create ThreatDetectionOssScanConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#delete ThreatDetectionOssScanConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#delete ThreatDetectionOssScanConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#update ThreatDetectionOssScanConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#update ThreatDetectionOssScanConfig#update}
   */
   readonly update?: string;
 }
@@ -235,7 +235,7 @@ export class ThreatDetectionOssScanConfigTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config alicloud_threat_detection_oss_scan_config}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config alicloud_threat_detection_oss_scan_config}
 */
 export class ThreatDetectionOssScanConfig extends cdktf.TerraformResource {
 
@@ -251,7 +251,7 @@ export class ThreatDetectionOssScanConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatDetectionOssScanConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionOssScanConfig to import
-  * @param importFromId The id of the existing ThreatDetectionOssScanConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionOssScanConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionOssScanConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -263,7 +263,7 @@ export class ThreatDetectionOssScanConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_oss_scan_config alicloud_threat_detection_oss_scan_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_oss_scan_config alicloud_threat_detection_oss_scan_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -274,8 +274,8 @@ export class ThreatDetectionOssScanConfig extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_threat_detection_oss_scan_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

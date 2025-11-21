@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oos_service_setting
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_service_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface OosServiceSettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oos_service_setting#delivery_oss_bucket_name OosServiceSetting#delivery_oss_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_service_setting#delivery_oss_bucket_name OosServiceSetting#delivery_oss_bucket_name}
   */
   readonly deliveryOssBucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oos_service_setting#delivery_oss_enabled OosServiceSetting#delivery_oss_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_service_setting#delivery_oss_enabled OosServiceSetting#delivery_oss_enabled}
   */
   readonly deliveryOssEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oos_service_setting#delivery_oss_key_prefix OosServiceSetting#delivery_oss_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_service_setting#delivery_oss_key_prefix OosServiceSetting#delivery_oss_key_prefix}
   */
   readonly deliveryOssKeyPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oos_service_setting#delivery_sls_enabled OosServiceSetting#delivery_sls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_service_setting#delivery_sls_enabled OosServiceSetting#delivery_sls_enabled}
   */
   readonly deliverySlsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oos_service_setting#delivery_sls_project_name OosServiceSetting#delivery_sls_project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_service_setting#delivery_sls_project_name OosServiceSetting#delivery_sls_project_name}
   */
   readonly deliverySlsProjectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oos_service_setting#id OosServiceSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_service_setting#id OosServiceSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,7 +37,7 @@ export interface OosServiceSettingConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oos_service_setting alicloud_oos_service_setting}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_service_setting alicloud_oos_service_setting}
 */
 export class OosServiceSetting extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class OosServiceSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OosServiceSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OosServiceSetting to import
-  * @param importFromId The id of the existing OosServiceSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oos_service_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OosServiceSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_service_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OosServiceSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class OosServiceSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oos_service_setting alicloud_oos_service_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_service_setting alicloud_oos_service_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class OosServiceSetting extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_oos_service_setting',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

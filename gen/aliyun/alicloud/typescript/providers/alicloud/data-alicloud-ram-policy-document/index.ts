@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudRamPolicyDocumentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#id DataAlicloudRamPolicyDocument#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#id DataAlicloudRamPolicyDocument#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#output_file DataAlicloudRamPolicyDocument#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#output_file DataAlicloudRamPolicyDocument#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#version DataAlicloudRamPolicyDocument#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#version DataAlicloudRamPolicyDocument#version}
   */
   readonly version?: string;
   /**
   * statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#statement DataAlicloudRamPolicyDocument#statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#statement DataAlicloudRamPolicyDocument#statement}
   */
   readonly statement?: DataAlicloudRamPolicyDocumentStatement[] | cdktf.IResolvable;
 }
 export interface DataAlicloudRamPolicyDocumentStatementCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#operator DataAlicloudRamPolicyDocument#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#operator DataAlicloudRamPolicyDocument#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#values DataAlicloudRamPolicyDocument#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#values DataAlicloudRamPolicyDocument#values}
   */
   readonly values: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#variable DataAlicloudRamPolicyDocument#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#variable DataAlicloudRamPolicyDocument#variable}
   */
   readonly variable: string;
 }
@@ -204,11 +204,11 @@ export class DataAlicloudRamPolicyDocumentStatementConditionList extends cdktf.C
 }
 export interface DataAlicloudRamPolicyDocumentStatementPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#entity DataAlicloudRamPolicyDocument#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#entity DataAlicloudRamPolicyDocument#entity}
   */
   readonly entity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#identifiers DataAlicloudRamPolicyDocument#identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#identifiers DataAlicloudRamPolicyDocument#identifiers}
   */
   readonly identifiers: string[];
 }
@@ -347,27 +347,27 @@ export class DataAlicloudRamPolicyDocumentStatementPrincipalList extends cdktf.C
 }
 export interface DataAlicloudRamPolicyDocumentStatement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#action DataAlicloudRamPolicyDocument#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#action DataAlicloudRamPolicyDocument#action}
   */
   readonly action: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#effect DataAlicloudRamPolicyDocument#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#effect DataAlicloudRamPolicyDocument#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#resource DataAlicloudRamPolicyDocument#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#resource DataAlicloudRamPolicyDocument#resource}
   */
   readonly resource?: string[];
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#condition DataAlicloudRamPolicyDocument#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#condition DataAlicloudRamPolicyDocument#condition}
   */
   readonly condition?: DataAlicloudRamPolicyDocumentStatementCondition[] | cdktf.IResolvable;
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#principal DataAlicloudRamPolicyDocument#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#principal DataAlicloudRamPolicyDocument#principal}
   */
   readonly principal?: DataAlicloudRamPolicyDocumentStatementPrincipal[] | cdktf.IResolvable;
 }
@@ -596,7 +596,7 @@ export class DataAlicloudRamPolicyDocumentStatementList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document alicloud_ram_policy_document}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document alicloud_ram_policy_document}
 */
 export class DataAlicloudRamPolicyDocument extends cdktf.TerraformDataSource {
 
@@ -612,7 +612,7 @@ export class DataAlicloudRamPolicyDocument extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudRamPolicyDocument resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudRamPolicyDocument to import
-  * @param importFromId The id of the existing DataAlicloudRamPolicyDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudRamPolicyDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudRamPolicyDocument to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -624,7 +624,7 @@ export class DataAlicloudRamPolicyDocument extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ram_policy_document alicloud_ram_policy_document} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ram_policy_document alicloud_ram_policy_document} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -635,8 +635,8 @@ export class DataAlicloudRamPolicyDocument extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_ram_policy_document',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

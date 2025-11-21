@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_user_policy_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_user_policy_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface RamUserPolicyAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_user_policy_attachment#id RamUserPolicyAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_user_policy_attachment#id RamUserPolicyAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_user_policy_attachment#policy_name RamUserPolicyAttachment#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_user_policy_attachment#policy_name RamUserPolicyAttachment#policy_name}
   */
   readonly policyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_user_policy_attachment#policy_type RamUserPolicyAttachment#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_user_policy_attachment#policy_type RamUserPolicyAttachment#policy_type}
   */
   readonly policyType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_user_policy_attachment#user_name RamUserPolicyAttachment#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_user_policy_attachment#user_name RamUserPolicyAttachment#user_name}
   */
   readonly userName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_user_policy_attachment#timeouts RamUserPolicyAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_user_policy_attachment#timeouts RamUserPolicyAttachment#timeouts}
   */
   readonly timeouts?: RamUserPolicyAttachmentTimeouts;
 }
 export interface RamUserPolicyAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_user_policy_attachment#create RamUserPolicyAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_user_policy_attachment#create RamUserPolicyAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_user_policy_attachment#delete RamUserPolicyAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_user_policy_attachment#delete RamUserPolicyAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class RamUserPolicyAttachmentTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_user_policy_attachment alicloud_ram_user_policy_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_user_policy_attachment alicloud_ram_user_policy_attachment}
 */
 export class RamUserPolicyAttachment extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class RamUserPolicyAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RamUserPolicyAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RamUserPolicyAttachment to import
-  * @param importFromId The id of the existing RamUserPolicyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_user_policy_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RamUserPolicyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_user_policy_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RamUserPolicyAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class RamUserPolicyAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_user_policy_attachment alicloud_ram_user_policy_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_user_policy_attachment alicloud_ram_user_policy_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class RamUserPolicyAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ram_user_policy_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

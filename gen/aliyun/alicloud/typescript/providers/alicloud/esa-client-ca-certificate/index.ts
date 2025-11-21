@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_client_ca_certificate
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_client_ca_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface EsaClientCaCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_client_ca_certificate#certificate EsaClientCaCertificate#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_client_ca_certificate#certificate EsaClientCaCertificate#certificate}
   */
   readonly certificate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_client_ca_certificate#client_ca_cert_name EsaClientCaCertificate#client_ca_cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_client_ca_certificate#client_ca_cert_name EsaClientCaCertificate#client_ca_cert_name}
   */
   readonly clientCaCertName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_client_ca_certificate#id EsaClientCaCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_client_ca_certificate#id EsaClientCaCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_client_ca_certificate#site_id EsaClientCaCertificate#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_client_ca_certificate#site_id EsaClientCaCertificate#site_id}
   */
-  readonly siteId: number;
+  readonly siteId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_client_ca_certificate#timeouts EsaClientCaCertificate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_client_ca_certificate#timeouts EsaClientCaCertificate#timeouts}
   */
   readonly timeouts?: EsaClientCaCertificateTimeouts;
 }
 export interface EsaClientCaCertificateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_client_ca_certificate#create EsaClientCaCertificate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_client_ca_certificate#create EsaClientCaCertificate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_client_ca_certificate#delete EsaClientCaCertificate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_client_ca_certificate#delete EsaClientCaCertificate#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class EsaClientCaCertificateTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_client_ca_certificate alicloud_esa_client_ca_certificate}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_client_ca_certificate alicloud_esa_client_ca_certificate}
 */
 export class EsaClientCaCertificate extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class EsaClientCaCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaClientCaCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaClientCaCertificate to import
-  * @param importFromId The id of the existing EsaClientCaCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_client_ca_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaClientCaCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_client_ca_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaClientCaCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class EsaClientCaCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_client_ca_certificate alicloud_esa_client_ca_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_client_ca_certificate alicloud_esa_client_ca_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class EsaClientCaCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_client_ca_certificate',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -279,11 +279,11 @@ export class EsaClientCaCertificate extends cdktf.TerraformResource {
   }
 
   // site_id - computed: false, optional: false, required: true
-  private _siteId?: number; 
+  private _siteId?: string; 
   public get siteId() {
-    return this.getNumberAttribute('site_id');
+    return this.getStringAttribute('site_id');
   }
-  public set siteId(value: number) {
+  public set siteId(value: string) {
     this._siteId = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -321,7 +321,7 @@ export class EsaClientCaCertificate extends cdktf.TerraformResource {
       certificate: cdktf.stringToTerraform(this._certificate),
       client_ca_cert_name: cdktf.stringToTerraform(this._clientCaCertName),
       id: cdktf.stringToTerraform(this._id),
-      site_id: cdktf.numberToTerraform(this._siteId),
+      site_id: cdktf.stringToTerraform(this._siteId),
       timeouts: esaClientCaCertificateTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -347,10 +347,10 @@ export class EsaClientCaCertificate extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       site_id: {
-        value: cdktf.numberToHclTerraform(this._siteId),
+        value: cdktf.stringToHclTerraform(this._siteId),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       timeouts: {
         value: esaClientCaCertificateTimeoutsToHclTerraform(this._timeouts.internalValue),

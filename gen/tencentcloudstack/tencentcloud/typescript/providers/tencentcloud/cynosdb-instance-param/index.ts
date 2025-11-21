@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_instance_param
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cynosdb_instance_param
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CynosdbInstanceParamConfig extends cdktf.TerraformMetaArguments
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_instance_param#cluster_id CynosdbInstanceParam#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cynosdb_instance_param#cluster_id CynosdbInstanceParam#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_instance_param#id CynosdbInstanceParam#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cynosdb_instance_param#id CynosdbInstanceParam#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface CynosdbInstanceParamConfig extends cdktf.TerraformMetaArguments
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_instance_param#instance_id CynosdbInstanceParam#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cynosdb_instance_param#instance_id CynosdbInstanceParam#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Yes: modify within the operation and maintenance time window, no: execute immediately (default value).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_instance_param#is_in_maintain_period CynosdbInstanceParam#is_in_maintain_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cynosdb_instance_param#is_in_maintain_period CynosdbInstanceParam#is_in_maintain_period}
   */
   readonly isInMaintainPeriod?: string;
   /**
   * instance_param_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_instance_param#instance_param_list CynosdbInstanceParam#instance_param_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cynosdb_instance_param#instance_param_list CynosdbInstanceParam#instance_param_list}
   */
   readonly instanceParamList?: CynosdbInstanceParamInstanceParamListStruct[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface CynosdbInstanceParamInstanceParamListStruct {
   /**
   * Current value of parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_instance_param#current_value CynosdbInstanceParam#current_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cynosdb_instance_param#current_value CynosdbInstanceParam#current_value}
   */
   readonly currentValue: string;
   /**
   * Parameter Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_instance_param#param_name CynosdbInstanceParam#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cynosdb_instance_param#param_name CynosdbInstanceParam#param_name}
   */
   readonly paramName: string;
 }
@@ -188,7 +188,7 @@ export class CynosdbInstanceParamInstanceParamListStructList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_instance_param tencentcloud_cynosdb_instance_param}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cynosdb_instance_param tencentcloud_cynosdb_instance_param}
 */
 export class CynosdbInstanceParam extends cdktf.TerraformResource {
 
@@ -204,7 +204,7 @@ export class CynosdbInstanceParam extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbInstanceParam resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbInstanceParam to import
-  * @param importFromId The id of the existing CynosdbInstanceParam that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_instance_param#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbInstanceParam that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cynosdb_instance_param#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbInstanceParam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class CynosdbInstanceParam extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_instance_param tencentcloud_cynosdb_instance_param} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cynosdb_instance_param tencentcloud_cynosdb_instance_param} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class CynosdbInstanceParam extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_instance_param',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

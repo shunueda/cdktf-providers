@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ScheduledRunConfig extends cdktf.TerraformMetaArguments {
   /**
   * Timestamp (unix timestamp) at which time the scheduled run should happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#at ScheduledRun#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#at ScheduledRun#at}
   */
   readonly at?: number;
   /**
   * List of cron schedule expressions based on which the scheduled run should be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#every ScheduledRun#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#every ScheduledRun#every}
   */
   readonly every?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#id ScheduledRun#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#id ScheduledRun#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface ScheduledRunConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the scheduled run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#name ScheduledRun#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#name ScheduledRun#name}
   */
   readonly name?: string;
   /**
   * ID of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#schedule_id ScheduledRun#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#schedule_id ScheduledRun#schedule_id}
   */
   readonly scheduleId?: string;
   /**
   * ID of the stack for which to set up the scheduled run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#stack_id ScheduledRun#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#stack_id ScheduledRun#stack_id}
   */
   readonly stackId: string;
   /**
   * Timezone in which the schedule is expressed. Defaults to `UTC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#timezone ScheduledRun#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#timezone ScheduledRun#timezone}
   */
   readonly timezone?: string;
   /**
   * runtime_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#runtime_config ScheduledRun#runtime_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#runtime_config ScheduledRun#runtime_config}
   */
   readonly runtimeConfig?: ScheduledRunRuntimeConfig;
 }
@@ -61,13 +61,13 @@ export interface ScheduledRunRuntimeConfigEnvironment {
   /**
   * Environment variable key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#key ScheduledRun#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#key ScheduledRun#key}
   */
   readonly key: string;
   /**
   * Environment variable value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#value ScheduledRun#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#value ScheduledRun#value}
   */
   readonly value: string;
 }
@@ -208,85 +208,85 @@ export interface ScheduledRunRuntimeConfig {
   /**
   * List of after-apply scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#after_apply ScheduledRun#after_apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#after_apply ScheduledRun#after_apply}
   */
   readonly afterApply?: string[];
   /**
   * List of after-destroy scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#after_destroy ScheduledRun#after_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#after_destroy ScheduledRun#after_destroy}
   */
   readonly afterDestroy?: string[];
   /**
   * List of after-init scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#after_init ScheduledRun#after_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#after_init ScheduledRun#after_init}
   */
   readonly afterInit?: string[];
   /**
   * List of after-perform scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#after_perform ScheduledRun#after_perform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#after_perform ScheduledRun#after_perform}
   */
   readonly afterPerform?: string[];
   /**
   * List of after-plan scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#after_plan ScheduledRun#after_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#after_plan ScheduledRun#after_plan}
   */
   readonly afterPlan?: string[];
   /**
   * List of after-run scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#after_run ScheduledRun#after_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#after_run ScheduledRun#after_run}
   */
   readonly afterRun?: string[];
   /**
   * List of before-apply scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#before_apply ScheduledRun#before_apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#before_apply ScheduledRun#before_apply}
   */
   readonly beforeApply?: string[];
   /**
   * List of before-destroy scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#before_destroy ScheduledRun#before_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#before_destroy ScheduledRun#before_destroy}
   */
   readonly beforeDestroy?: string[];
   /**
   * List of before-init scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#before_init ScheduledRun#before_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#before_init ScheduledRun#before_init}
   */
   readonly beforeInit?: string[];
   /**
   * List of before-perform scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#before_perform ScheduledRun#before_perform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#before_perform ScheduledRun#before_perform}
   */
   readonly beforePerform?: string[];
   /**
   * List of before-plan scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#before_plan ScheduledRun#before_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#before_plan ScheduledRun#before_plan}
   */
   readonly beforePlan?: string[];
   /**
   * Project root is the optional directory relative to the workspace root containing the entrypoint to the Stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#project_root ScheduledRun#project_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#project_root ScheduledRun#project_root}
   */
   readonly projectRoot?: string;
   /**
   * Name of the Docker image used to process Runs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#runner_image ScheduledRun#runner_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#runner_image ScheduledRun#runner_image}
   */
   readonly runnerImage?: string;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#environment ScheduledRun#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#environment ScheduledRun#environment}
   */
   readonly environment?: ScheduledRunRuntimeConfigEnvironment[] | cdktf.IResolvable;
 }
@@ -757,7 +757,7 @@ export class ScheduledRunRuntimeConfigOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run spacelift_scheduled_run}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run spacelift_scheduled_run}
 */
 export class ScheduledRun extends cdktf.TerraformResource {
 
@@ -773,7 +773,7 @@ export class ScheduledRun extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScheduledRun resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScheduledRun to import
-  * @param importFromId The id of the existing ScheduledRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScheduledRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScheduledRun to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -785,7 +785,7 @@ export class ScheduledRun extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/scheduled_run spacelift_scheduled_run} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/scheduled_run spacelift_scheduled_run} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -796,8 +796,8 @@ export class ScheduledRun extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_scheduled_run',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.38.0',
-        providerVersionConstraint: '1.38.0'
+        providerVersion: '1.39.0',
+        providerVersionConstraint: '1.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

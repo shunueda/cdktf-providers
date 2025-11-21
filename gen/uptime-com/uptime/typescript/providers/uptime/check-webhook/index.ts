@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_webhook
+// https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,31 +12,31 @@ export interface CheckWebhookConfig extends cdktf.TerraformMetaArguments {
   * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_webhook#contact_groups CheckWebhook#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_webhook#contact_groups CheckWebhook#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Include this check in uptime/response time calculations for the dashboard and status pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_webhook#include_in_global_metrics CheckWebhook#include_in_global_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_webhook#include_in_global_metrics CheckWebhook#include_in_global_metrics}
   */
   readonly includeInGlobalMetrics?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_webhook#is_paused CheckWebhook#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_webhook#is_paused CheckWebhook#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_webhook#name CheckWebhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_webhook#name CheckWebhook#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_webhook#notes CheckWebhook#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_webhook#notes CheckWebhook#notes}
   */
   readonly notes?: string;
   /**
   * SLA related attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_webhook#sla CheckWebhook#sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_webhook#sla CheckWebhook#sla}
   */
   readonly sla?: CheckWebhookSla;
   /**
@@ -46,7 +46,7 @@ export interface CheckWebhookConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_webhook#tags CheckWebhook#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_webhook#tags CheckWebhook#tags}
   */
   readonly tags?: string[];
 }
@@ -54,13 +54,13 @@ export interface CheckWebhookSla {
   /**
   * The maximum average response time. Unit is mandatory (e.g. 1500ms or 1.5s or 1s500ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_webhook#latency CheckWebhook#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_webhook#latency CheckWebhook#latency}
   */
   readonly latency?: string;
   /**
   * The minimum uptime percentage. \nMust be a fraction with exactly 4 decimal places (e.g. 0.9995 for 99.95% uptime)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_webhook#uptime CheckWebhook#uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_webhook#uptime CheckWebhook#uptime}
   */
   readonly uptime?: string;
 }
@@ -183,7 +183,7 @@ export class CheckWebhookSlaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_webhook uptime_check_webhook}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_webhook uptime_check_webhook}
 */
 export class CheckWebhook extends cdktf.TerraformResource {
 
@@ -199,7 +199,7 @@ export class CheckWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckWebhook to import
-  * @param importFromId The id of the existing CheckWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class CheckWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_webhook uptime_check_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_webhook uptime_check_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class CheckWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_webhook',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.16.0',
-        providerVersionConstraint: '2.16.0'
+        providerVersion: '2.17.1',
+        providerVersionConstraint: '2.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

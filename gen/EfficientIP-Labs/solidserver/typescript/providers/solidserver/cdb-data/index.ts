@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CdbDataConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Custom DB into which creating the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data#custom_db CdbData#custom_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data#custom_db CdbData#custom_db}
   */
   readonly customDb: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data#id CdbData#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data#id CdbData#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface CdbDataConfig extends cdktf.TerraformMetaArguments {
   /**
   * The value 1 (key of the data)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data#value1 CdbData#value1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data#value1 CdbData#value1}
   */
   readonly value1: string;
   /**
   * The value 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data#value10 CdbData#value10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data#value10 CdbData#value10}
   */
   readonly value10?: string;
   /**
   * The value 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data#value2 CdbData#value2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data#value2 CdbData#value2}
   */
   readonly value2?: string;
   /**
   * The value 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data#value3 CdbData#value3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data#value3 CdbData#value3}
   */
   readonly value3?: string;
   /**
   * The value 4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data#value4 CdbData#value4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data#value4 CdbData#value4}
   */
   readonly value4?: string;
   /**
   * The value 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data#value5 CdbData#value5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data#value5 CdbData#value5}
   */
   readonly value5?: string;
   /**
   * The value 6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data#value6 CdbData#value6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data#value6 CdbData#value6}
   */
   readonly value6?: string;
   /**
   * The value 7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data#value7 CdbData#value7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data#value7 CdbData#value7}
   */
   readonly value7?: string;
   /**
   * The value 8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data#value8 CdbData#value8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data#value8 CdbData#value8}
   */
   readonly value8?: string;
   /**
   * The value 9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data#value9 CdbData#value9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data#value9 CdbData#value9}
   */
   readonly value9?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data solidserver_cdb_data}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data solidserver_cdb_data}
 */
 export class CdbData extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class CdbData extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdbData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdbData to import
-  * @param importFromId The id of the existing CdbData that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdbData that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdbData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class CdbData extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/cdb_data solidserver_cdb_data} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/cdb_data solidserver_cdb_data} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class CdbData extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_cdb_data',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

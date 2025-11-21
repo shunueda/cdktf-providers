@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface DataSpaceliftStackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Project globs is an optional list of paths to track changes of in addition to the project root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#additional_project_globs DataSpaceliftStack#additional_project_globs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#additional_project_globs DataSpaceliftStack#additional_project_globs}
   */
   readonly additionalProjectGlobs?: string[];
   /**
   * List of after-apply scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#after_apply DataSpaceliftStack#after_apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#after_apply DataSpaceliftStack#after_apply}
   */
   readonly afterApply?: string[];
   /**
   * List of after-destroy scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#after_destroy DataSpaceliftStack#after_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#after_destroy DataSpaceliftStack#after_destroy}
   */
   readonly afterDestroy?: string[];
   /**
   * List of after-init scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#after_init DataSpaceliftStack#after_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#after_init DataSpaceliftStack#after_init}
   */
   readonly afterInit?: string[];
   /**
   * List of after-perform scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#after_perform DataSpaceliftStack#after_perform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#after_perform DataSpaceliftStack#after_perform}
   */
   readonly afterPerform?: string[];
   /**
   * List of after-plan scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#after_plan DataSpaceliftStack#after_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#after_plan DataSpaceliftStack#after_plan}
   */
   readonly afterPlan?: string[];
   /**
   * List of after-run scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#after_run DataSpaceliftStack#after_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#after_run DataSpaceliftStack#after_run}
   */
   readonly afterRun?: string[];
   /**
   * List of before-apply scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#before_apply DataSpaceliftStack#before_apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#before_apply DataSpaceliftStack#before_apply}
   */
   readonly beforeApply?: string[];
   /**
   * List of before-destroy scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#before_destroy DataSpaceliftStack#before_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#before_destroy DataSpaceliftStack#before_destroy}
   */
   readonly beforeDestroy?: string[];
   /**
   * List of before-init scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#before_init DataSpaceliftStack#before_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#before_init DataSpaceliftStack#before_init}
   */
   readonly beforeInit?: string[];
   /**
   * List of before-perform scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#before_perform DataSpaceliftStack#before_perform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#before_perform DataSpaceliftStack#before_perform}
   */
   readonly beforePerform?: string[];
   /**
   * List of before-plan scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#before_plan DataSpaceliftStack#before_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#before_plan DataSpaceliftStack#before_plan}
   */
   readonly beforePlan?: string[];
   /**
   * Git sparse checkout paths is an optional list of paths to use for sparse checkout. If not set, the entire repository will be checked out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#git_sparse_checkout_paths DataSpaceliftStack#git_sparse_checkout_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#git_sparse_checkout_paths DataSpaceliftStack#git_sparse_checkout_paths}
   */
   readonly gitSparseCheckoutPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#id DataSpaceliftStack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#id DataSpaceliftStack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,7 +95,7 @@ export interface DataSpaceliftStackConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID (slug) of the stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#stack_id DataSpaceliftStack#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#stack_id DataSpaceliftStack#stack_id}
   */
   readonly stackId: string;
 }
@@ -1106,7 +1106,7 @@ export class DataSpaceliftStackTerragruntList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack spacelift_stack}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack spacelift_stack}
 */
 export class DataSpaceliftStack extends cdktf.TerraformDataSource {
 
@@ -1122,7 +1122,7 @@ export class DataSpaceliftStack extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpaceliftStack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpaceliftStack to import
-  * @param importFromId The id of the existing DataSpaceliftStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpaceliftStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpaceliftStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1134,7 +1134,7 @@ export class DataSpaceliftStack extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/stack spacelift_stack} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/stack spacelift_stack} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1145,8 +1145,8 @@ export class DataSpaceliftStack extends cdktf.TerraformDataSource {
       terraformResourceType: 'spacelift_stack',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.38.0',
-        providerVersionConstraint: '1.38.0'
+        providerVersion: '1.39.0',
+        providerVersionConstraint: '1.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -172,6 +172,7 @@ Object.defineProperty(exports, 'cloudConnectNetworkAttachment', { get: function 
 Object.defineProperty(exports, 'cloudConnectNetworkGrant', { get: function () { return require('./cloud-connect-network-grant'); } });
 Object.defineProperty(exports, 'cloudControlResource', { get: function () { return require('./cloud-control-resource'); } });
 Object.defineProperty(exports, 'cloudFirewallAddressBook', { get: function () { return require('./cloud-firewall-address-book'); } });
+Object.defineProperty(exports, 'cloudFirewallAiTrafficAnalysisStatus', { get: function () { return require('./cloud-firewall-ai-traffic-analysis-status'); } });
 Object.defineProperty(exports, 'cloudFirewallControlPolicy', { get: function () { return require('./cloud-firewall-control-policy'); } });
 Object.defineProperty(exports, 'cloudFirewallControlPolicyOrder', { get: function () { return require('./cloud-firewall-control-policy-order'); } });
 Object.defineProperty(exports, 'cloudFirewallInstance', { get: function () { return require('./cloud-firewall-instance'); } });
@@ -430,6 +431,7 @@ Object.defineProperty(exports, 'efloNodeGroupAttachment', { get: function () { r
 Object.defineProperty(exports, 'efloResource', { get: function () { return require('./eflo-resource'); } });
 Object.defineProperty(exports, 'efloSubnet', { get: function () { return require('./eflo-subnet'); } });
 Object.defineProperty(exports, 'efloVpd', { get: function () { return require('./eflo-vpd'); } });
+Object.defineProperty(exports, 'efloVpdGrantRule', { get: function () { return require('./eflo-vpd-grant-rule'); } });
 Object.defineProperty(exports, 'efloVsc', { get: function () { return require('./eflo-vsc'); } });
 Object.defineProperty(exports, 'ehpcCluster', { get: function () { return require('./ehpc-cluster'); } });
 Object.defineProperty(exports, 'ehpcJobTemplate', { get: function () { return require('./ehpc-job-template'); } });
@@ -1071,6 +1073,7 @@ Object.defineProperty(exports, 'wafCertificate', { get: function () { return req
 Object.defineProperty(exports, 'wafDomain', { get: function () { return require('./waf-domain'); } });
 Object.defineProperty(exports, 'wafInstance', { get: function () { return require('./waf-instance'); } });
 Object.defineProperty(exports, 'wafProtectionModule', { get: function () { return require('./waf-protection-module'); } });
+Object.defineProperty(exports, 'wafv3DefenseResourceGroup', { get: function () { return require('./wafv3-defense-resource-group'); } });
 Object.defineProperty(exports, 'wafv3DefenseRule', { get: function () { return require('./wafv3-defense-rule'); } });
 Object.defineProperty(exports, 'wafv3DefenseTemplate', { get: function () { return require('./wafv3-defense-template'); } });
 Object.defineProperty(exports, 'wafv3Domain', { get: function () { return require('./wafv3-domain'); } });

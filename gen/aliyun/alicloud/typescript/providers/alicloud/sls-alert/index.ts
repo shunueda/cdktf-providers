@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface SlsAlertConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#alert_name SlsAlert#alert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#alert_name SlsAlert#alert_name}
   */
   readonly alertName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#description SlsAlert#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#description SlsAlert#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#display_name SlsAlert#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#display_name SlsAlert#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#id SlsAlert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#id SlsAlert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#project_name SlsAlert#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#project_name SlsAlert#project_name}
   */
   readonly projectName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#status SlsAlert#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#status SlsAlert#status}
   */
   readonly status?: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#configuration SlsAlert#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#configuration SlsAlert#configuration}
   */
   readonly configuration: SlsAlertConfiguration;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#schedule SlsAlert#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#schedule SlsAlert#schedule}
   */
   readonly schedule: SlsAlertSchedule;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#timeouts SlsAlert#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#timeouts SlsAlert#timeouts}
   */
   readonly timeouts?: SlsAlertTimeouts;
 }
 export interface SlsAlertConfigurationAnnotations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#key SlsAlert#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#key SlsAlert#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#value SlsAlert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#value SlsAlert#value}
   */
   readonly value?: string;
 }
@@ -204,11 +204,11 @@ export class SlsAlertConfigurationAnnotationsList extends cdktf.ComplexList {
 }
 export interface SlsAlertConfigurationConditionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#condition SlsAlert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#condition SlsAlert#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#count_condition SlsAlert#count_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#count_condition SlsAlert#count_condition}
   */
   readonly countCondition?: string;
 }
@@ -321,11 +321,11 @@ export class SlsAlertConfigurationConditionConfigurationOutputReference extends 
 }
 export interface SlsAlertConfigurationGroupConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#fields SlsAlert#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#fields SlsAlert#fields}
   */
   readonly fields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#type SlsAlert#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#type SlsAlert#type}
   */
   readonly type?: string;
 }
@@ -438,11 +438,11 @@ export class SlsAlertConfigurationGroupConfigurationOutputReference extends cdkt
 }
 export interface SlsAlertConfigurationJoinConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#condition SlsAlert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#condition SlsAlert#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#type SlsAlert#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#type SlsAlert#type}
   */
   readonly type?: string;
 }
@@ -587,11 +587,11 @@ export class SlsAlertConfigurationJoinConfigurationsList extends cdktf.ComplexLi
 }
 export interface SlsAlertConfigurationLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#key SlsAlert#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#key SlsAlert#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#value SlsAlert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#value SlsAlert#value}
   */
   readonly value?: string;
 }
@@ -736,15 +736,15 @@ export class SlsAlertConfigurationLabelsList extends cdktf.ComplexList {
 }
 export interface SlsAlertConfigurationPolicyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#action_policy_id SlsAlert#action_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#action_policy_id SlsAlert#action_policy_id}
   */
   readonly actionPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#alert_policy_id SlsAlert#alert_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#alert_policy_id SlsAlert#alert_policy_id}
   */
   readonly alertPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#repeat_interval SlsAlert#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#repeat_interval SlsAlert#repeat_interval}
   */
   readonly repeatInterval?: string;
 }
@@ -886,55 +886,55 @@ export class SlsAlertConfigurationPolicyConfigurationOutputReference extends cdk
 }
 export interface SlsAlertConfigurationQueryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#chart_title SlsAlert#chart_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#chart_title SlsAlert#chart_title}
   */
   readonly chartTitle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#dashboard_id SlsAlert#dashboard_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#dashboard_id SlsAlert#dashboard_id}
   */
   readonly dashboardId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#end SlsAlert#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#end SlsAlert#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#power_sql_mode SlsAlert#power_sql_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#power_sql_mode SlsAlert#power_sql_mode}
   */
   readonly powerSqlMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#project SlsAlert#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#project SlsAlert#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#query SlsAlert#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#query SlsAlert#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#region SlsAlert#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#region SlsAlert#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#role_arn SlsAlert#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#role_arn SlsAlert#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#start SlsAlert#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#start SlsAlert#start}
   */
   readonly start?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#store SlsAlert#store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#store SlsAlert#store}
   */
   readonly store?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#store_type SlsAlert#store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#store_type SlsAlert#store_type}
   */
   readonly storeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#time_span_type SlsAlert#time_span_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#time_span_type SlsAlert#time_span_type}
   */
   readonly timeSpanType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#ui SlsAlert#ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#ui SlsAlert#ui}
   */
   readonly ui?: string;
 }
@@ -1398,11 +1398,11 @@ export class SlsAlertConfigurationQueryListStructList extends cdktf.ComplexList 
 }
 export interface SlsAlertConfigurationSeverityConfigurationsEvalCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#condition SlsAlert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#condition SlsAlert#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#count_condition SlsAlert#count_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#count_condition SlsAlert#count_condition}
   */
   readonly countCondition?: string;
 }
@@ -1515,13 +1515,13 @@ export class SlsAlertConfigurationSeverityConfigurationsEvalConditionOutputRefer
 }
 export interface SlsAlertConfigurationSeverityConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#severity SlsAlert#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#severity SlsAlert#severity}
   */
   readonly severity?: number;
   /**
   * eval_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#eval_condition SlsAlert#eval_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#eval_condition SlsAlert#eval_condition}
   */
   readonly evalCondition?: SlsAlertConfigurationSeverityConfigurationsEvalCondition;
 }
@@ -1666,7 +1666,7 @@ export class SlsAlertConfigurationSeverityConfigurationsList extends cdktf.Compl
 }
 export interface SlsAlertConfigurationSinkAlerthub {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#enabled SlsAlert#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#enabled SlsAlert#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1750,7 +1750,7 @@ export class SlsAlertConfigurationSinkAlerthubOutputReference extends cdktf.Comp
 }
 export interface SlsAlertConfigurationSinkCms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#enabled SlsAlert#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#enabled SlsAlert#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1834,23 +1834,23 @@ export class SlsAlertConfigurationSinkCmsOutputReference extends cdktf.ComplexOb
 }
 export interface SlsAlertConfigurationSinkEventStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#enabled SlsAlert#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#enabled SlsAlert#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#endpoint SlsAlert#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#endpoint SlsAlert#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#event_store SlsAlert#event_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#event_store SlsAlert#event_store}
   */
   readonly eventStore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#project SlsAlert#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#project SlsAlert#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#role_arn SlsAlert#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#role_arn SlsAlert#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -2050,27 +2050,27 @@ export class SlsAlertConfigurationSinkEventStoreOutputReference extends cdktf.Co
 }
 export interface SlsAlertConfigurationTemplateConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#annotations SlsAlert#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#annotations SlsAlert#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#lang SlsAlert#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#lang SlsAlert#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#template_id SlsAlert#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#template_id SlsAlert#template_id}
   */
   readonly templateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#tokens SlsAlert#tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#tokens SlsAlert#tokens}
   */
   readonly tokens?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#type SlsAlert#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#type SlsAlert#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#version SlsAlert#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#version SlsAlert#version}
   */
   readonly version?: string;
 }
@@ -2299,115 +2299,115 @@ export class SlsAlertConfigurationTemplateConfigurationOutputReference extends c
 }
 export interface SlsAlertConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#auto_annotation SlsAlert#auto_annotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#auto_annotation SlsAlert#auto_annotation}
   */
   readonly autoAnnotation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#dashboard SlsAlert#dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#dashboard SlsAlert#dashboard}
   */
   readonly dashboard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#mute_until SlsAlert#mute_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#mute_until SlsAlert#mute_until}
   */
   readonly muteUntil?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#no_data_fire SlsAlert#no_data_fire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#no_data_fire SlsAlert#no_data_fire}
   */
   readonly noDataFire?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#no_data_severity SlsAlert#no_data_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#no_data_severity SlsAlert#no_data_severity}
   */
   readonly noDataSeverity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#send_resolved SlsAlert#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#send_resolved SlsAlert#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#tags SlsAlert#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#tags SlsAlert#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#threshold SlsAlert#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#threshold SlsAlert#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#type SlsAlert#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#type SlsAlert#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#version SlsAlert#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#version SlsAlert#version}
   */
   readonly version?: string;
   /**
   * annotations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#annotations SlsAlert#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#annotations SlsAlert#annotations}
   */
   readonly annotations?: SlsAlertConfigurationAnnotations[] | cdktf.IResolvable;
   /**
   * condition_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#condition_configuration SlsAlert#condition_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#condition_configuration SlsAlert#condition_configuration}
   */
   readonly conditionConfiguration?: SlsAlertConfigurationConditionConfiguration;
   /**
   * group_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#group_configuration SlsAlert#group_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#group_configuration SlsAlert#group_configuration}
   */
   readonly groupConfiguration?: SlsAlertConfigurationGroupConfiguration;
   /**
   * join_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#join_configurations SlsAlert#join_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#join_configurations SlsAlert#join_configurations}
   */
   readonly joinConfigurations?: SlsAlertConfigurationJoinConfigurations[] | cdktf.IResolvable;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#labels SlsAlert#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#labels SlsAlert#labels}
   */
   readonly labels?: SlsAlertConfigurationLabels[] | cdktf.IResolvable;
   /**
   * policy_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#policy_configuration SlsAlert#policy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#policy_configuration SlsAlert#policy_configuration}
   */
   readonly policyConfiguration?: SlsAlertConfigurationPolicyConfiguration;
   /**
   * query_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#query_list SlsAlert#query_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#query_list SlsAlert#query_list}
   */
   readonly queryList?: SlsAlertConfigurationQueryListStruct[] | cdktf.IResolvable;
   /**
   * severity_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#severity_configurations SlsAlert#severity_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#severity_configurations SlsAlert#severity_configurations}
   */
   readonly severityConfigurations?: SlsAlertConfigurationSeverityConfigurations[] | cdktf.IResolvable;
   /**
   * sink_alerthub block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#sink_alerthub SlsAlert#sink_alerthub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#sink_alerthub SlsAlert#sink_alerthub}
   */
   readonly sinkAlerthub?: SlsAlertConfigurationSinkAlerthub;
   /**
   * sink_cms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#sink_cms SlsAlert#sink_cms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#sink_cms SlsAlert#sink_cms}
   */
   readonly sinkCms?: SlsAlertConfigurationSinkCms;
   /**
   * sink_event_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#sink_event_store SlsAlert#sink_event_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#sink_event_store SlsAlert#sink_event_store}
   */
   readonly sinkEventStore?: SlsAlertConfigurationSinkEventStore;
   /**
   * template_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#template_configuration SlsAlert#template_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#template_configuration SlsAlert#template_configuration}
   */
   readonly templateConfiguration?: SlsAlertConfigurationTemplateConfiguration;
 }
@@ -3100,27 +3100,27 @@ export class SlsAlertConfigurationOutputReference extends cdktf.ComplexObject {
 }
 export interface SlsAlertSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#cron_expression SlsAlert#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#cron_expression SlsAlert#cron_expression}
   */
   readonly cronExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#delay SlsAlert#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#delay SlsAlert#delay}
   */
   readonly delay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#interval SlsAlert#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#interval SlsAlert#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#run_immdiately SlsAlert#run_immdiately}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#run_immdiately SlsAlert#run_immdiately}
   */
   readonly runImmdiately?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#time_zone SlsAlert#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#time_zone SlsAlert#time_zone}
   */
   readonly timeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#type SlsAlert#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#type SlsAlert#type}
   */
   readonly type?: string;
 }
@@ -3349,15 +3349,15 @@ export class SlsAlertScheduleOutputReference extends cdktf.ComplexObject {
 }
 export interface SlsAlertTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#create SlsAlert#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#create SlsAlert#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#delete SlsAlert#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#delete SlsAlert#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#update SlsAlert#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#update SlsAlert#update}
   */
   readonly update?: string;
 }
@@ -3509,7 +3509,7 @@ export class SlsAlertTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert alicloud_sls_alert}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert alicloud_sls_alert}
 */
 export class SlsAlert extends cdktf.TerraformResource {
 
@@ -3525,7 +3525,7 @@ export class SlsAlert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlsAlert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlsAlert to import
-  * @param importFromId The id of the existing SlsAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlsAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlsAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3537,7 +3537,7 @@ export class SlsAlert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_alert alicloud_sls_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_alert alicloud_sls_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3548,8 +3548,8 @@ export class SlsAlert extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sls_alert',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

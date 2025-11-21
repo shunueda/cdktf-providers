@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_domain_referer
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_domain_referer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CssDomainRefererConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow blank referers, 0: not allowed, 1: allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_domain_referer#allow_empty CssDomainReferer#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_domain_referer#allow_empty CssDomainReferer#allow_empty}
   */
   readonly allowEmpty: number;
   /**
   * Domain Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_domain_referer#domain_name CssDomainReferer#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_domain_referer#domain_name CssDomainReferer#domain_name}
   */
   readonly domainName: string;
   /**
   * Whether to enable the referer blacklist authentication of the current domain name,`0`: off, `1`: on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_domain_referer#enable CssDomainReferer#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_domain_referer#enable CssDomainReferer#enable}
   */
   readonly enable: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_domain_referer#id CssDomainReferer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_domain_referer#id CssDomainReferer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface CssDomainRefererConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of referers to; separate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_domain_referer#rules CssDomainReferer#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_domain_referer#rules CssDomainReferer#rules}
   */
   readonly rules: string;
   /**
   * List type: 0: blacklist, 1: whitelist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_domain_referer#type CssDomainReferer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_domain_referer#type CssDomainReferer#type}
   */
   readonly type: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_domain_referer tencentcloud_css_domain_referer}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_domain_referer tencentcloud_css_domain_referer}
 */
 export class CssDomainReferer extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CssDomainReferer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssDomainReferer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssDomainReferer to import
-  * @param importFromId The id of the existing CssDomainReferer that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_domain_referer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssDomainReferer that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_domain_referer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssDomainReferer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CssDomainReferer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_domain_referer tencentcloud_css_domain_referer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_domain_referer tencentcloud_css_domain_referer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CssDomainReferer extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_domain_referer',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

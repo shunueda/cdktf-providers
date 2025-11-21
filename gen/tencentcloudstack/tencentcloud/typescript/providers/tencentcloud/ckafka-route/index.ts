@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -14,23 +14,23 @@ export interface CkafkaRouteConfig extends cdktf.TerraformMetaArguments {
   * - 2: SSL (SSL encrypted communication without user information, supported by both older and community versions)
   * - 3: SASL_SSL (SSL encrypted communication. When the data starts, authentication will be logged in through SASL. Only the community version supports it).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route#access_type CkafkaRoute#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route#access_type CkafkaRoute#access_type}
   */
   readonly accessType?: number;
   /**
   * Auth flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route#auth_flag CkafkaRoute#auth_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route#auth_flag CkafkaRoute#auth_flag}
   */
   readonly authFlag?: number;
   /**
   * Caller appid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route#caller_appid CkafkaRoute#caller_appid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route#caller_appid CkafkaRoute#caller_appid}
   */
   readonly callerAppid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route#id CkafkaRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route#id CkafkaRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,37 +39,37 @@ export interface CkafkaRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route#instance_id CkafkaRoute#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route#instance_id CkafkaRoute#instance_id}
   */
   readonly instanceId: string;
   /**
   * Ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route#ip CkafkaRoute#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route#ip CkafkaRoute#ip}
   */
   readonly ip?: string;
   /**
   * Public network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route#public_network CkafkaRoute#public_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route#public_network CkafkaRoute#public_network}
   */
   readonly publicNetwork?: number;
   /**
   * Subnet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route#subnet_id CkafkaRoute#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route#subnet_id CkafkaRoute#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Routing network type (3:vpc routing; 4: standard support routing; 7: professional support routing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route#vip_type CkafkaRoute#vip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route#vip_type CkafkaRoute#vip_type}
   */
   readonly vipType: number;
   /**
   * Vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route#vpc_id CkafkaRoute#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route#vpc_id CkafkaRoute#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -235,7 +235,7 @@ export class CkafkaRouteVipListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route tencentcloud_ckafka_route}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route tencentcloud_ckafka_route}
 */
 export class CkafkaRoute extends cdktf.TerraformResource {
 
@@ -251,7 +251,7 @@ export class CkafkaRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CkafkaRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CkafkaRoute to import
-  * @param importFromId The id of the existing CkafkaRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CkafkaRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CkafkaRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -263,7 +263,7 @@ export class CkafkaRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ckafka_route tencentcloud_ckafka_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ckafka_route tencentcloud_ckafka_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -274,8 +274,8 @@ export class CkafkaRoute extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ckafka_route',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

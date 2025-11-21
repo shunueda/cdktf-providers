@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MpsTranscodeTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Template description information, length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#comment MpsTranscodeTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#comment MpsTranscodeTemplate#comment}
   */
   readonly comment?: string;
   /**
   * Encapsulation format, optional values: mp4, flv, hls, mp3, flac, ogg, m4a. Among them, mp3, flac, ogg, m4a are pure audio files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#container MpsTranscodeTemplate#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#container MpsTranscodeTemplate#container}
   */
   readonly container: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#id MpsTranscodeTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#id MpsTranscodeTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface MpsTranscodeTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Transcoding template name, length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#name MpsTranscodeTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#name MpsTranscodeTemplate#name}
   */
   readonly name?: string;
   /**
   * Whether to remove audio data, value:0: reserved.1: remove.Default: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#remove_audio MpsTranscodeTemplate#remove_audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#remove_audio MpsTranscodeTemplate#remove_audio}
   */
   readonly removeAudio?: number;
   /**
   * Whether to remove video data, value:0: reserved.1: remove.Default: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#remove_video MpsTranscodeTemplate#remove_video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#remove_video MpsTranscodeTemplate#remove_video}
   */
   readonly removeVideo?: number;
   /**
   * audio_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#audio_template MpsTranscodeTemplate#audio_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#audio_template MpsTranscodeTemplate#audio_template}
   */
   readonly audioTemplate?: MpsTranscodeTemplateAudioTemplate;
   /**
   * enhance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#enhance_config MpsTranscodeTemplate#enhance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#enhance_config MpsTranscodeTemplate#enhance_config}
   */
   readonly enhanceConfig?: MpsTranscodeTemplateEnhanceConfig;
   /**
   * tehd_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#tehd_config MpsTranscodeTemplate#tehd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#tehd_config MpsTranscodeTemplate#tehd_config}
   */
   readonly tehdConfig?: MpsTranscodeTemplateTehdConfig;
   /**
   * video_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#video_template MpsTranscodeTemplate#video_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#video_template MpsTranscodeTemplate#video_template}
   */
   readonly videoTemplate?: MpsTranscodeTemplateVideoTemplate;
 }
@@ -73,25 +73,25 @@ export interface MpsTranscodeTemplateAudioTemplate {
   /**
   * Audio channel mode, optional values:`1: single channel.2: Dual channel.6: Stereo.When the package format of the media is an audio format (flac, ogg, mp3, m4a), the number of channels is not allowed to be set to stereo.Default: 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#audio_channel MpsTranscodeTemplate#audio_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#audio_channel MpsTranscodeTemplate#audio_channel}
   */
   readonly audioChannel?: number;
   /**
   * Bit rate of the audio stream, value range: 0 and [26, 256], unit: kbps.When the value is 0, it means that the audio bit rate is consistent with the original audio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#bitrate MpsTranscodeTemplate#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#bitrate MpsTranscodeTemplate#bitrate}
   */
   readonly bitrate: number;
   /**
   * Encoding format of frequency stream.When the outer parameter Container is mp3, the optional value is:libmp3lame.When the outer parameter Container is ogg or flac, the optional value is:flac.When the outer parameter Container is m4a, the optional value is:libfdk_aac.libmp3lame.ac3.When the outer parameter Container is mp4 or flv, the optional value is:libfdk_aac: more suitable for mp4.libmp3lame: more suitable for flv.When the outer parameter Container is hls, the optional value is:libfdk_aac.libmp3lame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#codec MpsTranscodeTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#codec MpsTranscodeTemplate#codec}
   */
   readonly codec: string;
   /**
   * Sampling rate of audio stream, optional value.32000.44100.48000.Unit: Hz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#sample_rate MpsTranscodeTemplate#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#sample_rate MpsTranscodeTemplate#sample_rate}
   */
   readonly sampleRate: number;
 }
@@ -255,13 +255,13 @@ export interface MpsTranscodeTemplateEnhanceConfigVideoEnhanceArtifactRepair {
   /**
   * Capability configuration switch, optional value: ON/OFF.Default value: ON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
   */
   readonly switch?: string;
   /**
   * Type, optional value: weak/strong.Default value: weak.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
   */
   readonly type?: string;
 }
@@ -376,13 +376,13 @@ export interface MpsTranscodeTemplateEnhanceConfigVideoEnhanceColorEnhance {
   /**
   * Capability configuration switch, optional value: ON/OFF.Default value: ON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
   */
   readonly switch?: string;
   /**
   * Type, optional value: weak/normal/strong.Default value: weak.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
   */
   readonly type?: string;
 }
@@ -497,13 +497,13 @@ export interface MpsTranscodeTemplateEnhanceConfigVideoEnhanceDenoise {
   /**
   * Capability configuration switch, optional value: ON/OFF.Default value: ON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
   */
   readonly switch?: string;
   /**
   * Type, optional value: weak/strong.Default value: weak.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
   */
   readonly type?: string;
 }
@@ -618,13 +618,13 @@ export interface MpsTranscodeTemplateEnhanceConfigVideoEnhanceFaceEnhance {
   /**
   * Intensity, value range: 0.0~1.0.Default value: 0.0.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#intensity MpsTranscodeTemplate#intensity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#intensity MpsTranscodeTemplate#intensity}
   */
   readonly intensity?: number;
   /**
   * Capability configuration switch, optional value: ON/OFF.Default value: ON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
   */
   readonly switch?: string;
 }
@@ -739,13 +739,13 @@ export interface MpsTranscodeTemplateEnhanceConfigVideoEnhanceFrameRate {
   /**
   * Frame rate, value range: [0, 100], unit: Hz.Default value: 0.Note: For transcoding, this parameter will override the Fps inside the VideoTemplate.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#fps MpsTranscodeTemplate#fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#fps MpsTranscodeTemplate#fps}
   */
   readonly fps?: number;
   /**
   * Capability configuration switch, optional value: ON/OFF.Default value: ON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
   */
   readonly switch?: string;
 }
@@ -860,13 +860,13 @@ export interface MpsTranscodeTemplateEnhanceConfigVideoEnhanceHdr {
   /**
   * Capability configuration switch, optional value: ON/OFF.Default value: ON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
   */
   readonly switch?: string;
   /**
   * Type, optional value: HDR10/HLG.Default value: HDR10.Note: The encoding method of video needs to be libx265.Note: Video encoding bit depth is 10.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
   */
   readonly type?: string;
 }
@@ -981,13 +981,13 @@ export interface MpsTranscodeTemplateEnhanceConfigVideoEnhanceImageQualityEnhanc
   /**
   * Capability configuration switch, optional value: ON/OFF.Default value: ON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
   */
   readonly switch?: string;
   /**
   * Type, optional value: weak/normal/strong.Default value: weak.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
   */
   readonly type?: string;
 }
@@ -1102,13 +1102,13 @@ export interface MpsTranscodeTemplateEnhanceConfigVideoEnhanceLowLightEnhance {
   /**
   * Capability configuration switch, optional value: ON/OFF.Default value: ON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
   */
   readonly switch?: string;
   /**
   * Type, optional value: normal.Default value: normal.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
   */
   readonly type?: string;
 }
@@ -1223,13 +1223,13 @@ export interface MpsTranscodeTemplateEnhanceConfigVideoEnhanceScratchRepair {
   /**
   * Intensity, value range: 0.0~1.0.Default value: 0.0.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#intensity MpsTranscodeTemplate#intensity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#intensity MpsTranscodeTemplate#intensity}
   */
   readonly intensity?: number;
   /**
   * Capability configuration switch, optional value: ON/OFF.Default value: ON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
   */
   readonly switch?: string;
 }
@@ -1344,13 +1344,13 @@ export interface MpsTranscodeTemplateEnhanceConfigVideoEnhanceSharpEnhance {
   /**
   * Intensity, value range: 0.0~1.0.Default value: 0.0.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#intensity MpsTranscodeTemplate#intensity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#intensity MpsTranscodeTemplate#intensity}
   */
   readonly intensity?: number;
   /**
   * Capability configuration switch, optional value: ON/OFF.Default value: ON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
   */
   readonly switch?: string;
 }
@@ -1465,19 +1465,19 @@ export interface MpsTranscodeTemplateEnhanceConfigVideoEnhanceSuperResolution {
   /**
   * Super resolution multiple, optional value:2: currently only supports 2x super resolution.Default value: 2.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#size MpsTranscodeTemplate#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#size MpsTranscodeTemplate#size}
   */
   readonly size?: number;
   /**
   * Capability configuration switch, optional value: ON/OFF.Default value: ON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#switch MpsTranscodeTemplate#switch}
   */
   readonly switch?: string;
   /**
   * Type, optional value:lq: super-resolution for low-definition video with more noise.hq: super resolution for high-definition video.Default value: lq.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
   */
   readonly type?: string;
 }
@@ -1621,67 +1621,67 @@ export interface MpsTranscodeTemplateEnhanceConfigVideoEnhance {
   /**
   * artifact_repair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#artifact_repair MpsTranscodeTemplate#artifact_repair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#artifact_repair MpsTranscodeTemplate#artifact_repair}
   */
   readonly artifactRepair?: MpsTranscodeTemplateEnhanceConfigVideoEnhanceArtifactRepair;
   /**
   * color_enhance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#color_enhance MpsTranscodeTemplate#color_enhance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#color_enhance MpsTranscodeTemplate#color_enhance}
   */
   readonly colorEnhance?: MpsTranscodeTemplateEnhanceConfigVideoEnhanceColorEnhance;
   /**
   * denoise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#denoise MpsTranscodeTemplate#denoise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#denoise MpsTranscodeTemplate#denoise}
   */
   readonly denoise?: MpsTranscodeTemplateEnhanceConfigVideoEnhanceDenoise;
   /**
   * face_enhance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#face_enhance MpsTranscodeTemplate#face_enhance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#face_enhance MpsTranscodeTemplate#face_enhance}
   */
   readonly faceEnhance?: MpsTranscodeTemplateEnhanceConfigVideoEnhanceFaceEnhance;
   /**
   * frame_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#frame_rate MpsTranscodeTemplate#frame_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#frame_rate MpsTranscodeTemplate#frame_rate}
   */
   readonly frameRate?: MpsTranscodeTemplateEnhanceConfigVideoEnhanceFrameRate;
   /**
   * hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#hdr MpsTranscodeTemplate#hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#hdr MpsTranscodeTemplate#hdr}
   */
   readonly hdr?: MpsTranscodeTemplateEnhanceConfigVideoEnhanceHdr;
   /**
   * image_quality_enhance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#image_quality_enhance MpsTranscodeTemplate#image_quality_enhance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#image_quality_enhance MpsTranscodeTemplate#image_quality_enhance}
   */
   readonly imageQualityEnhance?: MpsTranscodeTemplateEnhanceConfigVideoEnhanceImageQualityEnhance;
   /**
   * low_light_enhance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#low_light_enhance MpsTranscodeTemplate#low_light_enhance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#low_light_enhance MpsTranscodeTemplate#low_light_enhance}
   */
   readonly lowLightEnhance?: MpsTranscodeTemplateEnhanceConfigVideoEnhanceLowLightEnhance;
   /**
   * scratch_repair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#scratch_repair MpsTranscodeTemplate#scratch_repair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#scratch_repair MpsTranscodeTemplate#scratch_repair}
   */
   readonly scratchRepair?: MpsTranscodeTemplateEnhanceConfigVideoEnhanceScratchRepair;
   /**
   * sharp_enhance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#sharp_enhance MpsTranscodeTemplate#sharp_enhance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#sharp_enhance MpsTranscodeTemplate#sharp_enhance}
   */
   readonly sharpEnhance?: MpsTranscodeTemplateEnhanceConfigVideoEnhanceSharpEnhance;
   /**
   * super_resolution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#super_resolution MpsTranscodeTemplate#super_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#super_resolution MpsTranscodeTemplate#super_resolution}
   */
   readonly superResolution?: MpsTranscodeTemplateEnhanceConfigVideoEnhanceSuperResolution;
 }
@@ -2057,7 +2057,7 @@ export interface MpsTranscodeTemplateEnhanceConfig {
   /**
   * video_enhance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#video_enhance MpsTranscodeTemplate#video_enhance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#video_enhance MpsTranscodeTemplate#video_enhance}
   */
   readonly videoEnhance?: MpsTranscodeTemplateEnhanceConfigVideoEnhance;
 }
@@ -2143,13 +2143,13 @@ export interface MpsTranscodeTemplateTehdConfig {
   /**
   * The upper limit of the video bit rate, which is valid when the Type specifies the ultra-fast HD type.Do not fill in or fill in 0 means that there is no upper limit on the video bit rate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#max_video_bitrate MpsTranscodeTemplate#max_video_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#max_video_bitrate MpsTranscodeTemplate#max_video_bitrate}
   */
   readonly maxVideoBitrate?: number;
   /**
   * Extremely high-definition type, optional value:TEHD-100: Extreme HD-100.Not filling means that the ultra-fast high-definition is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#type MpsTranscodeTemplate#type}
   */
   readonly type: string;
 }
@@ -2261,55 +2261,55 @@ export interface MpsTranscodeTemplateVideoTemplate {
   /**
   * Bit rate of the video stream, value range: 0 and [128, 35000], unit: kbps.When the value is 0, it means that the video bit rate is consistent with the original video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#bitrate MpsTranscodeTemplate#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#bitrate MpsTranscodeTemplate#bitrate}
   */
   readonly bitrate: number;
   /**
   * Encoding format of the video stream, optional value:libx264: H.264 encoding.libx265: H.265 encoding.av1: AOMedia Video 1 encoding.Note: Currently H.265 encoding must specify a resolution, and it needs to be within 640*480.Note: av1 encoded containers currently only support mp4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#codec MpsTranscodeTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#codec MpsTranscodeTemplate#codec}
   */
   readonly codec: string;
   /**
   * Filling method, when the aspect ratio of the video stream configuration is inconsistent with the aspect ratio of the original video, the processing method for transcoding is filling. Optional filling method:stretch: Stretch, stretch each frame to fill the entire screen, which may cause the transcoded video to be squashed or stretched.black: Leave black, keep the aspect ratio of the video unchanged, and fill the rest of the edge with black.white: Leave blank, keep the aspect ratio of the video unchanged, and fill the rest of the edge with white.gauss: Gaussian blur, keep the aspect ratio of the video unchanged, and fill the rest of the edge with Gaussian blur.Default: black.Note: Adaptive stream only supports stretch, black.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#fill_type MpsTranscodeTemplate#fill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#fill_type MpsTranscodeTemplate#fill_type}
   */
   readonly fillType?: string;
   /**
   * Video frame rate, value range: [0, 100], unit: Hz.When the value is 0, it means that the frame rate is consistent with the original video.Note: The value range for adaptive code rate is [0, 60].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#fps MpsTranscodeTemplate#fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#fps MpsTranscodeTemplate#fps}
   */
   readonly fps: number;
   /**
   * The interval between keyframe I frames, value range: 0 and [1, 100000], unit: number of frames.When filling 0 or not filling, the system will automatically set the gop length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#gop MpsTranscodeTemplate#gop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#gop MpsTranscodeTemplate#gop}
   */
   readonly gop?: number;
   /**
   * The maximum value of video stream height (or short side), value range: 0 and [128, 4096], unit: px.When Width and Height are both 0, the resolution is the same.When Width is 0 and Height is not 0, Width is scaled proportionally.When Width is not 0 and Height is 0, Height is scaled proportionally.When both Width and Height are not 0, the resolution is specified by the user.Default: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#height MpsTranscodeTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#height MpsTranscodeTemplate#height}
   */
   readonly height?: number;
   /**
   * Adaptive resolution, optional values:```open: open, at this time, Width represents the long side of the video, Height represents the short side of the video.close: close, at this time, Width represents the width of the video, and Height represents the height of the video.Default: open.Note: In adaptive mode, Width cannot be smaller than Height.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#resolution_adaptive MpsTranscodeTemplate#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#resolution_adaptive MpsTranscodeTemplate#resolution_adaptive}
   */
   readonly resolutionAdaptive?: string;
   /**
   * Video constant bit rate control factor, the value range is [1, 51].If this parameter is specified, the code rate control method of CRF will be used for transcoding (the video code rate will no longer take effect).If there is no special requirement, it is not recommended to specify this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#vcrf MpsTranscodeTemplate#vcrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#vcrf MpsTranscodeTemplate#vcrf}
   */
   readonly vcrf?: number;
   /**
   * The maximum value of video stream width (or long side), value range: 0 and [128, 4096], unit: px.When Width and Height are both 0, the resolution is the same.When Width is 0 and Height is not 0, Width is scaled proportionally.When Width is not 0 and Height is 0, Height is scaled proportionally.When both Width and Height are not 0, the resolution is specified by the user.Default: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#width MpsTranscodeTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#width MpsTranscodeTemplate#width}
   */
   readonly width?: number;
 }
@@ -2616,7 +2616,7 @@ export class MpsTranscodeTemplateVideoTemplateOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template tencentcloud_mps_transcode_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template tencentcloud_mps_transcode_template}
 */
 export class MpsTranscodeTemplate extends cdktf.TerraformResource {
 
@@ -2632,7 +2632,7 @@ export class MpsTranscodeTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsTranscodeTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsTranscodeTemplate to import
-  * @param importFromId The id of the existing MpsTranscodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsTranscodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsTranscodeTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2644,7 +2644,7 @@ export class MpsTranscodeTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_transcode_template tencentcloud_mps_transcode_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mps_transcode_template tencentcloud_mps_transcode_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2655,8 +2655,8 @@ export class MpsTranscodeTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_transcode_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

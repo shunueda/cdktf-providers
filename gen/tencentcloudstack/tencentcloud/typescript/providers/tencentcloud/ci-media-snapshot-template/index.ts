@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CiMediaSnapshotTemplateConfig extends cdktf.TerraformMetaArgume
   /**
   * bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#bucket CiMediaSnapshotTemplate#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#bucket CiMediaSnapshotTemplate#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#id CiMediaSnapshotTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#id CiMediaSnapshotTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CiMediaSnapshotTemplateConfig extends cdktf.TerraformMetaArgume
   /**
   * The template name only supports `Chinese`, `English`, `numbers`, `_`, `-` and `*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#name CiMediaSnapshotTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#name CiMediaSnapshotTemplate#name}
   */
   readonly name: string;
   /**
   * snapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#snapshot CiMediaSnapshotTemplate#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#snapshot CiMediaSnapshotTemplate#snapshot}
   */
   readonly snapshot: CiMediaSnapshotTemplateSnapshot;
 }
@@ -37,43 +37,43 @@ export interface CiMediaSnapshotTemplateSnapshotSpriteSnapshotConfig {
   /**
   * Single image height Value range: [8, 4096], Unit: px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#cell_height CiMediaSnapshotTemplate#cell_height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#cell_height CiMediaSnapshotTemplate#cell_height}
   */
   readonly cellHeight?: string;
   /**
   * Single image width Value range: [8, 4096], Unit: px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#cell_width CiMediaSnapshotTemplate#cell_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#cell_width CiMediaSnapshotTemplate#cell_width}
   */
   readonly cellWidth?: string;
   /**
   * See `https://www.ffmpeg.org/ffmpeg-utils.html#color-syntax` for details on supported colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#color CiMediaSnapshotTemplate#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#color CiMediaSnapshotTemplate#color}
   */
   readonly color: string;
   /**
   * Number of screenshot columns, value range: [1, 10000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#columns CiMediaSnapshotTemplate#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#columns CiMediaSnapshotTemplate#columns}
   */
   readonly columns: string;
   /**
   * Number of screenshot lines, value range: [1, 10000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#lines CiMediaSnapshotTemplate#lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#lines CiMediaSnapshotTemplate#lines}
   */
   readonly lines: string;
   /**
   * screenshot margin size, Value range: [8, 4096], Unit: px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#margin CiMediaSnapshotTemplate#margin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#margin CiMediaSnapshotTemplate#margin}
   */
   readonly margin?: string;
   /**
   * screenshot padding size, Value range: [8, 4096], Unit: px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#padding CiMediaSnapshotTemplate#padding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#padding CiMediaSnapshotTemplate#padding}
   */
   readonly padding?: string;
 }
@@ -324,79 +324,79 @@ export interface CiMediaSnapshotTemplateSnapshot {
   /**
   * Screenshot black screen detection parameters, Valid when IsCheckBlack=true, Value reference range [30, 100], indicating the proportion of black pixels, the smaller the value, the smaller the proportion of black pixels, Start&gt;0, the parameter setting is invalid, no filter black screen, Start =0 parameter is valid, the start time of the frame capture is the first frame non-black screen start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#black_level CiMediaSnapshotTemplate#black_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#black_level CiMediaSnapshotTemplate#black_level}
   */
   readonly blackLevel?: string;
   /**
   * Screenshot image processing parameters, for example: imageMogr2/format/png.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#ci_param CiMediaSnapshotTemplate#ci_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#ci_param CiMediaSnapshotTemplate#ci_param}
   */
   readonly ciParam?: string;
   /**
   * Number of screenshots, range (0 10000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#count CiMediaSnapshotTemplate#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#count CiMediaSnapshotTemplate#count}
   */
   readonly count: string;
   /**
   * high, value range: [128, 4096], Unit: px, If only Height is set, Width is calculated according to the original ratio of the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#height CiMediaSnapshotTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#height CiMediaSnapshotTemplate#height}
   */
   readonly height?: string;
   /**
   * Whether to enable black screen detection true/false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#is_check_black CiMediaSnapshotTemplate#is_check_black}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#is_check_black CiMediaSnapshotTemplate#is_check_black}
   */
   readonly isCheckBlack?: string;
   /**
   * Whether to check the number of screenshots forcibly, when using custom interval mode to take screenshots, the video time is not long enough to capture Count screenshots, you can switch to average screenshot mode to capture Count screenshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#is_check_count CiMediaSnapshotTemplate#is_check_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#is_check_count CiMediaSnapshotTemplate#is_check_count}
   */
   readonly isCheckCount?: string;
   /**
   * Screenshot mode, value range: {Interval, Average, KeyFrame}- Interval means interval mode Average means average mode- KeyFrame represents the key frame mode- Interval mode: Start, TimeInterval, The Count parameter takes effect. When Count is set and TimeInterval is not set, Indicates to capture all frames, a total of Count pictures- Average mode: Start, the Count parameter takes effect. express.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#mode CiMediaSnapshotTemplate#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#mode CiMediaSnapshotTemplate#mode}
   */
   readonly mode?: string;
   /**
   * Screenshot black screen detection parameters, Valid when IsCheckBlack=true, The threshold for judging whether a pixel is a black point, value range: [0, 255].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#pixel_black_threshold CiMediaSnapshotTemplate#pixel_black_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#pixel_black_threshold CiMediaSnapshotTemplate#pixel_black_threshold}
   */
   readonly pixelBlackThreshold?: string;
   /**
   * Screenshot output mode parameters, Value range: {OnlySnapshot, OnlySprite, SnapshotAndSprite}, OnlySnapshot means output only screenshot mode OnlySprite means only output sprite mode SnapshotAndSprite means output screenshot and sprite mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#snapshot_out_mode CiMediaSnapshotTemplate#snapshot_out_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#snapshot_out_mode CiMediaSnapshotTemplate#snapshot_out_mode}
   */
   readonly snapshotOutMode?: string;
   /**
   * Starting time, [0 video duration] in seconds, Support float format, the execution accuracy is accurate to milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#start CiMediaSnapshotTemplate#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#start CiMediaSnapshotTemplate#start}
   */
   readonly start?: string;
   /**
   * Screenshot time interval, (0 3600], in seconds, Support float format, the execution accuracy is accurate to milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#time_interval CiMediaSnapshotTemplate#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#time_interval CiMediaSnapshotTemplate#time_interval}
   */
   readonly timeInterval?: string;
   /**
   * wide, value range: [128, 4096], Unit: px, If only Width is set, Height is calculated according to the original ratio of the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#width CiMediaSnapshotTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#width CiMediaSnapshotTemplate#width}
   */
   readonly width?: string;
   /**
   * sprite_snapshot_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#sprite_snapshot_config CiMediaSnapshotTemplate#sprite_snapshot_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#sprite_snapshot_config CiMediaSnapshotTemplate#sprite_snapshot_config}
   */
   readonly spriteSnapshotConfig?: CiMediaSnapshotTemplateSnapshotSpriteSnapshotConfig;
 }
@@ -825,7 +825,7 @@ export class CiMediaSnapshotTemplateSnapshotOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template tencentcloud_ci_media_snapshot_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template tencentcloud_ci_media_snapshot_template}
 */
 export class CiMediaSnapshotTemplate extends cdktf.TerraformResource {
 
@@ -841,7 +841,7 @@ export class CiMediaSnapshotTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CiMediaSnapshotTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CiMediaSnapshotTemplate to import
-  * @param importFromId The id of the existing CiMediaSnapshotTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CiMediaSnapshotTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CiMediaSnapshotTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -853,7 +853,7 @@ export class CiMediaSnapshotTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_snapshot_template tencentcloud_ci_media_snapshot_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/ci_media_snapshot_template tencentcloud_ci_media_snapshot_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -864,8 +864,8 @@ export class CiMediaSnapshotTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ci_media_snapshot_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

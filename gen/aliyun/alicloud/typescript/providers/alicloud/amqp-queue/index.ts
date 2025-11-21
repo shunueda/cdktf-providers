@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface AmqpQueueConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue#auto_delete_state AmqpQueue#auto_delete_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue#auto_delete_state AmqpQueue#auto_delete_state}
   */
   readonly autoDeleteState?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue#auto_expire_state AmqpQueue#auto_expire_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue#auto_expire_state AmqpQueue#auto_expire_state}
   */
   readonly autoExpireState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue#dead_letter_exchange AmqpQueue#dead_letter_exchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue#dead_letter_exchange AmqpQueue#dead_letter_exchange}
   */
   readonly deadLetterExchange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue#dead_letter_routing_key AmqpQueue#dead_letter_routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue#dead_letter_routing_key AmqpQueue#dead_letter_routing_key}
   */
   readonly deadLetterRoutingKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue#exclusive_state AmqpQueue#exclusive_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue#exclusive_state AmqpQueue#exclusive_state}
   */
   readonly exclusiveState?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue#id AmqpQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue#id AmqpQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue#instance_id AmqpQueue#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue#instance_id AmqpQueue#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue#max_length AmqpQueue#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue#max_length AmqpQueue#max_length}
   */
   readonly maxLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue#maximum_priority AmqpQueue#maximum_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue#maximum_priority AmqpQueue#maximum_priority}
   */
   readonly maximumPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue#message_ttl AmqpQueue#message_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue#message_ttl AmqpQueue#message_ttl}
   */
   readonly messageTtl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue#queue_name AmqpQueue#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue#queue_name AmqpQueue#queue_name}
   */
   readonly queueName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue#virtual_host_name AmqpQueue#virtual_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue#virtual_host_name AmqpQueue#virtual_host_name}
   */
   readonly virtualHostName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue alicloud_amqp_queue}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue alicloud_amqp_queue}
 */
 export class AmqpQueue extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class AmqpQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AmqpQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AmqpQueue to import
-  * @param importFromId The id of the existing AmqpQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AmqpQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AmqpQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class AmqpQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/amqp_queue alicloud_amqp_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_queue alicloud_amqp_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class AmqpQueue extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_amqp_queue',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

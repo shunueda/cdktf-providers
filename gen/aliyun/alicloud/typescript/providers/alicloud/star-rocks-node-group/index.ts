@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,94 +8,94 @@ import * as cdktf from 'cdktf';
 
 export interface StarRocksNodeGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#auto_renew StarRocksNodeGroup#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#auto_renew StarRocksNodeGroup#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#cu StarRocksNodeGroup#cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#cu StarRocksNodeGroup#cu}
   */
   readonly cu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#description StarRocksNodeGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#description StarRocksNodeGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#disk_number StarRocksNodeGroup#disk_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#disk_number StarRocksNodeGroup#disk_number}
   */
   readonly diskNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#duration StarRocksNodeGroup#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#duration StarRocksNodeGroup#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#fast_mode StarRocksNodeGroup#fast_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#fast_mode StarRocksNodeGroup#fast_mode}
   */
   readonly fastMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#id StarRocksNodeGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#id StarRocksNodeGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#instance_id StarRocksNodeGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#instance_id StarRocksNodeGroup#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#local_storage_instance_type StarRocksNodeGroup#local_storage_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#local_storage_instance_type StarRocksNodeGroup#local_storage_instance_type}
   */
   readonly localStorageInstanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#node_group_name StarRocksNodeGroup#node_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#node_group_name StarRocksNodeGroup#node_group_name}
   */
   readonly nodeGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#pay_type StarRocksNodeGroup#pay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#pay_type StarRocksNodeGroup#pay_type}
   */
   readonly payType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#pricing_cycle StarRocksNodeGroup#pricing_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#pricing_cycle StarRocksNodeGroup#pricing_cycle}
   */
   readonly pricingCycle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#promotion_option_no StarRocksNodeGroup#promotion_option_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#promotion_option_no StarRocksNodeGroup#promotion_option_no}
   */
   readonly promotionOptionNo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#resident_node_number StarRocksNodeGroup#resident_node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#resident_node_number StarRocksNodeGroup#resident_node_number}
   */
   readonly residentNodeNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#spec_type StarRocksNodeGroup#spec_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#spec_type StarRocksNodeGroup#spec_type}
   */
   readonly specType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#storage_performance_level StarRocksNodeGroup#storage_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#storage_performance_level StarRocksNodeGroup#storage_performance_level}
   */
   readonly storagePerformanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#storage_size StarRocksNodeGroup#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#storage_size StarRocksNodeGroup#storage_size}
   */
   readonly storageSize?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#timeouts StarRocksNodeGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#timeouts StarRocksNodeGroup#timeouts}
   */
   readonly timeouts?: StarRocksNodeGroupTimeouts;
 }
 export interface StarRocksNodeGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#create StarRocksNodeGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#create StarRocksNodeGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#delete StarRocksNodeGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#delete StarRocksNodeGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#update StarRocksNodeGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#update StarRocksNodeGroup#update}
   */
   readonly update?: string;
 }
@@ -247,7 +247,7 @@ export class StarRocksNodeGroupTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group alicloud_star_rocks_node_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group alicloud_star_rocks_node_group}
 */
 export class StarRocksNodeGroup extends cdktf.TerraformResource {
 
@@ -263,7 +263,7 @@ export class StarRocksNodeGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StarRocksNodeGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StarRocksNodeGroup to import
-  * @param importFromId The id of the existing StarRocksNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StarRocksNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StarRocksNodeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -275,7 +275,7 @@ export class StarRocksNodeGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/star_rocks_node_group alicloud_star_rocks_node_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/star_rocks_node_group alicloud_star_rocks_node_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -286,8 +286,8 @@ export class StarRocksNodeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_star_rocks_node_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

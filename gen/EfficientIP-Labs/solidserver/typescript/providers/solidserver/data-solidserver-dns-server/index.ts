@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/dns_server
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/dns_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSolidserverDnsServerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/dns_server#id DataSolidserverDnsServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/dns_server#id DataSolidserverDnsServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataSolidserverDnsServerConfig extends cdktf.TerraformMetaArgum
   /**
   * The name of the DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/dns_server#name DataSolidserverDnsServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/dns_server#name DataSolidserverDnsServer#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/dns_server solidserver_dns_server}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/dns_server solidserver_dns_server}
 */
 export class DataSolidserverDnsServer extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataSolidserverDnsServer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSolidserverDnsServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolidserverDnsServer to import
-  * @param importFromId The id of the existing DataSolidserverDnsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/dns_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolidserverDnsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/dns_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolidserverDnsServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataSolidserverDnsServer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/dns_server solidserver_dns_server} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/dns_server solidserver_dns_server} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataSolidserverDnsServer extends cdktf.TerraformDataSource {
       terraformResourceType: 'solidserver_dns_server',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

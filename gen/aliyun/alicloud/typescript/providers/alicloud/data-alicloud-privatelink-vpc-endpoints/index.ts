@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudPrivatelinkVpcEndpointsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints#connection_status DataAlicloudPrivatelinkVpcEndpoints#connection_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints#connection_status DataAlicloudPrivatelinkVpcEndpoints#connection_status}
   */
   readonly connectionStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints#enable_details DataAlicloudPrivatelinkVpcEndpoints#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints#enable_details DataAlicloudPrivatelinkVpcEndpoints#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints#id DataAlicloudPrivatelinkVpcEndpoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints#id DataAlicloudPrivatelinkVpcEndpoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints#ids DataAlicloudPrivatelinkVpcEndpoints#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints#ids DataAlicloudPrivatelinkVpcEndpoints#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints#name_regex DataAlicloudPrivatelinkVpcEndpoints#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints#name_regex DataAlicloudPrivatelinkVpcEndpoints#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints#output_file DataAlicloudPrivatelinkVpcEndpoints#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints#output_file DataAlicloudPrivatelinkVpcEndpoints#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints#service_name DataAlicloudPrivatelinkVpcEndpoints#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints#service_name DataAlicloudPrivatelinkVpcEndpoints#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints#status DataAlicloudPrivatelinkVpcEndpoints#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints#status DataAlicloudPrivatelinkVpcEndpoints#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints#tags DataAlicloudPrivatelinkVpcEndpoints#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints#tags DataAlicloudPrivatelinkVpcEndpoints#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints#vpc_endpoint_name DataAlicloudPrivatelinkVpcEndpoints#vpc_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints#vpc_endpoint_name DataAlicloudPrivatelinkVpcEndpoints#vpc_endpoint_name}
   */
   readonly vpcEndpointName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints#vpc_id DataAlicloudPrivatelinkVpcEndpoints#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints#vpc_id DataAlicloudPrivatelinkVpcEndpoints#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -198,7 +198,7 @@ export class DataAlicloudPrivatelinkVpcEndpointsEndpointsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints alicloud_privatelink_vpc_endpoints}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints alicloud_privatelink_vpc_endpoints}
 */
 export class DataAlicloudPrivatelinkVpcEndpoints extends cdktf.TerraformDataSource {
 
@@ -214,7 +214,7 @@ export class DataAlicloudPrivatelinkVpcEndpoints extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlicloudPrivatelinkVpcEndpoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudPrivatelinkVpcEndpoints to import
-  * @param importFromId The id of the existing DataAlicloudPrivatelinkVpcEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudPrivatelinkVpcEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudPrivatelinkVpcEndpoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +226,7 @@ export class DataAlicloudPrivatelinkVpcEndpoints extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/privatelink_vpc_endpoints alicloud_privatelink_vpc_endpoints} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/privatelink_vpc_endpoints alicloud_privatelink_vpc_endpoints} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +237,8 @@ export class DataAlicloudPrivatelinkVpcEndpoints extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_privatelink_vpc_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

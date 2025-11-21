@@ -69,193 +69,193 @@ export interface DbServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify whether to automatically update minor version for DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#auto_minor_version_update DbService#auto_minor_version_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#auto_minor_version_update DbService#auto_minor_version_update}
   */
   readonly autoMinorVersionUpdate?: boolean | cdktf.IResolvable;
   /**
   * For any operation on this resource, block the flow until the action has completed successfully
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#block_until_complete DbService#block_until_complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#block_until_complete DbService#block_until_complete}
   */
   readonly blockUntilComplete?: boolean | cdktf.IResolvable;
   /**
   * DB Service's description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#description DbService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#description DbService#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#edition DbService#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#edition DbService#edition}
   */
   readonly edition?: string;
   /**
   * Specify whether to enable deletion protection for the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#enable_deletion_protection DbService#enable_deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#enable_deletion_protection DbService#enable_deletion_protection}
   */
   readonly enableDeletionProtection?: boolean | cdktf.IResolvable;
   /**
   * This field specifies whether to enable performance insights for the DB Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#enable_perf_insights DbService#enable_perf_insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#enable_perf_insights DbService#enable_perf_insights}
   */
   readonly enablePerfInsights?: boolean | cdktf.IResolvable;
   /**
   * This field specifies whether to enable stop protection for the DB Service. If this is enabled, the stop for the DB Service would be disallowed until this setting is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#enable_stop_protection DbService#enable_stop_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#enable_stop_protection DbService#enable_stop_protection}
   */
   readonly enableStopProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#engine_type DbService#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#engine_type DbService#engine_type}
   */
   readonly engineType: string;
   /**
   * If provided, invoke the DB Service start/stop API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#expected_status DbService#expected_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#expected_status DbService#expected_status}
   */
   readonly expectedStatus?: string;
   /**
   * Name of the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#name DbService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#name DbService#name}
   */
   readonly name: string;
   /**
   * Id of the parent AvailabilityMachine, required when creating a clone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#parent_availability_machine_id DbService#parent_availability_machine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parent_availability_machine_id DbService#parent_availability_machine_id}
   */
   readonly parentAvailabilityMachineId?: string;
   /**
   * PITR Timestamp, using which the clone is to be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#pitr DbService#pitr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#pitr DbService#pitr}
   */
   readonly pitr?: string;
   /**
   * Tessell service snapshot Id, using which the clone is to be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#snapshot_id DbService#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#snapshot_id DbService#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * Software Image to be used to create the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#software_image DbService#software_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#software_image DbService#software_image}
   */
   readonly softwareImage: string;
   /**
   * Software Image Version to be used to create the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#software_image_version DbService#software_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#software_image_version DbService#software_image_version}
   */
   readonly softwareImageVersion: string;
   /**
   * Tessell Subscription in which the DB Service is to be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#subscription DbService#subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#subscription DbService#subscription}
   */
   readonly subscription: string;
   /**
   * Timeout for terraform polling, when block_until_complete is true (default true). (In seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#timeout DbService#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#timeout DbService#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#topology DbService#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#topology DbService#topology}
   */
   readonly topology: string;
   /**
   * creds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#creds DbService#creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#creds DbService#creds}
   */
   readonly creds: DbServiceCreds;
   /**
   * databases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#databases DbService#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#databases DbService#databases}
   */
   readonly databases?: DbServiceDatabases[] | cdktf.IResolvable;
   /**
   * deletion_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#deletion_config DbService#deletion_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#deletion_config DbService#deletion_config}
   */
   readonly deletionConfig?: DbServiceDeletionConfig;
   /**
   * engine_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#engine_configuration DbService#engine_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#engine_configuration DbService#engine_configuration}
   */
   readonly engineConfiguration: DbServiceEngineConfiguration;
   /**
   * infrastructure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#infrastructure DbService#infrastructure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#infrastructure DbService#infrastructure}
   */
   readonly infrastructure: DbServiceInfrastructure;
   /**
   * instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#instances DbService#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#instances DbService#instances}
   */
   readonly instances?: DbServiceInstances[] | cdktf.IResolvable;
   /**
   * integrations_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#integrations_config DbService#integrations_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#integrations_config DbService#integrations_config}
   */
   readonly integrationsConfig?: DbServiceIntegrationsConfig;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#maintenance_window DbService#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#maintenance_window DbService#maintenance_window}
   */
   readonly maintenanceWindow?: DbServiceMaintenanceWindow;
   /**
   * rpo_policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#rpo_policy_config DbService#rpo_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#rpo_policy_config DbService#rpo_policy_config}
   */
   readonly rpoPolicyConfig?: DbServiceRpoPolicyConfig;
   /**
   * service_connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#service_connectivity DbService#service_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#service_connectivity DbService#service_connectivity}
   */
   readonly serviceConnectivity: DbServiceServiceConnectivity;
   /**
   * shared_with block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#shared_with DbService#shared_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#shared_with DbService#shared_with}
   */
   readonly sharedWith?: DbServiceSharedWith;
   /**
   * snapshot_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#snapshot_configuration DbService#snapshot_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#snapshot_configuration DbService#snapshot_configuration}
   */
   readonly snapshotConfiguration?: DbServiceSnapshotConfiguration;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#tags DbService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#tags DbService#tags}
   */
   readonly tags?: DbServiceTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#timeouts DbService#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#timeouts DbService#timeouts}
   */
   readonly timeouts?: DbServiceTimeouts;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service tessell_db_service}
+* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service tessell_db_service}
 */
 export class DbService extends cdktf.TerraformResource {
 
@@ -271,7 +271,7 @@ export class DbService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbService to import
-  * @param importFromId The id of the existing DbService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -283,7 +283,7 @@ export class DbService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service tessell_db_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service tessell_db_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,8 +294,8 @@ export class DbService extends cdktf.TerraformResource {
       terraformResourceType: 'tessell_db_service',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.27',
-        providerVersionConstraint: '0.0.27'
+        providerVersion: '0.0.28',
+        providerVersionConstraint: '0.0.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

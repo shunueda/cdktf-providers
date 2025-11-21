@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudEcsCapacityReservationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations#capacity_reservation_ids DataAlicloudEcsCapacityReservations#capacity_reservation_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations#capacity_reservation_ids DataAlicloudEcsCapacityReservations#capacity_reservation_ids}
   */
   readonly capacityReservationIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations#id DataAlicloudEcsCapacityReservations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations#id DataAlicloudEcsCapacityReservations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations#ids DataAlicloudEcsCapacityReservations#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations#ids DataAlicloudEcsCapacityReservations#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations#instance_type DataAlicloudEcsCapacityReservations#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations#instance_type DataAlicloudEcsCapacityReservations#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations#name_regex DataAlicloudEcsCapacityReservations#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations#name_regex DataAlicloudEcsCapacityReservations#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations#output_file DataAlicloudEcsCapacityReservations#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations#output_file DataAlicloudEcsCapacityReservations#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations#payment_type DataAlicloudEcsCapacityReservations#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations#payment_type DataAlicloudEcsCapacityReservations#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations#platform DataAlicloudEcsCapacityReservations#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations#platform DataAlicloudEcsCapacityReservations#platform}
   */
   readonly platform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations#resource_group_id DataAlicloudEcsCapacityReservations#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations#resource_group_id DataAlicloudEcsCapacityReservations#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations#status DataAlicloudEcsCapacityReservations#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations#status DataAlicloudEcsCapacityReservations#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations#tags DataAlicloudEcsCapacityReservations#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations#tags DataAlicloudEcsCapacityReservations#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -218,7 +218,7 @@ export class DataAlicloudEcsCapacityReservationsReservationsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations alicloud_ecs_capacity_reservations}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations alicloud_ecs_capacity_reservations}
 */
 export class DataAlicloudEcsCapacityReservations extends cdktf.TerraformDataSource {
 
@@ -234,7 +234,7 @@ export class DataAlicloudEcsCapacityReservations extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlicloudEcsCapacityReservations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudEcsCapacityReservations to import
-  * @param importFromId The id of the existing DataAlicloudEcsCapacityReservations that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudEcsCapacityReservations that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudEcsCapacityReservations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -246,7 +246,7 @@ export class DataAlicloudEcsCapacityReservations extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/ecs_capacity_reservations alicloud_ecs_capacity_reservations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_capacity_reservations alicloud_ecs_capacity_reservations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -257,8 +257,8 @@ export class DataAlicloudEcsCapacityReservations extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_ecs_capacity_reservations',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

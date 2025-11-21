@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location
+// https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface EdgeLocationConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS configuration for the edge location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#aws EdgeLocation#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#aws EdgeLocation#aws}
   */
   readonly aws?: EdgeLocationAws;
   /**
   * CAST AI cluster ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#cluster_id EdgeLocation#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#cluster_id EdgeLocation#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Description of the edge location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#description EdgeLocation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#description EdgeLocation#description}
   */
   readonly description?: string;
   /**
   * GCP configuration for the edge location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#gcp EdgeLocation#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#gcp EdgeLocation#gcp}
   */
   readonly gcp?: EdgeLocationGcp;
   /**
   * Name of the edge location. Must be unique and relatively short as it's used for creating service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#name EdgeLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#name EdgeLocation#name}
   */
   readonly name: string;
   /**
   * OCI configuration for the edge location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#oci EdgeLocation#oci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#oci EdgeLocation#oci}
   */
   readonly oci?: EdgeLocationOci;
   /**
   * CAST AI organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#organization_id EdgeLocation#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#organization_id EdgeLocation#organization_id}
   */
   readonly organizationId: string;
   /**
   * The region where the edge location is deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#region EdgeLocation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#region EdgeLocation#region}
   */
   readonly region: string;
   /**
   * List of availability zones for the edge location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#zones EdgeLocation#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#zones EdgeLocation#zones}
   */
   readonly zones?: EdgeLocationZones[] | cdktf.IResolvable;
 }
@@ -66,43 +66,43 @@ export interface EdgeLocationAws {
   /**
   * AWS access key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#access_key_id_wo EdgeLocation#access_key_id_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#access_key_id_wo EdgeLocation#access_key_id_wo}
   */
   readonly accessKeyIdWo: string;
   /**
   * AWS account ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#account_id EdgeLocation#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#account_id EdgeLocation#account_id}
   */
   readonly accountId: string;
   /**
   * The value of a 'Name' tag applied to VPC resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#name_tag EdgeLocation#name_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#name_tag EdgeLocation#name_tag}
   */
   readonly nameTag: string;
   /**
   * AWS secret access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#secret_access_key_wo EdgeLocation#secret_access_key_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#secret_access_key_wo EdgeLocation#secret_access_key_wo}
   */
   readonly secretAccessKeyWo: string;
   /**
   * Security group ID to be used in the selected region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#security_group_id EdgeLocation#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#security_group_id EdgeLocation#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * Map of zone names to subnet IDs to be used in the selected region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#subnet_ids EdgeLocation#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#subnet_ids EdgeLocation#subnet_ids}
   */
   readonly subnetIds: { [key: string]: string };
   /**
   * VPC ID to be used in the selected region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#vpc_id EdgeLocation#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#vpc_id EdgeLocation#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -351,31 +351,31 @@ export interface EdgeLocationGcp {
   /**
   * Base64 encoded service account JSON for provisioning edge resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#client_service_account_json_base64_wo EdgeLocation#client_service_account_json_base64_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#client_service_account_json_base64_wo EdgeLocation#client_service_account_json_base64_wo}
   */
   readonly clientServiceAccountJsonBase64Wo: string;
   /**
   * The name of the network to be used in the selected region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#network_name EdgeLocation#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#network_name EdgeLocation#network_name}
   */
   readonly networkName: string;
   /**
   * Tags applied on the provisioned cloud resources and the firewall rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#network_tags EdgeLocation#network_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#network_tags EdgeLocation#network_tags}
   */
   readonly networkTags: string[];
   /**
   * GCP project ID where edges run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#project_id EdgeLocation#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#project_id EdgeLocation#project_id}
   */
   readonly projectId: string;
   /**
   * The name of the subnetwork to be used in the selected region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#subnet_name EdgeLocation#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#subnet_name EdgeLocation#subnet_name}
   */
   readonly subnetName: string;
 }
@@ -572,43 +572,43 @@ export interface EdgeLocationOci {
   /**
   * OCI compartment ID of edge location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#compartment_id EdgeLocation#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#compartment_id EdgeLocation#compartment_id}
   */
   readonly compartmentId: string;
   /**
   * API key fingerprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#fingerprint_wo EdgeLocation#fingerprint_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#fingerprint_wo EdgeLocation#fingerprint_wo}
   */
   readonly fingerprintWo: string;
   /**
   * Base64 encoded API private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#private_key_base64_wo EdgeLocation#private_key_base64_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#private_key_base64_wo EdgeLocation#private_key_base64_wo}
   */
   readonly privateKeyBase64Wo: string;
   /**
   * OCI subnet ID of edge location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#subnet_id EdgeLocation#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#subnet_id EdgeLocation#subnet_id}
   */
   readonly subnetId: string;
   /**
   * OCI tenancy ID of the account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#tenancy_id EdgeLocation#tenancy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#tenancy_id EdgeLocation#tenancy_id}
   */
   readonly tenancyId: string;
   /**
   * User ID used to authenticate OCI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#user_id_wo EdgeLocation#user_id_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#user_id_wo EdgeLocation#user_id_wo}
   */
   readonly userIdWo: string;
   /**
   * OCI virtual cloud network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#vcn_id EdgeLocation#vcn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#vcn_id EdgeLocation#vcn_id}
   */
   readonly vcnId: string;
 }
@@ -857,7 +857,7 @@ export interface EdgeLocationZones {
   /**
   * The ID of the zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#id EdgeLocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#id EdgeLocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -866,7 +866,7 @@ export interface EdgeLocationZones {
   /**
   * The name of the zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#name EdgeLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#name EdgeLocation#name}
   */
   readonly name: string;
 }
@@ -1005,7 +1005,7 @@ export class EdgeLocationZonesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location castai_edge_location}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location castai_edge_location}
 */
 export class EdgeLocation extends cdktf.TerraformResource {
 
@@ -1021,7 +1021,7 @@ export class EdgeLocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeLocation to import
-  * @param importFromId The id of the existing EdgeLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1033,7 +1033,7 @@ export class EdgeLocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/edge_location castai_edge_location} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/edge_location castai_edge_location} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1044,8 +1044,8 @@ export class EdgeLocation extends cdktf.TerraformResource {
       terraformResourceType: 'castai_edge_location',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.2.1',
-        providerVersionConstraint: '8.2.1'
+        providerVersion: '8.3.0',
+        providerVersionConstraint: '8.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

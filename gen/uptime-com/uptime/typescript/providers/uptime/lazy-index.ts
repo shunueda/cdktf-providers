@@ -38,15 +38,26 @@ Object.defineProperty(exports, 'statuspageSubscriber', { get: function () { retu
 Object.defineProperty(exports, 'statuspageSubscriptionDomainAllow', { get: function () { return require('./statuspage-subscription-domain-allow'); } });
 Object.defineProperty(exports, 'statuspageSubscriptionDomainBlock', { get: function () { return require('./statuspage-subscription-domain-block'); } });
 Object.defineProperty(exports, 'statuspageUser', { get: function () { return require('./statuspage-user'); } });
+Object.defineProperty(exports, 'subaccount', { get: function () { return require('./subaccount'); } });
 Object.defineProperty(exports, 'tag', { get: function () { return require('./tag'); } });
 Object.defineProperty(exports, 'user', { get: function () { return require('./user'); } });
+Object.defineProperty(exports, 'dataUptimeAlerts', { get: function () { return require('./data-uptime-alerts'); } });
+Object.defineProperty(exports, 'dataUptimeContacts', { get: function () { return require('./data-uptime-contacts'); } });
 Object.defineProperty(exports, 'dataUptimeCredentials', { get: function () { return require('./data-uptime-credentials'); } });
+Object.defineProperty(exports, 'dataUptimeDashboards', { get: function () { return require('./data-uptime-dashboards'); } });
 Object.defineProperty(exports, 'dataUptimeLocations', { get: function () { return require('./data-uptime-locations'); } });
+Object.defineProperty(exports, 'dataUptimeOutages', { get: function () { return require('./data-uptime-outages'); } });
+Object.defineProperty(exports, 'dataUptimePushNotificationProfiles', { get: function () { return require('./data-uptime-push-notification-profiles'); } });
+Object.defineProperty(exports, 'dataUptimeScheduledReports', { get: function () { return require('./data-uptime-scheduled-reports'); } });
+Object.defineProperty(exports, 'dataUptimeSlaReports', { get: function () { return require('./data-uptime-sla-reports'); } });
 Object.defineProperty(exports, 'dataUptimeStatuspageComponents', { get: function () { return require('./data-uptime-statuspage-components'); } });
+Object.defineProperty(exports, 'dataUptimeStatuspageCurrentStatus', { get: function () { return require('./data-uptime-statuspage-current-status'); } });
 Object.defineProperty(exports, 'dataUptimeStatuspageIncidents', { get: function () { return require('./data-uptime-statuspage-incidents'); } });
 Object.defineProperty(exports, 'dataUptimeStatuspageMetrics', { get: function () { return require('./data-uptime-statuspage-metrics'); } });
+Object.defineProperty(exports, 'dataUptimeStatuspageStatusHistory', { get: function () { return require('./data-uptime-statuspage-status-history'); } });
 Object.defineProperty(exports, 'dataUptimeStatuspageSubscribers', { get: function () { return require('./data-uptime-statuspage-subscribers'); } });
 Object.defineProperty(exports, 'dataUptimeStatuspageUsers', { get: function () { return require('./data-uptime-statuspage-users'); } });
 Object.defineProperty(exports, 'dataUptimeStatuspages', { get: function () { return require('./data-uptime-statuspages'); } });
+Object.defineProperty(exports, 'dataUptimeUsers', { get: function () { return require('./data-uptime-users'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

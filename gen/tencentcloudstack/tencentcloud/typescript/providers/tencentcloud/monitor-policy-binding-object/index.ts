@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_policy_binding_object
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_policy_binding_object
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorPolicyBindingObjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_policy_binding_object#id MonitorPolicyBindingObject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_policy_binding_object#id MonitorPolicyBindingObject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface MonitorPolicyBindingObjectConfig extends cdktf.TerraformMetaArg
   /**
   * Alarm policy ID for binding objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_policy_binding_object#policy_id MonitorPolicyBindingObject#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_policy_binding_object#policy_id MonitorPolicyBindingObject#policy_id}
   */
   readonly policyId: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_policy_binding_object#dimensions MonitorPolicyBindingObject#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_policy_binding_object#dimensions MonitorPolicyBindingObject#dimensions}
   */
   readonly dimensions: MonitorPolicyBindingObjectDimensions[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface MonitorPolicyBindingObjectDimensions {
   /**
   * Represents a collection of dimensions of an object instance, json format.eg:'{"unInstanceId":"ins-ot3cq4bi"}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_policy_binding_object#dimensions_json MonitorPolicyBindingObject#dimensions_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_policy_binding_object#dimensions_json MonitorPolicyBindingObject#dimensions_json}
   */
   readonly dimensionsJson: string;
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_policy_binding_object#region MonitorPolicyBindingObject#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_policy_binding_object#region MonitorPolicyBindingObject#region}
   */
   readonly region?: string;
 }
@@ -184,7 +184,7 @@ export class MonitorPolicyBindingObjectDimensionsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_policy_binding_object tencentcloud_monitor_policy_binding_object}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_policy_binding_object tencentcloud_monitor_policy_binding_object}
 */
 export class MonitorPolicyBindingObject extends cdktf.TerraformResource {
 
@@ -200,7 +200,7 @@ export class MonitorPolicyBindingObject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorPolicyBindingObject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorPolicyBindingObject to import
-  * @param importFromId The id of the existing MonitorPolicyBindingObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_policy_binding_object#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorPolicyBindingObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_policy_binding_object#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorPolicyBindingObject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -212,7 +212,7 @@ export class MonitorPolicyBindingObject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_policy_binding_object tencentcloud_monitor_policy_binding_object} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/monitor_policy_binding_object tencentcloud_monitor_policy_binding_object} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,8 +223,8 @@ export class MonitorPolicyBindingObject extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_policy_binding_object',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

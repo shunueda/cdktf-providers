@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs
+// https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface LdapProviderConfig {
   /**
   * LDAP password, can optionally be passed as `LDAP_BIND_PASSWORD`environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs#bind_password LdapProvider#bind_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs#bind_password LdapProvider#bind_password}
   */
   readonly bindPassword: string;
   /**
   * LDAP username, can optionally be passed as `LDAP_BIND_USER`environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs#bind_user LdapProvider#bind_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs#bind_user LdapProvider#bind_user}
   */
   readonly bindUser: string;
   /**
   * if the entry attribute names should be handeled case sensitive (for state handling in resource ldap_entry)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs#entry_attribute_names_case_sensitive LdapProvider#entry_attribute_names_case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs#entry_attribute_names_case_sensitive LdapProvider#entry_attribute_names_case_sensitive}
   */
   readonly entryAttributeNamesCaseSensitive?: boolean | cdktf.IResolvable;
   /**
   * LDAP host, can optionally be passed as `LDAP_HOST`environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs#host LdapProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs#host LdapProvider#host}
   */
   readonly host: string;
   /**
   * LDAP port, can optionally be passed as `LDAP_PORT`environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs#port LdapProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs#port LdapProvider#port}
   */
   readonly port: number;
   /**
   * Enable the TLS encryption for LDAP (LDAPS). Default, is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs#tls LdapProvider#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs#tls LdapProvider#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
   * Don't verify the server TLS certificate. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs#tls_insecure LdapProvider#tls_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs#tls_insecure LdapProvider#tls_insecure}
   */
   readonly tlsInsecure?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs#alias LdapProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs#alias LdapProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs ldap}
+* Represents a {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs ldap}
 */
 export class LdapProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +74,7 @@ export class LdapProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a LdapProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LdapProvider to import
-  * @param importFromId The id of the existing LdapProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LdapProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LdapProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class LdapProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs ldap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs ldap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class LdapProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ldap',
       terraformGeneratorMetadata: {
         providerName: 'ldap',
-        providerVersion: '0.11.1',
-        providerVersionConstraint: '0.11.1'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       terraformProviderSource: 'l-with/ldap'
     });

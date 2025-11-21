@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface QuotasTemplateApplicationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#aliyun_uids QuotasTemplateApplications#aliyun_uids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#aliyun_uids QuotasTemplateApplications#aliyun_uids}
   */
   readonly aliyunUids: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#desire_value QuotasTemplateApplications#desire_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#desire_value QuotasTemplateApplications#desire_value}
   */
   readonly desireValue: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#effective_time QuotasTemplateApplications#effective_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#effective_time QuotasTemplateApplications#effective_time}
   */
   readonly effectiveTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#env_language QuotasTemplateApplications#env_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#env_language QuotasTemplateApplications#env_language}
   */
   readonly envLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#expire_time QuotasTemplateApplications#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#expire_time QuotasTemplateApplications#expire_time}
   */
   readonly expireTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#id QuotasTemplateApplications#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#id QuotasTemplateApplications#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#notice_type QuotasTemplateApplications#notice_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#notice_type QuotasTemplateApplications#notice_type}
   */
   readonly noticeType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#product_code QuotasTemplateApplications#product_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#product_code QuotasTemplateApplications#product_code}
   */
   readonly productCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#quota_action_code QuotasTemplateApplications#quota_action_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#quota_action_code QuotasTemplateApplications#quota_action_code}
   */
   readonly quotaActionCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#quota_category QuotasTemplateApplications#quota_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#quota_category QuotasTemplateApplications#quota_category}
   */
   readonly quotaCategory: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#reason QuotasTemplateApplications#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#reason QuotasTemplateApplications#reason}
   */
   readonly reason: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#dimensions QuotasTemplateApplications#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#dimensions QuotasTemplateApplications#dimensions}
   */
   readonly dimensions?: QuotasTemplateApplicationsDimensions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#timeouts QuotasTemplateApplications#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#timeouts QuotasTemplateApplications#timeouts}
   */
   readonly timeouts?: QuotasTemplateApplicationsTimeouts;
 }
@@ -291,11 +291,11 @@ export class QuotasTemplateApplicationsQuotaApplicationDetailsList extends cdktf
 }
 export interface QuotasTemplateApplicationsDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#key QuotasTemplateApplications#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#key QuotasTemplateApplications#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#value QuotasTemplateApplications#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#value QuotasTemplateApplications#value}
   */
   readonly value?: string;
 }
@@ -440,15 +440,15 @@ export class QuotasTemplateApplicationsDimensionsList extends cdktf.ComplexList 
 }
 export interface QuotasTemplateApplicationsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#create QuotasTemplateApplications#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#create QuotasTemplateApplications#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#delete QuotasTemplateApplications#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#delete QuotasTemplateApplications#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#update QuotasTemplateApplications#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#update QuotasTemplateApplications#update}
   */
   readonly update?: string;
 }
@@ -600,7 +600,7 @@ export class QuotasTemplateApplicationsTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications alicloud_quotas_template_applications}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications alicloud_quotas_template_applications}
 */
 export class QuotasTemplateApplications extends cdktf.TerraformResource {
 
@@ -616,7 +616,7 @@ export class QuotasTemplateApplications extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QuotasTemplateApplications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuotasTemplateApplications to import
-  * @param importFromId The id of the existing QuotasTemplateApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuotasTemplateApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuotasTemplateApplications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -628,7 +628,7 @@ export class QuotasTemplateApplications extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/quotas_template_applications alicloud_quotas_template_applications} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/quotas_template_applications alicloud_quotas_template_applications} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -639,8 +639,8 @@ export class QuotasTemplateApplications extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_quotas_template_applications',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

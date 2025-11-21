@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface CenTransitRouterPeerAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#auto_publish_route_enabled CenTransitRouterPeerAttachment#auto_publish_route_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#auto_publish_route_enabled CenTransitRouterPeerAttachment#auto_publish_route_enabled}
   */
   readonly autoPublishRouteEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#bandwidth CenTransitRouterPeerAttachment#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#bandwidth CenTransitRouterPeerAttachment#bandwidth}
   */
   readonly bandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#bandwidth_type CenTransitRouterPeerAttachment#bandwidth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#bandwidth_type CenTransitRouterPeerAttachment#bandwidth_type}
   */
   readonly bandwidthType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#cen_bandwidth_package_id CenTransitRouterPeerAttachment#cen_bandwidth_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#cen_bandwidth_package_id CenTransitRouterPeerAttachment#cen_bandwidth_package_id}
   */
   readonly cenBandwidthPackageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#cen_id CenTransitRouterPeerAttachment#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#cen_id CenTransitRouterPeerAttachment#cen_id}
   */
   readonly cenId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#default_link_type CenTransitRouterPeerAttachment#default_link_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#default_link_type CenTransitRouterPeerAttachment#default_link_type}
   */
   readonly defaultLinkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#dry_run CenTransitRouterPeerAttachment#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#dry_run CenTransitRouterPeerAttachment#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#id CenTransitRouterPeerAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#id CenTransitRouterPeerAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#peer_transit_router_id CenTransitRouterPeerAttachment#peer_transit_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#peer_transit_router_id CenTransitRouterPeerAttachment#peer_transit_router_id}
   */
   readonly peerTransitRouterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#peer_transit_router_region_id CenTransitRouterPeerAttachment#peer_transit_router_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#peer_transit_router_region_id CenTransitRouterPeerAttachment#peer_transit_router_region_id}
   */
   readonly peerTransitRouterRegionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#resource_type CenTransitRouterPeerAttachment#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#resource_type CenTransitRouterPeerAttachment#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#route_table_association_enabled CenTransitRouterPeerAttachment#route_table_association_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#route_table_association_enabled CenTransitRouterPeerAttachment#route_table_association_enabled}
   */
   readonly routeTableAssociationEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#route_table_propagation_enabled CenTransitRouterPeerAttachment#route_table_propagation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#route_table_propagation_enabled CenTransitRouterPeerAttachment#route_table_propagation_enabled}
   */
   readonly routeTablePropagationEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#tags CenTransitRouterPeerAttachment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#tags CenTransitRouterPeerAttachment#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#transit_router_attachment_description CenTransitRouterPeerAttachment#transit_router_attachment_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#transit_router_attachment_description CenTransitRouterPeerAttachment#transit_router_attachment_description}
   */
   readonly transitRouterAttachmentDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#transit_router_attachment_name CenTransitRouterPeerAttachment#transit_router_attachment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#transit_router_attachment_name CenTransitRouterPeerAttachment#transit_router_attachment_name}
   */
   readonly transitRouterAttachmentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#transit_router_id CenTransitRouterPeerAttachment#transit_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#transit_router_id CenTransitRouterPeerAttachment#transit_router_id}
   */
   readonly transitRouterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#transit_router_peer_attachment_name CenTransitRouterPeerAttachment#transit_router_peer_attachment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#transit_router_peer_attachment_name CenTransitRouterPeerAttachment#transit_router_peer_attachment_name}
   */
   readonly transitRouterPeerAttachmentName?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#timeouts CenTransitRouterPeerAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#timeouts CenTransitRouterPeerAttachment#timeouts}
   */
   readonly timeouts?: CenTransitRouterPeerAttachmentTimeouts;
 }
 export interface CenTransitRouterPeerAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#create CenTransitRouterPeerAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#create CenTransitRouterPeerAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#delete CenTransitRouterPeerAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#delete CenTransitRouterPeerAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#update CenTransitRouterPeerAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#update CenTransitRouterPeerAttachment#update}
   */
   readonly update?: string;
 }
@@ -251,7 +251,7 @@ export class CenTransitRouterPeerAttachmentTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment alicloud_cen_transit_router_peer_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment alicloud_cen_transit_router_peer_attachment}
 */
 export class CenTransitRouterPeerAttachment extends cdktf.TerraformResource {
 
@@ -267,7 +267,7 @@ export class CenTransitRouterPeerAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CenTransitRouterPeerAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CenTransitRouterPeerAttachment to import
-  * @param importFromId The id of the existing CenTransitRouterPeerAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CenTransitRouterPeerAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CenTransitRouterPeerAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class CenTransitRouterPeerAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_peer_attachment alicloud_cen_transit_router_peer_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_peer_attachment alicloud_cen_transit_router_peer_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,8 +290,8 @@ export class CenTransitRouterPeerAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cen_transit_router_peer_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

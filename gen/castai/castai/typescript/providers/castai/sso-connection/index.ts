@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection
+// https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SsoConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Additional email domains that will be allowed to sign in via the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#additional_email_domains SsoConnection#additional_email_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#additional_email_domains SsoConnection#additional_email_domains}
   */
   readonly additionalEmailDomains?: string[];
   /**
   * Email domain of the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#email_domain SsoConnection#email_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#email_domain SsoConnection#email_domain}
   */
   readonly emailDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#id SsoConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#id SsoConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface SsoConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#name SsoConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#name SsoConnection#name}
   */
   readonly name: string;
   /**
   * aad block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#aad SsoConnection#aad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#aad SsoConnection#aad}
   */
   readonly aad?: SsoConnectionAad;
   /**
   * okta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#okta SsoConnection#okta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#okta SsoConnection#okta}
   */
   readonly okta?: SsoConnectionOkta;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#timeouts SsoConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#timeouts SsoConnection#timeouts}
   */
   readonly timeouts?: SsoConnectionTimeouts;
 }
@@ -55,19 +55,19 @@ export interface SsoConnectionAad {
   /**
   * Azure AD domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#ad_domain SsoConnection#ad_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#ad_domain SsoConnection#ad_domain}
   */
   readonly adDomain: string;
   /**
   * Azure AD client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#client_id SsoConnection#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#client_id SsoConnection#client_id}
   */
   readonly clientId: string;
   /**
   * Azure AD client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#client_secret SsoConnection#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#client_secret SsoConnection#client_secret}
   */
   readonly clientSecret: string;
 }
@@ -202,19 +202,19 @@ export interface SsoConnectionOkta {
   /**
   * Okta client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#client_id SsoConnection#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#client_id SsoConnection#client_id}
   */
   readonly clientId: string;
   /**
   * Okta client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#client_secret SsoConnection#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#client_secret SsoConnection#client_secret}
   */
   readonly clientSecret: string;
   /**
   * Okta domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#okta_domain SsoConnection#okta_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#okta_domain SsoConnection#okta_domain}
   */
   readonly oktaDomain: string;
 }
@@ -347,15 +347,15 @@ export class SsoConnectionOktaOutputReference extends cdktf.ComplexObject {
 }
 export interface SsoConnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#create SsoConnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#create SsoConnection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#delete SsoConnection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#delete SsoConnection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#update SsoConnection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#update SsoConnection#update}
   */
   readonly update?: string;
 }
@@ -507,7 +507,7 @@ export class SsoConnectionTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection castai_sso_connection}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection castai_sso_connection}
 */
 export class SsoConnection extends cdktf.TerraformResource {
 
@@ -523,7 +523,7 @@ export class SsoConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SsoConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsoConnection to import
-  * @param importFromId The id of the existing SsoConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsoConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsoConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -535,7 +535,7 @@ export class SsoConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/sso_connection castai_sso_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/sso_connection castai_sso_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -546,8 +546,8 @@ export class SsoConnection extends cdktf.TerraformResource {
       terraformResourceType: 'castai_sso_connection',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.2.1',
-        providerVersionConstraint: '8.2.1'
+        providerVersion: '8.3.0',
+        providerVersionConstraint: '8.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

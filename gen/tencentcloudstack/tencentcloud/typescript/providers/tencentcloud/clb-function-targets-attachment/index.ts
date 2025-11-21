@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClbFunctionTargetsAttachmentConfig extends cdktf.TerraformMetaA
   /**
   * The domain name of the target forwarding rule. If the LocationId parameter has been entered, this parameter will not take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#domain ClbFunctionTargetsAttachment#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#domain ClbFunctionTargetsAttachment#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#id ClbFunctionTargetsAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#id ClbFunctionTargetsAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ClbFunctionTargetsAttachmentConfig extends cdktf.TerraformMetaA
   /**
   * Load Balancer Listener ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#listener_id ClbFunctionTargetsAttachment#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#listener_id ClbFunctionTargetsAttachment#listener_id}
   */
   readonly listenerId: string;
   /**
   * Load Balancer Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#load_balancer_id ClbFunctionTargetsAttachment#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#load_balancer_id ClbFunctionTargetsAttachment#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
   * The ID of the target forwarding rule. When binding the cloud function to a layer-7 forwarding rule, this parameter or the Domain+Url parameter must be entered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#location_id ClbFunctionTargetsAttachment#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#location_id ClbFunctionTargetsAttachment#location_id}
   */
   readonly locationId?: string;
   /**
   * The URL of the target forwarding rule. If the LocationId parameter has been entered, this parameter will not take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#url ClbFunctionTargetsAttachment#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#url ClbFunctionTargetsAttachment#url}
   */
   readonly url?: string;
   /**
   * function_targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#function_targets ClbFunctionTargetsAttachment#function_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#function_targets ClbFunctionTargetsAttachment#function_targets}
   */
   readonly functionTargets: ClbFunctionTargetsAttachmentFunctionTargets;
 }
@@ -55,25 +55,25 @@ export interface ClbFunctionTargetsAttachmentFunctionTargetsFunction {
   /**
   * The name of function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#function_name ClbFunctionTargetsAttachment#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#function_name ClbFunctionTargetsAttachment#function_name}
   */
   readonly functionName: string;
   /**
   * The namespace of function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#function_namespace ClbFunctionTargetsAttachment#function_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#function_namespace ClbFunctionTargetsAttachment#function_namespace}
   */
   readonly functionNamespace: string;
   /**
   * The version name or alias of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#function_qualifier ClbFunctionTargetsAttachment#function_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#function_qualifier ClbFunctionTargetsAttachment#function_qualifier}
   */
   readonly functionQualifier: string;
   /**
   * Identifies the type of FunctionQualifier parameter, possible values: VERSION, ALIAS.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#function_qualifier_type ClbFunctionTargetsAttachment#function_qualifier_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#function_qualifier_type ClbFunctionTargetsAttachment#function_qualifier_type}
   */
   readonly functionQualifierType?: string;
 }
@@ -237,13 +237,13 @@ export interface ClbFunctionTargetsAttachmentFunctionTargets {
   /**
   * Weight. The default is `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#weight ClbFunctionTargetsAttachment#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#weight ClbFunctionTargetsAttachment#weight}
   */
   readonly weight?: number;
   /**
   * function block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#function ClbFunctionTargetsAttachment#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#function ClbFunctionTargetsAttachment#function}
   */
   readonly function: ClbFunctionTargetsAttachmentFunctionTargetsFunction;
 }
@@ -353,7 +353,7 @@ export class ClbFunctionTargetsAttachmentFunctionTargetsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment tencentcloud_clb_function_targets_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment tencentcloud_clb_function_targets_attachment}
 */
 export class ClbFunctionTargetsAttachment extends cdktf.TerraformResource {
 
@@ -369,7 +369,7 @@ export class ClbFunctionTargetsAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClbFunctionTargetsAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClbFunctionTargetsAttachment to import
-  * @param importFromId The id of the existing ClbFunctionTargetsAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClbFunctionTargetsAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClbFunctionTargetsAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -381,7 +381,7 @@ export class ClbFunctionTargetsAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_function_targets_attachment tencentcloud_clb_function_targets_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_function_targets_attachment tencentcloud_clb_function_targets_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -392,8 +392,8 @@ export class ClbFunctionTargetsAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clb_function_targets_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface KubernetesClusterReleaseConfig extends cdktf.TerraformMetaArgum
   /**
   * Chart name (obtained from the application market) or the download URL of the chart package when installing from a third-party repo, redirect-type chart URLs are not supported, must end with *.tgz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#chart KubernetesClusterRelease#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#chart KubernetesClusterRelease#chart}
   */
   readonly chart: string;
   /**
   * Chart source, range: tke-market or other, default value: tke-market.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#chart_from KubernetesClusterRelease#chart_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#chart_from KubernetesClusterRelease#chart_from}
   */
   readonly chartFrom?: string;
   /**
   * Chart namespace, when ChartFrom is tke-market, ChartNamespace is not empty, value is the Namespace returned by the DescribeProducts interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#chart_namespace KubernetesClusterRelease#chart_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#chart_namespace KubernetesClusterRelease#chart_namespace}
   */
   readonly chartNamespace?: string;
   /**
   * Chart repository URL address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#chart_repo_url KubernetesClusterRelease#chart_repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#chart_repo_url KubernetesClusterRelease#chart_repo_url}
   */
   readonly chartRepoUrl?: string;
   /**
   * Chart version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#chart_version KubernetesClusterRelease#chart_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#chart_version KubernetesClusterRelease#chart_version}
   */
   readonly chartVersion?: string;
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#cluster_id KubernetesClusterRelease#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#cluster_id KubernetesClusterRelease#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Cluster type, supports tke, eks, tkeedge, external (registered cluster).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#cluster_type KubernetesClusterRelease#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#cluster_type KubernetesClusterRelease#cluster_type}
   */
   readonly clusterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#id KubernetesClusterRelease#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#id KubernetesClusterRelease#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,47 +59,47 @@ export interface KubernetesClusterReleaseConfig extends cdktf.TerraformMetaArgum
   /**
   * Application name, maximum 63 characters, can only contain lowercase letters, numbers, and the separator "-", and must start with a lowercase letter and end with a number or lowercase letter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#name KubernetesClusterRelease#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#name KubernetesClusterRelease#name}
   */
   readonly name: string;
   /**
   * Application namespace, obtained from the cluster details namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#namespace KubernetesClusterRelease#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#namespace KubernetesClusterRelease#namespace}
   */
   readonly namespace: string;
   /**
   * Chart access password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#password KubernetesClusterRelease#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#password KubernetesClusterRelease#password}
   */
   readonly password?: string;
   /**
   * Chart access username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#username KubernetesClusterRelease#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#username KubernetesClusterRelease#username}
   */
   readonly username?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#timeouts KubernetesClusterRelease#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#timeouts KubernetesClusterRelease#timeouts}
   */
   readonly timeouts?: KubernetesClusterReleaseTimeouts;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#values KubernetesClusterRelease#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#values KubernetesClusterRelease#values}
   */
   readonly values?: KubernetesClusterReleaseValues;
 }
 export interface KubernetesClusterReleaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#create KubernetesClusterRelease#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#create KubernetesClusterRelease#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#update KubernetesClusterRelease#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#update KubernetesClusterRelease#update}
   */
   readonly update?: string;
 }
@@ -224,13 +224,13 @@ export interface KubernetesClusterReleaseValues {
   /**
   * Custom parameter original value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#raw_original KubernetesClusterRelease#raw_original}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#raw_original KubernetesClusterRelease#raw_original}
   */
   readonly rawOriginal: string;
   /**
   * Custom parameter value type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#values_type KubernetesClusterRelease#values_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#values_type KubernetesClusterRelease#values_type}
   */
   readonly valuesType: string;
 }
@@ -337,7 +337,7 @@ export class KubernetesClusterReleaseValuesOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release tencentcloud_kubernetes_cluster_release}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release tencentcloud_kubernetes_cluster_release}
 */
 export class KubernetesClusterRelease extends cdktf.TerraformResource {
 
@@ -353,7 +353,7 @@ export class KubernetesClusterRelease extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesClusterRelease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesClusterRelease to import
-  * @param importFromId The id of the existing KubernetesClusterRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesClusterRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesClusterRelease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -365,7 +365,7 @@ export class KubernetesClusterRelease extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_release tencentcloud_kubernetes_cluster_release} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_release tencentcloud_kubernetes_cluster_release} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -376,8 +376,8 @@ export class KubernetesClusterRelease extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_kubernetes_cluster_release',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kubernetes_charts
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_charts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudKubernetesChartsConfig extends cdktf.TerraformM
   /**
   * Operation system app supported. Available values: `arm32`, `arm64`, `amd64`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kubernetes_charts#arch DataTencentcloudKubernetesCharts#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_charts#arch DataTencentcloudKubernetesCharts#arch}
   */
   readonly arch?: string;
   /**
   * Cluster type. Available values: `tke`, `eks`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kubernetes_charts#cluster_type DataTencentcloudKubernetesCharts#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_charts#cluster_type DataTencentcloudKubernetesCharts#cluster_type}
   */
   readonly clusterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kubernetes_charts#id DataTencentcloudKubernetesCharts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_charts#id DataTencentcloudKubernetesCharts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataTencentcloudKubernetesChartsConfig extends cdktf.TerraformM
   /**
   * Kind of app chart. Available values: `log`, `scheduler`, `network`, `storage`, `monitor`, `dns`, `image`, `other`, `invisible`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kubernetes_charts#kind DataTencentcloudKubernetesCharts#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_charts#kind DataTencentcloudKubernetesCharts#kind}
   */
   readonly kind?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kubernetes_charts#result_output_file DataTencentcloudKubernetesCharts#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_charts#result_output_file DataTencentcloudKubernetesCharts#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -127,7 +127,7 @@ export class DataTencentcloudKubernetesChartsChartListStructList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kubernetes_charts tencentcloud_kubernetes_charts}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_charts tencentcloud_kubernetes_charts}
 */
 export class DataTencentcloudKubernetesCharts extends cdktf.TerraformDataSource {
 
@@ -143,7 +143,7 @@ export class DataTencentcloudKubernetesCharts extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudKubernetesCharts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudKubernetesCharts to import
-  * @param importFromId The id of the existing DataTencentcloudKubernetesCharts that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kubernetes_charts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudKubernetesCharts that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_charts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudKubernetesCharts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -155,7 +155,7 @@ export class DataTencentcloudKubernetesCharts extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kubernetes_charts tencentcloud_kubernetes_charts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/kubernetes_charts tencentcloud_kubernetes_charts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -166,8 +166,8 @@ export class DataTencentcloudKubernetesCharts extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_kubernetes_charts',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

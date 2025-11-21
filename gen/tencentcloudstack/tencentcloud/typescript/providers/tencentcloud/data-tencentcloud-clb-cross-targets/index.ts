@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/clb_cross_targets
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_cross_targets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudClbCrossTargetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/clb_cross_targets#id DataTencentcloudClbCrossTargets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_cross_targets#id DataTencentcloudClbCrossTargets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudClbCrossTargetsConfig extends cdktf.TerraformMe
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/clb_cross_targets#result_output_file DataTencentcloudClbCrossTargets#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_cross_targets#result_output_file DataTencentcloudClbCrossTargets#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/clb_cross_targets#filters DataTencentcloudClbCrossTargets#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_cross_targets#filters DataTencentcloudClbCrossTargets#filters}
   */
   readonly filters?: DataTencentcloudClbCrossTargetsFilters[] | cdktf.IResolvable;
 }
@@ -141,13 +141,13 @@ export interface DataTencentcloudClbCrossTargetsFilters {
   /**
   * Filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/clb_cross_targets#name DataTencentcloudClbCrossTargets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_cross_targets#name DataTencentcloudClbCrossTargets#name}
   */
   readonly name: string;
   /**
   * Filter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/clb_cross_targets#values DataTencentcloudClbCrossTargets#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_cross_targets#values DataTencentcloudClbCrossTargets#values}
   */
   readonly values: string[];
 }
@@ -286,7 +286,7 @@ export class DataTencentcloudClbCrossTargetsFiltersList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/clb_cross_targets tencentcloud_clb_cross_targets}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_cross_targets tencentcloud_clb_cross_targets}
 */
 export class DataTencentcloudClbCrossTargets extends cdktf.TerraformDataSource {
 
@@ -302,7 +302,7 @@ export class DataTencentcloudClbCrossTargets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudClbCrossTargets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudClbCrossTargets to import
-  * @param importFromId The id of the existing DataTencentcloudClbCrossTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/clb_cross_targets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudClbCrossTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_cross_targets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudClbCrossTargets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -314,7 +314,7 @@ export class DataTencentcloudClbCrossTargets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/clb_cross_targets tencentcloud_clb_cross_targets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/clb_cross_targets tencentcloud_clb_cross_targets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -325,8 +325,8 @@ export class DataTencentcloudClbCrossTargets extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_clb_cross_targets',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

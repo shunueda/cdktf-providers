@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface OssAccessPointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point#access_point_name OssAccessPoint#access_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point#access_point_name OssAccessPoint#access_point_name}
   */
   readonly accessPointName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point#bucket OssAccessPoint#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point#bucket OssAccessPoint#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point#id OssAccessPoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point#id OssAccessPoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point#network_origin OssAccessPoint#network_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point#network_origin OssAccessPoint#network_origin}
   */
   readonly networkOrigin: string;
   /**
   * public_access_block_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point#public_access_block_configuration OssAccessPoint#public_access_block_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point#public_access_block_configuration OssAccessPoint#public_access_block_configuration}
   */
   readonly publicAccessBlockConfiguration?: OssAccessPointPublicAccessBlockConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point#timeouts OssAccessPoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point#timeouts OssAccessPoint#timeouts}
   */
   readonly timeouts?: OssAccessPointTimeouts;
   /**
   * vpc_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point#vpc_configuration OssAccessPoint#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point#vpc_configuration OssAccessPoint#vpc_configuration}
   */
   readonly vpcConfiguration?: OssAccessPointVpcConfiguration;
 }
 export interface OssAccessPointPublicAccessBlockConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point#block_public_access OssAccessPoint#block_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point#block_public_access OssAccessPoint#block_public_access}
   */
   readonly blockPublicAccess?: boolean | cdktf.IResolvable;
 }
@@ -131,15 +131,15 @@ export class OssAccessPointPublicAccessBlockConfigurationOutputReference extends
 }
 export interface OssAccessPointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point#create OssAccessPoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point#create OssAccessPoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point#delete OssAccessPoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point#delete OssAccessPoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point#update OssAccessPoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point#update OssAccessPoint#update}
   */
   readonly update?: string;
 }
@@ -291,7 +291,7 @@ export class OssAccessPointTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface OssAccessPointVpcConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point#vpc_id OssAccessPoint#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point#vpc_id OssAccessPoint#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -375,7 +375,7 @@ export class OssAccessPointVpcConfigurationOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point alicloud_oss_access_point}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point alicloud_oss_access_point}
 */
 export class OssAccessPoint extends cdktf.TerraformResource {
 
@@ -391,7 +391,7 @@ export class OssAccessPoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OssAccessPoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OssAccessPoint to import
-  * @param importFromId The id of the existing OssAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OssAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OssAccessPoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -403,7 +403,7 @@ export class OssAccessPoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_access_point alicloud_oss_access_point} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_access_point alicloud_oss_access_point} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -414,8 +414,8 @@ export class OssAccessPoint extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_oss_access_point',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

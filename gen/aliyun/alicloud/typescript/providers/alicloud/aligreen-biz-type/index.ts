@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface AligreenBizTypeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type#biz_type_import AligreenBizType#biz_type_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type#biz_type_import AligreenBizType#biz_type_import}
   */
   readonly bizTypeImport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type#biz_type_name AligreenBizType#biz_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type#biz_type_name AligreenBizType#biz_type_name}
   */
   readonly bizTypeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type#cite_template AligreenBizType#cite_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type#cite_template AligreenBizType#cite_template}
   */
   readonly citeTemplate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type#description AligreenBizType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type#description AligreenBizType#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type#id AligreenBizType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type#id AligreenBizType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type#industry_info AligreenBizType#industry_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type#industry_info AligreenBizType#industry_info}
   */
   readonly industryInfo?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type#timeouts AligreenBizType#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type#timeouts AligreenBizType#timeouts}
   */
   readonly timeouts?: AligreenBizTypeTimeouts;
 }
 export interface AligreenBizTypeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type#create AligreenBizType#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type#create AligreenBizType#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type#delete AligreenBizType#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type#delete AligreenBizType#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type#update AligreenBizType#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type#update AligreenBizType#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class AligreenBizTypeTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type alicloud_aligreen_biz_type}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type alicloud_aligreen_biz_type}
 */
 export class AligreenBizType extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class AligreenBizType extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AligreenBizType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AligreenBizType to import
-  * @param importFromId The id of the existing AligreenBizType that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AligreenBizType that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AligreenBizType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class AligreenBizType extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_biz_type alicloud_aligreen_biz_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_biz_type alicloud_aligreen_biz_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class AligreenBizType extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_aligreen_biz_type',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

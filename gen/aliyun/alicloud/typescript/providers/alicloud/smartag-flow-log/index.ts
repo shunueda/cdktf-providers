@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface SmartagFlowLogConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#active_aging SmartagFlowLog#active_aging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#active_aging SmartagFlowLog#active_aging}
   */
   readonly activeAging?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#description SmartagFlowLog#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#description SmartagFlowLog#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#flow_log_name SmartagFlowLog#flow_log_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#flow_log_name SmartagFlowLog#flow_log_name}
   */
   readonly flowLogName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#id SmartagFlowLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#id SmartagFlowLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#inactive_aging SmartagFlowLog#inactive_aging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#inactive_aging SmartagFlowLog#inactive_aging}
   */
   readonly inactiveAging?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#logstore_name SmartagFlowLog#logstore_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#logstore_name SmartagFlowLog#logstore_name}
   */
   readonly logstoreName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#netflow_server_ip SmartagFlowLog#netflow_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#netflow_server_ip SmartagFlowLog#netflow_server_ip}
   */
   readonly netflowServerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#netflow_server_port SmartagFlowLog#netflow_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#netflow_server_port SmartagFlowLog#netflow_server_port}
   */
   readonly netflowServerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#netflow_version SmartagFlowLog#netflow_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#netflow_version SmartagFlowLog#netflow_version}
   */
   readonly netflowVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#output_type SmartagFlowLog#output_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#output_type SmartagFlowLog#output_type}
   */
   readonly outputType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#project_name SmartagFlowLog#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#project_name SmartagFlowLog#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#sls_region_id SmartagFlowLog#sls_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#sls_region_id SmartagFlowLog#sls_region_id}
   */
   readonly slsRegionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#status SmartagFlowLog#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#status SmartagFlowLog#status}
   */
   readonly status?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#timeouts SmartagFlowLog#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#timeouts SmartagFlowLog#timeouts}
   */
   readonly timeouts?: SmartagFlowLogTimeouts;
 }
 export interface SmartagFlowLogTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#create SmartagFlowLog#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#create SmartagFlowLog#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#delete SmartagFlowLog#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#delete SmartagFlowLog#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#update SmartagFlowLog#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#update SmartagFlowLog#update}
   */
   readonly update?: string;
 }
@@ -231,7 +231,7 @@ export class SmartagFlowLogTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log alicloud_smartag_flow_log}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log alicloud_smartag_flow_log}
 */
 export class SmartagFlowLog extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class SmartagFlowLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SmartagFlowLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmartagFlowLog to import
-  * @param importFromId The id of the existing SmartagFlowLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmartagFlowLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmartagFlowLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class SmartagFlowLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/smartag_flow_log alicloud_smartag_flow_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/smartag_flow_log alicloud_smartag_flow_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class SmartagFlowLog extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_smartag_flow_log',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

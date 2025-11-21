@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cls_topics
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cls_topics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,11 +12,11 @@ export interface DataTencentcloudClsTopicsConfig extends cdktf.TerraformMetaArgu
   * - 0 (default): Log topic.
   * - 1: Metric topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cls_topics#biz_type DataTencentcloudClsTopics#biz_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cls_topics#biz_type DataTencentcloudClsTopics#biz_type}
   */
   readonly bizType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cls_topics#id DataTencentcloudClsTopics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cls_topics#id DataTencentcloudClsTopics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudClsTopicsConfig extends cdktf.TerraformMetaArgu
   * - 2: Exact match for `logsetName`.
   * - 3: Exact match for `topicName` and `logsetName`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cls_topics#precise_search DataTencentcloudClsTopics#precise_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cls_topics#precise_search DataTencentcloudClsTopics#precise_search}
   */
   readonly preciseSearch?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cls_topics#result_output_file DataTencentcloudClsTopics#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cls_topics#result_output_file DataTencentcloudClsTopics#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cls_topics#filters DataTencentcloudClsTopics#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cls_topics#filters DataTencentcloudClsTopics#filters}
   */
   readonly filters?: DataTencentcloudClsTopicsFilters[] | cdktf.IResolvable;
 }
@@ -290,13 +290,13 @@ export interface DataTencentcloudClsTopicsFilters {
   /**
   * Field to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cls_topics#key DataTencentcloudClsTopics#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cls_topics#key DataTencentcloudClsTopics#key}
   */
   readonly key: string;
   /**
   * Value to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cls_topics#values DataTencentcloudClsTopics#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cls_topics#values DataTencentcloudClsTopics#values}
   */
   readonly values: string[];
 }
@@ -435,7 +435,7 @@ export class DataTencentcloudClsTopicsFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cls_topics tencentcloud_cls_topics}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cls_topics tencentcloud_cls_topics}
 */
 export class DataTencentcloudClsTopics extends cdktf.TerraformDataSource {
 
@@ -451,7 +451,7 @@ export class DataTencentcloudClsTopics extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudClsTopics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudClsTopics to import
-  * @param importFromId The id of the existing DataTencentcloudClsTopics that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cls_topics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudClsTopics that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cls_topics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudClsTopics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -463,7 +463,7 @@ export class DataTencentcloudClsTopics extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cls_topics tencentcloud_cls_topics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cls_topics tencentcloud_cls_topics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -474,8 +474,8 @@ export class DataTencentcloudClsTopics extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cls_topics',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

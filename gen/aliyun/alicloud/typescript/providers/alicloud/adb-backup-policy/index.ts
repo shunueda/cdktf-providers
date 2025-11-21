@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/adb_backup_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/adb_backup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface AdbBackupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/adb_backup_policy#db_cluster_id AdbBackupPolicy#db_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/adb_backup_policy#db_cluster_id AdbBackupPolicy#db_cluster_id}
   */
   readonly dbClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/adb_backup_policy#id AdbBackupPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/adb_backup_policy#id AdbBackupPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/adb_backup_policy#preferred_backup_period AdbBackupPolicy#preferred_backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/adb_backup_policy#preferred_backup_period AdbBackupPolicy#preferred_backup_period}
   */
   readonly preferredBackupPeriod: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/adb_backup_policy#preferred_backup_time AdbBackupPolicy#preferred_backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/adb_backup_policy#preferred_backup_time AdbBackupPolicy#preferred_backup_time}
   */
   readonly preferredBackupTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/adb_backup_policy alicloud_adb_backup_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/adb_backup_policy alicloud_adb_backup_policy}
 */
 export class AdbBackupPolicy extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class AdbBackupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdbBackupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdbBackupPolicy to import
-  * @param importFromId The id of the existing AdbBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/adb_backup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdbBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/adb_backup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdbBackupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class AdbBackupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/adb_backup_policy alicloud_adb_backup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/adb_backup_policy alicloud_adb_backup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class AdbBackupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_adb_backup_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

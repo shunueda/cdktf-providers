@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule
+// https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RebalancingScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#id RebalancingSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#id RebalancingSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface RebalancingScheduleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Name of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#name RebalancingSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#name RebalancingSchedule#name}
   */
   readonly name: string;
   /**
   * launch_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#launch_configuration RebalancingSchedule#launch_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#launch_configuration RebalancingSchedule#launch_configuration}
   */
   readonly launchConfiguration: RebalancingScheduleLaunchConfiguration;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#schedule RebalancingSchedule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#schedule RebalancingSchedule#schedule}
   */
   readonly schedule: RebalancingScheduleSchedule;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#timeouts RebalancingSchedule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#timeouts RebalancingSchedule#timeouts}
   */
   readonly timeouts?: RebalancingScheduleTimeouts;
   /**
   * trigger_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#trigger_conditions RebalancingSchedule#trigger_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#trigger_conditions RebalancingSchedule#trigger_conditions}
   */
   readonly triggerConditions: RebalancingScheduleTriggerConditions;
 }
@@ -49,25 +49,25 @@ export interface RebalancingScheduleLaunchConfigurationAggressiveModeConfig {
   /**
   * Rebalance workloads that use local-path Persistent Volumes. THIS WILL RESULT IN DATA LOSS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#ignore_local_persistent_volumes RebalancingSchedule#ignore_local_persistent_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#ignore_local_persistent_volumes RebalancingSchedule#ignore_local_persistent_volumes}
   */
   readonly ignoreLocalPersistentVolumes: boolean | cdktf.IResolvable;
   /**
   * Pods spawned by Jobs or CronJobs will not prevent the Rebalancer from deleting a node on which they run. WARNING: When true, pods spawned by Jobs or CronJobs will be terminated if the Rebalancer picks a node that runs them. As such, they are likely to lose their progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#ignore_problem_job_pods RebalancingSchedule#ignore_problem_job_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#ignore_problem_job_pods RebalancingSchedule#ignore_problem_job_pods}
   */
   readonly ignoreProblemJobPods: boolean | cdktf.IResolvable;
   /**
   * Pods that don't have a controller (bare pods) will not prevent the Rebalancer from deleting a node on which they run. WARNING: When true, such pods might not restart, since they have no controller to do it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#ignore_problem_pods_without_controller RebalancingSchedule#ignore_problem_pods_without_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#ignore_problem_pods_without_controller RebalancingSchedule#ignore_problem_pods_without_controller}
   */
   readonly ignoreProblemPodsWithoutController: boolean | cdktf.IResolvable;
   /**
   * Pods that are marked with "removal disabled" will not prevent the Rebalancer from deleting a node on which they run. WARNING: When true, such pods will be evicted and disrupted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#ignore_problem_removal_disabled_pods RebalancingSchedule#ignore_problem_removal_disabled_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#ignore_problem_removal_disabled_pods RebalancingSchedule#ignore_problem_removal_disabled_pods}
   */
   readonly ignoreProblemRemovalDisabledPods: boolean | cdktf.IResolvable;
 }
@@ -228,13 +228,13 @@ export interface RebalancingScheduleLaunchConfigurationExecutionConditions {
   /**
   * The percentage of the predicted savings that must be achieved in order to fully execute the plan.If the savings are not achieved after creating the new nodes, the plan will fail and delete the created nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#achieved_savings_percentage RebalancingSchedule#achieved_savings_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#achieved_savings_percentage RebalancingSchedule#achieved_savings_percentage}
   */
   readonly achievedSavingsPercentage?: number;
   /**
   * Enables or disables the execution conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#enabled RebalancingSchedule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#enabled RebalancingSchedule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -346,55 +346,55 @@ export interface RebalancingScheduleLaunchConfiguration {
   /**
   * When enabled rebalancing will also consider problematic pods (pods without controller, job pods, pods with removal-disabled annotation) as not-problematic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#aggressive_mode RebalancingSchedule#aggressive_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#aggressive_mode RebalancingSchedule#aggressive_mode}
   */
   readonly aggressiveMode?: boolean | cdktf.IResolvable;
   /**
   * Defines whether the nodes that failed to get drained until a predefined timeout, will be kept with a rebalancing.cast.ai/status=drain-failed annotation instead of forcefully drained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#keep_drain_timeout_nodes RebalancingSchedule#keep_drain_timeout_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#keep_drain_timeout_nodes RebalancingSchedule#keep_drain_timeout_nodes}
   */
   readonly keepDrainTimeoutNodes?: boolean | cdktf.IResolvable;
   /**
   * Specifies amount of time since node creation before the node is allowed to be considered for automated rebalancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#node_ttl_seconds RebalancingSchedule#node_ttl_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#node_ttl_seconds RebalancingSchedule#node_ttl_seconds}
   */
   readonly nodeTtlSeconds?: number;
   /**
   * Maximum number of nodes that will be selected for rebalancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#num_targeted_nodes RebalancingSchedule#num_targeted_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#num_targeted_nodes RebalancingSchedule#num_targeted_nodes}
   */
   readonly numTargetedNodes?: number;
   /**
   * Minimum number of nodes that should be kept in the cluster after rebalancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#rebalancing_min_nodes RebalancingSchedule#rebalancing_min_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#rebalancing_min_nodes RebalancingSchedule#rebalancing_min_nodes}
   */
   readonly rebalancingMinNodes?: number;
   /**
   * Node selector in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#selector RebalancingSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#selector RebalancingSchedule#selector}
   */
   readonly selector?: string;
   /**
   * Defines the algorithm used to select the target nodes for rebalancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#target_node_selection_algorithm RebalancingSchedule#target_node_selection_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#target_node_selection_algorithm RebalancingSchedule#target_node_selection_algorithm}
   */
   readonly targetNodeSelectionAlgorithm?: string;
   /**
   * aggressive_mode_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#aggressive_mode_config RebalancingSchedule#aggressive_mode_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#aggressive_mode_config RebalancingSchedule#aggressive_mode_config}
   */
   readonly aggressiveModeConfig?: RebalancingScheduleLaunchConfigurationAggressiveModeConfig;
   /**
   * execution_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#execution_conditions RebalancingSchedule#execution_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#execution_conditions RebalancingSchedule#execution_conditions}
   */
   readonly executionConditions?: RebalancingScheduleLaunchConfigurationExecutionConditions;
 }
@@ -726,7 +726,7 @@ export interface RebalancingScheduleSchedule {
   * 
   *   When using the `CRON_TZ` variable, ensure that the specified timezone is valid and supported by checking the list of available timezones from the API endpoint.  If the `CRON_TZ` variable is not specified, the cron expression will be interpreted in the UTC timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#cron RebalancingSchedule#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#cron RebalancingSchedule#cron}
   */
   readonly cron: string;
 }
@@ -807,19 +807,19 @@ export class RebalancingScheduleScheduleOutputReference extends cdktf.ComplexObj
 }
 export interface RebalancingScheduleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#create RebalancingSchedule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#create RebalancingSchedule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#delete RebalancingSchedule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#delete RebalancingSchedule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#read RebalancingSchedule#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#read RebalancingSchedule#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#update RebalancingSchedule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#update RebalancingSchedule#update}
   */
   readonly update?: string;
 }
@@ -1002,13 +1002,13 @@ export interface RebalancingScheduleTriggerConditions {
   /**
   * If true, the savings percentage will be ignored and the rebalancing will be triggered regardless of the savings percentage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#ignore_savings RebalancingSchedule#ignore_savings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#ignore_savings RebalancingSchedule#ignore_savings}
   */
   readonly ignoreSavings?: boolean | cdktf.IResolvable;
   /**
   * Defines the minimum percentage of savings expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#savings_percentage RebalancingSchedule#savings_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#savings_percentage RebalancingSchedule#savings_percentage}
   */
   readonly savingsPercentage: number;
 }
@@ -1118,7 +1118,7 @@ export class RebalancingScheduleTriggerConditionsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule castai_rebalancing_schedule}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule castai_rebalancing_schedule}
 */
 export class RebalancingSchedule extends cdktf.TerraformResource {
 
@@ -1134,7 +1134,7 @@ export class RebalancingSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RebalancingSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RebalancingSchedule to import
-  * @param importFromId The id of the existing RebalancingSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RebalancingSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RebalancingSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1146,7 +1146,7 @@ export class RebalancingSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/rebalancing_schedule castai_rebalancing_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/rebalancing_schedule castai_rebalancing_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1157,8 +1157,8 @@ export class RebalancingSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'castai_rebalancing_schedule',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.2.1',
-        providerVersionConstraint: '8.2.1'
+        providerVersion: '8.3.0',
+        providerVersionConstraint: '8.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

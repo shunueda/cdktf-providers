@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings
+// https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RoleBindingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the role binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#description RoleBindings#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#description RoleBindings#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#id RoleBindings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#id RoleBindings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface RoleBindingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of role binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#name RoleBindings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#name RoleBindings#name}
   */
   readonly name: string;
   /**
   * CAST AI organization ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#organization_id RoleBindings#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#organization_id RoleBindings#organization_id}
   */
   readonly organizationId: string;
   /**
   * ID of role from role binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#role_id RoleBindings#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#role_id RoleBindings#role_id}
   */
   readonly roleId: string;
   /**
   * scopes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#scopes RoleBindings#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#scopes RoleBindings#scopes}
   */
   readonly scopes?: RoleBindingsScopes[] | cdktf.IResolvable;
   /**
   * subjects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#subjects RoleBindings#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#subjects RoleBindings#subjects}
   */
   readonly subjects: RoleBindingsSubjects[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#timeouts RoleBindings#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#timeouts RoleBindings#timeouts}
   */
   readonly timeouts?: RoleBindingsTimeouts;
 }
@@ -61,13 +61,13 @@ export interface RoleBindingsScopes {
   /**
   * Scope of the role binding Supported values include: organization, cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#kind RoleBindings#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#kind RoleBindings#kind}
   */
   readonly kind: string;
   /**
   * ID of the scope resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#resource_id RoleBindings#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#resource_id RoleBindings#resource_id}
   */
   readonly resourceId: string;
 }
@@ -208,25 +208,25 @@ export interface RoleBindingsSubjectsSubject {
   /**
   * Optional, required only if `kind` is `group`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#group_id RoleBindings#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#group_id RoleBindings#group_id}
   */
   readonly groupId?: string;
   /**
   * Kind of the subject. Supported values include: user, service_account, group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#kind RoleBindings#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#kind RoleBindings#kind}
   */
   readonly kind: string;
   /**
   * Optional, required only if `kind` is `service_account`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#service_account_id RoleBindings#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#service_account_id RoleBindings#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
   * Optional, required only if `kind` is `user`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#user_id RoleBindings#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#user_id RoleBindings#user_id}
   */
   readonly userId?: string;
 }
@@ -428,7 +428,7 @@ export interface RoleBindingsSubjects {
   /**
   * subject block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#subject RoleBindings#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#subject RoleBindings#subject}
   */
   readonly subject?: RoleBindingsSubjectsSubject[] | cdktf.IResolvable;
 }
@@ -544,15 +544,15 @@ export class RoleBindingsSubjectsList extends cdktf.ComplexList {
 }
 export interface RoleBindingsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#create RoleBindings#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#create RoleBindings#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#delete RoleBindings#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#delete RoleBindings#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#update RoleBindings#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#update RoleBindings#update}
   */
   readonly update?: string;
 }
@@ -704,7 +704,7 @@ export class RoleBindingsTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings castai_role_bindings}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings castai_role_bindings}
 */
 export class RoleBindings extends cdktf.TerraformResource {
 
@@ -720,7 +720,7 @@ export class RoleBindings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoleBindings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoleBindings to import
-  * @param importFromId The id of the existing RoleBindings that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoleBindings that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoleBindings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -732,7 +732,7 @@ export class RoleBindings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/role_bindings castai_role_bindings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/role_bindings castai_role_bindings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -743,8 +743,8 @@ export class RoleBindings extends cdktf.TerraformResource {
       terraformResourceType: 'castai_role_bindings',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.2.1',
-        providerVersionConstraint: '8.2.1'
+        providerVersion: '8.3.0',
+        providerVersionConstraint: '8.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

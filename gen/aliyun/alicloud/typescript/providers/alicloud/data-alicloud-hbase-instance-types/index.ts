@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/hbase_instance_types
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbase_instance_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudHbaseInstanceTypesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/hbase_instance_types#charge_type DataAlicloudHbaseInstanceTypes#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbase_instance_types#charge_type DataAlicloudHbaseInstanceTypes#charge_type}
   */
   readonly chargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/hbase_instance_types#disk_type DataAlicloudHbaseInstanceTypes#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbase_instance_types#disk_type DataAlicloudHbaseInstanceTypes#disk_type}
   */
   readonly diskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/hbase_instance_types#engine DataAlicloudHbaseInstanceTypes#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbase_instance_types#engine DataAlicloudHbaseInstanceTypes#engine}
   */
   readonly engine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/hbase_instance_types#id DataAlicloudHbaseInstanceTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbase_instance_types#id DataAlicloudHbaseInstanceTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/hbase_instance_types#instance_type DataAlicloudHbaseInstanceTypes#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbase_instance_types#instance_type DataAlicloudHbaseInstanceTypes#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/hbase_instance_types#output_file DataAlicloudHbaseInstanceTypes#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbase_instance_types#output_file DataAlicloudHbaseInstanceTypes#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/hbase_instance_types#region_id DataAlicloudHbaseInstanceTypes#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbase_instance_types#region_id DataAlicloudHbaseInstanceTypes#region_id}
   */
   readonly regionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/hbase_instance_types#version DataAlicloudHbaseInstanceTypes#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbase_instance_types#version DataAlicloudHbaseInstanceTypes#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/hbase_instance_types#zone_id DataAlicloudHbaseInstanceTypes#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbase_instance_types#zone_id DataAlicloudHbaseInstanceTypes#zone_id}
   */
   readonly zoneId?: string;
 }
@@ -334,7 +334,7 @@ export class DataAlicloudHbaseInstanceTypesTypesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/hbase_instance_types alicloud_hbase_instance_types}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbase_instance_types alicloud_hbase_instance_types}
 */
 export class DataAlicloudHbaseInstanceTypes extends cdktf.TerraformDataSource {
 
@@ -350,7 +350,7 @@ export class DataAlicloudHbaseInstanceTypes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudHbaseInstanceTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudHbaseInstanceTypes to import
-  * @param importFromId The id of the existing DataAlicloudHbaseInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/hbase_instance_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudHbaseInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbase_instance_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudHbaseInstanceTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -362,7 +362,7 @@ export class DataAlicloudHbaseInstanceTypes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/hbase_instance_types alicloud_hbase_instance_types} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbase_instance_types alicloud_hbase_instance_types} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -373,8 +373,8 @@ export class DataAlicloudHbaseInstanceTypes extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_hbase_instance_types',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

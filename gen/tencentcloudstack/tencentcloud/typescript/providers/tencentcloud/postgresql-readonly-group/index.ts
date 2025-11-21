@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PostgresqlReadonlyGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group#id PostgresqlReadonlyGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group#id PostgresqlReadonlyGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,67 +17,67 @@ export interface PostgresqlReadonlyGroupConfig extends cdktf.TerraformMetaArgume
   /**
   * Primary instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group#master_db_instance_id PostgresqlReadonlyGroup#master_db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group#master_db_instance_id PostgresqlReadonlyGroup#master_db_instance_id}
   */
   readonly masterDbInstanceId: string;
   /**
   * Delay threshold in ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group#max_replay_lag PostgresqlReadonlyGroup#max_replay_lag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group#max_replay_lag PostgresqlReadonlyGroup#max_replay_lag}
   */
   readonly maxReplayLag: number;
   /**
   * Delayed log size threshold in MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group#max_replay_latency PostgresqlReadonlyGroup#max_replay_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group#max_replay_latency PostgresqlReadonlyGroup#max_replay_latency}
   */
   readonly maxReplayLatency: number;
   /**
   * The minimum number of read-only replicas that must be retained in an RO group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group#min_delay_eliminate_reserve PostgresqlReadonlyGroup#min_delay_eliminate_reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group#min_delay_eliminate_reserve PostgresqlReadonlyGroup#min_delay_eliminate_reserve}
   */
   readonly minDelayEliminateReserve: number;
   /**
   * RO group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group#name PostgresqlReadonlyGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group#name PostgresqlReadonlyGroup#name}
   */
   readonly name: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group#project_id PostgresqlReadonlyGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group#project_id PostgresqlReadonlyGroup#project_id}
   */
   readonly projectId: number;
   /**
   * Whether to remove a read-only replica from an RO group if the delay between the read-only replica and the primary instance exceeds the threshold. Valid values: 0 (no), 1 (yes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group#replay_lag_eliminate PostgresqlReadonlyGroup#replay_lag_eliminate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group#replay_lag_eliminate PostgresqlReadonlyGroup#replay_lag_eliminate}
   */
   readonly replayLagEliminate: number;
   /**
   * Whether to remove a read-only replica from an RO group if the sync log size difference between the read-only replica and the primary instance exceeds the threshold. Valid values: 0 (no), 1 (yes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group#replay_latency_eliminate PostgresqlReadonlyGroup#replay_latency_eliminate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group#replay_latency_eliminate PostgresqlReadonlyGroup#replay_latency_eliminate}
   */
   readonly replayLatencyEliminate: number;
   /**
   * ID of security group. If both vpc_id and subnet_id are not set, this argument should not be set either.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group#security_groups_ids PostgresqlReadonlyGroup#security_groups_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group#security_groups_ids PostgresqlReadonlyGroup#security_groups_ids}
   */
   readonly securityGroupsIds?: string[];
   /**
   * VPC subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group#subnet_id PostgresqlReadonlyGroup#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group#subnet_id PostgresqlReadonlyGroup#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group#vpc_id PostgresqlReadonlyGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group#vpc_id PostgresqlReadonlyGroup#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -163,7 +163,7 @@ export class PostgresqlReadonlyGroupNetInfoListStructList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group tencentcloud_postgresql_readonly_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group tencentcloud_postgresql_readonly_group}
 */
 export class PostgresqlReadonlyGroup extends cdktf.TerraformResource {
 
@@ -179,7 +179,7 @@ export class PostgresqlReadonlyGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresqlReadonlyGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlReadonlyGroup to import
-  * @param importFromId The id of the existing PostgresqlReadonlyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlReadonlyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlReadonlyGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -191,7 +191,7 @@ export class PostgresqlReadonlyGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_readonly_group tencentcloud_postgresql_readonly_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_readonly_group tencentcloud_postgresql_readonly_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -202,8 +202,8 @@ export class PostgresqlReadonlyGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_postgresql_readonly_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DbbrainSqlFilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * filter duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter#duration DbbrainSqlFilter#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter#duration DbbrainSqlFilter#duration}
   */
   readonly duration: number;
   /**
   * filter key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter#filter_key DbbrainSqlFilter#filter_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter#filter_key DbbrainSqlFilter#filter_key}
   */
   readonly filterKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter#id DbbrainSqlFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter#id DbbrainSqlFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface DbbrainSqlFilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter#instance_id DbbrainSqlFilter#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter#instance_id DbbrainSqlFilter#instance_id}
   */
   readonly instanceId: string;
   /**
   * maximum concurreny.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter#max_concurrency DbbrainSqlFilter#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter#max_concurrency DbbrainSqlFilter#max_concurrency}
   */
   readonly maxConcurrency: number;
   /**
   * product, optional value is &amp;#39;mysql&amp;#39;, &amp;#39;cynosdb&amp;#39;.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter#product DbbrainSqlFilter#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter#product DbbrainSqlFilter#product}
   */
   readonly product?: string;
   /**
   * sql type, optional value is SELECT, UPDATE, DELETE, INSERT, REPLACE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter#sql_type DbbrainSqlFilter#sql_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter#sql_type DbbrainSqlFilter#sql_type}
   */
   readonly sqlType: string;
   /**
   * filter status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter#status DbbrainSqlFilter#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter#status DbbrainSqlFilter#status}
   */
   readonly status?: string;
   /**
   * session_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter#session_token DbbrainSqlFilter#session_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter#session_token DbbrainSqlFilter#session_token}
   */
   readonly sessionToken: DbbrainSqlFilterSessionToken;
 }
@@ -67,13 +67,13 @@ export interface DbbrainSqlFilterSessionToken {
   /**
   * password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter#password DbbrainSqlFilter#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter#password DbbrainSqlFilter#password}
   */
   readonly password: string;
   /**
   * user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter#user DbbrainSqlFilter#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter#user DbbrainSqlFilter#user}
   */
   readonly user: string;
 }
@@ -180,7 +180,7 @@ export class DbbrainSqlFilterSessionTokenOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter tencentcloud_dbbrain_sql_filter}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter tencentcloud_dbbrain_sql_filter}
 */
 export class DbbrainSqlFilter extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class DbbrainSqlFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbbrainSqlFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbbrainSqlFilter to import
-  * @param importFromId The id of the existing DbbrainSqlFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbbrainSqlFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbbrainSqlFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class DbbrainSqlFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_sql_filter tencentcloud_dbbrain_sql_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_sql_filter tencentcloud_dbbrain_sql_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class DbbrainSqlFilter extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dbbrain_sql_filter',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

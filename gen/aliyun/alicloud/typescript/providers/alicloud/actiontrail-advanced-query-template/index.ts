@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/actiontrail_advanced_query_template
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/actiontrail_advanced_query_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ActiontrailAdvancedQueryTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/actiontrail_advanced_query_template#id ActiontrailAdvancedQueryTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/actiontrail_advanced_query_template#id ActiontrailAdvancedQueryTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/actiontrail_advanced_query_template#simple_query ActiontrailAdvancedQueryTemplate#simple_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/actiontrail_advanced_query_template#simple_query ActiontrailAdvancedQueryTemplate#simple_query}
   */
   readonly simpleQuery: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/actiontrail_advanced_query_template#template_name ActiontrailAdvancedQueryTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/actiontrail_advanced_query_template#template_name ActiontrailAdvancedQueryTemplate#template_name}
   */
   readonly templateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/actiontrail_advanced_query_template#template_sql ActiontrailAdvancedQueryTemplate#template_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/actiontrail_advanced_query_template#template_sql ActiontrailAdvancedQueryTemplate#template_sql}
   */
   readonly templateSql: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/actiontrail_advanced_query_template#timeouts ActiontrailAdvancedQueryTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/actiontrail_advanced_query_template#timeouts ActiontrailAdvancedQueryTemplate#timeouts}
   */
   readonly timeouts?: ActiontrailAdvancedQueryTemplateTimeouts;
 }
 export interface ActiontrailAdvancedQueryTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/actiontrail_advanced_query_template#create ActiontrailAdvancedQueryTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/actiontrail_advanced_query_template#create ActiontrailAdvancedQueryTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/actiontrail_advanced_query_template#delete ActiontrailAdvancedQueryTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/actiontrail_advanced_query_template#delete ActiontrailAdvancedQueryTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/actiontrail_advanced_query_template#update ActiontrailAdvancedQueryTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/actiontrail_advanced_query_template#update ActiontrailAdvancedQueryTemplate#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class ActiontrailAdvancedQueryTemplateTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/actiontrail_advanced_query_template alicloud_actiontrail_advanced_query_template}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/actiontrail_advanced_query_template alicloud_actiontrail_advanced_query_template}
 */
 export class ActiontrailAdvancedQueryTemplate extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class ActiontrailAdvancedQueryTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ActiontrailAdvancedQueryTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActiontrailAdvancedQueryTemplate to import
-  * @param importFromId The id of the existing ActiontrailAdvancedQueryTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/actiontrail_advanced_query_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ActiontrailAdvancedQueryTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/actiontrail_advanced_query_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActiontrailAdvancedQueryTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class ActiontrailAdvancedQueryTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/actiontrail_advanced_query_template alicloud_actiontrail_advanced_query_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/actiontrail_advanced_query_template alicloud_actiontrail_advanced_query_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class ActiontrailAdvancedQueryTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_actiontrail_advanced_query_template',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

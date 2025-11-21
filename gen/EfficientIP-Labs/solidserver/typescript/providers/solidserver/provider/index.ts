@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface SolidserverProviderConfig {
   /**
   * PEM formatted file with additional certificates to trust for TLS connection. This can also be specified via the SOLIDSERVER_ADDITIONALTRUSTCERTSFILE environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs#additional_trust_certs_file SolidserverProvider#additional_trust_certs_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs#additional_trust_certs_file SolidserverProvider#additional_trust_certs_file}
   */
   readonly additionalTrustCertsFile?: string;
   /**
   * SOLIDServer Hostname or IP address. This can also be specified via the SOLIDSERVER_HOST environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs#host SolidserverProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs#host SolidserverProvider#host}
   */
   readonly host: string;
   /**
   * SOLIDServer API user password or token secret. This can also be specified via the SOLIDSERVER_PASSWORD environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs#password SolidserverProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs#password SolidserverProvider#password}
   */
   readonly password: string;
   /**
   * URL for a proxy to be used for SOLIDServer connectivity. Empty or unspecified means no proxy (direct connectivity). Supported URL schemes are 'http', 'https', and 'socks5'. If the scheme is empty, 'http' is assumed. This can also be specified via the SOLIDSERVER_PROXY_URL environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs#proxy_url SolidserverProvider#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs#proxy_url SolidserverProvider#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * SOLIDServer Version in case API user does not have admin permissions. This can also be specified via the SOLIDSERVER_VERSION environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs#solidserverversion SolidserverProvider#solidserverversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs#solidserverversion SolidserverProvider#solidserverversion}
   */
   readonly solidserverversion?: string;
   /**
   * Enable/Disable ssl verify (Default : enabled). This can also be specified via the SOLIDSERVER_SSLVERIFY environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs#sslverify SolidserverProvider#sslverify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs#sslverify SolidserverProvider#sslverify}
   */
   readonly sslverify?: boolean | cdktf.IResolvable;
   /**
   * API call timeout value in seconds (Default 10s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs#timeout SolidserverProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs#timeout SolidserverProvider#timeout}
   */
   readonly timeout?: number;
   /**
   * SOLIDServer username/password are token/secret. This can also be specified via the SOLIDSERVER_USE_TOKEN environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs#use_token SolidserverProvider#use_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs#use_token SolidserverProvider#use_token}
   */
   readonly useToken?: boolean | cdktf.IResolvable;
   /**
   * SOLIDServer API User ID or Token ID. This can also be specified via the SOLIDSERVER_USERNAME environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs#username SolidserverProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs#username SolidserverProvider#username}
   */
   readonly username: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs#alias SolidserverProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs#alias SolidserverProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs solidserver}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs solidserver}
 */
 export class SolidserverProvider extends cdktf.TerraformProvider {
 
@@ -86,7 +86,7 @@ export class SolidserverProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SolidserverProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolidserverProvider to import
-  * @param importFromId The id of the existing SolidserverProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolidserverProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolidserverProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class SolidserverProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs solidserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs solidserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class SolidserverProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'solidserver',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       terraformProviderSource: 'EfficientIP-Labs/solidserver'
     });

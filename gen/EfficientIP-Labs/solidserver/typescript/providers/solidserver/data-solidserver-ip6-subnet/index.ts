@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_subnet
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSolidserverIp6SubnetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_subnet#id DataSolidserverIp6Subnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_subnet#id DataSolidserverIp6Subnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataSolidserverIp6SubnetConfig extends cdktf.TerraformMetaArgum
   /**
   * The name of the IPv6 subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_subnet#name DataSolidserverIp6Subnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_subnet#name DataSolidserverIp6Subnet#name}
   */
   readonly name: string;
   /**
   * The space associated to the IPv6 subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_subnet#space DataSolidserverIp6Subnet#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_subnet#space DataSolidserverIp6Subnet#space}
   */
   readonly space: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_subnet solidserver_ip6_subnet}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_subnet solidserver_ip6_subnet}
 */
 export class DataSolidserverIp6Subnet extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataSolidserverIp6Subnet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSolidserverIp6Subnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolidserverIp6Subnet to import
-  * @param importFromId The id of the existing DataSolidserverIp6Subnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolidserverIp6Subnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolidserverIp6Subnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataSolidserverIp6Subnet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip6_subnet solidserver_ip6_subnet} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip6_subnet solidserver_ip6_subnet} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataSolidserverIp6Subnet extends cdktf.TerraformDataSource {
       terraformResourceType: 'solidserver_ip6_subnet',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

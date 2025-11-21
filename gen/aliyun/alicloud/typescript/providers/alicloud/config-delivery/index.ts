@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface ConfigDeliveryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#configuration_item_change_notification ConfigDelivery#configuration_item_change_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#configuration_item_change_notification ConfigDelivery#configuration_item_change_notification}
   */
   readonly configurationItemChangeNotification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#configuration_snapshot ConfigDelivery#configuration_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#configuration_snapshot ConfigDelivery#configuration_snapshot}
   */
   readonly configurationSnapshot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#delivery_channel_condition ConfigDelivery#delivery_channel_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#delivery_channel_condition ConfigDelivery#delivery_channel_condition}
   */
   readonly deliveryChannelCondition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#delivery_channel_name ConfigDelivery#delivery_channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#delivery_channel_name ConfigDelivery#delivery_channel_name}
   */
   readonly deliveryChannelName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#delivery_channel_target_arn ConfigDelivery#delivery_channel_target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#delivery_channel_target_arn ConfigDelivery#delivery_channel_target_arn}
   */
   readonly deliveryChannelTargetArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#delivery_channel_type ConfigDelivery#delivery_channel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#delivery_channel_type ConfigDelivery#delivery_channel_type}
   */
   readonly deliveryChannelType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#description ConfigDelivery#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#description ConfigDelivery#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#id ConfigDelivery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#id ConfigDelivery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#non_compliant_notification ConfigDelivery#non_compliant_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#non_compliant_notification ConfigDelivery#non_compliant_notification}
   */
   readonly nonCompliantNotification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#oversized_data_oss_target_arn ConfigDelivery#oversized_data_oss_target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#oversized_data_oss_target_arn ConfigDelivery#oversized_data_oss_target_arn}
   */
   readonly oversizedDataOssTargetArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#status ConfigDelivery#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#status ConfigDelivery#status}
   */
   readonly status?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#timeouts ConfigDelivery#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#timeouts ConfigDelivery#timeouts}
   */
   readonly timeouts?: ConfigDeliveryTimeouts;
 }
 export interface ConfigDeliveryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#create ConfigDelivery#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#create ConfigDelivery#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#delete ConfigDelivery#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#delete ConfigDelivery#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#update ConfigDelivery#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#update ConfigDelivery#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class ConfigDeliveryTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery alicloud_config_delivery}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery alicloud_config_delivery}
 */
 export class ConfigDelivery extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class ConfigDelivery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigDelivery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigDelivery to import
-  * @param importFromId The id of the existing ConfigDelivery that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigDelivery that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigDelivery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class ConfigDelivery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/config_delivery alicloud_config_delivery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_delivery alicloud_config_delivery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class ConfigDelivery extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_config_delivery',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

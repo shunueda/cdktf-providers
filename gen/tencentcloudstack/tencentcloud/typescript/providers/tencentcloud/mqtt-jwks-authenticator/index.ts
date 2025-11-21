@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mqtt_jwks_authenticator
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_jwks_authenticator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MqttJwksAuthenticatorConfig extends cdktf.TerraformMetaArgument
   /**
   * JWKS endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mqtt_jwks_authenticator#endpoint MqttJwksAuthenticator#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_jwks_authenticator#endpoint MqttJwksAuthenticator#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Pass the key of JWT when connecting the device; Username - passed using the username field; Password - Pass using password field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mqtt_jwks_authenticator#from MqttJwksAuthenticator#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_jwks_authenticator#from MqttJwksAuthenticator#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mqtt_jwks_authenticator#id MqttJwksAuthenticator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_jwks_authenticator#id MqttJwksAuthenticator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface MqttJwksAuthenticatorConfig extends cdktf.TerraformMetaArgument
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mqtt_jwks_authenticator#instance_id MqttJwksAuthenticator#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_jwks_authenticator#instance_id MqttJwksAuthenticator#instance_id}
   */
   readonly instanceId: string;
   /**
   * JWKS refresh interval. unit: s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mqtt_jwks_authenticator#refresh_interval MqttJwksAuthenticator#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_jwks_authenticator#refresh_interval MqttJwksAuthenticator#refresh_interval}
   */
   readonly refreshInterval?: number;
   /**
   * Remark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mqtt_jwks_authenticator#remark MqttJwksAuthenticator#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_jwks_authenticator#remark MqttJwksAuthenticator#remark}
   */
   readonly remark?: string;
   /**
   * JWKS text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mqtt_jwks_authenticator#text MqttJwksAuthenticator#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_jwks_authenticator#text MqttJwksAuthenticator#text}
   */
   readonly text?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mqtt_jwks_authenticator tencentcloud_mqtt_jwks_authenticator}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_jwks_authenticator tencentcloud_mqtt_jwks_authenticator}
 */
 export class MqttJwksAuthenticator extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class MqttJwksAuthenticator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MqttJwksAuthenticator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MqttJwksAuthenticator to import
-  * @param importFromId The id of the existing MqttJwksAuthenticator that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mqtt_jwks_authenticator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MqttJwksAuthenticator that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_jwks_authenticator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MqttJwksAuthenticator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class MqttJwksAuthenticator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mqtt_jwks_authenticator tencentcloud_mqtt_jwks_authenticator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mqtt_jwks_authenticator tencentcloud_mqtt_jwks_authenticator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class MqttJwksAuthenticator extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mqtt_jwks_authenticator',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

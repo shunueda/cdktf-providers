@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs/resources/entry
+// https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs/resources/entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface EntryConfig extends cdktf.TerraformMetaArguments {
   /**
   * list of attribute patterns for base64 encoded attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs/resources/entry#base64encode_attribute_patterns Entry#base64encode_attribute_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs/resources/entry#base64encode_attribute_patterns Entry#base64encode_attribute_patterns}
   */
   readonly base64EncodeAttributePatterns?: string[];
   /**
   * list of base64 encoded attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs/resources/entry#base64encode_attributes Entry#base64encode_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs/resources/entry#base64encode_attributes Entry#base64encode_attributes}
   */
   readonly base64EncodeAttributes?: string[];
   /**
   * list of attributes with case-sensitive names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs/resources/entry#case_sensitive_attribute_names Entry#case_sensitive_attribute_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs/resources/entry#case_sensitive_attribute_names Entry#case_sensitive_attribute_names}
   */
   readonly caseSensitiveAttributeNames?: string[];
   /**
   * JSON-encoded string with the values of the attributes of the entry (s. https://pkg.go.dev/github.com/go-ldap/ldap/v3#EntryAttribute)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs/resources/entry#data_json Entry#data_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs/resources/entry#data_json Entry#data_json}
   */
   readonly dataJson: string;
   /**
   * DN of the LDAP entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs/resources/entry#dn Entry#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs/resources/entry#dn Entry#dn}
   */
   readonly dn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs/resources/entry#id Entry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs/resources/entry#id Entry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,19 +47,25 @@ export interface EntryConfig extends cdktf.TerraformMetaArguments {
   /**
   * list of attribute patterns to ignore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs/resources/entry#ignore_attribute_patterns Entry#ignore_attribute_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs/resources/entry#ignore_attribute_patterns Entry#ignore_attribute_patterns}
   */
   readonly ignoreAttributePatterns?: string[];
   /**
   * list of attributes to ignore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs/resources/entry#ignore_attributes Entry#ignore_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs/resources/entry#ignore_attributes Entry#ignore_attributes}
   */
   readonly ignoreAttributes?: string[];
+  /**
+  * list of attributes to which operating is restricted. Defaults to '*', which means 'all user attributes'. It can also contain operational attributes.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs/resources/entry#restrict_attributes Entry#restrict_attributes}
+  */
+  readonly restrictAttributes?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs/resources/entry ldap_entry}
+* Represents a {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs/resources/entry ldap_entry}
 */
 export class Entry extends cdktf.TerraformResource {
 
@@ -75,7 +81,7 @@ export class Entry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Entry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Entry to import
-  * @param importFromId The id of the existing Entry that should be imported. Refer to the {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs/resources/entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Entry that should be imported. Refer to the {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs/resources/entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Entry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +93,7 @@ export class Entry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/l-with/ldap/0.11.1/docs/resources/entry ldap_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/l-with/ldap/0.12.0/docs/resources/entry ldap_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +104,8 @@ export class Entry extends cdktf.TerraformResource {
       terraformResourceType: 'ldap_entry',
       terraformGeneratorMetadata: {
         providerName: 'ldap',
-        providerVersion: '0.11.1',
-        providerVersionConstraint: '0.11.1'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -117,6 +123,7 @@ export class Entry extends cdktf.TerraformResource {
     this._id = config.id;
     this._ignoreAttributePatterns = config.ignoreAttributePatterns;
     this._ignoreAttributes = config.ignoreAttributes;
+    this._restrictAttributes = config.restrictAttributes;
   }
 
   // ==========
@@ -245,6 +252,22 @@ export class Entry extends cdktf.TerraformResource {
     return this._ignoreAttributes;
   }
 
+  // restrict_attributes - computed: false, optional: true, required: false
+  private _restrictAttributes?: string[]; 
+  public get restrictAttributes() {
+    return this.getListAttribute('restrict_attributes');
+  }
+  public set restrictAttributes(value: string[]) {
+    this._restrictAttributes = value;
+  }
+  public resetRestrictAttributes() {
+    this._restrictAttributes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get restrictAttributesInput() {
+    return this._restrictAttributes;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -259,6 +282,7 @@ export class Entry extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       ignore_attribute_patterns: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ignoreAttributePatterns),
       ignore_attributes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ignoreAttributes),
+      restrict_attributes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._restrictAttributes),
     };
   }
 
@@ -308,6 +332,12 @@ export class Entry extends cdktf.TerraformResource {
       },
       ignore_attributes: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._ignoreAttributes),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      restrict_attributes: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._restrictAttributes),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",

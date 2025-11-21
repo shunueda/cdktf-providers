@@ -1,3 +1,3 @@
 # `tencentcloud_sms_template`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_sms_template`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sms_template).
+Refer to the Terraform Registry for docs: [`tencentcloud_sms_template`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sms_template).

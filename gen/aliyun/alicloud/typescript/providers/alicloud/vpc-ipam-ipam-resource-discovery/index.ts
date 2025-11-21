@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface VpcIpamIpamResourceDiscoveryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery#id VpcIpamIpamResourceDiscovery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery#id VpcIpamIpamResourceDiscovery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery#ipam_resource_discovery_description VpcIpamIpamResourceDiscovery#ipam_resource_discovery_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery#ipam_resource_discovery_description VpcIpamIpamResourceDiscovery#ipam_resource_discovery_description}
   */
   readonly ipamResourceDiscoveryDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery#ipam_resource_discovery_name VpcIpamIpamResourceDiscovery#ipam_resource_discovery_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery#ipam_resource_discovery_name VpcIpamIpamResourceDiscovery#ipam_resource_discovery_name}
   */
   readonly ipamResourceDiscoveryName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery#operating_region_list VpcIpamIpamResourceDiscovery#operating_region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery#operating_region_list VpcIpamIpamResourceDiscovery#operating_region_list}
   */
   readonly operatingRegionList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery#resource_group_id VpcIpamIpamResourceDiscovery#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery#resource_group_id VpcIpamIpamResourceDiscovery#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery#tags VpcIpamIpamResourceDiscovery#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery#tags VpcIpamIpamResourceDiscovery#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery#timeouts VpcIpamIpamResourceDiscovery#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery#timeouts VpcIpamIpamResourceDiscovery#timeouts}
   */
   readonly timeouts?: VpcIpamIpamResourceDiscoveryTimeouts;
 }
 export interface VpcIpamIpamResourceDiscoveryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery#create VpcIpamIpamResourceDiscovery#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery#create VpcIpamIpamResourceDiscovery#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery#delete VpcIpamIpamResourceDiscovery#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery#delete VpcIpamIpamResourceDiscovery#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery#update VpcIpamIpamResourceDiscovery#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery#update VpcIpamIpamResourceDiscovery#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class VpcIpamIpamResourceDiscoveryTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery alicloud_vpc_ipam_ipam_resource_discovery}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery alicloud_vpc_ipam_ipam_resource_discovery}
 */
 export class VpcIpamIpamResourceDiscovery extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class VpcIpamIpamResourceDiscovery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcIpamIpamResourceDiscovery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcIpamIpamResourceDiscovery to import
-  * @param importFromId The id of the existing VpcIpamIpamResourceDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcIpamIpamResourceDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcIpamIpamResourceDiscovery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class VpcIpamIpamResourceDiscovery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipam_ipam_resource_discovery alicloud_vpc_ipam_ipam_resource_discovery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_ipam_ipam_resource_discovery alicloud_vpc_ipam_ipam_resource_discovery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class VpcIpamIpamResourceDiscovery extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_ipam_ipam_resource_discovery',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

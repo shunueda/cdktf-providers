@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_application
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AppApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The class associated to the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_application#class AppApplication#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_application#class AppApplication#class}
   */
   readonly class?: string;
   /**
   * The class parameters associated to application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_application#class_parameters AppApplication#class_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_application#class_parameters AppApplication#class_parameters}
   */
   readonly classParameters?: { [key: string]: string };
   /**
   * The Fully Qualified Domain Name of the application to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_application#fqdn AppApplication#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_application#fqdn AppApplication#fqdn}
   */
   readonly fqdn: string;
   /**
   * The names of the GSLB servers applying the application traffic policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_application#gslb_members AppApplication#gslb_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_application#gslb_members AppApplication#gslb_members}
   */
   readonly gslbMembers: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_application#id AppApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_application#id AppApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface AppApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the application to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_application#name AppApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_application#name AppApplication#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_application solidserver_app_application}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_application solidserver_app_application}
 */
 export class AppApplication extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class AppApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppApplication to import
-  * @param importFromId The id of the existing AppApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class AppApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_application solidserver_app_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_application solidserver_app_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class AppApplication extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_app_application',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

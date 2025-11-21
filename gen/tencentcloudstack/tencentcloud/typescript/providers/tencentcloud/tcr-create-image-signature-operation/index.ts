@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_create_image_signature_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcr_create_image_signature_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TcrCreateImageSignatureOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_create_image_signature_operation#id TcrCreateImageSignatureOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcr_create_image_signature_operation#id TcrCreateImageSignatureOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface TcrCreateImageSignatureOperationConfig extends cdktf.TerraformM
   /**
   * image version name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_create_image_signature_operation#image_version TcrCreateImageSignatureOperation#image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcr_create_image_signature_operation#image_version TcrCreateImageSignatureOperation#image_version}
   */
   readonly imageVersion: string;
   /**
   * namespace name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_create_image_signature_operation#namespace_name TcrCreateImageSignatureOperation#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcr_create_image_signature_operation#namespace_name TcrCreateImageSignatureOperation#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_create_image_signature_operation#registry_id TcrCreateImageSignatureOperation#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcr_create_image_signature_operation#registry_id TcrCreateImageSignatureOperation#registry_id}
   */
   readonly registryId: string;
   /**
   * repository name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_create_image_signature_operation#repository_name TcrCreateImageSignatureOperation#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcr_create_image_signature_operation#repository_name TcrCreateImageSignatureOperation#repository_name}
   */
   readonly repositoryName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_create_image_signature_operation tencentcloud_tcr_create_image_signature_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcr_create_image_signature_operation tencentcloud_tcr_create_image_signature_operation}
 */
 export class TcrCreateImageSignatureOperation extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class TcrCreateImageSignatureOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcrCreateImageSignatureOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcrCreateImageSignatureOperation to import
-  * @param importFromId The id of the existing TcrCreateImageSignatureOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_create_image_signature_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcrCreateImageSignatureOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcr_create_image_signature_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcrCreateImageSignatureOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class TcrCreateImageSignatureOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_create_image_signature_operation tencentcloud_tcr_create_image_signature_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcr_create_image_signature_operation tencentcloud_tcr_create_image_signature_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class TcrCreateImageSignatureOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcr_create_image_signature_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

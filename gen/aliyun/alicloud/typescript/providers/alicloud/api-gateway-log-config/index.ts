@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_log_config
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_log_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ApiGatewayLogConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_log_config#id ApiGatewayLogConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_log_config#id ApiGatewayLogConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_log_config#log_type ApiGatewayLogConfig#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_log_config#log_type ApiGatewayLogConfig#log_type}
   */
   readonly logType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_log_config#sls_log_store ApiGatewayLogConfig#sls_log_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_log_config#sls_log_store ApiGatewayLogConfig#sls_log_store}
   */
   readonly slsLogStore: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_log_config#sls_project ApiGatewayLogConfig#sls_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_log_config#sls_project ApiGatewayLogConfig#sls_project}
   */
   readonly slsProject: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_log_config#timeouts ApiGatewayLogConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_log_config#timeouts ApiGatewayLogConfig#timeouts}
   */
   readonly timeouts?: ApiGatewayLogConfigTimeouts;
 }
 export interface ApiGatewayLogConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_log_config#create ApiGatewayLogConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_log_config#create ApiGatewayLogConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_log_config#delete ApiGatewayLogConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_log_config#delete ApiGatewayLogConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_log_config#update ApiGatewayLogConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_log_config#update ApiGatewayLogConfig#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class ApiGatewayLogConfigTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_log_config alicloud_api_gateway_log_config}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_log_config alicloud_api_gateway_log_config}
 */
 export class ApiGatewayLogConfig extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class ApiGatewayLogConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayLogConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayLogConfig to import
-  * @param importFromId The id of the existing ApiGatewayLogConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_log_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayLogConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_log_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayLogConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class ApiGatewayLogConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_log_config alicloud_api_gateway_log_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_log_config alicloud_api_gateway_log_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class ApiGatewayLogConfig extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_api_gateway_log_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

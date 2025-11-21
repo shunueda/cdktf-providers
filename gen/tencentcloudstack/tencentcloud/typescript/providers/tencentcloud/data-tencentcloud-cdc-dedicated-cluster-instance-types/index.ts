@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdc_dedicated_cluster_instance_types
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdc_dedicated_cluster_instance_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCdcDedicatedClusterInstanceTypesConfig extends 
   /**
   * Dedicated Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdc_dedicated_cluster_instance_types#dedicated_cluster_id DataTencentcloudCdcDedicatedClusterInstanceTypes#dedicated_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdc_dedicated_cluster_instance_types#dedicated_cluster_id DataTencentcloudCdcDedicatedClusterInstanceTypes#dedicated_cluster_id}
   */
   readonly dedicatedClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdc_dedicated_cluster_instance_types#id DataTencentcloudCdcDedicatedClusterInstanceTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdc_dedicated_cluster_instance_types#id DataTencentcloudCdcDedicatedClusterInstanceTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudCdcDedicatedClusterInstanceTypesConfig extends 
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdc_dedicated_cluster_instance_types#result_output_file DataTencentcloudCdcDedicatedClusterInstanceTypes#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdc_dedicated_cluster_instance_types#result_output_file DataTencentcloudCdcDedicatedClusterInstanceTypes#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -174,7 +174,7 @@ export class DataTencentcloudCdcDedicatedClusterInstanceTypesDedicatedClusterIns
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdc_dedicated_cluster_instance_types tencentcloud_cdc_dedicated_cluster_instance_types}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdc_dedicated_cluster_instance_types tencentcloud_cdc_dedicated_cluster_instance_types}
 */
 export class DataTencentcloudCdcDedicatedClusterInstanceTypes extends cdktf.TerraformDataSource {
 
@@ -190,7 +190,7 @@ export class DataTencentcloudCdcDedicatedClusterInstanceTypes extends cdktf.Terr
   * Generates CDKTF code for importing a DataTencentcloudCdcDedicatedClusterInstanceTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCdcDedicatedClusterInstanceTypes to import
-  * @param importFromId The id of the existing DataTencentcloudCdcDedicatedClusterInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdc_dedicated_cluster_instance_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCdcDedicatedClusterInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdc_dedicated_cluster_instance_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCdcDedicatedClusterInstanceTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class DataTencentcloudCdcDedicatedClusterInstanceTypes extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdc_dedicated_cluster_instance_types tencentcloud_cdc_dedicated_cluster_instance_types} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdc_dedicated_cluster_instance_types tencentcloud_cdc_dedicated_cluster_instance_types} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class DataTencentcloudCdcDedicatedClusterInstanceTypes extends cdktf.Terr
       terraformResourceType: 'tencentcloud_cdc_dedicated_cluster_instance_types',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

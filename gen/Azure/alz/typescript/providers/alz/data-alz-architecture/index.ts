@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture
+// https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataAlzArchitectureConfig extends cdktf.TerraformMetaArguments 
   /**
   * The Azure region used as a default for resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#location DataAlzArchitecture#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#location DataAlzArchitecture#location}
   */
   readonly location: string;
   /**
   * The name of the architecture to deploy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#name DataAlzArchitecture#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#name DataAlzArchitecture#name}
   */
   readonly name: string;
   /**
   * This list of objects allows you to set the [`assignPermissions` metadata property](https://learn.microsoft.com/azure/governance/policy/concepts/definition-structure-parameters#parameter-properties) of the supplied definition and parameter names. This allows you to correct policies that haven't been authored correctly and means that the provider can generate the correct policy role assignments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#override_policy_definition_parameter_assign_permissions_set DataAlzArchitecture#override_policy_definition_parameter_assign_permissions_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#override_policy_definition_parameter_assign_permissions_set DataAlzArchitecture#override_policy_definition_parameter_assign_permissions_set}
   */
   readonly overridePolicyDefinitionParameterAssignPermissionsSet?: DataAlzArchitectureOverridePolicyDefinitionParameterAssignPermissionsSet[] | cdktf.IResolvable;
   /**
   * This list of objects allows you to unset set the [`assignPermissions` metadata property](https://learn.microsoft.com/azure/governance/policy/concepts/definition-structure-parameters#parameter-properties) of the supplied definition and parameter names. This allows you to correct policies that haven't been authored correctly, or prevent permissions being assigned for policies that are disabled in a policy set. The provider can then generate the correct policy role assignments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#override_policy_definition_parameter_assign_permissions_unset DataAlzArchitecture#override_policy_definition_parameter_assign_permissions_unset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#override_policy_definition_parameter_assign_permissions_unset DataAlzArchitecture#override_policy_definition_parameter_assign_permissions_unset}
   */
   readonly overridePolicyDefinitionParameterAssignPermissionsUnset?: DataAlzArchitectureOverridePolicyDefinitionParameterAssignPermissionsUnset[] | cdktf.IResolvable;
   /**
   * A mested map of policy assignments to modify. The key is the management group id, and the value is an object with a single attribute, `policy_assignments`. This is another map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#policy_assignments_to_modify DataAlzArchitecture#policy_assignments_to_modify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#policy_assignments_to_modify DataAlzArchitecture#policy_assignments_to_modify}
   */
   readonly policyAssignmentsToModify?: { [key: string]: DataAlzArchitecturePolicyAssignmentsToModify } | cdktf.IResolvable;
   /**
   * A map of default values to apply to policy assignments. The key is the default name as defined in the library, and the value is an JSON object containing a single `value` attribute with the values to apply. This to mitigate issues with the Terraform type system. E.g. `{ defaultName = jsonencode({ value = "value"}) }`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#policy_default_values DataAlzArchitecture#policy_default_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#policy_default_values DataAlzArchitecture#policy_default_values}
   */
   readonly policyDefaultValues?: { [key: string]: string };
   /**
   * The root management group id under which to deploy the architecture.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#root_management_group_id DataAlzArchitecture#root_management_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#root_management_group_id DataAlzArchitecture#root_management_group_id}
   */
   readonly rootManagementGroupId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#timeouts DataAlzArchitecture#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#timeouts DataAlzArchitecture#timeouts}
   */
   readonly timeouts?: DataAlzArchitectureTimeouts;
 }
@@ -179,13 +179,13 @@ export interface DataAlzArchitectureOverridePolicyDefinitionParameterAssignPermi
   /**
   * The name of the policy definition to override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#definition_name DataAlzArchitecture#definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#definition_name DataAlzArchitecture#definition_name}
   */
   readonly definitionName: string;
   /**
   * The name of the parameter to override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#parameter_name DataAlzArchitecture#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#parameter_name DataAlzArchitecture#parameter_name}
   */
   readonly parameterName: string;
 }
@@ -326,13 +326,13 @@ export interface DataAlzArchitectureOverridePolicyDefinitionParameterAssignPermi
   /**
   * The name of the policy definition to override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#definition_name DataAlzArchitecture#definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#definition_name DataAlzArchitecture#definition_name}
   */
   readonly definitionName: string;
   /**
   * The name of the parameter to override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#parameter_name DataAlzArchitecture#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#parameter_name DataAlzArchitecture#parameter_name}
   */
   readonly parameterName: string;
 }
@@ -473,13 +473,13 @@ export interface DataAlzArchitecturePolicyAssignmentsToModifyPolicyAssignmentsNo
   /**
   * The non-compliance message to use for the policy assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#message DataAlzArchitecture#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#message DataAlzArchitecture#message}
   */
   readonly message: string;
   /**
   * The policy definition reference id (not the resource id) to use for the non compliance message. This references the definition within the policy set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#policy_definition_reference_id DataAlzArchitecture#policy_definition_reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#policy_definition_reference_id DataAlzArchitecture#policy_definition_reference_id}
   */
   readonly policyDefinitionReferenceId?: string;
 }
@@ -623,19 +623,19 @@ export interface DataAlzArchitecturePolicyAssignmentsToModifyPolicyAssignmentsOv
   /**
   * The list of values that the selector will match. Conflicts with `not_in`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#in DataAlzArchitecture#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#in DataAlzArchitecture#in}
   */
   readonly in?: string[];
   /**
   * The property of a selector that describes what characteristic will narrow down the scope of the override. Allowed value for kind: `policyEffect` is: `policyDefinitionReferenceId`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#kind DataAlzArchitecture#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#kind DataAlzArchitecture#kind}
   */
   readonly kind: string;
   /**
   * The list of values that the selector will not match. Conflicts with `in`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#not_in DataAlzArchitecture#not_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#not_in DataAlzArchitecture#not_in}
   */
   readonly notIn?: string[];
 }
@@ -808,19 +808,19 @@ export interface DataAlzArchitecturePolicyAssignmentsToModifyPolicyAssignmentsOv
   /**
   * The property the assignment will override. The supported kind is `policyEffect`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#kind DataAlzArchitecture#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#kind DataAlzArchitecture#kind}
   */
   readonly kind: string;
   /**
   * The selectors to use for the override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#override_selectors DataAlzArchitecture#override_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#override_selectors DataAlzArchitecture#override_selectors}
   */
   readonly overrideSelectors?: DataAlzArchitecturePolicyAssignmentsToModifyPolicyAssignmentsOverridesOverrideSelectors[] | cdktf.IResolvable;
   /**
   * The new value which will override the existing value. The supported values are: `addToNetworkGroup`, `append`, `audit`, `auditIfNotExists`, `deny`, `denyAction`, `deployIfNotExists`, `disabled`, `manual`, `modify`, `mutate`. <https://learn.microsoft.com/azure/governance/policy/concepts/effects>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#value DataAlzArchitecture#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#value DataAlzArchitecture#value}
   */
   readonly value: string;
 }
@@ -990,19 +990,19 @@ export interface DataAlzArchitecturePolicyAssignmentsToModifyPolicyAssignmentsRe
   /**
   * The list of values that the selector will match. Conflicts with `not_in`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#in DataAlzArchitecture#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#in DataAlzArchitecture#in}
   */
   readonly in?: string[];
   /**
   * The property of a selector that describes what characteristic will narrow down the set of evaluated resources. Each kind can only be used once in a single resource selector. Allowed values are: `resourceLocation`, `resourceType`, `resourceWithoutLocation`. `resourceWithoutLocation` cannot be used in the same resource selector as `resourceLocation`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#kind DataAlzArchitecture#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#kind DataAlzArchitecture#kind}
   */
   readonly kind: string;
   /**
   * The list of values that the selector will not match. Conflicts with `in`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#not_in DataAlzArchitecture#not_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#not_in DataAlzArchitecture#not_in}
   */
   readonly notIn?: string[];
 }
@@ -1175,13 +1175,13 @@ export interface DataAlzArchitecturePolicyAssignmentsToModifyPolicyAssignmentsRe
   /**
   * The name of the resource selector. The name must be unique within the assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#name DataAlzArchitecture#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#name DataAlzArchitecture#name}
   */
   readonly name: string;
   /**
   * The selectors to use for the resource selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#resource_selector_selectors DataAlzArchitecture#resource_selector_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#resource_selector_selectors DataAlzArchitecture#resource_selector_selectors}
   */
   readonly resourceSelectorSelectors?: DataAlzArchitecturePolicyAssignmentsToModifyPolicyAssignmentsResourceSelectorsResourceSelectorSelectors[] | cdktf.IResolvable;
 }
@@ -1325,43 +1325,43 @@ export interface DataAlzArchitecturePolicyAssignmentsToModifyPolicyAssignments {
   /**
   * The enforcement mode for the policy assignment. Valid values are `Default` and `DoNotEnforce`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#enforcement_mode DataAlzArchitecture#enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#enforcement_mode DataAlzArchitecture#enforcement_mode}
   */
   readonly enforcementMode?: string;
   /**
   * The identity type. Must be one of `SystemAssigned` or `UserAssigned`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#identity DataAlzArchitecture#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#identity DataAlzArchitecture#identity}
   */
   readonly identity?: string;
   /**
   * A set of zero or one identity ids to assign to the policy assignment. Required if `identity` is `UserAssigned`. **Do not** pass in computed values, instead construct the resource id yourself.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#identity_ids DataAlzArchitecture#identity_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#identity_ids DataAlzArchitecture#identity_ids}
   */
   readonly identityIds?: string[];
   /**
   * The non-compliance messages to use for the policy assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#non_compliance_messages DataAlzArchitecture#non_compliance_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#non_compliance_messages DataAlzArchitecture#non_compliance_messages}
   */
   readonly nonComplianceMessages?: DataAlzArchitecturePolicyAssignmentsToModifyPolicyAssignmentsNonComplianceMessages[] | cdktf.IResolvable;
   /**
   * The overrides for this policy assignment. There are a maximum of 10 overrides allowed per assignment. If specified here the overrides will replace the existing overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#overrides DataAlzArchitecture#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#overrides DataAlzArchitecture#overrides}
   */
   readonly overrides?: DataAlzArchitecturePolicyAssignmentsToModifyPolicyAssignmentsOverrides[] | cdktf.IResolvable;
   /**
   * The parameters to use for the policy assignment. The map key is the parameter name and the value is an JSON object containing a single `value` attribute with the values to apply. This to mitigate issues with the Terraform type system. E.g. `{ defaultName = jsonencode({ value = "value"}) }`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#parameters DataAlzArchitecture#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#parameters DataAlzArchitecture#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * The resource selectors to use for the policy assignment. A maximum of 10 resource selectors are allowed per assignment. If specified here the resource selectors will replace any existing resource selectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#resource_selectors DataAlzArchitecture#resource_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#resource_selectors DataAlzArchitecture#resource_selectors}
   */
   readonly resourceSelectors?: DataAlzArchitecturePolicyAssignmentsToModifyPolicyAssignmentsResourceSelectors[] | cdktf.IResolvable;
 }
@@ -1651,7 +1651,7 @@ export interface DataAlzArchitecturePolicyAssignmentsToModify {
   /**
   * A map of policy assignments to modify. The key is the policy assignment name, and the value is an object containing the modifications to make.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#policy_assignments DataAlzArchitecture#policy_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#policy_assignments DataAlzArchitecture#policy_assignments}
   */
   readonly policyAssignments?: { [key: string]: DataAlzArchitecturePolicyAssignmentsToModifyPolicyAssignments } | cdktf.IResolvable;
 }
@@ -1857,7 +1857,7 @@ export interface DataAlzArchitectureTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#read DataAlzArchitecture#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#read DataAlzArchitecture#read}
   */
   readonly read?: string;
 }
@@ -1951,7 +1951,7 @@ export class DataAlzArchitectureTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture alz_architecture}
+* Represents a {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture alz_architecture}
 */
 export class DataAlzArchitecture extends cdktf.TerraformDataSource {
 
@@ -1967,7 +1967,7 @@ export class DataAlzArchitecture extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlzArchitecture resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlzArchitecture to import
-  * @param importFromId The id of the existing DataAlzArchitecture that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlzArchitecture that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlzArchitecture to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1979,7 +1979,7 @@ export class DataAlzArchitecture extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/azure/alz/0.20.0/docs/data-sources/architecture alz_architecture} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/azure/alz/0.20.1/docs/data-sources/architecture alz_architecture} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1990,8 +1990,8 @@ export class DataAlzArchitecture extends cdktf.TerraformDataSource {
       terraformResourceType: 'alz_architecture',
       terraformGeneratorMetadata: {
         providerName: 'alz',
-        providerVersion: '0.20.0',
-        providerVersionConstraint: '0.20.0'
+        providerVersion: '0.20.1',
+        providerVersionConstraint: '0.20.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

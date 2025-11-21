@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/tag
+// https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataGitTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/tag#directory DataGitTag#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/tag#directory DataGitTag#directory}
   */
   readonly directory: string;
   /**
   * The name of the tag to gather information about.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/tag#name DataGitTag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/tag#name DataGitTag#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/tag git_tag}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/tag git_tag}
 */
 export class DataGitTag extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataGitTag extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGitTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGitTag to import
-  * @param importFromId The id of the existing DataGitTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGitTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGitTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataGitTag extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/tag git_tag} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/tag git_tag} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataGitTag extends cdktf.TerraformDataSource {
       terraformResourceType: 'git_tag',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.11.14',
-        providerVersionConstraint: '2025.11.14'
+        providerVersion: '2025.11.21',
+        providerVersionConstraint: '2025.11.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

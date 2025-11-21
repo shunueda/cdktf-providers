@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,106 @@ import * as cdktf from 'cdktf';
 
 export interface CmsGroupMetricRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#category CmsGroupMetricRule#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#category CmsGroupMetricRule#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#contact_groups CmsGroupMetricRule#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#contact_groups CmsGroupMetricRule#contact_groups}
   */
   readonly contactGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#dimensions CmsGroupMetricRule#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#dimensions CmsGroupMetricRule#dimensions}
   */
   readonly dimensions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#effective_interval CmsGroupMetricRule#effective_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#effective_interval CmsGroupMetricRule#effective_interval}
   */
   readonly effectiveInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#email_subject CmsGroupMetricRule#email_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#email_subject CmsGroupMetricRule#email_subject}
   */
   readonly emailSubject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#group_id CmsGroupMetricRule#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#group_id CmsGroupMetricRule#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#group_metric_rule_name CmsGroupMetricRule#group_metric_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#group_metric_rule_name CmsGroupMetricRule#group_metric_rule_name}
   */
   readonly groupMetricRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#id CmsGroupMetricRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#id CmsGroupMetricRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#interval CmsGroupMetricRule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#interval CmsGroupMetricRule#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#metric_name CmsGroupMetricRule#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#metric_name CmsGroupMetricRule#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#namespace CmsGroupMetricRule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#namespace CmsGroupMetricRule#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#no_effective_interval CmsGroupMetricRule#no_effective_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#no_effective_interval CmsGroupMetricRule#no_effective_interval}
   */
   readonly noEffectiveInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#period CmsGroupMetricRule#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#period CmsGroupMetricRule#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#rule_id CmsGroupMetricRule#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#rule_id CmsGroupMetricRule#rule_id}
   */
   readonly ruleId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#silence_time CmsGroupMetricRule#silence_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#silence_time CmsGroupMetricRule#silence_time}
   */
   readonly silenceTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#webhook CmsGroupMetricRule#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#webhook CmsGroupMetricRule#webhook}
   */
   readonly webhook?: string;
   /**
   * escalations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#escalations CmsGroupMetricRule#escalations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#escalations CmsGroupMetricRule#escalations}
   */
   readonly escalations: CmsGroupMetricRuleEscalations;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#targets CmsGroupMetricRule#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#targets CmsGroupMetricRule#targets}
   */
   readonly targets?: CmsGroupMetricRuleTargets[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#timeouts CmsGroupMetricRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#timeouts CmsGroupMetricRule#timeouts}
   */
   readonly timeouts?: CmsGroupMetricRuleTimeouts;
 }
 export interface CmsGroupMetricRuleEscalationsCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#comparison_operator CmsGroupMetricRule#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#comparison_operator CmsGroupMetricRule#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#statistics CmsGroupMetricRule#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#statistics CmsGroupMetricRule#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#threshold CmsGroupMetricRule#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#threshold CmsGroupMetricRule#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#times CmsGroupMetricRule#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#times CmsGroupMetricRule#times}
   */
   readonly times?: number;
 }
@@ -278,19 +278,19 @@ export class CmsGroupMetricRuleEscalationsCriticalOutputReference extends cdktf.
 }
 export interface CmsGroupMetricRuleEscalationsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#comparison_operator CmsGroupMetricRule#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#comparison_operator CmsGroupMetricRule#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#statistics CmsGroupMetricRule#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#statistics CmsGroupMetricRule#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#threshold CmsGroupMetricRule#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#threshold CmsGroupMetricRule#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#times CmsGroupMetricRule#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#times CmsGroupMetricRule#times}
   */
   readonly times?: number;
 }
@@ -461,19 +461,19 @@ export class CmsGroupMetricRuleEscalationsInfoOutputReference extends cdktf.Comp
 }
 export interface CmsGroupMetricRuleEscalationsWarn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#comparison_operator CmsGroupMetricRule#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#comparison_operator CmsGroupMetricRule#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#statistics CmsGroupMetricRule#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#statistics CmsGroupMetricRule#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#threshold CmsGroupMetricRule#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#threshold CmsGroupMetricRule#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#times CmsGroupMetricRule#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#times CmsGroupMetricRule#times}
   */
   readonly times?: number;
 }
@@ -646,19 +646,19 @@ export interface CmsGroupMetricRuleEscalations {
   /**
   * critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#critical CmsGroupMetricRule#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#critical CmsGroupMetricRule#critical}
   */
   readonly critical?: CmsGroupMetricRuleEscalationsCritical;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#info CmsGroupMetricRule#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#info CmsGroupMetricRule#info}
   */
   readonly info?: CmsGroupMetricRuleEscalationsInfo;
   /**
   * warn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#warn CmsGroupMetricRule#warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#warn CmsGroupMetricRule#warn}
   */
   readonly warn?: CmsGroupMetricRuleEscalationsWarn;
 }
@@ -800,22 +800,22 @@ export class CmsGroupMetricRuleEscalationsOutputReference extends cdktf.ComplexO
 }
 export interface CmsGroupMetricRuleTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#arn CmsGroupMetricRule#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#arn CmsGroupMetricRule#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#id CmsGroupMetricRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#id CmsGroupMetricRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#json_params CmsGroupMetricRule#json_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#json_params CmsGroupMetricRule#json_params}
   */
   readonly jsonParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#level CmsGroupMetricRule#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#level CmsGroupMetricRule#level}
   */
   readonly level?: string;
 }
@@ -1018,15 +1018,15 @@ export class CmsGroupMetricRuleTargetsList extends cdktf.ComplexList {
 }
 export interface CmsGroupMetricRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#create CmsGroupMetricRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#create CmsGroupMetricRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#delete CmsGroupMetricRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#delete CmsGroupMetricRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#update CmsGroupMetricRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#update CmsGroupMetricRule#update}
   */
   readonly update?: string;
 }
@@ -1178,7 +1178,7 @@ export class CmsGroupMetricRuleTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule alicloud_cms_group_metric_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule alicloud_cms_group_metric_rule}
 */
 export class CmsGroupMetricRule extends cdktf.TerraformResource {
 
@@ -1194,7 +1194,7 @@ export class CmsGroupMetricRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CmsGroupMetricRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CmsGroupMetricRule to import
-  * @param importFromId The id of the existing CmsGroupMetricRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CmsGroupMetricRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CmsGroupMetricRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1206,7 +1206,7 @@ export class CmsGroupMetricRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_group_metric_rule alicloud_cms_group_metric_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_group_metric_rule alicloud_cms_group_metric_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1217,8 +1217,8 @@ export class CmsGroupMetricRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cms_group_metric_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

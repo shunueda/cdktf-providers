@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "davinci": "0.5.2"
+    "davinci": "0.5.3"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip_space
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip_space
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSolidserverIpSpaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip_space#id DataSolidserverIpSpace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip_space#id DataSolidserverIpSpace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataSolidserverIpSpaceConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the IP space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip_space#name DataSolidserverIpSpace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip_space#name DataSolidserverIpSpace#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip_space solidserver_ip_space}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip_space solidserver_ip_space}
 */
 export class DataSolidserverIpSpace extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataSolidserverIpSpace extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSolidserverIpSpace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolidserverIpSpace to import
-  * @param importFromId The id of the existing DataSolidserverIpSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip_space#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolidserverIpSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip_space#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolidserverIpSpace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataSolidserverIpSpace extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/ip_space solidserver_ip_space} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/ip_space solidserver_ip_space} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataSolidserverIpSpace extends cdktf.TerraformDataSource {
       terraformResourceType: 'solidserver_ip_space',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

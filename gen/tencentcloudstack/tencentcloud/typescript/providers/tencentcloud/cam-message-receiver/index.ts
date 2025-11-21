@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cam_message_receiver
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_message_receiver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CamMessageReceiverConfig extends cdktf.TerraformMetaArguments {
   /**
   * The international area code for mobile phone numbers is 86 for domestic areas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cam_message_receiver#country_code CamMessageReceiver#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_message_receiver#country_code CamMessageReceiver#country_code}
   */
   readonly countryCode: string;
   /**
   * Email address, for example: 57*****@qq.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cam_message_receiver#email CamMessageReceiver#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_message_receiver#email CamMessageReceiver#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cam_message_receiver#id CamMessageReceiver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_message_receiver#id CamMessageReceiver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface CamMessageReceiverConfig extends cdktf.TerraformMetaArguments {
   /**
   * Username of the message recipient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cam_message_receiver#name CamMessageReceiver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_message_receiver#name CamMessageReceiver#name}
   */
   readonly name: string;
   /**
   * Mobile phone number, for example: 132****2492.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cam_message_receiver#phone_number CamMessageReceiver#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_message_receiver#phone_number CamMessageReceiver#phone_number}
   */
   readonly phoneNumber: string;
   /**
   * Recipient's notes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cam_message_receiver#remark CamMessageReceiver#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_message_receiver#remark CamMessageReceiver#remark}
   */
   readonly remark?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cam_message_receiver tencentcloud_cam_message_receiver}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_message_receiver tencentcloud_cam_message_receiver}
 */
 export class CamMessageReceiver extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CamMessageReceiver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CamMessageReceiver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CamMessageReceiver to import
-  * @param importFromId The id of the existing CamMessageReceiver that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cam_message_receiver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CamMessageReceiver that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_message_receiver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CamMessageReceiver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CamMessageReceiver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cam_message_receiver tencentcloud_cam_message_receiver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cam_message_receiver tencentcloud_cam_message_receiver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CamMessageReceiver extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cam_message_receiver',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

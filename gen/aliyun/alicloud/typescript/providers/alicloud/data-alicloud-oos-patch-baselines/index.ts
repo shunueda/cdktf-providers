@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_patch_baselines
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_patch_baselines
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudOosPatchBaselinesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_patch_baselines#enable_details DataAlicloudOosPatchBaselines#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_patch_baselines#enable_details DataAlicloudOosPatchBaselines#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_patch_baselines#id DataAlicloudOosPatchBaselines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_patch_baselines#id DataAlicloudOosPatchBaselines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_patch_baselines#ids DataAlicloudOosPatchBaselines#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_patch_baselines#ids DataAlicloudOosPatchBaselines#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_patch_baselines#name_regex DataAlicloudOosPatchBaselines#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_patch_baselines#name_regex DataAlicloudOosPatchBaselines#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_patch_baselines#operation_system DataAlicloudOosPatchBaselines#operation_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_patch_baselines#operation_system DataAlicloudOosPatchBaselines#operation_system}
   */
   readonly operationSystem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_patch_baselines#output_file DataAlicloudOosPatchBaselines#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_patch_baselines#output_file DataAlicloudOosPatchBaselines#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_patch_baselines#share_type DataAlicloudOosPatchBaselines#share_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_patch_baselines#share_type DataAlicloudOosPatchBaselines#share_type}
   */
   readonly shareType?: string;
 }
@@ -171,7 +171,7 @@ export class DataAlicloudOosPatchBaselinesBaselinesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_patch_baselines alicloud_oos_patch_baselines}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_patch_baselines alicloud_oos_patch_baselines}
 */
 export class DataAlicloudOosPatchBaselines extends cdktf.TerraformDataSource {
 
@@ -187,7 +187,7 @@ export class DataAlicloudOosPatchBaselines extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudOosPatchBaselines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudOosPatchBaselines to import
-  * @param importFromId The id of the existing DataAlicloudOosPatchBaselines that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_patch_baselines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudOosPatchBaselines that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_patch_baselines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudOosPatchBaselines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class DataAlicloudOosPatchBaselines extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/oos_patch_baselines alicloud_oos_patch_baselines} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/oos_patch_baselines alicloud_oos_patch_baselines} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class DataAlicloudOosPatchBaselines extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_oos_patch_baselines',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

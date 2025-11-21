@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mongodb_instance_slow_log
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mongodb_instance_slow_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudMongodbInstanceSlowLogConfig extends cdktf.Terr
   /**
   * Slow log termination time, format: yyyy-mm-dd hh:mm:ss, such as: 2019-06-02 12:00:00.The time interval between the start and end of the query cannot exceed 24 hours,and only slow logs within the last 7 days are allowed to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mongodb_instance_slow_log#end_time DataTencentcloudMongodbInstanceSlowLog#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mongodb_instance_slow_log#end_time DataTencentcloudMongodbInstanceSlowLog#end_time}
   */
   readonly endTime: string;
   /**
   * Slow log return format. By default, the original slow log format is returned,and versions 4.4 and above can be set to json.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mongodb_instance_slow_log#format DataTencentcloudMongodbInstanceSlowLog#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mongodb_instance_slow_log#format DataTencentcloudMongodbInstanceSlowLog#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mongodb_instance_slow_log#id DataTencentcloudMongodbInstanceSlowLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mongodb_instance_slow_log#id DataTencentcloudMongodbInstanceSlowLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DataTencentcloudMongodbInstanceSlowLogConfig extends cdktf.Terr
   /**
   * Instance ID, the format is: cmgo-9d0p6umb.Same as the instance ID displayed in the cloud database console page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mongodb_instance_slow_log#instance_id DataTencentcloudMongodbInstanceSlowLog#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mongodb_instance_slow_log#instance_id DataTencentcloudMongodbInstanceSlowLog#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mongodb_instance_slow_log#result_output_file DataTencentcloudMongodbInstanceSlowLog#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mongodb_instance_slow_log#result_output_file DataTencentcloudMongodbInstanceSlowLog#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Slow log execution time threshold, return slow logs whose execution time exceeds this threshold,the unit is milliseconds (ms), and the minimum is 100 milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mongodb_instance_slow_log#slow_ms DataTencentcloudMongodbInstanceSlowLog#slow_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mongodb_instance_slow_log#slow_ms DataTencentcloudMongodbInstanceSlowLog#slow_ms}
   */
   readonly slowMs: number;
   /**
   * Slow log start time, format: yyyy-mm-dd hh:mm:ss, such as: 2019-06-01 10:00:00. The time intervalbetween the start and end of the query cannot exceed 24 hours,and only slow logs within the last 7 days are allowed to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mongodb_instance_slow_log#start_time DataTencentcloudMongodbInstanceSlowLog#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mongodb_instance_slow_log#start_time DataTencentcloudMongodbInstanceSlowLog#start_time}
   */
   readonly startTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mongodb_instance_slow_log tencentcloud_mongodb_instance_slow_log}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mongodb_instance_slow_log tencentcloud_mongodb_instance_slow_log}
 */
 export class DataTencentcloudMongodbInstanceSlowLog extends cdktf.TerraformDataSource {
 
@@ -69,7 +69,7 @@ export class DataTencentcloudMongodbInstanceSlowLog extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataTencentcloudMongodbInstanceSlowLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMongodbInstanceSlowLog to import
-  * @param importFromId The id of the existing DataTencentcloudMongodbInstanceSlowLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mongodb_instance_slow_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMongodbInstanceSlowLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mongodb_instance_slow_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMongodbInstanceSlowLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DataTencentcloudMongodbInstanceSlowLog extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mongodb_instance_slow_log tencentcloud_mongodb_instance_slow_log} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mongodb_instance_slow_log tencentcloud_mongodb_instance_slow_log} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DataTencentcloudMongodbInstanceSlowLog extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_mongodb_instance_slow_log',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

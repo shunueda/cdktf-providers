@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/role_configuration_provisionings
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/role_configuration_provisionings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudRoleConfigurationProvisioningsConfig extends cd
   /**
   * Deployed: Deployment succeeded; DeployedRequired: Redeployment required; DeployFailed: Deployment failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/role_configuration_provisionings#deployment_status DataTencentcloudRoleConfigurationProvisionings#deployment_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/role_configuration_provisionings#deployment_status DataTencentcloudRoleConfigurationProvisionings#deployment_status}
   */
   readonly deploymentStatus?: string;
   /**
   * Search by configuration name is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/role_configuration_provisionings#filter DataTencentcloudRoleConfigurationProvisionings#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/role_configuration_provisionings#filter DataTencentcloudRoleConfigurationProvisionings#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/role_configuration_provisionings#id DataTencentcloudRoleConfigurationProvisionings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/role_configuration_provisionings#id DataTencentcloudRoleConfigurationProvisionings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DataTencentcloudRoleConfigurationProvisioningsConfig extends cd
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/role_configuration_provisionings#result_output_file DataTencentcloudRoleConfigurationProvisionings#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/role_configuration_provisionings#result_output_file DataTencentcloudRoleConfigurationProvisionings#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Permission configuration ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/role_configuration_provisionings#role_configuration_id DataTencentcloudRoleConfigurationProvisionings#role_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/role_configuration_provisionings#role_configuration_id DataTencentcloudRoleConfigurationProvisionings#role_configuration_id}
   */
   readonly roleConfigurationId?: string;
   /**
   * Type of the synchronized target account of the Tencent Cloud Organization. ManagerUin: admin account; MemberUin: member account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/role_configuration_provisionings#target_type DataTencentcloudRoleConfigurationProvisionings#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/role_configuration_provisionings#target_type DataTencentcloudRoleConfigurationProvisionings#target_type}
   */
   readonly targetType?: string;
   /**
   * UIN of the synchronized target account of the Tencent Cloud Organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/role_configuration_provisionings#target_uin DataTencentcloudRoleConfigurationProvisionings#target_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/role_configuration_provisionings#target_uin DataTencentcloudRoleConfigurationProvisionings#target_uin}
   */
   readonly targetUin?: number;
   /**
   * Space ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/role_configuration_provisionings#zone_id DataTencentcloudRoleConfigurationProvisionings#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/role_configuration_provisionings#zone_id DataTencentcloudRoleConfigurationProvisionings#zone_id}
   */
   readonly zoneId: string;
 }
@@ -169,7 +169,7 @@ export class DataTencentcloudRoleConfigurationProvisioningsRoleConfigurationProv
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/role_configuration_provisionings tencentcloud_role_configuration_provisionings}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/role_configuration_provisionings tencentcloud_role_configuration_provisionings}
 */
 export class DataTencentcloudRoleConfigurationProvisionings extends cdktf.TerraformDataSource {
 
@@ -185,7 +185,7 @@ export class DataTencentcloudRoleConfigurationProvisionings extends cdktf.Terraf
   * Generates CDKTF code for importing a DataTencentcloudRoleConfigurationProvisionings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudRoleConfigurationProvisionings to import
-  * @param importFromId The id of the existing DataTencentcloudRoleConfigurationProvisionings that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/role_configuration_provisionings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudRoleConfigurationProvisionings that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/role_configuration_provisionings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudRoleConfigurationProvisionings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class DataTencentcloudRoleConfigurationProvisionings extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/role_configuration_provisionings tencentcloud_role_configuration_provisionings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/role_configuration_provisionings tencentcloud_role_configuration_provisionings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class DataTencentcloudRoleConfigurationProvisionings extends cdktf.Terraf
       terraformResourceType: 'tencentcloud_role_configuration_provisionings',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

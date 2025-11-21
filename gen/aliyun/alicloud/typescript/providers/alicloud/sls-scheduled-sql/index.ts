@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface SlsScheduledSqlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#description SlsScheduledSql#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#description SlsScheduledSql#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#display_name SlsScheduledSql#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#display_name SlsScheduledSql#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#id SlsScheduledSql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#id SlsScheduledSql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#project SlsScheduledSql#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#project SlsScheduledSql#project}
   */
   readonly project: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#scheduled_sql_name SlsScheduledSql#scheduled_sql_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#scheduled_sql_name SlsScheduledSql#scheduled_sql_name}
   */
   readonly scheduledSqlName: string;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#schedule SlsScheduledSql#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#schedule SlsScheduledSql#schedule}
   */
   readonly schedule: SlsScheduledSqlSchedule;
   /**
   * scheduled_sql_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#scheduled_sql_configuration SlsScheduledSql#scheduled_sql_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#scheduled_sql_configuration SlsScheduledSql#scheduled_sql_configuration}
   */
   readonly scheduledSqlConfiguration: SlsScheduledSqlScheduledSqlConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#timeouts SlsScheduledSql#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#timeouts SlsScheduledSql#timeouts}
   */
   readonly timeouts?: SlsScheduledSqlTimeouts;
 }
 export interface SlsScheduledSqlSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#cron_expression SlsScheduledSql#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#cron_expression SlsScheduledSql#cron_expression}
   */
   readonly cronExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#delay SlsScheduledSql#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#delay SlsScheduledSql#delay}
   */
   readonly delay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#interval SlsScheduledSql#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#interval SlsScheduledSql#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#run_immediately SlsScheduledSql#run_immediately}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#run_immediately SlsScheduledSql#run_immediately}
   */
   readonly runImmediately?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#time_zone SlsScheduledSql#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#time_zone SlsScheduledSql#time_zone}
   */
   readonly timeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#type SlsScheduledSql#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#type SlsScheduledSql#type}
   */
   readonly type?: string;
 }
@@ -300,71 +300,71 @@ export class SlsScheduledSqlScheduleOutputReference extends cdktf.ComplexObject 
 }
 export interface SlsScheduledSqlScheduledSqlConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#data_format SlsScheduledSql#data_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#data_format SlsScheduledSql#data_format}
   */
   readonly dataFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#dest_endpoint SlsScheduledSql#dest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#dest_endpoint SlsScheduledSql#dest_endpoint}
   */
   readonly destEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#dest_logstore SlsScheduledSql#dest_logstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#dest_logstore SlsScheduledSql#dest_logstore}
   */
   readonly destLogstore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#dest_project SlsScheduledSql#dest_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#dest_project SlsScheduledSql#dest_project}
   */
   readonly destProject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#dest_role_arn SlsScheduledSql#dest_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#dest_role_arn SlsScheduledSql#dest_role_arn}
   */
   readonly destRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#from_time SlsScheduledSql#from_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#from_time SlsScheduledSql#from_time}
   */
   readonly fromTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#from_time_expr SlsScheduledSql#from_time_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#from_time_expr SlsScheduledSql#from_time_expr}
   */
   readonly fromTimeExpr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#max_retries SlsScheduledSql#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#max_retries SlsScheduledSql#max_retries}
   */
   readonly maxRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#max_run_time_in_seconds SlsScheduledSql#max_run_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#max_run_time_in_seconds SlsScheduledSql#max_run_time_in_seconds}
   */
   readonly maxRunTimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#parameters SlsScheduledSql#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#parameters SlsScheduledSql#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#resource_pool SlsScheduledSql#resource_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#resource_pool SlsScheduledSql#resource_pool}
   */
   readonly resourcePool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#role_arn SlsScheduledSql#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#role_arn SlsScheduledSql#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#script SlsScheduledSql#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#script SlsScheduledSql#script}
   */
   readonly script?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#source_logstore SlsScheduledSql#source_logstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#source_logstore SlsScheduledSql#source_logstore}
   */
   readonly sourceLogstore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#sql_type SlsScheduledSql#sql_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#sql_type SlsScheduledSql#sql_type}
   */
   readonly sqlType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#to_time SlsScheduledSql#to_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#to_time SlsScheduledSql#to_time}
   */
   readonly toTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#to_time_expr SlsScheduledSql#to_time_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#to_time_expr SlsScheduledSql#to_time_expr}
   */
   readonly toTimeExpr?: string;
 }
@@ -912,15 +912,15 @@ export class SlsScheduledSqlScheduledSqlConfigurationOutputReference extends cdk
 }
 export interface SlsScheduledSqlTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#create SlsScheduledSql#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#create SlsScheduledSql#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#delete SlsScheduledSql#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#delete SlsScheduledSql#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#update SlsScheduledSql#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#update SlsScheduledSql#update}
   */
   readonly update?: string;
 }
@@ -1072,7 +1072,7 @@ export class SlsScheduledSqlTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql alicloud_sls_scheduled_sql}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql alicloud_sls_scheduled_sql}
 */
 export class SlsScheduledSql extends cdktf.TerraformResource {
 
@@ -1088,7 +1088,7 @@ export class SlsScheduledSql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlsScheduledSql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlsScheduledSql to import
-  * @param importFromId The id of the existing SlsScheduledSql that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlsScheduledSql that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlsScheduledSql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1100,7 +1100,7 @@ export class SlsScheduledSql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sls_scheduled_sql alicloud_sls_scheduled_sql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_scheduled_sql alicloud_sls_scheduled_sql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1111,8 +1111,8 @@ export class SlsScheduledSql extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sls_scheduled_sql',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

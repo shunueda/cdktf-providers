@@ -1,15 +1,1006 @@
 import * as cdktf from 'cdktf';
-import { DbServiceSnapshotConfigurationFullBackupSchedule,
-dbServiceSnapshotConfigurationFullBackupScheduleToTerraform,
-dbServiceSnapshotConfigurationFullBackupScheduleToHclTerraform,
-DbServiceSnapshotConfigurationFullBackupScheduleOutputReference } from './structs0'
-export interface DbServiceSnapshotConfigurationScheduleBackupStartTime {
+import { DbServiceServiceConnectivityUpdateInProgressInfoComputesConnectivityList,
+DbServiceServiceConnectivityComputesConnectivityList,
+DbServiceServiceConnectivityConnectStringsList,
+DbServiceServiceConnectivityPrivateLinkList } from './structs0'
+export interface DbServiceServiceConnectivityUpdateInProgressInfoPrivateLink {
+}
+
+export function dbServiceServiceConnectivityUpdateInProgressInfoPrivateLinkToTerraform(struct?: DbServiceServiceConnectivityUpdateInProgressInfoPrivateLink): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dbServiceServiceConnectivityUpdateInProgressInfoPrivateLinkToHclTerraform(struct?: DbServiceServiceConnectivityUpdateInProgressInfoPrivateLink): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DbServiceServiceConnectivityUpdateInProgressInfoPrivateLinkOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#hour DbService#hour}
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DbServiceServiceConnectivityUpdateInProgressInfoPrivateLink | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DbServiceServiceConnectivityUpdateInProgressInfoPrivateLink | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // client_azure_subscription_ids - computed: true, optional: false, required: false
+  public get clientAzureSubscriptionIds() {
+    return this.getListAttribute('client_azure_subscription_ids');
+  }
+
+  // service_principals - computed: true, optional: false, required: false
+  public get servicePrincipals() {
+    return this.getListAttribute('service_principals');
+  }
+}
+
+export class DbServiceServiceConnectivityUpdateInProgressInfoPrivateLinkList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DbServiceServiceConnectivityUpdateInProgressInfoPrivateLinkOutputReference {
+    return new DbServiceServiceConnectivityUpdateInProgressInfoPrivateLinkOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DbServiceServiceConnectivityUpdateInProgressInfo {
+}
+
+export function dbServiceServiceConnectivityUpdateInProgressInfoToTerraform(struct?: DbServiceServiceConnectivityUpdateInProgressInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dbServiceServiceConnectivityUpdateInProgressInfoToHclTerraform(struct?: DbServiceServiceConnectivityUpdateInProgressInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DbServiceServiceConnectivityUpdateInProgressInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DbServiceServiceConnectivityUpdateInProgressInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DbServiceServiceConnectivityUpdateInProgressInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // allowed_ip_addresses - computed: true, optional: false, required: false
+  public get allowedIpAddresses() {
+    return this.getListAttribute('allowed_ip_addresses');
+  }
+
+  // computes_connectivity - computed: true, optional: false, required: false
+  private _computesConnectivity = new DbServiceServiceConnectivityUpdateInProgressInfoComputesConnectivityList(this, "computes_connectivity", false);
+  public get computesConnectivity() {
+    return this._computesConnectivity;
+  }
+
+  // dns_prefix - computed: true, optional: false, required: false
+  public get dnsPrefix() {
+    return this.getStringAttribute('dns_prefix');
+  }
+
+  // enable_public_access - computed: true, optional: false, required: false
+  public get enablePublicAccess() {
+    return this.getBooleanAttribute('enable_public_access');
+  }
+
+  // private_link - computed: true, optional: false, required: false
+  private _privateLink = new DbServiceServiceConnectivityUpdateInProgressInfoPrivateLinkList(this, "private_link", false);
+  public get privateLink() {
+    return this._privateLink;
+  }
+}
+
+export class DbServiceServiceConnectivityUpdateInProgressInfoList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DbServiceServiceConnectivityUpdateInProgressInfoOutputReference {
+    return new DbServiceServiceConnectivityUpdateInProgressInfoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DbServiceServiceConnectivity {
+  /**
+  * The list of allowed ipv4 addresses that can connect to the DB Service
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#allowed_ip_addresses DbService#allowed_ip_addresses}
+  */
+  readonly allowedIpAddresses?: string[];
+  /**
+  * DNS Prefix associated with the DB Service
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dns_prefix DbService#dns_prefix}
+  */
+  readonly dnsPrefix?: string;
+  /**
+  * Specify whether to enable public access to the DB Service, default false
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#enable_public_access DbService#enable_public_access}
+  */
+  readonly enablePublicAccess?: boolean | cdktf.IResolvable;
+  /**
+  * Specify whether to enable SSL to the DB Service, default false
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#enable_ssl DbService#enable_ssl}
+  */
+  readonly enableSsl?: boolean | cdktf.IResolvable;
+  /**
+  * The connection port for the DB Service
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#service_port DbService#service_port}
+  */
+  readonly servicePort?: number;
+}
+
+export function dbServiceServiceConnectivityToTerraform(struct?: DbServiceServiceConnectivityOutputReference | DbServiceServiceConnectivity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    allowed_ip_addresses: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowedIpAddresses),
+    dns_prefix: cdktf.stringToTerraform(struct!.dnsPrefix),
+    enable_public_access: cdktf.booleanToTerraform(struct!.enablePublicAccess),
+    enable_ssl: cdktf.booleanToTerraform(struct!.enableSsl),
+    service_port: cdktf.numberToTerraform(struct!.servicePort),
+  }
+}
+
+
+export function dbServiceServiceConnectivityToHclTerraform(struct?: DbServiceServiceConnectivityOutputReference | DbServiceServiceConnectivity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    allowed_ip_addresses: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowedIpAddresses),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    dns_prefix: {
+      value: cdktf.stringToHclTerraform(struct!.dnsPrefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    enable_public_access: {
+      value: cdktf.booleanToHclTerraform(struct!.enablePublicAccess),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_ssl: {
+      value: cdktf.booleanToHclTerraform(struct!.enableSsl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    service_port: {
+      value: cdktf.numberToHclTerraform(struct!.servicePort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DbServiceServiceConnectivityOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DbServiceServiceConnectivity | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allowedIpAddresses !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowedIpAddresses = this._allowedIpAddresses;
+    }
+    if (this._dnsPrefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsPrefix = this._dnsPrefix;
+    }
+    if (this._enablePublicAccess !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enablePublicAccess = this._enablePublicAccess;
+    }
+    if (this._enableSsl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableSsl = this._enableSsl;
+    }
+    if (this._servicePort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.servicePort = this._servicePort;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DbServiceServiceConnectivity | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._allowedIpAddresses = undefined;
+      this._dnsPrefix = undefined;
+      this._enablePublicAccess = undefined;
+      this._enableSsl = undefined;
+      this._servicePort = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._allowedIpAddresses = value.allowedIpAddresses;
+      this._dnsPrefix = value.dnsPrefix;
+      this._enablePublicAccess = value.enablePublicAccess;
+      this._enableSsl = value.enableSsl;
+      this._servicePort = value.servicePort;
+    }
+  }
+
+  // allowed_ip_addresses - computed: false, optional: true, required: false
+  private _allowedIpAddresses?: string[]; 
+  public get allowedIpAddresses() {
+    return this.getListAttribute('allowed_ip_addresses');
+  }
+  public set allowedIpAddresses(value: string[]) {
+    this._allowedIpAddresses = value;
+  }
+  public resetAllowedIpAddresses() {
+    this._allowedIpAddresses = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowedIpAddressesInput() {
+    return this._allowedIpAddresses;
+  }
+
+  // ca_cert_id - computed: true, optional: false, required: false
+  public get caCertId() {
+    return this.getStringAttribute('ca_cert_id');
+  }
+
+  // computes_connectivity - computed: true, optional: false, required: false
+  private _computesConnectivity = new DbServiceServiceConnectivityComputesConnectivityList(this, "computes_connectivity", false);
+  public get computesConnectivity() {
+    return this._computesConnectivity;
+  }
+
+  // connect_strings - computed: true, optional: false, required: false
+  private _connectStrings = new DbServiceServiceConnectivityConnectStringsList(this, "connect_strings", false);
+  public get connectStrings() {
+    return this._connectStrings;
+  }
+
+  // dns_prefix - computed: false, optional: true, required: false
+  private _dnsPrefix?: string; 
+  public get dnsPrefix() {
+    return this.getStringAttribute('dns_prefix');
+  }
+  public set dnsPrefix(value: string) {
+    this._dnsPrefix = value;
+  }
+  public resetDnsPrefix() {
+    this._dnsPrefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsPrefixInput() {
+    return this._dnsPrefix;
+  }
+
+  // enable_public_access - computed: false, optional: true, required: false
+  private _enablePublicAccess?: boolean | cdktf.IResolvable; 
+  public get enablePublicAccess() {
+    return this.getBooleanAttribute('enable_public_access');
+  }
+  public set enablePublicAccess(value: boolean | cdktf.IResolvable) {
+    this._enablePublicAccess = value;
+  }
+  public resetEnablePublicAccess() {
+    this._enablePublicAccess = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enablePublicAccessInput() {
+    return this._enablePublicAccess;
+  }
+
+  // enable_ssl - computed: false, optional: true, required: false
+  private _enableSsl?: boolean | cdktf.IResolvable; 
+  public get enableSsl() {
+    return this.getBooleanAttribute('enable_ssl');
+  }
+  public set enableSsl(value: boolean | cdktf.IResolvable) {
+    this._enableSsl = value;
+  }
+  public resetEnableSsl() {
+    this._enableSsl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableSslInput() {
+    return this._enableSsl;
+  }
+
+  // private_link - computed: true, optional: false, required: false
+  private _privateLink = new DbServiceServiceConnectivityPrivateLinkList(this, "private_link", false);
+  public get privateLink() {
+    return this._privateLink;
+  }
+
+  // service_port - computed: false, optional: true, required: false
+  private _servicePort?: number; 
+  public get servicePort() {
+    return this.getNumberAttribute('service_port');
+  }
+  public set servicePort(value: number) {
+    this._servicePort = value;
+  }
+  public resetServicePort() {
+    this._servicePort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get servicePortInput() {
+    return this._servicePort;
+  }
+
+  // update_in_progress_info - computed: true, optional: false, required: false
+  private _updateInProgressInfo = new DbServiceServiceConnectivityUpdateInProgressInfoList(this, "update_in_progress_info", false);
+  public get updateInProgressInfo() {
+    return this._updateInProgressInfo;
+  }
+}
+export interface DbServiceSharedWithUsers {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#email_id DbService#email_id}
+  */
+  readonly emailId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#role DbService#role}
+  */
+  readonly role?: string;
+}
+
+export function dbServiceSharedWithUsersToTerraform(struct?: DbServiceSharedWithUsers | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    email_id: cdktf.stringToTerraform(struct!.emailId),
+    role: cdktf.stringToTerraform(struct!.role),
+  }
+}
+
+
+export function dbServiceSharedWithUsersToHclTerraform(struct?: DbServiceSharedWithUsers | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    email_id: {
+      value: cdktf.stringToHclTerraform(struct!.emailId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    role: {
+      value: cdktf.stringToHclTerraform(struct!.role),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DbServiceSharedWithUsersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DbServiceSharedWithUsers | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._emailId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.emailId = this._emailId;
+    }
+    if (this._role !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.role = this._role;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DbServiceSharedWithUsers | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._emailId = undefined;
+      this._role = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._emailId = value.emailId;
+      this._role = value.role;
+    }
+  }
+
+  // email_id - computed: false, optional: true, required: false
+  private _emailId?: string; 
+  public get emailId() {
+    return this.getStringAttribute('email_id');
+  }
+  public set emailId(value: string) {
+    this._emailId = value;
+  }
+  public resetEmailId() {
+    this._emailId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get emailIdInput() {
+    return this._emailId;
+  }
+
+  // role - computed: false, optional: true, required: false
+  private _role?: string; 
+  public get role() {
+    return this.getStringAttribute('role');
+  }
+  public set role(value: string) {
+    this._role = value;
+  }
+  public resetRole() {
+    this._role = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get roleInput() {
+    return this._role;
+  }
+}
+
+export class DbServiceSharedWithUsersList extends cdktf.ComplexList {
+  public internalValue? : DbServiceSharedWithUsers[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DbServiceSharedWithUsersOutputReference {
+    return new DbServiceSharedWithUsersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DbServiceSharedWith {
+  /**
+  * users block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#users DbService#users}
+  */
+  readonly users?: DbServiceSharedWithUsers[] | cdktf.IResolvable;
+}
+
+export function dbServiceSharedWithToTerraform(struct?: DbServiceSharedWithOutputReference | DbServiceSharedWith): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    users: cdktf.listMapper(dbServiceSharedWithUsersToTerraform, true)(struct!.users),
+  }
+}
+
+
+export function dbServiceSharedWithToHclTerraform(struct?: DbServiceSharedWithOutputReference | DbServiceSharedWith): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    users: {
+      value: cdktf.listMapperHcl(dbServiceSharedWithUsersToHclTerraform, true)(struct!.users),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DbServiceSharedWithUsersList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DbServiceSharedWithOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DbServiceSharedWith | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._users?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.users = this._users?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DbServiceSharedWith | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._users.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._users.internalValue = value.users;
+    }
+  }
+
+  // users - computed: false, optional: true, required: false
+  private _users = new DbServiceSharedWithUsersList(this, "users", false);
+  public get users() {
+    return this._users;
+  }
+  public putUsers(value: DbServiceSharedWithUsers[] | cdktf.IResolvable) {
+    this._users.internalValue = value;
+  }
+  public resetUsers() {
+    this._users.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usersInput() {
+    return this._users.internalValue;
+  }
+}
+export interface DbServiceSnapshotConfigurationFullBackupScheduleStartTime {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#hour DbService#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#minute DbService#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#minute DbService#minute}
+  */
+  readonly minute?: number;
+}
+
+export function dbServiceSnapshotConfigurationFullBackupScheduleStartTimeToTerraform(struct?: DbServiceSnapshotConfigurationFullBackupScheduleStartTimeOutputReference | DbServiceSnapshotConfigurationFullBackupScheduleStartTime): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    hour: cdktf.numberToTerraform(struct!.hour),
+    minute: cdktf.numberToTerraform(struct!.minute),
+  }
+}
+
+
+export function dbServiceSnapshotConfigurationFullBackupScheduleStartTimeToHclTerraform(struct?: DbServiceSnapshotConfigurationFullBackupScheduleStartTimeOutputReference | DbServiceSnapshotConfigurationFullBackupScheduleStartTime): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    hour: {
+      value: cdktf.numberToHclTerraform(struct!.hour),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    minute: {
+      value: cdktf.numberToHclTerraform(struct!.minute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DbServiceSnapshotConfigurationFullBackupScheduleStartTimeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DbServiceSnapshotConfigurationFullBackupScheduleStartTime | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._hour !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hour = this._hour;
+    }
+    if (this._minute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minute = this._minute;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DbServiceSnapshotConfigurationFullBackupScheduleStartTime | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._hour = undefined;
+      this._minute = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._hour = value.hour;
+      this._minute = value.minute;
+    }
+  }
+
+  // hour - computed: false, optional: true, required: false
+  private _hour?: number; 
+  public get hour() {
+    return this.getNumberAttribute('hour');
+  }
+  public set hour(value: number) {
+    this._hour = value;
+  }
+  public resetHour() {
+    this._hour = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hourInput() {
+    return this._hour;
+  }
+
+  // minute - computed: false, optional: true, required: false
+  private _minute?: number; 
+  public get minute() {
+    return this.getNumberAttribute('minute');
+  }
+  public set minute(value: number) {
+    this._minute = value;
+  }
+  public resetMinute() {
+    this._minute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minuteInput() {
+    return this._minute;
+  }
+}
+export interface DbServiceSnapshotConfigurationFullBackupScheduleWeeklySchedule {
+  /**
+  * Days in a week to retain weekly backups for
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#days DbService#days}
+  */
+  readonly days?: string[];
+}
+
+export function dbServiceSnapshotConfigurationFullBackupScheduleWeeklyScheduleToTerraform(struct?: DbServiceSnapshotConfigurationFullBackupScheduleWeeklyScheduleOutputReference | DbServiceSnapshotConfigurationFullBackupScheduleWeeklySchedule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    days: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.days),
+  }
+}
+
+
+export function dbServiceSnapshotConfigurationFullBackupScheduleWeeklyScheduleToHclTerraform(struct?: DbServiceSnapshotConfigurationFullBackupScheduleWeeklyScheduleOutputReference | DbServiceSnapshotConfigurationFullBackupScheduleWeeklySchedule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    days: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.days),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DbServiceSnapshotConfigurationFullBackupScheduleWeeklyScheduleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DbServiceSnapshotConfigurationFullBackupScheduleWeeklySchedule | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._days !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.days = this._days;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DbServiceSnapshotConfigurationFullBackupScheduleWeeklySchedule | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._days = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._days = value.days;
+    }
+  }
+
+  // days - computed: false, optional: true, required: false
+  private _days?: string[]; 
+  public get days() {
+    return this.getListAttribute('days');
+  }
+  public set days(value: string[]) {
+    this._days = value;
+  }
+  public resetDays() {
+    this._days = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get daysInput() {
+    return this._days;
+  }
+}
+export interface DbServiceSnapshotConfigurationFullBackupSchedule {
+  /**
+  * start_time block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#start_time DbService#start_time}
+  */
+  readonly startTime?: DbServiceSnapshotConfigurationFullBackupScheduleStartTime;
+  /**
+  * weekly_schedule block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
+  */
+  readonly weeklySchedule?: DbServiceSnapshotConfigurationFullBackupScheduleWeeklySchedule;
+}
+
+export function dbServiceSnapshotConfigurationFullBackupScheduleToTerraform(struct?: DbServiceSnapshotConfigurationFullBackupScheduleOutputReference | DbServiceSnapshotConfigurationFullBackupSchedule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    start_time: dbServiceSnapshotConfigurationFullBackupScheduleStartTimeToTerraform(struct!.startTime),
+    weekly_schedule: dbServiceSnapshotConfigurationFullBackupScheduleWeeklyScheduleToTerraform(struct!.weeklySchedule),
+  }
+}
+
+
+export function dbServiceSnapshotConfigurationFullBackupScheduleToHclTerraform(struct?: DbServiceSnapshotConfigurationFullBackupScheduleOutputReference | DbServiceSnapshotConfigurationFullBackupSchedule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    start_time: {
+      value: dbServiceSnapshotConfigurationFullBackupScheduleStartTimeToHclTerraform(struct!.startTime),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DbServiceSnapshotConfigurationFullBackupScheduleStartTimeList",
+    },
+    weekly_schedule: {
+      value: dbServiceSnapshotConfigurationFullBackupScheduleWeeklyScheduleToHclTerraform(struct!.weeklySchedule),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DbServiceSnapshotConfigurationFullBackupScheduleWeeklyScheduleList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DbServiceSnapshotConfigurationFullBackupScheduleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DbServiceSnapshotConfigurationFullBackupSchedule | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._startTime?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startTime = this._startTime?.internalValue;
+    }
+    if (this._weeklySchedule?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.weeklySchedule = this._weeklySchedule?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DbServiceSnapshotConfigurationFullBackupSchedule | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._startTime.internalValue = undefined;
+      this._weeklySchedule.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._startTime.internalValue = value.startTime;
+      this._weeklySchedule.internalValue = value.weeklySchedule;
+    }
+  }
+
+  // start_time - computed: false, optional: true, required: false
+  private _startTime = new DbServiceSnapshotConfigurationFullBackupScheduleStartTimeOutputReference(this, "start_time");
+  public get startTime() {
+    return this._startTime;
+  }
+  public putStartTime(value: DbServiceSnapshotConfigurationFullBackupScheduleStartTime) {
+    this._startTime.internalValue = value;
+  }
+  public resetStartTime() {
+    this._startTime.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startTimeInput() {
+    return this._startTime.internalValue;
+  }
+
+  // weekly_schedule - computed: false, optional: true, required: false
+  private _weeklySchedule = new DbServiceSnapshotConfigurationFullBackupScheduleWeeklyScheduleOutputReference(this, "weekly_schedule");
+  public get weeklySchedule() {
+    return this._weeklySchedule;
+  }
+  public putWeeklySchedule(value: DbServiceSnapshotConfigurationFullBackupScheduleWeeklySchedule) {
+    this._weeklySchedule.internalValue = value;
+  }
+  public resetWeeklySchedule() {
+    this._weeklySchedule.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get weeklyScheduleInput() {
+    return this._weeklySchedule.internalValue;
+  }
+}
+export interface DbServiceSnapshotConfigurationScheduleBackupStartTime {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#hour DbService#hour}
+  */
+  readonly hour?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#minute DbService#minute}
   */
   readonly minute?: number;
 }
@@ -124,7 +1115,7 @@ export interface DbServiceSnapshotConfigurationScheduleDailySchedule {
   /**
   * The number of backups to be captured per day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#backups_per_day DbService#backups_per_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#backups_per_day DbService#backups_per_day}
   */
   readonly backupsPerDay?: number;
 }
@@ -210,11 +1201,11 @@ export interface DbServiceSnapshotConfigurationScheduleMonthlyScheduleCommonSche
   /**
   * Dates in a month to retain monthly backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#dates DbService#dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dates DbService#dates}
   */
   readonly dates?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
   */
   readonly lastDayOfMonth?: boolean | cdktf.IResolvable;
 }
@@ -329,7 +1320,7 @@ export interface DbServiceSnapshotConfigurationScheduleMonthlySchedule {
   /**
   * common_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#common_schedule DbService#common_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#common_schedule DbService#common_schedule}
   */
   readonly commonSchedule?: DbServiceSnapshotConfigurationScheduleMonthlyScheduleCommonSchedule;
 }
@@ -415,7 +1406,7 @@ export interface DbServiceSnapshotConfigurationScheduleWeeklySchedule {
   /**
   * Days in a week to retain weekly backups for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#days DbService#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#days DbService#days}
   */
   readonly days?: string[];
 }
@@ -501,15 +1492,15 @@ export interface DbServiceSnapshotConfigurationScheduleYearlyScheduleCommonSched
   /**
   * Dates in a month to retain monthly backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#dates DbService#dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dates DbService#dates}
   */
   readonly dates?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
   */
   readonly lastDayOfMonth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#months DbService#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#months DbService#months}
   */
   readonly months?: string[];
 }
@@ -651,13 +1642,13 @@ export class DbServiceSnapshotConfigurationScheduleYearlyScheduleCommonScheduleO
 }
 export interface DbServiceSnapshotConfigurationScheduleYearlyScheduleMonthSpecificSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#dates DbService#dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dates DbService#dates}
   */
   readonly dates: number[];
   /**
   * Name of a month
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#month DbService#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#month DbService#month}
   */
   readonly month: string;
 }
@@ -798,13 +1789,13 @@ export interface DbServiceSnapshotConfigurationScheduleYearlySchedule {
   /**
   * common_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#common_schedule DbService#common_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#common_schedule DbService#common_schedule}
   */
   readonly commonSchedule?: DbServiceSnapshotConfigurationScheduleYearlyScheduleCommonSchedule;
   /**
   * month_specific_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#month_specific_schedule DbService#month_specific_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#month_specific_schedule DbService#month_specific_schedule}
   */
   readonly monthSpecificSchedule?: DbServiceSnapshotConfigurationScheduleYearlyScheduleMonthSpecificSchedule[] | cdktf.IResolvable;
 }
@@ -919,31 +1910,31 @@ export interface DbServiceSnapshotConfigurationSchedule {
   /**
   * backup_start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#backup_start_time DbService#backup_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#backup_start_time DbService#backup_start_time}
   */
   readonly backupStartTime?: DbServiceSnapshotConfigurationScheduleBackupStartTime;
   /**
   * daily_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#daily_schedule DbService#daily_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#daily_schedule DbService#daily_schedule}
   */
   readonly dailySchedule?: DbServiceSnapshotConfigurationScheduleDailySchedule;
   /**
   * monthly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#monthly_schedule DbService#monthly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#monthly_schedule DbService#monthly_schedule}
   */
   readonly monthlySchedule?: DbServiceSnapshotConfigurationScheduleMonthlySchedule;
   /**
   * weekly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
   */
   readonly weeklySchedule?: DbServiceSnapshotConfigurationScheduleWeeklySchedule;
   /**
   * yearly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#yearly_schedule DbService#yearly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#yearly_schedule DbService#yearly_schedule}
   */
   readonly yearlySchedule?: DbServiceSnapshotConfigurationScheduleYearlySchedule;
 }
@@ -1143,11 +2134,11 @@ export class DbServiceSnapshotConfigurationScheduleOutputReference extends cdktf
 }
 export interface DbServiceSnapshotConfigurationSnapshotStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#hour DbService#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#hour DbService#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#minute DbService#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#minute DbService#minute}
   */
   readonly minute?: number;
 }
@@ -1262,7 +2253,7 @@ export interface DbServiceSnapshotConfigurationSnapshotWindow {
   /**
   * Time value in (hh:mm) format. ex. '02:00'. Deprecated, please use backupStartTime in schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#time DbService#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#time DbService#time}
   */
   readonly time?: string;
 }
@@ -1348,43 +2339,43 @@ export interface DbServiceSnapshotConfiguration {
   /**
   * Flag to decide whether the transaction logs would be retained to support PITR (Point in time recoverability)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#include_transaction_logs DbService#include_transaction_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#include_transaction_logs DbService#include_transaction_logs}
   */
   readonly includeTransactionLogs?: boolean | cdktf.IResolvable;
   /**
   * Number of days for which the snapshot of DB Service would be retained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#retention_days DbService#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#retention_days DbService#retention_days}
   */
   readonly retentionDays?: number;
   /**
   * The snapshot SLA for the DB Service. If not specified, a default SLA would be associated with the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#sla DbService#sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#sla DbService#sla}
   */
   readonly sla?: string;
   /**
   * full_backup_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#full_backup_schedule DbService#full_backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#full_backup_schedule DbService#full_backup_schedule}
   */
   readonly fullBackupSchedule?: DbServiceSnapshotConfigurationFullBackupSchedule;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#schedule DbService#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#schedule DbService#schedule}
   */
   readonly schedule?: DbServiceSnapshotConfigurationSchedule;
   /**
   * snapshot_start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#snapshot_start_time DbService#snapshot_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#snapshot_start_time DbService#snapshot_start_time}
   */
   readonly snapshotStartTime?: DbServiceSnapshotConfigurationSnapshotStartTime;
   /**
   * snapshot_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#snapshot_window DbService#snapshot_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#snapshot_window DbService#snapshot_window}
   */
   readonly snapshotWindow?: DbServiceSnapshotConfigurationSnapshotWindow;
 }
@@ -1644,13 +2635,13 @@ export interface DbServiceTags {
   /**
   * Case sensitive, tag name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#name DbService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#name DbService#name}
   */
   readonly name?: string;
   /**
   * Case sensitive, tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#value DbService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#value DbService#value}
   */
   readonly value?: string;
 }
@@ -1795,7 +2786,7 @@ export class DbServiceTagsList extends cdktf.ComplexList {
 }
 export interface DbServiceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service#create DbService#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#create DbService#create}
   */
   readonly create?: string;
 }

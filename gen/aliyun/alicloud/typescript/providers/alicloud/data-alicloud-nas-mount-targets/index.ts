@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudNasMountTargetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets#access_group_name DataAlicloudNasMountTargets#access_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets#access_group_name DataAlicloudNasMountTargets#access_group_name}
   */
   readonly accessGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets#file_system_id DataAlicloudNasMountTargets#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets#file_system_id DataAlicloudNasMountTargets#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets#id DataAlicloudNasMountTargets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets#id DataAlicloudNasMountTargets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets#ids DataAlicloudNasMountTargets#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets#ids DataAlicloudNasMountTargets#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets#mount_target_domain DataAlicloudNasMountTargets#mount_target_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets#mount_target_domain DataAlicloudNasMountTargets#mount_target_domain}
   */
   readonly mountTargetDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets#network_type DataAlicloudNasMountTargets#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets#network_type DataAlicloudNasMountTargets#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets#output_file DataAlicloudNasMountTargets#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets#output_file DataAlicloudNasMountTargets#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets#status DataAlicloudNasMountTargets#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets#status DataAlicloudNasMountTargets#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets#type DataAlicloudNasMountTargets#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets#type DataAlicloudNasMountTargets#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets#vpc_id DataAlicloudNasMountTargets#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets#vpc_id DataAlicloudNasMountTargets#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets#vswitch_id DataAlicloudNasMountTargets#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets#vswitch_id DataAlicloudNasMountTargets#vswitch_id}
   */
   readonly vswitchId?: string;
 }
@@ -167,7 +167,7 @@ export class DataAlicloudNasMountTargetsTargetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets alicloud_nas_mount_targets}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets alicloud_nas_mount_targets}
 */
 export class DataAlicloudNasMountTargets extends cdktf.TerraformDataSource {
 
@@ -183,7 +183,7 @@ export class DataAlicloudNasMountTargets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudNasMountTargets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudNasMountTargets to import
-  * @param importFromId The id of the existing DataAlicloudNasMountTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudNasMountTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudNasMountTargets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -195,7 +195,7 @@ export class DataAlicloudNasMountTargets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/nas_mount_targets alicloud_nas_mount_targets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_mount_targets alicloud_nas_mount_targets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -206,8 +206,8 @@ export class DataAlicloudNasMountTargets extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_nas_mount_targets',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

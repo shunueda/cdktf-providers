@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface WedataCodeFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Code file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file#code_file_content WedataCodeFile#code_file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file#code_file_content WedataCodeFile#code_file_content}
   */
   readonly codeFileContent?: string;
   /**
   * Code file name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file#code_file_name WedataCodeFile#code_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file#code_file_name WedataCodeFile#code_file_name}
   */
   readonly codeFileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file#id WedataCodeFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file#id WedataCodeFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface WedataCodeFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Parent folder path, for example /aaa/bbb/ccc, path header must start with a slash, root directory pass /.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file#parent_folder_path WedataCodeFile#parent_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file#parent_folder_path WedataCodeFile#parent_folder_path}
   */
   readonly parentFolderPath: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file#project_id WedataCodeFile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file#project_id WedataCodeFile#project_id}
   */
   readonly projectId: string;
   /**
   * code_file_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file#code_file_config WedataCodeFile#code_file_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file#code_file_config WedataCodeFile#code_file_config}
   */
   readonly codeFileConfig?: WedataCodeFileCodeFileConfig;
 }
@@ -49,13 +49,13 @@ export interface WedataCodeFileCodeFileConfigNotebookSessionInfo {
   /**
   * Session ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file#notebook_session_id WedataCodeFile#notebook_session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file#notebook_session_id WedataCodeFile#notebook_session_id}
   */
   readonly notebookSessionId?: string;
   /**
   * Session name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file#notebook_session_name WedataCodeFile#notebook_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file#notebook_session_name WedataCodeFile#notebook_session_name}
   */
   readonly notebookSessionName?: string;
 }
@@ -170,13 +170,13 @@ export interface WedataCodeFileCodeFileConfig {
   /**
   * Advanced runtime parameters, variable substitution, map-json String,String.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file#params WedataCodeFile#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file#params WedataCodeFile#params}
   */
   readonly params?: string;
   /**
   * notebook_session_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file#notebook_session_info WedataCodeFile#notebook_session_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file#notebook_session_info WedataCodeFile#notebook_session_info}
   */
   readonly notebookSessionInfo?: WedataCodeFileCodeFileConfigNotebookSessionInfo;
 }
@@ -289,7 +289,7 @@ export class WedataCodeFileCodeFileConfigOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file tencentcloud_wedata_code_file}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file tencentcloud_wedata_code_file}
 */
 export class WedataCodeFile extends cdktf.TerraformResource {
 
@@ -305,7 +305,7 @@ export class WedataCodeFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataCodeFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataCodeFile to import
-  * @param importFromId The id of the existing WedataCodeFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataCodeFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataCodeFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -317,7 +317,7 @@ export class WedataCodeFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_code_file tencentcloud_wedata_code_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/wedata_code_file tencentcloud_wedata_code_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -328,8 +328,8 @@ export class WedataCodeFile extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_code_file',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

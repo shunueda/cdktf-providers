@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed
+// https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CheckPagespeedConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#config CheckPagespeed#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#config CheckPagespeed#config}
   */
   readonly config?: CheckPagespeedConfigA;
   /**
@@ -16,49 +16,49 @@ export interface CheckPagespeedConfig extends cdktf.TerraformMetaArguments {
   * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#contact_groups CheckPagespeed#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#contact_groups CheckPagespeed#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#headers CheckPagespeed#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#headers CheckPagespeed#headers}
   */
   readonly headers?: string;
   /**
   * The interval between checks in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#interval CheckPagespeed#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#interval CheckPagespeed#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#is_paused CheckPagespeed#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#is_paused CheckPagespeed#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#locations CheckPagespeed#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#locations CheckPagespeed#locations}
   */
   readonly locations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#name CheckPagespeed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#name CheckPagespeed#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#notes CheckPagespeed#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#notes CheckPagespeed#notes}
   */
   readonly notes?: string;
   /**
   * How many times the check should be retried before a location is considered down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#num_retries CheckPagespeed#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#num_retries CheckPagespeed#num_retries}
   */
   readonly numRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#password CheckPagespeed#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#password CheckPagespeed#password}
   */
   readonly password?: string;
   /**
   * The script to run. Must be valid JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#script CheckPagespeed#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#script CheckPagespeed#script}
   */
   readonly script: string;
   /**
@@ -68,29 +68,29 @@ export interface CheckPagespeedConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#tags CheckPagespeed#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#tags CheckPagespeed#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#username CheckPagespeed#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#username CheckPagespeed#username}
   */
   readonly username?: string;
 }
 export interface CheckPagespeedConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#connection_throttling CheckPagespeed#connection_throttling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#connection_throttling CheckPagespeed#connection_throttling}
   */
   readonly connectionThrottling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#emulated_device CheckPagespeed#emulated_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#emulated_device CheckPagespeed#emulated_device}
   */
   readonly emulatedDevice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#exclude_urls CheckPagespeed#exclude_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#exclude_urls CheckPagespeed#exclude_urls}
   */
   readonly excludeUrls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#uptime_grade_threshold CheckPagespeed#uptime_grade_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#uptime_grade_threshold CheckPagespeed#uptime_grade_threshold}
   */
   readonly uptimeGradeThreshold?: string;
 }
@@ -271,7 +271,7 @@ export class CheckPagespeedConfigAOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed uptime_check_pagespeed}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed uptime_check_pagespeed}
 */
 export class CheckPagespeed extends cdktf.TerraformResource {
 
@@ -287,7 +287,7 @@ export class CheckPagespeed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckPagespeed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckPagespeed to import
-  * @param importFromId The id of the existing CheckPagespeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckPagespeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckPagespeed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -299,7 +299,7 @@ export class CheckPagespeed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_pagespeed uptime_check_pagespeed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_pagespeed uptime_check_pagespeed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -310,8 +310,8 @@ export class CheckPagespeed extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_pagespeed',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.16.0',
-        providerVersionConstraint: '2.16.0'
+        providerVersion: '2.17.1',
+        providerVersionConstraint: '2.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

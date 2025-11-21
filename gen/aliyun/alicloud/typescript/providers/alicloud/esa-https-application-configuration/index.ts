@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,106 @@ import * as cdktf from 'cdktf';
 
 export interface EsaHttpsApplicationConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#alt_svc EsaHttpsApplicationConfiguration#alt_svc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#alt_svc EsaHttpsApplicationConfiguration#alt_svc}
   */
   readonly altSvc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#alt_svc_clear EsaHttpsApplicationConfiguration#alt_svc_clear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#alt_svc_clear EsaHttpsApplicationConfiguration#alt_svc_clear}
   */
   readonly altSvcClear?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#alt_svc_ma EsaHttpsApplicationConfiguration#alt_svc_ma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#alt_svc_ma EsaHttpsApplicationConfiguration#alt_svc_ma}
   */
   readonly altSvcMa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#alt_svc_persist EsaHttpsApplicationConfiguration#alt_svc_persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#alt_svc_persist EsaHttpsApplicationConfiguration#alt_svc_persist}
   */
   readonly altSvcPersist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#hsts EsaHttpsApplicationConfiguration#hsts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#hsts EsaHttpsApplicationConfiguration#hsts}
   */
   readonly hsts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#hsts_include_subdomains EsaHttpsApplicationConfiguration#hsts_include_subdomains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#hsts_include_subdomains EsaHttpsApplicationConfiguration#hsts_include_subdomains}
   */
   readonly hstsIncludeSubdomains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#hsts_max_age EsaHttpsApplicationConfiguration#hsts_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#hsts_max_age EsaHttpsApplicationConfiguration#hsts_max_age}
   */
   readonly hstsMaxAge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#hsts_preload EsaHttpsApplicationConfiguration#hsts_preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#hsts_preload EsaHttpsApplicationConfiguration#hsts_preload}
   */
   readonly hstsPreload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#https_force EsaHttpsApplicationConfiguration#https_force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#https_force EsaHttpsApplicationConfiguration#https_force}
   */
   readonly httpsForce?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#https_force_code EsaHttpsApplicationConfiguration#https_force_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#https_force_code EsaHttpsApplicationConfiguration#https_force_code}
   */
   readonly httpsForceCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#https_no_sni_deny EsaHttpsApplicationConfiguration#https_no_sni_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#https_no_sni_deny EsaHttpsApplicationConfiguration#https_no_sni_deny}
   */
   readonly httpsNoSniDeny?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#https_sni_verify EsaHttpsApplicationConfiguration#https_sni_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#https_sni_verify EsaHttpsApplicationConfiguration#https_sni_verify}
   */
   readonly httpsSniVerify?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#https_sni_whitelist EsaHttpsApplicationConfiguration#https_sni_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#https_sni_whitelist EsaHttpsApplicationConfiguration#https_sni_whitelist}
   */
   readonly httpsSniWhitelist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#id EsaHttpsApplicationConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#id EsaHttpsApplicationConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#rule EsaHttpsApplicationConfiguration#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#rule EsaHttpsApplicationConfiguration#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#rule_enable EsaHttpsApplicationConfiguration#rule_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#rule_enable EsaHttpsApplicationConfiguration#rule_enable}
   */
   readonly ruleEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#rule_name EsaHttpsApplicationConfiguration#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#rule_name EsaHttpsApplicationConfiguration#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#sequence EsaHttpsApplicationConfiguration#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#sequence EsaHttpsApplicationConfiguration#sequence}
   */
   readonly sequence?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#site_id EsaHttpsApplicationConfiguration#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#site_id EsaHttpsApplicationConfiguration#site_id}
   */
   readonly siteId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#site_version EsaHttpsApplicationConfiguration#site_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#site_version EsaHttpsApplicationConfiguration#site_version}
   */
   readonly siteVersion?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#timeouts EsaHttpsApplicationConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#timeouts EsaHttpsApplicationConfiguration#timeouts}
   */
   readonly timeouts?: EsaHttpsApplicationConfigurationTimeouts;
 }
 export interface EsaHttpsApplicationConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#create EsaHttpsApplicationConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#create EsaHttpsApplicationConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#delete EsaHttpsApplicationConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#delete EsaHttpsApplicationConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#update EsaHttpsApplicationConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#update EsaHttpsApplicationConfiguration#update}
   */
   readonly update?: string;
 }
@@ -259,7 +259,7 @@ export class EsaHttpsApplicationConfigurationTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration alicloud_esa_https_application_configuration}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration alicloud_esa_https_application_configuration}
 */
 export class EsaHttpsApplicationConfiguration extends cdktf.TerraformResource {
 
@@ -275,7 +275,7 @@ export class EsaHttpsApplicationConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaHttpsApplicationConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaHttpsApplicationConfiguration to import
-  * @param importFromId The id of the existing EsaHttpsApplicationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaHttpsApplicationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaHttpsApplicationConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -287,7 +287,7 @@ export class EsaHttpsApplicationConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_https_application_configuration alicloud_esa_https_application_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_application_configuration alicloud_esa_https_application_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -298,8 +298,8 @@ export class EsaHttpsApplicationConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_https_application_configuration',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

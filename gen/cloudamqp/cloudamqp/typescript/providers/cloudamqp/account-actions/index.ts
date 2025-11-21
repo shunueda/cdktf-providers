@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/account_actions
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/account_actions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AccountActionsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action to perform on the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/account_actions#action AccountActions#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/account_actions#action AccountActions#action}
   */
   readonly action: string;
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/account_actions#instance_id AccountActions#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/account_actions#instance_id AccountActions#instance_id}
   */
   readonly instanceId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/account_actions cloudamqp_account_actions}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/account_actions cloudamqp_account_actions}
 */
 export class AccountActions extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class AccountActions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccountActions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountActions to import
-  * @param importFromId The id of the existing AccountActions that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/account_actions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountActions that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/account_actions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountActions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class AccountActions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/account_actions cloudamqp_account_actions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/account_actions cloudamqp_account_actions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class AccountActions extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_account_actions',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.2',
-        providerVersionConstraint: '1.38.2'
+        providerVersion: '1.38.3',
+        providerVersionConstraint: '1.38.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

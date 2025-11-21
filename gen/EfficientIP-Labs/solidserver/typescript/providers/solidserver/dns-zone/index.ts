@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of IP addresses (Format <IP>:<Port>) that will receive zone change notifications in addition to the NS listed in the SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone#also_notify DnsZone#also_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone#also_notify DnsZone#also_notify}
   */
   readonly alsoNotify?: string[];
   /**
   * The class associated to the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone#class DnsZone#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone#class DnsZone#class}
   */
   readonly class?: string;
   /**
   * The class parameters associated to the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone#class_parameters DnsZone#class_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone#class_parameters DnsZone#class_parameters}
   */
   readonly classParameters?: { [key: string]: string };
   /**
   * Automaticaly create PTR records for the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone#createptr DnsZone#createptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone#createptr DnsZone#createptr}
   */
   readonly createptr?: boolean | cdktf.IResolvable;
   /**
   * The name of DNS server or DNS SMART hosting the DNS zone to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone#dnsserver DnsZone#dnsserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone#dnsserver DnsZone#dnsserver}
   */
   readonly dnsserver: string;
   /**
   * The name of DNS view hosting the DNS zone to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone#dnsview DnsZone#dnsview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone#dnsview DnsZone#dnsview}
   */
   readonly dnsview?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone#id DnsZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone#id DnsZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,31 +53,31 @@ export interface DnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Domain Name to be hosted by the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name: string;
   /**
   * The expected notify behavior (Supported: empty (Inherited), Yes, No, Explicit; Default: empty (Inherited).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone#notify DnsZone#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone#notify DnsZone#notify}
   */
   readonly notify?: string;
   /**
   * The name of a space associated to the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone#space DnsZone#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone#space DnsZone#space}
   */
   readonly space?: string;
   /**
   * The type of the zone to create (Supported: Master).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone#type DnsZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone#type DnsZone#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone solidserver_dns_zone}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone solidserver_dns_zone}
 */
 export class DnsZone extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class DnsZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsZone to import
-  * @param importFromId The id of the existing DnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class DnsZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_zone solidserver_dns_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_zone solidserver_dns_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class DnsZone extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

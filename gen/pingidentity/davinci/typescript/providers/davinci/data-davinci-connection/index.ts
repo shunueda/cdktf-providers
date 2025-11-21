@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/connection
+// https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataDavinciConnectionConfig extends cdktf.TerraformMetaArgument
   /**
   * A string that specifies the ID of the connection to retrieve. Either `connection_id` or `name` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/connection#connection_id DataDavinciConnection#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/connection#connection_id DataDavinciConnection#connection_id}
   */
   readonly connectionId?: string;
   /**
   * The ID of the PingOne environment to retrieve a connection from. Must be a valid PingOne resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/connection#environment_id DataDavinciConnection#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/connection#environment_id DataDavinciConnection#environment_id}
   */
   readonly environmentId: string;
   /**
   * A string that specifies the ID of the connection to retrieve.  This field is deprecated for retrieving the connection and will be made read only in a future release, use `connection_id` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/connection#id DataDavinciConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/connection#id DataDavinciConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,13 +31,13 @@ export interface DataDavinciConnectionConfig extends cdktf.TerraformMetaArgument
   /**
   * A string that specifies the name of the connection to retrieve. Either `id` or `name` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/connection#name DataDavinciConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/connection#name DataDavinciConnection#name}
   */
   readonly name?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/connection#timeouts DataDavinciConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/connection#timeouts DataDavinciConnection#timeouts}
   */
   readonly timeouts?: DataDavinciConnectionTimeouts;
 }
@@ -128,7 +128,7 @@ export class DataDavinciConnectionPropertyList extends cdktf.ComplexList {
 }
 export interface DataDavinciConnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/connection#read DataDavinciConnection#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/connection#read DataDavinciConnection#read}
   */
   readonly read?: string;
 }
@@ -222,7 +222,7 @@ export class DataDavinciConnectionTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/connection davinci_connection}
+* Represents a {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/connection davinci_connection}
 */
 export class DataDavinciConnection extends cdktf.TerraformDataSource {
 
@@ -238,7 +238,7 @@ export class DataDavinciConnection extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDavinciConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDavinciConnection to import
-  * @param importFromId The id of the existing DataDavinciConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDavinciConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDavinciConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -250,7 +250,7 @@ export class DataDavinciConnection extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/connection davinci_connection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/connection davinci_connection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,8 +261,8 @@ export class DataDavinciConnection extends cdktf.TerraformDataSource {
       terraformResourceType: 'davinci_connection',
       terraformGeneratorMetadata: {
         providerName: 'davinci',
-        providerVersion: '0.5.2',
-        providerVersionConstraint: '0.5.2'
+        providerVersion: '0.5.3',
+        providerVersionConstraint: '0.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

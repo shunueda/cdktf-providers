@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh
+// https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface CheckSshConfig extends cdktf.TerraformMetaArguments {
   * Must start and end with alphanumeric characters, can contain hyphens but not at the start or end, 
   * and must have at least one dot separator between valid DNS labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#address CheckSsh#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#address CheckSsh#address}
   */
   readonly address: string;
   /**
@@ -20,59 +20,59 @@ export interface CheckSshConfig extends cdktf.TerraformMetaArguments {
   * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#contact_groups CheckSsh#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#contact_groups CheckSsh#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Include this check in uptime/response time calculations for the dashboard and status pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#include_in_global_metrics CheckSsh#include_in_global_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#include_in_global_metrics CheckSsh#include_in_global_metrics}
   */
   readonly includeInGlobalMetrics?: boolean | cdktf.IResolvable;
   /**
   * The interval between checks in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#interval CheckSsh#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#interval CheckSsh#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#is_paused CheckSsh#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#is_paused CheckSsh#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#locations CheckSsh#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#locations CheckSsh#locations}
   */
   readonly locations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#name CheckSsh#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#name CheckSsh#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#notes CheckSsh#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#notes CheckSsh#notes}
   */
   readonly notes?: string;
   /**
   * How many times the check should be retried before a location is considered down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#num_retries CheckSsh#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#num_retries CheckSsh#num_retries}
   */
   readonly numRetries?: number;
   /**
   * The port to check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#port CheckSsh#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#port CheckSsh#port}
   */
   readonly port: number;
   /**
   * How many locations should be down before an alert is sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#sensitivity CheckSsh#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#sensitivity CheckSsh#sensitivity}
   */
   readonly sensitivity?: number;
   /**
   * SLA related attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#sla CheckSsh#sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#sla CheckSsh#sla}
   */
   readonly sla?: CheckSshSla;
   /**
@@ -82,13 +82,13 @@ export interface CheckSshConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#tags CheckSsh#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#tags CheckSsh#tags}
   */
   readonly tags?: string[];
   /**
   * Whether to use IPv4 or IPv6 for the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#use_ip_version CheckSsh#use_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#use_ip_version CheckSsh#use_ip_version}
   */
   readonly useIpVersion?: string;
 }
@@ -96,13 +96,13 @@ export interface CheckSshSla {
   /**
   * The maximum average response time. Unit is mandatory (e.g. 1500ms or 1.5s or 1s500ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#latency CheckSsh#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#latency CheckSsh#latency}
   */
   readonly latency?: string;
   /**
   * The minimum uptime percentage. \nMust be a fraction with exactly 4 decimal places (e.g. 0.9995 for 99.95% uptime)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#uptime CheckSsh#uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#uptime CheckSsh#uptime}
   */
   readonly uptime?: string;
 }
@@ -225,7 +225,7 @@ export class CheckSshSlaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh uptime_check_ssh}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh uptime_check_ssh}
 */
 export class CheckSsh extends cdktf.TerraformResource {
 
@@ -241,7 +241,7 @@ export class CheckSsh extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckSsh resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckSsh to import
-  * @param importFromId The id of the existing CheckSsh that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckSsh that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckSsh to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class CheckSsh extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_ssh uptime_check_ssh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_ssh uptime_check_ssh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +264,8 @@ export class CheckSsh extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_ssh',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.16.0',
-        providerVersionConstraint: '2.16.0'
+        providerVersion: '2.17.1',
+        providerVersionConstraint: '2.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

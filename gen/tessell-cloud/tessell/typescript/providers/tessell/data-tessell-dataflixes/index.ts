@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/dataflixes
+// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/dataflixes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTessellDataflixesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/dataflixes#id DataTessellDataflixes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/dataflixes#id DataTessellDataflixes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTessellDataflixesConfig extends cdktf.TerraformMetaArgument
   /**
   * Load ACL information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/dataflixes#load_acls DataTessellDataflixes#load_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/dataflixes#load_acls DataTessellDataflixes#load_acls}
   */
   readonly loadAcls?: boolean | cdktf.IResolvable;
   /**
   * Name of the Availability Machine (Dataflix)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/dataflixes#name DataTessellDataflixes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/dataflixes#name DataTessellDataflixes#name}
   */
   readonly name?: string;
   /**
   * List of Email Addresses for entity or resource owners
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/dataflixes#owners DataTessellDataflixes#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/dataflixes#owners DataTessellDataflixes#owners}
   */
   readonly owners?: string[];
 }
@@ -388,7 +388,7 @@ export class DataTessellDataflixesDataflixesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/dataflixes tessell_dataflixes}
+* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/dataflixes tessell_dataflixes}
 */
 export class DataTessellDataflixes extends cdktf.TerraformDataSource {
 
@@ -404,7 +404,7 @@ export class DataTessellDataflixes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTessellDataflixes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTessellDataflixes to import
-  * @param importFromId The id of the existing DataTessellDataflixes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/dataflixes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTessellDataflixes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/dataflixes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTessellDataflixes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -416,7 +416,7 @@ export class DataTessellDataflixes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/dataflixes tessell_dataflixes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/dataflixes tessell_dataflixes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -427,8 +427,8 @@ export class DataTessellDataflixes extends cdktf.TerraformDataSource {
       terraformResourceType: 'tessell_dataflixes',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.27',
-        providerVersionConstraint: '0.0.27'
+        providerVersion: '0.0.28',
+        providerVersionConstraint: '0.0.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

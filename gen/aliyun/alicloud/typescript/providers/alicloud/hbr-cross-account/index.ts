@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_cross_account
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_cross_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface HbrCrossAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_cross_account#alias HbrCrossAccount#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_cross_account#alias HbrCrossAccount#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_cross_account#cross_account_role_name HbrCrossAccount#cross_account_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_cross_account#cross_account_role_name HbrCrossAccount#cross_account_role_name}
   */
   readonly crossAccountRoleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_cross_account#cross_account_user_id HbrCrossAccount#cross_account_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_cross_account#cross_account_user_id HbrCrossAccount#cross_account_user_id}
   */
   readonly crossAccountUserId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_cross_account#id HbrCrossAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_cross_account#id HbrCrossAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,17 +29,17 @@ export interface HbrCrossAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_cross_account#timeouts HbrCrossAccount#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_cross_account#timeouts HbrCrossAccount#timeouts}
   */
   readonly timeouts?: HbrCrossAccountTimeouts;
 }
 export interface HbrCrossAccountTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_cross_account#create HbrCrossAccount#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_cross_account#create HbrCrossAccount#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_cross_account#delete HbrCrossAccount#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_cross_account#delete HbrCrossAccount#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class HbrCrossAccountTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_cross_account alicloud_hbr_cross_account}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_cross_account alicloud_hbr_cross_account}
 */
 export class HbrCrossAccount extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class HbrCrossAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HbrCrossAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HbrCrossAccount to import
-  * @param importFromId The id of the existing HbrCrossAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_cross_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HbrCrossAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_cross_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HbrCrossAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class HbrCrossAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_cross_account alicloud_hbr_cross_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_cross_account alicloud_hbr_cross_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class HbrCrossAccount extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_hbr_cross_account',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

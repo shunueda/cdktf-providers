@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_customize_error_page
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_customize_error_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TeoCustomizeErrorPageConfig extends cdktf.TerraformMetaArgument
   /**
   * Custom error page content, not exceeding 2 KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_customize_error_page#content TeoCustomizeErrorPage#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_customize_error_page#content TeoCustomizeErrorPage#content}
   */
   readonly content?: string;
   /**
   * Custom error page type, with values:<li>text/html; </li><li>application/json;</li><li>text/plain;</li><li>text/xml.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_customize_error_page#content_type TeoCustomizeErrorPage#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_customize_error_page#content_type TeoCustomizeErrorPage#content_type}
   */
   readonly contentType: string;
   /**
   * Custom error page description, not exceeding 60 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_customize_error_page#description TeoCustomizeErrorPage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_customize_error_page#description TeoCustomizeErrorPage#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_customize_error_page#id TeoCustomizeErrorPage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_customize_error_page#id TeoCustomizeErrorPage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface TeoCustomizeErrorPageConfig extends cdktf.TerraformMetaArgument
   /**
   * Custom error page name. The name must be 2-30 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_customize_error_page#name TeoCustomizeErrorPage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_customize_error_page#name TeoCustomizeErrorPage#name}
   */
   readonly name: string;
   /**
   * Zone ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_customize_error_page#zone_id TeoCustomizeErrorPage#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_customize_error_page#zone_id TeoCustomizeErrorPage#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_customize_error_page tencentcloud_teo_customize_error_page}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_customize_error_page tencentcloud_teo_customize_error_page}
 */
 export class TeoCustomizeErrorPage extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class TeoCustomizeErrorPage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoCustomizeErrorPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoCustomizeErrorPage to import
-  * @param importFromId The id of the existing TeoCustomizeErrorPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_customize_error_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoCustomizeErrorPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_customize_error_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoCustomizeErrorPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class TeoCustomizeErrorPage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_customize_error_page tencentcloud_teo_customize_error_page} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/teo_customize_error_page tencentcloud_teo_customize_error_page} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class TeoCustomizeErrorPage extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_customize_error_page',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

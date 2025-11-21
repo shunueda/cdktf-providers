@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface CloudStorageGatewayGatewayBlockVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#cache_mode CloudStorageGatewayGatewayBlockVolume#cache_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#cache_mode CloudStorageGatewayGatewayBlockVolume#cache_mode}
   */
   readonly cacheMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#chap_enabled CloudStorageGatewayGatewayBlockVolume#chap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#chap_enabled CloudStorageGatewayGatewayBlockVolume#chap_enabled}
   */
   readonly chapEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#chap_in_password CloudStorageGatewayGatewayBlockVolume#chap_in_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#chap_in_password CloudStorageGatewayGatewayBlockVolume#chap_in_password}
   */
   readonly chapInPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#chap_in_user CloudStorageGatewayGatewayBlockVolume#chap_in_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#chap_in_user CloudStorageGatewayGatewayBlockVolume#chap_in_user}
   */
   readonly chapInUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#chunk_size CloudStorageGatewayGatewayBlockVolume#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#chunk_size CloudStorageGatewayGatewayBlockVolume#chunk_size}
   */
   readonly chunkSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#gateway_block_volume_name CloudStorageGatewayGatewayBlockVolume#gateway_block_volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#gateway_block_volume_name CloudStorageGatewayGatewayBlockVolume#gateway_block_volume_name}
   */
   readonly gatewayBlockVolumeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#gateway_id CloudStorageGatewayGatewayBlockVolume#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#gateway_id CloudStorageGatewayGatewayBlockVolume#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#id CloudStorageGatewayGatewayBlockVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#id CloudStorageGatewayGatewayBlockVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#is_source_deletion CloudStorageGatewayGatewayBlockVolume#is_source_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#is_source_deletion CloudStorageGatewayGatewayBlockVolume#is_source_deletion}
   */
   readonly isSourceDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#local_path CloudStorageGatewayGatewayBlockVolume#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#local_path CloudStorageGatewayGatewayBlockVolume#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#oss_bucket_name CloudStorageGatewayGatewayBlockVolume#oss_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#oss_bucket_name CloudStorageGatewayGatewayBlockVolume#oss_bucket_name}
   */
   readonly ossBucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#oss_bucket_ssl CloudStorageGatewayGatewayBlockVolume#oss_bucket_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#oss_bucket_ssl CloudStorageGatewayGatewayBlockVolume#oss_bucket_ssl}
   */
   readonly ossBucketSsl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#oss_endpoint CloudStorageGatewayGatewayBlockVolume#oss_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#oss_endpoint CloudStorageGatewayGatewayBlockVolume#oss_endpoint}
   */
   readonly ossEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#protocol CloudStorageGatewayGatewayBlockVolume#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#protocol CloudStorageGatewayGatewayBlockVolume#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#recovery CloudStorageGatewayGatewayBlockVolume#recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#recovery CloudStorageGatewayGatewayBlockVolume#recovery}
   */
   readonly recovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#size CloudStorageGatewayGatewayBlockVolume#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#size CloudStorageGatewayGatewayBlockVolume#size}
   */
   readonly size?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#timeouts CloudStorageGatewayGatewayBlockVolume#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#timeouts CloudStorageGatewayGatewayBlockVolume#timeouts}
   */
   readonly timeouts?: CloudStorageGatewayGatewayBlockVolumeTimeouts;
 }
 export interface CloudStorageGatewayGatewayBlockVolumeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#create CloudStorageGatewayGatewayBlockVolume#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#create CloudStorageGatewayGatewayBlockVolume#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#delete CloudStorageGatewayGatewayBlockVolume#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#delete CloudStorageGatewayGatewayBlockVolume#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#update CloudStorageGatewayGatewayBlockVolume#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#update CloudStorageGatewayGatewayBlockVolume#update}
   */
   readonly update?: string;
 }
@@ -243,7 +243,7 @@ export class CloudStorageGatewayGatewayBlockVolumeTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume alicloud_cloud_storage_gateway_gateway_block_volume}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume alicloud_cloud_storage_gateway_gateway_block_volume}
 */
 export class CloudStorageGatewayGatewayBlockVolume extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class CloudStorageGatewayGatewayBlockVolume extends cdktf.TerraformResour
   * Generates CDKTF code for importing a CloudStorageGatewayGatewayBlockVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudStorageGatewayGatewayBlockVolume to import
-  * @param importFromId The id of the existing CloudStorageGatewayGatewayBlockVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudStorageGatewayGatewayBlockVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudStorageGatewayGatewayBlockVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class CloudStorageGatewayGatewayBlockVolume extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_storage_gateway_gateway_block_volume alicloud_cloud_storage_gateway_gateway_block_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway_block_volume alicloud_cloud_storage_gateway_gateway_block_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class CloudStorageGatewayGatewayBlockVolume extends cdktf.TerraformResour
       terraformResourceType: 'alicloud_cloud_storage_gateway_gateway_block_volume',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

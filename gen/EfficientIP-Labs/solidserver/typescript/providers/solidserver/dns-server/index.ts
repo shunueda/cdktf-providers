@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface DnsServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IPv4 address of the DNS server to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#address DnsServer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#address DnsServer#address}
   */
   readonly address: string;
   /**
   * A list of network prefixes allowed to query the DNS server (named ACL(s) are not supported using this provider).  Use '!' to negate an entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#allow_query DnsServer#allow_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#allow_query DnsServer#allow_query}
   */
   readonly allowQuery?: string[];
   /**
   * A list of network prefixes allowed to query the DNS server for recursion (named ACL(s) are not supported using this provider).  Use '!' to negate an entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#allow_recursion DnsServer#allow_recursion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#allow_recursion DnsServer#allow_recursion}
   */
   readonly allowRecursion?: string[];
   /**
   * A list of network prefixes allowed to query the DNS server for zone transfert (named ACL(s) are not supported using this provider).  Use '!' to negate an entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#allow_transfer DnsServer#allow_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#allow_transfer DnsServer#allow_transfer}
   */
   readonly allowTransfer?: string[];
   /**
   * The class associated to the DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#class DnsServer#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#class DnsServer#class}
   */
   readonly class?: string;
   /**
   * The class parameters associated to the DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#class_parameters DnsServer#class_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#class_parameters DnsServer#class_parameters}
   */
   readonly classParameters?: { [key: string]: string };
   /**
   * Custom information about the DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#comment DnsServer#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#comment DnsServer#comment}
   */
   readonly comment?: string;
   /**
   * The forwarding mode of the DNS server (Supported: none, first, only; Default: none).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#forward DnsServer#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#forward DnsServer#forward}
   */
   readonly forward?: string;
   /**
   * The list of forwarders' IP address to be used by the DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#forwarders DnsServer#forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#forwarders DnsServer#forwarders}
   */
   readonly forwarders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#id DnsServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#id DnsServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,43 +71,43 @@ export interface DnsServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The login to use for enrolling of the DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#login DnsServer#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#login DnsServer#login}
   */
   readonly login: string;
   /**
   * The name of the DNS server to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#name DnsServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#name DnsServer#name}
   */
   readonly name: string;
   /**
   * The password to use the enrolling of the DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#password DnsServer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#password DnsServer#password}
   */
   readonly password: string;
   /**
   * The recursion mode of the DNS server (Default: true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#recursion DnsServer#recursion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#recursion DnsServer#recursion}
   */
   readonly recursion?: boolean | cdktf.IResolvable;
   /**
   * The DNS SMART the DNS server must join.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#smart DnsServer#smart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#smart DnsServer#smart}
   */
   readonly smart?: string;
   /**
   * The role the DNS server will play within the SMART (Supported: master, slave; Default: slave).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#smart_role DnsServer#smart_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#smart_role DnsServer#smart_role}
   */
   readonly smartRole?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server solidserver_dns_server}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server solidserver_dns_server}
 */
 export class DnsServer extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class DnsServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsServer to import
-  * @param importFromId The id of the existing DnsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DnsServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_server solidserver_dns_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_server solidserver_dns_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DnsServer extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_dns_server',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

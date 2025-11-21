@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface AligreenAuditCallbackConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback#audit_callback_name AligreenAuditCallback#audit_callback_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback#audit_callback_name AligreenAuditCallback#audit_callback_name}
   */
   readonly auditCallbackName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback#callback_suggestions AligreenAuditCallback#callback_suggestions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback#callback_suggestions AligreenAuditCallback#callback_suggestions}
   */
   readonly callbackSuggestions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback#callback_types AligreenAuditCallback#callback_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback#callback_types AligreenAuditCallback#callback_types}
   */
   readonly callbackTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback#crypt_type AligreenAuditCallback#crypt_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback#crypt_type AligreenAuditCallback#crypt_type}
   */
   readonly cryptType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback#id AligreenAuditCallback#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback#id AligreenAuditCallback#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback#url AligreenAuditCallback#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback#url AligreenAuditCallback#url}
   */
   readonly url: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback#timeouts AligreenAuditCallback#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback#timeouts AligreenAuditCallback#timeouts}
   */
   readonly timeouts?: AligreenAuditCallbackTimeouts;
 }
 export interface AligreenAuditCallbackTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback#create AligreenAuditCallback#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback#create AligreenAuditCallback#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback#delete AligreenAuditCallback#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback#delete AligreenAuditCallback#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback#update AligreenAuditCallback#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback#update AligreenAuditCallback#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class AligreenAuditCallbackTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback alicloud_aligreen_audit_callback}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback alicloud_aligreen_audit_callback}
 */
 export class AligreenAuditCallback extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class AligreenAuditCallback extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AligreenAuditCallback resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AligreenAuditCallback to import
-  * @param importFromId The id of the existing AligreenAuditCallback that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AligreenAuditCallback that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AligreenAuditCallback to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class AligreenAuditCallback extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/aligreen_audit_callback alicloud_aligreen_audit_callback} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/aligreen_audit_callback alicloud_aligreen_audit_callback} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class AligreenAuditCallback extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_aligreen_audit_callback',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

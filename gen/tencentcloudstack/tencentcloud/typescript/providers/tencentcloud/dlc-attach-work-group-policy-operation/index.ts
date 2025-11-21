@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DlcAttachWorkGroupPolicyOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#id DlcAttachWorkGroupPolicyOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#id DlcAttachWorkGroupPolicyOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DlcAttachWorkGroupPolicyOperationConfig extends cdktf.Terraform
   /**
   * Work group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#work_group_id DlcAttachWorkGroupPolicyOperation#work_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#work_group_id DlcAttachWorkGroupPolicyOperation#work_group_id}
   */
   readonly workGroupId: number;
   /**
   * policy_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#policy_set DlcAttachWorkGroupPolicyOperation#policy_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#policy_set DlcAttachWorkGroupPolicyOperation#policy_set}
   */
   readonly policySet?: DlcAttachWorkGroupPolicyOperationPolicySet[] | cdktf.IResolvable;
 }
@@ -31,43 +31,43 @@ export interface DlcAttachWorkGroupPolicyOperationPolicySet {
   /**
   * The name of the target data source. To grant admin permission, it must be `*` (all resources at this level); to grant data source and database permissions, it must be `COSDataCatalog` or `*`; to grant table permissions, it can be a custom data source; if it is left empty, `DataLakeCatalog` is used. Note: To grant permissions on a custom data source, the permissions that can be managed in the Data Lake Compute console are subsets of the account permissions granted when you connect the data source to the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#catalog DlcAttachWorkGroupPolicyOperation#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#catalog DlcAttachWorkGroupPolicyOperation#catalog}
   */
   readonly catalog: string;
   /**
   *  The name of the target column. `*` represents all columns. To grant admin permissions, it must be `*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#column DlcAttachWorkGroupPolicyOperation#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#column DlcAttachWorkGroupPolicyOperation#column}
   */
   readonly column?: string;
   /**
   * The permission policy creation time, which is not required as an input parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#create_time DlcAttachWorkGroupPolicyOperation#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#create_time DlcAttachWorkGroupPolicyOperation#create_time}
   */
   readonly createTime?: string;
   /**
   * The name of the target data engine. `*` represents all engines. To grant admin permissions, it must be `*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#data_engine DlcAttachWorkGroupPolicyOperation#data_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#data_engine DlcAttachWorkGroupPolicyOperation#data_engine}
   */
   readonly dataEngine?: string;
   /**
   * The name of the target database. `*` represents all databases in the current catalog. To grant admin permissions, it must be `*`; to grant data connection permissions, it must be null; to grant other permissions, it can be any database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#database DlcAttachWorkGroupPolicyOperation#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#database DlcAttachWorkGroupPolicyOperation#database}
   */
   readonly database: string;
   /**
   * The name of the target function. `*` represents all functions in the current catalog. To grant admin permissions, it must be `*`; to grant data connection permissions, it must be null; to grant other permissions, it can be any function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#function DlcAttachWorkGroupPolicyOperation#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#function DlcAttachWorkGroupPolicyOperation#function}
   */
   readonly function?: string;
   /**
   * The policy ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#id DlcAttachWorkGroupPolicyOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#id DlcAttachWorkGroupPolicyOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,61 +76,61 @@ export interface DlcAttachWorkGroupPolicyOperationPolicySet {
   /**
   * The grant mode, which is not required as an input parameter. Valid values: `COMMON` and `SENIOR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#mode DlcAttachWorkGroupPolicyOperation#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#mode DlcAttachWorkGroupPolicyOperation#mode}
   */
   readonly mode?: string;
   /**
   * The target permissions, which vary by permission level. Admin: `ALL` (default); data connection: `CREATE`; database: `ALL`, `CREATE`, `ALTER`, and `DROP`; table: `ALL`, `SELECT`, `INSERT`, `ALTER`, `DELETE`, `DROP`, and `UPDATE`. Note: For table permissions, if a data source other than `COSDataCatalog` is specified, only the `SELECT` permission can be granted here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#operation DlcAttachWorkGroupPolicyOperation#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#operation DlcAttachWorkGroupPolicyOperation#operation}
   */
   readonly operation: string;
   /**
   * The operator, which is not required as an input parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#operator DlcAttachWorkGroupPolicyOperation#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#operator DlcAttachWorkGroupPolicyOperation#operator}
   */
   readonly operator?: string;
   /**
   * The permission type. Valid values: `ADMIN`, `DATASOURCE`, `DATABASE`, `TABLE`, `VIEW`, `FUNCTION`, `COLUMN`, and `ENGINE`. Note: If it is left empty, `ADMIN` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#policy_type DlcAttachWorkGroupPolicyOperation#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#policy_type DlcAttachWorkGroupPolicyOperation#policy_type}
   */
   readonly policyType?: string;
   /**
   * Whether the grantee is allowed to further grant the permissions. Valid values: `false` (default) and `true` (the grantee can grant permissions gained here to other sub-users).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#re_auth DlcAttachWorkGroupPolicyOperation#re_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#re_auth DlcAttachWorkGroupPolicyOperation#re_auth}
   */
   readonly reAuth?: boolean | cdktf.IResolvable;
   /**
   * The permission source, which is not required when input parameters are passed in. Valid values: `USER` (from the user) and `WORKGROUP` (from one or more associated work groups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#source DlcAttachWorkGroupPolicyOperation#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#source DlcAttachWorkGroupPolicyOperation#source}
   */
   readonly source?: string;
   /**
   *  The ID of the work group, which applies only when the value of the `Source` field is `WORKGROUP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#source_id DlcAttachWorkGroupPolicyOperation#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#source_id DlcAttachWorkGroupPolicyOperation#source_id}
   */
   readonly sourceId?: number;
   /**
   * The name of the work group, which applies only when the value of the `Source` field is `WORKGROUP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#source_name DlcAttachWorkGroupPolicyOperation#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#source_name DlcAttachWorkGroupPolicyOperation#source_name}
   */
   readonly sourceName?: string;
   /**
   * The name of the target table. `*` represents all tables in the current database. To grant admin permissions, it must be `*`; to grant data connection and database permissions, it must be null; to grant other permissions, it can be any table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#table DlcAttachWorkGroupPolicyOperation#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#table DlcAttachWorkGroupPolicyOperation#table}
   */
   readonly table: string;
   /**
   * The name of the target view. `*` represents all views in the current database. To grant admin permissions, it must be `*`; to grant data connection and database permissions, it must be null; to grant other permissions, it can be any view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#view DlcAttachWorkGroupPolicyOperation#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#view DlcAttachWorkGroupPolicyOperation#view}
   */
   readonly view?: string;
 }
@@ -698,7 +698,7 @@ export class DlcAttachWorkGroupPolicyOperationPolicySetList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation tencentcloud_dlc_attach_work_group_policy_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation tencentcloud_dlc_attach_work_group_policy_operation}
 */
 export class DlcAttachWorkGroupPolicyOperation extends cdktf.TerraformResource {
 
@@ -714,7 +714,7 @@ export class DlcAttachWorkGroupPolicyOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlcAttachWorkGroupPolicyOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlcAttachWorkGroupPolicyOperation to import
-  * @param importFromId The id of the existing DlcAttachWorkGroupPolicyOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlcAttachWorkGroupPolicyOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlcAttachWorkGroupPolicyOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -726,7 +726,7 @@ export class DlcAttachWorkGroupPolicyOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dlc_attach_work_group_policy_operation tencentcloud_dlc_attach_work_group_policy_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dlc_attach_work_group_policy_operation tencentcloud_dlc_attach_work_group_policy_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -737,8 +737,8 @@ export class DlcAttachWorkGroupPolicyOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dlc_attach_work_group_policy_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

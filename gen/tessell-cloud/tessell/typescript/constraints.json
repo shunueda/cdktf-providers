@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "tessell": "0.0.27"
+    "tessell": "0.0.28"
   }
 }

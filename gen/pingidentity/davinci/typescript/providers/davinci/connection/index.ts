@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/connection
+// https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The DaVinci connector type identifier. See the [DaVinci Connection Definitions](#davinci-connection-definitions) below to find the appropriate connector ID value. This field is immutable and will trigger a replace plan if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/connection#connector_id Connection#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/connection#connector_id Connection#connector_id}
   */
   readonly connectorId: string;
   /**
   * The ID of the PingOne environment to create the DaVinci connection. Must be a valid PingOne resource ID. This field is immutable and will trigger a replace plan if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/connection#environment_id Connection#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/connection#environment_id Connection#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/connection#id Connection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/connection#id Connection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface ConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the connection displayed in UI. Also used for mapping id on flows between environments. This field is immutable and will trigger a replace plan if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/connection#name Connection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/connection#name Connection#name}
   */
   readonly name: string;
   /**
   * property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/connection#property Connection#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/connection#property Connection#property}
   */
   readonly property?: ConnectionProperty[] | cdktf.IResolvable;
 }
@@ -43,19 +43,19 @@ export interface ConnectionProperty {
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/connection#name Connection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/connection#name Connection#name}
   */
   readonly name: string;
   /**
   * Type of the property. This is used to cast the value to the correct type. Must be: `string`, `number`, `boolean` or `json`. Defaults to `string`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/connection#type Connection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/connection#type Connection#type}
   */
   readonly type?: string;
   /**
   * The value of the property as string.  Use in conjunction with `type` to cast the value to the correct type.  For example, a number value should be entered as a string and `type` set to `number`.  JSON in string form should be used for complex types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/connection#value Connection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/connection#value Connection#value}
   */
   readonly value: string;
 }
@@ -223,7 +223,7 @@ export class ConnectionPropertyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/connection davinci_connection}
+* Represents a {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/connection davinci_connection}
 */
 export class Connection extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class Connection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Connection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Connection to import
-  * @param importFromId The id of the existing Connection that should be imported. Refer to the {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Connection that should be imported. Refer to the {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Connection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class Connection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/resources/connection davinci_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/resources/connection davinci_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class Connection extends cdktf.TerraformResource {
       terraformResourceType: 'davinci_connection',
       terraformGeneratorMetadata: {
         providerName: 'davinci',
-        providerVersion: '0.5.2',
-        providerVersionConstraint: '0.5.2'
+        providerVersion: '0.5.3',
+        providerVersionConstraint: '0.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ens_eip_instance_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ens_eip_instance_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface EnsEipInstanceAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ens_eip_instance_attachment#allocation_id EnsEipInstanceAttachment#allocation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ens_eip_instance_attachment#allocation_id EnsEipInstanceAttachment#allocation_id}
   */
   readonly allocationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ens_eip_instance_attachment#id EnsEipInstanceAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ens_eip_instance_attachment#id EnsEipInstanceAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ens_eip_instance_attachment#instance_id EnsEipInstanceAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ens_eip_instance_attachment#instance_id EnsEipInstanceAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ens_eip_instance_attachment#instance_type EnsEipInstanceAttachment#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ens_eip_instance_attachment#instance_type EnsEipInstanceAttachment#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ens_eip_instance_attachment#standby EnsEipInstanceAttachment#standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ens_eip_instance_attachment#standby EnsEipInstanceAttachment#standby}
   */
   readonly standby?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ens_eip_instance_attachment#timeouts EnsEipInstanceAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ens_eip_instance_attachment#timeouts EnsEipInstanceAttachment#timeouts}
   */
   readonly timeouts?: EnsEipInstanceAttachmentTimeouts;
 }
 export interface EnsEipInstanceAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ens_eip_instance_attachment#create EnsEipInstanceAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ens_eip_instance_attachment#create EnsEipInstanceAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ens_eip_instance_attachment#delete EnsEipInstanceAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ens_eip_instance_attachment#delete EnsEipInstanceAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -166,7 +166,7 @@ export class EnsEipInstanceAttachmentTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ens_eip_instance_attachment alicloud_ens_eip_instance_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ens_eip_instance_attachment alicloud_ens_eip_instance_attachment}
 */
 export class EnsEipInstanceAttachment extends cdktf.TerraformResource {
 
@@ -182,7 +182,7 @@ export class EnsEipInstanceAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnsEipInstanceAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnsEipInstanceAttachment to import
-  * @param importFromId The id of the existing EnsEipInstanceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ens_eip_instance_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnsEipInstanceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ens_eip_instance_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnsEipInstanceAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class EnsEipInstanceAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ens_eip_instance_attachment alicloud_ens_eip_instance_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ens_eip_instance_attachment alicloud_ens_eip_instance_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class EnsEipInstanceAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ens_eip_instance_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

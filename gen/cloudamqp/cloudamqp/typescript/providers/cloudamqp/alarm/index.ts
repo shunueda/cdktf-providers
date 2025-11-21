@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AlarmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable or disable an alarm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm#enabled Alarm#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm#enabled Alarm#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm#id Alarm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm#id Alarm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface AlarmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm#instance_id Alarm#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm#instance_id Alarm#instance_id}
   */
   readonly instanceId: number;
   /**
   * Message types (total, unacked, ready) of the queue to trigger the alarm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm#message_type Alarm#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm#message_type Alarm#message_type}
   */
   readonly messageType?: string;
   /**
   * Regex for which queues to check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm#queue_regex Alarm#queue_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm#queue_regex Alarm#queue_regex}
   */
   readonly queueRegex?: string;
   /**
   * Identifiers for recipients to be notified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm#recipients Alarm#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm#recipients Alarm#recipients}
   */
   readonly recipients: number[];
   /**
   * The reminder interval (in seconds) to resend the alarm if not resolved. Set to 0 for no reminders. The Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm#reminder_interval Alarm#reminder_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm#reminder_interval Alarm#reminder_interval}
   */
   readonly reminderInterval?: number;
   /**
   * For how long (in seconds) the value_threshold should be active before trigger alarm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm#time_threshold Alarm#time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm#time_threshold Alarm#time_threshold}
   */
   readonly timeThreshold?: number;
   /**
   * Type of the alarm, valid options are: cpu, memory, disk_usage, queue_length, connection_count, consumers_count, net_split
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm#type Alarm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm#type Alarm#type}
   */
   readonly type: string;
   /**
   * Disk value threshold calculation. Fixed or percentage of disk space remaining
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm#value_calculation Alarm#value_calculation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm#value_calculation Alarm#value_calculation}
   */
   readonly valueCalculation?: string;
   /**
   * What value to trigger the alarm for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm#value_threshold Alarm#value_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm#value_threshold Alarm#value_threshold}
   */
   readonly valueThreshold?: number;
   /**
   * Regex for which vhost the queues are in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm#vhost_regex Alarm#vhost_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm#vhost_regex Alarm#vhost_regex}
   */
   readonly vhostRegex?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm cloudamqp_alarm}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm cloudamqp_alarm}
 */
 export class Alarm extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class Alarm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Alarm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Alarm to import
-  * @param importFromId The id of the existing Alarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Alarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Alarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class Alarm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/alarm cloudamqp_alarm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/alarm cloudamqp_alarm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class Alarm extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_alarm',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.2',
-        providerVersionConstraint: '1.38.2'
+        providerVersion: '1.38.3',
+        providerVersionConstraint: '1.38.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

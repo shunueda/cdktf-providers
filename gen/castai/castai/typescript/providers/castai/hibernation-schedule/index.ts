@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule
+// https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface HibernationScheduleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Enables or disables the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#enabled HibernationSchedule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#enabled HibernationSchedule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#id HibernationSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#id HibernationSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface HibernationScheduleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Name of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#name HibernationSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#name HibernationSchedule#name}
   */
   readonly name: string;
   /**
   * ID of the organization. If not provided, then will attempt to infer it using CAST AI API client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#organization_id HibernationSchedule#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#organization_id HibernationSchedule#organization_id}
   */
   readonly organizationId?: string;
   /**
   * cluster_assignments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#cluster_assignments HibernationSchedule#cluster_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#cluster_assignments HibernationSchedule#cluster_assignments}
   */
   readonly clusterAssignments?: HibernationScheduleClusterAssignments;
   /**
   * pause_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#pause_config HibernationSchedule#pause_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#pause_config HibernationSchedule#pause_config}
   */
   readonly pauseConfig: HibernationSchedulePauseConfig;
   /**
   * resume_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#resume_config HibernationSchedule#resume_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#resume_config HibernationSchedule#resume_config}
   */
   readonly resumeConfig: HibernationScheduleResumeConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#timeouts HibernationSchedule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#timeouts HibernationSchedule#timeouts}
   */
   readonly timeouts?: HibernationScheduleTimeouts;
 }
@@ -61,7 +61,7 @@ export interface HibernationScheduleClusterAssignmentsAssignment {
   /**
   * ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#cluster_id HibernationSchedule#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#cluster_id HibernationSchedule#cluster_id}
   */
   readonly clusterId: string;
 }
@@ -176,7 +176,7 @@ export interface HibernationScheduleClusterAssignments {
   /**
   * assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#assignment HibernationSchedule#assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#assignment HibernationSchedule#assignment}
   */
   readonly assignment?: HibernationScheduleClusterAssignmentsAssignment[] | cdktf.IResolvable;
 }
@@ -276,7 +276,7 @@ export interface HibernationSchedulePauseConfigSchedule {
   * 
   *   When using the `CRON_TZ` variable, ensure that the specified timezone is valid and supported by checking the list of available timezones from the API endpoint.  If the `CRON_TZ` variable is not specified, the cron expression will be interpreted in the UTC timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#cron_expression HibernationSchedule#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#cron_expression HibernationSchedule#cron_expression}
   */
   readonly cronExpression: string;
 }
@@ -359,13 +359,13 @@ export interface HibernationSchedulePauseConfig {
   /**
   * Enables or disables the pause configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#enabled HibernationSchedule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#enabled HibernationSchedule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#schedule HibernationSchedule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#schedule HibernationSchedule#schedule}
   */
   readonly schedule: HibernationSchedulePauseConfigSchedule;
 }
@@ -474,13 +474,13 @@ export interface HibernationScheduleResumeConfigJobConfigNodeConfigGpuConfig {
   /**
   * Number of GPUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#count HibernationSchedule#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#count HibernationSchedule#count}
   */
   readonly count: number;
   /**
   * GPU type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#type HibernationSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#type HibernationSchedule#type}
   */
   readonly type?: string;
 }
@@ -592,19 +592,19 @@ export interface HibernationScheduleResumeConfigJobConfigNodeConfigKubernetesTai
   /**
   * Effect of a taint to be added to nodes created from this template, the default is NoSchedule. Allowed values: NoSchedule, NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#effect HibernationSchedule#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#effect HibernationSchedule#effect}
   */
   readonly effect?: string;
   /**
   * Key of a taint to be added to nodes created from this template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#key HibernationSchedule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#key HibernationSchedule#key}
   */
   readonly key: string;
   /**
   * Value of a taint to be added to nodes created from this template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#value HibernationSchedule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#value HibernationSchedule#value}
   */
   readonly value?: string;
 }
@@ -777,19 +777,19 @@ export interface HibernationScheduleResumeConfigJobConfigNodeConfigNodeAffinityA
   /**
   * Key of the node affinity selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#key HibernationSchedule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#key HibernationSchedule#key}
   */
   readonly key: string;
   /**
   * Operator of the node affinity selector. Allowed values: DOES_NOT_EXIST, EXISTS, GT, IN, LT, NOT_IN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#operator HibernationSchedule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#operator HibernationSchedule#operator}
   */
   readonly operator: string;
   /**
   * Values of the node affinity selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#values HibernationSchedule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#values HibernationSchedule#values}
   */
   readonly values: string[];
 }
@@ -956,13 +956,13 @@ export interface HibernationScheduleResumeConfigJobConfigNodeConfigNodeAffinity 
   /**
   * Key of a taint to be added to nodes created from this template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#dedicated_group HibernationSchedule#dedicated_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#dedicated_group HibernationSchedule#dedicated_group}
   */
   readonly dedicatedGroup: string;
   /**
   * affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#affinity HibernationSchedule#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#affinity HibernationSchedule#affinity}
   */
   readonly affinity?: HibernationScheduleResumeConfigJobConfigNodeConfigNodeAffinityAffinity[] | cdktf.IResolvable;
 }
@@ -1106,13 +1106,13 @@ export interface HibernationScheduleResumeConfigJobConfigNodeConfigSpotConfig {
   /**
   * Spot instance price. Applicable only for AWS nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#price_hourly HibernationSchedule#price_hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#price_hourly HibernationSchedule#price_hourly}
   */
   readonly priceHourly?: string;
   /**
   * Whether node should be created as spot instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#spot HibernationSchedule#spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#spot HibernationSchedule#spot}
   */
   readonly spot?: boolean | cdktf.IResolvable;
 }
@@ -1259,7 +1259,7 @@ export interface HibernationScheduleResumeConfigJobConfigNodeConfigVolumeRaidCon
   /**
   * Specify the RAID0 chunk size in kilobytes, this parameter affects the read/write in the disk array and must be tailored for the type of data written by the workloads in the node. If not provided it will default to 64KB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#chunk_size_kb HibernationSchedule#chunk_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#chunk_size_kb HibernationSchedule#chunk_size_kb}
   */
   readonly chunkSizeKb?: number;
 }
@@ -1377,13 +1377,13 @@ export interface HibernationScheduleResumeConfigJobConfigNodeConfigVolume {
   /**
   * Volume size in GiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#size_gib HibernationSchedule#size_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#size_gib HibernationSchedule#size_gib}
   */
   readonly sizeGib?: number;
   /**
   * raid_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#raid_config HibernationSchedule#raid_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#raid_config HibernationSchedule#raid_config}
   */
   readonly raidConfig?: HibernationScheduleResumeConfigJobConfigNodeConfigVolumeRaidConfig[] | cdktf.IResolvable;
 }
@@ -1530,67 +1530,67 @@ export interface HibernationScheduleResumeConfigJobConfigNodeConfig {
   /**
   * ID reference of Node Configuration to be used for node creation. Supersedes 'config_name' parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#config_id HibernationSchedule#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#config_id HibernationSchedule#config_id}
   */
   readonly configId?: string;
   /**
   * Name reference of Node Configuration to be used for node creation. Superseded if 'config_id' parameter is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#config_name HibernationSchedule#config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#config_name HibernationSchedule#config_name}
   */
   readonly configName?: string;
   /**
   * Instance type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#instance_type HibernationSchedule#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#instance_type HibernationSchedule#instance_type}
   */
   readonly instanceType: string;
   /**
   * Custom labels to be added to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#kubernetes_labels HibernationSchedule#kubernetes_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#kubernetes_labels HibernationSchedule#kubernetes_labels}
   */
   readonly kubernetesLabels?: { [key: string]: string };
   /**
   * Node subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#subnet_id HibernationSchedule#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#subnet_id HibernationSchedule#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Zone of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#zone HibernationSchedule#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#zone HibernationSchedule#zone}
   */
   readonly zone?: string;
   /**
   * gpu_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#gpu_config HibernationSchedule#gpu_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#gpu_config HibernationSchedule#gpu_config}
   */
   readonly gpuConfig?: HibernationScheduleResumeConfigJobConfigNodeConfigGpuConfig;
   /**
   * kubernetes_taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#kubernetes_taints HibernationSchedule#kubernetes_taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#kubernetes_taints HibernationSchedule#kubernetes_taints}
   */
   readonly kubernetesTaints?: HibernationScheduleResumeConfigJobConfigNodeConfigKubernetesTaints[] | cdktf.IResolvable;
   /**
   * node_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#node_affinity HibernationSchedule#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#node_affinity HibernationSchedule#node_affinity}
   */
   readonly nodeAffinity?: HibernationScheduleResumeConfigJobConfigNodeConfigNodeAffinity[] | cdktf.IResolvable;
   /**
   * spot_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#spot_config HibernationSchedule#spot_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#spot_config HibernationSchedule#spot_config}
   */
   readonly spotConfig?: HibernationScheduleResumeConfigJobConfigNodeConfigSpotConfig[] | cdktf.IResolvable;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#volume HibernationSchedule#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#volume HibernationSchedule#volume}
   */
   readonly volume?: HibernationScheduleResumeConfigJobConfigNodeConfigVolume[] | cdktf.IResolvable;
 }
@@ -1963,7 +1963,7 @@ export interface HibernationScheduleResumeConfigJobConfig {
   /**
   * node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#node_config HibernationSchedule#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#node_config HibernationSchedule#node_config}
   */
   readonly nodeConfig: HibernationScheduleResumeConfigJobConfigNodeConfig;
 }
@@ -2060,7 +2060,7 @@ export interface HibernationScheduleResumeConfigSchedule {
   * 
   *   When using the `CRON_TZ` variable, ensure that the specified timezone is valid and supported by checking the list of available timezones from the API endpoint.  If the `CRON_TZ` variable is not specified, the cron expression will be interpreted in the UTC timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#cron_expression HibernationSchedule#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#cron_expression HibernationSchedule#cron_expression}
   */
   readonly cronExpression: string;
 }
@@ -2143,19 +2143,19 @@ export interface HibernationScheduleResumeConfig {
   /**
   * Enables or disables the pause configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#enabled HibernationSchedule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#enabled HibernationSchedule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * job_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#job_config HibernationSchedule#job_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#job_config HibernationSchedule#job_config}
   */
   readonly jobConfig: HibernationScheduleResumeConfigJobConfig;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#schedule HibernationSchedule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#schedule HibernationSchedule#schedule}
   */
   readonly schedule: HibernationScheduleResumeConfigSchedule;
 }
@@ -2288,19 +2288,19 @@ export class HibernationScheduleResumeConfigOutputReference extends cdktf.Comple
 }
 export interface HibernationScheduleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#create HibernationSchedule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#create HibernationSchedule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#delete HibernationSchedule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#delete HibernationSchedule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#read HibernationSchedule#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#read HibernationSchedule#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#update HibernationSchedule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#update HibernationSchedule#update}
   */
   readonly update?: string;
 }
@@ -2481,7 +2481,7 @@ export class HibernationScheduleTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule castai_hibernation_schedule}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule castai_hibernation_schedule}
 */
 export class HibernationSchedule extends cdktf.TerraformResource {
 
@@ -2497,7 +2497,7 @@ export class HibernationSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HibernationSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HibernationSchedule to import
-  * @param importFromId The id of the existing HibernationSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HibernationSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HibernationSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2509,7 +2509,7 @@ export class HibernationSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/hibernation_schedule castai_hibernation_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/hibernation_schedule castai_hibernation_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2520,8 +2520,8 @@ export class HibernationSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'castai_hibernation_schedule',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.2.1',
-        providerVersionConstraint: '8.2.1'
+        providerVersion: '8.3.0',
+        providerVersionConstraint: '8.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

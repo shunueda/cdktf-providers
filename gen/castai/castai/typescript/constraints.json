@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "castai": "8.2.1"
+    "castai": "8.3.0"
   }
 }

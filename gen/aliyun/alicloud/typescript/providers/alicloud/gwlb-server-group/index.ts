@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface GwlbServerGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#dry_run GwlbServerGroup#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#dry_run GwlbServerGroup#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#id GwlbServerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#id GwlbServerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#protocol GwlbServerGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#protocol GwlbServerGroup#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#resource_group_id GwlbServerGroup#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#resource_group_id GwlbServerGroup#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#scheduler GwlbServerGroup#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#scheduler GwlbServerGroup#scheduler}
   */
   readonly scheduler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#server_group_name GwlbServerGroup#server_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#server_group_name GwlbServerGroup#server_group_name}
   */
   readonly serverGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#server_group_type GwlbServerGroup#server_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#server_group_type GwlbServerGroup#server_group_type}
   */
   readonly serverGroupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#tags GwlbServerGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#tags GwlbServerGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#vpc_id GwlbServerGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#vpc_id GwlbServerGroup#vpc_id}
   */
   readonly vpcId: string;
   /**
   * connection_drain_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#connection_drain_config GwlbServerGroup#connection_drain_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#connection_drain_config GwlbServerGroup#connection_drain_config}
   */
   readonly connectionDrainConfig?: GwlbServerGroupConnectionDrainConfig;
   /**
   * health_check_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#health_check_config GwlbServerGroup#health_check_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#health_check_config GwlbServerGroup#health_check_config}
   */
   readonly healthCheckConfig?: GwlbServerGroupHealthCheckConfig;
   /**
   * servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#servers GwlbServerGroup#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#servers GwlbServerGroup#servers}
   */
   readonly servers?: GwlbServerGroupServers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#timeouts GwlbServerGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#timeouts GwlbServerGroup#timeouts}
   */
   readonly timeouts?: GwlbServerGroupTimeouts;
 }
 export interface GwlbServerGroupConnectionDrainConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#connection_drain_enabled GwlbServerGroup#connection_drain_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#connection_drain_enabled GwlbServerGroup#connection_drain_enabled}
   */
   readonly connectionDrainEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#connection_drain_timeout GwlbServerGroup#connection_drain_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#connection_drain_timeout GwlbServerGroup#connection_drain_timeout}
   */
   readonly connectionDrainTimeout?: number;
 }
@@ -190,43 +190,43 @@ export class GwlbServerGroupConnectionDrainConfigOutputReference extends cdktf.C
 }
 export interface GwlbServerGroupHealthCheckConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#health_check_connect_port GwlbServerGroup#health_check_connect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#health_check_connect_port GwlbServerGroup#health_check_connect_port}
   */
   readonly healthCheckConnectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#health_check_connect_timeout GwlbServerGroup#health_check_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#health_check_connect_timeout GwlbServerGroup#health_check_connect_timeout}
   */
   readonly healthCheckConnectTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#health_check_domain GwlbServerGroup#health_check_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#health_check_domain GwlbServerGroup#health_check_domain}
   */
   readonly healthCheckDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#health_check_enabled GwlbServerGroup#health_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#health_check_enabled GwlbServerGroup#health_check_enabled}
   */
   readonly healthCheckEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#health_check_http_code GwlbServerGroup#health_check_http_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#health_check_http_code GwlbServerGroup#health_check_http_code}
   */
   readonly healthCheckHttpCode?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#health_check_interval GwlbServerGroup#health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#health_check_interval GwlbServerGroup#health_check_interval}
   */
   readonly healthCheckInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#health_check_path GwlbServerGroup#health_check_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#health_check_path GwlbServerGroup#health_check_path}
   */
   readonly healthCheckPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#health_check_protocol GwlbServerGroup#health_check_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#health_check_protocol GwlbServerGroup#health_check_protocol}
   */
   readonly healthCheckProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#healthy_threshold GwlbServerGroup#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#healthy_threshold GwlbServerGroup#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#unhealthy_threshold GwlbServerGroup#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#unhealthy_threshold GwlbServerGroup#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
 }
@@ -571,15 +571,15 @@ export class GwlbServerGroupHealthCheckConfigOutputReference extends cdktf.Compl
 }
 export interface GwlbServerGroupServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#server_id GwlbServerGroup#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#server_id GwlbServerGroup#server_id}
   */
   readonly serverId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#server_ip GwlbServerGroup#server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#server_ip GwlbServerGroup#server_ip}
   */
   readonly serverIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#server_type GwlbServerGroup#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#server_type GwlbServerGroup#server_type}
   */
   readonly serverType: string;
 }
@@ -762,15 +762,15 @@ export class GwlbServerGroupServersList extends cdktf.ComplexList {
 }
 export interface GwlbServerGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#create GwlbServerGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#create GwlbServerGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#delete GwlbServerGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#delete GwlbServerGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#update GwlbServerGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#update GwlbServerGroup#update}
   */
   readonly update?: string;
 }
@@ -922,7 +922,7 @@ export class GwlbServerGroupTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group alicloud_gwlb_server_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group alicloud_gwlb_server_group}
 */
 export class GwlbServerGroup extends cdktf.TerraformResource {
 
@@ -938,7 +938,7 @@ export class GwlbServerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GwlbServerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GwlbServerGroup to import
-  * @param importFromId The id of the existing GwlbServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GwlbServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GwlbServerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -950,7 +950,7 @@ export class GwlbServerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gwlb_server_group alicloud_gwlb_server_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group alicloud_gwlb_server_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -961,8 +961,8 @@ export class GwlbServerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_gwlb_server_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

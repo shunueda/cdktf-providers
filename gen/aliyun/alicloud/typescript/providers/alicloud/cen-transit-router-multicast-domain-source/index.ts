@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_multicast_domain_source
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_multicast_domain_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface CenTransitRouterMulticastDomainSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_multicast_domain_source#group_ip_address CenTransitRouterMulticastDomainSource#group_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_multicast_domain_source#group_ip_address CenTransitRouterMulticastDomainSource#group_ip_address}
   */
   readonly groupIpAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_multicast_domain_source#id CenTransitRouterMulticastDomainSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_multicast_domain_source#id CenTransitRouterMulticastDomainSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_multicast_domain_source#network_interface_id CenTransitRouterMulticastDomainSource#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_multicast_domain_source#network_interface_id CenTransitRouterMulticastDomainSource#network_interface_id}
   */
   readonly networkInterfaceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_multicast_domain_source#transit_router_multicast_domain_id CenTransitRouterMulticastDomainSource#transit_router_multicast_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_multicast_domain_source#transit_router_multicast_domain_id CenTransitRouterMulticastDomainSource#transit_router_multicast_domain_id}
   */
   readonly transitRouterMulticastDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_multicast_domain_source#vpc_id CenTransitRouterMulticastDomainSource#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_multicast_domain_source#vpc_id CenTransitRouterMulticastDomainSource#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_multicast_domain_source#timeouts CenTransitRouterMulticastDomainSource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_multicast_domain_source#timeouts CenTransitRouterMulticastDomainSource#timeouts}
   */
   readonly timeouts?: CenTransitRouterMulticastDomainSourceTimeouts;
 }
 export interface CenTransitRouterMulticastDomainSourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_multicast_domain_source#create CenTransitRouterMulticastDomainSource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_multicast_domain_source#create CenTransitRouterMulticastDomainSource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_multicast_domain_source#delete CenTransitRouterMulticastDomainSource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_multicast_domain_source#delete CenTransitRouterMulticastDomainSource#delete}
   */
   readonly delete?: string;
 }
@@ -166,7 +166,7 @@ export class CenTransitRouterMulticastDomainSourceTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_multicast_domain_source alicloud_cen_transit_router_multicast_domain_source}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_multicast_domain_source alicloud_cen_transit_router_multicast_domain_source}
 */
 export class CenTransitRouterMulticastDomainSource extends cdktf.TerraformResource {
 
@@ -182,7 +182,7 @@ export class CenTransitRouterMulticastDomainSource extends cdktf.TerraformResour
   * Generates CDKTF code for importing a CenTransitRouterMulticastDomainSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CenTransitRouterMulticastDomainSource to import
-  * @param importFromId The id of the existing CenTransitRouterMulticastDomainSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_multicast_domain_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CenTransitRouterMulticastDomainSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_multicast_domain_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CenTransitRouterMulticastDomainSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class CenTransitRouterMulticastDomainSource extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cen_transit_router_multicast_domain_source alicloud_cen_transit_router_multicast_domain_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_multicast_domain_source alicloud_cen_transit_router_multicast_domain_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class CenTransitRouterMulticastDomainSource extends cdktf.TerraformResour
       terraformResourceType: 'alicloud_cen_transit_router_multicast_domain_source',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

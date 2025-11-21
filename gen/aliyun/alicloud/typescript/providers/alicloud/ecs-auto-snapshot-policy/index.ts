@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface EcsAutoSnapshotPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#auto_snapshot_policy_name EcsAutoSnapshotPolicy#auto_snapshot_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#auto_snapshot_policy_name EcsAutoSnapshotPolicy#auto_snapshot_policy_name}
   */
   readonly autoSnapshotPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#copied_snapshots_retention_days EcsAutoSnapshotPolicy#copied_snapshots_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#copied_snapshots_retention_days EcsAutoSnapshotPolicy#copied_snapshots_retention_days}
   */
   readonly copiedSnapshotsRetentionDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#enable_cross_region_copy EcsAutoSnapshotPolicy#enable_cross_region_copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#enable_cross_region_copy EcsAutoSnapshotPolicy#enable_cross_region_copy}
   */
   readonly enableCrossRegionCopy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#id EcsAutoSnapshotPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#id EcsAutoSnapshotPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#name EcsAutoSnapshotPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#name EcsAutoSnapshotPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#repeat_weekdays EcsAutoSnapshotPolicy#repeat_weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#repeat_weekdays EcsAutoSnapshotPolicy#repeat_weekdays}
   */
   readonly repeatWeekdays: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#resource_group_id EcsAutoSnapshotPolicy#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#resource_group_id EcsAutoSnapshotPolicy#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#retention_days EcsAutoSnapshotPolicy#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#retention_days EcsAutoSnapshotPolicy#retention_days}
   */
   readonly retentionDays: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#tags EcsAutoSnapshotPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#tags EcsAutoSnapshotPolicy#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#target_copy_regions EcsAutoSnapshotPolicy#target_copy_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#target_copy_regions EcsAutoSnapshotPolicy#target_copy_regions}
   */
   readonly targetCopyRegions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#time_points EcsAutoSnapshotPolicy#time_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#time_points EcsAutoSnapshotPolicy#time_points}
   */
   readonly timePoints: string[];
   /**
   * copy_encryption_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#copy_encryption_configuration EcsAutoSnapshotPolicy#copy_encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#copy_encryption_configuration EcsAutoSnapshotPolicy#copy_encryption_configuration}
   */
   readonly copyEncryptionConfiguration?: EcsAutoSnapshotPolicyCopyEncryptionConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#timeouts EcsAutoSnapshotPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#timeouts EcsAutoSnapshotPolicy#timeouts}
   */
   readonly timeouts?: EcsAutoSnapshotPolicyTimeouts;
 }
 export interface EcsAutoSnapshotPolicyCopyEncryptionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#encrypted EcsAutoSnapshotPolicy#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#encrypted EcsAutoSnapshotPolicy#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#kms_key_id EcsAutoSnapshotPolicy#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#kms_key_id EcsAutoSnapshotPolicy#kms_key_id}
   */
   readonly kmsKeyId?: string;
 }
@@ -186,15 +186,15 @@ export class EcsAutoSnapshotPolicyCopyEncryptionConfigurationOutputReference ext
 }
 export interface EcsAutoSnapshotPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#create EcsAutoSnapshotPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#create EcsAutoSnapshotPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#delete EcsAutoSnapshotPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#delete EcsAutoSnapshotPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#update EcsAutoSnapshotPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#update EcsAutoSnapshotPolicy#update}
   */
   readonly update?: string;
 }
@@ -346,7 +346,7 @@ export class EcsAutoSnapshotPolicyTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy alicloud_ecs_auto_snapshot_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy alicloud_ecs_auto_snapshot_policy}
 */
 export class EcsAutoSnapshotPolicy extends cdktf.TerraformResource {
 
@@ -362,7 +362,7 @@ export class EcsAutoSnapshotPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsAutoSnapshotPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsAutoSnapshotPolicy to import
-  * @param importFromId The id of the existing EcsAutoSnapshotPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsAutoSnapshotPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsAutoSnapshotPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -374,7 +374,7 @@ export class EcsAutoSnapshotPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ecs_auto_snapshot_policy alicloud_ecs_auto_snapshot_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_auto_snapshot_policy alicloud_ecs_auto_snapshot_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -385,8 +385,8 @@ export class EcsAutoSnapshotPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ecs_auto_snapshot_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

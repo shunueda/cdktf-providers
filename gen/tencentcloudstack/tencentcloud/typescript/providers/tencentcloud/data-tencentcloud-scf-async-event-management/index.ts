@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudScfAsyncEventManagementConfig extends cdktf.Ter
   /**
   * Function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management#function_name DataTencentcloudScfAsyncEventManagement#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management#function_name DataTencentcloudScfAsyncEventManagement#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management#id DataTencentcloudScfAsyncEventManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management#id DataTencentcloudScfAsyncEventManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface DataTencentcloudScfAsyncEventManagementConfig extends cdktf.Ter
   /**
   * Filter (event invocation request ID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management#invoke_request_id DataTencentcloudScfAsyncEventManagement#invoke_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management#invoke_request_id DataTencentcloudScfAsyncEventManagement#invoke_request_id}
   */
   readonly invokeRequestId?: string;
   /**
   * Filter (invocation type list), Values: CMQ, CKAFKA_TRIGGER, APIGW, COS, TRIGGER_TIMER, MPS_TRIGGER, CLS_TRIGGER, OTHERS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management#invoke_type DataTencentcloudScfAsyncEventManagement#invoke_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management#invoke_type DataTencentcloudScfAsyncEventManagement#invoke_type}
   */
   readonly invokeType?: string[];
   /**
   * Function namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management#namespace DataTencentcloudScfAsyncEventManagement#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management#namespace DataTencentcloudScfAsyncEventManagement#namespace}
   */
   readonly namespace?: string;
   /**
   * Valid values: ASC, DESC. Default value: DESC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management#order DataTencentcloudScfAsyncEventManagement#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management#order DataTencentcloudScfAsyncEventManagement#order}
   */
   readonly order?: string;
   /**
   * Valid values: StartTime, EndTime. Default value: StartTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management#orderby DataTencentcloudScfAsyncEventManagement#orderby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management#orderby DataTencentcloudScfAsyncEventManagement#orderby}
   */
   readonly orderby?: string;
   /**
   * Filter (function version).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management#qualifier DataTencentcloudScfAsyncEventManagement#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management#qualifier DataTencentcloudScfAsyncEventManagement#qualifier}
   */
   readonly qualifier?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management#result_output_file DataTencentcloudScfAsyncEventManagement#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management#result_output_file DataTencentcloudScfAsyncEventManagement#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Filter (event status list), Values: RUNNING, FINISHED, ABORTED, FAILED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management#status DataTencentcloudScfAsyncEventManagement#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management#status DataTencentcloudScfAsyncEventManagement#status}
   */
   readonly status?: string[];
 }
@@ -171,7 +171,7 @@ export class DataTencentcloudScfAsyncEventManagementEventListStructList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management tencentcloud_scf_async_event_management}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management tencentcloud_scf_async_event_management}
 */
 export class DataTencentcloudScfAsyncEventManagement extends cdktf.TerraformDataSource {
 
@@ -187,7 +187,7 @@ export class DataTencentcloudScfAsyncEventManagement extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataTencentcloudScfAsyncEventManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudScfAsyncEventManagement to import
-  * @param importFromId The id of the existing DataTencentcloudScfAsyncEventManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudScfAsyncEventManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudScfAsyncEventManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class DataTencentcloudScfAsyncEventManagement extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_async_event_management tencentcloud_scf_async_event_management} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/scf_async_event_management tencentcloud_scf_async_event_management} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class DataTencentcloudScfAsyncEventManagement extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_scf_async_event_management',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudGpdbDataBackupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups#backup_mode DataAlicloudGpdbDataBackups#backup_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups#backup_mode DataAlicloudGpdbDataBackups#backup_mode}
   */
   readonly backupMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups#data_backup_id DataAlicloudGpdbDataBackups#data_backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups#data_backup_id DataAlicloudGpdbDataBackups#data_backup_id}
   */
   readonly dataBackupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups#data_type DataAlicloudGpdbDataBackups#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups#data_type DataAlicloudGpdbDataBackups#data_type}
   */
   readonly dataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups#db_instance_id DataAlicloudGpdbDataBackups#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups#db_instance_id DataAlicloudGpdbDataBackups#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups#end_time DataAlicloudGpdbDataBackups#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups#end_time DataAlicloudGpdbDataBackups#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups#id DataAlicloudGpdbDataBackups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups#id DataAlicloudGpdbDataBackups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups#ids DataAlicloudGpdbDataBackups#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups#ids DataAlicloudGpdbDataBackups#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups#output_file DataAlicloudGpdbDataBackups#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups#output_file DataAlicloudGpdbDataBackups#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups#page_number DataAlicloudGpdbDataBackups#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups#page_number DataAlicloudGpdbDataBackups#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups#page_size DataAlicloudGpdbDataBackups#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups#page_size DataAlicloudGpdbDataBackups#page_size}
   */
   readonly pageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups#start_time DataAlicloudGpdbDataBackups#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups#start_time DataAlicloudGpdbDataBackups#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups#status DataAlicloudGpdbDataBackups#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups#status DataAlicloudGpdbDataBackups#status}
   */
   readonly status?: string;
 }
@@ -196,7 +196,7 @@ export class DataAlicloudGpdbDataBackupsBackupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups alicloud_gpdb_data_backups}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups alicloud_gpdb_data_backups}
 */
 export class DataAlicloudGpdbDataBackups extends cdktf.TerraformDataSource {
 
@@ -212,7 +212,7 @@ export class DataAlicloudGpdbDataBackups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudGpdbDataBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudGpdbDataBackups to import
-  * @param importFromId The id of the existing DataAlicloudGpdbDataBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudGpdbDataBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudGpdbDataBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +224,7 @@ export class DataAlicloudGpdbDataBackups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/gpdb_data_backups alicloud_gpdb_data_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_data_backups alicloud_gpdb_data_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,8 +235,8 @@ export class DataAlicloudGpdbDataBackups extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_gpdb_data_backups',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

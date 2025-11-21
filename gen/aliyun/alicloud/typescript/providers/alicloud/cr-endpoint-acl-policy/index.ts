@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_endpoint_acl_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_endpoint_acl_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface CrEndpointAclPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_endpoint_acl_policy#description CrEndpointAclPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_endpoint_acl_policy#description CrEndpointAclPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_endpoint_acl_policy#endpoint_type CrEndpointAclPolicy#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_endpoint_acl_policy#endpoint_type CrEndpointAclPolicy#endpoint_type}
   */
   readonly endpointType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_endpoint_acl_policy#entry CrEndpointAclPolicy#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_endpoint_acl_policy#entry CrEndpointAclPolicy#entry}
   */
   readonly entry: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_endpoint_acl_policy#id CrEndpointAclPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_endpoint_acl_policy#id CrEndpointAclPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_endpoint_acl_policy#instance_id CrEndpointAclPolicy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_endpoint_acl_policy#instance_id CrEndpointAclPolicy#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_endpoint_acl_policy#module_name CrEndpointAclPolicy#module_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_endpoint_acl_policy#module_name CrEndpointAclPolicy#module_name}
   */
   readonly moduleName?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_endpoint_acl_policy#timeouts CrEndpointAclPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_endpoint_acl_policy#timeouts CrEndpointAclPolicy#timeouts}
   */
   readonly timeouts?: CrEndpointAclPolicyTimeouts;
 }
 export interface CrEndpointAclPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_endpoint_acl_policy#create CrEndpointAclPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_endpoint_acl_policy#create CrEndpointAclPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_endpoint_acl_policy#delete CrEndpointAclPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_endpoint_acl_policy#delete CrEndpointAclPolicy#delete}
   */
   readonly delete?: string;
 }
@@ -170,7 +170,7 @@ export class CrEndpointAclPolicyTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_endpoint_acl_policy alicloud_cr_endpoint_acl_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_endpoint_acl_policy alicloud_cr_endpoint_acl_policy}
 */
 export class CrEndpointAclPolicy extends cdktf.TerraformResource {
 
@@ -186,7 +186,7 @@ export class CrEndpointAclPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CrEndpointAclPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CrEndpointAclPolicy to import
-  * @param importFromId The id of the existing CrEndpointAclPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_endpoint_acl_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CrEndpointAclPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_endpoint_acl_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CrEndpointAclPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class CrEndpointAclPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cr_endpoint_acl_policy alicloud_cr_endpoint_acl_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cr_endpoint_acl_policy alicloud_cr_endpoint_acl_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class CrEndpointAclPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cr_endpoint_acl_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

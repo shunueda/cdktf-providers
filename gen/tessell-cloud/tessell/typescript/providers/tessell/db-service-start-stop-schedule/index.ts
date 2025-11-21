@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule
+// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DbServiceStartStopScheduleConfig extends cdktf.TerraformMetaArg
   /**
   * The ID of the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#service_id DbServiceStartStopSchedule#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#service_id DbServiceStartStopSchedule#service_id}
   */
   readonly serviceId: string;
   /**
   * schedule_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#schedule_info DbServiceStartStopSchedule#schedule_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#schedule_info DbServiceStartStopSchedule#schedule_info}
   */
   readonly scheduleInfo: DbServiceStartStopScheduleScheduleInfo;
 }
@@ -99,13 +99,13 @@ export interface DbServiceStartStopScheduleScheduleInfoOneTime {
   /**
   * Time at which the DB Service should be started at
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#db_service_start_at DbServiceStartStopSchedule#db_service_start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#db_service_start_at DbServiceStartStopSchedule#db_service_start_at}
   */
   readonly dbServiceStartAt?: string;
   /**
   * Time at which the DB Service should be stopped at
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#db_service_stop_at DbServiceStartStopSchedule#db_service_stop_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#db_service_stop_at DbServiceStartStopSchedule#db_service_stop_at}
   */
   readonly dbServiceStopAt?: string;
 }
@@ -220,19 +220,19 @@ export interface DbServiceStartStopScheduleScheduleInfoRecurringScheduleExpiry {
   /**
   * Number of occurrences which the schedule would not be applicable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#after_occurrences DbServiceStartStopSchedule#after_occurrences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#after_occurrences DbServiceStartStopSchedule#after_occurrences}
   */
   readonly afterOccurrences?: number;
   /**
   * If set to True, the schedule will be applicable forever
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#never DbServiceStartStopSchedule#never}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#never DbServiceStartStopSchedule#never}
   */
   readonly never?: boolean | cdktf.IResolvable;
   /**
   * Date after which the schedule would not be applicable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#on DbServiceStartStopSchedule#on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#on DbServiceStartStopSchedule#on}
   */
   readonly on?: string;
 }
@@ -376,7 +376,7 @@ export interface DbServiceStartStopScheduleScheduleInfoRecurringWeeklySchedule {
   /**
   * Days of the week on which the recurring start/stop schedule would be applicable for the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#days DbServiceStartStopSchedule#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#days DbServiceStartStopSchedule#days}
   */
   readonly days?: string[];
 }
@@ -462,37 +462,37 @@ export interface DbServiceStartStopScheduleScheduleInfoRecurring {
   /**
   * Whether the given schedule is a daily schedule i.e. a schedule which is executed daily
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#daily_schedule DbServiceStartStopSchedule#daily_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#daily_schedule DbServiceStartStopSchedule#daily_schedule}
   */
   readonly dailySchedule?: boolean | cdktf.IResolvable;
   /**
   * Time at which the DB Service should be started at
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#db_service_start_at DbServiceStartStopSchedule#db_service_start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#db_service_start_at DbServiceStartStopSchedule#db_service_start_at}
   */
   readonly dbServiceStartAt?: string;
   /**
   * Time at which the DB Service should be stopped at
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#db_service_stop_at DbServiceStartStopSchedule#db_service_stop_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#db_service_stop_at DbServiceStartStopSchedule#db_service_stop_at}
   */
   readonly dbServiceStopAt?: string;
   /**
   * Date from which the given recurring schedule would be applicable from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#schedule_start_date DbServiceStartStopSchedule#schedule_start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#schedule_start_date DbServiceStartStopSchedule#schedule_start_date}
   */
   readonly scheduleStartDate?: string;
   /**
   * schedule_expiry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#schedule_expiry DbServiceStartStopSchedule#schedule_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#schedule_expiry DbServiceStartStopSchedule#schedule_expiry}
   */
   readonly scheduleExpiry?: DbServiceStartStopScheduleScheduleInfoRecurringScheduleExpiry;
   /**
   * weekly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#weekly_schedule DbServiceStartStopSchedule#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#weekly_schedule DbServiceStartStopSchedule#weekly_schedule}
   */
   readonly weeklySchedule?: DbServiceStartStopScheduleScheduleInfoRecurringWeeklySchedule;
 }
@@ -723,13 +723,13 @@ export interface DbServiceStartStopScheduleScheduleInfo {
   /**
   * one_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#one_time DbServiceStartStopSchedule#one_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#one_time DbServiceStartStopSchedule#one_time}
   */
   readonly oneTime?: DbServiceStartStopScheduleScheduleInfoOneTime;
   /**
   * recurring block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#recurring DbServiceStartStopSchedule#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#recurring DbServiceStartStopSchedule#recurring}
   */
   readonly recurring?: DbServiceStartStopScheduleScheduleInfoRecurring;
 }
@@ -842,7 +842,7 @@ export class DbServiceStartStopScheduleScheduleInfoOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule tessell_db_service_start_stop_schedule}
+* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule tessell_db_service_start_stop_schedule}
 */
 export class DbServiceStartStopSchedule extends cdktf.TerraformResource {
 
@@ -858,7 +858,7 @@ export class DbServiceStartStopSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbServiceStartStopSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbServiceStartStopSchedule to import
-  * @param importFromId The id of the existing DbServiceStartStopSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbServiceStartStopSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbServiceStartStopSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -870,7 +870,7 @@ export class DbServiceStartStopSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/resources/db_service_start_stop_schedule tessell_db_service_start_stop_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service_start_stop_schedule tessell_db_service_start_stop_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -881,8 +881,8 @@ export class DbServiceStartStopSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'tessell_db_service_start_stop_schedule',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.27',
-        providerVersionConstraint: '0.0.27'
+        providerVersion: '0.0.28',
+        providerVersionConstraint: '0.0.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

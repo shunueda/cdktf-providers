@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/dbs_backup_plans
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/dbs_backup_plans
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudDbsBackupPlansConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/dbs_backup_plans#backup_plan_name DataAlicloudDbsBackupPlans#backup_plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/dbs_backup_plans#backup_plan_name DataAlicloudDbsBackupPlans#backup_plan_name}
   */
   readonly backupPlanName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/dbs_backup_plans#enable_details DataAlicloudDbsBackupPlans#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/dbs_backup_plans#enable_details DataAlicloudDbsBackupPlans#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/dbs_backup_plans#id DataAlicloudDbsBackupPlans#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/dbs_backup_plans#id DataAlicloudDbsBackupPlans#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/dbs_backup_plans#ids DataAlicloudDbsBackupPlans#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/dbs_backup_plans#ids DataAlicloudDbsBackupPlans#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/dbs_backup_plans#name_regex DataAlicloudDbsBackupPlans#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/dbs_backup_plans#name_regex DataAlicloudDbsBackupPlans#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/dbs_backup_plans#output_file DataAlicloudDbsBackupPlans#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/dbs_backup_plans#output_file DataAlicloudDbsBackupPlans#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/dbs_backup_plans#page_number DataAlicloudDbsBackupPlans#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/dbs_backup_plans#page_number DataAlicloudDbsBackupPlans#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/dbs_backup_plans#page_size DataAlicloudDbsBackupPlans#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/dbs_backup_plans#page_size DataAlicloudDbsBackupPlans#page_size}
   */
   readonly pageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/dbs_backup_plans#status DataAlicloudDbsBackupPlans#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/dbs_backup_plans#status DataAlicloudDbsBackupPlans#status}
   */
   readonly status?: string;
 }
@@ -254,7 +254,7 @@ export class DataAlicloudDbsBackupPlansPlansList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/dbs_backup_plans alicloud_dbs_backup_plans}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/dbs_backup_plans alicloud_dbs_backup_plans}
 */
 export class DataAlicloudDbsBackupPlans extends cdktf.TerraformDataSource {
 
@@ -270,7 +270,7 @@ export class DataAlicloudDbsBackupPlans extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudDbsBackupPlans resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudDbsBackupPlans to import
-  * @param importFromId The id of the existing DataAlicloudDbsBackupPlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/dbs_backup_plans#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudDbsBackupPlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/dbs_backup_plans#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudDbsBackupPlans to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -282,7 +282,7 @@ export class DataAlicloudDbsBackupPlans extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/dbs_backup_plans alicloud_dbs_backup_plans} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/dbs_backup_plans alicloud_dbs_backup_plans} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -293,8 +293,8 @@ export class DataAlicloudDbsBackupPlans extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_dbs_backup_plans',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

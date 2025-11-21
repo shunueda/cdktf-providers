@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_parameters
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_parameters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PostgresqlParametersConfig extends cdktf.TerraformMetaArguments
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_parameters#db_instance_id PostgresqlParameters#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_parameters#db_instance_id PostgresqlParameters#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_parameters#id PostgresqlParameters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_parameters#id PostgresqlParameters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface PostgresqlParametersConfig extends cdktf.TerraformMetaArguments
   /**
   * param_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_parameters#param_list PostgresqlParameters#param_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_parameters#param_list PostgresqlParameters#param_list}
   */
   readonly paramList: PostgresqlParametersParamListStruct[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface PostgresqlParametersParamListStruct {
   /**
   * The new value to which the parameter will be modified. When this parameter is used as an input parameter, its value must be a string, such as `0.1` (decimal), `1000` (integer), and `replica` (enum).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_parameters#expected_value PostgresqlParameters#expected_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_parameters#expected_value PostgresqlParameters#expected_value}
   */
   readonly expectedValue: string;
   /**
   * Parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_parameters#name PostgresqlParameters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_parameters#name PostgresqlParameters#name}
   */
   readonly name: string;
 }
@@ -191,7 +191,7 @@ export class PostgresqlParametersParamListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_parameters tencentcloud_postgresql_parameters}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_parameters tencentcloud_postgresql_parameters}
 */
 export class PostgresqlParameters extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class PostgresqlParameters extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresqlParameters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlParameters to import
-  * @param importFromId The id of the existing PostgresqlParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_parameters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_parameters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlParameters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class PostgresqlParameters extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_parameters tencentcloud_postgresql_parameters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/postgresql_parameters tencentcloud_postgresql_parameters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class PostgresqlParameters extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_postgresql_parameters',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

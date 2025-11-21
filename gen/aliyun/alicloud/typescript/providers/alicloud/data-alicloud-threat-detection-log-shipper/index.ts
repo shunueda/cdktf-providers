@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_log_shipper
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_log_shipper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudThreatDetectionLogShipperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_log_shipper#enable DataAlicloudThreatDetectionLogShipper#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_log_shipper#enable DataAlicloudThreatDetectionLogShipper#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_log_shipper#id DataAlicloudThreatDetectionLogShipper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_log_shipper#id DataAlicloudThreatDetectionLogShipper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataAlicloudThreatDetectionLogShipperConfig extends cdktf.Terra
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_log_shipper alicloud_threat_detection_log_shipper}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_log_shipper alicloud_threat_detection_log_shipper}
 */
 export class DataAlicloudThreatDetectionLogShipper extends cdktf.TerraformDataSource {
 
@@ -37,7 +37,7 @@ export class DataAlicloudThreatDetectionLogShipper extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataAlicloudThreatDetectionLogShipper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudThreatDetectionLogShipper to import
-  * @param importFromId The id of the existing DataAlicloudThreatDetectionLogShipper that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_log_shipper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudThreatDetectionLogShipper that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_log_shipper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudThreatDetectionLogShipper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class DataAlicloudThreatDetectionLogShipper extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_log_shipper alicloud_threat_detection_log_shipper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_log_shipper alicloud_threat_detection_log_shipper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class DataAlicloudThreatDetectionLogShipper extends cdktf.TerraformDataSo
       terraformResourceType: 'alicloud_threat_detection_log_shipper',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

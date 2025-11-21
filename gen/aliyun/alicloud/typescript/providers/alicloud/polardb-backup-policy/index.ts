@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface PolardbBackupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#backup_frequency PolardbBackupPolicy#backup_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#backup_frequency PolardbBackupPolicy#backup_frequency}
   */
   readonly backupFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#backup_retention_period PolardbBackupPolicy#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#backup_retention_period PolardbBackupPolicy#backup_retention_period}
   */
   readonly backupRetentionPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#backup_retention_policy_on_cluster_deletion PolardbBackupPolicy#backup_retention_policy_on_cluster_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#backup_retention_policy_on_cluster_deletion PolardbBackupPolicy#backup_retention_policy_on_cluster_deletion}
   */
   readonly backupRetentionPolicyOnClusterDeletion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#data_level1_backup_frequency PolardbBackupPolicy#data_level1_backup_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#data_level1_backup_frequency PolardbBackupPolicy#data_level1_backup_frequency}
   */
   readonly dataLevel1BackupFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#data_level1_backup_period PolardbBackupPolicy#data_level1_backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#data_level1_backup_period PolardbBackupPolicy#data_level1_backup_period}
   */
   readonly dataLevel1BackupPeriod?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#data_level1_backup_retention_period PolardbBackupPolicy#data_level1_backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#data_level1_backup_retention_period PolardbBackupPolicy#data_level1_backup_retention_period}
   */
   readonly dataLevel1BackupRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#data_level1_backup_time PolardbBackupPolicy#data_level1_backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#data_level1_backup_time PolardbBackupPolicy#data_level1_backup_time}
   */
   readonly dataLevel1BackupTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#data_level2_backup_another_region_region PolardbBackupPolicy#data_level2_backup_another_region_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#data_level2_backup_another_region_region PolardbBackupPolicy#data_level2_backup_another_region_region}
   */
   readonly dataLevel2BackupAnotherRegionRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#data_level2_backup_another_region_retention_period PolardbBackupPolicy#data_level2_backup_another_region_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#data_level2_backup_another_region_retention_period PolardbBackupPolicy#data_level2_backup_another_region_retention_period}
   */
   readonly dataLevel2BackupAnotherRegionRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#data_level2_backup_period PolardbBackupPolicy#data_level2_backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#data_level2_backup_period PolardbBackupPolicy#data_level2_backup_period}
   */
   readonly dataLevel2BackupPeriod?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#data_level2_backup_retention_period PolardbBackupPolicy#data_level2_backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#data_level2_backup_retention_period PolardbBackupPolicy#data_level2_backup_retention_period}
   */
   readonly dataLevel2BackupRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#db_cluster_id PolardbBackupPolicy#db_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#db_cluster_id PolardbBackupPolicy#db_cluster_id}
   */
   readonly dbClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#id PolardbBackupPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#id PolardbBackupPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#log_backup_another_region_region PolardbBackupPolicy#log_backup_another_region_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#log_backup_another_region_region PolardbBackupPolicy#log_backup_another_region_region}
   */
   readonly logBackupAnotherRegionRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#log_backup_another_region_retention_period PolardbBackupPolicy#log_backup_another_region_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#log_backup_another_region_retention_period PolardbBackupPolicy#log_backup_another_region_retention_period}
   */
   readonly logBackupAnotherRegionRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#log_backup_retention_period PolardbBackupPolicy#log_backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#log_backup_retention_period PolardbBackupPolicy#log_backup_retention_period}
   */
   readonly logBackupRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#preferred_backup_period PolardbBackupPolicy#preferred_backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#preferred_backup_period PolardbBackupPolicy#preferred_backup_period}
   */
   readonly preferredBackupPeriod?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#preferred_backup_time PolardbBackupPolicy#preferred_backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#preferred_backup_time PolardbBackupPolicy#preferred_backup_time}
   */
   readonly preferredBackupTime?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy alicloud_polardb_backup_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy alicloud_polardb_backup_policy}
 */
 export class PolardbBackupPolicy extends cdktf.TerraformResource {
 
@@ -101,7 +101,7 @@ export class PolardbBackupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolardbBackupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolardbBackupPolicy to import
-  * @param importFromId The id of the existing PolardbBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolardbBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolardbBackupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class PolardbBackupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/polardb_backup_policy alicloud_polardb_backup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_backup_policy alicloud_polardb_backup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +124,8 @@ export class PolardbBackupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_polardb_backup_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

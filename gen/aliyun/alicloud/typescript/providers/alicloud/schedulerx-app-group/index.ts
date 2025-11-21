@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface SchedulerxAppGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#app_name SchedulerxAppGroup#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#app_name SchedulerxAppGroup#app_name}
   */
   readonly appName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#app_type SchedulerxAppGroup#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#app_type SchedulerxAppGroup#app_type}
   */
   readonly appType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#app_version SchedulerxAppGroup#app_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#app_version SchedulerxAppGroup#app_version}
   */
   readonly appVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#delete_jobs SchedulerxAppGroup#delete_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#delete_jobs SchedulerxAppGroup#delete_jobs}
   */
   readonly deleteJobs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#description SchedulerxAppGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#description SchedulerxAppGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#enable_log SchedulerxAppGroup#enable_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#enable_log SchedulerxAppGroup#enable_log}
   */
   readonly enableLog?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#group_id SchedulerxAppGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#group_id SchedulerxAppGroup#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#id SchedulerxAppGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#id SchedulerxAppGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#max_concurrency SchedulerxAppGroup#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#max_concurrency SchedulerxAppGroup#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#max_jobs SchedulerxAppGroup#max_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#max_jobs SchedulerxAppGroup#max_jobs}
   */
   readonly maxJobs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#monitor_config_json SchedulerxAppGroup#monitor_config_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#monitor_config_json SchedulerxAppGroup#monitor_config_json}
   */
   readonly monitorConfigJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#monitor_contacts_json SchedulerxAppGroup#monitor_contacts_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#monitor_contacts_json SchedulerxAppGroup#monitor_contacts_json}
   */
   readonly monitorContactsJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#namespace SchedulerxAppGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#namespace SchedulerxAppGroup#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#namespace_name SchedulerxAppGroup#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#namespace_name SchedulerxAppGroup#namespace_name}
   */
   readonly namespaceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#namespace_source SchedulerxAppGroup#namespace_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#namespace_source SchedulerxAppGroup#namespace_source}
   */
   readonly namespaceSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#schedule_busy_workers SchedulerxAppGroup#schedule_busy_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#schedule_busy_workers SchedulerxAppGroup#schedule_busy_workers}
   */
   readonly scheduleBusyWorkers?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#timeouts SchedulerxAppGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#timeouts SchedulerxAppGroup#timeouts}
   */
   readonly timeouts?: SchedulerxAppGroupTimeouts;
 }
 export interface SchedulerxAppGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#create SchedulerxAppGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#create SchedulerxAppGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#delete SchedulerxAppGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#delete SchedulerxAppGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#update SchedulerxAppGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#update SchedulerxAppGroup#update}
   */
   readonly update?: string;
 }
@@ -243,7 +243,7 @@ export class SchedulerxAppGroupTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group alicloud_schedulerx_app_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group alicloud_schedulerx_app_group}
 */
 export class SchedulerxAppGroup extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class SchedulerxAppGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchedulerxAppGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchedulerxAppGroup to import
-  * @param importFromId The id of the existing SchedulerxAppGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchedulerxAppGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchedulerxAppGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class SchedulerxAppGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_app_group alicloud_schedulerx_app_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_app_group alicloud_schedulerx_app_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class SchedulerxAppGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_schedulerx_app_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

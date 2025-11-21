@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,132 +8,132 @@ import * as cdktf from 'cdktf';
 
 export interface SchedulerxJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#attempt_interval SchedulerxJob#attempt_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#attempt_interval SchedulerxJob#attempt_interval}
   */
   readonly attemptInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#class_name SchedulerxJob#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#class_name SchedulerxJob#class_name}
   */
   readonly className?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#content SchedulerxJob#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#content SchedulerxJob#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#description SchedulerxJob#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#description SchedulerxJob#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#execute_mode SchedulerxJob#execute_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#execute_mode SchedulerxJob#execute_mode}
   */
   readonly executeMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#fail_times SchedulerxJob#fail_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#fail_times SchedulerxJob#fail_times}
   */
   readonly failTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#group_id SchedulerxJob#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#group_id SchedulerxJob#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#id SchedulerxJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#id SchedulerxJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#job_name SchedulerxJob#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#job_name SchedulerxJob#job_name}
   */
   readonly jobName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#job_type SchedulerxJob#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#job_type SchedulerxJob#job_type}
   */
   readonly jobType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#max_attempt SchedulerxJob#max_attempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#max_attempt SchedulerxJob#max_attempt}
   */
   readonly maxAttempt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#max_concurrency SchedulerxJob#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#max_concurrency SchedulerxJob#max_concurrency}
   */
   readonly maxConcurrency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#namespace SchedulerxJob#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#namespace SchedulerxJob#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#namespace_source SchedulerxJob#namespace_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#namespace_source SchedulerxJob#namespace_source}
   */
   readonly namespaceSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#parameters SchedulerxJob#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#parameters SchedulerxJob#parameters}
   */
   readonly parameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#status SchedulerxJob#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#status SchedulerxJob#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#success_notice_enable SchedulerxJob#success_notice_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#success_notice_enable SchedulerxJob#success_notice_enable}
   */
   readonly successNoticeEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#task_dispatch_mode SchedulerxJob#task_dispatch_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#task_dispatch_mode SchedulerxJob#task_dispatch_mode}
   */
   readonly taskDispatchMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#template SchedulerxJob#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#template SchedulerxJob#template}
   */
   readonly template?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#timezone SchedulerxJob#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#timezone SchedulerxJob#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#x_attrs SchedulerxJob#x_attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#x_attrs SchedulerxJob#x_attrs}
   */
   readonly xAttrs?: string;
   /**
   * job_monitor_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#job_monitor_info SchedulerxJob#job_monitor_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#job_monitor_info SchedulerxJob#job_monitor_info}
   */
   readonly jobMonitorInfo?: SchedulerxJobJobMonitorInfo;
   /**
   * map_task_xattrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#map_task_xattrs SchedulerxJob#map_task_xattrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#map_task_xattrs SchedulerxJob#map_task_xattrs}
   */
   readonly mapTaskXattrs?: SchedulerxJobMapTaskXattrs;
   /**
   * time_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#time_config SchedulerxJob#time_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#time_config SchedulerxJob#time_config}
   */
   readonly timeConfig: SchedulerxJobTimeConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#timeouts SchedulerxJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#timeouts SchedulerxJob#timeouts}
   */
   readonly timeouts?: SchedulerxJobTimeouts;
 }
 export interface SchedulerxJobJobMonitorInfoContactInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#ding SchedulerxJob#ding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#ding SchedulerxJob#ding}
   */
   readonly ding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#user_mail SchedulerxJob#user_mail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#user_mail SchedulerxJob#user_mail}
   */
   readonly userMail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#user_name SchedulerxJob#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#user_name SchedulerxJob#user_name}
   */
   readonly userName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#user_phone SchedulerxJob#user_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#user_phone SchedulerxJob#user_phone}
   */
   readonly userPhone?: string;
 }
@@ -336,27 +336,27 @@ export class SchedulerxJobJobMonitorInfoContactInfoList extends cdktf.ComplexLis
 }
 export interface SchedulerxJobJobMonitorInfoMonitorConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#fail_enable SchedulerxJob#fail_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#fail_enable SchedulerxJob#fail_enable}
   */
   readonly failEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#miss_worker_enable SchedulerxJob#miss_worker_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#miss_worker_enable SchedulerxJob#miss_worker_enable}
   */
   readonly missWorkerEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#send_channel SchedulerxJob#send_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#send_channel SchedulerxJob#send_channel}
   */
   readonly sendChannel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#timeout SchedulerxJob#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#timeout SchedulerxJob#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#timeout_enable SchedulerxJob#timeout_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#timeout_enable SchedulerxJob#timeout_enable}
   */
   readonly timeoutEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#timeout_kill_enable SchedulerxJob#timeout_kill_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#timeout_kill_enable SchedulerxJob#timeout_kill_enable}
   */
   readonly timeoutKillEnable?: boolean | cdktf.IResolvable;
 }
@@ -587,13 +587,13 @@ export interface SchedulerxJobJobMonitorInfo {
   /**
   * contact_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#contact_info SchedulerxJob#contact_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#contact_info SchedulerxJob#contact_info}
   */
   readonly contactInfo?: SchedulerxJobJobMonitorInfoContactInfo[] | cdktf.IResolvable;
   /**
   * monitor_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#monitor_config SchedulerxJob#monitor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#monitor_config SchedulerxJob#monitor_config}
   */
   readonly monitorConfig?: SchedulerxJobJobMonitorInfoMonitorConfig;
 }
@@ -706,27 +706,27 @@ export class SchedulerxJobJobMonitorInfoOutputReference extends cdktf.ComplexObj
 }
 export interface SchedulerxJobMapTaskXattrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#consumer_size SchedulerxJob#consumer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#consumer_size SchedulerxJob#consumer_size}
   */
   readonly consumerSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#dispatcher_size SchedulerxJob#dispatcher_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#dispatcher_size SchedulerxJob#dispatcher_size}
   */
   readonly dispatcherSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#page_size SchedulerxJob#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#page_size SchedulerxJob#page_size}
   */
   readonly pageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#queue_size SchedulerxJob#queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#queue_size SchedulerxJob#queue_size}
   */
   readonly queueSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#task_attempt_interval SchedulerxJob#task_attempt_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#task_attempt_interval SchedulerxJob#task_attempt_interval}
   */
   readonly taskAttemptInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#task_max_attempt SchedulerxJob#task_max_attempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#task_max_attempt SchedulerxJob#task_max_attempt}
   */
   readonly taskMaxAttempt?: number;
 }
@@ -955,19 +955,19 @@ export class SchedulerxJobMapTaskXattrsOutputReference extends cdktf.ComplexObje
 }
 export interface SchedulerxJobTimeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#calendar SchedulerxJob#calendar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#calendar SchedulerxJob#calendar}
   */
   readonly calendar?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#data_offset SchedulerxJob#data_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#data_offset SchedulerxJob#data_offset}
   */
   readonly dataOffset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#time_expression SchedulerxJob#time_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#time_expression SchedulerxJob#time_expression}
   */
   readonly timeExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#time_type SchedulerxJob#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#time_type SchedulerxJob#time_type}
   */
   readonly timeType: number;
 }
@@ -1135,15 +1135,15 @@ export class SchedulerxJobTimeConfigOutputReference extends cdktf.ComplexObject 
 }
 export interface SchedulerxJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#create SchedulerxJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#create SchedulerxJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#delete SchedulerxJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#delete SchedulerxJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#update SchedulerxJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#update SchedulerxJob#update}
   */
   readonly update?: string;
 }
@@ -1295,7 +1295,7 @@ export class SchedulerxJobTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job alicloud_schedulerx_job}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job alicloud_schedulerx_job}
 */
 export class SchedulerxJob extends cdktf.TerraformResource {
 
@@ -1311,7 +1311,7 @@ export class SchedulerxJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchedulerxJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchedulerxJob to import
-  * @param importFromId The id of the existing SchedulerxJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchedulerxJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchedulerxJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1323,7 +1323,7 @@ export class SchedulerxJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/schedulerx_job alicloud_schedulerx_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/schedulerx_job alicloud_schedulerx_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1334,8 +1334,8 @@ export class SchedulerxJob extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_schedulerx_job',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

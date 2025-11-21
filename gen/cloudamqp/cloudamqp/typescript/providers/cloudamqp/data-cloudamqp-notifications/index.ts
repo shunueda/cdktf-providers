@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/data-sources/notifications
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/notifications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCloudamqpNotificationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/data-sources/notifications#id DataCloudamqpNotifications#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/notifications#id DataCloudamqpNotifications#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataCloudamqpNotificationsConfig extends cdktf.TerraformMetaArg
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/data-sources/notifications#instance_id DataCloudamqpNotifications#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/notifications#instance_id DataCloudamqpNotifications#instance_id}
   */
   readonly instanceId: number;
 }
@@ -119,7 +119,7 @@ export class DataCloudamqpNotificationsRecipientsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/data-sources/notifications cloudamqp_notifications}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/notifications cloudamqp_notifications}
 */
 export class DataCloudamqpNotifications extends cdktf.TerraformDataSource {
 
@@ -135,7 +135,7 @@ export class DataCloudamqpNotifications extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCloudamqpNotifications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCloudamqpNotifications to import
-  * @param importFromId The id of the existing DataCloudamqpNotifications that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/data-sources/notifications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCloudamqpNotifications that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/notifications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCloudamqpNotifications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class DataCloudamqpNotifications extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/data-sources/notifications cloudamqp_notifications} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/notifications cloudamqp_notifications} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +158,8 @@ export class DataCloudamqpNotifications extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudamqp_notifications',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.2',
-        providerVersionConstraint: '1.38.2'
+        providerVersion: '1.38.3',
+        providerVersionConstraint: '1.38.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

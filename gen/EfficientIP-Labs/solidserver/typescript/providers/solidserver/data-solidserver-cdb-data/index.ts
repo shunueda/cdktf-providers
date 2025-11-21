@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/cdb_data
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/cdb_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSolidserverCdbDataConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the custom DB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/cdb_data#custom_db DataSolidserverCdbData#custom_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/cdb_data#custom_db DataSolidserverCdbData#custom_db}
   */
   readonly customDb: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/cdb_data#id DataSolidserverCdbData#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/cdb_data#id DataSolidserverCdbData#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataSolidserverCdbDataConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the value 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/cdb_data#value1 DataSolidserverCdbData#value1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/cdb_data#value1 DataSolidserverCdbData#value1}
   */
   readonly value1: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/cdb_data solidserver_cdb_data}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/cdb_data solidserver_cdb_data}
 */
 export class DataSolidserverCdbData extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataSolidserverCdbData extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSolidserverCdbData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolidserverCdbData to import
-  * @param importFromId The id of the existing DataSolidserverCdbData that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/cdb_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolidserverCdbData that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/cdb_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolidserverCdbData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataSolidserverCdbData extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/cdb_data solidserver_cdb_data} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/cdb_data solidserver_cdb_data} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataSolidserverCdbData extends cdktf.TerraformDataSource {
       terraformResourceType: 'solidserver_cdb_data',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

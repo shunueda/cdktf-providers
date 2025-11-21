@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_mac
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_mac
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface Ip6MacConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IPv6 address to map with the MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_mac#address Ip6Mac#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_mac#address Ip6Mac#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_mac#id Ip6Mac#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_mac#id Ip6Mac#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface Ip6MacConfig extends cdktf.TerraformMetaArguments {
   /**
   * The MAC Address o map with the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_mac#mac Ip6Mac#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_mac#mac Ip6Mac#mac}
   */
   readonly mac: string;
   /**
   * The name of the space into which mapping the IP and the MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_mac#space Ip6Mac#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_mac#space Ip6Mac#space}
   */
   readonly space: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_mac solidserver_ip6_mac}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_mac solidserver_ip6_mac}
 */
 export class Ip6Mac extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class Ip6Mac extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ip6Mac resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ip6Mac to import
-  * @param importFromId The id of the existing Ip6Mac that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_mac#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ip6Mac that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_mac#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ip6Mac to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class Ip6Mac extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_mac solidserver_ip6_mac} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_mac solidserver_ip6_mac} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class Ip6Mac extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_ip6_mac',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

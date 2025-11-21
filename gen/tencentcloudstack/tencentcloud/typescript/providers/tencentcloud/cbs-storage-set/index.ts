@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CbsStorageSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The available zone that the CBS instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#availability_zone CbsStorageSet#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#availability_zone CbsStorageSet#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * The charge type of CBS instance. Support `POSTPAID_BY_HOUR` and `DEDICATED_CLUSTER_PAID`. The default is `POSTPAID_BY_HOUR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#charge_type CbsStorageSet#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#charge_type CbsStorageSet#charge_type}
   */
   readonly chargeType?: string;
   /**
   * Exclusive cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#dedicated_cluster_id CbsStorageSet#dedicated_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#dedicated_cluster_id CbsStorageSet#dedicated_cluster_id}
   */
   readonly dedicatedClusterId?: string;
   /**
   * The number of disks to be purchased. Default 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#disk_count CbsStorageSet#disk_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#disk_count CbsStorageSet#disk_count}
   */
   readonly diskCount?: number;
   /**
   * Indicates whether CBS is encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#encrypt CbsStorageSet#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#encrypt CbsStorageSet#encrypt}
   */
   readonly encrypt?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#id CbsStorageSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#id CbsStorageSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,49 +47,49 @@ export interface CbsStorageSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional parameters. When purchasing an encryption disk, customize the key. When this parameter is passed in, the `encrypt` parameter need be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#kms_key_id CbsStorageSet#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#kms_key_id CbsStorageSet#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * ID of the project to which the instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#project_id CbsStorageSet#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#project_id CbsStorageSet#project_id}
   */
   readonly projectId?: number;
   /**
   * ID of the snapshot. If specified, created the CBS by this snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#snapshot_id CbsStorageSet#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#snapshot_id CbsStorageSet#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * Name of CBS. The maximum length can not exceed 60 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#storage_name CbsStorageSet#storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#storage_name CbsStorageSet#storage_name}
   */
   readonly storageName: string;
   /**
   * Volume of CBS, and unit is GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#storage_size CbsStorageSet#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#storage_size CbsStorageSet#storage_size}
   */
   readonly storageSize: number;
   /**
   * Type of CBS medium. Valid values: CLOUD_BASIC: HDD cloud disk, CLOUD_PREMIUM: Premium Cloud Storage, CLOUD_BSSD: General Purpose SSD, CLOUD_SSD: SSD, CLOUD_HSSD: Enhanced SSD, CLOUD_TSSD: Tremendous SSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#storage_type CbsStorageSet#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#storage_type CbsStorageSet#storage_type}
   */
   readonly storageType: string;
   /**
   * Add extra performance to the data disk. Only works when disk type is `CLOUD_TSSD` or `CLOUD_HSSD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#throughput_performance CbsStorageSet#throughput_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#throughput_performance CbsStorageSet#throughput_performance}
   */
   readonly throughputPerformance?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set tencentcloud_cbs_storage_set}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set tencentcloud_cbs_storage_set}
 */
 export class CbsStorageSet extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class CbsStorageSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CbsStorageSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CbsStorageSet to import
-  * @param importFromId The id of the existing CbsStorageSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CbsStorageSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CbsStorageSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class CbsStorageSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_storage_set tencentcloud_cbs_storage_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/cbs_storage_set tencentcloud_cbs_storage_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class CbsStorageSet extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cbs_storage_set',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

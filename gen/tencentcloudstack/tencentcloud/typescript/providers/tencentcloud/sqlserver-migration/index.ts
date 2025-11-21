@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SqlserverMigrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#id SqlserverMigration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#id SqlserverMigration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface SqlserverMigrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the migration task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#migrate_name SqlserverMigration#migrate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#migrate_name SqlserverMigration#migrate_name}
   */
   readonly migrateName: string;
   /**
   * Migration type (1 structure migration 2 data migration 3 incremental synchronization).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#migrate_type SqlserverMigration#migrate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#migrate_type SqlserverMigration#migrate_type}
   */
   readonly migrateType: number;
   /**
   * Type of migration source 1 TencentDB for SQLServer 2 Cloud server self-built SQLServer database 4 SQLServer backup and restore 5 SQLServer backup and restore (COS mode).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#source_type SqlserverMigration#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#source_type SqlserverMigration#source_type}
   */
   readonly sourceType: number;
   /**
   * migrate_db_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#migrate_db_set SqlserverMigration#migrate_db_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#migrate_db_set SqlserverMigration#migrate_db_set}
   */
   readonly migrateDbSet?: SqlserverMigrationMigrateDbSet[] | cdktf.IResolvable;
   /**
   * rename_restore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#rename_restore SqlserverMigration#rename_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#rename_restore SqlserverMigration#rename_restore}
   */
   readonly renameRestore?: SqlserverMigrationRenameRestore[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#source SqlserverMigration#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#source SqlserverMigration#source}
   */
   readonly source: SqlserverMigrationSource;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#target SqlserverMigration#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#target SqlserverMigration#target}
   */
   readonly target: SqlserverMigrationTarget;
 }
@@ -61,7 +61,7 @@ export interface SqlserverMigrationMigrateDbSet {
   /**
   * Name of the migration database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#db_name SqlserverMigration#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#db_name SqlserverMigration#db_name}
   */
   readonly dbName?: string;
 }
@@ -179,13 +179,13 @@ export interface SqlserverMigrationRenameRestore {
   /**
   * When the new name of the library is used for offline migration, if it is not filled in, it will be named according to OldName. OldName and NewName cannot be filled in at the same time. OldName and NewName must be filled in and cannot be duplicate when used for cloning database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#new_name SqlserverMigration#new_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#new_name SqlserverMigration#new_name}
   */
   readonly newName?: string;
   /**
   * The name of the library. If oldName does not exist, a failure is returned.It can be left blank when used for offline migration tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#old_name SqlserverMigration#old_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#old_name SqlserverMigration#old_name}
   */
   readonly oldName?: string;
 }
@@ -332,61 +332,61 @@ export interface SqlserverMigrationSource {
   /**
   * ID of the migration source Cvm, used when MigrateType=2 (cloud server self-built SQL Server database).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#cvm_id SqlserverMigration#cvm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#cvm_id SqlserverMigration#cvm_id}
   */
   readonly cvmId?: string;
   /**
   * The ID of the migration source instance, which is used when MigrateType=1 (TencentDB for SQLServers). The format is mssql-si2823jyl.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#instance_id SqlserverMigration#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#instance_id SqlserverMigration#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Migrate the intranet IP of the self-built database of the source Cvm, and use it when MigrateType=2 (self-built SQL Server database of the cloud server).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#ip SqlserverMigration#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#ip SqlserverMigration#ip}
   */
   readonly ip?: string;
   /**
   * Password, MigrateType=1 or MigrateType=2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#password SqlserverMigration#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#password SqlserverMigration#password}
   */
   readonly password?: string;
   /**
   * The port number of the self-built database of the migration source Cvm, which is used when MigrateType=2 (self-built SQL Server database of the cloud server).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#port SqlserverMigration#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#port SqlserverMigration#port}
   */
   readonly port?: number;
   /**
   * The subnet ID under the Vpc of the source Cvm is used when MigrateType=2 (ECS self-built SQL Server database). The format is as follows subnet-h9extioi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#subnet_id SqlserverMigration#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#subnet_id SqlserverMigration#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The source backup address for offline migration. MigrateType=4 or MigrateType=5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#url SqlserverMigration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#url SqlserverMigration#url}
   */
   readonly url?: string[];
   /**
   * The source backup password for offline migration, MigrateType=4 or MigrateType=5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#url_password SqlserverMigration#url_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#url_password SqlserverMigration#url_password}
   */
   readonly urlPassword?: string;
   /**
   * User name, MigrateType=1 or MigrateType=2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#user_name SqlserverMigration#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#user_name SqlserverMigration#user_name}
   */
   readonly userName?: string;
   /**
   * The Vpc network ID of the migration source Cvm is used when MigrateType=2 (cloud server self-built SQL Server database). The format is as follows vpc-6ys9ont9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#vpc_id SqlserverMigration#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#vpc_id SqlserverMigration#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -733,19 +733,19 @@ export interface SqlserverMigrationTarget {
   /**
   * The ID of the migration target instance, in the format mssql-si2823jyl.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#instance_id SqlserverMigration#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#instance_id SqlserverMigration#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Password of the migration target instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#password SqlserverMigration#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#password SqlserverMigration#password}
   */
   readonly password?: string;
   /**
   * User name of the migration target instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#user_name SqlserverMigration#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#user_name SqlserverMigration#user_name}
   */
   readonly userName?: string;
 }
@@ -887,7 +887,7 @@ export class SqlserverMigrationTargetOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration tencentcloud_sqlserver_migration}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration tencentcloud_sqlserver_migration}
 */
 export class SqlserverMigration extends cdktf.TerraformResource {
 
@@ -903,7 +903,7 @@ export class SqlserverMigration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverMigration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverMigration to import
-  * @param importFromId The id of the existing SqlserverMigration that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverMigration that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverMigration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -915,7 +915,7 @@ export class SqlserverMigration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_migration tencentcloud_sqlserver_migration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_migration tencentcloud_sqlserver_migration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -926,8 +926,8 @@ export class SqlserverMigration extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_migration',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

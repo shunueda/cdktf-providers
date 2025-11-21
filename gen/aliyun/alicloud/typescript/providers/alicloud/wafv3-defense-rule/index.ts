@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface Wafv3DefenseRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#defense_origin Wafv3DefenseRule#defense_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#defense_origin Wafv3DefenseRule#defense_origin}
   */
   readonly defenseOrigin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#defense_scene Wafv3DefenseRule#defense_scene}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#defense_scene Wafv3DefenseRule#defense_scene}
   */
   readonly defenseScene: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#defense_type Wafv3DefenseRule#defense_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#defense_type Wafv3DefenseRule#defense_type}
   */
   readonly defenseType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#id Wafv3DefenseRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#id Wafv3DefenseRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#instance_id Wafv3DefenseRule#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#instance_id Wafv3DefenseRule#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#resource Wafv3DefenseRule#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#resource Wafv3DefenseRule#resource}
   */
   readonly resource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#rule_name Wafv3DefenseRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#rule_name Wafv3DefenseRule#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#rule_status Wafv3DefenseRule#rule_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#rule_status Wafv3DefenseRule#rule_status}
   */
   readonly ruleStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#template_id Wafv3DefenseRule#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#template_id Wafv3DefenseRule#template_id}
   */
   readonly templateId?: number;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#config Wafv3DefenseRule#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#config Wafv3DefenseRule#config}
   */
   readonly config: Wafv3DefenseRuleConfigA;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#timeouts Wafv3DefenseRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#timeouts Wafv3DefenseRule#timeouts}
   */
   readonly timeouts?: Wafv3DefenseRuleTimeouts;
 }
 export interface Wafv3DefenseRuleConfigAccountIdentifiers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#decode_type Wafv3DefenseRule#decode_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#decode_type Wafv3DefenseRule#decode_type}
   */
   readonly decodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#key Wafv3DefenseRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#key Wafv3DefenseRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#position Wafv3DefenseRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#position Wafv3DefenseRule#position}
   */
   readonly position?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#priority Wafv3DefenseRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#priority Wafv3DefenseRule#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#sub_key Wafv3DefenseRule#sub_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#sub_key Wafv3DefenseRule#sub_key}
   */
   readonly subKey?: string;
 }
@@ -309,19 +309,19 @@ export class Wafv3DefenseRuleConfigAccountIdentifiersList extends cdktf.ComplexL
 }
 export interface Wafv3DefenseRuleConfigConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#key Wafv3DefenseRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#key Wafv3DefenseRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#op_value Wafv3DefenseRule#op_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#op_value Wafv3DefenseRule#op_value}
   */
   readonly opValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#sub_key Wafv3DefenseRule#sub_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#sub_key Wafv3DefenseRule#sub_key}
   */
   readonly subKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#values Wafv3DefenseRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#values Wafv3DefenseRule#values}
   */
   readonly values?: string;
 }
@@ -524,15 +524,15 @@ export class Wafv3DefenseRuleConfigConditionsList extends cdktf.ComplexList {
 }
 export interface Wafv3DefenseRuleConfigGrayConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#gray_rate Wafv3DefenseRule#gray_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#gray_rate Wafv3DefenseRule#gray_rate}
   */
   readonly grayRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#gray_sub_key Wafv3DefenseRule#gray_sub_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#gray_sub_key Wafv3DefenseRule#gray_sub_key}
   */
   readonly graySubKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#gray_target Wafv3DefenseRule#gray_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#gray_target Wafv3DefenseRule#gray_target}
   */
   readonly grayTarget?: string;
 }
@@ -674,15 +674,15 @@ export class Wafv3DefenseRuleConfigGrayConfigOutputReference extends cdktf.Compl
 }
 export interface Wafv3DefenseRuleConfigRateLimitStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#code Wafv3DefenseRule#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#code Wafv3DefenseRule#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#count Wafv3DefenseRule#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#count Wafv3DefenseRule#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#ratio Wafv3DefenseRule#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#ratio Wafv3DefenseRule#ratio}
   */
   readonly ratio?: number;
 }
@@ -824,29 +824,29 @@ export class Wafv3DefenseRuleConfigRateLimitStatusOutputReference extends cdktf.
 }
 export interface Wafv3DefenseRuleConfigRateLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#interval Wafv3DefenseRule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#interval Wafv3DefenseRule#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#sub_key Wafv3DefenseRule#sub_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#sub_key Wafv3DefenseRule#sub_key}
   */
   readonly subKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#target Wafv3DefenseRule#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#target Wafv3DefenseRule#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#threshold Wafv3DefenseRule#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#threshold Wafv3DefenseRule#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#ttl Wafv3DefenseRule#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#ttl Wafv3DefenseRule#ttl}
   */
   readonly ttl?: number;
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#status Wafv3DefenseRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#status Wafv3DefenseRule#status}
   */
   readonly status?: Wafv3DefenseRuleConfigRateLimitStatus;
 }
@@ -1075,11 +1075,11 @@ export class Wafv3DefenseRuleConfigRateLimitOutputReference extends cdktf.Comple
 }
 export interface Wafv3DefenseRuleConfigTimeConfigTimePeriods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#end Wafv3DefenseRule#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#end Wafv3DefenseRule#end}
   */
   readonly end?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#start Wafv3DefenseRule#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#start Wafv3DefenseRule#start}
   */
   readonly start?: number;
 }
@@ -1224,11 +1224,11 @@ export class Wafv3DefenseRuleConfigTimeConfigTimePeriodsList extends cdktf.Compl
 }
 export interface Wafv3DefenseRuleConfigTimeConfigWeekTimePeriodsDayPeriods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#end Wafv3DefenseRule#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#end Wafv3DefenseRule#end}
   */
   readonly end?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#start Wafv3DefenseRule#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#start Wafv3DefenseRule#start}
   */
   readonly start?: number;
 }
@@ -1373,13 +1373,13 @@ export class Wafv3DefenseRuleConfigTimeConfigWeekTimePeriodsDayPeriodsList exten
 }
 export interface Wafv3DefenseRuleConfigTimeConfigWeekTimePeriods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#day Wafv3DefenseRule#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#day Wafv3DefenseRule#day}
   */
   readonly day?: string;
   /**
   * day_periods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#day_periods Wafv3DefenseRule#day_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#day_periods Wafv3DefenseRule#day_periods}
   */
   readonly dayPeriods?: Wafv3DefenseRuleConfigTimeConfigWeekTimePeriodsDayPeriods[] | cdktf.IResolvable;
 }
@@ -1524,23 +1524,23 @@ export class Wafv3DefenseRuleConfigTimeConfigWeekTimePeriodsList extends cdktf.C
 }
 export interface Wafv3DefenseRuleConfigTimeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#time_scope Wafv3DefenseRule#time_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#time_scope Wafv3DefenseRule#time_scope}
   */
   readonly timeScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#time_zone Wafv3DefenseRule#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#time_zone Wafv3DefenseRule#time_zone}
   */
   readonly timeZone?: number;
   /**
   * time_periods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#time_periods Wafv3DefenseRule#time_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#time_periods Wafv3DefenseRule#time_periods}
   */
   readonly timePeriods?: Wafv3DefenseRuleConfigTimeConfigTimePeriods[] | cdktf.IResolvable;
   /**
   * week_time_periods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#week_time_periods Wafv3DefenseRule#week_time_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#week_time_periods Wafv3DefenseRule#week_time_periods}
   */
   readonly weekTimePeriods?: Wafv3DefenseRuleConfigTimeConfigWeekTimePeriods[] | cdktf.IResolvable;
 }
@@ -1711,97 +1711,97 @@ export class Wafv3DefenseRuleConfigTimeConfigOutputReference extends cdktf.Compl
 }
 export interface Wafv3DefenseRuleConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#abroad_regions Wafv3DefenseRule#abroad_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#abroad_regions Wafv3DefenseRule#abroad_regions}
   */
   readonly abroadRegions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#bypass_regular_rules Wafv3DefenseRule#bypass_regular_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#bypass_regular_rules Wafv3DefenseRule#bypass_regular_rules}
   */
   readonly bypassRegularRules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#bypass_regular_types Wafv3DefenseRule#bypass_regular_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#bypass_regular_types Wafv3DefenseRule#bypass_regular_types}
   */
   readonly bypassRegularTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#bypass_tags Wafv3DefenseRule#bypass_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#bypass_tags Wafv3DefenseRule#bypass_tags}
   */
   readonly bypassTags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#cc_effect Wafv3DefenseRule#cc_effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#cc_effect Wafv3DefenseRule#cc_effect}
   */
   readonly ccEffect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#cc_status Wafv3DefenseRule#cc_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#cc_status Wafv3DefenseRule#cc_status}
   */
   readonly ccStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#cn_regions Wafv3DefenseRule#cn_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#cn_regions Wafv3DefenseRule#cn_regions}
   */
   readonly cnRegions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#gray_status Wafv3DefenseRule#gray_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#gray_status Wafv3DefenseRule#gray_status}
   */
   readonly grayStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#mode Wafv3DefenseRule#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#mode Wafv3DefenseRule#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#protocol Wafv3DefenseRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#protocol Wafv3DefenseRule#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#remote_addr Wafv3DefenseRule#remote_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#remote_addr Wafv3DefenseRule#remote_addr}
   */
   readonly remoteAddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#rule_action Wafv3DefenseRule#rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#rule_action Wafv3DefenseRule#rule_action}
   */
   readonly ruleAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#throttle_threhold Wafv3DefenseRule#throttle_threhold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#throttle_threhold Wafv3DefenseRule#throttle_threhold}
   */
   readonly throttleThrehold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#throttle_type Wafv3DefenseRule#throttle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#throttle_type Wafv3DefenseRule#throttle_type}
   */
   readonly throttleType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#ua Wafv3DefenseRule#ua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#ua Wafv3DefenseRule#ua}
   */
   readonly ua?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#url Wafv3DefenseRule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#url Wafv3DefenseRule#url}
   */
   readonly url?: string;
   /**
   * account_identifiers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#account_identifiers Wafv3DefenseRule#account_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#account_identifiers Wafv3DefenseRule#account_identifiers}
   */
   readonly accountIdentifiers?: Wafv3DefenseRuleConfigAccountIdentifiers[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#conditions Wafv3DefenseRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#conditions Wafv3DefenseRule#conditions}
   */
   readonly conditions?: Wafv3DefenseRuleConfigConditions[] | cdktf.IResolvable;
   /**
   * gray_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#gray_config Wafv3DefenseRule#gray_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#gray_config Wafv3DefenseRule#gray_config}
   */
   readonly grayConfig?: Wafv3DefenseRuleConfigGrayConfig;
   /**
   * rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#rate_limit Wafv3DefenseRule#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#rate_limit Wafv3DefenseRule#rate_limit}
   */
   readonly rateLimit?: Wafv3DefenseRuleConfigRateLimit;
   /**
   * time_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#time_config Wafv3DefenseRule#time_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#time_config Wafv3DefenseRule#time_config}
   */
   readonly timeConfig?: Wafv3DefenseRuleConfigTimeConfig;
 }
@@ -2465,15 +2465,15 @@ export class Wafv3DefenseRuleConfigAOutputReference extends cdktf.ComplexObject 
 }
 export interface Wafv3DefenseRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#create Wafv3DefenseRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#create Wafv3DefenseRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#delete Wafv3DefenseRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#delete Wafv3DefenseRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#update Wafv3DefenseRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#update Wafv3DefenseRule#update}
   */
   readonly update?: string;
 }
@@ -2625,7 +2625,7 @@ export class Wafv3DefenseRuleTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule alicloud_wafv3_defense_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule alicloud_wafv3_defense_rule}
 */
 export class Wafv3DefenseRule extends cdktf.TerraformResource {
 
@@ -2641,7 +2641,7 @@ export class Wafv3DefenseRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Wafv3DefenseRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Wafv3DefenseRule to import
-  * @param importFromId The id of the existing Wafv3DefenseRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Wafv3DefenseRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Wafv3DefenseRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2653,7 +2653,7 @@ export class Wafv3DefenseRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/wafv3_defense_rule alicloud_wafv3_defense_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/wafv3_defense_rule alicloud_wafv3_defense_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2664,8 +2664,8 @@ export class Wafv3DefenseRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_wafv3_defense_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

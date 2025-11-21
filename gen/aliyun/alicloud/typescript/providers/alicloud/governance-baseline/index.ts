@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface GovernanceBaselineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline#baseline_name GovernanceBaseline#baseline_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline#baseline_name GovernanceBaseline#baseline_name}
   */
   readonly baselineName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline#description GovernanceBaseline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline#description GovernanceBaseline#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline#id GovernanceBaseline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline#id GovernanceBaseline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,27 +25,27 @@ export interface GovernanceBaselineConfig extends cdktf.TerraformMetaArguments {
   /**
   * baseline_items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline#baseline_items GovernanceBaseline#baseline_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline#baseline_items GovernanceBaseline#baseline_items}
   */
   readonly baselineItems?: GovernanceBaselineBaselineItems[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline#timeouts GovernanceBaseline#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline#timeouts GovernanceBaseline#timeouts}
   */
   readonly timeouts?: GovernanceBaselineTimeouts;
 }
 export interface GovernanceBaselineBaselineItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline#config GovernanceBaseline#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline#config GovernanceBaseline#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline#name GovernanceBaseline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline#name GovernanceBaseline#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline#version GovernanceBaseline#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline#version GovernanceBaseline#version}
   */
   readonly version?: string;
 }
@@ -219,15 +219,15 @@ export class GovernanceBaselineBaselineItemsList extends cdktf.ComplexList {
 }
 export interface GovernanceBaselineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline#create GovernanceBaseline#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline#create GovernanceBaseline#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline#delete GovernanceBaseline#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline#delete GovernanceBaseline#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline#update GovernanceBaseline#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline#update GovernanceBaseline#update}
   */
   readonly update?: string;
 }
@@ -379,7 +379,7 @@ export class GovernanceBaselineTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline alicloud_governance_baseline}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline alicloud_governance_baseline}
 */
 export class GovernanceBaseline extends cdktf.TerraformResource {
 
@@ -395,7 +395,7 @@ export class GovernanceBaseline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GovernanceBaseline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GovernanceBaseline to import
-  * @param importFromId The id of the existing GovernanceBaseline that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GovernanceBaseline that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GovernanceBaseline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -407,7 +407,7 @@ export class GovernanceBaseline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/governance_baseline alicloud_governance_baseline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/governance_baseline alicloud_governance_baseline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -418,8 +418,8 @@ export class GovernanceBaseline extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_governance_baseline',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

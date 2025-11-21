@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mariadb_switch_ha
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_switch_ha
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MariadbSwitchHaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mariadb_switch_ha#id MariadbSwitchHa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_switch_ha#id MariadbSwitchHa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface MariadbSwitchHaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance ID in the format of tdsql-ow728lmc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mariadb_switch_ha#instance_id MariadbSwitchHa#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_switch_ha#instance_id MariadbSwitchHa#instance_id}
   */
   readonly instanceId: string;
   /**
   * Target AZ. The node with the lowest delay in the target AZ will be automatically promoted to primary node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mariadb_switch_ha#zone MariadbSwitchHa#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_switch_ha#zone MariadbSwitchHa#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mariadb_switch_ha tencentcloud_mariadb_switch_ha}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_switch_ha tencentcloud_mariadb_switch_ha}
 */
 export class MariadbSwitchHa extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class MariadbSwitchHa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MariadbSwitchHa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MariadbSwitchHa to import
-  * @param importFromId The id of the existing MariadbSwitchHa that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mariadb_switch_ha#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MariadbSwitchHa that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_switch_ha#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MariadbSwitchHa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class MariadbSwitchHa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mariadb_switch_ha tencentcloud_mariadb_switch_ha} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mariadb_switch_ha tencentcloud_mariadb_switch_ha} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class MariadbSwitchHa extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mariadb_switch_ha',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

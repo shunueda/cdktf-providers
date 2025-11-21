@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "solidserver": "1.1.25"
+    "solidserver": "1.1.26"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/arms_env_service_monitor
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_env_service_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface ArmsEnvServiceMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/arms_env_service_monitor#aliyun_lang ArmsEnvServiceMonitor#aliyun_lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_env_service_monitor#aliyun_lang ArmsEnvServiceMonitor#aliyun_lang}
   */
   readonly aliyunLang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/arms_env_service_monitor#config_yaml ArmsEnvServiceMonitor#config_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_env_service_monitor#config_yaml ArmsEnvServiceMonitor#config_yaml}
   */
   readonly configYaml: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/arms_env_service_monitor#environment_id ArmsEnvServiceMonitor#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_env_service_monitor#environment_id ArmsEnvServiceMonitor#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/arms_env_service_monitor#id ArmsEnvServiceMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_env_service_monitor#id ArmsEnvServiceMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,21 +29,21 @@ export interface ArmsEnvServiceMonitorConfig extends cdktf.TerraformMetaArgument
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/arms_env_service_monitor#timeouts ArmsEnvServiceMonitor#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_env_service_monitor#timeouts ArmsEnvServiceMonitor#timeouts}
   */
   readonly timeouts?: ArmsEnvServiceMonitorTimeouts;
 }
 export interface ArmsEnvServiceMonitorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/arms_env_service_monitor#create ArmsEnvServiceMonitor#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_env_service_monitor#create ArmsEnvServiceMonitor#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/arms_env_service_monitor#delete ArmsEnvServiceMonitor#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_env_service_monitor#delete ArmsEnvServiceMonitor#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/arms_env_service_monitor#update ArmsEnvServiceMonitor#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_env_service_monitor#update ArmsEnvServiceMonitor#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class ArmsEnvServiceMonitorTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/arms_env_service_monitor alicloud_arms_env_service_monitor}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_env_service_monitor alicloud_arms_env_service_monitor}
 */
 export class ArmsEnvServiceMonitor extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class ArmsEnvServiceMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArmsEnvServiceMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArmsEnvServiceMonitor to import
-  * @param importFromId The id of the existing ArmsEnvServiceMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/arms_env_service_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArmsEnvServiceMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_env_service_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArmsEnvServiceMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class ArmsEnvServiceMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/arms_env_service_monitor alicloud_arms_env_service_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_env_service_monitor alicloud_arms_env_service_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class ArmsEnvServiceMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_arms_env_service_monitor',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

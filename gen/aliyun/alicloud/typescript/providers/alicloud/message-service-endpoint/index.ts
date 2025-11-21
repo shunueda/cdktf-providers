@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/message_service_endpoint
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface MessageServiceEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/message_service_endpoint#endpoint_enabled MessageServiceEndpoint#endpoint_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_endpoint#endpoint_enabled MessageServiceEndpoint#endpoint_enabled}
   */
   readonly endpointEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/message_service_endpoint#endpoint_type MessageServiceEndpoint#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_endpoint#endpoint_type MessageServiceEndpoint#endpoint_type}
   */
   readonly endpointType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/message_service_endpoint#id MessageServiceEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_endpoint#id MessageServiceEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,21 +25,21 @@ export interface MessageServiceEndpointConfig extends cdktf.TerraformMetaArgumen
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/message_service_endpoint#timeouts MessageServiceEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_endpoint#timeouts MessageServiceEndpoint#timeouts}
   */
   readonly timeouts?: MessageServiceEndpointTimeouts;
 }
 export interface MessageServiceEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/message_service_endpoint#create MessageServiceEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_endpoint#create MessageServiceEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/message_service_endpoint#delete MessageServiceEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_endpoint#delete MessageServiceEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/message_service_endpoint#update MessageServiceEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_endpoint#update MessageServiceEndpoint#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class MessageServiceEndpointTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/message_service_endpoint alicloud_message_service_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_endpoint alicloud_message_service_endpoint}
 */
 export class MessageServiceEndpoint extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class MessageServiceEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MessageServiceEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MessageServiceEndpoint to import
-  * @param importFromId The id of the existing MessageServiceEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/message_service_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MessageServiceEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MessageServiceEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class MessageServiceEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/message_service_endpoint alicloud_message_service_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_endpoint alicloud_message_service_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class MessageServiceEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_message_service_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

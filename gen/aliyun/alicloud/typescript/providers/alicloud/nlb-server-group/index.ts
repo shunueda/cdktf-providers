@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,128 +8,128 @@ import * as cdktf from 'cdktf';
 
 export interface NlbServerGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#address_ip_version NlbServerGroup#address_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#address_ip_version NlbServerGroup#address_ip_version}
   */
   readonly addressIpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#any_port_enabled NlbServerGroup#any_port_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#any_port_enabled NlbServerGroup#any_port_enabled}
   */
   readonly anyPortEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#connection_drain NlbServerGroup#connection_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#connection_drain NlbServerGroup#connection_drain}
   */
   readonly connectionDrain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#connection_drain_enabled NlbServerGroup#connection_drain_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#connection_drain_enabled NlbServerGroup#connection_drain_enabled}
   */
   readonly connectionDrainEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#connection_drain_timeout NlbServerGroup#connection_drain_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#connection_drain_timeout NlbServerGroup#connection_drain_timeout}
   */
   readonly connectionDrainTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#id NlbServerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#id NlbServerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#preserve_client_ip_enabled NlbServerGroup#preserve_client_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#preserve_client_ip_enabled NlbServerGroup#preserve_client_ip_enabled}
   */
   readonly preserveClientIpEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#protocol NlbServerGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#protocol NlbServerGroup#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#resource_group_id NlbServerGroup#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#resource_group_id NlbServerGroup#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#scheduler NlbServerGroup#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#scheduler NlbServerGroup#scheduler}
   */
   readonly scheduler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#server_group_name NlbServerGroup#server_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#server_group_name NlbServerGroup#server_group_name}
   */
   readonly serverGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#server_group_type NlbServerGroup#server_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#server_group_type NlbServerGroup#server_group_type}
   */
   readonly serverGroupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#tags NlbServerGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#tags NlbServerGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#vpc_id NlbServerGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#vpc_id NlbServerGroup#vpc_id}
   */
   readonly vpcId: string;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#health_check NlbServerGroup#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#health_check NlbServerGroup#health_check}
   */
   readonly healthCheck?: NlbServerGroupHealthCheck;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#timeouts NlbServerGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#timeouts NlbServerGroup#timeouts}
   */
   readonly timeouts?: NlbServerGroupTimeouts;
 }
 export interface NlbServerGroupHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#health_check_connect_port NlbServerGroup#health_check_connect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#health_check_connect_port NlbServerGroup#health_check_connect_port}
   */
   readonly healthCheckConnectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#health_check_connect_timeout NlbServerGroup#health_check_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#health_check_connect_timeout NlbServerGroup#health_check_connect_timeout}
   */
   readonly healthCheckConnectTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#health_check_domain NlbServerGroup#health_check_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#health_check_domain NlbServerGroup#health_check_domain}
   */
   readonly healthCheckDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#health_check_enabled NlbServerGroup#health_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#health_check_enabled NlbServerGroup#health_check_enabled}
   */
   readonly healthCheckEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#health_check_exp NlbServerGroup#health_check_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#health_check_exp NlbServerGroup#health_check_exp}
   */
   readonly healthCheckExp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#health_check_http_code NlbServerGroup#health_check_http_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#health_check_http_code NlbServerGroup#health_check_http_code}
   */
   readonly healthCheckHttpCode?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#health_check_interval NlbServerGroup#health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#health_check_interval NlbServerGroup#health_check_interval}
   */
   readonly healthCheckInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#health_check_req NlbServerGroup#health_check_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#health_check_req NlbServerGroup#health_check_req}
   */
   readonly healthCheckReq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#health_check_type NlbServerGroup#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#health_check_type NlbServerGroup#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#health_check_url NlbServerGroup#health_check_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#health_check_url NlbServerGroup#health_check_url}
   */
   readonly healthCheckUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#healthy_threshold NlbServerGroup#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#healthy_threshold NlbServerGroup#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#http_check_method NlbServerGroup#http_check_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#http_check_method NlbServerGroup#http_check_method}
   */
   readonly httpCheckMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#unhealthy_threshold NlbServerGroup#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#unhealthy_threshold NlbServerGroup#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
 }
@@ -561,15 +561,15 @@ export class NlbServerGroupHealthCheckOutputReference extends cdktf.ComplexObjec
 }
 export interface NlbServerGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#create NlbServerGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#create NlbServerGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#delete NlbServerGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#delete NlbServerGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#update NlbServerGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#update NlbServerGroup#update}
   */
   readonly update?: string;
 }
@@ -721,7 +721,7 @@ export class NlbServerGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group alicloud_nlb_server_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group alicloud_nlb_server_group}
 */
 export class NlbServerGroup extends cdktf.TerraformResource {
 
@@ -737,7 +737,7 @@ export class NlbServerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NlbServerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NlbServerGroup to import
-  * @param importFromId The id of the existing NlbServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NlbServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NlbServerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -749,7 +749,7 @@ export class NlbServerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_server_group alicloud_nlb_server_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_server_group alicloud_nlb_server_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -760,8 +760,8 @@ export class NlbServerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_nlb_server_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

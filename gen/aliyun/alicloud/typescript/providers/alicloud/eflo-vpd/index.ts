@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_vpd
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface EfloVpdConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_vpd#cidr EfloVpd#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd#cidr EfloVpd#cidr}
   */
   readonly cidr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_vpd#id EfloVpd#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd#id EfloVpd#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_vpd#resource_group_id EfloVpd#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd#resource_group_id EfloVpd#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_vpd#vpd_name EfloVpd#vpd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd#secondary_cidr_blocks EfloVpd#secondary_cidr_blocks}
+  */
+  readonly secondaryCidrBlocks?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd#tags EfloVpd#tags}
+  */
+  readonly tags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd#vpd_name EfloVpd#vpd_name}
   */
   readonly vpdName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_vpd#timeouts EfloVpd#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd#timeouts EfloVpd#timeouts}
   */
   readonly timeouts?: EfloVpdTimeouts;
 }
 export interface EfloVpdTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_vpd#create EfloVpd#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd#create EfloVpd#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_vpd#delete EfloVpd#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd#delete EfloVpd#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_vpd#update EfloVpd#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd#update EfloVpd#update}
   */
   readonly update?: string;
 }
@@ -195,7 +203,7 @@ export class EfloVpdTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_vpd alicloud_eflo_vpd}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd alicloud_eflo_vpd}
 */
 export class EfloVpd extends cdktf.TerraformResource {
 
@@ -211,7 +219,7 @@ export class EfloVpd extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EfloVpd resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EfloVpd to import
-  * @param importFromId The id of the existing EfloVpd that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_vpd#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EfloVpd that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EfloVpd to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +231,7 @@ export class EfloVpd extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_vpd alicloud_eflo_vpd} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_vpd alicloud_eflo_vpd} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +242,8 @@ export class EfloVpd extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_eflo_vpd',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -248,6 +256,8 @@ export class EfloVpd extends cdktf.TerraformResource {
     this._cidr = config.cidr;
     this._id = config.id;
     this._resourceGroupId = config.resourceGroupId;
+    this._secondaryCidrBlocks = config.secondaryCidrBlocks;
+    this._tags = config.tags;
     this._vpdName = config.vpdName;
     this._timeouts.internalValue = config.timeouts;
   }
@@ -295,7 +305,12 @@ export class EfloVpd extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // resource_group_id - computed: false, optional: true, required: false
+  // region_id - computed: true, optional: false, required: false
+  public get regionId() {
+    return this.getStringAttribute('region_id');
+  }
+
+  // resource_group_id - computed: true, optional: true, required: false
   private _resourceGroupId?: string; 
   public get resourceGroupId() {
     return this.getStringAttribute('resource_group_id');
@@ -311,9 +326,41 @@ export class EfloVpd extends cdktf.TerraformResource {
     return this._resourceGroupId;
   }
 
+  // secondary_cidr_blocks - computed: false, optional: true, required: false
+  private _secondaryCidrBlocks?: string[]; 
+  public get secondaryCidrBlocks() {
+    return this.getListAttribute('secondary_cidr_blocks');
+  }
+  public set secondaryCidrBlocks(value: string[]) {
+    this._secondaryCidrBlocks = value;
+  }
+  public resetSecondaryCidrBlocks() {
+    this._secondaryCidrBlocks = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secondaryCidrBlocksInput() {
+    return this._secondaryCidrBlocks;
+  }
+
   // status - computed: true, optional: false, required: false
   public get status() {
     return this.getStringAttribute('status');
+  }
+
+  // tags - computed: false, optional: true, required: false
+  private _tags?: { [key: string]: string }; 
+  public get tags() {
+    return this.getStringMapAttribute('tags');
+  }
+  public set tags(value: { [key: string]: string }) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
   }
 
   // vpd_name - computed: false, optional: false, required: true
@@ -354,6 +401,8 @@ export class EfloVpd extends cdktf.TerraformResource {
       cidr: cdktf.stringToTerraform(this._cidr),
       id: cdktf.stringToTerraform(this._id),
       resource_group_id: cdktf.stringToTerraform(this._resourceGroupId),
+      secondary_cidr_blocks: cdktf.listMapper(cdktf.stringToTerraform, false)(this._secondaryCidrBlocks),
+      tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
       vpd_name: cdktf.stringToTerraform(this._vpdName),
       timeouts: efloVpdTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -378,6 +427,18 @@ export class EfloVpd extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      secondary_cidr_blocks: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._secondaryCidrBlocks),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      tags: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._tags),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
       },
       vpd_name: {
         value: cdktf.stringToHclTerraform(this._vpdName),

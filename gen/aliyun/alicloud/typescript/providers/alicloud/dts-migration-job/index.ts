@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,150 +8,150 @@ import * as cdktf from 'cdktf';
 
 export interface DtsMigrationJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#checkpoint DtsMigrationJob#checkpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#checkpoint DtsMigrationJob#checkpoint}
   */
   readonly checkpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#data_initialization DtsMigrationJob#data_initialization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#data_initialization DtsMigrationJob#data_initialization}
   */
   readonly dataInitialization: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#data_synchronization DtsMigrationJob#data_synchronization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#data_synchronization DtsMigrationJob#data_synchronization}
   */
   readonly dataSynchronization: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#db_list DtsMigrationJob#db_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#db_list DtsMigrationJob#db_list}
   */
   readonly dbList: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#destination_endpoint_database_name DtsMigrationJob#destination_endpoint_database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#destination_endpoint_database_name DtsMigrationJob#destination_endpoint_database_name}
   */
   readonly destinationEndpointDatabaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#destination_endpoint_engine_name DtsMigrationJob#destination_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#destination_endpoint_engine_name DtsMigrationJob#destination_endpoint_engine_name}
   */
   readonly destinationEndpointEngineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#destination_endpoint_instance_id DtsMigrationJob#destination_endpoint_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#destination_endpoint_instance_id DtsMigrationJob#destination_endpoint_instance_id}
   */
   readonly destinationEndpointInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#destination_endpoint_instance_type DtsMigrationJob#destination_endpoint_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#destination_endpoint_instance_type DtsMigrationJob#destination_endpoint_instance_type}
   */
   readonly destinationEndpointInstanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#destination_endpoint_ip DtsMigrationJob#destination_endpoint_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#destination_endpoint_ip DtsMigrationJob#destination_endpoint_ip}
   */
   readonly destinationEndpointIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#destination_endpoint_oracle_sid DtsMigrationJob#destination_endpoint_oracle_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#destination_endpoint_oracle_sid DtsMigrationJob#destination_endpoint_oracle_sid}
   */
   readonly destinationEndpointOracleSid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#destination_endpoint_password DtsMigrationJob#destination_endpoint_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#destination_endpoint_password DtsMigrationJob#destination_endpoint_password}
   */
   readonly destinationEndpointPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#destination_endpoint_port DtsMigrationJob#destination_endpoint_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#destination_endpoint_port DtsMigrationJob#destination_endpoint_port}
   */
   readonly destinationEndpointPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#destination_endpoint_region DtsMigrationJob#destination_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#destination_endpoint_region DtsMigrationJob#destination_endpoint_region}
   */
   readonly destinationEndpointRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#destination_endpoint_user_name DtsMigrationJob#destination_endpoint_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#destination_endpoint_user_name DtsMigrationJob#destination_endpoint_user_name}
   */
   readonly destinationEndpointUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#dts_instance_id DtsMigrationJob#dts_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#dts_instance_id DtsMigrationJob#dts_instance_id}
   */
   readonly dtsInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#dts_job_name DtsMigrationJob#dts_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#dts_job_name DtsMigrationJob#dts_job_name}
   */
   readonly dtsJobName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#id DtsMigrationJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#id DtsMigrationJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#instance_class DtsMigrationJob#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#instance_class DtsMigrationJob#instance_class}
   */
   readonly instanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#source_endpoint_database_name DtsMigrationJob#source_endpoint_database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#source_endpoint_database_name DtsMigrationJob#source_endpoint_database_name}
   */
   readonly sourceEndpointDatabaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#source_endpoint_engine_name DtsMigrationJob#source_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#source_endpoint_engine_name DtsMigrationJob#source_endpoint_engine_name}
   */
   readonly sourceEndpointEngineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#source_endpoint_instance_id DtsMigrationJob#source_endpoint_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#source_endpoint_instance_id DtsMigrationJob#source_endpoint_instance_id}
   */
   readonly sourceEndpointInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#source_endpoint_instance_type DtsMigrationJob#source_endpoint_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#source_endpoint_instance_type DtsMigrationJob#source_endpoint_instance_type}
   */
   readonly sourceEndpointInstanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#source_endpoint_ip DtsMigrationJob#source_endpoint_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#source_endpoint_ip DtsMigrationJob#source_endpoint_ip}
   */
   readonly sourceEndpointIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#source_endpoint_oracle_sid DtsMigrationJob#source_endpoint_oracle_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#source_endpoint_oracle_sid DtsMigrationJob#source_endpoint_oracle_sid}
   */
   readonly sourceEndpointOracleSid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#source_endpoint_owner_id DtsMigrationJob#source_endpoint_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#source_endpoint_owner_id DtsMigrationJob#source_endpoint_owner_id}
   */
   readonly sourceEndpointOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#source_endpoint_password DtsMigrationJob#source_endpoint_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#source_endpoint_password DtsMigrationJob#source_endpoint_password}
   */
   readonly sourceEndpointPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#source_endpoint_port DtsMigrationJob#source_endpoint_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#source_endpoint_port DtsMigrationJob#source_endpoint_port}
   */
   readonly sourceEndpointPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#source_endpoint_region DtsMigrationJob#source_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#source_endpoint_region DtsMigrationJob#source_endpoint_region}
   */
   readonly sourceEndpointRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#source_endpoint_role DtsMigrationJob#source_endpoint_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#source_endpoint_role DtsMigrationJob#source_endpoint_role}
   */
   readonly sourceEndpointRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#source_endpoint_user_name DtsMigrationJob#source_endpoint_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#source_endpoint_user_name DtsMigrationJob#source_endpoint_user_name}
   */
   readonly sourceEndpointUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#status DtsMigrationJob#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#status DtsMigrationJob#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#structure_initialization DtsMigrationJob#structure_initialization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#structure_initialization DtsMigrationJob#structure_initialization}
   */
   readonly structureInitialization: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#timeouts DtsMigrationJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#timeouts DtsMigrationJob#timeouts}
   */
   readonly timeouts?: DtsMigrationJobTimeouts;
 }
 export interface DtsMigrationJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#create DtsMigrationJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#create DtsMigrationJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#update DtsMigrationJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#update DtsMigrationJob#update}
   */
   readonly update?: string;
 }
@@ -274,7 +274,7 @@ export class DtsMigrationJobTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job alicloud_dts_migration_job}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job alicloud_dts_migration_job}
 */
 export class DtsMigrationJob extends cdktf.TerraformResource {
 
@@ -290,7 +290,7 @@ export class DtsMigrationJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DtsMigrationJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DtsMigrationJob to import
-  * @param importFromId The id of the existing DtsMigrationJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DtsMigrationJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DtsMigrationJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class DtsMigrationJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/dts_migration_job alicloud_dts_migration_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_job alicloud_dts_migration_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class DtsMigrationJob extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dts_migration_job',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

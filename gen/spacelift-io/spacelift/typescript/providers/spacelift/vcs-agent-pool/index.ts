@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/vcs_agent_pool
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/vcs_agent_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VcsAgentPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Free-form VCS agent pool description for users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/vcs_agent_pool#description VcsAgentPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/vcs_agent_pool#description VcsAgentPool#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/vcs_agent_pool#id VcsAgentPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/vcs_agent_pool#id VcsAgentPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface VcsAgentPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the VCS agent pool, must be unique within an account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/vcs_agent_pool#name VcsAgentPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/vcs_agent_pool#name VcsAgentPool#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/vcs_agent_pool spacelift_vcs_agent_pool}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/vcs_agent_pool spacelift_vcs_agent_pool}
 */
 export class VcsAgentPool extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class VcsAgentPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VcsAgentPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VcsAgentPool to import
-  * @param importFromId The id of the existing VcsAgentPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/vcs_agent_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VcsAgentPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/vcs_agent_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VcsAgentPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class VcsAgentPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/vcs_agent_pool spacelift_vcs_agent_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/vcs_agent_pool spacelift_vcs_agent_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class VcsAgentPool extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_vcs_agent_pool',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.38.0',
-        providerVersionConstraint: '1.38.0'
+        providerVersion: '1.39.0',
+        providerVersionConstraint: '1.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

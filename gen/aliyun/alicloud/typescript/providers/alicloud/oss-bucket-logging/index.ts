@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_logging
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface OssBucketLoggingAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_logging#bucket OssBucketLoggingA#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_logging#bucket OssBucketLoggingA#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_logging#id OssBucketLoggingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_logging#id OssBucketLoggingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_logging#logging_role OssBucketLoggingA#logging_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_logging#logging_role OssBucketLoggingA#logging_role}
   */
   readonly loggingRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_logging#target_bucket OssBucketLoggingA#target_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_logging#target_bucket OssBucketLoggingA#target_bucket}
   */
   readonly targetBucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_logging#target_prefix OssBucketLoggingA#target_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_logging#target_prefix OssBucketLoggingA#target_prefix}
   */
   readonly targetPrefix?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_logging#timeouts OssBucketLoggingA#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_logging#timeouts OssBucketLoggingA#timeouts}
   */
   readonly timeouts?: OssBucketLoggingTimeouts;
 }
 export interface OssBucketLoggingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_logging#create OssBucketLoggingA#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_logging#create OssBucketLoggingA#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_logging#delete OssBucketLoggingA#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_logging#delete OssBucketLoggingA#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_logging#update OssBucketLoggingA#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_logging#update OssBucketLoggingA#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class OssBucketLoggingTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_logging alicloud_oss_bucket_logging}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_logging alicloud_oss_bucket_logging}
 */
 export class OssBucketLoggingA extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class OssBucketLoggingA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OssBucketLoggingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OssBucketLoggingA to import
-  * @param importFromId The id of the existing OssBucketLoggingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OssBucketLoggingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OssBucketLoggingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class OssBucketLoggingA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_logging alicloud_oss_bucket_logging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_logging alicloud_oss_bucket_logging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class OssBucketLoggingA extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_oss_bucket_logging',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

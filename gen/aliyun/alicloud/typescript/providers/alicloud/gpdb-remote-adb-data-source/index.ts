@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface GpdbRemoteAdbDataSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#data_source_name GpdbRemoteAdbDataSource#data_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#data_source_name GpdbRemoteAdbDataSource#data_source_name}
   */
   readonly dataSourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#id GpdbRemoteAdbDataSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#id GpdbRemoteAdbDataSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#local_database GpdbRemoteAdbDataSource#local_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#local_database GpdbRemoteAdbDataSource#local_database}
   */
   readonly localDatabase: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#local_db_instance_id GpdbRemoteAdbDataSource#local_db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#local_db_instance_id GpdbRemoteAdbDataSource#local_db_instance_id}
   */
   readonly localDbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#manager_user_name GpdbRemoteAdbDataSource#manager_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#manager_user_name GpdbRemoteAdbDataSource#manager_user_name}
   */
   readonly managerUserName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#manager_user_password GpdbRemoteAdbDataSource#manager_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#manager_user_password GpdbRemoteAdbDataSource#manager_user_password}
   */
   readonly managerUserPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#remote_database GpdbRemoteAdbDataSource#remote_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#remote_database GpdbRemoteAdbDataSource#remote_database}
   */
   readonly remoteDatabase: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#remote_db_instance_id GpdbRemoteAdbDataSource#remote_db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#remote_db_instance_id GpdbRemoteAdbDataSource#remote_db_instance_id}
   */
   readonly remoteDbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#user_name GpdbRemoteAdbDataSource#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#user_name GpdbRemoteAdbDataSource#user_name}
   */
   readonly userName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#user_password GpdbRemoteAdbDataSource#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#user_password GpdbRemoteAdbDataSource#user_password}
   */
   readonly userPassword: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#timeouts GpdbRemoteAdbDataSource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#timeouts GpdbRemoteAdbDataSource#timeouts}
   */
   readonly timeouts?: GpdbRemoteAdbDataSourceTimeouts;
 }
 export interface GpdbRemoteAdbDataSourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#create GpdbRemoteAdbDataSource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#create GpdbRemoteAdbDataSource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#delete GpdbRemoteAdbDataSource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#delete GpdbRemoteAdbDataSource#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#update GpdbRemoteAdbDataSource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#update GpdbRemoteAdbDataSource#update}
   */
   readonly update?: string;
 }
@@ -219,7 +219,7 @@ export class GpdbRemoteAdbDataSourceTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source alicloud_gpdb_remote_adb_data_source}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source alicloud_gpdb_remote_adb_data_source}
 */
 export class GpdbRemoteAdbDataSource extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class GpdbRemoteAdbDataSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GpdbRemoteAdbDataSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GpdbRemoteAdbDataSource to import
-  * @param importFromId The id of the existing GpdbRemoteAdbDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GpdbRemoteAdbDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GpdbRemoteAdbDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class GpdbRemoteAdbDataSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/gpdb_remote_adb_data_source alicloud_gpdb_remote_adb_data_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_remote_adb_data_source alicloud_gpdb_remote_adb_data_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class GpdbRemoteAdbDataSource extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_gpdb_remote_adb_data_source',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

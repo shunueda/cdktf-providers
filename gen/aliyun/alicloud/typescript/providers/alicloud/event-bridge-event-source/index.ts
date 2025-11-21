@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/event_bridge_event_source
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_event_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface EventBridgeEventSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/event_bridge_event_source#description EventBridgeEventSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_event_source#description EventBridgeEventSource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/event_bridge_event_source#event_bus_name EventBridgeEventSource#event_bus_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_event_source#event_bus_name EventBridgeEventSource#event_bus_name}
   */
   readonly eventBusName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/event_bridge_event_source#event_source_name EventBridgeEventSource#event_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_event_source#event_source_name EventBridgeEventSource#event_source_name}
   */
   readonly eventSourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/event_bridge_event_source#external_source_config EventBridgeEventSource#external_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_event_source#external_source_config EventBridgeEventSource#external_source_config}
   */
   readonly externalSourceConfig?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/event_bridge_event_source#external_source_type EventBridgeEventSource#external_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_event_source#external_source_type EventBridgeEventSource#external_source_type}
   */
   readonly externalSourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/event_bridge_event_source#id EventBridgeEventSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_event_source#id EventBridgeEventSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/event_bridge_event_source#linked_external_source EventBridgeEventSource#linked_external_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_event_source#linked_external_source EventBridgeEventSource#linked_external_source}
   */
   readonly linkedExternalSource?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/event_bridge_event_source alicloud_event_bridge_event_source}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_event_source alicloud_event_bridge_event_source}
 */
 export class EventBridgeEventSource extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class EventBridgeEventSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventBridgeEventSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventBridgeEventSource to import
-  * @param importFromId The id of the existing EventBridgeEventSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/event_bridge_event_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventBridgeEventSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_event_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventBridgeEventSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class EventBridgeEventSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/event_bridge_event_source alicloud_event_bridge_event_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_event_source alicloud_event_bridge_event_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class EventBridgeEventSource extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_event_bridge_event_source',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

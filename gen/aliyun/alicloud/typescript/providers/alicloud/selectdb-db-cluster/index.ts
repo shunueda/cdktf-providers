@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface SelectdbDbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#cache_size SelectdbDbCluster#cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#cache_size SelectdbDbCluster#cache_size}
   */
   readonly cacheSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#db_cluster_class SelectdbDbCluster#db_cluster_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#db_cluster_class SelectdbDbCluster#db_cluster_class}
   */
   readonly dbClusterClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#db_cluster_description SelectdbDbCluster#db_cluster_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#db_cluster_description SelectdbDbCluster#db_cluster_description}
   */
   readonly dbClusterDescription: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#db_instance_id SelectdbDbCluster#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#db_instance_id SelectdbDbCluster#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#desired_status SelectdbDbCluster#desired_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#desired_status SelectdbDbCluster#desired_status}
   */
   readonly desiredStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#id SelectdbDbCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#id SelectdbDbCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#payment_type SelectdbDbCluster#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#payment_type SelectdbDbCluster#payment_type}
   */
   readonly paymentType: string;
   /**
   * desired_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#desired_params SelectdbDbCluster#desired_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#desired_params SelectdbDbCluster#desired_params}
   */
   readonly desiredParams?: SelectdbDbClusterDesiredParams[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#timeouts SelectdbDbCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#timeouts SelectdbDbCluster#timeouts}
   */
   readonly timeouts?: SelectdbDbClusterTimeouts;
 }
@@ -158,11 +158,11 @@ export class SelectdbDbClusterParamChangeLogsList extends cdktf.ComplexList {
 }
 export interface SelectdbDbClusterDesiredParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#name SelectdbDbCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#name SelectdbDbCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#value SelectdbDbCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#value SelectdbDbCluster#value}
   */
   readonly value?: string;
 }
@@ -307,15 +307,15 @@ export class SelectdbDbClusterDesiredParamsList extends cdktf.ComplexList {
 }
 export interface SelectdbDbClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#create SelectdbDbCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#create SelectdbDbCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#delete SelectdbDbCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#delete SelectdbDbCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#update SelectdbDbCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#update SelectdbDbCluster#update}
   */
   readonly update?: string;
 }
@@ -467,7 +467,7 @@ export class SelectdbDbClusterTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster alicloud_selectdb_db_cluster}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster alicloud_selectdb_db_cluster}
 */
 export class SelectdbDbCluster extends cdktf.TerraformResource {
 
@@ -483,7 +483,7 @@ export class SelectdbDbCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SelectdbDbCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SelectdbDbCluster to import
-  * @param importFromId The id of the existing SelectdbDbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SelectdbDbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SelectdbDbCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -495,7 +495,7 @@ export class SelectdbDbCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/selectdb_db_cluster alicloud_selectdb_db_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/selectdb_db_cluster alicloud_selectdb_db_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -506,8 +506,8 @@ export class SelectdbDbCluster extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_selectdb_db_cluster',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

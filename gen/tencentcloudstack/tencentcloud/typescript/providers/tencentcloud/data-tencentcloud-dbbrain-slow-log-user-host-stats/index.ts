@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dbbrain_slow_log_user_host_stats
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_slow_log_user_host_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDbbrainSlowLogUserHostStatsConfig extends cdktf
   /**
   * EndTime time of the query range, time format such as: 2019-09-10 12:13:14.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dbbrain_slow_log_user_host_stats#end_time DataTencentcloudDbbrainSlowLogUserHostStats#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_slow_log_user_host_stats#end_time DataTencentcloudDbbrainSlowLogUserHostStats#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dbbrain_slow_log_user_host_stats#id DataTencentcloudDbbrainSlowLogUserHostStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_slow_log_user_host_stats#id DataTencentcloudDbbrainSlowLogUserHostStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudDbbrainSlowLogUserHostStatsConfig extends cdktf
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dbbrain_slow_log_user_host_stats#instance_id DataTencentcloudDbbrainSlowLogUserHostStats#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_slow_log_user_host_stats#instance_id DataTencentcloudDbbrainSlowLogUserHostStats#instance_id}
   */
   readonly instanceId: string;
   /**
   * MD5 value of SOL template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dbbrain_slow_log_user_host_stats#md5 DataTencentcloudDbbrainSlowLogUserHostStats#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_slow_log_user_host_stats#md5 DataTencentcloudDbbrainSlowLogUserHostStats#md5}
   */
   readonly md5?: string;
   /**
   * Types of service products, supported values:`mysql` - Cloud Database MySQL; `cynosdb` - Cloud Database TDSQL-C for MySQL, defaults to `mysql`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dbbrain_slow_log_user_host_stats#product DataTencentcloudDbbrainSlowLogUserHostStats#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_slow_log_user_host_stats#product DataTencentcloudDbbrainSlowLogUserHostStats#product}
   */
   readonly product?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dbbrain_slow_log_user_host_stats#result_output_file DataTencentcloudDbbrainSlowLogUserHostStats#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_slow_log_user_host_stats#result_output_file DataTencentcloudDbbrainSlowLogUserHostStats#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start time of the query range, time format such as: 2019-09-10 12:13:14.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dbbrain_slow_log_user_host_stats#start_time DataTencentcloudDbbrainSlowLogUserHostStats#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_slow_log_user_host_stats#start_time DataTencentcloudDbbrainSlowLogUserHostStats#start_time}
   */
   readonly startTime: string;
 }
@@ -138,7 +138,7 @@ export class DataTencentcloudDbbrainSlowLogUserHostStatsItemsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dbbrain_slow_log_user_host_stats tencentcloud_dbbrain_slow_log_user_host_stats}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_slow_log_user_host_stats tencentcloud_dbbrain_slow_log_user_host_stats}
 */
 export class DataTencentcloudDbbrainSlowLogUserHostStats extends cdktf.TerraformDataSource {
 
@@ -154,7 +154,7 @@ export class DataTencentcloudDbbrainSlowLogUserHostStats extends cdktf.Terraform
   * Generates CDKTF code for importing a DataTencentcloudDbbrainSlowLogUserHostStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDbbrainSlowLogUserHostStats to import
-  * @param importFromId The id of the existing DataTencentcloudDbbrainSlowLogUserHostStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dbbrain_slow_log_user_host_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDbbrainSlowLogUserHostStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_slow_log_user_host_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDbbrainSlowLogUserHostStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class DataTencentcloudDbbrainSlowLogUserHostStats extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dbbrain_slow_log_user_host_stats tencentcloud_dbbrain_slow_log_user_host_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dbbrain_slow_log_user_host_stats tencentcloud_dbbrain_slow_log_user_host_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class DataTencentcloudDbbrainSlowLogUserHostStats extends cdktf.Terraform
       terraformResourceType: 'tencentcloud_dbbrain_slow_log_user_host_stats',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

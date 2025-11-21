@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sms_short_url
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sms_short_url
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface SmsShortUrlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sms_short_url#effective_days SmsShortUrl#effective_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sms_short_url#effective_days SmsShortUrl#effective_days}
   */
   readonly effectiveDays: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sms_short_url#id SmsShortUrl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sms_short_url#id SmsShortUrl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sms_short_url#short_url_name SmsShortUrl#short_url_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sms_short_url#short_url_name SmsShortUrl#short_url_name}
   */
   readonly shortUrlName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sms_short_url#source_url SmsShortUrl#source_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sms_short_url#source_url SmsShortUrl#source_url}
   */
   readonly sourceUrl: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sms_short_url#timeouts SmsShortUrl#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sms_short_url#timeouts SmsShortUrl#timeouts}
   */
   readonly timeouts?: SmsShortUrlTimeouts;
 }
 export interface SmsShortUrlTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sms_short_url#create SmsShortUrl#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sms_short_url#create SmsShortUrl#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sms_short_url#delete SmsShortUrl#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sms_short_url#delete SmsShortUrl#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class SmsShortUrlTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sms_short_url alicloud_sms_short_url}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sms_short_url alicloud_sms_short_url}
 */
 export class SmsShortUrl extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class SmsShortUrl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SmsShortUrl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmsShortUrl to import
-  * @param importFromId The id of the existing SmsShortUrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sms_short_url#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmsShortUrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sms_short_url#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmsShortUrl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class SmsShortUrl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/sms_short_url alicloud_sms_short_url} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sms_short_url alicloud_sms_short_url} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class SmsShortUrl extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sms_short_url',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

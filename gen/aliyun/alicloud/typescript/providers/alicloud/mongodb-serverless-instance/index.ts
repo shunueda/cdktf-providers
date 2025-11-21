@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface MongodbServerlessInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#account_password MongodbServerlessInstance#account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#account_password MongodbServerlessInstance#account_password}
   */
   readonly accountPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#auto_renew MongodbServerlessInstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#auto_renew MongodbServerlessInstance#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#capacity_unit MongodbServerlessInstance#capacity_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#capacity_unit MongodbServerlessInstance#capacity_unit}
   */
   readonly capacityUnit: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#db_instance_description MongodbServerlessInstance#db_instance_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#db_instance_description MongodbServerlessInstance#db_instance_description}
   */
   readonly dbInstanceDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#db_instance_storage MongodbServerlessInstance#db_instance_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#db_instance_storage MongodbServerlessInstance#db_instance_storage}
   */
   readonly dbInstanceStorage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#engine MongodbServerlessInstance#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#engine MongodbServerlessInstance#engine}
   */
   readonly engine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#engine_version MongodbServerlessInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#engine_version MongodbServerlessInstance#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#id MongodbServerlessInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#id MongodbServerlessInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#maintain_end_time MongodbServerlessInstance#maintain_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#maintain_end_time MongodbServerlessInstance#maintain_end_time}
   */
   readonly maintainEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#maintain_start_time MongodbServerlessInstance#maintain_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#maintain_start_time MongodbServerlessInstance#maintain_start_time}
   */
   readonly maintainStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#period MongodbServerlessInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#period MongodbServerlessInstance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#period_price_type MongodbServerlessInstance#period_price_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#period_price_type MongodbServerlessInstance#period_price_type}
   */
   readonly periodPriceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#resource_group_id MongodbServerlessInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#resource_group_id MongodbServerlessInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#storage_engine MongodbServerlessInstance#storage_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#storage_engine MongodbServerlessInstance#storage_engine}
   */
   readonly storageEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#tags MongodbServerlessInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#tags MongodbServerlessInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#vpc_id MongodbServerlessInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#vpc_id MongodbServerlessInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#vswitch_id MongodbServerlessInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#vswitch_id MongodbServerlessInstance#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#zone_id MongodbServerlessInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#zone_id MongodbServerlessInstance#zone_id}
   */
   readonly zoneId: string;
   /**
   * security_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#security_ip_groups MongodbServerlessInstance#security_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#security_ip_groups MongodbServerlessInstance#security_ip_groups}
   */
   readonly securityIpGroups?: MongodbServerlessInstanceSecurityIpGroups[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#timeouts MongodbServerlessInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#timeouts MongodbServerlessInstance#timeouts}
   */
   readonly timeouts?: MongodbServerlessInstanceTimeouts;
 }
 export interface MongodbServerlessInstanceSecurityIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#security_ip_group_attribute MongodbServerlessInstance#security_ip_group_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#security_ip_group_attribute MongodbServerlessInstance#security_ip_group_attribute}
   */
   readonly securityIpGroupAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#security_ip_group_name MongodbServerlessInstance#security_ip_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#security_ip_group_name MongodbServerlessInstance#security_ip_group_name}
   */
   readonly securityIpGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#security_ip_list MongodbServerlessInstance#security_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#security_ip_list MongodbServerlessInstance#security_ip_list}
   */
   readonly securityIpList?: string;
 }
@@ -279,11 +279,11 @@ export class MongodbServerlessInstanceSecurityIpGroupsList extends cdktf.Complex
 }
 export interface MongodbServerlessInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#create MongodbServerlessInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#create MongodbServerlessInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#update MongodbServerlessInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#update MongodbServerlessInstance#update}
   */
   readonly update?: string;
 }
@@ -406,7 +406,7 @@ export class MongodbServerlessInstanceTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance alicloud_mongodb_serverless_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance alicloud_mongodb_serverless_instance}
 */
 export class MongodbServerlessInstance extends cdktf.TerraformResource {
 
@@ -422,7 +422,7 @@ export class MongodbServerlessInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbServerlessInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbServerlessInstance to import
-  * @param importFromId The id of the existing MongodbServerlessInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbServerlessInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbServerlessInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -434,7 +434,7 @@ export class MongodbServerlessInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/mongodb_serverless_instance alicloud_mongodb_serverless_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_serverless_instance alicloud_mongodb_serverless_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -445,8 +445,8 @@ export class MongodbServerlessInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_mongodb_serverless_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

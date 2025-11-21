@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_alert_channel
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_alert_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PtsAlertChannelConfig extends cdktf.TerraformMetaArguments {
   /**
   * AMP Consumer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_alert_channel#amp_consumer_id PtsAlertChannel#amp_consumer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_alert_channel#amp_consumer_id PtsAlertChannel#amp_consumer_id}
   */
   readonly ampConsumerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_alert_channel#id PtsAlertChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_alert_channel#id PtsAlertChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface PtsAlertChannelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Notice ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_alert_channel#notice_id PtsAlertChannel#notice_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_alert_channel#notice_id PtsAlertChannel#notice_id}
   */
   readonly noticeId: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_alert_channel#project_id PtsAlertChannel#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_alert_channel#project_id PtsAlertChannel#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_alert_channel tencentcloud_pts_alert_channel}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_alert_channel tencentcloud_pts_alert_channel}
 */
 export class PtsAlertChannel extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class PtsAlertChannel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PtsAlertChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PtsAlertChannel to import
-  * @param importFromId The id of the existing PtsAlertChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_alert_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PtsAlertChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_alert_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PtsAlertChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class PtsAlertChannel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_alert_channel tencentcloud_pts_alert_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_alert_channel tencentcloud_pts_alert_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class PtsAlertChannel extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_pts_alert_channel',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

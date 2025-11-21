@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionClientFileProtectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#alert_level ThreatDetectionClientFileProtect#alert_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#alert_level ThreatDetectionClientFileProtect#alert_level}
   */
   readonly alertLevel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#file_ops ThreatDetectionClientFileProtect#file_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#file_ops ThreatDetectionClientFileProtect#file_ops}
   */
   readonly fileOps: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#file_paths ThreatDetectionClientFileProtect#file_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#file_paths ThreatDetectionClientFileProtect#file_paths}
   */
   readonly filePaths: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#id ThreatDetectionClientFileProtect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#id ThreatDetectionClientFileProtect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#proc_paths ThreatDetectionClientFileProtect#proc_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#proc_paths ThreatDetectionClientFileProtect#proc_paths}
   */
   readonly procPaths: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#rule_action ThreatDetectionClientFileProtect#rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#rule_action ThreatDetectionClientFileProtect#rule_action}
   */
   readonly ruleAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#rule_name ThreatDetectionClientFileProtect#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#rule_name ThreatDetectionClientFileProtect#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#status ThreatDetectionClientFileProtect#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#status ThreatDetectionClientFileProtect#status}
   */
   readonly status?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#switch_id ThreatDetectionClientFileProtect#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#switch_id ThreatDetectionClientFileProtect#switch_id}
   */
   readonly switchId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#timeouts ThreatDetectionClientFileProtect#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#timeouts ThreatDetectionClientFileProtect#timeouts}
   */
   readonly timeouts?: ThreatDetectionClientFileProtectTimeouts;
 }
 export interface ThreatDetectionClientFileProtectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#create ThreatDetectionClientFileProtect#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#create ThreatDetectionClientFileProtect#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#delete ThreatDetectionClientFileProtect#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#delete ThreatDetectionClientFileProtect#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#update ThreatDetectionClientFileProtect#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#update ThreatDetectionClientFileProtect#update}
   */
   readonly update?: string;
 }
@@ -215,7 +215,7 @@ export class ThreatDetectionClientFileProtectTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect alicloud_threat_detection_client_file_protect}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect alicloud_threat_detection_client_file_protect}
 */
 export class ThreatDetectionClientFileProtect extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class ThreatDetectionClientFileProtect extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatDetectionClientFileProtect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionClientFileProtect to import
-  * @param importFromId The id of the existing ThreatDetectionClientFileProtect that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionClientFileProtect that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionClientFileProtect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class ThreatDetectionClientFileProtect extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_client_file_protect alicloud_threat_detection_client_file_protect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_file_protect alicloud_threat_detection_client_file_protect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class ThreatDetectionClientFileProtect extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_threat_detection_client_file_protect',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface OpenSearchAppGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#app_group_name OpenSearchAppGroup#app_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#app_group_name OpenSearchAppGroup#app_group_name}
   */
   readonly appGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#charge_way OpenSearchAppGroup#charge_way}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#charge_way OpenSearchAppGroup#charge_way}
   */
   readonly chargeWay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#current_version OpenSearchAppGroup#current_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#current_version OpenSearchAppGroup#current_version}
   */
   readonly currentVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#description OpenSearchAppGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#description OpenSearchAppGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#id OpenSearchAppGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#id OpenSearchAppGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#order_type OpenSearchAppGroup#order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#order_type OpenSearchAppGroup#order_type}
   */
   readonly orderType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#payment_type OpenSearchAppGroup#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#payment_type OpenSearchAppGroup#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#type OpenSearchAppGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#type OpenSearchAppGroup#type}
   */
   readonly type: string;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#order OpenSearchAppGroup#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#order OpenSearchAppGroup#order}
   */
   readonly order?: OpenSearchAppGroupOrder[] | cdktf.IResolvable;
   /**
   * quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#quota OpenSearchAppGroup#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#quota OpenSearchAppGroup#quota}
   */
   readonly quota: OpenSearchAppGroupQuota;
 }
 export interface OpenSearchAppGroupOrder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#auto_renew OpenSearchAppGroup#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#auto_renew OpenSearchAppGroup#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#duration OpenSearchAppGroup#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#duration OpenSearchAppGroup#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#pricing_cycle OpenSearchAppGroup#pricing_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#pricing_cycle OpenSearchAppGroup#pricing_cycle}
   */
   readonly pricingCycle?: string;
 }
@@ -239,19 +239,19 @@ export class OpenSearchAppGroupOrderList extends cdktf.ComplexList {
 }
 export interface OpenSearchAppGroupQuota {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#compute_resource OpenSearchAppGroup#compute_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#compute_resource OpenSearchAppGroup#compute_resource}
   */
   readonly computeResource: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#doc_size OpenSearchAppGroup#doc_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#doc_size OpenSearchAppGroup#doc_size}
   */
   readonly docSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#qps OpenSearchAppGroup#qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#qps OpenSearchAppGroup#qps}
   */
   readonly qps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#spec OpenSearchAppGroup#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#spec OpenSearchAppGroup#spec}
   */
   readonly spec: string;
 }
@@ -413,7 +413,7 @@ export class OpenSearchAppGroupQuotaOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group alicloud_open_search_app_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group alicloud_open_search_app_group}
 */
 export class OpenSearchAppGroup extends cdktf.TerraformResource {
 
@@ -429,7 +429,7 @@ export class OpenSearchAppGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenSearchAppGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenSearchAppGroup to import
-  * @param importFromId The id of the existing OpenSearchAppGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenSearchAppGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenSearchAppGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -441,7 +441,7 @@ export class OpenSearchAppGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/open_search_app_group alicloud_open_search_app_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/open_search_app_group alicloud_open_search_app_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -452,8 +452,8 @@ export class OpenSearchAppGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_open_search_app_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

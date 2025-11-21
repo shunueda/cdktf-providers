@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PtsScenarioConfig extends cdktf.TerraformMetaArguments {
   /**
   * cron job ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#cron_id PtsScenario#cron_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#cron_id PtsScenario#cron_id}
   */
   readonly cronId?: string;
   /**
   * Pts Scenario Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#description PtsScenario#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#description PtsScenario#description}
   */
   readonly description?: string;
   /**
   * deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#extensions PtsScenario#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#extensions PtsScenario#extensions}
   */
   readonly extensions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#id PtsScenario#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#id PtsScenario#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface PtsScenarioConfig extends cdktf.TerraformMetaArguments {
   /**
   * Pts Scenario name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#name PtsScenario#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#name PtsScenario#name}
   */
   readonly name: string;
   /**
   * Project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#project_id PtsScenario#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#project_id PtsScenario#project_id}
   */
   readonly projectId: string;
   /**
   * Pressure test engine type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#type PtsScenario#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#type PtsScenario#type}
   */
   readonly type: string;
   /**
   * datasets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#datasets PtsScenario#datasets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#datasets PtsScenario#datasets}
   */
   readonly datasets?: PtsScenarioDatasets[] | cdktf.IResolvable;
   /**
   * domain_name_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#domain_name_config PtsScenario#domain_name_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#domain_name_config PtsScenario#domain_name_config}
   */
   readonly domainNameConfig?: PtsScenarioDomainNameConfig;
   /**
   * load block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#load PtsScenario#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#load PtsScenario#load}
   */
   readonly load?: PtsScenarioLoad;
   /**
   * plugins block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#plugins PtsScenario#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#plugins PtsScenario#plugins}
   */
   readonly plugins?: PtsScenarioPlugins[] | cdktf.IResolvable;
   /**
   * protocols block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#protocols PtsScenario#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#protocols PtsScenario#protocols}
   */
   readonly protocols?: PtsScenarioProtocols[] | cdktf.IResolvable;
   /**
   * request_files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#request_files PtsScenario#request_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#request_files PtsScenario#request_files}
   */
   readonly requestFiles?: PtsScenarioRequestFiles[] | cdktf.IResolvable;
   /**
   * sla_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#sla_policy PtsScenario#sla_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#sla_policy PtsScenario#sla_policy}
   */
   readonly slaPolicy?: PtsScenarioSlaPolicy;
   /**
   * test_scripts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#test_scripts PtsScenario#test_scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#test_scripts PtsScenario#test_scripts}
   */
   readonly testScripts?: PtsScenarioTestScripts[] | cdktf.IResolvable;
 }
@@ -103,67 +103,67 @@ export interface PtsScenarioDatasets {
   /**
   * File ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#file_id PtsScenario#file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#file_id PtsScenario#file_id}
   */
   readonly fileId?: string;
   /**
   * Header data row.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#head_lines PtsScenario#head_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#head_lines PtsScenario#head_lines}
   */
   readonly headLines?: string[];
   /**
   * Parameter name array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#header_columns PtsScenario#header_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#header_columns PtsScenario#header_columns}
   */
   readonly headerColumns?: string[];
   /**
   * Whether the first line is the parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#header_in_file PtsScenario#header_in_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#header_in_file PtsScenario#header_in_file}
   */
   readonly headerInFile: boolean | cdktf.IResolvable;
   /**
   * Number of file lines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#line_count PtsScenario#line_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#line_count PtsScenario#line_count}
   */
   readonly lineCount?: number;
   /**
   * The file name where the test dataset is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#name PtsScenario#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#name PtsScenario#name}
   */
   readonly name: string;
   /**
   * Number of file bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#size PtsScenario#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#size PtsScenario#size}
   */
   readonly size?: number;
   /**
   * Test whether the dataset is fragmented.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#split PtsScenario#split}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#split PtsScenario#split}
   */
   readonly split: boolean | cdktf.IResolvable;
   /**
   * Trailing data row.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#tail_lines PtsScenario#tail_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#tail_lines PtsScenario#tail_lines}
   */
   readonly tailLines?: string[];
   /**
   * File type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#type PtsScenario#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#type PtsScenario#type}
   */
   readonly type?: string;
   /**
   * Update time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#updated_at PtsScenario#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#updated_at PtsScenario#updated_at}
   */
   readonly updatedAt?: string;
 }
@@ -562,7 +562,7 @@ export interface PtsScenarioDomainNameConfigDnsConfig {
   /**
   * DNS IP List.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#nameservers PtsScenario#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#nameservers PtsScenario#nameservers}
   */
   readonly nameservers?: string[];
 }
@@ -648,13 +648,13 @@ export interface PtsScenarioDomainNameConfigHostAliases {
   /**
   * List of domain names to be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#host_names PtsScenario#host_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#host_names PtsScenario#host_names}
   */
   readonly hostNames?: string[];
   /**
   * The IP address to be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#ip PtsScenario#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#ip PtsScenario#ip}
   */
   readonly ip?: string;
 }
@@ -801,13 +801,13 @@ export interface PtsScenarioDomainNameConfig {
   /**
   * dns_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#dns_config PtsScenario#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#dns_config PtsScenario#dns_config}
   */
   readonly dnsConfig?: PtsScenarioDomainNameConfigDnsConfig;
   /**
   * host_aliases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#host_aliases PtsScenario#host_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#host_aliases PtsScenario#host_aliases}
   */
   readonly hostAliases?: PtsScenarioDomainNameConfigHostAliases[] | cdktf.IResolvable;
 }
@@ -922,19 +922,19 @@ export interface PtsScenarioLoadGeoRegionsLoadDistribution {
   /**
   * Percentage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#percentage PtsScenario#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#percentage PtsScenario#percentage}
   */
   readonly percentage?: number;
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#region PtsScenario#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#region PtsScenario#region}
   */
   readonly region?: string;
   /**
   * Regional ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#region_id PtsScenario#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#region_id PtsScenario#region_id}
   */
   readonly regionId: number;
 }
@@ -1107,13 +1107,13 @@ export interface PtsScenarioLoadLoadSpecConcurrencyStages {
   /**
   * Pressure time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#duration_seconds PtsScenario#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#duration_seconds PtsScenario#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
   * Number of virtual users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#target_virtual_users PtsScenario#target_virtual_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#target_virtual_users PtsScenario#target_virtual_users}
   */
   readonly targetVirtualUsers?: number;
 }
@@ -1260,25 +1260,25 @@ export interface PtsScenarioLoadLoadSpecConcurrency {
   /**
   * Wait time for graceful termination of the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#graceful_stop_seconds PtsScenario#graceful_stop_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#graceful_stop_seconds PtsScenario#graceful_stop_seconds}
   */
   readonly gracefulStopSeconds?: number;
   /**
   * Number of runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#iteration_count PtsScenario#iteration_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#iteration_count PtsScenario#iteration_count}
   */
   readonly iterationCount?: number;
   /**
   * Maximum RPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#max_requests_per_second PtsScenario#max_requests_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#max_requests_per_second PtsScenario#max_requests_per_second}
   */
   readonly maxRequestsPerSecond?: number;
   /**
   * stages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#stages PtsScenario#stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#stages PtsScenario#stages}
   */
   readonly stages?: PtsScenarioLoadLoadSpecConcurrencyStages[] | cdktf.IResolvable;
 }
@@ -1451,37 +1451,37 @@ export interface PtsScenarioLoadLoadSpecRequestsPerSecond {
   /**
   * Pressure time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#duration_seconds PtsScenario#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#duration_seconds PtsScenario#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
   * Elegant shutdown waiting time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#graceful_stop_seconds PtsScenario#graceful_stop_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#graceful_stop_seconds PtsScenario#graceful_stop_seconds}
   */
   readonly gracefulStopSeconds?: number;
   /**
   * Maximum RPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#max_requests_per_second PtsScenario#max_requests_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#max_requests_per_second PtsScenario#max_requests_per_second}
   */
   readonly maxRequestsPerSecond?: number;
   /**
   * Number of resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#resources PtsScenario#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#resources PtsScenario#resources}
   */
   readonly resources?: number;
   /**
   * Initial RPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#start_requests_per_second PtsScenario#start_requests_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#start_requests_per_second PtsScenario#start_requests_per_second}
   */
   readonly startRequestsPerSecond?: number;
   /**
   * Target RPS, invalid input parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#target_requests_per_second PtsScenario#target_requests_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#target_requests_per_second PtsScenario#target_requests_per_second}
   */
   readonly targetRequestsPerSecond?: number;
 }
@@ -1712,19 +1712,19 @@ export interface PtsScenarioLoadLoadSpecScriptOrigin {
   /**
   * Pressure testing time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#duration_seconds PtsScenario#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#duration_seconds PtsScenario#duration_seconds}
   */
   readonly durationSeconds: number;
   /**
   * Number of machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#machine_number PtsScenario#machine_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#machine_number PtsScenario#machine_number}
   */
   readonly machineNumber: number;
   /**
   * Machine specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#machine_specification PtsScenario#machine_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#machine_specification PtsScenario#machine_specification}
   */
   readonly machineSpecification: string;
 }
@@ -1859,19 +1859,19 @@ export interface PtsScenarioLoadLoadSpec {
   /**
   * concurrency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#concurrency PtsScenario#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#concurrency PtsScenario#concurrency}
   */
   readonly concurrency?: PtsScenarioLoadLoadSpecConcurrency;
   /**
   * requests_per_second block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#requests_per_second PtsScenario#requests_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#requests_per_second PtsScenario#requests_per_second}
   */
   readonly requestsPerSecond?: PtsScenarioLoadLoadSpecRequestsPerSecond;
   /**
   * script_origin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#script_origin PtsScenario#script_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#script_origin PtsScenario#script_origin}
   */
   readonly scriptOrigin?: PtsScenarioLoadLoadSpecScriptOrigin;
 }
@@ -2015,25 +2015,25 @@ export interface PtsScenarioLoadVpcLoadDistribution {
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#region PtsScenario#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#region PtsScenario#region}
   */
   readonly region?: string;
   /**
   * Regional ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#region_id PtsScenario#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#region_id PtsScenario#region_id}
   */
   readonly regionId: number;
   /**
   * Subnet ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#subnet_ids PtsScenario#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#subnet_ids PtsScenario#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#vpc_id PtsScenario#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#vpc_id PtsScenario#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -2203,19 +2203,19 @@ export interface PtsScenarioLoad {
   /**
   * geo_regions_load_distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#geo_regions_load_distribution PtsScenario#geo_regions_load_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#geo_regions_load_distribution PtsScenario#geo_regions_load_distribution}
   */
   readonly geoRegionsLoadDistribution?: PtsScenarioLoadGeoRegionsLoadDistribution[] | cdktf.IResolvable;
   /**
   * load_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#load_spec PtsScenario#load_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#load_spec PtsScenario#load_spec}
   */
   readonly loadSpec?: PtsScenarioLoadLoadSpec;
   /**
   * vpc_load_distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#vpc_load_distribution PtsScenario#vpc_load_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#vpc_load_distribution PtsScenario#vpc_load_distribution}
   */
   readonly vpcLoadDistribution?: PtsScenarioLoadVpcLoadDistribution;
 }
@@ -2359,31 +2359,31 @@ export interface PtsScenarioPlugins {
   /**
   * File id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#file_id PtsScenario#file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#file_id PtsScenario#file_id}
   */
   readonly fileId?: string;
   /**
   * File name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#name PtsScenario#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#name PtsScenario#name}
   */
   readonly name?: string;
   /**
   * File size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#size PtsScenario#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#size PtsScenario#size}
   */
   readonly size?: number;
   /**
   * File type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#type PtsScenario#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#type PtsScenario#type}
   */
   readonly type?: string;
   /**
   * Update time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#updated_at PtsScenario#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#updated_at PtsScenario#updated_at}
   */
   readonly updatedAt?: string;
 }
@@ -2617,31 +2617,31 @@ export interface PtsScenarioProtocols {
   /**
   * File ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#file_id PtsScenario#file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#file_id PtsScenario#file_id}
   */
   readonly fileId?: string;
   /**
   * Protocol name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#name PtsScenario#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#name PtsScenario#name}
   */
   readonly name?: string;
   /**
   * File name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#size PtsScenario#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#size PtsScenario#size}
   */
   readonly size?: number;
   /**
   * File type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#type PtsScenario#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#type PtsScenario#type}
   */
   readonly type?: string;
   /**
   * Update time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#updated_at PtsScenario#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#updated_at PtsScenario#updated_at}
   */
   readonly updatedAt?: string;
 }
@@ -2875,31 +2875,31 @@ export interface PtsScenarioRequestFiles {
   /**
   * File id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#file_id PtsScenario#file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#file_id PtsScenario#file_id}
   */
   readonly fileId?: string;
   /**
   * File name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#name PtsScenario#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#name PtsScenario#name}
   */
   readonly name?: string;
   /**
   * File size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#size PtsScenario#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#size PtsScenario#size}
   */
   readonly size?: number;
   /**
   * File type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#type PtsScenario#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#type PtsScenario#type}
   */
   readonly type?: string;
   /**
   * Update time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#updated_at PtsScenario#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#updated_at PtsScenario#updated_at}
   */
   readonly updatedAt?: string;
 }
@@ -3133,13 +3133,13 @@ export interface PtsScenarioSlaPolicyAlertChannel {
   /**
   * AMP consumer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#amp_consumer_id PtsScenario#amp_consumer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#amp_consumer_id PtsScenario#amp_consumer_id}
   */
   readonly ampConsumerId?: string;
   /**
   * Notification template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#notice_id PtsScenario#notice_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#notice_id PtsScenario#notice_id}
   */
   readonly noticeId?: string;
 }
@@ -3254,13 +3254,13 @@ export interface PtsScenarioSlaPolicySlaRulesLabelFilter {
   /**
   * Label name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#label_name PtsScenario#label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#label_name PtsScenario#label_name}
   */
   readonly labelName?: string;
   /**
   * Label value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#label_value PtsScenario#label_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#label_value PtsScenario#label_value}
   */
   readonly labelValue?: string;
 }
@@ -3407,43 +3407,43 @@ export interface PtsScenarioSlaPolicySlaRules {
   /**
   * Whether to stop the stress test task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#abort_flag PtsScenario#abort_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#abort_flag PtsScenario#abort_flag}
   */
   readonly abortFlag?: boolean | cdktf.IResolvable;
   /**
   * Aggregation method of pressure test index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#aggregation PtsScenario#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#aggregation PtsScenario#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Pressure test index condition judgment symbol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#condition PtsScenario#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#condition PtsScenario#condition}
   */
   readonly condition?: string;
   /**
   * duraion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#for PtsScenario#for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#for PtsScenario#for}
   */
   readonly for?: string;
   /**
   * Pressure test index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#metric PtsScenario#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#metric PtsScenario#metric}
   */
   readonly metric?: string;
   /**
   * Threshold value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#value PtsScenario#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#value PtsScenario#value}
   */
   readonly value?: number;
   /**
   * label_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#label_filter PtsScenario#label_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#label_filter PtsScenario#label_filter}
   */
   readonly labelFilter?: PtsScenarioSlaPolicySlaRulesLabelFilter[] | cdktf.IResolvable;
 }
@@ -3735,13 +3735,13 @@ export interface PtsScenarioSlaPolicy {
   /**
   * alert_channel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#alert_channel PtsScenario#alert_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#alert_channel PtsScenario#alert_channel}
   */
   readonly alertChannel?: PtsScenarioSlaPolicyAlertChannel;
   /**
   * sla_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#sla_rules PtsScenario#sla_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#sla_rules PtsScenario#sla_rules}
   */
   readonly slaRules?: PtsScenarioSlaPolicySlaRules[] | cdktf.IResolvable;
 }
@@ -3856,43 +3856,43 @@ export interface PtsScenarioTestScripts {
   /**
   * Base64 encoded file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#encoded_content PtsScenario#encoded_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#encoded_content PtsScenario#encoded_content}
   */
   readonly encodedContent?: string;
   /**
   * Base64 encoded har structure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#encoded_http_archive PtsScenario#encoded_http_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#encoded_http_archive PtsScenario#encoded_http_archive}
   */
   readonly encodedHttpArchive?: string;
   /**
   * Script weight, range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#load_weight PtsScenario#load_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#load_weight PtsScenario#load_weight}
   */
   readonly loadWeight?: number;
   /**
   * File name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#name PtsScenario#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#name PtsScenario#name}
   */
   readonly name?: string;
   /**
   * File size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#size PtsScenario#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#size PtsScenario#size}
   */
   readonly size?: number;
   /**
   * File type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#type PtsScenario#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#type PtsScenario#type}
   */
   readonly type?: string;
   /**
   * Update time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#updated_at PtsScenario#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#updated_at PtsScenario#updated_at}
   */
   readonly updatedAt?: string;
 }
@@ -4182,7 +4182,7 @@ export class PtsScenarioTestScriptsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario tencentcloud_pts_scenario}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario tencentcloud_pts_scenario}
 */
 export class PtsScenario extends cdktf.TerraformResource {
 
@@ -4198,7 +4198,7 @@ export class PtsScenario extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PtsScenario resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PtsScenario to import
-  * @param importFromId The id of the existing PtsScenario that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PtsScenario that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PtsScenario to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4210,7 +4210,7 @@ export class PtsScenario extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/pts_scenario tencentcloud_pts_scenario} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/pts_scenario tencentcloud_pts_scenario} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4221,8 +4221,8 @@ export class PtsScenario extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_pts_scenario',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

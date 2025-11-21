@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap
+// https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface CheckImapConfig extends cdktf.TerraformMetaArguments {
   * Must start and end with alphanumeric characters, can contain hyphens but not at the start or end, 
   * and must have at least one dot separator between valid DNS labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#address CheckImap#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#address CheckImap#address}
   */
   readonly address: string;
   /**
@@ -20,65 +20,65 @@ export interface CheckImapConfig extends cdktf.TerraformMetaArguments {
   * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#contact_groups CheckImap#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#contact_groups CheckImap#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Whether to use TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#encryption CheckImap#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#encryption CheckImap#encryption}
   */
   readonly encryption?: string;
   /**
   * String to expect in server response (may be repeated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#expect_string CheckImap#expect_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#expect_string CheckImap#expect_string}
   */
   readonly expectString?: string;
   /**
   * Include this check in uptime/response time calculations for the dashboard and status pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#include_in_global_metrics CheckImap#include_in_global_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#include_in_global_metrics CheckImap#include_in_global_metrics}
   */
   readonly includeInGlobalMetrics?: boolean | cdktf.IResolvable;
   /**
   * The interval between checks in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#interval CheckImap#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#interval CheckImap#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#is_paused CheckImap#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#is_paused CheckImap#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#locations CheckImap#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#locations CheckImap#locations}
   */
   readonly locations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#name CheckImap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#name CheckImap#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#notes CheckImap#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#notes CheckImap#notes}
   */
   readonly notes?: string;
   /**
   * How many times the check should be retried before a location is considered down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#num_retries CheckImap#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#num_retries CheckImap#num_retries}
   */
   readonly numRetries?: number;
   /**
   * The port to check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#port CheckImap#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#port CheckImap#port}
   */
   readonly port?: number;
   /**
   * SLA related attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#sla CheckImap#sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#sla CheckImap#sla}
   */
   readonly sla?: CheckImapSla;
   /**
@@ -88,13 +88,13 @@ export interface CheckImapConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#tags CheckImap#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#tags CheckImap#tags}
   */
   readonly tags?: string[];
   /**
   * Whether to use IPv4 or IPv6 for the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#use_ip_version CheckImap#use_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#use_ip_version CheckImap#use_ip_version}
   */
   readonly useIpVersion?: string;
 }
@@ -102,13 +102,13 @@ export interface CheckImapSla {
   /**
   * The maximum average response time. Unit is mandatory (e.g. 1500ms or 1.5s or 1s500ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#latency CheckImap#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#latency CheckImap#latency}
   */
   readonly latency?: string;
   /**
   * The minimum uptime percentage. \nMust be a fraction with exactly 4 decimal places (e.g. 0.9995 for 99.95% uptime)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#uptime CheckImap#uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#uptime CheckImap#uptime}
   */
   readonly uptime?: string;
 }
@@ -231,7 +231,7 @@ export class CheckImapSlaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap uptime_check_imap}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap uptime_check_imap}
 */
 export class CheckImap extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class CheckImap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckImap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckImap to import
-  * @param importFromId The id of the existing CheckImap that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckImap that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckImap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class CheckImap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_imap uptime_check_imap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_imap uptime_check_imap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class CheckImap extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_imap',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.16.0',
-        providerVersionConstraint: '2.16.0'
+        providerVersion: '2.17.1',
+        providerVersionConstraint: '2.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

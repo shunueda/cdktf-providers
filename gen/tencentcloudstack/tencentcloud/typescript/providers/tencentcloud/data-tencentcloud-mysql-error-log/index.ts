@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_error_log
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_error_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudMysqlErrorLogConfig extends cdktf.TerraformMeta
   /**
   * End timestamp. For example 1585142640.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_error_log#end_time DataTencentcloudMysqlErrorLog#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_error_log#end_time DataTencentcloudMysqlErrorLog#end_time}
   */
   readonly endTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_error_log#id DataTencentcloudMysqlErrorLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_error_log#id DataTencentcloudMysqlErrorLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudMysqlErrorLogConfig extends cdktf.TerraformMeta
   /**
   * Only valid when the instance is the master instance or disaster recovery instance, the optional value: slave, which means to pull the log of the slave machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_error_log#inst_type DataTencentcloudMysqlErrorLog#inst_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_error_log#inst_type DataTencentcloudMysqlErrorLog#inst_type}
   */
   readonly instType?: string;
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_error_log#instance_id DataTencentcloudMysqlErrorLog#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_error_log#instance_id DataTencentcloudMysqlErrorLog#instance_id}
   */
   readonly instanceId: string;
   /**
   * A list of keywords to match, up to 15 keywords are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_error_log#key_words DataTencentcloudMysqlErrorLog#key_words}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_error_log#key_words DataTencentcloudMysqlErrorLog#key_words}
   */
   readonly keyWords?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_error_log#result_output_file DataTencentcloudMysqlErrorLog#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_error_log#result_output_file DataTencentcloudMysqlErrorLog#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start timestamp. For example 1585142640.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_error_log#start_time DataTencentcloudMysqlErrorLog#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_error_log#start_time DataTencentcloudMysqlErrorLog#start_time}
   */
   readonly startTime: number;
 }
@@ -133,7 +133,7 @@ export class DataTencentcloudMysqlErrorLogItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_error_log tencentcloud_mysql_error_log}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_error_log tencentcloud_mysql_error_log}
 */
 export class DataTencentcloudMysqlErrorLog extends cdktf.TerraformDataSource {
 
@@ -149,7 +149,7 @@ export class DataTencentcloudMysqlErrorLog extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudMysqlErrorLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMysqlErrorLog to import
-  * @param importFromId The id of the existing DataTencentcloudMysqlErrorLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_error_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMysqlErrorLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_error_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMysqlErrorLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -161,7 +161,7 @@ export class DataTencentcloudMysqlErrorLog extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_error_log tencentcloud_mysql_error_log} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_error_log tencentcloud_mysql_error_log} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -172,8 +172,8 @@ export class DataTencentcloudMysqlErrorLog extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_mysql_error_log',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

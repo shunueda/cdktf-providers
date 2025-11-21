@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface EfloClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#cluster_description EfloCluster#cluster_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#cluster_description EfloCluster#cluster_description}
   */
   readonly clusterDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#cluster_name EfloCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#cluster_name EfloCluster#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#cluster_type EfloCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#cluster_type EfloCluster#cluster_type}
   */
   readonly clusterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#hpn_zone EfloCluster#hpn_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#hpn_zone EfloCluster#hpn_zone}
   */
   readonly hpnZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#id EfloCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#id EfloCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#ignore_failed_node_tasks EfloCluster#ignore_failed_node_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#ignore_failed_node_tasks EfloCluster#ignore_failed_node_tasks}
   */
   readonly ignoreFailedNodeTasks?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#nimiz_vswitches EfloCluster#nimiz_vswitches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#nimiz_vswitches EfloCluster#nimiz_vswitches}
   */
   readonly nimizVswitches?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#open_eni_jumbo_frame EfloCluster#open_eni_jumbo_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#open_eni_jumbo_frame EfloCluster#open_eni_jumbo_frame}
   */
   readonly openEniJumboFrame?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#resource_group_id EfloCluster#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#resource_group_id EfloCluster#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#tags EfloCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#tags EfloCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * components block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#components EfloCluster#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#components EfloCluster#components}
   */
   readonly components?: EfloClusterComponents[] | cdktf.IResolvable;
   /**
   * networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#networks EfloCluster#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#networks EfloCluster#networks}
   */
   readonly networks?: EfloClusterNetworks;
   /**
   * node_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#node_groups EfloCluster#node_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#node_groups EfloCluster#node_groups}
   */
   readonly nodeGroups?: EfloClusterNodeGroups[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#timeouts EfloCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#timeouts EfloCluster#timeouts}
   */
   readonly timeouts?: EfloClusterTimeouts;
 }
 export interface EfloClusterComponentsComponentConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#basic_args EfloCluster#basic_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#basic_args EfloCluster#basic_args}
   */
   readonly basicArgs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#node_units EfloCluster#node_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#node_units EfloCluster#node_units}
   */
   readonly nodeUnits?: string[];
 }
@@ -194,13 +194,13 @@ export class EfloClusterComponentsComponentConfigOutputReference extends cdktf.C
 }
 export interface EfloClusterComponents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#component_type EfloCluster#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#component_type EfloCluster#component_type}
   */
   readonly componentType?: string;
   /**
   * component_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#component_config EfloCluster#component_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#component_config EfloCluster#component_config}
   */
   readonly componentConfig?: EfloClusterComponentsComponentConfig;
 }
@@ -345,11 +345,11 @@ export class EfloClusterComponentsList extends cdktf.ComplexList {
 }
 export interface EfloClusterNetworksIpAllocationPolicyBondPolicyBonds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#name EfloCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#name EfloCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#subnet EfloCluster#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#subnet EfloCluster#subnet}
   */
   readonly subnet?: string;
 }
@@ -494,13 +494,13 @@ export class EfloClusterNetworksIpAllocationPolicyBondPolicyBondsList extends cd
 }
 export interface EfloClusterNetworksIpAllocationPolicyBondPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#bond_default_subnet EfloCluster#bond_default_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#bond_default_subnet EfloCluster#bond_default_subnet}
   */
   readonly bondDefaultSubnet?: string;
   /**
   * bonds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#bonds EfloCluster#bonds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#bonds EfloCluster#bonds}
   */
   readonly bonds?: EfloClusterNetworksIpAllocationPolicyBondPolicyBonds[] | cdktf.IResolvable;
 }
@@ -613,11 +613,11 @@ export class EfloClusterNetworksIpAllocationPolicyBondPolicyOutputReference exte
 }
 export interface EfloClusterNetworksIpAllocationPolicyMachineTypePolicyBonds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#name EfloCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#name EfloCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#subnet EfloCluster#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#subnet EfloCluster#subnet}
   */
   readonly subnet?: string;
 }
@@ -762,13 +762,13 @@ export class EfloClusterNetworksIpAllocationPolicyMachineTypePolicyBondsList ext
 }
 export interface EfloClusterNetworksIpAllocationPolicyMachineTypePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#machine_type EfloCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#machine_type EfloCluster#machine_type}
   */
   readonly machineType?: string;
   /**
   * bonds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#bonds EfloCluster#bonds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#bonds EfloCluster#bonds}
   */
   readonly bonds?: EfloClusterNetworksIpAllocationPolicyMachineTypePolicyBonds[] | cdktf.IResolvable;
 }
@@ -913,11 +913,11 @@ export class EfloClusterNetworksIpAllocationPolicyMachineTypePolicyList extends 
 }
 export interface EfloClusterNetworksIpAllocationPolicyNodePolicyBonds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#name EfloCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#name EfloCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#subnet EfloCluster#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#subnet EfloCluster#subnet}
   */
   readonly subnet?: string;
 }
@@ -1062,13 +1062,13 @@ export class EfloClusterNetworksIpAllocationPolicyNodePolicyBondsList extends cd
 }
 export interface EfloClusterNetworksIpAllocationPolicyNodePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#node_id EfloCluster#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#node_id EfloCluster#node_id}
   */
   readonly nodeId?: string;
   /**
   * bonds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#bonds EfloCluster#bonds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#bonds EfloCluster#bonds}
   */
   readonly bonds?: EfloClusterNetworksIpAllocationPolicyNodePolicyBonds[] | cdktf.IResolvable;
 }
@@ -1215,19 +1215,19 @@ export interface EfloClusterNetworksIpAllocationPolicy {
   /**
   * bond_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#bond_policy EfloCluster#bond_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#bond_policy EfloCluster#bond_policy}
   */
   readonly bondPolicy?: EfloClusterNetworksIpAllocationPolicyBondPolicy;
   /**
   * machine_type_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#machine_type_policy EfloCluster#machine_type_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#machine_type_policy EfloCluster#machine_type_policy}
   */
   readonly machineTypePolicy?: EfloClusterNetworksIpAllocationPolicyMachineTypePolicy[] | cdktf.IResolvable;
   /**
   * node_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#node_policy EfloCluster#node_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#node_policy EfloCluster#node_policy}
   */
   readonly nodePolicy?: EfloClusterNetworksIpAllocationPolicyNodePolicy[] | cdktf.IResolvable;
 }
@@ -1401,15 +1401,15 @@ export class EfloClusterNetworksIpAllocationPolicyList extends cdktf.ComplexList
 }
 export interface EfloClusterNetworksNewVpdInfoVpdSubnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#subnet_cidr EfloCluster#subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#subnet_cidr EfloCluster#subnet_cidr}
   */
   readonly subnetCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#subnet_type EfloCluster#subnet_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#subnet_type EfloCluster#subnet_type}
   */
   readonly subnetType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#zone_id EfloCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#zone_id EfloCluster#zone_id}
   */
   readonly zoneId?: string;
 }
@@ -1583,33 +1583,33 @@ export class EfloClusterNetworksNewVpdInfoVpdSubnetsList extends cdktf.ComplexLi
 }
 export interface EfloClusterNetworksNewVpdInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#cen_id EfloCluster#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#cen_id EfloCluster#cen_id}
   */
   readonly cenId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#cloud_link_cidr EfloCluster#cloud_link_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#cloud_link_cidr EfloCluster#cloud_link_cidr}
   */
   readonly cloudLinkCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#cloud_link_id EfloCluster#cloud_link_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#cloud_link_id EfloCluster#cloud_link_id}
   */
   readonly cloudLinkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#monitor_vpc_id EfloCluster#monitor_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#monitor_vpc_id EfloCluster#monitor_vpc_id}
   */
   readonly monitorVpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#monitor_vswitch_id EfloCluster#monitor_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#monitor_vswitch_id EfloCluster#monitor_vswitch_id}
   */
   readonly monitorVswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#vpd_cidr EfloCluster#vpd_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#vpd_cidr EfloCluster#vpd_cidr}
   */
   readonly vpdCidr?: string;
   /**
   * vpd_subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#vpd_subnets EfloCluster#vpd_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#vpd_subnets EfloCluster#vpd_subnets}
   */
   readonly vpdSubnets?: EfloClusterNetworksNewVpdInfoVpdSubnets[] | cdktf.IResolvable;
 }
@@ -1867,11 +1867,11 @@ export class EfloClusterNetworksNewVpdInfoOutputReference extends cdktf.ComplexO
 }
 export interface EfloClusterNetworksVpdInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#vpd_id EfloCluster#vpd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#vpd_id EfloCluster#vpd_id}
   */
   readonly vpdId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#vpd_subnets EfloCluster#vpd_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#vpd_subnets EfloCluster#vpd_subnets}
   */
   readonly vpdSubnets?: string[];
 }
@@ -1984,41 +1984,41 @@ export class EfloClusterNetworksVpdInfoOutputReference extends cdktf.ComplexObje
 }
 export interface EfloClusterNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#security_group_id EfloCluster#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#security_group_id EfloCluster#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#tail_ip_version EfloCluster#tail_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#tail_ip_version EfloCluster#tail_ip_version}
   */
   readonly tailIpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#vpc_id EfloCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#vpc_id EfloCluster#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#vswitch_id EfloCluster#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#vswitch_id EfloCluster#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#vswitch_zone_id EfloCluster#vswitch_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#vswitch_zone_id EfloCluster#vswitch_zone_id}
   */
   readonly vswitchZoneId?: string;
   /**
   * ip_allocation_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#ip_allocation_policy EfloCluster#ip_allocation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#ip_allocation_policy EfloCluster#ip_allocation_policy}
   */
   readonly ipAllocationPolicy?: EfloClusterNetworksIpAllocationPolicy[] | cdktf.IResolvable;
   /**
   * new_vpd_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#new_vpd_info EfloCluster#new_vpd_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#new_vpd_info EfloCluster#new_vpd_info}
   */
   readonly newVpdInfo?: EfloClusterNetworksNewVpdInfo;
   /**
   * vpd_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#vpd_info EfloCluster#vpd_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#vpd_info EfloCluster#vpd_info}
   */
   readonly vpdInfo?: EfloClusterNetworksVpdInfo;
 }
@@ -2305,23 +2305,23 @@ export class EfloClusterNetworksOutputReference extends cdktf.ComplexObject {
 }
 export interface EfloClusterNodeGroupsNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#hostname EfloCluster#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#hostname EfloCluster#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#login_password EfloCluster#login_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#login_password EfloCluster#login_password}
   */
   readonly loginPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#node_id EfloCluster#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#node_id EfloCluster#node_id}
   */
   readonly nodeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#vpc_id EfloCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#vpc_id EfloCluster#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#vswitch_id EfloCluster#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#vswitch_id EfloCluster#vswitch_id}
   */
   readonly vswitchId?: string;
 }
@@ -2553,33 +2553,33 @@ export class EfloClusterNodeGroupsNodesList extends cdktf.ComplexList {
 }
 export interface EfloClusterNodeGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#image_id EfloCluster#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#image_id EfloCluster#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#machine_type EfloCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#machine_type EfloCluster#machine_type}
   */
   readonly machineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#node_group_description EfloCluster#node_group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#node_group_description EfloCluster#node_group_description}
   */
   readonly nodeGroupDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#node_group_name EfloCluster#node_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#node_group_name EfloCluster#node_group_name}
   */
   readonly nodeGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#user_data EfloCluster#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#user_data EfloCluster#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#zone_id EfloCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#zone_id EfloCluster#zone_id}
   */
   readonly zoneId?: string;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#nodes EfloCluster#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#nodes EfloCluster#nodes}
   */
   readonly nodes?: EfloClusterNodeGroupsNodes[] | cdktf.IResolvable;
 }
@@ -2869,15 +2869,15 @@ export class EfloClusterNodeGroupsList extends cdktf.ComplexList {
 }
 export interface EfloClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#create EfloCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#create EfloCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#delete EfloCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#delete EfloCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#update EfloCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#update EfloCluster#update}
   */
   readonly update?: string;
 }
@@ -3029,7 +3029,7 @@ export class EfloClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster alicloud_eflo_cluster}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster alicloud_eflo_cluster}
 */
 export class EfloCluster extends cdktf.TerraformResource {
 
@@ -3045,7 +3045,7 @@ export class EfloCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EfloCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EfloCluster to import
-  * @param importFromId The id of the existing EfloCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EfloCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EfloCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3057,7 +3057,7 @@ export class EfloCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/eflo_cluster alicloud_eflo_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_cluster alicloud_eflo_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3068,8 +3068,8 @@ export class EfloCluster extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_eflo_cluster',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

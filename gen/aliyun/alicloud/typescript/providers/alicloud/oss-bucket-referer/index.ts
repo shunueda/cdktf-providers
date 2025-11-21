@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface OssBucketRefererConfigA extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer#allow_empty_referer OssBucketReferer#allow_empty_referer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer#allow_empty_referer OssBucketReferer#allow_empty_referer}
   */
   readonly allowEmptyReferer: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer#allow_truncate_query_string OssBucketReferer#allow_truncate_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer#allow_truncate_query_string OssBucketReferer#allow_truncate_query_string}
   */
   readonly allowTruncateQueryString?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer#bucket OssBucketReferer#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer#bucket OssBucketReferer#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer#id OssBucketReferer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer#id OssBucketReferer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer#referer_blacklist OssBucketReferer#referer_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer#referer_blacklist OssBucketReferer#referer_blacklist}
   */
   readonly refererBlacklist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer#referer_list OssBucketReferer#referer_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer#referer_list OssBucketReferer#referer_list}
   */
   readonly refererList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer#truncate_path OssBucketReferer#truncate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer#truncate_path OssBucketReferer#truncate_path}
   */
   readonly truncatePath?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer#timeouts OssBucketReferer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer#timeouts OssBucketReferer#timeouts}
   */
   readonly timeouts?: OssBucketRefererTimeouts;
 }
 export interface OssBucketRefererTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer#create OssBucketReferer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer#create OssBucketReferer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer#delete OssBucketReferer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer#delete OssBucketReferer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer#update OssBucketReferer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer#update OssBucketReferer#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class OssBucketRefererTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer alicloud_oss_bucket_referer}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer alicloud_oss_bucket_referer}
 */
 export class OssBucketReferer extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class OssBucketReferer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OssBucketReferer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OssBucketReferer to import
-  * @param importFromId The id of the existing OssBucketReferer that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OssBucketReferer that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OssBucketReferer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class OssBucketReferer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/oss_bucket_referer alicloud_oss_bucket_referer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_referer alicloud_oss_bucket_referer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class OssBucketReferer extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_oss_bucket_referer',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

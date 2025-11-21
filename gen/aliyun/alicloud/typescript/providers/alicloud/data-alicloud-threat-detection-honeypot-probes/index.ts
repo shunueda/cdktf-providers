@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_honeypot_probes
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_honeypot_probes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudThreatDetectionHoneypotProbesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_honeypot_probes#display_name DataAlicloudThreatDetectionHoneypotProbes#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_honeypot_probes#display_name DataAlicloudThreatDetectionHoneypotProbes#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_honeypot_probes#enable_details DataAlicloudThreatDetectionHoneypotProbes#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_honeypot_probes#enable_details DataAlicloudThreatDetectionHoneypotProbes#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_honeypot_probes#id DataAlicloudThreatDetectionHoneypotProbes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_honeypot_probes#id DataAlicloudThreatDetectionHoneypotProbes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_honeypot_probes#ids DataAlicloudThreatDetectionHoneypotProbes#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_honeypot_probes#ids DataAlicloudThreatDetectionHoneypotProbes#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_honeypot_probes#name_regex DataAlicloudThreatDetectionHoneypotProbes#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_honeypot_probes#name_regex DataAlicloudThreatDetectionHoneypotProbes#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_honeypot_probes#output_file DataAlicloudThreatDetectionHoneypotProbes#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_honeypot_probes#output_file DataAlicloudThreatDetectionHoneypotProbes#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_honeypot_probes#probe_status DataAlicloudThreatDetectionHoneypotProbes#probe_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_honeypot_probes#probe_status DataAlicloudThreatDetectionHoneypotProbes#probe_status}
   */
   readonly probeStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_honeypot_probes#probe_type DataAlicloudThreatDetectionHoneypotProbes#probe_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_honeypot_probes#probe_type DataAlicloudThreatDetectionHoneypotProbes#probe_type}
   */
   readonly probeType?: string;
 }
@@ -352,7 +352,7 @@ export class DataAlicloudThreatDetectionHoneypotProbesProbesList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_honeypot_probes alicloud_threat_detection_honeypot_probes}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_honeypot_probes alicloud_threat_detection_honeypot_probes}
 */
 export class DataAlicloudThreatDetectionHoneypotProbes extends cdktf.TerraformDataSource {
 
@@ -368,7 +368,7 @@ export class DataAlicloudThreatDetectionHoneypotProbes extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataAlicloudThreatDetectionHoneypotProbes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudThreatDetectionHoneypotProbes to import
-  * @param importFromId The id of the existing DataAlicloudThreatDetectionHoneypotProbes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_honeypot_probes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudThreatDetectionHoneypotProbes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_honeypot_probes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudThreatDetectionHoneypotProbes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -380,7 +380,7 @@ export class DataAlicloudThreatDetectionHoneypotProbes extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/threat_detection_honeypot_probes alicloud_threat_detection_honeypot_probes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/threat_detection_honeypot_probes alicloud_threat_detection_honeypot_probes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -391,8 +391,8 @@ export class DataAlicloudThreatDetectionHoneypotProbes extends cdktf.TerraformDa
       terraformResourceType: 'alicloud_threat_detection_honeypot_probes',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface IpSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the parent IP block/subnet into which creating the IP subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet#block IpSubnet#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet#block IpSubnet#block}
   */
   readonly block?: string;
   /**
   * The class associated to the IP subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet#class IpSubnet#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet#class IpSubnet#class}
   */
   readonly class?: string;
   /**
   * The class parameters associated to the IP subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet#class_parameters IpSubnet#class_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet#class_parameters IpSubnet#class_parameters}
   */
   readonly classParameters?: { [key: string]: string };
   /**
   * Offset for creating the gateway. Default is 0 (No gateway).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet#gateway_offset IpSubnet#gateway_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet#gateway_offset IpSubnet#gateway_offset}
   */
   readonly gatewayOffset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet#id IpSubnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet#id IpSubnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface IpSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the IP subnet to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet#name IpSubnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet#name IpSubnet#name}
   */
   readonly name: string;
   /**
   * The expected IP subnet's prefix length (ex: 24 for a '/24').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet#prefix_size IpSubnet#prefix_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet#prefix_size IpSubnet#prefix_size}
   */
   readonly prefixSize: number;
   /**
   * The optionally requested subnet IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet#request_ip IpSubnet#request_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet#request_ip IpSubnet#request_ip}
   */
   readonly requestIp?: string;
   /**
   * The name of the space into which creating the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet#space IpSubnet#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet#space IpSubnet#space}
   */
   readonly space: string;
   /**
   * The terminal property of the IP subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet#terminal IpSubnet#terminal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet#terminal IpSubnet#terminal}
   */
   readonly terminal?: boolean | cdktf.IResolvable;
   /**
   * The VLAN Domain associated to the IP subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet#vlan_domain IpSubnet#vlan_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet#vlan_domain IpSubnet#vlan_domain}
   */
   readonly vlanDomain?: string;
   /**
   * The VLAN ID associated to the IP subnet. Default is 0 (No VLAN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet#vlan_id IpSubnet#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet#vlan_id IpSubnet#vlan_id}
   */
   readonly vlanId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet solidserver_ip_subnet}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet solidserver_ip_subnet}
 */
 export class IpSubnet extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class IpSubnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpSubnet to import
-  * @param importFromId The id of the existing IpSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class IpSubnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_subnet solidserver_ip_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_subnet solidserver_ip_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class IpSubnet extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_ip_subnet',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

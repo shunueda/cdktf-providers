@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface CdnRealTimeLogDeliveryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery#domain CdnRealTimeLogDelivery#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery#domain CdnRealTimeLogDelivery#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery#id CdnRealTimeLogDelivery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery#id CdnRealTimeLogDelivery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery#logstore CdnRealTimeLogDelivery#logstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery#logstore CdnRealTimeLogDelivery#logstore}
   */
   readonly logstore: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery#project CdnRealTimeLogDelivery#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery#project CdnRealTimeLogDelivery#project}
   */
   readonly project: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery#sls_region CdnRealTimeLogDelivery#sls_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery#sls_region CdnRealTimeLogDelivery#sls_region}
   */
   readonly slsRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery#status CdnRealTimeLogDelivery#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery#status CdnRealTimeLogDelivery#status}
   */
   readonly status?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery#timeouts CdnRealTimeLogDelivery#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery#timeouts CdnRealTimeLogDelivery#timeouts}
   */
   readonly timeouts?: CdnRealTimeLogDeliveryTimeouts;
 }
 export interface CdnRealTimeLogDeliveryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery#create CdnRealTimeLogDelivery#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery#create CdnRealTimeLogDelivery#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery#delete CdnRealTimeLogDelivery#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery#delete CdnRealTimeLogDelivery#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery#update CdnRealTimeLogDelivery#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery#update CdnRealTimeLogDelivery#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class CdnRealTimeLogDeliveryTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery alicloud_cdn_real_time_log_delivery}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery alicloud_cdn_real_time_log_delivery}
 */
 export class CdnRealTimeLogDelivery extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class CdnRealTimeLogDelivery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnRealTimeLogDelivery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnRealTimeLogDelivery to import
-  * @param importFromId The id of the existing CdnRealTimeLogDelivery that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnRealTimeLogDelivery that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnRealTimeLogDelivery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class CdnRealTimeLogDelivery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cdn_real_time_log_delivery alicloud_cdn_real_time_log_delivery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_real_time_log_delivery alicloud_cdn_real_time_log_delivery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class CdnRealTimeLogDelivery extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cdn_real_time_log_delivery',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

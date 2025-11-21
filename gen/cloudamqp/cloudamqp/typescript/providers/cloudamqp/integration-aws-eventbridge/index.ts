@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/integration_aws_eventbridge
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/integration_aws_eventbridge
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface IntegrationAwsEventbridgeConfig extends cdktf.TerraformMetaArgu
   /**
   * The 12 digit AWS Account ID where you want the events to be sent to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/integration_aws_eventbridge#aws_account_id IntegrationAwsEventbridge#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/integration_aws_eventbridge#aws_account_id IntegrationAwsEventbridge#aws_account_id}
   */
   readonly awsAccountId: string;
   /**
   * The AWS region where you the events to be sent to. (e.g. us-west-1, us-west-2, ..., etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/integration_aws_eventbridge#aws_region IntegrationAwsEventbridge#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/integration_aws_eventbridge#aws_region IntegrationAwsEventbridge#aws_region}
   */
   readonly awsRegion: string;
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/integration_aws_eventbridge#instance_id IntegrationAwsEventbridge#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/integration_aws_eventbridge#instance_id IntegrationAwsEventbridge#instance_id}
   */
   readonly instanceId: number;
   /**
   * Number of messages to prefetch. Default set to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/integration_aws_eventbridge#prefetch IntegrationAwsEventbridge#prefetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/integration_aws_eventbridge#prefetch IntegrationAwsEventbridge#prefetch}
   */
   readonly prefetch?: number;
   /**
   * A (durable) queue on your RabbitMQ instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/integration_aws_eventbridge#queue IntegrationAwsEventbridge#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/integration_aws_eventbridge#queue IntegrationAwsEventbridge#queue}
   */
   readonly queue: string;
   /**
   * The VHost the queue resides in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/integration_aws_eventbridge#vhost IntegrationAwsEventbridge#vhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/integration_aws_eventbridge#vhost IntegrationAwsEventbridge#vhost}
   */
   readonly vhost: string;
   /**
   * Include message headers in the event data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/integration_aws_eventbridge#with_headers IntegrationAwsEventbridge#with_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/integration_aws_eventbridge#with_headers IntegrationAwsEventbridge#with_headers}
   */
   readonly withHeaders: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/integration_aws_eventbridge cloudamqp_integration_aws_eventbridge}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/integration_aws_eventbridge cloudamqp_integration_aws_eventbridge}
 */
 export class IntegrationAwsEventbridge extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class IntegrationAwsEventbridge extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationAwsEventbridge resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationAwsEventbridge to import
-  * @param importFromId The id of the existing IntegrationAwsEventbridge that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/integration_aws_eventbridge#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationAwsEventbridge that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/integration_aws_eventbridge#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationAwsEventbridge to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class IntegrationAwsEventbridge extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/integration_aws_eventbridge cloudamqp_integration_aws_eventbridge} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/integration_aws_eventbridge cloudamqp_integration_aws_eventbridge} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class IntegrationAwsEventbridge extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_integration_aws_eventbridge',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.2',
-        providerVersionConstraint: '1.38.2'
+        providerVersion: '1.38.3',
+        providerVersionConstraint: '1.38.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

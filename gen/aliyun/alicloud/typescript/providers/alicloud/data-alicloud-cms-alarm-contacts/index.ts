@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cms_alarm_contacts
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cms_alarm_contacts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCmsAlarmContactsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cms_alarm_contacts#chanel_type DataAlicloudCmsAlarmContacts#chanel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cms_alarm_contacts#chanel_type DataAlicloudCmsAlarmContacts#chanel_type}
   */
   readonly chanelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cms_alarm_contacts#chanel_value DataAlicloudCmsAlarmContacts#chanel_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cms_alarm_contacts#chanel_value DataAlicloudCmsAlarmContacts#chanel_value}
   */
   readonly chanelValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cms_alarm_contacts#id DataAlicloudCmsAlarmContacts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cms_alarm_contacts#id DataAlicloudCmsAlarmContacts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cms_alarm_contacts#ids DataAlicloudCmsAlarmContacts#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cms_alarm_contacts#ids DataAlicloudCmsAlarmContacts#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cms_alarm_contacts#name_regex DataAlicloudCmsAlarmContacts#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cms_alarm_contacts#name_regex DataAlicloudCmsAlarmContacts#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cms_alarm_contacts#output_file DataAlicloudCmsAlarmContacts#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cms_alarm_contacts#output_file DataAlicloudCmsAlarmContacts#output_file}
   */
   readonly outputFile?: string;
 }
@@ -172,7 +172,7 @@ export class DataAlicloudCmsAlarmContactsContactsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cms_alarm_contacts alicloud_cms_alarm_contacts}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cms_alarm_contacts alicloud_cms_alarm_contacts}
 */
 export class DataAlicloudCmsAlarmContacts extends cdktf.TerraformDataSource {
 
@@ -188,7 +188,7 @@ export class DataAlicloudCmsAlarmContacts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudCmsAlarmContacts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCmsAlarmContacts to import
-  * @param importFromId The id of the existing DataAlicloudCmsAlarmContacts that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cms_alarm_contacts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCmsAlarmContacts that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cms_alarm_contacts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCmsAlarmContacts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class DataAlicloudCmsAlarmContacts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cms_alarm_contacts alicloud_cms_alarm_contacts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cms_alarm_contacts alicloud_cms_alarm_contacts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,8 +211,8 @@ export class DataAlicloudCmsAlarmContacts extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_cms_alarm_contacts',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

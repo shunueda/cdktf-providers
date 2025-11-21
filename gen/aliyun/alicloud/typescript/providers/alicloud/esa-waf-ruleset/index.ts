@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface EsaWafRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset#id EsaWafRuleset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset#id EsaWafRuleset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset#name EsaWafRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset#name EsaWafRuleset#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset#phase EsaWafRuleset#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset#phase EsaWafRuleset#phase}
   */
   readonly phase: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset#site_id EsaWafRuleset#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset#site_id EsaWafRuleset#site_id}
   */
-  readonly siteId: number;
+  readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset#site_version EsaWafRuleset#site_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset#site_version EsaWafRuleset#site_version}
   */
   readonly siteVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset#status EsaWafRuleset#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset#status EsaWafRuleset#status}
   */
   readonly status?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset#timeouts EsaWafRuleset#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset#timeouts EsaWafRuleset#timeouts}
   */
   readonly timeouts?: EsaWafRulesetTimeouts;
 }
 export interface EsaWafRulesetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset#create EsaWafRuleset#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset#create EsaWafRuleset#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset#delete EsaWafRuleset#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset#delete EsaWafRuleset#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset#update EsaWafRuleset#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset#update EsaWafRuleset#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class EsaWafRulesetTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset alicloud_esa_waf_ruleset}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset alicloud_esa_waf_ruleset}
 */
 export class EsaWafRuleset extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class EsaWafRuleset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaWafRuleset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaWafRuleset to import
-  * @param importFromId The id of the existing EsaWafRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaWafRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaWafRuleset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class EsaWafRuleset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_waf_ruleset alicloud_esa_waf_ruleset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waf_ruleset alicloud_esa_waf_ruleset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class EsaWafRuleset extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_waf_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -317,11 +317,11 @@ export class EsaWafRuleset extends cdktf.TerraformResource {
   }
 
   // site_id - computed: false, optional: false, required: true
-  private _siteId?: number; 
+  private _siteId?: string; 
   public get siteId() {
-    return this.getNumberAttribute('site_id');
+    return this.getStringAttribute('site_id');
   }
-  public set siteId(value: number) {
+  public set siteId(value: string) {
     this._siteId = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -386,7 +386,7 @@ export class EsaWafRuleset extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       phase: cdktf.stringToTerraform(this._phase),
-      site_id: cdktf.numberToTerraform(this._siteId),
+      site_id: cdktf.stringToTerraform(this._siteId),
       site_version: cdktf.numberToTerraform(this._siteVersion),
       status: cdktf.stringToTerraform(this._status),
       timeouts: esaWafRulesetTimeoutsToTerraform(this._timeouts.internalValue),
@@ -414,10 +414,10 @@ export class EsaWafRuleset extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       site_id: {
-        value: cdktf.numberToHclTerraform(this._siteId),
+        value: cdktf.stringToHclTerraform(this._siteId),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       site_version: {
         value: cdktf.numberToHclTerraform(this._siteVersion),

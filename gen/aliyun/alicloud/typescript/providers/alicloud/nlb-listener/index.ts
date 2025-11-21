@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,116 +8,116 @@ import * as cdktf from 'cdktf';
 
 export interface NlbListenerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#alpn_enabled NlbListener#alpn_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#alpn_enabled NlbListener#alpn_enabled}
   */
   readonly alpnEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#alpn_policy NlbListener#alpn_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#alpn_policy NlbListener#alpn_policy}
   */
   readonly alpnPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#ca_certificate_ids NlbListener#ca_certificate_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#ca_certificate_ids NlbListener#ca_certificate_ids}
   */
   readonly caCertificateIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#ca_enabled NlbListener#ca_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#ca_enabled NlbListener#ca_enabled}
   */
   readonly caEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#certificate_ids NlbListener#certificate_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#certificate_ids NlbListener#certificate_ids}
   */
   readonly certificateIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#cps NlbListener#cps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#cps NlbListener#cps}
   */
   readonly cps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#end_port NlbListener#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#end_port NlbListener#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#id NlbListener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#id NlbListener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#idle_timeout NlbListener#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#idle_timeout NlbListener#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#listener_description NlbListener#listener_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#listener_description NlbListener#listener_description}
   */
   readonly listenerDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#listener_port NlbListener#listener_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#listener_port NlbListener#listener_port}
   */
   readonly listenerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#listener_protocol NlbListener#listener_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#listener_protocol NlbListener#listener_protocol}
   */
   readonly listenerProtocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#load_balancer_id NlbListener#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#load_balancer_id NlbListener#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#mss NlbListener#mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#mss NlbListener#mss}
   */
   readonly mss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#proxy_protocol_enabled NlbListener#proxy_protocol_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#proxy_protocol_enabled NlbListener#proxy_protocol_enabled}
   */
   readonly proxyProtocolEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#sec_sensor_enabled NlbListener#sec_sensor_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#sec_sensor_enabled NlbListener#sec_sensor_enabled}
   */
   readonly secSensorEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#security_policy_id NlbListener#security_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#security_policy_id NlbListener#security_policy_id}
   */
   readonly securityPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#server_group_id NlbListener#server_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#server_group_id NlbListener#server_group_id}
   */
   readonly serverGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#start_port NlbListener#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#start_port NlbListener#start_port}
   */
   readonly startPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#status NlbListener#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#status NlbListener#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#tags NlbListener#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#tags NlbListener#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * proxy_protocol_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#proxy_protocol_config NlbListener#proxy_protocol_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#proxy_protocol_config NlbListener#proxy_protocol_config}
   */
   readonly proxyProtocolConfig?: NlbListenerProxyProtocolConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#timeouts NlbListener#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#timeouts NlbListener#timeouts}
   */
   readonly timeouts?: NlbListenerTimeouts;
 }
 export interface NlbListenerProxyProtocolConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#proxy_protocol_config_private_link_ep_id_enabled NlbListener#proxy_protocol_config_private_link_ep_id_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#proxy_protocol_config_private_link_ep_id_enabled NlbListener#proxy_protocol_config_private_link_ep_id_enabled}
   */
   readonly proxyProtocolConfigPrivateLinkEpIdEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#proxy_protocol_config_private_link_eps_id_enabled NlbListener#proxy_protocol_config_private_link_eps_id_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#proxy_protocol_config_private_link_eps_id_enabled NlbListener#proxy_protocol_config_private_link_eps_id_enabled}
   */
   readonly proxyProtocolConfigPrivateLinkEpsIdEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#proxy_protocol_config_vpc_id_enabled NlbListener#proxy_protocol_config_vpc_id_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#proxy_protocol_config_vpc_id_enabled NlbListener#proxy_protocol_config_vpc_id_enabled}
   */
   readonly proxyProtocolConfigVpcIdEnabled?: boolean | cdktf.IResolvable;
 }
@@ -259,15 +259,15 @@ export class NlbListenerProxyProtocolConfigOutputReference extends cdktf.Complex
 }
 export interface NlbListenerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#create NlbListener#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#create NlbListener#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#delete NlbListener#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#delete NlbListener#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#update NlbListener#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#update NlbListener#update}
   */
   readonly update?: string;
 }
@@ -419,7 +419,7 @@ export class NlbListenerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener alicloud_nlb_listener}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener alicloud_nlb_listener}
 */
 export class NlbListener extends cdktf.TerraformResource {
 
@@ -435,7 +435,7 @@ export class NlbListener extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NlbListener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NlbListener to import
-  * @param importFromId The id of the existing NlbListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NlbListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NlbListener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -447,7 +447,7 @@ export class NlbListener extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/nlb_listener alicloud_nlb_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_listener alicloud_nlb_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -458,8 +458,8 @@ export class NlbListener extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_nlb_listener',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/dns_view
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/dns_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSolidserverDnsViewConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of DNS server or DNS SMART hosting the DNS view to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/dns_view#dnsserver DataSolidserverDnsView#dnsserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/dns_view#dnsserver DataSolidserverDnsView#dnsserver}
   */
   readonly dnsserver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/dns_view#id DataSolidserverDnsView#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/dns_view#id DataSolidserverDnsView#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataSolidserverDnsViewConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the DNS view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/dns_view#name DataSolidserverDnsView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/dns_view#name DataSolidserverDnsView#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/dns_view solidserver_dns_view}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/dns_view solidserver_dns_view}
 */
 export class DataSolidserverDnsView extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataSolidserverDnsView extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSolidserverDnsView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolidserverDnsView to import
-  * @param importFromId The id of the existing DataSolidserverDnsView that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/dns_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolidserverDnsView that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/dns_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolidserverDnsView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataSolidserverDnsView extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/data-sources/dns_view solidserver_dns_view} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/data-sources/dns_view solidserver_dns_view} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataSolidserverDnsView extends cdktf.TerraformDataSource {
       terraformResourceType: 'solidserver_dns_view',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

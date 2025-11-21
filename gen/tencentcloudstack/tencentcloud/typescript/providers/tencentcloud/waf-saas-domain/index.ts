@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface WafSaasDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to enable active health detection, 0 represents disable and 1 represents enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#active_check WafSaasDomain#active_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#active_check WafSaasDomain#active_check}
   */
   readonly activeCheck?: number;
   /**
   * Whether to enable api safe, 1 enable, 0 disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#api_safe_status WafSaasDomain#api_safe_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#api_safe_status WafSaasDomain#api_safe_status}
   */
   readonly apiSafeStatus?: number;
   /**
   * Whether to enable bot, 1 enable, 0 disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#bot_status WafSaasDomain#bot_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#bot_status WafSaasDomain#bot_status}
   */
   readonly botStatus?: number;
   /**
   * Certificate content, When CertType=1, this parameter needs to be filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#cert WafSaasDomain#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#cert WafSaasDomain#cert}
   */
   readonly cert?: string;
   /**
   * Certificate type, 0 represents no certificate, CertType=1 represents self owned certificate, and 2 represents managed certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#cert_type WafSaasDomain#cert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#cert_type WafSaasDomain#cert_type}
   */
   readonly certType?: number;
   /**
   * Encryption Suite Template, 0:default  1:Universal template 2:Security template 3:Custom template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#cipher_template WafSaasDomain#cipher_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#cipher_template WafSaasDomain#cipher_template}
   */
   readonly cipherTemplate?: number;
   /**
   * Encryption Suite Information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#ciphers WafSaasDomain#ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#ciphers WafSaasDomain#ciphers}
   */
   readonly ciphers?: number[];
   /**
   * Whether to enable access logs, 1 enable, 0 disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#cls_status WafSaasDomain#cls_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#cls_status WafSaasDomain#cls_status}
   */
   readonly clsStatus?: number;
   /**
   * Domain names that require defense.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#domain WafSaasDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#domain WafSaasDomain#domain}
   */
   readonly domain: string;
   /**
   * Whether redirect to https, 1 will redirect and 0 will not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#https_rewrite WafSaasDomain#https_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#https_rewrite WafSaasDomain#https_rewrite}
   */
   readonly httpsRewrite?: number;
   /**
   * Upstream port for https, When listen ports has https port and UpstreamScheme is HTTP, the current field needs to be filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#https_upstream_port WafSaasDomain#https_upstream_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#https_upstream_port WafSaasDomain#https_upstream_port}
   */
   readonly httpsUpstreamPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#id WafSaasDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#id WafSaasDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,133 +83,133 @@ export interface WafSaasDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique ID of Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#instance_id WafSaasDomain#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#instance_id WafSaasDomain#instance_id}
   */
   readonly instanceId: string;
   /**
   * When is_cdn=3, this parameter needs to be filled in to indicate a custom header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#ip_headers WafSaasDomain#ip_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#ip_headers WafSaasDomain#ip_headers}
   */
   readonly ipHeaders?: string[];
   /**
   * Whether a proxy has been enabled before WAF, 0 no deployment, 1 deployment and use first IP in X-Forwarded-For as client IP, 2 deployment and use remote_addr as client IP, 3 deployment and use values of custom headers as client IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#is_cdn WafSaasDomain#is_cdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#is_cdn WafSaasDomain#is_cdn}
   */
   readonly isCdn?: number;
   /**
   * Whether enable HTTP2, Enabling HTTP2 requires HTTPS support, 1 means enabled, 0 does not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#is_http2 WafSaasDomain#is_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#is_http2 WafSaasDomain#is_http2}
   */
   readonly isHttp2?: number;
   /**
   * Whether to enable keep-alive, 0 disable, 1 enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#is_keep_alive WafSaasDomain#is_keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#is_keep_alive WafSaasDomain#is_keep_alive}
   */
   readonly isKeepAlive?: string;
   /**
   * Is WebSocket support enabled. 1 means enabled, 0 does not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#is_websocket WafSaasDomain#is_websocket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#is_websocket WafSaasDomain#is_websocket}
   */
   readonly isWebsocket?: number;
   /**
   * Load balancing strategy, where 0 represents polling and 1 represents IP hash and 2 weighted round robin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#load_balance WafSaasDomain#load_balance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#load_balance WafSaasDomain#load_balance}
   */
   readonly loadBalance?: string;
   /**
   * Certificate key, When CertType=1, this parameter needs to be filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#private_key WafSaasDomain#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#private_key WafSaasDomain#private_key}
   */
   readonly privateKey?: string;
   /**
   * 300s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#proxy_read_timeout WafSaasDomain#proxy_read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#proxy_read_timeout WafSaasDomain#proxy_read_timeout}
   */
   readonly proxyReadTimeout?: number;
   /**
   * 300s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#proxy_send_timeout WafSaasDomain#proxy_send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#proxy_send_timeout WafSaasDomain#proxy_send_timeout}
   */
   readonly proxySendTimeout?: number;
   /**
   * When SniType=3, this parameter needs to be filled in to represent a custom host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#sni_host WafSaasDomain#sni_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#sni_host WafSaasDomain#sni_host}
   */
   readonly sniHost?: string;
   /**
   * Sni type fo upstream, 0:disable SNI; 1:enable SNI and SNI equal original request host; 2:and SNI equal upstream host 3:enable SNI and equal customize host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#sni_type WafSaasDomain#sni_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#sni_type WafSaasDomain#sni_type}
   */
   readonly sniType?: number;
   /**
   * Upstream IP List, When UpstreamType=0, this parameter needs to be filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#src_list WafSaasDomain#src_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#src_list WafSaasDomain#src_list}
   */
   readonly srcList?: string[];
   /**
   * Certificate ID, When CertType=2, this parameter needs to be filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#ssl_id WafSaasDomain#ssl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#ssl_id WafSaasDomain#ssl_id}
   */
   readonly sslId?: string;
   /**
   * WAF switch status, 1: turn on WAF switch; 0: turn off WAF switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#status WafSaasDomain#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#status WafSaasDomain#status}
   */
   readonly status?: number;
   /**
   * Version of TLS Protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#tls_version WafSaasDomain#tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#tls_version WafSaasDomain#tls_version}
   */
   readonly tlsVersion?: number;
   /**
   * Upstream domain, When UpstreamType=1, this parameter needs to be filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#upstream_domain WafSaasDomain#upstream_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#upstream_domain WafSaasDomain#upstream_domain}
   */
   readonly upstreamDomain?: string;
   /**
   * Upstream scheme for https, http or https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#upstream_scheme WafSaasDomain#upstream_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#upstream_scheme WafSaasDomain#upstream_scheme}
   */
   readonly upstreamScheme?: string;
   /**
   * Upstream type, 0 represents IP, 1 represents domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#upstream_type WafSaasDomain#upstream_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#upstream_type WafSaasDomain#upstream_type}
   */
   readonly upstreamType?: number;
   /**
   * Weight of each upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#weights WafSaasDomain#weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#weights WafSaasDomain#weights}
   */
   readonly weights?: number[];
   /**
   * 0:disable xff reset; 1:enable xff reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#xff_reset WafSaasDomain#xff_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#xff_reset WafSaasDomain#xff_reset}
   */
   readonly xffReset?: number;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#ports WafSaasDomain#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#ports WafSaasDomain#ports}
   */
   readonly ports: WafSaasDomainPorts[] | cdktf.IResolvable;
 }
@@ -217,25 +217,25 @@ export interface WafSaasDomainPorts {
   /**
   * Listening port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#port WafSaasDomain#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#port WafSaasDomain#port}
   */
   readonly port: string;
   /**
   * The listening protocol of listening port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#protocol WafSaasDomain#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#protocol WafSaasDomain#protocol}
   */
   readonly protocol: string;
   /**
   * The upstream port for listening port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#upstream_port WafSaasDomain#upstream_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#upstream_port WafSaasDomain#upstream_port}
   */
   readonly upstreamPort: string;
   /**
   * The upstream protocol for listening port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#upstream_protocol WafSaasDomain#upstream_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#upstream_protocol WafSaasDomain#upstream_protocol}
   */
   readonly upstreamProtocol: string;
 }
@@ -431,7 +431,7 @@ export class WafSaasDomainPortsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain tencentcloud_waf_saas_domain}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain tencentcloud_waf_saas_domain}
 */
 export class WafSaasDomain extends cdktf.TerraformResource {
 
@@ -447,7 +447,7 @@ export class WafSaasDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafSaasDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafSaasDomain to import
-  * @param importFromId The id of the existing WafSaasDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafSaasDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafSaasDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -459,7 +459,7 @@ export class WafSaasDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_saas_domain tencentcloud_waf_saas_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/waf_saas_domain tencentcloud_waf_saas_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -470,8 +470,8 @@ export class WafSaasDomain extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_saas_domain',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

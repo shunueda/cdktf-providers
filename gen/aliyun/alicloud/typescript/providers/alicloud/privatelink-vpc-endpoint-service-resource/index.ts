@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface PrivatelinkVpcEndpointServiceResourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource#dry_run PrivatelinkVpcEndpointServiceResource#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource#dry_run PrivatelinkVpcEndpointServiceResource#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource#id PrivatelinkVpcEndpointServiceResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource#id PrivatelinkVpcEndpointServiceResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource#resource_id PrivatelinkVpcEndpointServiceResource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource#resource_id PrivatelinkVpcEndpointServiceResource#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource#resource_type PrivatelinkVpcEndpointServiceResource#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource#resource_type PrivatelinkVpcEndpointServiceResource#resource_type}
   */
   readonly resourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource#service_id PrivatelinkVpcEndpointServiceResource#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource#service_id PrivatelinkVpcEndpointServiceResource#service_id}
   */
   readonly serviceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource#zone_id PrivatelinkVpcEndpointServiceResource#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource#zone_id PrivatelinkVpcEndpointServiceResource#zone_id}
   */
   readonly zoneId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource#timeouts PrivatelinkVpcEndpointServiceResource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource#timeouts PrivatelinkVpcEndpointServiceResource#timeouts}
   */
   readonly timeouts?: PrivatelinkVpcEndpointServiceResourceTimeouts;
 }
 export interface PrivatelinkVpcEndpointServiceResourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource#create PrivatelinkVpcEndpointServiceResource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource#create PrivatelinkVpcEndpointServiceResource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource#delete PrivatelinkVpcEndpointServiceResource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource#delete PrivatelinkVpcEndpointServiceResource#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource#update PrivatelinkVpcEndpointServiceResource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource#update PrivatelinkVpcEndpointServiceResource#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class PrivatelinkVpcEndpointServiceResourceTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource alicloud_privatelink_vpc_endpoint_service_resource}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource alicloud_privatelink_vpc_endpoint_service_resource}
 */
 export class PrivatelinkVpcEndpointServiceResource extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class PrivatelinkVpcEndpointServiceResource extends cdktf.TerraformResour
   * Generates CDKTF code for importing a PrivatelinkVpcEndpointServiceResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivatelinkVpcEndpointServiceResource to import
-  * @param importFromId The id of the existing PrivatelinkVpcEndpointServiceResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivatelinkVpcEndpointServiceResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivatelinkVpcEndpointServiceResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class PrivatelinkVpcEndpointServiceResource extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_service_resource alicloud_privatelink_vpc_endpoint_service_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_service_resource alicloud_privatelink_vpc_endpoint_service_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class PrivatelinkVpcEndpointServiceResource extends cdktf.TerraformResour
       terraformResourceType: 'alicloud_privatelink_vpc_endpoint_service_resource',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

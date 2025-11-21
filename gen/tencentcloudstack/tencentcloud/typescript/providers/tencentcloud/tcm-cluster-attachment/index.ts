@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcm_cluster_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcm_cluster_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TcmClusterAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcm_cluster_attachment#id TcmClusterAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcm_cluster_attachment#id TcmClusterAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface TcmClusterAttachmentConfig extends cdktf.TerraformMetaArguments
   /**
   * Mesh ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcm_cluster_attachment#mesh_id TcmClusterAttachment#mesh_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcm_cluster_attachment#mesh_id TcmClusterAttachment#mesh_id}
   */
   readonly meshId: string;
   /**
   * cluster_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcm_cluster_attachment#cluster_list TcmClusterAttachment#cluster_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcm_cluster_attachment#cluster_list TcmClusterAttachment#cluster_list}
   */
   readonly clusterList?: TcmClusterAttachmentClusterListStruct[] | cdktf.IResolvable;
 }
@@ -31,37 +31,37 @@ export interface TcmClusterAttachmentClusterListStruct {
   /**
   * TKE Cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcm_cluster_attachment#cluster_id TcmClusterAttachment#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcm_cluster_attachment#cluster_id TcmClusterAttachment#cluster_id}
   */
   readonly clusterId: string;
   /**
   * TKE cluster region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcm_cluster_attachment#region TcmClusterAttachment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcm_cluster_attachment#region TcmClusterAttachment#region}
   */
   readonly region: string;
   /**
   * Cluster role in mesh, REMOTE or MASTER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcm_cluster_attachment#role TcmClusterAttachment#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcm_cluster_attachment#role TcmClusterAttachment#role}
   */
   readonly role: string;
   /**
   * Subnet id, only needed if it&#39;s standalone mesh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcm_cluster_attachment#subnet_id TcmClusterAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcm_cluster_attachment#subnet_id TcmClusterAttachment#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Cluster type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcm_cluster_attachment#type TcmClusterAttachment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcm_cluster_attachment#type TcmClusterAttachment#type}
   */
   readonly type: string;
   /**
   * Cluster&#39;s VpcId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcm_cluster_attachment#vpc_id TcmClusterAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcm_cluster_attachment#vpc_id TcmClusterAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -307,7 +307,7 @@ export class TcmClusterAttachmentClusterListStructList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcm_cluster_attachment tencentcloud_tcm_cluster_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcm_cluster_attachment tencentcloud_tcm_cluster_attachment}
 */
 export class TcmClusterAttachment extends cdktf.TerraformResource {
 
@@ -323,7 +323,7 @@ export class TcmClusterAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcmClusterAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcmClusterAttachment to import
-  * @param importFromId The id of the existing TcmClusterAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcm_cluster_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcmClusterAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcm_cluster_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcmClusterAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -335,7 +335,7 @@ export class TcmClusterAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcm_cluster_attachment tencentcloud_tcm_cluster_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tcm_cluster_attachment tencentcloud_tcm_cluster_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -346,8 +346,8 @@ export class TcmClusterAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcm_cluster_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

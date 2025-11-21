@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config
+// https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,50 +10,44 @@ export interface ZeroTrustTunnelCloudflaredConfigAConfig extends cdktf.Terraform
   /**
   * Identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#account_id ZeroTrustTunnelCloudflaredConfigA#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#account_id ZeroTrustTunnelCloudflaredConfigA#account_id}
   */
   readonly accountId: string;
   /**
   * The tunnel configuration and ingress rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#config ZeroTrustTunnelCloudflaredConfigA#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#config ZeroTrustTunnelCloudflaredConfigA#config}
   */
   readonly config?: ZeroTrustTunnelCloudflaredConfigConfig;
   /**
   * Indicates if this is a locally or remotely configured tunnel. If `local`, manage the tunnel using a YAML file on the origin machine. If `cloudflare`, manage the tunnel's configuration on the Zero Trust dashboard.
   * Available values: "local", "cloudflare".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#source ZeroTrustTunnelCloudflaredConfigA#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#source ZeroTrustTunnelCloudflaredConfigA#source}
   */
   readonly source?: string;
   /**
   * UUID of the tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#tunnel_id ZeroTrustTunnelCloudflaredConfigA#tunnel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#tunnel_id ZeroTrustTunnelCloudflaredConfigA#tunnel_id}
   */
   readonly tunnelId: string;
-  /**
-  * Enable private network access from WARP users to private network routes. This is enabled if the tunnel has an assigned route.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#warp_routing_enabled ZeroTrustTunnelCloudflaredConfigA#warp_routing_enabled}
-  */
-  readonly warpRoutingEnabled?: boolean | cdktf.IResolvable;
 }
 export interface ZeroTrustTunnelCloudflaredConfigConfigIngressOriginRequestAccess {
   /**
   * Access applications that are allowed to reach this hostname for this Tunnel. Audience tags can be identified in the dashboard or via the List Access policies API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#aud_tag ZeroTrustTunnelCloudflaredConfigA#aud_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#aud_tag ZeroTrustTunnelCloudflaredConfigA#aud_tag}
   */
   readonly audTag: string[];
   /**
   * Deny traffic that has not fulfilled Access authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#required ZeroTrustTunnelCloudflaredConfigA#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#required ZeroTrustTunnelCloudflaredConfigA#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#team_name ZeroTrustTunnelCloudflaredConfigA#team_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#team_name ZeroTrustTunnelCloudflaredConfigA#team_name}
   */
   readonly teamName: string;
 }
@@ -201,85 +195,91 @@ export interface ZeroTrustTunnelCloudflaredConfigConfigIngressOriginRequest {
   /**
   * For all L7 requests to this hostname, cloudflared will validate each request's Cf-Access-Jwt-Assertion request header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#access ZeroTrustTunnelCloudflaredConfigA#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#access ZeroTrustTunnelCloudflaredConfigA#access}
   */
   readonly access?: ZeroTrustTunnelCloudflaredConfigConfigIngressOriginRequestAccess;
   /**
   * Path to the certificate authority (CA) for the certificate of your origin. This option should be used only if your certificate is not signed by Cloudflare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#ca_pool ZeroTrustTunnelCloudflaredConfigA#ca_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#ca_pool ZeroTrustTunnelCloudflaredConfigA#ca_pool}
   */
   readonly caPool?: string;
   /**
   * Timeout for establishing a new TCP connection to your origin server. This excludes the time taken to establish TLS, which is controlled by tlsTimeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#connect_timeout ZeroTrustTunnelCloudflaredConfigA#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#connect_timeout ZeroTrustTunnelCloudflaredConfigA#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * Disables chunked transfer encoding. Useful if you are running a WSGI server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#disable_chunked_encoding ZeroTrustTunnelCloudflaredConfigA#disable_chunked_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#disable_chunked_encoding ZeroTrustTunnelCloudflaredConfigA#disable_chunked_encoding}
   */
   readonly disableChunkedEncoding?: boolean | cdktf.IResolvable;
   /**
   * Attempt to connect to origin using HTTP2. Origin must be configured as https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#http2_origin ZeroTrustTunnelCloudflaredConfigA#http2_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#http2_origin ZeroTrustTunnelCloudflaredConfigA#http2_origin}
   */
   readonly http2Origin?: boolean | cdktf.IResolvable;
   /**
   * Sets the HTTP Host header on requests sent to the local service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#http_host_header ZeroTrustTunnelCloudflaredConfigA#http_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#http_host_header ZeroTrustTunnelCloudflaredConfigA#http_host_header}
   */
   readonly httpHostHeader?: string;
   /**
   * Maximum number of idle keepalive connections between Tunnel and your origin. This does not restrict the total number of concurrent connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#keep_alive_connections ZeroTrustTunnelCloudflaredConfigA#keep_alive_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#keep_alive_connections ZeroTrustTunnelCloudflaredConfigA#keep_alive_connections}
   */
   readonly keepAliveConnections?: number;
   /**
   * Timeout after which an idle keepalive connection can be discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#keep_alive_timeout ZeroTrustTunnelCloudflaredConfigA#keep_alive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#keep_alive_timeout ZeroTrustTunnelCloudflaredConfigA#keep_alive_timeout}
   */
   readonly keepAliveTimeout?: number;
   /**
+  * Auto configure the Hostname on the origin server certificate.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#match_sn_ito_host ZeroTrustTunnelCloudflaredConfigA#match_sn_ito_host}
+  */
+  readonly matchSnItoHost?: boolean | cdktf.IResolvable;
+  /**
   * Disable the “happy eyeballs” algorithm for IPv4/IPv6 fallback if your local network has misconfigured one of the protocols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#no_happy_eyeballs ZeroTrustTunnelCloudflaredConfigA#no_happy_eyeballs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#no_happy_eyeballs ZeroTrustTunnelCloudflaredConfigA#no_happy_eyeballs}
   */
   readonly noHappyEyeballs?: boolean | cdktf.IResolvable;
   /**
   * Disables TLS verification of the certificate presented by your origin. Will allow any certificate from the origin to be accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#no_tls_verify ZeroTrustTunnelCloudflaredConfigA#no_tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#no_tls_verify ZeroTrustTunnelCloudflaredConfigA#no_tls_verify}
   */
   readonly noTlsVerify?: boolean | cdktf.IResolvable;
   /**
   * Hostname that cloudflared should expect from your origin server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#origin_server_name ZeroTrustTunnelCloudflaredConfigA#origin_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#origin_server_name ZeroTrustTunnelCloudflaredConfigA#origin_server_name}
   */
   readonly originServerName?: string;
   /**
   * cloudflared starts a proxy server to translate HTTP traffic into TCP when proxying, for example, SSH or RDP. This configures what type of proxy will be started. Valid options are: "" for the regular proxy and "socks" for a SOCKS5 proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#proxy_type ZeroTrustTunnelCloudflaredConfigA#proxy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#proxy_type ZeroTrustTunnelCloudflaredConfigA#proxy_type}
   */
   readonly proxyType?: string;
   /**
   * The timeout after which a TCP keepalive packet is sent on a connection between Tunnel and the origin server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#tcp_keep_alive ZeroTrustTunnelCloudflaredConfigA#tcp_keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#tcp_keep_alive ZeroTrustTunnelCloudflaredConfigA#tcp_keep_alive}
   */
   readonly tcpKeepAlive?: number;
   /**
   * Timeout for completing a TLS handshake to your origin server, if you have chosen to connect Tunnel to an HTTPS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#tls_timeout ZeroTrustTunnelCloudflaredConfigA#tls_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#tls_timeout ZeroTrustTunnelCloudflaredConfigA#tls_timeout}
   */
   readonly tlsTimeout?: number;
 }
@@ -298,6 +298,7 @@ export function zeroTrustTunnelCloudflaredConfigConfigIngressOriginRequestToTerr
     http_host_header: cdktf.stringToTerraform(struct!.httpHostHeader),
     keep_alive_connections: cdktf.numberToTerraform(struct!.keepAliveConnections),
     keep_alive_timeout: cdktf.numberToTerraform(struct!.keepAliveTimeout),
+    match_sn_ito_host: cdktf.booleanToTerraform(struct!.matchSnItoHost),
     no_happy_eyeballs: cdktf.booleanToTerraform(struct!.noHappyEyeballs),
     no_tls_verify: cdktf.booleanToTerraform(struct!.noTlsVerify),
     origin_server_name: cdktf.stringToTerraform(struct!.originServerName),
@@ -361,6 +362,12 @@ export function zeroTrustTunnelCloudflaredConfigConfigIngressOriginRequestToHclT
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    match_sn_ito_host: {
+      value: cdktf.booleanToHclTerraform(struct!.matchSnItoHost),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     no_happy_eyeballs: {
       value: cdktf.booleanToHclTerraform(struct!.noHappyEyeballs),
@@ -454,6 +461,10 @@ export class ZeroTrustTunnelCloudflaredConfigConfigIngressOriginRequestOutputRef
       hasAnyValues = true;
       internalValueResult.keepAliveTimeout = this._keepAliveTimeout;
     }
+    if (this._matchSnItoHost !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchSnItoHost = this._matchSnItoHost;
+    }
     if (this._noHappyEyeballs !== undefined) {
       hasAnyValues = true;
       internalValueResult.noHappyEyeballs = this._noHappyEyeballs;
@@ -493,6 +504,7 @@ export class ZeroTrustTunnelCloudflaredConfigConfigIngressOriginRequestOutputRef
       this._httpHostHeader = undefined;
       this._keepAliveConnections = undefined;
       this._keepAliveTimeout = undefined;
+      this._matchSnItoHost = undefined;
       this._noHappyEyeballs = undefined;
       this._noTlsVerify = undefined;
       this._originServerName = undefined;
@@ -515,6 +527,7 @@ export class ZeroTrustTunnelCloudflaredConfigConfigIngressOriginRequestOutputRef
       this._httpHostHeader = value.httpHostHeader;
       this._keepAliveConnections = value.keepAliveConnections;
       this._keepAliveTimeout = value.keepAliveTimeout;
+      this._matchSnItoHost = value.matchSnItoHost;
       this._noHappyEyeballs = value.noHappyEyeballs;
       this._noTlsVerify = value.noTlsVerify;
       this._originServerName = value.originServerName;
@@ -652,6 +665,22 @@ export class ZeroTrustTunnelCloudflaredConfigConfigIngressOriginRequestOutputRef
     return this._keepAliveTimeout;
   }
 
+  // match_sn_ito_host - computed: true, optional: true, required: false
+  private _matchSnItoHost?: boolean | cdktf.IResolvable; 
+  public get matchSnItoHost() {
+    return this.getBooleanAttribute('match_sn_ito_host');
+  }
+  public set matchSnItoHost(value: boolean | cdktf.IResolvable) {
+    this._matchSnItoHost = value;
+  }
+  public resetMatchSnItoHost() {
+    this._matchSnItoHost = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchSnItoHostInput() {
+    return this._matchSnItoHost;
+  }
+
   // no_happy_eyeballs - computed: true, optional: true, required: false
   private _noHappyEyeballs?: boolean | cdktf.IResolvable; 
   public get noHappyEyeballs() {
@@ -752,25 +781,25 @@ export interface ZeroTrustTunnelCloudflaredConfigConfigIngress {
   /**
   * Public hostname for this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#hostname ZeroTrustTunnelCloudflaredConfigA#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#hostname ZeroTrustTunnelCloudflaredConfigA#hostname}
   */
   readonly hostname?: string;
   /**
   * Configuration parameters for the public hostname specific connection settings between cloudflared and origin server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#origin_request ZeroTrustTunnelCloudflaredConfigA#origin_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#origin_request ZeroTrustTunnelCloudflaredConfigA#origin_request}
   */
   readonly originRequest?: ZeroTrustTunnelCloudflaredConfigConfigIngressOriginRequest;
   /**
   * Requests with this path route to this public hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#path ZeroTrustTunnelCloudflaredConfigA#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#path ZeroTrustTunnelCloudflaredConfigA#path}
   */
   readonly path?: string;
   /**
   * Protocol and address of destination server. Supported protocols: http://, https://, unix://, tcp://, ssh://, rdp://, unix+tls://, smb://. Alternatively can return a HTTP status code http_status:[code] e.g. 'http_status:404'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#service ZeroTrustTunnelCloudflaredConfigA#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#service ZeroTrustTunnelCloudflaredConfigA#service}
   */
   readonly service: string;
 }
@@ -972,17 +1001,17 @@ export interface ZeroTrustTunnelCloudflaredConfigConfigOriginRequestAccess {
   /**
   * Access applications that are allowed to reach this hostname for this Tunnel. Audience tags can be identified in the dashboard or via the List Access policies API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#aud_tag ZeroTrustTunnelCloudflaredConfigA#aud_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#aud_tag ZeroTrustTunnelCloudflaredConfigA#aud_tag}
   */
   readonly audTag: string[];
   /**
   * Deny traffic that has not fulfilled Access authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#required ZeroTrustTunnelCloudflaredConfigA#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#required ZeroTrustTunnelCloudflaredConfigA#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#team_name ZeroTrustTunnelCloudflaredConfigA#team_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#team_name ZeroTrustTunnelCloudflaredConfigA#team_name}
   */
   readonly teamName: string;
 }
@@ -1130,85 +1159,91 @@ export interface ZeroTrustTunnelCloudflaredConfigConfigOriginRequest {
   /**
   * For all L7 requests to this hostname, cloudflared will validate each request's Cf-Access-Jwt-Assertion request header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#access ZeroTrustTunnelCloudflaredConfigA#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#access ZeroTrustTunnelCloudflaredConfigA#access}
   */
   readonly access?: ZeroTrustTunnelCloudflaredConfigConfigOriginRequestAccess;
   /**
   * Path to the certificate authority (CA) for the certificate of your origin. This option should be used only if your certificate is not signed by Cloudflare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#ca_pool ZeroTrustTunnelCloudflaredConfigA#ca_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#ca_pool ZeroTrustTunnelCloudflaredConfigA#ca_pool}
   */
   readonly caPool?: string;
   /**
   * Timeout for establishing a new TCP connection to your origin server. This excludes the time taken to establish TLS, which is controlled by tlsTimeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#connect_timeout ZeroTrustTunnelCloudflaredConfigA#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#connect_timeout ZeroTrustTunnelCloudflaredConfigA#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * Disables chunked transfer encoding. Useful if you are running a WSGI server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#disable_chunked_encoding ZeroTrustTunnelCloudflaredConfigA#disable_chunked_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#disable_chunked_encoding ZeroTrustTunnelCloudflaredConfigA#disable_chunked_encoding}
   */
   readonly disableChunkedEncoding?: boolean | cdktf.IResolvable;
   /**
   * Attempt to connect to origin using HTTP2. Origin must be configured as https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#http2_origin ZeroTrustTunnelCloudflaredConfigA#http2_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#http2_origin ZeroTrustTunnelCloudflaredConfigA#http2_origin}
   */
   readonly http2Origin?: boolean | cdktf.IResolvable;
   /**
   * Sets the HTTP Host header on requests sent to the local service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#http_host_header ZeroTrustTunnelCloudflaredConfigA#http_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#http_host_header ZeroTrustTunnelCloudflaredConfigA#http_host_header}
   */
   readonly httpHostHeader?: string;
   /**
   * Maximum number of idle keepalive connections between Tunnel and your origin. This does not restrict the total number of concurrent connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#keep_alive_connections ZeroTrustTunnelCloudflaredConfigA#keep_alive_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#keep_alive_connections ZeroTrustTunnelCloudflaredConfigA#keep_alive_connections}
   */
   readonly keepAliveConnections?: number;
   /**
   * Timeout after which an idle keepalive connection can be discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#keep_alive_timeout ZeroTrustTunnelCloudflaredConfigA#keep_alive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#keep_alive_timeout ZeroTrustTunnelCloudflaredConfigA#keep_alive_timeout}
   */
   readonly keepAliveTimeout?: number;
   /**
+  * Auto configure the Hostname on the origin server certificate.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#match_sn_ito_host ZeroTrustTunnelCloudflaredConfigA#match_sn_ito_host}
+  */
+  readonly matchSnItoHost?: boolean | cdktf.IResolvable;
+  /**
   * Disable the “happy eyeballs” algorithm for IPv4/IPv6 fallback if your local network has misconfigured one of the protocols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#no_happy_eyeballs ZeroTrustTunnelCloudflaredConfigA#no_happy_eyeballs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#no_happy_eyeballs ZeroTrustTunnelCloudflaredConfigA#no_happy_eyeballs}
   */
   readonly noHappyEyeballs?: boolean | cdktf.IResolvable;
   /**
   * Disables TLS verification of the certificate presented by your origin. Will allow any certificate from the origin to be accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#no_tls_verify ZeroTrustTunnelCloudflaredConfigA#no_tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#no_tls_verify ZeroTrustTunnelCloudflaredConfigA#no_tls_verify}
   */
   readonly noTlsVerify?: boolean | cdktf.IResolvable;
   /**
   * Hostname that cloudflared should expect from your origin server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#origin_server_name ZeroTrustTunnelCloudflaredConfigA#origin_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#origin_server_name ZeroTrustTunnelCloudflaredConfigA#origin_server_name}
   */
   readonly originServerName?: string;
   /**
   * cloudflared starts a proxy server to translate HTTP traffic into TCP when proxying, for example, SSH or RDP. This configures what type of proxy will be started. Valid options are: "" for the regular proxy and "socks" for a SOCKS5 proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#proxy_type ZeroTrustTunnelCloudflaredConfigA#proxy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#proxy_type ZeroTrustTunnelCloudflaredConfigA#proxy_type}
   */
   readonly proxyType?: string;
   /**
   * The timeout after which a TCP keepalive packet is sent on a connection between Tunnel and the origin server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#tcp_keep_alive ZeroTrustTunnelCloudflaredConfigA#tcp_keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#tcp_keep_alive ZeroTrustTunnelCloudflaredConfigA#tcp_keep_alive}
   */
   readonly tcpKeepAlive?: number;
   /**
   * Timeout for completing a TLS handshake to your origin server, if you have chosen to connect Tunnel to an HTTPS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#tls_timeout ZeroTrustTunnelCloudflaredConfigA#tls_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#tls_timeout ZeroTrustTunnelCloudflaredConfigA#tls_timeout}
   */
   readonly tlsTimeout?: number;
 }
@@ -1227,6 +1262,7 @@ export function zeroTrustTunnelCloudflaredConfigConfigOriginRequestToTerraform(s
     http_host_header: cdktf.stringToTerraform(struct!.httpHostHeader),
     keep_alive_connections: cdktf.numberToTerraform(struct!.keepAliveConnections),
     keep_alive_timeout: cdktf.numberToTerraform(struct!.keepAliveTimeout),
+    match_sn_ito_host: cdktf.booleanToTerraform(struct!.matchSnItoHost),
     no_happy_eyeballs: cdktf.booleanToTerraform(struct!.noHappyEyeballs),
     no_tls_verify: cdktf.booleanToTerraform(struct!.noTlsVerify),
     origin_server_name: cdktf.stringToTerraform(struct!.originServerName),
@@ -1290,6 +1326,12 @@ export function zeroTrustTunnelCloudflaredConfigConfigOriginRequestToHclTerrafor
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    match_sn_ito_host: {
+      value: cdktf.booleanToHclTerraform(struct!.matchSnItoHost),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     no_happy_eyeballs: {
       value: cdktf.booleanToHclTerraform(struct!.noHappyEyeballs),
@@ -1383,6 +1425,10 @@ export class ZeroTrustTunnelCloudflaredConfigConfigOriginRequestOutputReference 
       hasAnyValues = true;
       internalValueResult.keepAliveTimeout = this._keepAliveTimeout;
     }
+    if (this._matchSnItoHost !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchSnItoHost = this._matchSnItoHost;
+    }
     if (this._noHappyEyeballs !== undefined) {
       hasAnyValues = true;
       internalValueResult.noHappyEyeballs = this._noHappyEyeballs;
@@ -1422,6 +1468,7 @@ export class ZeroTrustTunnelCloudflaredConfigConfigOriginRequestOutputReference 
       this._httpHostHeader = undefined;
       this._keepAliveConnections = undefined;
       this._keepAliveTimeout = undefined;
+      this._matchSnItoHost = undefined;
       this._noHappyEyeballs = undefined;
       this._noTlsVerify = undefined;
       this._originServerName = undefined;
@@ -1444,6 +1491,7 @@ export class ZeroTrustTunnelCloudflaredConfigConfigOriginRequestOutputReference 
       this._httpHostHeader = value.httpHostHeader;
       this._keepAliveConnections = value.keepAliveConnections;
       this._keepAliveTimeout = value.keepAliveTimeout;
+      this._matchSnItoHost = value.matchSnItoHost;
       this._noHappyEyeballs = value.noHappyEyeballs;
       this._noTlsVerify = value.noTlsVerify;
       this._originServerName = value.originServerName;
@@ -1581,6 +1629,22 @@ export class ZeroTrustTunnelCloudflaredConfigConfigOriginRequestOutputReference 
     return this._keepAliveTimeout;
   }
 
+  // match_sn_ito_host - computed: true, optional: true, required: false
+  private _matchSnItoHost?: boolean | cdktf.IResolvable; 
+  public get matchSnItoHost() {
+    return this.getBooleanAttribute('match_sn_ito_host');
+  }
+  public set matchSnItoHost(value: boolean | cdktf.IResolvable) {
+    this._matchSnItoHost = value;
+  }
+  public resetMatchSnItoHost() {
+    this._matchSnItoHost = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchSnItoHostInput() {
+    return this._matchSnItoHost;
+  }
+
   // no_happy_eyeballs - computed: true, optional: true, required: false
   private _noHappyEyeballs?: boolean | cdktf.IResolvable; 
   public get noHappyEyeballs() {
@@ -1681,13 +1745,13 @@ export interface ZeroTrustTunnelCloudflaredConfigConfig {
   /**
   * List of public hostname definitions. At least one ingress rule needs to be defined for the tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#ingress ZeroTrustTunnelCloudflaredConfigA#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#ingress ZeroTrustTunnelCloudflaredConfigA#ingress}
   */
   readonly ingress?: ZeroTrustTunnelCloudflaredConfigConfigIngress[] | cdktf.IResolvable;
   /**
   * Configuration parameters for the public hostname specific connection settings between cloudflared and origin server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#origin_request ZeroTrustTunnelCloudflaredConfigA#origin_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#origin_request ZeroTrustTunnelCloudflaredConfigA#origin_request}
   */
   readonly originRequest?: ZeroTrustTunnelCloudflaredConfigConfigOriginRequest;
 }
@@ -1810,7 +1874,7 @@ export class ZeroTrustTunnelCloudflaredConfigConfigOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config cloudflare_zero_trust_tunnel_cloudflared_config}
+* Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config cloudflare_zero_trust_tunnel_cloudflared_config}
 */
 export class ZeroTrustTunnelCloudflaredConfigA extends cdktf.TerraformResource {
 
@@ -1826,7 +1890,7 @@ export class ZeroTrustTunnelCloudflaredConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZeroTrustTunnelCloudflaredConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZeroTrustTunnelCloudflaredConfigA to import
-  * @param importFromId The id of the existing ZeroTrustTunnelCloudflaredConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZeroTrustTunnelCloudflaredConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZeroTrustTunnelCloudflaredConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1838,7 +1902,7 @@ export class ZeroTrustTunnelCloudflaredConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.12.0/docs/resources/zero_trust_tunnel_cloudflared_config cloudflare_zero_trust_tunnel_cloudflared_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.13.0/docs/resources/zero_trust_tunnel_cloudflared_config cloudflare_zero_trust_tunnel_cloudflared_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1849,8 +1913,8 @@ export class ZeroTrustTunnelCloudflaredConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'cloudflare_zero_trust_tunnel_cloudflared_config',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0',
-        providerVersionConstraint: '5.12.0'
+        providerVersion: '5.13.0',
+        providerVersionConstraint: '5.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1864,7 +1928,6 @@ export class ZeroTrustTunnelCloudflaredConfigA extends cdktf.TerraformResource {
     this._config.internalValue = config.config;
     this._source = config.source;
     this._tunnelId = config.tunnelId;
-    this._warpRoutingEnabled = config.warpRoutingEnabled;
   }
 
   // ==========
@@ -1944,22 +2007,6 @@ export class ZeroTrustTunnelCloudflaredConfigA extends cdktf.TerraformResource {
     return this.getNumberAttribute('version');
   }
 
-  // warp_routing_enabled - computed: true, optional: true, required: false
-  private _warpRoutingEnabled?: boolean | cdktf.IResolvable; 
-  public get warpRoutingEnabled() {
-    return this.getBooleanAttribute('warp_routing_enabled');
-  }
-  public set warpRoutingEnabled(value: boolean | cdktf.IResolvable) {
-    this._warpRoutingEnabled = value;
-  }
-  public resetWarpRoutingEnabled() {
-    this._warpRoutingEnabled = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get warpRoutingEnabledInput() {
-    return this._warpRoutingEnabled;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -1970,7 +2017,6 @@ export class ZeroTrustTunnelCloudflaredConfigA extends cdktf.TerraformResource {
       config: zeroTrustTunnelCloudflaredConfigConfigToTerraform(this._config.internalValue),
       source: cdktf.stringToTerraform(this._source),
       tunnel_id: cdktf.stringToTerraform(this._tunnelId),
-      warp_routing_enabled: cdktf.booleanToTerraform(this._warpRoutingEnabled),
     };
   }
 
@@ -1999,12 +2045,6 @@ export class ZeroTrustTunnelCloudflaredConfigA extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      warp_routing_enabled: {
-        value: cdktf.booleanToHclTerraform(this._warpRoutingEnabled),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "boolean",
       },
     };
 

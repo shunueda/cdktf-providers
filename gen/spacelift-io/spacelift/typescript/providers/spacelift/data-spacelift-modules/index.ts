@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSpaceliftModulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#id DataSpaceliftModules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#id DataSpaceliftModules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface DataSpaceliftModulesConfig extends cdktf.TerraformMetaArguments
   /**
   * administrative block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#administrative DataSpaceliftModules#administrative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#administrative DataSpaceliftModules#administrative}
   */
   readonly administrative?: DataSpaceliftModulesAdministrative;
   /**
   * branch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#branch DataSpaceliftModules#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#branch DataSpaceliftModules#branch}
   */
   readonly branch?: DataSpaceliftModulesBranch;
   /**
   * commit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#commit DataSpaceliftModules#commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#commit DataSpaceliftModules#commit}
   */
   readonly commit?: DataSpaceliftModulesCommit;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#labels DataSpaceliftModules#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#labels DataSpaceliftModules#labels}
   */
   readonly labels?: DataSpaceliftModulesLabels[] | cdktf.IResolvable;
   /**
   * name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#name DataSpaceliftModules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#name DataSpaceliftModules#name}
   */
   readonly name?: DataSpaceliftModulesName;
   /**
   * project_root block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#project_root DataSpaceliftModules#project_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#project_root DataSpaceliftModules#project_root}
   */
   readonly projectRoot?: DataSpaceliftModulesProjectRoot;
   /**
   * repository block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#repository DataSpaceliftModules#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#repository DataSpaceliftModules#repository}
   */
   readonly repository?: DataSpaceliftModulesRepository;
   /**
   * worker_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#worker_pool DataSpaceliftModules#worker_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#worker_pool DataSpaceliftModules#worker_pool}
   */
   readonly workerPool?: DataSpaceliftModulesWorkerPool;
 }
@@ -771,7 +771,7 @@ export class DataSpaceliftModulesModulesList extends cdktf.ComplexList {
 }
 export interface DataSpaceliftModulesAdministrative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#equals DataSpaceliftModules#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#equals DataSpaceliftModules#equals}
   */
   readonly equalTo?: boolean | cdktf.IResolvable;
 }
@@ -855,7 +855,7 @@ export class DataSpaceliftModulesAdministrativeOutputReference extends cdktf.Com
 }
 export interface DataSpaceliftModulesBranch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
   */
   readonly anyOf: string[];
 }
@@ -936,7 +936,7 @@ export class DataSpaceliftModulesBranchOutputReference extends cdktf.ComplexObje
 }
 export interface DataSpaceliftModulesCommit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
   */
   readonly anyOf: string[];
 }
@@ -1017,7 +1017,7 @@ export class DataSpaceliftModulesCommitOutputReference extends cdktf.ComplexObje
 }
 export interface DataSpaceliftModulesLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
   */
   readonly anyOf: string[];
 }
@@ -1130,7 +1130,7 @@ export class DataSpaceliftModulesLabelsList extends cdktf.ComplexList {
 }
 export interface DataSpaceliftModulesName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
   */
   readonly anyOf: string[];
 }
@@ -1211,7 +1211,7 @@ export class DataSpaceliftModulesNameOutputReference extends cdktf.ComplexObject
 }
 export interface DataSpaceliftModulesProjectRoot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
   */
   readonly anyOf: string[];
 }
@@ -1292,7 +1292,7 @@ export class DataSpaceliftModulesProjectRootOutputReference extends cdktf.Comple
 }
 export interface DataSpaceliftModulesRepository {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
   */
   readonly anyOf: string[];
 }
@@ -1373,7 +1373,7 @@ export class DataSpaceliftModulesRepositoryOutputReference extends cdktf.Complex
 }
 export interface DataSpaceliftModulesWorkerPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#any_of DataSpaceliftModules#any_of}
   */
   readonly anyOf: string[];
 }
@@ -1454,7 +1454,7 @@ export class DataSpaceliftModulesWorkerPoolOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules spacelift_modules}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules spacelift_modules}
 */
 export class DataSpaceliftModules extends cdktf.TerraformDataSource {
 
@@ -1470,7 +1470,7 @@ export class DataSpaceliftModules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpaceliftModules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpaceliftModules to import
-  * @param importFromId The id of the existing DataSpaceliftModules that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpaceliftModules that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpaceliftModules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1482,7 +1482,7 @@ export class DataSpaceliftModules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/modules spacelift_modules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/modules spacelift_modules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1493,8 +1493,8 @@ export class DataSpaceliftModules extends cdktf.TerraformDataSource {
       terraformResourceType: 'spacelift_modules',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.38.0',
-        providerVersionConstraint: '1.38.0'
+        providerVersion: '1.39.0',
+        providerVersionConstraint: '1.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

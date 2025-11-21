@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface IpAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * An optional IP assignment order within the subnet/pool (Supported: optimized, start, end; Default: optimized).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address#assignment IpAddress#assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address#assignment IpAddress#assignment}
   */
   readonly assignment?: string;
   /**
   * The class associated to the IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address#class IpAddress#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address#class IpAddress#class}
   */
   readonly class?: string;
   /**
   * The class parameters associated to the IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address#class_parameters IpAddress#class_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address#class_parameters IpAddress#class_parameters}
   */
   readonly classParameters?: { [key: string]: string };
   /**
   * Device Name to associate with the IP address (Require a 'Device Manager' license).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address#device IpAddress#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address#device IpAddress#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address#id IpAddress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address#id IpAddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface IpAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * The MAC Address of the IP address to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address#mac IpAddress#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address#mac IpAddress#mac}
   */
   readonly mac?: string;
   /**
   * The short name or FQDN of the IP address to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address#name IpAddress#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address#name IpAddress#name}
   */
   readonly name: string;
   /**
   * The name of the pool into which creating the IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address#pool IpAddress#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address#pool IpAddress#pool}
   */
   readonly pool?: string;
   /**
   * The optionally requested IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address#request_ip IpAddress#request_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address#request_ip IpAddress#request_ip}
   */
   readonly requestIp?: string;
   /**
   * The name of the space into which creating the IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address#space IpAddress#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address#space IpAddress#space}
   */
   readonly space: string;
   /**
   * The name of the subnet into which creating the IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address#subnet IpAddress#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address#subnet IpAddress#subnet}
   */
   readonly subnet: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address solidserver_ip_address}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address solidserver_ip_address}
 */
 export class IpAddress extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class IpAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpAddress to import
-  * @param importFromId The id of the existing IpAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class IpAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip_address solidserver_ip_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip_address solidserver_ip_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class IpAddress extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_ip_address',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

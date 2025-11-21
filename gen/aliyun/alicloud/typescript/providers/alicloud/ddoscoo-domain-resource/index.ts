@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface DdoscooDomainResourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#cert DdoscooDomainResource#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#cert DdoscooDomainResource#cert}
   */
   readonly cert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#cert_identifier DdoscooDomainResource#cert_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#cert_identifier DdoscooDomainResource#cert_identifier}
   */
   readonly certIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#cert_name DdoscooDomainResource#cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#cert_name DdoscooDomainResource#cert_name}
   */
   readonly certName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#cert_region DdoscooDomainResource#cert_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#cert_region DdoscooDomainResource#cert_region}
   */
   readonly certRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#custom_headers DdoscooDomainResource#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#custom_headers DdoscooDomainResource#custom_headers}
   */
   readonly customHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#domain DdoscooDomainResource#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#domain DdoscooDomainResource#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#https_ext DdoscooDomainResource#https_ext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#https_ext DdoscooDomainResource#https_ext}
   */
   readonly httpsExt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#id DdoscooDomainResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#id DdoscooDomainResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#instance_ids DdoscooDomainResource#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#instance_ids DdoscooDomainResource#instance_ids}
   */
   readonly instanceIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#key DdoscooDomainResource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#key DdoscooDomainResource#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#ocsp_enabled DdoscooDomainResource#ocsp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#ocsp_enabled DdoscooDomainResource#ocsp_enabled}
   */
   readonly ocspEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#real_servers DdoscooDomainResource#real_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#real_servers DdoscooDomainResource#real_servers}
   */
   readonly realServers: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#rs_type DdoscooDomainResource#rs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#rs_type DdoscooDomainResource#rs_type}
   */
   readonly rsType: number;
   /**
   * proxy_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#proxy_types DdoscooDomainResource#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#proxy_types DdoscooDomainResource#proxy_types}
   */
   readonly proxyTypes: DdoscooDomainResourceProxyTypes[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#timeouts DdoscooDomainResource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#timeouts DdoscooDomainResource#timeouts}
   */
   readonly timeouts?: DdoscooDomainResourceTimeouts;
 }
 export interface DdoscooDomainResourceProxyTypes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#proxy_ports DdoscooDomainResource#proxy_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#proxy_ports DdoscooDomainResource#proxy_ports}
   */
   readonly proxyPorts: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#proxy_type DdoscooDomainResource#proxy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#proxy_type DdoscooDomainResource#proxy_type}
   */
   readonly proxyType?: string;
 }
@@ -223,15 +223,15 @@ export class DdoscooDomainResourceProxyTypesList extends cdktf.ComplexList {
 }
 export interface DdoscooDomainResourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#create DdoscooDomainResource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#create DdoscooDomainResource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#delete DdoscooDomainResource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#delete DdoscooDomainResource#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#update DdoscooDomainResource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#update DdoscooDomainResource#update}
   */
   readonly update?: string;
 }
@@ -383,7 +383,7 @@ export class DdoscooDomainResourceTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource alicloud_ddoscoo_domain_resource}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource alicloud_ddoscoo_domain_resource}
 */
 export class DdoscooDomainResource extends cdktf.TerraformResource {
 
@@ -399,7 +399,7 @@ export class DdoscooDomainResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdoscooDomainResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdoscooDomainResource to import
-  * @param importFromId The id of the existing DdoscooDomainResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdoscooDomainResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdoscooDomainResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -411,7 +411,7 @@ export class DdoscooDomainResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddoscoo_domain_resource alicloud_ddoscoo_domain_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddoscoo_domain_resource alicloud_ddoscoo_domain_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -422,8 +422,8 @@ export class DdoscooDomainResource extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ddoscoo_domain_resource',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface RamPasswordPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#hard_expiry RamPasswordPolicy#hard_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#hard_expiry RamPasswordPolicy#hard_expiry}
   */
   readonly hardExpiry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#id RamPasswordPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#id RamPasswordPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#max_login_attemps RamPasswordPolicy#max_login_attemps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#max_login_attemps RamPasswordPolicy#max_login_attemps}
   */
   readonly maxLoginAttemps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#max_password_age RamPasswordPolicy#max_password_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#max_password_age RamPasswordPolicy#max_password_age}
   */
   readonly maxPasswordAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#minimum_password_different_character RamPasswordPolicy#minimum_password_different_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#minimum_password_different_character RamPasswordPolicy#minimum_password_different_character}
   */
   readonly minimumPasswordDifferentCharacter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#minimum_password_length RamPasswordPolicy#minimum_password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#minimum_password_length RamPasswordPolicy#minimum_password_length}
   */
   readonly minimumPasswordLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#password_not_contain_user_name RamPasswordPolicy#password_not_contain_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#password_not_contain_user_name RamPasswordPolicy#password_not_contain_user_name}
   */
   readonly passwordNotContainUserName?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#password_reuse_prevention RamPasswordPolicy#password_reuse_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#password_reuse_prevention RamPasswordPolicy#password_reuse_prevention}
   */
   readonly passwordReusePrevention?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#require_lowercase_characters RamPasswordPolicy#require_lowercase_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#require_lowercase_characters RamPasswordPolicy#require_lowercase_characters}
   */
   readonly requireLowercaseCharacters?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#require_numbers RamPasswordPolicy#require_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#require_numbers RamPasswordPolicy#require_numbers}
   */
   readonly requireNumbers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#require_symbols RamPasswordPolicy#require_symbols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#require_symbols RamPasswordPolicy#require_symbols}
   */
   readonly requireSymbols?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#require_uppercase_characters RamPasswordPolicy#require_uppercase_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#require_uppercase_characters RamPasswordPolicy#require_uppercase_characters}
   */
   readonly requireUppercaseCharacters?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#timeouts RamPasswordPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#timeouts RamPasswordPolicy#timeouts}
   */
   readonly timeouts?: RamPasswordPolicyTimeouts;
 }
 export interface RamPasswordPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#create RamPasswordPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#create RamPasswordPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#delete RamPasswordPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#delete RamPasswordPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#update RamPasswordPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#update RamPasswordPolicy#update}
   */
   readonly update?: string;
 }
@@ -227,7 +227,7 @@ export class RamPasswordPolicyTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy alicloud_ram_password_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy alicloud_ram_password_policy}
 */
 export class RamPasswordPolicy extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class RamPasswordPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RamPasswordPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RamPasswordPolicy to import
-  * @param importFromId The id of the existing RamPasswordPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RamPasswordPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RamPasswordPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class RamPasswordPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_password_policy alicloud_ram_password_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_password_policy alicloud_ram_password_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class RamPasswordPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ram_password_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

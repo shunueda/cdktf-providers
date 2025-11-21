@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,372 +8,372 @@ import * as cdktf from 'cdktf';
 
 export interface CsManagedKubernetesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#api_audiences CsManagedKubernetes#api_audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#api_audiences CsManagedKubernetes#api_audiences}
   */
   readonly apiAudiences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#availability_zone CsManagedKubernetes#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#availability_zone CsManagedKubernetes#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#client_cert CsManagedKubernetes#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#client_cert CsManagedKubernetes#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#client_key CsManagedKubernetes#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#client_key CsManagedKubernetes#client_key}
   */
   readonly clientKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#cluster_ca_cert CsManagedKubernetes#cluster_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#cluster_ca_cert CsManagedKubernetes#cluster_ca_cert}
   */
   readonly clusterCaCert?: string;
   /**
   * cluster local domain 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#cluster_domain CsManagedKubernetes#cluster_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#cluster_domain CsManagedKubernetes#cluster_domain}
   */
   readonly clusterDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#cluster_network_type CsManagedKubernetes#cluster_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#cluster_network_type CsManagedKubernetes#cluster_network_type}
   */
   readonly clusterNetworkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#cluster_spec CsManagedKubernetes#cluster_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#cluster_spec CsManagedKubernetes#cluster_spec}
   */
   readonly clusterSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#control_plane_log_components CsManagedKubernetes#control_plane_log_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#control_plane_log_components CsManagedKubernetes#control_plane_log_components}
   */
   readonly controlPlaneLogComponents?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#control_plane_log_project CsManagedKubernetes#control_plane_log_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#control_plane_log_project CsManagedKubernetes#control_plane_log_project}
   */
   readonly controlPlaneLogProject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#control_plane_log_ttl CsManagedKubernetes#control_plane_log_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#control_plane_log_ttl CsManagedKubernetes#control_plane_log_ttl}
   */
   readonly controlPlaneLogTtl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#cpu_policy CsManagedKubernetes#cpu_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#cpu_policy CsManagedKubernetes#cpu_policy}
   */
   readonly cpuPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#custom_san CsManagedKubernetes#custom_san}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#custom_san CsManagedKubernetes#custom_san}
   */
   readonly customSan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#deletion_protection CsManagedKubernetes#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#deletion_protection CsManagedKubernetes#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#enable_rrsa CsManagedKubernetes#enable_rrsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#enable_rrsa CsManagedKubernetes#enable_rrsa}
   */
   readonly enableRrsa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#enable_ssh CsManagedKubernetes#enable_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#enable_ssh CsManagedKubernetes#enable_ssh}
   */
   readonly enableSsh?: boolean | cdktf.IResolvable;
   /**
   * The ID of the Key Management Service (KMS) key that is used to encrypt Kubernetes Secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#encryption_provider_key CsManagedKubernetes#encryption_provider_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#encryption_provider_key CsManagedKubernetes#encryption_provider_key}
   */
   readonly encryptionProviderKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#exclude_autoscaler_nodes CsManagedKubernetes#exclude_autoscaler_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#exclude_autoscaler_nodes CsManagedKubernetes#exclude_autoscaler_nodes}
   */
   readonly excludeAutoscalerNodes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#force_update CsManagedKubernetes#force_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#force_update CsManagedKubernetes#force_update}
   */
   readonly forceUpdate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#id CsManagedKubernetes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#id CsManagedKubernetes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#image_id CsManagedKubernetes#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#image_id CsManagedKubernetes#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#install_cloud_monitor CsManagedKubernetes#install_cloud_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#install_cloud_monitor CsManagedKubernetes#install_cloud_monitor}
   */
   readonly installCloudMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#ip_stack CsManagedKubernetes#ip_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#ip_stack CsManagedKubernetes#ip_stack}
   */
   readonly ipStack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#is_enterprise_security_group CsManagedKubernetes#is_enterprise_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#is_enterprise_security_group CsManagedKubernetes#is_enterprise_security_group}
   */
   readonly isEnterpriseSecurityGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#key_name CsManagedKubernetes#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#key_name CsManagedKubernetes#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#kms_encrypted_password CsManagedKubernetes#kms_encrypted_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#kms_encrypted_password CsManagedKubernetes#kms_encrypted_password}
   */
   readonly kmsEncryptedPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#kms_encryption_context CsManagedKubernetes#kms_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#kms_encryption_context CsManagedKubernetes#kms_encryption_context}
   */
   readonly kmsEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#kube_config CsManagedKubernetes#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#kube_config CsManagedKubernetes#kube_config}
   */
   readonly kubeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#load_balancer_spec CsManagedKubernetes#load_balancer_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#load_balancer_spec CsManagedKubernetes#load_balancer_spec}
   */
   readonly loadBalancerSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#name CsManagedKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#name CsManagedKubernetes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#name_prefix CsManagedKubernetes#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#name_prefix CsManagedKubernetes#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#new_nat_gateway CsManagedKubernetes#new_nat_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#new_nat_gateway CsManagedKubernetes#new_nat_gateway}
   */
   readonly newNatGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#node_cidr_mask CsManagedKubernetes#node_cidr_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#node_cidr_mask CsManagedKubernetes#node_cidr_mask}
   */
   readonly nodeCidrMask?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#node_name_mode CsManagedKubernetes#node_name_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#node_name_mode CsManagedKubernetes#node_name_mode}
   */
   readonly nodeNameMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#node_port_range CsManagedKubernetes#node_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#node_port_range CsManagedKubernetes#node_port_range}
   */
   readonly nodePortRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#os_type CsManagedKubernetes#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#os_type CsManagedKubernetes#os_type}
   */
   readonly osType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#password CsManagedKubernetes#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#password CsManagedKubernetes#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#platform CsManagedKubernetes#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#platform CsManagedKubernetes#platform}
   */
   readonly platform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#pod_cidr CsManagedKubernetes#pod_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#pod_cidr CsManagedKubernetes#pod_cidr}
   */
   readonly podCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#pod_vswitch_ids CsManagedKubernetes#pod_vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#pod_vswitch_ids CsManagedKubernetes#pod_vswitch_ids}
   */
   readonly podVswitchIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#profile CsManagedKubernetes#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#profile CsManagedKubernetes#profile}
   */
   readonly profile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#proxy_mode CsManagedKubernetes#proxy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#proxy_mode CsManagedKubernetes#proxy_mode}
   */
   readonly proxyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#rds_instances CsManagedKubernetes#rds_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#rds_instances CsManagedKubernetes#rds_instances}
   */
   readonly rdsInstances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#resource_group_id CsManagedKubernetes#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#resource_group_id CsManagedKubernetes#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#retain_resources CsManagedKubernetes#retain_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#retain_resources CsManagedKubernetes#retain_resources}
   */
   readonly retainResources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#runtime CsManagedKubernetes#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#runtime CsManagedKubernetes#runtime}
   */
   readonly runtime?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#security_group_id CsManagedKubernetes#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#security_group_id CsManagedKubernetes#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#service_account_issuer CsManagedKubernetes#service_account_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#service_account_issuer CsManagedKubernetes#service_account_issuer}
   */
   readonly serviceAccountIssuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#service_cidr CsManagedKubernetes#service_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#service_cidr CsManagedKubernetes#service_cidr}
   */
   readonly serviceCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#skip_set_certificate_authority CsManagedKubernetes#skip_set_certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#skip_set_certificate_authority CsManagedKubernetes#skip_set_certificate_authority}
   */
   readonly skipSetCertificateAuthority?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#slb_internet_enabled CsManagedKubernetes#slb_internet_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#slb_internet_enabled CsManagedKubernetes#slb_internet_enabled}
   */
   readonly slbInternetEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#tags CsManagedKubernetes#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#tags CsManagedKubernetes#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#timezone CsManagedKubernetes#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#timezone CsManagedKubernetes#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#user_ca CsManagedKubernetes#user_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#user_ca CsManagedKubernetes#user_ca}
   */
   readonly userCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#user_data CsManagedKubernetes#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#user_data CsManagedKubernetes#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#version CsManagedKubernetes#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#version CsManagedKubernetes#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#vswitch_ids CsManagedKubernetes#vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#vswitch_ids CsManagedKubernetes#vswitch_ids}
   */
   readonly vswitchIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_auto_renew CsManagedKubernetes#worker_auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_auto_renew CsManagedKubernetes#worker_auto_renew}
   */
   readonly workerAutoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_auto_renew_period CsManagedKubernetes#worker_auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_auto_renew_period CsManagedKubernetes#worker_auto_renew_period}
   */
   readonly workerAutoRenewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_data_disk_category CsManagedKubernetes#worker_data_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_data_disk_category CsManagedKubernetes#worker_data_disk_category}
   */
   readonly workerDataDiskCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_data_disk_size CsManagedKubernetes#worker_data_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_data_disk_size CsManagedKubernetes#worker_data_disk_size}
   */
   readonly workerDataDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_disk_category CsManagedKubernetes#worker_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_disk_category CsManagedKubernetes#worker_disk_category}
   */
   readonly workerDiskCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_disk_performance_level CsManagedKubernetes#worker_disk_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_disk_performance_level CsManagedKubernetes#worker_disk_performance_level}
   */
   readonly workerDiskPerformanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_disk_size CsManagedKubernetes#worker_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_disk_size CsManagedKubernetes#worker_disk_size}
   */
   readonly workerDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_disk_snapshot_policy_id CsManagedKubernetes#worker_disk_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_disk_snapshot_policy_id CsManagedKubernetes#worker_disk_snapshot_policy_id}
   */
   readonly workerDiskSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_instance_charge_type CsManagedKubernetes#worker_instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_instance_charge_type CsManagedKubernetes#worker_instance_charge_type}
   */
   readonly workerInstanceChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_instance_type CsManagedKubernetes#worker_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_instance_type CsManagedKubernetes#worker_instance_type}
   */
   readonly workerInstanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_instance_types CsManagedKubernetes#worker_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_instance_types CsManagedKubernetes#worker_instance_types}
   */
   readonly workerInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_number CsManagedKubernetes#worker_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_number CsManagedKubernetes#worker_number}
   */
   readonly workerNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_numbers CsManagedKubernetes#worker_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_numbers CsManagedKubernetes#worker_numbers}
   */
   readonly workerNumbers?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_period CsManagedKubernetes#worker_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_period CsManagedKubernetes#worker_period}
   */
   readonly workerPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_period_unit CsManagedKubernetes#worker_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_period_unit CsManagedKubernetes#worker_period_unit}
   */
   readonly workerPeriodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_vswitch_ids CsManagedKubernetes#worker_vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_vswitch_ids CsManagedKubernetes#worker_vswitch_ids}
   */
   readonly workerVswitchIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#zone_ids CsManagedKubernetes#zone_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#zone_ids CsManagedKubernetes#zone_ids}
   */
   readonly zoneIds?: string[];
   /**
   * addons block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#addons CsManagedKubernetes#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#addons CsManagedKubernetes#addons}
   */
   readonly addons?: CsManagedKubernetesAddons[] | cdktf.IResolvable;
   /**
   * audit_log_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#audit_log_config CsManagedKubernetes#audit_log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#audit_log_config CsManagedKubernetes#audit_log_config}
   */
   readonly auditLogConfig?: CsManagedKubernetesAuditLogConfig;
   /**
   * auto_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#auto_mode CsManagedKubernetes#auto_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#auto_mode CsManagedKubernetes#auto_mode}
   */
   readonly autoMode?: CsManagedKubernetesAutoMode;
   /**
   * delete_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#delete_options CsManagedKubernetes#delete_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#delete_options CsManagedKubernetes#delete_options}
   */
   readonly deleteOptions?: CsManagedKubernetesDeleteOptions[] | cdktf.IResolvable;
   /**
   * log_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#log_config CsManagedKubernetes#log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#log_config CsManagedKubernetes#log_config}
   */
   readonly logConfig?: CsManagedKubernetesLogConfig;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#maintenance_window CsManagedKubernetes#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#maintenance_window CsManagedKubernetes#maintenance_window}
   */
   readonly maintenanceWindow?: CsManagedKubernetesMaintenanceWindow;
   /**
   * operation_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#operation_policy CsManagedKubernetes#operation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#operation_policy CsManagedKubernetes#operation_policy}
   */
   readonly operationPolicy?: CsManagedKubernetesOperationPolicy;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#taints CsManagedKubernetes#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#taints CsManagedKubernetes#taints}
   */
   readonly taints?: CsManagedKubernetesTaints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#timeouts CsManagedKubernetes#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#timeouts CsManagedKubernetes#timeouts}
   */
   readonly timeouts?: CsManagedKubernetesTimeouts;
   /**
   * worker_data_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_data_disks CsManagedKubernetes#worker_data_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_data_disks CsManagedKubernetes#worker_data_disks}
   */
   readonly workerDataDisks?: CsManagedKubernetesWorkerDataDisks[] | cdktf.IResolvable;
   /**
   * worker_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#worker_nodes CsManagedKubernetes#worker_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#worker_nodes CsManagedKubernetes#worker_nodes}
   */
   readonly workerNodes?: CsManagedKubernetesWorkerNodes[] | cdktf.IResolvable;
 }
@@ -469,19 +469,19 @@ export class CsManagedKubernetesRrsaMetadataList extends cdktf.ComplexList {
 }
 export interface CsManagedKubernetesAddons {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#config CsManagedKubernetes#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#config CsManagedKubernetes#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#disabled CsManagedKubernetes#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#disabled CsManagedKubernetes#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#name CsManagedKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#name CsManagedKubernetes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#version CsManagedKubernetes#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#version CsManagedKubernetes#version}
   */
   readonly version?: string;
 }
@@ -684,11 +684,11 @@ export class CsManagedKubernetesAddonsList extends cdktf.ComplexList {
 }
 export interface CsManagedKubernetesAuditLogConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#enabled CsManagedKubernetes#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#enabled CsManagedKubernetes#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#sls_project_name CsManagedKubernetes#sls_project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#sls_project_name CsManagedKubernetes#sls_project_name}
   */
   readonly slsProjectName?: string;
 }
@@ -801,7 +801,7 @@ export class CsManagedKubernetesAuditLogConfigOutputReference extends cdktf.Comp
 }
 export interface CsManagedKubernetesAutoMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#enabled CsManagedKubernetes#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#enabled CsManagedKubernetes#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -885,11 +885,11 @@ export class CsManagedKubernetesAutoModeOutputReference extends cdktf.ComplexObj
 }
 export interface CsManagedKubernetesDeleteOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#delete_mode CsManagedKubernetes#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#delete_mode CsManagedKubernetes#delete_mode}
   */
   readonly deleteMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#resource_type CsManagedKubernetes#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#resource_type CsManagedKubernetes#resource_type}
   */
   readonly resourceType?: string;
 }
@@ -1034,11 +1034,11 @@ export class CsManagedKubernetesDeleteOptionsList extends cdktf.ComplexList {
 }
 export interface CsManagedKubernetesLogConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#project CsManagedKubernetes#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#project CsManagedKubernetes#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#type CsManagedKubernetes#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#type CsManagedKubernetes#type}
   */
   readonly type: string;
 }
@@ -1148,19 +1148,19 @@ export class CsManagedKubernetesLogConfigOutputReference extends cdktf.ComplexOb
 }
 export interface CsManagedKubernetesMaintenanceWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#duration CsManagedKubernetes#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#duration CsManagedKubernetes#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#enable CsManagedKubernetes#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#enable CsManagedKubernetes#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#maintenance_time CsManagedKubernetes#maintenance_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#maintenance_time CsManagedKubernetes#maintenance_time}
   */
   readonly maintenanceTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#weekly_period CsManagedKubernetes#weekly_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#weekly_period CsManagedKubernetes#weekly_period}
   */
   readonly weeklyPeriod?: string;
 }
@@ -1331,11 +1331,11 @@ export class CsManagedKubernetesMaintenanceWindowOutputReference extends cdktf.C
 }
 export interface CsManagedKubernetesOperationPolicyClusterAutoUpgrade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#channel CsManagedKubernetes#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#channel CsManagedKubernetes#channel}
   */
   readonly channel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#enabled CsManagedKubernetes#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#enabled CsManagedKubernetes#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1450,7 +1450,7 @@ export interface CsManagedKubernetesOperationPolicy {
   /**
   * cluster_auto_upgrade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#cluster_auto_upgrade CsManagedKubernetes#cluster_auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#cluster_auto_upgrade CsManagedKubernetes#cluster_auto_upgrade}
   */
   readonly clusterAutoUpgrade?: CsManagedKubernetesOperationPolicyClusterAutoUpgrade;
 }
@@ -1534,15 +1534,15 @@ export class CsManagedKubernetesOperationPolicyOutputReference extends cdktf.Com
 }
 export interface CsManagedKubernetesTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#effect CsManagedKubernetes#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#effect CsManagedKubernetes#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#key CsManagedKubernetes#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#key CsManagedKubernetes#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#value CsManagedKubernetes#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#value CsManagedKubernetes#value}
   */
   readonly value?: string;
 }
@@ -1716,15 +1716,15 @@ export class CsManagedKubernetesTaintsList extends cdktf.ComplexList {
 }
 export interface CsManagedKubernetesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#create CsManagedKubernetes#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#create CsManagedKubernetes#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#delete CsManagedKubernetes#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#delete CsManagedKubernetes#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#update CsManagedKubernetes#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#update CsManagedKubernetes#update}
   */
   readonly update?: string;
 }
@@ -1876,39 +1876,39 @@ export class CsManagedKubernetesTimeoutsOutputReference extends cdktf.ComplexObj
 }
 export interface CsManagedKubernetesWorkerDataDisks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#auto_snapshot_policy_id CsManagedKubernetes#auto_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#auto_snapshot_policy_id CsManagedKubernetes#auto_snapshot_policy_id}
   */
   readonly autoSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#category CsManagedKubernetes#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#category CsManagedKubernetes#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#device CsManagedKubernetes#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#device CsManagedKubernetes#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#encrypted CsManagedKubernetes#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#encrypted CsManagedKubernetes#encrypted}
   */
   readonly encrypted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#kms_key_id CsManagedKubernetes#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#kms_key_id CsManagedKubernetes#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#name CsManagedKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#name CsManagedKubernetes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#performance_level CsManagedKubernetes#performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#performance_level CsManagedKubernetes#performance_level}
   */
   readonly performanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#size CsManagedKubernetes#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#size CsManagedKubernetes#size}
   */
   readonly size?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#snapshot_id CsManagedKubernetes#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#snapshot_id CsManagedKubernetes#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -2352,7 +2352,7 @@ export class CsManagedKubernetesWorkerNodesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes alicloud_cs_managed_kubernetes}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes alicloud_cs_managed_kubernetes}
 */
 export class CsManagedKubernetes extends cdktf.TerraformResource {
 
@@ -2368,7 +2368,7 @@ export class CsManagedKubernetes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CsManagedKubernetes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CsManagedKubernetes to import
-  * @param importFromId The id of the existing CsManagedKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CsManagedKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CsManagedKubernetes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2380,7 +2380,7 @@ export class CsManagedKubernetes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cs_managed_kubernetes alicloud_cs_managed_kubernetes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_managed_kubernetes alicloud_cs_managed_kubernetes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2391,8 +2391,8 @@ export class CsManagedKubernetes extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cs_managed_kubernetes',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

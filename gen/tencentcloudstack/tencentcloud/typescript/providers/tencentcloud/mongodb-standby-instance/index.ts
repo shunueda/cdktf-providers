@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface MongodbStandbyInstanceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Auto renew flag. Valid values are `0`(NOTIFY_AND_MANUAL_RENEW), `1`(NOTIFY_AND_AUTO_RENEW) and `2`(DISABLE_NOTIFY_AND_MANUAL_RENEW). Default value is `0`. Note: only works for PREPAID instance. Only supports`0` and `1` for creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#auto_renew_flag MongodbStandbyInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#auto_renew_flag MongodbStandbyInstance#auto_renew_flag}
   */
   readonly autoRenewFlag?: number;
   /**
   * The available zone of the Mongodb standby instance. NOTE: must not be same with father instance's.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#available_zone MongodbStandbyInstance#available_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#available_zone MongodbStandbyInstance#available_zone}
   */
   readonly availableZone: string;
   /**
   * The charge type of instance. Valid values are `PREPAID` and `POSTPAID_BY_HOUR`. Default value is `POSTPAID_BY_HOUR`. Note: TencentCloud International only supports `POSTPAID_BY_HOUR`. Caution that update operation on this field will delete old instances and create new one with new charge type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#charge_type MongodbStandbyInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#charge_type MongodbStandbyInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
   * Indicates the main instance ID of standby instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#father_instance_id MongodbStandbyInstance#father_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#father_instance_id MongodbStandbyInstance#father_instance_id}
   */
   readonly fatherInstanceId: string;
   /**
   * Indicates the region of main instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#father_instance_region MongodbStandbyInstance#father_instance_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#father_instance_region MongodbStandbyInstance#father_instance_region}
   */
   readonly fatherInstanceRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#id MongodbStandbyInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#id MongodbStandbyInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,67 +50,67 @@ export interface MongodbStandbyInstanceConfig extends cdktf.TerraformMetaArgumen
   * 	- 1: Perform reconfiguration tasks within the maintenance time window.
   * Note: Adjusting the number of nodes and slices does not support changes within the maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#in_maintenance MongodbStandbyInstance#in_maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#in_maintenance MongodbStandbyInstance#in_maintenance}
   */
   readonly inMaintenance?: number;
   /**
   * Name of the Mongodb instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#instance_name MongodbStandbyInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#instance_name MongodbStandbyInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * Memory size. The minimum value is 2, and unit is GB. Memory and volume must be upgraded or degraded simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#memory MongodbStandbyInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#memory MongodbStandbyInstance#memory}
   */
   readonly memory: number;
   /**
   * The tenancy (time unit is month) of the prepaid instance. Valid values are 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 24, 36. NOTE: it only works when charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#prepaid_period MongodbStandbyInstance#prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#prepaid_period MongodbStandbyInstance#prepaid_period}
   */
   readonly prepaidPeriod?: number;
   /**
   * ID of the project which the instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#project_id MongodbStandbyInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#project_id MongodbStandbyInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * ID of the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#security_groups MongodbStandbyInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#security_groups MongodbStandbyInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * ID of the subnet within this VPC. The value is required if `vpc_id` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#subnet_id MongodbStandbyInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#subnet_id MongodbStandbyInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The tags of the Mongodb. Key name `project` is system reserved and can't be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#tags MongodbStandbyInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#tags MongodbStandbyInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Disk size. The minimum value is 25, and unit is GB. Memory and volume must be upgraded or degraded simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#volume MongodbStandbyInstance#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#volume MongodbStandbyInstance#volume}
   */
   readonly volume: number;
   /**
   * ID of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#vpc_id MongodbStandbyInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#vpc_id MongodbStandbyInstance#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance tencentcloud_mongodb_standby_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance tencentcloud_mongodb_standby_instance}
 */
 export class MongodbStandbyInstance extends cdktf.TerraformResource {
 
@@ -126,7 +126,7 @@ export class MongodbStandbyInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbStandbyInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbStandbyInstance to import
-  * @param importFromId The id of the existing MongodbStandbyInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbStandbyInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbStandbyInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -138,7 +138,7 @@ export class MongodbStandbyInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_standby_instance tencentcloud_mongodb_standby_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/mongodb_standby_instance tencentcloud_mongodb_standby_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -149,8 +149,8 @@ export class MongodbStandbyInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mongodb_standby_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

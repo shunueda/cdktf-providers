@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ClickhouseInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Billing type: `PREPAID` prepaid, `POSTPAID_BY_HOUR` postpaid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#charge_type ClickhouseInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#charge_type ClickhouseInstance#charge_type}
   */
   readonly chargeType: string;
   /**
   * The password for the default account to log in to the instance. 8-16 characters, including at least three of the following: uppercase letters, lowercase letters, numbers, and special characters `!@#%^*`. The first character cannot be a special character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#ck_default_user_pwd ClickhouseInstance#ck_default_user_pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#ck_default_user_pwd ClickhouseInstance#ck_default_user_pwd}
   */
   readonly ckDefaultUserPwd?: string;
   /**
   * CLS log set id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#cls_log_set_id ClickhouseInstance#cls_log_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#cls_log_set_id ClickhouseInstance#cls_log_set_id}
   */
   readonly clsLogSetId?: string;
   /**
   * COS bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#cos_bucket_name ClickhouseInstance#cos_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#cos_bucket_name ClickhouseInstance#cos_bucket_name}
   */
   readonly cosBucketName?: string;
   /**
   * Whether it is highly available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#ha_flag ClickhouseInstance#ha_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#ha_flag ClickhouseInstance#ha_flag}
   */
   readonly haFlag: boolean | cdktf.IResolvable;
   /**
   * Whether ZK is highly available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#ha_zk ClickhouseInstance#ha_zk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#ha_zk ClickhouseInstance#ha_zk}
   */
   readonly haZk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#id ClickhouseInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#id ClickhouseInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,73 +53,73 @@ export interface ClickhouseInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#instance_name ClickhouseInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#instance_name ClickhouseInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * Whether it is mounted on a bare disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#mount_disk_type ClickhouseInstance#mount_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#mount_disk_type ClickhouseInstance#mount_disk_type}
   */
   readonly mountDiskType?: number;
   /**
   * Product version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#product_version ClickhouseInstance#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#product_version ClickhouseInstance#product_version}
   */
   readonly productVersion: string;
   /**
   * PREPAID needs to be passed. Whether to renew automatically. 1 means auto renewal is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#renew_flag ClickhouseInstance#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#renew_flag ClickhouseInstance#renew_flag}
   */
   readonly renewFlag?: number;
   /**
   * Subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#subnet_id ClickhouseInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#subnet_id ClickhouseInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#tags ClickhouseInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#tags ClickhouseInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Prepaid needs to be delivered, billing time length, how many months.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#time_span ClickhouseInstance#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#time_span ClickhouseInstance#time_span}
   */
   readonly timeSpan?: number;
   /**
   * Private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#vpc_id ClickhouseInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#vpc_id ClickhouseInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * Availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#zone ClickhouseInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#zone ClickhouseInstance#zone}
   */
   readonly zone: string;
   /**
   * common_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#common_spec ClickhouseInstance#common_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#common_spec ClickhouseInstance#common_spec}
   */
   readonly commonSpec?: ClickhouseInstanceCommonSpec;
   /**
   * data_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#data_spec ClickhouseInstance#data_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#data_spec ClickhouseInstance#data_spec}
   */
   readonly dataSpec: ClickhouseInstanceDataSpec;
   /**
   * secondary_zone_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#secondary_zone_info ClickhouseInstance#secondary_zone_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#secondary_zone_info ClickhouseInstance#secondary_zone_info}
   */
   readonly secondaryZoneInfo?: ClickhouseInstanceSecondaryZoneInfo[] | cdktf.IResolvable;
 }
@@ -127,19 +127,19 @@ export interface ClickhouseInstanceCommonSpec {
   /**
   * Node count. NOTE: Only support value 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#count ClickhouseInstance#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#count ClickhouseInstance#count}
   */
   readonly count: number;
   /**
   * Disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#disk_size ClickhouseInstance#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#disk_size ClickhouseInstance#disk_size}
   */
   readonly diskSize: number;
   /**
   * Spec name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#spec_name ClickhouseInstance#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#spec_name ClickhouseInstance#spec_name}
   */
   readonly specName: string;
 }
@@ -274,19 +274,19 @@ export interface ClickhouseInstanceDataSpec {
   /**
   * Data spec count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#count ClickhouseInstance#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#count ClickhouseInstance#count}
   */
   readonly count: number;
   /**
   * Disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#disk_size ClickhouseInstance#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#disk_size ClickhouseInstance#disk_size}
   */
   readonly diskSize: number;
   /**
   * Spec name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#spec_name ClickhouseInstance#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#spec_name ClickhouseInstance#spec_name}
   */
   readonly specName: string;
 }
@@ -421,13 +421,13 @@ export interface ClickhouseInstanceSecondaryZoneInfo {
   /**
   * Secondary subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#secondary_subnet ClickhouseInstance#secondary_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#secondary_subnet ClickhouseInstance#secondary_subnet}
   */
   readonly secondarySubnet?: string;
   /**
   * Secondary zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#secondary_zone ClickhouseInstance#secondary_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#secondary_zone ClickhouseInstance#secondary_zone}
   */
   readonly secondaryZone?: string;
 }
@@ -572,7 +572,7 @@ export class ClickhouseInstanceSecondaryZoneInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance tencentcloud_clickhouse_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance tencentcloud_clickhouse_instance}
 */
 export class ClickhouseInstance extends cdktf.TerraformResource {
 
@@ -588,7 +588,7 @@ export class ClickhouseInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClickhouseInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClickhouseInstance to import
-  * @param importFromId The id of the existing ClickhouseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClickhouseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClickhouseInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -600,7 +600,7 @@ export class ClickhouseInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clickhouse_instance tencentcloud_clickhouse_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clickhouse_instance tencentcloud_clickhouse_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -611,8 +611,8 @@ export class ClickhouseInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clickhouse_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

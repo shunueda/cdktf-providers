@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_trigger_job_savepoint
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/oceanus_trigger_job_savepoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OceanusTriggerJobSavepointConfig extends cdktf.TerraformMetaArg
   /**
   * Savepoint description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_trigger_job_savepoint#description OceanusTriggerJobSavepoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/oceanus_trigger_job_savepoint#description OceanusTriggerJobSavepoint#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_trigger_job_savepoint#id OceanusTriggerJobSavepoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/oceanus_trigger_job_savepoint#id OceanusTriggerJobSavepoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface OceanusTriggerJobSavepointConfig extends cdktf.TerraformMetaArg
   /**
   * Job SerialId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_trigger_job_savepoint#job_id OceanusTriggerJobSavepoint#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/oceanus_trigger_job_savepoint#job_id OceanusTriggerJobSavepoint#job_id}
   */
   readonly jobId: string;
   /**
   * Workspace SerialId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_trigger_job_savepoint#work_space_id OceanusTriggerJobSavepoint#work_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/oceanus_trigger_job_savepoint#work_space_id OceanusTriggerJobSavepoint#work_space_id}
   */
   readonly workSpaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_trigger_job_savepoint tencentcloud_oceanus_trigger_job_savepoint}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/oceanus_trigger_job_savepoint tencentcloud_oceanus_trigger_job_savepoint}
 */
 export class OceanusTriggerJobSavepoint extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class OceanusTriggerJobSavepoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceanusTriggerJobSavepoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceanusTriggerJobSavepoint to import
-  * @param importFromId The id of the existing OceanusTriggerJobSavepoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_trigger_job_savepoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceanusTriggerJobSavepoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/oceanus_trigger_job_savepoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceanusTriggerJobSavepoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class OceanusTriggerJobSavepoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_trigger_job_savepoint tencentcloud_oceanus_trigger_job_savepoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/oceanus_trigger_job_savepoint tencentcloud_oceanus_trigger_job_savepoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class OceanusTriggerJobSavepoint extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_oceanus_trigger_job_savepoint',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

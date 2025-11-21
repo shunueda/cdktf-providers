@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/remotes
+// https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/remotes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataGitRemotesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/remotes#directory DataGitRemotes#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/remotes#directory DataGitRemotes#directory}
   */
   readonly directory: string;
 }
@@ -89,7 +89,7 @@ export class DataGitRemotesRemotesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/remotes git_remotes}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/remotes git_remotes}
 */
 export class DataGitRemotes extends cdktf.TerraformDataSource {
 
@@ -105,7 +105,7 @@ export class DataGitRemotes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGitRemotes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGitRemotes to import
-  * @param importFromId The id of the existing DataGitRemotes that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/remotes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGitRemotes that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/remotes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGitRemotes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class DataGitRemotes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/remotes git_remotes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/remotes git_remotes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class DataGitRemotes extends cdktf.TerraformDataSource {
       terraformResourceType: 'git_remotes',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.11.14',
-        providerVersionConstraint: '2025.11.14'
+        providerVersion: '2025.11.21',
+        providerVersionConstraint: '2025.11.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

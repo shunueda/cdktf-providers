@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/redis_maintenance_window
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_maintenance_window
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RedisMaintenanceWindowConfig extends cdktf.TerraformMetaArgumen
   /**
   * The end time of the maintenance window, e.g. 19:00.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/redis_maintenance_window#end_time RedisMaintenanceWindow#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_maintenance_window#end_time RedisMaintenanceWindow#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/redis_maintenance_window#id RedisMaintenanceWindow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_maintenance_window#id RedisMaintenanceWindow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface RedisMaintenanceWindowConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/redis_maintenance_window#instance_id RedisMaintenanceWindow#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_maintenance_window#instance_id RedisMaintenanceWindow#instance_id}
   */
   readonly instanceId: string;
   /**
   * Maintenance window start time, e.g. 17:00.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/redis_maintenance_window#start_time RedisMaintenanceWindow#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_maintenance_window#start_time RedisMaintenanceWindow#start_time}
   */
   readonly startTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/redis_maintenance_window tencentcloud_redis_maintenance_window}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_maintenance_window tencentcloud_redis_maintenance_window}
 */
 export class RedisMaintenanceWindow extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class RedisMaintenanceWindow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisMaintenanceWindow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisMaintenanceWindow to import
-  * @param importFromId The id of the existing RedisMaintenanceWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/redis_maintenance_window#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisMaintenanceWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_maintenance_window#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisMaintenanceWindow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class RedisMaintenanceWindow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/redis_maintenance_window tencentcloud_redis_maintenance_window} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/redis_maintenance_window tencentcloud_redis_maintenance_window} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class RedisMaintenanceWindow extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_redis_maintenance_window',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

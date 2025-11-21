@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ScfFunctionAliasConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alias description information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#description ScfFunctionAlias#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#description ScfFunctionAlias#description}
   */
   readonly description?: string;
   /**
   * Function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#function_name ScfFunctionAlias#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#function_name ScfFunctionAlias#function_name}
   */
   readonly functionName: string;
   /**
   * Master version pointed to by the alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#function_version ScfFunctionAlias#function_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#function_version ScfFunctionAlias#function_version}
   */
   readonly functionVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#id ScfFunctionAlias#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#id ScfFunctionAlias#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface ScfFunctionAliasConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alias name, which must be unique in the function, can contain 1 to 64 letters, digits, _, and -, and must begin with a letter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#name ScfFunctionAlias#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#name ScfFunctionAlias#name}
   */
   readonly name: string;
   /**
   * Function namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#namespace ScfFunctionAlias#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#namespace ScfFunctionAlias#namespace}
   */
   readonly namespace?: string;
   /**
   * routing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#routing_config ScfFunctionAlias#routing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#routing_config ScfFunctionAlias#routing_config}
   */
   readonly routingConfig?: ScfFunctionAliasRoutingConfig;
 }
@@ -55,25 +55,25 @@ export interface ScfFunctionAliasRoutingConfigAdditionalVersionMatches {
   /**
   * Rule requirements for range match:It should be described in an open or closed range, i.e., (a,b) or [a,b], where both a and b are integersRule requirements for exact match:Exact string match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#expression ScfFunctionAlias#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#expression ScfFunctionAlias#expression}
   */
   readonly expression: string;
   /**
   * Matching rule key. When the API is called, pass in the key to route the request to the specified version based on the matching ruleHeader method:Enter invoke.headers.User for key and pass in RoutingKey:{User:value} when invoking a function through invoke for invocation based on rule matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#key ScfFunctionAlias#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#key ScfFunctionAlias#key}
   */
   readonly key: string;
   /**
   * Match method. Valid values:range: Range matchexact: exact string match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#method ScfFunctionAlias#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#method ScfFunctionAlias#method}
   */
   readonly method: string;
   /**
   * Function version name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#version ScfFunctionAlias#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#version ScfFunctionAlias#version}
   */
   readonly version: string;
 }
@@ -266,13 +266,13 @@ export interface ScfFunctionAliasRoutingConfigAdditionalVersionWeights {
   /**
   * Function version name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#version ScfFunctionAlias#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#version ScfFunctionAlias#version}
   */
   readonly version: string;
   /**
   * Version weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#weight ScfFunctionAlias#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#weight ScfFunctionAlias#weight}
   */
   readonly weight: number;
 }
@@ -413,13 +413,13 @@ export interface ScfFunctionAliasRoutingConfig {
   /**
   * additional_version_matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#additional_version_matches ScfFunctionAlias#additional_version_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#additional_version_matches ScfFunctionAlias#additional_version_matches}
   */
   readonly additionalVersionMatches?: ScfFunctionAliasRoutingConfigAdditionalVersionMatches[] | cdktf.IResolvable;
   /**
   * additional_version_weights block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#additional_version_weights ScfFunctionAlias#additional_version_weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#additional_version_weights ScfFunctionAlias#additional_version_weights}
   */
   readonly additionalVersionWeights?: ScfFunctionAliasRoutingConfigAdditionalVersionWeights[] | cdktf.IResolvable;
 }
@@ -532,7 +532,7 @@ export class ScfFunctionAliasRoutingConfigOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias tencentcloud_scf_function_alias}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias tencentcloud_scf_function_alias}
 */
 export class ScfFunctionAlias extends cdktf.TerraformResource {
 
@@ -548,7 +548,7 @@ export class ScfFunctionAlias extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScfFunctionAlias resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScfFunctionAlias to import
-  * @param importFromId The id of the existing ScfFunctionAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScfFunctionAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScfFunctionAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -560,7 +560,7 @@ export class ScfFunctionAlias extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_function_alias tencentcloud_scf_function_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/scf_function_alias tencentcloud_scf_function_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -571,8 +571,8 @@ export class ScfFunctionAlias extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_scf_function_alias',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

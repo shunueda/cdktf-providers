@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/direct_mail_receiverses
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/direct_mail_receiverses
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudDirectMailReceiversesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/direct_mail_receiverses#id DataAlicloudDirectMailReceiverses#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/direct_mail_receiverses#id DataAlicloudDirectMailReceiverses#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/direct_mail_receiverses#ids DataAlicloudDirectMailReceiverses#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/direct_mail_receiverses#ids DataAlicloudDirectMailReceiverses#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/direct_mail_receiverses#key_word DataAlicloudDirectMailReceiverses#key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/direct_mail_receiverses#key_word DataAlicloudDirectMailReceiverses#key_word}
   */
   readonly keyWord?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/direct_mail_receiverses#name_regex DataAlicloudDirectMailReceiverses#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/direct_mail_receiverses#name_regex DataAlicloudDirectMailReceiverses#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/direct_mail_receiverses#output_file DataAlicloudDirectMailReceiverses#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/direct_mail_receiverses#output_file DataAlicloudDirectMailReceiverses#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/direct_mail_receiverses#status DataAlicloudDirectMailReceiverses#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/direct_mail_receiverses#status DataAlicloudDirectMailReceiverses#status}
   */
   readonly status?: number;
 }
@@ -142,7 +142,7 @@ export class DataAlicloudDirectMailReceiversesReceiversesList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/direct_mail_receiverses alicloud_direct_mail_receiverses}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/direct_mail_receiverses alicloud_direct_mail_receiverses}
 */
 export class DataAlicloudDirectMailReceiverses extends cdktf.TerraformDataSource {
 
@@ -158,7 +158,7 @@ export class DataAlicloudDirectMailReceiverses extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataAlicloudDirectMailReceiverses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudDirectMailReceiverses to import
-  * @param importFromId The id of the existing DataAlicloudDirectMailReceiverses that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/direct_mail_receiverses#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudDirectMailReceiverses that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/direct_mail_receiverses#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudDirectMailReceiverses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -170,7 +170,7 @@ export class DataAlicloudDirectMailReceiverses extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/direct_mail_receiverses alicloud_direct_mail_receiverses} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/direct_mail_receiverses alicloud_direct_mail_receiverses} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -181,8 +181,8 @@ export class DataAlicloudDirectMailReceiverses extends cdktf.TerraformDataSource
       terraformResourceType: 'alicloud_direct_mail_receiverses',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

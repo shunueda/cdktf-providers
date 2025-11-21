@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudExpressConnectRouterInterfacesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces#id DataAlicloudExpressConnectRouterInterfaces#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces#id DataAlicloudExpressConnectRouterInterfaces#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces#ids DataAlicloudExpressConnectRouterInterfaces#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces#ids DataAlicloudExpressConnectRouterInterfaces#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces#include_reservation_data DataAlicloudExpressConnectRouterInterfaces#include_reservation_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces#include_reservation_data DataAlicloudExpressConnectRouterInterfaces#include_reservation_data}
   */
   readonly includeReservationData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces#name_regex DataAlicloudExpressConnectRouterInterfaces#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces#name_regex DataAlicloudExpressConnectRouterInterfaces#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces#output_file DataAlicloudExpressConnectRouterInterfaces#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces#output_file DataAlicloudExpressConnectRouterInterfaces#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces#page_number DataAlicloudExpressConnectRouterInterfaces#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces#page_number DataAlicloudExpressConnectRouterInterfaces#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces#page_size DataAlicloudExpressConnectRouterInterfaces#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces#page_size DataAlicloudExpressConnectRouterInterfaces#page_size}
   */
   readonly pageSize?: number;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces#filter DataAlicloudExpressConnectRouterInterfaces#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces#filter DataAlicloudExpressConnectRouterInterfaces#filter}
   */
   readonly filter?: DataAlicloudExpressConnectRouterInterfacesFilter[] | cdktf.IResolvable;
 }
@@ -307,11 +307,11 @@ export class DataAlicloudExpressConnectRouterInterfacesInterfacesList extends cd
 }
 export interface DataAlicloudExpressConnectRouterInterfacesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces#key DataAlicloudExpressConnectRouterInterfaces#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces#key DataAlicloudExpressConnectRouterInterfaces#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces#value DataAlicloudExpressConnectRouterInterfaces#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces#value DataAlicloudExpressConnectRouterInterfaces#value}
   */
   readonly value?: string[];
 }
@@ -456,7 +456,7 @@ export class DataAlicloudExpressConnectRouterInterfacesFilterList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces alicloud_express_connect_router_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces alicloud_express_connect_router_interfaces}
 */
 export class DataAlicloudExpressConnectRouterInterfaces extends cdktf.TerraformDataSource {
 
@@ -472,7 +472,7 @@ export class DataAlicloudExpressConnectRouterInterfaces extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataAlicloudExpressConnectRouterInterfaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudExpressConnectRouterInterfaces to import
-  * @param importFromId The id of the existing DataAlicloudExpressConnectRouterInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudExpressConnectRouterInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudExpressConnectRouterInterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -484,7 +484,7 @@ export class DataAlicloudExpressConnectRouterInterfaces extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/express_connect_router_interfaces alicloud_express_connect_router_interfaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/express_connect_router_interfaces alicloud_express_connect_router_interfaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -495,8 +495,8 @@ export class DataAlicloudExpressConnectRouterInterfaces extends cdktf.TerraformD
       terraformResourceType: 'alicloud_express_connect_router_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

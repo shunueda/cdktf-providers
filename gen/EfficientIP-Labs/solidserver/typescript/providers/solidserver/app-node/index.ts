@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface AppNodeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IP address (IPv4 or IPv6 depending on the node) of the application node to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#address AppNode#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#address AppNode#address}
   */
   readonly address?: string;
   /**
   * The name of the application associated to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#application AppNode#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#application AppNode#application}
   */
   readonly application: string;
   /**
   * The healthcheck failback threshold for the application node to create (Supported: 1-10; Default: 3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#failback_threshold AppNode#failback_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#failback_threshold AppNode#failback_threshold}
   */
   readonly failbackThreshold?: number;
   /**
   * The healthcheck failure threshold for the application node to create (Supported: 1-10; Default: 3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#failure_threshold AppNode#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#failure_threshold AppNode#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The fqdn of the application associated to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#fqdn AppNode#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#fqdn AppNode#fqdn}
   */
   readonly fqdn: string;
   /**
   * The healthcheck name for the application node to create (Supported: ok,ping,tcp,http; Default: ok).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#healthcheck AppNode#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#healthcheck AppNode#healthcheck}
   */
   readonly healthcheck?: string;
   /**
   * The healthcheck frequency in second for the application node to create (Supported: 10,30,60,300; Default: 60).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#healthcheck_frequency AppNode#healthcheck_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#healthcheck_frequency AppNode#healthcheck_frequency}
   */
   readonly healthcheckFrequency?: number;
   /**
   * The healthcheck parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#healthcheck_parameters AppNode#healthcheck_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#healthcheck_parameters AppNode#healthcheck_parameters}
   */
   readonly healthcheckParameters?: { [key: string]: string };
   /**
   * The healthcheck timeout in second for the application node to create (Supported: 1-10; Default: 3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#healthcheck_timeout AppNode#healthcheck_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#healthcheck_timeout AppNode#healthcheck_timeout}
   */
   readonly healthcheckTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#id AppNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#id AppNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,25 +71,25 @@ export interface AppNodeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the application node to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#name AppNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#name AppNode#name}
   */
   readonly name: string;
   /**
   * The name of the application pool associated to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#pool AppNode#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#pool AppNode#pool}
   */
   readonly pool: string;
   /**
   * The weight of the application node to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#weight AppNode#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#weight AppNode#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node solidserver_app_node}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node solidserver_app_node}
 */
 export class AppNode extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class AppNode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppNode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppNode to import
-  * @param importFromId The id of the existing AppNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class AppNode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_node solidserver_app_node} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_node solidserver_app_node} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class AppNode extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_app_node',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

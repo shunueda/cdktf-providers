@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/file_crc64_checksum
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/file_crc64_checksum
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudFileCrc64ChecksumConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/file_crc64_checksum#filename DataAlicloudFileCrc64Checksum#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/file_crc64_checksum#filename DataAlicloudFileCrc64Checksum#filename}
   */
   readonly filename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/file_crc64_checksum#id DataAlicloudFileCrc64Checksum#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/file_crc64_checksum#id DataAlicloudFileCrc64Checksum#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/file_crc64_checksum#output_file DataAlicloudFileCrc64Checksum#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/file_crc64_checksum#output_file DataAlicloudFileCrc64Checksum#output_file}
   */
   readonly outputFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/file_crc64_checksum alicloud_file_crc64_checksum}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/file_crc64_checksum alicloud_file_crc64_checksum}
 */
 export class DataAlicloudFileCrc64Checksum extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataAlicloudFileCrc64Checksum extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudFileCrc64Checksum resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudFileCrc64Checksum to import
-  * @param importFromId The id of the existing DataAlicloudFileCrc64Checksum that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/file_crc64_checksum#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudFileCrc64Checksum that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/file_crc64_checksum#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudFileCrc64Checksum to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataAlicloudFileCrc64Checksum extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/file_crc64_checksum alicloud_file_crc64_checksum} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/file_crc64_checksum alicloud_file_crc64_checksum} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataAlicloudFileCrc64Checksum extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_file_crc64_checksum',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

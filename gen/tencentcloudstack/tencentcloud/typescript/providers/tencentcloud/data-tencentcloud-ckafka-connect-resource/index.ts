@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ckafka_connect_resource
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ckafka_connect_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudCkafkaConnectResourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ckafka_connect_resource#id DataTencentcloudCkafkaConnectResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ckafka_connect_resource#id DataTencentcloudCkafkaConnectResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataTencentcloudCkafkaConnectResourceConfig extends cdktf.Terra
   /**
   * Return the number, the default is 20, the maximum is 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ckafka_connect_resource#limit DataTencentcloudCkafkaConnectResource#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ckafka_connect_resource#limit DataTencentcloudCkafkaConnectResource#limit}
   */
   readonly limit?: number;
   /**
   * Page offset, default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ckafka_connect_resource#offset DataTencentcloudCkafkaConnectResource#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ckafka_connect_resource#offset DataTencentcloudCkafkaConnectResource#offset}
   */
   readonly offset?: number;
   /**
   * Keyword query of the connection source, query the connection in the connection management list in the local region according to the region (only support the connection source containing the region input).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ckafka_connect_resource#resource_region DataTencentcloudCkafkaConnectResource#resource_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ckafka_connect_resource#resource_region DataTencentcloudCkafkaConnectResource#resource_region}
   */
   readonly resourceRegion?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ckafka_connect_resource#result_output_file DataTencentcloudCkafkaConnectResource#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ckafka_connect_resource#result_output_file DataTencentcloudCkafkaConnectResource#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Keyword for search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ckafka_connect_resource#search_word DataTencentcloudCkafkaConnectResource#search_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ckafka_connect_resource#search_word DataTencentcloudCkafkaConnectResource#search_word}
   */
   readonly searchWord?: string;
   /**
   * connection source type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ckafka_connect_resource#type DataTencentcloudCkafkaConnectResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ckafka_connect_resource#type DataTencentcloudCkafkaConnectResource#type}
   */
   readonly type?: string;
 }
@@ -1510,7 +1510,7 @@ export class DataTencentcloudCkafkaConnectResourceResultList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ckafka_connect_resource tencentcloud_ckafka_connect_resource}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ckafka_connect_resource tencentcloud_ckafka_connect_resource}
 */
 export class DataTencentcloudCkafkaConnectResource extends cdktf.TerraformDataSource {
 
@@ -1526,7 +1526,7 @@ export class DataTencentcloudCkafkaConnectResource extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudCkafkaConnectResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCkafkaConnectResource to import
-  * @param importFromId The id of the existing DataTencentcloudCkafkaConnectResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ckafka_connect_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCkafkaConnectResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ckafka_connect_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCkafkaConnectResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1538,7 +1538,7 @@ export class DataTencentcloudCkafkaConnectResource extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ckafka_connect_resource tencentcloud_ckafka_connect_resource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ckafka_connect_resource tencentcloud_ckafka_connect_resource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1549,8 +1549,8 @@ export class DataTencentcloudCkafkaConnectResource extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_ckafka_connect_resource',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

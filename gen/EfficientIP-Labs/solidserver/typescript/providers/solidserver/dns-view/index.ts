@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface DnsViewConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of network prefixes allowed to query the view (named ACL(s) are not supported using this provider).  Use '!' to negate an entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#allow_query DnsView#allow_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#allow_query DnsView#allow_query}
   */
   readonly allowQuery?: string[];
   /**
   * A list of network prefixes allowed to query the view for recursion (named ACL(s) are not supported using this provider).  Use '!' to negate an entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#allow_recursion DnsView#allow_recursion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#allow_recursion DnsView#allow_recursion}
   */
   readonly allowRecursion?: string[];
   /**
   * A list of network prefixes allowed to query the view for zone transfert (named ACL(s) are not supported using this provider).  Use '!' to negate an entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#allow_transfer DnsView#allow_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#allow_transfer DnsView#allow_transfer}
   */
   readonly allowTransfer?: string[];
   /**
   * The class associated to the DNS view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#class DnsView#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#class DnsView#class}
   */
   readonly class?: string;
   /**
   * The class parameters associated to the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#class_parameters DnsView#class_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#class_parameters DnsView#class_parameters}
   */
   readonly classParameters?: { [key: string]: string };
   /**
   * The name of DNS server or DNS SMART hosting the DNS view to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#dnsserver DnsView#dnsserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#dnsserver DnsView#dnsserver}
   */
   readonly dnsserver: string;
   /**
   * The forwarding mode of the DNS SMART (Supported: none, first, only; Default: none).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#forward DnsView#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#forward DnsView#forward}
   */
   readonly forward?: string;
   /**
   * The IP address list of the forwarder(s) configured to configure on the DNS SMART.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#forwarders DnsView#forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#forwarders DnsView#forwarders}
   */
   readonly forwarders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#id DnsView#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#id DnsView#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,31 +65,31 @@ export interface DnsViewConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of network prefixes used to match the clients of the view (named ACL(s) are not supported using this provider).  Use '!' to negate an entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#match_clients DnsView#match_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#match_clients DnsView#match_clients}
   */
   readonly matchClients?: string[];
   /**
   * A list of network prefixes used to match the traffic to the view (named ACL(s) are not supported using this provider).  Use '!' to negate an entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#match_to DnsView#match_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#match_to DnsView#match_to}
   */
   readonly matchTo?: string[];
   /**
   * The name of the DNS view to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#name DnsView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#name DnsView#name}
   */
   readonly name: string;
   /**
   * The recursion mode of the DNS view (Default: true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#recursion DnsView#recursion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#recursion DnsView#recursion}
   */
   readonly recursion?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view solidserver_dns_view}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view solidserver_dns_view}
 */
 export class DnsView extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class DnsView extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsView to import
-  * @param importFromId The id of the existing DnsView that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsView that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class DnsView extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_view solidserver_dns_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_view solidserver_dns_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class DnsView extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_dns_view',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

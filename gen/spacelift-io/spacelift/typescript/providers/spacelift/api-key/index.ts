@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/api_key
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/api_key#id ApiKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/api_key#id ApiKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of idp groups associated with the API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/api_key#idp_groups ApiKey#idp_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/api_key#idp_groups ApiKey#idp_groups}
   */
   readonly idpGroups?: string[];
   /**
   * Name of the API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/api_key#name ApiKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/api_key#name ApiKey#name}
   */
   readonly name: string;
   /**
   * oidc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/api_key#oidc ApiKey#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/api_key#oidc ApiKey#oidc}
   */
   readonly oidc?: ApiKeyOidc;
 }
@@ -37,19 +37,19 @@ export interface ApiKeyOidc {
   /**
   * OIDC client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/api_key#client_id ApiKey#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/api_key#client_id ApiKey#client_id}
   */
   readonly clientId: string;
   /**
   * OIDC issuer URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/api_key#issuer ApiKey#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/api_key#issuer ApiKey#issuer}
   */
   readonly issuer: string;
   /**
   * OIDC subject expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/api_key#subject_expression ApiKey#subject_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/api_key#subject_expression ApiKey#subject_expression}
   */
   readonly subjectExpression: string;
 }
@@ -182,7 +182,7 @@ export class ApiKeyOidcOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/api_key spacelift_api_key}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/api_key spacelift_api_key}
 */
 export class ApiKey extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class ApiKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiKey to import
-  * @param importFromId The id of the existing ApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class ApiKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/api_key spacelift_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/api_key spacelift_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class ApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_api_key',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.38.0',
-        providerVersionConstraint: '1.38.0'
+        providerVersion: '1.39.0',
+        providerVersionConstraint: '1.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

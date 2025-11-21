@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ExpressConnectRouterVpcAssociationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association#allowed_prefixes ExpressConnectRouterVpcAssociation#allowed_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association#allowed_prefixes ExpressConnectRouterVpcAssociation#allowed_prefixes}
   */
   readonly allowedPrefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association#association_region_id ExpressConnectRouterVpcAssociation#association_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association#association_region_id ExpressConnectRouterVpcAssociation#association_region_id}
   */
   readonly associationRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association#ecr_id ExpressConnectRouterVpcAssociation#ecr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association#ecr_id ExpressConnectRouterVpcAssociation#ecr_id}
   */
   readonly ecrId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association#id ExpressConnectRouterVpcAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association#id ExpressConnectRouterVpcAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association#vpc_id ExpressConnectRouterVpcAssociation#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association#vpc_id ExpressConnectRouterVpcAssociation#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association#vpc_owner_id ExpressConnectRouterVpcAssociation#vpc_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association#vpc_owner_id ExpressConnectRouterVpcAssociation#vpc_owner_id}
   */
   readonly vpcOwnerId?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association#timeouts ExpressConnectRouterVpcAssociation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association#timeouts ExpressConnectRouterVpcAssociation#timeouts}
   */
   readonly timeouts?: ExpressConnectRouterVpcAssociationTimeouts;
 }
 export interface ExpressConnectRouterVpcAssociationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association#create ExpressConnectRouterVpcAssociation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association#create ExpressConnectRouterVpcAssociation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association#delete ExpressConnectRouterVpcAssociation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association#delete ExpressConnectRouterVpcAssociation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association#update ExpressConnectRouterVpcAssociation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association#update ExpressConnectRouterVpcAssociation#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class ExpressConnectRouterVpcAssociationTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association alicloud_express_connect_router_vpc_association}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association alicloud_express_connect_router_vpc_association}
 */
 export class ExpressConnectRouterVpcAssociation extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class ExpressConnectRouterVpcAssociation extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ExpressConnectRouterVpcAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExpressConnectRouterVpcAssociation to import
-  * @param importFromId The id of the existing ExpressConnectRouterVpcAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExpressConnectRouterVpcAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExpressConnectRouterVpcAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class ExpressConnectRouterVpcAssociation extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_router_vpc_association alicloud_express_connect_router_vpc_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_vpc_association alicloud_express_connect_router_vpc_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class ExpressConnectRouterVpcAssociation extends cdktf.TerraformResource 
       terraformResourceType: 'alicloud_express_connect_router_vpc_association',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

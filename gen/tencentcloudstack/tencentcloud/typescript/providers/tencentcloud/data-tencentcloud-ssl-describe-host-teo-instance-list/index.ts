@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_teo_instance_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ssl_describe_host_teo_instance_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudSslDescribeHostTeoInstanceListConfig extends cd
   /**
   * Certificate ID to be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_teo_instance_list#certificate_id DataTencentcloudSslDescribeHostTeoInstanceList#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ssl_describe_host_teo_instance_list#certificate_id DataTencentcloudSslDescribeHostTeoInstanceList#certificate_id}
   */
   readonly certificateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_teo_instance_list#id DataTencentcloudSslDescribeHostTeoInstanceList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ssl_describe_host_teo_instance_list#id DataTencentcloudSslDescribeHostTeoInstanceList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudSslDescribeHostTeoInstanceListConfig extends cd
   /**
   * Whether to query the cache, 1: Yes; 0: No, the default is the query cache, the cache is half an hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_teo_instance_list#is_cache DataTencentcloudSslDescribeHostTeoInstanceList#is_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ssl_describe_host_teo_instance_list#is_cache DataTencentcloudSslDescribeHostTeoInstanceList#is_cache}
   */
   readonly isCache?: number;
   /**
   * Deployed certificate ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_teo_instance_list#old_certificate_id DataTencentcloudSslDescribeHostTeoInstanceList#old_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ssl_describe_host_teo_instance_list#old_certificate_id DataTencentcloudSslDescribeHostTeoInstanceList#old_certificate_id}
   */
   readonly oldCertificateId?: string;
   /**
   * Deploy resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_teo_instance_list#resource_type DataTencentcloudSslDescribeHostTeoInstanceList#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ssl_describe_host_teo_instance_list#resource_type DataTencentcloudSslDescribeHostTeoInstanceList#resource_type}
   */
   readonly resourceType: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_teo_instance_list#result_output_file DataTencentcloudSslDescribeHostTeoInstanceList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ssl_describe_host_teo_instance_list#result_output_file DataTencentcloudSslDescribeHostTeoInstanceList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_teo_instance_list#filters DataTencentcloudSslDescribeHostTeoInstanceList#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ssl_describe_host_teo_instance_list#filters DataTencentcloudSslDescribeHostTeoInstanceList#filters}
   */
   readonly filters?: DataTencentcloudSslDescribeHostTeoInstanceListFilters[] | cdktf.IResolvable;
 }
@@ -145,13 +145,13 @@ export interface DataTencentcloudSslDescribeHostTeoInstanceListFilters {
   /**
   * Filter parameter key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_teo_instance_list#filter_key DataTencentcloudSslDescribeHostTeoInstanceList#filter_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ssl_describe_host_teo_instance_list#filter_key DataTencentcloudSslDescribeHostTeoInstanceList#filter_key}
   */
   readonly filterKey: string;
   /**
   * Filter parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_teo_instance_list#filter_value DataTencentcloudSslDescribeHostTeoInstanceList#filter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ssl_describe_host_teo_instance_list#filter_value DataTencentcloudSslDescribeHostTeoInstanceList#filter_value}
   */
   readonly filterValue: string;
 }
@@ -290,7 +290,7 @@ export class DataTencentcloudSslDescribeHostTeoInstanceListFiltersList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_teo_instance_list tencentcloud_ssl_describe_host_teo_instance_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ssl_describe_host_teo_instance_list tencentcloud_ssl_describe_host_teo_instance_list}
 */
 export class DataTencentcloudSslDescribeHostTeoInstanceList extends cdktf.TerraformDataSource {
 
@@ -306,7 +306,7 @@ export class DataTencentcloudSslDescribeHostTeoInstanceList extends cdktf.Terraf
   * Generates CDKTF code for importing a DataTencentcloudSslDescribeHostTeoInstanceList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSslDescribeHostTeoInstanceList to import
-  * @param importFromId The id of the existing DataTencentcloudSslDescribeHostTeoInstanceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_teo_instance_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSslDescribeHostTeoInstanceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ssl_describe_host_teo_instance_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSslDescribeHostTeoInstanceList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -318,7 +318,7 @@ export class DataTencentcloudSslDescribeHostTeoInstanceList extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_teo_instance_list tencentcloud_ssl_describe_host_teo_instance_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ssl_describe_host_teo_instance_list tencentcloud_ssl_describe_host_teo_instance_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -329,8 +329,8 @@ export class DataTencentcloudSslDescribeHostTeoInstanceList extends cdktf.Terraf
       terraformResourceType: 'tencentcloud_ssl_describe_host_teo_instance_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

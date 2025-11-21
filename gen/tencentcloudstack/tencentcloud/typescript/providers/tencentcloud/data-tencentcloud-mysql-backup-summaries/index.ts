@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_backup_summaries
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_backup_summaries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudMysqlBackupSummariesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_backup_summaries#id DataTencentcloudMysqlBackupSummaries#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_backup_summaries#id DataTencentcloudMysqlBackupSummaries#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudMysqlBackupSummariesConfig extends cdktf.Terraf
   /**
   * Specify to sort by a certain item, the optional values include: BackupVolume: backup volume, DataBackupVolume: data backup volume, BinlogBackupVolume: log backup volume, AutoBackupVolume: automatic backup volume, ManualBackupVolume: manual backup volume. By default, they are sorted by BackupVolume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_backup_summaries#order_by DataTencentcloudMysqlBackupSummaries#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_backup_summaries#order_by DataTencentcloudMysqlBackupSummaries#order_by}
   */
   readonly orderBy?: string;
   /**
   * Specify the sorting direction, optional values include: ASC: forward order, DESC: reverse order. The default is ASC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_backup_summaries#order_direction DataTencentcloudMysqlBackupSummaries#order_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_backup_summaries#order_direction DataTencentcloudMysqlBackupSummaries#order_direction}
   */
   readonly orderDirection?: string;
   /**
   * The type of cloud database product to be queried, currently only supports `mysql`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_backup_summaries#product DataTencentcloudMysqlBackupSummaries#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_backup_summaries#product DataTencentcloudMysqlBackupSummaries#product}
   */
   readonly product: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_backup_summaries#result_output_file DataTencentcloudMysqlBackupSummaries#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_backup_summaries#result_output_file DataTencentcloudMysqlBackupSummaries#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -161,7 +161,7 @@ export class DataTencentcloudMysqlBackupSummariesItemsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_backup_summaries tencentcloud_mysql_backup_summaries}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_backup_summaries tencentcloud_mysql_backup_summaries}
 */
 export class DataTencentcloudMysqlBackupSummaries extends cdktf.TerraformDataSource {
 
@@ -177,7 +177,7 @@ export class DataTencentcloudMysqlBackupSummaries extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudMysqlBackupSummaries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMysqlBackupSummaries to import
-  * @param importFromId The id of the existing DataTencentcloudMysqlBackupSummaries that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_backup_summaries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMysqlBackupSummaries that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_backup_summaries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMysqlBackupSummaries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class DataTencentcloudMysqlBackupSummaries extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mysql_backup_summaries tencentcloud_mysql_backup_summaries} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mysql_backup_summaries tencentcloud_mysql_backup_summaries} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class DataTencentcloudMysqlBackupSummaries extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_mysql_backup_summaries',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface EsaLoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#default_pools EsaLoadBalancer#default_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#default_pools EsaLoadBalancer#default_pools}
   */
   readonly defaultPools: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#description EsaLoadBalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#description EsaLoadBalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#enabled EsaLoadBalancer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#enabled EsaLoadBalancer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#fallback_pool EsaLoadBalancer#fallback_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#fallback_pool EsaLoadBalancer#fallback_pool}
   */
   readonly fallbackPool: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#id EsaLoadBalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#id EsaLoadBalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#load_balancer_name EsaLoadBalancer#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#load_balancer_name EsaLoadBalancer#load_balancer_name}
   */
   readonly loadBalancerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#region_pools EsaLoadBalancer#region_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#region_pools EsaLoadBalancer#region_pools}
   */
   readonly regionPools?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#session_affinity EsaLoadBalancer#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#session_affinity EsaLoadBalancer#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#site_id EsaLoadBalancer#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#site_id EsaLoadBalancer#site_id}
   */
-  readonly siteId: number;
+  readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#steering_policy EsaLoadBalancer#steering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#steering_policy EsaLoadBalancer#steering_policy}
   */
   readonly steeringPolicy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#sub_region_pools EsaLoadBalancer#sub_region_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#sub_region_pools EsaLoadBalancer#sub_region_pools}
   */
   readonly subRegionPools?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#ttl EsaLoadBalancer#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#ttl EsaLoadBalancer#ttl}
   */
   readonly ttl?: number;
   /**
   * adaptive_routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#adaptive_routing EsaLoadBalancer#adaptive_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#adaptive_routing EsaLoadBalancer#adaptive_routing}
   */
   readonly adaptiveRouting?: EsaLoadBalancerAdaptiveRouting;
   /**
   * monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#monitor EsaLoadBalancer#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#monitor EsaLoadBalancer#monitor}
   */
   readonly monitor: EsaLoadBalancerMonitor;
   /**
   * random_steering block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#random_steering EsaLoadBalancer#random_steering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#random_steering EsaLoadBalancer#random_steering}
   */
   readonly randomSteering?: EsaLoadBalancerRandomSteering;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#rules EsaLoadBalancer#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#rules EsaLoadBalancer#rules}
   */
   readonly rules?: EsaLoadBalancerRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#timeouts EsaLoadBalancer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#timeouts EsaLoadBalancer#timeouts}
   */
   readonly timeouts?: EsaLoadBalancerTimeouts;
 }
 export interface EsaLoadBalancerAdaptiveRouting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#failover_across_pools EsaLoadBalancer#failover_across_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#failover_across_pools EsaLoadBalancer#failover_across_pools}
   */
   readonly failoverAcrossPools?: boolean | cdktf.IResolvable;
 }
@@ -175,51 +175,51 @@ export class EsaLoadBalancerAdaptiveRoutingOutputReference extends cdktf.Complex
 }
 export interface EsaLoadBalancerMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#consecutive_down EsaLoadBalancer#consecutive_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#consecutive_down EsaLoadBalancer#consecutive_down}
   */
   readonly consecutiveDown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#consecutive_up EsaLoadBalancer#consecutive_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#consecutive_up EsaLoadBalancer#consecutive_up}
   */
   readonly consecutiveUp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#expected_codes EsaLoadBalancer#expected_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#expected_codes EsaLoadBalancer#expected_codes}
   */
   readonly expectedCodes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#follow_redirects EsaLoadBalancer#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#follow_redirects EsaLoadBalancer#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#header EsaLoadBalancer#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#header EsaLoadBalancer#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#interval EsaLoadBalancer#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#interval EsaLoadBalancer#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#method EsaLoadBalancer#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#method EsaLoadBalancer#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#monitoring_region EsaLoadBalancer#monitoring_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#monitoring_region EsaLoadBalancer#monitoring_region}
   */
   readonly monitoringRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#path EsaLoadBalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#path EsaLoadBalancer#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#port EsaLoadBalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#port EsaLoadBalancer#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#timeout EsaLoadBalancer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#timeout EsaLoadBalancer#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#type EsaLoadBalancer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#type EsaLoadBalancer#type}
   */
   readonly type?: string;
 }
@@ -622,11 +622,11 @@ export class EsaLoadBalancerMonitorOutputReference extends cdktf.ComplexObject {
 }
 export interface EsaLoadBalancerRandomSteering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#default_weight EsaLoadBalancer#default_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#default_weight EsaLoadBalancer#default_weight}
   */
   readonly defaultWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#pool_weights EsaLoadBalancer#pool_weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#pool_weights EsaLoadBalancer#pool_weights}
   */
   readonly poolWeights?: { [key: string]: string };
 }
@@ -739,19 +739,19 @@ export class EsaLoadBalancerRandomSteeringOutputReference extends cdktf.ComplexO
 }
 export interface EsaLoadBalancerRulesFixedResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#content_type EsaLoadBalancer#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#content_type EsaLoadBalancer#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#location EsaLoadBalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#location EsaLoadBalancer#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#message_body EsaLoadBalancer#message_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#message_body EsaLoadBalancer#message_body}
   */
   readonly messageBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#status_code EsaLoadBalancer#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#status_code EsaLoadBalancer#status_code}
   */
   readonly statusCode?: number;
 }
@@ -922,33 +922,33 @@ export class EsaLoadBalancerRulesFixedResponseOutputReference extends cdktf.Comp
 }
 export interface EsaLoadBalancerRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#overrides EsaLoadBalancer#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#overrides EsaLoadBalancer#overrides}
   */
   readonly overrides?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#rule EsaLoadBalancer#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#rule EsaLoadBalancer#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#rule_enable EsaLoadBalancer#rule_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#rule_enable EsaLoadBalancer#rule_enable}
   */
   readonly ruleEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#rule_name EsaLoadBalancer#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#rule_name EsaLoadBalancer#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#sequence EsaLoadBalancer#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#sequence EsaLoadBalancer#sequence}
   */
   readonly sequence?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#terminates EsaLoadBalancer#terminates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#terminates EsaLoadBalancer#terminates}
   */
   readonly terminates?: boolean | cdktf.IResolvable;
   /**
   * fixed_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#fixed_response EsaLoadBalancer#fixed_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#fixed_response EsaLoadBalancer#fixed_response}
   */
   readonly fixedResponse?: EsaLoadBalancerRulesFixedResponse;
 }
@@ -1238,15 +1238,15 @@ export class EsaLoadBalancerRulesList extends cdktf.ComplexList {
 }
 export interface EsaLoadBalancerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#create EsaLoadBalancer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#create EsaLoadBalancer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#delete EsaLoadBalancer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#delete EsaLoadBalancer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#update EsaLoadBalancer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#update EsaLoadBalancer#update}
   */
   readonly update?: string;
 }
@@ -1398,7 +1398,7 @@ export class EsaLoadBalancerTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer alicloud_esa_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer alicloud_esa_load_balancer}
 */
 export class EsaLoadBalancer extends cdktf.TerraformResource {
 
@@ -1414,7 +1414,7 @@ export class EsaLoadBalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaLoadBalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaLoadBalancer to import
-  * @param importFromId The id of the existing EsaLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaLoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1426,7 +1426,7 @@ export class EsaLoadBalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_load_balancer alicloud_esa_load_balancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_load_balancer alicloud_esa_load_balancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1437,8 +1437,8 @@ export class EsaLoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1596,11 +1596,11 @@ export class EsaLoadBalancer extends cdktf.TerraformResource {
   }
 
   // site_id - computed: false, optional: false, required: true
-  private _siteId?: number; 
+  private _siteId?: string; 
   public get siteId() {
-    return this.getNumberAttribute('site_id');
+    return this.getStringAttribute('site_id');
   }
-  public set siteId(value: number) {
+  public set siteId(value: string) {
     this._siteId = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1749,7 +1749,7 @@ export class EsaLoadBalancer extends cdktf.TerraformResource {
       load_balancer_name: cdktf.stringToTerraform(this._loadBalancerName),
       region_pools: cdktf.stringToTerraform(this._regionPools),
       session_affinity: cdktf.stringToTerraform(this._sessionAffinity),
-      site_id: cdktf.numberToTerraform(this._siteId),
+      site_id: cdktf.stringToTerraform(this._siteId),
       steering_policy: cdktf.stringToTerraform(this._steeringPolicy),
       sub_region_pools: cdktf.stringToTerraform(this._subRegionPools),
       ttl: cdktf.numberToTerraform(this._ttl),
@@ -1812,10 +1812,10 @@ export class EsaLoadBalancer extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       site_id: {
-        value: cdktf.numberToHclTerraform(this._siteId),
+        value: cdktf.stringToHclTerraform(this._siteId),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       steering_policy: {
         value: cdktf.stringToHclTerraform(this._steeringPolicy),

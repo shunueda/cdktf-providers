@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DayuCcHttpsPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Action mode. Valid values are `alg` and `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy#action DayuCcHttpsPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy#action DayuCcHttpsPolicy#action}
   */
   readonly action?: string;
   /**
   * Domain that the CC self-define https policy works for, only valid when `protocol` is `https`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy#domain DayuCcHttpsPolicy#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy#domain DayuCcHttpsPolicy#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy#id DayuCcHttpsPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy#id DayuCcHttpsPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface DayuCcHttpsPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the CC self-define https policy. Length should between 1 and 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy#name DayuCcHttpsPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy#name DayuCcHttpsPolicy#name}
   */
   readonly name: string;
   /**
   * ID of the resource that the CC self-define https policy works for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy#resource_id DayuCcHttpsPolicy#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy#resource_id DayuCcHttpsPolicy#resource_id}
   */
   readonly resourceId: string;
   /**
   * Type of the resource that the CC self-define https policy works for, valid value is `bgpip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy#resource_type DayuCcHttpsPolicy#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy#resource_type DayuCcHttpsPolicy#resource_type}
   */
   readonly resourceType: string;
   /**
   * Rule id of the domain that the CC self-define https policy works for, only valid when `protocol` is `https`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy#rule_id DayuCcHttpsPolicy#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy#rule_id DayuCcHttpsPolicy#rule_id}
   */
   readonly ruleId: string;
   /**
   * Indicate the CC self-define https policy takes effect or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy#switch DayuCcHttpsPolicy#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy#switch DayuCcHttpsPolicy#switch}
   */
   readonly switch?: boolean | cdktf.IResolvable;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy#rule_list DayuCcHttpsPolicy#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy#rule_list DayuCcHttpsPolicy#rule_list}
   */
   readonly ruleList: DayuCcHttpsPolicyRuleListStruct[] | cdktf.IResolvable;
 }
@@ -67,19 +67,19 @@ export interface DayuCcHttpsPolicyRuleListStruct {
   /**
   * Operator of the rule. Valid values are `include` and `equal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy#operator DayuCcHttpsPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy#operator DayuCcHttpsPolicy#operator}
   */
   readonly operator: string;
   /**
   * Key of the rule. Valid values are `cgi`, `ua` and `referer`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy#skey DayuCcHttpsPolicy#skey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy#skey DayuCcHttpsPolicy#skey}
   */
   readonly skey: string;
   /**
   * Rule value, then length should be less than 31 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy#value DayuCcHttpsPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy#value DayuCcHttpsPolicy#value}
   */
   readonly value: string;
 }
@@ -244,7 +244,7 @@ export class DayuCcHttpsPolicyRuleListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy tencentcloud_dayu_cc_https_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy tencentcloud_dayu_cc_https_policy}
 */
 export class DayuCcHttpsPolicy extends cdktf.TerraformResource {
 
@@ -260,7 +260,7 @@ export class DayuCcHttpsPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DayuCcHttpsPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DayuCcHttpsPolicy to import
-  * @param importFromId The id of the existing DayuCcHttpsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DayuCcHttpsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DayuCcHttpsPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -272,7 +272,7 @@ export class DayuCcHttpsPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dayu_cc_https_policy tencentcloud_dayu_cc_https_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dayu_cc_https_policy tencentcloud_dayu_cc_https_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -283,8 +283,8 @@ export class DayuCcHttpsPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dayu_cc_https_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

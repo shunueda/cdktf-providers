@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cbs_snapshots
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cbs_snapshots
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCbsSnapshotsConfig extends cdktf.TerraformMetaA
   /**
   * The available zone that the CBS instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cbs_snapshots#availability_zone DataTencentcloudCbsSnapshots#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cbs_snapshots#availability_zone DataTencentcloudCbsSnapshots#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cbs_snapshots#id DataTencentcloudCbsSnapshots#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cbs_snapshots#id DataTencentcloudCbsSnapshots#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DataTencentcloudCbsSnapshotsConfig extends cdktf.TerraformMetaA
   /**
   * ID of the project within the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cbs_snapshots#project_id DataTencentcloudCbsSnapshots#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cbs_snapshots#project_id DataTencentcloudCbsSnapshots#project_id}
   */
   readonly projectId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cbs_snapshots#result_output_file DataTencentcloudCbsSnapshots#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cbs_snapshots#result_output_file DataTencentcloudCbsSnapshots#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of the snapshot to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cbs_snapshots#snapshot_id DataTencentcloudCbsSnapshots#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cbs_snapshots#snapshot_id DataTencentcloudCbsSnapshots#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * Name of the snapshot to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cbs_snapshots#snapshot_name DataTencentcloudCbsSnapshots#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cbs_snapshots#snapshot_name DataTencentcloudCbsSnapshots#snapshot_name}
   */
   readonly snapshotName?: string;
   /**
   * ID of the the CBS which this snapshot created from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cbs_snapshots#storage_id DataTencentcloudCbsSnapshots#storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cbs_snapshots#storage_id DataTencentcloudCbsSnapshots#storage_id}
   */
   readonly storageId?: string;
   /**
   * Types of CBS which this snapshot created from, and available values include `SYSTEM_DISK` and `DATA_DISK`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cbs_snapshots#storage_usage DataTencentcloudCbsSnapshots#storage_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cbs_snapshots#storage_usage DataTencentcloudCbsSnapshots#storage_usage}
   */
   readonly storageUsage?: string;
 }
@@ -179,7 +179,7 @@ export class DataTencentcloudCbsSnapshotsSnapshotListStructList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cbs_snapshots tencentcloud_cbs_snapshots}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cbs_snapshots tencentcloud_cbs_snapshots}
 */
 export class DataTencentcloudCbsSnapshots extends cdktf.TerraformDataSource {
 
@@ -195,7 +195,7 @@ export class DataTencentcloudCbsSnapshots extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCbsSnapshots resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCbsSnapshots to import
-  * @param importFromId The id of the existing DataTencentcloudCbsSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cbs_snapshots#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCbsSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cbs_snapshots#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCbsSnapshots to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DataTencentcloudCbsSnapshots extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cbs_snapshots tencentcloud_cbs_snapshots} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cbs_snapshots tencentcloud_cbs_snapshots} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class DataTencentcloudCbsSnapshots extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cbs_snapshots',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

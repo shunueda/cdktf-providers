@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_vul_whitelist
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_vul_whitelist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionVulWhitelistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_vul_whitelist#id ThreatDetectionVulWhitelist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_vul_whitelist#id ThreatDetectionVulWhitelist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_vul_whitelist#reason ThreatDetectionVulWhitelist#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_vul_whitelist#reason ThreatDetectionVulWhitelist#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_vul_whitelist#target_info ThreatDetectionVulWhitelist#target_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_vul_whitelist#target_info ThreatDetectionVulWhitelist#target_info}
   */
   readonly targetInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_vul_whitelist#whitelist ThreatDetectionVulWhitelist#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_vul_whitelist#whitelist ThreatDetectionVulWhitelist#whitelist}
   */
   readonly whitelist: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_vul_whitelist#timeouts ThreatDetectionVulWhitelist#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_vul_whitelist#timeouts ThreatDetectionVulWhitelist#timeouts}
   */
   readonly timeouts?: ThreatDetectionVulWhitelistTimeouts;
 }
 export interface ThreatDetectionVulWhitelistTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_vul_whitelist#create ThreatDetectionVulWhitelist#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_vul_whitelist#create ThreatDetectionVulWhitelist#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_vul_whitelist#delete ThreatDetectionVulWhitelist#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_vul_whitelist#delete ThreatDetectionVulWhitelist#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_vul_whitelist#update ThreatDetectionVulWhitelist#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_vul_whitelist#update ThreatDetectionVulWhitelist#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class ThreatDetectionVulWhitelistTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_vul_whitelist alicloud_threat_detection_vul_whitelist}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_vul_whitelist alicloud_threat_detection_vul_whitelist}
 */
 export class ThreatDetectionVulWhitelist extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class ThreatDetectionVulWhitelist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatDetectionVulWhitelist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionVulWhitelist to import
-  * @param importFromId The id of the existing ThreatDetectionVulWhitelist that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_vul_whitelist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionVulWhitelist that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_vul_whitelist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionVulWhitelist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class ThreatDetectionVulWhitelist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/threat_detection_vul_whitelist alicloud_threat_detection_vul_whitelist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_vul_whitelist alicloud_threat_detection_vul_whitelist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class ThreatDetectionVulWhitelist extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_threat_detection_vul_whitelist',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface VpcFlowLogConfig extends cdktf.TerraformMetaArguments {
   /**
   * The storage ID of the flow log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#cloud_log_id VpcFlowLog#cloud_log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#cloud_log_id VpcFlowLog#cloud_log_id}
   */
   readonly cloudLogId?: string;
   /**
   * The region corresponding to the flow log storage ID. If not passed in, this field defaults to the current region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#cloud_log_region VpcFlowLog#cloud_log_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#cloud_log_region VpcFlowLog#cloud_log_region}
   */
   readonly cloudLogRegion?: string;
   /**
   * The description of the flow log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#flow_log_description VpcFlowLog#flow_log_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#flow_log_description VpcFlowLog#flow_log_description}
   */
   readonly flowLogDescription?: string;
   /**
   * The name of the flow log instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#flow_log_name VpcFlowLog#flow_log_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#flow_log_name VpcFlowLog#flow_log_name}
   */
   readonly flowLogName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#id VpcFlowLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#id VpcFlowLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface VpcFlowLogConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique ID of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#resource_id VpcFlowLog#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#resource_id VpcFlowLog#resource_id}
   */
   readonly resourceId: string;
   /**
   * The type of resource associated with the flow log. Valid values: `VPC`, `SUBNET`, `NETWORKINTERFACE`, `CCN`, `NAT`, and `DCG`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#resource_type VpcFlowLog#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#resource_type VpcFlowLog#resource_type}
   */
   readonly resourceType: string;
   /**
   * Consumer types: `cls` and `ckafka`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#storage_type VpcFlowLog#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#storage_type VpcFlowLog#storage_type}
   */
   readonly storageType?: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#tags VpcFlowLog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#tags VpcFlowLog#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Type of the flow logs to be collected. Valid values: `ACCEPT`, `REJECT` and `ALL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#traffic_type VpcFlowLog#traffic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#traffic_type VpcFlowLog#traffic_type}
   */
   readonly trafficType: string;
   /**
   * The VPC ID or unique ID of the resource. We recommend using the unique ID. This parameter is required unless the `ResourceType` is set to `CCN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#vpc_id VpcFlowLog#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#vpc_id VpcFlowLog#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * flow_log_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#flow_log_storage VpcFlowLog#flow_log_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#flow_log_storage VpcFlowLog#flow_log_storage}
   */
   readonly flowLogStorage?: VpcFlowLogFlowLogStorage;
 }
@@ -85,13 +85,13 @@ export interface VpcFlowLogFlowLogStorage {
   /**
   * Storage instance ID, required while `storage_type` is `ckafka`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#storage_id VpcFlowLog#storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#storage_id VpcFlowLog#storage_id}
   */
   readonly storageId?: string;
   /**
   * Topic ID, required while `storage_type` is `ckafka`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#storage_topic VpcFlowLog#storage_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#storage_topic VpcFlowLog#storage_topic}
   */
   readonly storageTopic?: string;
 }
@@ -204,7 +204,7 @@ export class VpcFlowLogFlowLogStorageOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log tencentcloud_vpc_flow_log}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log tencentcloud_vpc_flow_log}
 */
 export class VpcFlowLog extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class VpcFlowLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcFlowLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcFlowLog to import
-  * @param importFromId The id of the existing VpcFlowLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcFlowLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcFlowLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class VpcFlowLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_flow_log tencentcloud_vpc_flow_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vpc_flow_log tencentcloud_vpc_flow_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class VpcFlowLog extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpc_flow_log',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

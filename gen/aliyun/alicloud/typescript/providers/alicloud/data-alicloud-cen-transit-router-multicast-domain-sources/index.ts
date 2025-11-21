@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cen_transit_router_multicast_domain_sources
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_transit_router_multicast_domain_sources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCenTransitRouterMulticastDomainSourcesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cen_transit_router_multicast_domain_sources#id DataAlicloudCenTransitRouterMulticastDomainSources#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_transit_router_multicast_domain_sources#id DataAlicloudCenTransitRouterMulticastDomainSources#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cen_transit_router_multicast_domain_sources#ids DataAlicloudCenTransitRouterMulticastDomainSources#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_transit_router_multicast_domain_sources#ids DataAlicloudCenTransitRouterMulticastDomainSources#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cen_transit_router_multicast_domain_sources#output_file DataAlicloudCenTransitRouterMulticastDomainSources#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_transit_router_multicast_domain_sources#output_file DataAlicloudCenTransitRouterMulticastDomainSources#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cen_transit_router_multicast_domain_sources#transit_router_multicast_domain_id DataAlicloudCenTransitRouterMulticastDomainSources#transit_router_multicast_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_transit_router_multicast_domain_sources#transit_router_multicast_domain_id DataAlicloudCenTransitRouterMulticastDomainSources#transit_router_multicast_domain_id}
   */
   readonly transitRouterMulticastDomainId: string;
 }
@@ -129,7 +129,7 @@ export class DataAlicloudCenTransitRouterMulticastDomainSourcesSourcesList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cen_transit_router_multicast_domain_sources alicloud_cen_transit_router_multicast_domain_sources}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_transit_router_multicast_domain_sources alicloud_cen_transit_router_multicast_domain_sources}
 */
 export class DataAlicloudCenTransitRouterMulticastDomainSources extends cdktf.TerraformDataSource {
 
@@ -145,7 +145,7 @@ export class DataAlicloudCenTransitRouterMulticastDomainSources extends cdktf.Te
   * Generates CDKTF code for importing a DataAlicloudCenTransitRouterMulticastDomainSources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCenTransitRouterMulticastDomainSources to import
-  * @param importFromId The id of the existing DataAlicloudCenTransitRouterMulticastDomainSources that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cen_transit_router_multicast_domain_sources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCenTransitRouterMulticastDomainSources that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_transit_router_multicast_domain_sources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCenTransitRouterMulticastDomainSources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -157,7 +157,7 @@ export class DataAlicloudCenTransitRouterMulticastDomainSources extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cen_transit_router_multicast_domain_sources alicloud_cen_transit_router_multicast_domain_sources} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_transit_router_multicast_domain_sources alicloud_cen_transit_router_multicast_domain_sources} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -168,8 +168,8 @@ export class DataAlicloudCenTransitRouterMulticastDomainSources extends cdktf.Te
       terraformResourceType: 'alicloud_cen_transit_router_multicast_domain_sources',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

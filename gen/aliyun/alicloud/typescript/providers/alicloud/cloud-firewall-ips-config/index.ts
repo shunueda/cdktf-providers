@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface CloudFirewallIpsConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config#basic_rules CloudFirewallIpsConfig#basic_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config#basic_rules CloudFirewallIpsConfig#basic_rules}
   */
   readonly basicRules?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config#cti_rules CloudFirewallIpsConfig#cti_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config#cti_rules CloudFirewallIpsConfig#cti_rules}
   */
   readonly ctiRules?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config#id CloudFirewallIpsConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config#id CloudFirewallIpsConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config#lang CloudFirewallIpsConfig#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config#lang CloudFirewallIpsConfig#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config#max_sdl CloudFirewallIpsConfig#max_sdl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config#max_sdl CloudFirewallIpsConfig#max_sdl}
   */
   readonly maxSdl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config#patch_rules CloudFirewallIpsConfig#patch_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config#patch_rules CloudFirewallIpsConfig#patch_rules}
   */
   readonly patchRules?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config#rule_class CloudFirewallIpsConfig#rule_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config#rule_class CloudFirewallIpsConfig#rule_class}
   */
   readonly ruleClass?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config#run_mode CloudFirewallIpsConfig#run_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config#run_mode CloudFirewallIpsConfig#run_mode}
   */
   readonly runMode?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config#timeouts CloudFirewallIpsConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config#timeouts CloudFirewallIpsConfig#timeouts}
   */
   readonly timeouts?: CloudFirewallIpsConfigTimeouts;
 }
 export interface CloudFirewallIpsConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config#create CloudFirewallIpsConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config#create CloudFirewallIpsConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config#delete CloudFirewallIpsConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config#delete CloudFirewallIpsConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config#update CloudFirewallIpsConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config#update CloudFirewallIpsConfig#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class CloudFirewallIpsConfigTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config alicloud_cloud_firewall_ips_config}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config alicloud_cloud_firewall_ips_config}
 */
 export class CloudFirewallIpsConfig extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class CloudFirewallIpsConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudFirewallIpsConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudFirewallIpsConfig to import
-  * @param importFromId The id of the existing CloudFirewallIpsConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudFirewallIpsConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudFirewallIpsConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class CloudFirewallIpsConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cloud_firewall_ips_config alicloud_cloud_firewall_ips_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_firewall_ips_config alicloud_cloud_firewall_ips_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class CloudFirewallIpsConfig extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_firewall_ips_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClbReplaceCertForLbsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs#id ClbReplaceCertForLbs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs#id ClbReplaceCertForLbs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ClbReplaceCertForLbsConfig extends cdktf.TerraformMetaArguments
   /**
   * ID of the certificate to be replaced, which can be a server certificate or a client certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs#old_certificate_id ClbReplaceCertForLbs#old_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs#old_certificate_id ClbReplaceCertForLbs#old_certificate_id}
   */
   readonly oldCertificateId: string;
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs#certificate ClbReplaceCertForLbs#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs#certificate ClbReplaceCertForLbs#certificate}
   */
   readonly certificate: ClbReplaceCertForLbsCertificate;
 }
@@ -31,49 +31,49 @@ export interface ClbReplaceCertForLbsCertificate {
   /**
   * Content of the uploaded client certificate. When SSLMode = mutual, if there is no CertCaId, this parameter is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs#cert_ca_content ClbReplaceCertForLbs#cert_ca_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs#cert_ca_content ClbReplaceCertForLbs#cert_ca_content}
   */
   readonly certCaContent?: string;
   /**
   * ID of a client certificate. When the listener adopts mutual authentication (i.e., SSLMode = mutual), if you leave this parameter empty, you must upload the client certificate, including CertCaContent and CertCaName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs#cert_ca_id ClbReplaceCertForLbs#cert_ca_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs#cert_ca_id ClbReplaceCertForLbs#cert_ca_id}
   */
   readonly certCaId?: string;
   /**
   * Name of the uploaded client CA certificate. When SSLMode = mutual, if there is no CertCaId, this parameter is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs#cert_ca_name ClbReplaceCertForLbs#cert_ca_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs#cert_ca_name ClbReplaceCertForLbs#cert_ca_name}
   */
   readonly certCaName?: string;
   /**
   * Content of the uploaded server certificate. If there is no CertId, this parameter is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs#cert_content ClbReplaceCertForLbs#cert_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs#cert_content ClbReplaceCertForLbs#cert_content}
   */
   readonly certContent?: string;
   /**
   * ID of a server certificate. If you leave this parameter empty, you must upload the certificate, including CertContent, CertKey, and CertName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs#cert_id ClbReplaceCertForLbs#cert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs#cert_id ClbReplaceCertForLbs#cert_id}
   */
   readonly certId?: string;
   /**
   * Key of the uploaded server certificate. If there is no CertId, this parameter is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs#cert_key ClbReplaceCertForLbs#cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs#cert_key ClbReplaceCertForLbs#cert_key}
   */
   readonly certKey?: string;
   /**
   * Name of the uploaded server certificate. If there is no CertId, this parameter is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs#cert_name ClbReplaceCertForLbs#cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs#cert_name ClbReplaceCertForLbs#cert_name}
   */
   readonly certName?: string;
   /**
   * Authentication type. Value range: UNIDIRECTIONAL (unidirectional authentication), MUTUAL (mutual authentication).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs#ssl_mode ClbReplaceCertForLbs#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs#ssl_mode ClbReplaceCertForLbs#ssl_mode}
   */
   readonly sslMode?: string;
 }
@@ -360,7 +360,7 @@ export class ClbReplaceCertForLbsCertificateOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs tencentcloud_clb_replace_cert_for_lbs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs tencentcloud_clb_replace_cert_for_lbs}
 */
 export class ClbReplaceCertForLbs extends cdktf.TerraformResource {
 
@@ -376,7 +376,7 @@ export class ClbReplaceCertForLbs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClbReplaceCertForLbs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClbReplaceCertForLbs to import
-  * @param importFromId The id of the existing ClbReplaceCertForLbs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClbReplaceCertForLbs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClbReplaceCertForLbs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -388,7 +388,7 @@ export class ClbReplaceCertForLbs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_replace_cert_for_lbs tencentcloud_clb_replace_cert_for_lbs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_replace_cert_for_lbs tencentcloud_clb_replace_cert_for_lbs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -399,8 +399,8 @@ export class ClbReplaceCertForLbs extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clb_replace_cert_for_lbs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

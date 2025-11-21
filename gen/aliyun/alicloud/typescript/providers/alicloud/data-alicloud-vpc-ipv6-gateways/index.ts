@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipv6_gateways
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudVpcIpv6GatewaysConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipv6_gateways#id DataAlicloudVpcIpv6Gateways#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_gateways#id DataAlicloudVpcIpv6Gateways#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipv6_gateways#ids DataAlicloudVpcIpv6Gateways#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_gateways#ids DataAlicloudVpcIpv6Gateways#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipv6_gateways#ipv6_gateway_name DataAlicloudVpcIpv6Gateways#ipv6_gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_gateways#ipv6_gateway_name DataAlicloudVpcIpv6Gateways#ipv6_gateway_name}
   */
   readonly ipv6GatewayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipv6_gateways#name_regex DataAlicloudVpcIpv6Gateways#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_gateways#name_regex DataAlicloudVpcIpv6Gateways#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipv6_gateways#output_file DataAlicloudVpcIpv6Gateways#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_gateways#output_file DataAlicloudVpcIpv6Gateways#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipv6_gateways#status DataAlicloudVpcIpv6Gateways#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_gateways#status DataAlicloudVpcIpv6Gateways#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipv6_gateways#vpc_id DataAlicloudVpcIpv6Gateways#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_gateways#vpc_id DataAlicloudVpcIpv6Gateways#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -166,7 +166,7 @@ export class DataAlicloudVpcIpv6GatewaysGatewaysList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipv6_gateways alicloud_vpc_ipv6_gateways}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_gateways alicloud_vpc_ipv6_gateways}
 */
 export class DataAlicloudVpcIpv6Gateways extends cdktf.TerraformDataSource {
 
@@ -182,7 +182,7 @@ export class DataAlicloudVpcIpv6Gateways extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudVpcIpv6Gateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudVpcIpv6Gateways to import
-  * @param importFromId The id of the existing DataAlicloudVpcIpv6Gateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipv6_gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudVpcIpv6Gateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudVpcIpv6Gateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class DataAlicloudVpcIpv6Gateways extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipv6_gateways alicloud_vpc_ipv6_gateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_gateways alicloud_vpc_ipv6_gateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class DataAlicloudVpcIpv6Gateways extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_vpc_ipv6_gateways',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

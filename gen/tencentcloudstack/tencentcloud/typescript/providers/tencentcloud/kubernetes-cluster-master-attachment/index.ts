@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface KubernetesClusterMasterAttachmentConfig extends cdktf.Terraform
   /**
   * ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#cluster_id KubernetesClusterMasterAttachment#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#cluster_id KubernetesClusterMasterAttachment#cluster_id}
   */
   readonly clusterId: string;
   /**
   * When the node belongs to the podCIDR size customization mode, the maximum number of pods running on the node can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#desired_pod_numbers KubernetesClusterMasterAttachment#desired_pod_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#desired_pod_numbers KubernetesClusterMasterAttachment#desired_pod_numbers}
   */
   readonly desiredPodNumbers?: number[];
   /**
   * Activate TencentCloud Automation Tools (TAT) service. If this parameter is not specified, the public image will default to enabling the Cloud Automation Assistant service, while other images will default to not enabling the Cloud Automation Assistant service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#enhanced_automation_service KubernetesClusterMasterAttachment#enhanced_automation_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#enhanced_automation_service KubernetesClusterMasterAttachment#enhanced_automation_service}
   */
   readonly enhancedAutomationService?: boolean | cdktf.IResolvable;
   /**
   * To specify whether to enable cloud monitor service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#enhanced_monitor_service KubernetesClusterMasterAttachment#enhanced_monitor_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#enhanced_monitor_service KubernetesClusterMasterAttachment#enhanced_monitor_service}
   */
   readonly enhancedMonitorService?: boolean | cdktf.IResolvable;
   /**
   * To specify whether to enable cloud security service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#enhanced_security_service KubernetesClusterMasterAttachment#enhanced_security_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#enhanced_security_service KubernetesClusterMasterAttachment#enhanced_security_service}
   */
   readonly enhancedSecurityService?: boolean | cdktf.IResolvable;
   /**
   * When reinstalling the system, you can specify the HostName of the instance to be modified (this parameter must be passed when the cluster is in HostName mode, and the rule name should be consistent with the HostName of the CVM instance creation interface except that uppercase characters are not supported).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#host_name KubernetesClusterMasterAttachment#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#host_name KubernetesClusterMasterAttachment#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#id KubernetesClusterMasterAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#id KubernetesClusterMasterAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,43 +53,43 @@ export interface KubernetesClusterMasterAttachmentConfig extends cdktf.Terraform
   /**
   * ID of the CVM instance, this cvm will reinstall the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#instance_id KubernetesClusterMasterAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#instance_id KubernetesClusterMasterAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
   * The key pair to use for the instance, it looks like skey-16jig7tx, it should be set if `password` not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#key_ids KubernetesClusterMasterAttachment#key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#key_ids KubernetesClusterMasterAttachment#key_ids}
   */
   readonly keyIds?: string[];
   /**
   * Node role, values: MASTER_ETCD, WORKER. MASTER_ETCD needs to be specified only when creating an INDEPENDENT_CLUSTER independent cluster. The number of MASTER_ETCD nodes is 3-7, and it is recommended to have an odd number. The minimum configuration for MASTER_ETCD is 4C8G.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#node_role KubernetesClusterMasterAttachment#node_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#node_role KubernetesClusterMasterAttachment#node_role}
   */
   readonly nodeRole: string;
   /**
   * Password to access, should be set if `key_ids` not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#password KubernetesClusterMasterAttachment#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#password KubernetesClusterMasterAttachment#password}
   */
   readonly password?: string;
   /**
   * The security group to which the instance belongs. This parameter can be obtained by calling the sgId field in the return value of DescribeSecureGroups. If this parameter is not specified, the default security group will be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#security_group_ids KubernetesClusterMasterAttachment#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#security_group_ids KubernetesClusterMasterAttachment#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * extra_args block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#extra_args KubernetesClusterMasterAttachment#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#extra_args KubernetesClusterMasterAttachment#extra_args}
   */
   readonly extraArgs?: KubernetesClusterMasterAttachmentExtraArgs;
   /**
   * master_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#master_config KubernetesClusterMasterAttachment#master_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#master_config KubernetesClusterMasterAttachment#master_config}
   */
   readonly masterConfig?: KubernetesClusterMasterAttachmentMasterConfig;
 }
@@ -97,25 +97,25 @@ export interface KubernetesClusterMasterAttachmentExtraArgs {
   /**
   * etcd custom parameters. Only supports independent clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#etcd KubernetesClusterMasterAttachment#etcd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#etcd KubernetesClusterMasterAttachment#etcd}
   */
   readonly etcd?: string[];
   /**
   * Kube apiserver custom parameters. The parameter format is ["k1=v1", "k1=v2"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#kube_api_server KubernetesClusterMasterAttachment#kube_api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#kube_api_server KubernetesClusterMasterAttachment#kube_api_server}
   */
   readonly kubeApiServer?: string[];
   /**
   * Kube controller manager custom parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#kube_controller_manager KubernetesClusterMasterAttachment#kube_controller_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#kube_controller_manager KubernetesClusterMasterAttachment#kube_controller_manager}
   */
   readonly kubeControllerManager?: string[];
   /**
   * kube scheduler custom parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#kube_scheduler KubernetesClusterMasterAttachment#kube_scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#kube_scheduler KubernetesClusterMasterAttachment#kube_scheduler}
   */
   readonly kubeScheduler?: string[];
 }
@@ -288,37 +288,37 @@ export interface KubernetesClusterMasterAttachmentMasterConfigDataDisk {
   /**
   * Indicate whether to auto format and mount or not. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#auto_format_and_mount KubernetesClusterMasterAttachment#auto_format_and_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#auto_format_and_mount KubernetesClusterMasterAttachment#auto_format_and_mount}
   */
   readonly autoFormatAndMount?: boolean | cdktf.IResolvable;
   /**
   * The name of the device or partition to mount. NOTE: this argument doesn't support setting in node pool, or will leads to mount error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#disk_partition KubernetesClusterMasterAttachment#disk_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#disk_partition KubernetesClusterMasterAttachment#disk_partition}
   */
   readonly diskPartition?: string;
   /**
   * Volume of disk in GB. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#disk_size KubernetesClusterMasterAttachment#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#disk_size KubernetesClusterMasterAttachment#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Types of disk. Valid value: `LOCAL_BASIC`, `LOCAL_SSD`, `CLOUD_BASIC`, `CLOUD_PREMIUM`, `CLOUD_SSD`, `CLOUD_HSSD`, `CLOUD_TSSD` and `CLOUD_BSSD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#disk_type KubernetesClusterMasterAttachment#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#disk_type KubernetesClusterMasterAttachment#disk_type}
   */
   readonly diskType?: string;
   /**
   * File system, e.g. `ext3/ext4/xfs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#file_system KubernetesClusterMasterAttachment#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#file_system KubernetesClusterMasterAttachment#file_system}
   */
   readonly fileSystem?: string;
   /**
   * Mount target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#mount_target KubernetesClusterMasterAttachment#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#mount_target KubernetesClusterMasterAttachment#mount_target}
   */
   readonly mountTarget?: string;
 }
@@ -549,7 +549,7 @@ export interface KubernetesClusterMasterAttachmentMasterConfigExtraArgs {
   /**
   * Kubelet custom parameter. The parameter format is ["k1=v1", "k1=v2"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#kubelet KubernetesClusterMasterAttachment#kubelet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#kubelet KubernetesClusterMasterAttachment#kubelet}
   */
   readonly kubelet?: string[];
 }
@@ -635,31 +635,31 @@ export interface KubernetesClusterMasterAttachmentMasterConfigGpuArgs {
   /**
   * CUDA  version. Format like: `{ version: String, name: String }`. `version`: Version of GPU driver or CUDA; `name`: Name of GPU driver or CUDA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#cuda KubernetesClusterMasterAttachment#cuda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#cuda KubernetesClusterMasterAttachment#cuda}
   */
   readonly cuda?: { [key: string]: string };
   /**
   * cuDNN version. Format like: `{ version: String, name: String, doc_name: String, dev_name: String }`. `version`: cuDNN version; `name`: cuDNN name; `doc_name`: Doc name of cuDNN; `dev_name`: Dev name of cuDNN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#cudnn KubernetesClusterMasterAttachment#cudnn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#cudnn KubernetesClusterMasterAttachment#cudnn}
   */
   readonly cudnn?: { [key: string]: string };
   /**
   * Custom GPU driver. Format like: `{address: String}`. `address`: URL of custom GPU driver address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#custom_driver KubernetesClusterMasterAttachment#custom_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#custom_driver KubernetesClusterMasterAttachment#custom_driver}
   */
   readonly customDriver?: { [key: string]: string };
   /**
   * GPU driver version. Format like: `{ version: String, name: String }`. `version`: Version of GPU driver or CUDA; `name`: Name of GPU driver or CUDA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#driver KubernetesClusterMasterAttachment#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#driver KubernetesClusterMasterAttachment#driver}
   */
   readonly driver?: { [key: string]: string };
   /**
   * Whether to enable MIG.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#mig_enable KubernetesClusterMasterAttachment#mig_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#mig_enable KubernetesClusterMasterAttachment#mig_enable}
   */
   readonly migEnable?: boolean | cdktf.IResolvable;
 }
@@ -861,13 +861,13 @@ export interface KubernetesClusterMasterAttachmentMasterConfigLabels {
   /**
   * Name of map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#name KubernetesClusterMasterAttachment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#name KubernetesClusterMasterAttachment#name}
   */
   readonly name: string;
   /**
   * Value of map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#value KubernetesClusterMasterAttachment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#value KubernetesClusterMasterAttachment#value}
   */
   readonly value: string;
 }
@@ -1008,19 +1008,19 @@ export interface KubernetesClusterMasterAttachmentMasterConfigTaints {
   /**
   * Effect of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#effect KubernetesClusterMasterAttachment#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#effect KubernetesClusterMasterAttachment#effect}
   */
   readonly effect?: string;
   /**
   * Key of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#key KubernetesClusterMasterAttachment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#key KubernetesClusterMasterAttachment#key}
   */
   readonly key?: string;
   /**
   * Value of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#value KubernetesClusterMasterAttachment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#value KubernetesClusterMasterAttachment#value}
   */
   readonly value?: string;
 }
@@ -1196,61 +1196,61 @@ export interface KubernetesClusterMasterAttachmentMasterConfig {
   /**
   * Indicate to set desired pod number in node. valid when the cluster is podCIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#desired_pod_number KubernetesClusterMasterAttachment#desired_pod_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#desired_pod_number KubernetesClusterMasterAttachment#desired_pod_number}
   */
   readonly desiredPodNumber?: number;
   /**
   * Docker graph path. Default is `/var/lib/docker`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#docker_graph_path KubernetesClusterMasterAttachment#docker_graph_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#docker_graph_path KubernetesClusterMasterAttachment#docker_graph_path}
   */
   readonly dockerGraphPath?: string;
   /**
   * Mount target. Default is not mounting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#mount_target KubernetesClusterMasterAttachment#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#mount_target KubernetesClusterMasterAttachment#mount_target}
   */
   readonly mountTarget?: string;
   /**
   * Set whether the joined nodes participate in scheduling, with a default value of 0, indicating participation in scheduling; Non 0 means not participating in scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#unschedulable KubernetesClusterMasterAttachment#unschedulable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#unschedulable KubernetesClusterMasterAttachment#unschedulable}
   */
   readonly unschedulable?: number;
   /**
   * User script encoded in base64, which will be executed after the k8s component runs. The user needs to ensure the script's reentrant and retry logic. The script and its generated log files can be viewed in the node path /data/ccs_userscript/. If the node needs to be initialized before joining the schedule, it can be used in conjunction with the `unschedulable` parameter. After the final initialization of the userScript is completed, add the command "kubectl uncordon nodename --kubeconfig=/root/.kube/config" to add the node to the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#user_script KubernetesClusterMasterAttachment#user_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#user_script KubernetesClusterMasterAttachment#user_script}
   */
   readonly userScript?: string;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#data_disk KubernetesClusterMasterAttachment#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#data_disk KubernetesClusterMasterAttachment#data_disk}
   */
   readonly dataDisk?: KubernetesClusterMasterAttachmentMasterConfigDataDisk;
   /**
   * extra_args block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#extra_args KubernetesClusterMasterAttachment#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#extra_args KubernetesClusterMasterAttachment#extra_args}
   */
   readonly extraArgs?: KubernetesClusterMasterAttachmentMasterConfigExtraArgs;
   /**
   * gpu_args block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#gpu_args KubernetesClusterMasterAttachment#gpu_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#gpu_args KubernetesClusterMasterAttachment#gpu_args}
   */
   readonly gpuArgs?: KubernetesClusterMasterAttachmentMasterConfigGpuArgs;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#labels KubernetesClusterMasterAttachment#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#labels KubernetesClusterMasterAttachment#labels}
   */
   readonly labels?: KubernetesClusterMasterAttachmentMasterConfigLabels[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#taints KubernetesClusterMasterAttachment#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#taints KubernetesClusterMasterAttachment#taints}
   */
   readonly taints?: KubernetesClusterMasterAttachmentMasterConfigTaints[] | cdktf.IResolvable;
 }
@@ -1595,7 +1595,7 @@ export class KubernetesClusterMasterAttachmentMasterConfigOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment tencentcloud_kubernetes_cluster_master_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment tencentcloud_kubernetes_cluster_master_attachment}
 */
 export class KubernetesClusterMasterAttachment extends cdktf.TerraformResource {
 
@@ -1611,7 +1611,7 @@ export class KubernetesClusterMasterAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesClusterMasterAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesClusterMasterAttachment to import
-  * @param importFromId The id of the existing KubernetesClusterMasterAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesClusterMasterAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesClusterMasterAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1623,7 +1623,7 @@ export class KubernetesClusterMasterAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/kubernetes_cluster_master_attachment tencentcloud_kubernetes_cluster_master_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/kubernetes_cluster_master_attachment tencentcloud_kubernetes_cluster_master_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1634,8 +1634,8 @@ export class KubernetesClusterMasterAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_kubernetes_cluster_master_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

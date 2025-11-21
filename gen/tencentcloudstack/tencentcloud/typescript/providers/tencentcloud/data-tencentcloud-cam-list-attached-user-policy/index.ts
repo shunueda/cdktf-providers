@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cam_list_attached_user_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_list_attached_user_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCamListAttachedUserPolicyConfig extends cdktf.T
   /**
   * 0: Return direct association and group association policies, 1: Only return direct association policies, 2: Only return group association policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cam_list_attached_user_policy#attach_type DataTencentcloudCamListAttachedUserPolicy#attach_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_list_attached_user_policy#attach_type DataTencentcloudCamListAttachedUserPolicy#attach_type}
   */
   readonly attachType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cam_list_attached_user_policy#id DataTencentcloudCamListAttachedUserPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_list_attached_user_policy#id DataTencentcloudCamListAttachedUserPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudCamListAttachedUserPolicyConfig extends cdktf.T
   /**
   * Search Keywords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cam_list_attached_user_policy#keyword DataTencentcloudCamListAttachedUserPolicy#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_list_attached_user_policy#keyword DataTencentcloudCamListAttachedUserPolicy#keyword}
   */
   readonly keyword?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cam_list_attached_user_policy#result_output_file DataTencentcloudCamListAttachedUserPolicy#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_list_attached_user_policy#result_output_file DataTencentcloudCamListAttachedUserPolicy#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Policy type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cam_list_attached_user_policy#strategy_type DataTencentcloudCamListAttachedUserPolicy#strategy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_list_attached_user_policy#strategy_type DataTencentcloudCamListAttachedUserPolicy#strategy_type}
   */
   readonly strategyType?: number;
   /**
   * Target User ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cam_list_attached_user_policy#target_uin DataTencentcloudCamListAttachedUserPolicy#target_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_list_attached_user_policy#target_uin DataTencentcloudCamListAttachedUserPolicy#target_uin}
   */
   readonly targetUin: number;
 }
@@ -243,7 +243,7 @@ export class DataTencentcloudCamListAttachedUserPolicyPolicyListStructList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cam_list_attached_user_policy tencentcloud_cam_list_attached_user_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_list_attached_user_policy tencentcloud_cam_list_attached_user_policy}
 */
 export class DataTencentcloudCamListAttachedUserPolicy extends cdktf.TerraformDataSource {
 
@@ -259,7 +259,7 @@ export class DataTencentcloudCamListAttachedUserPolicy extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTencentcloudCamListAttachedUserPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCamListAttachedUserPolicy to import
-  * @param importFromId The id of the existing DataTencentcloudCamListAttachedUserPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cam_list_attached_user_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCamListAttachedUserPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_list_attached_user_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCamListAttachedUserPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class DataTencentcloudCamListAttachedUserPolicy extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cam_list_attached_user_policy tencentcloud_cam_list_attached_user_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cam_list_attached_user_policy tencentcloud_cam_list_attached_user_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class DataTencentcloudCamListAttachedUserPolicy extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_cam_list_attached_user_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

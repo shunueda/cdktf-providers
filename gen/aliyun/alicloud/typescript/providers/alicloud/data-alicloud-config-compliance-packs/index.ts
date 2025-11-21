@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/config_compliance_packs
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/config_compliance_packs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudConfigCompliancePacksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/config_compliance_packs#enable_details DataAlicloudConfigCompliancePacks#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/config_compliance_packs#enable_details DataAlicloudConfigCompliancePacks#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/config_compliance_packs#id DataAlicloudConfigCompliancePacks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/config_compliance_packs#id DataAlicloudConfigCompliancePacks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/config_compliance_packs#ids DataAlicloudConfigCompliancePacks#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/config_compliance_packs#ids DataAlicloudConfigCompliancePacks#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/config_compliance_packs#name_regex DataAlicloudConfigCompliancePacks#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/config_compliance_packs#name_regex DataAlicloudConfigCompliancePacks#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/config_compliance_packs#output_file DataAlicloudConfigCompliancePacks#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/config_compliance_packs#output_file DataAlicloudConfigCompliancePacks#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/config_compliance_packs#status DataAlicloudConfigCompliancePacks#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/config_compliance_packs#status DataAlicloudConfigCompliancePacks#status}
   */
   readonly status?: string;
 }
@@ -324,7 +324,7 @@ export class DataAlicloudConfigCompliancePacksPacksList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/config_compliance_packs alicloud_config_compliance_packs}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/config_compliance_packs alicloud_config_compliance_packs}
 */
 export class DataAlicloudConfigCompliancePacks extends cdktf.TerraformDataSource {
 
@@ -340,7 +340,7 @@ export class DataAlicloudConfigCompliancePacks extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataAlicloudConfigCompliancePacks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudConfigCompliancePacks to import
-  * @param importFromId The id of the existing DataAlicloudConfigCompliancePacks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/config_compliance_packs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudConfigCompliancePacks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/config_compliance_packs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudConfigCompliancePacks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class DataAlicloudConfigCompliancePacks extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/config_compliance_packs alicloud_config_compliance_packs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/config_compliance_packs alicloud_config_compliance_packs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class DataAlicloudConfigCompliancePacks extends cdktf.TerraformDataSource
       terraformResourceType: 'alicloud_config_compliance_packs',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

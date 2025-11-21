@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "alicloud": "1.262.1"
+    "alicloud": "1.263.0"
   }
 }

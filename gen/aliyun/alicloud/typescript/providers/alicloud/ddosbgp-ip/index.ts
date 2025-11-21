@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddosbgp_ip
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddosbgp_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DdosbgpIpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddosbgp_ip#id DdosbgpIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddosbgp_ip#id DdosbgpIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddosbgp_ip#instance_id DdosbgpIp#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddosbgp_ip#instance_id DdosbgpIp#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddosbgp_ip#ip DdosbgpIp#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddosbgp_ip#ip DdosbgpIp#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddosbgp_ip#member_uid DdosbgpIp#member_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddosbgp_ip#member_uid DdosbgpIp#member_uid}
   */
   readonly memberUid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddosbgp_ip#resource_group_id DdosbgpIp#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddosbgp_ip#resource_group_id DdosbgpIp#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddosbgp_ip#timeouts DdosbgpIp#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddosbgp_ip#timeouts DdosbgpIp#timeouts}
   */
   readonly timeouts?: DdosbgpIpTimeouts;
 }
 export interface DdosbgpIpTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddosbgp_ip#create DdosbgpIp#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddosbgp_ip#create DdosbgpIp#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddosbgp_ip#delete DdosbgpIp#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddosbgp_ip#delete DdosbgpIp#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddosbgp_ip#update DdosbgpIp#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddosbgp_ip#update DdosbgpIp#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class DdosbgpIpTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddosbgp_ip alicloud_ddosbgp_ip}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddosbgp_ip alicloud_ddosbgp_ip}
 */
 export class DdosbgpIp extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class DdosbgpIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosbgpIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosbgpIp to import
-  * @param importFromId The id of the existing DdosbgpIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddosbgp_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosbgpIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddosbgp_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosbgpIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DdosbgpIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ddosbgp_ip alicloud_ddosbgp_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ddosbgp_ip alicloud_ddosbgp_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DdosbgpIp extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ddosbgp_ip',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface ApiGatewayApiConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#auth_type ApiGatewayApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#auth_type ApiGatewayApi#auth_type}
   */
   readonly authType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#description ApiGatewayApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#description ApiGatewayApi#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#force_nonce_check ApiGatewayApi#force_nonce_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#force_nonce_check ApiGatewayApi#force_nonce_check}
   */
   readonly forceNonceCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#group_id ApiGatewayApi#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#group_id ApiGatewayApi#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#id ApiGatewayApi#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#id ApiGatewayApi#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#service_type ApiGatewayApi#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#service_type ApiGatewayApi#service_type}
   */
   readonly serviceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#stage_names ApiGatewayApi#stage_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#stage_names ApiGatewayApi#stage_names}
   */
   readonly stageNames?: string[];
   /**
   * constant_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#constant_parameters ApiGatewayApi#constant_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#constant_parameters ApiGatewayApi#constant_parameters}
   */
   readonly constantParameters?: ApiGatewayApiConstantParameters[] | cdktf.IResolvable;
   /**
   * fc_service_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#fc_service_config ApiGatewayApi#fc_service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#fc_service_config ApiGatewayApi#fc_service_config}
   */
   readonly fcServiceConfig?: ApiGatewayApiFcServiceConfig;
   /**
   * http_service_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#http_service_config ApiGatewayApi#http_service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#http_service_config ApiGatewayApi#http_service_config}
   */
   readonly httpServiceConfig?: ApiGatewayApiHttpServiceConfig;
   /**
   * http_vpc_service_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#http_vpc_service_config ApiGatewayApi#http_vpc_service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#http_vpc_service_config ApiGatewayApi#http_vpc_service_config}
   */
   readonly httpVpcServiceConfig?: ApiGatewayApiHttpVpcServiceConfig;
   /**
   * mock_service_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#mock_service_config ApiGatewayApi#mock_service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#mock_service_config ApiGatewayApi#mock_service_config}
   */
   readonly mockServiceConfig?: ApiGatewayApiMockServiceConfig;
   /**
   * request_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#request_config ApiGatewayApi#request_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#request_config ApiGatewayApi#request_config}
   */
   readonly requestConfig: ApiGatewayApiRequestConfig;
   /**
   * request_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#request_parameters ApiGatewayApi#request_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#request_parameters ApiGatewayApi#request_parameters}
   */
   readonly requestParameters?: ApiGatewayApiRequestParameters[] | cdktf.IResolvable;
   /**
   * system_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#system_parameters ApiGatewayApi#system_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#system_parameters ApiGatewayApi#system_parameters}
   */
   readonly systemParameters?: ApiGatewayApiSystemParameters[] | cdktf.IResolvable;
 }
 export interface ApiGatewayApiConstantParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#description ApiGatewayApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#description ApiGatewayApi#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#in ApiGatewayApi#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#in ApiGatewayApi#in}
   */
   readonly in: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#value ApiGatewayApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#value ApiGatewayApi#value}
   */
   readonly value: string;
 }
@@ -299,51 +299,51 @@ export class ApiGatewayApiConstantParametersList extends cdktf.ComplexList {
 }
 export interface ApiGatewayApiFcServiceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#arn_role ApiGatewayApi#arn_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#arn_role ApiGatewayApi#arn_role}
   */
   readonly arnRole: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#function_base_url ApiGatewayApi#function_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#function_base_url ApiGatewayApi#function_base_url}
   */
   readonly functionBaseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#function_name ApiGatewayApi#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#function_name ApiGatewayApi#function_name}
   */
   readonly functionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#function_type ApiGatewayApi#function_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#function_type ApiGatewayApi#function_type}
   */
   readonly functionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#function_version ApiGatewayApi#function_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#function_version ApiGatewayApi#function_version}
   */
   readonly functionVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#method ApiGatewayApi#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#method ApiGatewayApi#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#only_business_path ApiGatewayApi#only_business_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#only_business_path ApiGatewayApi#only_business_path}
   */
   readonly onlyBusinessPath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#path ApiGatewayApi#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#path ApiGatewayApi#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#qualifier ApiGatewayApi#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#qualifier ApiGatewayApi#qualifier}
   */
   readonly qualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#region ApiGatewayApi#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#region ApiGatewayApi#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#service_name ApiGatewayApi#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#service_name ApiGatewayApi#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
   */
   readonly timeout: number;
 }
@@ -737,31 +737,31 @@ export class ApiGatewayApiFcServiceConfigOutputReference extends cdktf.ComplexOb
 }
 export interface ApiGatewayApiHttpServiceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#address ApiGatewayApi#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#address ApiGatewayApi#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#aone_name ApiGatewayApi#aone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#aone_name ApiGatewayApi#aone_name}
   */
   readonly aoneName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#content_type_category ApiGatewayApi#content_type_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#content_type_category ApiGatewayApi#content_type_category}
   */
   readonly contentTypeCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#content_type_value ApiGatewayApi#content_type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#content_type_value ApiGatewayApi#content_type_value}
   */
   readonly contentTypeValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#method ApiGatewayApi#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#method ApiGatewayApi#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#path ApiGatewayApi#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#path ApiGatewayApi#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
   */
   readonly timeout: number;
 }
@@ -1007,35 +1007,35 @@ export class ApiGatewayApiHttpServiceConfigOutputReference extends cdktf.Complex
 }
 export interface ApiGatewayApiHttpVpcServiceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#aone_name ApiGatewayApi#aone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#aone_name ApiGatewayApi#aone_name}
   */
   readonly aoneName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#content_type_category ApiGatewayApi#content_type_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#content_type_category ApiGatewayApi#content_type_category}
   */
   readonly contentTypeCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#content_type_value ApiGatewayApi#content_type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#content_type_value ApiGatewayApi#content_type_value}
   */
   readonly contentTypeValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#method ApiGatewayApi#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#method ApiGatewayApi#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#path ApiGatewayApi#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#path ApiGatewayApi#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
   */
   readonly timeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#vpc_scheme ApiGatewayApi#vpc_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#vpc_scheme ApiGatewayApi#vpc_scheme}
   */
   readonly vpcScheme?: string;
 }
@@ -1310,11 +1310,11 @@ export class ApiGatewayApiHttpVpcServiceConfigOutputReference extends cdktf.Comp
 }
 export interface ApiGatewayApiMockServiceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#aone_name ApiGatewayApi#aone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#aone_name ApiGatewayApi#aone_name}
   */
   readonly aoneName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#result ApiGatewayApi#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#result ApiGatewayApi#result}
   */
   readonly result: string;
 }
@@ -1424,23 +1424,23 @@ export class ApiGatewayApiMockServiceConfigOutputReference extends cdktf.Complex
 }
 export interface ApiGatewayApiRequestConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#body_format ApiGatewayApi#body_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#body_format ApiGatewayApi#body_format}
   */
   readonly bodyFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#method ApiGatewayApi#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#method ApiGatewayApi#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#mode ApiGatewayApi#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#mode ApiGatewayApi#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#path ApiGatewayApi#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#path ApiGatewayApi#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#protocol ApiGatewayApi#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#protocol ApiGatewayApi#protocol}
   */
   readonly protocol: string;
 }
@@ -1628,35 +1628,35 @@ export class ApiGatewayApiRequestConfigOutputReference extends cdktf.ComplexObje
 }
 export interface ApiGatewayApiRequestParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#default_value ApiGatewayApi#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#default_value ApiGatewayApi#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#description ApiGatewayApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#description ApiGatewayApi#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#in ApiGatewayApi#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#in ApiGatewayApi#in}
   */
   readonly in: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#in_service ApiGatewayApi#in_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#in_service ApiGatewayApi#in_service}
   */
   readonly inService: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#name_service ApiGatewayApi#name_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#name_service ApiGatewayApi#name_service}
   */
   readonly nameService: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#required ApiGatewayApi#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#required ApiGatewayApi#required}
   */
   readonly required: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#type ApiGatewayApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#type ApiGatewayApi#type}
   */
   readonly type: string;
 }
@@ -1957,15 +1957,15 @@ export class ApiGatewayApiRequestParametersList extends cdktf.ComplexList {
 }
 export interface ApiGatewayApiSystemParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#in ApiGatewayApi#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#in ApiGatewayApi#in}
   */
   readonly in: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#name_service ApiGatewayApi#name_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#name_service ApiGatewayApi#name_service}
   */
   readonly nameService: string;
 }
@@ -2130,7 +2130,7 @@ export class ApiGatewayApiSystemParametersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api alicloud_api_gateway_api}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api alicloud_api_gateway_api}
 */
 export class ApiGatewayApi extends cdktf.TerraformResource {
 
@@ -2146,7 +2146,7 @@ export class ApiGatewayApi extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayApi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayApi to import
-  * @param importFromId The id of the existing ApiGatewayApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2158,7 +2158,7 @@ export class ApiGatewayApi extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/api_gateway_api alicloud_api_gateway_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/api_gateway_api alicloud_api_gateway_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2169,8 +2169,8 @@ export class ApiGatewayApi extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_api_gateway_api',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

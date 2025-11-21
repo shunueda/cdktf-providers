@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface DnsSmartConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of network prefixes allowed to query the DNS server (named ACL(s) are not supported using this provider).  Use '!' to negate an entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart#allow_query DnsSmart#allow_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart#allow_query DnsSmart#allow_query}
   */
   readonly allowQuery?: string[];
   /**
   * A list of network prefixes allowed to query the DNS server for recursion (named ACL(s) are not supported using this provider).  Use '!' to negate an entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart#allow_recursion DnsSmart#allow_recursion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart#allow_recursion DnsSmart#allow_recursion}
   */
   readonly allowRecursion?: string[];
   /**
   * A list of network prefixes allowed to query the DNS erver for zone transfert (named ACL(s) are not supported using this provider).  Use '!' to negate an entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart#allow_transfer DnsSmart#allow_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart#allow_transfer DnsSmart#allow_transfer}
   */
   readonly allowTransfer?: string[];
   /**
   * The DNS SMART architecture (Suported: multimaster, masterslave, single; Default: masterslave).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart#arch DnsSmart#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart#arch DnsSmart#arch}
   */
   readonly arch?: string;
   /**
   * The class associated to the DNS SMART.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart#class DnsSmart#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart#class DnsSmart#class}
   */
   readonly class?: string;
   /**
   * The class parameters associated to the DNS SMART.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart#class_parameters DnsSmart#class_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart#class_parameters DnsSmart#class_parameters}
   */
   readonly classParameters?: { [key: string]: string };
   /**
   * Custom information about the DNS SMART.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart#comment DnsSmart#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart#comment DnsSmart#comment}
   */
   readonly comment?: string;
   /**
   * The forwarding mode of the DNS SMART (Supported: none, first, only; Default: none).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart#forward DnsSmart#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart#forward DnsSmart#forward}
   */
   readonly forward?: string;
   /**
   * The IP address list of the forwarder(s) configured to configure on the DNS SMART.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart#forwarders DnsSmart#forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart#forwarders DnsSmart#forwarders}
   */
   readonly forwarders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart#id DnsSmart#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart#id DnsSmart#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,19 +71,19 @@ export interface DnsSmartConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the DNS SMART to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart#name DnsSmart#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart#name DnsSmart#name}
   */
   readonly name: string;
   /**
   * The recursion mode of the DNS SMART (Default: true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart#recursion DnsSmart#recursion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart#recursion DnsSmart#recursion}
   */
   readonly recursion?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart solidserver_dns_smart}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart solidserver_dns_smart}
 */
 export class DnsSmart extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class DnsSmart extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsSmart resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsSmart to import
-  * @param importFromId The id of the existing DnsSmart that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsSmart that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsSmart to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class DnsSmart extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_smart solidserver_dns_smart} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_smart solidserver_dns_smart} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class DnsSmart extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_dns_smart',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ccn_routes
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_routes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCcnRoutesConfig extends cdktf.TerraformMetaArgu
   /**
   * ID of the CCN to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ccn_routes#ccn_id DataTencentcloudCcnRoutes#ccn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_routes#ccn_id DataTencentcloudCcnRoutes#ccn_id}
   */
   readonly ccnId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ccn_routes#id DataTencentcloudCcnRoutes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_routes#id DataTencentcloudCcnRoutes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudCcnRoutesConfig extends cdktf.TerraformMetaArgu
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ccn_routes#result_output_file DataTencentcloudCcnRoutes#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_routes#result_output_file DataTencentcloudCcnRoutes#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ccn_routes#filters DataTencentcloudCcnRoutes#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_routes#filters DataTencentcloudCcnRoutes#filters}
   */
   readonly filters?: DataTencentcloudCcnRoutesFilters[] | cdktf.IResolvable;
 }
@@ -172,13 +172,13 @@ export interface DataTencentcloudCcnRoutesFilters {
   /**
   * Field to be filtered. Support `route-id`, `cidr-block`, `instance-type`, `instance-region`, `instance-id`, `route-table-id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ccn_routes#name DataTencentcloudCcnRoutes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_routes#name DataTencentcloudCcnRoutes#name}
   */
   readonly name: string;
   /**
   * Filter value of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ccn_routes#values DataTencentcloudCcnRoutes#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_routes#values DataTencentcloudCcnRoutes#values}
   */
   readonly values: string[];
 }
@@ -317,7 +317,7 @@ export class DataTencentcloudCcnRoutesFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ccn_routes tencentcloud_ccn_routes}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_routes tencentcloud_ccn_routes}
 */
 export class DataTencentcloudCcnRoutes extends cdktf.TerraformDataSource {
 
@@ -333,7 +333,7 @@ export class DataTencentcloudCcnRoutes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCcnRoutes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCcnRoutes to import
-  * @param importFromId The id of the existing DataTencentcloudCcnRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ccn_routes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCcnRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_routes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCcnRoutes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -345,7 +345,7 @@ export class DataTencentcloudCcnRoutes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ccn_routes tencentcloud_ccn_routes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/ccn_routes tencentcloud_ccn_routes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -356,8 +356,8 @@ export class DataTencentcloudCcnRoutes extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_ccn_routes',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

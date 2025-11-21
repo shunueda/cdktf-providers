@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/organization_org_financial_by_member
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudOrganizationOrgFinancialByMemberConfig extends 
   /**
   * Query for the end month. Format:yyyy-mm, for example:2021-01.The default value is the `Month`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/organization_org_financial_by_member#end_month DataTencentcloudOrganizationOrgFinancialByMember#end_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_member#end_month DataTencentcloudOrganizationOrgFinancialByMember#end_month}
   */
   readonly endMonth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/organization_org_financial_by_member#id DataTencentcloudOrganizationOrgFinancialByMember#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_member#id DataTencentcloudOrganizationOrgFinancialByMember#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudOrganizationOrgFinancialByMemberConfig extends 
   /**
   * Member uin list. Up to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/organization_org_financial_by_member#member_uins DataTencentcloudOrganizationOrgFinancialByMember#member_uins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_member#member_uins DataTencentcloudOrganizationOrgFinancialByMember#member_uins}
   */
   readonly memberUins?: number[];
   /**
   * Query for the start month. Format:yyyy-mm, for example:2021-01.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/organization_org_financial_by_member#month DataTencentcloudOrganizationOrgFinancialByMember#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_member#month DataTencentcloudOrganizationOrgFinancialByMember#month}
   */
   readonly month: string;
   /**
   * Product code list. Up to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/organization_org_financial_by_member#product_codes DataTencentcloudOrganizationOrgFinancialByMember#product_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_member#product_codes DataTencentcloudOrganizationOrgFinancialByMember#product_codes}
   */
   readonly productCodes?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/organization_org_financial_by_member#result_output_file DataTencentcloudOrganizationOrgFinancialByMember#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_member#result_output_file DataTencentcloudOrganizationOrgFinancialByMember#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -137,7 +137,7 @@ export class DataTencentcloudOrganizationOrgFinancialByMemberItemsList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/organization_org_financial_by_member tencentcloud_organization_org_financial_by_member}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_member tencentcloud_organization_org_financial_by_member}
 */
 export class DataTencentcloudOrganizationOrgFinancialByMember extends cdktf.TerraformDataSource {
 
@@ -153,7 +153,7 @@ export class DataTencentcloudOrganizationOrgFinancialByMember extends cdktf.Terr
   * Generates CDKTF code for importing a DataTencentcloudOrganizationOrgFinancialByMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudOrganizationOrgFinancialByMember to import
-  * @param importFromId The id of the existing DataTencentcloudOrganizationOrgFinancialByMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/organization_org_financial_by_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudOrganizationOrgFinancialByMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudOrganizationOrgFinancialByMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class DataTencentcloudOrganizationOrgFinancialByMember extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/organization_org_financial_by_member tencentcloud_organization_org_financial_by_member} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/organization_org_financial_by_member tencentcloud_organization_org_financial_by_member} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class DataTencentcloudOrganizationOrgFinancialByMember extends cdktf.Terr
       terraformResourceType: 'tencentcloud_organization_org_financial_by_member',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

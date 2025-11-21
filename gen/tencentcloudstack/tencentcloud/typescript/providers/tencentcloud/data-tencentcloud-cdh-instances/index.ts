@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdh_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdh_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudCdhInstancesConfig extends cdktf.TerraformMetaA
   /**
   * The available zone that the CDH instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdh_instances#availability_zone DataTencentcloudCdhInstances#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdh_instances#availability_zone DataTencentcloudCdhInstances#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * ID of the CDH instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdh_instances#host_id DataTencentcloudCdhInstances#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdh_instances#host_id DataTencentcloudCdhInstances#host_id}
   */
   readonly hostId?: string;
   /**
   * Name of the CDH instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdh_instances#host_name DataTencentcloudCdhInstances#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdh_instances#host_name DataTencentcloudCdhInstances#host_name}
   */
   readonly hostName?: string;
   /**
   * State of the CDH instances to be queried. Valid values: `PENDING`, `LAUNCH_FAILURE`, `RUNNING`, `EXPIRED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdh_instances#host_state DataTencentcloudCdhInstances#host_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdh_instances#host_state DataTencentcloudCdhInstances#host_state}
   */
   readonly hostState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdh_instances#id DataTencentcloudCdhInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdh_instances#id DataTencentcloudCdhInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface DataTencentcloudCdhInstancesConfig extends cdktf.TerraformMetaA
   /**
   * The project CDH belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdh_instances#project_id DataTencentcloudCdhInstances#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdh_instances#project_id DataTencentcloudCdhInstances#project_id}
   */
   readonly projectId?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdh_instances#result_output_file DataTencentcloudCdhInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdh_instances#result_output_file DataTencentcloudCdhInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -294,7 +294,7 @@ export class DataTencentcloudCdhInstancesCdhInstanceListStructList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdh_instances tencentcloud_cdh_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdh_instances tencentcloud_cdh_instances}
 */
 export class DataTencentcloudCdhInstances extends cdktf.TerraformDataSource {
 
@@ -310,7 +310,7 @@ export class DataTencentcloudCdhInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCdhInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCdhInstances to import
-  * @param importFromId The id of the existing DataTencentcloudCdhInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdh_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCdhInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdh_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCdhInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -322,7 +322,7 @@ export class DataTencentcloudCdhInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cdh_instances tencentcloud_cdh_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cdh_instances tencentcloud_cdh_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -333,8 +333,8 @@ export class DataTencentcloudCdhInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cdh_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface RamSecurityPreferenceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#allow_user_to_change_password RamSecurityPreference#allow_user_to_change_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#allow_user_to_change_password RamSecurityPreference#allow_user_to_change_password}
   */
   readonly allowUserToChangePassword?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#allow_user_to_login_with_passkey RamSecurityPreference#allow_user_to_login_with_passkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#allow_user_to_login_with_passkey RamSecurityPreference#allow_user_to_login_with_passkey}
   */
   readonly allowUserToLoginWithPasskey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#allow_user_to_manage_access_keys RamSecurityPreference#allow_user_to_manage_access_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#allow_user_to_manage_access_keys RamSecurityPreference#allow_user_to_manage_access_keys}
   */
   readonly allowUserToManageAccessKeys?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#allow_user_to_manage_mfa_devices RamSecurityPreference#allow_user_to_manage_mfa_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#allow_user_to_manage_mfa_devices RamSecurityPreference#allow_user_to_manage_mfa_devices}
   */
   readonly allowUserToManageMfaDevices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#allow_user_to_manage_personal_ding_talk RamSecurityPreference#allow_user_to_manage_personal_ding_talk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#allow_user_to_manage_personal_ding_talk RamSecurityPreference#allow_user_to_manage_personal_ding_talk}
   */
   readonly allowUserToManagePersonalDingTalk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#enable_save_mfa_ticket RamSecurityPreference#enable_save_mfa_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#enable_save_mfa_ticket RamSecurityPreference#enable_save_mfa_ticket}
   */
   readonly enableSaveMfaTicket?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#enforce_mfa_for_login RamSecurityPreference#enforce_mfa_for_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#enforce_mfa_for_login RamSecurityPreference#enforce_mfa_for_login}
   */
   readonly enforceMfaForLogin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#id RamSecurityPreference#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#id RamSecurityPreference#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#login_network_masks RamSecurityPreference#login_network_masks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#login_network_masks RamSecurityPreference#login_network_masks}
   */
   readonly loginNetworkMasks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#login_session_duration RamSecurityPreference#login_session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#login_session_duration RamSecurityPreference#login_session_duration}
   */
   readonly loginSessionDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#mfa_operation_for_login RamSecurityPreference#mfa_operation_for_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#mfa_operation_for_login RamSecurityPreference#mfa_operation_for_login}
   */
   readonly mfaOperationForLogin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#operation_for_risk_login RamSecurityPreference#operation_for_risk_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#operation_for_risk_login RamSecurityPreference#operation_for_risk_login}
   */
   readonly operationForRiskLogin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#verification_types RamSecurityPreference#verification_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#verification_types RamSecurityPreference#verification_types}
   */
   readonly verificationTypes?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#timeouts RamSecurityPreference#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#timeouts RamSecurityPreference#timeouts}
   */
   readonly timeouts?: RamSecurityPreferenceTimeouts;
 }
 export interface RamSecurityPreferenceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#create RamSecurityPreference#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#create RamSecurityPreference#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#delete RamSecurityPreference#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#delete RamSecurityPreference#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#update RamSecurityPreference#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#update RamSecurityPreference#update}
   */
   readonly update?: string;
 }
@@ -231,7 +231,7 @@ export class RamSecurityPreferenceTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference alicloud_ram_security_preference}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference alicloud_ram_security_preference}
 */
 export class RamSecurityPreference extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class RamSecurityPreference extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RamSecurityPreference resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RamSecurityPreference to import
-  * @param importFromId The id of the existing RamSecurityPreference that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RamSecurityPreference that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RamSecurityPreference to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class RamSecurityPreference extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ram_security_preference alicloud_ram_security_preference} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ram_security_preference alicloud_ram_security_preference} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class RamSecurityPreference extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ram_security_preference',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface CmsMetricRuleBlackListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#category CmsMetricRuleBlackList#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#category CmsMetricRuleBlackList#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#effective_time CmsMetricRuleBlackList#effective_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#effective_time CmsMetricRuleBlackList#effective_time}
   */
   readonly effectiveTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#enable_end_time CmsMetricRuleBlackList#enable_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#enable_end_time CmsMetricRuleBlackList#enable_end_time}
   */
   readonly enableEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#enable_start_time CmsMetricRuleBlackList#enable_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#enable_start_time CmsMetricRuleBlackList#enable_start_time}
   */
   readonly enableStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#id CmsMetricRuleBlackList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#id CmsMetricRuleBlackList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#instances CmsMetricRuleBlackList#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#instances CmsMetricRuleBlackList#instances}
   */
   readonly instances: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#is_enable CmsMetricRuleBlackList#is_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#is_enable CmsMetricRuleBlackList#is_enable}
   */
   readonly isEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#metric_rule_black_list_name CmsMetricRuleBlackList#metric_rule_black_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#metric_rule_black_list_name CmsMetricRuleBlackList#metric_rule_black_list_name}
   */
   readonly metricRuleBlackListName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#namespace CmsMetricRuleBlackList#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#namespace CmsMetricRuleBlackList#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#scope_type CmsMetricRuleBlackList#scope_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#scope_type CmsMetricRuleBlackList#scope_type}
   */
   readonly scopeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#scope_value CmsMetricRuleBlackList#scope_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#scope_value CmsMetricRuleBlackList#scope_value}
   */
   readonly scopeValue?: string[];
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#metrics CmsMetricRuleBlackList#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#metrics CmsMetricRuleBlackList#metrics}
   */
   readonly metrics?: CmsMetricRuleBlackListMetrics[] | cdktf.IResolvable;
 }
 export interface CmsMetricRuleBlackListMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#metric_name CmsMetricRuleBlackList#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#metric_name CmsMetricRuleBlackList#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#resource CmsMetricRuleBlackList#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#resource CmsMetricRuleBlackList#resource}
   */
   readonly resource?: string;
 }
@@ -209,7 +209,7 @@ export class CmsMetricRuleBlackListMetricsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list alicloud_cms_metric_rule_black_list}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list alicloud_cms_metric_rule_black_list}
 */
 export class CmsMetricRuleBlackList extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class CmsMetricRuleBlackList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CmsMetricRuleBlackList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CmsMetricRuleBlackList to import
-  * @param importFromId The id of the existing CmsMetricRuleBlackList that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CmsMetricRuleBlackList that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CmsMetricRuleBlackList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class CmsMetricRuleBlackList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/cms_metric_rule_black_list alicloud_cms_metric_rule_black_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_metric_rule_black_list alicloud_cms_metric_rule_black_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class CmsMetricRuleBlackList extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cms_metric_rule_black_list',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

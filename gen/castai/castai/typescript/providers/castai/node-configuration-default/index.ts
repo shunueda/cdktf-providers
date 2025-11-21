@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/node_configuration_default
+// https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration_default
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NodeConfigurationDefaultConfig extends cdktf.TerraformMetaArgum
   /**
   * CAST AI cluster id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/node_configuration_default#cluster_id NodeConfigurationDefault#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration_default#cluster_id NodeConfigurationDefault#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Id of the node configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/node_configuration_default#configuration_id NodeConfigurationDefault#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration_default#configuration_id NodeConfigurationDefault#configuration_id}
   */
   readonly configurationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/node_configuration_default#id NodeConfigurationDefault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration_default#id NodeConfigurationDefault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,21 +29,21 @@ export interface NodeConfigurationDefaultConfig extends cdktf.TerraformMetaArgum
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/node_configuration_default#timeouts NodeConfigurationDefault#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration_default#timeouts NodeConfigurationDefault#timeouts}
   */
   readonly timeouts?: NodeConfigurationDefaultTimeouts;
 }
 export interface NodeConfigurationDefaultTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/node_configuration_default#create NodeConfigurationDefault#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration_default#create NodeConfigurationDefault#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/node_configuration_default#delete NodeConfigurationDefault#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration_default#delete NodeConfigurationDefault#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/node_configuration_default#read NodeConfigurationDefault#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration_default#read NodeConfigurationDefault#read}
   */
   readonly read?: string;
 }
@@ -195,7 +195,7 @@ export class NodeConfigurationDefaultTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/node_configuration_default castai_node_configuration_default}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration_default castai_node_configuration_default}
 */
 export class NodeConfigurationDefault extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class NodeConfigurationDefault extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NodeConfigurationDefault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NodeConfigurationDefault to import
-  * @param importFromId The id of the existing NodeConfigurationDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/node_configuration_default#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NodeConfigurationDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration_default#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NodeConfigurationDefault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class NodeConfigurationDefault extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/node_configuration_default castai_node_configuration_default} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.3.0/docs/resources/node_configuration_default castai_node_configuration_default} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class NodeConfigurationDefault extends cdktf.TerraformResource {
       terraformResourceType: 'castai_node_configuration_default',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.2.1',
-        providerVersionConstraint: '8.2.1'
+        providerVersion: '8.3.0',
+        providerVersionConstraint: '8.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

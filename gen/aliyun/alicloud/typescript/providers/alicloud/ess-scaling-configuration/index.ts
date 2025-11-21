@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,250 +8,258 @@ import * as cdktf from 'cdktf';
 
 export interface EssScalingConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#active EssScalingConfiguration#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#active EssScalingConfiguration#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#credit_specification EssScalingConfiguration#credit_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#credit_specification EssScalingConfiguration#credit_specification}
   */
   readonly creditSpecification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#deletion_protection EssScalingConfiguration#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#dedicated_host_cluster_id EssScalingConfiguration#dedicated_host_cluster_id}
+  */
+  readonly dedicatedHostClusterId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#deletion_protection EssScalingConfiguration#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#enable EssScalingConfiguration#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#enable EssScalingConfiguration#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#force_delete EssScalingConfiguration#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#force_delete EssScalingConfiguration#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#host_name EssScalingConfiguration#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#host_name EssScalingConfiguration#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#id EssScalingConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#http_endpoint EssScalingConfiguration#http_endpoint}
+  */
+  readonly httpEndpoint?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#id EssScalingConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#image_id EssScalingConfiguration#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#image_id EssScalingConfiguration#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#image_name EssScalingConfiguration#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#image_name EssScalingConfiguration#image_name}
   */
   readonly imageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#image_options_login_as_non_root EssScalingConfiguration#image_options_login_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#image_options_login_as_non_root EssScalingConfiguration#image_options_login_as_non_root}
   */
   readonly imageOptionsLoginAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#instance_description EssScalingConfiguration#instance_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_description EssScalingConfiguration#instance_description}
   */
   readonly instanceDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#instance_ids EssScalingConfiguration#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_ids EssScalingConfiguration#instance_ids}
   */
   readonly instanceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#instance_name EssScalingConfiguration#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_name EssScalingConfiguration#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#instance_types EssScalingConfiguration#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_types EssScalingConfiguration#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#internet_charge_type EssScalingConfiguration#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#internet_charge_type EssScalingConfiguration#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#internet_max_bandwidth_in EssScalingConfiguration#internet_max_bandwidth_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#internet_max_bandwidth_in EssScalingConfiguration#internet_max_bandwidth_in}
   */
   readonly internetMaxBandwidthIn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#internet_max_bandwidth_out EssScalingConfiguration#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#internet_max_bandwidth_out EssScalingConfiguration#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#io_optimized EssScalingConfiguration#io_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#io_optimized EssScalingConfiguration#io_optimized}
   */
   readonly ioOptimized?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#is_outdated EssScalingConfiguration#is_outdated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#is_outdated EssScalingConfiguration#is_outdated}
   */
   readonly isOutdated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#key_name EssScalingConfiguration#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#key_name EssScalingConfiguration#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#kms_encrypted_password EssScalingConfiguration#kms_encrypted_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#kms_encrypted_password EssScalingConfiguration#kms_encrypted_password}
   */
   readonly kmsEncryptedPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#kms_encryption_context EssScalingConfiguration#kms_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#kms_encryption_context EssScalingConfiguration#kms_encryption_context}
   */
   readonly kmsEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#override EssScalingConfiguration#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#override EssScalingConfiguration#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#password EssScalingConfiguration#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#password EssScalingConfiguration#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#password_inherit EssScalingConfiguration#password_inherit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#password_inherit EssScalingConfiguration#password_inherit}
   */
   readonly passwordInherit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#resource_group_id EssScalingConfiguration#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#resource_group_id EssScalingConfiguration#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#role_name EssScalingConfiguration#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#role_name EssScalingConfiguration#role_name}
   */
   readonly roleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#scaling_configuration_name EssScalingConfiguration#scaling_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#scaling_configuration_name EssScalingConfiguration#scaling_configuration_name}
   */
   readonly scalingConfigurationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#scaling_group_id EssScalingConfiguration#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#scaling_group_id EssScalingConfiguration#scaling_group_id}
   */
   readonly scalingGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#security_enhancement_strategy EssScalingConfiguration#security_enhancement_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#security_enhancement_strategy EssScalingConfiguration#security_enhancement_strategy}
   */
   readonly securityEnhancementStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#security_group_id EssScalingConfiguration#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#security_group_id EssScalingConfiguration#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#security_group_ids EssScalingConfiguration#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#security_group_ids EssScalingConfiguration#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#spot_duration EssScalingConfiguration#spot_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#spot_duration EssScalingConfiguration#spot_duration}
   */
   readonly spotDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#spot_strategy EssScalingConfiguration#spot_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#spot_strategy EssScalingConfiguration#spot_strategy}
   */
   readonly spotStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#substitute EssScalingConfiguration#substitute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#substitute EssScalingConfiguration#substitute}
   */
   readonly substitute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#system_disk_auto_snapshot_policy_id EssScalingConfiguration#system_disk_auto_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#system_disk_auto_snapshot_policy_id EssScalingConfiguration#system_disk_auto_snapshot_policy_id}
   */
   readonly systemDiskAutoSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#system_disk_category EssScalingConfiguration#system_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#system_disk_category EssScalingConfiguration#system_disk_category}
   */
   readonly systemDiskCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#system_disk_description EssScalingConfiguration#system_disk_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#system_disk_description EssScalingConfiguration#system_disk_description}
   */
   readonly systemDiskDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#system_disk_encrypt_algorithm EssScalingConfiguration#system_disk_encrypt_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#system_disk_encrypt_algorithm EssScalingConfiguration#system_disk_encrypt_algorithm}
   */
   readonly systemDiskEncryptAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#system_disk_encrypted EssScalingConfiguration#system_disk_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#system_disk_encrypted EssScalingConfiguration#system_disk_encrypted}
   */
   readonly systemDiskEncrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#system_disk_kms_key_id EssScalingConfiguration#system_disk_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#system_disk_kms_key_id EssScalingConfiguration#system_disk_kms_key_id}
   */
   readonly systemDiskKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#system_disk_name EssScalingConfiguration#system_disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#system_disk_name EssScalingConfiguration#system_disk_name}
   */
   readonly systemDiskName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#system_disk_performance_level EssScalingConfiguration#system_disk_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#system_disk_performance_level EssScalingConfiguration#system_disk_performance_level}
   */
   readonly systemDiskPerformanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#system_disk_provisioned_iops EssScalingConfiguration#system_disk_provisioned_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#system_disk_provisioned_iops EssScalingConfiguration#system_disk_provisioned_iops}
   */
   readonly systemDiskProvisionedIops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#system_disk_size EssScalingConfiguration#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#system_disk_size EssScalingConfiguration#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#tags EssScalingConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#tags EssScalingConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#user_data EssScalingConfiguration#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#user_data EssScalingConfiguration#user_data}
   */
   readonly userData?: string;
   /**
   * custom_priorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#custom_priorities EssScalingConfiguration#custom_priorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#custom_priorities EssScalingConfiguration#custom_priorities}
   */
   readonly customPriorities?: EssScalingConfigurationCustomPriorities[] | cdktf.IResolvable;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#data_disk EssScalingConfiguration#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#data_disk EssScalingConfiguration#data_disk}
   */
   readonly dataDisk?: EssScalingConfigurationDataDisk[] | cdktf.IResolvable;
   /**
   * instance_pattern_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#instance_pattern_info EssScalingConfiguration#instance_pattern_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_pattern_info EssScalingConfiguration#instance_pattern_info}
   */
   readonly instancePatternInfo?: EssScalingConfigurationInstancePatternInfo[] | cdktf.IResolvable;
   /**
   * instance_type_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#instance_type_override EssScalingConfiguration#instance_type_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_type_override EssScalingConfiguration#instance_type_override}
   */
   readonly instanceTypeOverride?: EssScalingConfigurationInstanceTypeOverride[] | cdktf.IResolvable;
   /**
   * network_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#network_interfaces EssScalingConfiguration#network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#network_interfaces EssScalingConfiguration#network_interfaces}
   */
   readonly networkInterfaces?: EssScalingConfigurationNetworkInterfaces[] | cdktf.IResolvable;
   /**
   * spot_price_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#spot_price_limit EssScalingConfiguration#spot_price_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#spot_price_limit EssScalingConfiguration#spot_price_limit}
   */
   readonly spotPriceLimit?: EssScalingConfigurationSpotPriceLimit[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#timeouts EssScalingConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#timeouts EssScalingConfiguration#timeouts}
   */
   readonly timeouts?: EssScalingConfigurationTimeouts;
 }
 export interface EssScalingConfigurationCustomPriorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#vswitch_id EssScalingConfiguration#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#vswitch_id EssScalingConfiguration#vswitch_id}
   */
   readonly vswitchId?: string;
 }
@@ -396,51 +404,51 @@ export class EssScalingConfigurationCustomPrioritiesList extends cdktf.ComplexLi
 }
 export interface EssScalingConfigurationDataDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#auto_snapshot_policy_id EssScalingConfiguration#auto_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#auto_snapshot_policy_id EssScalingConfiguration#auto_snapshot_policy_id}
   */
   readonly autoSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#category EssScalingConfiguration#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#category EssScalingConfiguration#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#delete_with_instance EssScalingConfiguration#delete_with_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#delete_with_instance EssScalingConfiguration#delete_with_instance}
   */
   readonly deleteWithInstance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#description EssScalingConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#description EssScalingConfiguration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#device EssScalingConfiguration#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#device EssScalingConfiguration#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#encrypted EssScalingConfiguration#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#encrypted EssScalingConfiguration#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#kms_key_id EssScalingConfiguration#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#kms_key_id EssScalingConfiguration#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#name EssScalingConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#name EssScalingConfiguration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#performance_level EssScalingConfiguration#performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#performance_level EssScalingConfiguration#performance_level}
   */
   readonly performanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#provisioned_iops EssScalingConfiguration#provisioned_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#provisioned_iops EssScalingConfiguration#provisioned_iops}
   */
   readonly provisionedIops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#size EssScalingConfiguration#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#size EssScalingConfiguration#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#snapshot_id EssScalingConfiguration#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#snapshot_id EssScalingConfiguration#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -875,33 +883,97 @@ export class EssScalingConfigurationDataDiskList extends cdktf.ComplexList {
 }
 export interface EssScalingConfigurationInstancePatternInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#architectures EssScalingConfiguration#architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#architectures EssScalingConfiguration#architectures}
   */
   readonly architectures?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#burstable_performance EssScalingConfiguration#burstable_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#burstable_performance EssScalingConfiguration#burstable_performance}
   */
   readonly burstablePerformance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#cores EssScalingConfiguration#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#cores EssScalingConfiguration#cores}
   */
   readonly cores?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#excluded_instance_types EssScalingConfiguration#excluded_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#cpu_architectures EssScalingConfiguration#cpu_architectures}
+  */
+  readonly cpuArchitectures?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#excluded_instance_types EssScalingConfiguration#excluded_instance_types}
   */
   readonly excludedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#instance_family_level EssScalingConfiguration#instance_family_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#gpu_specs EssScalingConfiguration#gpu_specs}
+  */
+  readonly gpuSpecs?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_categories EssScalingConfiguration#instance_categories}
+  */
+  readonly instanceCategories?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_family_level EssScalingConfiguration#instance_family_level}
   */
   readonly instanceFamilyLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#max_price EssScalingConfiguration#max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_type_families EssScalingConfiguration#instance_type_families}
+  */
+  readonly instanceTypeFamilies?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#max_price EssScalingConfiguration#max_price}
   */
   readonly maxPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#memory EssScalingConfiguration#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#maximum_cpu_core_count EssScalingConfiguration#maximum_cpu_core_count}
+  */
+  readonly maximumCpuCoreCount?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#maximum_gpu_amount EssScalingConfiguration#maximum_gpu_amount}
+  */
+  readonly maximumGpuAmount?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#maximum_memory_size EssScalingConfiguration#maximum_memory_size}
+  */
+  readonly maximumMemorySize?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#memory EssScalingConfiguration#memory}
   */
   readonly memory?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#minimum_baseline_credit EssScalingConfiguration#minimum_baseline_credit}
+  */
+  readonly minimumBaselineCredit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#minimum_cpu_core_count EssScalingConfiguration#minimum_cpu_core_count}
+  */
+  readonly minimumCpuCoreCount?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#minimum_eni_ipv6_address_quantity EssScalingConfiguration#minimum_eni_ipv6_address_quantity}
+  */
+  readonly minimumEniIpv6AddressQuantity?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#minimum_eni_private_ip_address_quantity EssScalingConfiguration#minimum_eni_private_ip_address_quantity}
+  */
+  readonly minimumEniPrivateIpAddressQuantity?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#minimum_eni_quantity EssScalingConfiguration#minimum_eni_quantity}
+  */
+  readonly minimumEniQuantity?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#minimum_gpu_amount EssScalingConfiguration#minimum_gpu_amount}
+  */
+  readonly minimumGpuAmount?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#minimum_initial_credit EssScalingConfiguration#minimum_initial_credit}
+  */
+  readonly minimumInitialCredit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#minimum_memory_size EssScalingConfiguration#minimum_memory_size}
+  */
+  readonly minimumMemorySize?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#physical_processor_models EssScalingConfiguration#physical_processor_models}
+  */
+  readonly physicalProcessorModels?: string[];
 }
 
 export function essScalingConfigurationInstancePatternInfoToTerraform(struct?: EssScalingConfigurationInstancePatternInfo | cdktf.IResolvable): any {
@@ -913,10 +985,26 @@ export function essScalingConfigurationInstancePatternInfoToTerraform(struct?: E
     architectures: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.architectures),
     burstable_performance: cdktf.stringToTerraform(struct!.burstablePerformance),
     cores: cdktf.numberToTerraform(struct!.cores),
+    cpu_architectures: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.cpuArchitectures),
     excluded_instance_types: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludedInstanceTypes),
+    gpu_specs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.gpuSpecs),
+    instance_categories: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instanceCategories),
     instance_family_level: cdktf.stringToTerraform(struct!.instanceFamilyLevel),
+    instance_type_families: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instanceTypeFamilies),
     max_price: cdktf.numberToTerraform(struct!.maxPrice),
+    maximum_cpu_core_count: cdktf.numberToTerraform(struct!.maximumCpuCoreCount),
+    maximum_gpu_amount: cdktf.numberToTerraform(struct!.maximumGpuAmount),
+    maximum_memory_size: cdktf.numberToTerraform(struct!.maximumMemorySize),
     memory: cdktf.numberToTerraform(struct!.memory),
+    minimum_baseline_credit: cdktf.numberToTerraform(struct!.minimumBaselineCredit),
+    minimum_cpu_core_count: cdktf.numberToTerraform(struct!.minimumCpuCoreCount),
+    minimum_eni_ipv6_address_quantity: cdktf.numberToTerraform(struct!.minimumEniIpv6AddressQuantity),
+    minimum_eni_private_ip_address_quantity: cdktf.numberToTerraform(struct!.minimumEniPrivateIpAddressQuantity),
+    minimum_eni_quantity: cdktf.numberToTerraform(struct!.minimumEniQuantity),
+    minimum_gpu_amount: cdktf.numberToTerraform(struct!.minimumGpuAmount),
+    minimum_initial_credit: cdktf.numberToTerraform(struct!.minimumInitialCredit),
+    minimum_memory_size: cdktf.numberToTerraform(struct!.minimumMemorySize),
+    physical_processor_models: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.physicalProcessorModels),
   }
 }
 
@@ -945,10 +1033,28 @@ export function essScalingConfigurationInstancePatternInfoToHclTerraform(struct?
       type: "simple",
       storageClassType: "number",
     },
+    cpu_architectures: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.cpuArchitectures),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
     excluded_instance_types: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.excludedInstanceTypes),
       isBlock: false,
       type: "list",
+      storageClassType: "stringList",
+    },
+    gpu_specs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.gpuSpecs),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    instance_categories: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instanceCategories),
+      isBlock: false,
+      type: "set",
       storageClassType: "stringList",
     },
     instance_family_level: {
@@ -957,8 +1063,32 @@ export function essScalingConfigurationInstancePatternInfoToHclTerraform(struct?
       type: "simple",
       storageClassType: "string",
     },
+    instance_type_families: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instanceTypeFamilies),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
     max_price: {
       value: cdktf.numberToHclTerraform(struct!.maxPrice),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    maximum_cpu_core_count: {
+      value: cdktf.numberToHclTerraform(struct!.maximumCpuCoreCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    maximum_gpu_amount: {
+      value: cdktf.numberToHclTerraform(struct!.maximumGpuAmount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    maximum_memory_size: {
+      value: cdktf.numberToHclTerraform(struct!.maximumMemorySize),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -968,6 +1098,60 @@ export function essScalingConfigurationInstancePatternInfoToHclTerraform(struct?
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    minimum_baseline_credit: {
+      value: cdktf.numberToHclTerraform(struct!.minimumBaselineCredit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    minimum_cpu_core_count: {
+      value: cdktf.numberToHclTerraform(struct!.minimumCpuCoreCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    minimum_eni_ipv6_address_quantity: {
+      value: cdktf.numberToHclTerraform(struct!.minimumEniIpv6AddressQuantity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    minimum_eni_private_ip_address_quantity: {
+      value: cdktf.numberToHclTerraform(struct!.minimumEniPrivateIpAddressQuantity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    minimum_eni_quantity: {
+      value: cdktf.numberToHclTerraform(struct!.minimumEniQuantity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    minimum_gpu_amount: {
+      value: cdktf.numberToHclTerraform(struct!.minimumGpuAmount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    minimum_initial_credit: {
+      value: cdktf.numberToHclTerraform(struct!.minimumInitialCredit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    minimum_memory_size: {
+      value: cdktf.numberToHclTerraform(struct!.minimumMemorySize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    physical_processor_models: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.physicalProcessorModels),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
     },
   };
 
@@ -1007,21 +1191,85 @@ export class EssScalingConfigurationInstancePatternInfoOutputReference extends c
       hasAnyValues = true;
       internalValueResult.cores = this._cores;
     }
+    if (this._cpuArchitectures !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpuArchitectures = this._cpuArchitectures;
+    }
     if (this._excludedInstanceTypes !== undefined) {
       hasAnyValues = true;
       internalValueResult.excludedInstanceTypes = this._excludedInstanceTypes;
+    }
+    if (this._gpuSpecs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gpuSpecs = this._gpuSpecs;
+    }
+    if (this._instanceCategories !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceCategories = this._instanceCategories;
     }
     if (this._instanceFamilyLevel !== undefined) {
       hasAnyValues = true;
       internalValueResult.instanceFamilyLevel = this._instanceFamilyLevel;
     }
+    if (this._instanceTypeFamilies !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceTypeFamilies = this._instanceTypeFamilies;
+    }
     if (this._maxPrice !== undefined) {
       hasAnyValues = true;
       internalValueResult.maxPrice = this._maxPrice;
     }
+    if (this._maximumCpuCoreCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximumCpuCoreCount = this._maximumCpuCoreCount;
+    }
+    if (this._maximumGpuAmount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximumGpuAmount = this._maximumGpuAmount;
+    }
+    if (this._maximumMemorySize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximumMemorySize = this._maximumMemorySize;
+    }
     if (this._memory !== undefined) {
       hasAnyValues = true;
       internalValueResult.memory = this._memory;
+    }
+    if (this._minimumBaselineCredit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumBaselineCredit = this._minimumBaselineCredit;
+    }
+    if (this._minimumCpuCoreCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumCpuCoreCount = this._minimumCpuCoreCount;
+    }
+    if (this._minimumEniIpv6AddressQuantity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumEniIpv6AddressQuantity = this._minimumEniIpv6AddressQuantity;
+    }
+    if (this._minimumEniPrivateIpAddressQuantity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumEniPrivateIpAddressQuantity = this._minimumEniPrivateIpAddressQuantity;
+    }
+    if (this._minimumEniQuantity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumEniQuantity = this._minimumEniQuantity;
+    }
+    if (this._minimumGpuAmount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumGpuAmount = this._minimumGpuAmount;
+    }
+    if (this._minimumInitialCredit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumInitialCredit = this._minimumInitialCredit;
+    }
+    if (this._minimumMemorySize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumMemorySize = this._minimumMemorySize;
+    }
+    if (this._physicalProcessorModels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.physicalProcessorModels = this._physicalProcessorModels;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1033,10 +1281,26 @@ export class EssScalingConfigurationInstancePatternInfoOutputReference extends c
       this._architectures = undefined;
       this._burstablePerformance = undefined;
       this._cores = undefined;
+      this._cpuArchitectures = undefined;
       this._excludedInstanceTypes = undefined;
+      this._gpuSpecs = undefined;
+      this._instanceCategories = undefined;
       this._instanceFamilyLevel = undefined;
+      this._instanceTypeFamilies = undefined;
       this._maxPrice = undefined;
+      this._maximumCpuCoreCount = undefined;
+      this._maximumGpuAmount = undefined;
+      this._maximumMemorySize = undefined;
       this._memory = undefined;
+      this._minimumBaselineCredit = undefined;
+      this._minimumCpuCoreCount = undefined;
+      this._minimumEniIpv6AddressQuantity = undefined;
+      this._minimumEniPrivateIpAddressQuantity = undefined;
+      this._minimumEniQuantity = undefined;
+      this._minimumGpuAmount = undefined;
+      this._minimumInitialCredit = undefined;
+      this._minimumMemorySize = undefined;
+      this._physicalProcessorModels = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1048,10 +1312,26 @@ export class EssScalingConfigurationInstancePatternInfoOutputReference extends c
       this._architectures = value.architectures;
       this._burstablePerformance = value.burstablePerformance;
       this._cores = value.cores;
+      this._cpuArchitectures = value.cpuArchitectures;
       this._excludedInstanceTypes = value.excludedInstanceTypes;
+      this._gpuSpecs = value.gpuSpecs;
+      this._instanceCategories = value.instanceCategories;
       this._instanceFamilyLevel = value.instanceFamilyLevel;
+      this._instanceTypeFamilies = value.instanceTypeFamilies;
       this._maxPrice = value.maxPrice;
+      this._maximumCpuCoreCount = value.maximumCpuCoreCount;
+      this._maximumGpuAmount = value.maximumGpuAmount;
+      this._maximumMemorySize = value.maximumMemorySize;
       this._memory = value.memory;
+      this._minimumBaselineCredit = value.minimumBaselineCredit;
+      this._minimumCpuCoreCount = value.minimumCpuCoreCount;
+      this._minimumEniIpv6AddressQuantity = value.minimumEniIpv6AddressQuantity;
+      this._minimumEniPrivateIpAddressQuantity = value.minimumEniPrivateIpAddressQuantity;
+      this._minimumEniQuantity = value.minimumEniQuantity;
+      this._minimumGpuAmount = value.minimumGpuAmount;
+      this._minimumInitialCredit = value.minimumInitialCredit;
+      this._minimumMemorySize = value.minimumMemorySize;
+      this._physicalProcessorModels = value.physicalProcessorModels;
     }
   }
 
@@ -1103,6 +1383,22 @@ export class EssScalingConfigurationInstancePatternInfoOutputReference extends c
     return this._cores;
   }
 
+  // cpu_architectures - computed: false, optional: true, required: false
+  private _cpuArchitectures?: string[]; 
+  public get cpuArchitectures() {
+    return cdktf.Fn.tolist(this.getListAttribute('cpu_architectures'));
+  }
+  public set cpuArchitectures(value: string[]) {
+    this._cpuArchitectures = value;
+  }
+  public resetCpuArchitectures() {
+    this._cpuArchitectures = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpuArchitecturesInput() {
+    return this._cpuArchitectures;
+  }
+
   // excluded_instance_types - computed: false, optional: true, required: false
   private _excludedInstanceTypes?: string[]; 
   public get excludedInstanceTypes() {
@@ -1117,6 +1413,38 @@ export class EssScalingConfigurationInstancePatternInfoOutputReference extends c
   // Temporarily expose input value. Use with caution.
   public get excludedInstanceTypesInput() {
     return this._excludedInstanceTypes;
+  }
+
+  // gpu_specs - computed: false, optional: true, required: false
+  private _gpuSpecs?: string[]; 
+  public get gpuSpecs() {
+    return cdktf.Fn.tolist(this.getListAttribute('gpu_specs'));
+  }
+  public set gpuSpecs(value: string[]) {
+    this._gpuSpecs = value;
+  }
+  public resetGpuSpecs() {
+    this._gpuSpecs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gpuSpecsInput() {
+    return this._gpuSpecs;
+  }
+
+  // instance_categories - computed: false, optional: true, required: false
+  private _instanceCategories?: string[]; 
+  public get instanceCategories() {
+    return cdktf.Fn.tolist(this.getListAttribute('instance_categories'));
+  }
+  public set instanceCategories(value: string[]) {
+    this._instanceCategories = value;
+  }
+  public resetInstanceCategories() {
+    this._instanceCategories = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceCategoriesInput() {
+    return this._instanceCategories;
   }
 
   // instance_family_level - computed: false, optional: true, required: false
@@ -1135,6 +1463,22 @@ export class EssScalingConfigurationInstancePatternInfoOutputReference extends c
     return this._instanceFamilyLevel;
   }
 
+  // instance_type_families - computed: false, optional: true, required: false
+  private _instanceTypeFamilies?: string[]; 
+  public get instanceTypeFamilies() {
+    return cdktf.Fn.tolist(this.getListAttribute('instance_type_families'));
+  }
+  public set instanceTypeFamilies(value: string[]) {
+    this._instanceTypeFamilies = value;
+  }
+  public resetInstanceTypeFamilies() {
+    this._instanceTypeFamilies = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceTypeFamiliesInput() {
+    return this._instanceTypeFamilies;
+  }
+
   // max_price - computed: false, optional: true, required: false
   private _maxPrice?: number; 
   public get maxPrice() {
@@ -1151,6 +1495,54 @@ export class EssScalingConfigurationInstancePatternInfoOutputReference extends c
     return this._maxPrice;
   }
 
+  // maximum_cpu_core_count - computed: false, optional: true, required: false
+  private _maximumCpuCoreCount?: number; 
+  public get maximumCpuCoreCount() {
+    return this.getNumberAttribute('maximum_cpu_core_count');
+  }
+  public set maximumCpuCoreCount(value: number) {
+    this._maximumCpuCoreCount = value;
+  }
+  public resetMaximumCpuCoreCount() {
+    this._maximumCpuCoreCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumCpuCoreCountInput() {
+    return this._maximumCpuCoreCount;
+  }
+
+  // maximum_gpu_amount - computed: false, optional: true, required: false
+  private _maximumGpuAmount?: number; 
+  public get maximumGpuAmount() {
+    return this.getNumberAttribute('maximum_gpu_amount');
+  }
+  public set maximumGpuAmount(value: number) {
+    this._maximumGpuAmount = value;
+  }
+  public resetMaximumGpuAmount() {
+    this._maximumGpuAmount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumGpuAmountInput() {
+    return this._maximumGpuAmount;
+  }
+
+  // maximum_memory_size - computed: false, optional: true, required: false
+  private _maximumMemorySize?: number; 
+  public get maximumMemorySize() {
+    return this.getNumberAttribute('maximum_memory_size');
+  }
+  public set maximumMemorySize(value: number) {
+    this._maximumMemorySize = value;
+  }
+  public resetMaximumMemorySize() {
+    this._maximumMemorySize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumMemorySizeInput() {
+    return this._maximumMemorySize;
+  }
+
   // memory - computed: false, optional: true, required: false
   private _memory?: number; 
   public get memory() {
@@ -1165,6 +1557,150 @@ export class EssScalingConfigurationInstancePatternInfoOutputReference extends c
   // Temporarily expose input value. Use with caution.
   public get memoryInput() {
     return this._memory;
+  }
+
+  // minimum_baseline_credit - computed: false, optional: true, required: false
+  private _minimumBaselineCredit?: number; 
+  public get minimumBaselineCredit() {
+    return this.getNumberAttribute('minimum_baseline_credit');
+  }
+  public set minimumBaselineCredit(value: number) {
+    this._minimumBaselineCredit = value;
+  }
+  public resetMinimumBaselineCredit() {
+    this._minimumBaselineCredit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumBaselineCreditInput() {
+    return this._minimumBaselineCredit;
+  }
+
+  // minimum_cpu_core_count - computed: false, optional: true, required: false
+  private _minimumCpuCoreCount?: number; 
+  public get minimumCpuCoreCount() {
+    return this.getNumberAttribute('minimum_cpu_core_count');
+  }
+  public set minimumCpuCoreCount(value: number) {
+    this._minimumCpuCoreCount = value;
+  }
+  public resetMinimumCpuCoreCount() {
+    this._minimumCpuCoreCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumCpuCoreCountInput() {
+    return this._minimumCpuCoreCount;
+  }
+
+  // minimum_eni_ipv6_address_quantity - computed: false, optional: true, required: false
+  private _minimumEniIpv6AddressQuantity?: number; 
+  public get minimumEniIpv6AddressQuantity() {
+    return this.getNumberAttribute('minimum_eni_ipv6_address_quantity');
+  }
+  public set minimumEniIpv6AddressQuantity(value: number) {
+    this._minimumEniIpv6AddressQuantity = value;
+  }
+  public resetMinimumEniIpv6AddressQuantity() {
+    this._minimumEniIpv6AddressQuantity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumEniIpv6AddressQuantityInput() {
+    return this._minimumEniIpv6AddressQuantity;
+  }
+
+  // minimum_eni_private_ip_address_quantity - computed: false, optional: true, required: false
+  private _minimumEniPrivateIpAddressQuantity?: number; 
+  public get minimumEniPrivateIpAddressQuantity() {
+    return this.getNumberAttribute('minimum_eni_private_ip_address_quantity');
+  }
+  public set minimumEniPrivateIpAddressQuantity(value: number) {
+    this._minimumEniPrivateIpAddressQuantity = value;
+  }
+  public resetMinimumEniPrivateIpAddressQuantity() {
+    this._minimumEniPrivateIpAddressQuantity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumEniPrivateIpAddressQuantityInput() {
+    return this._minimumEniPrivateIpAddressQuantity;
+  }
+
+  // minimum_eni_quantity - computed: false, optional: true, required: false
+  private _minimumEniQuantity?: number; 
+  public get minimumEniQuantity() {
+    return this.getNumberAttribute('minimum_eni_quantity');
+  }
+  public set minimumEniQuantity(value: number) {
+    this._minimumEniQuantity = value;
+  }
+  public resetMinimumEniQuantity() {
+    this._minimumEniQuantity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumEniQuantityInput() {
+    return this._minimumEniQuantity;
+  }
+
+  // minimum_gpu_amount - computed: false, optional: true, required: false
+  private _minimumGpuAmount?: number; 
+  public get minimumGpuAmount() {
+    return this.getNumberAttribute('minimum_gpu_amount');
+  }
+  public set minimumGpuAmount(value: number) {
+    this._minimumGpuAmount = value;
+  }
+  public resetMinimumGpuAmount() {
+    this._minimumGpuAmount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumGpuAmountInput() {
+    return this._minimumGpuAmount;
+  }
+
+  // minimum_initial_credit - computed: false, optional: true, required: false
+  private _minimumInitialCredit?: number; 
+  public get minimumInitialCredit() {
+    return this.getNumberAttribute('minimum_initial_credit');
+  }
+  public set minimumInitialCredit(value: number) {
+    this._minimumInitialCredit = value;
+  }
+  public resetMinimumInitialCredit() {
+    this._minimumInitialCredit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumInitialCreditInput() {
+    return this._minimumInitialCredit;
+  }
+
+  // minimum_memory_size - computed: false, optional: true, required: false
+  private _minimumMemorySize?: number; 
+  public get minimumMemorySize() {
+    return this.getNumberAttribute('minimum_memory_size');
+  }
+  public set minimumMemorySize(value: number) {
+    this._minimumMemorySize = value;
+  }
+  public resetMinimumMemorySize() {
+    this._minimumMemorySize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumMemorySizeInput() {
+    return this._minimumMemorySize;
+  }
+
+  // physical_processor_models - computed: false, optional: true, required: false
+  private _physicalProcessorModels?: string[]; 
+  public get physicalProcessorModels() {
+    return cdktf.Fn.tolist(this.getListAttribute('physical_processor_models'));
+  }
+  public set physicalProcessorModels(value: string[]) {
+    this._physicalProcessorModels = value;
+  }
+  public resetPhysicalProcessorModels() {
+    this._physicalProcessorModels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get physicalProcessorModelsInput() {
+    return this._physicalProcessorModels;
   }
 }
 
@@ -1189,11 +1725,11 @@ export class EssScalingConfigurationInstancePatternInfoList extends cdktf.Comple
 }
 export interface EssScalingConfigurationInstanceTypeOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#weighted_capacity EssScalingConfiguration#weighted_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#weighted_capacity EssScalingConfiguration#weighted_capacity}
   */
   readonly weightedCapacity?: number;
 }
@@ -1338,19 +1874,19 @@ export class EssScalingConfigurationInstanceTypeOverrideList extends cdktf.Compl
 }
 export interface EssScalingConfigurationNetworkInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#ipv6_address_count EssScalingConfiguration#ipv6_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#ipv6_address_count EssScalingConfiguration#ipv6_address_count}
   */
   readonly ipv6AddressCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#network_interface_traffic_mode EssScalingConfiguration#network_interface_traffic_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#network_interface_traffic_mode EssScalingConfiguration#network_interface_traffic_mode}
   */
   readonly networkInterfaceTrafficMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#security_group_ids EssScalingConfiguration#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#security_group_ids EssScalingConfiguration#security_group_ids}
   */
   readonly securityGroupIds?: string[];
 }
@@ -1553,11 +2089,11 @@ export class EssScalingConfigurationNetworkInterfacesList extends cdktf.ComplexL
 }
 export interface EssScalingConfigurationSpotPriceLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#price_limit EssScalingConfiguration#price_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#price_limit EssScalingConfiguration#price_limit}
   */
   readonly priceLimit?: number;
 }
@@ -1702,15 +2238,15 @@ export class EssScalingConfigurationSpotPriceLimitList extends cdktf.ComplexList
 }
 export interface EssScalingConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#create EssScalingConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#create EssScalingConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#delete EssScalingConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#delete EssScalingConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#update EssScalingConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#update EssScalingConfiguration#update}
   */
   readonly update?: string;
 }
@@ -1862,7 +2398,7 @@ export class EssScalingConfigurationTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration alicloud_ess_scaling_configuration}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration alicloud_ess_scaling_configuration}
 */
 export class EssScalingConfiguration extends cdktf.TerraformResource {
 
@@ -1878,7 +2414,7 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EssScalingConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EssScalingConfiguration to import
-  * @param importFromId The id of the existing EssScalingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EssScalingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EssScalingConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1890,7 +2426,7 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ess_scaling_configuration alicloud_ess_scaling_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_scaling_configuration alicloud_ess_scaling_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1901,8 +2437,8 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ess_scaling_configuration',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1914,10 +2450,12 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
     });
     this._active = config.active;
     this._creditSpecification = config.creditSpecification;
+    this._dedicatedHostClusterId = config.dedicatedHostClusterId;
     this._deletionProtection = config.deletionProtection;
     this._enable = config.enable;
     this._forceDelete = config.forceDelete;
     this._hostName = config.hostName;
+    this._httpEndpoint = config.httpEndpoint;
     this._id = config.id;
     this._imageId = config.imageId;
     this._imageName = config.imageName;
@@ -2005,6 +2543,22 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
     return this._creditSpecification;
   }
 
+  // dedicated_host_cluster_id - computed: false, optional: true, required: false
+  private _dedicatedHostClusterId?: string; 
+  public get dedicatedHostClusterId() {
+    return this.getStringAttribute('dedicated_host_cluster_id');
+  }
+  public set dedicatedHostClusterId(value: string) {
+    this._dedicatedHostClusterId = value;
+  }
+  public resetDedicatedHostClusterId() {
+    this._dedicatedHostClusterId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dedicatedHostClusterIdInput() {
+    return this._dedicatedHostClusterId;
+  }
+
   // deletion_protection - computed: false, optional: true, required: false
   private _deletionProtection?: boolean | cdktf.IResolvable; 
   public get deletionProtection() {
@@ -2067,6 +2621,22 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get hostNameInput() {
     return this._hostName;
+  }
+
+  // http_endpoint - computed: false, optional: true, required: false
+  private _httpEndpoint?: string; 
+  public get httpEndpoint() {
+    return this.getStringAttribute('http_endpoint');
+  }
+  public set httpEndpoint(value: string) {
+    this._httpEndpoint = value;
+  }
+  public resetHttpEndpoint() {
+    this._httpEndpoint = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpEndpointInput() {
+    return this._httpEndpoint;
   }
 
   // id - computed: true, optional: true, required: false
@@ -2858,10 +3428,12 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
     return {
       active: cdktf.booleanToTerraform(this._active),
       credit_specification: cdktf.stringToTerraform(this._creditSpecification),
+      dedicated_host_cluster_id: cdktf.stringToTerraform(this._dedicatedHostClusterId),
       deletion_protection: cdktf.booleanToTerraform(this._deletionProtection),
       enable: cdktf.booleanToTerraform(this._enable),
       force_delete: cdktf.booleanToTerraform(this._forceDelete),
       host_name: cdktf.stringToTerraform(this._hostName),
+      http_endpoint: cdktf.stringToTerraform(this._httpEndpoint),
       id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
       image_name: cdktf.stringToTerraform(this._imageName),
@@ -2928,6 +3500,12 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      dedicated_host_cluster_id: {
+        value: cdktf.stringToHclTerraform(this._dedicatedHostClusterId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       deletion_protection: {
         value: cdktf.booleanToHclTerraform(this._deletionProtection),
         isBlock: false,
@@ -2948,6 +3526,12 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
       },
       host_name: {
         value: cdktf.stringToHclTerraform(this._hostName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      http_endpoint: {
+        value: cdktf.stringToHclTerraform(this._httpEndpoint),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

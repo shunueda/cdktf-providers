@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface Ip6AddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * The class associated to the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address#class Ip6Address#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address#class Ip6Address#class}
   */
   readonly class?: string;
   /**
   * The class parameters associated to the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address#class_parameters Ip6Address#class_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address#class_parameters Ip6Address#class_parameters}
   */
   readonly classParameters?: { [key: string]: string };
   /**
   * Device Name to associate with the IPv6 address (Require a 'Device Manager' license).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address#device Ip6Address#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address#device Ip6Address#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address#id Ip6Address#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address#id Ip6Address#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface Ip6AddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * The MAC Address of the IPv6 address to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address#mac Ip6Address#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address#mac Ip6Address#mac}
   */
   readonly mac?: string;
   /**
   * The short name or FQDN of the IPv6 address to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address#name Ip6Address#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address#name Ip6Address#name}
   */
   readonly name: string;
   /**
   * The name of the pool into which creating the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address#pool Ip6Address#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address#pool Ip6Address#pool}
   */
   readonly pool?: string;
   /**
   * The optionally requested IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address#request_ip Ip6Address#request_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address#request_ip Ip6Address#request_ip}
   */
   readonly requestIp?: string;
   /**
   * The name of the space into which creating the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address#space Ip6Address#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address#space Ip6Address#space}
   */
   readonly space: string;
   /**
   * The name of the subnet into which creating the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address#subnet Ip6Address#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address#subnet Ip6Address#subnet}
   */
   readonly subnet: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address solidserver_ip6_address}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address solidserver_ip6_address}
 */
 export class Ip6Address extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class Ip6Address extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ip6Address resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ip6Address to import
-  * @param importFromId The id of the existing Ip6Address that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ip6Address that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ip6Address to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class Ip6Address extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_address solidserver_ip6_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_address solidserver_ip6_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class Ip6Address extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_ip6_address',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

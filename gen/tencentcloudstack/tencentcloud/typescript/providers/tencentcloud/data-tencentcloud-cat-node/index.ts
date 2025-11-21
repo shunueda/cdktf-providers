@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_node
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cat_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudCatNodeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_node#id DataTencentcloudCatNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cat_node#id DataTencentcloudCatNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataTencentcloudCatNodeConfig extends cdktf.TerraformMetaArgume
   /**
   * is IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_node#is_ipv6 DataTencentcloudCatNode#is_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cat_node#is_ipv6 DataTencentcloudCatNode#is_ipv6}
   */
   readonly isIpv6?: boolean | cdktf.IResolvable;
   /**
   * Node area:1=Chinese Mainland,2=Hong Kong, Macao and Taiwan,3=Overseas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_node#location DataTencentcloudCatNode#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cat_node#location DataTencentcloudCatNode#location}
   */
   readonly location?: number;
   /**
   * Node name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_node#node_name DataTencentcloudCatNode#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cat_node#node_name DataTencentcloudCatNode#node_name}
   */
   readonly nodeName?: string;
   /**
   * Node type 1:IDC,2:LastMile,3:Mobile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_node#node_type DataTencentcloudCatNode#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cat_node#node_type DataTencentcloudCatNode#node_type}
   */
   readonly nodeType?: number;
   /**
   * Payment mode:1=Trial version,2=Paid version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_node#pay_mode DataTencentcloudCatNode#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cat_node#pay_mode DataTencentcloudCatNode#pay_mode}
   */
   readonly payMode?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_node#result_output_file DataTencentcloudCatNode#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cat_node#result_output_file DataTencentcloudCatNode#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -178,7 +178,7 @@ export class DataTencentcloudCatNodeNodeDefineList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_node tencentcloud_cat_node}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cat_node tencentcloud_cat_node}
 */
 export class DataTencentcloudCatNode extends cdktf.TerraformDataSource {
 
@@ -194,7 +194,7 @@ export class DataTencentcloudCatNode extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCatNode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCatNode to import
-  * @param importFromId The id of the existing DataTencentcloudCatNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCatNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cat_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCatNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class DataTencentcloudCatNode extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_node tencentcloud_cat_node} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/cat_node tencentcloud_cat_node} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class DataTencentcloudCatNode extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cat_node',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

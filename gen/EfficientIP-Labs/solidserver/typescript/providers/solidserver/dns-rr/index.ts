@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DnsRrConfig extends cdktf.TerraformMetaArguments {
   /**
   * The class associated to the DNS view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr#class DnsRr#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr#class DnsRr#class}
   */
   readonly class?: string;
   /**
   * The class parameters associated to the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr#class_parameters DnsRr#class_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr#class_parameters DnsRr#class_parameters}
   */
   readonly classParameters?: { [key: string]: string };
   /**
   * The managed SMART DNS server name, or DNS server name hosting the RR's zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr#dnsserver DnsRr#dnsserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr#dnsserver DnsRr#dnsserver}
   */
   readonly dnsserver: string;
   /**
   * The View name of the RR to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr#dnsview DnsRr#dnsview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr#dnsview DnsRr#dnsview}
   */
   readonly dnsview?: string;
   /**
   * The Zone name of the RR to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr#dnszone DnsRr#dnszone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr#dnszone DnsRr#dnszone}
   */
   readonly dnszone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr#id DnsRr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr#id DnsRr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,31 +47,31 @@ export interface DnsRrConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Fully Qualified Domain Name of the RR to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr#name DnsRr#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr#name DnsRr#name}
   */
   readonly name: string;
   /**
   * The DNS Time To Live of the RR to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr#ttl DnsRr#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr#ttl DnsRr#ttl}
   */
   readonly ttl?: number;
   /**
-  * The type of the RR to create (Supported: A, AAAA, PTR, CNAME, DNAME and NS).
+  * The type of the RR to create (Supported: A, AAAA, PTR, CNAME, DNAME, TXT, and NS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr#type DnsRr#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr#type DnsRr#type}
   */
   readonly type: string;
   /**
   * The value of the RR to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr#value DnsRr#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr#value DnsRr#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr solidserver_dns_rr}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr solidserver_dns_rr}
 */
 export class DnsRr extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class DnsRr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsRr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsRr to import
-  * @param importFromId The id of the existing DnsRr that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsRr that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsRr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class DnsRr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_rr solidserver_dns_rr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_rr solidserver_dns_rr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class DnsRr extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_dns_rr',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

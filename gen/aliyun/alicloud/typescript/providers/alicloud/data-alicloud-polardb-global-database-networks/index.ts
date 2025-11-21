@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/polardb_global_database_networks
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/polardb_global_database_networks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudPolardbGlobalDatabaseNetworksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/polardb_global_database_networks#db_cluster_id DataAlicloudPolardbGlobalDatabaseNetworks#db_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/polardb_global_database_networks#db_cluster_id DataAlicloudPolardbGlobalDatabaseNetworks#db_cluster_id}
   */
   readonly dbClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/polardb_global_database_networks#description DataAlicloudPolardbGlobalDatabaseNetworks#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/polardb_global_database_networks#description DataAlicloudPolardbGlobalDatabaseNetworks#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/polardb_global_database_networks#gdn_id DataAlicloudPolardbGlobalDatabaseNetworks#gdn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/polardb_global_database_networks#gdn_id DataAlicloudPolardbGlobalDatabaseNetworks#gdn_id}
   */
   readonly gdnId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/polardb_global_database_networks#id DataAlicloudPolardbGlobalDatabaseNetworks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/polardb_global_database_networks#id DataAlicloudPolardbGlobalDatabaseNetworks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/polardb_global_database_networks#ids DataAlicloudPolardbGlobalDatabaseNetworks#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/polardb_global_database_networks#ids DataAlicloudPolardbGlobalDatabaseNetworks#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/polardb_global_database_networks#output_file DataAlicloudPolardbGlobalDatabaseNetworks#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/polardb_global_database_networks#output_file DataAlicloudPolardbGlobalDatabaseNetworks#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/polardb_global_database_networks#page_number DataAlicloudPolardbGlobalDatabaseNetworks#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/polardb_global_database_networks#page_number DataAlicloudPolardbGlobalDatabaseNetworks#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/polardb_global_database_networks#page_size DataAlicloudPolardbGlobalDatabaseNetworks#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/polardb_global_database_networks#page_size DataAlicloudPolardbGlobalDatabaseNetworks#page_size}
   */
   readonly pageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/polardb_global_database_networks#status DataAlicloudPolardbGlobalDatabaseNetworks#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/polardb_global_database_networks#status DataAlicloudPolardbGlobalDatabaseNetworks#status}
   */
   readonly status?: string;
 }
@@ -245,7 +245,7 @@ export class DataAlicloudPolardbGlobalDatabaseNetworksNetworksList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/polardb_global_database_networks alicloud_polardb_global_database_networks}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/polardb_global_database_networks alicloud_polardb_global_database_networks}
 */
 export class DataAlicloudPolardbGlobalDatabaseNetworks extends cdktf.TerraformDataSource {
 
@@ -261,7 +261,7 @@ export class DataAlicloudPolardbGlobalDatabaseNetworks extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataAlicloudPolardbGlobalDatabaseNetworks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudPolardbGlobalDatabaseNetworks to import
-  * @param importFromId The id of the existing DataAlicloudPolardbGlobalDatabaseNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/polardb_global_database_networks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudPolardbGlobalDatabaseNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/polardb_global_database_networks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudPolardbGlobalDatabaseNetworks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -273,7 +273,7 @@ export class DataAlicloudPolardbGlobalDatabaseNetworks extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/polardb_global_database_networks alicloud_polardb_global_database_networks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/polardb_global_database_networks alicloud_polardb_global_database_networks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -284,8 +284,8 @@ export class DataAlicloudPolardbGlobalDatabaseNetworks extends cdktf.TerraformDa
       terraformResourceType: 'alicloud_polardb_global_database_networks',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

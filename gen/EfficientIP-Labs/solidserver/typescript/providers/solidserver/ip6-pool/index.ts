@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_pool
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface Ip6PoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The class associated to the IPv6 pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_pool#class Ip6Pool#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_pool#class Ip6Pool#class}
   */
   readonly class?: string;
   /**
   * The class parameters associated to the IPv6 pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_pool#class_parameters Ip6Pool#class_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_pool#class_parameters Ip6Pool#class_parameters}
   */
   readonly classParameters?: { [key: string]: string };
   /**
   * Specify wether to create the equivalent DHCP v6 range, or not (Default: false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_pool#dhcp_range Ip6Pool#dhcp_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_pool#dhcp_range Ip6Pool#dhcp_range}
   */
   readonly dhcpRange?: boolean | cdktf.IResolvable;
   /**
   * The IPv6 pool's higher IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_pool#end Ip6Pool#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_pool#end Ip6Pool#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_pool#id Ip6Pool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_pool#id Ip6Pool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface Ip6PoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the IPv6 pool to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_pool#name Ip6Pool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_pool#name Ip6Pool#name}
   */
   readonly name: string;
   /**
   * The name of the space into which creating the IPv6 pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_pool#space Ip6Pool#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_pool#space Ip6Pool#space}
   */
   readonly space: string;
   /**
   * The IPv6 pool's lower IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_pool#start Ip6Pool#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_pool#start Ip6Pool#start}
   */
   readonly start: string;
   /**
   * The name of the parent IP subnet into which creating the IPv6 pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_pool#subnet Ip6Pool#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_pool#subnet Ip6Pool#subnet}
   */
   readonly subnet: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_pool solidserver_ip6_pool}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_pool solidserver_ip6_pool}
 */
 export class Ip6Pool extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class Ip6Pool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ip6Pool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ip6Pool to import
-  * @param importFromId The id of the existing Ip6Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ip6Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ip6Pool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class Ip6Pool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/ip6_pool solidserver_ip6_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/ip6_pool solidserver_ip6_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class Ip6Pool extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_ip6_pool',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

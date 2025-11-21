@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/redis_clusters
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/redis_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudRedisClustersConfig extends cdktf.TerraformMeta
   /**
   * Renewal mode: 0- default state (manual renewal); 1- Automatic renewal; 2- Clearly stating that automatic renewal is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/redis_clusters#auto_renew_flag DataTencentcloudRedisClusters#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/redis_clusters#auto_renew_flag DataTencentcloudRedisClusters#auto_renew_flag}
   */
   readonly autoRenewFlag?: number[];
   /**
   * Cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/redis_clusters#cluster_name DataTencentcloudRedisClusters#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/redis_clusters#cluster_name DataTencentcloudRedisClusters#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Dedicated cluster Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/redis_clusters#dedicated_cluster_id DataTencentcloudRedisClusters#dedicated_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/redis_clusters#dedicated_cluster_id DataTencentcloudRedisClusters#dedicated_cluster_id}
   */
   readonly dedicatedClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/redis_clusters#id DataTencentcloudRedisClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/redis_clusters#id DataTencentcloudRedisClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface DataTencentcloudRedisClustersConfig extends cdktf.TerraformMeta
   /**
   * Project Ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/redis_clusters#project_ids DataTencentcloudRedisClusters#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/redis_clusters#project_ids DataTencentcloudRedisClusters#project_ids}
   */
   readonly projectIds?: number[];
   /**
   * Redis Cluster Ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/redis_clusters#redis_cluster_ids DataTencentcloudRedisClusters#redis_cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/redis_clusters#redis_cluster_ids DataTencentcloudRedisClusters#redis_cluster_ids}
   */
   readonly redisClusterIds?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/redis_clusters#result_output_file DataTencentcloudRedisClusters#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/redis_clusters#result_output_file DataTencentcloudRedisClusters#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Cluster status: 1- In process, 2- Running, 3- Isolated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/redis_clusters#status DataTencentcloudRedisClusters#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/redis_clusters#status DataTencentcloudRedisClusters#status}
   */
   readonly status?: number[];
 }
@@ -371,7 +371,7 @@ export class DataTencentcloudRedisClustersResourcesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/redis_clusters tencentcloud_redis_clusters}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/redis_clusters tencentcloud_redis_clusters}
 */
 export class DataTencentcloudRedisClusters extends cdktf.TerraformDataSource {
 
@@ -387,7 +387,7 @@ export class DataTencentcloudRedisClusters extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudRedisClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudRedisClusters to import
-  * @param importFromId The id of the existing DataTencentcloudRedisClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/redis_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudRedisClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/redis_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudRedisClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class DataTencentcloudRedisClusters extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/redis_clusters tencentcloud_redis_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/redis_clusters tencentcloud_redis_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,8 +410,8 @@ export class DataTencentcloudRedisClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_redis_clusters',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

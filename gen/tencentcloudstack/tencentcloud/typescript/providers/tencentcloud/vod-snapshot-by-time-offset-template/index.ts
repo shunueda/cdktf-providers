@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vod_snapshot_by_time_offset_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_snapshot_by_time_offset_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface VodSnapshotByTimeOffsetTemplateConfig extends cdktf.TerraformMe
   /**
   * Template description. Length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vod_snapshot_by_time_offset_template#comment VodSnapshotByTimeOffsetTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_snapshot_by_time_offset_template#comment VodSnapshotByTimeOffsetTemplate#comment}
   */
   readonly comment?: string;
   /**
   * Fill refers to the way of processing a screenshot when its aspect ratio is different from that of the source video. The following fill types are supported: `stretch`: stretch. The screenshot will be stretched frame by frame to match the aspect ratio of the source video, which may make the screenshot `shorter` or `longer`; `black`: fill with black. This option retains the aspect ratio of the source video for the screenshot and fills the unmatched area with black color blocks. `white`: fill with white. This option retains the aspect ratio of the source video for the screenshot and fills the unmatched area with white color blocks. `gauss`: fill with Gaussian blur. This option retains the aspect ratio of the source video for the screenshot and fills the unmatched area with Gaussian blur. Default value: `black`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vod_snapshot_by_time_offset_template#fill_type VodSnapshotByTimeOffsetTemplate#fill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_snapshot_by_time_offset_template#fill_type VodSnapshotByTimeOffsetTemplate#fill_type}
   */
   readonly fillType?: string;
   /**
   * Image format. Valid values: `jpg`, `png`. Default value: `jpg`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vod_snapshot_by_time_offset_template#format VodSnapshotByTimeOffsetTemplate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_snapshot_by_time_offset_template#format VodSnapshotByTimeOffsetTemplate#format}
   */
   readonly format?: string;
   /**
   * Maximum value of the `height` (or short side) of a screenshot in px. Value range: 0 and [128, 4,096]. If both `width` and `height` are `0`, the resolution will be the same as that of the source video; If `width` is `0`, but `height` is not `0`, `width` will be proportionally scaled; If `width` is not `0`, but `height` is `0`, `height` will be proportionally scaled; If both `width` and `height` are not `0`, the custom resolution will be used. Default value: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vod_snapshot_by_time_offset_template#height VodSnapshotByTimeOffsetTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_snapshot_by_time_offset_template#height VodSnapshotByTimeOffsetTemplate#height}
   */
   readonly height?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vod_snapshot_by_time_offset_template#id VodSnapshotByTimeOffsetTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_snapshot_by_time_offset_template#id VodSnapshotByTimeOffsetTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface VodSnapshotByTimeOffsetTemplateConfig extends cdktf.TerraformMe
   /**
   * Name of a time point screen capturing template. Length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vod_snapshot_by_time_offset_template#name VodSnapshotByTimeOffsetTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_snapshot_by_time_offset_template#name VodSnapshotByTimeOffsetTemplate#name}
   */
   readonly name: string;
   /**
   * Resolution adaption. Valid values: `true`,`false`. `true`: enabled. In this case, `width` represents the long side of a video, while `height` the short side; `false`: disabled. In this case, `width` represents the width of a video, while `height` the height. Default value: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vod_snapshot_by_time_offset_template#resolution_adaptive VodSnapshotByTimeOffsetTemplate#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_snapshot_by_time_offset_template#resolution_adaptive VodSnapshotByTimeOffsetTemplate#resolution_adaptive}
   */
   readonly resolutionAdaptive?: boolean | cdktf.IResolvable;
   /**
   * The VOD [application](https://intl.cloud.tencent.com/document/product/266/14574) ID. For customers who activate VOD service from December 25, 2023, if they want to access resources in a VOD application (whether it's the default application or a newly created one), they must fill in this field with the application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vod_snapshot_by_time_offset_template#sub_app_id VodSnapshotByTimeOffsetTemplate#sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_snapshot_by_time_offset_template#sub_app_id VodSnapshotByTimeOffsetTemplate#sub_app_id}
   */
   readonly subAppId?: number;
   /**
   * Maximum value of the `width` (or long side) of a screenshot in px. Value range: 0 and [128, 4,096]. If both `width` and `height` are `0`, the resolution will be the same as that of the source video; If `width` is `0`, but `height` is not `0`, width will be proportionally scaled; If `width` is not `0`, but `height` is `0`, `height` will be proportionally scaled; If both `width` and `height` are not `0`, the custom resolution will be used. Default value: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vod_snapshot_by_time_offset_template#width VodSnapshotByTimeOffsetTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_snapshot_by_time_offset_template#width VodSnapshotByTimeOffsetTemplate#width}
   */
   readonly width?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vod_snapshot_by_time_offset_template tencentcloud_vod_snapshot_by_time_offset_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_snapshot_by_time_offset_template tencentcloud_vod_snapshot_by_time_offset_template}
 */
 export class VodSnapshotByTimeOffsetTemplate extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class VodSnapshotByTimeOffsetTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VodSnapshotByTimeOffsetTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VodSnapshotByTimeOffsetTemplate to import
-  * @param importFromId The id of the existing VodSnapshotByTimeOffsetTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vod_snapshot_by_time_offset_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VodSnapshotByTimeOffsetTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_snapshot_by_time_offset_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VodSnapshotByTimeOffsetTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class VodSnapshotByTimeOffsetTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vod_snapshot_by_time_offset_template tencentcloud_vod_snapshot_by_time_offset_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/vod_snapshot_by_time_offset_template tencentcloud_vod_snapshot_by_time_offset_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class VodSnapshotByTimeOffsetTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vod_snapshot_by_time_offset_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

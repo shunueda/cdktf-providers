@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_pool
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface AppPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable session affinity for the application pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_pool#affinity AppPool#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_pool#affinity AppPool#affinity}
   */
   readonly affinity?: boolean | cdktf.IResolvable;
   /**
   * The time each session is maintained in sec (Default: 300).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_pool#affinity_session_duration AppPool#affinity_session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_pool#affinity_session_duration AppPool#affinity_session_duration}
   */
   readonly affinitySessionDuration?: number;
   /**
   * The name of the application associated to the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_pool#application AppPool#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_pool#application AppPool#application}
   */
   readonly application: string;
   /**
   * Number of best active nodes when lb_mode is set to latency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_pool#best_active_nodes AppPool#best_active_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_pool#best_active_nodes AppPool#best_active_nodes}
   */
   readonly bestActiveNodes?: number;
   /**
   * The fqdn of the application associated to the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_pool#fqdn AppPool#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_pool#fqdn AppPool#fqdn}
   */
   readonly fqdn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_pool#id AppPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_pool#id AppPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,25 +47,25 @@ export interface AppPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IP protocol version used by the application pool to create (Supported: ipv4, ipv6; Default: ipv4).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_pool#ip_version AppPool#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_pool#ip_version AppPool#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * The load balancing mode of the application pool to create (Supported: weighted,round-robin,latency; Default: round-robin).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_pool#lb_mode AppPool#lb_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_pool#lb_mode AppPool#lb_mode}
   */
   readonly lbMode?: string;
   /**
   * The name of the application pool to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_pool#name AppPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_pool#name AppPool#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_pool solidserver_app_pool}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_pool solidserver_app_pool}
 */
 export class AppPool extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class AppPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppPool to import
-  * @param importFromId The id of the existing AppPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class AppPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/app_pool solidserver_app_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/app_pool solidserver_app_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class AppPool extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_app_pool',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

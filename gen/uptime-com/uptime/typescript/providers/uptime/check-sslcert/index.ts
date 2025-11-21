@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert
+// https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,11 +12,11 @@ export interface CheckSslcertConfig extends cdktf.TerraformMetaArguments {
   * Must start and end with alphanumeric characters, can contain hyphens but not at the start or end, 
   * and must have at least one dot separator between valid DNS labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#address CheckSslcert#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#address CheckSslcert#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#config CheckSslcert#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#config CheckSslcert#config}
   */
   readonly config?: CheckSslcertConfigA;
   /**
@@ -24,31 +24,31 @@ export interface CheckSslcertConfig extends cdktf.TerraformMetaArguments {
   * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#contact_groups CheckSslcert#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#contact_groups CheckSslcert#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#is_paused CheckSslcert#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#is_paused CheckSslcert#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#name CheckSslcert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#name CheckSslcert#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#notes CheckSslcert#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#notes CheckSslcert#notes}
   */
   readonly notes?: string;
   /**
   * How many times the check should be retried before a location is considered down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#num_retries CheckSslcert#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#num_retries CheckSslcert#num_retries}
   */
   readonly numRetries?: number;
   /**
   * The port to check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#port CheckSslcert#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#port CheckSslcert#port}
   */
   readonly port?: number;
   /**
@@ -58,55 +58,73 @@ export interface CheckSslcertConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#tags CheckSslcert#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#tags CheckSslcert#tags}
   */
   readonly tags?: string[];
   /**
   * Raise an alert if there are less than this many days before the SSL certificate needs to be renewed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#threshold CheckSslcert#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#threshold CheckSslcert#threshold}
   */
   readonly threshold?: number;
 }
 export interface CheckSslcertConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#crl CheckSslcert#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#crl CheckSslcert#crl}
   */
   readonly crl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#fingerprint CheckSslcert#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#fingerprint CheckSslcert#fingerprint}
   */
   readonly fingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#first_element_only CheckSslcert#first_element_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#first_element_only CheckSslcert#first_element_only}
   */
   readonly firstElementOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#issuer CheckSslcert#issuer}
+  * Ignore certificate authority warnings
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#ignore_authority_warnings CheckSslcert#ignore_authority_warnings}
+  */
+  readonly ignoreAuthorityWarnings?: boolean | cdktf.IResolvable;
+  /**
+  * Ignore signed certificate timestamp (SCT) validation
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#ignore_sct CheckSslcert#ignore_sct}
+  */
+  readonly ignoreSct?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#issuer CheckSslcert#issuer}
   */
   readonly issuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#match CheckSslcert#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#match CheckSslcert#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#min_version CheckSslcert#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#min_version CheckSslcert#min_version}
   */
   readonly minVersion?: string;
   /**
   * Application level protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#protocol CheckSslcert#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#protocol CheckSslcert#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#self_signed CheckSslcert#self_signed}
+  * Force host IP address resolution. Format: hostname:port:ip_address (e.g., example.com:443:1.2.3.4)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#resolve CheckSslcert#resolve}
+  */
+  readonly resolve?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#self_signed CheckSslcert#self_signed}
   */
   readonly selfSigned?: boolean | cdktf.IResolvable;
   /**
   * Specify location of certificate or CRL file by URL, instead of retrieving from main domain address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#url CheckSslcert#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#url CheckSslcert#url}
   */
   readonly url?: string;
 }
@@ -120,10 +138,13 @@ export function checkSslcertConfigAToTerraform(struct?: CheckSslcertConfigA | cd
     crl: cdktf.booleanToTerraform(struct!.crl),
     fingerprint: cdktf.stringToTerraform(struct!.fingerprint),
     first_element_only: cdktf.booleanToTerraform(struct!.firstElementOnly),
+    ignore_authority_warnings: cdktf.booleanToTerraform(struct!.ignoreAuthorityWarnings),
+    ignore_sct: cdktf.booleanToTerraform(struct!.ignoreSct),
     issuer: cdktf.stringToTerraform(struct!.issuer),
     match: cdktf.stringToTerraform(struct!.match),
     min_version: cdktf.stringToTerraform(struct!.minVersion),
     protocol: cdktf.stringToTerraform(struct!.protocol),
+    resolve: cdktf.stringToTerraform(struct!.resolve),
     self_signed: cdktf.booleanToTerraform(struct!.selfSigned),
     url: cdktf.stringToTerraform(struct!.url),
   }
@@ -154,6 +175,18 @@ export function checkSslcertConfigAToHclTerraform(struct?: CheckSslcertConfigA |
       type: "simple",
       storageClassType: "boolean",
     },
+    ignore_authority_warnings: {
+      value: cdktf.booleanToHclTerraform(struct!.ignoreAuthorityWarnings),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ignore_sct: {
+      value: cdktf.booleanToHclTerraform(struct!.ignoreSct),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     issuer: {
       value: cdktf.stringToHclTerraform(struct!.issuer),
       isBlock: false,
@@ -174,6 +207,12 @@ export function checkSslcertConfigAToHclTerraform(struct?: CheckSslcertConfigA |
     },
     protocol: {
       value: cdktf.stringToHclTerraform(struct!.protocol),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resolve: {
+      value: cdktf.stringToHclTerraform(struct!.resolve),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -226,6 +265,14 @@ export class CheckSslcertConfigAOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.firstElementOnly = this._firstElementOnly;
     }
+    if (this._ignoreAuthorityWarnings !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ignoreAuthorityWarnings = this._ignoreAuthorityWarnings;
+    }
+    if (this._ignoreSct !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ignoreSct = this._ignoreSct;
+    }
     if (this._issuer !== undefined) {
       hasAnyValues = true;
       internalValueResult.issuer = this._issuer;
@@ -241,6 +288,10 @@ export class CheckSslcertConfigAOutputReference extends cdktf.ComplexObject {
     if (this._protocol !== undefined) {
       hasAnyValues = true;
       internalValueResult.protocol = this._protocol;
+    }
+    if (this._resolve !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resolve = this._resolve;
     }
     if (this._selfSigned !== undefined) {
       hasAnyValues = true;
@@ -260,10 +311,13 @@ export class CheckSslcertConfigAOutputReference extends cdktf.ComplexObject {
       this._crl = undefined;
       this._fingerprint = undefined;
       this._firstElementOnly = undefined;
+      this._ignoreAuthorityWarnings = undefined;
+      this._ignoreSct = undefined;
       this._issuer = undefined;
       this._match = undefined;
       this._minVersion = undefined;
       this._protocol = undefined;
+      this._resolve = undefined;
       this._selfSigned = undefined;
       this._url = undefined;
     }
@@ -277,10 +331,13 @@ export class CheckSslcertConfigAOutputReference extends cdktf.ComplexObject {
       this._crl = value.crl;
       this._fingerprint = value.fingerprint;
       this._firstElementOnly = value.firstElementOnly;
+      this._ignoreAuthorityWarnings = value.ignoreAuthorityWarnings;
+      this._ignoreSct = value.ignoreSct;
       this._issuer = value.issuer;
       this._match = value.match;
       this._minVersion = value.minVersion;
       this._protocol = value.protocol;
+      this._resolve = value.resolve;
       this._selfSigned = value.selfSigned;
       this._url = value.url;
     }
@@ -332,6 +389,38 @@ export class CheckSslcertConfigAOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get firstElementOnlyInput() {
     return this._firstElementOnly;
+  }
+
+  // ignore_authority_warnings - computed: true, optional: true, required: false
+  private _ignoreAuthorityWarnings?: boolean | cdktf.IResolvable; 
+  public get ignoreAuthorityWarnings() {
+    return this.getBooleanAttribute('ignore_authority_warnings');
+  }
+  public set ignoreAuthorityWarnings(value: boolean | cdktf.IResolvable) {
+    this._ignoreAuthorityWarnings = value;
+  }
+  public resetIgnoreAuthorityWarnings() {
+    this._ignoreAuthorityWarnings = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreAuthorityWarningsInput() {
+    return this._ignoreAuthorityWarnings;
+  }
+
+  // ignore_sct - computed: true, optional: true, required: false
+  private _ignoreSct?: boolean | cdktf.IResolvable; 
+  public get ignoreSct() {
+    return this.getBooleanAttribute('ignore_sct');
+  }
+  public set ignoreSct(value: boolean | cdktf.IResolvable) {
+    this._ignoreSct = value;
+  }
+  public resetIgnoreSct() {
+    this._ignoreSct = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreSctInput() {
+    return this._ignoreSct;
   }
 
   // issuer - computed: true, optional: true, required: false
@@ -398,6 +487,22 @@ export class CheckSslcertConfigAOutputReference extends cdktf.ComplexObject {
     return this._protocol;
   }
 
+  // resolve - computed: true, optional: true, required: false
+  private _resolve?: string; 
+  public get resolve() {
+    return this.getStringAttribute('resolve');
+  }
+  public set resolve(value: string) {
+    this._resolve = value;
+  }
+  public resetResolve() {
+    this._resolve = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resolveInput() {
+    return this._resolve;
+  }
+
   // self_signed - computed: true, optional: true, required: false
   private _selfSigned?: boolean | cdktf.IResolvable; 
   public get selfSigned() {
@@ -432,7 +537,7 @@ export class CheckSslcertConfigAOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert uptime_check_sslcert}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert uptime_check_sslcert}
 */
 export class CheckSslcert extends cdktf.TerraformResource {
 
@@ -448,7 +553,7 @@ export class CheckSslcert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckSslcert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckSslcert to import
-  * @param importFromId The id of the existing CheckSslcert that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckSslcert that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckSslcert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -460,7 +565,7 @@ export class CheckSslcert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_sslcert uptime_check_sslcert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/check_sslcert uptime_check_sslcert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -471,8 +576,8 @@ export class CheckSslcert extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_sslcert',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.16.0',
-        providerVersionConstraint: '2.16.0'
+        providerVersion: '2.17.1',
+        providerVersionConstraint: '2.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

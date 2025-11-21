@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,185 +10,185 @@ export interface AlicloudProviderConfig {
   /**
   * The access key for API operations. You can retrieve this from the 'Security Management' section of the Alibaba Cloud console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#access_key AlicloudProvider#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#access_key AlicloudProvider#access_key}
   */
   readonly accessKey?: string;
   /**
   * The account ID for some service API operations. You can retrieve this from the 'Security Settings' section of the Alibaba Cloud console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#account_id AlicloudProvider#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#account_id AlicloudProvider#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#account_type AlicloudProvider#account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#account_type AlicloudProvider#account_type}
   */
   readonly accountType?: string;
   /**
   * The maximum timeout of the client connection server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#client_connect_timeout AlicloudProvider#client_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#client_connect_timeout AlicloudProvider#client_connect_timeout}
   */
   readonly clientConnectTimeout?: number;
   /**
   * The maximum timeout of the client read request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#client_read_timeout AlicloudProvider#client_read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#client_read_timeout AlicloudProvider#client_read_timeout}
   */
   readonly clientReadTimeout?: number;
   /**
   * Use this to mark a terraform configuration file source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#configuration_source AlicloudProvider#configuration_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#configuration_source AlicloudProvider#configuration_source}
   */
   readonly configurationSource?: string;
   /**
   * The URI of sidecar credentials service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#credentials_uri AlicloudProvider#credentials_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#credentials_uri AlicloudProvider#credentials_uri}
   */
   readonly credentialsUri?: string;
   /**
   * The RAM Role Name attached on a ECS instance for API operations. You can retrieve this from the 'Access Control' section of the Alibaba Cloud console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ecs_role_name AlicloudProvider#ecs_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ecs_role_name AlicloudProvider#ecs_role_name}
   */
   readonly ecsRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#fc AlicloudProvider#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#fc AlicloudProvider#fc}
   */
   readonly fc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#log_endpoint AlicloudProvider#log_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#log_endpoint AlicloudProvider#log_endpoint}
   */
   readonly logEndpoint?: string;
   /**
   * The maximum retry timeout of the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#max_retry_timeout AlicloudProvider#max_retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#max_retry_timeout AlicloudProvider#max_retry_timeout}
   */
   readonly maxRetryTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#mns_endpoint AlicloudProvider#mns_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#mns_endpoint AlicloudProvider#mns_endpoint}
   */
   readonly mnsEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ots_instance_name AlicloudProvider#ots_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ots_instance_name AlicloudProvider#ots_instance_name}
   */
   readonly otsInstanceName?: string;
   /**
   * The profile for API operations. If not set, the default profile created with `aliyun configure` will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#profile AlicloudProvider#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#profile AlicloudProvider#profile}
   */
   readonly profile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#protocol AlicloudProvider#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#protocol AlicloudProvider#protocol}
   */
   readonly protocol?: string;
   /**
   * The region where Alibaba Cloud operations will take place. Examples are cn-beijing, cn-hangzhou, eu-central-1, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#region AlicloudProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#region AlicloudProvider#region}
   */
   readonly region?: string;
   /**
   * The secret key for API operations. You can retrieve this from the 'Security Management' section of the Alibaba Cloud console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#secret_key AlicloudProvider#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#secret_key AlicloudProvider#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The security transport for the assume role invoking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#secure_transport AlicloudProvider#secure_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#secure_transport AlicloudProvider#secure_transport}
   */
   readonly secureTransport?: string;
   /**
   * security token. A security token is only required if you are using Security Token Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#security_token AlicloudProvider#security_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#security_token AlicloudProvider#security_token}
   */
   readonly securityToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#security_transport AlicloudProvider#security_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#security_transport AlicloudProvider#security_transport}
   */
   readonly securityTransport?: string;
   /**
   * The path to the shared credentials file. If not set this defaults to ~/.aliyun/config.json
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#shared_credentials_file AlicloudProvider#shared_credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#shared_credentials_file AlicloudProvider#shared_credentials_file}
   */
   readonly sharedCredentialsFile?: string;
   /**
   * Skip static validation of region ID. Used by users of alternative AlibabaCloud-like APIs or users w/ access to regions that are not public (yet).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#skip_region_validation AlicloudProvider#skip_region_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#skip_region_validation AlicloudProvider#skip_region_validation}
   */
   readonly skipRegionValidation?: boolean | cdktf.IResolvable;
   /**
   * The source ip for the assume role invoking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#source_ip AlicloudProvider#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#source_ip AlicloudProvider#source_ip}
   */
   readonly sourceIp?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#alias AlicloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#alias AlicloudProvider#alias}
   */
   readonly alias?: string;
   /**
   * assume_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#assume_role AlicloudProvider#assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#assume_role AlicloudProvider#assume_role}
   */
   readonly assumeRole?: AlicloudProviderAssumeRole;
   /**
   * assume_role_with_oidc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#assume_role_with_oidc AlicloudProvider#assume_role_with_oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#assume_role_with_oidc AlicloudProvider#assume_role_with_oidc}
   */
   readonly assumeRoleWithOidc?: AlicloudProviderAssumeRoleWithOidc;
   /**
   * endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#endpoints AlicloudProvider#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#endpoints AlicloudProvider#endpoints}
   */
   readonly endpoints?: AlicloudProviderEndpoints[] | cdktf.IResolvable;
   /**
   * sign_version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#sign_version AlicloudProvider#sign_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#sign_version AlicloudProvider#sign_version}
   */
   readonly signVersion?: AlicloudProviderSignVersion;
 }
 export interface AlicloudProviderAssumeRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#external_id AlicloudProvider#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#external_id AlicloudProvider#external_id}
   */
   readonly externalId?: string;
   /**
   * The permissions applied when assuming a role. You cannot use, this policy to grant further permissions that are in excess to those of the, role that is being assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#policy AlicloudProvider#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#policy AlicloudProvider#policy}
   */
   readonly policy?: string;
   /**
   * The ARN of a RAM role to assume prior to making API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#role_arn AlicloudProvider#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#role_arn AlicloudProvider#role_arn}
   */
   readonly roleArn: string;
   /**
   * The time after which the established session for assuming role expires. Valid value range: [900-3600] seconds. Default to 0 (in this case Alicloud use own default value).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#session_expiration AlicloudProvider#session_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#session_expiration AlicloudProvider#session_expiration}
   */
   readonly sessionExpiration?: number;
   /**
   * The session name to use when assuming the role. If omitted, `terraform` is passed to the AssumeRole call as session name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#session_name AlicloudProvider#session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#session_name AlicloudProvider#session_name}
   */
   readonly sessionName?: string;
 }
@@ -254,41 +254,41 @@ export interface AlicloudProviderAssumeRoleWithOidc {
   /**
   * ARN of the OIDC IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#oidc_provider_arn AlicloudProvider#oidc_provider_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#oidc_provider_arn AlicloudProvider#oidc_provider_arn}
   */
   readonly oidcProviderArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#oidc_token AlicloudProvider#oidc_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#oidc_token AlicloudProvider#oidc_token}
   */
   readonly oidcToken?: string;
   /**
   * The file path of OIDC token that is issued by the external IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#oidc_token_file AlicloudProvider#oidc_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#oidc_token_file AlicloudProvider#oidc_token_file}
   */
   readonly oidcTokenFile?: string;
   /**
   * The policy that specifies the permissions of the returned STS token. You can use this parameter to grant the STS token fewer permissions than the permissions granted to the RAM role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#policy AlicloudProvider#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#policy AlicloudProvider#policy}
   */
   readonly policy?: string;
   /**
   * ARN of a RAM role to assume prior to making API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#role_arn AlicloudProvider#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#role_arn AlicloudProvider#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The custom name of the role session. Set this parameter based on your business requirements. In most cases, this parameter is set to the identity of the user who calls the operation, for example, the username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#role_session_name AlicloudProvider#role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#role_session_name AlicloudProvider#role_session_name}
   */
   readonly roleSessionName?: string;
   /**
   * The validity period of the STS token. Unit: seconds. Default value: 3600. Minimum value: 900. Maximum value: the value of the MaxSessionDuration parameter when creating a ram role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#session_expiration AlicloudProvider#session_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#session_expiration AlicloudProvider#session_expiration}
   */
   readonly sessionExpiration?: number;
 }
@@ -368,941 +368,941 @@ export interface AlicloudProviderEndpoints {
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom acr endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#acr AlicloudProvider#acr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#acr AlicloudProvider#acr}
   */
   readonly acr?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Actiontrail endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#actiontrail AlicloudProvider#actiontrail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#actiontrail AlicloudProvider#actiontrail}
   */
   readonly actiontrail?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom AnalyticDB endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#adb AlicloudProvider#adb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#adb AlicloudProvider#adb}
   */
   readonly adb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#aiworkspace AlicloudProvider#aiworkspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#aiworkspace AlicloudProvider#aiworkspace}
   */
   readonly aiworkspace?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom alb endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#alb AlicloudProvider#alb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#alb AlicloudProvider#alb}
   */
   readonly alb?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom alidfs endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#alidfs AlicloudProvider#alidfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#alidfs AlicloudProvider#alidfs}
   */
   readonly alidfs?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom alidns endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#alidns AlicloudProvider#alidns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#alidns AlicloudProvider#alidns}
   */
   readonly alidns?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom ALIKAFKA endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#alikafka AlicloudProvider#alikafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#alikafka AlicloudProvider#alikafka}
   */
   readonly alikafka?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom onsproxy endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#amqp AlicloudProvider#amqp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#amqp AlicloudProvider#amqp}
   */
   readonly amqp?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom ddosbasic endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#antiddos_public AlicloudProvider#antiddos_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#antiddos_public AlicloudProvider#antiddos_public}
   */
   readonly antiddosPublic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#apig AlicloudProvider#apig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#apig AlicloudProvider#apig}
   */
   readonly apig?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Api Gateway endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#apigateway AlicloudProvider#apigateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#apigateway AlicloudProvider#apigateway}
   */
   readonly apigateway?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom arms endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#arms AlicloudProvider#arms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#arms AlicloudProvider#arms}
   */
   readonly arms?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom bastionhost endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#bastionhost AlicloudProvider#bastionhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#bastionhost AlicloudProvider#bastionhost}
   */
   readonly bastionhost?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom beebot endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#beebot AlicloudProvider#beebot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#beebot AlicloudProvider#beebot}
   */
   readonly beebot?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom bpstudio endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#bpstudio AlicloudProvider#bpstudio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#bpstudio AlicloudProvider#bpstudio}
   */
   readonly bpstudio?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom brain_industrial endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#brain_industrial AlicloudProvider#brain_industrial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#brain_industrial AlicloudProvider#brain_industrial}
   */
   readonly brainIndustrial?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom BSSOPENAPI endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#bssopenapi AlicloudProvider#bssopenapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#bssopenapi AlicloudProvider#bssopenapi}
   */
   readonly bssopenapi?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom CAS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cas AlicloudProvider#cas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cas AlicloudProvider#cas}
   */
   readonly cas?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom cassandra endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cassandra AlicloudProvider#cassandra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cassandra AlicloudProvider#cassandra}
   */
   readonly cassandra?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom cbn endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cbn AlicloudProvider#cbn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cbn AlicloudProvider#cbn}
   */
   readonly cbn?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom cbs endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cbs AlicloudProvider#cbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cbs AlicloudProvider#cbs}
   */
   readonly cbs?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom cddc endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cddc AlicloudProvider#cddc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cddc AlicloudProvider#cddc}
   */
   readonly cddc?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom CDN endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cdn AlicloudProvider#cdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cdn AlicloudProvider#cdn}
   */
   readonly cdn?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom cds endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cds AlicloudProvider#cds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cds AlicloudProvider#cds}
   */
   readonly cds?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom beebot endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#chatbot AlicloudProvider#chatbot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#chatbot AlicloudProvider#chatbot}
   */
   readonly chatbot?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom clickhouse endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#clickhouse AlicloudProvider#clickhouse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#clickhouse AlicloudProvider#clickhouse}
   */
   readonly clickhouse?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Api Gateway endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cloudapi AlicloudProvider#cloudapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cloudapi AlicloudProvider#cloudapi}
   */
   readonly cloudapi?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom cloudauth endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cloudauth AlicloudProvider#cloudauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cloudauth AlicloudProvider#cloudauth}
   */
   readonly cloudauth?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom cloudfirewall endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cloudfirewall AlicloudProvider#cloudfirewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cloudfirewall AlicloudProvider#cloudfirewall}
   */
   readonly cloudfirewall?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom cloudfw endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cloudfw AlicloudProvider#cloudfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cloudfw AlicloudProvider#cloudfw}
   */
   readonly cloudfw?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom cloudphone endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cloudphone AlicloudProvider#cloudphone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cloudphone AlicloudProvider#cloudphone}
   */
   readonly cloudphone?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom cloudsso endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cloudsso AlicloudProvider#cloudsso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cloudsso AlicloudProvider#cloudsso}
   */
   readonly cloudsso?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Cloud Monitor endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cms AlicloudProvider#cms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cms AlicloudProvider#cms}
   */
   readonly cms?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom computenest endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#computenest AlicloudProvider#computenest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#computenest AlicloudProvider#computenest}
   */
   readonly computenest?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom config endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#config AlicloudProvider#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#config AlicloudProvider#config}
   */
   readonly config?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Container Registry endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cr AlicloudProvider#cr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cr AlicloudProvider#cr}
   */
   readonly cr?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Container Service endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#cs AlicloudProvider#cs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#cs AlicloudProvider#cs}
   */
   readonly cs?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom das endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#das AlicloudProvider#das}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#das AlicloudProvider#das}
   */
   readonly das?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Datahub endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#datahub AlicloudProvider#datahub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#datahub AlicloudProvider#datahub}
   */
   readonly datahub?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom dataworkspublic endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dataworks_public AlicloudProvider#dataworks_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dataworks_public AlicloudProvider#dataworks_public}
   */
   readonly dataworksPublic?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom dataworkspublic endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dataworkspublic AlicloudProvider#dataworkspublic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dataworkspublic AlicloudProvider#dataworkspublic}
   */
   readonly dataworkspublic?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom dbfs endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dbfs AlicloudProvider#dbfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dbfs AlicloudProvider#dbfs}
   */
   readonly dbfs?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom cbs endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dbs AlicloudProvider#dbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dbs AlicloudProvider#dbs}
   */
   readonly dbs?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom dcdn endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dcdn AlicloudProvider#dcdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dcdn AlicloudProvider#dcdn}
   */
   readonly dcdn?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom ddosbasic endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ddosbasic AlicloudProvider#ddosbasic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ddosbasic AlicloudProvider#ddosbasic}
   */
   readonly ddosbasic?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom DDOSBGP endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ddosbgp AlicloudProvider#ddosbgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ddosbgp AlicloudProvider#ddosbgp}
   */
   readonly ddosbgp?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom DDOSCOO endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ddoscoo AlicloudProvider#ddoscoo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ddoscoo AlicloudProvider#ddoscoo}
   */
   readonly ddoscoo?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom MongoDB endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dds AlicloudProvider#dds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dds AlicloudProvider#dds}
   */
   readonly dds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#devops_rdc AlicloudProvider#devops_rdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#devops_rdc AlicloudProvider#devops_rdc}
   */
   readonly devopsRdc?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom devopsrdc endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#devopsrdc AlicloudProvider#devopsrdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#devopsrdc AlicloudProvider#devopsrdc}
   */
   readonly devopsrdc?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom alidfs endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dfs AlicloudProvider#dfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dfs AlicloudProvider#dfs}
   */
   readonly dfs?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom dg endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dg AlicloudProvider#dg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dg AlicloudProvider#dg}
   */
   readonly dg?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom dm endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dm AlicloudProvider#dm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dm AlicloudProvider#dm}
   */
   readonly dm?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom dms_enterprise endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dms_enterprise AlicloudProvider#dms_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dms_enterprise AlicloudProvider#dms_enterprise}
   */
   readonly dmsEnterprise?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom dmsenterprise endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dmsenterprise AlicloudProvider#dmsenterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dmsenterprise AlicloudProvider#dmsenterprise}
   */
   readonly dmsenterprise?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom DNS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dns AlicloudProvider#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dns AlicloudProvider#dns}
   */
   readonly dns?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom DRDS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#drds AlicloudProvider#drds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#drds AlicloudProvider#drds}
   */
   readonly drds?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom dts endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dts AlicloudProvider#dts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dts AlicloudProvider#dts}
   */
   readonly dts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dysms AlicloudProvider#dysms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dysms AlicloudProvider#dysms}
   */
   readonly dysms?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom dysmsapi endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#dysmsapi AlicloudProvider#dysmsapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#dysmsapi AlicloudProvider#dysmsapi}
   */
   readonly dysmsapi?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom eais endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#eais AlicloudProvider#eais}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#eais AlicloudProvider#eais}
   */
   readonly eais?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom ebs endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ebs AlicloudProvider#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ebs AlicloudProvider#ebs}
   */
   readonly ebs?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom gwsecd endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ecd AlicloudProvider#ecd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ecd AlicloudProvider#ecd}
   */
   readonly ecd?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom eci endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#eci AlicloudProvider#eci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#eci AlicloudProvider#eci}
   */
   readonly eci?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom ECS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ecs AlicloudProvider#ecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ecs AlicloudProvider#ecs}
   */
   readonly ecs?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom edas endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#edas AlicloudProvider#edas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#edas AlicloudProvider#edas}
   */
   readonly edas?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom edasschedulerx endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#edasschedulerx AlicloudProvider#edasschedulerx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#edasschedulerx AlicloudProvider#edasschedulerx}
   */
   readonly edasschedulerx?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom edsuser endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#eds_user AlicloudProvider#eds_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#eds_user AlicloudProvider#eds_user}
   */
   readonly edsUser?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom edsuser endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#edsuser AlicloudProvider#edsuser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#edsuser AlicloudProvider#edsuser}
   */
   readonly edsuser?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom eflo endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#eflo AlicloudProvider#eflo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#eflo AlicloudProvider#eflo}
   */
   readonly eflo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#eflo_cnp AlicloudProvider#eflo_cnp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#eflo_cnp AlicloudProvider#eflo_cnp}
   */
   readonly efloCnp?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom efloctrl endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#eflo_controller AlicloudProvider#eflo_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#eflo_controller AlicloudProvider#eflo_controller}
   */
   readonly efloController?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom ehpc endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ehpc AlicloudProvider#ehpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ehpc AlicloudProvider#ehpc}
   */
   readonly ehpc?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom ehs endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ehs AlicloudProvider#ehs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ehs AlicloudProvider#ehs}
   */
   readonly ehs?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom eipanycast endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#eipanycast AlicloudProvider#eipanycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#eipanycast AlicloudProvider#eipanycast}
   */
   readonly eipanycast?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Elasticsearch endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#elasticsearch AlicloudProvider#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#elasticsearch AlicloudProvider#elasticsearch}
   */
   readonly elasticsearch?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom EMR endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#emr AlicloudProvider#emr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#emr AlicloudProvider#emr}
   */
   readonly emr?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom ens endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ens AlicloudProvider#ens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ens AlicloudProvider#ens}
   */
   readonly ens?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#esa AlicloudProvider#esa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#esa AlicloudProvider#esa}
   */
   readonly esa?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Autoscaling endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ess AlicloudProvider#ess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ess AlicloudProvider#ess}
   */
   readonly ess?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom eventbridge_share endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#eventbridge AlicloudProvider#eventbridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#eventbridge AlicloudProvider#eventbridge}
   */
   readonly eventbridge?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Function Computing endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#fc AlicloudProvider#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#fc AlicloudProvider#fc}
   */
   readonly fc?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Function Computing endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#fc_open AlicloudProvider#fc_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#fc_open AlicloudProvider#fc_open}
   */
   readonly fcOpen?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom fnf endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#fnf AlicloudProvider#fnf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#fnf AlicloudProvider#fnf}
   */
   readonly fnf?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom ga endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ga AlicloudProvider#ga}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ga AlicloudProvider#ga}
   */
   readonly ga?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom gaplus endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#gaplus AlicloudProvider#gaplus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#gaplus AlicloudProvider#gaplus}
   */
   readonly gaplus?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom gds endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#gdb AlicloudProvider#gdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#gdb AlicloudProvider#gdb}
   */
   readonly gdb?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom gds endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#gds AlicloudProvider#gds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#gds AlicloudProvider#gds}
   */
   readonly gds?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom GPDB endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#gpdb AlicloudProvider#gpdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#gpdb AlicloudProvider#gpdb}
   */
   readonly gpdb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#gwlb AlicloudProvider#gwlb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#gwlb AlicloudProvider#gwlb}
   */
   readonly gwlb?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom gwsecd endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#gwsecd AlicloudProvider#gwsecd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#gwsecd AlicloudProvider#gwsecd}
   */
   readonly gwsecd?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom hbr endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#hbr AlicloudProvider#hbr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#hbr AlicloudProvider#hbr}
   */
   readonly hbr?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom hcs_sgw endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#hcs_sgw AlicloudProvider#hcs_sgw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#hcs_sgw AlicloudProvider#hcs_sgw}
   */
   readonly hcsSgw?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom hitsdb endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#hitsdb AlicloudProvider#hitsdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#hitsdb AlicloudProvider#hitsdb}
   */
   readonly hitsdb?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom imm endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#imm AlicloudProvider#imm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#imm AlicloudProvider#imm}
   */
   readonly imm?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom imp endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#imp AlicloudProvider#imp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#imp AlicloudProvider#imp}
   */
   readonly imp?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom ims endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ims AlicloudProvider#ims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ims AlicloudProvider#ims}
   */
   readonly ims?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom iot endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#iot AlicloudProvider#iot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#iot AlicloudProvider#iot}
   */
   readonly iot?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom KMS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#kms AlicloudProvider#kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#kms AlicloudProvider#kms}
   */
   readonly kms?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom R-KVStore endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#kvstore AlicloudProvider#kvstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#kvstore AlicloudProvider#kvstore}
   */
   readonly kvstore?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Location Service endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#location AlicloudProvider#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#location AlicloudProvider#location}
   */
   readonly location?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Log Service endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#log AlicloudProvider#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#log AlicloudProvider#log}
   */
   readonly log?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Market Place endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#market AlicloudProvider#market}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#market AlicloudProvider#market}
   */
   readonly market?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom MaxCompute endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#maxcompute AlicloudProvider#maxcompute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#maxcompute AlicloudProvider#maxcompute}
   */
   readonly maxcompute?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom mhub endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#mhub AlicloudProvider#mhub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#mhub AlicloudProvider#mhub}
   */
   readonly mhub?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom MNS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#mns AlicloudProvider#mns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#mns AlicloudProvider#mns}
   */
   readonly mns?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom MNS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#mns_open AlicloudProvider#mns_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#mns_open AlicloudProvider#mns_open}
   */
   readonly mnsOpen?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom mscopensubscription endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#mscopensubscription AlicloudProvider#mscopensubscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#mscopensubscription AlicloudProvider#mscopensubscription}
   */
   readonly mscopensubscription?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom mse endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#mse AlicloudProvider#mse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#mse AlicloudProvider#mse}
   */
   readonly mse?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom NAS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#nas AlicloudProvider#nas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#nas AlicloudProvider#nas}
   */
   readonly nas?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom nlb endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#nlb AlicloudProvider#nlb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#nlb AlicloudProvider#nlb}
   */
   readonly nlb?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom oceanbase endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#oceanbase AlicloudProvider#oceanbase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#oceanbase AlicloudProvider#oceanbase}
   */
   readonly oceanbase?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom oceanbase endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#oceanbasepro AlicloudProvider#oceanbasepro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#oceanbasepro AlicloudProvider#oceanbasepro}
   */
   readonly oceanbasepro?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom ONS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ons AlicloudProvider#ons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ons AlicloudProvider#ons}
   */
   readonly ons?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom onsproxy endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#onsproxy AlicloudProvider#onsproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#onsproxy AlicloudProvider#onsproxy}
   */
   readonly onsproxy?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom oos endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#oos AlicloudProvider#oos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#oos AlicloudProvider#oos}
   */
   readonly oos?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom opensearch endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#opensearch AlicloudProvider#opensearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#opensearch AlicloudProvider#opensearch}
   */
   readonly opensearch?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom OSS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#oss AlicloudProvider#oss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#oss AlicloudProvider#oss}
   */
   readonly oss?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Table Store endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ots AlicloudProvider#ots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ots AlicloudProvider#ots}
   */
   readonly ots?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom PolarDB endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#polardb AlicloudProvider#polardb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#polardb AlicloudProvider#polardb}
   */
   readonly polardb?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom DRDS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#polardbx AlicloudProvider#polardbx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#polardbx AlicloudProvider#polardbx}
   */
   readonly polardbx?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom privatelink endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#privatelink AlicloudProvider#privatelink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#privatelink AlicloudProvider#privatelink}
   */
   readonly privatelink?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom Private Zone endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#pvtz AlicloudProvider#pvtz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#pvtz AlicloudProvider#pvtz}
   */
   readonly pvtz?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom quickbi endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#quickbi AlicloudProvider#quickbi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#quickbi AlicloudProvider#quickbi}
   */
   readonly quickbi?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom quickbi endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#quickbi_public AlicloudProvider#quickbi_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#quickbi_public AlicloudProvider#quickbi_public}
   */
   readonly quickbiPublic?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom quotas endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#quotas AlicloudProvider#quotas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#quotas AlicloudProvider#quotas}
   */
   readonly quotas?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom r_kvstore endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#r_kvstore AlicloudProvider#r_kvstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#r_kvstore AlicloudProvider#r_kvstore}
   */
   readonly rKvstore?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom RAM endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ram AlicloudProvider#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ram AlicloudProvider#ram}
   */
   readonly ram?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom RDS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#rds AlicloudProvider#rds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#rds AlicloudProvider#rds}
   */
   readonly rds?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom redisa endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#redisa AlicloudProvider#redisa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#redisa AlicloudProvider#redisa}
   */
   readonly redisa?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom resourcemanager endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#resourcemanager AlicloudProvider#resourcemanager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#resourcemanager AlicloudProvider#resourcemanager}
   */
   readonly resourcemanager?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#resourcesharing AlicloudProvider#resourcesharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#resourcesharing AlicloudProvider#resourcesharing}
   */
   readonly resourcesharing?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom resourcesharing endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ressharing AlicloudProvider#ressharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ressharing AlicloudProvider#ressharing}
   */
   readonly ressharing?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#rocketmq AlicloudProvider#rocketmq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#rocketmq AlicloudProvider#rocketmq}
   */
   readonly rocketmq?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom ros endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#ros AlicloudProvider#ros}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#ros AlicloudProvider#ros}
   */
   readonly ros?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom serverless endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#sae AlicloudProvider#sae}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#sae AlicloudProvider#sae}
   */
   readonly sae?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom sas endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#sas AlicloudProvider#sas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#sas AlicloudProvider#sas}
   */
   readonly sas?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom scdn endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#scdn AlicloudProvider#scdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#scdn AlicloudProvider#scdn}
   */
   readonly scdn?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom edasschedulerx endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#schedulerx2 AlicloudProvider#schedulerx2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#schedulerx2 AlicloudProvider#schedulerx2}
   */
   readonly schedulerx2?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom sddp endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#sddp AlicloudProvider#sddp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#sddp AlicloudProvider#sddp}
   */
   readonly sddp?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom selectdb endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#selectdb AlicloudProvider#selectdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#selectdb AlicloudProvider#selectdb}
   */
   readonly selectdb?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom serverless endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#serverless AlicloudProvider#serverless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#serverless AlicloudProvider#serverless}
   */
   readonly serverless?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom srvcatalog endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#servicecatalog AlicloudProvider#servicecatalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#servicecatalog AlicloudProvider#servicecatalog}
   */
   readonly servicecatalog?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom servicemesh endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#servicemesh AlicloudProvider#servicemesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#servicemesh AlicloudProvider#servicemesh}
   */
   readonly servicemesh?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom sgw endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#sgw AlicloudProvider#sgw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#sgw AlicloudProvider#sgw}
   */
   readonly sgw?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom SLB endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#slb AlicloudProvider#slb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#slb AlicloudProvider#slb}
   */
   readonly slb?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom smartag endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#smartag AlicloudProvider#smartag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#smartag AlicloudProvider#smartag}
   */
   readonly smartag?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom srvcatalog endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#srvcatalog AlicloudProvider#srvcatalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#srvcatalog AlicloudProvider#srvcatalog}
   */
   readonly srvcatalog?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom STS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#sts AlicloudProvider#sts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#sts AlicloudProvider#sts}
   */
   readonly sts?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom swas endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#swas AlicloudProvider#swas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#swas AlicloudProvider#swas}
   */
   readonly swas?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom swas endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#swas_open AlicloudProvider#swas_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#swas_open AlicloudProvider#swas_open}
   */
   readonly swasOpen?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom tag endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#tag AlicloudProvider#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#tag AlicloudProvider#tag}
   */
   readonly tag?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom vod endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#vod AlicloudProvider#vod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#vod AlicloudProvider#vod}
   */
   readonly vod?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom VPC and VPN endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#vpc AlicloudProvider#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#vpc AlicloudProvider#vpc}
   */
   readonly vpc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#vpcipam AlicloudProvider#vpcipam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#vpcipam AlicloudProvider#vpcipam}
   */
   readonly vpcipam?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom vpcpeer endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#vpcpeer AlicloudProvider#vpcpeer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#vpcpeer AlicloudProvider#vpcpeer}
   */
   readonly vpcpeer?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom vs endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#vs AlicloudProvider#vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#vs AlicloudProvider#vs}
   */
   readonly vs?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom waf endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#waf AlicloudProvider#waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#waf AlicloudProvider#waf}
   */
   readonly waf?: string;
   /**
   * Use this to override the default endpoint URL constructed from the `region`. It's typically used to connect to custom waf_openapi endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#waf_openapi AlicloudProvider#waf_openapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#waf_openapi AlicloudProvider#waf_openapi}
   */
   readonly wafOpenapi?: string;
 }
@@ -2451,11 +2451,11 @@ export function alicloudProviderEndpointsToHclTerraform(struct?: AlicloudProvide
 
 export interface AlicloudProviderSignVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#oss AlicloudProvider#oss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#oss AlicloudProvider#oss}
   */
   readonly oss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#sls AlicloudProvider#sls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#sls AlicloudProvider#sls}
   */
   readonly sls?: string;
 }
@@ -2498,7 +2498,7 @@ export function alicloudProviderSignVersionToHclTerraform(struct?: AlicloudProvi
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs alicloud}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs alicloud}
 */
 export class AlicloudProvider extends cdktf.TerraformProvider {
 
@@ -2514,7 +2514,7 @@ export class AlicloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a AlicloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlicloudProvider to import
-  * @param importFromId The id of the existing AlicloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlicloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlicloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2526,7 +2526,7 @@ export class AlicloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs alicloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs alicloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2537,8 +2537,8 @@ export class AlicloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'alicloud',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       terraformProviderSource: 'aliyun/alicloud'
     });

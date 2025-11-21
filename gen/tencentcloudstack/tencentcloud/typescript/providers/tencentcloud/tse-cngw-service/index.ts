@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TseCngwServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#gateway_id TseCngwService#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#gateway_id TseCngwService#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#id TseCngwService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#id TseCngwService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface TseCngwServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#name TseCngwService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#name TseCngwService#name}
   */
   readonly name: string;
   /**
   * path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#path TseCngwService#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#path TseCngwService#path}
   */
   readonly path: string;
   /**
   * protocol. Reference value:`https`, `http`, `tcp`, `udp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#protocol TseCngwService#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#protocol TseCngwService#protocol}
   */
   readonly protocol: string;
   /**
   * retry times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#retries TseCngwService#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#retries TseCngwService#retries}
   */
   readonly retries: number;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#tags TseCngwService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#tags TseCngwService#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * time out, unit:ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#timeout TseCngwService#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#timeout TseCngwService#timeout}
   */
   readonly timeout: number;
   /**
   * service type. Reference value:`Kubernetes`, `Registry`, `IPList`, `HostIP`, `Scf`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#upstream_type TseCngwService#upstream_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#upstream_type TseCngwService#upstream_type}
   */
   readonly upstreamType: string;
   /**
   * upstream_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#upstream_info TseCngwService#upstream_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#upstream_info TseCngwService#upstream_info}
   */
   readonly upstreamInfo: TseCngwServiceUpstreamInfo;
 }
@@ -73,25 +73,25 @@ export interface TseCngwServiceUpstreamInfoTargets {
   /**
   * host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#host TseCngwService#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#host TseCngwService#host}
   */
   readonly host: string;
   /**
   * port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#port TseCngwService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#port TseCngwService#port}
   */
   readonly port: number;
   /**
   * source of target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#source TseCngwService#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#source TseCngwService#source}
   */
   readonly source?: string;
   /**
   * weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#weight TseCngwService#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#weight TseCngwService#weight}
   */
   readonly weight: number;
 }
@@ -297,115 +297,115 @@ export interface TseCngwServiceUpstreamInfo {
   /**
   * load balance algorithm,default: `round-robin`, `least-connections` and `consisten_hashing` also support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#algorithm TseCngwService#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#algorithm TseCngwService#algorithm}
   */
   readonly algorithm?: string;
   /**
   * auto scaling group port of cvm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#auto_scaling_cvm_port TseCngwService#auto_scaling_cvm_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#auto_scaling_cvm_port TseCngwService#auto_scaling_cvm_port}
   */
   readonly autoScalingCvmPort?: number;
   /**
   * auto scaling group ID of cvm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#auto_scaling_group_id TseCngwService#auto_scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#auto_scaling_group_id TseCngwService#auto_scaling_group_id}
   */
   readonly autoScalingGroupId?: string;
   /**
   * hook status in auto scaling group of cvm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#auto_scaling_hook_status TseCngwService#auto_scaling_hook_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#auto_scaling_hook_status TseCngwService#auto_scaling_hook_status}
   */
   readonly autoScalingHookStatus?: string;
   /**
   * tat cmd status in auto scaling group of cvm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#auto_scaling_tat_cmd_status TseCngwService#auto_scaling_tat_cmd_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#auto_scaling_tat_cmd_status TseCngwService#auto_scaling_tat_cmd_status}
   */
   readonly autoScalingTatCmdStatus?: string;
   /**
   * an IP address or domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#host TseCngwService#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#host TseCngwService#host}
   */
   readonly host?: string;
   /**
   * namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#namespace TseCngwService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#namespace TseCngwService#namespace}
   */
   readonly namespace?: string;
   /**
   * backend service port.valid values: `1` to `65535`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#port TseCngwService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#port TseCngwService#port}
   */
   readonly port?: number;
   /**
   * exact source service type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#real_source_type TseCngwService#real_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#real_source_type TseCngwService#real_source_type}
   */
   readonly realSourceType?: string;
   /**
   * scf lambda name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#scf_lambda_name TseCngwService#scf_lambda_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#scf_lambda_name TseCngwService#scf_lambda_name}
   */
   readonly scfLambdaName?: string;
   /**
   * scf lambda version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#scf_lambda_qualifier TseCngwService#scf_lambda_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#scf_lambda_qualifier TseCngwService#scf_lambda_qualifier}
   */
   readonly scfLambdaQualifier?: string;
   /**
   * scf lambda namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#scf_namespace TseCngwService#scf_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#scf_namespace TseCngwService#scf_namespace}
   */
   readonly scfNamespace?: string;
   /**
   * scf lambda type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#scf_type TseCngwService#scf_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#scf_type TseCngwService#scf_type}
   */
   readonly scfType?: string;
   /**
   * the name of the service in registry or kubernetes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#service_name TseCngwService#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#service_name TseCngwService#service_name}
   */
   readonly serviceName?: string;
   /**
   * slow start time, unit: `second`, when it is enabled, weight of the node is increased from 1 to the target value gradually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#slow_start TseCngwService#slow_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#slow_start TseCngwService#slow_start}
   */
   readonly slowStart?: number;
   /**
   * service source ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#source_id TseCngwService#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#source_id TseCngwService#source_id}
   */
   readonly sourceId?: string;
   /**
   * the name of source service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#source_name TseCngwService#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#source_name TseCngwService#source_name}
   */
   readonly sourceName?: string;
   /**
   * source service type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#source_type TseCngwService#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#source_type TseCngwService#source_type}
   */
   readonly sourceType?: string;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#targets TseCngwService#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#targets TseCngwService#targets}
   */
   readonly targets?: TseCngwServiceUpstreamInfoTargets[] | cdktf.IResolvable;
 }
@@ -1011,7 +1011,7 @@ export class TseCngwServiceUpstreamInfoOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service tencentcloud_tse_cngw_service}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service tencentcloud_tse_cngw_service}
 */
 export class TseCngwService extends cdktf.TerraformResource {
 
@@ -1027,7 +1027,7 @@ export class TseCngwService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TseCngwService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TseCngwService to import
-  * @param importFromId The id of the existing TseCngwService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TseCngwService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TseCngwService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1039,7 +1039,7 @@ export class TseCngwService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_service tencentcloud_tse_cngw_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tse_cngw_service tencentcloud_tse_cngw_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1050,8 +1050,8 @@ export class TseCngwService extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tse_cngw_service',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

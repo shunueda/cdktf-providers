@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,143 +10,143 @@ export interface ClbListenerConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the client certificate. NOTES: Only supports listeners of `HTTPS` and `TCP_SSL` protocol and must be set when the ssl mode is `MUTUAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#certificate_ca_id ClbListener#certificate_ca_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#certificate_ca_id ClbListener#certificate_ca_id}
   */
   readonly certificateCaId?: string;
   /**
   * ID of the server certificate. NOTES: Only supports listeners of `HTTPS` and `TCP_SSL` protocol and must be set when it is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#certificate_id ClbListener#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#certificate_id ClbListener#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * Type of certificate. Valid values: `UNIDIRECTIONAL`, `MUTUAL`. NOTES: Only supports listeners of `HTTPS` and `TCP_SSL` protocol and must be set when it is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#certificate_ssl_mode ClbListener#certificate_ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#certificate_ssl_mode ClbListener#certificate_ssl_mode}
   */
   readonly certificateSslMode?: string;
   /**
   * ID of the CLB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#clb_id ClbListener#clb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#clb_id ClbListener#clb_id}
   */
   readonly clbId: string;
   /**
   * Whether to send the TCP RST packet to the client when unbinding a real server. This parameter is applicable to TCP listeners only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#deregister_target_rst ClbListener#deregister_target_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#deregister_target_rst ClbListener#deregister_target_rst}
   */
   readonly deregisterTargetRst?: boolean | cdktf.IResolvable;
   /**
   * This parameter is used to specify the end port and is required when creating a port range listener. Only one member can be passed in when inputting the `Ports` parameter, which is used to specify the start port. If you want to try the port range feature, please [submit a ticket](https://console.cloud.tencent.com/workorder/category).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#end_port ClbListener#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#end_port ClbListener#end_port}
   */
   readonly endPort?: number;
   /**
   * Enable H2C switch for intranet HTTP listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#h2c_switch ClbListener#h2c_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#h2c_switch ClbListener#h2c_switch}
   */
   readonly h2CSwitch?: boolean | cdktf.IResolvable;
   /**
   * Health check protocol. When the value of `health_check_type` of the health check protocol is `CUSTOM`, this field is required, which represents the input format of the health check. Valid values: `HEX`, `TEXT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_context_type ClbListener#health_check_context_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_context_type ClbListener#health_check_context_type}
   */
   readonly healthCheckContextType?: string;
   /**
   * Health threshold of health check, and the default is `3`. If a success result is returned for the health check for 3 consecutive times, the backend CVM is identified as healthy. The value range is 2-10. NOTES: TCP/UDP/TCP_SSL listener allows direct configuration, HTTP/HTTPS listener needs to be configured in tencentcloud_clb_listener_rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_health_num ClbListener#health_check_health_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_health_num ClbListener#health_check_health_num}
   */
   readonly healthCheckHealthNum?: number;
   /**
   * HTTP health check code of TCP listener, Valid value ranges: [1~31]. When the value of `health_check_type` of the health check protocol is `HTTP`, this field is required. Valid values: `1`, `2`, `4`, `8`, `16`. `1` means http_1xx, `2` means http_2xx, `4` means http_3xx, `8` means http_4xx, `16` means http_5xx.If you want multiple return codes to indicate health, need to add the corresponding values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_http_code ClbListener#health_check_http_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_http_code ClbListener#health_check_http_code}
   */
   readonly healthCheckHttpCode?: number;
   /**
   * HTTP health check domain of TCP listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_http_domain ClbListener#health_check_http_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_http_domain ClbListener#health_check_http_domain}
   */
   readonly healthCheckHttpDomain?: string;
   /**
   * HTTP health check method of TCP listener. Valid values: `HEAD`, `GET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_http_method ClbListener#health_check_http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_http_method ClbListener#health_check_http_method}
   */
   readonly healthCheckHttpMethod?: string;
   /**
   * HTTP health check path of TCP listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_http_path ClbListener#health_check_http_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_http_path ClbListener#health_check_http_path}
   */
   readonly healthCheckHttpPath?: string;
   /**
   * The HTTP version of the backend service. When the value of `health_check_type` of the health check protocol is `HTTP`, this field is required. Valid values: `HTTP/1.0`, `HTTP/1.1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_http_version ClbListener#health_check_http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_http_version ClbListener#health_check_http_version}
   */
   readonly healthCheckHttpVersion?: string;
   /**
   * Interval time of health check. Valid value ranges: [2~300] sec. and the default is 5 sec. NOTES: TCP/UDP/TCP_SSL listener allows direct configuration, HTTP/HTTPS listener needs to be configured in `tencentcloud_clb_listener_rule`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_interval_time ClbListener#health_check_interval_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_interval_time ClbListener#health_check_interval_time}
   */
   readonly healthCheckIntervalTime?: number;
   /**
   * The health check port is the port of the backend service by default. Unless you want to specify a specific port, it is recommended to leave it blank. Only applicable to TCP/UDP listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_port ClbListener#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_port ClbListener#health_check_port}
   */
   readonly healthCheckPort?: number;
   /**
   * It represents the result returned by the health check. When the value of `health_check_type` of the health check protocol is `CUSTOM`, this field is required. Only ASCII visible characters are allowed and the maximum length is 500. When `health_check_context_type` value is `HEX`, the characters of SendContext and RecvContext can only be selected in `0123456789ABCDEF` and the length must be even digits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_recv_context ClbListener#health_check_recv_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_recv_context ClbListener#health_check_recv_context}
   */
   readonly healthCheckRecvContext?: string;
   /**
   * It represents the content of the request sent by the health check. When the value of `health_check_type` of the health check protocol is `CUSTOM`, this field is required. Only visible ASCII characters are allowed and the maximum length is 500. When `health_check_context_type` value is `HEX`, the characters of SendContext and RecvContext can only be selected in `0123456789ABCDEF` and the length must be even digits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_send_context ClbListener#health_check_send_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_send_context ClbListener#health_check_send_context}
   */
   readonly healthCheckSendContext?: string;
   /**
   * Indicates whether health check is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_switch ClbListener#health_check_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_switch ClbListener#health_check_switch}
   */
   readonly healthCheckSwitch?: boolean | cdktf.IResolvable;
   /**
   * Response timeout of health check. Valid value ranges: [2~60] sec. Default is 2 sec. Response timeout needs to be less than check interval. NOTES: Only supports listeners of `TCP`,`UDP`,`TCP_SSL` protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_time_out ClbListener#health_check_time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_time_out ClbListener#health_check_time_out}
   */
   readonly healthCheckTimeOut?: number;
   /**
   * Protocol used for health check. Valid values: `CUSTOM`, `TCP`, `HTTP`,`HTTPS`, `PING`, `GRPC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_type ClbListener#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_type ClbListener#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
   * Unhealthy threshold of health check, and the default is `3`. If a success result is returned for the health check 3 consecutive times, the CVM is identified as unhealthy. The value range is [2-10]. NOTES: TCP/UDP/TCP_SSL listener allows direct configuration, HTTP/HTTPS listener needs to be configured in `tencentcloud_clb_listener_rule`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_check_unhealth_num ClbListener#health_check_unhealth_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_check_unhealth_num ClbListener#health_check_unhealth_num}
   */
   readonly healthCheckUnhealthNum?: number;
   /**
   * Specifies the type of health check source IP. `0` (default): CLB VIP. `1`: 100.64 IP range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#health_source_ip_type ClbListener#health_source_ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#health_source_ip_type ClbListener#health_source_ip_type}
   */
   readonly healthSourceIpType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#id ClbListener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#id ClbListener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -155,73 +155,73 @@ export interface ClbListenerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection idle timeout period (in seconds). It's only available to TCP listeners. Value range: 300-900 for shared and dedicated instances; 300-2000 for LCU-supported CLB instances. It defaults to 900. To set a period longer than 2000 seconds (up to 3600 seconds). Please submit a work order for processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#idle_connect_timeout ClbListener#idle_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#idle_connect_timeout ClbListener#idle_connect_timeout}
   */
   readonly idleConnectTimeout?: number;
   /**
   * Whether to enable a persistent connection. This parameter is applicable only to HTTP and HTTPS listeners. Valid values: 0 (disable; default value) and 1 (enable).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#keepalive_enable ClbListener#keepalive_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#keepalive_enable ClbListener#keepalive_enable}
   */
   readonly keepaliveEnable?: number;
   /**
   * Name of the CLB listener, and available values can only be Chinese characters, English letters, numbers, underscore and hyphen '-'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#listener_name ClbListener#listener_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#listener_name ClbListener#listener_name}
   */
   readonly listenerName: string;
   /**
   * Port of the CLB listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#port ClbListener#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#port ClbListener#port}
   */
   readonly port?: number;
   /**
   * Type of protocol within the listener. Valid values: `TCP`, `UDP`, `HTTP`, `HTTPS`, `TCP_SSL` and `QUIC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#protocol ClbListener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#protocol ClbListener#protocol}
   */
   readonly protocol: string;
   /**
   * Scheduling method of the CLB listener, and available values are 'WRR' and 'LEAST_CONN'. The default is 'WRR'. NOTES: The listener of `HTTP` and `HTTPS` protocol additionally supports the `IP Hash` method. NOTES: TCP/UDP/TCP_SSL listener allows direct configuration, HTTP/HTTPS listener needs to be configured in `tencentcloud_clb_listener_rule`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#scheduler ClbListener#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#scheduler ClbListener#scheduler}
   */
   readonly scheduler?: string;
   /**
   * Time of session persistence within the CLB listener. NOTES: Available when scheduler is specified as `WRR`, and not available when listener protocol is `TCP_SSL`. NOTES: TCP/UDP/TCP_SSL listener allows direct configuration, HTTP/HTTPS listener needs to be configured in `tencentcloud_clb_listener_rule`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#session_expire_time ClbListener#session_expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#session_expire_time ClbListener#session_expire_time}
   */
   readonly sessionExpireTime?: number;
   /**
   * Session persistence type. Valid values: `NORMAL`: the default session persistence type; `QUIC_CID`: session persistence by QUIC connection ID. The `QUIC_CID` value can only be configured in UDP listeners. If this field is not specified, the default session persistence type will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#session_type ClbListener#session_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#session_type ClbListener#session_type}
   */
   readonly sessionType?: string;
   /**
   * Whether to enable SNAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#snat_enable ClbListener#snat_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#snat_enable ClbListener#snat_enable}
   */
   readonly snatEnable?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether SNI is enabled, and only supported with protocol `HTTPS`. If enabled, you can set a certificate for each rule in `tencentcloud_clb_listener_rule`, otherwise all rules have a certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#sni_switch ClbListener#sni_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#sni_switch ClbListener#sni_switch}
   */
   readonly sniSwitch?: boolean | cdktf.IResolvable;
   /**
   * Backend target type. Valid values: `NODE`, `TARGETGROUP`. `NODE` means to bind ordinary nodes, `TARGETGROUP` means to bind target group. NOTES: TCP/UDP/TCP_SSL listener must configuration, HTTP/HTTPS listener needs to be configured in tencentcloud_clb_listener_rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#target_type ClbListener#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#target_type ClbListener#target_type}
   */
   readonly targetType?: string;
   /**
   * multi_cert_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#multi_cert_info ClbListener#multi_cert_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#multi_cert_info ClbListener#multi_cert_info}
   */
   readonly multiCertInfo?: ClbListenerMultiCertInfo;
 }
@@ -229,13 +229,13 @@ export interface ClbListenerMultiCertInfo {
   /**
   * List of server certificate ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#cert_id_list ClbListener#cert_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#cert_id_list ClbListener#cert_id_list}
   */
   readonly certIdList: string[];
   /**
   * Authentication type. Values: UNIDIRECTIONAL (one-way authentication), MUTUAL (two-way authentication).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#ssl_mode ClbListener#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#ssl_mode ClbListener#ssl_mode}
   */
   readonly sslMode: string;
 }
@@ -342,7 +342,7 @@ export class ClbListenerMultiCertInfoOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener tencentcloud_clb_listener}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener tencentcloud_clb_listener}
 */
 export class ClbListener extends cdktf.TerraformResource {
 
@@ -358,7 +358,7 @@ export class ClbListener extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClbListener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClbListener to import
-  * @param importFromId The id of the existing ClbListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClbListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClbListener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -370,7 +370,7 @@ export class ClbListener extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/clb_listener tencentcloud_clb_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/clb_listener tencentcloud_clb_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -381,8 +381,8 @@ export class ClbListener extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clb_listener',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

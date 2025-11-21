@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_connection
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface PrivatelinkVpcEndpointConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_connection#bandwidth PrivatelinkVpcEndpointConnection#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_connection#bandwidth PrivatelinkVpcEndpointConnection#bandwidth}
   */
   readonly bandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_connection#dry_run PrivatelinkVpcEndpointConnection#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_connection#dry_run PrivatelinkVpcEndpointConnection#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_connection#endpoint_id PrivatelinkVpcEndpointConnection#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_connection#endpoint_id PrivatelinkVpcEndpointConnection#endpoint_id}
   */
   readonly endpointId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_connection#id PrivatelinkVpcEndpointConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_connection#id PrivatelinkVpcEndpointConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_connection#service_id PrivatelinkVpcEndpointConnection#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_connection#service_id PrivatelinkVpcEndpointConnection#service_id}
   */
   readonly serviceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_connection#timeouts PrivatelinkVpcEndpointConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_connection#timeouts PrivatelinkVpcEndpointConnection#timeouts}
   */
   readonly timeouts?: PrivatelinkVpcEndpointConnectionTimeouts;
 }
 export interface PrivatelinkVpcEndpointConnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_connection#create PrivatelinkVpcEndpointConnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_connection#create PrivatelinkVpcEndpointConnection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_connection#delete PrivatelinkVpcEndpointConnection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_connection#delete PrivatelinkVpcEndpointConnection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_connection#update PrivatelinkVpcEndpointConnection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_connection#update PrivatelinkVpcEndpointConnection#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class PrivatelinkVpcEndpointConnectionTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_connection alicloud_privatelink_vpc_endpoint_connection}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_connection alicloud_privatelink_vpc_endpoint_connection}
 */
 export class PrivatelinkVpcEndpointConnection extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class PrivatelinkVpcEndpointConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivatelinkVpcEndpointConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivatelinkVpcEndpointConnection to import
-  * @param importFromId The id of the existing PrivatelinkVpcEndpointConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivatelinkVpcEndpointConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivatelinkVpcEndpointConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class PrivatelinkVpcEndpointConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/privatelink_vpc_endpoint_connection alicloud_privatelink_vpc_endpoint_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/privatelink_vpc_endpoint_connection alicloud_privatelink_vpc_endpoint_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class PrivatelinkVpcEndpointConnection extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_privatelink_vpc_endpoint_connection',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

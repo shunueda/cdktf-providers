@@ -1,3 +1,3 @@
 # `alicloud_vpn_ipsec_server`
 
-Refer to the Terraform Registry for docs: [`alicloud_vpn_ipsec_server`](https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpn_ipsec_server).
+Refer to the Terraform Registry for docs: [`alicloud_vpn_ipsec_server`](https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpn_ipsec_server).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface EsaHttpRequestHeaderModificationRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#id EsaHttpRequestHeaderModificationRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#id EsaHttpRequestHeaderModificationRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#rule EsaHttpRequestHeaderModificationRule#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#rule EsaHttpRequestHeaderModificationRule#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#rule_enable EsaHttpRequestHeaderModificationRule#rule_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#rule_enable EsaHttpRequestHeaderModificationRule#rule_enable}
   */
   readonly ruleEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#rule_name EsaHttpRequestHeaderModificationRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#rule_name EsaHttpRequestHeaderModificationRule#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#site_id EsaHttpRequestHeaderModificationRule#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#sequence EsaHttpRequestHeaderModificationRule#sequence}
   */
-  readonly siteId: number;
+  readonly sequence?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#site_version EsaHttpRequestHeaderModificationRule#site_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#site_id EsaHttpRequestHeaderModificationRule#site_id}
+  */
+  readonly siteId: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#site_version EsaHttpRequestHeaderModificationRule#site_version}
   */
   readonly siteVersion?: number;
   /**
   * request_header_modification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#request_header_modification EsaHttpRequestHeaderModificationRule#request_header_modification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#request_header_modification EsaHttpRequestHeaderModificationRule#request_header_modification}
   */
   readonly requestHeaderModification: EsaHttpRequestHeaderModificationRuleRequestHeaderModification[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#timeouts EsaHttpRequestHeaderModificationRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#timeouts EsaHttpRequestHeaderModificationRule#timeouts}
   */
   readonly timeouts?: EsaHttpRequestHeaderModificationRuleTimeouts;
 }
 export interface EsaHttpRequestHeaderModificationRuleRequestHeaderModification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#name EsaHttpRequestHeaderModificationRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#name EsaHttpRequestHeaderModificationRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#operation EsaHttpRequestHeaderModificationRule#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#operation EsaHttpRequestHeaderModificationRule#operation}
   */
   readonly operation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#value EsaHttpRequestHeaderModificationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#type EsaHttpRequestHeaderModificationRule#type}
+  */
+  readonly type?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#value EsaHttpRequestHeaderModificationRule#value}
   */
   readonly value?: string;
 }
@@ -70,6 +78,7 @@ export function esaHttpRequestHeaderModificationRuleRequestHeaderModificationToT
   return {
     name: cdktf.stringToTerraform(struct!.name),
     operation: cdktf.stringToTerraform(struct!.operation),
+    type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
 }
@@ -89,6 +98,12 @@ export function esaHttpRequestHeaderModificationRuleRequestHeaderModificationToH
     },
     operation: {
       value: cdktf.stringToHclTerraform(struct!.operation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -133,6 +148,10 @@ export class EsaHttpRequestHeaderModificationRuleRequestHeaderModificationOutput
       hasAnyValues = true;
       internalValueResult.operation = this._operation;
     }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
     if (this._value !== undefined) {
       hasAnyValues = true;
       internalValueResult.value = this._value;
@@ -146,6 +165,7 @@ export class EsaHttpRequestHeaderModificationRuleRequestHeaderModificationOutput
       this.resolvableValue = undefined;
       this._name = undefined;
       this._operation = undefined;
+      this._type = undefined;
       this._value = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -157,6 +177,7 @@ export class EsaHttpRequestHeaderModificationRuleRequestHeaderModificationOutput
       this.resolvableValue = undefined;
       this._name = value.name;
       this._operation = value.operation;
+      this._type = value.type;
       this._value = value.value;
     }
   }
@@ -185,6 +206,22 @@ export class EsaHttpRequestHeaderModificationRuleRequestHeaderModificationOutput
   // Temporarily expose input value. Use with caution.
   public get operationInput() {
     return this._operation;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
   }
 
   // value - computed: false, optional: true, required: false
@@ -225,15 +262,15 @@ export class EsaHttpRequestHeaderModificationRuleRequestHeaderModificationList e
 }
 export interface EsaHttpRequestHeaderModificationRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#create EsaHttpRequestHeaderModificationRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#create EsaHttpRequestHeaderModificationRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#delete EsaHttpRequestHeaderModificationRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#delete EsaHttpRequestHeaderModificationRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#update EsaHttpRequestHeaderModificationRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#update EsaHttpRequestHeaderModificationRule#update}
   */
   readonly update?: string;
 }
@@ -385,7 +422,7 @@ export class EsaHttpRequestHeaderModificationRuleTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule alicloud_esa_http_request_header_modification_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule alicloud_esa_http_request_header_modification_rule}
 */
 export class EsaHttpRequestHeaderModificationRule extends cdktf.TerraformResource {
 
@@ -401,7 +438,7 @@ export class EsaHttpRequestHeaderModificationRule extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a EsaHttpRequestHeaderModificationRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaHttpRequestHeaderModificationRule to import
-  * @param importFromId The id of the existing EsaHttpRequestHeaderModificationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaHttpRequestHeaderModificationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaHttpRequestHeaderModificationRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -413,7 +450,7 @@ export class EsaHttpRequestHeaderModificationRule extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/esa_http_request_header_modification_rule alicloud_esa_http_request_header_modification_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_http_request_header_modification_rule alicloud_esa_http_request_header_modification_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -424,8 +461,8 @@ export class EsaHttpRequestHeaderModificationRule extends cdktf.TerraformResourc
       terraformResourceType: 'alicloud_esa_http_request_header_modification_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -439,6 +476,7 @@ export class EsaHttpRequestHeaderModificationRule extends cdktf.TerraformResourc
     this._rule = config.rule;
     this._ruleEnable = config.ruleEnable;
     this._ruleName = config.ruleName;
+    this._sequence = config.sequence;
     this._siteId = config.siteId;
     this._siteVersion = config.siteVersion;
     this._requestHeaderModification.internalValue = config.requestHeaderModification;
@@ -518,12 +556,28 @@ export class EsaHttpRequestHeaderModificationRule extends cdktf.TerraformResourc
     return this._ruleName;
   }
 
-  // site_id - computed: false, optional: false, required: true
-  private _siteId?: number; 
-  public get siteId() {
-    return this.getNumberAttribute('site_id');
+  // sequence - computed: true, optional: true, required: false
+  private _sequence?: number; 
+  public get sequence() {
+    return this.getNumberAttribute('sequence');
   }
-  public set siteId(value: number) {
+  public set sequence(value: number) {
+    this._sequence = value;
+  }
+  public resetSequence() {
+    this._sequence = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sequenceInput() {
+    return this._sequence;
+  }
+
+  // site_id - computed: false, optional: false, required: true
+  private _siteId?: string; 
+  public get siteId() {
+    return this.getStringAttribute('site_id');
+  }
+  public set siteId(value: string) {
     this._siteId = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -586,7 +640,8 @@ export class EsaHttpRequestHeaderModificationRule extends cdktf.TerraformResourc
       rule: cdktf.stringToTerraform(this._rule),
       rule_enable: cdktf.stringToTerraform(this._ruleEnable),
       rule_name: cdktf.stringToTerraform(this._ruleName),
-      site_id: cdktf.numberToTerraform(this._siteId),
+      sequence: cdktf.numberToTerraform(this._sequence),
+      site_id: cdktf.stringToTerraform(this._siteId),
       site_version: cdktf.numberToTerraform(this._siteVersion),
       request_header_modification: cdktf.listMapper(esaHttpRequestHeaderModificationRuleRequestHeaderModificationToTerraform, true)(this._requestHeaderModification.internalValue),
       timeouts: esaHttpRequestHeaderModificationRuleTimeoutsToTerraform(this._timeouts.internalValue),
@@ -619,11 +674,17 @@ export class EsaHttpRequestHeaderModificationRule extends cdktf.TerraformResourc
         type: "simple",
         storageClassType: "string",
       },
-      site_id: {
-        value: cdktf.numberToHclTerraform(this._siteId),
+      sequence: {
+        value: cdktf.numberToHclTerraform(this._sequence),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      site_id: {
+        value: cdktf.stringToHclTerraform(this._siteId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       site_version: {
         value: cdktf.numberToHclTerraform(this._siteVersion),

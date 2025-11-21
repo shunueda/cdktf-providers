@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_proxy_statistics
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_proxy_statistics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudGaapProxyStatisticsConfig extends cdktf.Terrafo
   /**
   * End Time(2019-03-25 12:00:00).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_proxy_statistics#end_time DataTencentcloudGaapProxyStatistics#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_proxy_statistics#end_time DataTencentcloudGaapProxyStatistics#end_time}
   */
   readonly endTime: string;
   /**
   * Monitoring granularity, currently supporting 60 300 3600 86400, in seconds.When the time range does not exceed 3 days, support a minimum granularity of 60 seconds;When the time range does not exceed 7 days, support a minimum granularity of 300 seconds;When the time range does not exceed 30 days, the minimum granularity supported is 3600 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_proxy_statistics#granularity DataTencentcloudGaapProxyStatistics#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_proxy_statistics#granularity DataTencentcloudGaapProxyStatistics#granularity}
   */
   readonly granularity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_proxy_statistics#id DataTencentcloudGaapProxyStatistics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_proxy_statistics#id DataTencentcloudGaapProxyStatistics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DataTencentcloudGaapProxyStatisticsConfig extends cdktf.Terrafo
   /**
   * Operator (valid when the proxy is a three network proxy), supports CMCC, CUCC, CTCC, and merges data from the three operators if null values are passed or not passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_proxy_statistics#isp DataTencentcloudGaapProxyStatistics#isp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_proxy_statistics#isp DataTencentcloudGaapProxyStatistics#isp}
   */
   readonly isp?: string;
   /**
   * Metric Names. Valid values: InBandwidth,OutBandwidth, Concurrent, InPackets, OutPackets, PacketLoss, Latency, HttpQPS, HttpsQPS, HttpQPSPercent, HttpsQPSPercent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_proxy_statistics#metric_names DataTencentcloudGaapProxyStatistics#metric_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_proxy_statistics#metric_names DataTencentcloudGaapProxyStatistics#metric_names}
   */
   readonly metricNames: string[];
   /**
   * Proxy Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_proxy_statistics#proxy_id DataTencentcloudGaapProxyStatistics#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_proxy_statistics#proxy_id DataTencentcloudGaapProxyStatistics#proxy_id}
   */
   readonly proxyId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_proxy_statistics#result_output_file DataTencentcloudGaapProxyStatistics#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_proxy_statistics#result_output_file DataTencentcloudGaapProxyStatistics#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start Time(2019-03-25 12:00:00).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_proxy_statistics#start_time DataTencentcloudGaapProxyStatistics#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_proxy_statistics#start_time DataTencentcloudGaapProxyStatistics#start_time}
   */
   readonly startTime: string;
 }
@@ -220,7 +220,7 @@ export class DataTencentcloudGaapProxyStatisticsStatisticsDataList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_proxy_statistics tencentcloud_gaap_proxy_statistics}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_proxy_statistics tencentcloud_gaap_proxy_statistics}
 */
 export class DataTencentcloudGaapProxyStatistics extends cdktf.TerraformDataSource {
 
@@ -236,7 +236,7 @@ export class DataTencentcloudGaapProxyStatistics extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudGaapProxyStatistics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudGaapProxyStatistics to import
-  * @param importFromId The id of the existing DataTencentcloudGaapProxyStatistics that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_proxy_statistics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudGaapProxyStatistics that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_proxy_statistics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudGaapProxyStatistics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class DataTencentcloudGaapProxyStatistics extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_proxy_statistics tencentcloud_gaap_proxy_statistics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_proxy_statistics tencentcloud_gaap_proxy_statistics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class DataTencentcloudGaapProxyStatistics extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_gaap_proxy_statistics',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

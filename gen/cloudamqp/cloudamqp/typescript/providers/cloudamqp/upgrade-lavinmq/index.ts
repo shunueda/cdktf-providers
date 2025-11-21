@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/upgrade_lavinmq
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/upgrade_lavinmq
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface UpgradeLavinmqConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/upgrade_lavinmq#id UpgradeLavinmq#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/upgrade_lavinmq#id UpgradeLavinmq#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface UpgradeLavinmqConfig extends cdktf.TerraformMetaArguments {
   /**
   * The CloudAMQP instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/upgrade_lavinmq#instance_id UpgradeLavinmq#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/upgrade_lavinmq#instance_id UpgradeLavinmq#instance_id}
   */
   readonly instanceId: number;
   /**
   * The new version to upgrade to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/upgrade_lavinmq#new_version UpgradeLavinmq#new_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/upgrade_lavinmq#new_version UpgradeLavinmq#new_version}
   */
   readonly newVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/upgrade_lavinmq cloudamqp_upgrade_lavinmq}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/upgrade_lavinmq cloudamqp_upgrade_lavinmq}
 */
 export class UpgradeLavinmq extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class UpgradeLavinmq extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UpgradeLavinmq resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UpgradeLavinmq to import
-  * @param importFromId The id of the existing UpgradeLavinmq that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/upgrade_lavinmq#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UpgradeLavinmq that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/upgrade_lavinmq#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UpgradeLavinmq to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class UpgradeLavinmq extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/upgrade_lavinmq cloudamqp_upgrade_lavinmq} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/upgrade_lavinmq cloudamqp_upgrade_lavinmq} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class UpgradeLavinmq extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_upgrade_lavinmq',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.2',
-        providerVersionConstraint: '1.38.2'
+        providerVersion: '1.38.3',
+        providerVersionConstraint: '1.38.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

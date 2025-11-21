@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/scheduled_report
+// https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/scheduled_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface ScheduledReportConfig extends cdktf.TerraformMetaArguments {
   /**
   * Reports will be sent at this time (local time), value is hour of day: 0-23
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/scheduled_report#at_time ScheduledReport#at_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/scheduled_report#at_time ScheduledReport#at_time}
   */
   readonly atTime?: number;
   /**
   * Report file type, valid values are PDF(default) or XLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/scheduled_report#file_type ScheduledReport#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/scheduled_report#file_type ScheduledReport#file_type}
   */
   readonly fileType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/scheduled_report#is_enabled ScheduledReport#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/scheduled_report#is_enabled ScheduledReport#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/scheduled_report#name ScheduledReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/scheduled_report#name ScheduledReport#name}
   */
   readonly name: string;
   /**
   * Weekly reports will be sent on this day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/scheduled_report#on_weekday ScheduledReport#on_weekday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/scheduled_report#on_weekday ScheduledReport#on_weekday}
   */
   readonly onWeekday?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/scheduled_report#recipient_emails ScheduledReport#recipient_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/scheduled_report#recipient_emails ScheduledReport#recipient_emails}
   */
   readonly recipientEmails?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/scheduled_report#recipient_users ScheduledReport#recipient_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/scheduled_report#recipient_users ScheduledReport#recipient_users}
   */
   readonly recipientUsers?: string[];
   /**
   * How often to deliver this report. Valid values are DAILY, WEEKLY, MONTHLY, QUARTERLY, YEARLY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/scheduled_report#recurrence ScheduledReport#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/scheduled_report#recurrence ScheduledReport#recurrence}
   */
   readonly recurrence?: string;
   /**
   * Select an SLA report to send on this schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/scheduled_report#sla_report ScheduledReport#sla_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/scheduled_report#sla_report ScheduledReport#sla_report}
   */
   readonly slaReport: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/scheduled_report uptime_scheduled_report}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/scheduled_report uptime_scheduled_report}
 */
 export class ScheduledReport extends cdktf.TerraformResource {
 
@@ -72,7 +72,7 @@ export class ScheduledReport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScheduledReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScheduledReport to import
-  * @param importFromId The id of the existing ScheduledReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/scheduled_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScheduledReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/scheduled_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScheduledReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -84,7 +84,7 @@ export class ScheduledReport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/scheduled_report uptime_scheduled_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.17.1/docs/resources/scheduled_report uptime_scheduled_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -95,8 +95,8 @@ export class ScheduledReport extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_scheduled_report',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.16.0',
-        providerVersionConstraint: '2.16.0'
+        providerVersion: '2.17.1',
+        providerVersionConstraint: '2.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

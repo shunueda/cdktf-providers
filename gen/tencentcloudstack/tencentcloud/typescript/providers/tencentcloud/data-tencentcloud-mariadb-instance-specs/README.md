@@ -1,3 +1,3 @@
 # `data_tencentcloud_mariadb_instance_specs`
 
-Refer to the Terraform Registry for docs: [`data_tencentcloud_mariadb_instance_specs`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/mariadb_instance_specs).
+Refer to the Terraform Registry for docs: [`data_tencentcloud_mariadb_instance_specs`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/mariadb_instance_specs).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,102 +8,126 @@ import * as cdktf from 'cdktf';
 
 export interface ExpressConnectVirtualBorderRouterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#associated_physical_connections ExpressConnectVirtualBorderRouter#associated_physical_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#associated_physical_connections ExpressConnectVirtualBorderRouter#associated_physical_connections}
   */
   readonly associatedPhysicalConnections?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#bandwidth ExpressConnectVirtualBorderRouter#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#bandwidth ExpressConnectVirtualBorderRouter#bandwidth}
   */
   readonly bandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#circuit_code ExpressConnectVirtualBorderRouter#circuit_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#circuit_code ExpressConnectVirtualBorderRouter#circuit_code}
   */
   readonly circuitCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#description ExpressConnectVirtualBorderRouter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#description ExpressConnectVirtualBorderRouter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#detect_multiplier ExpressConnectVirtualBorderRouter#detect_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#detect_multiplier ExpressConnectVirtualBorderRouter#detect_multiplier}
   */
   readonly detectMultiplier?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#enable_ipv6 ExpressConnectVirtualBorderRouter#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#enable_ipv6 ExpressConnectVirtualBorderRouter#enable_ipv6}
   */
   readonly enableIpv6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#id ExpressConnectVirtualBorderRouter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#id ExpressConnectVirtualBorderRouter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#include_cross_account_vbr ExpressConnectVirtualBorderRouter#include_cross_account_vbr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#include_cross_account_vbr ExpressConnectVirtualBorderRouter#include_cross_account_vbr}
   */
   readonly includeCrossAccountVbr?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#local_gateway_ip ExpressConnectVirtualBorderRouter#local_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#local_gateway_ip ExpressConnectVirtualBorderRouter#local_gateway_ip}
   */
   readonly localGatewayIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#local_ipv6_gateway_ip ExpressConnectVirtualBorderRouter#local_ipv6_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#local_ipv6_gateway_ip ExpressConnectVirtualBorderRouter#local_ipv6_gateway_ip}
   */
   readonly localIpv6GatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#min_rx_interval ExpressConnectVirtualBorderRouter#min_rx_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#min_rx_interval ExpressConnectVirtualBorderRouter#min_rx_interval}
   */
   readonly minRxInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#min_tx_interval ExpressConnectVirtualBorderRouter#min_tx_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#min_tx_interval ExpressConnectVirtualBorderRouter#min_tx_interval}
   */
   readonly minTxInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#peer_gateway_ip ExpressConnectVirtualBorderRouter#peer_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#mtu ExpressConnectVirtualBorderRouter#mtu}
+  */
+  readonly mtu?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#peer_gateway_ip ExpressConnectVirtualBorderRouter#peer_gateway_ip}
   */
   readonly peerGatewayIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#peer_ipv6_gateway_ip ExpressConnectVirtualBorderRouter#peer_ipv6_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#peer_ipv6_gateway_ip ExpressConnectVirtualBorderRouter#peer_ipv6_gateway_ip}
   */
   readonly peerIpv6GatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#peering_ipv6_subnet_mask ExpressConnectVirtualBorderRouter#peering_ipv6_subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#peering_ipv6_subnet_mask ExpressConnectVirtualBorderRouter#peering_ipv6_subnet_mask}
   */
   readonly peeringIpv6SubnetMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#peering_subnet_mask ExpressConnectVirtualBorderRouter#peering_subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#peering_subnet_mask ExpressConnectVirtualBorderRouter#peering_subnet_mask}
   */
   readonly peeringSubnetMask: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#physical_connection_id ExpressConnectVirtualBorderRouter#physical_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#physical_connection_id ExpressConnectVirtualBorderRouter#physical_connection_id}
   */
   readonly physicalConnectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#status ExpressConnectVirtualBorderRouter#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#resource_group_id ExpressConnectVirtualBorderRouter#resource_group_id}
+  */
+  readonly resourceGroupId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#sitelink_enable ExpressConnectVirtualBorderRouter#sitelink_enable}
+  */
+  readonly sitelinkEnable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#status ExpressConnectVirtualBorderRouter#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#vbr_owner_id ExpressConnectVirtualBorderRouter#vbr_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#tags ExpressConnectVirtualBorderRouter#tags}
+  */
+  readonly tags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#vbr_owner_id ExpressConnectVirtualBorderRouter#vbr_owner_id}
   */
   readonly vbrOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#virtual_border_router_name ExpressConnectVirtualBorderRouter#virtual_border_router_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#virtual_border_router_name ExpressConnectVirtualBorderRouter#virtual_border_router_name}
   */
   readonly virtualBorderRouterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#vlan_id ExpressConnectVirtualBorderRouter#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#vlan_id ExpressConnectVirtualBorderRouter#vlan_id}
   */
   readonly vlanId: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#timeouts ExpressConnectVirtualBorderRouter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#timeouts ExpressConnectVirtualBorderRouter#timeouts}
   */
   readonly timeouts?: ExpressConnectVirtualBorderRouterTimeouts;
 }
 export interface ExpressConnectVirtualBorderRouterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#update ExpressConnectVirtualBorderRouter#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#create ExpressConnectVirtualBorderRouter#create}
+  */
+  readonly create?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#delete ExpressConnectVirtualBorderRouter#delete}
+  */
+  readonly delete?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#update ExpressConnectVirtualBorderRouter#update}
   */
   readonly update?: string;
 }
@@ -114,6 +138,8 @@ export function expressConnectVirtualBorderRouterTimeoutsToTerraform(struct?: Ex
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    create: cdktf.stringToTerraform(struct!.create),
+    delete: cdktf.stringToTerraform(struct!.delete),
     update: cdktf.stringToTerraform(struct!.update),
   }
 }
@@ -125,6 +151,18 @@ export function expressConnectVirtualBorderRouterTimeoutsToHclTerraform(struct?:
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    create: {
+      value: cdktf.stringToHclTerraform(struct!.create),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    delete: {
+      value: cdktf.stringToHclTerraform(struct!.delete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     update: {
       value: cdktf.stringToHclTerraform(struct!.update),
       isBlock: false,
@@ -155,6 +193,14 @@ export class ExpressConnectVirtualBorderRouterTimeoutsOutputReference extends cd
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._create !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.create = this._create;
+    }
+    if (this._delete !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.delete = this._delete;
+    }
     if (this._update !== undefined) {
       hasAnyValues = true;
       internalValueResult.update = this._update;
@@ -166,6 +212,8 @@ export class ExpressConnectVirtualBorderRouterTimeoutsOutputReference extends cd
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._create = undefined;
+      this._delete = undefined;
       this._update = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -175,8 +223,42 @@ export class ExpressConnectVirtualBorderRouterTimeoutsOutputReference extends cd
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._create = value.create;
+      this._delete = value.delete;
       this._update = value.update;
     }
+  }
+
+  // create - computed: false, optional: true, required: false
+  private _create?: string; 
+  public get create() {
+    return this.getStringAttribute('create');
+  }
+  public set create(value: string) {
+    this._create = value;
+  }
+  public resetCreate() {
+    this._create = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createInput() {
+    return this._create;
+  }
+
+  // delete - computed: false, optional: true, required: false
+  private _delete?: string; 
+  public get delete() {
+    return this.getStringAttribute('delete');
+  }
+  public set delete(value: string) {
+    this._delete = value;
+  }
+  public resetDelete() {
+    this._delete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteInput() {
+    return this._delete;
   }
 
   // update - computed: false, optional: true, required: false
@@ -197,7 +279,7 @@ export class ExpressConnectVirtualBorderRouterTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router alicloud_express_connect_virtual_border_router}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router alicloud_express_connect_virtual_border_router}
 */
 export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
 
@@ -213,7 +295,7 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExpressConnectVirtualBorderRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExpressConnectVirtualBorderRouter to import
-  * @param importFromId The id of the existing ExpressConnectVirtualBorderRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExpressConnectVirtualBorderRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExpressConnectVirtualBorderRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -225,7 +307,7 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/express_connect_virtual_border_router alicloud_express_connect_virtual_border_router} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_virtual_border_router alicloud_express_connect_virtual_border_router} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,8 +318,8 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_express_connect_virtual_border_router',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -259,12 +341,16 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
     this._localIpv6GatewayIp = config.localIpv6GatewayIp;
     this._minRxInterval = config.minRxInterval;
     this._minTxInterval = config.minTxInterval;
+    this._mtu = config.mtu;
     this._peerGatewayIp = config.peerGatewayIp;
     this._peerIpv6GatewayIp = config.peerIpv6GatewayIp;
     this._peeringIpv6SubnetMask = config.peeringIpv6SubnetMask;
     this._peeringSubnetMask = config.peeringSubnetMask;
     this._physicalConnectionId = config.physicalConnectionId;
+    this._resourceGroupId = config.resourceGroupId;
+    this._sitelinkEnable = config.sitelinkEnable;
     this._status = config.status;
+    this._tags = config.tags;
     this._vbrOwnerId = config.vbrOwnerId;
     this._virtualBorderRouterName = config.virtualBorderRouterName;
     this._vlanId = config.vlanId;
@@ -291,7 +377,7 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
     return this._associatedPhysicalConnections;
   }
 
-  // bandwidth - computed: true, optional: true, required: false
+  // bandwidth - computed: false, optional: true, required: false
   private _bandwidth?: number; 
   public get bandwidth() {
     return this.getNumberAttribute('bandwidth');
@@ -321,6 +407,11 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get circuitCodeInput() {
     return this._circuitCode;
+  }
+
+  // create_time - computed: true, optional: false, required: false
+  public get createTime() {
+    return this.getStringAttribute('create_time');
   }
 
   // description - computed: false, optional: true, required: false
@@ -355,7 +446,7 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
     return this._detectMultiplier;
   }
 
-  // enable_ipv6 - computed: true, optional: true, required: false
+  // enable_ipv6 - computed: false, optional: true, required: false
   private _enableIpv6?: boolean | cdktf.IResolvable; 
   public get enableIpv6() {
     return this.getBooleanAttribute('enable_ipv6');
@@ -387,7 +478,7 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // include_cross_account_vbr - computed: true, optional: true, required: false
+  // include_cross_account_vbr - computed: false, optional: true, required: false
   private _includeCrossAccountVbr?: boolean | cdktf.IResolvable; 
   public get includeCrossAccountVbr() {
     return this.getBooleanAttribute('include_cross_account_vbr');
@@ -464,6 +555,22 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
     return this._minTxInterval;
   }
 
+  // mtu - computed: true, optional: true, required: false
+  private _mtu?: number; 
+  public get mtu() {
+    return this.getNumberAttribute('mtu');
+  }
+  public set mtu(value: number) {
+    this._mtu = value;
+  }
+  public resetMtu() {
+    this._mtu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mtuInput() {
+    return this._mtu;
+  }
+
   // peer_gateway_ip - computed: false, optional: false, required: true
   private _peerGatewayIp?: string; 
   public get peerGatewayIp() {
@@ -535,9 +642,41 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
     return this._physicalConnectionId;
   }
 
+  // resource_group_id - computed: true, optional: true, required: false
+  private _resourceGroupId?: string; 
+  public get resourceGroupId() {
+    return this.getStringAttribute('resource_group_id');
+  }
+  public set resourceGroupId(value: string) {
+    this._resourceGroupId = value;
+  }
+  public resetResourceGroupId() {
+    this._resourceGroupId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceGroupIdInput() {
+    return this._resourceGroupId;
+  }
+
   // route_table_id - computed: true, optional: false, required: false
   public get routeTableId() {
     return this.getStringAttribute('route_table_id');
+  }
+
+  // sitelink_enable - computed: false, optional: true, required: false
+  private _sitelinkEnable?: boolean | cdktf.IResolvable; 
+  public get sitelinkEnable() {
+    return this.getBooleanAttribute('sitelink_enable');
+  }
+  public set sitelinkEnable(value: boolean | cdktf.IResolvable) {
+    this._sitelinkEnable = value;
+  }
+  public resetSitelinkEnable() {
+    this._sitelinkEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sitelinkEnableInput() {
+    return this._sitelinkEnable;
   }
 
   // status - computed: true, optional: true, required: false
@@ -554,6 +693,22 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get statusInput() {
     return this._status;
+  }
+
+  // tags - computed: false, optional: true, required: false
+  private _tags?: { [key: string]: string }; 
+  public get tags() {
+    return this.getStringMapAttribute('tags');
+  }
+  public set tags(value: { [key: string]: string }) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
   }
 
   // vbr_owner_id - computed: false, optional: true, required: false
@@ -635,12 +790,16 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
       local_ipv6_gateway_ip: cdktf.stringToTerraform(this._localIpv6GatewayIp),
       min_rx_interval: cdktf.numberToTerraform(this._minRxInterval),
       min_tx_interval: cdktf.numberToTerraform(this._minTxInterval),
+      mtu: cdktf.numberToTerraform(this._mtu),
       peer_gateway_ip: cdktf.stringToTerraform(this._peerGatewayIp),
       peer_ipv6_gateway_ip: cdktf.stringToTerraform(this._peerIpv6GatewayIp),
       peering_ipv6_subnet_mask: cdktf.stringToTerraform(this._peeringIpv6SubnetMask),
       peering_subnet_mask: cdktf.stringToTerraform(this._peeringSubnetMask),
       physical_connection_id: cdktf.stringToTerraform(this._physicalConnectionId),
+      resource_group_id: cdktf.stringToTerraform(this._resourceGroupId),
+      sitelink_enable: cdktf.booleanToTerraform(this._sitelinkEnable),
       status: cdktf.stringToTerraform(this._status),
+      tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
       vbr_owner_id: cdktf.stringToTerraform(this._vbrOwnerId),
       virtual_border_router_name: cdktf.stringToTerraform(this._virtualBorderRouterName),
       vlan_id: cdktf.numberToTerraform(this._vlanId),
@@ -722,6 +881,12 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      mtu: {
+        value: cdktf.numberToHclTerraform(this._mtu),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       peer_gateway_ip: {
         value: cdktf.stringToHclTerraform(this._peerGatewayIp),
         isBlock: false,
@@ -752,11 +917,29 @@ export class ExpressConnectVirtualBorderRouter extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      resource_group_id: {
+        value: cdktf.stringToHclTerraform(this._resourceGroupId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      sitelink_enable: {
+        value: cdktf.booleanToHclTerraform(this._sitelinkEnable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       status: {
         value: cdktf.stringToHclTerraform(this._status),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      tags: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._tags),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
       },
       vbr_owner_id: {
         value: cdktf.stringToHclTerraform(this._vbrOwnerId),

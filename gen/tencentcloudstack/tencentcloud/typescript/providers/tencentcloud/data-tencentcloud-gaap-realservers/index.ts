@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_realservers
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_realservers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudGaapRealserversConfig extends cdktf.TerraformMe
   /**
   * Domain of the GAAP realserver to be queried, conflict with `ip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_realservers#domain DataTencentcloudGaapRealservers#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_realservers#domain DataTencentcloudGaapRealservers#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_realservers#id DataTencentcloudGaapRealservers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_realservers#id DataTencentcloudGaapRealservers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudGaapRealserversConfig extends cdktf.TerraformMe
   /**
   * IP of the GAAP realserver to be queried, conflict with `domain`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_realservers#ip DataTencentcloudGaapRealservers#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_realservers#ip DataTencentcloudGaapRealservers#ip}
   */
   readonly ip?: string;
   /**
   * Name of the GAAP realserver to be queried, the maximum length is 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_realservers#name DataTencentcloudGaapRealservers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_realservers#name DataTencentcloudGaapRealservers#name}
   */
   readonly name?: string;
   /**
   * ID of the project within the GAAP realserver to be queried, default value is `-1`, no set means all projects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_realservers#project_id DataTencentcloudGaapRealservers#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_realservers#project_id DataTencentcloudGaapRealservers#project_id}
   */
   readonly projectId?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_realservers#result_output_file DataTencentcloudGaapRealservers#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_realservers#result_output_file DataTencentcloudGaapRealservers#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Tags of the GAAP proxy to be queried. Support up to 5, display the information as long as it matches one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_realservers#tags DataTencentcloudGaapRealservers#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_realservers#tags DataTencentcloudGaapRealservers#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -154,7 +154,7 @@ export class DataTencentcloudGaapRealserversRealserversList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_realservers tencentcloud_gaap_realservers}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_realservers tencentcloud_gaap_realservers}
 */
 export class DataTencentcloudGaapRealservers extends cdktf.TerraformDataSource {
 
@@ -170,7 +170,7 @@ export class DataTencentcloudGaapRealservers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudGaapRealservers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudGaapRealservers to import
-  * @param importFromId The id of the existing DataTencentcloudGaapRealservers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_realservers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudGaapRealservers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_realservers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudGaapRealservers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -182,7 +182,7 @@ export class DataTencentcloudGaapRealservers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/gaap_realservers tencentcloud_gaap_realservers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/gaap_realservers tencentcloud_gaap_realservers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -193,8 +193,8 @@ export class DataTencentcloudGaapRealservers extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_gaap_realservers',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

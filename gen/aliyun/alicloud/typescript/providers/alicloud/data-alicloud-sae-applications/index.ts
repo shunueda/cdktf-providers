@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudSaeApplicationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications#app_name DataAlicloudSaeApplications#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications#app_name DataAlicloudSaeApplications#app_name}
   */
   readonly appName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications#enable_details DataAlicloudSaeApplications#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications#enable_details DataAlicloudSaeApplications#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications#field_type DataAlicloudSaeApplications#field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications#field_type DataAlicloudSaeApplications#field_type}
   */
   readonly fieldType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications#field_value DataAlicloudSaeApplications#field_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications#field_value DataAlicloudSaeApplications#field_value}
   */
   readonly fieldValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications#id DataAlicloudSaeApplications#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications#id DataAlicloudSaeApplications#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications#ids DataAlicloudSaeApplications#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications#ids DataAlicloudSaeApplications#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications#namespace_id DataAlicloudSaeApplications#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications#namespace_id DataAlicloudSaeApplications#namespace_id}
   */
   readonly namespaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications#order_by DataAlicloudSaeApplications#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications#order_by DataAlicloudSaeApplications#order_by}
   */
   readonly orderBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications#output_file DataAlicloudSaeApplications#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications#output_file DataAlicloudSaeApplications#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications#reverse DataAlicloudSaeApplications#reverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications#reverse DataAlicloudSaeApplications#reverse}
   */
   readonly reverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications#status DataAlicloudSaeApplications#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications#status DataAlicloudSaeApplications#status}
   */
   readonly status?: string;
 }
@@ -570,7 +570,7 @@ export class DataAlicloudSaeApplicationsApplicationsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications alicloud_sae_applications}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications alicloud_sae_applications}
 */
 export class DataAlicloudSaeApplications extends cdktf.TerraformDataSource {
 
@@ -586,7 +586,7 @@ export class DataAlicloudSaeApplications extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudSaeApplications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudSaeApplications to import
-  * @param importFromId The id of the existing DataAlicloudSaeApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudSaeApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudSaeApplications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -598,7 +598,7 @@ export class DataAlicloudSaeApplications extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/sae_applications alicloud_sae_applications} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sae_applications alicloud_sae_applications} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -609,8 +609,8 @@ export class DataAlicloudSaeApplications extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_sae_applications',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

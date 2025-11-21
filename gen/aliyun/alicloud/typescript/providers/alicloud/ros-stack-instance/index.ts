@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface RosStackInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#id RosStackInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#id RosStackInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#operation_description RosStackInstance#operation_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#operation_description RosStackInstance#operation_description}
   */
   readonly operationDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#operation_preferences RosStackInstance#operation_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#operation_preferences RosStackInstance#operation_preferences}
   */
   readonly operationPreferences?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#retain_stacks RosStackInstance#retain_stacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#retain_stacks RosStackInstance#retain_stacks}
   */
   readonly retainStacks?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#stack_group_name RosStackInstance#stack_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#stack_group_name RosStackInstance#stack_group_name}
   */
   readonly stackGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#stack_instance_account_id RosStackInstance#stack_instance_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#stack_instance_account_id RosStackInstance#stack_instance_account_id}
   */
   readonly stackInstanceAccountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#stack_instance_region_id RosStackInstance#stack_instance_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#stack_instance_region_id RosStackInstance#stack_instance_region_id}
   */
   readonly stackInstanceRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#timeout_in_minutes RosStackInstance#timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#timeout_in_minutes RosStackInstance#timeout_in_minutes}
   */
   readonly timeoutInMinutes?: string;
   /**
   * parameter_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#parameter_overrides RosStackInstance#parameter_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#parameter_overrides RosStackInstance#parameter_overrides}
   */
   readonly parameterOverrides?: RosStackInstanceParameterOverrides[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#timeouts RosStackInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#timeouts RosStackInstance#timeouts}
   */
   readonly timeouts?: RosStackInstanceTimeouts;
 }
 export interface RosStackInstanceParameterOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#parameter_key RosStackInstance#parameter_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#parameter_key RosStackInstance#parameter_key}
   */
   readonly parameterKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#parameter_value RosStackInstance#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#parameter_value RosStackInstance#parameter_value}
   */
   readonly parameterValue?: string;
 }
@@ -206,7 +206,7 @@ export class RosStackInstanceParameterOverridesList extends cdktf.ComplexList {
 }
 export interface RosStackInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#create RosStackInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#create RosStackInstance#create}
   */
   readonly create?: string;
 }
@@ -300,7 +300,7 @@ export class RosStackInstanceTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance alicloud_ros_stack_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance alicloud_ros_stack_instance}
 */
 export class RosStackInstance extends cdktf.TerraformResource {
 
@@ -316,7 +316,7 @@ export class RosStackInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RosStackInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RosStackInstance to import
-  * @param importFromId The id of the existing RosStackInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RosStackInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RosStackInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -328,7 +328,7 @@ export class RosStackInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/ros_stack_instance alicloud_ros_stack_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ros_stack_instance alicloud_ros_stack_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -339,8 +339,8 @@ export class RosStackInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ros_stack_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

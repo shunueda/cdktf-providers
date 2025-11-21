@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipam_ipams
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipam_ipams
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudVpcIpamIpamsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipam_ipams#id DataAlicloudVpcIpamIpams#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipam_ipams#id DataAlicloudVpcIpamIpams#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipam_ipams#ids DataAlicloudVpcIpamIpams#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipam_ipams#ids DataAlicloudVpcIpamIpams#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipam_ipams#ipam_id DataAlicloudVpcIpamIpams#ipam_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipam_ipams#ipam_id DataAlicloudVpcIpamIpams#ipam_id}
   */
   readonly ipamId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipam_ipams#ipam_name DataAlicloudVpcIpamIpams#ipam_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipam_ipams#ipam_name DataAlicloudVpcIpamIpams#ipam_name}
   */
   readonly ipamName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipam_ipams#name_regex DataAlicloudVpcIpamIpams#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipam_ipams#name_regex DataAlicloudVpcIpamIpams#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipam_ipams#output_file DataAlicloudVpcIpamIpams#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipam_ipams#output_file DataAlicloudVpcIpamIpams#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipam_ipams#resource_group_id DataAlicloudVpcIpamIpams#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipam_ipams#resource_group_id DataAlicloudVpcIpamIpams#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipam_ipams#tags DataAlicloudVpcIpamIpams#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipam_ipams#tags DataAlicloudVpcIpamIpams#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -186,7 +186,7 @@ export class DataAlicloudVpcIpamIpamsIpamsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipam_ipams alicloud_vpc_ipam_ipams}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipam_ipams alicloud_vpc_ipam_ipams}
 */
 export class DataAlicloudVpcIpamIpams extends cdktf.TerraformDataSource {
 
@@ -202,7 +202,7 @@ export class DataAlicloudVpcIpamIpams extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudVpcIpamIpams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudVpcIpamIpams to import
-  * @param importFromId The id of the existing DataAlicloudVpcIpamIpams that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipam_ipams#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudVpcIpamIpams that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipam_ipams#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudVpcIpamIpams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class DataAlicloudVpcIpamIpams extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/vpc_ipam_ipams alicloud_vpc_ipam_ipams} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipam_ipams alicloud_vpc_ipam_ipams} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class DataAlicloudVpcIpamIpams extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_vpc_ipam_ipams',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

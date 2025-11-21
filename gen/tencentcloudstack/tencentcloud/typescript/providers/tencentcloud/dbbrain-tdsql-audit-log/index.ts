@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DbbrainTdsqlAuditLogConfig extends cdktf.TerraformMetaArguments
   /**
   * Deadline time, such as `2019-09-11 10:13:14`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#end_time DbbrainTdsqlAuditLog#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#end_time DbbrainTdsqlAuditLog#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#id DbbrainTdsqlAuditLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#id DbbrainTdsqlAuditLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DbbrainTdsqlAuditLogConfig extends cdktf.TerraformMetaArguments
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#instance_id DbbrainTdsqlAuditLog#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#instance_id DbbrainTdsqlAuditLog#instance_id}
   */
   readonly instanceId: string;
   /**
   * Consistent with Product. For example: dcdb, mariadb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#node_request_type DbbrainTdsqlAuditLog#node_request_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#node_request_type DbbrainTdsqlAuditLog#node_request_type}
   */
   readonly nodeRequestType: string;
   /**
   * Service product type, supported values include: dcdb - cloud database Tdsql, mariadb - cloud database MariaDB for MariaDB..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#product DbbrainTdsqlAuditLog#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#product DbbrainTdsqlAuditLog#product}
   */
   readonly product: string;
   /**
   * Start time, such as `2019-09-10 12:13:14`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#start_time DbbrainTdsqlAuditLog#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#start_time DbbrainTdsqlAuditLog#start_time}
   */
   readonly startTime: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#filter DbbrainTdsqlAuditLog#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#filter DbbrainTdsqlAuditLog#filter}
   */
   readonly filter?: DbbrainTdsqlAuditLogFilter;
 }
@@ -55,37 +55,37 @@ export interface DbbrainTdsqlAuditLogFilter {
   /**
   * Number of affected rows. Indicates filtering audit logs whose affected rows are greater than this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#affect_rows DbbrainTdsqlAuditLog#affect_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#affect_rows DbbrainTdsqlAuditLog#affect_rows}
   */
   readonly affectRows?: number;
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#db_name DbbrainTdsqlAuditLog#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#db_name DbbrainTdsqlAuditLog#db_name}
   */
   readonly dbName?: string[];
   /**
   * Execution time. The unit is: us. It means to filter the audit logs whose execution time is greater than this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#exec_time DbbrainTdsqlAuditLog#exec_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#exec_time DbbrainTdsqlAuditLog#exec_time}
   */
   readonly execTime?: number;
   /**
   * Client Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#host DbbrainTdsqlAuditLog#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#host DbbrainTdsqlAuditLog#host}
   */
   readonly host?: string[];
   /**
   * Return the number of rows. It means to filter the audit log with the number of returned rows greater than this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#sent_rows DbbrainTdsqlAuditLog#sent_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#sent_rows DbbrainTdsqlAuditLog#sent_rows}
   */
   readonly sentRows?: number;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#user DbbrainTdsqlAuditLog#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#user DbbrainTdsqlAuditLog#user}
   */
   readonly user?: string[];
 }
@@ -314,7 +314,7 @@ export class DbbrainTdsqlAuditLogFilterOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log tencentcloud_dbbrain_tdsql_audit_log}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log tencentcloud_dbbrain_tdsql_audit_log}
 */
 export class DbbrainTdsqlAuditLog extends cdktf.TerraformResource {
 
@@ -330,7 +330,7 @@ export class DbbrainTdsqlAuditLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbbrainTdsqlAuditLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbbrainTdsqlAuditLog to import
-  * @param importFromId The id of the existing DbbrainTdsqlAuditLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbbrainTdsqlAuditLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbbrainTdsqlAuditLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +342,7 @@ export class DbbrainTdsqlAuditLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dbbrain_tdsql_audit_log tencentcloud_dbbrain_tdsql_audit_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/dbbrain_tdsql_audit_log tencentcloud_dbbrain_tdsql_audit_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,8 +353,8 @@ export class DbbrainTdsqlAuditLog extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dbbrain_tdsql_audit_log',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

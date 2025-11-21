@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/role_attachment
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/role_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RoleAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the API key (ULID format) to attach to the role. For example: `01F8Z5K4Y3D1G2H3J4K5L6M7N8`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/role_attachment#api_key_id RoleAttachment#api_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/role_attachment#api_key_id RoleAttachment#api_key_id}
   */
   readonly apiKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/role_attachment#id RoleAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/role_attachment#id RoleAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface RoleAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the IdP Group Mapping (ULID format) to attach to the role. For example: `01F8Z5K4Y3D1G2H3J4K5L6M7N8`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/role_attachment#idp_group_mapping_id RoleAttachment#idp_group_mapping_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/role_attachment#idp_group_mapping_id RoleAttachment#idp_group_mapping_id}
   */
   readonly idpGroupMappingId?: string;
   /**
   * ID of the role (ULID format) to attach to the API key, IdP Group, stack, or user. For example: `01F8Z5K4Y3D1G2H3J4K5L6M7N8`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/role_attachment#role_id RoleAttachment#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/role_attachment#role_id RoleAttachment#role_id}
   */
   readonly roleId: string;
   /**
   * ID of the space where the role attachment should be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/role_attachment#space_id RoleAttachment#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/role_attachment#space_id RoleAttachment#space_id}
   */
   readonly spaceId: string;
   /**
   * Slug of the Stack to attach to the role. For example: `my-stack`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/role_attachment#stack_id RoleAttachment#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/role_attachment#stack_id RoleAttachment#stack_id}
   */
   readonly stackId?: string;
   /**
   * ID of the user (ULID format) to attach to the role. For example: `01F8Z5K4Y3D1G2H3J4K5L6M7N8`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/role_attachment#user_id RoleAttachment#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/role_attachment#user_id RoleAttachment#user_id}
   */
   readonly userId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/role_attachment spacelift_role_attachment}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/role_attachment spacelift_role_attachment}
 */
 export class RoleAttachment extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class RoleAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoleAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoleAttachment to import
-  * @param importFromId The id of the existing RoleAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/role_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoleAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/role_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoleAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class RoleAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/role_attachment spacelift_role_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/role_attachment spacelift_role_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class RoleAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_role_attachment',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.38.0',
-        providerVersionConstraint: '1.38.0'
+        providerVersion: '1.39.0',
+        providerVersionConstraint: '1.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

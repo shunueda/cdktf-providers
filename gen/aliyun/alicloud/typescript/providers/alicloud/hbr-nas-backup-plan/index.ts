@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface HbrNasBackupPlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#backup_type HbrNasBackupPlan#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#backup_type HbrNasBackupPlan#backup_type}
   */
   readonly backupType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#create_time HbrNasBackupPlan#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#create_time HbrNasBackupPlan#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#cross_account_role_name HbrNasBackupPlan#cross_account_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#cross_account_role_name HbrNasBackupPlan#cross_account_role_name}
   */
   readonly crossAccountRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#cross_account_type HbrNasBackupPlan#cross_account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#cross_account_type HbrNasBackupPlan#cross_account_type}
   */
   readonly crossAccountType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#cross_account_user_id HbrNasBackupPlan#cross_account_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#cross_account_user_id HbrNasBackupPlan#cross_account_user_id}
   */
   readonly crossAccountUserId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#disabled HbrNasBackupPlan#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#disabled HbrNasBackupPlan#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#file_system_id HbrNasBackupPlan#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#file_system_id HbrNasBackupPlan#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#id HbrNasBackupPlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#id HbrNasBackupPlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#nas_backup_plan_name HbrNasBackupPlan#nas_backup_plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#nas_backup_plan_name HbrNasBackupPlan#nas_backup_plan_name}
   */
   readonly nasBackupPlanName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#options HbrNasBackupPlan#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#options HbrNasBackupPlan#options}
   */
   readonly options?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#path HbrNasBackupPlan#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#path HbrNasBackupPlan#path}
   */
   readonly path: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#retention HbrNasBackupPlan#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#retention HbrNasBackupPlan#retention}
   */
   readonly retention: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#schedule HbrNasBackupPlan#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#schedule HbrNasBackupPlan#schedule}
   */
   readonly schedule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#vault_id HbrNasBackupPlan#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#vault_id HbrNasBackupPlan#vault_id}
   */
   readonly vaultId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan alicloud_hbr_nas_backup_plan}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan alicloud_hbr_nas_backup_plan}
 */
 export class HbrNasBackupPlan extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class HbrNasBackupPlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HbrNasBackupPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HbrNasBackupPlan to import
-  * @param importFromId The id of the existing HbrNasBackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HbrNasBackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HbrNasBackupPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class HbrNasBackupPlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/hbr_nas_backup_plan alicloud_hbr_nas_backup_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_nas_backup_plan alicloud_hbr_nas_backup_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +108,8 @@ export class HbrNasBackupPlan extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_hbr_nas_backup_plan',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l7_rules
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_l7_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDayuL7RulesConfig extends cdktf.TerraformMetaAr
   /**
   * Domain of the layer 7 rule to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l7_rules#domain DataTencentcloudDayuL7Rules#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_l7_rules#domain DataTencentcloudDayuL7Rules#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l7_rules#id DataTencentcloudDayuL7Rules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_l7_rules#id DataTencentcloudDayuL7Rules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudDayuL7RulesConfig extends cdktf.TerraformMetaAr
   /**
   * Id of the resource that the layer 7 rule works for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l7_rules#resource_id DataTencentcloudDayuL7Rules#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_l7_rules#resource_id DataTencentcloudDayuL7Rules#resource_id}
   */
   readonly resourceId: string;
   /**
   * Type of the resource that the layer 7 rule works for, valid value is `bgpip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l7_rules#resource_type DataTencentcloudDayuL7Rules#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_l7_rules#resource_type DataTencentcloudDayuL7Rules#resource_type}
   */
   readonly resourceType: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l7_rules#result_output_file DataTencentcloudDayuL7Rules#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_l7_rules#result_output_file DataTencentcloudDayuL7Rules#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Id of the layer 7 rule to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l7_rules#rule_id DataTencentcloudDayuL7Rules#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_l7_rules#rule_id DataTencentcloudDayuL7Rules#rule_id}
   */
   readonly ruleId?: string;
 }
@@ -202,7 +202,7 @@ export class DataTencentcloudDayuL7RulesListStructList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l7_rules tencentcloud_dayu_l7_rules}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_l7_rules tencentcloud_dayu_l7_rules}
 */
 export class DataTencentcloudDayuL7Rules extends cdktf.TerraformDataSource {
 
@@ -218,7 +218,7 @@ export class DataTencentcloudDayuL7Rules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudDayuL7Rules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDayuL7Rules to import
-  * @param importFromId The id of the existing DataTencentcloudDayuL7Rules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l7_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDayuL7Rules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_l7_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDayuL7Rules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class DataTencentcloudDayuL7Rules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l7_rules tencentcloud_dayu_l7_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/data-sources/dayu_l7_rules tencentcloud_dayu_l7_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class DataTencentcloudDayuL7Rules extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dayu_l7_rules',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

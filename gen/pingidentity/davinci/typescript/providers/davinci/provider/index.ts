@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs
+// https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DavinciProviderConfig {
   /**
   * PingOne DaVinci specific access token. Must be authorized for environment_id.  Default value can be set with the `PINGONE_DAVINCI_ACCESS_TOKEN` environment variable. Must provide username and password, or access_token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs#access_token DavinciProvider#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs#access_token DavinciProvider#access_token}
   */
   readonly accessToken?: string;
   /**
   * Environment ID PingOne User Login. Default value can be set with the `PINGONE_ENVIRONMENT_ID` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs#environment_id DavinciProvider#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs#environment_id DavinciProvider#environment_id}
   */
   readonly environmentId?: string;
   /**
   * To override the default region-based url, provide a PingOne DaVinci API host url. Default value can be set with the `PINGONE_DAVINCI_HOST_URL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs#host_url DavinciProvider#host_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs#host_url DavinciProvider#host_url}
   */
   readonly hostUrl?: string;
   /**
   * The PingOne password used for SSO into a Davinci tenant.  Default value can be set with the `PINGONE_PASSWORD` environment variable. Must provide username and password, or access_token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs#password DavinciProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs#password DavinciProvider#password}
   */
   readonly password?: string;
   /**
   * The PingOne region to use.  Options are `Australia-AsiaPacific` (for `.com.au` tenants) `AsiaPacific` (for `.asia` tenants) `Canada` (for `.ca` tenants) `Europe` (for `.eu` tenants) and `NorthAmerica` (for `.com` tenants).  Default value can be set with the `PINGONE_REGION` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs#region DavinciProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs#region DavinciProvider#region}
   */
   readonly region?: string;
   /**
   * The PingOne username used for SSO into a Davinci tenant.  Default value can be set with the `PINGONE_USERNAME` environment variable. Must provide username and password, or access_token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs#username DavinciProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs#username DavinciProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs#alias DavinciProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs#alias DavinciProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs davinci}
+* Represents a {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs davinci}
 */
 export class DavinciProvider extends cdktf.TerraformProvider {
 
@@ -68,7 +68,7 @@ export class DavinciProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a DavinciProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DavinciProvider to import
-  * @param importFromId The id of the existing DavinciProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DavinciProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DavinciProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class DavinciProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs davinci} Resource
+  * Create a new {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs davinci} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class DavinciProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'davinci',
       terraformGeneratorMetadata: {
         providerName: 'davinci',
-        providerVersion: '0.5.2',
-        providerVersionConstraint: '0.5.2'
+        providerVersion: '0.5.3',
+        providerVersionConstraint: '0.5.3'
       },
       terraformProviderSource: 'pingidentity/davinci'
     });

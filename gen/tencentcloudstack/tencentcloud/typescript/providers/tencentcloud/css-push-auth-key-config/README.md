@@ -1,3 +1,3 @@
 # `tencentcloud_css_push_auth_key_config`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_css_push_auth_key_config`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_push_auth_key_config).
+Refer to the Terraform Registry for docs: [`tencentcloud_css_push_auth_key_config`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/css_push_auth_key_config).

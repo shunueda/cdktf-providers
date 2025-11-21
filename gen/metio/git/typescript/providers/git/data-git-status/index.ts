@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/status
+// https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataGitStatusConfig extends cdktf.TerraformMetaArguments {
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/status#directory DataGitStatus#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/status#directory DataGitStatus#directory}
   */
   readonly directory: string;
   /**
   * The file to get status information about.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/status#file DataGitStatus#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/status#file DataGitStatus#file}
   */
   readonly file: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/status git_status}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/status git_status}
 */
 export class DataGitStatus extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataGitStatus extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGitStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGitStatus to import
-  * @param importFromId The id of the existing DataGitStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGitStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGitStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataGitStatus extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/status git_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.21/docs/data-sources/status git_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataGitStatus extends cdktf.TerraformDataSource {
       terraformResourceType: 'git_status',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.11.14',
-        providerVersionConstraint: '2025.11.14'
+        providerVersion: '2025.11.21',
+        providerVersionConstraint: '2025.11.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

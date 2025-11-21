@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/aws_integration
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/aws_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AwsIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Duration in seconds for which the assumed role credentials should be valid. Defaults to `900`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/aws_integration#duration_seconds AwsIntegration#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/aws_integration#duration_seconds AwsIntegration#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
   * Custom external ID (works only for private workers).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/aws_integration#external_id AwsIntegration#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/aws_integration#external_id AwsIntegration#external_id}
   */
   readonly externalId?: string;
   /**
   * Generate AWS credentials in the private worker. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/aws_integration#generate_credentials_in_worker AwsIntegration#generate_credentials_in_worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/aws_integration#generate_credentials_in_worker AwsIntegration#generate_credentials_in_worker}
   */
   readonly generateCredentialsInWorker?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/aws_integration#id AwsIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/aws_integration#id AwsIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface AwsIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels to set on the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/aws_integration#labels AwsIntegration#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/aws_integration#labels AwsIntegration#labels}
   */
   readonly labels?: string[];
   /**
   * The friendly name of the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/aws_integration#name AwsIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/aws_integration#name AwsIntegration#name}
   */
   readonly name: string;
   /**
   * AWS region to select a regional AWS STS endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/aws_integration#region AwsIntegration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/aws_integration#region AwsIntegration#region}
   */
   readonly region?: string;
   /**
   * ARN of the AWS IAM role to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/aws_integration#role_arn AwsIntegration#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/aws_integration#role_arn AwsIntegration#role_arn}
   */
   readonly roleArn: string;
   /**
   * ID (slug) of the space the integration is in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/aws_integration#space_id AwsIntegration#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/aws_integration#space_id AwsIntegration#space_id}
   */
   readonly spaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/aws_integration spacelift_aws_integration}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/aws_integration spacelift_aws_integration}
 */
 export class AwsIntegration extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class AwsIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsIntegration to import
-  * @param importFromId The id of the existing AwsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/aws_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/aws_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class AwsIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/aws_integration spacelift_aws_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/resources/aws_integration spacelift_aws_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class AwsIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_aws_integration',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.38.0',
-        providerVersionConstraint: '1.38.0'
+        providerVersion: '1.39.0',
+        providerVersionConstraint: '1.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

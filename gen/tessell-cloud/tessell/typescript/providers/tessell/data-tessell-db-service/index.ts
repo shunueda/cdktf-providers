@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/db_service
+// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/db_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataTessellDbServiceConfig extends cdktf.TerraformMetaArguments
   /**
   * Tessell generated UUID for the DB Service. This is the unique identifier for the DB Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/db_service#id DataTessellDbService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/db_service#id DataTessellDbService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -588,6 +588,11 @@ export class DataTessellDbServiceDatabasesDatabaseConfigurationMysqlConfigOutput
     }
   }
 
+  // option_profile_id - computed: true, optional: false, required: false
+  public get optionProfileId() {
+    return this.getStringAttribute('option_profile_id');
+  }
+
   // parameter_profile_id - computed: true, optional: false, required: false
   public get parameterProfileId() {
     return this.getStringAttribute('parameter_profile_id');
@@ -661,6 +666,11 @@ export class DataTessellDbServiceDatabasesDatabaseConfigurationOracleConfigOutpu
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
     }
+  }
+
+  // option_profile_id - computed: true, optional: false, required: false
+  public get optionProfileId() {
+    return this.getStringAttribute('option_profile_id');
   }
 
   // options_profile - computed: true, optional: false, required: false
@@ -746,6 +756,11 @@ export class DataTessellDbServiceDatabasesDatabaseConfigurationPostgresqlConfigO
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
     }
+  }
+
+  // option_profile_id - computed: true, optional: false, required: false
+  public get optionProfileId() {
+    return this.getStringAttribute('option_profile_id');
   }
 
   // parameter_profile_id - computed: true, optional: false, required: false
@@ -1678,6 +1693,11 @@ export class DataTessellDbServiceEngineConfigurationMysqlConfigOutputReference e
     return this.getStringAttribute('ad_domain_id');
   }
 
+  // option_profile_id - computed: true, optional: false, required: false
+  public get optionProfileId() {
+    return this.getStringAttribute('option_profile_id');
+  }
+
   // parameter_profile_id - computed: true, optional: false, required: false
   public get parameterProfileId() {
     return this.getStringAttribute('parameter_profile_id');
@@ -1771,6 +1791,11 @@ export class DataTessellDbServiceEngineConfigurationOracleConfigOutputReference 
   // national_character_set - computed: true, optional: false, required: false
   public get nationalCharacterSet() {
     return this.getStringAttribute('national_character_set');
+  }
+
+  // option_profile_id - computed: true, optional: false, required: false
+  public get optionProfileId() {
+    return this.getStringAttribute('option_profile_id');
   }
 
   // options_profile - computed: true, optional: false, required: false
@@ -1941,6 +1966,11 @@ export class DataTessellDbServiceEngineConfigurationPostgresqlConfigOutputRefere
   // ad_domain_id - computed: true, optional: false, required: false
   public get adDomainId() {
     return this.getStringAttribute('ad_domain_id');
+  }
+
+  // option_profile_id - computed: true, optional: false, required: false
+  public get optionProfileId() {
+    return this.getStringAttribute('option_profile_id');
   }
 
   // options_profile - computed: true, optional: false, required: false
@@ -2202,6 +2232,11 @@ export class DataTessellDbServiceEngineConfigurationOutputReference extends cdkt
   private _apacheKafkaConfig = new DataTessellDbServiceEngineConfigurationApacheKafkaConfigList(this, "apache_kafka_config", false);
   public get apacheKafkaConfig() {
     return this._apacheKafkaConfig;
+  }
+
+  // backup_url - computed: true, optional: false, required: false
+  public get backupUrl() {
+    return this.getStringAttribute('backup_url');
   }
 
   // collation_config - computed: true, optional: false, required: false
@@ -3458,6 +3493,11 @@ export class DataTessellDbServiceInstancesArchiveStorageConfigOutputReference ex
   public get provider() {
     return this.getStringAttribute('provider');
   }
+
+  // volume_type - computed: true, optional: false, required: false
+  public get volumeType() {
+    return this.getStringAttribute('volume_type');
+  }
 }
 
 export class DataTessellDbServiceInstancesArchiveStorageConfigList extends cdktf.ComplexList {
@@ -4212,6 +4252,96 @@ export class DataTessellDbServiceInstancesMonitoringConfigList extends cdktf.Com
     return new DataTessellDbServiceInstancesMonitoringConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataTessellDbServiceInstancesOptionProfile {
+}
+
+export function dataTessellDbServiceInstancesOptionProfileToTerraform(struct?: DataTessellDbServiceInstancesOptionProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataTessellDbServiceInstancesOptionProfileToHclTerraform(struct?: DataTessellDbServiceInstancesOptionProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataTessellDbServiceInstancesOptionProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataTessellDbServiceInstancesOptionProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataTessellDbServiceInstancesOptionProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+
+  // version - computed: true, optional: false, required: false
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+}
+
+export class DataTessellDbServiceInstancesOptionProfileList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataTessellDbServiceInstancesOptionProfileOutputReference {
+    return new DataTessellDbServiceInstancesOptionProfileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataTessellDbServiceInstancesParameterProfile {
 }
 
@@ -4300,6 +4430,106 @@ export class DataTessellDbServiceInstancesParameterProfileList extends cdktf.Com
   */
   public get(index: number): DataTessellDbServiceInstancesParameterProfileOutputReference {
     return new DataTessellDbServiceInstancesParameterProfileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataTessellDbServiceInstancesPrivateLinkInfo {
+}
+
+export function dataTessellDbServiceInstancesPrivateLinkInfoToTerraform(struct?: DataTessellDbServiceInstancesPrivateLinkInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataTessellDbServiceInstancesPrivateLinkInfoToHclTerraform(struct?: DataTessellDbServiceInstancesPrivateLinkInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataTessellDbServiceInstancesPrivateLinkInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataTessellDbServiceInstancesPrivateLinkInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataTessellDbServiceInstancesPrivateLinkInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // client_azure_subscription_ids - computed: true, optional: false, required: false
+  public get clientAzureSubscriptionIds() {
+    return this.getListAttribute('client_azure_subscription_ids');
+  }
+
+  // endpoint_service_name - computed: true, optional: false, required: false
+  public get endpointServiceName() {
+    return this.getStringAttribute('endpoint_service_name');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // private_link_service_alias - computed: true, optional: false, required: false
+  public get privateLinkServiceAlias() {
+    return this.getStringAttribute('private_link_service_alias');
+  }
+
+  // service_principals - computed: true, optional: false, required: false
+  public get servicePrincipals() {
+    return this.getListAttribute('service_principals');
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+}
+
+export class DataTessellDbServiceInstancesPrivateLinkInfoList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataTessellDbServiceInstancesPrivateLinkInfoOutputReference {
+    return new DataTessellDbServiceInstancesPrivateLinkInfoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataTessellDbServiceInstancesStorageConfigAzureNetAppConfigEncryptionKeyInfo {
@@ -4675,6 +4905,11 @@ export class DataTessellDbServiceInstancesStorageConfigOutputReference extends c
   public get provider() {
     return this.getStringAttribute('provider');
   }
+
+  // volume_type - computed: true, optional: false, required: false
+  public get volumeType() {
+    return this.getStringAttribute('volume_type');
+  }
 }
 
 export class DataTessellDbServiceInstancesStorageConfigList extends cdktf.ComplexList {
@@ -4948,10 +5183,22 @@ export class DataTessellDbServiceInstancesOutputReference extends cdktf.ComplexO
     return this.getStringAttribute('name');
   }
 
+  // option_profile - computed: true, optional: false, required: false
+  private _optionProfile = new DataTessellDbServiceInstancesOptionProfileList(this, "option_profile", false);
+  public get optionProfile() {
+    return this._optionProfile;
+  }
+
   // parameter_profile - computed: true, optional: false, required: false
   private _parameterProfile = new DataTessellDbServiceInstancesParameterProfileList(this, "parameter_profile", false);
   public get parameterProfile() {
     return this._parameterProfile;
+  }
+
+  // private_link_info - computed: true, optional: false, required: false
+  private _privateLinkInfo = new DataTessellDbServiceInstancesPrivateLinkInfoList(this, "private_link_info", false);
+  public get privateLinkInfo() {
+    return this._privateLinkInfo;
   }
 
   // private_subnet - computed: true, optional: false, required: false
@@ -7038,7 +7285,7 @@ export class DataTessellDbServiceUpdatesInProgressList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/db_service tessell_db_service}
+* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/db_service tessell_db_service}
 */
 export class DataTessellDbService extends cdktf.TerraformDataSource {
 
@@ -7054,7 +7301,7 @@ export class DataTessellDbService extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTessellDbService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTessellDbService to import
-  * @param importFromId The id of the existing DataTessellDbService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/db_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTessellDbService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/db_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTessellDbService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7066,7 +7313,7 @@ export class DataTessellDbService extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.27/docs/data-sources/db_service tessell_db_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/db_service tessell_db_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7077,8 +7324,8 @@ export class DataTessellDbService extends cdktf.TerraformDataSource {
       terraformResourceType: 'tessell_db_service',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.27',
-        providerVersionConstraint: '0.0.27'
+        providerVersion: '0.0.28',
+        providerVersionConstraint: '0.0.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

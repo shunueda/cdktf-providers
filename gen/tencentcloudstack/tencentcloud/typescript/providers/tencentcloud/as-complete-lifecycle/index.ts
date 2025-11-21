@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/as_complete_lifecycle
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_complete_lifecycle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AsCompleteLifecycleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/as_complete_lifecycle#id AsCompleteLifecycle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_complete_lifecycle#id AsCompleteLifecycle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface AsCompleteLifecycleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Instance ID. Either InstanceId or LifecycleActionToken must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/as_complete_lifecycle#instance_id AsCompleteLifecycle#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_complete_lifecycle#instance_id AsCompleteLifecycle#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Result of the lifecycle action. Value range: `CONTINUE`, `ABANDON`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/as_complete_lifecycle#lifecycle_action_result AsCompleteLifecycle#lifecycle_action_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_complete_lifecycle#lifecycle_action_result AsCompleteLifecycle#lifecycle_action_result}
   */
   readonly lifecycleActionResult: string;
   /**
   * Either InstanceId or LifecycleActionToken must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/as_complete_lifecycle#lifecycle_action_token AsCompleteLifecycle#lifecycle_action_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_complete_lifecycle#lifecycle_action_token AsCompleteLifecycle#lifecycle_action_token}
   */
   readonly lifecycleActionToken?: string;
   /**
   * Lifecycle hook ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/as_complete_lifecycle#lifecycle_hook_id AsCompleteLifecycle#lifecycle_hook_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_complete_lifecycle#lifecycle_hook_id AsCompleteLifecycle#lifecycle_hook_id}
   */
   readonly lifecycleHookId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/as_complete_lifecycle tencentcloud_as_complete_lifecycle}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_complete_lifecycle tencentcloud_as_complete_lifecycle}
 */
 export class AsCompleteLifecycle extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class AsCompleteLifecycle extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsCompleteLifecycle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsCompleteLifecycle to import
-  * @param importFromId The id of the existing AsCompleteLifecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/as_complete_lifecycle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsCompleteLifecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_complete_lifecycle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsCompleteLifecycle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class AsCompleteLifecycle extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/as_complete_lifecycle tencentcloud_as_complete_lifecycle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/as_complete_lifecycle tencentcloud_as_complete_lifecycle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class AsCompleteLifecycle extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_as_complete_lifecycle',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

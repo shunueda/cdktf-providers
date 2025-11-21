@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/applications
+// https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/applications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataDavinciApplicationsConfig extends cdktf.TerraformMetaArgume
   /**
   * The ID of the PingOne environment to retrieve applications from. Must be a valid PingOne resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/applications#environment_id DataDavinciApplications#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/applications#environment_id DataDavinciApplications#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/applications#id DataDavinciApplications#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/applications#id DataDavinciApplications#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataDavinciApplicationsConfig extends cdktf.TerraformMetaArgume
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/applications#timeouts DataDavinciApplications#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/applications#timeouts DataDavinciApplications#timeouts}
   */
   readonly timeouts?: DataDavinciApplicationsTimeouts;
 }
@@ -884,7 +884,7 @@ export class DataDavinciApplicationsApplicationsList extends cdktf.ComplexList {
 }
 export interface DataDavinciApplicationsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/applications#read DataDavinciApplications#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/applications#read DataDavinciApplications#read}
   */
   readonly read?: string;
 }
@@ -978,7 +978,7 @@ export class DataDavinciApplicationsTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/applications davinci_applications}
+* Represents a {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/applications davinci_applications}
 */
 export class DataDavinciApplications extends cdktf.TerraformDataSource {
 
@@ -994,7 +994,7 @@ export class DataDavinciApplications extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDavinciApplications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDavinciApplications to import
-  * @param importFromId The id of the existing DataDavinciApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/applications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDavinciApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/applications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDavinciApplications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1006,7 +1006,7 @@ export class DataDavinciApplications extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.2/docs/data-sources/applications davinci_applications} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/pingidentity/davinci/0.5.3/docs/data-sources/applications davinci_applications} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1017,8 +1017,8 @@ export class DataDavinciApplications extends cdktf.TerraformDataSource {
       terraformResourceType: 'davinci_applications',
       terraformGeneratorMetadata: {
         providerName: 'davinci',
-        providerVersion: '0.5.2',
-        providerVersionConstraint: '0.5.2'
+        providerVersion: '0.5.3',
+        providerVersionConstraint: '0.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

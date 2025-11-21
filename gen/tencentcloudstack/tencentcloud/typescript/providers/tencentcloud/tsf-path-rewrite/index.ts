@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tsf_path_rewrite
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_path_rewrite
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TsfPathRewriteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to shield the mapped path, Y: Yes N: No.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tsf_path_rewrite#blocked TsfPathRewrite#blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_path_rewrite#blocked TsfPathRewrite#blocked}
   */
   readonly blocked: string;
   /**
   * gateway deployment group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tsf_path_rewrite#gateway_group_id TsfPathRewrite#gateway_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_path_rewrite#gateway_group_id TsfPathRewrite#gateway_group_id}
   */
   readonly gatewayGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tsf_path_rewrite#id TsfPathRewrite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_path_rewrite#id TsfPathRewrite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface TsfPathRewriteConfig extends cdktf.TerraformMetaArguments {
   /**
   * rule order, the smaller the higher the priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tsf_path_rewrite#order TsfPathRewrite#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_path_rewrite#order TsfPathRewrite#order}
   */
   readonly order: number;
   /**
   * regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tsf_path_rewrite#regex TsfPathRewrite#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_path_rewrite#regex TsfPathRewrite#regex}
   */
   readonly regex: string;
   /**
   * content to replace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tsf_path_rewrite#replacement TsfPathRewrite#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_path_rewrite#replacement TsfPathRewrite#replacement}
   */
   readonly replacement: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tsf_path_rewrite tencentcloud_tsf_path_rewrite}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_path_rewrite tencentcloud_tsf_path_rewrite}
 */
 export class TsfPathRewrite extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class TsfPathRewrite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfPathRewrite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfPathRewrite to import
-  * @param importFromId The id of the existing TsfPathRewrite that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tsf_path_rewrite#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfPathRewrite that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_path_rewrite#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfPathRewrite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class TsfPathRewrite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tsf_path_rewrite tencentcloud_tsf_path_rewrite} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/tsf_path_rewrite tencentcloud_tsf_path_rewrite} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class TsfPathRewrite extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_path_rewrite',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

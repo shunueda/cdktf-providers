@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface DrdsPolardbxInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#cn_class DrdsPolardbxInstance#cn_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#cn_class DrdsPolardbxInstance#cn_class}
   */
   readonly cnClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#cn_node_count DrdsPolardbxInstance#cn_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#cn_node_count DrdsPolardbxInstance#cn_node_count}
   */
   readonly cnNodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#dn_class DrdsPolardbxInstance#dn_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#dn_class DrdsPolardbxInstance#dn_class}
   */
   readonly dnClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#dn_node_count DrdsPolardbxInstance#dn_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#dn_node_count DrdsPolardbxInstance#dn_node_count}
   */
   readonly dnNodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#id DrdsPolardbxInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#id DrdsPolardbxInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#primary_zone DrdsPolardbxInstance#primary_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#primary_zone DrdsPolardbxInstance#primary_zone}
   */
   readonly primaryZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#resource_group_id DrdsPolardbxInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#resource_group_id DrdsPolardbxInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#secondary_zone DrdsPolardbxInstance#secondary_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#secondary_zone DrdsPolardbxInstance#secondary_zone}
   */
   readonly secondaryZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#tertiary_zone DrdsPolardbxInstance#tertiary_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#tertiary_zone DrdsPolardbxInstance#tertiary_zone}
   */
   readonly tertiaryZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#topology_type DrdsPolardbxInstance#topology_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#topology_type DrdsPolardbxInstance#topology_type}
   */
   readonly topologyType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#vpc_id DrdsPolardbxInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#vpc_id DrdsPolardbxInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#vswitch_id DrdsPolardbxInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#vswitch_id DrdsPolardbxInstance#vswitch_id}
   */
   readonly vswitchId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#timeouts DrdsPolardbxInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#timeouts DrdsPolardbxInstance#timeouts}
   */
   readonly timeouts?: DrdsPolardbxInstanceTimeouts;
 }
 export interface DrdsPolardbxInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#create DrdsPolardbxInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#create DrdsPolardbxInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#delete DrdsPolardbxInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#delete DrdsPolardbxInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#update DrdsPolardbxInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#update DrdsPolardbxInstance#update}
   */
   readonly update?: string;
 }
@@ -227,7 +227,7 @@ export class DrdsPolardbxInstanceTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance alicloud_drds_polardbx_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance alicloud_drds_polardbx_instance}
 */
 export class DrdsPolardbxInstance extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class DrdsPolardbxInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DrdsPolardbxInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DrdsPolardbxInstance to import
-  * @param importFromId The id of the existing DrdsPolardbxInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DrdsPolardbxInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DrdsPolardbxInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class DrdsPolardbxInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/drds_polardbx_instance alicloud_drds_polardbx_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/drds_polardbx_instance alicloud_drds_polardbx_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class DrdsPolardbxInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_drds_polardbx_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

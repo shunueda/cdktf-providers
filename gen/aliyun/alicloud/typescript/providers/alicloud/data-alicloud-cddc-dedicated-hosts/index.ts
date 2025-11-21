@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts
+// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCddcDedicatedHostsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts#allocation_status DataAlicloudCddcDedicatedHosts#allocation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts#allocation_status DataAlicloudCddcDedicatedHosts#allocation_status}
   */
   readonly allocationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts#dedicated_host_group_id DataAlicloudCddcDedicatedHosts#dedicated_host_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts#dedicated_host_group_id DataAlicloudCddcDedicatedHosts#dedicated_host_group_id}
   */
   readonly dedicatedHostGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts#enable_details DataAlicloudCddcDedicatedHosts#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts#enable_details DataAlicloudCddcDedicatedHosts#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts#host_type DataAlicloudCddcDedicatedHosts#host_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts#host_type DataAlicloudCddcDedicatedHosts#host_type}
   */
   readonly hostType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts#id DataAlicloudCddcDedicatedHosts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts#id DataAlicloudCddcDedicatedHosts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts#ids DataAlicloudCddcDedicatedHosts#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts#ids DataAlicloudCddcDedicatedHosts#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts#order_id DataAlicloudCddcDedicatedHosts#order_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts#order_id DataAlicloudCddcDedicatedHosts#order_id}
   */
   readonly orderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts#output_file DataAlicloudCddcDedicatedHosts#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts#output_file DataAlicloudCddcDedicatedHosts#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts#status DataAlicloudCddcDedicatedHosts#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts#status DataAlicloudCddcDedicatedHosts#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts#tags DataAlicloudCddcDedicatedHosts#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts#tags DataAlicloudCddcDedicatedHosts#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts#zone_id DataAlicloudCddcDedicatedHosts#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts#zone_id DataAlicloudCddcDedicatedHosts#zone_id}
   */
   readonly zoneId?: string;
 }
@@ -278,7 +278,7 @@ export class DataAlicloudCddcDedicatedHostsHostsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts alicloud_cddc_dedicated_hosts}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts alicloud_cddc_dedicated_hosts}
 */
 export class DataAlicloudCddcDedicatedHosts extends cdktf.TerraformDataSource {
 
@@ -294,7 +294,7 @@ export class DataAlicloudCddcDedicatedHosts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudCddcDedicatedHosts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCddcDedicatedHosts to import
-  * @param importFromId The id of the existing DataAlicloudCddcDedicatedHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCddcDedicatedHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCddcDedicatedHosts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -306,7 +306,7 @@ export class DataAlicloudCddcDedicatedHosts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/cddc_dedicated_hosts alicloud_cddc_dedicated_hosts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cddc_dedicated_hosts alicloud_cddc_dedicated_hosts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -317,8 +317,8 @@ export class DataAlicloudCddcDedicatedHosts extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_cddc_dedicated_hosts',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1',
-        providerVersionConstraint: '1.262.1'
+        providerVersion: '1.263.0',
+        providerVersionConstraint: '1.263.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

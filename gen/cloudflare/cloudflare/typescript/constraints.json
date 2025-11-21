@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "cloudflare": "5.12.0"
+    "cloudflare": "5.13.0"
   }
 }

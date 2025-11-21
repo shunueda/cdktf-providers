@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/role
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSpaceliftRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/role#id DataSpaceliftRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/role#id DataSpaceliftRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataSpaceliftRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier (ULID) of the role. Can be used to filter roles. Example: `01K07523Q8B4TBF0YHQRF6J5MW`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/role#role_id DataSpaceliftRole#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/role#role_id DataSpaceliftRole#role_id}
   */
   readonly roleId?: string;
   /**
   * URL-friendly unique identifier of the role, generated from the name. Example: `space-admin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/role#slug DataSpaceliftRole#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/role#slug DataSpaceliftRole#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/role spacelift_role}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/role spacelift_role}
 */
 export class DataSpaceliftRole extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataSpaceliftRole extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpaceliftRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpaceliftRole to import
-  * @param importFromId The id of the existing DataSpaceliftRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpaceliftRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpaceliftRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataSpaceliftRole extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/role spacelift_role} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.39.0/docs/data-sources/role spacelift_role} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataSpaceliftRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'spacelift_role',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.38.0',
-        providerVersionConstraint: '1.38.0'
+        providerVersion: '1.39.0',
+        providerVersionConstraint: '1.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_start_backup_incremental_migration
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_start_backup_incremental_migration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SqlserverStartBackupIncrementalMigrationConfig extends cdktf.Te
   /**
   * Backup import task ID, returned by the CreateBackupMigration interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_start_backup_incremental_migration#backup_migration_id SqlserverStartBackupIncrementalMigration#backup_migration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_start_backup_incremental_migration#backup_migration_id SqlserverStartBackupIncrementalMigration#backup_migration_id}
   */
   readonly backupMigrationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_start_backup_incremental_migration#id SqlserverStartBackupIncrementalMigration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_start_backup_incremental_migration#id SqlserverStartBackupIncrementalMigration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface SqlserverStartBackupIncrementalMigrationConfig extends cdktf.Te
   /**
   * Incremental backup import task ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_start_backup_incremental_migration#incremental_migration_id SqlserverStartBackupIncrementalMigration#incremental_migration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_start_backup_incremental_migration#incremental_migration_id SqlserverStartBackupIncrementalMigration#incremental_migration_id}
   */
   readonly incrementalMigrationId: string;
   /**
   * ID of imported target instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_start_backup_incremental_migration#instance_id SqlserverStartBackupIncrementalMigration#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_start_backup_incremental_migration#instance_id SqlserverStartBackupIncrementalMigration#instance_id}
   */
   readonly instanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_start_backup_incremental_migration tencentcloud_sqlserver_start_backup_incremental_migration}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_start_backup_incremental_migration tencentcloud_sqlserver_start_backup_incremental_migration}
 */
 export class SqlserverStartBackupIncrementalMigration extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class SqlserverStartBackupIncrementalMigration extends cdktf.TerraformRes
   * Generates CDKTF code for importing a SqlserverStartBackupIncrementalMigration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverStartBackupIncrementalMigration to import
-  * @param importFromId The id of the existing SqlserverStartBackupIncrementalMigration that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_start_backup_incremental_migration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverStartBackupIncrementalMigration that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_start_backup_incremental_migration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverStartBackupIncrementalMigration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class SqlserverStartBackupIncrementalMigration extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/sqlserver_start_backup_incremental_migration tencentcloud_sqlserver_start_backup_incremental_migration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.37/docs/resources/sqlserver_start_backup_incremental_migration tencentcloud_sqlserver_start_backup_incremental_migration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class SqlserverStartBackupIncrementalMigration extends cdktf.TerraformRes
       terraformResourceType: 'tencentcloud_sqlserver_start_backup_incremental_migration',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.36',
-        providerVersionConstraint: '1.82.36'
+        providerVersion: '1.82.37',
+        providerVersionConstraint: '1.82.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_forward_zone
+// https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_forward_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DnsForwardZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The class associated to the forward zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_forward_zone#class DnsForwardZone#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_forward_zone#class DnsForwardZone#class}
   */
   readonly class?: string;
   /**
   * The class parameters associated to the forward zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_forward_zone#class_parameters DnsForwardZone#class_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_forward_zone#class_parameters DnsForwardZone#class_parameters}
   */
   readonly classParameters?: { [key: string]: string };
   /**
   * The managed SMART DNS server name, or DNS server name hosting the forward zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_forward_zone#dnsserver DnsForwardZone#dnsserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_forward_zone#dnsserver DnsForwardZone#dnsserver}
   */
   readonly dnsserver: string;
   /**
   * The DNS view name hosting the forward zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_forward_zone#dnsview DnsForwardZone#dnsview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_forward_zone#dnsview DnsForwardZone#dnsview}
   */
   readonly dnsview?: string;
   /**
   * The forwarding mode of the forward zone (Supported: only, first; Default: only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_forward_zone#forward DnsForwardZone#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_forward_zone#forward DnsForwardZone#forward}
   */
   readonly forward?: string;
   /**
   * The IP address list of the forwarder(s) to use for the forward zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_forward_zone#forwarders DnsForwardZone#forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_forward_zone#forwarders DnsForwardZone#forwarders}
   */
   readonly forwarders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_forward_zone#id DnsForwardZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_forward_zone#id DnsForwardZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,13 +53,13 @@ export interface DnsForwardZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Domain Name served by the forward zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_forward_zone#name DnsForwardZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_forward_zone#name DnsForwardZone#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_forward_zone solidserver_dns_forward_zone}
+* Represents a {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_forward_zone solidserver_dns_forward_zone}
 */
 export class DnsForwardZone extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class DnsForwardZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsForwardZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsForwardZone to import
-  * @param importFromId The id of the existing DnsForwardZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_forward_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsForwardZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_forward_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsForwardZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DnsForwardZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.25/docs/resources/dns_forward_zone solidserver_dns_forward_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/efficientip-labs/solidserver/1.1.26/docs/resources/dns_forward_zone solidserver_dns_forward_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DnsForwardZone extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_dns_forward_zone',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25',
-        providerVersionConstraint: '1.1.25'
+        providerVersion: '1.1.26',
+        providerVersionConstraint: '1.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
