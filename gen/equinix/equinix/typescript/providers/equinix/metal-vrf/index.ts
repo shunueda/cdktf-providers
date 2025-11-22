@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_vrf
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_vrf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MetalVrfConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_vrf#description MetalVrf#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_vrf#description MetalVrf#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_vrf#id MetalVrf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_vrf#id MetalVrf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface MetalVrfConfig extends cdktf.TerraformMetaArguments {
   /**
   * All IPv4 and IPv6 Ranges that will be available to BGP Peers. IPv4 addresses must be /8 or smaller with a minimum size of /29. IPv6 must be /56 or smaller with a minimum size of /64. Ranges must not overlap other ranges within the VRF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_vrf#ip_ranges MetalVrf#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_vrf#ip_ranges MetalVrf#ip_ranges}
   */
   readonly ipRanges?: string[];
   /**
   * The 4-byte ASN set on the VRF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_vrf#local_asn MetalVrf#local_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_vrf#local_asn MetalVrf#local_asn}
   */
   readonly localAsn?: number;
   /**
   * Metro ID or Code where the VRF will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_vrf#metro MetalVrf#metro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_vrf#metro MetalVrf#metro}
   */
   readonly metro: string;
   /**
   * User-supplied name of the VRF, unique to the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_vrf#name MetalVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_vrf#name MetalVrf#name}
   */
   readonly name: string;
   /**
   * Project ID where the VRF will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_vrf#project_id MetalVrf#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_vrf#project_id MetalVrf#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_vrf equinix_metal_vrf}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_vrf equinix_metal_vrf}
 */
 export class MetalVrf extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class MetalVrf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalVrf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalVrf to import
-  * @param importFromId The id of the existing MetalVrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_vrf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalVrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_vrf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalVrf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class MetalVrf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_vrf equinix_metal_vrf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_vrf equinix_metal_vrf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class MetalVrf extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_vrf',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

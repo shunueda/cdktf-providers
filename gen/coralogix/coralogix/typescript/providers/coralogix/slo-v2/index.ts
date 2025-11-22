@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SloV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Optional SLO description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#description SloV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#description SloV2#description}
   */
   readonly description?: string;
   /**
   * Optional map of labels to attach to the SLO. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#labels SloV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#labels SloV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * SLO name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#name SloV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#name SloV2#name}
   */
   readonly name: string;
   /**
   * SLI definition: exactly one of request_based_metric_sli or window_based_metric_sli must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#sli SloV2#sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#sli SloV2#sli}
   */
   readonly sli: SloV2Sli;
   /**
   * The target threshold percentage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#target_threshold_percentage SloV2#target_threshold_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#target_threshold_percentage SloV2#target_threshold_percentage}
   */
   readonly targetThresholdPercentage: number;
   /**
   * SLO time window. One of: 14_days, 21_days, 28_days, 7_days, unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#window SloV2#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#window SloV2#window}
   */
   readonly window: SloV2Window;
 }
@@ -102,7 +102,7 @@ export interface SloV2SliRequestBasedMetricSliGoodEvents {
   /**
   * Query string for good events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#query SloV2#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#query SloV2#query}
   */
   readonly query: string;
 }
@@ -195,7 +195,7 @@ export interface SloV2SliRequestBasedMetricSliTotalEvents {
   /**
   * Query string for total events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#query SloV2#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#query SloV2#query}
   */
   readonly query: string;
 }
@@ -288,13 +288,13 @@ export interface SloV2SliRequestBasedMetricSli {
   /**
   * Query defining good events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#good_events SloV2#good_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#good_events SloV2#good_events}
   */
   readonly goodEvents: SloV2SliRequestBasedMetricSliGoodEvents;
   /**
   * Query defining total events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#total_events SloV2#total_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#total_events SloV2#total_events}
   */
   readonly totalEvents: SloV2SliRequestBasedMetricSliTotalEvents;
 }
@@ -413,7 +413,7 @@ export interface SloV2SliWindowBasedMetricSliQuery {
   /**
   * Query string for the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#query SloV2#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#query SloV2#query}
   */
   readonly query: string;
 }
@@ -506,25 +506,25 @@ export interface SloV2SliWindowBasedMetricSli {
   /**
   * Comparison operator used to evaluate the threshold. One of: greater_than,greater_than_or_equals,less_than,less_than_or_equals,unspecified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#comparison_operator SloV2#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#comparison_operator SloV2#comparison_operator}
   */
   readonly comparisonOperator: string;
   /**
   * Query used for evaluating the time-window SLI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#query SloV2#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#query SloV2#query}
   */
   readonly query: SloV2SliWindowBasedMetricSliQuery;
   /**
   * Threshold value for the comparison.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#threshold SloV2#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#threshold SloV2#threshold}
   */
   readonly threshold: number;
   /**
   * Time window type for evaluation. One of: 1_minute, 5_minutes, unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#window SloV2#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#window SloV2#window}
   */
   readonly window: string;
 }
@@ -695,13 +695,13 @@ export interface SloV2Sli {
   /**
   * SLI based on request metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#request_based_metric_sli SloV2#request_based_metric_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#request_based_metric_sli SloV2#request_based_metric_sli}
   */
   readonly requestBasedMetricSli?: SloV2SliRequestBasedMetricSli;
   /**
   * SLI based on time-window metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#window_based_metric_sli SloV2#window_based_metric_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#window_based_metric_sli SloV2#window_based_metric_sli}
   */
   readonly windowBasedMetricSli?: SloV2SliWindowBasedMetricSli;
 }
@@ -826,7 +826,7 @@ export interface SloV2Window {
   /**
   * SLO time window. One of: 14_days, 21_days, 28_days, 7_days, unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#slo_time_frame SloV2#slo_time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#slo_time_frame SloV2#slo_time_frame}
   */
   readonly sloTimeFrame: string;
 }
@@ -917,7 +917,7 @@ export class SloV2WindowOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2 coralogix_slo_v2}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2 coralogix_slo_v2}
 */
 export class SloV2 extends cdktf.TerraformResource {
 
@@ -933,7 +933,7 @@ export class SloV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SloV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SloV2 to import
-  * @param importFromId The id of the existing SloV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SloV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SloV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -945,7 +945,7 @@ export class SloV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/slo_v2 coralogix_slo_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/slo_v2 coralogix_slo_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -956,8 +956,8 @@ export class SloV2 extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_slo_v2',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

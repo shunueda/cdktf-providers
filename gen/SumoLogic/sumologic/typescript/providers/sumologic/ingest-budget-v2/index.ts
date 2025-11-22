@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface IngestBudgetV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2#action IngestBudgetV2#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2#action IngestBudgetV2#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2#audit_threshold IngestBudgetV2#audit_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2#audit_threshold IngestBudgetV2#audit_threshold}
   */
   readonly auditThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2#budget_type IngestBudgetV2#budget_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2#budget_type IngestBudgetV2#budget_type}
   */
   readonly budgetType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2#capacity_bytes IngestBudgetV2#capacity_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2#capacity_bytes IngestBudgetV2#capacity_bytes}
   */
   readonly capacityBytes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2#description IngestBudgetV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2#description IngestBudgetV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2#id IngestBudgetV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2#id IngestBudgetV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2#name IngestBudgetV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2#name IngestBudgetV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2#reset_time IngestBudgetV2#reset_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2#reset_time IngestBudgetV2#reset_time}
   */
   readonly resetTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2#scope IngestBudgetV2#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2#scope IngestBudgetV2#scope}
   */
   readonly scope: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2#timezone IngestBudgetV2#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2#timezone IngestBudgetV2#timezone}
   */
   readonly timezone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2 sumologic_ingest_budget_v2}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2 sumologic_ingest_budget_v2}
 */
 export class IngestBudgetV2 extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class IngestBudgetV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IngestBudgetV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IngestBudgetV2 to import
-  * @param importFromId The id of the existing IngestBudgetV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IngestBudgetV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IngestBudgetV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class IngestBudgetV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/ingest_budget_v2 sumologic_ingest_budget_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/ingest_budget_v2 sumologic_ingest_budget_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class IngestBudgetV2 extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_ingest_budget_v2',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.8',
-        providerVersionConstraint: '3.1.8'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

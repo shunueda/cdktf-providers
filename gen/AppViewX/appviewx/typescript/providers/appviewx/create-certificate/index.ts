@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate
+// https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface CreateCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#bit_length CreateCertificate#bit_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#bit_length CreateCertificate#bit_length}
   */
   readonly bitLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#ca_setting_name CreateCertificate#ca_setting_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#ca_setting_name CreateCertificate#ca_setting_name}
   */
   readonly caSettingName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#certificate_authority CreateCertificate#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#certificate_authority CreateCertificate#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#certificate_chain_required CreateCertificate#certificate_chain_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#certificate_chain_required CreateCertificate#certificate_chain_required}
   */
   readonly certificateChainRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#certificate_download_format CreateCertificate#certificate_download_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#certificate_download_format CreateCertificate#certificate_download_format}
   */
   readonly certificateDownloadFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#certificate_download_password CreateCertificate#certificate_download_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#certificate_download_password CreateCertificate#certificate_download_password}
   */
   readonly certificateDownloadPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#certificate_download_path CreateCertificate#certificate_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#certificate_download_path CreateCertificate#certificate_download_path}
   */
   readonly certificateDownloadPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#certificate_group_name CreateCertificate#certificate_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#certificate_group_name CreateCertificate#certificate_group_name}
   */
   readonly certificateGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#certificate_type CreateCertificate#certificate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#certificate_type CreateCertificate#certificate_type}
   */
   readonly certificateType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#common_name CreateCertificate#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#common_name CreateCertificate#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#custom_fields CreateCertificate#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#custom_fields CreateCertificate#custom_fields}
   */
   readonly customFields?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#dns_names CreateCertificate#dns_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#dns_names CreateCertificate#dns_names}
   */
   readonly dnsNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#download_password_protected_key CreateCertificate#download_password_protected_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#download_password_protected_key CreateCertificate#download_password_protected_key}
   */
   readonly downloadPasswordProtectedKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#hash_function CreateCertificate#hash_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#hash_function CreateCertificate#hash_function}
   */
   readonly hashFunction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#id CreateCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#id CreateCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#is_sync CreateCertificate#is_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#is_sync CreateCertificate#is_sync}
   */
   readonly isSync?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#key_download_password CreateCertificate#key_download_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#key_download_password CreateCertificate#key_download_password}
   */
   readonly keyDownloadPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#key_download_path CreateCertificate#key_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#key_download_path CreateCertificate#key_download_path}
   */
   readonly keyDownloadPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#key_type CreateCertificate#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#key_type CreateCertificate#key_type}
   */
   readonly keyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#validity_days CreateCertificate#validity_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#validity_days CreateCertificate#validity_days}
   */
   readonly validityDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#validity_unit CreateCertificate#validity_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#validity_unit CreateCertificate#validity_unit}
   */
   readonly validityUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#validity_unit_value CreateCertificate#validity_unit_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#validity_unit_value CreateCertificate#validity_unit_value}
   */
   readonly validityUnitValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#vendor_specific_fields CreateCertificate#vendor_specific_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#vendor_specific_fields CreateCertificate#vendor_specific_fields}
   */
   readonly vendorSpecificFields?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate appviewx_create_certificate}
+* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate appviewx_create_certificate}
 */
 export class CreateCertificate extends cdktf.TerraformResource {
 
@@ -121,7 +121,7 @@ export class CreateCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CreateCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CreateCertificate to import
-  * @param importFromId The id of the existing CreateCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CreateCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CreateCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class CreateCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_certificate appviewx_create_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_certificate appviewx_create_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,8 +144,8 @@ export class CreateCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'appviewx_create_certificate',
       terraformGeneratorMetadata: {
         providerName: 'appviewx',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

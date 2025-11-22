@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace
+// https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktf from 'cdktf';
 
 export interface StreamingNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Cluster where the tenant is located.
+  * Name of the Pulsar cluster where the tenant is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#cluster StreamingNamespace#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#cluster StreamingNamespace#cluster}
   */
   readonly cluster: string;
   /**
   * Name of the Pulsar namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#namespace StreamingNamespace#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#namespace StreamingNamespace#namespace}
   */
   readonly namespace: string;
   /**
   * Policies to be applied to the Pulsar namespace. For more details related to valid policy configuration, refer to the Pulsar namespace policies documentation (https://pulsar.apache.org/docs/3.0.x/admin-api-namespaces/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#policies StreamingNamespace#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#policies StreamingNamespace#policies}
   */
   readonly policies?: StreamingNamespacePolicies;
   /**
   * Name of the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#tenant StreamingNamespace#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#tenant StreamingNamespace#tenant}
   */
   readonly tenant: string;
 }
 export interface StreamingNamespacePoliciesAutoTopicCreationOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#allow_auto_topic_creation StreamingNamespace#allow_auto_topic_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#allow_auto_topic_creation StreamingNamespace#allow_auto_topic_creation}
   */
   readonly allowAutoTopicCreation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#default_num_partitions StreamingNamespace#default_num_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#default_num_partitions StreamingNamespace#default_num_partitions}
   */
   readonly defaultNumPartitions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#topic_type StreamingNamespace#topic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#topic_type StreamingNamespace#topic_type}
   */
   readonly topicType?: string;
 }
@@ -194,19 +194,19 @@ export class StreamingNamespacePoliciesAutoTopicCreationOverrideOutputReference 
 }
 export interface StreamingNamespacePoliciesBacklogQuotaMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#limit StreamingNamespace#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#limit StreamingNamespace#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#limit_size StreamingNamespace#limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#limit_size StreamingNamespace#limit_size}
   */
   readonly limitSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#limit_time StreamingNamespace#limit_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#limit_time StreamingNamespace#limit_time}
   */
   readonly limitTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#policy StreamingNamespace#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#policy StreamingNamespace#policy}
   */
   readonly policy?: string;
 }
@@ -407,15 +407,15 @@ export class StreamingNamespacePoliciesBacklogQuotaMapMap extends cdktf.ComplexM
 }
 export interface StreamingNamespacePoliciesInactiveTopicPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#delete_mode StreamingNamespace#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#delete_mode StreamingNamespace#delete_mode}
   */
   readonly deleteMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#delete_while_inactive StreamingNamespace#delete_while_inactive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#delete_while_inactive StreamingNamespace#delete_while_inactive}
   */
   readonly deleteWhileInactive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#max_inactive_duration_seconds StreamingNamespace#max_inactive_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#max_inactive_duration_seconds StreamingNamespace#max_inactive_duration_seconds}
   */
   readonly maxInactiveDurationSeconds?: number;
 }
@@ -567,11 +567,11 @@ export class StreamingNamespacePoliciesInactiveTopicPoliciesOutputReference exte
 }
 export interface StreamingNamespacePoliciesRetentionPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#retention_size_in_mb StreamingNamespace#retention_size_in_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#retention_size_in_mb StreamingNamespace#retention_size_in_mb}
   */
   readonly retentionSizeInMb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#retention_time_in_minutes StreamingNamespace#retention_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#retention_time_in_minutes StreamingNamespace#retention_time_in_minutes}
   */
   readonly retentionTimeInMinutes?: number;
 }
@@ -694,47 +694,47 @@ export class StreamingNamespacePoliciesRetentionPoliciesOutputReference extends 
 }
 export interface StreamingNamespacePolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#auto_topic_creation_override StreamingNamespace#auto_topic_creation_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#auto_topic_creation_override StreamingNamespace#auto_topic_creation_override}
   */
   readonly autoTopicCreationOverride?: StreamingNamespacePoliciesAutoTopicCreationOverride;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#backlog_quota_map StreamingNamespace#backlog_quota_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#backlog_quota_map StreamingNamespace#backlog_quota_map}
   */
   readonly backlogQuotaMap?: { [key: string]: StreamingNamespacePoliciesBacklogQuotaMap } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#inactive_topic_policies StreamingNamespace#inactive_topic_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#inactive_topic_policies StreamingNamespace#inactive_topic_policies}
   */
   readonly inactiveTopicPolicies?: StreamingNamespacePoliciesInactiveTopicPolicies;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#is_allow_auto_update_schema StreamingNamespace#is_allow_auto_update_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#is_allow_auto_update_schema StreamingNamespace#is_allow_auto_update_schema}
   */
   readonly isAllowAutoUpdateSchema?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#message_ttl_in_seconds StreamingNamespace#message_ttl_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#message_ttl_in_seconds StreamingNamespace#message_ttl_in_seconds}
   */
   readonly messageTtlInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#offload_threshold StreamingNamespace#offload_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#offload_threshold StreamingNamespace#offload_threshold}
   */
   readonly offloadThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#retention_policies StreamingNamespace#retention_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#retention_policies StreamingNamespace#retention_policies}
   */
   readonly retentionPolicies?: StreamingNamespacePoliciesRetentionPolicies;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#schema_auto_update_compatibility_strategy StreamingNamespace#schema_auto_update_compatibility_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#schema_auto_update_compatibility_strategy StreamingNamespace#schema_auto_update_compatibility_strategy}
   */
   readonly schemaAutoUpdateCompatibilityStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#schema_compatibility_strategy StreamingNamespace#schema_compatibility_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#schema_compatibility_strategy StreamingNamespace#schema_compatibility_strategy}
   */
   readonly schemaCompatibilityStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#schema_validation_enforced StreamingNamespace#schema_validation_enforced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#schema_validation_enforced StreamingNamespace#schema_validation_enforced}
   */
   readonly schemaValidationEnforced?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#subscription_expiration_time_minutes StreamingNamespace#subscription_expiration_time_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#subscription_expiration_time_minutes StreamingNamespace#subscription_expiration_time_minutes}
   */
   readonly subscriptionExpirationTimeMinutes?: number;
 }
@@ -1118,7 +1118,7 @@ export class StreamingNamespacePoliciesOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace astra_streaming_namespace}
+* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace astra_streaming_namespace}
 */
 export class StreamingNamespace extends cdktf.TerraformResource {
 
@@ -1134,7 +1134,7 @@ export class StreamingNamespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StreamingNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StreamingNamespace to import
-  * @param importFromId The id of the existing StreamingNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StreamingNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StreamingNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1146,7 +1146,7 @@ export class StreamingNamespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_namespace astra_streaming_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_namespace astra_streaming_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1157,8 +1157,8 @@ export class StreamingNamespace extends cdktf.TerraformResource {
       terraformResourceType: 'astra_streaming_namespace',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18',
-        providerVersionConstraint: '2.3.18'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

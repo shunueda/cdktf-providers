@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorInhibitionRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#description MonitorInhibitionRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#description MonitorInhibitionRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#enabled MonitorInhibitionRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#enabled MonitorInhibitionRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#equal MonitorInhibitionRule#equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#equal MonitorInhibitionRule#equal}
   */
   readonly equal?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#id MonitorInhibitionRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#id MonitorInhibitionRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#name MonitorInhibitionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#name MonitorInhibitionRule#name}
   */
   readonly name?: string;
   /**
   * source_matchers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#source_matchers MonitorInhibitionRule#source_matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#source_matchers MonitorInhibitionRule#source_matchers}
   */
   readonly sourceMatchers: MonitorInhibitionRuleSourceMatchers[] | cdktf.IResolvable;
   /**
   * target_matchers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#target_matchers MonitorInhibitionRule#target_matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#target_matchers MonitorInhibitionRule#target_matchers}
   */
   readonly targetMatchers: MonitorInhibitionRuleTargetMatchers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#timeouts MonitorInhibitionRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#timeouts MonitorInhibitionRule#timeouts}
   */
   readonly timeouts?: MonitorInhibitionRuleTimeouts;
 }
 export interface MonitorInhibitionRuleSourceMatchers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#label_name MonitorInhibitionRule#label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#label_name MonitorInhibitionRule#label_name}
   */
   readonly labelName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#operator MonitorInhibitionRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#operator MonitorInhibitionRule#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#value MonitorInhibitionRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#value MonitorInhibitionRule#value}
   */
   readonly value: string;
 }
@@ -224,15 +224,15 @@ export class MonitorInhibitionRuleSourceMatchersList extends cdktf.ComplexList {
 }
 export interface MonitorInhibitionRuleTargetMatchers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#label_name MonitorInhibitionRule#label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#label_name MonitorInhibitionRule#label_name}
   */
   readonly labelName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#operator MonitorInhibitionRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#operator MonitorInhibitionRule#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#value MonitorInhibitionRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#value MonitorInhibitionRule#value}
   */
   readonly value: string;
 }
@@ -397,19 +397,19 @@ export class MonitorInhibitionRuleTargetMatchersList extends cdktf.ComplexList {
 }
 export interface MonitorInhibitionRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#create MonitorInhibitionRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#create MonitorInhibitionRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#delete MonitorInhibitionRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#delete MonitorInhibitionRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#read MonitorInhibitionRule#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#read MonitorInhibitionRule#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#update MonitorInhibitionRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#update MonitorInhibitionRule#update}
   */
   readonly update?: string;
 }
@@ -590,7 +590,7 @@ export class MonitorInhibitionRuleTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule sysdig_monitor_inhibition_rule}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule sysdig_monitor_inhibition_rule}
 */
 export class MonitorInhibitionRule extends cdktf.TerraformResource {
 
@@ -606,7 +606,7 @@ export class MonitorInhibitionRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorInhibitionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorInhibitionRule to import
-  * @param importFromId The id of the existing MonitorInhibitionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorInhibitionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorInhibitionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -618,7 +618,7 @@ export class MonitorInhibitionRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_inhibition_rule sysdig_monitor_inhibition_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_inhibition_rule sysdig_monitor_inhibition_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -629,8 +629,8 @@ export class MonitorInhibitionRule extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_monitor_inhibition_rule',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0',
-        providerVersionConstraint: '3.1.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

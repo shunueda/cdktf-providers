@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/automation
+// https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/automation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface AutomationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/automation#action_id Automation#action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/automation#action_id Automation#action_id}
   */
   readonly actionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/automation#certificate_download_path Automation#certificate_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/automation#certificate_download_path Automation#certificate_download_path}
   */
   readonly certificateDownloadPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/automation#headers Automation#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/automation#headers Automation#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/automation#id Automation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/automation#id Automation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/automation#master_payload Automation#master_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/automation#master_payload Automation#master_payload}
   */
   readonly masterPayload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/automation#payload Automation#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/automation#payload Automation#payload}
   */
   readonly payload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/automation#query_params Automation#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/automation#query_params Automation#query_params}
   */
   readonly queryParams?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/automation appviewx_automation}
+* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/automation appviewx_automation}
 */
 export class Automation extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Automation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Automation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Automation to import
-  * @param importFromId The id of the existing Automation that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/automation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Automation that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/automation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Automation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Automation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/automation appviewx_automation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/automation appviewx_automation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class Automation extends cdktf.TerraformResource {
       terraformResourceType: 'appviewx_automation',
       terraformGeneratorMetadata: {
         providerName: 'appviewx',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

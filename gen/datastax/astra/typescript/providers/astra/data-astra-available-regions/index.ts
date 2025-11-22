@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/available_regions
+// https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/available_regions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAstraAvailableRegionsConfig extends cdktf.TerraformMetaArgu
   /**
   * The cloud provider to filter by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/available_regions#cloud_provider DataAstraAvailableRegions#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/available_regions#cloud_provider DataAstraAvailableRegions#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/available_regions#id DataAstraAvailableRegions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/available_regions#id DataAstraAvailableRegions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataAstraAvailableRegionsConfig extends cdktf.TerraformMetaArgu
   /**
   * Whether to filter by enabled regions. If 'false' or omitted, all regions are returned, enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/available_regions#only_enabled DataAstraAvailableRegions#only_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/available_regions#only_enabled DataAstraAvailableRegions#only_enabled}
   */
   readonly onlyEnabled?: boolean | cdktf.IResolvable;
   /**
   * The region type to filter by (currently either 'serverless', 'vector' or 'all'). If omitted, the default is 'serverless'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/available_regions#region_type DataAstraAvailableRegions#region_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/available_regions#region_type DataAstraAvailableRegions#region_type}
   */
   readonly regionType?: string;
 }
@@ -140,7 +140,7 @@ export class DataAstraAvailableRegionsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/available_regions astra_available_regions}
+* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/available_regions astra_available_regions}
 */
 export class DataAstraAvailableRegions extends cdktf.TerraformDataSource {
 
@@ -156,7 +156,7 @@ export class DataAstraAvailableRegions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAstraAvailableRegions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAstraAvailableRegions to import
-  * @param importFromId The id of the existing DataAstraAvailableRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/available_regions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAstraAvailableRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/available_regions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAstraAvailableRegions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -168,7 +168,7 @@ export class DataAstraAvailableRegions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/available_regions astra_available_regions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/available_regions astra_available_regions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -179,8 +179,8 @@ export class DataAstraAvailableRegions extends cdktf.TerraformDataSource {
       terraformResourceType: 'astra_available_regions',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18',
-        providerVersionConstraint: '2.3.18'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

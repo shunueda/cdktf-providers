@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_metro
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_metro
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataEquinixMetalMetroConfig extends cdktf.TerraformMetaArgument
   /**
   * The code of the Metro to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_metro#code DataEquinixMetalMetro#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_metro#code DataEquinixMetalMetro#code}
   */
   readonly code: string;
   /**
   * capacity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_metro#capacity DataEquinixMetalMetro#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_metro#capacity DataEquinixMetalMetro#capacity}
   */
   readonly capacity?: DataEquinixMetalMetroCapacity[] | cdktf.IResolvable;
 }
@@ -24,11 +24,11 @@ export interface DataEquinixMetalMetroCapacity {
   /**
   * Plan which has to be available in selected location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_metro#plan DataEquinixMetalMetro#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_metro#plan DataEquinixMetalMetro#plan}
   */
   readonly plan: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_metro#quantity DataEquinixMetalMetro#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_metro#quantity DataEquinixMetalMetro#quantity}
   */
   readonly quantity?: number;
 }
@@ -170,7 +170,7 @@ export class DataEquinixMetalMetroCapacityList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_metro equinix_metal_metro}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_metro equinix_metal_metro}
 */
 export class DataEquinixMetalMetro extends cdktf.TerraformDataSource {
 
@@ -186,7 +186,7 @@ export class DataEquinixMetalMetro extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixMetalMetro resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixMetalMetro to import
-  * @param importFromId The id of the existing DataEquinixMetalMetro that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_metro#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixMetalMetro that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_metro#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixMetalMetro to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class DataEquinixMetalMetro extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_metro equinix_metal_metro} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_metro equinix_metal_metro} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class DataEquinixMetalMetro extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_metal_metro',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

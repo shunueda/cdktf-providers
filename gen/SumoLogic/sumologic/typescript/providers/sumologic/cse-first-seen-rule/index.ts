@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface CseFirstSeenRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#baseline_type CseFirstSeenRule#baseline_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#baseline_type CseFirstSeenRule#baseline_type}
   */
   readonly baselineType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#baseline_window_size CseFirstSeenRule#baseline_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#baseline_window_size CseFirstSeenRule#baseline_window_size}
   */
   readonly baselineWindowSize: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#description_expression CseFirstSeenRule#description_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#description_expression CseFirstSeenRule#description_expression}
   */
   readonly descriptionExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#enabled CseFirstSeenRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#enabled CseFirstSeenRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#filter_expression CseFirstSeenRule#filter_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#filter_expression CseFirstSeenRule#filter_expression}
   */
   readonly filterExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#group_by_fields CseFirstSeenRule#group_by_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#group_by_fields CseFirstSeenRule#group_by_fields}
   */
   readonly groupByFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#id CseFirstSeenRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#id CseFirstSeenRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#is_prototype CseFirstSeenRule#is_prototype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#is_prototype CseFirstSeenRule#is_prototype}
   */
   readonly isPrototype?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#name CseFirstSeenRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#name CseFirstSeenRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#name_expression CseFirstSeenRule#name_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#name_expression CseFirstSeenRule#name_expression}
   */
   readonly nameExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#retention_window_size CseFirstSeenRule#retention_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#retention_window_size CseFirstSeenRule#retention_window_size}
   */
   readonly retentionWindowSize: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#severity CseFirstSeenRule#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#severity CseFirstSeenRule#severity}
   */
   readonly severity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#summary_expression CseFirstSeenRule#summary_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#summary_expression CseFirstSeenRule#summary_expression}
   */
   readonly summaryExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#suppression_window_size CseFirstSeenRule#suppression_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#suppression_window_size CseFirstSeenRule#suppression_window_size}
   */
   readonly suppressionWindowSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#tags CseFirstSeenRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#tags CseFirstSeenRule#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#value_fields CseFirstSeenRule#value_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#value_fields CseFirstSeenRule#value_fields}
   */
   readonly valueFields: string[];
   /**
   * entity_selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#entity_selectors CseFirstSeenRule#entity_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#entity_selectors CseFirstSeenRule#entity_selectors}
   */
   readonly entitySelectors: CseFirstSeenRuleEntitySelectors[] | cdktf.IResolvable;
 }
 export interface CseFirstSeenRuleEntitySelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#entity_type CseFirstSeenRule#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#entity_type CseFirstSeenRule#entity_type}
   */
   readonly entityType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#expression CseFirstSeenRule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#expression CseFirstSeenRule#expression}
   */
   readonly expression: string;
 }
@@ -226,7 +226,7 @@ export class CseFirstSeenRuleEntitySelectorsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule sumologic_cse_first_seen_rule}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule sumologic_cse_first_seen_rule}
 */
 export class CseFirstSeenRule extends cdktf.TerraformResource {
 
@@ -242,7 +242,7 @@ export class CseFirstSeenRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CseFirstSeenRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CseFirstSeenRule to import
-  * @param importFromId The id of the existing CseFirstSeenRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CseFirstSeenRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CseFirstSeenRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -254,7 +254,7 @@ export class CseFirstSeenRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_first_seen_rule sumologic_cse_first_seen_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_first_seen_rule sumologic_cse_first_seen_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,8 +265,8 @@ export class CseFirstSeenRule extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_cse_first_seen_rule',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.8',
-        providerVersionConstraint: '3.1.8'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

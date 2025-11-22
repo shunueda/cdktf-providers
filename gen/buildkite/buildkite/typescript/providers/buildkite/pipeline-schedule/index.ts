@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_schedule
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface PipelineScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The branch that the schedule should run on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_schedule#branch PipelineSchedule#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_schedule#branch PipelineSchedule#branch}
   */
   readonly branch: string;
   /**
   * The commit that the schedule should run on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_schedule#commit PipelineSchedule#commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_schedule#commit PipelineSchedule#commit}
   */
   readonly commit?: string;
   /**
   * The cronline that describes when the schedule should run. See[here](https://buildkite.com/docs/pipelines/scheduled-builds#schedule-intervals) for supported syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_schedule#cronline PipelineSchedule#cronline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_schedule#cronline PipelineSchedule#cronline}
   */
   readonly cronline: string;
   /**
   * Whether the schedule is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_schedule#enabled PipelineSchedule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_schedule#enabled PipelineSchedule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The environment variables that scheduled builds should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_schedule#env PipelineSchedule#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_schedule#env PipelineSchedule#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * A label to describe the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_schedule#label PipelineSchedule#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_schedule#label PipelineSchedule#label}
   */
   readonly label: string;
   /**
   * The message the builds show for builds created by this schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_schedule#message PipelineSchedule#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_schedule#message PipelineSchedule#message}
   */
   readonly message?: string;
   /**
   * The GraphQL ID of the pipeline that this schedule belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_schedule#pipeline_id PipelineSchedule#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_schedule#pipeline_id PipelineSchedule#pipeline_id}
   */
   readonly pipelineId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_schedule buildkite_pipeline_schedule}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_schedule buildkite_pipeline_schedule}
 */
 export class PipelineSchedule extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class PipelineSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PipelineSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PipelineSchedule to import
-  * @param importFromId The id of the existing PipelineSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PipelineSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PipelineSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class PipelineSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_schedule buildkite_pipeline_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_schedule buildkite_pipeline_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class PipelineSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_pipeline_schedule',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0',
-        providerVersionConstraint: '1.26.0'
+        providerVersion: '1.27.0',
+        providerVersionConstraint: '1.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

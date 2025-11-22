@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/network_device_type
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataEquinixNetworkDeviceTypeConfig extends cdktf.TerraformMetaA
   /**
   * Device type category, one of: Router, Firewall, SDWAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/network_device_type#category DataEquinixNetworkDeviceType#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_type#category DataEquinixNetworkDeviceType#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/network_device_type#id DataEquinixNetworkDeviceType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_type#id DataEquinixNetworkDeviceType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataEquinixNetworkDeviceTypeConfig extends cdktf.TerraformMetaA
   /**
   * List of metro codes where device type has to be available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/network_device_type#metro_codes DataEquinixNetworkDeviceType#metro_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_type#metro_codes DataEquinixNetworkDeviceType#metro_codes}
   */
   readonly metroCodes?: string[];
   /**
   * Device type name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/network_device_type#name DataEquinixNetworkDeviceType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_type#name DataEquinixNetworkDeviceType#name}
   */
   readonly name?: string;
   /**
   * Device type vendor i.e. Cisco, Juniper Networks, VERSA Networks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/network_device_type#vendor DataEquinixNetworkDeviceType#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_type#vendor DataEquinixNetworkDeviceType#vendor}
   */
   readonly vendor?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/network_device_type equinix_network_device_type}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_type equinix_network_device_type}
 */
 export class DataEquinixNetworkDeviceType extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataEquinixNetworkDeviceType extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixNetworkDeviceType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixNetworkDeviceType to import
-  * @param importFromId The id of the existing DataEquinixNetworkDeviceType that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/network_device_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixNetworkDeviceType that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixNetworkDeviceType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataEquinixNetworkDeviceType extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/network_device_type equinix_network_device_type} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_type equinix_network_device_type} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataEquinixNetworkDeviceType extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_network_device_type',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

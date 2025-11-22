@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface SecureAwsMlPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#description SecureAwsMlPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#description SecureAwsMlPolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#enabled SecureAwsMlPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#enabled SecureAwsMlPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#id SecureAwsMlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#id SecureAwsMlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#name SecureAwsMlPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#name SecureAwsMlPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#notification_channels SecureAwsMlPolicy#notification_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#notification_channels SecureAwsMlPolicy#notification_channels}
   */
   readonly notificationChannels?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#runbook SecureAwsMlPolicy#runbook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#runbook SecureAwsMlPolicy#runbook}
   */
   readonly runbook?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#scope SecureAwsMlPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#scope SecureAwsMlPolicy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#severity SecureAwsMlPolicy#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#severity SecureAwsMlPolicy#severity}
   */
   readonly severity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#type SecureAwsMlPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#type SecureAwsMlPolicy#type}
   */
   readonly type?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#rule SecureAwsMlPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#rule SecureAwsMlPolicy#rule}
   */
   readonly rule: SecureAwsMlPolicyRule[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#timeouts SecureAwsMlPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#timeouts SecureAwsMlPolicy#timeouts}
   */
   readonly timeouts?: SecureAwsMlPolicyTimeouts;
 }
 export interface SecureAwsMlPolicyRuleAnomalousConsoleLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#enabled SecureAwsMlPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#enabled SecureAwsMlPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#threshold SecureAwsMlPolicy#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#threshold SecureAwsMlPolicy#threshold}
   */
   readonly threshold: number;
 }
@@ -175,13 +175,13 @@ export class SecureAwsMlPolicyRuleAnomalousConsoleLoginOutputReference extends c
 }
 export interface SecureAwsMlPolicyRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#description SecureAwsMlPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#description SecureAwsMlPolicy#description}
   */
   readonly description: string;
   /**
   * anomalous_console_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#anomalous_console_login SecureAwsMlPolicy#anomalous_console_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#anomalous_console_login SecureAwsMlPolicy#anomalous_console_login}
   */
   readonly anomalousConsoleLogin?: SecureAwsMlPolicyRuleAnomalousConsoleLogin;
 }
@@ -343,19 +343,19 @@ export class SecureAwsMlPolicyRuleList extends cdktf.ComplexList {
 }
 export interface SecureAwsMlPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#create SecureAwsMlPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#create SecureAwsMlPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#delete SecureAwsMlPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#delete SecureAwsMlPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#read SecureAwsMlPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#read SecureAwsMlPolicy#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#update SecureAwsMlPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#update SecureAwsMlPolicy#update}
   */
   readonly update?: string;
 }
@@ -536,7 +536,7 @@ export class SecureAwsMlPolicyTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy sysdig_secure_aws_ml_policy}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy sysdig_secure_aws_ml_policy}
 */
 export class SecureAwsMlPolicy extends cdktf.TerraformResource {
 
@@ -552,7 +552,7 @@ export class SecureAwsMlPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecureAwsMlPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecureAwsMlPolicy to import
-  * @param importFromId The id of the existing SecureAwsMlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecureAwsMlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecureAwsMlPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -564,7 +564,7 @@ export class SecureAwsMlPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_aws_ml_policy sysdig_secure_aws_ml_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_aws_ml_policy sysdig_secure_aws_ml_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -575,8 +575,8 @@ export class SecureAwsMlPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_secure_aws_ml_policy',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0',
-        providerVersionConstraint: '3.1.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

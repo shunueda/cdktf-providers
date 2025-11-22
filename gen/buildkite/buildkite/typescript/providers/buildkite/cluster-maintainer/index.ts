@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_maintainer
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_maintainer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ClusterMaintainerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The UUID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_maintainer#cluster_id ClusterMaintainer#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_maintainer#cluster_uuid ClusterMaintainer#cluster_uuid}
   */
-  readonly clusterId: string;
+  readonly clusterUuid: string;
   /**
-  * The UUID of the team to add as a maintainer. This is mutually exclusive with user_id.
-  * Only one of user_id or team_id can be specified.
+  * The UUID of the team to add as a maintainer. This is mutually exclusive with user_uuid.
+  * Only one of user_uuid or team_uuid can be specified.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_maintainer#team_id ClusterMaintainer#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_maintainer#team_uuid ClusterMaintainer#team_uuid}
   */
-  readonly teamId?: string;
+  readonly teamUuid?: string;
   /**
-  * The UUID of the user to add as a maintainer. This is mutually exclusive with team_id.
-  * Only one of user_id or team_id can be specified.
+  * The UUID of the user to add as a maintainer. This is mutually exclusive with team_uuid.
+  * Only one of user_uuid or team_uuid can be specified.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_maintainer#user_id ClusterMaintainer#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_maintainer#user_uuid ClusterMaintainer#user_uuid}
   */
-  readonly userId?: string;
+  readonly userUuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_maintainer buildkite_cluster_maintainer}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_maintainer buildkite_cluster_maintainer}
 */
 export class ClusterMaintainer extends cdktf.TerraformResource {
 
@@ -48,7 +48,7 @@ export class ClusterMaintainer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterMaintainer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterMaintainer to import
-  * @param importFromId The id of the existing ClusterMaintainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_maintainer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterMaintainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_maintainer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterMaintainer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -60,7 +60,7 @@ export class ClusterMaintainer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_maintainer buildkite_cluster_maintainer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_maintainer buildkite_cluster_maintainer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -71,8 +71,8 @@ export class ClusterMaintainer extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_cluster_maintainer',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0',
-        providerVersionConstraint: '1.26.0'
+        providerVersion: '1.27.0',
+        providerVersionConstraint: '1.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -82,9 +82,9 @@ export class ClusterMaintainer extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._clusterId = config.clusterId;
-    this._teamId = config.teamId;
-    this._userId = config.userId;
+    this._clusterUuid = config.clusterUuid;
+    this._teamUuid = config.teamUuid;
+    this._userUuid = config.userUuid;
   }
 
   // ==========
@@ -94,11 +94,6 @@ export class ClusterMaintainer extends cdktf.TerraformResource {
   // actor_email - computed: true, optional: false, required: false
   public get actorEmail() {
     return this.getStringAttribute('actor_email');
-  }
-
-  // actor_id - computed: true, optional: false, required: false
-  public get actorId() {
-    return this.getStringAttribute('actor_id');
   }
 
   // actor_name - computed: true, optional: false, required: false
@@ -116,17 +111,22 @@ export class ClusterMaintainer extends cdktf.TerraformResource {
     return this.getStringAttribute('actor_type');
   }
 
-  // cluster_id - computed: false, optional: false, required: true
-  private _clusterId?: string; 
-  public get clusterId() {
-    return this.getStringAttribute('cluster_id');
+  // actor_uuid - computed: true, optional: false, required: false
+  public get actorUuid() {
+    return this.getStringAttribute('actor_uuid');
   }
-  public set clusterId(value: string) {
-    this._clusterId = value;
+
+  // cluster_uuid - computed: false, optional: false, required: true
+  private _clusterUuid?: string; 
+  public get clusterUuid() {
+    return this.getStringAttribute('cluster_uuid');
+  }
+  public set clusterUuid(value: string) {
+    this._clusterUuid = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get clusterIdInput() {
-    return this._clusterId;
+  public get clusterUuidInput() {
+    return this._clusterUuid;
   }
 
   // id - computed: true, optional: false, required: false
@@ -134,36 +134,36 @@ export class ClusterMaintainer extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
-  // team_id - computed: false, optional: true, required: false
-  private _teamId?: string; 
-  public get teamId() {
-    return this.getStringAttribute('team_id');
+  // team_uuid - computed: false, optional: true, required: false
+  private _teamUuid?: string; 
+  public get teamUuid() {
+    return this.getStringAttribute('team_uuid');
   }
-  public set teamId(value: string) {
-    this._teamId = value;
+  public set teamUuid(value: string) {
+    this._teamUuid = value;
   }
-  public resetTeamId() {
-    this._teamId = undefined;
+  public resetTeamUuid() {
+    this._teamUuid = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get teamIdInput() {
-    return this._teamId;
+  public get teamUuidInput() {
+    return this._teamUuid;
   }
 
-  // user_id - computed: false, optional: true, required: false
-  private _userId?: string; 
-  public get userId() {
-    return this.getStringAttribute('user_id');
+  // user_uuid - computed: false, optional: true, required: false
+  private _userUuid?: string; 
+  public get userUuid() {
+    return this.getStringAttribute('user_uuid');
   }
-  public set userId(value: string) {
-    this._userId = value;
+  public set userUuid(value: string) {
+    this._userUuid = value;
   }
-  public resetUserId() {
-    this._userId = undefined;
+  public resetUserUuid() {
+    this._userUuid = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get userIdInput() {
-    return this._userId;
+  public get userUuidInput() {
+    return this._userUuid;
   }
 
   // =========
@@ -172,28 +172,28 @@ export class ClusterMaintainer extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      cluster_id: cdktf.stringToTerraform(this._clusterId),
-      team_id: cdktf.stringToTerraform(this._teamId),
-      user_id: cdktf.stringToTerraform(this._userId),
+      cluster_uuid: cdktf.stringToTerraform(this._clusterUuid),
+      team_uuid: cdktf.stringToTerraform(this._teamUuid),
+      user_uuid: cdktf.stringToTerraform(this._userUuid),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      cluster_id: {
-        value: cdktf.stringToHclTerraform(this._clusterId),
+      cluster_uuid: {
+        value: cdktf.stringToHclTerraform(this._clusterUuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      team_id: {
-        value: cdktf.stringToHclTerraform(this._teamId),
+      team_uuid: {
+        value: cdktf.stringToHclTerraform(this._teamUuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      user_id: {
-        value: cdktf.stringToHclTerraform(this._userId),
+      user_uuid: {
+        value: cdktf.stringToHclTerraform(this._userUuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

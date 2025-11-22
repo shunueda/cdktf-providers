@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/team
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/team
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TeamConfig extends cdktf.TerraformMetaArguments {
   /**
   * Team quota. Optional, Default daily quota is 0.01 units/day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/team#daily_quota Team#daily_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/team#daily_quota Team#daily_quota}
   */
   readonly dailyQuota?: number;
   /**
   * Team name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/team#name Team#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/team#name Team#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/team coralogix_team}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/team coralogix_team}
 */
 export class Team extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class Team extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Team resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Team to import
-  * @param importFromId The id of the existing Team that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/team#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Team that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/team#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Team to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class Team extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/team coralogix_team} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/team coralogix_team} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class Team extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_team',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

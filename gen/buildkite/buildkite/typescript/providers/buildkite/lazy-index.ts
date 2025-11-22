@@ -12,6 +12,7 @@ Object.defineProperty(exports, 'pipeline', { get: function () { return require('
 Object.defineProperty(exports, 'pipelineSchedule', { get: function () { return require('./pipeline-schedule'); } });
 Object.defineProperty(exports, 'pipelineTeam', { get: function () { return require('./pipeline-team'); } });
 Object.defineProperty(exports, 'pipelineTemplate', { get: function () { return require('./pipeline-template'); } });
+Object.defineProperty(exports, 'portal', { get: function () { return require('./portal'); } });
 Object.defineProperty(exports, 'registry', { get: function () { return require('./registry'); } });
 Object.defineProperty(exports, 'team', { get: function () { return require('./team'); } });
 Object.defineProperty(exports, 'teamMember', { get: function () { return require('./team-member'); } });
@@ -26,6 +27,8 @@ Object.defineProperty(exports, 'dataBuildkiteOrganizationMembers', { get: functi
 Object.defineProperty(exports, 'dataBuildkiteOrganizationRule', { get: function () { return require('./data-buildkite-organization-rule'); } });
 Object.defineProperty(exports, 'dataBuildkitePipeline', { get: function () { return require('./data-buildkite-pipeline'); } });
 Object.defineProperty(exports, 'dataBuildkitePipelineTemplate', { get: function () { return require('./data-buildkite-pipeline-template'); } });
+Object.defineProperty(exports, 'dataBuildkitePortal', { get: function () { return require('./data-buildkite-portal'); } });
+Object.defineProperty(exports, 'dataBuildkitePortals', { get: function () { return require('./data-buildkite-portals'); } });
 Object.defineProperty(exports, 'dataBuildkiteRegistry', { get: function () { return require('./data-buildkite-registry'); } });
 Object.defineProperty(exports, 'dataBuildkiteSignedPipelineSteps', { get: function () { return require('./data-buildkite-signed-pipeline-steps'); } });
 Object.defineProperty(exports, 'dataBuildkiteTeam', { get: function () { return require('./data-buildkite-team'); } });

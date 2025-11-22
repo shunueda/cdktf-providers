@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_network
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataSysdigSecureRuleNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_network#name DataSysdigSecureRuleNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_network#name DataSysdigSecureRuleNetwork#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_network#timeouts DataSysdigSecureRuleNetwork#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_network#timeouts DataSysdigSecureRuleNetwork#timeouts}
   */
   readonly timeouts?: DataSysdigSecureRuleNetworkTimeouts;
   /**
   * udp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_network#udp DataSysdigSecureRuleNetwork#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_network#udp DataSysdigSecureRuleNetwork#udp}
   */
   readonly udp?: DataSysdigSecureRuleNetworkUdp[] | cdktf.IResolvable;
 }
@@ -106,7 +106,7 @@ export class DataSysdigSecureRuleNetworkTcpList extends cdktf.ComplexList {
 }
 export interface DataSysdigSecureRuleNetworkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_network#read DataSysdigSecureRuleNetwork#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_network#read DataSysdigSecureRuleNetwork#read}
   */
   readonly read?: string;
 }
@@ -291,7 +291,7 @@ export class DataSysdigSecureRuleNetworkUdpList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_network sysdig_secure_rule_network}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_network sysdig_secure_rule_network}
 */
 export class DataSysdigSecureRuleNetwork extends cdktf.TerraformDataSource {
 
@@ -307,7 +307,7 @@ export class DataSysdigSecureRuleNetwork extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSysdigSecureRuleNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSysdigSecureRuleNetwork to import
-  * @param importFromId The id of the existing DataSysdigSecureRuleNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSysdigSecureRuleNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSysdigSecureRuleNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class DataSysdigSecureRuleNetwork extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_network sysdig_secure_rule_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_network sysdig_secure_rule_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class DataSysdigSecureRuleNetwork extends cdktf.TerraformDataSource {
       terraformResourceType: 'sysdig_secure_rule_network',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0',
-        providerVersionConstraint: '3.1.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

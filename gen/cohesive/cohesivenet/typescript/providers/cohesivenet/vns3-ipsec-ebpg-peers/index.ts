@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers
+// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface Vns3IpsecEbpgPeersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#endpoint_id Vns3IpsecEbpgPeers#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#endpoint_id Vns3IpsecEbpgPeers#endpoint_id}
   */
   readonly endpointId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#id Vns3IpsecEbpgPeers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#id Vns3IpsecEbpgPeers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#last_updated Vns3IpsecEbpgPeers#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#last_updated Vns3IpsecEbpgPeers#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * ebgp_peer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#ebgp_peer Vns3IpsecEbpgPeers#ebgp_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#ebgp_peer Vns3IpsecEbpgPeers#ebgp_peer}
   */
   readonly ebgpPeer: Vns3IpsecEbpgPeersEbgpPeer[] | cdktf.IResolvable;
   /**
   * vns3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#vns3 Vns3IpsecEbpgPeers#vns3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#vns3 Vns3IpsecEbpgPeers#vns3}
   */
   readonly vns3?: Vns3IpsecEbpgPeersVns3;
 }
@@ -39,49 +39,49 @@ export interface Vns3IpsecEbpgPeersEbgpPeer {
   /**
   * Access Control List. IN PERMIT xxxx / OUT PERMIT xxxx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#access_list Vns3IpsecEbpgPeers#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#access_list Vns3IpsecEbpgPeers#access_list}
   */
   readonly accessList?: string;
   /**
   * Specifies if we are using network distance weighting, Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#add_network_distance Vns3IpsecEbpgPeers#add_network_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#add_network_distance Vns3IpsecEbpgPeers#add_network_distance}
   */
   readonly addNetworkDistance?: boolean | cdktf.IResolvable;
   /**
   * Specifies direction for distance weighting. IN / OUT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#add_network_distance_direction Vns3IpsecEbpgPeers#add_network_distance_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#add_network_distance_direction Vns3IpsecEbpgPeers#add_network_distance_direction}
   */
   readonly addNetworkDistanceDirection?: string;
   /**
   * Specifies how many hops for network distance weighting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#add_network_distance_hops Vns3IpsecEbpgPeers#add_network_distance_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#add_network_distance_hops Vns3IpsecEbpgPeers#add_network_distance_hops}
   */
   readonly addNetworkDistanceHops?: number;
   /**
   * Autonomous System Number of your network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#asn Vns3IpsecEbpgPeers#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#asn Vns3IpsecEbpgPeers#asn}
   */
   readonly asn: number;
   /**
   * Password for BGP, if required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#bgp_password Vns3IpsecEbpgPeers#bgp_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#bgp_password Vns3IpsecEbpgPeers#bgp_password}
   */
   readonly bgpPassword?: string;
   /**
   * IP address or neighbor IP for BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#ipaddress Vns3IpsecEbpgPeers#ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#ipaddress Vns3IpsecEbpgPeers#ipaddress}
   */
   readonly ipaddress: string;
   /**
   * ASN alias
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#local_asn_alias Vns3IpsecEbpgPeers#local_asn_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#local_asn_alias Vns3IpsecEbpgPeers#local_asn_alias}
   */
   readonly localAsnAlias?: number;
 }
@@ -399,23 +399,23 @@ export class Vns3IpsecEbpgPeersEbgpPeerList extends cdktf.ComplexList {
 }
 export interface Vns3IpsecEbpgPeersVns3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#api_token Vns3IpsecEbpgPeers#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#api_token Vns3IpsecEbpgPeers#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#host Vns3IpsecEbpgPeers#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#host Vns3IpsecEbpgPeers#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#password Vns3IpsecEbpgPeers#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#password Vns3IpsecEbpgPeers#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#timeout Vns3IpsecEbpgPeers#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#timeout Vns3IpsecEbpgPeers#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#username Vns3IpsecEbpgPeers#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#username Vns3IpsecEbpgPeers#username}
   */
   readonly username?: string;
 }
@@ -615,7 +615,7 @@ export class Vns3IpsecEbpgPeersVns3OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers cohesivenet_vns3_ipsec_ebpg_peers}
+* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers cohesivenet_vns3_ipsec_ebpg_peers}
 */
 export class Vns3IpsecEbpgPeers extends cdktf.TerraformResource {
 
@@ -631,7 +631,7 @@ export class Vns3IpsecEbpgPeers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vns3IpsecEbpgPeers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vns3IpsecEbpgPeers to import
-  * @param importFromId The id of the existing Vns3IpsecEbpgPeers that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vns3IpsecEbpgPeers that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vns3IpsecEbpgPeers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -643,7 +643,7 @@ export class Vns3IpsecEbpgPeers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_ebpg_peers cohesivenet_vns3_ipsec_ebpg_peers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_ebpg_peers cohesivenet_vns3_ipsec_ebpg_peers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -654,8 +654,8 @@ export class Vns3IpsecEbpgPeers extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_ipsec_ebpg_peers',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

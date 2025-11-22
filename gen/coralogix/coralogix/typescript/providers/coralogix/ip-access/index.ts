@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/ip_access
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/ip_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface IpAccessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/ip_access#enable_coralogix_customer_support_access IpAccess#enable_coralogix_customer_support_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/ip_access#enable_coralogix_customer_support_access IpAccess#enable_coralogix_customer_support_access}
   */
   readonly enableCoralogixCustomerSupportAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/ip_access#ip_access IpAccess#ip_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/ip_access#ip_access IpAccess#ip_access}
   */
   readonly ipAccess?: IpAccessIpAccess[] | cdktf.IResolvable;
 }
@@ -20,19 +20,19 @@ export interface IpAccessIpAccess {
   /**
   * Whether this IP access entry is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/ip_access#enabled IpAccess#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/ip_access#enabled IpAccess#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The IP range in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/ip_access#ip_range IpAccess#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/ip_access#ip_range IpAccess#ip_range}
   */
   readonly ipRange: string;
   /**
   * The name of the IP access entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/ip_access#name IpAccess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/ip_access#name IpAccess#name}
   */
   readonly name?: string;
 }
@@ -200,7 +200,7 @@ export class IpAccessIpAccessList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/ip_access coralogix_ip_access}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/ip_access coralogix_ip_access}
 */
 export class IpAccess extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class IpAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpAccess to import
-  * @param importFromId The id of the existing IpAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/ip_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/ip_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class IpAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/ip_access coralogix_ip_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/ip_access coralogix_ip_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class IpAccess extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_ip_access',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

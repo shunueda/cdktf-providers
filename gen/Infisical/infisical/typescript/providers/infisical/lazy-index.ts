@@ -29,6 +29,7 @@ Object.defineProperty(exports, 'identityGcpAuth', { get: function () { return re
 Object.defineProperty(exports, 'identityKubernetesAuth', { get: function () { return require('./identity-kubernetes-auth'); } });
 Object.defineProperty(exports, 'identityOidcAuth', { get: function () { return require('./identity-oidc-auth'); } });
 Object.defineProperty(exports, 'identityTokenAuth', { get: function () { return require('./identity-token-auth'); } });
+Object.defineProperty(exports, 'identityTokenAuthToken', { get: function () { return require('./identity-token-auth-token'); } });
 Object.defineProperty(exports, 'identityUniversalAuth', { get: function () { return require('./identity-universal-auth'); } });
 Object.defineProperty(exports, 'identityUniversalAuthClientSecret', { get: function () { return require('./identity-universal-auth-client-secret'); } });
 Object.defineProperty(exports, 'integrationAwsParameterStore', { get: function () { return require('./integration-aws-parameter-store'); } });

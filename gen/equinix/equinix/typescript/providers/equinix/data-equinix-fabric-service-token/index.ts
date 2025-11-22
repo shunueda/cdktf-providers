@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_service_token
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEquinixFabricServiceTokenConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_service_token#id DataEquinixFabricServiceToken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_token#id DataEquinixFabricServiceToken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataEquinixFabricServiceTokenConfig extends cdktf.TerraformMeta
   /**
   * Equinix-assigned service token identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_service_token#uuid DataEquinixFabricServiceToken#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_token#uuid DataEquinixFabricServiceToken#uuid}
   */
   readonly uuid: string;
 }
@@ -2246,7 +2246,7 @@ export class DataEquinixFabricServiceTokenServiceTokenConnectionList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_service_token equinix_fabric_service_token}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_token equinix_fabric_service_token}
 */
 export class DataEquinixFabricServiceToken extends cdktf.TerraformDataSource {
 
@@ -2262,7 +2262,7 @@ export class DataEquinixFabricServiceToken extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixFabricServiceToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricServiceToken to import
-  * @param importFromId The id of the existing DataEquinixFabricServiceToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_service_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricServiceToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricServiceToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2274,7 +2274,7 @@ export class DataEquinixFabricServiceToken extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_service_token equinix_fabric_service_token} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_token equinix_fabric_service_token} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2285,8 +2285,8 @@ export class DataEquinixFabricServiceToken extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_fabric_service_token',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

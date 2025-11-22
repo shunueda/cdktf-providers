@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregation
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataEquinixFabricConnectionRouteAggregationConfig extends cdktf
   /**
   * The uuid of the connection this data source should retrieve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregation#connection_id DataEquinixFabricConnectionRouteAggregation#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregation#connection_id DataEquinixFabricConnectionRouteAggregation#connection_id}
   */
   readonly connectionId: string;
   /**
   * The uuid of the route aggregation this data source should retrieve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregation#route_aggregation_id DataEquinixFabricConnectionRouteAggregation#route_aggregation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregation#route_aggregation_id DataEquinixFabricConnectionRouteAggregation#route_aggregation_id}
   */
   readonly routeAggregationId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregation equinix_fabric_connection_route_aggregation}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregation equinix_fabric_connection_route_aggregation}
 */
 export class DataEquinixFabricConnectionRouteAggregation extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataEquinixFabricConnectionRouteAggregation extends cdktf.Terraform
   * Generates CDKTF code for importing a DataEquinixFabricConnectionRouteAggregation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricConnectionRouteAggregation to import
-  * @param importFromId The id of the existing DataEquinixFabricConnectionRouteAggregation that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricConnectionRouteAggregation that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricConnectionRouteAggregation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataEquinixFabricConnectionRouteAggregation extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregation equinix_fabric_connection_route_aggregation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregation equinix_fabric_connection_route_aggregation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataEquinixFabricConnectionRouteAggregation extends cdktf.Terraform
       terraformResourceType: 'equinix_fabric_connection_route_aggregation',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

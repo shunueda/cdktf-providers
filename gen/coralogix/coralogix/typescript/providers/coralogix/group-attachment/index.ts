@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/group_attachment
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/group_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface GroupAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the group to attach the users to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/group_attachment#group_id GroupAttachment#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/group_attachment#group_id GroupAttachment#group_id}
   */
   readonly groupId: string;
   /**
   * The IDs of the users to attach to the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/group_attachment#user_ids GroupAttachment#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/group_attachment#user_ids GroupAttachment#user_ids}
   */
   readonly userIds: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/group_attachment coralogix_group_attachment}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/group_attachment coralogix_group_attachment}
 */
 export class GroupAttachment extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class GroupAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupAttachment to import
-  * @param importFromId The id of the existing GroupAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/group_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/group_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class GroupAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/group_attachment coralogix_group_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/group_attachment coralogix_group_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class GroupAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_group_attachment',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface CseEntityNormalizationConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration#aws_normalization_enabled CseEntityNormalizationConfiguration#aws_normalization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration#aws_normalization_enabled CseEntityNormalizationConfiguration#aws_normalization_enabled}
   */
   readonly awsNormalizationEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration#default_normalized_domain CseEntityNormalizationConfiguration#default_normalized_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration#default_normalized_domain CseEntityNormalizationConfiguration#default_normalized_domain}
   */
   readonly defaultNormalizedDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration#fqdn_normalization_enabled CseEntityNormalizationConfiguration#fqdn_normalization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration#fqdn_normalization_enabled CseEntityNormalizationConfiguration#fqdn_normalization_enabled}
   */
   readonly fqdnNormalizationEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration#id CseEntityNormalizationConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration#id CseEntityNormalizationConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration#normalize_hostnames CseEntityNormalizationConfiguration#normalize_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration#normalize_hostnames CseEntityNormalizationConfiguration#normalize_hostnames}
   */
   readonly normalizeHostnames: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration#normalize_usernames CseEntityNormalizationConfiguration#normalize_usernames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration#normalize_usernames CseEntityNormalizationConfiguration#normalize_usernames}
   */
   readonly normalizeUsernames: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration#windows_normalization_enabled CseEntityNormalizationConfiguration#windows_normalization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration#windows_normalization_enabled CseEntityNormalizationConfiguration#windows_normalization_enabled}
   */
   readonly windowsNormalizationEnabled: boolean | cdktf.IResolvable;
   /**
   * domain_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration#domain_mappings CseEntityNormalizationConfiguration#domain_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration#domain_mappings CseEntityNormalizationConfiguration#domain_mappings}
   */
   readonly domainMappings: CseEntityNormalizationConfigurationDomainMappings[] | cdktf.IResolvable;
 }
 export interface CseEntityNormalizationConfigurationDomainMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration#normalized_domain CseEntityNormalizationConfiguration#normalized_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration#normalized_domain CseEntityNormalizationConfiguration#normalized_domain}
   */
   readonly normalizedDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration#raw_domain CseEntityNormalizationConfiguration#raw_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration#raw_domain CseEntityNormalizationConfiguration#raw_domain}
   */
   readonly rawDomain: string;
 }
@@ -190,7 +190,7 @@ export class CseEntityNormalizationConfigurationDomainMappingsList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration sumologic_cse_entity_normalization_configuration}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration sumologic_cse_entity_normalization_configuration}
 */
 export class CseEntityNormalizationConfiguration extends cdktf.TerraformResource {
 
@@ -206,7 +206,7 @@ export class CseEntityNormalizationConfiguration extends cdktf.TerraformResource
   * Generates CDKTF code for importing a CseEntityNormalizationConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CseEntityNormalizationConfiguration to import
-  * @param importFromId The id of the existing CseEntityNormalizationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CseEntityNormalizationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CseEntityNormalizationConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class CseEntityNormalizationConfiguration extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_normalization_configuration sumologic_cse_entity_normalization_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_normalization_configuration sumologic_cse_entity_normalization_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class CseEntityNormalizationConfiguration extends cdktf.TerraformResource
       terraformResourceType: 'sumologic_cse_entity_normalization_configuration',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.8',
-        providerVersionConstraint: '3.1.8'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

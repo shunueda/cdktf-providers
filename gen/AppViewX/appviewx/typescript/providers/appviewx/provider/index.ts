@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs
+// https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface AppviewxProviderConfig {
   /**
   * AppViewX Client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs#appviewx_client_id AppviewxProvider#appviewx_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs#appviewx_client_id AppviewxProvider#appviewx_client_id}
   */
   readonly appviewxClientId?: string;
   /**
   * AppViewX Client Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs#appviewx_client_secret AppviewxProvider#appviewx_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs#appviewx_client_secret AppviewxProvider#appviewx_client_secret}
   */
   readonly appviewxClientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs#appviewx_environment_ip AppviewxProvider#appviewx_environment_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs#appviewx_environment_ip AppviewxProvider#appviewx_environment_ip}
   */
   readonly appviewxEnvironmentIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs#appviewx_environment_is_https AppviewxProvider#appviewx_environment_is_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs#appviewx_environment_is_https AppviewxProvider#appviewx_environment_is_https}
   */
   readonly appviewxEnvironmentIsHttps: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs#appviewx_environment_port AppviewxProvider#appviewx_environment_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs#appviewx_environment_port AppviewxProvider#appviewx_environment_port}
   */
   readonly appviewxEnvironmentPort: string;
   /**
   * AppViewX Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs#appviewx_password AppviewxProvider#appviewx_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs#appviewx_password AppviewxProvider#appviewx_password}
   */
   readonly appviewxPassword?: string;
   /**
   * AppViewX Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs#appviewx_username AppviewxProvider#appviewx_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs#appviewx_username AppviewxProvider#appviewx_username}
   */
   readonly appviewxUsername?: string;
   /**
   * Default certificate download password (provider level) - takes priority over resource level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs#certificate_download_password AppviewxProvider#certificate_download_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs#certificate_download_password AppviewxProvider#certificate_download_password}
   */
   readonly certificateDownloadPassword?: string;
   /**
   * Default key download password (provider level) - takes priority over resource level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs#key_download_password AppviewxProvider#key_download_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs#key_download_password AppviewxProvider#key_download_password}
   */
   readonly keyDownloadPassword?: string;
   /**
   * Log level (DEBUG, INFO)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs#log_level AppviewxProvider#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs#log_level AppviewxProvider#log_level}
   */
   readonly logLevel?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs#alias AppviewxProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs#alias AppviewxProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs appviewx}
+* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs appviewx}
 */
 export class AppviewxProvider extends cdktf.TerraformProvider {
 
@@ -86,7 +86,7 @@ export class AppviewxProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a AppviewxProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppviewxProvider to import
-  * @param importFromId The id of the existing AppviewxProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppviewxProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppviewxProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class AppviewxProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs appviewx} Resource
+  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs appviewx} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class AppviewxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'appviewx',
       terraformGeneratorMetadata: {
         providerName: 'appviewx',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       terraformProviderSource: 'AppViewX/appviewx'
     });

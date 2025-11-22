@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface LogSearchConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#description LogSearch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#description LogSearch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#id LogSearch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#id LogSearch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#interval_time_type LogSearch#interval_time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#interval_time_type LogSearch#interval_time_type}
   */
   readonly intervalTimeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#name LogSearch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#name LogSearch#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#parent_id LogSearch#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#parent_id LogSearch#parent_id}
   */
   readonly parentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#parsing_mode LogSearch#parsing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#parsing_mode LogSearch#parsing_mode}
   */
   readonly parsingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#query_string LogSearch#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#query_string LogSearch#query_string}
   */
   readonly queryString: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#run_by_receipt_time LogSearch#run_by_receipt_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#run_by_receipt_time LogSearch#run_by_receipt_time}
   */
   readonly runByReceiptTime?: boolean | cdktf.IResolvable;
   /**
   * query_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#query_parameter LogSearch#query_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#query_parameter LogSearch#query_parameter}
   */
   readonly queryParameter?: LogSearchQueryParameter[] | cdktf.IResolvable;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#schedule LogSearch#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#schedule LogSearch#schedule}
   */
   readonly schedule?: LogSearchSchedule;
   /**
   * time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#time_range LogSearch#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#time_range LogSearch#time_range}
   */
   readonly timeRange: LogSearchTimeRange;
 }
 export interface LogSearchQueryParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#data_type LogSearch#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#data_type LogSearch#data_type}
   */
   readonly dataType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#description LogSearch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#description LogSearch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#name LogSearch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#name LogSearch#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#value LogSearch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#value LogSearch#value}
   */
   readonly value: string;
 }
@@ -269,7 +269,7 @@ export class LogSearchQueryParameterList extends cdktf.ComplexList {
 }
 export interface LogSearchScheduleNotificationAlertSearchNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#source_id LogSearch#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#source_id LogSearch#source_id}
   */
   readonly sourceId: string;
 }
@@ -350,7 +350,7 @@ export class LogSearchScheduleNotificationAlertSearchNotificationOutputReference
 }
 export interface LogSearchScheduleNotificationCseSignalNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#record_type LogSearch#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#record_type LogSearch#record_type}
   */
   readonly recordType: string;
 }
@@ -431,27 +431,27 @@ export class LogSearchScheduleNotificationCseSignalNotificationOutputReference e
 }
 export interface LogSearchScheduleNotificationEmailSearchNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#include_csv_attachment LogSearch#include_csv_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#include_csv_attachment LogSearch#include_csv_attachment}
   */
   readonly includeCsvAttachment?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#include_histogram LogSearch#include_histogram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#include_histogram LogSearch#include_histogram}
   */
   readonly includeHistogram?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#include_query LogSearch#include_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#include_query LogSearch#include_query}
   */
   readonly includeQuery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#include_result_set LogSearch#include_result_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#include_result_set LogSearch#include_result_set}
   */
   readonly includeResultSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#subject_template LogSearch#subject_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#subject_template LogSearch#subject_template}
   */
   readonly subjectTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#to_list LogSearch#to_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#to_list LogSearch#to_list}
   */
   readonly toList: string[];
 }
@@ -677,11 +677,11 @@ export class LogSearchScheduleNotificationEmailSearchNotificationOutputReference
 }
 export interface LogSearchScheduleNotificationSaveToLookupNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#is_lookup_merge_operation LogSearch#is_lookup_merge_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#is_lookup_merge_operation LogSearch#is_lookup_merge_operation}
   */
   readonly isLookupMergeOperation: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#lookup_file_path LogSearch#lookup_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#lookup_file_path LogSearch#lookup_file_path}
   */
   readonly lookupFilePath: string;
 }
@@ -788,7 +788,7 @@ export class LogSearchScheduleNotificationSaveToLookupNotificationOutputReferenc
 }
 export interface LogSearchScheduleNotificationSaveToViewNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#view_name LogSearch#view_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#view_name LogSearch#view_name}
   */
   readonly viewName: string;
 }
@@ -869,19 +869,19 @@ export class LogSearchScheduleNotificationSaveToViewNotificationOutputReference 
 }
 export interface LogSearchScheduleNotificationServiceNowSearchNotificationFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#event_type LogSearch#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#event_type LogSearch#event_type}
   */
   readonly eventType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#node LogSearch#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#node LogSearch#node}
   */
   readonly nodeAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#resource LogSearch#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#resource LogSearch#resource}
   */
   readonly resource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#severity LogSearch#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#severity LogSearch#severity}
   */
   readonly severity?: number;
 }
@@ -1052,13 +1052,13 @@ export class LogSearchScheduleNotificationServiceNowSearchNotificationFieldsOutp
 }
 export interface LogSearchScheduleNotificationServiceNowSearchNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#external_id LogSearch#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#external_id LogSearch#external_id}
   */
   readonly externalId: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#fields LogSearch#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#fields LogSearch#fields}
   */
   readonly fields?: LogSearchScheduleNotificationServiceNowSearchNotificationFields;
 }
@@ -1168,19 +1168,19 @@ export class LogSearchScheduleNotificationServiceNowSearchNotificationOutputRefe
 }
 export interface LogSearchScheduleNotificationWebhookSearchNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#itemize_alerts LogSearch#itemize_alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#itemize_alerts LogSearch#itemize_alerts}
   */
   readonly itemizeAlerts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#max_itemized_alerts LogSearch#max_itemized_alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#max_itemized_alerts LogSearch#max_itemized_alerts}
   */
   readonly maxItemizedAlerts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#payload LogSearch#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#payload LogSearch#payload}
   */
   readonly payload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#webhook_id LogSearch#webhook_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#webhook_id LogSearch#webhook_id}
   */
   readonly webhookId: string;
 }
@@ -1350,43 +1350,43 @@ export interface LogSearchScheduleNotification {
   /**
   * alert_search_notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#alert_search_notification LogSearch#alert_search_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#alert_search_notification LogSearch#alert_search_notification}
   */
   readonly alertSearchNotification?: LogSearchScheduleNotificationAlertSearchNotification;
   /**
   * cse_signal_notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#cse_signal_notification LogSearch#cse_signal_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#cse_signal_notification LogSearch#cse_signal_notification}
   */
   readonly cseSignalNotification?: LogSearchScheduleNotificationCseSignalNotification;
   /**
   * email_search_notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#email_search_notification LogSearch#email_search_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#email_search_notification LogSearch#email_search_notification}
   */
   readonly emailSearchNotification?: LogSearchScheduleNotificationEmailSearchNotification;
   /**
   * save_to_lookup_notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#save_to_lookup_notification LogSearch#save_to_lookup_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#save_to_lookup_notification LogSearch#save_to_lookup_notification}
   */
   readonly saveToLookupNotification?: LogSearchScheduleNotificationSaveToLookupNotification;
   /**
   * save_to_view_notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#save_to_view_notification LogSearch#save_to_view_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#save_to_view_notification LogSearch#save_to_view_notification}
   */
   readonly saveToViewNotification?: LogSearchScheduleNotificationSaveToViewNotification;
   /**
   * service_now_search_notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#service_now_search_notification LogSearch#service_now_search_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#service_now_search_notification LogSearch#service_now_search_notification}
   */
   readonly serviceNowSearchNotification?: LogSearchScheduleNotificationServiceNowSearchNotification;
   /**
   * webhook_search_notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#webhook_search_notification LogSearch#webhook_search_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#webhook_search_notification LogSearch#webhook_search_notification}
   */
   readonly webhookSearchNotification?: LogSearchScheduleNotificationWebhookSearchNotification;
 }
@@ -1644,11 +1644,11 @@ export class LogSearchScheduleNotificationOutputReference extends cdktf.ComplexO
 }
 export interface LogSearchScheduleParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#name LogSearch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#name LogSearch#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#value LogSearch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#value LogSearch#value}
   */
   readonly value: string;
 }
@@ -1787,7 +1787,7 @@ export class LogSearchScheduleParameterList extends cdktf.ComplexList {
 }
 export interface LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFromEpochTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#epoch_millis LogSearch#epoch_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#epoch_millis LogSearch#epoch_millis}
   */
   readonly epochMillis: number;
 }
@@ -1868,7 +1868,7 @@ export class LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFromEpochTi
 }
 export interface LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFromIso8601TimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#iso8601_time LogSearch#iso8601_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#iso8601_time LogSearch#iso8601_time}
   */
   readonly iso8601Time: string;
 }
@@ -1949,7 +1949,7 @@ export class LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFromIso8601
 }
 export interface LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFromLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#range_name LogSearch#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#range_name LogSearch#range_name}
   */
   readonly rangeName: string;
 }
@@ -2030,7 +2030,7 @@ export class LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFromLiteral
 }
 export interface LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFromRelativeTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#relative_time LogSearch#relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#relative_time LogSearch#relative_time}
   */
   readonly relativeTime: string;
 }
@@ -2113,25 +2113,25 @@ export interface LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFrom {
   /**
   * epoch_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#epoch_time_range LogSearch#epoch_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#epoch_time_range LogSearch#epoch_time_range}
   */
   readonly epochTimeRange?: LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFromEpochTimeRange;
   /**
   * iso8601_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#iso8601_time_range LogSearch#iso8601_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#iso8601_time_range LogSearch#iso8601_time_range}
   */
   readonly iso8601TimeRange?: LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFromIso8601TimeRange;
   /**
   * literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#literal_time_range LogSearch#literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#literal_time_range LogSearch#literal_time_range}
   */
   readonly literalTimeRange?: LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFromLiteralTimeRange;
   /**
   * relative_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#relative_time_range LogSearch#relative_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#relative_time_range LogSearch#relative_time_range}
   */
   readonly relativeTimeRange?: LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFromRelativeTimeRange;
 }
@@ -2302,7 +2302,7 @@ export class LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFromOutputR
 }
 export interface LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeToEpochTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#epoch_millis LogSearch#epoch_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#epoch_millis LogSearch#epoch_millis}
   */
   readonly epochMillis: number;
 }
@@ -2383,7 +2383,7 @@ export class LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeToEpochTime
 }
 export interface LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeToIso8601TimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#iso8601_time LogSearch#iso8601_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#iso8601_time LogSearch#iso8601_time}
   */
   readonly iso8601Time: string;
 }
@@ -2464,7 +2464,7 @@ export class LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeToIso8601Ti
 }
 export interface LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeToLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#range_name LogSearch#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#range_name LogSearch#range_name}
   */
   readonly rangeName: string;
 }
@@ -2545,7 +2545,7 @@ export class LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeToLiteralTi
 }
 export interface LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeToRelativeTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#relative_time LogSearch#relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#relative_time LogSearch#relative_time}
   */
   readonly relativeTime: string;
 }
@@ -2628,25 +2628,25 @@ export interface LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeTo {
   /**
   * epoch_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#epoch_time_range LogSearch#epoch_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#epoch_time_range LogSearch#epoch_time_range}
   */
   readonly epochTimeRange?: LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeToEpochTimeRange;
   /**
   * iso8601_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#iso8601_time_range LogSearch#iso8601_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#iso8601_time_range LogSearch#iso8601_time_range}
   */
   readonly iso8601TimeRange?: LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeToIso8601TimeRange;
   /**
   * literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#literal_time_range LogSearch#literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#literal_time_range LogSearch#literal_time_range}
   */
   readonly literalTimeRange?: LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeToLiteralTimeRange;
   /**
   * relative_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#relative_time_range LogSearch#relative_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#relative_time_range LogSearch#relative_time_range}
   */
   readonly relativeTimeRange?: LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeToRelativeTimeRange;
 }
@@ -2819,13 +2819,13 @@ export interface LogSearchScheduleParseableTimeRangeBeginBoundedTimeRange {
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#from LogSearch#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#from LogSearch#from}
   */
   readonly from: LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeFrom;
   /**
   * to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#to LogSearch#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#to LogSearch#to}
   */
   readonly to?: LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeTo;
 }
@@ -2935,7 +2935,7 @@ export class LogSearchScheduleParseableTimeRangeBeginBoundedTimeRangeOutputRefer
 }
 export interface LogSearchScheduleParseableTimeRangeCompleteLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#range_name LogSearch#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#range_name LogSearch#range_name}
   */
   readonly rangeName: string;
 }
@@ -3018,13 +3018,13 @@ export interface LogSearchScheduleParseableTimeRange {
   /**
   * begin_bounded_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#begin_bounded_time_range LogSearch#begin_bounded_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#begin_bounded_time_range LogSearch#begin_bounded_time_range}
   */
   readonly beginBoundedTimeRange?: LogSearchScheduleParseableTimeRangeBeginBoundedTimeRange;
   /**
   * complete_literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#complete_literal_time_range LogSearch#complete_literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#complete_literal_time_range LogSearch#complete_literal_time_range}
   */
   readonly completeLiteralTimeRange?: LogSearchScheduleParseableTimeRangeCompleteLiteralTimeRange;
 }
@@ -3137,15 +3137,15 @@ export class LogSearchScheduleParseableTimeRangeOutputReference extends cdktf.Co
 }
 export interface LogSearchScheduleThreshold {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#count LogSearch#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#count LogSearch#count}
   */
   readonly count: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#operator LogSearch#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#operator LogSearch#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#threshold_type LogSearch#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#threshold_type LogSearch#threshold_type}
   */
   readonly thresholdType: string;
 }
@@ -3278,43 +3278,43 @@ export class LogSearchScheduleThresholdOutputReference extends cdktf.ComplexObje
 }
 export interface LogSearchSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#cron_expression LogSearch#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#cron_expression LogSearch#cron_expression}
   */
   readonly cronExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#mute_error_emails LogSearch#mute_error_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#mute_error_emails LogSearch#mute_error_emails}
   */
   readonly muteErrorEmails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#schedule_type LogSearch#schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#schedule_type LogSearch#schedule_type}
   */
   readonly scheduleType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#time_zone LogSearch#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#time_zone LogSearch#time_zone}
   */
   readonly timeZone: string;
   /**
   * notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#notification LogSearch#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#notification LogSearch#notification}
   */
   readonly notification: LogSearchScheduleNotification;
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#parameter LogSearch#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#parameter LogSearch#parameter}
   */
   readonly parameter?: LogSearchScheduleParameter[] | cdktf.IResolvable;
   /**
   * parseable_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#parseable_time_range LogSearch#parseable_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#parseable_time_range LogSearch#parseable_time_range}
   */
   readonly parseableTimeRange: LogSearchScheduleParseableTimeRange;
   /**
   * threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#threshold LogSearch#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#threshold LogSearch#threshold}
   */
   readonly threshold?: LogSearchScheduleThreshold;
 }
@@ -3589,7 +3589,7 @@ export class LogSearchScheduleOutputReference extends cdktf.ComplexObject {
 }
 export interface LogSearchTimeRangeBeginBoundedTimeRangeFromEpochTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#epoch_millis LogSearch#epoch_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#epoch_millis LogSearch#epoch_millis}
   */
   readonly epochMillis: number;
 }
@@ -3670,7 +3670,7 @@ export class LogSearchTimeRangeBeginBoundedTimeRangeFromEpochTimeRangeOutputRefe
 }
 export interface LogSearchTimeRangeBeginBoundedTimeRangeFromIso8601TimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#iso8601_time LogSearch#iso8601_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#iso8601_time LogSearch#iso8601_time}
   */
   readonly iso8601Time: string;
 }
@@ -3751,7 +3751,7 @@ export class LogSearchTimeRangeBeginBoundedTimeRangeFromIso8601TimeRangeOutputRe
 }
 export interface LogSearchTimeRangeBeginBoundedTimeRangeFromLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#range_name LogSearch#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#range_name LogSearch#range_name}
   */
   readonly rangeName: string;
 }
@@ -3832,7 +3832,7 @@ export class LogSearchTimeRangeBeginBoundedTimeRangeFromLiteralTimeRangeOutputRe
 }
 export interface LogSearchTimeRangeBeginBoundedTimeRangeFromRelativeTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#relative_time LogSearch#relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#relative_time LogSearch#relative_time}
   */
   readonly relativeTime: string;
 }
@@ -3915,25 +3915,25 @@ export interface LogSearchTimeRangeBeginBoundedTimeRangeFrom {
   /**
   * epoch_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#epoch_time_range LogSearch#epoch_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#epoch_time_range LogSearch#epoch_time_range}
   */
   readonly epochTimeRange?: LogSearchTimeRangeBeginBoundedTimeRangeFromEpochTimeRange;
   /**
   * iso8601_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#iso8601_time_range LogSearch#iso8601_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#iso8601_time_range LogSearch#iso8601_time_range}
   */
   readonly iso8601TimeRange?: LogSearchTimeRangeBeginBoundedTimeRangeFromIso8601TimeRange;
   /**
   * literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#literal_time_range LogSearch#literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#literal_time_range LogSearch#literal_time_range}
   */
   readonly literalTimeRange?: LogSearchTimeRangeBeginBoundedTimeRangeFromLiteralTimeRange;
   /**
   * relative_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#relative_time_range LogSearch#relative_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#relative_time_range LogSearch#relative_time_range}
   */
   readonly relativeTimeRange?: LogSearchTimeRangeBeginBoundedTimeRangeFromRelativeTimeRange;
 }
@@ -4104,7 +4104,7 @@ export class LogSearchTimeRangeBeginBoundedTimeRangeFromOutputReference extends 
 }
 export interface LogSearchTimeRangeBeginBoundedTimeRangeToEpochTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#epoch_millis LogSearch#epoch_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#epoch_millis LogSearch#epoch_millis}
   */
   readonly epochMillis: number;
 }
@@ -4185,7 +4185,7 @@ export class LogSearchTimeRangeBeginBoundedTimeRangeToEpochTimeRangeOutputRefere
 }
 export interface LogSearchTimeRangeBeginBoundedTimeRangeToIso8601TimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#iso8601_time LogSearch#iso8601_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#iso8601_time LogSearch#iso8601_time}
   */
   readonly iso8601Time: string;
 }
@@ -4266,7 +4266,7 @@ export class LogSearchTimeRangeBeginBoundedTimeRangeToIso8601TimeRangeOutputRefe
 }
 export interface LogSearchTimeRangeBeginBoundedTimeRangeToLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#range_name LogSearch#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#range_name LogSearch#range_name}
   */
   readonly rangeName: string;
 }
@@ -4347,7 +4347,7 @@ export class LogSearchTimeRangeBeginBoundedTimeRangeToLiteralTimeRangeOutputRefe
 }
 export interface LogSearchTimeRangeBeginBoundedTimeRangeToRelativeTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#relative_time LogSearch#relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#relative_time LogSearch#relative_time}
   */
   readonly relativeTime: string;
 }
@@ -4430,25 +4430,25 @@ export interface LogSearchTimeRangeBeginBoundedTimeRangeTo {
   /**
   * epoch_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#epoch_time_range LogSearch#epoch_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#epoch_time_range LogSearch#epoch_time_range}
   */
   readonly epochTimeRange?: LogSearchTimeRangeBeginBoundedTimeRangeToEpochTimeRange;
   /**
   * iso8601_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#iso8601_time_range LogSearch#iso8601_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#iso8601_time_range LogSearch#iso8601_time_range}
   */
   readonly iso8601TimeRange?: LogSearchTimeRangeBeginBoundedTimeRangeToIso8601TimeRange;
   /**
   * literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#literal_time_range LogSearch#literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#literal_time_range LogSearch#literal_time_range}
   */
   readonly literalTimeRange?: LogSearchTimeRangeBeginBoundedTimeRangeToLiteralTimeRange;
   /**
   * relative_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#relative_time_range LogSearch#relative_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#relative_time_range LogSearch#relative_time_range}
   */
   readonly relativeTimeRange?: LogSearchTimeRangeBeginBoundedTimeRangeToRelativeTimeRange;
 }
@@ -4621,13 +4621,13 @@ export interface LogSearchTimeRangeBeginBoundedTimeRange {
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#from LogSearch#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#from LogSearch#from}
   */
   readonly from: LogSearchTimeRangeBeginBoundedTimeRangeFrom;
   /**
   * to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#to LogSearch#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#to LogSearch#to}
   */
   readonly to?: LogSearchTimeRangeBeginBoundedTimeRangeTo;
 }
@@ -4737,7 +4737,7 @@ export class LogSearchTimeRangeBeginBoundedTimeRangeOutputReference extends cdkt
 }
 export interface LogSearchTimeRangeCompleteLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#range_name LogSearch#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#range_name LogSearch#range_name}
   */
   readonly rangeName: string;
 }
@@ -4820,13 +4820,13 @@ export interface LogSearchTimeRange {
   /**
   * begin_bounded_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#begin_bounded_time_range LogSearch#begin_bounded_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#begin_bounded_time_range LogSearch#begin_bounded_time_range}
   */
   readonly beginBoundedTimeRange?: LogSearchTimeRangeBeginBoundedTimeRange;
   /**
   * complete_literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#complete_literal_time_range LogSearch#complete_literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#complete_literal_time_range LogSearch#complete_literal_time_range}
   */
   readonly completeLiteralTimeRange?: LogSearchTimeRangeCompleteLiteralTimeRange;
 }
@@ -4939,7 +4939,7 @@ export class LogSearchTimeRangeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search sumologic_log_search}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search sumologic_log_search}
 */
 export class LogSearch extends cdktf.TerraformResource {
 
@@ -4955,7 +4955,7 @@ export class LogSearch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogSearch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogSearch to import
-  * @param importFromId The id of the existing LogSearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogSearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogSearch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4967,7 +4967,7 @@ export class LogSearch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/log_search sumologic_log_search} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/log_search sumologic_log_search} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4978,8 +4978,8 @@ export class LogSearch extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_log_search',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.8',
-        providerVersionConstraint: '3.1.8'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

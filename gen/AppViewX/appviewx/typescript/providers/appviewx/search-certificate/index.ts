@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate
+// https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SearchCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Category of certificate (e.g., Server)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate#category SearchCertificate#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate#category SearchCertificate#category}
   */
   readonly category: string;
   /**
   * Certificate common name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate#cert_cn SearchCertificate#cert_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate#cert_cn SearchCertificate#cert_cn}
   */
   readonly certCn?: string;
   /**
   * Certificate issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate#cert_issuer SearchCertificate#cert_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate#cert_issuer SearchCertificate#cert_issuer}
   */
   readonly certIssuer?: string;
   /**
   * Certificate SAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate#cert_san SearchCertificate#cert_san}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate#cert_san SearchCertificate#cert_san}
   */
   readonly certSan?: string;
   /**
   * Certificate serial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate#cert_serial_no SearchCertificate#cert_serial_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate#cert_serial_no SearchCertificate#cert_serial_no}
   */
   readonly certSerialNo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate#id SearchCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate#id SearchCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,31 +47,31 @@ export interface SearchCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum number of results to return
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate#max_results SearchCertificate#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate#max_results SearchCertificate#max_results}
   */
   readonly maxResults?: number;
   /**
   * Column to sort results by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate#sort_column SearchCertificate#sort_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate#sort_column SearchCertificate#sort_column}
   */
   readonly sortColumn?: string;
   /**
   * Sort order (asc or desc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate#sort_order SearchCertificate#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate#sort_order SearchCertificate#sort_order}
   */
   readonly sortOrder?: string;
   /**
   * Start index for pagination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate#start_index SearchCertificate#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate#start_index SearchCertificate#start_index}
   */
   readonly startIndex?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate appviewx_search_certificate}
+* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate appviewx_search_certificate}
 */
 export class SearchCertificate extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class SearchCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SearchCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SearchCertificate to import
-  * @param importFromId The id of the existing SearchCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SearchCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SearchCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class SearchCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/search_certificate appviewx_search_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/search_certificate appviewx_search_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class SearchCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'appviewx_search_certificate',
       terraformGeneratorMetadata: {
         providerName: 'appviewx',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -136,6 +136,11 @@ export class SearchCertificate extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // authority_key_identifier - computed: true, optional: false, required: false
+  public get authorityKeyIdentifier() {
+    return this.getStringAttribute('authority_key_identifier');
+  }
 
   // category - computed: false, optional: false, required: true
   private _category?: string; 
@@ -214,6 +219,136 @@ export class SearchCertificate extends cdktf.TerraformResource {
     return this._certSerialNo;
   }
 
+  // certificate_authority - computed: true, optional: false, required: false
+  public get certificateAuthority() {
+    return this.getStringAttribute('certificate_authority');
+  }
+
+  // certificate_common_name - computed: true, optional: false, required: false
+  public get certificateCommonName() {
+    return this.getStringAttribute('certificate_common_name');
+  }
+
+  // certificate_country - computed: true, optional: false, required: false
+  public get certificateCountry() {
+    return this.getStringAttribute('certificate_country');
+  }
+
+  // certificate_email - computed: true, optional: false, required: false
+  public get certificateEmail() {
+    return this.getStringAttribute('certificate_email');
+  }
+
+  // certificate_expiry_status - computed: true, optional: false, required: false
+  public get certificateExpiryStatus() {
+    return this.getStringAttribute('certificate_expiry_status');
+  }
+
+  // certificate_issuer - computed: true, optional: false, required: false
+  public get certificateIssuer() {
+    return this.getStringAttribute('certificate_issuer');
+  }
+
+  // certificate_key_algorithm - computed: true, optional: false, required: false
+  public get certificateKeyAlgorithm() {
+    return this.getStringAttribute('certificate_key_algorithm');
+  }
+
+  // certificate_locality - computed: true, optional: false, required: false
+  public get certificateLocality() {
+    return this.getStringAttribute('certificate_locality');
+  }
+
+  // certificate_organization - computed: true, optional: false, required: false
+  public get certificateOrganization() {
+    return this.getStringAttribute('certificate_organization');
+  }
+
+  // certificate_organizational_unit - computed: true, optional: false, required: false
+  public get certificateOrganizationalUnit() {
+    return this.getStringAttribute('certificate_organizational_unit');
+  }
+
+  // certificate_province - computed: true, optional: false, required: false
+  public get certificateProvince() {
+    return this.getStringAttribute('certificate_province');
+  }
+
+  // certificate_resource_id - computed: true, optional: false, required: false
+  public get certificateResourceId() {
+    return this.getStringAttribute('certificate_resource_id');
+  }
+
+  // certificate_serial_number - computed: true, optional: false, required: false
+  public get certificateSerialNumber() {
+    return this.getStringAttribute('certificate_serial_number');
+  }
+
+  // certificate_signature_algorithm - computed: true, optional: false, required: false
+  public get certificateSignatureAlgorithm() {
+    return this.getStringAttribute('certificate_signature_algorithm');
+  }
+
+  // certificate_status - computed: true, optional: false, required: false
+  public get certificateStatus() {
+    return this.getStringAttribute('certificate_status');
+  }
+
+  // certificate_subject_alternative_names - computed: true, optional: false, required: false
+  public get certificateSubjectAlternativeNames() {
+    return this.getStringAttribute('certificate_subject_alternative_names');
+  }
+
+  // certificate_thumbprint - computed: true, optional: false, required: false
+  public get certificateThumbprint() {
+    return this.getStringAttribute('certificate_thumbprint');
+  }
+
+  // certificate_uuid - computed: true, optional: false, required: false
+  public get certificateUuid() {
+    return this.getStringAttribute('certificate_uuid');
+  }
+
+  // certificate_valid_for - computed: true, optional: false, required: false
+  public get certificateValidFor() {
+    return this.getStringAttribute('certificate_valid_for');
+  }
+
+  // certificate_valid_from - computed: true, optional: false, required: false
+  public get certificateValidFrom() {
+    return this.getStringAttribute('certificate_valid_from');
+  }
+
+  // certificate_valid_from_epoch - computed: true, optional: false, required: false
+  public get certificateValidFromEpoch() {
+    return this.getNumberAttribute('certificate_valid_from_epoch');
+  }
+
+  // certificate_valid_to - computed: true, optional: false, required: false
+  public get certificateValidTo() {
+    return this.getStringAttribute('certificate_valid_to');
+  }
+
+  // certificate_valid_to_epoch - computed: true, optional: false, required: false
+  public get certificateValidToEpoch() {
+    return this.getNumberAttribute('certificate_valid_to_epoch');
+  }
+
+  // certificate_version - computed: true, optional: false, required: false
+  public get certificateVersion() {
+    return this.getStringAttribute('certificate_version');
+  }
+
+  // compliance_status - computed: true, optional: false, required: false
+  public get complianceStatus() {
+    return this.getStringAttribute('compliance_status');
+  }
+
+  // extended_key_usage - computed: true, optional: false, required: false
+  public get extendedKeyUsage() {
+    return this.getStringAttribute('extended_key_usage');
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -228,6 +363,21 @@ export class SearchCertificate extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // key_usage - computed: true, optional: false, required: false
+  public get keyUsage() {
+    return this.getStringAttribute('key_usage');
+  }
+
+  // key_vault_name - computed: true, optional: false, required: false
+  public get keyVaultName() {
+    return this.getStringAttribute('key_vault_name');
+  }
+
+  // key_vault_secret_name - computed: true, optional: false, required: false
+  public get keyVaultSecretName() {
+    return this.getStringAttribute('key_vault_secret_name');
   }
 
   // max_results - computed: false, optional: true, required: false
@@ -294,9 +444,19 @@ export class SearchCertificate extends cdktf.TerraformResource {
     return this._startIndex;
   }
 
+  // subject_key_identifier - computed: true, optional: false, required: false
+  public get subjectKeyIdentifier() {
+    return this.getStringAttribute('subject_key_identifier');
+  }
+
   // total_records - computed: true, optional: false, required: false
   public get totalRecords() {
     return this.getNumberAttribute('total_records');
+  }
+
+  // validity_period - computed: true, optional: false, required: false
+  public get validityPeriod() {
+    return this.getStringAttribute('validity_period');
   }
 
   // =========

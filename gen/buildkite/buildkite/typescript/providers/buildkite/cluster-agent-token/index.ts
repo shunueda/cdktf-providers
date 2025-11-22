@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_agent_token
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_agent_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ClusterAgentTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of CIDR-notation IPv4 addresses from which agents can use this Cluster Agent Token.If not set, all IP addresses are allowed (the same as setting 0.0.0.0/0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_agent_token#allowed_ip_addresses ClusterAgentToken#allowed_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_agent_token#allowed_ip_addresses ClusterAgentToken#allowed_ip_addresses}
   */
   readonly allowedIpAddresses?: string[];
   /**
   * The GraphQL ID of the Cluster that this Cluster Agent Token belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_agent_token#cluster_id ClusterAgentToken#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_agent_token#cluster_id ClusterAgentToken#cluster_id}
   */
   readonly clusterId: string;
   /**
   * A description about what this cluster agent token is used for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_agent_token#description ClusterAgentToken#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_agent_token#description ClusterAgentToken#description}
   */
   readonly description: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_agent_token buildkite_cluster_agent_token}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_agent_token buildkite_cluster_agent_token}
 */
 export class ClusterAgentToken extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ClusterAgentToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterAgentToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterAgentToken to import
-  * @param importFromId The id of the existing ClusterAgentToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_agent_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterAgentToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_agent_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterAgentToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ClusterAgentToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_agent_token buildkite_cluster_agent_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_agent_token buildkite_cluster_agent_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ClusterAgentToken extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_cluster_agent_token',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0',
-        providerVersionConstraint: '1.26.0'
+        providerVersion: '1.27.0',
+        providerVersionConstraint: '1.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

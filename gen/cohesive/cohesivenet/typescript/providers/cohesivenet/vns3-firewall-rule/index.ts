@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule
+// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,70 +10,70 @@ export interface Vns3FirewallRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Firewall comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#comment Vns3FirewallRule#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#comment Vns3FirewallRule#comment}
   */
   readonly comment?: string;
   /**
   * Whether the rule is disabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#disabled Vns3FirewallRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#disabled Vns3FirewallRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Firewall rule groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#groups Vns3FirewallRule#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#groups Vns3FirewallRule#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#id Vns3FirewallRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#id Vns3FirewallRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#last_updated Vns3FirewallRule#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#last_updated Vns3FirewallRule#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * Position of firewall rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#position Vns3FirewallRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#position Vns3FirewallRule#position}
   */
   readonly position?: number;
   /**
   * Firewall rule in VNS3 syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#rule Vns3FirewallRule#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#rule Vns3FirewallRule#rule}
   */
   readonly rule: string;
   /**
   * vns3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#vns3 Vns3FirewallRule#vns3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#vns3 Vns3FirewallRule#vns3}
   */
   readonly vns3?: Vns3FirewallRuleVns3;
 }
 export interface Vns3FirewallRuleVns3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#api_token Vns3FirewallRule#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#api_token Vns3FirewallRule#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#host Vns3FirewallRule#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#host Vns3FirewallRule#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#password Vns3FirewallRule#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#password Vns3FirewallRule#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#timeout Vns3FirewallRule#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#timeout Vns3FirewallRule#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#username Vns3FirewallRule#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#username Vns3FirewallRule#username}
   */
   readonly username?: string;
 }
@@ -273,7 +273,7 @@ export class Vns3FirewallRuleVns3OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule cohesivenet_vns3_firewall_rule}
+* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule cohesivenet_vns3_firewall_rule}
 */
 export class Vns3FirewallRule extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class Vns3FirewallRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vns3FirewallRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vns3FirewallRule to import
-  * @param importFromId The id of the existing Vns3FirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vns3FirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vns3FirewallRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class Vns3FirewallRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_rule cohesivenet_vns3_firewall_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_rule cohesivenet_vns3_firewall_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class Vns3FirewallRule extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_firewall_rule',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

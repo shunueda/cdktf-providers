@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface LocalWindowsEventLogSourceConfig extends cdktf.TerraformMetaArg
   /**
   * Comma-separated list of event IDs to allow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#allow_list LocalWindowsEventLogSource#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#allow_list LocalWindowsEventLogSource#allow_list}
   */
   readonly allowList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#automatic_date_parsing LocalWindowsEventLogSource#automatic_date_parsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#automatic_date_parsing LocalWindowsEventLogSource#automatic_date_parsing}
   */
   readonly automaticDateParsing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#category LocalWindowsEventLogSource#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#category LocalWindowsEventLogSource#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#collector_id LocalWindowsEventLogSource#collector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#collector_id LocalWindowsEventLogSource#collector_id}
   */
   readonly collectorId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#content_type LocalWindowsEventLogSource#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#content_type LocalWindowsEventLogSource#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#cutoff_relative_time LocalWindowsEventLogSource#cutoff_relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#cutoff_relative_time LocalWindowsEventLogSource#cutoff_relative_time}
   */
   readonly cutoffRelativeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#cutoff_timestamp LocalWindowsEventLogSource#cutoff_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#cutoff_timestamp LocalWindowsEventLogSource#cutoff_timestamp}
   */
   readonly cutoffTimestamp?: number;
   /**
   * Comma-separated list of event IDs to deny
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#deny_list LocalWindowsEventLogSource#deny_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#deny_list LocalWindowsEventLogSource#deny_list}
   */
   readonly denyList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#description LocalWindowsEventLogSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#description LocalWindowsEventLogSource#description}
   */
   readonly description?: string;
   /**
   * 0 for legacy format (XML), 1 for JSON format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#event_format LocalWindowsEventLogSource#event_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#event_format LocalWindowsEventLogSource#event_format}
   */
   readonly eventFormat?: number;
   /**
   * 0 for complete message, 1 for message title, 2 for metadata only. Required if event_format is 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#event_message LocalWindowsEventLogSource#event_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#event_message LocalWindowsEventLogSource#event_message}
   */
   readonly eventMessage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#fields LocalWindowsEventLogSource#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#fields LocalWindowsEventLogSource#fields}
   */
   readonly fields?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#force_timezone LocalWindowsEventLogSource#force_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#force_timezone LocalWindowsEventLogSource#force_timezone}
   */
   readonly forceTimezone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#hash_algorithm LocalWindowsEventLogSource#hash_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#hash_algorithm LocalWindowsEventLogSource#hash_algorithm}
   */
   readonly hashAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#host_name LocalWindowsEventLogSource#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#host_name LocalWindowsEventLogSource#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#id LocalWindowsEventLogSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#id LocalWindowsEventLogSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,55 +85,55 @@ export interface LocalWindowsEventLogSourceConfig extends cdktf.TerraformMetaArg
   /**
   * List of Windows log types to collect (e.g., Security, Application, System)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#log_names LocalWindowsEventLogSource#log_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#log_names LocalWindowsEventLogSource#log_names}
   */
   readonly logNames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#manual_prefix_regexp LocalWindowsEventLogSource#manual_prefix_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#manual_prefix_regexp LocalWindowsEventLogSource#manual_prefix_regexp}
   */
   readonly manualPrefixRegexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#multiline_processing_enabled LocalWindowsEventLogSource#multiline_processing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#multiline_processing_enabled LocalWindowsEventLogSource#multiline_processing_enabled}
   */
   readonly multilineProcessingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#name LocalWindowsEventLogSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#name LocalWindowsEventLogSource#name}
   */
   readonly name: string;
   /**
   * When using legacy format, indicates if full event messages are collected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#render_messages LocalWindowsEventLogSource#render_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#render_messages LocalWindowsEventLogSource#render_messages}
   */
   readonly renderMessages?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#timezone LocalWindowsEventLogSource#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#timezone LocalWindowsEventLogSource#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#use_autoline_matching LocalWindowsEventLogSource#use_autoline_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#use_autoline_matching LocalWindowsEventLogSource#use_autoline_matching}
   */
   readonly useAutolineMatching?: boolean | cdktf.IResolvable;
   /**
   * default_date_formats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#default_date_formats LocalWindowsEventLogSource#default_date_formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#default_date_formats LocalWindowsEventLogSource#default_date_formats}
   */
   readonly defaultDateFormats?: LocalWindowsEventLogSourceDefaultDateFormats[] | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#filters LocalWindowsEventLogSource#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#filters LocalWindowsEventLogSource#filters}
   */
   readonly filters?: LocalWindowsEventLogSourceFilters[] | cdktf.IResolvable;
 }
 export interface LocalWindowsEventLogSourceDefaultDateFormats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#format LocalWindowsEventLogSource#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#format LocalWindowsEventLogSource#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#locator LocalWindowsEventLogSource#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#locator LocalWindowsEventLogSource#locator}
   */
   readonly locator?: string;
 }
@@ -275,19 +275,19 @@ export class LocalWindowsEventLogSourceDefaultDateFormatsList extends cdktf.Comp
 }
 export interface LocalWindowsEventLogSourceFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#filter_type LocalWindowsEventLogSource#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#filter_type LocalWindowsEventLogSource#filter_type}
   */
   readonly filterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#mask LocalWindowsEventLogSource#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#mask LocalWindowsEventLogSource#mask}
   */
   readonly mask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#name LocalWindowsEventLogSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#name LocalWindowsEventLogSource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#regexp LocalWindowsEventLogSource#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#regexp LocalWindowsEventLogSource#regexp}
   */
   readonly regexp: string;
 }
@@ -481,7 +481,7 @@ export class LocalWindowsEventLogSourceFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source sumologic_local_windows_event_log_source}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source sumologic_local_windows_event_log_source}
 */
 export class LocalWindowsEventLogSource extends cdktf.TerraformResource {
 
@@ -497,7 +497,7 @@ export class LocalWindowsEventLogSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LocalWindowsEventLogSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LocalWindowsEventLogSource to import
-  * @param importFromId The id of the existing LocalWindowsEventLogSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LocalWindowsEventLogSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LocalWindowsEventLogSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -509,7 +509,7 @@ export class LocalWindowsEventLogSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/local_windows_event_log_source sumologic_local_windows_event_log_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/local_windows_event_log_source sumologic_local_windows_event_log_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -520,8 +520,8 @@ export class LocalWindowsEventLogSource extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_local_windows_event_log_source',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.8',
-        providerVersionConstraint: '3.1.8'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/lock
+// https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/lock
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface LockConfig extends cdktf.TerraformMetaArguments {
   /**
   * Can lock be modified by users other than its creator?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/lock#allow_access_by_any_user Lock#allow_access_by_any_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/lock#allow_access_by_any_user Lock#allow_access_by_any_user}
   */
   readonly allowAccessByAnyUser?: boolean | cdktf.IResolvable;
   /**
   * Is lock exclusive?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/lock#exclusive Lock#exclusive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/lock#exclusive Lock#exclusive}
   */
   readonly exclusive?: boolean | cdktf.IResolvable;
   /**
   * Path. This must be slash-delimited, but it must neither start nor end with a slash. Maximum of 5000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/lock#path Lock#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/lock#path Lock#path}
   */
   readonly path: string;
   /**
   * Does lock apply to subfolders?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/lock#recursive Lock#recursive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/lock#recursive Lock#recursive}
   */
   readonly recursive?: boolean | cdktf.IResolvable;
   /**
   * Lock timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/lock#timeout Lock#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/lock#timeout Lock#timeout}
   */
   readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/lock files_lock}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/lock files_lock}
 */
 export class Lock extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Lock extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Lock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lock to import
-  * @param importFromId The id of the existing Lock that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/lock#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lock that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/lock#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Lock extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/lock files_lock} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/lock files_lock} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Lock extends cdktf.TerraformResource {
       terraformResourceType: 'files_lock',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.392',
-        providerVersionConstraint: '0.1.392'
+        providerVersion: '0.1.394',
+        providerVersionConstraint: '0.1.394'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

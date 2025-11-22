@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregation_rule
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataEquinixFabricRouteAggregationRuleConfig extends cdktf.Terra
   /**
   * Customer-provided route aggregation rule description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregation_rule#description DataEquinixFabricRouteAggregationRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rule#description DataEquinixFabricRouteAggregationRule#description}
   */
   readonly description?: string;
   /**
   * The uuid of the route aggregation this data source should retrieve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregation_rule#route_aggregation_id DataEquinixFabricRouteAggregationRule#route_aggregation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rule#route_aggregation_id DataEquinixFabricRouteAggregationRule#route_aggregation_id}
   */
   readonly routeAggregationId: string;
   /**
   * The uuid of the route aggregation rule this data source should retrieve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregation_rule#route_aggregation_rule_id DataEquinixFabricRouteAggregationRule#route_aggregation_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rule#route_aggregation_rule_id DataEquinixFabricRouteAggregationRule#route_aggregation_rule_id}
   */
   readonly routeAggregationRuleId: string;
 }
@@ -30,13 +30,13 @@ export interface DataEquinixFabricRouteAggregationRuleChange {
   /**
   * Equinix defined Route Aggregation Change Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregation_rule#type DataEquinixFabricRouteAggregationRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rule#type DataEquinixFabricRouteAggregationRule#type}
   */
   readonly type: string;
   /**
   * Equinix-assigned unique id for a change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregation_rule#uuid DataEquinixFabricRouteAggregationRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rule#uuid DataEquinixFabricRouteAggregationRule#uuid}
   */
   readonly uuid: string;
 }
@@ -257,7 +257,7 @@ export class DataEquinixFabricRouteAggregationRuleChangeLogOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregation_rule equinix_fabric_route_aggregation_rule}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rule equinix_fabric_route_aggregation_rule}
 */
 export class DataEquinixFabricRouteAggregationRule extends cdktf.TerraformDataSource {
 
@@ -273,7 +273,7 @@ export class DataEquinixFabricRouteAggregationRule extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataEquinixFabricRouteAggregationRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricRouteAggregationRule to import
-  * @param importFromId The id of the existing DataEquinixFabricRouteAggregationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregation_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricRouteAggregationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricRouteAggregationRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class DataEquinixFabricRouteAggregationRule extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_route_aggregation_rule equinix_fabric_route_aggregation_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rule equinix_fabric_route_aggregation_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,8 +296,8 @@ export class DataEquinixFabricRouteAggregationRule extends cdktf.TerraformDataSo
       terraformResourceType: 'equinix_fabric_route_aggregation_rule',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

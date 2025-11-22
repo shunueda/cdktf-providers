@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/databases
+// https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/databases
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAstraDatabasesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cloud provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/databases#cloud_provider DataAstraDatabases#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/databases#cloud_provider DataAstraDatabases#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/databases#id DataAstraDatabases#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/databases#id DataAstraDatabases#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataAstraDatabasesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Status filter. Only return databases with matching status, if supplied. Otherwise return all databases matching other requirements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/databases#status DataAstraDatabases#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/databases#status DataAstraDatabases#status}
   */
   readonly status?: string;
 }
@@ -190,7 +190,7 @@ export class DataAstraDatabasesResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/databases astra_databases}
+* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/databases astra_databases}
 */
 export class DataAstraDatabases extends cdktf.TerraformDataSource {
 
@@ -206,7 +206,7 @@ export class DataAstraDatabases extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAstraDatabases resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAstraDatabases to import
-  * @param importFromId The id of the existing DataAstraDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/databases#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAstraDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/databases#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAstraDatabases to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class DataAstraDatabases extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/databases astra_databases} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/databases astra_databases} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class DataAstraDatabases extends cdktf.TerraformDataSource {
       terraformResourceType: 'astra_databases',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18',
-        providerVersionConstraint: '2.3.18'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

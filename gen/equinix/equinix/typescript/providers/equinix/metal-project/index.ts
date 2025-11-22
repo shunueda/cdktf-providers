@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_project
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface MetalProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable or disable [Backend Transfer](https://metal.equinix.com/developers/docs/networking/backend-transfer/), default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_project#backend_transfer MetalProject#backend_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_project#backend_transfer MetalProject#backend_transfer}
   */
   readonly backendTransfer?: boolean | cdktf.IResolvable;
   /**
   * The name of the project. The maximum length is 80 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_project#name MetalProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_project#name MetalProject#name}
   */
   readonly name: string;
   /**
   * The UUID of organization under which the project is created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_project#organization_id MetalProject#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_project#organization_id MetalProject#organization_id}
   */
   readonly organizationId?: string;
   /**
   * The UUID of payment method for this project. The payment method and the project need to belong to the same organization (passed with organization_id, or default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_project#payment_method_id MetalProject#payment_method_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_project#payment_method_id MetalProject#payment_method_id}
   */
   readonly paymentMethodId?: string;
   /**
   * bgp_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_project#bgp_config MetalProject#bgp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_project#bgp_config MetalProject#bgp_config}
   */
   readonly bgpConfig?: MetalProjectBgpConfig[] | cdktf.IResolvable;
 }
@@ -42,19 +42,19 @@ export interface MetalProjectBgpConfig {
   /**
   * Autonomous System Number for local BGP deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_project#asn MetalProject#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_project#asn MetalProject#asn}
   */
   readonly asn: number;
   /**
   * The BGP deployment type, either 'local' or 'global'. The local is likely to be usable immediately, the global will need to be review by Equinix Metal engineers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_project#deployment_type MetalProject#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_project#deployment_type MetalProject#deployment_type}
   */
   readonly deploymentType: string;
   /**
   * Password for BGP session in plaintext (not a checksum)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_project#md5 MetalProject#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_project#md5 MetalProject#md5}
   */
   readonly md5?: string;
 }
@@ -232,7 +232,7 @@ export class MetalProjectBgpConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_project equinix_metal_project}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_project equinix_metal_project}
 */
 export class MetalProject extends cdktf.TerraformResource {
 
@@ -248,7 +248,7 @@ export class MetalProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalProject to import
-  * @param importFromId The id of the existing MetalProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class MetalProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_project equinix_metal_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_project equinix_metal_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class MetalProject extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_project',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

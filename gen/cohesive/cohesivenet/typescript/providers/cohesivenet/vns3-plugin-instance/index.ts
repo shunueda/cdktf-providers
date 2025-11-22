@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance
+// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface Vns3PluginInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Start command for the plugin instance. Either /opt/cohesive/container_startup.sh or /usr/bin/supervisord
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#command Vns3PluginInstance#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#command Vns3PluginInstance#command}
   */
   readonly command?: string;
   /**
   * Description of instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#description Vns3PluginInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#description Vns3PluginInstance#description}
   */
   readonly description?: string;
   /**
   * Key-value pairs of metadata for the plugin image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#environment_variables Vns3PluginInstance#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#environment_variables Vns3PluginInstance#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#id Vns3PluginInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#id Vns3PluginInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,41 +35,41 @@ export interface Vns3PluginInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP address of deployed image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#ip_address Vns3PluginInstance#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#ip_address Vns3PluginInstance#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#last_updated Vns3PluginInstance#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#last_updated Vns3PluginInstance#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * Name of instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#name Vns3PluginInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#name Vns3PluginInstance#name}
   */
   readonly name: string;
   /**
   * Plugin instance configuration file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#plugin_config Vns3PluginInstance#plugin_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#plugin_config Vns3PluginInstance#plugin_config}
   */
   readonly pluginConfig?: string;
   /**
   * ID of plugin image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#plugin_id Vns3PluginInstance#plugin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#plugin_id Vns3PluginInstance#plugin_id}
   */
   readonly pluginId: number;
   /**
   * plugin_config_files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#plugin_config_files Vns3PluginInstance#plugin_config_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#plugin_config_files Vns3PluginInstance#plugin_config_files}
   */
   readonly pluginConfigFiles?: Vns3PluginInstancePluginConfigFiles[] | cdktf.IResolvable;
   /**
   * vns3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#vns3 Vns3PluginInstance#vns3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#vns3 Vns3PluginInstance#vns3}
   */
   readonly vns3?: Vns3PluginInstanceVns3;
 }
@@ -77,13 +77,13 @@ export interface Vns3PluginInstancePluginConfigFiles {
   /**
   * Content of the configuration file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#content Vns3PluginInstance#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#content Vns3PluginInstance#content}
   */
   readonly content: string;
   /**
   * Name of the configuration file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#filename Vns3PluginInstance#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#filename Vns3PluginInstance#filename}
   */
   readonly filename: string;
 }
@@ -222,23 +222,23 @@ export class Vns3PluginInstancePluginConfigFilesList extends cdktf.ComplexList {
 }
 export interface Vns3PluginInstanceVns3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#api_token Vns3PluginInstance#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#api_token Vns3PluginInstance#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#host Vns3PluginInstance#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#host Vns3PluginInstance#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#password Vns3PluginInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#password Vns3PluginInstance#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#timeout Vns3PluginInstance#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#timeout Vns3PluginInstance#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#username Vns3PluginInstance#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#username Vns3PluginInstance#username}
   */
   readonly username?: string;
 }
@@ -438,7 +438,7 @@ export class Vns3PluginInstanceVns3OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance cohesivenet_vns3_plugin_instance}
+* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance cohesivenet_vns3_plugin_instance}
 */
 export class Vns3PluginInstance extends cdktf.TerraformResource {
 
@@ -454,7 +454,7 @@ export class Vns3PluginInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vns3PluginInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vns3PluginInstance to import
-  * @param importFromId The id of the existing Vns3PluginInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vns3PluginInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vns3PluginInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -466,7 +466,7 @@ export class Vns3PluginInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_plugin_instance cohesivenet_vns3_plugin_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_plugin_instance cohesivenet_vns3_plugin_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -477,8 +477,8 @@ export class Vns3PluginInstance extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_plugin_instance',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

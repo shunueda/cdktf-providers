@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface CseEntityEntityGroupConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration#criticality CseEntityEntityGroupConfiguration#criticality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration#criticality CseEntityEntityGroupConfiguration#criticality}
   */
   readonly criticality?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration#description CseEntityEntityGroupConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration#description CseEntityEntityGroupConfiguration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration#entity_namespace CseEntityEntityGroupConfiguration#entity_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration#entity_namespace CseEntityEntityGroupConfiguration#entity_namespace}
   */
   readonly entityNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration#entity_type CseEntityEntityGroupConfiguration#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration#entity_type CseEntityEntityGroupConfiguration#entity_type}
   */
   readonly entityType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration#id CseEntityEntityGroupConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration#id CseEntityEntityGroupConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration#name CseEntityEntityGroupConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration#name CseEntityEntityGroupConfiguration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration#network_block CseEntityEntityGroupConfiguration#network_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration#network_block CseEntityEntityGroupConfiguration#network_block}
   */
   readonly networkBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration#prefix CseEntityEntityGroupConfiguration#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration#prefix CseEntityEntityGroupConfiguration#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration#suffix CseEntityEntityGroupConfiguration#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration#suffix CseEntityEntityGroupConfiguration#suffix}
   */
   readonly suffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration#suppressed CseEntityEntityGroupConfiguration#suppressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration#suppressed CseEntityEntityGroupConfiguration#suppressed}
   */
   readonly suppressed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration#tags CseEntityEntityGroupConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration#tags CseEntityEntityGroupConfiguration#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration sumologic_cse_entity_entity_group_configuration}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration sumologic_cse_entity_entity_group_configuration}
 */
 export class CseEntityEntityGroupConfiguration extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class CseEntityEntityGroupConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CseEntityEntityGroupConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CseEntityEntityGroupConfiguration to import
-  * @param importFromId The id of the existing CseEntityEntityGroupConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CseEntityEntityGroupConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CseEntityEntityGroupConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class CseEntityEntityGroupConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_entity_entity_group_configuration sumologic_cse_entity_entity_group_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_entity_entity_group_configuration sumologic_cse_entity_entity_group_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class CseEntityEntityGroupConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_cse_entity_entity_group_configuration',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.8',
-        providerVersionConstraint: '3.1.8'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

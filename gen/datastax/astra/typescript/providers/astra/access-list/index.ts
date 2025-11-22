@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/access_list
+// https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/access_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AccessListConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Astra database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/access_list#database_id AccessList#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/access_list#database_id AccessList#database_id}
   */
   readonly databaseId: string;
   /**
   * Public access restrictions enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/access_list#enabled AccessList#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/access_list#enabled AccessList#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/access_list#id AccessList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/access_list#id AccessList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface AccessListConfig extends cdktf.TerraformMetaArguments {
   /**
   * addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/access_list#addresses AccessList#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/access_list#addresses AccessList#addresses}
   */
   readonly addresses?: AccessListAddresses[] | cdktf.IResolvable;
 }
@@ -37,19 +37,19 @@ export interface AccessListAddresses {
   /**
   * IP Address/CIDR group that should have access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/access_list#address AccessList#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/access_list#address AccessList#address}
   */
   readonly address: string;
   /**
   * Description for the IP Address/CIDR group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/access_list#description AccessList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/access_list#description AccessList#description}
   */
   readonly description?: string;
   /**
   * Enable/disable this IP Address/CIDR group's access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/access_list#enabled AccessList#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/access_list#enabled AccessList#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -217,7 +217,7 @@ export class AccessListAddressesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/access_list astra_access_list}
+* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/access_list astra_access_list}
 */
 export class AccessList extends cdktf.TerraformResource {
 
@@ -233,7 +233,7 @@ export class AccessList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessList to import
-  * @param importFromId The id of the existing AccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/access_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/access_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -245,7 +245,7 @@ export class AccessList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/access_list astra_access_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/access_list astra_access_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -256,8 +256,8 @@ export class AccessList extends cdktf.TerraformResource {
       terraformResourceType: 'astra_access_list',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18',
-        providerVersionConstraint: '2.3.18'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

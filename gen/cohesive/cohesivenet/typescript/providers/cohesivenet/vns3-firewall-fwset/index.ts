@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset
+// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,42 +10,42 @@ export interface Vns3FirewallFwsetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of fwset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#description Vns3FirewallFwset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#description Vns3FirewallFwset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#id Vns3FirewallFwset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#id Vns3FirewallFwset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#last_updated Vns3FirewallFwset#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#last_updated Vns3FirewallFwset#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * Name of fwset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#name Vns3FirewallFwset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#name Vns3FirewallFwset#name}
   */
   readonly name: string;
   /**
   * Type of fwset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#type Vns3FirewallFwset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#type Vns3FirewallFwset#type}
   */
   readonly type: string;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#entries Vns3FirewallFwset#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#entries Vns3FirewallFwset#entries}
   */
   readonly entries?: Vns3FirewallFwsetEntries[] | cdktf.IResolvable;
   /**
   * vns3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#vns3 Vns3FirewallFwset#vns3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#vns3 Vns3FirewallFwset#vns3}
   */
   readonly vns3?: Vns3FirewallFwsetVns3;
 }
@@ -53,13 +53,13 @@ export interface Vns3FirewallFwsetEntries {
   /**
   * fwset entry comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#comment Vns3FirewallFwset#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#comment Vns3FirewallFwset#comment}
   */
   readonly comment: string;
   /**
   * fwset entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#entry Vns3FirewallFwset#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#entry Vns3FirewallFwset#entry}
   */
   readonly entry: string;
 }
@@ -213,23 +213,23 @@ export class Vns3FirewallFwsetEntriesList extends cdktf.ComplexList {
 }
 export interface Vns3FirewallFwsetVns3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#api_token Vns3FirewallFwset#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#api_token Vns3FirewallFwset#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#host Vns3FirewallFwset#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#host Vns3FirewallFwset#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#password Vns3FirewallFwset#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#password Vns3FirewallFwset#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#timeout Vns3FirewallFwset#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#timeout Vns3FirewallFwset#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#username Vns3FirewallFwset#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#username Vns3FirewallFwset#username}
   */
   readonly username?: string;
 }
@@ -429,7 +429,7 @@ export class Vns3FirewallFwsetVns3OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset cohesivenet_vns3_firewall_fwset}
+* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset cohesivenet_vns3_firewall_fwset}
 */
 export class Vns3FirewallFwset extends cdktf.TerraformResource {
 
@@ -445,7 +445,7 @@ export class Vns3FirewallFwset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vns3FirewallFwset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vns3FirewallFwset to import
-  * @param importFromId The id of the existing Vns3FirewallFwset that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vns3FirewallFwset that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vns3FirewallFwset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -457,7 +457,7 @@ export class Vns3FirewallFwset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_firewall_fwset cohesivenet_vns3_firewall_fwset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_firewall_fwset cohesivenet_vns3_firewall_fwset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -468,8 +468,8 @@ export class Vns3FirewallFwset extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_firewall_fwset',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/data-sources/recording_rules_groups_set
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/data-sources/recording_rules_groups_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCoralogixRecordingRulesGroupsSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/data-sources/recording_rules_groups_set#id DataCoralogixRecordingRulesGroupsSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/data-sources/recording_rules_groups_set#id DataCoralogixRecordingRulesGroupsSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -194,7 +194,7 @@ export class DataCoralogixRecordingRulesGroupsSetGroupsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/data-sources/recording_rules_groups_set coralogix_recording_rules_groups_set}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/data-sources/recording_rules_groups_set coralogix_recording_rules_groups_set}
 */
 export class DataCoralogixRecordingRulesGroupsSet extends cdktf.TerraformDataSource {
 
@@ -210,7 +210,7 @@ export class DataCoralogixRecordingRulesGroupsSet extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataCoralogixRecordingRulesGroupsSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCoralogixRecordingRulesGroupsSet to import
-  * @param importFromId The id of the existing DataCoralogixRecordingRulesGroupsSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/data-sources/recording_rules_groups_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCoralogixRecordingRulesGroupsSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/data-sources/recording_rules_groups_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCoralogixRecordingRulesGroupsSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class DataCoralogixRecordingRulesGroupsSet extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/data-sources/recording_rules_groups_set coralogix_recording_rules_groups_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/data-sources/recording_rules_groups_set coralogix_recording_rules_groups_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class DataCoralogixRecordingRulesGroupsSet extends cdktf.TerraformDataSou
       terraformResourceType: 'coralogix_recording_rules_groups_set',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

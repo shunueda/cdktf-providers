@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/keyspace
+// https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/keyspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAstraKeyspaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Astra database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/keyspace#database_id DataAstraKeyspace#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/keyspace#database_id DataAstraKeyspace#database_id}
   */
   readonly databaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/keyspace#id DataAstraKeyspace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/keyspace#id DataAstraKeyspace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataAstraKeyspaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The keyspace name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/keyspace#name DataAstraKeyspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/keyspace#name DataAstraKeyspace#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/keyspace astra_keyspace}
+* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/keyspace astra_keyspace}
 */
 export class DataAstraKeyspace extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataAstraKeyspace extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAstraKeyspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAstraKeyspace to import
-  * @param importFromId The id of the existing DataAstraKeyspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/keyspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAstraKeyspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/keyspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAstraKeyspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataAstraKeyspace extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/data-sources/keyspace astra_keyspace} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/data-sources/keyspace astra_keyspace} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataAstraKeyspace extends cdktf.TerraformDataSource {
       terraformResourceType: 'astra_keyspace',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18',
-        providerVersionConstraint: '2.3.18'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

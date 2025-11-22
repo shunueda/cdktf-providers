@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster
+// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface VirtualClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Virtual Cluster Cloud Location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#cloud VirtualCluster#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#cloud VirtualCluster#cloud}
   */
   readonly cloud?: VirtualClusterCloud;
   /**
   * Virtual Cluster Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#configuration VirtualCluster#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#configuration VirtualCluster#configuration}
   */
   readonly configuration?: VirtualClusterConfiguration;
   /**
   * Virtual Cluster Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#name VirtualCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#name VirtualCluster#name}
   */
   readonly name: string;
   /**
   * Tags associated with the virtual cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#tags VirtualCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#tags VirtualCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Virtual Cluster Tier. Currently, the valid virtual cluster tiers are `dev`, `pro`, `fundamentals`, and `enterprise`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#tier VirtualCluster#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#tier VirtualCluster#tier}
   */
   readonly tier: string;
   /**
   * Virtual Cluster Type. Currently, the only valid virtual cluster types is `byoc` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#type VirtualCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#type VirtualCluster#type}
   */
   readonly type?: string;
 }
@@ -143,19 +143,19 @@ export interface VirtualClusterCloud {
   /**
   * Cloud Provider. Valid providers are: `aws` (default), `gcp`, and `azure`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#provider VirtualCluster#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#provider VirtualCluster#provider}
   */
   readonly provider?: string;
   /**
   * Cloud Region. Defaults to null. Can't be set if `region_group` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#region VirtualCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#region VirtualCluster#region}
   */
   readonly region?: string;
   /**
   * Cloud Region Group. Defaults to null. Can't be set if `region` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#region_group VirtualCluster#region_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#region_group VirtualCluster#region_group}
   */
   readonly regionGroup?: string;
 }
@@ -309,33 +309,45 @@ export interface VirtualClusterConfiguration {
   /**
   * Enable topic autocreation feature, defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#auto_create_topic VirtualCluster#auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#auto_create_topic VirtualCluster#auto_create_topic}
   */
   readonly autoCreateTopic?: boolean | cdktf.IResolvable;
   /**
   * Number of partitions created by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#default_num_partitions VirtualCluster#default_num_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#default_num_partitions VirtualCluster#default_num_partitions}
   */
   readonly defaultNumPartitions?: number;
   /**
   * Default retention for topics that are created automatically using Kafka's topic auto-creation feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#default_retention_millis VirtualCluster#default_retention_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#default_retention_millis VirtualCluster#default_retention_millis}
   */
   readonly defaultRetentionMillis?: number;
   /**
   * Enable ACLs, defaults to `false`. See [Configure ACLs](https://docs.warpstream.com/warpstream/configuration/configure-acls)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#enable_acls VirtualCluster#enable_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#enable_acls VirtualCluster#enable_acls}
   */
   readonly enableAcls?: boolean | cdktf.IResolvable;
   /**
   * Enable deletion protection, defaults to `false`. If set to true, it is impossible to delete this cluster. enable_deletion_protection needs to be set to false before deleting the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#enable_deletion_protection VirtualCluster#enable_deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#enable_deletion_protection VirtualCluster#enable_deletion_protection}
   */
   readonly enableDeletionProtection?: boolean | cdktf.IResolvable;
+  /**
+  * Enable soft deletion for topics. Defaults to `true`. If true, topic deletion will be a soft deletion. For clusters with the Fundamentals tier or above, it will be possible to restore topics for some time after deletion. If false, deleting a topic will immediately delete of all of its data, with no way to recover it.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#enable_soft_topic_deletion VirtualCluster#enable_soft_topic_deletion}
+  */
+  readonly enableSoftTopicDeletion?: boolean | cdktf.IResolvable;
+  /**
+  * If enable_soft_topic_deletion is true, a deleted topic's data will be kept for this many milliseconds before being irrecoverably deleted. Defaults to 24 hours.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#soft_topic_deletion_ttl_millis VirtualCluster#soft_topic_deletion_ttl_millis}
+  */
+  readonly softTopicDeletionTtlMillis?: number;
 }
 
 export function virtualClusterConfigurationToTerraform(struct?: VirtualClusterConfiguration | cdktf.IResolvable): any {
@@ -349,6 +361,8 @@ export function virtualClusterConfigurationToTerraform(struct?: VirtualClusterCo
     default_retention_millis: cdktf.numberToTerraform(struct!.defaultRetentionMillis),
     enable_acls: cdktf.booleanToTerraform(struct!.enableAcls),
     enable_deletion_protection: cdktf.booleanToTerraform(struct!.enableDeletionProtection),
+    enable_soft_topic_deletion: cdktf.booleanToTerraform(struct!.enableSoftTopicDeletion),
+    soft_topic_deletion_ttl_millis: cdktf.numberToTerraform(struct!.softTopicDeletionTtlMillis),
   }
 }
 
@@ -388,6 +402,18 @@ export function virtualClusterConfigurationToHclTerraform(struct?: VirtualCluste
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    enable_soft_topic_deletion: {
+      value: cdktf.booleanToHclTerraform(struct!.enableSoftTopicDeletion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    soft_topic_deletion_ttl_millis: {
+      value: cdktf.numberToHclTerraform(struct!.softTopicDeletionTtlMillis),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
   };
 
@@ -433,6 +459,14 @@ export class VirtualClusterConfigurationOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.enableDeletionProtection = this._enableDeletionProtection;
     }
+    if (this._enableSoftTopicDeletion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableSoftTopicDeletion = this._enableSoftTopicDeletion;
+    }
+    if (this._softTopicDeletionTtlMillis !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.softTopicDeletionTtlMillis = this._softTopicDeletionTtlMillis;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -445,6 +479,8 @@ export class VirtualClusterConfigurationOutputReference extends cdktf.ComplexObj
       this._defaultRetentionMillis = undefined;
       this._enableAcls = undefined;
       this._enableDeletionProtection = undefined;
+      this._enableSoftTopicDeletion = undefined;
+      this._softTopicDeletionTtlMillis = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -458,6 +494,8 @@ export class VirtualClusterConfigurationOutputReference extends cdktf.ComplexObj
       this._defaultRetentionMillis = value.defaultRetentionMillis;
       this._enableAcls = value.enableAcls;
       this._enableDeletionProtection = value.enableDeletionProtection;
+      this._enableSoftTopicDeletion = value.enableSoftTopicDeletion;
+      this._softTopicDeletionTtlMillis = value.softTopicDeletionTtlMillis;
     }
   }
 
@@ -540,10 +578,42 @@ export class VirtualClusterConfigurationOutputReference extends cdktf.ComplexObj
   public get enableDeletionProtectionInput() {
     return this._enableDeletionProtection;
   }
+
+  // enable_soft_topic_deletion - computed: true, optional: true, required: false
+  private _enableSoftTopicDeletion?: boolean | cdktf.IResolvable; 
+  public get enableSoftTopicDeletion() {
+    return this.getBooleanAttribute('enable_soft_topic_deletion');
+  }
+  public set enableSoftTopicDeletion(value: boolean | cdktf.IResolvable) {
+    this._enableSoftTopicDeletion = value;
+  }
+  public resetEnableSoftTopicDeletion() {
+    this._enableSoftTopicDeletion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableSoftTopicDeletionInput() {
+    return this._enableSoftTopicDeletion;
+  }
+
+  // soft_topic_deletion_ttl_millis - computed: true, optional: true, required: false
+  private _softTopicDeletionTtlMillis?: number; 
+  public get softTopicDeletionTtlMillis() {
+    return this.getNumberAttribute('soft_topic_deletion_ttl_millis');
+  }
+  public set softTopicDeletionTtlMillis(value: number) {
+    this._softTopicDeletionTtlMillis = value;
+  }
+  public resetSoftTopicDeletionTtlMillis() {
+    this._softTopicDeletionTtlMillis = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get softTopicDeletionTtlMillisInput() {
+    return this._softTopicDeletionTtlMillis;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster warpstream_virtual_cluster}
+* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster warpstream_virtual_cluster}
 */
 export class VirtualCluster extends cdktf.TerraformResource {
 
@@ -559,7 +629,7 @@ export class VirtualCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualCluster to import
-  * @param importFromId The id of the existing VirtualCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -571,7 +641,7 @@ export class VirtualCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster warpstream_virtual_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.2/docs/resources/virtual_cluster warpstream_virtual_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -582,8 +652,8 @@ export class VirtualCluster extends cdktf.TerraformResource {
       terraformResourceType: 'warpstream_virtual_cluster',
       terraformGeneratorMetadata: {
         providerName: 'warpstream',
-        providerVersion: '2.3.1',
-        providerVersionConstraint: '2.3.1'
+        providerVersion: '2.3.2',
+        providerVersionConstraint: '2.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

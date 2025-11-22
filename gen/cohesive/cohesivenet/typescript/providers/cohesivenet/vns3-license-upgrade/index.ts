@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade
+// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface Vns3LicenseUpgradeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comma separated list of clientpack ips
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade#clientpack_ips Vns3LicenseUpgrade#clientpack_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade#clientpack_ips Vns3LicenseUpgrade#clientpack_ips}
   */
   readonly clientpackIps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade#id Vns3LicenseUpgrade#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade#id Vns3LicenseUpgrade#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface Vns3LicenseUpgradeConfig extends cdktf.TerraformMetaArguments {
   /**
   * License upgrade file path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade#license_upgrade_key Vns3LicenseUpgrade#license_upgrade_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade#license_upgrade_key Vns3LicenseUpgrade#license_upgrade_key}
   */
   readonly licenseUpgradeKey?: string;
   /**
   * Comma separated list of manager ips
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade#manager_ips Vns3LicenseUpgrade#manager_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade#manager_ips Vns3LicenseUpgrade#manager_ips}
   */
   readonly managerIps?: string;
   /**
   * vns3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade#vns3 Vns3LicenseUpgrade#vns3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade#vns3 Vns3LicenseUpgrade#vns3}
   */
   readonly vns3?: Vns3LicenseUpgradeVns3;
 }
 export interface Vns3LicenseUpgradeVns3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade#api_token Vns3LicenseUpgrade#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade#api_token Vns3LicenseUpgrade#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade#host Vns3LicenseUpgrade#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade#host Vns3LicenseUpgrade#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade#password Vns3LicenseUpgrade#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade#password Vns3LicenseUpgrade#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade#timeout Vns3LicenseUpgrade#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade#timeout Vns3LicenseUpgrade#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade#username Vns3LicenseUpgrade#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade#username Vns3LicenseUpgrade#username}
   */
   readonly username?: string;
 }
@@ -257,7 +257,7 @@ export class Vns3LicenseUpgradeVns3OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade cohesivenet_vns3_license_upgrade}
+* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade cohesivenet_vns3_license_upgrade}
 */
 export class Vns3LicenseUpgrade extends cdktf.TerraformResource {
 
@@ -273,7 +273,7 @@ export class Vns3LicenseUpgrade extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vns3LicenseUpgrade resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vns3LicenseUpgrade to import
-  * @param importFromId The id of the existing Vns3LicenseUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vns3LicenseUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vns3LicenseUpgrade to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class Vns3LicenseUpgrade extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_license_upgrade cohesivenet_vns3_license_upgrade} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_license_upgrade cohesivenet_vns3_license_upgrade} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,8 +296,8 @@ export class Vns3LicenseUpgrade extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_license_upgrade',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_template
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface PipelineTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * If the pipeline template is available for assignment by non admin users. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_template#available PipelineTemplate#available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_template#available PipelineTemplate#available}
   */
   readonly available?: boolean | cdktf.IResolvable;
   /**
   * The YAML step configuration for the pipeline template. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_template#configuration PipelineTemplate#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_template#configuration PipelineTemplate#configuration}
   */
   readonly configuration: string;
   /**
   * A description for the pipeline template. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_template#description PipelineTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_template#description PipelineTemplate#description}
   */
   readonly description?: string;
   /**
   * The name of the pipeline template. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_template#name PipelineTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_template#name PipelineTemplate#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_template buildkite_pipeline_template}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_template buildkite_pipeline_template}
 */
 export class PipelineTemplate extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class PipelineTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PipelineTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PipelineTemplate to import
-  * @param importFromId The id of the existing PipelineTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PipelineTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PipelineTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class PipelineTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/pipeline_template buildkite_pipeline_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline_template buildkite_pipeline_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class PipelineTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_pipeline_template',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0',
-        providerVersionConstraint: '1.26.0'
+        providerVersion: '1.27.0',
+        providerVersionConstraint: '1.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink
+// https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,99 @@ import * as cdktf from 'cdktf';
 
 export interface StreamingSinkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Name of the sink archive type to use. Defaults to the value of sink_name.  Must be formatted as a URL, e.g. 'builtin://jdbc-clickhouse
+  * Name of the sink archive type to use, e.g. 'builtin://kafka'. It is recommended to set this field even though it is marked optional. Defaults to the value of sink_name. Must be formatted as a URL, e.g. 'builtin://jdbc-clickhouse'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#archive StreamingSink#archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#archive StreamingSink#archive}
   */
   readonly archive?: string;
   /**
   * auto ack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#auto_ack StreamingSink#auto_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#auto_ack StreamingSink#auto_ack}
   */
   readonly autoAck: boolean | cdktf.IResolvable;
   /**
-  * Cloud provider
+  * Cloud provider (deprecated, use `cluster` instead)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#cloud_provider StreamingSink#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#cloud_provider StreamingSink#cloud_provider}
   */
-  readonly cloudProvider: string;
+  readonly cloudProvider?: string;
+  /**
+  * Name of the pulsar cluster in which to create the sink. If left blank, the name will be inferred from the cloud provider and region.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#cluster StreamingSink#cluster}
+  */
+  readonly cluster?: string;
   /**
   * Whether or not to allow Terraform to destroy this streaming sink. Unless this field is set to false in Terraform state, a `terraform destroy` or `terraform apply` command that deletes the instance will fail. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#deletion_protection StreamingSink#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#deletion_protection StreamingSink#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#id StreamingSink#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
   * Pulsar Namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#namespace StreamingSink#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#namespace StreamingSink#namespace}
   */
   readonly namespace: string;
   /**
   * Parallelism for Pulsar sink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#parallelism StreamingSink#parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#parallelism StreamingSink#parallelism}
   */
   readonly parallelism: number;
   /**
-  * "ATLEAST_ONCE""ATMOST_ONCE""EFFECTIVELY_ONCE".
+  * "ATLEAST_ONCE" "ATMOST_ONCE" "EFFECTIVELY_ONCE".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#processing_guarantees StreamingSink#processing_guarantees}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#processing_guarantees StreamingSink#processing_guarantees}
   */
   readonly processingGuarantees: string;
   /**
-  * Name of the pulsar cluster in which to create the sink.  If left blank, the name will be inferred from thecloud provider and region
+  * Name of the pulsar cluster in which to create the sink. If left blank, the name will be inferred from the cloud provider and region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#pulsar_cluster StreamingSink#pulsar_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#pulsar_cluster StreamingSink#pulsar_cluster}
   */
   readonly pulsarCluster?: string;
   /**
-  * cloud region
+  * cloud region (deprecated, use `cluster` instead)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#region StreamingSink#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#region StreamingSink#region}
   */
-  readonly region: string;
+  readonly region?: string;
   /**
   * Retain ordering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#retain_ordering StreamingSink#retain_ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#retain_ordering StreamingSink#retain_ordering}
   */
   readonly retainOrdering: boolean | cdktf.IResolvable;
   /**
   * Sink Configs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#sink_configs StreamingSink#sink_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#sink_configs StreamingSink#sink_configs}
   */
   readonly sinkConfigs: string;
   /**
-  * Name of the sink.
+  * Name of the sink. Note that the combination of tenant, namespace, and sink name must not exceed 47 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#sink_name StreamingSink#sink_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#sink_name StreamingSink#sink_name}
   */
   readonly sinkName: string;
   /**
   * Streaming tenant name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#tenant_name StreamingSink#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#tenant_name StreamingSink#tenant_name}
   */
   readonly tenantName: string;
   /**
   * Streaming tenant topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#topic StreamingSink#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#topic StreamingSink#topic}
   */
   readonly topic: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink astra_streaming_sink}
+* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink astra_streaming_sink}
 */
 export class StreamingSink extends cdktf.TerraformResource {
 
@@ -117,7 +116,7 @@ export class StreamingSink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StreamingSink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StreamingSink to import
-  * @param importFromId The id of the existing StreamingSink that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StreamingSink that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StreamingSink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +128,7 @@ export class StreamingSink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_sink astra_streaming_sink} Resource
+  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_sink astra_streaming_sink} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +139,8 @@ export class StreamingSink extends cdktf.TerraformResource {
       terraformResourceType: 'astra_streaming_sink',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18',
-        providerVersionConstraint: '2.3.18'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -154,8 +153,8 @@ export class StreamingSink extends cdktf.TerraformResource {
     this._archive = config.archive;
     this._autoAck = config.autoAck;
     this._cloudProvider = config.cloudProvider;
+    this._cluster = config.cluster;
     this._deletionProtection = config.deletionProtection;
-    this._id = config.id;
     this._namespace = config.namespace;
     this._parallelism = config.parallelism;
     this._processingGuarantees = config.processingGuarantees;
@@ -172,7 +171,7 @@ export class StreamingSink extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // archive - computed: false, optional: true, required: false
+  // archive - computed: true, optional: true, required: false
   private _archive?: string; 
   public get archive() {
     return this.getStringAttribute('archive');
@@ -201,7 +200,7 @@ export class StreamingSink extends cdktf.TerraformResource {
     return this._autoAck;
   }
 
-  // cloud_provider - computed: false, optional: false, required: true
+  // cloud_provider - computed: false, optional: true, required: false
   private _cloudProvider?: string; 
   public get cloudProvider() {
     return this.getStringAttribute('cloud_provider');
@@ -209,12 +208,31 @@ export class StreamingSink extends cdktf.TerraformResource {
   public set cloudProvider(value: string) {
     this._cloudProvider = value;
   }
+  public resetCloudProvider() {
+    this._cloudProvider = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get cloudProviderInput() {
     return this._cloudProvider;
   }
 
-  // deletion_protection - computed: false, optional: true, required: false
+  // cluster - computed: false, optional: true, required: false
+  private _cluster?: string; 
+  public get cluster() {
+    return this.getStringAttribute('cluster');
+  }
+  public set cluster(value: string) {
+    this._cluster = value;
+  }
+  public resetCluster() {
+    this._cluster = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterInput() {
+    return this._cluster;
+  }
+
+  // deletion_protection - computed: true, optional: true, required: false
   private _deletionProtection?: boolean | cdktf.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
@@ -230,20 +248,9 @@ export class StreamingSink extends cdktf.TerraformResource {
     return this._deletionProtection;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // namespace - computed: false, optional: false, required: true
@@ -301,13 +308,16 @@ export class StreamingSink extends cdktf.TerraformResource {
     return this._pulsarCluster;
   }
 
-  // region - computed: false, optional: false, required: true
+  // region - computed: false, optional: true, required: false
   private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
   public set region(value: string) {
     this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get regionInput() {
@@ -388,8 +398,8 @@ export class StreamingSink extends cdktf.TerraformResource {
       archive: cdktf.stringToTerraform(this._archive),
       auto_ack: cdktf.booleanToTerraform(this._autoAck),
       cloud_provider: cdktf.stringToTerraform(this._cloudProvider),
+      cluster: cdktf.stringToTerraform(this._cluster),
       deletion_protection: cdktf.booleanToTerraform(this._deletionProtection),
-      id: cdktf.stringToTerraform(this._id),
       namespace: cdktf.stringToTerraform(this._namespace),
       parallelism: cdktf.numberToTerraform(this._parallelism),
       processing_guarantees: cdktf.stringToTerraform(this._processingGuarantees),
@@ -423,17 +433,17 @@ export class StreamingSink extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      cluster: {
+        value: cdktf.stringToHclTerraform(this._cluster),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       deletion_protection: {
         value: cdktf.booleanToHclTerraform(this._deletionProtection),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       namespace: {
         value: cdktf.stringToHclTerraform(this._namespace),

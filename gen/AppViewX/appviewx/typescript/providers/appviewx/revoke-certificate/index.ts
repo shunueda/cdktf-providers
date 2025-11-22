@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/revoke_certificate
+// https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/revoke_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RevokeCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Additional comments for revocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/revoke_certificate#comments RevokeCertificate#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/revoke_certificate#comments RevokeCertificate#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/revoke_certificate#id RevokeCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/revoke_certificate#id RevokeCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface RevokeCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Issuer common name of the certificate to revoke
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/revoke_certificate#issuer_common_name RevokeCertificate#issuer_common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/revoke_certificate#issuer_common_name RevokeCertificate#issuer_common_name}
   */
   readonly issuerCommonName: string;
   /**
   * Reason for certificate revocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/revoke_certificate#reason RevokeCertificate#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/revoke_certificate#reason RevokeCertificate#reason}
   */
   readonly reason: string;
   /**
   * Resource ID hook for the certificate to revoke
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/revoke_certificate#resource_id_hook RevokeCertificate#resource_id_hook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/revoke_certificate#resource_id_hook RevokeCertificate#resource_id_hook}
   */
   readonly resourceIdHook: string;
   /**
   * Serial number of the certificate to revoke
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/revoke_certificate#serial_number RevokeCertificate#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/revoke_certificate#serial_number RevokeCertificate#serial_number}
   */
   readonly serialNumber: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/revoke_certificate appviewx_revoke_certificate}
+* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/revoke_certificate appviewx_revoke_certificate}
 */
 export class RevokeCertificate extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class RevokeCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RevokeCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RevokeCertificate to import
-  * @param importFromId The id of the existing RevokeCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/revoke_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RevokeCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/revoke_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RevokeCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class RevokeCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/revoke_certificate appviewx_revoke_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/revoke_certificate appviewx_revoke_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class RevokeCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'appviewx_revoke_certificate',
       terraformGeneratorMetadata: {
         providerName: 'appviewx',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

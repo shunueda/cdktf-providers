@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MetalOrganizationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization#description MetalOrganization#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization#description MetalOrganization#description}
   */
   readonly description?: string;
   /**
   * **Deprecated** Logo URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization#logo MetalOrganization#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization#logo MetalOrganization#logo}
   */
   readonly logo?: string;
   /**
   * The name of the Organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization#name MetalOrganization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization#name MetalOrganization#name}
   */
   readonly name: string;
   /**
   * Twitter handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization#twitter MetalOrganization#twitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization#twitter MetalOrganization#twitter}
   */
   readonly twitter?: string;
   /**
   * Website link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization#website MetalOrganization#website}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization#website MetalOrganization#website}
   */
   readonly website?: string;
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization#address MetalOrganization#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization#address MetalOrganization#address}
   */
   readonly address?: MetalOrganizationAddress[] | cdktf.IResolvable;
 }
@@ -48,31 +48,31 @@ export interface MetalOrganizationAddress {
   /**
   * Postal address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization#address MetalOrganization#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization#address MetalOrganization#address}
   */
   readonly address: string;
   /**
   * City name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization#city MetalOrganization#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization#city MetalOrganization#city}
   */
   readonly city: string;
   /**
   * Two letter country code (ISO 3166-1 alpha-2), e.g. US
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization#country MetalOrganization#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization#country MetalOrganization#country}
   */
   readonly country: string;
   /**
   * State name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization#state MetalOrganization#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization#state MetalOrganization#state}
   */
   readonly state?: string;
   /**
   * Zip Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization#zip_code MetalOrganization#zip_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization#zip_code MetalOrganization#zip_code}
   */
   readonly zipCode: string;
 }
@@ -292,7 +292,7 @@ export class MetalOrganizationAddressList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization equinix_metal_organization}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization equinix_metal_organization}
 */
 export class MetalOrganization extends cdktf.TerraformResource {
 
@@ -308,7 +308,7 @@ export class MetalOrganization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalOrganization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalOrganization to import
-  * @param importFromId The id of the existing MetalOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalOrganization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -320,7 +320,7 @@ export class MetalOrganization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_organization equinix_metal_organization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_organization equinix_metal_organization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -331,8 +331,8 @@ export class MetalOrganization extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_organization',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

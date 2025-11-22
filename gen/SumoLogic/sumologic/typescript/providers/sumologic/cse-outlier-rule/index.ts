@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface CseOutlierRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#baseline_window_size CseOutlierRule#baseline_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#baseline_window_size CseOutlierRule#baseline_window_size}
   */
   readonly baselineWindowSize: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#description_expression CseOutlierRule#description_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#description_expression CseOutlierRule#description_expression}
   */
   readonly descriptionExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#deviation_threshold CseOutlierRule#deviation_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#deviation_threshold CseOutlierRule#deviation_threshold}
   */
   readonly deviationThreshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#enabled CseOutlierRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#enabled CseOutlierRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#floor_value CseOutlierRule#floor_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#floor_value CseOutlierRule#floor_value}
   */
   readonly floorValue: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#group_by_fields CseOutlierRule#group_by_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#group_by_fields CseOutlierRule#group_by_fields}
   */
   readonly groupByFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#id CseOutlierRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#id CseOutlierRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#is_prototype CseOutlierRule#is_prototype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#is_prototype CseOutlierRule#is_prototype}
   */
   readonly isPrototype?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#match_expression CseOutlierRule#match_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#match_expression CseOutlierRule#match_expression}
   */
   readonly matchExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#name CseOutlierRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#name CseOutlierRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#name_expression CseOutlierRule#name_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#name_expression CseOutlierRule#name_expression}
   */
   readonly nameExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#retention_window_size CseOutlierRule#retention_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#retention_window_size CseOutlierRule#retention_window_size}
   */
   readonly retentionWindowSize: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#severity CseOutlierRule#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#severity CseOutlierRule#severity}
   */
   readonly severity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#summary_expression CseOutlierRule#summary_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#summary_expression CseOutlierRule#summary_expression}
   */
   readonly summaryExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#suppression_window_size CseOutlierRule#suppression_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#suppression_window_size CseOutlierRule#suppression_window_size}
   */
   readonly suppressionWindowSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#tags CseOutlierRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#tags CseOutlierRule#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#window_size CseOutlierRule#window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#window_size CseOutlierRule#window_size}
   */
   readonly windowSize: string;
   /**
   * aggregation_functions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#aggregation_functions CseOutlierRule#aggregation_functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#aggregation_functions CseOutlierRule#aggregation_functions}
   */
   readonly aggregationFunctions: CseOutlierRuleAggregationFunctions;
   /**
   * entity_selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#entity_selectors CseOutlierRule#entity_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#entity_selectors CseOutlierRule#entity_selectors}
   */
   readonly entitySelectors: CseOutlierRuleEntitySelectors[] | cdktf.IResolvable;
 }
 export interface CseOutlierRuleAggregationFunctions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#arguments CseOutlierRule#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#arguments CseOutlierRule#arguments}
   */
   readonly arguments: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#function CseOutlierRule#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#function CseOutlierRule#function}
   */
   readonly function: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#name CseOutlierRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#name CseOutlierRule#name}
   */
   readonly name: string;
 }
@@ -234,11 +234,11 @@ export class CseOutlierRuleAggregationFunctionsOutputReference extends cdktf.Com
 }
 export interface CseOutlierRuleEntitySelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#entity_type CseOutlierRule#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#entity_type CseOutlierRule#entity_type}
   */
   readonly entityType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#expression CseOutlierRule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#expression CseOutlierRule#expression}
   */
   readonly expression: string;
 }
@@ -377,7 +377,7 @@ export class CseOutlierRuleEntitySelectorsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule sumologic_cse_outlier_rule}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule sumologic_cse_outlier_rule}
 */
 export class CseOutlierRule extends cdktf.TerraformResource {
 
@@ -393,7 +393,7 @@ export class CseOutlierRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CseOutlierRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CseOutlierRule to import
-  * @param importFromId The id of the existing CseOutlierRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CseOutlierRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CseOutlierRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -405,7 +405,7 @@ export class CseOutlierRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_outlier_rule sumologic_cse_outlier_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_outlier_rule sumologic_cse_outlier_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,8 +416,8 @@ export class CseOutlierRule extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_cse_outlier_rule',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.8',
-        providerVersionConstraint: '3.1.8'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

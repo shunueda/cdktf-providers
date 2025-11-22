@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/team
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface TeamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The default role for new members of the team. This can be either `MEMBER` or `MAINTAINER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/team#default_member_role Team#default_member_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team#default_member_role Team#default_member_role}
   */
   readonly defaultMemberRole: string;
   /**
   * Whether this is the default team for the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/team#default_team Team#default_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team#default_team Team#default_team}
   */
   readonly defaultTeam: boolean | cdktf.IResolvable;
   /**
   * A description for the team. This is displayed in the Buildkite UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/team#description Team#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team#description Team#description}
   */
   readonly description?: string;
   /**
   * Whether members of the team can create Pipelines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/team#members_can_create_pipelines Team#members_can_create_pipelines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team#members_can_create_pipelines Team#members_can_create_pipelines}
   */
   readonly membersCanCreatePipelines?: boolean | cdktf.IResolvable;
   /**
   * The name of the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/team#name Team#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team#name Team#name}
   */
   readonly name: string;
   /**
   * The privacy setting for the team. This can be either `VISIBLE` or `SECRET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/team#privacy Team#privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team#privacy Team#privacy}
   */
   readonly privacy: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/team buildkite_team}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team buildkite_team}
 */
 export class Team extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class Team extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Team resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Team to import
-  * @param importFromId The id of the existing Team that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/team#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Team that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Team to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class Team extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/team buildkite_team} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team buildkite_team} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class Team extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_team',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0',
-        providerVersionConstraint: '1.26.0'
+        providerVersion: '1.27.0',
+        providerVersionConstraint: '1.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

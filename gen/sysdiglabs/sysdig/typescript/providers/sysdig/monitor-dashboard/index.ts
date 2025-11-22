@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorDashboardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#description MonitorDashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#description MonitorDashboard#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#id MonitorDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#id MonitorDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#min_interval MonitorDashboard#min_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#min_interval MonitorDashboard#min_interval}
   */
   readonly minInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#name MonitorDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#name MonitorDashboard#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#public MonitorDashboard#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#public MonitorDashboard#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#panel MonitorDashboard#panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#panel MonitorDashboard#panel}
   */
   readonly panel: MonitorDashboardPanel[] | cdktf.IResolvable;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#scope MonitorDashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#scope MonitorDashboard#scope}
   */
   readonly scope?: MonitorDashboardScope[] | cdktf.IResolvable;
   /**
   * share block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#share MonitorDashboard#share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#share MonitorDashboard#share}
   */
   readonly share?: MonitorDashboardShare[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#timeouts MonitorDashboard#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#timeouts MonitorDashboard#timeouts}
   */
   readonly timeouts?: MonitorDashboardTimeouts;
 }
 export interface MonitorDashboardPanelLegend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#enabled MonitorDashboard#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#enabled MonitorDashboard#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#layout MonitorDashboard#layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#layout MonitorDashboard#layout}
   */
   readonly layout: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#position MonitorDashboard#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#position MonitorDashboard#position}
   */
   readonly position: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#show_current MonitorDashboard#show_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#show_current MonitorDashboard#show_current}
   */
   readonly showCurrent: boolean | cdktf.IResolvable;
 }
@@ -231,15 +231,15 @@ export class MonitorDashboardPanelLegendOutputReference extends cdktf.ComplexObj
 }
 export interface MonitorDashboardPanelQueryDisplayInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#display_name MonitorDashboard#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#display_name MonitorDashboard#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#time_series_display_name_template MonitorDashboard#time_series_display_name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#time_series_display_name_template MonitorDashboard#time_series_display_name_template}
   */
   readonly timeSeriesDisplayNameTemplate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#type MonitorDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#type MonitorDashboard#type}
   */
   readonly type: string;
 }
@@ -407,27 +407,27 @@ export class MonitorDashboardPanelQueryDisplayInfoList extends cdktf.ComplexList
 }
 export interface MonitorDashboardPanelQueryFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#decimals MonitorDashboard#decimals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#decimals MonitorDashboard#decimals}
   */
   readonly decimals?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#display_format MonitorDashboard#display_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#display_format MonitorDashboard#display_format}
   */
   readonly displayFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#input_format MonitorDashboard#input_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#input_format MonitorDashboard#input_format}
   */
   readonly inputFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#min_interval MonitorDashboard#min_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#min_interval MonitorDashboard#min_interval}
   */
   readonly minInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#null_value_display_mode MonitorDashboard#null_value_display_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#null_value_display_mode MonitorDashboard#null_value_display_mode}
   */
   readonly nullValueDisplayMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#y_axis MonitorDashboard#y_axis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#y_axis MonitorDashboard#y_axis}
   */
   readonly yAxis: string;
 }
@@ -647,23 +647,23 @@ export class MonitorDashboardPanelQueryFormatOutputReference extends cdktf.Compl
 }
 export interface MonitorDashboardPanelQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#promql MonitorDashboard#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#promql MonitorDashboard#promql}
   */
   readonly promql: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#unit MonitorDashboard#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#unit MonitorDashboard#unit}
   */
   readonly unit: string;
   /**
   * display_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#display_info MonitorDashboard#display_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#display_info MonitorDashboard#display_info}
   */
   readonly displayInfo?: MonitorDashboardPanelQueryDisplayInfo[] | cdktf.IResolvable;
   /**
   * format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#format MonitorDashboard#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#format MonitorDashboard#format}
   */
   readonly format?: MonitorDashboardPanelQueryFormat;
 }
@@ -860,59 +860,59 @@ export class MonitorDashboardPanelQueryList extends cdktf.ComplexList {
 }
 export interface MonitorDashboardPanel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#autosize_text MonitorDashboard#autosize_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#autosize_text MonitorDashboard#autosize_text}
   */
   readonly autosizeText?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#content MonitorDashboard#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#content MonitorDashboard#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#description MonitorDashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#description MonitorDashboard#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#height MonitorDashboard#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#height MonitorDashboard#height}
   */
   readonly height: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#name MonitorDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#name MonitorDashboard#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#pos_x MonitorDashboard#pos_x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#pos_x MonitorDashboard#pos_x}
   */
   readonly posX: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#pos_y MonitorDashboard#pos_y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#pos_y MonitorDashboard#pos_y}
   */
   readonly posY: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#transparent_background MonitorDashboard#transparent_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#transparent_background MonitorDashboard#transparent_background}
   */
   readonly transparentBackground?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#type MonitorDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#type MonitorDashboard#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#visible_title MonitorDashboard#visible_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#visible_title MonitorDashboard#visible_title}
   */
   readonly visibleTitle?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#width MonitorDashboard#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#width MonitorDashboard#width}
   */
   readonly width: number;
   /**
   * legend block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#legend MonitorDashboard#legend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#legend MonitorDashboard#legend}
   */
   readonly legend?: MonitorDashboardPanelLegend;
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#query MonitorDashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#query MonitorDashboard#query}
   */
   readonly query?: MonitorDashboardPanelQuery[] | cdktf.IResolvable;
 }
@@ -1358,19 +1358,19 @@ export class MonitorDashboardPanelList extends cdktf.ComplexList {
 }
 export interface MonitorDashboardScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#comparator MonitorDashboard#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#comparator MonitorDashboard#comparator}
   */
   readonly comparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#metric MonitorDashboard#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#metric MonitorDashboard#metric}
   */
   readonly metric: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#value MonitorDashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#value MonitorDashboard#value}
   */
   readonly value?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#variable MonitorDashboard#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#variable MonitorDashboard#variable}
   */
   readonly variable?: string;
 }
@@ -1570,14 +1570,14 @@ export class MonitorDashboardScopeList extends cdktf.ComplexList {
 }
 export interface MonitorDashboardShareMember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#id MonitorDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#id MonitorDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#type MonitorDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#type MonitorDashboard#type}
   */
   readonly type: string;
 }
@@ -1684,13 +1684,13 @@ export class MonitorDashboardShareMemberOutputReference extends cdktf.ComplexObj
 }
 export interface MonitorDashboardShare {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#role MonitorDashboard#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#role MonitorDashboard#role}
   */
   readonly role: string;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#member MonitorDashboard#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#member MonitorDashboard#member}
   */
   readonly member: MonitorDashboardShareMember;
 }
@@ -1829,19 +1829,19 @@ export class MonitorDashboardShareList extends cdktf.ComplexList {
 }
 export interface MonitorDashboardTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#create MonitorDashboard#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#create MonitorDashboard#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#delete MonitorDashboard#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#delete MonitorDashboard#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#read MonitorDashboard#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#read MonitorDashboard#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#update MonitorDashboard#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#update MonitorDashboard#update}
   */
   readonly update?: string;
 }
@@ -2022,7 +2022,7 @@ export class MonitorDashboardTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard sysdig_monitor_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard sysdig_monitor_dashboard}
 */
 export class MonitorDashboard extends cdktf.TerraformResource {
 
@@ -2038,7 +2038,7 @@ export class MonitorDashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorDashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorDashboard to import
-  * @param importFromId The id of the existing MonitorDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2050,7 +2050,7 @@ export class MonitorDashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/monitor_dashboard sysdig_monitor_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/monitor_dashboard sysdig_monitor_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2061,8 +2061,8 @@ export class MonitorDashboard extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_monitor_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0',
-        providerVersionConstraint: '3.1.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

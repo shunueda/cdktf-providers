@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/customer_key
+// https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/customer_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CustomerKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cloud provider where the Customer Key exists (Currently supported: aws, gcp)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/customer_key#cloud_provider CustomerKey#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/customer_key#cloud_provider CustomerKey#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/customer_key#id CustomerKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/customer_key#id CustomerKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface CustomerKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Customer Key ID. This is cloud provider specific.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/customer_key#key_id CustomerKey#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/customer_key#key_id CustomerKey#key_id}
   */
   readonly keyId: string;
   /**
   * Region in which the Customer Key exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/customer_key#region CustomerKey#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/customer_key#region CustomerKey#region}
   */
   readonly region: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/customer_key astra_customer_key}
+* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/customer_key astra_customer_key}
 */
 export class CustomerKey extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class CustomerKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomerKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomerKey to import
-  * @param importFromId The id of the existing CustomerKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/customer_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomerKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/customer_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomerKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class CustomerKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/customer_key astra_customer_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/customer_key astra_customer_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class CustomerKey extends cdktf.TerraformResource {
       terraformResourceType: 'astra_customer_key',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18',
-        providerVersionConstraint: '2.3.18'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

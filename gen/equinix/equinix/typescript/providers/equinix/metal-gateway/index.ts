@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_gateway
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface MetalGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * UUID of the Public or VRF IP Reservation to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_gateway#ip_reservation_id MetalGateway#ip_reservation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_gateway#ip_reservation_id MetalGateway#ip_reservation_id}
   */
   readonly ipReservationId?: string;
   /**
   * Size of the private IPv4 subnet to create for this gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_gateway#private_ipv4_subnet_size MetalGateway#private_ipv4_subnet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_gateway#private_ipv4_subnet_size MetalGateway#private_ipv4_subnet_size}
   */
   readonly privateIpv4SubnetSize?: number;
   /**
   * UUID of the Project where the Gateway is scoped to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_gateway#project_id MetalGateway#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_gateway#project_id MetalGateway#project_id}
   */
   readonly projectId: string;
   /**
   * UUID of the VLAN to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_gateway#vlan_id MetalGateway#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_gateway#vlan_id MetalGateway#vlan_id}
   */
   readonly vlanId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_gateway#timeouts MetalGateway#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_gateway#timeouts MetalGateway#timeouts}
   */
   readonly timeouts?: MetalGatewayTimeouts;
 }
@@ -42,7 +42,7 @@ export interface MetalGatewayTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_gateway#delete MetalGateway#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_gateway#delete MetalGateway#delete}
   */
   readonly delete?: string;
 }
@@ -136,7 +136,7 @@ export class MetalGatewayTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_gateway equinix_metal_gateway}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_gateway equinix_metal_gateway}
 */
 export class MetalGateway extends cdktf.TerraformResource {
 
@@ -152,7 +152,7 @@ export class MetalGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalGateway to import
-  * @param importFromId The id of the existing MetalGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class MetalGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_gateway equinix_metal_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_gateway equinix_metal_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,8 +175,8 @@ export class MetalGateway extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_gateway',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

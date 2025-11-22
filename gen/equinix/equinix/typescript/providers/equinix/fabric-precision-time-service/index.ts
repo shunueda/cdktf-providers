@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface FabricPrecisionTimeServiceConfig extends cdktf.TerraformMetaArg
   /**
   * An array of objects with unique identifiers of connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#connections FabricPrecisionTimeService#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#connections FabricPrecisionTimeService#connections}
   */
   readonly connections: FabricPrecisionTimeServiceConnections[] | cdktf.IResolvable;
   /**
   * An object that has Network IP Configurations for Timing Master Servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#ipv4 FabricPrecisionTimeService#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#ipv4 FabricPrecisionTimeService#ipv4}
   */
   readonly ipv4: FabricPrecisionTimeServiceIpv4;
   /**
   * Name of Precision Time Service. Applicable values: Maximum: 24 characters; Allowed characters: alpha-numeric, hyphens ('-') and underscores ('_')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#name FabricPrecisionTimeService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#name FabricPrecisionTimeService#name}
   */
   readonly name: string;
   /**
   * NTP Advanced configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#ntp_advanced_configuration FabricPrecisionTimeService#ntp_advanced_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#ntp_advanced_configuration FabricPrecisionTimeService#ntp_advanced_configuration}
   */
   readonly ntpAdvancedConfiguration?: FabricPrecisionTimeServiceNtpAdvancedConfiguration[] | cdktf.IResolvable;
   /**
   * Precision Time Service Package Details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#package FabricPrecisionTimeService#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#package FabricPrecisionTimeService#package}
   */
   readonly package: FabricPrecisionTimeServicePackage;
   /**
   * PTP Advanced Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#ptp_advanced_configuration FabricPrecisionTimeService#ptp_advanced_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#ptp_advanced_configuration FabricPrecisionTimeService#ptp_advanced_configuration}
   */
   readonly ptpAdvancedConfiguration?: FabricPrecisionTimeServicePtpAdvancedConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#timeouts FabricPrecisionTimeService#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#timeouts FabricPrecisionTimeService#timeouts}
   */
   readonly timeouts?: FabricPrecisionTimeServiceTimeouts;
   /**
   * Choose type of Precision Time Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#type FabricPrecisionTimeService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#type FabricPrecisionTimeService#type}
   */
   readonly type: string;
 }
@@ -276,7 +276,7 @@ export interface FabricPrecisionTimeServiceConnections {
   /**
   * Equinix Fabric Connection UUID; Precision Time Service will be connected with it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#uuid FabricPrecisionTimeService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#uuid FabricPrecisionTimeService#uuid}
   */
   readonly uuid: string;
 }
@@ -401,25 +401,25 @@ export interface FabricPrecisionTimeServiceIpv4 {
   /**
   * IPv4 address that establishes the Routing Interface where traffic is directed. It serves as the next hop in the Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#default_gateway FabricPrecisionTimeService#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#default_gateway FabricPrecisionTimeService#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * IPv4 address that defines the range of consecutive subnets in the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#network_mask FabricPrecisionTimeService#network_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#network_mask FabricPrecisionTimeService#network_mask}
   */
   readonly networkMask: string;
   /**
   * IPv4 address for the Primary Timing Master Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#primary FabricPrecisionTimeService#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#primary FabricPrecisionTimeService#primary}
   */
   readonly primary: string;
   /**
   * IPv4 address for the Secondary Timing Master Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#secondary FabricPrecisionTimeService#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#secondary FabricPrecisionTimeService#secondary}
   */
   readonly secondary: string;
 }
@@ -592,19 +592,19 @@ export interface FabricPrecisionTimeServiceNtpAdvancedConfiguration {
   * \ must contain printable ASCII characters, range 10-20 characters. For\
   * \ HEX type, range should be 10-40 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#key FabricPrecisionTimeService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#key FabricPrecisionTimeService#key}
   */
   readonly key?: string;
   /**
   * The authentication Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#key_number FabricPrecisionTimeService#key_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#key_number FabricPrecisionTimeService#key_number}
   */
   readonly keyNumber?: number;
   /**
   * md5 Authentication type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#type FabricPrecisionTimeService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#type FabricPrecisionTimeService#type}
   */
   readonly type?: string;
 }
@@ -898,7 +898,7 @@ export interface FabricPrecisionTimeServicePackage {
   /**
   * Time Precision Package Code for the desired billing package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#code FabricPrecisionTimeService#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#code FabricPrecisionTimeService#code}
   */
   readonly code: string;
 }
@@ -1190,55 +1190,55 @@ export interface FabricPrecisionTimeServicePtpAdvancedConfiguration {
   /**
   * The PTP domain value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#domain FabricPrecisionTimeService#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#domain FabricPrecisionTimeService#domain}
   */
   readonly domain?: number;
   /**
   * Unicast Grant Time in seconds. For Multicast and Hybrid transport modes, grant time defaults to 300 seconds. For Unicast mode, grant time can be between 30 to 7200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#grant_time FabricPrecisionTimeService#grant_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#grant_time FabricPrecisionTimeService#grant_time}
   */
   readonly grantTime?: number;
   /**
   * Logarithmic value that controls the rate of PTP Announce packets from the PTP time server. Default is 1 (1 packet every 2 seconds), Unit packets/second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#log_announce_interval FabricPrecisionTimeService#log_announce_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#log_announce_interval FabricPrecisionTimeService#log_announce_interval}
   */
   readonly logAnnounceInterval?: number;
   /**
   * Logarithmic value that controls the rate of PTP DelayReq packets. Default is -4 (16 packets per second), Unit packets/second..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#log_delay_req_interval FabricPrecisionTimeService#log_delay_req_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#log_delay_req_interval FabricPrecisionTimeService#log_delay_req_interval}
   */
   readonly logDelayReqInterval?: number;
   /**
   * Logarithmic value that controls the rate of PTP Sync packets. Default is -4 (16 packets per second), Unit packets/second..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#log_sync_interval FabricPrecisionTimeService#log_sync_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#log_sync_interval FabricPrecisionTimeService#log_sync_interval}
   */
   readonly logSyncInterval?: number;
   /**
   * The priority1 value determines the best primary clock, Lower value indicates higher priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#priority1 FabricPrecisionTimeService#priority1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#priority1 FabricPrecisionTimeService#priority1}
   */
   readonly priority1?: number;
   /**
   * The priority2 value differentiates and prioritizes the primary clock to avoid confusion when priority1-value is the same for different primary clocks in a network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#priority2 FabricPrecisionTimeService#priority2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#priority2 FabricPrecisionTimeService#priority2}
   */
   readonly priority2?: number;
   /**
   * Time Scale value, ARB denotes Arbitrary and PTP denotes Precision Time Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#time_scale FabricPrecisionTimeService#time_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#time_scale FabricPrecisionTimeService#time_scale}
   */
   readonly timeScale?: string;
   /**
   * ptp transport mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#transport_mode FabricPrecisionTimeService#transport_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#transport_mode FabricPrecisionTimeService#transport_mode}
   */
   readonly transportMode?: string;
 }
@@ -1566,25 +1566,25 @@ export interface FabricPrecisionTimeServiceTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#create FabricPrecisionTimeService#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#create FabricPrecisionTimeService#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#delete FabricPrecisionTimeService#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#delete FabricPrecisionTimeService#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#read FabricPrecisionTimeService#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#read FabricPrecisionTimeService#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#update FabricPrecisionTimeService#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#update FabricPrecisionTimeService#update}
   */
   readonly update?: string;
 }
@@ -1765,7 +1765,7 @@ export class FabricPrecisionTimeServiceTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service equinix_fabric_precision_time_service}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service equinix_fabric_precision_time_service}
 */
 export class FabricPrecisionTimeService extends cdktf.TerraformResource {
 
@@ -1781,7 +1781,7 @@ export class FabricPrecisionTimeService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricPrecisionTimeService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricPrecisionTimeService to import
-  * @param importFromId The id of the existing FabricPrecisionTimeService that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricPrecisionTimeService that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricPrecisionTimeService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1793,7 +1793,7 @@ export class FabricPrecisionTimeService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/fabric_precision_time_service equinix_fabric_precision_time_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_precision_time_service equinix_fabric_precision_time_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1804,8 +1804,8 @@ export class FabricPrecisionTimeService extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_fabric_precision_time_service',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

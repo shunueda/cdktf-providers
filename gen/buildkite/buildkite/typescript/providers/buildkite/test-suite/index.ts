@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface TestSuiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * The default branch for the repository this test suite is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite#default_branch TestSuite#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite#default_branch TestSuite#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * The emoji associated with this test suite, eg :buildkite:
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite#emoji TestSuite#emoji}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite#emoji TestSuite#emoji}
   */
   readonly emoji?: string;
   /**
   * The name to give the test suite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite#name TestSuite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite#name TestSuite#name}
   */
   readonly name: string;
   /**
   * The GraphQL ID of the team to mark as the owner/admin of the test suite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite#team_owner_id TestSuite#team_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite#team_owner_id TestSuite#team_owner_id}
   */
   readonly teamOwnerId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite buildkite_test_suite}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite buildkite_test_suite}
 */
 export class TestSuite extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class TestSuite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TestSuite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TestSuite to import
-  * @param importFromId The id of the existing TestSuite that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TestSuite that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TestSuite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class TestSuite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite buildkite_test_suite} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite buildkite_test_suite} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class TestSuite extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_test_suite',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0',
-        providerVersionConstraint: '1.26.0'
+        providerVersion: '1.27.0',
+        providerVersionConstraint: '1.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

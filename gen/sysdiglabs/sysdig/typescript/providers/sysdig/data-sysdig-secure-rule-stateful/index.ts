@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_stateful
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_stateful
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DataSysdigSecureRuleStatefulConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_stateful#name DataSysdigSecureRuleStateful#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_stateful#name DataSysdigSecureRuleStateful#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_stateful#source DataSysdigSecureRuleStateful#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_stateful#source DataSysdigSecureRuleStateful#source}
   */
   readonly source: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_stateful#timeouts DataSysdigSecureRuleStateful#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_stateful#timeouts DataSysdigSecureRuleStateful#timeouts}
   */
   readonly timeouts?: DataSysdigSecureRuleStatefulTimeouts;
 }
@@ -104,7 +104,7 @@ export class DataSysdigSecureRuleStatefulExceptionsList extends cdktf.ComplexLis
 }
 export interface DataSysdigSecureRuleStatefulTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_stateful#read DataSysdigSecureRuleStateful#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_stateful#read DataSysdigSecureRuleStateful#read}
   */
   readonly read?: string;
 }
@@ -198,7 +198,7 @@ export class DataSysdigSecureRuleStatefulTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_stateful sysdig_secure_rule_stateful}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_stateful sysdig_secure_rule_stateful}
 */
 export class DataSysdigSecureRuleStateful extends cdktf.TerraformDataSource {
 
@@ -214,7 +214,7 @@ export class DataSysdigSecureRuleStateful extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSysdigSecureRuleStateful resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSysdigSecureRuleStateful to import
-  * @param importFromId The id of the existing DataSysdigSecureRuleStateful that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_stateful#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSysdigSecureRuleStateful that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_stateful#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSysdigSecureRuleStateful to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +226,7 @@ export class DataSysdigSecureRuleStateful extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_rule_stateful sysdig_secure_rule_stateful} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_rule_stateful sysdig_secure_rule_stateful} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +237,8 @@ export class DataSysdigSecureRuleStateful extends cdktf.TerraformDataSource {
       terraformResourceType: 'sysdig_secure_rule_stateful',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0',
-        providerVersionConstraint: '3.1.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

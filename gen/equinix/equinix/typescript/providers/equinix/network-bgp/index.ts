@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_bgp
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_bgp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NetworkBgpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Shared key used for BGP peer authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_bgp#authentication_key NetworkBgp#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_bgp#authentication_key NetworkBgp#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Identifier of a connection established between network device and remote service provider that will be used for peering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_bgp#connection_id NetworkBgp#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_bgp#connection_id NetworkBgp#connection_id}
   */
   readonly connectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_bgp#id NetworkBgp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_bgp#id NetworkBgp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface NetworkBgpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Local ASN number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_bgp#local_asn NetworkBgp#local_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_bgp#local_asn NetworkBgp#local_asn}
   */
   readonly localAsn: number;
   /**
   * IP address in CIDR format of a local device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_bgp#local_ip_address NetworkBgp#local_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_bgp#local_ip_address NetworkBgp#local_ip_address}
   */
   readonly localIpAddress: string;
   /**
   * Remote ASN number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_bgp#remote_asn NetworkBgp#remote_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_bgp#remote_asn NetworkBgp#remote_asn}
   */
   readonly remoteAsn: number;
   /**
   * IP address of remote peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_bgp#remote_ip_address NetworkBgp#remote_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_bgp#remote_ip_address NetworkBgp#remote_ip_address}
   */
   readonly remoteIpAddress: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_bgp#timeouts NetworkBgp#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_bgp#timeouts NetworkBgp#timeouts}
   */
   readonly timeouts?: NetworkBgpTimeouts;
 }
 export interface NetworkBgpTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_bgp#create NetworkBgp#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_bgp#create NetworkBgp#create}
   */
   readonly create?: string;
 }
@@ -153,7 +153,7 @@ export class NetworkBgpTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_bgp equinix_network_bgp}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_bgp equinix_network_bgp}
 */
 export class NetworkBgp extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class NetworkBgp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkBgp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkBgp to import
-  * @param importFromId The id of the existing NetworkBgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_bgp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkBgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_bgp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkBgp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class NetworkBgp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/network_bgp equinix_network_bgp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_bgp equinix_network_bgp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class NetworkBgp extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_network_bgp',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/data-sources/vns3_firewall
+// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/data-sources/vns3_firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCohesivenetVns3FirewallConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/data-sources/vns3_firewall#id DataCohesivenetVns3Firewall#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/data-sources/vns3_firewall#id DataCohesivenetVns3Firewall#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -97,7 +97,7 @@ export class DataCohesivenetVns3FirewallRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/data-sources/vns3_firewall cohesivenet_vns3_firewall}
+* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/data-sources/vns3_firewall cohesivenet_vns3_firewall}
 */
 export class DataCohesivenetVns3Firewall extends cdktf.TerraformDataSource {
 
@@ -113,7 +113,7 @@ export class DataCohesivenetVns3Firewall extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCohesivenetVns3Firewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCohesivenetVns3Firewall to import
-  * @param importFromId The id of the existing DataCohesivenetVns3Firewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/data-sources/vns3_firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCohesivenetVns3Firewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/data-sources/vns3_firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCohesivenetVns3Firewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -125,7 +125,7 @@ export class DataCohesivenetVns3Firewall extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/data-sources/vns3_firewall cohesivenet_vns3_firewall} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/data-sources/vns3_firewall cohesivenet_vns3_firewall} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -136,8 +136,8 @@ export class DataCohesivenetVns3Firewall extends cdktf.TerraformDataSource {
       terraformResourceType: 'cohesivenet_vns3_firewall',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

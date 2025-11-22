@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CoralogixProviderConfig {
   /**
   * A key for using coralogix APIs (Auto Generated), appropriate for the defined environment. environment variable 'CORALOGIX_API_KEY' can be defined instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs#api_key CoralogixProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs#api_key CoralogixProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * The Coralogix domain. Conflict With 'env'. environment variable 'CORALOGIX_DOMAIN' can be defined instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs#domain CoralogixProvider#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs#domain CoralogixProvider#domain}
   */
   readonly domain?: string;
   /**
   * The Coralogix API environment. can be one of ["AP1" "AP2" "AP3" "APAC1" "APAC2" "APAC3" "EU1" "EU2" "EUROPE1" "EUROPE2" "US1" "US2" "USA1" "USA2"]. environment variable 'CORALOGIX_ENV' can be defined instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs#env CoralogixProvider#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs#env CoralogixProvider#env}
   */
   readonly env?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs#alias CoralogixProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs#alias CoralogixProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs coralogix}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs coralogix}
 */
 export class CoralogixProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class CoralogixProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CoralogixProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoralogixProvider to import
-  * @param importFromId The id of the existing CoralogixProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoralogixProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoralogixProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class CoralogixProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs coralogix} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs coralogix} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class CoralogixProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'coralogix',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       terraformProviderSource: 'coralogix/coralogix'
     });

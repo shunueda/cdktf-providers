@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface TcoPoliciesLogsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#policies TcoPoliciesLogs#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#policies TcoPoliciesLogs#policies}
   */
   readonly policies: TcoPoliciesLogsPolicies[] | cdktf.IResolvable;
 }
 export interface TcoPoliciesLogsPoliciesApplications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#names TcoPoliciesLogs#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#names TcoPoliciesLogs#names}
   */
   readonly names: string[];
   /**
   * The rule type. Can be one of ["includes" "is" "is_not" "starts_with" "unspecified"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#rule_type TcoPoliciesLogs#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#rule_type TcoPoliciesLogs#rule_type}
   */
   readonly ruleType?: string;
 }
@@ -140,11 +140,11 @@ export class TcoPoliciesLogsPoliciesApplicationsOutputReference extends cdktf.Co
 }
 export interface TcoPoliciesLogsPoliciesSubsystems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#names TcoPoliciesLogs#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#names TcoPoliciesLogs#names}
   */
   readonly names: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#rule_type TcoPoliciesLogs#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#rule_type TcoPoliciesLogs#rule_type}
   */
   readonly ruleType?: string;
 }
@@ -266,49 +266,49 @@ export interface TcoPoliciesLogsPolicies {
   /**
   * The applications to apply the policy on. Applies the policy on all the applications by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#applications TcoPoliciesLogs#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#applications TcoPoliciesLogs#applications}
   */
   readonly applications?: TcoPoliciesLogsPoliciesApplications;
   /**
   * Allowing logs with a specific retention to be tagged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#archive_retention_id TcoPoliciesLogs#archive_retention_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#archive_retention_id TcoPoliciesLogs#archive_retention_id}
   */
   readonly archiveRetentionId?: string;
   /**
   * The policy description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#description TcoPoliciesLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#description TcoPoliciesLogs#description}
   */
   readonly description?: string;
   /**
   * Determines weather the policy will be enabled. True by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#enabled TcoPoliciesLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#enabled TcoPoliciesLogs#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * tco-policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#name TcoPoliciesLogs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#name TcoPoliciesLogs#name}
   */
   readonly name: string;
   /**
   * The policy priority. Can be one of ["block" "high" "low" "medium"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#priority TcoPoliciesLogs#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#priority TcoPoliciesLogs#priority}
   */
   readonly priority: string;
   /**
   * The severities to apply the policy on. Valid severities are ["critical" "debug" "error" "info" "verbose" "warning"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#severities TcoPoliciesLogs#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#severities TcoPoliciesLogs#severities}
   */
   readonly severities?: string[];
   /**
   * The subsystems to apply the policy on. Applies the policy on all the subsystems by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#subsystems TcoPoliciesLogs#subsystems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#subsystems TcoPoliciesLogs#subsystems}
   */
   readonly subsystems?: TcoPoliciesLogsPoliciesSubsystems;
 }
@@ -631,7 +631,7 @@ export class TcoPoliciesLogsPoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs coralogix_tco_policies_logs}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs coralogix_tco_policies_logs}
 */
 export class TcoPoliciesLogs extends cdktf.TerraformResource {
 
@@ -647,7 +647,7 @@ export class TcoPoliciesLogs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcoPoliciesLogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcoPoliciesLogs to import
-  * @param importFromId The id of the existing TcoPoliciesLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcoPoliciesLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcoPoliciesLogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -659,7 +659,7 @@ export class TcoPoliciesLogs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/tco_policies_logs coralogix_tco_policies_logs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/tco_policies_logs coralogix_tco_policies_logs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -670,8 +670,8 @@ export class TcoPoliciesLogs extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_tco_policies_logs',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

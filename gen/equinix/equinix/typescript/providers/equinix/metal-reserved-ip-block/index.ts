@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface MetalReservedIpBlockConfig extends cdktf.TerraformMetaArguments
   /**
   * the size of the network to reserve from an existing vrf ip_range. `cidr` can only be specified with `vrf_id`. Minimum range is 22-29, with 30-31 supported and necessary for virtual-circuits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#cidr MetalReservedIpBlock#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#cidr MetalReservedIpBlock#cidr}
   */
   readonly cidr?: number;
   /**
   * Custom Data is an arbitrary object (submitted in Terraform as serialized JSON) to assign to the IP Reservation. This may be helpful for self-managed IPAM. The object must be valid JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#custom_data MetalReservedIpBlock#custom_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#custom_data MetalReservedIpBlock#custom_data}
   */
   readonly customData?: string;
   /**
   * Arbitrary description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#description MetalReservedIpBlock#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#description MetalReservedIpBlock#description}
   */
   readonly description?: string;
   /**
   * Facility where to allocate the public IP address block, makes sense only for type==public_ipv4, must be empty for type==global_ipv4, conflicts with metro
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#facility MetalReservedIpBlock#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#facility MetalReservedIpBlock#facility}
   */
   readonly facility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#id MetalReservedIpBlock#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#id MetalReservedIpBlock#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,61 +41,61 @@ export interface MetalReservedIpBlockConfig extends cdktf.TerraformMetaArguments
   /**
   * Metro where to allocate the public IP address block, makes sense only for type==public_ipv4, must be empty for type==global_ipv4, conflicts with facility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#metro MetalReservedIpBlock#metro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#metro MetalReservedIpBlock#metro}
   */
   readonly metro?: string;
   /**
   * an unreserved network address from an existing vrf ip_range. `network` can only be specified with vrf_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#network MetalReservedIpBlock#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#network MetalReservedIpBlock#network}
   */
   readonly network?: string;
   /**
   * The metal project ID where to allocate the address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#project_id MetalReservedIpBlock#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#project_id MetalReservedIpBlock#project_id}
   */
   readonly projectId: string;
   /**
   * The number of allocated /32 addresses, a power of 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#quantity MetalReservedIpBlock#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#quantity MetalReservedIpBlock#quantity}
   */
   readonly quantity?: number;
   /**
   * Tags attached to the reserved block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#tags MetalReservedIpBlock#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#tags MetalReservedIpBlock#tags}
   */
   readonly tags?: string[];
   /**
   * Either global_ipv4, public_ipv4, or vrf. Defaults to public_ipv4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#type MetalReservedIpBlock#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#type MetalReservedIpBlock#type}
   */
   readonly type?: string;
   /**
   * VRF ID for type=vrf reservations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#vrf_id MetalReservedIpBlock#vrf_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#vrf_id MetalReservedIpBlock#vrf_id}
   */
   readonly vrfId?: string;
   /**
   * Wait for the IP reservation block to reach a desired state on resource creation. One of: `pending`, `created`. The `created` state is default and recommended if the addresses are needed within the configuration. An error will be returned if a timeout or the `denied` state is encountered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#wait_for_state MetalReservedIpBlock#wait_for_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#wait_for_state MetalReservedIpBlock#wait_for_state}
   */
   readonly waitForState?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#timeouts MetalReservedIpBlock#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#timeouts MetalReservedIpBlock#timeouts}
   */
   readonly timeouts?: MetalReservedIpBlockTimeouts;
 }
 export interface MetalReservedIpBlockTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#create MetalReservedIpBlock#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#create MetalReservedIpBlock#create}
   */
   readonly create?: string;
 }
@@ -189,7 +189,7 @@ export class MetalReservedIpBlockTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block equinix_metal_reserved_ip_block}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block equinix_metal_reserved_ip_block}
 */
 export class MetalReservedIpBlock extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class MetalReservedIpBlock extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalReservedIpBlock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalReservedIpBlock to import
-  * @param importFromId The id of the existing MetalReservedIpBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalReservedIpBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalReservedIpBlock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class MetalReservedIpBlock extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_reserved_ip_block equinix_metal_reserved_ip_block} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_reserved_ip_block equinix_metal_reserved_ip_block} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class MetalReservedIpBlock extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_reserved_ip_block',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

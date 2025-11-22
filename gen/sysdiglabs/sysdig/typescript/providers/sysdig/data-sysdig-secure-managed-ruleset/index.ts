@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_managed_ruleset
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_managed_ruleset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataSysdigSecureManagedRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_managed_ruleset#name DataSysdigSecureManagedRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_managed_ruleset#name DataSysdigSecureManagedRuleset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_managed_ruleset#runbook DataSysdigSecureManagedRuleset#runbook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_managed_ruleset#runbook DataSysdigSecureManagedRuleset#runbook}
   */
   readonly runbook?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_managed_ruleset#type DataSysdigSecureManagedRuleset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_managed_ruleset#type DataSysdigSecureManagedRuleset#type}
   */
   readonly type?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_managed_ruleset#actions DataSysdigSecureManagedRuleset#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_managed_ruleset#actions DataSysdigSecureManagedRuleset#actions}
   */
   readonly actions?: DataSysdigSecureManagedRulesetActions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_managed_ruleset#timeouts DataSysdigSecureManagedRuleset#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_managed_ruleset#timeouts DataSysdigSecureManagedRuleset#timeouts}
   */
   readonly timeouts?: DataSysdigSecureManagedRulesetTimeouts;
 }
@@ -225,17 +225,17 @@ export class DataSysdigSecureManagedRulesetActionsCaptureList extends cdktf.Comp
 }
 export interface DataSysdigSecureManagedRulesetActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_managed_ruleset#container DataSysdigSecureManagedRuleset#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_managed_ruleset#container DataSysdigSecureManagedRuleset#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_managed_ruleset#kill_process DataSysdigSecureManagedRuleset#kill_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_managed_ruleset#kill_process DataSysdigSecureManagedRuleset#kill_process}
   */
   readonly killProcess?: string;
   /**
   * capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_managed_ruleset#capture DataSysdigSecureManagedRuleset#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_managed_ruleset#capture DataSysdigSecureManagedRuleset#capture}
   */
   readonly capture?: DataSysdigSecureManagedRulesetActionsCapture[] | cdktf.IResolvable;
 }
@@ -409,7 +409,7 @@ export class DataSysdigSecureManagedRulesetActionsList extends cdktf.ComplexList
 }
 export interface DataSysdigSecureManagedRulesetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_managed_ruleset#read DataSysdigSecureManagedRuleset#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_managed_ruleset#read DataSysdigSecureManagedRuleset#read}
   */
   readonly read?: string;
 }
@@ -503,7 +503,7 @@ export class DataSysdigSecureManagedRulesetTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_managed_ruleset sysdig_secure_managed_ruleset}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_managed_ruleset sysdig_secure_managed_ruleset}
 */
 export class DataSysdigSecureManagedRuleset extends cdktf.TerraformDataSource {
 
@@ -519,7 +519,7 @@ export class DataSysdigSecureManagedRuleset extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSysdigSecureManagedRuleset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSysdigSecureManagedRuleset to import
-  * @param importFromId The id of the existing DataSysdigSecureManagedRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_managed_ruleset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSysdigSecureManagedRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_managed_ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSysdigSecureManagedRuleset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -531,7 +531,7 @@ export class DataSysdigSecureManagedRuleset extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_managed_ruleset sysdig_secure_managed_ruleset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_managed_ruleset sysdig_secure_managed_ruleset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -542,8 +542,8 @@ export class DataSysdigSecureManagedRuleset extends cdktf.TerraformDataSource {
       terraformResourceType: 'sysdig_secure_managed_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0',
-        providerVersionConstraint: '3.1.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

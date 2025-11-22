@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "astra": "2.3.18"
+    "astra": "2.4.0"
   }
 }

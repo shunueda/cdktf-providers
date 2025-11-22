@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "appviewx": "1.0.8"
+    "appviewx": "1.0.9"
   }
 }

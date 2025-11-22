@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregations
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataEquinixFabricConnectionRouteAggregationsConfig extends cdkt
   /**
   * The uuid of the connection this data source should retrieve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregations#connection_id DataEquinixFabricConnectionRouteAggregations#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregations#connection_id DataEquinixFabricConnectionRouteAggregations#connection_id}
   */
   readonly connectionId: string;
   /**
   * Pagination details for the returned connection route aggregations list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregations#pagination DataEquinixFabricConnectionRouteAggregations#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregations#pagination DataEquinixFabricConnectionRouteAggregations#pagination}
   */
   readonly pagination?: DataEquinixFabricConnectionRouteAggregationsPagination;
 }
@@ -24,13 +24,13 @@ export interface DataEquinixFabricConnectionRouteAggregationsData {
   /**
   * UUID of the Connection to attach this Route Aggregation to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregations#connection_id DataEquinixFabricConnectionRouteAggregations#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregations#connection_id DataEquinixFabricConnectionRouteAggregations#connection_id}
   */
   readonly connectionId: string;
   /**
   * UUID of the Route Aggregation to attach this Connection to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregations#route_aggregation_id DataEquinixFabricConnectionRouteAggregations#route_aggregation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregations#route_aggregation_id DataEquinixFabricConnectionRouteAggregations#route_aggregation_id}
   */
   readonly routeAggregationId: string;
 }
@@ -181,31 +181,31 @@ export interface DataEquinixFabricConnectionRouteAggregationsPagination {
   /**
   * Maximum number of search results returned per page. Number must be between 1 and 100, and the default is 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregations#limit DataEquinixFabricConnectionRouteAggregations#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregations#limit DataEquinixFabricConnectionRouteAggregations#limit}
   */
   readonly limit?: number;
   /**
   * The URL relative to the next item in the response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregations#next DataEquinixFabricConnectionRouteAggregations#next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregations#next DataEquinixFabricConnectionRouteAggregations#next}
   */
   readonly next?: string;
   /**
   * Index of the first item returned in the response. The default is 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregations#offset DataEquinixFabricConnectionRouteAggregations#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregations#offset DataEquinixFabricConnectionRouteAggregations#offset}
   */
   readonly offset?: number;
   /**
   * The URL relative to the previous item in the response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregations#previous DataEquinixFabricConnectionRouteAggregations#previous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregations#previous DataEquinixFabricConnectionRouteAggregations#previous}
   */
   readonly previous?: string;
   /**
   * The total number of connection route aggregations available to the user making the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregations#total DataEquinixFabricConnectionRouteAggregations#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregations#total DataEquinixFabricConnectionRouteAggregations#total}
   */
   readonly total?: number;
 }
@@ -415,7 +415,7 @@ export class DataEquinixFabricConnectionRouteAggregationsPaginationOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregations equinix_fabric_connection_route_aggregations}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregations equinix_fabric_connection_route_aggregations}
 */
 export class DataEquinixFabricConnectionRouteAggregations extends cdktf.TerraformDataSource {
 
@@ -431,7 +431,7 @@ export class DataEquinixFabricConnectionRouteAggregations extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataEquinixFabricConnectionRouteAggregations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricConnectionRouteAggregations to import
-  * @param importFromId The id of the existing DataEquinixFabricConnectionRouteAggregations that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricConnectionRouteAggregations that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricConnectionRouteAggregations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -443,7 +443,7 @@ export class DataEquinixFabricConnectionRouteAggregations extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_connection_route_aggregations equinix_fabric_connection_route_aggregations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_connection_route_aggregations equinix_fabric_connection_route_aggregations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -454,8 +454,8 @@ export class DataEquinixFabricConnectionRouteAggregations extends cdktf.Terrafor
       terraformResourceType: 'equinix_fabric_connection_route_aggregations',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic
+// https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface StreamingTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * **Deprecated** Cloud provider where the  Astra Streaming tenant is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#cloud_provider StreamingTopic#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#cloud_provider StreamingTopic#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
   * Cluster where the Astra Streaming tenant is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#cluster StreamingTopic#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#cluster StreamingTopic#cluster}
   */
   readonly cluster?: string;
   /**
   * Prevent this topic from being deleted via Terraform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#deletion_protection StreamingTopic#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#deletion_protection StreamingTopic#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Pulsar namespace of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#namespace StreamingTopic#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#namespace StreamingTopic#namespace}
   */
   readonly namespace: string;
   /**
   * Number of partitions for a partitioned topic.  This field must not be set for a non-partitioned topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#num_partitions StreamingTopic#num_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#num_partitions StreamingTopic#num_partitions}
   */
   readonly numPartitions?: number;
   /**
   * Partitioned or non-partitioned topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#partitioned StreamingTopic#partitioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#partitioned StreamingTopic#partitioned}
   */
   readonly partitioned?: boolean | cdktf.IResolvable;
   /**
   * Persistent or non-persistent topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#persistent StreamingTopic#persistent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#persistent StreamingTopic#persistent}
   */
   readonly persistent?: boolean | cdktf.IResolvable;
   /**
   * **Deprecated** Region where the  Astra Streaming tenant is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#region StreamingTopic#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#region StreamingTopic#region}
   */
   readonly region?: string;
   /**
   * Pulsar topic schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#schema StreamingTopic#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#schema StreamingTopic#schema}
   */
   readonly schema?: StreamingTopicSchema;
   /**
   * Name of the streaming tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#tenant StreamingTopic#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#tenant StreamingTopic#tenant}
   */
   readonly tenant?: string;
   /**
   * **Deprecated** Name of the streaming tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#tenant_name StreamingTopic#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#tenant_name StreamingTopic#tenant_name}
   */
   readonly tenantName?: string;
   /**
   * Name of the topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#topic StreamingTopic#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#topic StreamingTopic#topic}
   */
   readonly topic?: string;
 }
@@ -84,19 +84,19 @@ export interface StreamingTopicSchema {
   /**
   * Additional properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#properties StreamingTopic#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#properties StreamingTopic#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Schema definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#schema StreamingTopic#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#schema StreamingTopic#schema}
   */
   readonly schema: string;
   /**
   * Type of the schema, e.g. JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#type StreamingTopic#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#type StreamingTopic#type}
   */
   readonly type: string;
 }
@@ -242,7 +242,7 @@ export class StreamingTopicSchemaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic astra_streaming_topic}
+* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic astra_streaming_topic}
 */
 export class StreamingTopic extends cdktf.TerraformResource {
 
@@ -258,7 +258,7 @@ export class StreamingTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StreamingTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StreamingTopic to import
-  * @param importFromId The id of the existing StreamingTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StreamingTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StreamingTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -270,7 +270,7 @@ export class StreamingTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_topic astra_streaming_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_topic astra_streaming_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,8 +281,8 @@ export class StreamingTopic extends cdktf.TerraformResource {
       terraformResourceType: 'astra_streaming_topic',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18',
-        providerVersionConstraint: '2.3.18'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

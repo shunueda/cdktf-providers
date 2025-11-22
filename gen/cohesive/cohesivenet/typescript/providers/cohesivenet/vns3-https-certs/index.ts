@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs
+// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface Vns3HttpsCertsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Certificate file. Accepts file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs#cert Vns3HttpsCerts#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs#cert Vns3HttpsCerts#cert}
   */
   readonly cert?: string;
   /**
   * Certificate file. Accepts absolute path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs#cert_file Vns3HttpsCerts#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs#cert_file Vns3HttpsCerts#cert_file}
   */
   readonly certFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs#id Vns3HttpsCerts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs#id Vns3HttpsCerts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,41 +29,41 @@ export interface Vns3HttpsCertsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Key file. Accepts file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs#key Vns3HttpsCerts#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs#key Vns3HttpsCerts#key}
   */
   readonly key?: string;
   /**
   * Key file. Accepts Accepts absolute path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs#key_file Vns3HttpsCerts#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs#key_file Vns3HttpsCerts#key_file}
   */
   readonly keyFile?: string;
   /**
   * vns3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs#vns3 Vns3HttpsCerts#vns3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs#vns3 Vns3HttpsCerts#vns3}
   */
   readonly vns3?: Vns3HttpsCertsVns3;
 }
 export interface Vns3HttpsCertsVns3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs#api_token Vns3HttpsCerts#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs#api_token Vns3HttpsCerts#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs#host Vns3HttpsCerts#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs#host Vns3HttpsCerts#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs#password Vns3HttpsCerts#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs#password Vns3HttpsCerts#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs#timeout Vns3HttpsCerts#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs#timeout Vns3HttpsCerts#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs#username Vns3HttpsCerts#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs#username Vns3HttpsCerts#username}
   */
   readonly username?: string;
 }
@@ -263,7 +263,7 @@ export class Vns3HttpsCertsVns3OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs cohesivenet_vns3_https_certs}
+* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs cohesivenet_vns3_https_certs}
 */
 export class Vns3HttpsCerts extends cdktf.TerraformResource {
 
@@ -279,7 +279,7 @@ export class Vns3HttpsCerts extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vns3HttpsCerts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vns3HttpsCerts to import
-  * @param importFromId The id of the existing Vns3HttpsCerts that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vns3HttpsCerts that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vns3HttpsCerts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -291,7 +291,7 @@ export class Vns3HttpsCerts extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_https_certs cohesivenet_vns3_https_certs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_https_certs cohesivenet_vns3_https_certs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -302,8 +302,8 @@ export class Vns3HttpsCerts extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_https_certs',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

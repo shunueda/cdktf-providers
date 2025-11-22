@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/monitor_notification_channel_msteams
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_msteams
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataSysdigMonitorNotificationChannelMsteamsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/monitor_notification_channel_msteams#enabled DataSysdigMonitorNotificationChannelMsteams#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_msteams#enabled DataSysdigMonitorNotificationChannelMsteams#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/monitor_notification_channel_msteams#id DataSysdigMonitorNotificationChannelMsteams#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_msteams#id DataSysdigMonitorNotificationChannelMsteams#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/monitor_notification_channel_msteams#name DataSysdigMonitorNotificationChannelMsteams#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_msteams#name DataSysdigMonitorNotificationChannelMsteams#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/monitor_notification_channel_msteams#notify_when_ok DataSysdigMonitorNotificationChannelMsteams#notify_when_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_msteams#notify_when_ok DataSysdigMonitorNotificationChannelMsteams#notify_when_ok}
   */
   readonly notifyWhenOk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/monitor_notification_channel_msteams#notify_when_resolved DataSysdigMonitorNotificationChannelMsteams#notify_when_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_msteams#notify_when_resolved DataSysdigMonitorNotificationChannelMsteams#notify_when_resolved}
   */
   readonly notifyWhenResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/monitor_notification_channel_msteams#send_test_notification DataSysdigMonitorNotificationChannelMsteams#send_test_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_msteams#send_test_notification DataSysdigMonitorNotificationChannelMsteams#send_test_notification}
   */
   readonly sendTestNotification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/monitor_notification_channel_msteams#share_with_current_team DataSysdigMonitorNotificationChannelMsteams#share_with_current_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_msteams#share_with_current_team DataSysdigMonitorNotificationChannelMsteams#share_with_current_team}
   */
   readonly shareWithCurrentTeam?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/monitor_notification_channel_msteams#timeouts DataSysdigMonitorNotificationChannelMsteams#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_msteams#timeouts DataSysdigMonitorNotificationChannelMsteams#timeouts}
   */
   readonly timeouts?: DataSysdigMonitorNotificationChannelMsteamsTimeouts;
 }
 export interface DataSysdigMonitorNotificationChannelMsteamsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/monitor_notification_channel_msteams#read DataSysdigMonitorNotificationChannelMsteams#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_msteams#read DataSysdigMonitorNotificationChannelMsteams#read}
   */
   readonly read?: string;
 }
@@ -141,7 +141,7 @@ export class DataSysdigMonitorNotificationChannelMsteamsTimeoutsOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/monitor_notification_channel_msteams sysdig_monitor_notification_channel_msteams}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_msteams sysdig_monitor_notification_channel_msteams}
 */
 export class DataSysdigMonitorNotificationChannelMsteams extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataSysdigMonitorNotificationChannelMsteams extends cdktf.Terraform
   * Generates CDKTF code for importing a DataSysdigMonitorNotificationChannelMsteams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSysdigMonitorNotificationChannelMsteams to import
-  * @param importFromId The id of the existing DataSysdigMonitorNotificationChannelMsteams that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/monitor_notification_channel_msteams#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSysdigMonitorNotificationChannelMsteams that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_msteams#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSysdigMonitorNotificationChannelMsteams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class DataSysdigMonitorNotificationChannelMsteams extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/monitor_notification_channel_msteams sysdig_monitor_notification_channel_msteams} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/monitor_notification_channel_msteams sysdig_monitor_notification_channel_msteams} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class DataSysdigMonitorNotificationChannelMsteams extends cdktf.Terraform
       terraformResourceType: 'sysdig_monitor_notification_channel_msteams',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0',
-        providerVersionConstraint: '3.1.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

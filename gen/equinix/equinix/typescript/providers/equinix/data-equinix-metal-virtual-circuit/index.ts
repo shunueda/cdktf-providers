@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_virtual_circuit
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_virtual_circuit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataEquinixMetalVirtualCircuitConfig extends cdktf.TerraformMet
   /**
   * The Customer IPv6 address which the CSR switch will peer with. Will default to the other usable IP in the IPv6 subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_virtual_circuit#customer_ipv6 DataEquinixMetalVirtualCircuit#customer_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_virtual_circuit#customer_ipv6 DataEquinixMetalVirtualCircuit#customer_ipv6}
   */
   readonly customerIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_virtual_circuit#id DataEquinixMetalVirtualCircuit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_virtual_circuit#id DataEquinixMetalVirtualCircuit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataEquinixMetalVirtualCircuitConfig extends cdktf.TerraformMet
   /**
   * The Metal IPv6 address for the SVI (Switch Virtual Interface) of the VirtualCircuit. Will default to the first usable IP in the IPv6 subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_virtual_circuit#metal_ipv6 DataEquinixMetalVirtualCircuit#metal_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_virtual_circuit#metal_ipv6 DataEquinixMetalVirtualCircuit#metal_ipv6}
   */
   readonly metalIpv6?: string;
   /**
@@ -31,19 +31,19 @@ export interface DataEquinixMetalVirtualCircuitConfig extends cdktf.TerraformMet
   * 				 * For a /127 block, it will only have two IP addresses, which will be used for the metal_ip and customer_ip.
   * 				 * For a /126 block, it will have four IP addresses, but the first and last IP addresses are not usable. We will default to the first usable IP address for the metal_ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_virtual_circuit#subnet_ipv6 DataEquinixMetalVirtualCircuit#subnet_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_virtual_circuit#subnet_ipv6 DataEquinixMetalVirtualCircuit#subnet_ipv6}
   */
   readonly subnetIpv6?: string;
   /**
   * ID of the virtual circuit to lookup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_virtual_circuit#virtual_circuit_id DataEquinixMetalVirtualCircuit#virtual_circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_virtual_circuit#virtual_circuit_id DataEquinixMetalVirtualCircuit#virtual_circuit_id}
   */
   readonly virtualCircuitId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_virtual_circuit equinix_metal_virtual_circuit}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_virtual_circuit equinix_metal_virtual_circuit}
 */
 export class DataEquinixMetalVirtualCircuit extends cdktf.TerraformDataSource {
 
@@ -59,7 +59,7 @@ export class DataEquinixMetalVirtualCircuit extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixMetalVirtualCircuit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixMetalVirtualCircuit to import
-  * @param importFromId The id of the existing DataEquinixMetalVirtualCircuit that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_virtual_circuit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixMetalVirtualCircuit that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_virtual_circuit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixMetalVirtualCircuit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class DataEquinixMetalVirtualCircuit extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_virtual_circuit equinix_metal_virtual_circuit} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_virtual_circuit equinix_metal_virtual_circuit} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class DataEquinixMetalVirtualCircuit extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_metal_virtual_circuit',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

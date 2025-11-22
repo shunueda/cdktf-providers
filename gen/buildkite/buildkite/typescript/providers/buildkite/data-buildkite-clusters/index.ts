@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/data-sources/clusters
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -133,11 +133,6 @@ export class DataBuildkiteClustersClustersMaintainersOutputReference extends cdk
     return this.getStringAttribute('actor_email');
   }
 
-  // actor_id - computed: true, optional: false, required: false
-  public get actorId() {
-    return this.getStringAttribute('actor_id');
-  }
-
   // actor_name - computed: true, optional: false, required: false
   public get actorName() {
     return this.getStringAttribute('actor_name');
@@ -153,9 +148,14 @@ export class DataBuildkiteClustersClustersMaintainersOutputReference extends cdk
     return this.getStringAttribute('actor_type');
   }
 
-  // permission_id - computed: true, optional: false, required: false
-  public get permissionId() {
-    return this.getStringAttribute('permission_id');
+  // actor_uuid - computed: true, optional: false, required: false
+  public get actorUuid() {
+    return this.getStringAttribute('actor_uuid');
+  }
+
+  // permission_uuid - computed: true, optional: false, required: false
+  public get permissionUuid() {
+    return this.getStringAttribute('permission_uuid');
   }
 }
 
@@ -291,7 +291,7 @@ export class DataBuildkiteClustersClustersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/data-sources/clusters buildkite_clusters}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/clusters buildkite_clusters}
 */
 export class DataBuildkiteClusters extends cdktf.TerraformDataSource {
 
@@ -307,7 +307,7 @@ export class DataBuildkiteClusters extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuildkiteClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuildkiteClusters to import
-  * @param importFromId The id of the existing DataBuildkiteClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/data-sources/clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuildkiteClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuildkiteClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class DataBuildkiteClusters extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/data-sources/clusters buildkite_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/clusters buildkite_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class DataBuildkiteClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'buildkite_clusters',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0',
-        providerVersionConstraint: '1.26.0'
+        providerVersion: '1.27.0',
+        providerVersionConstraint: '1.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

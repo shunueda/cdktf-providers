@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "coralogix": "3.0.0"
+    "coralogix": "3.0.1"
   }
 }

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "cohesivenet": "1.0.8"
+    "cohesivenet": "1.0.9"
   }
 }

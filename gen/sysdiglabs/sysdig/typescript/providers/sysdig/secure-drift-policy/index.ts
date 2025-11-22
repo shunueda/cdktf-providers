@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface SecureDriftPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#description SecureDriftPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#description SecureDriftPolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#enabled SecureDriftPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#enabled SecureDriftPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#id SecureDriftPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#id SecureDriftPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#name SecureDriftPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#name SecureDriftPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#notification_channels SecureDriftPolicy#notification_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#notification_channels SecureDriftPolicy#notification_channels}
   */
   readonly notificationChannels?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#runbook SecureDriftPolicy#runbook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#runbook SecureDriftPolicy#runbook}
   */
   readonly runbook?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#scope SecureDriftPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#scope SecureDriftPolicy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#severity SecureDriftPolicy#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#severity SecureDriftPolicy#severity}
   */
   readonly severity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#type SecureDriftPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#type SecureDriftPolicy#type}
   */
   readonly type?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#actions SecureDriftPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#actions SecureDriftPolicy#actions}
   */
   readonly actions?: SecureDriftPolicyActions[] | cdktf.IResolvable;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#rule SecureDriftPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#rule SecureDriftPolicy#rule}
   */
   readonly rule: SecureDriftPolicyRule[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#timeouts SecureDriftPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#timeouts SecureDriftPolicy#timeouts}
   */
   readonly timeouts?: SecureDriftPolicyTimeouts;
 }
 export interface SecureDriftPolicyActionsCapture {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#bucket_name SecureDriftPolicy#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#bucket_name SecureDriftPolicy#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#filter SecureDriftPolicy#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#filter SecureDriftPolicy#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#folder SecureDriftPolicy#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#folder SecureDriftPolicy#folder}
   */
   readonly folder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#name SecureDriftPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#name SecureDriftPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#seconds_after_event SecureDriftPolicy#seconds_after_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#seconds_after_event SecureDriftPolicy#seconds_after_event}
   */
   readonly secondsAfterEvent: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#seconds_before_event SecureDriftPolicy#seconds_before_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#seconds_before_event SecureDriftPolicy#seconds_before_event}
   */
   readonly secondsBeforeEvent: number;
 }
@@ -339,17 +339,17 @@ export class SecureDriftPolicyActionsCaptureList extends cdktf.ComplexList {
 }
 export interface SecureDriftPolicyActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#container SecureDriftPolicy#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#container SecureDriftPolicy#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#prevent_drift SecureDriftPolicy#prevent_drift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#prevent_drift SecureDriftPolicy#prevent_drift}
   */
   readonly preventDrift?: boolean | cdktf.IResolvable;
   /**
   * capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#capture SecureDriftPolicy#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#capture SecureDriftPolicy#capture}
   */
   readonly capture?: SecureDriftPolicyActionsCapture[] | cdktf.IResolvable;
 }
@@ -523,7 +523,7 @@ export class SecureDriftPolicyActionsList extends cdktf.ComplexList {
 }
 export interface SecureDriftPolicyRuleExceptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#items SecureDriftPolicy#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#items SecureDriftPolicy#items}
   */
   readonly items: string[];
 }
@@ -609,7 +609,7 @@ export class SecureDriftPolicyRuleExceptionsOutputReference extends cdktf.Comple
 }
 export interface SecureDriftPolicyRuleProcessBasedExceptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#items SecureDriftPolicy#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#items SecureDriftPolicy#items}
   */
   readonly items: string[];
 }
@@ -695,7 +695,7 @@ export class SecureDriftPolicyRuleProcessBasedExceptionsOutputReference extends 
 }
 export interface SecureDriftPolicyRuleProcessBasedProhibitedBinaries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#items SecureDriftPolicy#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#items SecureDriftPolicy#items}
   */
   readonly items: string[];
 }
@@ -781,7 +781,7 @@ export class SecureDriftPolicyRuleProcessBasedProhibitedBinariesOutputReference 
 }
 export interface SecureDriftPolicyRuleProhibitedBinaries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#items SecureDriftPolicy#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#items SecureDriftPolicy#items}
   */
   readonly items: string[];
 }
@@ -867,43 +867,43 @@ export class SecureDriftPolicyRuleProhibitedBinariesOutputReference extends cdkt
 }
 export interface SecureDriftPolicyRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#description SecureDriftPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#description SecureDriftPolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#enabled SecureDriftPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#enabled SecureDriftPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#mounted_volume_drift_enabled SecureDriftPolicy#mounted_volume_drift_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#mounted_volume_drift_enabled SecureDriftPolicy#mounted_volume_drift_enabled}
   */
   readonly mountedVolumeDriftEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#use_regex SecureDriftPolicy#use_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#use_regex SecureDriftPolicy#use_regex}
   */
   readonly useRegex?: boolean | cdktf.IResolvable;
   /**
   * exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#exceptions SecureDriftPolicy#exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#exceptions SecureDriftPolicy#exceptions}
   */
   readonly exceptions?: SecureDriftPolicyRuleExceptions;
   /**
   * process_based_exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#process_based_exceptions SecureDriftPolicy#process_based_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#process_based_exceptions SecureDriftPolicy#process_based_exceptions}
   */
   readonly processBasedExceptions?: SecureDriftPolicyRuleProcessBasedExceptions;
   /**
   * process_based_prohibited_binaries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#process_based_prohibited_binaries SecureDriftPolicy#process_based_prohibited_binaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#process_based_prohibited_binaries SecureDriftPolicy#process_based_prohibited_binaries}
   */
   readonly processBasedProhibitedBinaries?: SecureDriftPolicyRuleProcessBasedProhibitedBinaries;
   /**
   * prohibited_binaries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#prohibited_binaries SecureDriftPolicy#prohibited_binaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#prohibited_binaries SecureDriftPolicy#prohibited_binaries}
   */
   readonly prohibitedBinaries?: SecureDriftPolicyRuleProhibitedBinaries;
 }
@@ -1239,19 +1239,19 @@ export class SecureDriftPolicyRuleList extends cdktf.ComplexList {
 }
 export interface SecureDriftPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#create SecureDriftPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#create SecureDriftPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#delete SecureDriftPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#delete SecureDriftPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#read SecureDriftPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#read SecureDriftPolicy#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#update SecureDriftPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#update SecureDriftPolicy#update}
   */
   readonly update?: string;
 }
@@ -1432,7 +1432,7 @@ export class SecureDriftPolicyTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy sysdig_secure_drift_policy}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy sysdig_secure_drift_policy}
 */
 export class SecureDriftPolicy extends cdktf.TerraformResource {
 
@@ -1448,7 +1448,7 @@ export class SecureDriftPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecureDriftPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecureDriftPolicy to import
-  * @param importFromId The id of the existing SecureDriftPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecureDriftPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecureDriftPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1460,7 +1460,7 @@ export class SecureDriftPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_drift_policy sysdig_secure_drift_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_drift_policy sysdig_secure_drift_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1471,8 +1471,8 @@ export class SecureDriftPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_secure_drift_policy',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0',
-        providerVersionConstraint: '3.1.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

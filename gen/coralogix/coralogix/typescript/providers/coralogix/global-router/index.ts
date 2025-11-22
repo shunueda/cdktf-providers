@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface GlobalRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the GlobalRouter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#description GlobalRouter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#description GlobalRouter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#entity_labels GlobalRouter#entity_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#entity_labels GlobalRouter#entity_labels}
   */
   readonly entityLabels?: { [key: string]: string };
   /**
   * Fallback routing targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#fallback GlobalRouter#fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#fallback GlobalRouter#fallback}
   */
   readonly fallback?: GlobalRouterFallback[] | cdktf.IResolvable;
   /**
   * The ID of the GlobalRouter. Use `router_default` for the default; leave empty for auto generated or provide your own (unique) id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#id GlobalRouter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#id GlobalRouter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface GlobalRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the GlobalRouter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#name GlobalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#name GlobalRouter#name}
   */
   readonly name: string;
   /**
-  * Routers other than `router_default` require at least one of the properties to be set. Note that these values are globally unique.
+  * Routers other than `router_default` require at least one of the properties to be set. Note that these values are globally unique. Labels matching is linked with AND, so an alert has to have all labels specified below.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#routing_labels GlobalRouter#routing_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#routing_labels GlobalRouter#routing_labels}
   */
   readonly routingLabels?: GlobalRouterRoutingLabels;
   /**
   * Routing rules for the GlobalRouter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#rules GlobalRouter#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#rules GlobalRouter#rules}
   */
   readonly rules?: GlobalRouterRules[] | cdktf.IResolvable;
 }
@@ -55,19 +55,19 @@ export interface GlobalRouterFallback {
   /**
   * ID of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#connector_id GlobalRouter#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#connector_id GlobalRouter#connector_id}
   */
   readonly connectorId: string;
   /**
   * Custom details for the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#custom_details GlobalRouter#custom_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#custom_details GlobalRouter#custom_details}
   */
   readonly customDetails?: { [key: string]: string };
   /**
   * ID of the preset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#preset_id GlobalRouter#preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#preset_id GlobalRouter#preset_id}
   */
   readonly presetId?: string;
 }
@@ -238,15 +238,15 @@ export class GlobalRouterFallbackList extends cdktf.ComplexList {
 }
 export interface GlobalRouterRoutingLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#environment GlobalRouter#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#environment GlobalRouter#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#service GlobalRouter#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#service GlobalRouter#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#team GlobalRouter#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#team GlobalRouter#team}
   */
   readonly team?: string;
 }
@@ -400,19 +400,19 @@ export interface GlobalRouterRulesTargets {
   /**
   * ID of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#connector_id GlobalRouter#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#connector_id GlobalRouter#connector_id}
   */
   readonly connectorId: string;
   /**
   * Custom details for the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#custom_details GlobalRouter#custom_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#custom_details GlobalRouter#custom_details}
   */
   readonly customDetails?: { [key: string]: string };
   /**
   * ID of the preset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#preset_id GlobalRouter#preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#preset_id GlobalRouter#preset_id}
   */
   readonly presetId?: string;
 }
@@ -583,29 +583,29 @@ export class GlobalRouterRulesTargetsList extends cdktf.ComplexList {
 }
 export interface GlobalRouterRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#condition GlobalRouter#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#condition GlobalRouter#condition}
   */
   readonly condition: string;
   /**
   * Custom details for the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#custom_details GlobalRouter#custom_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#custom_details GlobalRouter#custom_details}
   */
   readonly customDetails?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#entity_type GlobalRouter#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#entity_type GlobalRouter#entity_type}
   */
   readonly entityType?: string;
   /**
   * Name of the routing rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#name GlobalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#name GlobalRouter#name}
   */
   readonly name: string;
   /**
   * Routing targets for the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#targets GlobalRouter#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#targets GlobalRouter#targets}
   */
   readonly targets?: GlobalRouterRulesTargets[] | cdktf.IResolvable;
 }
@@ -831,7 +831,7 @@ export class GlobalRouterRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router coralogix_global_router}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router coralogix_global_router}
 */
 export class GlobalRouter extends cdktf.TerraformResource {
 
@@ -847,7 +847,7 @@ export class GlobalRouter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GlobalRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlobalRouter to import
-  * @param importFromId The id of the existing GlobalRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlobalRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlobalRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -859,7 +859,7 @@ export class GlobalRouter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/global_router coralogix_global_router} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/global_router coralogix_global_router} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -870,8 +870,8 @@ export class GlobalRouter extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_global_router',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

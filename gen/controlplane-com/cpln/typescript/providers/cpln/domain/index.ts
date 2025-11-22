@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#description Domain#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#description Domain#description}
   */
   readonly description?: string;
   /**
   * Name of the Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#name Domain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#name Domain#name}
   */
   readonly name: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#tags Domain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#tags Domain#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#spec Domain#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#spec Domain#spec}
   */
   readonly spec?: DomainSpec[] | cdktf.IResolvable;
 }
@@ -389,11 +389,11 @@ export interface DomainSpecPortsCorsAllowOrigins {
   /**
   * Value of allowed origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#exact Domain#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#exact Domain#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#regex Domain#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#regex Domain#regex}
   */
   readonly regex?: string;
 }
@@ -540,37 +540,37 @@ export interface DomainSpecPortsCors {
   /**
   * Determines whether the client-side code (typically running in a web browser) is allowed to include credentials (such as cookies, HTTP authentication, or client-side SSL certificates) in cross-origin requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#allow_credentials Domain#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#allow_credentials Domain#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktf.IResolvable;
   /**
   * Specifies the custom HTTP headers that are allowed in a cross-origin request to a specific resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#allow_headers Domain#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#allow_headers Domain#allow_headers}
   */
   readonly allowHeaders?: string[];
   /**
   * Specifies the HTTP methods (such as `GET`, `POST`, `PUT`, `DELETE`, etc.) that are allowed for a cross-origin request to a specific resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#allow_methods Domain#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#allow_methods Domain#allow_methods}
   */
   readonly allowMethods?: string[];
   /**
   * The HTTP headers that a server allows to be exposed to the client in response to a cross-origin request. These headers provide additional information about the server's capabilities or requirements, aiding in proper handling of the request by the client's browser or application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#expose_headers Domain#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#expose_headers Domain#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
   * Maximum amount of time that a preflight request result can be cached by the client browser. Input is expected as a duration string (i.e, 24h, 20m, etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#max_age Domain#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#max_age Domain#max_age}
   */
   readonly maxAge?: string;
   /**
   * allow_origins block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#allow_origins Domain#allow_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#allow_origins Domain#allow_origins}
   */
   readonly allowOrigins?: DomainSpecPortsCorsAllowOrigins[] | cdktf.IResolvable;
 }
@@ -833,7 +833,7 @@ export interface DomainSpecPortsTlsClientCertificate {
   /**
   * The secret will include a client certificate authority cert in PEM format used to verify requests which include client certificates. The key subject must match the domain and the key usage properties must be configured for client certificate authorization. The secret type must be keypair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#secret_link Domain#secret_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#secret_link Domain#secret_link}
   */
   readonly secretLink?: string;
 }
@@ -951,7 +951,7 @@ export interface DomainSpecPortsTlsServerCertificate {
   /**
   * When provided, this is used as the server certificate authority. The secret type must be keypair and the content must be PEM encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#secret_link Domain#secret_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#secret_link Domain#secret_link}
   */
   readonly secretLink?: string;
 }
@@ -1069,25 +1069,25 @@ export interface DomainSpecPortsTls {
   /**
   * Allowed cipher suites. Refer to the [Domain Reference](https://docs.controlplane.com/reference/domain#cipher-suites) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#cipher_suites Domain#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#cipher_suites Domain#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
   * Minimum TLS version to accept. Minimum is `1.0`. Default: `1.2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#min_protocol_version Domain#min_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#min_protocol_version Domain#min_protocol_version}
   */
   readonly minProtocolVersion?: string;
   /**
   * client_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#client_certificate Domain#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#client_certificate Domain#client_certificate}
   */
   readonly clientCertificate?: DomainSpecPortsTlsClientCertificate[] | cdktf.IResolvable;
   /**
   * server_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#server_certificate Domain#server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#server_certificate Domain#server_certificate}
   */
   readonly serverCertificate?: DomainSpecPortsTlsServerCertificate[] | cdktf.IResolvable;
 }
@@ -1292,25 +1292,25 @@ export interface DomainSpecPorts {
   /**
   * Sets or overrides headers to all http requests for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#number Domain#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#number Domain#number}
   */
   readonly number?: number;
   /**
   * Allowed protocol. Valid values: `http`, `http2`, `tcp`. Default: `http2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#protocol Domain#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#protocol Domain#protocol}
   */
   readonly protocol?: string;
   /**
   * cors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#cors Domain#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#cors Domain#cors}
   */
   readonly cors?: DomainSpecPortsCors[] | cdktf.IResolvable;
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#tls Domain#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#tls Domain#tls}
   */
   readonly tls?: DomainSpecPortsTls[] | cdktf.IResolvable;
 }
@@ -1515,43 +1515,43 @@ export interface DomainSpec {
   /**
   * Allows domain to accept wildcards. The associated GVC must have dedicated load balancing enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#accept_all_hosts Domain#accept_all_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#accept_all_hosts Domain#accept_all_hosts}
   */
   readonly acceptAllHosts?: boolean | cdktf.IResolvable;
   /**
   * Accept all subdomains will accept any host that is a sub domain of the domain so *.$DOMAIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#accept_all_subdomains Domain#accept_all_subdomains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#accept_all_subdomains Domain#accept_all_subdomains}
   */
   readonly acceptAllSubdomains?: boolean | cdktf.IResolvable;
   /**
   * Defines the method used to prove domain ownership for certificate issuance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#cert_challenge_type Domain#cert_challenge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#cert_challenge_type Domain#cert_challenge_type}
   */
   readonly certChallengeType?: string;
   /**
   * In `cname` dnsMode, Control Plane will configure workloads to accept traffic for the domain but will not manage DNS records for the domain. End users must configure CNAME records in their own DNS pointed to the canonical workload endpoint. Currently `cname` dnsMode requires that a TLS server certificate be configured when subdomain based routing is used. In `ns` dnsMode, Control Plane will manage the subdomains and create all necessary DNS records. End users configure NS records to forward DNS requests to the Control Plane managed DNS servers. Valid values: `cname`, `ns`. Default: `cname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#dns_mode Domain#dns_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#dns_mode Domain#dns_mode}
   */
   readonly dnsMode?: string;
   /**
   * This value is set to a target GVC (using a full link) for use by subdomain based routing. Each workload in the GVC will receive a subdomain in the form ${workload.name}.${domain.name}. **Do not include if path based routing is used.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#gvc_link Domain#gvc_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#gvc_link Domain#gvc_link}
   */
   readonly gvcLink?: string;
   /**
   * Creates a unique subdomain for each replica of a stateful workload, enabling direct access to individual instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#workload_link Domain#workload_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#workload_link Domain#workload_link}
   */
   readonly workloadLink?: string;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#ports Domain#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#ports Domain#ports}
   */
   readonly ports?: DomainSpecPorts[] | cdktf.IResolvable;
 }
@@ -1841,7 +1841,7 @@ export class DomainSpecList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain cpln_domain}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain cpln_domain}
 */
 export class Domain extends cdktf.TerraformResource {
 
@@ -1857,7 +1857,7 @@ export class Domain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Domain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Domain to import
-  * @param importFromId The id of the existing Domain that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Domain that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Domain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1869,7 +1869,7 @@ export class Domain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain cpln_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain cpln_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1880,8 +1880,8 @@ export class Domain extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_domain',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.14',
-        providerVersionConstraint: '1.2.14'
+        providerVersion: '1.2.15',
+        providerVersionConstraint: '1.2.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

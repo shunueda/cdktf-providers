@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface RulesGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Determines whether the rule-group will be active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#active RulesGroup#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#active RulesGroup#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Rules will execute on logs that match the following applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#applications RulesGroup#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#applications RulesGroup#applications}
   */
   readonly applications?: string[];
   /**
   * Rule-group creator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#creator RulesGroup#creator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#creator RulesGroup#creator}
   */
   readonly creator?: string;
   /**
   * Rule-group description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#description RulesGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#description RulesGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#hidden RulesGroup#hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#hidden RulesGroup#hidden}
   */
   readonly hidden?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#id RulesGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#id RulesGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,37 +45,37 @@ export interface RulesGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rule-group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#name RulesGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#name RulesGroup#name}
   */
   readonly name: string;
   /**
   * Determines the index of the rule-group between the other rule-groups. By default, will be added last. (1 based indexing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#order RulesGroup#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#order RulesGroup#order}
   */
   readonly order?: number;
   /**
   * Rules will execute on logs that match the these severities. Can be one of ["Critical" "Debug" "Error" "Info" "Verbose" "Warning"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#severities RulesGroup#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#severities RulesGroup#severities}
   */
   readonly severities?: string[];
   /**
   * Rules will execute on logs that match the following subsystems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#subsystems RulesGroup#subsystems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#subsystems RulesGroup#subsystems}
   */
   readonly subsystems?: string[];
   /**
   * rule_subgroups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#rule_subgroups RulesGroup#rule_subgroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#rule_subgroups RulesGroup#rule_subgroups}
   */
   readonly ruleSubgroups?: RulesGroupRuleSubgroups[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#timeouts RulesGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#timeouts RulesGroup#timeouts}
   */
   readonly timeouts?: RulesGroupTimeouts;
 }
@@ -83,49 +83,49 @@ export interface RulesGroupRuleSubgroupsRulesBlock {
   /**
   * Determines whether to rule will be active or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#active RulesGroup#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#active RulesGroup#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Block Logic. If true or nor set - blocking all matching blocks, if false - blocking all non-matching blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#blocking_all_matching_blocks RulesGroup#blocking_all_matching_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#blocking_all_matching_blocks RulesGroup#blocking_all_matching_blocks}
   */
   readonly blockingAllMatchingBlocks?: boolean | cdktf.IResolvable;
   /**
   * The rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#description RulesGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#description RulesGroup#description}
   */
   readonly description?: string;
   /**
   * Determines if to view blocked logs in LiveTail and archive to S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#keep_blocked_logs RulesGroup#keep_blocked_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#keep_blocked_logs RulesGroup#keep_blocked_logs}
   */
   readonly keepBlockedLogs?: boolean | cdktf.IResolvable;
   /**
   * The rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#name RulesGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#name RulesGroup#name}
   */
   readonly name: string;
   /**
   * Determines the index of the rule inside the rule-subgroup.If not set, will be computed by the order it was declared. (1 based indexing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#order RulesGroup#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#order RulesGroup#order}
   */
   readonly order?: number;
   /**
   * Regular expiration. More info: https://coralogix.com/blog/regex-101/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#regular_expression RulesGroup#regular_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#regular_expression RulesGroup#regular_expression}
   */
   readonly regularExpression: string;
   /**
   * The field on which the Regex will operate on. Accepts lowercase only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#source_field RulesGroup#source_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#source_field RulesGroup#source_field}
   */
   readonly sourceField: string;
 }
@@ -410,37 +410,37 @@ export interface RulesGroupRuleSubgroupsRulesExtract {
   /**
   * Determines whether to rule will be active or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#active RulesGroup#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#active RulesGroup#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#description RulesGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#description RulesGroup#description}
   */
   readonly description?: string;
   /**
   * The rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#name RulesGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#name RulesGroup#name}
   */
   readonly name: string;
   /**
   * Determines the index of the rule inside the rule-subgroup.If not set, will be computed by the order it was declared. (1 based indexing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#order RulesGroup#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#order RulesGroup#order}
   */
   readonly order?: number;
   /**
   * Regular expiration. More info: https://coralogix.com/blog/regex-101/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#regular_expression RulesGroup#regular_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#regular_expression RulesGroup#regular_expression}
   */
   readonly regularExpression: string;
   /**
   * The field on which the Regex will operate on. Accepts lowercase only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#source_field RulesGroup#source_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#source_field RulesGroup#source_field}
   */
   readonly sourceField: string;
 }
@@ -667,43 +667,43 @@ export interface RulesGroupRuleSubgroupsRulesExtractTimestamp {
   /**
   * Determines whether to rule will be active or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#active RulesGroup#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#active RulesGroup#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#description RulesGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#description RulesGroup#description}
   */
   readonly description?: string;
   /**
   * The format standard you want to use. Can be one of ["Golang" "JavaSDF" "MicroTS" "MilliTS" "NanoTS" "SecondTS" "Strftime"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#field_format_standard RulesGroup#field_format_standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#field_format_standard RulesGroup#field_format_standard}
   */
   readonly fieldFormatStandard: string;
   /**
   * The rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#name RulesGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#name RulesGroup#name}
   */
   readonly name: string;
   /**
   * Determines the index of the rule inside the rule-subgroup.If not set, will be computed by the order it was declared. (1 based indexing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#order RulesGroup#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#order RulesGroup#order}
   */
   readonly order?: number;
   /**
   * The field on which the Regex will operate on. Accepts lowercase only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#source_field RulesGroup#source_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#source_field RulesGroup#source_field}
   */
   readonly sourceField: string;
   /**
   * A time format that matches the field format standard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#time_format RulesGroup#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#time_format RulesGroup#time_format}
   */
   readonly timeFormat: string;
 }
@@ -956,43 +956,43 @@ export interface RulesGroupRuleSubgroupsRulesJsonExtract {
   /**
   * Determines whether to rule will be active or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#active RulesGroup#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#active RulesGroup#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#description RulesGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#description RulesGroup#description}
   */
   readonly description?: string;
   /**
   * The field that will be populated by the results of RegEx operation.Can be one of [Category Class Method Severity Text ThreadID].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#destination_field RulesGroup#destination_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#destination_field RulesGroup#destination_field}
   */
   readonly destinationField: string;
   /**
   * Required when destination_field is 'Text'. should be either 'text' or 'text.<some value>'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#destination_field_text RulesGroup#destination_field_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#destination_field_text RulesGroup#destination_field_text}
   */
   readonly destinationFieldText?: string;
   /**
   * JSON key to extract its value directly into a Coralogix metadata field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#json_key RulesGroup#json_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#json_key RulesGroup#json_key}
   */
   readonly jsonKey: string;
   /**
   * The rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#name RulesGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#name RulesGroup#name}
   */
   readonly name: string;
   /**
   * Determines the index of the rule inside the rule-subgroup.If not set, will be computed by the order it was declared. (1 based indexing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#order RulesGroup#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#order RulesGroup#order}
   */
   readonly order?: number;
 }
@@ -1248,43 +1248,43 @@ export interface RulesGroupRuleSubgroupsRulesJsonStringify {
   /**
   * Determines whether to rule will be active or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#active RulesGroup#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#active RulesGroup#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#description RulesGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#description RulesGroup#description}
   */
   readonly description?: string;
   /**
   * The field that will be populated by the results of the RegEx operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#destination_field RulesGroup#destination_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#destination_field RulesGroup#destination_field}
   */
   readonly destinationField: string;
   /**
   * Determines whether to keep or to delete the source field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#keep_source_field RulesGroup#keep_source_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#keep_source_field RulesGroup#keep_source_field}
   */
   readonly keepSourceField?: boolean | cdktf.IResolvable;
   /**
   * The rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#name RulesGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#name RulesGroup#name}
   */
   readonly name: string;
   /**
   * Determines the index of the rule inside the rule-subgroup.If not set, will be computed by the order it was declared. (1 based indexing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#order RulesGroup#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#order RulesGroup#order}
   */
   readonly order?: number;
   /**
   * The field on which the Regex will operate on. Accepts lowercase only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#source_field RulesGroup#source_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#source_field RulesGroup#source_field}
   */
   readonly sourceField: string;
 }
@@ -1540,43 +1540,43 @@ export interface RulesGroupRuleSubgroupsRulesParse {
   /**
   * Determines whether to rule will be active or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#active RulesGroup#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#active RulesGroup#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#description RulesGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#description RulesGroup#description}
   */
   readonly description?: string;
   /**
   * The field that will be populated by the results of the RegEx operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#destination_field RulesGroup#destination_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#destination_field RulesGroup#destination_field}
   */
   readonly destinationField: string;
   /**
   * The rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#name RulesGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#name RulesGroup#name}
   */
   readonly name: string;
   /**
   * Determines the index of the rule inside the rule-subgroup.If not set, will be computed by the order it was declared. (1 based indexing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#order RulesGroup#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#order RulesGroup#order}
   */
   readonly order?: number;
   /**
   * Regular expiration. More info: https://coralogix.com/blog/regex-101/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#regular_expression RulesGroup#regular_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#regular_expression RulesGroup#regular_expression}
   */
   readonly regularExpression: string;
   /**
   * The field on which the Regex will operate on. Accepts lowercase only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#source_field RulesGroup#source_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#source_field RulesGroup#source_field}
   */
   readonly sourceField: string;
 }
@@ -1829,49 +1829,49 @@ export interface RulesGroupRuleSubgroupsRulesParseJsonField {
   /**
   * Determines whether to rule will be active or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#active RulesGroup#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#active RulesGroup#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#description RulesGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#description RulesGroup#description}
   */
   readonly description?: string;
   /**
   * The field that will be populated by the results of the RegEx operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#destination_field RulesGroup#destination_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#destination_field RulesGroup#destination_field}
   */
   readonly destinationField: string;
   /**
   * Determines whether to keep or to delete the destination field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#keep_destination_field RulesGroup#keep_destination_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#keep_destination_field RulesGroup#keep_destination_field}
   */
   readonly keepDestinationField?: boolean | cdktf.IResolvable;
   /**
   * Determines whether to keep or to delete the source field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#keep_source_field RulesGroup#keep_source_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#keep_source_field RulesGroup#keep_source_field}
   */
   readonly keepSourceField?: boolean | cdktf.IResolvable;
   /**
   * The rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#name RulesGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#name RulesGroup#name}
   */
   readonly name: string;
   /**
   * Determines the index of the rule inside the rule-subgroup.If not set, will be computed by the order it was declared. (1 based indexing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#order RulesGroup#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#order RulesGroup#order}
   */
   readonly order?: number;
   /**
   * The field on which the Regex will operate on. Accepts lowercase only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#source_field RulesGroup#source_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#source_field RulesGroup#source_field}
   */
   readonly sourceField: string;
 }
@@ -2156,31 +2156,31 @@ export interface RulesGroupRuleSubgroupsRulesRemoveFields {
   /**
   * Determines whether to rule will be active or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#active RulesGroup#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#active RulesGroup#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#description RulesGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#description RulesGroup#description}
   */
   readonly description?: string;
   /**
   * Excluded fields won't be indexed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#excluded_fields RulesGroup#excluded_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#excluded_fields RulesGroup#excluded_fields}
   */
   readonly excludedFields: string[];
   /**
   * The rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#name RulesGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#name RulesGroup#name}
   */
   readonly name: string;
   /**
   * Determines the index of the rule inside the rule-subgroup.If not set, will be computed by the order it was declared. (1 based indexing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#order RulesGroup#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#order RulesGroup#order}
   */
   readonly order?: number;
 }
@@ -2381,49 +2381,49 @@ export interface RulesGroupRuleSubgroupsRulesReplace {
   /**
   * Determines whether to rule will be active or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#active RulesGroup#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#active RulesGroup#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#description RulesGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#description RulesGroup#description}
   */
   readonly description?: string;
   /**
   * The field that will be populated by the results of the RegEx operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#destination_field RulesGroup#destination_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#destination_field RulesGroup#destination_field}
   */
   readonly destinationField: string;
   /**
   * The rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#name RulesGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#name RulesGroup#name}
   */
   readonly name: string;
   /**
   * Determines the index of the rule inside the rule-subgroup.If not set, will be computed by the order it was declared. (1 based indexing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#order RulesGroup#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#order RulesGroup#order}
   */
   readonly order?: number;
   /**
   * Regular expiration. More info: https://coralogix.com/blog/regex-101/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#regular_expression RulesGroup#regular_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#regular_expression RulesGroup#regular_expression}
   */
   readonly regularExpression: string;
   /**
   * The string that will replace the matched RegEx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#replacement_string RulesGroup#replacement_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#replacement_string RulesGroup#replacement_string}
   */
   readonly replacementString?: string;
   /**
   * The field on which the Regex will operate on. Accepts lowercase only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#source_field RulesGroup#source_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#source_field RulesGroup#source_field}
   */
   readonly sourceField: string;
 }
@@ -2705,55 +2705,55 @@ export interface RulesGroupRuleSubgroupsRules {
   /**
   * block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#block RulesGroup#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#block RulesGroup#block}
   */
   readonly block?: RulesGroupRuleSubgroupsRulesBlock;
   /**
   * extract block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#extract RulesGroup#extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#extract RulesGroup#extract}
   */
   readonly extract?: RulesGroupRuleSubgroupsRulesExtract;
   /**
   * extract_timestamp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#extract_timestamp RulesGroup#extract_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#extract_timestamp RulesGroup#extract_timestamp}
   */
   readonly extractTimestamp?: RulesGroupRuleSubgroupsRulesExtractTimestamp;
   /**
   * json_extract block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#json_extract RulesGroup#json_extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#json_extract RulesGroup#json_extract}
   */
   readonly jsonExtract?: RulesGroupRuleSubgroupsRulesJsonExtract;
   /**
   * json_stringify block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#json_stringify RulesGroup#json_stringify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#json_stringify RulesGroup#json_stringify}
   */
   readonly jsonStringify?: RulesGroupRuleSubgroupsRulesJsonStringify;
   /**
   * parse block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#parse RulesGroup#parse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#parse RulesGroup#parse}
   */
   readonly parse?: RulesGroupRuleSubgroupsRulesParse;
   /**
   * parse_json_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#parse_json_field RulesGroup#parse_json_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#parse_json_field RulesGroup#parse_json_field}
   */
   readonly parseJsonField?: RulesGroupRuleSubgroupsRulesParseJsonField;
   /**
   * remove_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#remove_fields RulesGroup#remove_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#remove_fields RulesGroup#remove_fields}
   */
   readonly removeFields?: RulesGroupRuleSubgroupsRulesRemoveFields;
   /**
   * replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#replace RulesGroup#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#replace RulesGroup#replace}
   */
   readonly replace?: RulesGroupRuleSubgroupsRulesReplace;
 }
@@ -3103,19 +3103,19 @@ export interface RulesGroupRuleSubgroups {
   /**
   * Determines whether the rule-subgroup will be active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#active RulesGroup#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#active RulesGroup#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Determines the index of the rule-subgroup inside the rule-group.When not set, will be computed by the order it was declared. (1 based indexing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#order RulesGroup#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#order RulesGroup#order}
   */
   readonly order?: number;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#rules RulesGroup#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#rules RulesGroup#rules}
   */
   readonly rules: RulesGroupRuleSubgroupsRules[] | cdktf.IResolvable;
 }
@@ -3291,19 +3291,19 @@ export class RulesGroupRuleSubgroupsList extends cdktf.ComplexList {
 }
 export interface RulesGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#create RulesGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#create RulesGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#delete RulesGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#delete RulesGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#read RulesGroup#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#read RulesGroup#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#update RulesGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#update RulesGroup#update}
   */
   readonly update?: string;
 }
@@ -3484,7 +3484,7 @@ export class RulesGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group coralogix_rules_group}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group coralogix_rules_group}
 */
 export class RulesGroup extends cdktf.TerraformResource {
 
@@ -3500,7 +3500,7 @@ export class RulesGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RulesGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RulesGroup to import
-  * @param importFromId The id of the existing RulesGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RulesGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RulesGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3512,7 +3512,7 @@ export class RulesGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/rules_group coralogix_rules_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/rules_group coralogix_rules_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3523,8 +3523,8 @@ export class RulesGroup extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_rules_group',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

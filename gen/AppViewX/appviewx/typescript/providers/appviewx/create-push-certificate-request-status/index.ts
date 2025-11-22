@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status
+// https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CreatePushCertificateRequestStatusConfig extends cdktf.Terrafor
   /**
   * Whether to include the certificate chain in the download
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status#certificate_chain_required CreatePushCertificateRequestStatus#certificate_chain_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status#certificate_chain_required CreatePushCertificateRequestStatus#certificate_chain_required}
   */
   readonly certificateChainRequired?: boolean | cdktf.IResolvable;
   /**
   * Common name of the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status#certificate_common_name CreatePushCertificateRequestStatus#certificate_common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status#certificate_common_name CreatePushCertificateRequestStatus#certificate_common_name}
   */
   readonly certificateCommonName?: string;
   /**
   * Format for the downloaded certificate (e.g., CRT, PFX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status#certificate_download_format CreatePushCertificateRequestStatus#certificate_download_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status#certificate_download_format CreatePushCertificateRequestStatus#certificate_download_format}
   */
   readonly certificateDownloadFormat?: string;
   /**
   * Path to download the certificate to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status#certificate_download_path CreatePushCertificateRequestStatus#certificate_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status#certificate_download_path CreatePushCertificateRequestStatus#certificate_download_path}
   */
   readonly certificateDownloadPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status#id CreatePushCertificateRequestStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status#id CreatePushCertificateRequestStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface CreatePushCertificateRequestStatusConfig extends cdktf.Terrafor
   /**
   * Whether to download the certificate after workflow completion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status#is_download_required CreatePushCertificateRequestStatus#is_download_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status#is_download_required CreatePushCertificateRequestStatus#is_download_required}
   */
   readonly isDownloadRequired?: boolean | cdktf.IResolvable;
   /**
   * Request ID from a workflow execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status#request_id CreatePushCertificateRequestStatus#request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status#request_id CreatePushCertificateRequestStatus#request_id}
   */
   readonly requestId?: string;
   /**
   * Number of times to retry checking workflow status (default: 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status#retry_count CreatePushCertificateRequestStatus#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status#retry_count CreatePushCertificateRequestStatus#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Seconds to wait between retry attempts (default: 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status#retry_interval CreatePushCertificateRequestStatus#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status#retry_interval CreatePushCertificateRequestStatus#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status#timeouts CreatePushCertificateRequestStatus#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status#timeouts CreatePushCertificateRequestStatus#timeouts}
   */
   readonly timeouts?: CreatePushCertificateRequestStatusTimeouts;
 }
 export interface CreatePushCertificateRequestStatusTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status#create CreatePushCertificateRequestStatus#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status#create CreatePushCertificateRequestStatus#create}
   */
   readonly create?: string;
 }
@@ -165,7 +165,7 @@ export class CreatePushCertificateRequestStatusTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status appviewx_create_push_certificate_request_status}
+* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status appviewx_create_push_certificate_request_status}
 */
 export class CreatePushCertificateRequestStatus extends cdktf.TerraformResource {
 
@@ -181,7 +181,7 @@ export class CreatePushCertificateRequestStatus extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a CreatePushCertificateRequestStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CreatePushCertificateRequestStatus to import
-  * @param importFromId The id of the existing CreatePushCertificateRequestStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CreatePushCertificateRequestStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CreatePushCertificateRequestStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class CreatePushCertificateRequestStatus extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/create_push_certificate_request_status appviewx_create_push_certificate_request_status} Resource
+  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/create_push_certificate_request_status appviewx_create_push_certificate_request_status} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class CreatePushCertificateRequestStatus extends cdktf.TerraformResource 
       terraformResourceType: 'appviewx_create_push_certificate_request_status',
       terraformGeneratorMetadata: {
         providerName: 'appviewx',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -230,6 +230,11 @@ export class CreatePushCertificateRequestStatus extends cdktf.TerraformResource 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // certificate_authority - computed: true, optional: false, required: false
+  public get certificateAuthority() {
+    return this.getStringAttribute('certificate_authority');
+  }
 
   // certificate_chain_required - computed: false, optional: true, required: false
   private _certificateChainRequired?: boolean | cdktf.IResolvable; 
@@ -295,9 +300,29 @@ export class CreatePushCertificateRequestStatus extends cdktf.TerraformResource 
     return this._certificateDownloadPath;
   }
 
+  // certificate_expiry_status - computed: true, optional: false, required: false
+  public get certificateExpiryStatus() {
+    return this.getStringAttribute('certificate_expiry_status');
+  }
+
+  // certificate_resource_id - computed: true, optional: false, required: false
+  public get certificateResourceId() {
+    return this.getStringAttribute('certificate_resource_id');
+  }
+
   // certificate_serial_number - computed: true, optional: false, required: false
   public get certificateSerialNumber() {
     return this.getStringAttribute('certificate_serial_number');
+  }
+
+  // certificate_status - computed: true, optional: false, required: false
+  public get certificateStatus() {
+    return this.getStringAttribute('certificate_status');
+  }
+
+  // certificate_uuid - computed: true, optional: false, required: false
+  public get certificateUuid() {
+    return this.getStringAttribute('certificate_uuid');
   }
 
   // completed - computed: true, optional: false, required: false
@@ -320,9 +345,29 @@ export class CreatePushCertificateRequestStatus extends cdktf.TerraformResource 
     return this.getStringAttribute('created_time');
   }
 
+  // created_time_epoch - computed: true, optional: false, required: false
+  public get createdTimeEpoch() {
+    return this.getNumberAttribute('created_time_epoch');
+  }
+
   // downloaded_certificate_path - computed: true, optional: false, required: false
   public get downloadedCertificatePath() {
     return this.getStringAttribute('downloaded_certificate_path');
+  }
+
+  // expires_at - computed: true, optional: false, required: false
+  public get expiresAt() {
+    return this.getStringAttribute('expires_at');
+  }
+
+  // expires_at_epoch - computed: true, optional: false, required: false
+  public get expiresAtEpoch() {
+    return this.getNumberAttribute('expires_at_epoch');
+  }
+
+  // extended_key_usage - computed: true, optional: false, required: false
+  public get extendedKeyUsage() {
+    return this.getStringAttribute('extended_key_usage');
   }
 
   // failed_task_logs - computed: true, optional: false, required: false
@@ -365,6 +410,41 @@ export class CreatePushCertificateRequestStatus extends cdktf.TerraformResource 
   // Temporarily expose input value. Use with caution.
   public get isDownloadRequiredInput() {
     return this._isDownloadRequired;
+  }
+
+  // issued_at - computed: true, optional: false, required: false
+  public get issuedAt() {
+    return this.getStringAttribute('issued_at');
+  }
+
+  // issued_at_epoch - computed: true, optional: false, required: false
+  public get issuedAtEpoch() {
+    return this.getNumberAttribute('issued_at_epoch');
+  }
+
+  // issuer - computed: true, optional: false, required: false
+  public get issuer() {
+    return this.getStringAttribute('issuer');
+  }
+
+  // key_algorithm - computed: true, optional: false, required: false
+  public get keyAlgorithm() {
+    return this.getStringAttribute('key_algorithm');
+  }
+
+  // key_usage - computed: true, optional: false, required: false
+  public get keyUsage() {
+    return this.getStringAttribute('key_usage');
+  }
+
+  // key_vault_name - computed: true, optional: false, required: false
+  public get keyVaultName() {
+    return this.getStringAttribute('key_vault_name');
+  }
+
+  // key_vault_secret_name - computed: true, optional: false, required: false
+  public get keyVaultSecretName() {
+    return this.getStringAttribute('key_vault_secret_name');
   }
 
   // last_polled_time - computed: true, optional: false, required: false
@@ -430,9 +510,19 @@ export class CreatePushCertificateRequestStatus extends cdktf.TerraformResource 
     return this._retryInterval;
   }
 
+  // signature_algorithm - computed: true, optional: false, required: false
+  public get signatureAlgorithm() {
+    return this.getStringAttribute('signature_algorithm');
+  }
+
   // status_code - computed: true, optional: false, required: false
   public get statusCode() {
     return this.getNumberAttribute('status_code');
+  }
+
+  // subject_alternative_names - computed: true, optional: false, required: false
+  public get subjectAlternativeNames() {
+    return this.getListAttribute('subject_alternative_names');
   }
 
   // success - computed: true, optional: false, required: false
@@ -443,6 +533,16 @@ export class CreatePushCertificateRequestStatus extends cdktf.TerraformResource 
   // task_summary - computed: true, optional: false, required: false
   public get taskSummary() {
     return this.getStringAttribute('task_summary');
+  }
+
+  // thumbprint - computed: true, optional: false, required: false
+  public get thumbprint() {
+    return this.getStringAttribute('thumbprint');
+  }
+
+  // validity_period - computed: true, optional: false, required: false
+  public get validityPeriod() {
+    return this.getStringAttribute('validity_period');
   }
 
   // workflow_name - computed: true, optional: false, required: false

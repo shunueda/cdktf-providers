@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/registry
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface RegistryConfig extends cdktf.TerraformMetaArguments {
   /**
   * A color representation of the registry. Accepts hex codes, eg #BADA55.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/registry#color Registry#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/registry#color Registry#color}
   */
   readonly color?: string;
   /**
@@ -18,13 +18,13 @@ export interface RegistryConfig extends cdktf.TerraformMetaArguments {
   * which would help identify the registry's purpose.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/registry#description Registry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/registry#description Registry#description}
   */
   readonly description?: string;
   /**
   * The ecosystem of the registry. **Warning:** This value cannot be changed after creation. Any attempts to update this field will result in API errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/registry#ecosystem Registry#ecosystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/registry#ecosystem Registry#ecosystem}
   */
   readonly ecosystem: string;
   /**
@@ -32,31 +32,31 @@ export interface RegistryConfig extends cdktf.TerraformMetaArguments {
   * emoji itself, such as 🚀.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/registry#emoji Registry#emoji}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/registry#emoji Registry#emoji}
   */
   readonly emoji?: string;
   /**
   * The name of the registry. Can only contain numbers and letters, no spaces or special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/registry#name Registry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/registry#name Registry#name}
   */
   readonly name: string;
   /**
   * The registry's OIDC policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/registry#oidc_policy Registry#oidc_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/registry#oidc_policy Registry#oidc_policy}
   */
   readonly oidcPolicy?: string;
   /**
   * The team IDs that have access to the registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/registry#team_ids Registry#team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/registry#team_ids Registry#team_ids}
   */
   readonly teamIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/registry buildkite_registry}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/registry buildkite_registry}
 */
 export class Registry extends cdktf.TerraformResource {
 
@@ -72,7 +72,7 @@ export class Registry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Registry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Registry to import
-  * @param importFromId The id of the existing Registry that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Registry that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Registry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -84,7 +84,7 @@ export class Registry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/registry buildkite_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/registry buildkite_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -95,8 +95,8 @@ export class Registry extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_registry',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0',
-        providerVersionConstraint: '1.26.0'
+        providerVersion: '1.27.0',
+        providerVersionConstraint: '1.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

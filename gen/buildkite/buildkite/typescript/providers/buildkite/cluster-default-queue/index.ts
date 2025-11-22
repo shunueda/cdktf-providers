@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_default_queue
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_default_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ClusterDefaultQueueConfig extends cdktf.TerraformMetaArguments 
   /**
   * The GraphQL ID of the cluster to which to add a default queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_default_queue#cluster_id ClusterDefaultQueue#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_default_queue#cluster_id ClusterDefaultQueue#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The GraphQL ID of the cluster queue to set as default on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_default_queue#queue_id ClusterDefaultQueue#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_default_queue#queue_id ClusterDefaultQueue#queue_id}
   */
   readonly queueId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_default_queue buildkite_cluster_default_queue}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_default_queue buildkite_cluster_default_queue}
 */
 export class ClusterDefaultQueue extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ClusterDefaultQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterDefaultQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterDefaultQueue to import
-  * @param importFromId The id of the existing ClusterDefaultQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_default_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterDefaultQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_default_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterDefaultQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ClusterDefaultQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_default_queue buildkite_cluster_default_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_default_queue buildkite_cluster_default_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class ClusterDefaultQueue extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_cluster_default_queue',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0',
-        providerVersionConstraint: '1.26.0'
+        providerVersion: '1.27.0',
+        providerVersionConstraint: '1.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

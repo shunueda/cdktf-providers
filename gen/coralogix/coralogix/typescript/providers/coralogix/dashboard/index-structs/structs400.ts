@@ -25,17 +25,17 @@ dashboardLayoutSectionsRowsWidgetsDefinitionGaugeToHclTerraform,
 DashboardLayoutSectionsRowsWidgetsDefinitionGaugeOutputReference } from './structs0'
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeFiltersMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label Dashboard#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#label Dashboard#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric_name Dashboard#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metric_name Dashboard#metric_name}
   */
   readonly metricName?: string;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeFiltersMetricsOperator;
 }
@@ -186,13 +186,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPri
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -311,13 +311,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPri
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -437,13 +437,13 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeFi
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeFiltersSpans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeFiltersSpansField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeFiltersSpansOperator;
 }
@@ -560,15 +560,15 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeFi
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#logs Dashboard#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#logs Dashboard#logs}
   */
   readonly logs?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeFiltersLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metrics Dashboard#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metrics Dashboard#metrics}
   */
   readonly metrics?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeFiltersMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#spans Dashboard#spans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#spans Dashboard#spans}
   */
   readonly spans?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeFiltersSpans;
 }
@@ -742,11 +742,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeFi
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -863,7 +863,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeTi
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -956,13 +956,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPri
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeTimeFrameRelative;
 }
@@ -1085,17 +1085,17 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeTi
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#query Dashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#query Dashboard#query}
   */
   readonly query?: string;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeTimeFrame;
 }
@@ -1247,11 +1247,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrimeOu
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsAggregationObservationField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -1368,23 +1368,23 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsAggrega
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsAggregation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#observation_field Dashboard#observation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#observation_field Dashboard#observation_field}
   */
   readonly observationField?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsAggregationObservationField;
   /**
   * The percentage of the aggregation to return. required when type is `percentile`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#percent Dashboard#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#percent Dashboard#percent}
   */
   readonly percent?: number;
   /**
   * The type of the aggregation. Can be one of ["count" "count_distinct" "sum" "avg" "min" "max" "percentile"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -1562,11 +1562,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsAggrega
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsFiltersObservationField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -1685,13 +1685,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsFil
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -1811,17 +1811,17 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsFilters
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#observation_field Dashboard#observation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#observation_field Dashboard#observation_field}
   */
   readonly observationField?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsFiltersObservationField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsFiltersOperator;
 }
@@ -1989,11 +1989,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsFilters
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsGroupBy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -2132,11 +2132,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsGroupBy
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -2253,7 +2253,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsTimeFra
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -2346,13 +2346,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsTim
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsTimeFrameRelative;
 }
@@ -2475,25 +2475,25 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsTimeFra
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#aggregation Dashboard#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#aggregation Dashboard#aggregation}
   */
   readonly aggregation: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsAggregation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_by Dashboard#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_by Dashboard#group_by}
   */
   readonly groupBy?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsGroupBy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
   */
   readonly luceneQuery?: string;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogsTimeFrame;
 }
@@ -2702,13 +2702,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetrics
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -2830,19 +2830,19 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetrics
   /**
   * Label associated with the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label Dashboard#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#label Dashboard#label}
   */
   readonly label?: string;
   /**
   * Metric name to apply the filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric Dashboard#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metric Dashboard#metric}
   */
   readonly metric: string;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetricsFiltersOperator;
 }
@@ -3010,11 +3010,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetricsFilt
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetricsTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -3131,7 +3131,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetricsTime
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetricsTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -3224,13 +3224,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetrics
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetricsTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetricsTimeFrameRelative;
 }
@@ -3353,25 +3353,25 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetricsTime
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#aggregation Dashboard#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#aggregation Dashboard#aggregation}
   */
   readonly aggregation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetricsFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#promql_query Dashboard#promql_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#promql_query Dashboard#promql_query}
   */
   readonly promqlQuery: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#promql_query_type Dashboard#promql_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#promql_query_type Dashboard#promql_query_type}
   */
   readonly promqlQueryType?: string;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetricsTimeFrame;
 }
@@ -3580,19 +3580,19 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansAg
   /**
   * The type of the aggregation. When the aggregation type is `metrics`, can be one of ["avg" "max" "min" "percentile_50" "percentile_95" "percentile_99" "sum" "unspecified"]. When the aggregation type is `dimension`, can be one of ["error_count" "unique_count" "unspecified"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#aggregation_type Dashboard#aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#aggregation_type Dashboard#aggregation_type}
   */
   readonly aggregationType: string;
   /**
   * The field to aggregate on. When the aggregation type is `metrics`, can be one of ["duration" "unspecified"]. When the aggregation type is `dimension`, can be one of ["trace_id" "unspecified"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: string;
   /**
   * Can be one of ["metric" "dimension"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -3737,13 +3737,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansFi
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -3862,13 +3862,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansFi
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -3988,13 +3988,13 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansFilter
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansFiltersField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansFiltersOperator;
 }
@@ -4135,13 +4135,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansGr
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -4280,11 +4280,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansGroupB
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -4401,7 +4401,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansTimeFr
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -4494,13 +4494,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansTi
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansTimeFrameRelative;
 }
@@ -4623,25 +4623,25 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansTimeFr
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#aggregation Dashboard#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#aggregation Dashboard#aggregation}
   */
   readonly aggregation?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansAggregation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_by Dashboard#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_by Dashboard#group_by}
   */
   readonly groupBy?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansGroupBy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
   */
   readonly luceneQuery?: string;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansTimeFrame;
 }
@@ -4851,19 +4851,19 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpansOutput
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#data_prime Dashboard#data_prime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#data_prime Dashboard#data_prime}
   */
   readonly dataPrime?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryDataPrime;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#logs Dashboard#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#logs Dashboard#logs}
   */
   readonly logs?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metrics Dashboard#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metrics Dashboard#metrics}
   */
   readonly metrics?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#spans Dashboard#spans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#spans Dashboard#spans}
   */
   readonly spans?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuerySpans;
 }
@@ -5044,15 +5044,15 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQueryOutputRefer
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagonThresholds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#color Dashboard#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#color Dashboard#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#from Dashboard#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#from Dashboard#from}
   */
   readonly from: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label Dashboard#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#label Dashboard#label}
   */
   readonly label?: string;
 }
@@ -5225,53 +5225,53 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHexagon {
   /**
   * A custom unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#custom_unit Dashboard#custom_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#custom_unit Dashboard#custom_unit}
   */
   readonly customUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#data_mode_type Dashboard#data_mode_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#data_mode_type Dashboard#data_mode_type}
   */
   readonly dataModeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#decimal Dashboard#decimal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#decimal Dashboard#decimal}
   */
   readonly decimal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#legend Dashboard#legend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#legend Dashboard#legend}
   */
   readonly legend?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonLegend;
   /**
   * The legend by. Valid values are: groups, thresholds, unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#legend_by Dashboard#legend_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#legend_by Dashboard#legend_by}
   */
   readonly legendBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#max Dashboard#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#max Dashboard#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#min Dashboard#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#min Dashboard#min}
   */
   readonly min?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#query Dashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#query Dashboard#query}
   */
   readonly query: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonQuery;
   /**
   * The threshold type. Valid values are: absolute, relative, unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#threshold_type Dashboard#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#threshold_type Dashboard#threshold_type}
   */
   readonly thresholdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#thresholds Dashboard#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#thresholds Dashboard#thresholds}
   */
   readonly thresholds?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagonThresholds[] | cdktf.IResolvable;
   /**
   * The unit. Valid values are: bytes, bytes_iec, custom, euro, euro_cents, gbytes, gibytes, kbytes, kibytes, mbytes, mibytes, microseconds, milliseconds, nanoseconds, percent01, percent100, seconds, unspecified, usd, usd_cents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#unit Dashboard#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#unit Dashboard#unit}
   */
   readonly unit?: string;
 }
@@ -5652,11 +5652,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHexagonOutputReference 
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeFiltersLogsObservationField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -5775,13 +5775,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -5903,17 +5903,17 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * Field in the logs to apply the filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#observation_field Dashboard#observation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#observation_field Dashboard#observation_field}
   */
   readonly observationField?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeFiltersLogsObservationField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeFiltersLogsOperator;
 }
@@ -6061,13 +6061,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -6187,17 +6187,17 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeFiltersMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label Dashboard#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#label Dashboard#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric_name Dashboard#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metric_name Dashboard#metric_name}
   */
   readonly metricName?: string;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeFiltersMetricsOperator;
 }
@@ -6348,13 +6348,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -6473,13 +6473,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -6599,13 +6599,13 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeFiltersSpans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeFiltersSpansField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeFiltersSpansOperator;
 }
@@ -6722,15 +6722,15 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#logs Dashboard#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#logs Dashboard#logs}
   */
   readonly logs?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeFiltersLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metrics Dashboard#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metrics Dashboard#metrics}
   */
   readonly metrics?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeFiltersMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#spans Dashboard#spans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#spans Dashboard#spans}
   */
   readonly spans?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeFiltersSpans;
 }
@@ -6904,11 +6904,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -7025,7 +7025,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -7118,13 +7118,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeTimeFrameRelative;
 }
@@ -7247,25 +7247,25 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_names Dashboard#group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_names Dashboard#group_names}
   */
   readonly groupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#query Dashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#query Dashboard#query}
   */
   readonly query: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
   */
   readonly stackedGroupName?: string;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrimeTimeFrame;
 }
@@ -7472,11 +7472,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsAggregationObservationField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -7593,23 +7593,23 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsAggregation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#observation_field Dashboard#observation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#observation_field Dashboard#observation_field}
   */
   readonly observationField?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsAggregationObservationField;
   /**
   * The percentage of the aggregation to return. required when type is `percentile`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#percent Dashboard#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#percent Dashboard#percent}
   */
   readonly percent?: number;
   /**
   * The type of the aggregation. Can be one of ["count" "count_distinct" "sum" "avg" "min" "max" "percentile"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -7787,11 +7787,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsFiltersObservationField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -7910,13 +7910,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -8036,17 +8036,17 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#observation_field Dashboard#observation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#observation_field Dashboard#observation_field}
   */
   readonly observationField?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsFiltersObservationField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsFiltersOperator;
 }
@@ -8214,11 +8214,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsGroupNamesFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -8357,11 +8357,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsStackedGroupNameField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -8478,11 +8478,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -8599,7 +8599,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -8692,13 +8692,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsTimeFrameRelative;
 }
@@ -8821,37 +8821,37 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#aggregation Dashboard#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#aggregation Dashboard#aggregation}
   */
   readonly aggregation: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsAggregation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_names Dashboard#group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_names Dashboard#group_names}
   */
   readonly groupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_names_fields Dashboard#group_names_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_names_fields Dashboard#group_names_fields}
   */
   readonly groupNamesFields?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsGroupNamesFields[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
   */
   readonly luceneQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
   */
   readonly stackedGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stacked_group_name_field Dashboard#stacked_group_name_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stacked_group_name_field Dashboard#stacked_group_name_field}
   */
   readonly stackedGroupNameField?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsStackedGroupNameField;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogsTimeFrame;
 }
@@ -9147,13 +9147,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -9275,19 +9275,19 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * Label associated with the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label Dashboard#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#label Dashboard#label}
   */
   readonly label?: string;
   /**
   * Metric name to apply the filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric Dashboard#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metric Dashboard#metric}
   */
   readonly metric: string;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryMetricsFiltersOperator;
 }
@@ -9455,11 +9455,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryMetricsTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -9576,7 +9576,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryMetricsTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -9669,13 +9669,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryMetricsTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryMetricsTimeFrameRelative;
 }
@@ -9798,25 +9798,25 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryMetricsFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_names Dashboard#group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_names Dashboard#group_names}
   */
   readonly groupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#promql_query Dashboard#promql_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#promql_query Dashboard#promql_query}
   */
   readonly promqlQuery: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
   */
   readonly stackedGroupName?: string;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryMetricsTimeFrame;
 }
@@ -10025,19 +10025,19 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * The type of the aggregation. When the aggregation type is `metrics`, can be one of ["avg" "max" "min" "percentile_50" "percentile_95" "percentile_99" "sum" "unspecified"]. When the aggregation type is `dimension`, can be one of ["error_count" "unique_count" "unspecified"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#aggregation_type Dashboard#aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#aggregation_type Dashboard#aggregation_type}
   */
   readonly aggregationType: string;
   /**
   * The field to aggregate on. When the aggregation type is `metrics`, can be one of ["duration" "unspecified"]. When the aggregation type is `dimension`, can be one of ["trace_id" "unspecified"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: string;
   /**
   * Can be one of ["metric" "dimension"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -10182,13 +10182,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -10307,13 +10307,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -10433,13 +10433,13 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpansFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpansFiltersField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpansFiltersOperator;
 }
@@ -10580,13 +10580,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -10727,13 +10727,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -10850,11 +10850,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpansTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -10971,7 +10971,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpansTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -11064,13 +11064,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQ
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpansTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpansTimeFrameRelative;
 }
@@ -11193,29 +11193,29 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#aggregation Dashboard#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#aggregation Dashboard#aggregation}
   */
   readonly aggregation?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpansAggregation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpansFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_names Dashboard#group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_names Dashboard#group_names}
   */
   readonly groupNames?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpansGroupNames[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
   */
   readonly luceneQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
   */
   readonly stackedGroupName?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpansStackedGroupName;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpansTimeFrame;
 }
@@ -11454,19 +11454,19 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#data_prime Dashboard#data_prime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#data_prime Dashboard#data_prime}
   */
   readonly dataPrime?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryDataPrime;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#logs Dashboard#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#logs Dashboard#logs}
   */
   readonly logs?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metrics Dashboard#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metrics Dashboard#metrics}
   */
   readonly metrics?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQueryMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#spans Dashboard#spans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#spans Dashboard#spans}
   */
   readonly spans?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuerySpans;
 }
@@ -11647,11 +11647,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartStackDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#max_slices_per_bar Dashboard#max_slices_per_bar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#max_slices_per_bar Dashboard#max_slices_per_bar}
   */
   readonly maxSlicesPerBar?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stack_name_template Dashboard#stack_name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stack_name_template Dashboard#stack_name_template}
   */
   readonly stackNameTemplate?: string;
 }
@@ -11776,53 +11776,53 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChart 
   /**
   * The color scheme. Can be one of classic, severity, cold, negative, green, red, blue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#color_scheme Dashboard#color_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#color_scheme Dashboard#color_scheme}
   */
   readonly colorScheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#colors_by Dashboard#colors_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#colors_by Dashboard#colors_by}
   */
   readonly colorsBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#data_mode_type Dashboard#data_mode_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#data_mode_type Dashboard#data_mode_type}
   */
   readonly dataModeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#display_on_bar Dashboard#display_on_bar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#display_on_bar Dashboard#display_on_bar}
   */
   readonly displayOnBar?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_name_template Dashboard#group_name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_name_template Dashboard#group_name_template}
   */
   readonly groupNameTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#max_bars_per_chart Dashboard#max_bars_per_chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#max_bars_per_chart Dashboard#max_bars_per_chart}
   */
   readonly maxBarsPerChart?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#query Dashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#query Dashboard#query}
   */
   readonly query?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartQuery;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scale_type Dashboard#scale_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scale_type Dashboard#scale_type}
   */
   readonly scaleType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#sort_by Dashboard#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#sort_by Dashboard#sort_by}
   */
   readonly sortBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stack_definition Dashboard#stack_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stack_definition Dashboard#stack_definition}
   */
   readonly stackDefinition?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChartStackDefinition;
   /**
   * The unit of the chart. Can be one of bytes, bytes_iec, custom, euro, euro_cents, gbytes, gibytes, kbytes, kibytes, mbytes, mibytes, microseconds, milliseconds, nanoseconds, percent01, percent100, seconds, unspecified, usd, usd_cents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#unit Dashboard#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#unit Dashboard#unit}
   */
   readonly unit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#y_axis_view_by Dashboard#y_axis_view_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#y_axis_view_by Dashboard#y_axis_view_by}
   */
   readonly yAxisViewBy?: string;
 }
@@ -12237,23 +12237,23 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartLegend {
   /**
   * The columns to display in the legend. Valid values are: avg, last, max, min, name, sum, unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#columns Dashboard#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#columns Dashboard#columns}
   */
   readonly columns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_by_query Dashboard#group_by_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_by_query Dashboard#group_by_query}
   */
   readonly groupByQuery?: boolean | cdktf.IResolvable;
   /**
   * Whether to display the legend. True by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#is_visible Dashboard#is_visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#is_visible Dashboard#is_visible}
   */
   readonly isVisible?: boolean | cdktf.IResolvable;
   /**
   * The placement of the legend. Valid values are: auto, bottom, hidden, side, unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#placement Dashboard#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#placement Dashboard#placement}
   */
   readonly placement?: string;
 }
@@ -12434,11 +12434,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartLegendOutputRe
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeFiltersLogsObservationField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -12557,13 +12557,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -12685,17 +12685,17 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * Field in the logs to apply the filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#observation_field Dashboard#observation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#observation_field Dashboard#observation_field}
   */
   readonly observationField?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeFiltersLogsObservationField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeFiltersLogsOperator;
 }
@@ -12843,13 +12843,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -12969,17 +12969,17 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeFiltersMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label Dashboard#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#label Dashboard#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric_name Dashboard#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metric_name Dashboard#metric_name}
   */
   readonly metricName?: string;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeFiltersMetricsOperator;
 }
@@ -13130,13 +13130,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -13255,13 +13255,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -13381,13 +13381,13 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeFiltersSpans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeFiltersSpansField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeFiltersSpansOperator;
 }
@@ -13504,15 +13504,15 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#logs Dashboard#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#logs Dashboard#logs}
   */
   readonly logs?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeFiltersLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metrics Dashboard#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metrics Dashboard#metrics}
   */
   readonly metrics?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeFiltersMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#spans Dashboard#spans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#spans Dashboard#spans}
   */
   readonly spans?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeFiltersSpans;
 }
@@ -13686,11 +13686,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -13807,7 +13807,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -13900,13 +13900,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeTimeFrameRelative;
 }
@@ -14029,17 +14029,17 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#query Dashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#query Dashboard#query}
   */
   readonly query?: string;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrimeTimeFrame;
 }
@@ -14191,11 +14191,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsAggregationsObservationField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -14312,23 +14312,23 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsAggregations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#observation_field Dashboard#observation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#observation_field Dashboard#observation_field}
   */
   readonly observationField?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsAggregationsObservationField;
   /**
   * The percentage of the aggregation to return. required when type is `percentile`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#percent Dashboard#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#percent Dashboard#percent}
   */
   readonly percent?: number;
   /**
   * The type of the aggregation. Can be one of ["count" "count_distinct" "sum" "avg" "min" "max" "percentile"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -14528,11 +14528,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsFiltersObservationField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -14651,13 +14651,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -14777,17 +14777,17 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#observation_field Dashboard#observation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#observation_field Dashboard#observation_field}
   */
   readonly observationField?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsFiltersObservationField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsFiltersOperator;
 }
@@ -14955,11 +14955,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -15076,7 +15076,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -15169,13 +15169,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsTimeFrameRelative;
 }
@@ -15298,25 +15298,25 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#aggregations Dashboard#aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#aggregations Dashboard#aggregations}
   */
   readonly aggregations: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsAggregations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_by Dashboard#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_by Dashboard#group_by}
   */
   readonly groupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
   */
   readonly luceneQuery?: string;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogsTimeFrame;
 }
@@ -15525,13 +15525,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -15653,19 +15653,19 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * Label associated with the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label Dashboard#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#label Dashboard#label}
   */
   readonly label?: string;
   /**
   * Metric name to apply the filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric Dashboard#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metric Dashboard#metric}
   */
   readonly metric: string;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryMetricsFiltersOperator;
 }
@@ -15833,11 +15833,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryMetricsTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -15954,7 +15954,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryMetricsTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -16047,13 +16047,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryMetricsTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryMetricsTimeFrameRelative;
 }
@@ -16176,21 +16176,21 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryMetricsFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#promql_query Dashboard#promql_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#promql_query Dashboard#promql_query}
   */
   readonly promqlQuery: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#promql_query_type Dashboard#promql_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#promql_query_type Dashboard#promql_query_type}
   */
   readonly promqlQueryType?: string;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryMetricsTimeFrame;
 }
@@ -16370,19 +16370,19 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * The type of the aggregation. When the aggregation type is `metrics`, can be one of ["avg" "max" "min" "percentile_50" "percentile_95" "percentile_99" "sum" "unspecified"]. When the aggregation type is `dimension`, can be one of ["error_count" "unique_count" "unspecified"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#aggregation_type Dashboard#aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#aggregation_type Dashboard#aggregation_type}
   */
   readonly aggregationType: string;
   /**
   * The field to aggregate on. When the aggregation type is `metrics`, can be one of ["duration" "unspecified"]. When the aggregation type is `dimension`, can be one of ["trace_id" "unspecified"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: string;
   /**
   * Can be one of ["metric" "dimension"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -16549,13 +16549,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -16674,13 +16674,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -16800,13 +16800,13 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuerySpansFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuerySpansFiltersField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuerySpansFiltersOperator;
 }
@@ -16947,13 +16947,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -17092,11 +17092,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuerySpansTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -17213,7 +17213,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuerySpansTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -17306,13 +17306,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefin
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuerySpansTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuerySpansTimeFrameRelative;
 }
@@ -17435,25 +17435,25 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuerySpans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#aggregations Dashboard#aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#aggregations Dashboard#aggregations}
   */
   readonly aggregations?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuerySpansAggregations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuerySpansFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_by Dashboard#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_by Dashboard#group_by}
   */
   readonly groupBy?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuerySpansGroupBy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
   */
   readonly luceneQuery?: string;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuerySpansTimeFrame;
 }
@@ -17663,19 +17663,19 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#data_prime Dashboard#data_prime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#data_prime Dashboard#data_prime}
   */
   readonly dataPrime?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryDataPrime;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#logs Dashboard#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#logs Dashboard#logs}
   */
   readonly logs?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metrics Dashboard#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metrics Dashboard#metrics}
   */
   readonly metrics?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQueryMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#spans Dashboard#spans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#spans Dashboard#spans}
   */
   readonly spans?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuerySpans;
 }
@@ -17856,11 +17856,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsResolution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#buckets_presented Dashboard#buckets_presented}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#buckets_presented Dashboard#buckets_presented}
   */
   readonly bucketsPresented?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#interval Dashboard#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#interval Dashboard#interval}
   */
   readonly interval?: string;
 }
@@ -17983,47 +17983,47 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#color_scheme Dashboard#color_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#color_scheme Dashboard#color_scheme}
   */
   readonly colorScheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#data_mode_type Dashboard#data_mode_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#data_mode_type Dashboard#data_mode_type}
   */
   readonly dataModeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#is_visible Dashboard#is_visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#is_visible Dashboard#is_visible}
   */
   readonly isVisible?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#name Dashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#name Dashboard#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#query Dashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#query Dashboard#query}
   */
   readonly query: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsQuery;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#resolution Dashboard#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#resolution Dashboard#resolution}
   */
   readonly resolution?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitionsResolution;
   /**
   * The scale type. Valid values are: linear, logarithmic, unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scale_type Dashboard#scale_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scale_type Dashboard#scale_type}
   */
   readonly scaleType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#series_count_limit Dashboard#series_count_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#series_count_limit Dashboard#series_count_limit}
   */
   readonly seriesCountLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#series_name_template Dashboard#series_name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#series_name_template Dashboard#series_name_template}
   */
   readonly seriesNameTemplate?: string;
   /**
   * The unit. Valid values are: bytes, bytes_iec, custom, euro, euro_cents, gbytes, gibytes, kbytes, kibytes, mbytes, mibytes, microseconds, milliseconds, nanoseconds, percent01, percent100, seconds, unspecified, usd, usd_cents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#unit Dashboard#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#unit Dashboard#unit}
   */
   readonly unit?: string;
 }
@@ -18402,13 +18402,13 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitio
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChartTooltip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#show_labels Dashboard#show_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#show_labels Dashboard#show_labels}
   */
   readonly showLabels?: boolean | cdktf.IResolvable;
   /**
   * The tooltip type. Valid values are: all, single, unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type?: string;
 }
@@ -18531,21 +18531,21 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartTooltipOutputR
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionLineChart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#legend Dashboard#legend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#legend Dashboard#legend}
   */
   readonly legend?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartLegend;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#query_definitions Dashboard#query_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#query_definitions Dashboard#query_definitions}
   */
   readonly queryDefinitions: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartQueryDefinitions[] | cdktf.IResolvable;
   /**
   * Option to show lines as stacked. Possible values: absolute, relative
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stacked_line Dashboard#stacked_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stacked_line Dashboard#stacked_line}
   */
   readonly stackedLine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#tooltip Dashboard#tooltip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#tooltip Dashboard#tooltip}
   */
   readonly tooltip?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChartTooltip;
 }
@@ -18723,11 +18723,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionLineChartOutputReferenc
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionMarkdown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#markdown_text Dashboard#markdown_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#markdown_text Dashboard#markdown_text}
   */
   readonly markdownText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#tooltip_text Dashboard#tooltip_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#tooltip_text Dashboard#tooltip_text}
   */
   readonly tooltipText?: string;
 }
@@ -18850,25 +18850,25 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionMarkdownOutputReference
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartLabelDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#is_visible Dashboard#is_visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#is_visible Dashboard#is_visible}
   */
   readonly isVisible?: boolean | cdktf.IResolvable;
   /**
   * The source of the label. Valid values are: inner, stack, unspecified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label_source Dashboard#label_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#label_source Dashboard#label_source}
   */
   readonly labelSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#show_name Dashboard#show_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#show_name Dashboard#show_name}
   */
   readonly showName?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#show_percentage Dashboard#show_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#show_percentage Dashboard#show_percentage}
   */
   readonly showPercentage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#show_value Dashboard#show_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#show_value Dashboard#show_value}
   */
   readonly showValue?: boolean | cdktf.IResolvable;
 }
@@ -19078,11 +19078,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartLabelDefinition
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeFiltersLogsObservationField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -19201,13 +19201,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPr
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -19329,17 +19329,17 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPr
   /**
   * Field in the logs to apply the filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#observation_field Dashboard#observation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#observation_field Dashboard#observation_field}
   */
   readonly observationField?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeFiltersLogsObservationField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeFiltersLogsOperator;
 }
@@ -19487,13 +19487,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPr
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -19613,17 +19613,17 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeF
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeFiltersMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label Dashboard#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#label Dashboard#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric_name Dashboard#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metric_name Dashboard#metric_name}
   */
   readonly metricName?: string;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeFiltersMetricsOperator;
 }
@@ -19774,13 +19774,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPr
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -19899,13 +19899,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPr
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -20025,13 +20025,13 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeF
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeFiltersSpans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeFiltersSpansField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeFiltersSpansOperator;
 }
@@ -20148,15 +20148,15 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeF
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#logs Dashboard#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#logs Dashboard#logs}
   */
   readonly logs?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeFiltersLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metrics Dashboard#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metrics Dashboard#metrics}
   */
   readonly metrics?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeFiltersMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#spans Dashboard#spans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#spans Dashboard#spans}
   */
   readonly spans?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeFiltersSpans;
 }
@@ -20330,11 +20330,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeF
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -20451,7 +20451,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeT
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -20544,13 +20544,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPr
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeTimeFrameRelative;
 }
@@ -20673,25 +20673,25 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeT
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_names Dashboard#group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_names Dashboard#group_names}
   */
   readonly groupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#query Dashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#query Dashboard#query}
   */
   readonly query: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
   */
   readonly stackedGroupName?: string;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeTimeFrame;
 }
@@ -20898,11 +20898,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrimeO
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsAggregationObservationField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -21019,23 +21019,23 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsAggreg
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsAggregation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#observation_field Dashboard#observation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#observation_field Dashboard#observation_field}
   */
   readonly observationField?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsAggregationObservationField;
   /**
   * The percentage of the aggregation to return. required when type is `percentile`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#percent Dashboard#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#percent Dashboard#percent}
   */
   readonly percent?: number;
   /**
   * The type of the aggregation. Can be one of ["count" "count_distinct" "sum" "avg" "min" "max" "percentile"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -21213,11 +21213,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsAggreg
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsFiltersObservationField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -21336,13 +21336,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsFi
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -21462,17 +21462,17 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsFilter
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#observation_field Dashboard#observation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#observation_field Dashboard#observation_field}
   */
   readonly observationField?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsFiltersObservationField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsFiltersOperator;
 }
@@ -21640,11 +21640,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsFilter
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsGroupNamesFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -21783,11 +21783,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsGroupN
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsStackedGroupNameField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#keypath Dashboard#keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#keypath Dashboard#keypath}
   */
   readonly keypath: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
 }
@@ -21904,11 +21904,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsStacke
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -22025,7 +22025,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsTimeFr
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -22118,13 +22118,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsTi
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsTimeFrameRelative;
 }
@@ -22247,37 +22247,37 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsTimeFr
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#aggregation Dashboard#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#aggregation Dashboard#aggregation}
   */
   readonly aggregation: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsAggregation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_names Dashboard#group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_names Dashboard#group_names}
   */
   readonly groupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_names_fields Dashboard#group_names_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_names_fields Dashboard#group_names_fields}
   */
   readonly groupNamesFields?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsGroupNamesFields[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
   */
   readonly luceneQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
   */
   readonly stackedGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stacked_group_name_field Dashboard#stacked_group_name_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stacked_group_name_field Dashboard#stacked_group_name_field}
   */
   readonly stackedGroupNameField?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsStackedGroupNameField;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogsTimeFrame;
 }
@@ -22573,13 +22573,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetric
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -22701,19 +22701,19 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetric
   /**
   * Label associated with the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label Dashboard#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#label Dashboard#label}
   */
   readonly label?: string;
   /**
   * Metric name to apply the filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metric Dashboard#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metric Dashboard#metric}
   */
   readonly metric: string;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetricsFiltersOperator;
 }
@@ -22881,11 +22881,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetricsFil
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetricsTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -23002,7 +23002,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetricsTim
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetricsTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -23095,13 +23095,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetric
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetricsTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetricsTimeFrameRelative;
 }
@@ -23224,25 +23224,25 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetricsTim
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetricsFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_names Dashboard#group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_names Dashboard#group_names}
   */
   readonly groupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#promql_query Dashboard#promql_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#promql_query Dashboard#promql_query}
   */
   readonly promqlQuery: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
   */
   readonly stackedGroupName?: string;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetricsTimeFrame;
 }
@@ -23451,19 +23451,19 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansA
   /**
   * The type of the aggregation. When the aggregation type is `metrics`, can be one of ["avg" "max" "min" "percentile_50" "percentile_95" "percentile_99" "sum" "unspecified"]. When the aggregation type is `dimension`, can be one of ["error_count" "unique_count" "unspecified"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#aggregation_type Dashboard#aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#aggregation_type Dashboard#aggregation_type}
   */
   readonly aggregationType: string;
   /**
   * The field to aggregate on. When the aggregation type is `metrics`, can be one of ["duration" "unspecified"]. When the aggregation type is `dimension`, can be one of ["trace_id" "unspecified"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: string;
   /**
   * Can be one of ["metric" "dimension"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -23608,13 +23608,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansF
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -23733,13 +23733,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansF
   /**
   * the values to filter by. When the type is `equals`, this field is optional, the filter will match only the selected values, and all the values if not set. When the type is `not_equals`, this field is required, and the filter will match spans without the selected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#selected_values Dashboard#selected_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#selected_values Dashboard#selected_values}
   */
   readonly selectedValues?: string[];
   /**
   * The type of the operator. Can be one of `equals` or `not_equals`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
 }
@@ -23859,13 +23859,13 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansFilte
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansFiltersField;
   /**
   * Operator to use for filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansFiltersOperator;
 }
@@ -24006,13 +24006,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansG
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -24153,13 +24153,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansS
   /**
   * The type of the field. Can be one of ["metadata" "tag" "process_tag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * The value of the field. When the field type is `metadata`, can be one of ["application_name" "operation_name" "service_name" "subsystem_name" "unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -24276,11 +24276,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansStack
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansTimeFrameAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#end Dashboard#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#end Dashboard#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#start Dashboard#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#start Dashboard#start}
   */
   readonly start: string;
 }
@@ -24397,7 +24397,7 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansTimeF
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansTimeFrameRelative {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#duration Dashboard#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#duration Dashboard#duration}
   */
   readonly duration: string;
 }
@@ -24490,13 +24490,13 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansT
   /**
   * Absolute time frame specifying a fixed start and end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#absolute Dashboard#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#absolute Dashboard#absolute}
   */
   readonly absolute?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansTimeFrameAbsolute;
   /**
   * Relative time frame specifying a duration from the current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#relative Dashboard#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#relative Dashboard#relative}
   */
   readonly relative?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansTimeFrameRelative;
 }
@@ -24619,29 +24619,29 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansTimeF
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#aggregation Dashboard#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#aggregation Dashboard#aggregation}
   */
   readonly aggregation?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansAggregation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_names Dashboard#group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_names Dashboard#group_names}
   */
   readonly groupNames?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansGroupNames[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#lucene_query Dashboard#lucene_query}
   */
   readonly luceneQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stacked_group_name Dashboard#stacked_group_name}
   */
   readonly stackedGroupName?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansStackedGroupName;
   /**
   * Specifies the time frame. Can be either absolute or relative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#time_frame Dashboard#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#time_frame Dashboard#time_frame}
   */
   readonly timeFrame?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansTimeFrame;
 }
@@ -24880,19 +24880,19 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpansOutpu
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#data_prime Dashboard#data_prime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#data_prime Dashboard#data_prime}
   */
   readonly dataPrime?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryDataPrime;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#logs Dashboard#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#logs Dashboard#logs}
   */
   readonly logs?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#metrics Dashboard#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#metrics Dashboard#metrics}
   */
   readonly metrics?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#spans Dashboard#spans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#spans Dashboard#spans}
   */
   readonly spans?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuerySpans;
 }
@@ -25073,11 +25073,11 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQueryOutputRefe
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChartStackDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#max_slices_per_stack Dashboard#max_slices_per_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#max_slices_per_stack Dashboard#max_slices_per_stack}
   */
   readonly maxSlicesPerStack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stack_name_template Dashboard#stack_name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stack_name_template Dashboard#stack_name_template}
   */
   readonly stackNameTemplate?: string;
 }
@@ -25202,43 +25202,43 @@ export interface DashboardLayoutSectionsRowsWidgetsDefinitionPieChart {
   /**
   * The color scheme. Can be one of classic, severity, cold, negative, green, red, blue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#color_scheme Dashboard#color_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#color_scheme Dashboard#color_scheme}
   */
   readonly colorScheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#data_mode_type Dashboard#data_mode_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#data_mode_type Dashboard#data_mode_type}
   */
   readonly dataModeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#group_name_template Dashboard#group_name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#group_name_template Dashboard#group_name_template}
   */
   readonly groupNameTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#label_definition Dashboard#label_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#label_definition Dashboard#label_definition}
   */
   readonly labelDefinition: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartLabelDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#max_slices_per_chart Dashboard#max_slices_per_chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#max_slices_per_chart Dashboard#max_slices_per_chart}
   */
   readonly maxSlicesPerChart?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#min_slice_percentage Dashboard#min_slice_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#min_slice_percentage Dashboard#min_slice_percentage}
   */
   readonly minSlicePercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#query Dashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#query Dashboard#query}
   */
   readonly query: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartQuery;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#show_legend Dashboard#show_legend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#show_legend Dashboard#show_legend}
   */
   readonly showLegend?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#stack_definition Dashboard#stack_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#stack_definition Dashboard#stack_definition}
   */
   readonly stackDefinition?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChartStackDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#unit Dashboard#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#unit Dashboard#unit}
   */
   readonly unit?: string;
 }
@@ -25587,35 +25587,35 @@ export class DashboardLayoutSectionsRowsWidgetsDefinitionPieChartOutputReference
 }
 export interface DashboardLayoutSectionsRowsWidgetsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#bar_chart Dashboard#bar_chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#bar_chart Dashboard#bar_chart}
   */
   readonly barChart?: DashboardLayoutSectionsRowsWidgetsDefinitionBarChart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#data_table Dashboard#data_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#data_table Dashboard#data_table}
   */
   readonly dataTable?: DashboardLayoutSectionsRowsWidgetsDefinitionDataTable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#gauge Dashboard#gauge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#gauge Dashboard#gauge}
   */
   readonly gauge?: DashboardLayoutSectionsRowsWidgetsDefinitionGauge;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#hexagon Dashboard#hexagon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#hexagon Dashboard#hexagon}
   */
   readonly hexagon?: DashboardLayoutSectionsRowsWidgetsDefinitionHexagon;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#horizontal_bar_chart Dashboard#horizontal_bar_chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#horizontal_bar_chart Dashboard#horizontal_bar_chart}
   */
   readonly horizontalBarChart?: DashboardLayoutSectionsRowsWidgetsDefinitionHorizontalBarChart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#line_chart Dashboard#line_chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#line_chart Dashboard#line_chart}
   */
   readonly lineChart?: DashboardLayoutSectionsRowsWidgetsDefinitionLineChart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#markdown Dashboard#markdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#markdown Dashboard#markdown}
   */
   readonly markdown?: DashboardLayoutSectionsRowsWidgetsDefinitionMarkdown;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#pie_chart Dashboard#pie_chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#pie_chart Dashboard#pie_chart}
   */
   readonly pieChart?: DashboardLayoutSectionsRowsWidgetsDefinitionPieChart;
 }
@@ -25914,25 +25914,25 @@ export interface DashboardLayoutSectionsRowsWidgets {
   /**
   * The widget definition. Can contain one of [data_table gauge hexagon line_chart pie_chart bar_chart horizontal_bar_chart markdown]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#definition Dashboard#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#definition Dashboard#definition}
   */
   readonly definition: DashboardLayoutSectionsRowsWidgetsDefinition;
   /**
   * Widget description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#description Dashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#description Dashboard#description}
   */
   readonly description?: string;
   /**
   * Widget title. Required for all widgets except markdown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#title Dashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#title Dashboard#title}
   */
   readonly title?: string;
   /**
   * The width of the chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#width Dashboard#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#width Dashboard#width}
   */
   readonly width?: number;
 }
@@ -26139,13 +26139,13 @@ export interface DashboardLayoutSectionsRows {
   /**
   * The height of the row.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#height Dashboard#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#height Dashboard#height}
   */
   readonly height: number;
   /**
   * The list of widgets to display in the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/dashboard#widgets Dashboard#widgets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/dashboard#widgets Dashboard#widgets}
   */
   readonly widgets?: DashboardLayoutSectionsRowsWidgets[] | cdktf.IResolvable;
 }

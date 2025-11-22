@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,45 @@ export interface ClusterQueueConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the cluster that this cluster queue belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue#cluster_id ClusterQueue#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue#cluster_id ClusterQueue#cluster_id}
   */
   readonly clusterId: string;
   /**
   * A description for the cluster queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue#description ClusterQueue#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue#description ClusterQueue#description}
   */
   readonly description?: string;
   /**
   * The dispatch state of a cluster queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue#dispatch_paused ClusterQueue#dispatch_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue#dispatch_paused ClusterQueue#dispatch_paused}
   */
   readonly dispatchPaused?: boolean | cdktf.IResolvable;
   /**
   * Control the settings for the Buildkite hosted agents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue#hosted_agents ClusterQueue#hosted_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue#hosted_agents ClusterQueue#hosted_agents}
   */
   readonly hostedAgents?: ClusterQueueHostedAgents;
   /**
   * The key of the cluster queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue#key ClusterQueue#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue#key ClusterQueue#key}
   */
   readonly key: string;
+  /**
+  * Specifies which agent should be preferred when a job is retried. Valid values are `prefer-warmest` (prefer agents that have recently finished jobs) and `prefer-different` (prefer a different agent if available). Defaults to `prefer-warmest`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue#retry_agent_affinity ClusterQueue#retry_agent_affinity}
+  */
+  readonly retryAgentAffinity?: string;
 }
 export interface ClusterQueueHostedAgentsLinux {
   /**
   * A URL reference to a container image that will be used for jobs running within the queue. This URL is required to be publicly available, or pushed to the internal registry available within the cluster. Please note that this value is currently experimental and in preview. Please contact support@buildkite.com to enable this functionality for your organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue#agent_image_ref ClusterQueue#agent_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue#agent_image_ref ClusterQueue#agent_image_ref}
   */
   readonly agentImageRef: string;
 }
@@ -135,13 +141,13 @@ export interface ClusterQueueHostedAgentsMac {
   /**
   * Optional selection of a specific macOS version to be selected for jobs in the queue to have available. Please note that this value is currently experimental and may not function as expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue#macos_version ClusterQueue#macos_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue#macos_version ClusterQueue#macos_version}
   */
   readonly macosVersion?: string;
   /**
   * Required selection of a specific XCode version to be selected for jobs in the queue to have available. Please note that this value is currently experimental and may not function as expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue#xcode_version ClusterQueue#xcode_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue#xcode_version ClusterQueue#xcode_version}
   */
   readonly xcodeVersion: string;
 }
@@ -275,15 +281,15 @@ export interface ClusterQueueHostedAgents {
   * - LINUX_ARM64_16X64
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue#instance_shape ClusterQueue#instance_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue#instance_shape ClusterQueue#instance_shape}
   */
   readonly instanceShape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue#linux ClusterQueue#linux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue#linux ClusterQueue#linux}
   */
   readonly linux?: ClusterQueueHostedAgentsLinux;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue#mac ClusterQueue#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue#mac ClusterQueue#mac}
   */
   readonly mac?: ClusterQueueHostedAgentsMac;
 }
@@ -432,7 +438,7 @@ export class ClusterQueueHostedAgentsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue buildkite_cluster_queue}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue buildkite_cluster_queue}
 */
 export class ClusterQueue extends cdktf.TerraformResource {
 
@@ -448,7 +454,7 @@ export class ClusterQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterQueue to import
-  * @param importFromId The id of the existing ClusterQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -460,7 +466,7 @@ export class ClusterQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/cluster_queue buildkite_cluster_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/cluster_queue buildkite_cluster_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -471,8 +477,8 @@ export class ClusterQueue extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_cluster_queue',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0',
-        providerVersionConstraint: '1.26.0'
+        providerVersion: '1.27.0',
+        providerVersionConstraint: '1.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -487,6 +493,7 @@ export class ClusterQueue extends cdktf.TerraformResource {
     this._dispatchPaused = config.dispatchPaused;
     this._hostedAgents.internalValue = config.hostedAgents;
     this._key = config.key;
+    this._retryAgentAffinity = config.retryAgentAffinity;
   }
 
   // ==========
@@ -577,6 +584,22 @@ export class ClusterQueue extends cdktf.TerraformResource {
     return this._key;
   }
 
+  // retry_agent_affinity - computed: true, optional: true, required: false
+  private _retryAgentAffinity?: string; 
+  public get retryAgentAffinity() {
+    return this.getStringAttribute('retry_agent_affinity');
+  }
+  public set retryAgentAffinity(value: string) {
+    this._retryAgentAffinity = value;
+  }
+  public resetRetryAgentAffinity() {
+    this._retryAgentAffinity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get retryAgentAffinityInput() {
+    return this._retryAgentAffinity;
+  }
+
   // uuid - computed: true, optional: false, required: false
   public get uuid() {
     return this.getStringAttribute('uuid');
@@ -593,6 +616,7 @@ export class ClusterQueue extends cdktf.TerraformResource {
       dispatch_paused: cdktf.booleanToTerraform(this._dispatchPaused),
       hosted_agents: clusterQueueHostedAgentsToTerraform(this._hostedAgents.internalValue),
       key: cdktf.stringToTerraform(this._key),
+      retry_agent_affinity: cdktf.stringToTerraform(this._retryAgentAffinity),
     };
   }
 
@@ -624,6 +648,12 @@ export class ClusterQueue extends cdktf.TerraformResource {
       },
       key: {
         value: cdktf.stringToHclTerraform(this._key),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      retry_agent_affinity: {
+        value: cdktf.stringToHclTerraform(this._retryAgentAffinity),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

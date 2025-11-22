@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/cdc
+// https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/cdc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CdcConfig extends cdktf.TerraformMetaArguments {
   /**
   * Astra database to create the keyspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/cdc#database_id Cdc#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/cdc#database_id Cdc#database_id}
   */
   readonly databaseId: string;
   /**
   * Astra database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/cdc#database_name Cdc#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/cdc#database_name Cdc#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/cdc#id Cdc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/cdc#id Cdc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface CdcConfig extends cdktf.TerraformMetaArguments {
   /**
   * Initial keyspace name. For additional keyspaces, use the astra_keyspace resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/cdc#keyspace Cdc#keyspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/cdc#keyspace Cdc#keyspace}
   */
   readonly keyspace: string;
   /**
   * Name of the pulsar cluster to connect CDC.  If this is not set, Terraform will try to determine the pulsar cluster name based on the database cloud provider and region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/cdc#pulsar_cluster Cdc#pulsar_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/cdc#pulsar_cluster Cdc#pulsar_cluster}
   */
   readonly pulsarCluster?: string;
   /**
   * Astra database table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/cdc#table Cdc#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/cdc#table Cdc#table}
   */
   readonly table: string;
   /**
   * Streaming tenant name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/cdc#tenant_name Cdc#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/cdc#tenant_name Cdc#tenant_name}
   */
   readonly tenantName: string;
   /**
   * Number of partitions in cdc topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/cdc#topic_partitions Cdc#topic_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/cdc#topic_partitions Cdc#topic_partitions}
   */
   readonly topicPartitions: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/cdc astra_cdc}
+* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/cdc astra_cdc}
 */
 export class Cdc extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class Cdc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cdc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cdc to import
-  * @param importFromId The id of the existing Cdc that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/cdc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cdc that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/cdc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cdc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class Cdc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/cdc astra_cdc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/cdc astra_cdc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class Cdc extends cdktf.TerraformResource {
       terraformResourceType: 'astra_cdc',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18',
-        providerVersionConstraint: '2.3.18'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

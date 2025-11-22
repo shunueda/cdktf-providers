@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/agent_token
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/agent_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface AgentTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the agent token. Used to help identify its use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/agent_token#description AgentToken#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/agent_token#description AgentToken#description}
   */
   readonly description?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/agent_token buildkite_agent_token}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/agent_token buildkite_agent_token}
 */
 export class AgentToken extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class AgentToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AgentToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AgentToken to import
-  * @param importFromId The id of the existing AgentToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/agent_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AgentToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/agent_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AgentToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class AgentToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/agent_token buildkite_agent_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/agent_token buildkite_agent_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class AgentToken extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_agent_token',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0',
-        providerVersionConstraint: '1.26.0'
+        providerVersion: '1.27.0',
+        providerVersionConstraint: '1.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints
+// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface Vns3IpsecEndpointsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#id Vns3IpsecEndpoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#id Vns3IpsecEndpoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#last_updated Vns3IpsecEndpoints#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#last_updated Vns3IpsecEndpoints#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#endpoint Vns3IpsecEndpoints#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#endpoint Vns3IpsecEndpoints#endpoint}
   */
   readonly endpoint: Vns3IpsecEndpointsEndpoint[] | cdktf.IResolvable;
   /**
   * vns3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#vns3 Vns3IpsecEndpoints#vns3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#vns3 Vns3IpsecEndpoints#vns3}
   */
   readonly vns3?: Vns3IpsecEndpointsVns3;
 }
@@ -35,79 +35,79 @@ export interface Vns3IpsecEndpointsEndpoint {
   /**
   * Description of new endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#description Vns3IpsecEndpoints#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#description Vns3IpsecEndpoints#description}
   */
   readonly description?: string;
   /**
   * IPsec extra parameter settings for auth and encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#extra_config Vns3IpsecEndpoints#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#extra_config Vns3IpsecEndpoints#extra_config}
   */
   readonly extraConfig?: string;
   /**
   * IKE version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#ike_version Vns3IpsecEndpoints#ike_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#ike_version Vns3IpsecEndpoints#ike_version}
   */
   readonly ikeVersion?: number;
   /**
   * IP address or remote device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#ipaddress Vns3IpsecEndpoints#ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#ipaddress Vns3IpsecEndpoints#ipaddress}
   */
   readonly ipaddress: string;
   /**
   * Name for new endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#name Vns3IpsecEndpoints#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#name Vns3IpsecEndpoints#name}
   */
   readonly name: string;
   /**
   * Perfect Forward Secrecy setting. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#nat_t_enabled Vns3IpsecEndpoints#nat_t_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#nat_t_enabled Vns3IpsecEndpoints#nat_t_enabled}
   */
   readonly natTEnabled?: boolean | cdktf.IResolvable;
   /**
   * Perfect Forward Secrecy setting. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#pfs Vns3IpsecEndpoints#pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#pfs Vns3IpsecEndpoints#pfs}
   */
   readonly pfs?: boolean | cdktf.IResolvable;
   /**
   * Remote Peer's IKE ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#private_ipaddress Vns3IpsecEndpoints#private_ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#private_ipaddress Vns3IpsecEndpoints#private_ipaddress}
   */
   readonly privateIpaddress?: string;
   /**
   * If VTI a /30 address for the virtual interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#route_based_int_address Vns3IpsecEndpoints#route_based_int_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#route_based_int_address Vns3IpsecEndpoints#route_based_int_address}
   */
   readonly routeBasedIntAddress?: string;
   /**
   * Local subnet of IPsec tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#route_based_local Vns3IpsecEndpoints#route_based_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#route_based_local Vns3IpsecEndpoints#route_based_local}
   */
   readonly routeBasedLocal?: string;
   /**
   * Remote subnet of IPsec tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#route_based_remote Vns3IpsecEndpoints#route_based_remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#route_based_remote Vns3IpsecEndpoints#route_based_remote}
   */
   readonly routeBasedRemote?: string;
   /**
   * Pre-shared key for IPSec connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#secret Vns3IpsecEndpoints#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#secret Vns3IpsecEndpoints#secret}
   */
   readonly secret: string;
   /**
   * Type of VPN connection. VTI or GRE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#vpn_type Vns3IpsecEndpoints#vpn_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#vpn_type Vns3IpsecEndpoints#vpn_type}
   */
   readonly vpnType?: string;
 }
@@ -562,23 +562,23 @@ export class Vns3IpsecEndpointsEndpointList extends cdktf.ComplexList {
 }
 export interface Vns3IpsecEndpointsVns3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#api_token Vns3IpsecEndpoints#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#api_token Vns3IpsecEndpoints#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#host Vns3IpsecEndpoints#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#host Vns3IpsecEndpoints#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#password Vns3IpsecEndpoints#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#password Vns3IpsecEndpoints#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#timeout Vns3IpsecEndpoints#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#timeout Vns3IpsecEndpoints#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#username Vns3IpsecEndpoints#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#username Vns3IpsecEndpoints#username}
   */
   readonly username?: string;
 }
@@ -778,7 +778,7 @@ export class Vns3IpsecEndpointsVns3OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints cohesivenet_vns3_ipsec_endpoints}
+* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints cohesivenet_vns3_ipsec_endpoints}
 */
 export class Vns3IpsecEndpoints extends cdktf.TerraformResource {
 
@@ -794,7 +794,7 @@ export class Vns3IpsecEndpoints extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vns3IpsecEndpoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vns3IpsecEndpoints to import
-  * @param importFromId The id of the existing Vns3IpsecEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vns3IpsecEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vns3IpsecEndpoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -806,7 +806,7 @@ export class Vns3IpsecEndpoints extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_endpoints cohesivenet_vns3_ipsec_endpoints} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_endpoints cohesivenet_vns3_ipsec_endpoints} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -817,8 +817,8 @@ export class Vns3IpsecEndpoints extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_ipsec_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

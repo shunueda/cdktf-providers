@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,94 +8,94 @@ import * as cdktf from 'cdktf';
 
 export interface SecureCloudAuthAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#enabled SecureCloudAuthAccount#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#enabled SecureCloudAuthAccount#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#id SecureCloudAuthAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#id SecureCloudAuthAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#provider_alias SecureCloudAuthAccount#provider_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#provider_alias SecureCloudAuthAccount#provider_alias}
   */
   readonly providerAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#provider_id SecureCloudAuthAccount#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#provider_id SecureCloudAuthAccount#provider_id}
   */
   readonly providerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#provider_partition SecureCloudAuthAccount#provider_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#provider_partition SecureCloudAuthAccount#provider_partition}
   */
   readonly providerPartition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#provider_tenant_id SecureCloudAuthAccount#provider_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#provider_tenant_id SecureCloudAuthAccount#provider_tenant_id}
   */
   readonly providerTenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#provider_type SecureCloudAuthAccount#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#provider_type SecureCloudAuthAccount#provider_type}
   */
   readonly providerType: string;
   /**
   * component block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#component SecureCloudAuthAccount#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#component SecureCloudAuthAccount#component}
   */
   readonly component?: SecureCloudAuthAccountComponent[] | cdktf.IResolvable;
   /**
   * feature block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#feature SecureCloudAuthAccount#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#feature SecureCloudAuthAccount#feature}
   */
   readonly feature?: SecureCloudAuthAccountFeature[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#timeouts SecureCloudAuthAccount#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#timeouts SecureCloudAuthAccount#timeouts}
   */
   readonly timeouts?: SecureCloudAuthAccountTimeouts;
 }
 export interface SecureCloudAuthAccountComponent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#cloud_connector_metadata SecureCloudAuthAccount#cloud_connector_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#cloud_connector_metadata SecureCloudAuthAccount#cloud_connector_metadata}
   */
   readonly cloudConnectorMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#cloud_logs_metadata SecureCloudAuthAccount#cloud_logs_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#cloud_logs_metadata SecureCloudAuthAccount#cloud_logs_metadata}
   */
   readonly cloudLogsMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#crypto_key_metadata SecureCloudAuthAccount#crypto_key_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#crypto_key_metadata SecureCloudAuthAccount#crypto_key_metadata}
   */
   readonly cryptoKeyMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#event_bridge_metadata SecureCloudAuthAccount#event_bridge_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#event_bridge_metadata SecureCloudAuthAccount#event_bridge_metadata}
   */
   readonly eventBridgeMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#instance SecureCloudAuthAccount#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#instance SecureCloudAuthAccount#instance}
   */
   readonly instance: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#service_principal_metadata SecureCloudAuthAccount#service_principal_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#service_principal_metadata SecureCloudAuthAccount#service_principal_metadata}
   */
   readonly servicePrincipalMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#trusted_role_metadata SecureCloudAuthAccount#trusted_role_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#trusted_role_metadata SecureCloudAuthAccount#trusted_role_metadata}
   */
   readonly trustedRoleMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#type SecureCloudAuthAccount#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#type SecureCloudAuthAccount#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#version SecureCloudAuthAccount#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#version SecureCloudAuthAccount#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#webhook_datasource_metadata SecureCloudAuthAccount#webhook_datasource_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#webhook_datasource_metadata SecureCloudAuthAccount#webhook_datasource_metadata}
   */
   readonly webhookDatasourceMetadata?: string;
 }
@@ -466,11 +466,11 @@ export class SecureCloudAuthAccountComponentList extends cdktf.ComplexList {
 }
 export interface SecureCloudAuthAccountFeatureMonitorCloudMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#components SecureCloudAuthAccount#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#components SecureCloudAuthAccount#components}
   */
   readonly components?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#enabled SecureCloudAuthAccount#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#enabled SecureCloudAuthAccount#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -617,11 +617,11 @@ export class SecureCloudAuthAccountFeatureMonitorCloudMetricsList extends cdktf.
 }
 export interface SecureCloudAuthAccountFeatureSecureAgentlessScanning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#components SecureCloudAuthAccount#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#components SecureCloudAuthAccount#components}
   */
   readonly components?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#enabled SecureCloudAuthAccount#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#enabled SecureCloudAuthAccount#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -768,11 +768,11 @@ export class SecureCloudAuthAccountFeatureSecureAgentlessScanningList extends cd
 }
 export interface SecureCloudAuthAccountFeatureSecureConfigPosture {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#components SecureCloudAuthAccount#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#components SecureCloudAuthAccount#components}
   */
   readonly components?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#enabled SecureCloudAuthAccount#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#enabled SecureCloudAuthAccount#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -919,11 +919,11 @@ export class SecureCloudAuthAccountFeatureSecureConfigPostureList extends cdktf.
 }
 export interface SecureCloudAuthAccountFeatureSecureIdentityEntitlement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#components SecureCloudAuthAccount#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#components SecureCloudAuthAccount#components}
   */
   readonly components?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#enabled SecureCloudAuthAccount#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#enabled SecureCloudAuthAccount#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -1070,11 +1070,11 @@ export class SecureCloudAuthAccountFeatureSecureIdentityEntitlementList extends 
 }
 export interface SecureCloudAuthAccountFeatureSecureThreatDetection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#components SecureCloudAuthAccount#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#components SecureCloudAuthAccount#components}
   */
   readonly components?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#enabled SecureCloudAuthAccount#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#enabled SecureCloudAuthAccount#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -1223,31 +1223,31 @@ export interface SecureCloudAuthAccountFeature {
   /**
   * monitor_cloud_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#monitor_cloud_metrics SecureCloudAuthAccount#monitor_cloud_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#monitor_cloud_metrics SecureCloudAuthAccount#monitor_cloud_metrics}
   */
   readonly monitorCloudMetrics?: SecureCloudAuthAccountFeatureMonitorCloudMetrics[] | cdktf.IResolvable;
   /**
   * secure_agentless_scanning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#secure_agentless_scanning SecureCloudAuthAccount#secure_agentless_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#secure_agentless_scanning SecureCloudAuthAccount#secure_agentless_scanning}
   */
   readonly secureAgentlessScanning?: SecureCloudAuthAccountFeatureSecureAgentlessScanning[] | cdktf.IResolvable;
   /**
   * secure_config_posture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#secure_config_posture SecureCloudAuthAccount#secure_config_posture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#secure_config_posture SecureCloudAuthAccount#secure_config_posture}
   */
   readonly secureConfigPosture?: SecureCloudAuthAccountFeatureSecureConfigPosture[] | cdktf.IResolvable;
   /**
   * secure_identity_entitlement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#secure_identity_entitlement SecureCloudAuthAccount#secure_identity_entitlement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#secure_identity_entitlement SecureCloudAuthAccount#secure_identity_entitlement}
   */
   readonly secureIdentityEntitlement?: SecureCloudAuthAccountFeatureSecureIdentityEntitlement[] | cdktf.IResolvable;
   /**
   * secure_threat_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#secure_threat_detection SecureCloudAuthAccount#secure_threat_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#secure_threat_detection SecureCloudAuthAccount#secure_threat_detection}
   */
   readonly secureThreatDetection?: SecureCloudAuthAccountFeatureSecureThreatDetection[] | cdktf.IResolvable;
 }
@@ -1479,19 +1479,19 @@ export class SecureCloudAuthAccountFeatureList extends cdktf.ComplexList {
 }
 export interface SecureCloudAuthAccountTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#create SecureCloudAuthAccount#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#create SecureCloudAuthAccount#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#delete SecureCloudAuthAccount#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#delete SecureCloudAuthAccount#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#read SecureCloudAuthAccount#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#read SecureCloudAuthAccount#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#update SecureCloudAuthAccount#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#update SecureCloudAuthAccount#update}
   */
   readonly update?: string;
 }
@@ -1672,7 +1672,7 @@ export class SecureCloudAuthAccountTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account sysdig_secure_cloud_auth_account}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account sysdig_secure_cloud_auth_account}
 */
 export class SecureCloudAuthAccount extends cdktf.TerraformResource {
 
@@ -1688,7 +1688,7 @@ export class SecureCloudAuthAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecureCloudAuthAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecureCloudAuthAccount to import
-  * @param importFromId The id of the existing SecureCloudAuthAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecureCloudAuthAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecureCloudAuthAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1700,7 +1700,7 @@ export class SecureCloudAuthAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_cloud_auth_account sysdig_secure_cloud_auth_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_cloud_auth_account sysdig_secure_cloud_auth_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1711,8 +1711,8 @@ export class SecureCloudAuthAccount extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_secure_cloud_auth_account',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0',
-        providerVersionConstraint: '3.1.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

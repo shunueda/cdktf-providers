@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller
+// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,273 +10,273 @@ export interface Vns3IdentityControllerConfig extends cdktf.TerraformMetaArgumen
   /**
   * Authorization Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#authorization_endpoint Vns3IdentityController#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#authorization_endpoint Vns3IdentityController#authorization_endpoint}
   */
   readonly authorizationEndpoint?: string;
   /**
   * The bind DN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#binddn Vns3IdentityController#binddn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#binddn Vns3IdentityController#binddn}
   */
   readonly binddn?: string;
   /**
   * The bind password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#bindpw Vns3IdentityController#bindpw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#bindpw Vns3IdentityController#bindpw}
   */
   readonly bindpw?: string;
   /**
   * Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#enabled Vns3IdentityController#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#enabled Vns3IdentityController#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to encrypt LDAP communication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#encrypt Vns3IdentityController#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#encrypt Vns3IdentityController#encrypt}
   */
   readonly encrypt?: boolean | cdktf.IResolvable;
   /**
   * Whether to encrypt auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#encrypt_auth Vns3IdentityController#encrypt_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#encrypt_auth Vns3IdentityController#encrypt_auth}
   */
   readonly encryptAuth?: boolean | cdktf.IResolvable;
   /**
   * Whether to encrypt auth cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#encrypt_auth_cert Vns3IdentityController#encrypt_auth_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#encrypt_auth_cert Vns3IdentityController#encrypt_auth_cert}
   */
   readonly encryptAuthCert?: boolean | cdktf.IResolvable;
   /**
   * The auth cert data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#encrypt_auth_cert_data Vns3IdentityController#encrypt_auth_cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#encrypt_auth_cert_data Vns3IdentityController#encrypt_auth_cert_data}
   */
   readonly encryptAuthCertData?: string;
   /**
   * The auth cert filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#encrypt_auth_cert_filename Vns3IdentityController#encrypt_auth_cert_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#encrypt_auth_cert_filename Vns3IdentityController#encrypt_auth_cert_filename}
   */
   readonly encryptAuthCertFilename?: string;
   /**
   * Whether to encrypt auth key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#encrypt_auth_key Vns3IdentityController#encrypt_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#encrypt_auth_key Vns3IdentityController#encrypt_auth_key}
   */
   readonly encryptAuthKey?: boolean | cdktf.IResolvable;
   /**
   * The auth key data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#encrypt_auth_key_data Vns3IdentityController#encrypt_auth_key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#encrypt_auth_key_data Vns3IdentityController#encrypt_auth_key_data}
   */
   readonly encryptAuthKeyData?: string;
   /**
   * The auth key filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#encrypt_auth_key_filename Vns3IdentityController#encrypt_auth_key_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#encrypt_auth_key_filename Vns3IdentityController#encrypt_auth_key_filename}
   */
   readonly encryptAuthKeyFilename?: string;
   /**
   * Whether to encrypt CA cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#encrypt_ca_cert Vns3IdentityController#encrypt_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#encrypt_ca_cert Vns3IdentityController#encrypt_ca_cert}
   */
   readonly encryptCaCert?: boolean | cdktf.IResolvable;
   /**
   * The CA cert data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#encrypt_ca_cert_data Vns3IdentityController#encrypt_ca_cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#encrypt_ca_cert_data Vns3IdentityController#encrypt_ca_cert_data}
   */
   readonly encryptCaCertData?: string;
   /**
   * The CA cert filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#encrypt_ca_cert_filename Vns3IdentityController#encrypt_ca_cert_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#encrypt_ca_cert_filename Vns3IdentityController#encrypt_ca_cert_filename}
   */
   readonly encryptCaCertFilename?: string;
   /**
   * Whether to encrypt LDAPS communication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#encrypt_ldaps Vns3IdentityController#encrypt_ldaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#encrypt_ldaps Vns3IdentityController#encrypt_ldaps}
   */
   readonly encryptLdaps?: boolean | cdktf.IResolvable;
   /**
   * Whether to encrypt verify CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#encrypt_verify_ca Vns3IdentityController#encrypt_verify_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#encrypt_verify_ca Vns3IdentityController#encrypt_verify_ca}
   */
   readonly encryptVerifyCa?: boolean | cdktf.IResolvable;
   /**
   * The group base DN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#group_base Vns3IdentityController#group_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#group_base Vns3IdentityController#group_base}
   */
   readonly groupBase?: string;
   /**
   * The group ID attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#group_id_attribute Vns3IdentityController#group_id_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#group_id_attribute Vns3IdentityController#group_id_attribute}
   */
   readonly groupIdAttribute?: string;
   /**
   * The group list filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#group_list_filter Vns3IdentityController#group_list_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#group_list_filter Vns3IdentityController#group_list_filter}
   */
   readonly groupListFilter?: string;
   /**
   * The group member attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#group_member_attr_format Vns3IdentityController#group_member_attr_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#group_member_attr_format Vns3IdentityController#group_member_attr_format}
   */
   readonly groupMemberAttrFormat?: string;
   /**
   * The group member attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#group_member_attribute Vns3IdentityController#group_member_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#group_member_attribute Vns3IdentityController#group_member_attribute}
   */
   readonly groupMemberAttribute?: string;
   /**
   * The group list filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#group_search_scope Vns3IdentityController#group_search_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#group_search_scope Vns3IdentityController#group_search_scope}
   */
   readonly groupSearchScope?: string;
   /**
   * Host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#host Vns3IdentityController#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#host Vns3IdentityController#host}
   */
   readonly host?: string;
   /**
   * Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#identifier Vns3IdentityController#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#identifier Vns3IdentityController#identifier}
   */
   readonly identifier?: string;
   /**
   * Identity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#identity_provider Vns3IdentityController#identity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#identity_provider Vns3IdentityController#identity_provider}
   */
   readonly identityProvider?: string;
   /**
   * Issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#issuer Vns3IdentityController#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#issuer Vns3IdentityController#issuer}
   */
   readonly issuer?: string;
   /**
   * Jwks Uri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#jwks_uri Vns3IdentityController#jwks_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#jwks_uri Vns3IdentityController#jwks_uri}
   */
   readonly jwksUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#last_updated Vns3IdentityController#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#last_updated Vns3IdentityController#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * The group member attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#otp Vns3IdentityController#otp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#otp Vns3IdentityController#otp}
   */
   readonly otp?: boolean | cdktf.IResolvable;
   /**
   * The group member attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#otp_url Vns3IdentityController#otp_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#otp_url Vns3IdentityController#otp_url}
   */
   readonly otpUrl?: string;
   /**
   * The LDAP port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#port Vns3IdentityController#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#port Vns3IdentityController#port}
   */
   readonly port?: number;
   /**
   * Provider Url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#provider_url Vns3IdentityController#provider_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#provider_url Vns3IdentityController#provider_url}
   */
   readonly providerUrl?: string;
   /**
   * Redirect Hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#redirect_hostname Vns3IdentityController#redirect_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#redirect_hostname Vns3IdentityController#redirect_hostname}
   */
   readonly redirectHostname?: string;
   /**
   * Redirect Uri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#redirect_uri Vns3IdentityController#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#redirect_uri Vns3IdentityController#redirect_uri}
   */
   readonly redirectUri?: string;
   /**
   * Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#secret Vns3IdentityController#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#secret Vns3IdentityController#secret}
   */
   readonly secret?: string;
   /**
   * Token Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#token_endpoint Vns3IdentityController#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#token_endpoint Vns3IdentityController#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * The user base DN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#user_base Vns3IdentityController#user_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#user_base Vns3IdentityController#user_base}
   */
   readonly userBase?: string;
   /**
   * The user ID attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#user_id_attribute Vns3IdentityController#user_id_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#user_id_attribute Vns3IdentityController#user_id_attribute}
   */
   readonly userIdAttribute?: string;
   /**
   * The user list filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#user_list_filter Vns3IdentityController#user_list_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#user_list_filter Vns3IdentityController#user_list_filter}
   */
   readonly userListFilter?: string;
   /**
   * Userinfo Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#userinfo_endpoint Vns3IdentityController#userinfo_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#userinfo_endpoint Vns3IdentityController#userinfo_endpoint}
   */
   readonly userinfoEndpoint?: string;
   /**
   * vns3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#vns3 Vns3IdentityController#vns3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#vns3 Vns3IdentityController#vns3}
   */
   readonly vns3?: Vns3IdentityControllerVns3;
 }
 export interface Vns3IdentityControllerVns3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#api_token Vns3IdentityController#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#api_token Vns3IdentityController#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#host Vns3IdentityController#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#host Vns3IdentityController#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#password Vns3IdentityController#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#password Vns3IdentityController#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#timeout Vns3IdentityController#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#timeout Vns3IdentityController#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#username Vns3IdentityController#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#username Vns3IdentityController#username}
   */
   readonly username?: string;
 }
@@ -476,7 +476,7 @@ export class Vns3IdentityControllerVns3OutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller cohesivenet_vns3_identity_controller}
+* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller cohesivenet_vns3_identity_controller}
 */
 export class Vns3IdentityController extends cdktf.TerraformResource {
 
@@ -492,7 +492,7 @@ export class Vns3IdentityController extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vns3IdentityController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vns3IdentityController to import
-  * @param importFromId The id of the existing Vns3IdentityController that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vns3IdentityController that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vns3IdentityController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -504,7 +504,7 @@ export class Vns3IdentityController extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_controller cohesivenet_vns3_identity_controller} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_controller cohesivenet_vns3_identity_controller} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -515,8 +515,8 @@ export class Vns3IdentityController extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_identity_controller',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

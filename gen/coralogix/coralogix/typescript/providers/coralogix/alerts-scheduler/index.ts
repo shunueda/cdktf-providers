@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface AlertsSchedulerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alert Scheduler description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#description AlertsScheduler#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#description AlertsScheduler#description}
   */
   readonly description?: string;
   /**
   * Alert Scheduler enabled. If set to `false`, the alert scheduler will be disabled. True by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#enabled AlertsScheduler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#enabled AlertsScheduler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Alert Scheduler filter. Only one of `meta_labels` or `alerts_unique_ids` can be set. If none of them set, all alerts will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#filter AlertsScheduler#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#filter AlertsScheduler#filter}
   */
   readonly filter: AlertsSchedulerFilter;
   /**
   * Alert Scheduler meta labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#meta_labels AlertsScheduler#meta_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#meta_labels AlertsScheduler#meta_labels}
   */
   readonly metaLabels?: AlertsSchedulerMetaLabels[] | cdktf.IResolvable;
   /**
   * Alert Scheduler name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#name AlertsScheduler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#name AlertsScheduler#name}
   */
   readonly name: string;
   /**
   * Exactly one of `one_time` or `recurring` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#schedule AlertsScheduler#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#schedule AlertsScheduler#schedule}
   */
   readonly schedule: AlertsSchedulerSchedule;
 }
 export interface AlertsSchedulerFilterMetaLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#key AlertsScheduler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#key AlertsScheduler#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#value AlertsScheduler#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#value AlertsScheduler#value}
   */
   readonly value?: string;
 }
@@ -192,17 +192,17 @@ export class AlertsSchedulerFilterMetaLabelsList extends cdktf.ComplexList {
 }
 export interface AlertsSchedulerFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#alerts_unique_ids AlertsScheduler#alerts_unique_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#alerts_unique_ids AlertsScheduler#alerts_unique_ids}
   */
   readonly alertsUniqueIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#meta_labels AlertsScheduler#meta_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#meta_labels AlertsScheduler#meta_labels}
   */
   readonly metaLabels?: AlertsSchedulerFilterMetaLabels[] | cdktf.IResolvable;
   /**
   * DataPrime query expression. - [DataPrime query language](https://coralogix.com/docs/dataprime-query-language/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#what_expression AlertsScheduler#what_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#what_expression AlertsScheduler#what_expression}
   */
   readonly whatExpression: string;
 }
@@ -351,11 +351,11 @@ export class AlertsSchedulerFilterOutputReference extends cdktf.ComplexObject {
 }
 export interface AlertsSchedulerMetaLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#key AlertsScheduler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#key AlertsScheduler#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#value AlertsScheduler#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#value AlertsScheduler#value}
   */
   readonly value?: string;
 }
@@ -499,13 +499,13 @@ export interface AlertsSchedulerScheduleOneTimeTimeFrameDuration {
   /**
   * The number of time units to wait before the alert is triggered. For example, if the frequency is set to `hours` and the value is set to `2`, the alert will be triggered after 2 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#for_over AlertsScheduler#for_over}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#for_over AlertsScheduler#for_over}
   */
   readonly forOver: number;
   /**
   * The time unit to wait before the alert is triggered. Can be `minutes`, `hours` or `days`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#frequency AlertsScheduler#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#frequency AlertsScheduler#frequency}
   */
   readonly frequency: string;
 }
@@ -624,21 +624,21 @@ export interface AlertsSchedulerScheduleOneTimeTimeFrame {
   /**
   * The duration from the start time to wait.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#duration AlertsScheduler#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#duration AlertsScheduler#duration}
   */
   readonly duration?: AlertsSchedulerScheduleOneTimeTimeFrameDuration;
   /**
   * The end time of the time frame. In a isodate format. For example, `2021-01-01T00:00:00.000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#end_time AlertsScheduler#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#end_time AlertsScheduler#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#start_time AlertsScheduler#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#start_time AlertsScheduler#start_time}
   */
   readonly startTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#time_zone AlertsScheduler#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#time_zone AlertsScheduler#time_zone}
   */
   readonly timeZone: string;
 }
@@ -813,7 +813,7 @@ export class AlertsSchedulerScheduleOneTimeTimeFrameOutputReference extends cdkt
 }
 export interface AlertsSchedulerScheduleOneTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#time_frame AlertsScheduler#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#time_frame AlertsScheduler#time_frame}
   */
   readonly timeFrame: AlertsSchedulerScheduleOneTimeTimeFrame;
 }
@@ -963,7 +963,7 @@ export class AlertsSchedulerScheduleRecurringDynamicFrequencyDailyOutputReferenc
 }
 export interface AlertsSchedulerScheduleRecurringDynamicFrequencyMonthly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#days AlertsScheduler#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#days AlertsScheduler#days}
   */
   readonly days?: number[];
 }
@@ -1057,7 +1057,7 @@ export class AlertsSchedulerScheduleRecurringDynamicFrequencyMonthlyOutputRefere
 }
 export interface AlertsSchedulerScheduleRecurringDynamicFrequencyWeekly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#days AlertsScheduler#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#days AlertsScheduler#days}
   */
   readonly days?: string[];
 }
@@ -1151,15 +1151,15 @@ export class AlertsSchedulerScheduleRecurringDynamicFrequencyWeeklyOutputReferen
 }
 export interface AlertsSchedulerScheduleRecurringDynamicFrequency {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#daily AlertsScheduler#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#daily AlertsScheduler#daily}
   */
   readonly daily?: AlertsSchedulerScheduleRecurringDynamicFrequencyDaily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#monthly AlertsScheduler#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#monthly AlertsScheduler#monthly}
   */
   readonly monthly?: AlertsSchedulerScheduleRecurringDynamicFrequencyMonthly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#weekly AlertsScheduler#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#weekly AlertsScheduler#weekly}
   */
   readonly weekly?: AlertsSchedulerScheduleRecurringDynamicFrequencyWeekly;
 }
@@ -1313,13 +1313,13 @@ export interface AlertsSchedulerScheduleRecurringDynamicTimeFrameDuration {
   /**
   * The number of time units to wait before the alert is triggered. For example, if the frequency is set to `hours` and the value is set to `2`, the alert will be triggered after 2 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#for_over AlertsScheduler#for_over}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#for_over AlertsScheduler#for_over}
   */
   readonly forOver: number;
   /**
   * The time unit to wait before the alert is triggered. Can be `minutes`, `hours` or `days`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#frequency AlertsScheduler#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#frequency AlertsScheduler#frequency}
   */
   readonly frequency: string;
 }
@@ -1438,21 +1438,21 @@ export interface AlertsSchedulerScheduleRecurringDynamicTimeFrame {
   /**
   * The duration from the start time to wait.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#duration AlertsScheduler#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#duration AlertsScheduler#duration}
   */
   readonly duration?: AlertsSchedulerScheduleRecurringDynamicTimeFrameDuration;
   /**
   * The end time of the time frame. In a isodate format. For example, `2021-01-01T00:00:00.000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#end_time AlertsScheduler#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#end_time AlertsScheduler#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#start_time AlertsScheduler#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#start_time AlertsScheduler#start_time}
   */
   readonly startTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#time_zone AlertsScheduler#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#time_zone AlertsScheduler#time_zone}
   */
   readonly timeZone: string;
 }
@@ -1627,19 +1627,19 @@ export class AlertsSchedulerScheduleRecurringDynamicTimeFrameOutputReference ext
 }
 export interface AlertsSchedulerScheduleRecurringDynamic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#frequency AlertsScheduler#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#frequency AlertsScheduler#frequency}
   */
   readonly frequency: AlertsSchedulerScheduleRecurringDynamicFrequency;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#repeat_every AlertsScheduler#repeat_every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#repeat_every AlertsScheduler#repeat_every}
   */
   readonly repeatEvery: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#termination_date AlertsScheduler#termination_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#termination_date AlertsScheduler#termination_date}
   */
   readonly terminationDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#time_frame AlertsScheduler#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#time_frame AlertsScheduler#time_frame}
   */
   readonly timeFrame: AlertsSchedulerScheduleRecurringDynamicTimeFrame;
 }
@@ -1811,7 +1811,7 @@ export class AlertsSchedulerScheduleRecurringDynamicOutputReference extends cdkt
 }
 export interface AlertsSchedulerScheduleRecurring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#dynamic AlertsScheduler#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#dynamic AlertsScheduler#dynamic}
   */
   readonly dynamic?: AlertsSchedulerScheduleRecurringDynamic;
 }
@@ -1905,17 +1905,17 @@ export class AlertsSchedulerScheduleRecurringOutputReference extends cdktf.Compl
 }
 export interface AlertsSchedulerSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#one_time AlertsScheduler#one_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#one_time AlertsScheduler#one_time}
   */
   readonly oneTime?: AlertsSchedulerScheduleOneTime;
   /**
   * The operation to perform. Can be `mute` or `active`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#operation AlertsScheduler#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#operation AlertsScheduler#operation}
   */
   readonly operation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#recurring AlertsScheduler#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#recurring AlertsScheduler#recurring}
   */
   readonly recurring?: AlertsSchedulerScheduleRecurring;
 }
@@ -2064,7 +2064,7 @@ export class AlertsSchedulerScheduleOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler coralogix_alerts_scheduler}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler coralogix_alerts_scheduler}
 */
 export class AlertsScheduler extends cdktf.TerraformResource {
 
@@ -2080,7 +2080,7 @@ export class AlertsScheduler extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertsScheduler resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertsScheduler to import
-  * @param importFromId The id of the existing AlertsScheduler that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertsScheduler that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertsScheduler to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2092,7 +2092,7 @@ export class AlertsScheduler extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/alerts_scheduler coralogix_alerts_scheduler} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/alerts_scheduler coralogix_alerts_scheduler} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2103,8 +2103,8 @@ export class AlertsScheduler extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_alerts_scheduler',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

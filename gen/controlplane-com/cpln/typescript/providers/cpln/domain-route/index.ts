@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DomainRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * The self link of the domain to add the route to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#domain_link DomainRoute#domain_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#domain_link DomainRoute#domain_link}
   */
   readonly domainLink: string;
   /**
   * The port the route corresponds to. Default: 443
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#domain_port DomainRoute#domain_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#domain_port DomainRoute#domain_port}
   */
   readonly domainPort?: number;
   /**
   * This option allows forwarding traffic for different host headers to different workloads. This will only be used when the target GVC has dedicated load balancing enabled and the Domain is configured for wildcard support. Please contact us on Slack or at support@controlplane.com for additional details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#host_prefix DomainRoute#host_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#host_prefix DomainRoute#host_prefix}
   */
   readonly hostPrefix?: string;
   /**
   * A regex to match the host header. This will only be used when the target GVC has dedicated load balancing enabled and the Domain is configure for wildcard support. Contact your account manager for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#host_regex DomainRoute#host_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#host_regex DomainRoute#host_regex}
   */
   readonly hostRegex?: string;
   /**
   * For the linked workload, the port to route traffic to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#port DomainRoute#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#port DomainRoute#port}
   */
   readonly port?: number;
   /**
   * The path will match any unmatched path prefixes for the subdomain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#prefix DomainRoute#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#prefix DomainRoute#prefix}
   */
   readonly prefix?: string;
   /**
   * Used to match URI paths. Uses the google re2 regex syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#regex DomainRoute#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#regex DomainRoute#regex}
   */
   readonly regex?: string;
   /**
   * A path prefix can be configured to be replaced when forwarding the request to the Workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#replace_prefix DomainRoute#replace_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#replace_prefix DomainRoute#replace_prefix}
   */
   readonly replacePrefix?: string;
   /**
   * The replica number of a stateful workload to route to. If not provided, traffic will be routed to all replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#replica DomainRoute#replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#replica DomainRoute#replica}
   */
   readonly replica?: number;
   /**
   * The link of the workload to map the prefix to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#workload_link DomainRoute#workload_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#workload_link DomainRoute#workload_link}
   */
   readonly workloadLink: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#headers DomainRoute#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#headers DomainRoute#headers}
   */
   readonly headers?: DomainRouteHeaders[] | cdktf.IResolvable;
 }
@@ -78,7 +78,7 @@ export interface DomainRouteHeadersRequest {
   /**
   * Sets or overrides headers to all http requests for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#set DomainRoute#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#set DomainRoute#set}
   */
   readonly set?: { [key: string]: string };
 }
@@ -196,7 +196,7 @@ export interface DomainRouteHeaders {
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#request DomainRoute#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#request DomainRoute#request}
   */
   readonly request?: DomainRouteHeadersRequest[] | cdktf.IResolvable;
 }
@@ -312,7 +312,7 @@ export class DomainRouteHeadersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route cpln_domain_route}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route cpln_domain_route}
 */
 export class DomainRoute extends cdktf.TerraformResource {
 
@@ -328,7 +328,7 @@ export class DomainRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DomainRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DomainRoute to import
-  * @param importFromId The id of the existing DomainRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DomainRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DomainRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -340,7 +340,7 @@ export class DomainRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/domain_route cpln_domain_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/resources/domain_route cpln_domain_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,8 +351,8 @@ export class DomainRoute extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_domain_route',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.14',
-        providerVersionConstraint: '1.2.14'
+        providerVersion: '1.2.15',
+        providerVersionConstraint: '1.2.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

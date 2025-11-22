@@ -29,6 +29,7 @@ export * as identityGcpAuth from './identity-gcp-auth';
 export * as identityKubernetesAuth from './identity-kubernetes-auth';
 export * as identityOidcAuth from './identity-oidc-auth';
 export * as identityTokenAuth from './identity-token-auth';
+export * as identityTokenAuthToken from './identity-token-auth-token';
 export * as identityUniversalAuth from './identity-universal-auth';
 export * as identityUniversalAuthClientSecret from './identity-universal-auth-client-secret';
 export * as integrationAwsParameterStore from './integration-aws-parameter-store';

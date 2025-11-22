@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface SecureManagedRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#description SecureManagedRuleset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#description SecureManagedRuleset#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#disabled_rules SecureManagedRuleset#disabled_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#disabled_rules SecureManagedRuleset#disabled_rules}
   */
   readonly disabledRules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#enabled SecureManagedRuleset#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#enabled SecureManagedRuleset#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#id SecureManagedRuleset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#id SecureManagedRuleset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#name SecureManagedRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#name SecureManagedRuleset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#notification_channels SecureManagedRuleset#notification_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#notification_channels SecureManagedRuleset#notification_channels}
   */
   readonly notificationChannels?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#runbook SecureManagedRuleset#runbook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#runbook SecureManagedRuleset#runbook}
   */
   readonly runbook?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#scope SecureManagedRuleset#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#scope SecureManagedRuleset#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#severity SecureManagedRuleset#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#severity SecureManagedRuleset#severity}
   */
   readonly severity?: number;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#actions SecureManagedRuleset#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#actions SecureManagedRuleset#actions}
   */
   readonly actions?: SecureManagedRulesetActions[] | cdktf.IResolvable;
   /**
   * inherited_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#inherited_from SecureManagedRuleset#inherited_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#inherited_from SecureManagedRuleset#inherited_from}
   */
   readonly inheritedFrom: SecureManagedRulesetInheritedFrom[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#timeouts SecureManagedRuleset#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#timeouts SecureManagedRuleset#timeouts}
   */
   readonly timeouts?: SecureManagedRulesetTimeouts;
 }
 export interface SecureManagedRulesetActionsCapture {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#bucket_name SecureManagedRuleset#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#bucket_name SecureManagedRuleset#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#filter SecureManagedRuleset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#filter SecureManagedRuleset#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#folder SecureManagedRuleset#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#folder SecureManagedRuleset#folder}
   */
   readonly folder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#name SecureManagedRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#name SecureManagedRuleset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#seconds_after_event SecureManagedRuleset#seconds_after_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#seconds_after_event SecureManagedRuleset#seconds_after_event}
   */
   readonly secondsAfterEvent: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#seconds_before_event SecureManagedRuleset#seconds_before_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#seconds_before_event SecureManagedRuleset#seconds_before_event}
   */
   readonly secondsBeforeEvent: number;
 }
@@ -339,17 +339,17 @@ export class SecureManagedRulesetActionsCaptureList extends cdktf.ComplexList {
 }
 export interface SecureManagedRulesetActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#container SecureManagedRuleset#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#container SecureManagedRuleset#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#kill_process SecureManagedRuleset#kill_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#kill_process SecureManagedRuleset#kill_process}
   */
   readonly killProcess?: boolean | cdktf.IResolvable;
   /**
   * capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#capture SecureManagedRuleset#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#capture SecureManagedRuleset#capture}
   */
   readonly capture?: SecureManagedRulesetActionsCapture[] | cdktf.IResolvable;
 }
@@ -523,11 +523,11 @@ export class SecureManagedRulesetActionsList extends cdktf.ComplexList {
 }
 export interface SecureManagedRulesetInheritedFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#name SecureManagedRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#name SecureManagedRuleset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#type SecureManagedRuleset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#type SecureManagedRuleset#type}
   */
   readonly type?: string;
 }
@@ -669,19 +669,19 @@ export class SecureManagedRulesetInheritedFromList extends cdktf.ComplexList {
 }
 export interface SecureManagedRulesetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#create SecureManagedRuleset#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#create SecureManagedRuleset#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#delete SecureManagedRuleset#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#delete SecureManagedRuleset#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#read SecureManagedRuleset#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#read SecureManagedRuleset#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#update SecureManagedRuleset#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#update SecureManagedRuleset#update}
   */
   readonly update?: string;
 }
@@ -862,7 +862,7 @@ export class SecureManagedRulesetTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset sysdig_secure_managed_ruleset}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset sysdig_secure_managed_ruleset}
 */
 export class SecureManagedRuleset extends cdktf.TerraformResource {
 
@@ -878,7 +878,7 @@ export class SecureManagedRuleset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecureManagedRuleset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecureManagedRuleset to import
-  * @param importFromId The id of the existing SecureManagedRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecureManagedRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecureManagedRuleset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -890,7 +890,7 @@ export class SecureManagedRuleset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_managed_ruleset sysdig_secure_managed_ruleset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_managed_ruleset sysdig_secure_managed_ruleset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -901,8 +901,8 @@ export class SecureManagedRuleset extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_secure_managed_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0',
-        providerVersionConstraint: '3.1.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

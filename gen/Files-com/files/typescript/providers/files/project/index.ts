@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/project
+// https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Global access settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/project#global_access Project#global_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/project#global_access Project#global_access}
   */
   readonly globalAccess: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/project files_project}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/project files_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.392/docs/resources/project files_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/project files_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'files_project',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.392',
-        providerVersionConstraint: '0.1.392'
+        providerVersion: '0.1.394',
+        providerVersionConstraint: '0.1.394'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn
+// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,111 +10,111 @@ export interface Vns3IdentityVpnConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authorization Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#authorization_endpoint Vns3IdentityVpn#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#authorization_endpoint Vns3IdentityVpn#authorization_endpoint}
   */
   readonly authorizationEndpoint?: string;
   /**
   * Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#enabled Vns3IdentityVpn#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#enabled Vns3IdentityVpn#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#host Vns3IdentityVpn#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#host Vns3IdentityVpn#host}
   */
   readonly host?: string;
   /**
   * Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#identifier Vns3IdentityVpn#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#identifier Vns3IdentityVpn#identifier}
   */
   readonly identifier?: string;
   /**
   * Identity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#identity_provider Vns3IdentityVpn#identity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#identity_provider Vns3IdentityVpn#identity_provider}
   */
   readonly identityProvider?: string;
   /**
   * Issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#issuer Vns3IdentityVpn#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#issuer Vns3IdentityVpn#issuer}
   */
   readonly issuer?: string;
   /**
   * Jwks Uri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#jwks_uri Vns3IdentityVpn#jwks_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#jwks_uri Vns3IdentityVpn#jwks_uri}
   */
   readonly jwksUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#last_updated Vns3IdentityVpn#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#last_updated Vns3IdentityVpn#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * Provider Url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#provider_url Vns3IdentityVpn#provider_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#provider_url Vns3IdentityVpn#provider_url}
   */
   readonly providerUrl?: string;
   /**
   * Redirect Hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#redirect_hostname Vns3IdentityVpn#redirect_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#redirect_hostname Vns3IdentityVpn#redirect_hostname}
   */
   readonly redirectHostname?: string;
   /**
   * Redirect Uri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#redirect_uri Vns3IdentityVpn#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#redirect_uri Vns3IdentityVpn#redirect_uri}
   */
   readonly redirectUri?: string;
   /**
   * Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#secret Vns3IdentityVpn#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#secret Vns3IdentityVpn#secret}
   */
   readonly secret?: string;
   /**
   * Token Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#token_endpoint Vns3IdentityVpn#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#token_endpoint Vns3IdentityVpn#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * Userinfo Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#userinfo_endpoint Vns3IdentityVpn#userinfo_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#userinfo_endpoint Vns3IdentityVpn#userinfo_endpoint}
   */
   readonly userinfoEndpoint?: string;
   /**
   * vns3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#vns3 Vns3IdentityVpn#vns3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#vns3 Vns3IdentityVpn#vns3}
   */
   readonly vns3?: Vns3IdentityVpnVns3;
 }
 export interface Vns3IdentityVpnVns3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#api_token Vns3IdentityVpn#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#api_token Vns3IdentityVpn#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#host Vns3IdentityVpn#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#host Vns3IdentityVpn#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#password Vns3IdentityVpn#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#password Vns3IdentityVpn#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#timeout Vns3IdentityVpn#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#timeout Vns3IdentityVpn#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#username Vns3IdentityVpn#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#username Vns3IdentityVpn#username}
   */
   readonly username?: string;
 }
@@ -314,7 +314,7 @@ export class Vns3IdentityVpnVns3OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn cohesivenet_vns3_identity_vpn}
+* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn cohesivenet_vns3_identity_vpn}
 */
 export class Vns3IdentityVpn extends cdktf.TerraformResource {
 
@@ -330,7 +330,7 @@ export class Vns3IdentityVpn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vns3IdentityVpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vns3IdentityVpn to import
-  * @param importFromId The id of the existing Vns3IdentityVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vns3IdentityVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vns3IdentityVpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +342,7 @@ export class Vns3IdentityVpn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_identity_vpn cohesivenet_vns3_identity_vpn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_identity_vpn cohesivenet_vns3_identity_vpn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,8 +353,8 @@ export class Vns3IdentityVpn extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_identity_vpn',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

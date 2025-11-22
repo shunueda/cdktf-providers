@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface MetalVirtualCircuitConfig extends cdktf.TerraformMetaArguments 
   /**
   * UUID of Connection where the VC is scoped to.  Only used for dedicated connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#connection_id MetalVirtualCircuit#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#connection_id MetalVirtualCircuit#connection_id}
   */
   readonly connectionId?: string;
   /**
   * The Customer IP address which the CSR switch will peer with. Will default to the other usable IP in the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#customer_ip MetalVirtualCircuit#customer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#customer_ip MetalVirtualCircuit#customer_ip}
   */
   readonly customerIp?: string;
   /**
   * The Customer IPv6 address which the CSR switch will peer with. Will default to the other usable IP in the IPv6 subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#customer_ipv6 MetalVirtualCircuit#customer_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#customer_ipv6 MetalVirtualCircuit#customer_ipv6}
   */
   readonly customerIpv6?: string;
   /**
   * Description of the Virtual Circuit resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#description MetalVirtualCircuit#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#description MetalVirtualCircuit#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#id MetalVirtualCircuit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#id MetalVirtualCircuit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface MetalVirtualCircuitConfig extends cdktf.TerraformMetaArguments 
   /**
   * The password that can be set for the VRF BGP peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#md5 MetalVirtualCircuit#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#md5 MetalVirtualCircuit#md5}
   */
   readonly md5?: string;
   /**
   * The Metal IP address for the SVI (Switch Virtual Interface) of the VirtualCircuit. Will default to the first usable IP in the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#metal_ip MetalVirtualCircuit#metal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#metal_ip MetalVirtualCircuit#metal_ip}
   */
   readonly metalIp?: string;
   /**
   * The Metal IPv6 address for the SVI (Switch Virtual Interface) of the VirtualCircuit. Will default to the first usable IP in the IPv6 subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#metal_ipv6 MetalVirtualCircuit#metal_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#metal_ipv6 MetalVirtualCircuit#metal_ipv6}
   */
   readonly metalIpv6?: string;
   /**
   * Name of the Virtual Circuit resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#name MetalVirtualCircuit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#name MetalVirtualCircuit#name}
   */
   readonly name?: string;
   /**
   * Equinix Metal network-to-network VLAN ID (optional when the connection has mode=tunnel)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#nni_vlan MetalVirtualCircuit#nni_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#nni_vlan MetalVirtualCircuit#nni_vlan}
   */
   readonly nniVlan?: number;
   /**
   * The BGP ASN of the peer. The same ASN may be the used across several VCs, but it cannot be the same as the local_asn of the VRF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#peer_asn MetalVirtualCircuit#peer_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#peer_asn MetalVirtualCircuit#peer_asn}
   */
   readonly peerAsn?: number;
   /**
   * UUID of the Connection Port where the VC is scoped to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#port_id MetalVirtualCircuit#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#port_id MetalVirtualCircuit#port_id}
   */
   readonly portId: string;
   /**
   * UUID of the Project where the VC is scoped to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#project_id MetalVirtualCircuit#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#project_id MetalVirtualCircuit#project_id}
   */
   readonly projectId: string;
   /**
   * Description of the Virtual Circuit speed. This is for information purposes and is computed when the connection type is shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#speed MetalVirtualCircuit#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#speed MetalVirtualCircuit#speed}
   */
   readonly speed?: string;
   /**
@@ -97,7 +97,7 @@ export interface MetalVirtualCircuitConfig extends cdktf.TerraformMetaArguments 
   * 				 * For a /31 block, it will only have two IP addresses, which will be used for the metal_ip and customer_ip.
   * 				 * For a /30 block, it will have four IP addresses, but the first and last IP addresses are not usable. We will default to the first usable IP address for the metal_ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#subnet MetalVirtualCircuit#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#subnet MetalVirtualCircuit#subnet}
   */
   readonly subnet?: string;
   /**
@@ -105,37 +105,37 @@ export interface MetalVirtualCircuitConfig extends cdktf.TerraformMetaArguments 
   * 				 * For a /127 block, it will only have two IP addresses, which will be used for the metal_ip and customer_ip.
   * 				 * For a /126 block, it will have four IP addresses, but the first and last IP addresses are not usable. We will default to the first usable IP address for the metal_ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#subnet_ipv6 MetalVirtualCircuit#subnet_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#subnet_ipv6 MetalVirtualCircuit#subnet_ipv6}
   */
   readonly subnetIpv6?: string;
   /**
   * Tags attached to the virtual circuit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#tags MetalVirtualCircuit#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#tags MetalVirtualCircuit#tags}
   */
   readonly tags?: string[];
   /**
   * UUID of an existing VC to configure. Used in the case of shared interconnections where the VC has already been created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#virtual_circuit_id MetalVirtualCircuit#virtual_circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#virtual_circuit_id MetalVirtualCircuit#virtual_circuit_id}
   */
   readonly virtualCircuitId?: string;
   /**
   * UUID of the VLAN to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#vlan_id MetalVirtualCircuit#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#vlan_id MetalVirtualCircuit#vlan_id}
   */
   readonly vlanId?: string;
   /**
   * UUID of the VRF to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#vrf_id MetalVirtualCircuit#vrf_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#vrf_id MetalVirtualCircuit#vrf_id}
   */
   readonly vrfId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit equinix_metal_virtual_circuit}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit equinix_metal_virtual_circuit}
 */
 export class MetalVirtualCircuit extends cdktf.TerraformResource {
 
@@ -151,7 +151,7 @@ export class MetalVirtualCircuit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalVirtualCircuit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalVirtualCircuit to import
-  * @param importFromId The id of the existing MetalVirtualCircuit that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalVirtualCircuit that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalVirtualCircuit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class MetalVirtualCircuit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_virtual_circuit equinix_metal_virtual_circuit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_virtual_circuit equinix_metal_virtual_circuit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class MetalVirtualCircuit extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_virtual_circuit',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

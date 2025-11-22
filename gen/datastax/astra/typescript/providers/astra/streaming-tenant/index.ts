@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_tenant
+// https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,51 @@ import * as cdktf from 'cdktf';
 
 export interface StreamingTenantConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Cloud provider, one of `aws`, `gcp`, or `azure`.  Required if `cluster_name` is not set.
+  * Cloud provider, one of `aws`, `gcp`, or `azure`. Required if `cluster_name` is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_tenant#cloud_provider StreamingTenant#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_tenant#cloud_provider StreamingTenant#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
-  * Pulsar cluster name.  Required if `cloud_provider` and `region` are not specified.
+  * Pulsar cluster name. Required if `cloud_provider` and `region` are not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_tenant#cluster_name StreamingTenant#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_tenant#cluster_name StreamingTenant#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Whether or not to allow Terraform to destroy this tenant. Unless this field is set to false in Terraform state, a `terraform destroy` or `terraform apply` command that deletes the instance will fail. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_tenant#deletion_protection StreamingTenant#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_tenant#deletion_protection StreamingTenant#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_tenant#id StreamingTenant#id}
+  * Cloud provider region. Required if `cluster_name` is not set.
   *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * Cloud provider region.  Required if `cluster_name` is not set.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_tenant#region StreamingTenant#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_tenant#region StreamingTenant#region}
   */
   readonly region?: string;
   /**
-  * Streaming tenant name.
+  * Name of the Astra Streaming tenant.  Similar to a Pulsar tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_tenant#tenant_name StreamingTenant#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_tenant#tenant_name StreamingTenant#tenant_name}
   */
   readonly tenantName: string;
   /**
-  * Streaming tenant topic. Please use the `astra_streaming_topic` resource instead.
+  * Streaming tenant topic. Use the `astra_streaming_topic` resource instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_tenant#topic StreamingTenant#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_tenant#topic StreamingTenant#topic}
   */
   readonly topic?: string;
   /**
-  * User email for tenant.
+  * Email address of the owner of the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_tenant#user_email StreamingTenant#user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_tenant#user_email StreamingTenant#user_email}
   */
   readonly userEmail: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_tenant astra_streaming_tenant}
+* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_tenant astra_streaming_tenant}
 */
 export class StreamingTenant extends cdktf.TerraformResource {
 
@@ -75,7 +68,7 @@ export class StreamingTenant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StreamingTenant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StreamingTenant to import
-  * @param importFromId The id of the existing StreamingTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StreamingTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StreamingTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +80,7 @@ export class StreamingTenant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/streaming_tenant astra_streaming_tenant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/streaming_tenant astra_streaming_tenant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +91,8 @@ export class StreamingTenant extends cdktf.TerraformResource {
       terraformResourceType: 'astra_streaming_tenant',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18',
-        providerVersionConstraint: '2.3.18'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -112,7 +105,6 @@ export class StreamingTenant extends cdktf.TerraformResource {
     this._cloudProvider = config.cloudProvider;
     this._clusterName = config.clusterName;
     this._deletionProtection = config.deletionProtection;
-    this._id = config.id;
     this._region = config.region;
     this._tenantName = config.tenantName;
     this._topic = config.topic;
@@ -160,7 +152,7 @@ export class StreamingTenant extends cdktf.TerraformResource {
     return this._clusterName;
   }
 
-  // deletion_protection - computed: false, optional: true, required: false
+  // deletion_protection - computed: true, optional: true, required: false
   private _deletionProtection?: boolean | cdktf.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
@@ -176,20 +168,9 @@ export class StreamingTenant extends cdktf.TerraformResource {
     return this._deletionProtection;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // region - computed: true, optional: true, required: false
@@ -284,7 +265,6 @@ export class StreamingTenant extends cdktf.TerraformResource {
       cloud_provider: cdktf.stringToTerraform(this._cloudProvider),
       cluster_name: cdktf.stringToTerraform(this._clusterName),
       deletion_protection: cdktf.booleanToTerraform(this._deletionProtection),
-      id: cdktf.stringToTerraform(this._id),
       region: cdktf.stringToTerraform(this._region),
       tenant_name: cdktf.stringToTerraform(this._tenantName),
       topic: cdktf.stringToTerraform(this._topic),
@@ -311,12 +291,6 @@ export class StreamingTenant extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       region: {
         value: cdktf.stringToHclTerraform(this._region),

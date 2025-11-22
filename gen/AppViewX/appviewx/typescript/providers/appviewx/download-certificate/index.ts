@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate
+// https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktf from 'cdktf';
 
 export interface DownloadCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate#certificate_chain_required DownloadCertificate#certificate_chain_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate#certificate_chain_required DownloadCertificate#certificate_chain_required}
   */
   readonly certificateChainRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate#certificate_download_format DownloadCertificate#certificate_download_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate#certificate_download_format DownloadCertificate#certificate_download_format}
   */
   readonly certificateDownloadFormat?: string;
   /**
   * Password for certificate download (resource level) - provider level password takes priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate#certificate_download_password DownloadCertificate#certificate_download_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate#certificate_download_password DownloadCertificate#certificate_download_password}
   */
   readonly certificateDownloadPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate#certificate_download_path DownloadCertificate#certificate_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate#certificate_download_path DownloadCertificate#certificate_download_path}
   */
   readonly certificateDownloadPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate#common_name DownloadCertificate#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate#common_name DownloadCertificate#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate#download_password_protected_key DownloadCertificate#download_password_protected_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate#download_password_protected_key DownloadCertificate#download_password_protected_key}
   */
   readonly downloadPasswordProtectedKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate#id DownloadCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate#id DownloadCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,25 +43,25 @@ export interface DownloadCertificateConfig extends cdktf.TerraformMetaArguments 
   /**
   * Password for private key download (resource level) - provider level password takes priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate#key_download_password DownloadCertificate#key_download_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate#key_download_password DownloadCertificate#key_download_password}
   */
   readonly keyDownloadPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate#key_download_path DownloadCertificate#key_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate#key_download_path DownloadCertificate#key_download_path}
   */
   readonly keyDownloadPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate#resource_id DownloadCertificate#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate#resource_id DownloadCertificate#resource_id}
   */
   readonly resourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate#serial_number DownloadCertificate#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate#serial_number DownloadCertificate#serial_number}
   */
   readonly serialNumber?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate appviewx_download_certificate}
+* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate appviewx_download_certificate}
 */
 export class DownloadCertificate extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class DownloadCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DownloadCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DownloadCertificate to import
-  * @param importFromId The id of the existing DownloadCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DownloadCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DownloadCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class DownloadCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/download_certificate appviewx_download_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/download_certificate appviewx_download_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class DownloadCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'appviewx_download_certificate',
       terraformGeneratorMetadata: {
         providerName: 'appviewx',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

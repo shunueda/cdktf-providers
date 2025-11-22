@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface SecureRuleFilesystemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#description SecureRuleFilesystem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#description SecureRuleFilesystem#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#id SecureRuleFilesystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#id SecureRuleFilesystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#name SecureRuleFilesystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#name SecureRuleFilesystem#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#tags SecureRuleFilesystem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#tags SecureRuleFilesystem#tags}
   */
   readonly tags?: string[];
   /**
   * read_only block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#read_only SecureRuleFilesystem#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#read_only SecureRuleFilesystem#read_only}
   */
   readonly readOnly?: SecureRuleFilesystemReadOnly[] | cdktf.IResolvable;
   /**
   * read_write block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#read_write SecureRuleFilesystem#read_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#read_write SecureRuleFilesystem#read_write}
   */
   readonly readWrite?: SecureRuleFilesystemReadWrite[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#timeouts SecureRuleFilesystem#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#timeouts SecureRuleFilesystem#timeouts}
   */
   readonly timeouts?: SecureRuleFilesystemTimeouts;
 }
 export interface SecureRuleFilesystemReadOnly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#matching SecureRuleFilesystem#matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#matching SecureRuleFilesystem#matching}
   */
   readonly matching?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#paths SecureRuleFilesystem#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#paths SecureRuleFilesystem#paths}
   */
   readonly paths: string[];
 }
@@ -193,11 +193,11 @@ export class SecureRuleFilesystemReadOnlyList extends cdktf.ComplexList {
 }
 export interface SecureRuleFilesystemReadWrite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#matching SecureRuleFilesystem#matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#matching SecureRuleFilesystem#matching}
   */
   readonly matching?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#paths SecureRuleFilesystem#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#paths SecureRuleFilesystem#paths}
   */
   readonly paths: string[];
 }
@@ -339,19 +339,19 @@ export class SecureRuleFilesystemReadWriteList extends cdktf.ComplexList {
 }
 export interface SecureRuleFilesystemTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#create SecureRuleFilesystem#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#create SecureRuleFilesystem#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#delete SecureRuleFilesystem#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#delete SecureRuleFilesystem#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#read SecureRuleFilesystem#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#read SecureRuleFilesystem#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#update SecureRuleFilesystem#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#update SecureRuleFilesystem#update}
   */
   readonly update?: string;
 }
@@ -532,7 +532,7 @@ export class SecureRuleFilesystemTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem sysdig_secure_rule_filesystem}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem sysdig_secure_rule_filesystem}
 */
 export class SecureRuleFilesystem extends cdktf.TerraformResource {
 
@@ -548,7 +548,7 @@ export class SecureRuleFilesystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecureRuleFilesystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecureRuleFilesystem to import
-  * @param importFromId The id of the existing SecureRuleFilesystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecureRuleFilesystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecureRuleFilesystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -560,7 +560,7 @@ export class SecureRuleFilesystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_rule_filesystem sysdig_secure_rule_filesystem} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_rule_filesystem sysdig_secure_rule_filesystem} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -571,8 +571,8 @@ export class SecureRuleFilesystem extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_secure_rule_filesystem',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0',
-        providerVersionConstraint: '3.1.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

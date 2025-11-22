@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface MetalDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * If true, a device with OS custom_ipxe will
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#always_pxe MetalDevice#always_pxe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#always_pxe MetalDevice#always_pxe}
   */
   readonly alwaysPxe?: boolean | cdktf.IResolvable;
   /**
   * monthly or hourly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#billing_cycle MetalDevice#billing_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#billing_cycle MetalDevice#billing_cycle}
   */
   readonly billingCycle?: string;
   /**
   * A string of the desired Custom Data for the device.  By default, changing this attribute will cause the provider to destroy and recreate your device.  If `reinstall` is specified or `behavior.allow_changes` includes `"custom_data"`, the device will be updated in-place instead of recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#custom_data MetalDevice#custom_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#custom_data MetalDevice#custom_data}
   */
   readonly customData?: string;
   /**
   * Description string for the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#description MetalDevice#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#description MetalDevice#description}
   */
   readonly description?: string;
   /**
   * List of facility codes with deployment preferences. Equinix Metal API will go through the list and will deploy your device to first facility with free capacity. List items must be facility codes or any (a wildcard). To find the facility code, visit [Facilities API docs](https://metal.equinix.com/developers/api/facilities/), set your API auth token in the top of the page and see JSON from the API response. Conflicts with metro
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#facilities MetalDevice#facilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#facilities MetalDevice#facilities}
   */
   readonly facilities?: string[];
   /**
   * Delete device even if it has volumes attached. Only applies for destroy action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#force_detach_volumes MetalDevice#force_detach_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#force_detach_volumes MetalDevice#force_detach_volumes}
   */
   readonly forceDetachVolumes?: boolean | cdktf.IResolvable;
   /**
   * The UUID of the hardware reservation where you want this device deployed, or next-available if you want to pick your next available reservation automatically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#hardware_reservation_id MetalDevice#hardware_reservation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#hardware_reservation_id MetalDevice#hardware_reservation_id}
   */
   readonly hardwareReservationId?: string;
   /**
   * The device hostname used in deployments taking advantage of Layer3 DHCP or metadata service configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#hostname MetalDevice#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#hostname MetalDevice#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#id MetalDevice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#id MetalDevice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,103 +65,103 @@ export interface MetalDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * URL pointing to a hosted iPXE script. More
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#ipxe_script_url MetalDevice#ipxe_script_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#ipxe_script_url MetalDevice#ipxe_script_url}
   */
   readonly ipxeScriptUrl?: string;
   /**
   * Whether the device is locked or unlocked. Locking a device prevents you from deleting or reinstalling the device or performing a firmware update on the device, and it prevents an instance with a termination time set from being reclaimed, even if the termination time was reached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#locked MetalDevice#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#locked MetalDevice#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * Metro area for the new device. Conflicts with facilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#metro MetalDevice#metro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#metro MetalDevice#metro}
   */
   readonly metro?: string;
   /**
   * The operating system slug. To find the slug, or visit [Operating Systems API docs](https://metal.equinix.com/developers/api/operatingsystems), set your API auth token in the top of the page and see JSON from the API response.  By default, changing this attribute will cause your device to be deleted and recreated.  If `reinstall` is enabled, the device will be updated in-place instead of recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#operating_system MetalDevice#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#operating_system MetalDevice#operating_system}
   */
   readonly operatingSystem: string;
   /**
   * The device plan slug. To find the plan slug, visit the [plan documentation](https://docs.equinix.com/metal/hardware/standard-servers/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#plan MetalDevice#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#plan MetalDevice#plan}
   */
   readonly plan: string;
   /**
   * The ID of the project in which to create the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#project_id MetalDevice#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#project_id MetalDevice#project_id}
   */
   readonly projectId: string;
   /**
   * Array of IDs of the project SSH keys which should be added to the device. If you specify this array, only the listed project SSH keys (and any SSH keys for the users specified in user_ssh_key_ids) will be added. If no SSH keys are specified (both user_ssh_keys_ids and project_ssh_key_ids are empty lists or omitted), all parent project keys, parent project members keys and organization members keys will be included.  Project SSH keys can be created with the [equinix_metal_project_ssh_key](equinix_metal_project_ssh_key.md) resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#project_ssh_key_ids MetalDevice#project_ssh_key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#project_ssh_key_ids MetalDevice#project_ssh_key_ids}
   */
   readonly projectSshKeyIds?: string[];
   /**
   * JSON for custom partitioning. Only usable on reserved hardware. More information in in the [Custom Partitioning and RAID](https://metal.equinix.com/developers/docs/servers/custom-partitioning-raid/) doc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#storage MetalDevice#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#storage MetalDevice#storage}
   */
   readonly storage?: string;
   /**
   * Tags attached to the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#tags MetalDevice#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#tags MetalDevice#tags}
   */
   readonly tags?: string[];
   /**
   * Timestamp for device termination. For example "2021-09-03T16:32:00+03:00". If you don't supply timezone info, timestamp is assumed to be in UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#termination_time MetalDevice#termination_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#termination_time MetalDevice#termination_time}
   */
   readonly terminationTime?: string;
   /**
   * A string of the desired User Data for the device.  By default, changing this attribute will cause the provider to destroy and recreate your device.  If `reinstall` is specified or `behavior.allow_changes` includes `"user_data"`, the device will be updated in-place instead of recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#user_data MetalDevice#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#user_data MetalDevice#user_data}
   */
   readonly userData?: string;
   /**
   * Array of IDs of the users whose SSH keys should be added to the device. If you specify this array, only the listed users' SSH keys (and any project SSH keys specified in project_ssh_key_ids) will be added. If no SSH keys are specified (both user_ssh_keys_ids and project_ssh_key_ids are empty lists or omitted), all parent project keys, parent project members keys and organization members keys will be included. User SSH keys can be created with the [equinix_metal_ssh_key](equinix_metal_ssh_key.md) resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#user_ssh_key_ids MetalDevice#user_ssh_key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#user_ssh_key_ids MetalDevice#user_ssh_key_ids}
   */
   readonly userSshKeyIds?: string[];
   /**
   * Only used for devices in reserved hardware. If set, the deletion of this device will block until the hardware reservation is marked provisionable (about 4 minutes in August 2019)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#wait_for_reservation_deprovision MetalDevice#wait_for_reservation_deprovision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#wait_for_reservation_deprovision MetalDevice#wait_for_reservation_deprovision}
   */
   readonly waitForReservationDeprovision?: boolean | cdktf.IResolvable;
   /**
   * behavior block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#behavior MetalDevice#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#behavior MetalDevice#behavior}
   */
   readonly behavior?: MetalDeviceBehavior;
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#ip_address MetalDevice#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#ip_address MetalDevice#ip_address}
   */
   readonly ipAddress?: MetalDeviceIpAddress[] | cdktf.IResolvable;
   /**
   * reinstall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#reinstall MetalDevice#reinstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#reinstall MetalDevice#reinstall}
   */
   readonly reinstall?: MetalDeviceReinstall;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#timeouts MetalDevice#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#timeouts MetalDevice#timeouts}
   */
   readonly timeouts?: MetalDeviceTimeouts;
 }
@@ -359,7 +359,7 @@ export interface MetalDeviceBehavior {
   /**
   * List of attributes that are allowed to change without recreating the instance. Supported attributes: `custom_data`, `user_data`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#allow_changes MetalDevice#allow_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#allow_changes MetalDevice#allow_changes}
   */
   readonly allowChanges?: string[];
 }
@@ -445,19 +445,19 @@ export interface MetalDeviceIpAddress {
   /**
   * CIDR suffix for IP block assigned to this device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#cidr MetalDevice#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#cidr MetalDevice#cidr}
   */
   readonly cidr?: number;
   /**
   * IDs of reservations to pick the blocks from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#reservation_ids MetalDevice#reservation_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#reservation_ids MetalDevice#reservation_ids}
   */
   readonly reservationIds?: string[];
   /**
   * one of public_ipv4,private_ipv4,public_ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#type MetalDevice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#type MetalDevice#type}
   */
   readonly type: string;
 }
@@ -630,19 +630,19 @@ export interface MetalDeviceReinstall {
   /**
   * Whether the OS disk should be filled with `00h` bytes before reinstall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#deprovision_fast MetalDevice#deprovision_fast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#deprovision_fast MetalDevice#deprovision_fast}
   */
   readonly deprovisionFast?: boolean | cdktf.IResolvable;
   /**
   * Whether the device should be reinstalled instead of destroyed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#enabled MetalDevice#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#enabled MetalDevice#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether the non-OS disks should be kept or wiped during reinstall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#preserve_data MetalDevice#preserve_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#preserve_data MetalDevice#preserve_data}
   */
   readonly preserveData?: boolean | cdktf.IResolvable;
 }
@@ -784,15 +784,15 @@ export class MetalDeviceReinstallOutputReference extends cdktf.ComplexObject {
 }
 export interface MetalDeviceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#create MetalDevice#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#create MetalDevice#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#delete MetalDevice#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#delete MetalDevice#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#update MetalDevice#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#update MetalDevice#update}
   */
   readonly update?: string;
 }
@@ -944,7 +944,7 @@ export class MetalDeviceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device equinix_metal_device}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device equinix_metal_device}
 */
 export class MetalDevice extends cdktf.TerraformResource {
 
@@ -960,7 +960,7 @@ export class MetalDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalDevice to import
-  * @param importFromId The id of the existing MetalDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -972,7 +972,7 @@ export class MetalDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/resources/metal_device equinix_metal_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device equinix_metal_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -983,8 +983,8 @@ export class MetalDevice extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_device',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -52,6 +52,7 @@ export * as secureNotificationChannelSns from './secure-notification-channel-sns
 export * as secureNotificationChannelTeamEmail from './secure-notification-channel-team-email';
 export * as secureNotificationChannelVictorops from './secure-notification-channel-victorops';
 export * as secureNotificationChannelWebhook from './secure-notification-channel-webhook';
+export * as secureOktaMlPolicy from './secure-okta-ml-policy';
 export * as secureOrganization from './secure-organization';
 export * as securePostureAcceptRisk from './secure-posture-accept-risk';
 export * as securePostureControl from './secure-posture-control';
@@ -112,6 +113,7 @@ export * as dataSysdigSecureNotificationChannelSns from './data-sysdig-secure-no
 export * as dataSysdigSecureNotificationChannelTeamEmail from './data-sysdig-secure-notification-channel-team-email';
 export * as dataSysdigSecureNotificationChannelVictorops from './data-sysdig-secure-notification-channel-victorops';
 export * as dataSysdigSecureNotificationChannelWebhook from './data-sysdig-secure-notification-channel-webhook';
+export * as dataSysdigSecureOktaMlPolicy from './data-sysdig-secure-okta-ml-policy';
 export * as dataSysdigSecurePosturePolicies from './data-sysdig-secure-posture-policies';
 export * as dataSysdigSecurePosturePolicy from './data-sysdig-secure-posture-policy';
 export * as dataSysdigSecurePostureZone from './data-sysdig-secure-posture-zone';

@@ -12,6 +12,7 @@ export * as pipeline from './pipeline';
 export * as pipelineSchedule from './pipeline-schedule';
 export * as pipelineTeam from './pipeline-team';
 export * as pipelineTemplate from './pipeline-template';
+export * as portal from './portal';
 export * as registry from './registry';
 export * as team from './team';
 export * as teamMember from './team-member';
@@ -26,6 +27,8 @@ export * as dataBuildkiteOrganizationMembers from './data-buildkite-organization
 export * as dataBuildkiteOrganizationRule from './data-buildkite-organization-rule';
 export * as dataBuildkitePipeline from './data-buildkite-pipeline';
 export * as dataBuildkitePipelineTemplate from './data-buildkite-pipeline-template';
+export * as dataBuildkitePortal from './data-buildkite-portal';
+export * as dataBuildkitePortals from './data-buildkite-portals';
 export * as dataBuildkiteRegistry from './data-buildkite-registry';
 export * as dataBuildkiteSignedPipelineSteps from './data-buildkite-signed-pipeline-steps';
 export * as dataBuildkiteTeam from './data-buildkite-team';

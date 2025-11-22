@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/table
+// https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TableConfig extends cdktf.TerraformMetaArguments {
   /**
   * Clustering column(s), separated by :
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/table#clustering_columns Table#clustering_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/table#clustering_columns Table#clustering_columns}
   */
   readonly clusteringColumns: string;
   /**
   * A list of table Definitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/table#column_definitions Table#column_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/table#column_definitions Table#column_definitions}
   */
   readonly columnDefinitions: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Astra database to create the keyspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/table#database_id Table#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/table#database_id Table#database_id}
   */
   readonly databaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/table#id Table#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/table#id Table#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface TableConfig extends cdktf.TerraformMetaArguments {
   /**
   * Keyspace name can have up to 48 alpha-numeric characters and contain underscores; only letters are supported as the first character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/table#keyspace Table#keyspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/table#keyspace Table#keyspace}
   */
   readonly keyspace: string;
   /**
   * Partition key(s), separated by :
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/table#partition_keys Table#partition_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/table#partition_keys Table#partition_keys}
   */
   readonly partitionKeys: string;
   /**
   * region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/table#region Table#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/table#region Table#region}
   */
   readonly region: string;
   /**
   * Table name can have up to 48 alpha-numeric characters and contain underscores; only letters are supported as the first character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/table#table Table#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/table#table Table#table}
   */
   readonly table: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/table astra_table}
+* Represents a {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/table astra_table}
 */
 export class Table extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class Table extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Table resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Table to import
-  * @param importFromId The id of the existing Table that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Table that should be imported. Refer to the {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Table to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class Table extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.3.18/docs/resources/table astra_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/datastax/astra/2.4.0/docs/resources/table astra_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class Table extends cdktf.TerraformResource {
       terraformResourceType: 'astra_table',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18',
-        providerVersionConstraint: '2.3.18'
+        providerVersion: '2.4.0',
+        providerVersionConstraint: '2.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

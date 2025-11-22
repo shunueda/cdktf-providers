@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_ip_block_ranges
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_ip_block_ranges
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataEquinixMetalIpBlockRangesConfig extends cdktf.TerraformMeta
   /**
   * Facility code filtering the IP blocks. Global IPv4 blocks will be listed anyway. If you omit this and metro, all the block from the project will be listed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_ip_block_ranges#facility DataEquinixMetalIpBlockRanges#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_ip_block_ranges#facility DataEquinixMetalIpBlockRanges#facility}
   */
   readonly facility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_ip_block_ranges#id DataEquinixMetalIpBlockRanges#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_ip_block_ranges#id DataEquinixMetalIpBlockRanges#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataEquinixMetalIpBlockRangesConfig extends cdktf.TerraformMeta
   /**
   * Metro code filtering the IP blocks. Global IPv4 blocks will be listed anyway. If you omit this and facility, all the block from the project will be listed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_ip_block_ranges#metro DataEquinixMetalIpBlockRanges#metro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_ip_block_ranges#metro DataEquinixMetalIpBlockRanges#metro}
   */
   readonly metro?: string;
   /**
   * ID of the project from which to list the blocks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_ip_block_ranges#project_id DataEquinixMetalIpBlockRanges#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_ip_block_ranges#project_id DataEquinixMetalIpBlockRanges#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_ip_block_ranges equinix_metal_ip_block_ranges}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_ip_block_ranges equinix_metal_ip_block_ranges}
 */
 export class DataEquinixMetalIpBlockRanges extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataEquinixMetalIpBlockRanges extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixMetalIpBlockRanges resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixMetalIpBlockRanges to import
-  * @param importFromId The id of the existing DataEquinixMetalIpBlockRanges that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_ip_block_ranges#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixMetalIpBlockRanges that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_ip_block_ranges#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixMetalIpBlockRanges to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataEquinixMetalIpBlockRanges extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_ip_block_ranges equinix_metal_ip_block_ranges} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_ip_block_ranges equinix_metal_ip_block_ranges} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataEquinixMetalIpBlockRanges extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_metal_ip_block_ranges',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

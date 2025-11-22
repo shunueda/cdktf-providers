@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface HostedDashboardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard#id HostedDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard#id HostedDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface HostedDashboardConfig extends cdktf.TerraformMetaArguments {
   /**
   * grafana block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard#grafana HostedDashboard#grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard#grafana HostedDashboard#grafana}
   */
   readonly grafana?: HostedDashboardGrafana;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard#timeouts HostedDashboard#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard#timeouts HostedDashboard#timeouts}
   */
   readonly timeouts?: HostedDashboardTimeouts;
 }
@@ -31,25 +31,25 @@ export interface HostedDashboardGrafana {
   /**
   * The complete dashboard model JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard#config_json HostedDashboard#config_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard#config_json HostedDashboard#config_json}
   */
   readonly configJson: string;
   /**
   * The id or UID of the folder to save the dashboard in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard#folder HostedDashboard#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard#folder HostedDashboard#folder}
   */
   readonly folder?: string;
   /**
   * Set a commit message for the version history.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard#message HostedDashboard#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard#message HostedDashboard#message}
   */
   readonly message?: string;
   /**
   * Set to true if you want to overwrite existing dashboard with newer version, same dashboard title in folder or same dashboard uid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard#overwrite HostedDashboard#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard#overwrite HostedDashboard#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
 }
@@ -237,19 +237,19 @@ export class HostedDashboardGrafanaOutputReference extends cdktf.ComplexObject {
 }
 export interface HostedDashboardTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard#create HostedDashboard#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard#create HostedDashboard#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard#delete HostedDashboard#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard#delete HostedDashboard#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard#read HostedDashboard#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard#read HostedDashboard#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard#update HostedDashboard#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard#update HostedDashboard#update}
   */
   readonly update?: string;
 }
@@ -430,7 +430,7 @@ export class HostedDashboardTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard coralogix_hosted_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard coralogix_hosted_dashboard}
 */
 export class HostedDashboard extends cdktf.TerraformResource {
 
@@ -446,7 +446,7 @@ export class HostedDashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HostedDashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HostedDashboard to import
-  * @param importFromId The id of the existing HostedDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HostedDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HostedDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -458,7 +458,7 @@ export class HostedDashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/hosted_dashboard coralogix_hosted_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/hosted_dashboard coralogix_hosted_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -469,8 +469,8 @@ export class HostedDashboard extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_hosted_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

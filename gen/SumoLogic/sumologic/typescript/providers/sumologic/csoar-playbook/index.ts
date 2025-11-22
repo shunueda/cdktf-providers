@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface CsoarPlaybookConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#description CsoarPlaybook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#description CsoarPlaybook#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#draft CsoarPlaybook#draft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#draft CsoarPlaybook#draft}
   */
   readonly draft?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#id CsoarPlaybook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#id CsoarPlaybook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#is_deleted CsoarPlaybook#is_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#is_deleted CsoarPlaybook#is_deleted}
   */
   readonly isDeleted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#is_enabled CsoarPlaybook#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#is_enabled CsoarPlaybook#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#is_published CsoarPlaybook#is_published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#is_published CsoarPlaybook#is_published}
   */
   readonly isPublished?: boolean | cdktf.IResolvable;
   /**
   * JSON string representation of playbook links
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#links CsoarPlaybook#links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#links CsoarPlaybook#links}
   */
   readonly links?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#name CsoarPlaybook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#name CsoarPlaybook#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#nested CsoarPlaybook#nested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#nested CsoarPlaybook#nested}
   */
   readonly nested?: boolean | cdktf.IResolvable;
   /**
   * JSON string representation of playbook nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#nodes CsoarPlaybook#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#nodes CsoarPlaybook#nodes}
   */
   readonly nodes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#tags CsoarPlaybook#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#tags CsoarPlaybook#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#type CsoarPlaybook#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#type CsoarPlaybook#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#updated_name CsoarPlaybook#updated_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#updated_name CsoarPlaybook#updated_name}
   */
   readonly updatedName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook sumologic_csoar_playbook}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook sumologic_csoar_playbook}
 */
 export class CsoarPlaybook extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class CsoarPlaybook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CsoarPlaybook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CsoarPlaybook to import
-  * @param importFromId The id of the existing CsoarPlaybook that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CsoarPlaybook that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CsoarPlaybook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class CsoarPlaybook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/csoar_playbook sumologic_csoar_playbook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/csoar_playbook sumologic_csoar_playbook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +108,8 @@ export class CsoarPlaybook extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_csoar_playbook',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.8',
-        providerVersionConstraint: '3.1.8'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

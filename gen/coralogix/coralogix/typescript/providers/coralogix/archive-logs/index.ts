@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_logs
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/archive_logs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface ArchiveLogsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_logs#active ArchiveLogs#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/archive_logs#active ArchiveLogs#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The bucket name to store the archived logs in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_logs#bucket ArchiveLogs#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/archive_logs#bucket ArchiveLogs#bucket}
   */
   readonly bucket: string;
   /**
   * The bucket region. see - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html#Concepts.RegionsAndAvailabilityZones.Regions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_logs#region ArchiveLogs#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/archive_logs#region ArchiveLogs#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_logs coralogix_archive_logs}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/archive_logs coralogix_archive_logs}
 */
 export class ArchiveLogs extends cdktf.TerraformResource {
 
@@ -42,7 +42,7 @@ export class ArchiveLogs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArchiveLogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArchiveLogs to import
-  * @param importFromId The id of the existing ArchiveLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_logs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArchiveLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/archive_logs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArchiveLogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class ArchiveLogs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/archive_logs coralogix_archive_logs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/archive_logs coralogix_archive_logs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,8 +65,8 @@ export class ArchiveLogs extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_archive_logs',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

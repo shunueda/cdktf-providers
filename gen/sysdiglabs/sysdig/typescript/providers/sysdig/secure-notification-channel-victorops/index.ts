@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface SecureNotificationChannelVictoropsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#api_key SecureNotificationChannelVictorops#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#api_key SecureNotificationChannelVictorops#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#enabled SecureNotificationChannelVictorops#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#enabled SecureNotificationChannelVictorops#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#id SecureNotificationChannelVictorops#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#id SecureNotificationChannelVictorops#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#name SecureNotificationChannelVictorops#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#name SecureNotificationChannelVictorops#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#notify_when_ok SecureNotificationChannelVictorops#notify_when_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#notify_when_ok SecureNotificationChannelVictorops#notify_when_ok}
   */
   readonly notifyWhenOk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#notify_when_resolved SecureNotificationChannelVictorops#notify_when_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#notify_when_resolved SecureNotificationChannelVictorops#notify_when_resolved}
   */
   readonly notifyWhenResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#routing_key SecureNotificationChannelVictorops#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#routing_key SecureNotificationChannelVictorops#routing_key}
   */
   readonly routingKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#send_test_notification SecureNotificationChannelVictorops#send_test_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#send_test_notification SecureNotificationChannelVictorops#send_test_notification}
   */
   readonly sendTestNotification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#share_with_current_team SecureNotificationChannelVictorops#share_with_current_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#share_with_current_team SecureNotificationChannelVictorops#share_with_current_team}
   */
   readonly shareWithCurrentTeam?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#timeouts SecureNotificationChannelVictorops#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#timeouts SecureNotificationChannelVictorops#timeouts}
   */
   readonly timeouts?: SecureNotificationChannelVictoropsTimeouts;
 }
 export interface SecureNotificationChannelVictoropsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#create SecureNotificationChannelVictorops#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#create SecureNotificationChannelVictorops#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#delete SecureNotificationChannelVictorops#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#delete SecureNotificationChannelVictorops#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#read SecureNotificationChannelVictorops#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#read SecureNotificationChannelVictorops#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#update SecureNotificationChannelVictorops#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#update SecureNotificationChannelVictorops#update}
   */
   readonly update?: string;
 }
@@ -248,7 +248,7 @@ export class SecureNotificationChannelVictoropsTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops sysdig_secure_notification_channel_victorops}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops sysdig_secure_notification_channel_victorops}
 */
 export class SecureNotificationChannelVictorops extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class SecureNotificationChannelVictorops extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a SecureNotificationChannelVictorops resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecureNotificationChannelVictorops to import
-  * @param importFromId The id of the existing SecureNotificationChannelVictorops that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecureNotificationChannelVictorops that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecureNotificationChannelVictorops to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class SecureNotificationChannelVictorops extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/resources/secure_notification_channel_victorops sysdig_secure_notification_channel_victorops} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/resources/secure_notification_channel_victorops sysdig_secure_notification_channel_victorops} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class SecureNotificationChannelVictorops extends cdktf.TerraformResource 
       terraformResourceType: 'sysdig_secure_notification_channel_victorops',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0',
-        providerVersionConstraint: '3.1.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

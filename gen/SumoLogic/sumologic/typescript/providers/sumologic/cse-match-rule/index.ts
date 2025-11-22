@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface CseMatchRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#description_expression CseMatchRule#description_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#description_expression CseMatchRule#description_expression}
   */
   readonly descriptionExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#enabled CseMatchRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#enabled CseMatchRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#expression CseMatchRule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#expression CseMatchRule#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#id CseMatchRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#id CseMatchRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#is_prototype CseMatchRule#is_prototype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#is_prototype CseMatchRule#is_prototype}
   */
   readonly isPrototype?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#name CseMatchRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#name CseMatchRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#name_expression CseMatchRule#name_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#name_expression CseMatchRule#name_expression}
   */
   readonly nameExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#summary_expression CseMatchRule#summary_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#summary_expression CseMatchRule#summary_expression}
   */
   readonly summaryExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#suppression_window_size CseMatchRule#suppression_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#suppression_window_size CseMatchRule#suppression_window_size}
   */
   readonly suppressionWindowSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#tags CseMatchRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#tags CseMatchRule#tags}
   */
   readonly tags?: string[];
   /**
   * entity_selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#entity_selectors CseMatchRule#entity_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#entity_selectors CseMatchRule#entity_selectors}
   */
   readonly entitySelectors: CseMatchRuleEntitySelectors[] | cdktf.IResolvable;
   /**
   * severity_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#severity_mapping CseMatchRule#severity_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#severity_mapping CseMatchRule#severity_mapping}
   */
   readonly severityMapping: CseMatchRuleSeverityMapping;
 }
 export interface CseMatchRuleEntitySelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#entity_type CseMatchRule#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#entity_type CseMatchRule#entity_type}
   */
   readonly entityType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#expression CseMatchRule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#expression CseMatchRule#expression}
   */
   readonly expression: string;
 }
@@ -208,15 +208,15 @@ export class CseMatchRuleEntitySelectorsList extends cdktf.ComplexList {
 }
 export interface CseMatchRuleSeverityMappingMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#from CseMatchRule#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#from CseMatchRule#from}
   */
   readonly from: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#to CseMatchRule#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#to CseMatchRule#to}
   */
   readonly to: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#type CseMatchRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#type CseMatchRule#type}
   */
   readonly type: string;
 }
@@ -381,21 +381,21 @@ export class CseMatchRuleSeverityMappingMappingList extends cdktf.ComplexList {
 }
 export interface CseMatchRuleSeverityMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#default CseMatchRule#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#default CseMatchRule#default}
   */
   readonly default?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#field CseMatchRule#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#field CseMatchRule#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#type CseMatchRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#type CseMatchRule#type}
   */
   readonly type: string;
   /**
   * mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#mapping CseMatchRule#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#mapping CseMatchRule#mapping}
   */
   readonly mapping?: CseMatchRuleSeverityMappingMapping[] | cdktf.IResolvable;
 }
@@ -563,7 +563,7 @@ export class CseMatchRuleSeverityMappingOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule sumologic_cse_match_rule}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule sumologic_cse_match_rule}
 */
 export class CseMatchRule extends cdktf.TerraformResource {
 
@@ -579,7 +579,7 @@ export class CseMatchRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CseMatchRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CseMatchRule to import
-  * @param importFromId The id of the existing CseMatchRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CseMatchRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CseMatchRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -591,7 +591,7 @@ export class CseMatchRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_match_rule sumologic_cse_match_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_match_rule sumologic_cse_match_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -602,8 +602,8 @@ export class CseMatchRule extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_cse_match_rule',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.8',
-        providerVersionConstraint: '3.1.8'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair
+// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,88 +10,88 @@ export interface Vns3IpsecTrafficPairConfig extends cdktf.TerraformMetaArguments
   /**
   * Traffic Pair Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#description Vns3IpsecTrafficPair#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#description Vns3IpsecTrafficPair#description}
   */
   readonly description?: string;
   /**
   * Enable / Disable Traffic Pair 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#enabled Vns3IpsecTrafficPair#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#enabled Vns3IpsecTrafficPair#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Endpoint ID to associate Trrafic Pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#endpoint_id Vns3IpsecTrafficPair#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#endpoint_id Vns3IpsecTrafficPair#endpoint_id}
   */
   readonly endpointId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#id Vns3IpsecTrafficPair#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#id Vns3IpsecTrafficPair#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#last_updated Vns3IpsecTrafficPair#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#last_updated Vns3IpsecTrafficPair#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * Local Subnet CIDR of Traffic Pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#local_subnet Vns3IpsecTrafficPair#local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#local_subnet Vns3IpsecTrafficPair#local_subnet}
   */
   readonly localSubnet?: string;
   /**
   * Keep Alive Ping Interface (eth0/tun0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#ping_interface Vns3IpsecTrafficPair#ping_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#ping_interface Vns3IpsecTrafficPair#ping_interface}
   */
   readonly pingInterface?: string;
   /**
   * Interval between Keep Alive Pings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#ping_interval Vns3IpsecTrafficPair#ping_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#ping_interval Vns3IpsecTrafficPair#ping_interval}
   */
   readonly pingInterval?: number;
   /**
   * IP Address to Send Keep Alive Pings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#ping_ipaddress Vns3IpsecTrafficPair#ping_ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#ping_ipaddress Vns3IpsecTrafficPair#ping_ipaddress}
   */
   readonly pingIpaddress?: string;
   /**
   * Remote Subnet CIDR of Traffic Pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#remote_subnet Vns3IpsecTrafficPair#remote_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#remote_subnet Vns3IpsecTrafficPair#remote_subnet}
   */
   readonly remoteSubnet: string;
   /**
   * vns3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#vns3 Vns3IpsecTrafficPair#vns3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#vns3 Vns3IpsecTrafficPair#vns3}
   */
   readonly vns3?: Vns3IpsecTrafficPairVns3;
 }
 export interface Vns3IpsecTrafficPairVns3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#api_token Vns3IpsecTrafficPair#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#api_token Vns3IpsecTrafficPair#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#host Vns3IpsecTrafficPair#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#host Vns3IpsecTrafficPair#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#password Vns3IpsecTrafficPair#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#password Vns3IpsecTrafficPair#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#timeout Vns3IpsecTrafficPair#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#timeout Vns3IpsecTrafficPair#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#username Vns3IpsecTrafficPair#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#username Vns3IpsecTrafficPair#username}
   */
   readonly username?: string;
 }
@@ -291,7 +291,7 @@ export class Vns3IpsecTrafficPairVns3OutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair cohesivenet_vns3_ipsec_traffic_pair}
+* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair cohesivenet_vns3_ipsec_traffic_pair}
 */
 export class Vns3IpsecTrafficPair extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class Vns3IpsecTrafficPair extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vns3IpsecTrafficPair resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vns3IpsecTrafficPair to import
-  * @param importFromId The id of the existing Vns3IpsecTrafficPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vns3IpsecTrafficPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vns3IpsecTrafficPair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class Vns3IpsecTrafficPair extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_ipsec_traffic_pair cohesivenet_vns3_ipsec_traffic_pair} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_ipsec_traffic_pair cohesivenet_vns3_ipsec_traffic_pair} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class Vns3IpsecTrafficPair extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_ipsec_traffic_pair',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

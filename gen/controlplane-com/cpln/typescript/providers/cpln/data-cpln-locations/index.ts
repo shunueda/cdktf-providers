@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/data-sources/locations
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/locations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -112,13 +112,13 @@ export interface DataCplnLocationsLocations {
   /**
   * Name of the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/data-sources/locations#name DataCplnLocations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/locations#name DataCplnLocations#name}
   */
   readonly name: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/data-sources/locations#tags DataCplnLocations#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/locations#tags DataCplnLocations#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -296,7 +296,7 @@ export class DataCplnLocationsLocationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/data-sources/locations cpln_locations}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/locations cpln_locations}
 */
 export class DataCplnLocations extends cdktf.TerraformDataSource {
 
@@ -312,7 +312,7 @@ export class DataCplnLocations extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCplnLocations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCplnLocations to import
-  * @param importFromId The id of the existing DataCplnLocations that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/data-sources/locations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCplnLocations that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/locations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCplnLocations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -324,7 +324,7 @@ export class DataCplnLocations extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/data-sources/locations cpln_locations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.15/docs/data-sources/locations cpln_locations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,8 +335,8 @@ export class DataCplnLocations extends cdktf.TerraformDataSource {
       terraformResourceType: 'cpln_locations',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.14',
-        providerVersionConstraint: '1.2.14'
+        providerVersion: '1.2.15',
+        providerVersionConstraint: '1.2.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

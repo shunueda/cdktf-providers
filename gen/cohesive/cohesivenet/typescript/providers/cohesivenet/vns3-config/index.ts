@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config
+// https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface Vns3ConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configuration id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#configuration_id Vns3Config#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#configuration_id Vns3Config#configuration_id}
   */
   readonly configurationId: string;
   /**
   * Sets VNS3 controller name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#controller_name Vns3Config#controller_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#controller_name Vns3Config#controller_name}
   */
   readonly controllerName?: string;
   /**
   * Optionally creates API token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#generate_token Vns3Config#generate_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#generate_token Vns3Config#generate_token}
   */
   readonly generateToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#id Vns3Config#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#id Vns3Config#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,87 +35,87 @@ export interface Vns3ConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * instance id (used for upgrade)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#instance_id Vns3Config#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#instance_id Vns3Config#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#last_updated Vns3Config#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#last_updated Vns3Config#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * Path to VNS3 license file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#license_file Vns3Config#license_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#license_file Vns3Config#license_file}
   */
   readonly licenseFile?: string;
   /**
   * Sets user defined API password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#new_api_password Vns3Config#new_api_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#new_api_password Vns3Config#new_api_password}
   */
   readonly newApiPassword?: string;
   /**
   * Sets user defined UI password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#new_ui_password Vns3Config#new_ui_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#new_ui_password Vns3Config#new_ui_password}
   */
   readonly newUiPassword?: string;
   /**
   * Sets user defined admin username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#new_ui_username Vns3Config#new_ui_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#new_ui_username Vns3Config#new_ui_username}
   */
   readonly newUiUsername?: string;
   /**
   * Sets VNS3 controllers peer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#peer_id Vns3Config#peer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#peer_id Vns3Config#peer_id}
   */
   readonly peerId: number;
   /**
   * Sets API token lifetime. A value > 0 will generate token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#token_lifetime Vns3Config#token_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#token_lifetime Vns3Config#token_lifetime}
   */
   readonly tokenLifetime?: number;
   /**
   * Sets API token refresh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#token_refresh Vns3Config#token_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#token_refresh Vns3Config#token_refresh}
   */
   readonly tokenRefresh?: boolean | cdktf.IResolvable;
   /**
   * Sets VNS3 topolgy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#topology_name Vns3Config#topology_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#topology_name Vns3Config#topology_name}
   */
   readonly topologyName: string;
   /**
   * keyset_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#keyset_params Vns3Config#keyset_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#keyset_params Vns3Config#keyset_params}
   */
   readonly keysetParams: Vns3ConfigKeysetParams;
   /**
   * license_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#license_params Vns3Config#license_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#license_params Vns3Config#license_params}
   */
   readonly licenseParams?: Vns3ConfigLicenseParams;
   /**
   * vns3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#vns3 Vns3Config#vns3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#vns3 Vns3Config#vns3}
   */
   readonly vns3?: Vns3ConfigVns3;
 }
 export interface Vns3ConfigKeysetParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#source Vns3Config#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#source Vns3Config#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#token Vns3Config#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#token Vns3Config#token}
   */
   readonly token: string;
 }
@@ -227,35 +227,35 @@ export interface Vns3ConfigLicenseParams {
   /**
   * Sets VNS3 default ASNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#asns Vns3Config#asns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#asns Vns3Config#asns}
   */
   readonly asns?: number[];
   /**
   * Sets VNS3 overlay client addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#clients Vns3Config#clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#clients Vns3Config#clients}
   */
   readonly clients?: string[];
   /**
   * Sets VNS3 VIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#controller_vip Vns3Config#controller_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#controller_vip Vns3Config#controller_vip}
   */
   readonly controllerVip?: string;
   /**
   * Specifies number of controllers in topology
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#controllers Vns3Config#controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#controllers Vns3Config#controllers}
   */
   readonly controllers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#default Vns3Config#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#default Vns3Config#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Sets VNS3 overlay subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#subnet Vns3Config#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#subnet Vns3Config#subnet}
   */
   readonly subnet?: string;
 }
@@ -484,23 +484,23 @@ export class Vns3ConfigLicenseParamsOutputReference extends cdktf.ComplexObject 
 }
 export interface Vns3ConfigVns3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#api_token Vns3Config#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#api_token Vns3Config#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#host Vns3Config#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#host Vns3Config#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#password Vns3Config#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#password Vns3Config#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#timeout Vns3Config#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#timeout Vns3Config#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#username Vns3Config#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#username Vns3Config#username}
   */
   readonly username?: string;
 }
@@ -700,7 +700,7 @@ export class Vns3ConfigVns3OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config cohesivenet_vns3_config}
+* Represents a {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config cohesivenet_vns3_config}
 */
 export class Vns3Config extends cdktf.TerraformResource {
 
@@ -716,7 +716,7 @@ export class Vns3Config extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vns3Config resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vns3Config to import
-  * @param importFromId The id of the existing Vns3Config that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vns3Config that should be imported. Refer to the {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vns3Config to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -728,7 +728,7 @@ export class Vns3Config extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.8/docs/resources/vns3_config cohesivenet_vns3_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cohesive/cohesivenet/1.0.9/docs/resources/vns3_config cohesivenet_vns3_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -739,8 +739,8 @@ export class Vns3Config extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_config',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `infisical_kms_key`
 
-Refer to the Terraform Registry for docs: [`infisical_kms_key`](https://registry.terraform.io/providers/infisical/infisical/0.15.46/docs/resources/kms_key).
+Refer to the Terraform Registry for docs: [`infisical_kms_key`](https://registry.terraform.io/providers/infisical/infisical/0.15.47/docs/resources/kms_key).

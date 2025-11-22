@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_streams
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_streams
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataEquinixFabricStreamsConfig extends cdktf.TerraformMetaArgum
   /**
   * Pagination details for the returned streams list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_streams#pagination DataEquinixFabricStreams#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_streams#pagination DataEquinixFabricStreams#pagination}
   */
   readonly pagination: DataEquinixFabricStreamsPagination;
 }
@@ -303,13 +303,13 @@ export interface DataEquinixFabricStreamsPagination {
   /**
   * Maximum number of search results returned per page. Number must be between 1 and 100, and the default is 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_streams#limit DataEquinixFabricStreams#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_streams#limit DataEquinixFabricStreams#limit}
   */
   readonly limit?: number;
   /**
   * Index of the first item returned in the response. The default is 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_streams#offset DataEquinixFabricStreams#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_streams#offset DataEquinixFabricStreams#offset}
   */
   readonly offset?: number;
 }
@@ -447,7 +447,7 @@ export class DataEquinixFabricStreamsPaginationOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_streams equinix_fabric_streams}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_streams equinix_fabric_streams}
 */
 export class DataEquinixFabricStreams extends cdktf.TerraformDataSource {
 
@@ -463,7 +463,7 @@ export class DataEquinixFabricStreams extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixFabricStreams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricStreams to import
-  * @param importFromId The id of the existing DataEquinixFabricStreams that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_streams#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricStreams that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_streams#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricStreams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -475,7 +475,7 @@ export class DataEquinixFabricStreams extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/fabric_streams equinix_fabric_streams} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_streams equinix_fabric_streams} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -486,8 +486,8 @@ export class DataEquinixFabricStreams extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_fabric_streams',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

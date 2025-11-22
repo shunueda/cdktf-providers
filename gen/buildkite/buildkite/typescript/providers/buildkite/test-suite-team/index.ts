@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite_team
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite_team
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TestSuiteTeamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The access level the team has on the test suite. Either `READ_ONLY` or `MANAGE_AND_READ`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite_team#access_level TestSuiteTeam#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite_team#access_level TestSuiteTeam#access_level}
   */
   readonly accessLevel: string;
   /**
   * The GraphQL ID of the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite_team#team_id TestSuiteTeam#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite_team#team_id TestSuiteTeam#team_id}
   */
   readonly teamId: string;
   /**
   * The GraphQL ID of the test suite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite_team#test_suite_id TestSuiteTeam#test_suite_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite_team#test_suite_id TestSuiteTeam#test_suite_id}
   */
   readonly testSuiteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite_team buildkite_test_suite_team}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite_team buildkite_test_suite_team}
 */
 export class TestSuiteTeam extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class TestSuiteTeam extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TestSuiteTeam resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TestSuiteTeam to import
-  * @param importFromId The id of the existing TestSuiteTeam that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite_team#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TestSuiteTeam that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite_team#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TestSuiteTeam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class TestSuiteTeam extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.26.0/docs/resources/test_suite_team buildkite_test_suite_team} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/test_suite_team buildkite_test_suite_team} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class TestSuiteTeam extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_test_suite_team',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0',
-        providerVersionConstraint: '1.26.0'
+        providerVersion: '1.27.0',
+        providerVersionConstraint: '1.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

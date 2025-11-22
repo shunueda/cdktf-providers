@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/certificate_push_akv
+// https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/certificate_push_akv
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CertificatePushAkvConfig extends cdktf.TerraformMetaArguments {
   /**
   * JSON string containing all certificate and key vault configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/certificate_push_akv#field_info CertificatePushAkv#field_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/certificate_push_akv#field_info CertificatePushAkv#field_info}
   */
   readonly fieldInfo: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/certificate_push_akv#id CertificatePushAkv#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/certificate_push_akv#id CertificatePushAkv#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CertificatePushAkvConfig extends cdktf.TerraformMetaArguments {
   /**
   * The workflow name to execute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/certificate_push_akv#workflow_name CertificatePushAkv#workflow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/certificate_push_akv#workflow_name CertificatePushAkv#workflow_name}
   */
   readonly workflowName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/certificate_push_akv appviewx_certificate_push_akv}
+* Represents a {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/certificate_push_akv appviewx_certificate_push_akv}
 */
 export class CertificatePushAkv extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class CertificatePushAkv extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CertificatePushAkv resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificatePushAkv to import
-  * @param importFromId The id of the existing CertificatePushAkv that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/certificate_push_akv#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificatePushAkv that should be imported. Refer to the {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/certificate_push_akv#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificatePushAkv to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class CertificatePushAkv extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.8/docs/resources/certificate_push_akv appviewx_certificate_push_akv} Resource
+  * Create a new {@link https://registry.terraform.io/providers/appviewx/appviewx/1.0.9/docs/resources/certificate_push_akv appviewx_certificate_push_akv} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class CertificatePushAkv extends cdktf.TerraformResource {
       terraformResourceType: 'appviewx_certificate_push_akv',
       terraformGeneratorMetadata: {
         providerName: 'appviewx',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

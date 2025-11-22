@@ -1,3 +1,3 @@
 # `coralogix_integration`
 
-Refer to the Terraform Registry for docs: [`coralogix_integration`](https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/integration).
+Refer to the Terraform Registry for docs: [`coralogix_integration`](https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/integration).

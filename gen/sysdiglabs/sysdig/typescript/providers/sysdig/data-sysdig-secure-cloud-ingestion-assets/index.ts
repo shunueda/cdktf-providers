@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_cloud_ingestion_assets
+// https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_cloud_ingestion_assets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataSysdigSecureCloudIngestionAssetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_cloud_ingestion_assets#cloud_provider DataSysdigSecureCloudIngestionAssets#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_cloud_ingestion_assets#cloud_provider DataSysdigSecureCloudIngestionAssets#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_cloud_ingestion_assets#cloud_provider_id DataSysdigSecureCloudIngestionAssets#cloud_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_cloud_ingestion_assets#cloud_provider_id DataSysdigSecureCloudIngestionAssets#cloud_provider_id}
   */
   readonly cloudProviderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_cloud_ingestion_assets#component_type DataSysdigSecureCloudIngestionAssets#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_cloud_ingestion_assets#component_type DataSysdigSecureCloudIngestionAssets#component_type}
   */
   readonly componentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_cloud_ingestion_assets#id DataSysdigSecureCloudIngestionAssets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_cloud_ingestion_assets#id DataSysdigSecureCloudIngestionAssets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataSysdigSecureCloudIngestionAssetsConfig extends cdktf.Terraf
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_cloud_ingestion_assets#timeouts DataSysdigSecureCloudIngestionAssets#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_cloud_ingestion_assets#timeouts DataSysdigSecureCloudIngestionAssets#timeouts}
   */
   readonly timeouts?: DataSysdigSecureCloudIngestionAssetsTimeouts;
 }
 export interface DataSysdigSecureCloudIngestionAssetsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_cloud_ingestion_assets#read DataSysdigSecureCloudIngestionAssets#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_cloud_ingestion_assets#read DataSysdigSecureCloudIngestionAssets#read}
   */
   readonly read?: string;
 }
@@ -129,7 +129,7 @@ export class DataSysdigSecureCloudIngestionAssetsTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_cloud_ingestion_assets sysdig_secure_cloud_ingestion_assets}
+* Represents a {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_cloud_ingestion_assets sysdig_secure_cloud_ingestion_assets}
 */
 export class DataSysdigSecureCloudIngestionAssets extends cdktf.TerraformDataSource {
 
@@ -145,7 +145,7 @@ export class DataSysdigSecureCloudIngestionAssets extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataSysdigSecureCloudIngestionAssets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSysdigSecureCloudIngestionAssets to import
-  * @param importFromId The id of the existing DataSysdigSecureCloudIngestionAssets that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_cloud_ingestion_assets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSysdigSecureCloudIngestionAssets that should be imported. Refer to the {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_cloud_ingestion_assets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSysdigSecureCloudIngestionAssets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -157,7 +157,7 @@ export class DataSysdigSecureCloudIngestionAssets extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.1.0/docs/data-sources/secure_cloud_ingestion_assets sysdig_secure_cloud_ingestion_assets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sysdiglabs/sysdig/3.2.0/docs/data-sources/secure_cloud_ingestion_assets sysdig_secure_cloud_ingestion_assets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -168,8 +168,8 @@ export class DataSysdigSecureCloudIngestionAssets extends cdktf.TerraformDataSou
       terraformResourceType: 'sysdig_secure_cloud_ingestion_assets',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0',
-        providerVersionConstraint: '3.1.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

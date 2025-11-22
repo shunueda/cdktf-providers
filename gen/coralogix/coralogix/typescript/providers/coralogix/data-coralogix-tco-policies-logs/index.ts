@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/data-sources/tco_policies_logs
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/data-sources/tco_policies_logs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -250,7 +250,7 @@ export class DataCoralogixTcoPoliciesLogsPoliciesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/data-sources/tco_policies_logs coralogix_tco_policies_logs}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/data-sources/tco_policies_logs coralogix_tco_policies_logs}
 */
 export class DataCoralogixTcoPoliciesLogs extends cdktf.TerraformDataSource {
 
@@ -266,7 +266,7 @@ export class DataCoralogixTcoPoliciesLogs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCoralogixTcoPoliciesLogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCoralogixTcoPoliciesLogs to import
-  * @param importFromId The id of the existing DataCoralogixTcoPoliciesLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/data-sources/tco_policies_logs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCoralogixTcoPoliciesLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/data-sources/tco_policies_logs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCoralogixTcoPoliciesLogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -278,7 +278,7 @@ export class DataCoralogixTcoPoliciesLogs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/data-sources/tco_policies_logs coralogix_tco_policies_logs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/data-sources/tco_policies_logs coralogix_tco_policies_logs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -289,8 +289,8 @@ export class DataCoralogixTcoPoliciesLogs extends cdktf.TerraformDataSource {
       terraformResourceType: 'coralogix_tco_policies_logs',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

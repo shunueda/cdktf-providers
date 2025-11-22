@@ -52,6 +52,7 @@ Object.defineProperty(exports, 'secureNotificationChannelSns', { get: function (
 Object.defineProperty(exports, 'secureNotificationChannelTeamEmail', { get: function () { return require('./secure-notification-channel-team-email'); } });
 Object.defineProperty(exports, 'secureNotificationChannelVictorops', { get: function () { return require('./secure-notification-channel-victorops'); } });
 Object.defineProperty(exports, 'secureNotificationChannelWebhook', { get: function () { return require('./secure-notification-channel-webhook'); } });
+Object.defineProperty(exports, 'secureOktaMlPolicy', { get: function () { return require('./secure-okta-ml-policy'); } });
 Object.defineProperty(exports, 'secureOrganization', { get: function () { return require('./secure-organization'); } });
 Object.defineProperty(exports, 'securePostureAcceptRisk', { get: function () { return require('./secure-posture-accept-risk'); } });
 Object.defineProperty(exports, 'securePostureControl', { get: function () { return require('./secure-posture-control'); } });
@@ -112,6 +113,7 @@ Object.defineProperty(exports, 'dataSysdigSecureNotificationChannelSns', { get: 
 Object.defineProperty(exports, 'dataSysdigSecureNotificationChannelTeamEmail', { get: function () { return require('./data-sysdig-secure-notification-channel-team-email'); } });
 Object.defineProperty(exports, 'dataSysdigSecureNotificationChannelVictorops', { get: function () { return require('./data-sysdig-secure-notification-channel-victorops'); } });
 Object.defineProperty(exports, 'dataSysdigSecureNotificationChannelWebhook', { get: function () { return require('./data-sysdig-secure-notification-channel-webhook'); } });
+Object.defineProperty(exports, 'dataSysdigSecureOktaMlPolicy', { get: function () { return require('./data-sysdig-secure-okta-ml-policy'); } });
 Object.defineProperty(exports, 'dataSysdigSecurePosturePolicies', { get: function () { return require('./data-sysdig-secure-posture-policies'); } });
 Object.defineProperty(exports, 'dataSysdigSecurePosturePolicy', { get: function () { return require('./data-sysdig-secure-posture-policy'); } });
 Object.defineProperty(exports, 'dataSysdigSecurePostureZone', { get: function () { return require('./data-sysdig-secure-posture-zone'); } });

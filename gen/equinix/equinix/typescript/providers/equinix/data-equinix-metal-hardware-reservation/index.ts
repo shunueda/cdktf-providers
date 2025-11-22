@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_hardware_reservation
+// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_hardware_reservation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataEquinixMetalHardwareReservationConfig extends cdktf.Terrafo
   /**
   * UUID of device occupying the reservation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_hardware_reservation#device_id DataEquinixMetalHardwareReservation#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_hardware_reservation#device_id DataEquinixMetalHardwareReservation#device_id}
   */
   readonly deviceId?: string;
   /**
   * ID of the hardware reservation to look up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_hardware_reservation#id DataEquinixMetalHardwareReservation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_hardware_reservation#id DataEquinixMetalHardwareReservation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataEquinixMetalHardwareReservationConfig extends cdktf.Terrafo
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_hardware_reservation equinix_metal_hardware_reservation}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_hardware_reservation equinix_metal_hardware_reservation}
 */
 export class DataEquinixMetalHardwareReservation extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataEquinixMetalHardwareReservation extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataEquinixMetalHardwareReservation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixMetalHardwareReservation to import
-  * @param importFromId The id of the existing DataEquinixMetalHardwareReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_hardware_reservation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixMetalHardwareReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_hardware_reservation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixMetalHardwareReservation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataEquinixMetalHardwareReservation extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.0/docs/data-sources/metal_hardware_reservation equinix_metal_hardware_reservation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_hardware_reservation equinix_metal_hardware_reservation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataEquinixMetalHardwareReservation extends cdktf.TerraformDataSour
       terraformResourceType: 'equinix_metal_hardware_reservation',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.0',
-        providerVersionConstraint: '4.11.0'
+        providerVersion: '4.11.1',
+        providerVersionConstraint: '4.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

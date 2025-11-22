@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric
+// https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface Events2MetricConfig extends cdktf.TerraformMetaArguments {
   /**
   * Events2Metric description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#description Events2Metric#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#description Events2Metric#description}
   */
   readonly description?: string;
   /**
   * logs-events2metric type. Exactly one of "spans_query" or "logs_query" must be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#logs_query Events2Metric#logs_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#logs_query Events2Metric#logs_query}
   */
   readonly logsQuery?: Events2MetricLogsQuery;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#metric_fields Events2Metric#metric_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#metric_fields Events2Metric#metric_fields}
   */
   readonly metricFields?: { [key: string]: Events2MetricMetricFields } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#metric_labels Events2Metric#metric_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#metric_labels Events2Metric#metric_labels}
   */
   readonly metricLabels?: { [key: string]: string };
   /**
   * Events2Metric name. Events2Metric names have to be unique per account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#name Events2Metric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#name Events2Metric#name}
   */
   readonly name: string;
   /**
   * Defines the permutations' info of the events2metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#permutations Events2Metric#permutations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#permutations Events2Metric#permutations}
   */
   readonly permutations?: Events2MetricPermutations;
   /**
   * spans-events2metric type. Exactly one of "spans_query" or "logs_query" should be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#spans_query Events2Metric#spans_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#spans_query Events2Metric#spans_query}
   */
   readonly spansQuery?: Events2MetricSpansQuery;
 }
@@ -50,25 +50,25 @@ export interface Events2MetricLogsQuery {
   /**
   * An array that contains log’s application names that we want to be alerted on. Applications can be filtered by prefix, suffix, and contains using the next patterns - filter:startsWith:xxx, filter:endsWith:xxx, filter:contains:xxx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#applications Events2Metric#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#applications Events2Metric#applications}
   */
   readonly applications?: string[];
   /**
   * The search_query that we wanted to be notified on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#lucene Events2Metric#lucene}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#lucene Events2Metric#lucene}
   */
   readonly lucene?: string;
   /**
   * An array of severities that we interested in. Can be one of ["Critical" "Debug" "Error" "Info" "Unspecified" "Verbose" "Warning"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#severities Events2Metric#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#severities Events2Metric#severities}
   */
   readonly severities?: string[];
   /**
   * An array that contains log’s subsystem names that we want to be notified on.  Subsystems can be filtered by prefix, suffix, and contains using the next patterns - filter:startsWith:xxx, filter:endsWith:xxx, filter:contains:xxx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#subsystems Events2Metric#subsystems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#subsystems Events2Metric#subsystems}
   */
   readonly subsystems?: string[];
 }
@@ -249,7 +249,7 @@ export class Events2MetricLogsQueryOutputReference extends cdktf.ComplexObject {
 }
 export interface Events2MetricMetricFieldsAggregationsAvg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#enable Events2Metric#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#enable Events2Metric#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -348,7 +348,7 @@ export class Events2MetricMetricFieldsAggregationsAvgOutputReference extends cdk
 }
 export interface Events2MetricMetricFieldsAggregationsCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#enable Events2Metric#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#enable Events2Metric#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -447,11 +447,11 @@ export class Events2MetricMetricFieldsAggregationsCountOutputReference extends c
 }
 export interface Events2MetricMetricFieldsAggregationsHistogram {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#buckets Events2Metric#buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#buckets Events2Metric#buckets}
   */
   readonly buckets: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#enable Events2Metric#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#enable Events2Metric#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -576,7 +576,7 @@ export class Events2MetricMetricFieldsAggregationsHistogramOutputReference exten
 }
 export interface Events2MetricMetricFieldsAggregationsMax {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#enable Events2Metric#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#enable Events2Metric#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -675,7 +675,7 @@ export class Events2MetricMetricFieldsAggregationsMaxOutputReference extends cdk
 }
 export interface Events2MetricMetricFieldsAggregationsMin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#enable Events2Metric#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#enable Events2Metric#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -774,13 +774,13 @@ export class Events2MetricMetricFieldsAggregationsMinOutputReference extends cdk
 }
 export interface Events2MetricMetricFieldsAggregationsSamples {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#enable Events2Metric#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#enable Events2Metric#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Can be one of ["Max" "Min"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#type Events2Metric#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#type Events2Metric#type}
   */
   readonly type: string;
 }
@@ -905,7 +905,7 @@ export class Events2MetricMetricFieldsAggregationsSamplesOutputReference extends
 }
 export interface Events2MetricMetricFieldsAggregationsSum {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#enable Events2Metric#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#enable Events2Metric#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -1004,31 +1004,31 @@ export class Events2MetricMetricFieldsAggregationsSumOutputReference extends cdk
 }
 export interface Events2MetricMetricFieldsAggregations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#avg Events2Metric#avg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#avg Events2Metric#avg}
   */
   readonly avg?: Events2MetricMetricFieldsAggregationsAvg;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#count Events2Metric#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#count Events2Metric#count}
   */
   readonly count?: Events2MetricMetricFieldsAggregationsCount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#histogram Events2Metric#histogram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#histogram Events2Metric#histogram}
   */
   readonly histogram?: Events2MetricMetricFieldsAggregationsHistogram;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#max Events2Metric#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#max Events2Metric#max}
   */
   readonly max?: Events2MetricMetricFieldsAggregationsMax;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#min Events2Metric#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#min Events2Metric#min}
   */
   readonly min?: Events2MetricMetricFieldsAggregationsMin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#samples Events2Metric#samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#samples Events2Metric#samples}
   */
   readonly samples?: Events2MetricMetricFieldsAggregationsSamples;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#sum Events2Metric#sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#sum Events2Metric#sum}
   */
   readonly sum?: Events2MetricMetricFieldsAggregationsSum;
 }
@@ -1296,11 +1296,11 @@ export class Events2MetricMetricFieldsAggregationsOutputReference extends cdktf.
 }
 export interface Events2MetricMetricFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#aggregations Events2Metric#aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#aggregations Events2Metric#aggregations}
   */
   readonly aggregations?: Events2MetricMetricFieldsAggregations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#source_field Events2Metric#source_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#source_field Events2Metric#source_field}
   */
   readonly sourceField: string;
 }
@@ -1442,7 +1442,7 @@ export interface Events2MetricPermutations {
   /**
   * Defines the permutations' limit of the events2metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#limit Events2Metric#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#limit Events2Metric#limit}
   */
   readonly limit?: number;
 }
@@ -1543,31 +1543,31 @@ export interface Events2MetricSpansQuery {
   /**
   * An array that contains log’s actions names that we want to be notified on.  Actions can be filtered by prefix, suffix, and contains using the next patterns - filter:startsWith:xxx, filter:endsWith:xxx, filter:contains:xxx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#actions Events2Metric#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#actions Events2Metric#actions}
   */
   readonly actions?: string[];
   /**
   * An array that contains log’s application names that we want to be alerted on. Applications can be filtered by prefix, suffix, and contains using the next patterns - filter:startsWith:xxx, filter:endsWith:xxx, filter:contains:xxx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#applications Events2Metric#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#applications Events2Metric#applications}
   */
   readonly applications?: string[];
   /**
   * The search_query that we wanted to be notified on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#lucene Events2Metric#lucene}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#lucene Events2Metric#lucene}
   */
   readonly lucene?: string;
   /**
   * An array that contains log’s services names that we want to be notified on.  Services can be filtered by prefix, suffix, and contains using the next patterns - filter:startsWith:xxx, filter:endsWith:xxx, filter:contains:xxx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#services Events2Metric#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#services Events2Metric#services}
   */
   readonly services?: string[];
   /**
   * An array that contains log’s subsystem names that we want to be notified on.  Subsystems can be filtered by prefix, suffix, and contains using the next patterns - filter:startsWith:xxx, filter:endsWith:xxx, filter:contains:xxx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#subsystems Events2Metric#subsystems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#subsystems Events2Metric#subsystems}
   */
   readonly subsystems?: string[];
 }
@@ -1777,7 +1777,7 @@ export class Events2MetricSpansQueryOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric coralogix_events2metric}
+* Represents a {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric coralogix_events2metric}
 */
 export class Events2Metric extends cdktf.TerraformResource {
 
@@ -1793,7 +1793,7 @@ export class Events2Metric extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Events2Metric resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Events2Metric to import
-  * @param importFromId The id of the existing Events2Metric that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Events2Metric that should be imported. Refer to the {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Events2Metric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1805,7 +1805,7 @@ export class Events2Metric extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.0/docs/resources/events2metric coralogix_events2metric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coralogix/coralogix/3.0.1/docs/resources/events2metric coralogix_events2metric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1816,8 +1816,8 @@ export class Events2Metric extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_events2metric',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
