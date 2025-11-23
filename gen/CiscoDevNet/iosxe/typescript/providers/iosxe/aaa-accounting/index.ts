@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,81 +10,129 @@ export interface AaaAccountingConfig extends cdktf.TerraformMetaArguments {
   /**
   * For exec (shell) commands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#commands AaaAccounting#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#commands AaaAccounting#commands}
   */
   readonly commands?: AaaAccountingCommands[] | cdktf.IResolvable;
   /**
   * For outbound connections. (telnet, rlogin)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#connections AaaAccounting#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#connections AaaAccounting#connections}
   */
   readonly connections?: AaaAccountingConnections[] | cdktf.IResolvable;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#delete_mode AaaAccounting#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#delete_mode AaaAccounting#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#device AaaAccounting#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#device AaaAccounting#device}
   */
   readonly device?: string;
   /**
+  * Named Accounting list (max 31 characters, longer will be rejected).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#dot1x AaaAccounting#dot1x}
+  */
+  readonly dot1X?: AaaAccountingDot1X[] | cdktf.IResolvable;
+  /**
+  * Use Broadcast for Accounting
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#dot1x_default_start_stop_broadcast AaaAccounting#dot1x_default_start_stop_broadcast}
+  */
+  readonly dot1XDefaultStartStopBroadcast?: boolean | cdktf.IResolvable;
+  /**
+  * Use Server-group
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#dot1x_default_start_stop_group1 AaaAccounting#dot1x_default_start_stop_group1}
+  */
+  readonly dot1XDefaultStartStopGroup1?: string;
+  /**
+  * Use Server-group
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#dot1x_default_start_stop_group2 AaaAccounting#dot1x_default_start_stop_group2}
+  */
+  readonly dot1XDefaultStartStopGroup2?: string;
+  /**
+  * Use Server-group
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#dot1x_default_start_stop_group3 AaaAccounting#dot1x_default_start_stop_group3}
+  */
+  readonly dot1XDefaultStartStopGroup3?: string;
+  /**
+  * Use Server-group
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#dot1x_default_start_stop_group4 AaaAccounting#dot1x_default_start_stop_group4}
+  */
+  readonly dot1XDefaultStartStopGroup4?: string;
+  /**
+  * Use Broadcast for Accounting
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#dot1x_default_start_stop_group_broadcast AaaAccounting#dot1x_default_start_stop_group_broadcast}
+  */
+  readonly dot1XDefaultStartStopGroupBroadcast?: boolean | cdktf.IResolvable;
+  /**
+  * Use system logger for Accounting
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#dot1x_default_start_stop_group_logger AaaAccounting#dot1x_default_start_stop_group_logger}
+  */
+  readonly dot1XDefaultStartStopGroupLogger?: boolean | cdktf.IResolvable;
+  /**
   * For starting an exec (shell).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#execs AaaAccounting#execs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#execs AaaAccounting#execs}
   */
   readonly execs?: AaaAccountingExecs[] | cdktf.IResolvable;
   /**
   * Named Accounting list (max 31 characters, longer will be rejected).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#identities AaaAccounting#identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#identities AaaAccounting#identities}
   */
   readonly identities?: AaaAccountingIdentities[] | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#identity_default_start_stop_group1 AaaAccounting#identity_default_start_stop_group1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#identity_default_start_stop_group1 AaaAccounting#identity_default_start_stop_group1}
   */
   readonly identityDefaultStartStopGroup1?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#identity_default_start_stop_group2 AaaAccounting#identity_default_start_stop_group2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#identity_default_start_stop_group2 AaaAccounting#identity_default_start_stop_group2}
   */
   readonly identityDefaultStartStopGroup2?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#identity_default_start_stop_group3 AaaAccounting#identity_default_start_stop_group3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#identity_default_start_stop_group3 AaaAccounting#identity_default_start_stop_group3}
   */
   readonly identityDefaultStartStopGroup3?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#identity_default_start_stop_group4 AaaAccounting#identity_default_start_stop_group4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#identity_default_start_stop_group4 AaaAccounting#identity_default_start_stop_group4}
   */
   readonly identityDefaultStartStopGroup4?: string;
   /**
   * For network services. (PPP, SLIP, ARAP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#networks AaaAccounting#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#networks AaaAccounting#networks}
   */
   readonly networks?: AaaAccountingNetworks[] | cdktf.IResolvable;
   /**
   * Guarantee system accounting as first record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#system_guarantee_first AaaAccounting#system_guarantee_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#system_guarantee_first AaaAccounting#system_guarantee_first}
   */
   readonly systemGuaranteeFirst?: boolean | cdktf.IResolvable;
   /**
   * Periodic intervals to send accounting update records(in minutes)
   *   - Range: `1`-`71582`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#update_newinfo_periodic AaaAccounting#update_newinfo_periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#update_newinfo_periodic AaaAccounting#update_newinfo_periodic}
   */
   readonly updateNewinfoPeriodic?: number;
 }
@@ -93,60 +141,60 @@ export interface AaaAccountingCommands {
   * 
   *   - Choices: `start-stop`, `stop-only`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#action_type AaaAccounting#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#action_type AaaAccounting#action_type}
   */
   readonly actionType?: string;
   /**
   * Use Broadcast for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#broadcast AaaAccounting#broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#broadcast AaaAccounting#broadcast}
   */
   readonly broadcast?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#group1_group AaaAccounting#group1_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#group1_group AaaAccounting#group1_group}
   */
   readonly group1Group?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#group2_group AaaAccounting#group2_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#group2_group AaaAccounting#group2_group}
   */
   readonly group2Group?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#group3_group AaaAccounting#group3_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#group3_group AaaAccounting#group3_group}
   */
   readonly group3Group?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#group4_group AaaAccounting#group4_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#group4_group AaaAccounting#group4_group}
   */
   readonly group4Group?: string;
   /**
   * Use Broadcast for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#group_broadcast AaaAccounting#group_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#group_broadcast AaaAccounting#group_broadcast}
   */
   readonly groupBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Use system logger for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#group_logger AaaAccounting#group_logger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#group_logger AaaAccounting#group_logger}
   */
   readonly groupLogger?: boolean | cdktf.IResolvable;
   /**
   * Enable level
   *   - Range: `0`-`15`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#level AaaAccounting#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#level AaaAccounting#level}
   */
   readonly level: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#list_name AaaAccounting#list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#list_name AaaAccounting#list_name}
   */
   readonly listName: string;
 }
@@ -517,125 +565,125 @@ export class AaaAccountingCommandsList extends cdktf.ComplexList {
 }
 export interface AaaAccountingConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#default AaaAccounting#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#default AaaAccounting#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#name AaaAccounting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#name AaaAccounting#name}
   */
   readonly name: string;
   /**
   * No accounting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#none AaaAccounting#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#none AaaAccounting#none}
   */
   readonly none?: boolean | cdktf.IResolvable;
   /**
   * Use Broadcast for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_broadcast AaaAccounting#start_stop_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_broadcast AaaAccounting#start_stop_broadcast}
   */
   readonly startStopBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group1 AaaAccounting#start_stop_group1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group1 AaaAccounting#start_stop_group1}
   */
   readonly startStopGroup1?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group2 AaaAccounting#start_stop_group2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group2 AaaAccounting#start_stop_group2}
   */
   readonly startStopGroup2?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group3 AaaAccounting#start_stop_group3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group3 AaaAccounting#start_stop_group3}
   */
   readonly startStopGroup3?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group4 AaaAccounting#start_stop_group4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group4 AaaAccounting#start_stop_group4}
   */
   readonly startStopGroup4?: string;
   /**
   * Use system logger for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_logger AaaAccounting#start_stop_logger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_logger AaaAccounting#start_stop_logger}
   */
   readonly startStopLogger?: boolean | cdktf.IResolvable;
   /**
   * Use Broadcast for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#stop_only_broadcast AaaAccounting#stop_only_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#stop_only_broadcast AaaAccounting#stop_only_broadcast}
   */
   readonly stopOnlyBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#stop_only_group1 AaaAccounting#stop_only_group1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#stop_only_group1 AaaAccounting#stop_only_group1}
   */
   readonly stopOnlyGroup1?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#stop_only_group2 AaaAccounting#stop_only_group2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#stop_only_group2 AaaAccounting#stop_only_group2}
   */
   readonly stopOnlyGroup2?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#stop_only_group3 AaaAccounting#stop_only_group3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#stop_only_group3 AaaAccounting#stop_only_group3}
   */
   readonly stopOnlyGroup3?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#stop_only_group4 AaaAccounting#stop_only_group4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#stop_only_group4 AaaAccounting#stop_only_group4}
   */
   readonly stopOnlyGroup4?: string;
   /**
   * Use system logger for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#stop_only_logger AaaAccounting#stop_only_logger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#stop_only_logger AaaAccounting#stop_only_logger}
   */
   readonly stopOnlyLogger?: boolean | cdktf.IResolvable;
   /**
   * Use Broadcast for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#wait_start_broadcast AaaAccounting#wait_start_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#wait_start_broadcast AaaAccounting#wait_start_broadcast}
   */
   readonly waitStartBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#wait_start_group1 AaaAccounting#wait_start_group1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#wait_start_group1 AaaAccounting#wait_start_group1}
   */
   readonly waitStartGroup1?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#wait_start_group2 AaaAccounting#wait_start_group2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#wait_start_group2 AaaAccounting#wait_start_group2}
   */
   readonly waitStartGroup2?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#wait_start_group3 AaaAccounting#wait_start_group3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#wait_start_group3 AaaAccounting#wait_start_group3}
   */
   readonly waitStartGroup3?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#wait_start_group4 AaaAccounting#wait_start_group4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#wait_start_group4 AaaAccounting#wait_start_group4}
   */
   readonly waitStartGroup4?: string;
   /**
   * Use system logger for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#wait_start_logger AaaAccounting#wait_start_logger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#wait_start_logger AaaAccounting#wait_start_logger}
   */
   readonly waitStartLogger?: boolean | cdktf.IResolvable;
 }
@@ -1326,123 +1374,481 @@ export class AaaAccountingConnectionsList extends cdktf.ComplexList {
     return new AaaAccountingConnectionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface AaaAccountingExecs {
+export interface AaaAccountingDot1X {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#name AaaAccounting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#name AaaAccounting#name}
   */
   readonly name: string;
   /**
-  * No accounting.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#none AaaAccounting#none}
-  */
-  readonly none?: boolean | cdktf.IResolvable;
-  /**
   * Use Broadcast for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_broadcast AaaAccounting#start_stop_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_broadcast AaaAccounting#start_stop_broadcast}
   */
   readonly startStopBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group1 AaaAccounting#start_stop_group1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group1 AaaAccounting#start_stop_group1}
   */
   readonly startStopGroup1?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group2 AaaAccounting#start_stop_group2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group2 AaaAccounting#start_stop_group2}
   */
   readonly startStopGroup2?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group3 AaaAccounting#start_stop_group3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group3 AaaAccounting#start_stop_group3}
   */
   readonly startStopGroup3?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group4 AaaAccounting#start_stop_group4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group4 AaaAccounting#start_stop_group4}
+  */
+  readonly startStopGroup4?: string;
+  /**
+  * Use Broadcast for Accounting
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group_broadcast AaaAccounting#start_stop_group_broadcast}
+  */
+  readonly startStopGroupBroadcast?: boolean | cdktf.IResolvable;
+  /**
+  * Use system logger for Accounting
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group_logger AaaAccounting#start_stop_group_logger}
+  */
+  readonly startStopGroupLogger?: boolean | cdktf.IResolvable;
+}
+
+export function aaaAccountingDot1XToTerraform(struct?: AaaAccountingDot1X | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    start_stop_broadcast: cdktf.booleanToTerraform(struct!.startStopBroadcast),
+    start_stop_group1: cdktf.stringToTerraform(struct!.startStopGroup1),
+    start_stop_group2: cdktf.stringToTerraform(struct!.startStopGroup2),
+    start_stop_group3: cdktf.stringToTerraform(struct!.startStopGroup3),
+    start_stop_group4: cdktf.stringToTerraform(struct!.startStopGroup4),
+    start_stop_group_broadcast: cdktf.booleanToTerraform(struct!.startStopGroupBroadcast),
+    start_stop_group_logger: cdktf.booleanToTerraform(struct!.startStopGroupLogger),
+  }
+}
+
+
+export function aaaAccountingDot1XToHclTerraform(struct?: AaaAccountingDot1X | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_stop_broadcast: {
+      value: cdktf.booleanToHclTerraform(struct!.startStopBroadcast),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    start_stop_group1: {
+      value: cdktf.stringToHclTerraform(struct!.startStopGroup1),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_stop_group2: {
+      value: cdktf.stringToHclTerraform(struct!.startStopGroup2),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_stop_group3: {
+      value: cdktf.stringToHclTerraform(struct!.startStopGroup3),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_stop_group4: {
+      value: cdktf.stringToHclTerraform(struct!.startStopGroup4),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_stop_group_broadcast: {
+      value: cdktf.booleanToHclTerraform(struct!.startStopGroupBroadcast),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    start_stop_group_logger: {
+      value: cdktf.booleanToHclTerraform(struct!.startStopGroupLogger),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AaaAccountingDot1XOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): AaaAccountingDot1X | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._startStopBroadcast !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startStopBroadcast = this._startStopBroadcast;
+    }
+    if (this._startStopGroup1 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startStopGroup1 = this._startStopGroup1;
+    }
+    if (this._startStopGroup2 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startStopGroup2 = this._startStopGroup2;
+    }
+    if (this._startStopGroup3 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startStopGroup3 = this._startStopGroup3;
+    }
+    if (this._startStopGroup4 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startStopGroup4 = this._startStopGroup4;
+    }
+    if (this._startStopGroupBroadcast !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startStopGroupBroadcast = this._startStopGroupBroadcast;
+    }
+    if (this._startStopGroupLogger !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startStopGroupLogger = this._startStopGroupLogger;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AaaAccountingDot1X | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._startStopBroadcast = undefined;
+      this._startStopGroup1 = undefined;
+      this._startStopGroup2 = undefined;
+      this._startStopGroup3 = undefined;
+      this._startStopGroup4 = undefined;
+      this._startStopGroupBroadcast = undefined;
+      this._startStopGroupLogger = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._startStopBroadcast = value.startStopBroadcast;
+      this._startStopGroup1 = value.startStopGroup1;
+      this._startStopGroup2 = value.startStopGroup2;
+      this._startStopGroup3 = value.startStopGroup3;
+      this._startStopGroup4 = value.startStopGroup4;
+      this._startStopGroupBroadcast = value.startStopGroupBroadcast;
+      this._startStopGroupLogger = value.startStopGroupLogger;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // start_stop_broadcast - computed: false, optional: true, required: false
+  private _startStopBroadcast?: boolean | cdktf.IResolvable; 
+  public get startStopBroadcast() {
+    return this.getBooleanAttribute('start_stop_broadcast');
+  }
+  public set startStopBroadcast(value: boolean | cdktf.IResolvable) {
+    this._startStopBroadcast = value;
+  }
+  public resetStartStopBroadcast() {
+    this._startStopBroadcast = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startStopBroadcastInput() {
+    return this._startStopBroadcast;
+  }
+
+  // start_stop_group1 - computed: false, optional: true, required: false
+  private _startStopGroup1?: string; 
+  public get startStopGroup1() {
+    return this.getStringAttribute('start_stop_group1');
+  }
+  public set startStopGroup1(value: string) {
+    this._startStopGroup1 = value;
+  }
+  public resetStartStopGroup1() {
+    this._startStopGroup1 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startStopGroup1Input() {
+    return this._startStopGroup1;
+  }
+
+  // start_stop_group2 - computed: false, optional: true, required: false
+  private _startStopGroup2?: string; 
+  public get startStopGroup2() {
+    return this.getStringAttribute('start_stop_group2');
+  }
+  public set startStopGroup2(value: string) {
+    this._startStopGroup2 = value;
+  }
+  public resetStartStopGroup2() {
+    this._startStopGroup2 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startStopGroup2Input() {
+    return this._startStopGroup2;
+  }
+
+  // start_stop_group3 - computed: false, optional: true, required: false
+  private _startStopGroup3?: string; 
+  public get startStopGroup3() {
+    return this.getStringAttribute('start_stop_group3');
+  }
+  public set startStopGroup3(value: string) {
+    this._startStopGroup3 = value;
+  }
+  public resetStartStopGroup3() {
+    this._startStopGroup3 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startStopGroup3Input() {
+    return this._startStopGroup3;
+  }
+
+  // start_stop_group4 - computed: false, optional: true, required: false
+  private _startStopGroup4?: string; 
+  public get startStopGroup4() {
+    return this.getStringAttribute('start_stop_group4');
+  }
+  public set startStopGroup4(value: string) {
+    this._startStopGroup4 = value;
+  }
+  public resetStartStopGroup4() {
+    this._startStopGroup4 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startStopGroup4Input() {
+    return this._startStopGroup4;
+  }
+
+  // start_stop_group_broadcast - computed: false, optional: true, required: false
+  private _startStopGroupBroadcast?: boolean | cdktf.IResolvable; 
+  public get startStopGroupBroadcast() {
+    return this.getBooleanAttribute('start_stop_group_broadcast');
+  }
+  public set startStopGroupBroadcast(value: boolean | cdktf.IResolvable) {
+    this._startStopGroupBroadcast = value;
+  }
+  public resetStartStopGroupBroadcast() {
+    this._startStopGroupBroadcast = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startStopGroupBroadcastInput() {
+    return this._startStopGroupBroadcast;
+  }
+
+  // start_stop_group_logger - computed: false, optional: true, required: false
+  private _startStopGroupLogger?: boolean | cdktf.IResolvable; 
+  public get startStopGroupLogger() {
+    return this.getBooleanAttribute('start_stop_group_logger');
+  }
+  public set startStopGroupLogger(value: boolean | cdktf.IResolvable) {
+    this._startStopGroupLogger = value;
+  }
+  public resetStartStopGroupLogger() {
+    this._startStopGroupLogger = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startStopGroupLoggerInput() {
+    return this._startStopGroupLogger;
+  }
+}
+
+export class AaaAccountingDot1XList extends cdktf.ComplexList {
+  public internalValue? : AaaAccountingDot1X[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): AaaAccountingDot1XOutputReference {
+    return new AaaAccountingDot1XOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface AaaAccountingExecs {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#name AaaAccounting#name}
+  */
+  readonly name: string;
+  /**
+  * No accounting.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#none AaaAccounting#none}
+  */
+  readonly none?: boolean | cdktf.IResolvable;
+  /**
+  * Use Broadcast for Accounting
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_broadcast AaaAccounting#start_stop_broadcast}
+  */
+  readonly startStopBroadcast?: boolean | cdktf.IResolvable;
+  /**
+  * Use Server-group
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group1 AaaAccounting#start_stop_group1}
+  */
+  readonly startStopGroup1?: string;
+  /**
+  * Use Server-group
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group2 AaaAccounting#start_stop_group2}
+  */
+  readonly startStopGroup2?: string;
+  /**
+  * Use Server-group
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group3 AaaAccounting#start_stop_group3}
+  */
+  readonly startStopGroup3?: string;
+  /**
+  * Use Server-group
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group4 AaaAccounting#start_stop_group4}
   */
   readonly startStopGroup4?: string;
   /**
   * Use system logger for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_logger AaaAccounting#start_stop_logger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_logger AaaAccounting#start_stop_logger}
   */
   readonly startStopLogger?: boolean | cdktf.IResolvable;
   /**
   * Use Broadcast for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#stop_only_broadcast AaaAccounting#stop_only_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#stop_only_broadcast AaaAccounting#stop_only_broadcast}
   */
   readonly stopOnlyBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#stop_only_group1 AaaAccounting#stop_only_group1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#stop_only_group1 AaaAccounting#stop_only_group1}
   */
   readonly stopOnlyGroup1?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#stop_only_group2 AaaAccounting#stop_only_group2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#stop_only_group2 AaaAccounting#stop_only_group2}
   */
   readonly stopOnlyGroup2?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#stop_only_group3 AaaAccounting#stop_only_group3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#stop_only_group3 AaaAccounting#stop_only_group3}
   */
   readonly stopOnlyGroup3?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#stop_only_group4 AaaAccounting#stop_only_group4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#stop_only_group4 AaaAccounting#stop_only_group4}
   */
   readonly stopOnlyGroup4?: string;
   /**
   * Use system logger for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#stop_only_logger AaaAccounting#stop_only_logger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#stop_only_logger AaaAccounting#stop_only_logger}
   */
   readonly stopOnlyLogger?: boolean | cdktf.IResolvable;
   /**
   * Use Broadcast for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#wait_start_broadcast AaaAccounting#wait_start_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#wait_start_broadcast AaaAccounting#wait_start_broadcast}
   */
   readonly waitStartBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#wait_start_group1 AaaAccounting#wait_start_group1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#wait_start_group1 AaaAccounting#wait_start_group1}
   */
   readonly waitStartGroup1?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#wait_start_group2 AaaAccounting#wait_start_group2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#wait_start_group2 AaaAccounting#wait_start_group2}
   */
   readonly waitStartGroup2?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#wait_start_group3 AaaAccounting#wait_start_group3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#wait_start_group3 AaaAccounting#wait_start_group3}
   */
   readonly waitStartGroup3?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#wait_start_group4 AaaAccounting#wait_start_group4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#wait_start_group4 AaaAccounting#wait_start_group4}
   */
   readonly waitStartGroup4?: string;
   /**
   * Use system logger for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#wait_start_logger AaaAccounting#wait_start_logger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#wait_start_logger AaaAccounting#wait_start_logger}
   */
   readonly waitStartLogger?: boolean | cdktf.IResolvable;
 }
@@ -2106,49 +2512,49 @@ export class AaaAccountingExecsList extends cdktf.ComplexList {
 }
 export interface AaaAccountingIdentities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#name AaaAccounting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#name AaaAccounting#name}
   */
   readonly name: string;
   /**
   * Use Broadcast for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_broadcast AaaAccounting#start_stop_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_broadcast AaaAccounting#start_stop_broadcast}
   */
   readonly startStopBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group1 AaaAccounting#start_stop_group1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group1 AaaAccounting#start_stop_group1}
   */
   readonly startStopGroup1?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group2 AaaAccounting#start_stop_group2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group2 AaaAccounting#start_stop_group2}
   */
   readonly startStopGroup2?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group3 AaaAccounting#start_stop_group3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group3 AaaAccounting#start_stop_group3}
   */
   readonly startStopGroup3?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group4 AaaAccounting#start_stop_group4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group4 AaaAccounting#start_stop_group4}
   */
   readonly startStopGroup4?: string;
   /**
   * Use Broadcast for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group_broadcast AaaAccounting#start_stop_group_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group_broadcast AaaAccounting#start_stop_group_broadcast}
   */
   readonly startStopGroupBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Use system logger for Accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group_logger AaaAccounting#start_stop_group_logger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group_logger AaaAccounting#start_stop_group_logger}
   */
   readonly startStopGroupLogger?: boolean | cdktf.IResolvable;
 }
@@ -2464,7 +2870,7 @@ export class AaaAccountingIdentitiesList extends cdktf.ComplexList {
 }
 export interface AaaAccountingNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#id AaaAccounting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#id AaaAccounting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2473,13 +2879,13 @@ export interface AaaAccountingNetworks {
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group1 AaaAccounting#start_stop_group1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group1 AaaAccounting#start_stop_group1}
   */
   readonly startStopGroup1?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#start_stop_group2 AaaAccounting#start_stop_group2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#start_stop_group2 AaaAccounting#start_stop_group2}
   */
   readonly startStopGroup2?: string;
 }
@@ -2650,7 +3056,7 @@ export class AaaAccountingNetworksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting iosxe_aaa_accounting}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting iosxe_aaa_accounting}
 */
 export class AaaAccounting extends cdktf.TerraformResource {
 
@@ -2666,7 +3072,7 @@ export class AaaAccounting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AaaAccounting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AaaAccounting to import
-  * @param importFromId The id of the existing AaaAccounting that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AaaAccounting that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AaaAccounting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2678,7 +3084,7 @@ export class AaaAccounting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_accounting iosxe_aaa_accounting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_accounting iosxe_aaa_accounting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2689,8 +3095,8 @@ export class AaaAccounting extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_aaa_accounting',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2704,6 +3110,14 @@ export class AaaAccounting extends cdktf.TerraformResource {
     this._connections.internalValue = config.connections;
     this._deleteMode = config.deleteMode;
     this._device = config.device;
+    this._dot1X.internalValue = config.dot1X;
+    this._dot1XDefaultStartStopBroadcast = config.dot1XDefaultStartStopBroadcast;
+    this._dot1XDefaultStartStopGroup1 = config.dot1XDefaultStartStopGroup1;
+    this._dot1XDefaultStartStopGroup2 = config.dot1XDefaultStartStopGroup2;
+    this._dot1XDefaultStartStopGroup3 = config.dot1XDefaultStartStopGroup3;
+    this._dot1XDefaultStartStopGroup4 = config.dot1XDefaultStartStopGroup4;
+    this._dot1XDefaultStartStopGroupBroadcast = config.dot1XDefaultStartStopGroupBroadcast;
+    this._dot1XDefaultStartStopGroupLogger = config.dot1XDefaultStartStopGroupLogger;
     this._execs.internalValue = config.execs;
     this._identities.internalValue = config.identities;
     this._identityDefaultStartStopGroup1 = config.identityDefaultStartStopGroup1;
@@ -2781,6 +3195,134 @@ export class AaaAccounting extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get deviceInput() {
     return this._device;
+  }
+
+  // dot1x - computed: false, optional: true, required: false
+  private _dot1X = new AaaAccountingDot1XList(this, "dot1x", false);
+  public get dot1X() {
+    return this._dot1X;
+  }
+  public putDot1X(value: AaaAccountingDot1X[] | cdktf.IResolvable) {
+    this._dot1X.internalValue = value;
+  }
+  public resetDot1X() {
+    this._dot1X.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dot1XInput() {
+    return this._dot1X.internalValue;
+  }
+
+  // dot1x_default_start_stop_broadcast - computed: false, optional: true, required: false
+  private _dot1XDefaultStartStopBroadcast?: boolean | cdktf.IResolvable; 
+  public get dot1XDefaultStartStopBroadcast() {
+    return this.getBooleanAttribute('dot1x_default_start_stop_broadcast');
+  }
+  public set dot1XDefaultStartStopBroadcast(value: boolean | cdktf.IResolvable) {
+    this._dot1XDefaultStartStopBroadcast = value;
+  }
+  public resetDot1XDefaultStartStopBroadcast() {
+    this._dot1XDefaultStartStopBroadcast = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dot1XDefaultStartStopBroadcastInput() {
+    return this._dot1XDefaultStartStopBroadcast;
+  }
+
+  // dot1x_default_start_stop_group1 - computed: false, optional: true, required: false
+  private _dot1XDefaultStartStopGroup1?: string; 
+  public get dot1XDefaultStartStopGroup1() {
+    return this.getStringAttribute('dot1x_default_start_stop_group1');
+  }
+  public set dot1XDefaultStartStopGroup1(value: string) {
+    this._dot1XDefaultStartStopGroup1 = value;
+  }
+  public resetDot1XDefaultStartStopGroup1() {
+    this._dot1XDefaultStartStopGroup1 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dot1XDefaultStartStopGroup1Input() {
+    return this._dot1XDefaultStartStopGroup1;
+  }
+
+  // dot1x_default_start_stop_group2 - computed: false, optional: true, required: false
+  private _dot1XDefaultStartStopGroup2?: string; 
+  public get dot1XDefaultStartStopGroup2() {
+    return this.getStringAttribute('dot1x_default_start_stop_group2');
+  }
+  public set dot1XDefaultStartStopGroup2(value: string) {
+    this._dot1XDefaultStartStopGroup2 = value;
+  }
+  public resetDot1XDefaultStartStopGroup2() {
+    this._dot1XDefaultStartStopGroup2 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dot1XDefaultStartStopGroup2Input() {
+    return this._dot1XDefaultStartStopGroup2;
+  }
+
+  // dot1x_default_start_stop_group3 - computed: false, optional: true, required: false
+  private _dot1XDefaultStartStopGroup3?: string; 
+  public get dot1XDefaultStartStopGroup3() {
+    return this.getStringAttribute('dot1x_default_start_stop_group3');
+  }
+  public set dot1XDefaultStartStopGroup3(value: string) {
+    this._dot1XDefaultStartStopGroup3 = value;
+  }
+  public resetDot1XDefaultStartStopGroup3() {
+    this._dot1XDefaultStartStopGroup3 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dot1XDefaultStartStopGroup3Input() {
+    return this._dot1XDefaultStartStopGroup3;
+  }
+
+  // dot1x_default_start_stop_group4 - computed: false, optional: true, required: false
+  private _dot1XDefaultStartStopGroup4?: string; 
+  public get dot1XDefaultStartStopGroup4() {
+    return this.getStringAttribute('dot1x_default_start_stop_group4');
+  }
+  public set dot1XDefaultStartStopGroup4(value: string) {
+    this._dot1XDefaultStartStopGroup4 = value;
+  }
+  public resetDot1XDefaultStartStopGroup4() {
+    this._dot1XDefaultStartStopGroup4 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dot1XDefaultStartStopGroup4Input() {
+    return this._dot1XDefaultStartStopGroup4;
+  }
+
+  // dot1x_default_start_stop_group_broadcast - computed: false, optional: true, required: false
+  private _dot1XDefaultStartStopGroupBroadcast?: boolean | cdktf.IResolvable; 
+  public get dot1XDefaultStartStopGroupBroadcast() {
+    return this.getBooleanAttribute('dot1x_default_start_stop_group_broadcast');
+  }
+  public set dot1XDefaultStartStopGroupBroadcast(value: boolean | cdktf.IResolvable) {
+    this._dot1XDefaultStartStopGroupBroadcast = value;
+  }
+  public resetDot1XDefaultStartStopGroupBroadcast() {
+    this._dot1XDefaultStartStopGroupBroadcast = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dot1XDefaultStartStopGroupBroadcastInput() {
+    return this._dot1XDefaultStartStopGroupBroadcast;
+  }
+
+  // dot1x_default_start_stop_group_logger - computed: false, optional: true, required: false
+  private _dot1XDefaultStartStopGroupLogger?: boolean | cdktf.IResolvable; 
+  public get dot1XDefaultStartStopGroupLogger() {
+    return this.getBooleanAttribute('dot1x_default_start_stop_group_logger');
+  }
+  public set dot1XDefaultStartStopGroupLogger(value: boolean | cdktf.IResolvable) {
+    this._dot1XDefaultStartStopGroupLogger = value;
+  }
+  public resetDot1XDefaultStartStopGroupLogger() {
+    this._dot1XDefaultStartStopGroupLogger = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dot1XDefaultStartStopGroupLoggerInput() {
+    return this._dot1XDefaultStartStopGroupLogger;
   }
 
   // execs - computed: false, optional: true, required: false
@@ -2942,6 +3484,14 @@ export class AaaAccounting extends cdktf.TerraformResource {
       connections: cdktf.listMapper(aaaAccountingConnectionsToTerraform, false)(this._connections.internalValue),
       delete_mode: cdktf.stringToTerraform(this._deleteMode),
       device: cdktf.stringToTerraform(this._device),
+      dot1x: cdktf.listMapper(aaaAccountingDot1XToTerraform, false)(this._dot1X.internalValue),
+      dot1x_default_start_stop_broadcast: cdktf.booleanToTerraform(this._dot1XDefaultStartStopBroadcast),
+      dot1x_default_start_stop_group1: cdktf.stringToTerraform(this._dot1XDefaultStartStopGroup1),
+      dot1x_default_start_stop_group2: cdktf.stringToTerraform(this._dot1XDefaultStartStopGroup2),
+      dot1x_default_start_stop_group3: cdktf.stringToTerraform(this._dot1XDefaultStartStopGroup3),
+      dot1x_default_start_stop_group4: cdktf.stringToTerraform(this._dot1XDefaultStartStopGroup4),
+      dot1x_default_start_stop_group_broadcast: cdktf.booleanToTerraform(this._dot1XDefaultStartStopGroupBroadcast),
+      dot1x_default_start_stop_group_logger: cdktf.booleanToTerraform(this._dot1XDefaultStartStopGroupLogger),
       execs: cdktf.listMapper(aaaAccountingExecsToTerraform, false)(this._execs.internalValue),
       identities: cdktf.listMapper(aaaAccountingIdentitiesToTerraform, false)(this._identities.internalValue),
       identity_default_start_stop_group1: cdktf.stringToTerraform(this._identityDefaultStartStopGroup1),
@@ -2979,6 +3529,54 @@ export class AaaAccounting extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      dot1x: {
+        value: cdktf.listMapperHcl(aaaAccountingDot1XToHclTerraform, false)(this._dot1X.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "AaaAccountingDot1XList",
+      },
+      dot1x_default_start_stop_broadcast: {
+        value: cdktf.booleanToHclTerraform(this._dot1XDefaultStartStopBroadcast),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      dot1x_default_start_stop_group1: {
+        value: cdktf.stringToHclTerraform(this._dot1XDefaultStartStopGroup1),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      dot1x_default_start_stop_group2: {
+        value: cdktf.stringToHclTerraform(this._dot1XDefaultStartStopGroup2),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      dot1x_default_start_stop_group3: {
+        value: cdktf.stringToHclTerraform(this._dot1XDefaultStartStopGroup3),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      dot1x_default_start_stop_group4: {
+        value: cdktf.stringToHclTerraform(this._dot1XDefaultStartStopGroup4),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      dot1x_default_start_stop_group_broadcast: {
+        value: cdktf.booleanToHclTerraform(this._dot1XDefaultStartStopGroupBroadcast),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      dot1x_default_start_stop_group_logger: {
+        value: cdktf.booleanToHclTerraform(this._dot1XDefaultStartStopGroupLogger),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       execs: {
         value: cdktf.listMapperHcl(aaaAccountingExecsToHclTerraform, false)(this._execs.internalValue),

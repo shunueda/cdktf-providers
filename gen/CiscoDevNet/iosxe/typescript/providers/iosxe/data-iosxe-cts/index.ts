@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/cts
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/cts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIosxeCtsConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/cts#device DataIosxeCts#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/cts#device DataIosxeCts#device}
   */
   readonly device?: string;
 }
@@ -231,7 +231,7 @@ export class DataIosxeCtsSxpConnectionPeersIpv4VrfList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/cts iosxe_cts}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/cts iosxe_cts}
 */
 export class DataIosxeCts extends cdktf.TerraformDataSource {
 
@@ -247,7 +247,7 @@ export class DataIosxeCts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeCts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeCts to import
-  * @param importFromId The id of the existing DataIosxeCts that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/cts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeCts that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/cts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeCts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class DataIosxeCts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/cts iosxe_cts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/cts iosxe_cts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class DataIosxeCts extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_cts',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

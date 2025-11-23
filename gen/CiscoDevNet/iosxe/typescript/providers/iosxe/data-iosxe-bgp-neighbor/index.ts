@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_neighbor
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DataIosxeBgpNeighborConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_neighbor#asn DataIosxeBgpNeighbor#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_neighbor#asn DataIosxeBgpNeighbor#asn}
   */
   readonly asn: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_neighbor#device DataIosxeBgpNeighbor#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_neighbor#device DataIosxeBgpNeighbor#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_neighbor#ip DataIosxeBgpNeighbor#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_neighbor#ip DataIosxeBgpNeighbor#ip}
   */
   readonly ip: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_neighbor iosxe_bgp_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_neighbor iosxe_bgp_neighbor}
 */
 export class DataIosxeBgpNeighbor extends cdktf.TerraformDataSource {
 
@@ -40,7 +40,7 @@ export class DataIosxeBgpNeighbor extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeBgpNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeBgpNeighbor to import
-  * @param importFromId The id of the existing DataIosxeBgpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeBgpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeBgpNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -52,7 +52,7 @@ export class DataIosxeBgpNeighbor extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_neighbor iosxe_bgp_neighbor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_neighbor iosxe_bgp_neighbor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,8 +63,8 @@ export class DataIosxeBgpNeighbor extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_bgp_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/registry
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataSpectrocloudRegistryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/registry#id DataSpectrocloudRegistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/registry#id DataSpectrocloudRegistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/registry#name DataSpectrocloudRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/registry#name DataSpectrocloudRegistry#name}
   */
   readonly name: string;
   /**
   * The type of the registry. Possible values are 'oci', 'helm', or 'spectro'. If not provided, the registry type will be inferred from the registry name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/registry#type DataSpectrocloudRegistry#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/registry#type DataSpectrocloudRegistry#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/registry spectrocloud_registry}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/registry spectrocloud_registry}
 */
 export class DataSpectrocloudRegistry extends cdktf.TerraformDataSource {
 
@@ -43,7 +43,7 @@ export class DataSpectrocloudRegistry extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpectrocloudRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpectrocloudRegistry to import
-  * @param importFromId The id of the existing DataSpectrocloudRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpectrocloudRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpectrocloudRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -55,7 +55,7 @@ export class DataSpectrocloudRegistry extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/registry spectrocloud_registry} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/registry spectrocloud_registry} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,8 +66,8 @@ export class DataSpectrocloudRegistry extends cdktf.TerraformDataSource {
       terraformResourceType: 'spectrocloud_registry',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2',
-        providerVersionConstraint: '0.25.2'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

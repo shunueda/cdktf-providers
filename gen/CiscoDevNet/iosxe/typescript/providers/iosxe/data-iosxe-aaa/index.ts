@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/aaa
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/aaa
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIosxeAaaConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/aaa#device DataIosxeAaa#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/aaa#device DataIosxeAaa#device}
   */
   readonly device?: string;
 }
@@ -138,6 +138,11 @@ export class DataIosxeAaaGroupServerRadiusOutputReference extends cdktf.ComplexO
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
     }
+  }
+
+  // deadtime - computed: true, optional: false, required: false
+  public get deadtime() {
+    return this.getNumberAttribute('deadtime');
   }
 
   // ip_radius_source_interface_five_gigabit_ethernet - computed: true, optional: false, required: false
@@ -508,7 +513,7 @@ export class DataIosxeAaaServerRadiusDynamicAuthorClientsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/aaa iosxe_aaa}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/aaa iosxe_aaa}
 */
 export class DataIosxeAaa extends cdktf.TerraformDataSource {
 
@@ -524,7 +529,7 @@ export class DataIosxeAaa extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeAaa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeAaa to import
-  * @param importFromId The id of the existing DataIosxeAaa that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/aaa#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeAaa that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/aaa#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeAaa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -536,7 +541,7 @@ export class DataIosxeAaa extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/aaa iosxe_aaa} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/aaa iosxe_aaa} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -547,8 +552,8 @@ export class DataIosxeAaa extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_aaa',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

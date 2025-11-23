@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "gitlab": "18.6.0"
+    "gitlab": "18.6.1"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.0/docs/data-sources/member_role
+// https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/member_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataGitlabMemberRoleConfig extends cdktf.TerraformMetaArguments
   /**
   * Globally unique ID of the member role. In the format of `gid://gitlab/MemberRole/1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.0/docs/data-sources/member_role#id DataGitlabMemberRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/member_role#id DataGitlabMemberRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataGitlabMemberRoleConfig extends cdktf.TerraformMetaArguments
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.0/docs/data-sources/member_role gitlab_member_role}
+* Represents a {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/member_role gitlab_member_role}
 */
 export class DataGitlabMemberRole extends cdktf.TerraformDataSource {
 
@@ -35,7 +35,7 @@ export class DataGitlabMemberRole extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGitlabMemberRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGitlabMemberRole to import
-  * @param importFromId The id of the existing DataGitlabMemberRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.0/docs/data-sources/member_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGitlabMemberRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/member_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGitlabMemberRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -47,7 +47,7 @@ export class DataGitlabMemberRole extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.0/docs/data-sources/member_role gitlab_member_role} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/member_role gitlab_member_role} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -58,8 +58,8 @@ export class DataGitlabMemberRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'gitlab_member_role',
       terraformGeneratorMetadata: {
         providerName: 'gitlab',
-        providerVersion: '18.6.0',
-        providerVersionConstraint: '18.6.0'
+        providerVersion: '18.6.1',
+        providerVersionConstraint: '18.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

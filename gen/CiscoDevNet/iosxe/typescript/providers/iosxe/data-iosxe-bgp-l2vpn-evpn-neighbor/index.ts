@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_l2vpn_evpn_neighbor
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_l2vpn_evpn_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,103 @@ import * as cdktf from 'cdktf';
 
 export interface DataIosxeBgpL2VpnEvpnNeighborConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_l2vpn_evpn_neighbor#asn DataIosxeBgpL2VpnEvpnNeighbor#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_l2vpn_evpn_neighbor#asn DataIosxeBgpL2VpnEvpnNeighbor#asn}
   */
   readonly asn: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_l2vpn_evpn_neighbor#device DataIosxeBgpL2VpnEvpnNeighbor#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_l2vpn_evpn_neighbor#device DataIosxeBgpL2VpnEvpnNeighbor#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_l2vpn_evpn_neighbor#ip DataIosxeBgpL2VpnEvpnNeighbor#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_l2vpn_evpn_neighbor#ip DataIosxeBgpL2VpnEvpnNeighbor#ip}
   */
   readonly ip: string;
 }
+export interface DataIosxeBgpL2VpnEvpnNeighborRouteMaps {
+}
+
+export function dataIosxeBgpL2VpnEvpnNeighborRouteMapsToTerraform(struct?: DataIosxeBgpL2VpnEvpnNeighborRouteMaps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIosxeBgpL2VpnEvpnNeighborRouteMapsToHclTerraform(struct?: DataIosxeBgpL2VpnEvpnNeighborRouteMaps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIosxeBgpL2VpnEvpnNeighborRouteMapsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIosxeBgpL2VpnEvpnNeighborRouteMaps | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIosxeBgpL2VpnEvpnNeighborRouteMaps | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // in_out - computed: true, optional: false, required: false
+  public get inOut() {
+    return this.getStringAttribute('in_out');
+  }
+
+  // route_map_name - computed: true, optional: false, required: false
+  public get routeMapName() {
+    return this.getStringAttribute('route_map_name');
+  }
+}
+
+export class DataIosxeBgpL2VpnEvpnNeighborRouteMapsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIosxeBgpL2VpnEvpnNeighborRouteMapsOutputReference {
+    return new DataIosxeBgpL2VpnEvpnNeighborRouteMapsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_l2vpn_evpn_neighbor iosxe_bgp_l2vpn_evpn_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_l2vpn_evpn_neighbor iosxe_bgp_l2vpn_evpn_neighbor}
 */
 export class DataIosxeBgpL2VpnEvpnNeighbor extends cdktf.TerraformDataSource {
 
@@ -40,7 +120,7 @@ export class DataIosxeBgpL2VpnEvpnNeighbor extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeBgpL2VpnEvpnNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeBgpL2VpnEvpnNeighbor to import
-  * @param importFromId The id of the existing DataIosxeBgpL2VpnEvpnNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_l2vpn_evpn_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeBgpL2VpnEvpnNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_l2vpn_evpn_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeBgpL2VpnEvpnNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -52,7 +132,7 @@ export class DataIosxeBgpL2VpnEvpnNeighbor extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/bgp_l2vpn_evpn_neighbor iosxe_bgp_l2vpn_evpn_neighbor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/bgp_l2vpn_evpn_neighbor iosxe_bgp_l2vpn_evpn_neighbor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,8 +143,8 @@ export class DataIosxeBgpL2VpnEvpnNeighbor extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_bgp_l2vpn_evpn_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -133,6 +213,12 @@ export class DataIosxeBgpL2VpnEvpnNeighbor extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get ipInput() {
     return this._ip;
+  }
+
+  // route_maps - computed: true, optional: false, required: false
+  private _routeMaps = new DataIosxeBgpL2VpnEvpnNeighborRouteMapsList(this, "route_maps", false);
+  public get routeMaps() {
+    return this._routeMaps;
   }
 
   // route_reflector_client - computed: true, optional: false, required: false

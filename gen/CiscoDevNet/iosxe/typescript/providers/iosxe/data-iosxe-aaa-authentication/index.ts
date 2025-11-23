@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/aaa_authentication
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/aaa_authentication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIosxeAaaAuthenticationConfig extends cdktf.TerraformMetaArg
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/aaa_authentication#device DataIosxeAaaAuthentication#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/aaa_authentication#device DataIosxeAaaAuthentication#device}
   */
   readonly device?: string;
 }
@@ -346,7 +346,7 @@ export class DataIosxeAaaAuthenticationLoginsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/aaa_authentication iosxe_aaa_authentication}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/aaa_authentication iosxe_aaa_authentication}
 */
 export class DataIosxeAaaAuthentication extends cdktf.TerraformDataSource {
 
@@ -362,7 +362,7 @@ export class DataIosxeAaaAuthentication extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeAaaAuthentication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeAaaAuthentication to import
-  * @param importFromId The id of the existing DataIosxeAaaAuthentication that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/aaa_authentication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeAaaAuthentication that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/aaa_authentication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeAaaAuthentication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -374,7 +374,7 @@ export class DataIosxeAaaAuthentication extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/aaa_authentication iosxe_aaa_authentication} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/aaa_authentication iosxe_aaa_authentication} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -385,8 +385,8 @@ export class DataIosxeAaaAuthentication extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_aaa_authentication',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -463,6 +463,11 @@ export class DataIosxeAaaAuthentication extends cdktf.TerraformDataSource {
   // dot1x_default_a4_local - computed: true, optional: false, required: false
   public get dot1XDefaultA4Local() {
     return this.getBooleanAttribute('dot1x_default_a4_local');
+  }
+
+  // enable_default_enable_legacy - computed: true, optional: false, required: false
+  public get enableDefaultEnableLegacy() {
+    return this.getBooleanAttribute('enable_default_enable_legacy');
   }
 
   // enable_default_group1_cache - computed: true, optional: false, required: false
@@ -563,6 +568,21 @@ export class DataIosxeAaaAuthentication extends cdktf.TerraformDataSource {
   // enable_default_group4_none - computed: true, optional: false, required: false
   public get enableDefaultGroup4None() {
     return this.getBooleanAttribute('enable_default_group4_none');
+  }
+
+  // enable_default_group_legacy - computed: true, optional: false, required: false
+  public get enableDefaultGroupLegacy() {
+    return this.getStringAttribute('enable_default_group_legacy');
+  }
+
+  // enable_default_line_legacy - computed: true, optional: false, required: false
+  public get enableDefaultLineLegacy() {
+    return this.getBooleanAttribute('enable_default_line_legacy');
+  }
+
+  // enable_default_none_legacy - computed: true, optional: false, required: false
+  public get enableDefaultNoneLegacy() {
+    return this.getBooleanAttribute('enable_default_none_legacy');
   }
 
   // id - computed: true, optional: false, required: false

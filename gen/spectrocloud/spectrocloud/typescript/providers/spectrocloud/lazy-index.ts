@@ -15,6 +15,8 @@ Object.defineProperty(exports, 'cloudaccountVsphere', { get: function () { retur
 Object.defineProperty(exports, 'clusterAks', { get: function () { return require('./cluster-aks'); } });
 Object.defineProperty(exports, 'clusterAws', { get: function () { return require('./cluster-aws'); } });
 Object.defineProperty(exports, 'clusterAzure', { get: function () { return require('./cluster-azure'); } });
+Object.defineProperty(exports, 'clusterConfigPolicy', { get: function () { return require('./cluster-config-policy'); } });
+Object.defineProperty(exports, 'clusterConfigTemplate', { get: function () { return require('./cluster-config-template'); } });
 Object.defineProperty(exports, 'clusterCustomCloud', { get: function () { return require('./cluster-custom-cloud'); } });
 Object.defineProperty(exports, 'clusterEdgeNative', { get: function () { return require('./cluster-edge-native'); } });
 Object.defineProperty(exports, 'clusterEdgeVsphere', { get: function () { return require('./cluster-edge-vsphere'); } });
@@ -60,6 +62,8 @@ Object.defineProperty(exports, 'dataSpectrocloudCloudaccountMaas', { get: functi
 Object.defineProperty(exports, 'dataSpectrocloudCloudaccountOpenstack', { get: function () { return require('./data-spectrocloud-cloudaccount-openstack'); } });
 Object.defineProperty(exports, 'dataSpectrocloudCloudaccountVsphere', { get: function () { return require('./data-spectrocloud-cloudaccount-vsphere'); } });
 Object.defineProperty(exports, 'dataSpectrocloudCluster', { get: function () { return require('./data-spectrocloud-cluster'); } });
+Object.defineProperty(exports, 'dataSpectrocloudClusterConfigPolicy', { get: function () { return require('./data-spectrocloud-cluster-config-policy'); } });
+Object.defineProperty(exports, 'dataSpectrocloudClusterConfigTemplate', { get: function () { return require('./data-spectrocloud-cluster-config-template'); } });
 Object.defineProperty(exports, 'dataSpectrocloudClusterGroup', { get: function () { return require('./data-spectrocloud-cluster-group'); } });
 Object.defineProperty(exports, 'dataSpectrocloudClusterProfile', { get: function () { return require('./data-spectrocloud-cluster-profile'); } });
 Object.defineProperty(exports, 'dataSpectrocloudFilter', { get: function () { return require('./data-spectrocloud-filter'); } });

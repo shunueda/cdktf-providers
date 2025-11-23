@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/system
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIosxeSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/system#device DataIosxeSystem#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/system#device DataIosxeSystem#device}
   */
   readonly device?: string;
 }
@@ -850,6 +850,172 @@ export class DataIosxeSystemPnpProfilesList extends cdktf.ComplexList {
     return new DataIosxeSystemPnpProfilesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataIosxeSystemTableMapsMappings {
+}
+
+export function dataIosxeSystemTableMapsMappingsToTerraform(struct?: DataIosxeSystemTableMapsMappings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIosxeSystemTableMapsMappingsToHclTerraform(struct?: DataIosxeSystemTableMapsMappings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIosxeSystemTableMapsMappingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIosxeSystemTableMapsMappings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIosxeSystemTableMapsMappings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // from - computed: true, optional: false, required: false
+  public get from() {
+    return this.getNumberAttribute('from');
+  }
+
+  // to - computed: true, optional: false, required: false
+  public get to() {
+    return this.getNumberAttribute('to');
+  }
+}
+
+export class DataIosxeSystemTableMapsMappingsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIosxeSystemTableMapsMappingsOutputReference {
+    return new DataIosxeSystemTableMapsMappingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIosxeSystemTableMaps {
+}
+
+export function dataIosxeSystemTableMapsToTerraform(struct?: DataIosxeSystemTableMaps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIosxeSystemTableMapsToHclTerraform(struct?: DataIosxeSystemTableMaps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIosxeSystemTableMapsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIosxeSystemTableMaps | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIosxeSystemTableMaps | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // default - computed: true, optional: false, required: false
+  public get default() {
+    return this.getStringAttribute('default');
+  }
+
+  // mappings - computed: true, optional: false, required: false
+  private _mappings = new DataIosxeSystemTableMapsMappingsList(this, "mappings", false);
+  public get mappings() {
+    return this._mappings;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+
+export class DataIosxeSystemTableMapsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIosxeSystemTableMapsOutputReference {
+    return new DataIosxeSystemTableMapsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataIosxeSystemTrackObjects {
 }
 
@@ -937,7 +1103,7 @@ export class DataIosxeSystemTrackObjectsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/system iosxe_system}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/system iosxe_system}
 */
 export class DataIosxeSystem extends cdktf.TerraformDataSource {
 
@@ -953,7 +1119,7 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeSystem to import
-  * @param importFromId The id of the existing DataIosxeSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -965,7 +1131,7 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/system iosxe_system} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/system iosxe_system} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -976,8 +1142,8 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_system',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1027,6 +1193,16 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   // archive_write_memory - computed: true, optional: false, required: false
   public get archiveWriteMemory() {
     return this.getBooleanAttribute('archive_write_memory');
+  }
+
+  // authentication_mac_move_deny_uncontrolled - computed: true, optional: false, required: false
+  public get authenticationMacMoveDenyUncontrolled() {
+    return this.getBooleanAttribute('authentication_mac_move_deny_uncontrolled');
+  }
+
+  // authentication_mac_move_permit - computed: true, optional: false, required: false
+  public get authenticationMacMovePermit() {
+    return this.getBooleanAttribute('authentication_mac_move_permit');
   }
 
   // boot_system_bootfiles - computed: true, optional: false, required: false
@@ -1080,6 +1256,11 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get deviceInput() {
     return this._device;
+  }
+
+  // device_classifier - computed: true, optional: false, required: false
+  public get deviceClassifier() {
+    return this.getBooleanAttribute('device_classifier');
   }
 
   // diagnostic_bootup_level - computed: true, optional: false, required: false
@@ -1145,6 +1326,11 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   // ip_cef_load_sharing_algorithm_include_ports_source - computed: true, optional: false, required: false
   public get ipCefLoadSharingAlgorithmIncludePortsSource() {
     return this.getBooleanAttribute('ip_cef_load_sharing_algorithm_include_ports_source');
+  }
+
+  // ip_default_gateway - computed: true, optional: false, required: false
+  public get ipDefaultGateway() {
+    return this.getStringAttribute('ip_default_gateway');
   }
 
   // ip_domain_list_names - computed: true, optional: false, required: false
@@ -1662,6 +1848,12 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   // subscriber_templating - computed: true, optional: false, required: false
   public get subscriberTemplating() {
     return this.getBooleanAttribute('subscriber_templating');
+  }
+
+  // table_maps - computed: true, optional: false, required: false
+  private _tableMaps = new DataIosxeSystemTableMapsList(this, "table_maps", false);
+  public get tableMaps() {
+    return this._tableMaps;
   }
 
   // tftp_source_interface_five_gigabit_ethernet - computed: true, optional: false, required: false

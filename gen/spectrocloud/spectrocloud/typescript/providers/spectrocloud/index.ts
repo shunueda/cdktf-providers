@@ -15,6 +15,8 @@ export * as cloudaccountVsphere from './cloudaccount-vsphere';
 export * as clusterAks from './cluster-aks';
 export * as clusterAws from './cluster-aws';
 export * as clusterAzure from './cluster-azure';
+export * as clusterConfigPolicy from './cluster-config-policy';
+export * as clusterConfigTemplate from './cluster-config-template';
 export * as clusterCustomCloud from './cluster-custom-cloud';
 export * as clusterEdgeNative from './cluster-edge-native';
 export * as clusterEdgeVsphere from './cluster-edge-vsphere';
@@ -60,6 +62,8 @@ export * as dataSpectrocloudCloudaccountMaas from './data-spectrocloud-cloudacco
 export * as dataSpectrocloudCloudaccountOpenstack from './data-spectrocloud-cloudaccount-openstack';
 export * as dataSpectrocloudCloudaccountVsphere from './data-spectrocloud-cloudaccount-vsphere';
 export * as dataSpectrocloudCluster from './data-spectrocloud-cluster';
+export * as dataSpectrocloudClusterConfigPolicy from './data-spectrocloud-cluster-config-policy';
+export * as dataSpectrocloudClusterConfigTemplate from './data-spectrocloud-cluster-config-template';
 export * as dataSpectrocloudClusterGroup from './data-spectrocloud-cluster-group';
 export * as dataSpectrocloudClusterProfile from './data-spectrocloud-cluster-profile';
 export * as dataSpectrocloudFilter from './data-spectrocloud-filter';

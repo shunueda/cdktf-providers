@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,134 +11,145 @@ export interface InterfaceLoopbackConfig extends cdktf.TerraformMetaArguments {
   * Set ARP cache timeout
   *   - Range: `0`-`2147483`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#arp_timeout InterfaceLoopback#arp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#arp_timeout InterfaceLoopback#arp_timeout}
   */
   readonly arpTimeout?: number;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#delete_mode InterfaceLoopback#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#delete_mode InterfaceLoopback#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * Interface specific description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#description InterfaceLoopback#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#description InterfaceLoopback#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#device InterfaceLoopback#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#device InterfaceLoopback#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ip_access_group_in InterfaceLoopback#ip_access_group_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ip_access_group_in InterfaceLoopback#ip_access_group_in}
   */
   readonly ipAccessGroupIn?: string;
   /**
   * inbound packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ip_access_group_in_enable InterfaceLoopback#ip_access_group_in_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ip_access_group_in_enable InterfaceLoopback#ip_access_group_in_enable}
   */
   readonly ipAccessGroupInEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ip_access_group_out InterfaceLoopback#ip_access_group_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ip_access_group_out InterfaceLoopback#ip_access_group_out}
   */
   readonly ipAccessGroupOut?: string;
   /**
   * outbound packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ip_access_group_out_enable InterfaceLoopback#ip_access_group_out_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ip_access_group_out_enable InterfaceLoopback#ip_access_group_out_enable}
   */
   readonly ipAccessGroupOutEnable?: boolean | cdktf.IResolvable;
   /**
+  * IGMP version
+  *   - Range: `1`-`3`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ip_igmp_version InterfaceLoopback#ip_igmp_version}
+  */
+  readonly ipIgmpVersion?: number;
+  /**
   * Enable proxy ARP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ip_proxy_arp InterfaceLoopback#ip_proxy_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ip_proxy_arp InterfaceLoopback#ip_proxy_arp}
   */
   readonly ipProxyArp?: boolean | cdktf.IResolvable;
   /**
   * Enable sending ICMP Redirect messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ip_redirects InterfaceLoopback#ip_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ip_redirects InterfaceLoopback#ip_redirects}
   */
   readonly ipRedirects?: boolean | cdktf.IResolvable;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ip_router_isis InterfaceLoopback#ip_router_isis}
+  */
+  readonly ipRouterIsis?: string;
+  /**
   * Enable sending ICMP Unreachable messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ip_unreachables InterfaceLoopback#ip_unreachables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ip_unreachables InterfaceLoopback#ip_unreachables}
   */
   readonly ipUnreachables?: boolean | cdktf.IResolvable;
   /**
   * Ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ipv4_address InterfaceLoopback#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ipv4_address InterfaceLoopback#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Ip subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ipv4_address_mask InterfaceLoopback#ipv4_address_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ipv4_address_mask InterfaceLoopback#ipv4_address_mask}
   */
   readonly ipv4AddressMask?: string;
   /**
   * Insert default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ipv6_address_autoconfig_default InterfaceLoopback#ipv6_address_autoconfig_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ipv6_address_autoconfig_default InterfaceLoopback#ipv6_address_autoconfig_default}
   */
   readonly ipv6AddressAutoconfigDefault?: boolean | cdktf.IResolvable;
   /**
   * Obtain IPv6 address from DHCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ipv6_address_dhcp InterfaceLoopback#ipv6_address_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ipv6_address_dhcp InterfaceLoopback#ipv6_address_dhcp}
   */
   readonly ipv6AddressDhcp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ipv6_addresses InterfaceLoopback#ipv6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ipv6_addresses InterfaceLoopback#ipv6_addresses}
   */
   readonly ipv6Addresses?: InterfaceLoopbackIpv6Addresses[] | cdktf.IResolvable;
   /**
   * Enable IPv6 on interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ipv6_enable InterfaceLoopback#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ipv6_enable InterfaceLoopback#ipv6_enable}
   */
   readonly ipv6Enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ipv6_link_local_addresses InterfaceLoopback#ipv6_link_local_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ipv6_link_local_addresses InterfaceLoopback#ipv6_link_local_addresses}
   */
   readonly ipv6LinkLocalAddresses?: InterfaceLoopbackIpv6LinkLocalAddresses[] | cdktf.IResolvable;
   /**
   * Set IPv6 Maximum Transmission Unit
   *   - Range: `1280`-`9976`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ipv6_mtu InterfaceLoopback#ipv6_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ipv6_mtu InterfaceLoopback#ipv6_mtu}
   */
   readonly ipv6Mtu?: number;
   /**
   * Suppress all IPv6 RA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#ipv6_nd_ra_suppress_all InterfaceLoopback#ipv6_nd_ra_suppress_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#ipv6_nd_ra_suppress_all InterfaceLoopback#ipv6_nd_ra_suppress_all}
   */
   readonly ipv6NdRaSuppressAll?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#name InterfaceLoopback#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#name InterfaceLoopback#name}
   */
   readonly name: number;
   /**
   * Shutdown the selected interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#shutdown InterfaceLoopback#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#shutdown InterfaceLoopback#shutdown}
   */
   readonly shutdown?: boolean | cdktf.IResolvable;
   /**
   * Configure forwarding table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#vrf_forwarding InterfaceLoopback#vrf_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#vrf_forwarding InterfaceLoopback#vrf_forwarding}
   */
   readonly vrfForwarding?: string;
 }
@@ -146,13 +157,13 @@ export interface InterfaceLoopbackIpv6Addresses {
   /**
   * Use eui-64 interface identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#eui_64 InterfaceLoopback#eui_64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#eui_64 InterfaceLoopback#eui_64}
   */
   readonly eui64?: boolean | cdktf.IResolvable;
   /**
   * IPv6 prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#prefix InterfaceLoopback#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#prefix InterfaceLoopback#prefix}
   */
   readonly prefix: string;
 }
@@ -294,13 +305,13 @@ export class InterfaceLoopbackIpv6AddressesList extends cdktf.ComplexList {
 }
 export interface InterfaceLoopbackIpv6LinkLocalAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#address InterfaceLoopback#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#address InterfaceLoopback#address}
   */
   readonly address: string;
   /**
   * Use link-local address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#link_local InterfaceLoopback#link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#link_local InterfaceLoopback#link_local}
   */
   readonly linkLocal?: boolean | cdktf.IResolvable;
 }
@@ -442,7 +453,7 @@ export class InterfaceLoopbackIpv6LinkLocalAddressesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback iosxe_interface_loopback}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback iosxe_interface_loopback}
 */
 export class InterfaceLoopback extends cdktf.TerraformResource {
 
@@ -458,7 +469,7 @@ export class InterfaceLoopback extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceLoopback resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceLoopback to import
-  * @param importFromId The id of the existing InterfaceLoopback that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceLoopback that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceLoopback to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +481,7 @@ export class InterfaceLoopback extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_loopback iosxe_interface_loopback} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_loopback iosxe_interface_loopback} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +492,8 @@ export class InterfaceLoopback extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_loopback',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -500,8 +511,10 @@ export class InterfaceLoopback extends cdktf.TerraformResource {
     this._ipAccessGroupInEnable = config.ipAccessGroupInEnable;
     this._ipAccessGroupOut = config.ipAccessGroupOut;
     this._ipAccessGroupOutEnable = config.ipAccessGroupOutEnable;
+    this._ipIgmpVersion = config.ipIgmpVersion;
     this._ipProxyArp = config.ipProxyArp;
     this._ipRedirects = config.ipRedirects;
+    this._ipRouterIsis = config.ipRouterIsis;
     this._ipUnreachables = config.ipUnreachables;
     this._ipv4Address = config.ipv4Address;
     this._ipv4AddressMask = config.ipv4AddressMask;
@@ -654,6 +667,22 @@ export class InterfaceLoopback extends cdktf.TerraformResource {
     return this._ipAccessGroupOutEnable;
   }
 
+  // ip_igmp_version - computed: false, optional: true, required: false
+  private _ipIgmpVersion?: number; 
+  public get ipIgmpVersion() {
+    return this.getNumberAttribute('ip_igmp_version');
+  }
+  public set ipIgmpVersion(value: number) {
+    this._ipIgmpVersion = value;
+  }
+  public resetIpIgmpVersion() {
+    this._ipIgmpVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipIgmpVersionInput() {
+    return this._ipIgmpVersion;
+  }
+
   // ip_proxy_arp - computed: false, optional: true, required: false
   private _ipProxyArp?: boolean | cdktf.IResolvable; 
   public get ipProxyArp() {
@@ -684,6 +713,22 @@ export class InterfaceLoopback extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get ipRedirectsInput() {
     return this._ipRedirects;
+  }
+
+  // ip_router_isis - computed: false, optional: true, required: false
+  private _ipRouterIsis?: string; 
+  public get ipRouterIsis() {
+    return this.getStringAttribute('ip_router_isis');
+  }
+  public set ipRouterIsis(value: string) {
+    this._ipRouterIsis = value;
+  }
+  public resetIpRouterIsis() {
+    this._ipRouterIsis = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipRouterIsisInput() {
+    return this._ipRouterIsis;
   }
 
   // ip_unreachables - computed: false, optional: true, required: false
@@ -905,8 +950,10 @@ export class InterfaceLoopback extends cdktf.TerraformResource {
       ip_access_group_in_enable: cdktf.booleanToTerraform(this._ipAccessGroupInEnable),
       ip_access_group_out: cdktf.stringToTerraform(this._ipAccessGroupOut),
       ip_access_group_out_enable: cdktf.booleanToTerraform(this._ipAccessGroupOutEnable),
+      ip_igmp_version: cdktf.numberToTerraform(this._ipIgmpVersion),
       ip_proxy_arp: cdktf.booleanToTerraform(this._ipProxyArp),
       ip_redirects: cdktf.booleanToTerraform(this._ipRedirects),
+      ip_router_isis: cdktf.stringToTerraform(this._ipRouterIsis),
       ip_unreachables: cdktf.booleanToTerraform(this._ipUnreachables),
       ipv4_address: cdktf.stringToTerraform(this._ipv4Address),
       ipv4_address_mask: cdktf.stringToTerraform(this._ipv4AddressMask),
@@ -973,6 +1020,12 @@ export class InterfaceLoopback extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
+      ip_igmp_version: {
+        value: cdktf.numberToHclTerraform(this._ipIgmpVersion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       ip_proxy_arp: {
         value: cdktf.booleanToHclTerraform(this._ipProxyArp),
         isBlock: false,
@@ -984,6 +1037,12 @@ export class InterfaceLoopback extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      ip_router_isis: {
+        value: cdktf.stringToHclTerraform(this._ipRouterIsis),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       ip_unreachables: {
         value: cdktf.booleanToHclTerraform(this._ipUnreachables),

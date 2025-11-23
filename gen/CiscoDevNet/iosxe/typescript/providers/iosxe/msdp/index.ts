@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,54 +11,54 @@ export interface MsdpConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#delete_mode Msdp#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#delete_mode Msdp#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#device Msdp#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#device Msdp#device}
   */
   readonly device?: string;
   /**
   * Configure MSDP Originator ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#originator_id Msdp#originator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#originator_id Msdp#originator_id}
   */
   readonly originatorId?: string;
   /**
   * MSDP peer on which the password is to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#passwords Msdp#passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#passwords Msdp#passwords}
   */
   readonly passwords?: MsdpPasswords[] | cdktf.IResolvable;
   /**
   * Configure an MSDP peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#peers Msdp#peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#peers Msdp#peers}
   */
   readonly peers?: MsdpPeers[] | cdktf.IResolvable;
   /**
   * Select VPN Routing/Forwarding instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#vrfs Msdp#vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#vrfs Msdp#vrfs}
   */
   readonly vrfs?: MsdpVrfs[] | cdktf.IResolvable;
 }
 export interface MsdpPasswords {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#addr Msdp#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#addr Msdp#addr}
   */
   readonly addr: string;
   /**
   * 
   *   - Range: `0`-`7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#encryption Msdp#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#encryption Msdp#encryption}
   */
   readonly encryption?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#password Msdp#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#password Msdp#password}
   */
   readonly password: string;
 }
@@ -226,21 +226,21 @@ export class MsdpPasswordsList extends cdktf.ComplexList {
 }
 export interface MsdpPeers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#addr Msdp#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#addr Msdp#addr}
   */
   readonly addr: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#connect_source_loopback Msdp#connect_source_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#connect_source_loopback Msdp#connect_source_loopback}
   */
   readonly connectSourceLoopback?: number;
   /**
   * Configured AS number
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#remote_as Msdp#remote_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#remote_as Msdp#remote_as}
   */
   readonly remoteAs?: number;
 }
@@ -411,18 +411,18 @@ export class MsdpPeersList extends cdktf.ComplexList {
 }
 export interface MsdpVrfsPasswords {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#addr Msdp#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#addr Msdp#addr}
   */
   readonly addr: string;
   /**
   * 
   *   - Range: `0`-`7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#encryption Msdp#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#encryption Msdp#encryption}
   */
   readonly encryption?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#password Msdp#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#password Msdp#password}
   */
   readonly password: string;
 }
@@ -590,21 +590,21 @@ export class MsdpVrfsPasswordsList extends cdktf.ComplexList {
 }
 export interface MsdpVrfsPeers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#addr Msdp#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#addr Msdp#addr}
   */
   readonly addr: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#connect_source_loopback Msdp#connect_source_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#connect_source_loopback Msdp#connect_source_loopback}
   */
   readonly connectSourceLoopback?: number;
   /**
   * Configured AS number
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#remote_as Msdp#remote_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#remote_as Msdp#remote_as}
   */
   readonly remoteAs?: number;
 }
@@ -777,23 +777,23 @@ export interface MsdpVrfs {
   /**
   * Configure MSDP Originator ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#originator_id Msdp#originator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#originator_id Msdp#originator_id}
   */
   readonly originatorId?: string;
   /**
   * MSDP peer on which the password is to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#passwords Msdp#passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#passwords Msdp#passwords}
   */
   readonly passwords?: MsdpVrfsPasswords[] | cdktf.IResolvable;
   /**
   * Configure an MSDP peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#peers Msdp#peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#peers Msdp#peers}
   */
   readonly peers?: MsdpVrfsPeers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#vrf Msdp#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#vrf Msdp#vrf}
   */
   readonly vrf: string;
 }
@@ -993,7 +993,7 @@ export class MsdpVrfsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp iosxe_msdp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp iosxe_msdp}
 */
 export class Msdp extends cdktf.TerraformResource {
 
@@ -1009,7 +1009,7 @@ export class Msdp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Msdp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Msdp to import
-  * @param importFromId The id of the existing Msdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Msdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Msdp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1021,7 +1021,7 @@ export class Msdp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/msdp iosxe_msdp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/msdp iosxe_msdp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1032,8 +1032,8 @@ export class Msdp extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_msdp',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

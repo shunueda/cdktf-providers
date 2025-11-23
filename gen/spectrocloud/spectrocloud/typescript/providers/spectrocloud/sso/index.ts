@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SsoConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of external authentication providers such as GitHub and Google.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#auth_providers Sso#auth_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#auth_providers Sso#auth_providers}
   */
   readonly authProviders?: string[];
   /**
   * A set of domains associated with the SSO configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#domains Sso#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#domains Sso#domains}
   */
   readonly domains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#id Sso#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#id Sso#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface SsoConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defines the type of SSO authentication. Supported values: none, saml, oidc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#sso_auth_type Sso#sso_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#sso_auth_type Sso#sso_auth_type}
   */
   readonly ssoAuthType?: string;
   /**
   * oidc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#oidc Sso#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#oidc Sso#oidc}
   */
   readonly oidc?: SsoOidc;
   /**
   * saml block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#saml Sso#saml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#saml Sso#saml}
   */
   readonly saml?: SsoSaml;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#timeouts Sso#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#timeouts Sso#timeouts}
   */
   readonly timeouts?: SsoTimeouts;
 }
@@ -55,25 +55,25 @@ export interface SsoOidcUserInfoEndpoint {
   /**
   * The name of the claim that returns the user's email address from the identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#email Sso#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#email Sso#email}
   */
   readonly email: string;
   /**
   * The name of the claim that returns the user's first name from the identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#first_name Sso#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#first_name Sso#first_name}
   */
   readonly firstName: string;
   /**
   * The name of the claim that returns the user's last name from the identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#last_name Sso#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#last_name Sso#last_name}
   */
   readonly lastName: string;
   /**
   * The name of the claim that returns the user's group memberships from the Identity Provider. The values of this claim will map to SpectroCloud teams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#spectro_team Sso#spectro_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#spectro_team Sso#spectro_team}
   */
   readonly spectroTeam: string;
 }
@@ -234,73 +234,73 @@ export interface SsoOidc {
   /**
   * Client ID for OIDC authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#client_id Sso#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#client_id Sso#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret for OIDC authentication (sensitive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#client_secret Sso#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#client_secret Sso#client_secret}
   */
   readonly clientSecret: string;
   /**
   * A set of default team IDs assigned to users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#default_team_ids Sso#default_team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#default_team_ids Sso#default_team_ids}
   */
   readonly defaultTeamIds?: string[];
   /**
   * The name of the claim that returns the user's email address from the identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#email Sso#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#email Sso#email}
   */
   readonly email: string;
   /**
   * The name of the claim that returns the user's first name from the identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#first_name Sso#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#first_name Sso#first_name}
   */
   readonly firstName: string;
   /**
   * Certificate authority (CA) certificate for the identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#identity_provider_ca_certificate Sso#identity_provider_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#identity_provider_ca_certificate Sso#identity_provider_ca_certificate}
   */
   readonly identityProviderCaCertificate?: string;
   /**
   * Boolean to skip TLS verification for identity provider communication. ⚠️ WARNING: Setting this to true disables SSL certificate verification and makes connections vulnerable to man-in-the-middle attacks. Only use this when connecting to identity providers with self-signed certificates in trusted networks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#insecure_skip_tls_verify Sso#insecure_skip_tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#insecure_skip_tls_verify Sso#insecure_skip_tls_verify}
   */
   readonly insecureSkipTlsVerify?: boolean | cdktf.IResolvable;
   /**
   * URL of the OIDC issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#issuer_url Sso#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#issuer_url Sso#issuer_url}
   */
   readonly issuerUrl: string;
   /**
   * The name of the claim that returns the user's last name from the identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#last_name Sso#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#last_name Sso#last_name}
   */
   readonly lastName: string;
   /**
   * Scopes requested during OIDC authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#scopes Sso#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#scopes Sso#scopes}
   */
   readonly scopes: string[];
   /**
   * The name of the claim that returns the user's group memberships from the Identity Provider. The values of this claim will map to SpectroCloud teams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#spectro_team Sso#spectro_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#spectro_team Sso#spectro_team}
   */
   readonly spectroTeam: string;
   /**
   * user_info_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#user_info_endpoint Sso#user_info_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#user_info_endpoint Sso#user_info_endpoint}
   */
   readonly userInfoEndpoint?: SsoOidcUserInfoEndpoint;
 }
@@ -691,55 +691,55 @@ export interface SsoSaml {
   /**
   * A set of default team IDs assigned to users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#default_team_ids Sso#default_team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#default_team_ids Sso#default_team_ids}
   */
   readonly defaultTeamIds?: string[];
   /**
   * User's email address retrieved from identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#email Sso#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#email Sso#email}
   */
   readonly email?: string;
   /**
   * Boolean to enable SAML single logout feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#enable_single_logout Sso#enable_single_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#enable_single_logout Sso#enable_single_logout}
   */
   readonly enableSingleLogout?: boolean | cdktf.IResolvable;
   /**
   * User's first name retrieved from identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#first_name Sso#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#first_name Sso#first_name}
   */
   readonly firstName?: string;
   /**
   * Metadata XML of the SAML identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#identity_provider_metadata Sso#identity_provider_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#identity_provider_metadata Sso#identity_provider_metadata}
   */
   readonly identityProviderMetadata: string;
   /**
   * User's last name retrieved from identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#last_name Sso#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#last_name Sso#last_name}
   */
   readonly lastName?: string;
   /**
   * Format of the NameID attribute in SAML responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#name_id_format Sso#name_id_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#name_id_format Sso#name_id_format}
   */
   readonly nameIdFormat: string;
   /**
   * The identity provider service used for SAML authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#service_provider Sso#service_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#service_provider Sso#service_provider}
   */
   readonly serviceProvider: string;
   /**
   * The SpectroCloud team the user belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#spectro_team Sso#spectro_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#spectro_team Sso#spectro_team}
   */
   readonly spectroTeam?: string;
 }
@@ -1076,15 +1076,15 @@ export class SsoSamlOutputReference extends cdktf.ComplexObject {
 }
 export interface SsoTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#create Sso#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#create Sso#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#delete Sso#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#delete Sso#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#update Sso#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#update Sso#update}
   */
   readonly update?: string;
 }
@@ -1236,7 +1236,7 @@ export class SsoTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso spectrocloud_sso}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso spectrocloud_sso}
 */
 export class Sso extends cdktf.TerraformResource {
 
@@ -1252,7 +1252,7 @@ export class Sso extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sso resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sso to import
-  * @param importFromId The id of the existing Sso that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sso that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sso to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1264,7 +1264,7 @@ export class Sso extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/sso spectrocloud_sso} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/sso spectrocloud_sso} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1275,8 +1275,8 @@ export class Sso extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_sso',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2',
-        providerVersionConstraint: '0.25.2'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

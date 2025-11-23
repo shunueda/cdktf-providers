@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,51 +11,51 @@ export interface BgpPeerPolicyTemplateConfig extends cdktf.TerraformMetaArgument
   * 
   *   - Range: `1`-`10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template#allowas_in_as_number BgpPeerPolicyTemplate#allowas_in_as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template#allowas_in_as_number BgpPeerPolicyTemplate#allowas_in_as_number}
   */
   readonly allowasInAsNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template#as_override_split_horizon BgpPeerPolicyTemplate#as_override_split_horizon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template#as_override_split_horizon BgpPeerPolicyTemplate#as_override_split_horizon}
   */
   readonly asOverrideSplitHorizon?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template#asn BgpPeerPolicyTemplate#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template#asn BgpPeerPolicyTemplate#asn}
   */
   readonly asn: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template#delete_mode BgpPeerPolicyTemplate#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template#delete_mode BgpPeerPolicyTemplate#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template#device BgpPeerPolicyTemplate#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template#device BgpPeerPolicyTemplate#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template#name BgpPeerPolicyTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template#name BgpPeerPolicyTemplate#name}
   */
   readonly name: string;
   /**
   * Apply route map to neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template#route_maps BgpPeerPolicyTemplate#route_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template#route_maps BgpPeerPolicyTemplate#route_maps}
   */
   readonly routeMaps?: BgpPeerPolicyTemplateRouteMaps[] | cdktf.IResolvable;
   /**
   * Configure a neighbor as Route Reflector client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template#route_reflector_client BgpPeerPolicyTemplate#route_reflector_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template#route_reflector_client BgpPeerPolicyTemplate#route_reflector_client}
   */
   readonly routeReflectorClient?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Choices: `both`, `extended`, `standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template#send_community BgpPeerPolicyTemplate#send_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template#send_community BgpPeerPolicyTemplate#send_community}
   */
   readonly sendCommunity?: string;
 }
@@ -64,11 +64,11 @@ export interface BgpPeerPolicyTemplateRouteMaps {
   * 
   *   - Choices: `in`, `out`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template#in_out BgpPeerPolicyTemplate#in_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template#in_out BgpPeerPolicyTemplate#in_out}
   */
   readonly inOut: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template#route_map_name BgpPeerPolicyTemplate#route_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template#route_map_name BgpPeerPolicyTemplate#route_map_name}
   */
   readonly routeMapName: string;
 }
@@ -207,7 +207,7 @@ export class BgpPeerPolicyTemplateRouteMapsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template iosxe_bgp_peer_policy_template}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template iosxe_bgp_peer_policy_template}
 */
 export class BgpPeerPolicyTemplate extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class BgpPeerPolicyTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpPeerPolicyTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpPeerPolicyTemplate to import
-  * @param importFromId The id of the existing BgpPeerPolicyTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpPeerPolicyTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpPeerPolicyTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class BgpPeerPolicyTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_policy_template iosxe_bgp_peer_policy_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_peer_policy_template iosxe_bgp_peer_policy_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class BgpPeerPolicyTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bgp_peer_policy_template',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

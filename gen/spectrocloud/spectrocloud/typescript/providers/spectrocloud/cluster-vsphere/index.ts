@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface ClusterVsphereConfig extends cdktf.TerraformMetaArguments {
   /**
   * The setting to apply the cluster profile. `DownloadAndInstall` will download and install packs in one action. `DownloadAndInstallLater` will only download artifact and postpone install for later. Default value is `DownloadAndInstall`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#apply_setting ClusterVsphere#apply_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#apply_setting ClusterVsphere#apply_setting}
   */
   readonly applySetting?: string;
   /**
   * ID of the cloud account to be used for the cluster. This cloud account must be of type `vsphere`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#cloud_account_id ClusterVsphere#cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#cloud_account_id ClusterVsphere#cloud_account_id}
   */
   readonly cloudAccountId: string;
   /**
   * `cluster_meta_attribute` can be used to set additional cluster metadata information, eg `{'nic_name': 'test', 'env': 'stage'}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#cluster_meta_attribute ClusterVsphere#cluster_meta_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#cluster_meta_attribute ClusterVsphere#cluster_meta_attribute}
   */
   readonly clusterMetaAttribute?: string;
   /**
   * The context of the VMware cluster. Allowed values are `project` or `tenant`. Default is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#context ClusterVsphere#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#context ClusterVsphere#context}
   */
   readonly context?: string;
   /**
   * The description of the cluster. Default value is empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#description ClusterVsphere#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#description ClusterVsphere#description}
   */
   readonly description?: string;
   /**
   * If set to `true`, the cluster will be force deleted and user has to manually clean up the provisioned cloud resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#force_delete ClusterVsphere#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#force_delete ClusterVsphere#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
   * Delay duration in minutes to before invoking cluster force delete. Default and minimum is 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#force_delete_delay ClusterVsphere#force_delete_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#force_delete_delay ClusterVsphere#force_delete_delay}
   */
   readonly forceDeleteDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#id ClusterVsphere#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#id ClusterVsphere#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,109 +59,115 @@ export interface ClusterVsphereConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#name ClusterVsphere#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#name ClusterVsphere#name}
   */
   readonly name: string;
   /**
   * The date and time after which to patch the cluster. Prefix the time value with the respective RFC. Ex: `RFC3339: 2006-01-02T15:04:05Z07:00`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#os_patch_after ClusterVsphere#os_patch_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#os_patch_after ClusterVsphere#os_patch_after}
   */
   readonly osPatchAfter?: string;
   /**
   * Whether to apply OS patch on boot. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#os_patch_on_boot ClusterVsphere#os_patch_on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#os_patch_on_boot ClusterVsphere#os_patch_on_boot}
   */
   readonly osPatchOnBoot?: boolean | cdktf.IResolvable;
   /**
   * The cron schedule for OS patching. This must be in the form of cron syntax. Ex: `0 0 * * *`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#os_patch_schedule ClusterVsphere#os_patch_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#os_patch_schedule ClusterVsphere#os_patch_schedule}
   */
   readonly osPatchSchedule?: string;
   /**
   * The pause agent upgrades setting allows to control the automatic upgrade of the Palette component and agent for an individual cluster. The default value is `unlock`, meaning upgrades occur automatically. Setting it to `lock` pauses automatic agent upgrades for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#pause_agent_upgrades ClusterVsphere#pause_agent_upgrades}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#pause_agent_upgrades ClusterVsphere#pause_agent_upgrades}
   */
   readonly pauseAgentUpgrades?: string;
   /**
   * To authorize the cluster repave, set the value to `Approved` for approval and `""` to decline. Default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#review_repave_state ClusterVsphere#review_repave_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#review_repave_state ClusterVsphere#review_repave_state}
   */
   readonly reviewRepaveState?: string;
   /**
   * If `true`, the cluster will be created asynchronously. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#skip_completion ClusterVsphere#skip_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#skip_completion ClusterVsphere#skip_completion}
   */
   readonly skipCompletion?: boolean | cdktf.IResolvable;
   /**
   * A list of tags to be applied to the cluster. Tags must be in the form of `key:value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#tags ClusterVsphere#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#tags ClusterVsphere#tags}
   */
   readonly tags?: string[];
   /**
   * backup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#backup_policy ClusterVsphere#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#backup_policy ClusterVsphere#backup_policy}
   */
   readonly backupPolicy?: ClusterVsphereBackupPolicy;
   /**
   * cloud_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#cloud_config ClusterVsphere#cloud_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#cloud_config ClusterVsphere#cloud_config}
   */
   readonly cloudConfig: ClusterVsphereCloudConfig;
   /**
   * cluster_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#cluster_profile ClusterVsphere#cluster_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#cluster_profile ClusterVsphere#cluster_profile}
   */
   readonly clusterProfile?: ClusterVsphereClusterProfile[] | cdktf.IResolvable;
   /**
   * cluster_rbac_binding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#cluster_rbac_binding ClusterVsphere#cluster_rbac_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#cluster_rbac_binding ClusterVsphere#cluster_rbac_binding}
   */
   readonly clusterRbacBinding?: ClusterVsphereClusterRbacBinding[] | cdktf.IResolvable;
   /**
+  * cluster_template block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#cluster_template ClusterVsphere#cluster_template}
+  */
+  readonly clusterTemplate?: ClusterVsphereClusterTemplate;
+  /**
   * host_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#host_config ClusterVsphere#host_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#host_config ClusterVsphere#host_config}
   */
   readonly hostConfig?: ClusterVsphereHostConfig[] | cdktf.IResolvable;
   /**
   * location_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#location_config ClusterVsphere#location_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#location_config ClusterVsphere#location_config}
   */
   readonly locationConfig?: ClusterVsphereLocationConfig[] | cdktf.IResolvable;
   /**
   * machine_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#machine_pool ClusterVsphere#machine_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#machine_pool ClusterVsphere#machine_pool}
   */
   readonly machinePool: ClusterVsphereMachinePool[] | cdktf.IResolvable;
   /**
   * namespaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#namespaces ClusterVsphere#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#namespaces ClusterVsphere#namespaces}
   */
   readonly namespaces?: ClusterVsphereNamespaces[] | cdktf.IResolvable;
   /**
   * scan_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#scan_policy ClusterVsphere#scan_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#scan_policy ClusterVsphere#scan_policy}
   */
   readonly scanPolicy?: ClusterVsphereScanPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#timeouts ClusterVsphere#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#timeouts ClusterVsphere#timeouts}
   */
   readonly timeouts?: ClusterVsphereTimeouts;
 }
@@ -169,61 +175,61 @@ export interface ClusterVsphereBackupPolicy {
   /**
   * The ID of the backup location to use for the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#backup_location_id ClusterVsphere#backup_location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#backup_location_id ClusterVsphere#backup_location_id}
   */
   readonly backupLocationId: string;
   /**
   * The list of cluster UIDs to include in the backup. If `include_all_clusters` is set to `true`, then all clusters will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#cluster_uids ClusterVsphere#cluster_uids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#cluster_uids ClusterVsphere#cluster_uids}
   */
   readonly clusterUids?: string[];
   /**
   * The number of hours after which the backup will be deleted. For example, if the expiry is set to 24, the backup will be deleted after 24 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#expiry_in_hour ClusterVsphere#expiry_in_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#expiry_in_hour ClusterVsphere#expiry_in_hour}
   */
   readonly expiryInHour: number;
   /**
   * Whether to include all clusters in the backup. If set to false, only the clusters specified in `cluster_uids` will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#include_all_clusters ClusterVsphere#include_all_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#include_all_clusters ClusterVsphere#include_all_clusters}
   */
   readonly includeAllClusters?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to include cluster resources in the backup. If set to false, only the cluster configuration and disks will be backed up. (Note: Starting with Palette version 4.6, the include_cluster_resources attribute will be deprecated, and a new attribute, include_cluster_resources_mode, will be introduced.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#include_cluster_resources ClusterVsphere#include_cluster_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#include_cluster_resources ClusterVsphere#include_cluster_resources}
   */
   readonly includeClusterResources?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether to include the cluster resources in the backup. Supported values are `always`, `never`, and `auto`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#include_cluster_resources_mode ClusterVsphere#include_cluster_resources_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#include_cluster_resources_mode ClusterVsphere#include_cluster_resources_mode}
   */
   readonly includeClusterResourcesMode?: string;
   /**
   * Whether to include the disks in the backup. If set to false, only the cluster configuration will be backed up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#include_disks ClusterVsphere#include_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#include_disks ClusterVsphere#include_disks}
   */
   readonly includeDisks?: boolean | cdktf.IResolvable;
   /**
   * The list of Kubernetes namespaces to include in the backup. If not specified, all namespaces will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#namespaces ClusterVsphere#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#namespaces ClusterVsphere#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Prefix for the backup name. The backup name will be of the format <prefix>-<cluster-name>-<timestamp>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#prefix ClusterVsphere#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#prefix ClusterVsphere#prefix}
   */
   readonly prefix: string;
   /**
   * The schedule for the backup. The schedule is specified in cron format. For example, to run the backup every day at 1:00 AM, the schedule should be set to `0 1 * * *`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#schedule ClusterVsphere#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#schedule ClusterVsphere#schedule}
   */
   readonly schedule: string;
 }
@@ -558,61 +564,61 @@ export interface ClusterVsphereCloudConfig {
   /**
   * The name of the datacenter in vSphere. This is the name of the datacenter as it appears in vSphere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#datacenter ClusterVsphere#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#datacenter ClusterVsphere#datacenter}
   */
   readonly datacenter: string;
   /**
   * The name of the folder in vSphere. This is the name of the folder as it appears in vSphere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#folder ClusterVsphere#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#folder ClusterVsphere#folder}
   */
   readonly folder: string;
   /**
   * The host endpoint to use for the cluster. This can be `IP` or `FQDN(External/DDNS)`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#host_endpoint ClusterVsphere#host_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#host_endpoint ClusterVsphere#host_endpoint}
   */
   readonly hostEndpoint?: string;
   /**
   * The name of the image template folder in vSphere. This is the name of the folder as it appears in vSphere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#image_template_folder ClusterVsphere#image_template_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#image_template_folder ClusterVsphere#image_template_folder}
   */
   readonly imageTemplateFolder?: string;
   /**
   * The search domain to use for the cluster in case of DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#network_search_domain ClusterVsphere#network_search_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#network_search_domain ClusterVsphere#network_search_domain}
   */
   readonly networkSearchDomain?: string;
   /**
   * The type of network to use for the cluster. This can be `VIP` or `DDNS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#network_type ClusterVsphere#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#network_type ClusterVsphere#network_type}
   */
   readonly networkType?: string;
   /**
   * A list of NTP servers to be used by the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#ntp_servers ClusterVsphere#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#ntp_servers ClusterVsphere#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
   * The SSH key to be used for the cluster. This is the public key that will be used to access the cluster nodes. `ssh_key & ssh_keys` are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#ssh_key ClusterVsphere#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#ssh_key ClusterVsphere#ssh_key}
   */
   readonly sshKey?: string;
   /**
   * List of public SSH (Secure Shell) keys to establish, administer, and communicate with remote clusters, `ssh_key & ssh_keys` are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#ssh_keys ClusterVsphere#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#ssh_keys ClusterVsphere#ssh_keys}
   */
   readonly sshKeys?: string[];
   /**
   * Whether to use static IP addresses for the cluster. If `true`, the cluster will use static IP addresses. If `false`, the cluster will use DDNS. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#static_ip ClusterVsphere#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#static_ip ClusterVsphere#static_ip}
   */
   readonly staticIp?: boolean | cdktf.IResolvable;
 }
@@ -953,13 +959,13 @@ export interface ClusterVsphereClusterProfilePackManifest {
   /**
   * The content of the manifest. The content is the YAML content of the manifest. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#content ClusterVsphere#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#content ClusterVsphere#content}
   */
   readonly content: string;
   /**
   * The name of the manifest. The name must be unique within the pack. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#name ClusterVsphere#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#name ClusterVsphere#name}
   */
   readonly name: string;
 }
@@ -1105,49 +1111,49 @@ export interface ClusterVsphereClusterProfilePack {
   /**
   * The name of the pack. The name must be unique within the cluster profile. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#name ClusterVsphere#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#name ClusterVsphere#name}
   */
   readonly name: string;
   /**
   * The registry name of the pack. The registry name is the human-readable name of the registry. This attribute can be used instead of `registry_uid` for better readability. If `uid` is not provided, this field can be used along with `name` and `tag` to resolve the pack UID internally. Either `registry_uid` or `registry_name` can be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#registry_name ClusterVsphere#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#registry_name ClusterVsphere#registry_name}
   */
   readonly registryName?: string;
   /**
   * The registry UID of the pack. The registry UID is the unique identifier of the registry. This attribute is required if there is more than one registry that contains a pack with the same name. If `uid` is not provided, this field is required along with `name` and `tag` to resolve the pack UID internally. Either `registry_uid` or `registry_name` can be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#registry_uid ClusterVsphere#registry_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#registry_uid ClusterVsphere#registry_uid}
   */
   readonly registryUid?: string;
   /**
   * The tag of the pack. The tag is the version of the pack. This attribute is required if the pack type is `spectro` or `helm`. If `uid` is not provided, this field is required along with `name` and `registry_uid` (or `registry_name`) to resolve the pack UID internally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#tag ClusterVsphere#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#tag ClusterVsphere#tag}
   */
   readonly tag?: string;
   /**
   * The type of the pack. Allowed values are `spectro`, `manifest`, `helm`, or `oci`. The default value is spectro. If using an OCI registry for pack, set the type to `oci`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#type ClusterVsphere#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#type ClusterVsphere#type}
   */
   readonly type?: string;
   /**
   * The unique identifier of the pack. The value can be looked up using the [`spectrocloud_pack`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs/data-sources/pack) data source. This value is required if the pack type is `spectro` and for `helm` if the chart is from a public helm registry. If not provided, all of `name`, `tag`, and `registry_uid` must be specified to resolve the pack UID internally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#uid ClusterVsphere#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#uid ClusterVsphere#uid}
   */
   readonly uid?: string;
   /**
   * The values of the pack. The values are the configuration values of the pack. The values are specified in YAML format. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#values ClusterVsphere#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#values ClusterVsphere#values}
   */
   readonly values?: string;
   /**
   * manifest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#manifest ClusterVsphere#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#manifest ClusterVsphere#manifest}
   */
   readonly manifest?: ClusterVsphereClusterProfilePackManifest[] | cdktf.IResolvable;
 }
@@ -1465,7 +1471,7 @@ export interface ClusterVsphereClusterProfile {
   /**
   * The ID of the cluster profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#id ClusterVsphere#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#id ClusterVsphere#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1474,13 +1480,13 @@ export interface ClusterVsphereClusterProfile {
   /**
   * A map of cluster profile variables, specified as key-value pairs. For example: `priority = "5"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#variables ClusterVsphere#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#variables ClusterVsphere#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * pack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#pack ClusterVsphere#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#pack ClusterVsphere#pack}
   */
   readonly pack?: ClusterVsphereClusterProfilePack[] | cdktf.IResolvable;
 }
@@ -1653,19 +1659,19 @@ export interface ClusterVsphereClusterRbacBindingSubjects {
   /**
   * The name of the subject. Required if 'type' is set to 'User' or 'Group'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#name ClusterVsphere#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#name ClusterVsphere#name}
   */
   readonly name: string;
   /**
   * The Kubernetes namespace of the subject. Required if 'type' is set to 'ServiceAccount'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#namespace ClusterVsphere#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#namespace ClusterVsphere#namespace}
   */
   readonly namespace?: string;
   /**
   * The type of the subject. Can be one of the following values: `User`, `Group`, or `ServiceAccount`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#type ClusterVsphere#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#type ClusterVsphere#type}
   */
   readonly type: string;
 }
@@ -1835,25 +1841,25 @@ export interface ClusterVsphereClusterRbacBinding {
   /**
   * The Kubernetes namespace of the RBAC binding. Required if 'type' is set to 'RoleBinding'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#namespace ClusterVsphere#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#namespace ClusterVsphere#namespace}
   */
   readonly namespace?: string;
   /**
   * The role of the RBAC binding. Required if 'type' is set to 'RoleBinding'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#role ClusterVsphere#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#role ClusterVsphere#role}
   */
   readonly role?: { [key: string]: string };
   /**
   * The type of the RBAC binding. Can be one of the following values: `RoleBinding`, or `ClusterRoleBinding`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#type ClusterVsphere#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#type ClusterVsphere#type}
   */
   readonly type: string;
   /**
   * subjects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#subjects ClusterVsphere#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#subjects ClusterVsphere#subjects}
   */
   readonly subjects?: ClusterVsphereClusterRbacBindingSubjects[] | cdktf.IResolvable;
 }
@@ -2051,29 +2057,308 @@ export class ClusterVsphereClusterRbacBindingList extends cdktf.ComplexList {
     return new ClusterVsphereClusterRbacBindingOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ClusterVsphereClusterTemplateClusterProfile {
+  /**
+  * The UID of the cluster profile.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#id ClusterVsphere#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id: string;
+  /**
+  * A map of cluster profile variables, specified as key-value pairs. For example: `priority = "5"`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#variables ClusterVsphere#variables}
+  */
+  readonly variables?: { [key: string]: string };
+}
+
+export function clusterVsphereClusterTemplateClusterProfileToTerraform(struct?: ClusterVsphereClusterTemplateClusterProfile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+    variables: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.variables),
+  }
+}
+
+
+export function clusterVsphereClusterTemplateClusterProfileToHclTerraform(struct?: ClusterVsphereClusterTemplateClusterProfile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    variables: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.variables),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterVsphereClusterTemplateClusterProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterVsphereClusterTemplateClusterProfile | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._variables !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.variables = this._variables;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterVsphereClusterTemplateClusterProfile | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._id = undefined;
+      this._variables = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._id = value.id;
+      this._variables = value.variables;
+    }
+  }
+
+  // id - computed: false, optional: false, required: true
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // variables - computed: false, optional: true, required: false
+  private _variables?: { [key: string]: string }; 
+  public get variables() {
+    return this.getStringMapAttribute('variables');
+  }
+  public set variables(value: { [key: string]: string }) {
+    this._variables = value;
+  }
+  public resetVariables() {
+    this._variables = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get variablesInput() {
+    return this._variables;
+  }
+}
+
+export class ClusterVsphereClusterTemplateClusterProfileList extends cdktf.ComplexList {
+  public internalValue? : ClusterVsphereClusterTemplateClusterProfile[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterVsphereClusterTemplateClusterProfileOutputReference {
+    return new ClusterVsphereClusterTemplateClusterProfileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterVsphereClusterTemplate {
+  /**
+  * The ID of the cluster template.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#id ClusterVsphere#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id: string;
+  /**
+  * cluster_profile block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#cluster_profile ClusterVsphere#cluster_profile}
+  */
+  readonly clusterProfile?: ClusterVsphereClusterTemplateClusterProfile[] | cdktf.IResolvable;
+}
+
+export function clusterVsphereClusterTemplateToTerraform(struct?: ClusterVsphereClusterTemplateOutputReference | ClusterVsphereClusterTemplate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+    cluster_profile: cdktf.listMapper(clusterVsphereClusterTemplateClusterProfileToTerraform, true)(struct!.clusterProfile),
+  }
+}
+
+
+export function clusterVsphereClusterTemplateToHclTerraform(struct?: ClusterVsphereClusterTemplateOutputReference | ClusterVsphereClusterTemplate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cluster_profile: {
+      value: cdktf.listMapperHcl(clusterVsphereClusterTemplateClusterProfileToHclTerraform, true)(struct!.clusterProfile),
+      isBlock: true,
+      type: "set",
+      storageClassType: "ClusterVsphereClusterTemplateClusterProfileList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterVsphereClusterTemplateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ClusterVsphereClusterTemplate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._clusterProfile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clusterProfile = this._clusterProfile?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterVsphereClusterTemplate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._id = undefined;
+      this._clusterProfile.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._id = value.id;
+      this._clusterProfile.internalValue = value.clusterProfile;
+    }
+  }
+
+  // id - computed: false, optional: false, required: true
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // cluster_profile - computed: false, optional: true, required: false
+  private _clusterProfile = new ClusterVsphereClusterTemplateClusterProfileList(this, "cluster_profile", true);
+  public get clusterProfile() {
+    return this._clusterProfile;
+  }
+  public putClusterProfile(value: ClusterVsphereClusterTemplateClusterProfile[] | cdktf.IResolvable) {
+    this._clusterProfile.internalValue = value;
+  }
+  public resetClusterProfile() {
+    this._clusterProfile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterProfileInput() {
+    return this._clusterProfile.internalValue;
+  }
+}
 export interface ClusterVsphereHostConfig {
   /**
   * The external traffic policy for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#external_traffic_policy ClusterVsphere#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#external_traffic_policy ClusterVsphere#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * The type of endpoint for the cluster. Can be either 'Ingress' or 'LoadBalancer'. The default is 'Ingress'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#host_endpoint_type ClusterVsphere#host_endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#host_endpoint_type ClusterVsphere#host_endpoint_type}
   */
   readonly hostEndpointType?: string;
   /**
   * The host for the Ingress endpoint. Required if 'host_endpoint_type' is set to 'Ingress'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#ingress_host ClusterVsphere#ingress_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#ingress_host ClusterVsphere#ingress_host}
   */
   readonly ingressHost?: string;
   /**
   * The source ranges for the load balancer. Required if 'host_endpoint_type' is set to 'LoadBalancer'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#load_balancer_source_ranges ClusterVsphere#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#load_balancer_source_ranges ClusterVsphere#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string;
 }
@@ -2278,37 +2563,37 @@ export interface ClusterVsphereLocationConfig {
   /**
   * The country code of the country the cluster is located in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#country_code ClusterVsphere#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#country_code ClusterVsphere#country_code}
   */
   readonly countryCode?: string;
   /**
   * The name of the country.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#country_name ClusterVsphere#country_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#country_name ClusterVsphere#country_name}
   */
   readonly countryName?: string;
   /**
   * The latitude coordinates value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#latitude ClusterVsphere#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#latitude ClusterVsphere#latitude}
   */
   readonly latitude: number;
   /**
   * The longitude coordinates value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#longitude ClusterVsphere#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#longitude ClusterVsphere#longitude}
   */
   readonly longitude: number;
   /**
   * The region code of where the cluster is located in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#region_code ClusterVsphere#region_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#region_code ClusterVsphere#region_code}
   */
   readonly regionCode?: string;
   /**
   * The name of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#region_name ClusterVsphere#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#region_name ClusterVsphere#region_name}
   */
   readonly regionName?: string;
 }
@@ -2565,19 +2850,19 @@ export interface ClusterVsphereMachinePoolInstanceType {
   /**
   * The number of CPUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#cpu ClusterVsphere#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#cpu ClusterVsphere#cpu}
   */
   readonly cpu: number;
   /**
   * The size of the disk in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#disk_size_gb ClusterVsphere#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#disk_size_gb ClusterVsphere#disk_size_gb}
   */
   readonly diskSizeGb: number;
   /**
   * The amount of memory in MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#memory_mb ClusterVsphere#memory_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#memory_mb ClusterVsphere#memory_mb}
   */
   readonly memoryMb: number;
 }
@@ -2712,13 +2997,13 @@ export interface ClusterVsphereMachinePoolNode {
   /**
   * The action to perform on the node. Valid values are: `cordon`, `uncordon`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#action ClusterVsphere#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#action ClusterVsphere#action}
   */
   readonly action: string;
   /**
   * The node_id of the node, For example `i-07f899a33dee624f7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#node_id ClusterVsphere#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#node_id ClusterVsphere#node_id}
   */
   readonly nodeId: string;
 }
@@ -2859,31 +3144,31 @@ export interface ClusterVsphereMachinePoolPlacement {
   /**
   * The name of the cluster to use for the machine pool. As it appears in the vSphere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#cluster ClusterVsphere#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#cluster ClusterVsphere#cluster}
   */
   readonly cluster: string;
   /**
   * The name of the datastore to use for the machine pool. As it appears in the vSphere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#datastore ClusterVsphere#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#datastore ClusterVsphere#datastore}
   */
   readonly datastore: string;
   /**
   * The name of the network to use for the machine pool. As it appears in the vSphere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#network ClusterVsphere#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#network ClusterVsphere#network}
   */
   readonly network: string;
   /**
   * The name of the resource pool to use for the machine pool. As it appears in the vSphere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#resource_pool ClusterVsphere#resource_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#resource_pool ClusterVsphere#resource_pool}
   */
   readonly resourcePool: string;
   /**
   * The ID of the static IP pool to use for the machine pool in case of static cluster placement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#static_ip_pool_id ClusterVsphere#static_ip_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#static_ip_pool_id ClusterVsphere#static_ip_pool_id}
   */
   readonly staticIpPoolId?: string;
 }
@@ -3110,19 +3395,19 @@ export interface ClusterVsphereMachinePoolTaints {
   /**
   * The effect of the taint. Allowed values are: `NoSchedule`, `PreferNoSchedule` or `NoExecute`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#effect ClusterVsphere#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#effect ClusterVsphere#effect}
   */
   readonly effect: string;
   /**
   * The key of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#key ClusterVsphere#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#key ClusterVsphere#key}
   */
   readonly key: string;
   /**
   * The value of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#value ClusterVsphere#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#value ClusterVsphere#value}
   */
   readonly value: string;
 }
@@ -3287,79 +3572,79 @@ export class ClusterVsphereMachinePoolTaintsList extends cdktf.ComplexList {
 }
 export interface ClusterVsphereMachinePool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#additional_labels ClusterVsphere#additional_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#additional_labels ClusterVsphere#additional_labels}
   */
   readonly additionalLabels?: { [key: string]: string };
   /**
   * Whether this machine pool is a control plane. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#control_plane ClusterVsphere#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#control_plane ClusterVsphere#control_plane}
   */
   readonly controlPlane?: boolean | cdktf.IResolvable;
   /**
   * Whether this machine pool is a control plane and a worker. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#control_plane_as_worker ClusterVsphere#control_plane_as_worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#control_plane_as_worker ClusterVsphere#control_plane_as_worker}
   */
   readonly controlPlaneAsWorker?: boolean | cdktf.IResolvable;
   /**
   * Number of nodes in the machine pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#count ClusterVsphere#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#count ClusterVsphere#count}
   */
   readonly count: number;
   /**
   * Maximum number of nodes in the machine pool. This is used for autoscaling the machine pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#max ClusterVsphere#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#max ClusterVsphere#max}
   */
   readonly max?: number;
   /**
   * Minimum number of nodes in the machine pool. This is used for autoscaling the machine pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#min ClusterVsphere#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#min ClusterVsphere#min}
   */
   readonly min?: number;
   /**
   * The name of the machine pool. This is used to identify the machine pool in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#name ClusterVsphere#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#name ClusterVsphere#name}
   */
   readonly name: string;
   /**
   * Minimum number of seconds node should be Ready, before the next node is selected for repave. Default value is `0`, Applicable only for worker pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#node_repave_interval ClusterVsphere#node_repave_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#node_repave_interval ClusterVsphere#node_repave_interval}
   */
   readonly nodeRepaveInterval?: number;
   /**
   * Update strategy for the machine pool. Valid values are `RollingUpdateScaleOut` and `RollingUpdateScaleIn`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#update_strategy ClusterVsphere#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#update_strategy ClusterVsphere#update_strategy}
   */
   readonly updateStrategy?: string;
   /**
   * instance_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#instance_type ClusterVsphere#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#instance_type ClusterVsphere#instance_type}
   */
   readonly instanceType: ClusterVsphereMachinePoolInstanceType;
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#node ClusterVsphere#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#node ClusterVsphere#node}
   */
   readonly nodeAttribute?: ClusterVsphereMachinePoolNode[] | cdktf.IResolvable;
   /**
   * placement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#placement ClusterVsphere#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#placement ClusterVsphere#placement}
   */
   readonly placement: ClusterVsphereMachinePoolPlacement[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#taints ClusterVsphere#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#taints ClusterVsphere#taints}
   */
   readonly taints?: ClusterVsphereMachinePoolTaints[] | cdktf.IResolvable;
 }
@@ -3813,13 +4098,13 @@ export interface ClusterVsphereNamespaces {
   /**
   * Name of the namespace. This is the name of the Kubernetes namespace in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#name ClusterVsphere#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#name ClusterVsphere#name}
   */
   readonly name: string;
   /**
   * Resource allocation for the namespace. This is a map containing the resource type and the resource value. For example, `{cpu_cores: '2', memory_MiB: '2048', gpu_limit: '1', gpu_provider: 'nvidia'}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#resource_allocation ClusterVsphere#resource_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#resource_allocation ClusterVsphere#resource_allocation}
   */
   readonly resourceAllocation: { [key: string]: string };
 }
@@ -3960,19 +4245,19 @@ export interface ClusterVsphereScanPolicy {
   /**
   * The schedule for configuration scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#configuration_scan_schedule ClusterVsphere#configuration_scan_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#configuration_scan_schedule ClusterVsphere#configuration_scan_schedule}
   */
   readonly configurationScanSchedule: string;
   /**
   * The schedule for conformance scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#conformance_scan_schedule ClusterVsphere#conformance_scan_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#conformance_scan_schedule ClusterVsphere#conformance_scan_schedule}
   */
   readonly conformanceScanSchedule: string;
   /**
   * The schedule for penetration scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#penetration_scan_schedule ClusterVsphere#penetration_scan_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#penetration_scan_schedule ClusterVsphere#penetration_scan_schedule}
   */
   readonly penetrationScanSchedule: string;
 }
@@ -4105,15 +4390,15 @@ export class ClusterVsphereScanPolicyOutputReference extends cdktf.ComplexObject
 }
 export interface ClusterVsphereTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#create ClusterVsphere#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#create ClusterVsphere#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#delete ClusterVsphere#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#delete ClusterVsphere#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#update ClusterVsphere#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#update ClusterVsphere#update}
   */
   readonly update?: string;
 }
@@ -4265,7 +4550,7 @@ export class ClusterVsphereTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere spectrocloud_cluster_vsphere}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere spectrocloud_cluster_vsphere}
 */
 export class ClusterVsphere extends cdktf.TerraformResource {
 
@@ -4281,7 +4566,7 @@ export class ClusterVsphere extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterVsphere resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterVsphere to import
-  * @param importFromId The id of the existing ClusterVsphere that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterVsphere that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterVsphere to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4293,7 +4578,7 @@ export class ClusterVsphere extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_vsphere spectrocloud_cluster_vsphere} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_vsphere spectrocloud_cluster_vsphere} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4304,8 +4589,8 @@ export class ClusterVsphere extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cluster_vsphere',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2',
-        providerVersionConstraint: '0.25.2'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4335,6 +4620,7 @@ export class ClusterVsphere extends cdktf.TerraformResource {
     this._cloudConfig.internalValue = config.cloudConfig;
     this._clusterProfile.internalValue = config.clusterProfile;
     this._clusterRbacBinding.internalValue = config.clusterRbacBinding;
+    this._clusterTemplate.internalValue = config.clusterTemplate;
     this._hostConfig.internalValue = config.hostConfig;
     this._locationConfig.internalValue = config.locationConfig;
     this._machinePool.internalValue = config.machinePool;
@@ -4673,6 +4959,22 @@ export class ClusterVsphere extends cdktf.TerraformResource {
     return this._clusterRbacBinding.internalValue;
   }
 
+  // cluster_template - computed: false, optional: true, required: false
+  private _clusterTemplate = new ClusterVsphereClusterTemplateOutputReference(this, "cluster_template");
+  public get clusterTemplate() {
+    return this._clusterTemplate;
+  }
+  public putClusterTemplate(value: ClusterVsphereClusterTemplate) {
+    this._clusterTemplate.internalValue = value;
+  }
+  public resetClusterTemplate() {
+    this._clusterTemplate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterTemplateInput() {
+    return this._clusterTemplate.internalValue;
+  }
+
   // host_config - computed: false, optional: true, required: false
   private _hostConfig = new ClusterVsphereHostConfigList(this, "host_config", false);
   public get hostConfig() {
@@ -4792,6 +5094,7 @@ export class ClusterVsphere extends cdktf.TerraformResource {
       cloud_config: clusterVsphereCloudConfigToTerraform(this._cloudConfig.internalValue),
       cluster_profile: cdktf.listMapper(clusterVsphereClusterProfileToTerraform, true)(this._clusterProfile.internalValue),
       cluster_rbac_binding: cdktf.listMapper(clusterVsphereClusterRbacBindingToTerraform, true)(this._clusterRbacBinding.internalValue),
+      cluster_template: clusterVsphereClusterTemplateToTerraform(this._clusterTemplate.internalValue),
       host_config: cdktf.listMapper(clusterVsphereHostConfigToTerraform, true)(this._hostConfig.internalValue),
       location_config: cdktf.listMapper(clusterVsphereLocationConfigToTerraform, true)(this._locationConfig.internalValue),
       machine_pool: cdktf.listMapper(clusterVsphereMachinePoolToTerraform, true)(this._machinePool.internalValue),
@@ -4922,6 +5225,12 @@ export class ClusterVsphere extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "ClusterVsphereClusterRbacBindingList",
+      },
+      cluster_template: {
+        value: clusterVsphereClusterTemplateToHclTerraform(this._clusterTemplate.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ClusterVsphereClusterTemplateList",
       },
       host_config: {
         value: cdktf.listMapperHcl(clusterVsphereHostConfigToHclTerraform, true)(this._hostConfig.internalValue),

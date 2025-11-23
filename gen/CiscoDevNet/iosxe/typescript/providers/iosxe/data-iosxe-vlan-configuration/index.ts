@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/vlan_configuration
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/vlan_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataIosxeVlanConfigurationConfig extends cdktf.TerraformMetaArg
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/vlan_configuration#device DataIosxeVlanConfiguration#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/vlan_configuration#device DataIosxeVlanConfiguration#device}
   */
   readonly device?: string;
   /**
   * VLAN ID List Eg. 1-10,15
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/vlan_configuration#vlan_id DataIosxeVlanConfiguration#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/vlan_configuration#vlan_id DataIosxeVlanConfiguration#vlan_id}
   */
-  readonly vlanId: number;
+  readonly vlanId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/vlan_configuration iosxe_vlan_configuration}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/vlan_configuration iosxe_vlan_configuration}
 */
 export class DataIosxeVlanConfiguration extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataIosxeVlanConfiguration extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeVlanConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeVlanConfiguration to import
-  * @param importFromId The id of the existing DataIosxeVlanConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/vlan_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeVlanConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/vlan_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeVlanConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataIosxeVlanConfiguration extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/vlan_configuration iosxe_vlan_configuration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/vlan_configuration iosxe_vlan_configuration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataIosxeVlanConfiguration extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_vlan_configuration',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -106,9 +106,34 @@ export class DataIosxeVlanConfiguration extends cdktf.TerraformDataSource {
     return this.getNumberAttribute('evpn_instance');
   }
 
+  // evpn_instance_legacy - computed: true, optional: false, required: false
+  public get evpnInstanceLegacy() {
+    return this.getNumberAttribute('evpn_instance_legacy');
+  }
+
+  // evpn_instance_profile - computed: true, optional: false, required: false
+  public get evpnInstanceProfile() {
+    return this.getStringAttribute('evpn_instance_profile');
+  }
+
+  // evpn_instance_profile_protected - computed: true, optional: false, required: false
+  public get evpnInstanceProfileProtected() {
+    return this.getBooleanAttribute('evpn_instance_profile_protected');
+  }
+
+  // evpn_instance_protected - computed: true, optional: false, required: false
+  public get evpnInstanceProtected() {
+    return this.getBooleanAttribute('evpn_instance_protected');
+  }
+
   // evpn_instance_vni - computed: true, optional: false, required: false
   public get evpnInstanceVni() {
     return this.getNumberAttribute('evpn_instance_vni');
+  }
+
+  // evpn_instance_vni_legacy - computed: true, optional: false, required: false
+  public get evpnInstanceVniLegacy() {
+    return this.getNumberAttribute('evpn_instance_vni_legacy');
   }
 
   // id - computed: true, optional: false, required: false
@@ -117,11 +142,11 @@ export class DataIosxeVlanConfiguration extends cdktf.TerraformDataSource {
   }
 
   // vlan_id - computed: false, optional: false, required: true
-  private _vlanId?: number; 
+  private _vlanId?: string; 
   public get vlanId() {
-    return this.getNumberAttribute('vlan_id');
+    return this.getStringAttribute('vlan_id');
   }
-  public set vlanId(value: number) {
+  public set vlanId(value: string) {
     this._vlanId = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -141,7 +166,7 @@ export class DataIosxeVlanConfiguration extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       device: cdktf.stringToTerraform(this._device),
-      vlan_id: cdktf.numberToTerraform(this._vlanId),
+      vlan_id: cdktf.stringToTerraform(this._vlanId),
     };
   }
 
@@ -154,10 +179,10 @@ export class DataIosxeVlanConfiguration extends cdktf.TerraformDataSource {
         storageClassType: "string",
       },
       vlan_id: {
-        value: cdktf.numberToHclTerraform(this._vlanId),
+        value: cdktf.stringToHclTerraform(this._vlanId),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
     };
 

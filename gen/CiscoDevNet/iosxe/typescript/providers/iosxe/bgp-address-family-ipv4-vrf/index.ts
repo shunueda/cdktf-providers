@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,49 +11,49 @@ export interface BgpAddressFamilyIpv4VrfConfig extends cdktf.TerraformMetaArgume
   * 
   *   - Choices: `flowspec`, `labeled-unicast`, `mdt`, `multicast`, `mvpn`, `sr-policy`, `tunnel`, `unicast`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#af_name BgpAddressFamilyIpv4Vrf#af_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#af_name BgpAddressFamilyIpv4Vrf#af_name}
   */
   readonly afName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#asn BgpAddressFamilyIpv4Vrf#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#asn BgpAddressFamilyIpv4Vrf#asn}
   */
   readonly asn: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#delete_mode BgpAddressFamilyIpv4Vrf#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#delete_mode BgpAddressFamilyIpv4Vrf#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#device BgpAddressFamilyIpv4Vrf#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#device BgpAddressFamilyIpv4Vrf#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#vrfs BgpAddressFamilyIpv4Vrf#vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#vrfs BgpAddressFamilyIpv4Vrf#vrfs}
   */
   readonly vrfs?: BgpAddressFamilyIpv4VrfVrfs[] | cdktf.IResolvable;
 }
 export interface BgpAddressFamilyIpv4VrfVrfsIpv4UnicastAdminDistances {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#acl BgpAddressFamilyIpv4Vrf#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#acl BgpAddressFamilyIpv4Vrf#acl}
   */
   readonly acl?: string;
   /**
   * 
   *   - Range: `1`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#distance BgpAddressFamilyIpv4Vrf#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#distance BgpAddressFamilyIpv4Vrf#distance}
   */
   readonly distance: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#source_ip BgpAddressFamilyIpv4Vrf#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#source_ip BgpAddressFamilyIpv4Vrf#source_ip}
   */
   readonly sourceIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#wildcard BgpAddressFamilyIpv4Vrf#wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#wildcard BgpAddressFamilyIpv4Vrf#wildcard}
   */
   readonly wildcard: string;
 }
@@ -247,13 +247,19 @@ export class BgpAddressFamilyIpv4VrfVrfsIpv4UnicastAdminDistancesList extends cd
 }
 export interface BgpAddressFamilyIpv4VrfVrfsIpv4UnicastAggregateAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_address BgpAddressFamilyIpv4Vrf#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_address BgpAddressFamilyIpv4Vrf#ipv4_address}
   */
   readonly ipv4Address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_mask BgpAddressFamilyIpv4Vrf#ipv4_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_mask BgpAddressFamilyIpv4Vrf#ipv4_mask}
   */
   readonly ipv4Mask: string;
+  /**
+  * Filter more specific routes from updates
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#summary_only BgpAddressFamilyIpv4Vrf#summary_only}
+  */
+  readonly summaryOnly?: boolean | cdktf.IResolvable;
 }
 
 export function bgpAddressFamilyIpv4VrfVrfsIpv4UnicastAggregateAddressesToTerraform(struct?: BgpAddressFamilyIpv4VrfVrfsIpv4UnicastAggregateAddresses | cdktf.IResolvable): any {
@@ -264,6 +270,7 @@ export function bgpAddressFamilyIpv4VrfVrfsIpv4UnicastAggregateAddressesToTerraf
   return {
     ipv4_address: cdktf.stringToTerraform(struct!.ipv4Address),
     ipv4_mask: cdktf.stringToTerraform(struct!.ipv4Mask),
+    summary_only: cdktf.booleanToTerraform(struct!.summaryOnly),
   }
 }
 
@@ -285,6 +292,12 @@ export function bgpAddressFamilyIpv4VrfVrfsIpv4UnicastAggregateAddressesToHclTer
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    summary_only: {
+      value: cdktf.booleanToHclTerraform(struct!.summaryOnly),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
   };
 
@@ -320,6 +333,10 @@ export class BgpAddressFamilyIpv4VrfVrfsIpv4UnicastAggregateAddressesOutputRefer
       hasAnyValues = true;
       internalValueResult.ipv4Mask = this._ipv4Mask;
     }
+    if (this._summaryOnly !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.summaryOnly = this._summaryOnly;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -329,6 +346,7 @@ export class BgpAddressFamilyIpv4VrfVrfsIpv4UnicastAggregateAddressesOutputRefer
       this.resolvableValue = undefined;
       this._ipv4Address = undefined;
       this._ipv4Mask = undefined;
+      this._summaryOnly = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -339,6 +357,7 @@ export class BgpAddressFamilyIpv4VrfVrfsIpv4UnicastAggregateAddressesOutputRefer
       this.resolvableValue = undefined;
       this._ipv4Address = value.ipv4Address;
       this._ipv4Mask = value.ipv4Mask;
+      this._summaryOnly = value.summaryOnly;
     }
   }
 
@@ -367,6 +386,22 @@ export class BgpAddressFamilyIpv4VrfVrfsIpv4UnicastAggregateAddressesOutputRefer
   public get ipv4MaskInput() {
     return this._ipv4Mask;
   }
+
+  // summary_only - computed: false, optional: true, required: false
+  private _summaryOnly?: boolean | cdktf.IResolvable; 
+  public get summaryOnly() {
+    return this.getBooleanAttribute('summary_only');
+  }
+  public set summaryOnly(value: boolean | cdktf.IResolvable) {
+    this._summaryOnly = value;
+  }
+  public resetSummaryOnly() {
+    this._summaryOnly = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get summaryOnlyInput() {
+    return this._summaryOnly;
+  }
 }
 
 export class BgpAddressFamilyIpv4VrfVrfsIpv4UnicastAggregateAddressesList extends cdktf.ComplexList {
@@ -392,23 +427,23 @@ export interface BgpAddressFamilyIpv4VrfVrfsIpv4UnicastNetworks {
   /**
   * Specify a BGP backdoor route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#backdoor BgpAddressFamilyIpv4Vrf#backdoor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#backdoor BgpAddressFamilyIpv4Vrf#backdoor}
   */
   readonly backdoor?: boolean | cdktf.IResolvable;
   /**
   * Advertise or export to EVPN address-family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#evpn BgpAddressFamilyIpv4Vrf#evpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#evpn BgpAddressFamilyIpv4Vrf#evpn}
   */
   readonly evpn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#network BgpAddressFamilyIpv4Vrf#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#network BgpAddressFamilyIpv4Vrf#network}
   */
   readonly network: string;
   /**
   * Route-map to modify the attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#route_map BgpAddressFamilyIpv4Vrf#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#route_map BgpAddressFamilyIpv4Vrf#route_map}
   */
   readonly routeMap?: string;
 }
@@ -610,29 +645,29 @@ export interface BgpAddressFamilyIpv4VrfVrfsIpv4UnicastNetworksMask {
   /**
   * Specify a BGP backdoor route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#backdoor BgpAddressFamilyIpv4Vrf#backdoor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#backdoor BgpAddressFamilyIpv4Vrf#backdoor}
   */
   readonly backdoor?: boolean | cdktf.IResolvable;
   /**
   * Advertise or export to EVPN address-family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#evpn BgpAddressFamilyIpv4Vrf#evpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#evpn BgpAddressFamilyIpv4Vrf#evpn}
   */
   readonly evpn?: boolean | cdktf.IResolvable;
   /**
   * Network mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#mask BgpAddressFamilyIpv4Vrf#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#mask BgpAddressFamilyIpv4Vrf#mask}
   */
   readonly mask: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#network BgpAddressFamilyIpv4Vrf#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#network BgpAddressFamilyIpv4Vrf#network}
   */
   readonly network: string;
   /**
   * Route-map to modify the attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#route_map BgpAddressFamilyIpv4Vrf#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#route_map BgpAddressFamilyIpv4Vrf#route_map}
   */
   readonly routeMap?: string;
 }
@@ -858,95 +893,101 @@ export class BgpAddressFamilyIpv4VrfVrfsIpv4UnicastNetworksMaskList extends cdkt
 }
 export interface BgpAddressFamilyIpv4VrfVrfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_admin_distances BgpAddressFamilyIpv4Vrf#ipv4_unicast_admin_distances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_admin_distances BgpAddressFamilyIpv4Vrf#ipv4_unicast_admin_distances}
   */
   readonly ipv4UnicastAdminDistances?: BgpAddressFamilyIpv4VrfVrfsIpv4UnicastAdminDistances[] | cdktf.IResolvable;
   /**
   * Advertise/export prefixes to l2vpn evpn table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_advertise_l2vpn_evpn BgpAddressFamilyIpv4Vrf#ipv4_unicast_advertise_l2vpn_evpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_advertise_l2vpn_evpn BgpAddressFamilyIpv4Vrf#ipv4_unicast_advertise_l2vpn_evpn}
   */
   readonly ipv4UnicastAdvertiseL2VpnEvpn?: boolean | cdktf.IResolvable;
   /**
   * Configure BGP aggregate entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_aggregate_addresses BgpAddressFamilyIpv4Vrf#ipv4_unicast_aggregate_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_aggregate_addresses BgpAddressFamilyIpv4Vrf#ipv4_unicast_aggregate_addresses}
   */
   readonly ipv4UnicastAggregateAddresses?: BgpAddressFamilyIpv4VrfVrfsIpv4UnicastAggregateAddresses[] | cdktf.IResolvable;
   /**
   * 
   *   - Range: `1`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_distance_bgp_external BgpAddressFamilyIpv4Vrf#ipv4_unicast_distance_bgp_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_distance_bgp_external BgpAddressFamilyIpv4Vrf#ipv4_unicast_distance_bgp_external}
   */
   readonly ipv4UnicastDistanceBgpExternal?: number;
   /**
   * 
   *   - Range: `1`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_distance_bgp_internal BgpAddressFamilyIpv4Vrf#ipv4_unicast_distance_bgp_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_distance_bgp_internal BgpAddressFamilyIpv4Vrf#ipv4_unicast_distance_bgp_internal}
   */
   readonly ipv4UnicastDistanceBgpInternal?: number;
   /**
   * 
   *   - Range: `1`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_distance_bgp_local BgpAddressFamilyIpv4Vrf#ipv4_unicast_distance_bgp_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_distance_bgp_local BgpAddressFamilyIpv4Vrf#ipv4_unicast_distance_bgp_local}
   */
   readonly ipv4UnicastDistanceBgpLocal?: number;
+  /**
+  * Import all available paths
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_import_path_selection_all BgpAddressFamilyIpv4Vrf#ipv4_unicast_import_path_selection_all}
+  */
+  readonly ipv4UnicastImportPathSelectionAll?: boolean | cdktf.IResolvable;
   /**
   * eBGP-multipath
   *   - Range: `1`-`32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_maximum_paths_ebgp BgpAddressFamilyIpv4Vrf#ipv4_unicast_maximum_paths_ebgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_maximum_paths_ebgp BgpAddressFamilyIpv4Vrf#ipv4_unicast_maximum_paths_ebgp}
   */
   readonly ipv4UnicastMaximumPathsEbgp?: number;
   /**
   * 
   *   - Range: `1`-`32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_maximum_paths_ibgp BgpAddressFamilyIpv4Vrf#ipv4_unicast_maximum_paths_ibgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_maximum_paths_ibgp BgpAddressFamilyIpv4Vrf#ipv4_unicast_maximum_paths_ibgp}
   */
   readonly ipv4UnicastMaximumPathsIbgp?: number;
   /**
   * Specify a network to announce via BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_networks BgpAddressFamilyIpv4Vrf#ipv4_unicast_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_networks BgpAddressFamilyIpv4Vrf#ipv4_unicast_networks}
   */
   readonly ipv4UnicastNetworks?: BgpAddressFamilyIpv4VrfVrfsIpv4UnicastNetworks[] | cdktf.IResolvable;
   /**
   * Specify a network to announce via BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_networks_mask BgpAddressFamilyIpv4Vrf#ipv4_unicast_networks_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_networks_mask BgpAddressFamilyIpv4Vrf#ipv4_unicast_networks_mask}
   */
   readonly ipv4UnicastNetworksMask?: BgpAddressFamilyIpv4VrfVrfsIpv4UnicastNetworksMask[] | cdktf.IResolvable;
   /**
   * Connected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_redistribute_connected BgpAddressFamilyIpv4Vrf#ipv4_unicast_redistribute_connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_redistribute_connected BgpAddressFamilyIpv4Vrf#ipv4_unicast_redistribute_connected}
   */
   readonly ipv4UnicastRedistributeConnected?: boolean | cdktf.IResolvable;
   /**
   * Static routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_redistribute_static BgpAddressFamilyIpv4Vrf#ipv4_unicast_redistribute_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_redistribute_static BgpAddressFamilyIpv4Vrf#ipv4_unicast_redistribute_static}
   */
   readonly ipv4UnicastRedistributeStatic?: boolean | cdktf.IResolvable;
   /**
   * Manually configured router identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_router_id_ip BgpAddressFamilyIpv4Vrf#ipv4_unicast_router_id_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_router_id_ip BgpAddressFamilyIpv4Vrf#ipv4_unicast_router_id_ip}
   */
   readonly ipv4UnicastRouterIdIp?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_router_id_loopback BgpAddressFamilyIpv4Vrf#ipv4_unicast_router_id_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#ipv4_unicast_router_id_loopback BgpAddressFamilyIpv4Vrf#ipv4_unicast_router_id_loopback}
   */
   readonly ipv4UnicastRouterIdLoopback?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#name BgpAddressFamilyIpv4Vrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#name BgpAddressFamilyIpv4Vrf#name}
   */
   readonly name: string;
 }
@@ -963,6 +1004,7 @@ export function bgpAddressFamilyIpv4VrfVrfsToTerraform(struct?: BgpAddressFamily
     ipv4_unicast_distance_bgp_external: cdktf.numberToTerraform(struct!.ipv4UnicastDistanceBgpExternal),
     ipv4_unicast_distance_bgp_internal: cdktf.numberToTerraform(struct!.ipv4UnicastDistanceBgpInternal),
     ipv4_unicast_distance_bgp_local: cdktf.numberToTerraform(struct!.ipv4UnicastDistanceBgpLocal),
+    ipv4_unicast_import_path_selection_all: cdktf.booleanToTerraform(struct!.ipv4UnicastImportPathSelectionAll),
     ipv4_unicast_maximum_paths_ebgp: cdktf.numberToTerraform(struct!.ipv4UnicastMaximumPathsEbgp),
     ipv4_unicast_maximum_paths_ibgp: cdktf.numberToTerraform(struct!.ipv4UnicastMaximumPathsIbgp),
     ipv4_unicast_networks: cdktf.listMapper(bgpAddressFamilyIpv4VrfVrfsIpv4UnicastNetworksToTerraform, false)(struct!.ipv4UnicastNetworks),
@@ -1017,6 +1059,12 @@ export function bgpAddressFamilyIpv4VrfVrfsToHclTerraform(struct?: BgpAddressFam
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    ipv4_unicast_import_path_selection_all: {
+      value: cdktf.booleanToHclTerraform(struct!.ipv4UnicastImportPathSelectionAll),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     ipv4_unicast_maximum_paths_ebgp: {
       value: cdktf.numberToHclTerraform(struct!.ipv4UnicastMaximumPathsEbgp),
@@ -1122,6 +1170,10 @@ export class BgpAddressFamilyIpv4VrfVrfsOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.ipv4UnicastDistanceBgpLocal = this._ipv4UnicastDistanceBgpLocal;
     }
+    if (this._ipv4UnicastImportPathSelectionAll !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4UnicastImportPathSelectionAll = this._ipv4UnicastImportPathSelectionAll;
+    }
     if (this._ipv4UnicastMaximumPathsEbgp !== undefined) {
       hasAnyValues = true;
       internalValueResult.ipv4UnicastMaximumPathsEbgp = this._ipv4UnicastMaximumPathsEbgp;
@@ -1171,6 +1223,7 @@ export class BgpAddressFamilyIpv4VrfVrfsOutputReference extends cdktf.ComplexObj
       this._ipv4UnicastDistanceBgpExternal = undefined;
       this._ipv4UnicastDistanceBgpInternal = undefined;
       this._ipv4UnicastDistanceBgpLocal = undefined;
+      this._ipv4UnicastImportPathSelectionAll = undefined;
       this._ipv4UnicastMaximumPathsEbgp = undefined;
       this._ipv4UnicastMaximumPathsIbgp = undefined;
       this._ipv4UnicastNetworks.internalValue = undefined;
@@ -1194,6 +1247,7 @@ export class BgpAddressFamilyIpv4VrfVrfsOutputReference extends cdktf.ComplexObj
       this._ipv4UnicastDistanceBgpExternal = value.ipv4UnicastDistanceBgpExternal;
       this._ipv4UnicastDistanceBgpInternal = value.ipv4UnicastDistanceBgpInternal;
       this._ipv4UnicastDistanceBgpLocal = value.ipv4UnicastDistanceBgpLocal;
+      this._ipv4UnicastImportPathSelectionAll = value.ipv4UnicastImportPathSelectionAll;
       this._ipv4UnicastMaximumPathsEbgp = value.ipv4UnicastMaximumPathsEbgp;
       this._ipv4UnicastMaximumPathsIbgp = value.ipv4UnicastMaximumPathsIbgp;
       this._ipv4UnicastNetworks.internalValue = value.ipv4UnicastNetworks;
@@ -1300,6 +1354,22 @@ export class BgpAddressFamilyIpv4VrfVrfsOutputReference extends cdktf.ComplexObj
   // Temporarily expose input value. Use with caution.
   public get ipv4UnicastDistanceBgpLocalInput() {
     return this._ipv4UnicastDistanceBgpLocal;
+  }
+
+  // ipv4_unicast_import_path_selection_all - computed: false, optional: true, required: false
+  private _ipv4UnicastImportPathSelectionAll?: boolean | cdktf.IResolvable; 
+  public get ipv4UnicastImportPathSelectionAll() {
+    return this.getBooleanAttribute('ipv4_unicast_import_path_selection_all');
+  }
+  public set ipv4UnicastImportPathSelectionAll(value: boolean | cdktf.IResolvable) {
+    this._ipv4UnicastImportPathSelectionAll = value;
+  }
+  public resetIpv4UnicastImportPathSelectionAll() {
+    this._ipv4UnicastImportPathSelectionAll = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4UnicastImportPathSelectionAllInput() {
+    return this._ipv4UnicastImportPathSelectionAll;
   }
 
   // ipv4_unicast_maximum_paths_ebgp - computed: false, optional: true, required: false
@@ -1465,7 +1535,7 @@ export class BgpAddressFamilyIpv4VrfVrfsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf iosxe_bgp_address_family_ipv4_vrf}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf iosxe_bgp_address_family_ipv4_vrf}
 */
 export class BgpAddressFamilyIpv4Vrf extends cdktf.TerraformResource {
 
@@ -1481,7 +1551,7 @@ export class BgpAddressFamilyIpv4Vrf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpAddressFamilyIpv4Vrf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpAddressFamilyIpv4Vrf to import
-  * @param importFromId The id of the existing BgpAddressFamilyIpv4Vrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpAddressFamilyIpv4Vrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpAddressFamilyIpv4Vrf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1493,7 +1563,7 @@ export class BgpAddressFamilyIpv4Vrf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_address_family_ipv4_vrf iosxe_bgp_address_family_ipv4_vrf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/bgp_address_family_ipv4_vrf iosxe_bgp_address_family_ipv4_vrf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1504,8 +1574,8 @@ export class BgpAddressFamilyIpv4Vrf extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bgp_address_family_ipv4_vrf',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

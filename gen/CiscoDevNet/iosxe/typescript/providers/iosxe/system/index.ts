@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,856 +10,886 @@ export interface SystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * Deny MAC moves (clears existing session)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#access_session_mac_move_deny System#access_session_mac_move_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#access_session_mac_move_deny System#access_session_mac_move_deny}
   */
   readonly accessSessionMacMoveDeny?: boolean | cdktf.IResolvable;
   /**
   * Enable the config logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#archive_log_config_logging_enable System#archive_log_config_logging_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#archive_log_config_logging_enable System#archive_log_config_logging_enable}
   */
   readonly archiveLogConfigLoggingEnable?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of logged commands that will be kept by the config log
   *   - Range: `1`-`1000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#archive_log_config_logging_size System#archive_log_config_logging_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#archive_log_config_logging_size System#archive_log_config_logging_size}
   */
   readonly archiveLogConfigLoggingSize?: number;
   /**
   * maximum number of backup copies
   *   - Range: `1`-`14`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#archive_maximum System#archive_maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#archive_maximum System#archive_maximum}
   */
   readonly archiveMaximum?: number;
   /**
   * path for backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#archive_path System#archive_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#archive_path System#archive_path}
   */
   readonly archivePath?: string;
   /**
   * Period of time in minutes to automatically archive the running-config
   *   - Range: `1`-`525600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#archive_time_period System#archive_time_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#archive_time_period System#archive_time_period}
   */
   readonly archiveTimePeriod?: number;
   /**
   * Enable automatic backup generation during write memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#archive_write_memory System#archive_write_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#archive_write_memory System#archive_write_memory}
   */
   readonly archiveWriteMemory?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#boot_system_bootfiles System#boot_system_bootfiles}
+  * Deny MAC move to uncontrolled port
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#authentication_mac_move_deny_uncontrolled System#authentication_mac_move_deny_uncontrolled}
+  */
+  readonly authenticationMacMoveDenyUncontrolled?: boolean | cdktf.IResolvable;
+  /**
+  * PERMIT MAC moves (clears existing session)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#authentication_mac_move_permit System#authentication_mac_move_permit}
+  */
+  readonly authenticationMacMovePermit?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#boot_system_bootfiles System#boot_system_bootfiles}
   */
   readonly bootSystemBootfiles?: SystemBootSystemBootfiles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#boot_system_flash_files System#boot_system_flash_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#boot_system_flash_files System#boot_system_flash_files}
   */
   readonly bootSystemFlashFiles?: SystemBootSystemFlashFiles[] | cdktf.IResolvable;
   /**
   * To specify transport method for this profile
   *   - Choices: `email`, `http`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#call_home_cisco_tac_1_destination_transport_method System#call_home_cisco_tac_1_destination_transport_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#call_home_cisco_tac_1_destination_transport_method System#call_home_cisco_tac_1_destination_transport_method}
   */
   readonly callHomeCiscoTac1DestinationTransportMethod?: string;
   /**
   * Activate the current profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#call_home_cisco_tac_1_profile_active System#call_home_cisco_tac_1_profile_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#call_home_cisco_tac_1_profile_active System#call_home_cisco_tac_1_profile_active}
   */
   readonly callHomeCiscoTac1ProfileActive?: boolean | cdktf.IResolvable;
   /**
   * Use email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#call_home_contact_email System#call_home_contact_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#call_home_contact_email System#call_home_contact_email}
   */
   readonly callHomeContactEmail?: string;
   /**
   * Enable CISP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#cisp_enable System#cisp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#cisp_enable System#cisp_enable}
   */
   readonly cispEnable?: boolean | cdktf.IResolvable;
   /**
   * Assign policy-map to the input of an interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#control_plane_service_policy_input System#control_plane_service_policy_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#control_plane_service_policy_input System#control_plane_service_policy_input}
   */
   readonly controlPlaneServicePolicyInput?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#device System#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#device System#device}
   */
   readonly device?: string;
+  /**
+  * Enable/Disable classification of attached devices
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#device_classifier System#device_classifier}
+  */
+  readonly deviceClassifier?: boolean | cdktf.IResolvable;
   /**
   * Select diagnostic level
   *   - Choices: `complete`, `minimal`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#diagnostic_bootup_level System#diagnostic_bootup_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#diagnostic_bootup_level System#diagnostic_bootup_level}
   */
   readonly diagnosticBootupLevel?: string;
   /**
   * Configure event log size Number of entries <1-10000>
   *   - Range: `1`-`10000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#diagnostic_event_log_size System#diagnostic_event_log_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#diagnostic_event_log_size System#diagnostic_event_log_size}
   */
   readonly diagnosticEventLogSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#enable_secret System#enable_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#enable_secret System#enable_secret}
   */
   readonly enableSecret?: string;
   /**
   * Set exec level password
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#enable_secret_level System#enable_secret_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#enable_secret_level System#enable_secret_level}
   */
   readonly enableSecretLevel?: number;
   /**
   * 
   *   - Choices: `0`, `4`, `5`, `8`, `9`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#enable_secret_type System#enable_secret_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#enable_secret_type System#enable_secret_type}
   */
   readonly enableSecretType?: string;
   /**
   * Enable EPM logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#epm_logging System#epm_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#epm_logging System#epm_logging}
   */
   readonly epmLogging?: boolean | cdktf.IResolvable;
   /**
   * msec (default 2500 msec)
   *   - Range: `2500`-`10000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ethernet_cfm_alarm_config_delay System#ethernet_cfm_alarm_config_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ethernet_cfm_alarm_config_delay System#ethernet_cfm_alarm_config_delay}
   */
   readonly ethernetCfmAlarmConfigDelay?: number;
   /**
   * msec (default 10000 msec)
   *   - Range: `2500`-`10000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ethernet_cfm_alarm_config_reset System#ethernet_cfm_alarm_config_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ethernet_cfm_alarm_config_reset System#ethernet_cfm_alarm_config_reset}
   */
   readonly ethernetCfmAlarmConfigReset?: number;
   /**
   * Set system's network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#hostname System#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#hostname System#hostname}
   */
   readonly hostname?: string;
   /**
   * select aa:nn format for BGP community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_bgp_community_new_format System#ip_bgp_community_new_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_bgp_community_new_format System#ip_bgp_community_new_format}
   */
   readonly ipBgpCommunityNewFormat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_cef_load_sharing_algorithm_include_ports_destination System#ip_cef_load_sharing_algorithm_include_ports_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_cef_load_sharing_algorithm_include_ports_destination System#ip_cef_load_sharing_algorithm_include_ports_destination}
   */
   readonly ipCefLoadSharingAlgorithmIncludePortsDestination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_cef_load_sharing_algorithm_include_ports_source System#ip_cef_load_sharing_algorithm_include_ports_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_cef_load_sharing_algorithm_include_ports_source System#ip_cef_load_sharing_algorithm_include_ports_source}
   */
   readonly ipCefLoadSharingAlgorithmIncludePortsSource?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_list_names System#ip_domain_list_names}
+  * Specify default gateway (if not routing IP)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_default_gateway System#ip_default_gateway}
+  */
+  readonly ipDefaultGateway?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_list_names System#ip_domain_list_names}
   */
   readonly ipDomainListNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_list_vrf System#ip_domain_list_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_list_vrf System#ip_domain_list_vrf}
   */
   readonly ipDomainListVrf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_list_vrf_domain System#ip_domain_list_vrf_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_list_vrf_domain System#ip_domain_list_vrf_domain}
   */
   readonly ipDomainListVrfDomain?: string;
   /**
   * Enable IP Domain Name System hostname translation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_lookup System#ip_domain_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_lookup System#ip_domain_lookup}
   */
   readonly ipDomainLookup?: boolean | cdktf.IResolvable;
   /**
   * Enable IP DNS queries for CLNS NSAP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_lookup_nsap System#ip_domain_lookup_nsap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_lookup_nsap System#ip_domain_lookup_nsap}
   */
   readonly ipDomainLookupNsap?: boolean | cdktf.IResolvable;
   /**
   * Enable IP DNS recursive lookup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_lookup_recursive System#ip_domain_lookup_recursive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_lookup_recursive System#ip_domain_lookup_recursive}
   */
   readonly ipDomainLookupRecursive?: boolean | cdktf.IResolvable;
   /**
   * Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_lookup_source_interface_five_gigabit_ethernet System#ip_domain_lookup_source_interface_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_lookup_source_interface_five_gigabit_ethernet System#ip_domain_lookup_source_interface_five_gigabit_ethernet}
   */
   readonly ipDomainLookupSourceInterfaceFiveGigabitEthernet?: string;
   /**
   * Forty GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_lookup_source_interface_forty_gigabit_ethernet System#ip_domain_lookup_source_interface_forty_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_lookup_source_interface_forty_gigabit_ethernet System#ip_domain_lookup_source_interface_forty_gigabit_ethernet}
   */
   readonly ipDomainLookupSourceInterfaceFortyGigabitEthernet?: string;
   /**
   * GigabitEthernet IEEE 802.3z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_lookup_source_interface_gigabit_ethernet System#ip_domain_lookup_source_interface_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_lookup_source_interface_gigabit_ethernet System#ip_domain_lookup_source_interface_gigabit_ethernet}
   */
   readonly ipDomainLookupSourceInterfaceGigabitEthernet?: string;
   /**
   * Hundred GigabitEthernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_lookup_source_interface_hundred_gigabit_ethernet System#ip_domain_lookup_source_interface_hundred_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_lookup_source_interface_hundred_gigabit_ethernet System#ip_domain_lookup_source_interface_hundred_gigabit_ethernet}
   */
   readonly ipDomainLookupSourceInterfaceHundredGigabitEthernet?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_lookup_source_interface_loopback System#ip_domain_lookup_source_interface_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_lookup_source_interface_loopback System#ip_domain_lookup_source_interface_loopback}
   */
   readonly ipDomainLookupSourceInterfaceLoopback?: number;
   /**
   * Ten Gigabit Ethernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_lookup_source_interface_ten_gigabit_ethernet System#ip_domain_lookup_source_interface_ten_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_lookup_source_interface_ten_gigabit_ethernet System#ip_domain_lookup_source_interface_ten_gigabit_ethernet}
   */
   readonly ipDomainLookupSourceInterfaceTenGigabitEthernet?: string;
   /**
   * Twenty Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_lookup_source_interface_twenty_five_gigabit_ethernet System#ip_domain_lookup_source_interface_twenty_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_lookup_source_interface_twenty_five_gigabit_ethernet System#ip_domain_lookup_source_interface_twenty_five_gigabit_ethernet}
   */
   readonly ipDomainLookupSourceInterfaceTwentyFiveGigabitEthernet?: string;
   /**
   * Two GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_lookup_source_interface_two_gigabit_ethernet System#ip_domain_lookup_source_interface_two_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_lookup_source_interface_two_gigabit_ethernet System#ip_domain_lookup_source_interface_two_gigabit_ethernet}
   */
   readonly ipDomainLookupSourceInterfaceTwoGigabitEthernet?: string;
   /**
   * Iosxr Vlans
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_lookup_source_interface_vlan System#ip_domain_lookup_source_interface_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_lookup_source_interface_vlan System#ip_domain_lookup_source_interface_vlan}
   */
   readonly ipDomainLookupSourceInterfaceVlan?: number;
   /**
   * Specify VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_lookup_vrfs System#ip_domain_lookup_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_lookup_vrfs System#ip_domain_lookup_vrfs}
   */
   readonly ipDomainLookupVrfs?: SystemIpDomainLookupVrfs[] | cdktf.IResolvable;
   /**
   * Define the default domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_domain_name System#ip_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_domain_name System#ip_domain_name}
   */
   readonly ipDomainName?: string;
   /**
   * Sun's Network Disk protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_forward_protocol_nd System#ip_forward_protocol_nd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_forward_protocol_nd System#ip_forward_protocol_nd}
   */
   readonly ipForwardProtocolNd?: boolean | cdktf.IResolvable;
   /**
   * Connect using passive mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ftp_passive System#ip_ftp_passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ftp_passive System#ip_ftp_passive}
   */
   readonly ipFtpPassive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_hosts System#ip_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_hosts System#ip_hosts}
   */
   readonly ipHosts?: SystemIpHosts[] | cdktf.IResolvable;
   /**
   * Specify VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_hosts_vrf System#ip_hosts_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_hosts_vrf System#ip_hosts_vrf}
   */
   readonly ipHostsVrf?: SystemIpHostsVrf[] | cdktf.IResolvable;
   /**
   * Restrict http server access by access-class
   *   - Range: `1`-`99`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_access_class System#ip_http_access_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_access_class System#ip_http_access_class}
   */
   readonly ipHttpAccessClass?: number;
   /**
   * Set active session modules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_active_session_modules System#ip_http_active_session_modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_active_session_modules System#ip_http_active_session_modules}
   */
   readonly ipHttpActiveSessionModules?: string;
   /**
   * Use AAA access control methods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_authentication_aaa System#ip_http_authentication_aaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_authentication_aaa System#ip_http_authentication_aaa}
   */
   readonly ipHttpAuthenticationAaa?: boolean | cdktf.IResolvable;
   /**
   * Set method list for command authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_authentication_aaa_command_authorization System#ip_http_authentication_aaa_command_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_authentication_aaa_command_authorization System#ip_http_authentication_aaa_command_authorization}
   */
   readonly ipHttpAuthenticationAaaCommandAuthorization?: SystemIpHttpAuthenticationAaaCommandAuthorization[] | cdktf.IResolvable;
   /**
   * Set method list for exec authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_authentication_aaa_exec_authorization System#ip_http_authentication_aaa_exec_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_authentication_aaa_exec_authorization System#ip_http_authentication_aaa_exec_authorization}
   */
   readonly ipHttpAuthenticationAaaExecAuthorization?: string;
   /**
   * Set method list for login authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_authentication_aaa_login_authentication System#ip_http_authentication_aaa_login_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_authentication_aaa_login_authentication System#ip_http_authentication_aaa_login_authentication}
   */
   readonly ipHttpAuthenticationAaaLoginAuthentication?: string;
   /**
   * Use local username and passwords
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_authentication_local System#ip_http_authentication_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_authentication_local System#ip_http_authentication_local}
   */
   readonly ipHttpAuthenticationLocal?: boolean | cdktf.IResolvable;
   /**
   * Set http client certificate secure trustpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_client_secure_trustpoint System#ip_http_client_secure_trustpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_client_secure_trustpoint System#ip_http_client_secure_trustpoint}
   */
   readonly ipHttpClientSecureTrustpoint?: string;
   /**
   * Specify interface for source address in all HTTP(S) client connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_client_source_interface System#ip_http_client_source_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_client_source_interface System#ip_http_client_source_interface}
   */
   readonly ipHttpClientSourceInterface?: string;
   /**
   * max http connections
   *   - Range: `1`-`50`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_max_connections System#ip_http_max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_max_connections System#ip_http_max_connections}
   */
   readonly ipHttpMaxConnections?: number;
   /**
   * Set secure active session modules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_secure_active_session_modules System#ip_http_secure_active_session_modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_secure_active_session_modules System#ip_http_secure_active_session_modules}
   */
   readonly ipHttpSecureActiveSessionModules?: string;
   /**
   * Enable HTTP secure server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_secure_server System#ip_http_secure_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_secure_server System#ip_http_secure_server}
   */
   readonly ipHttpSecureServer?: boolean | cdktf.IResolvable;
   /**
   * Set http secure server certificate trustpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_secure_trustpoint System#ip_http_secure_trustpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_secure_trustpoint System#ip_http_secure_trustpoint}
   */
   readonly ipHttpSecureTrustpoint?: string;
   /**
   * Enable http server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_server System#ip_http_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_server System#ip_http_server}
   */
   readonly ipHttpServer?: boolean | cdktf.IResolvable;
   /**
   * Set TLS version for HTTP secure server
   *   - Choices: `TLSv1.0`, `TLSv1.1`, `TLSv1.2`, `TLSv1.3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_http_tls_version System#ip_http_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_http_tls_version System#ip_http_tls_version}
   */
   readonly ipHttpTlsVersion?: string;
   /**
   * Maximum number of multicast routes
   *   - Range: `1`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_multicast_route_limit System#ip_multicast_route_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_multicast_route_limit System#ip_multicast_route_limit}
   */
   readonly ipMulticastRouteLimit?: number;
   /**
   * Enable IP multicast forwarding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_multicast_routing System#ip_multicast_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_multicast_routing System#ip_multicast_routing}
   */
   readonly ipMulticastRouting?: boolean | cdktf.IResolvable;
   /**
   * Distributed multicast switching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_multicast_routing_distributed System#ip_multicast_routing_distributed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_multicast_routing_distributed System#ip_multicast_routing_distributed}
   */
   readonly ipMulticastRoutingDistributed?: boolean | cdktf.IResolvable;
   /**
   * Domain server IPv4/IPv6 address (maximum of 6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_name_servers System#ip_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_name_servers System#ip_name_servers}
   */
   readonly ipNameServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_name_servers_vrf System#ip_name_servers_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_name_servers_vrf System#ip_name_servers_vrf}
   */
   readonly ipNameServersVrf?: SystemIpNameServersVrf[] | cdktf.IResolvable;
   /**
   * dns classification by domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_nbar_classification_dns_classify_by_domain System#ip_nbar_classification_dns_classify_by_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_nbar_classification_dns_classify_by_domain System#ip_nbar_classification_dns_classify_by_domain}
   */
   readonly ipNbarClassificationDnsClassifyByDomain?: boolean | cdktf.IResolvable;
   /**
   * Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_radius_source_interface_five_gigabit_ethernet System#ip_radius_source_interface_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_radius_source_interface_five_gigabit_ethernet System#ip_radius_source_interface_five_gigabit_ethernet}
   */
   readonly ipRadiusSourceInterfaceFiveGigabitEthernet?: string;
   /**
   * Forty GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_radius_source_interface_forty_gigabit_ethernet System#ip_radius_source_interface_forty_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_radius_source_interface_forty_gigabit_ethernet System#ip_radius_source_interface_forty_gigabit_ethernet}
   */
   readonly ipRadiusSourceInterfaceFortyGigabitEthernet?: string;
   /**
   * GigabitEthernet IEEE 802.3z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_radius_source_interface_gigabit_ethernet System#ip_radius_source_interface_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_radius_source_interface_gigabit_ethernet System#ip_radius_source_interface_gigabit_ethernet}
   */
   readonly ipRadiusSourceInterfaceGigabitEthernet?: string;
   /**
   * Hundred GigabitEthernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_radius_source_interface_hundred_gigabit_ethernet System#ip_radius_source_interface_hundred_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_radius_source_interface_hundred_gigabit_ethernet System#ip_radius_source_interface_hundred_gigabit_ethernet}
   */
   readonly ipRadiusSourceInterfaceHundredGigabitEthernet?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_radius_source_interface_loopback System#ip_radius_source_interface_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_radius_source_interface_loopback System#ip_radius_source_interface_loopback}
   */
   readonly ipRadiusSourceInterfaceLoopback?: number;
   /**
   * Ten Gigabit Ethernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_radius_source_interface_ten_gigabit_ethernet System#ip_radius_source_interface_ten_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_radius_source_interface_ten_gigabit_ethernet System#ip_radius_source_interface_ten_gigabit_ethernet}
   */
   readonly ipRadiusSourceInterfaceTenGigabitEthernet?: string;
   /**
   * Twenty Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_radius_source_interface_twenty_five_gigabit_ethernet System#ip_radius_source_interface_twenty_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_radius_source_interface_twenty_five_gigabit_ethernet System#ip_radius_source_interface_twenty_five_gigabit_ethernet}
   */
   readonly ipRadiusSourceInterfaceTwentyFiveGigabitEthernet?: string;
   /**
   * Two GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_radius_source_interface_two_gigabit_ethernet System#ip_radius_source_interface_two_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_radius_source_interface_two_gigabit_ethernet System#ip_radius_source_interface_two_gigabit_ethernet}
   */
   readonly ipRadiusSourceInterfaceTwoGigabitEthernet?: string;
   /**
   * Iosxr Vlans
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_radius_source_interface_vlan System#ip_radius_source_interface_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_radius_source_interface_vlan System#ip_radius_source_interface_vlan}
   */
   readonly ipRadiusSourceInterfaceVlan?: number;
   /**
   * VPN Routing/Forwarding parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_radius_source_interface_vrf System#ip_radius_source_interface_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_radius_source_interface_vrf System#ip_radius_source_interface_vrf}
   */
   readonly ipRadiusSourceInterfaceVrf?: string;
   /**
   * Enable or disable IP routing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_routing System#ip_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_routing System#ip_routing}
   */
   readonly ipRouting?: boolean | cdktf.IResolvable;
   /**
   * Perform IP routing protocol routes purge on link failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_routing_protocol_purge_interface System#ip_routing_protocol_purge_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_routing_protocol_purge_interface System#ip_routing_protocol_purge_interface}
   */
   readonly ipRoutingProtocolPurgeInterface?: boolean | cdktf.IResolvable;
   /**
   * Enable server side of SCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_scp_server_enable System#ip_scp_server_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_scp_server_enable System#ip_scp_server_enable}
   */
   readonly ipScpServerEnable?: boolean | cdktf.IResolvable;
   /**
   * Process packets with source routing header options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_source_route System#ip_source_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_source_route System#ip_source_route}
   */
   readonly ipSourceRoute?: boolean | cdktf.IResolvable;
   /**
   * Specify number of authentication retries
   *   - Range: `0`-`5`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_authentication_retries System#ip_ssh_authentication_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_authentication_retries System#ip_ssh_authentication_retries}
   */
   readonly ipSshAuthenticationRetries?: number;
   /**
   * Enable optimizations for bulk data transfer procedures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_bulk_mode System#ip_ssh_bulk_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_bulk_mode System#ip_ssh_bulk_mode}
   */
   readonly ipSshBulkMode?: boolean | cdktf.IResolvable;
   /**
   * Window-size value
   *   - Range: `131072`-`1073741824`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_bulk_mode_window_size System#ip_ssh_bulk_mode_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_bulk_mode_window_size System#ip_ssh_bulk_mode_window_size}
   */
   readonly ipSshBulkModeWindowSize?: number;
   /**
   * Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_source_interface_five_gigabit_ethernet System#ip_ssh_source_interface_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_source_interface_five_gigabit_ethernet System#ip_ssh_source_interface_five_gigabit_ethernet}
   */
   readonly ipSshSourceInterfaceFiveGigabitEthernet?: string;
   /**
   * Forty GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_source_interface_forty_gigabit_ethernet System#ip_ssh_source_interface_forty_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_source_interface_forty_gigabit_ethernet System#ip_ssh_source_interface_forty_gigabit_ethernet}
   */
   readonly ipSshSourceInterfaceFortyGigabitEthernet?: string;
   /**
   * GigabitEthernet IEEE 802.3z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_source_interface_gigabit_ethernet System#ip_ssh_source_interface_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_source_interface_gigabit_ethernet System#ip_ssh_source_interface_gigabit_ethernet}
   */
   readonly ipSshSourceInterfaceGigabitEthernet?: string;
   /**
   * Hundred GigabitEthernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_source_interface_hundred_gigabit_ethernet System#ip_ssh_source_interface_hundred_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_source_interface_hundred_gigabit_ethernet System#ip_ssh_source_interface_hundred_gigabit_ethernet}
   */
   readonly ipSshSourceInterfaceHundredGigabitEthernet?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_source_interface_loopback System#ip_ssh_source_interface_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_source_interface_loopback System#ip_ssh_source_interface_loopback}
   */
   readonly ipSshSourceInterfaceLoopback?: number;
   /**
   * Ten Gigabit Ethernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_source_interface_ten_gigabit_ethernet System#ip_ssh_source_interface_ten_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_source_interface_ten_gigabit_ethernet System#ip_ssh_source_interface_ten_gigabit_ethernet}
   */
   readonly ipSshSourceInterfaceTenGigabitEthernet?: string;
   /**
   * Twenty Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_source_interface_twenty_five_gigabit_ethernet System#ip_ssh_source_interface_twenty_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_source_interface_twenty_five_gigabit_ethernet System#ip_ssh_source_interface_twenty_five_gigabit_ethernet}
   */
   readonly ipSshSourceInterfaceTwentyFiveGigabitEthernet?: string;
   /**
   * Two GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_source_interface_two_gigabit_ethernet System#ip_ssh_source_interface_two_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_source_interface_two_gigabit_ethernet System#ip_ssh_source_interface_two_gigabit_ethernet}
   */
   readonly ipSshSourceInterfaceTwoGigabitEthernet?: string;
   /**
   * Iosxr Vlans
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_source_interface_vlan System#ip_ssh_source_interface_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_source_interface_vlan System#ip_ssh_source_interface_vlan}
   */
   readonly ipSshSourceInterfaceVlan?: number;
   /**
   * Specify SSH time-out interval
   *   - Range: `1`-`120`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_time_out System#ip_ssh_time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_time_out System#ip_ssh_time_out}
   */
   readonly ipSshTimeOut?: number;
   /**
   * Specify protocol version supported
   *   - Choices: `2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_version System#ip_ssh_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_version System#ip_ssh_version}
   */
   readonly ipSshVersion?: string;
   /**
   * Specify protocol version supported. DEPRECATED, Use ssh-version instead
   *   - Range: `1`-`2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_ssh_version_legacy System#ip_ssh_version_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_ssh_version_legacy System#ip_ssh_version_legacy}
   */
   readonly ipSshVersionLegacy?: number;
   /**
   * Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_tacacs_source_interface_five_gigabit_ethernet System#ip_tacacs_source_interface_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_tacacs_source_interface_five_gigabit_ethernet System#ip_tacacs_source_interface_five_gigabit_ethernet}
   */
   readonly ipTacacsSourceInterfaceFiveGigabitEthernet?: string;
   /**
   * Forty GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_tacacs_source_interface_forty_gigabit_ethernet System#ip_tacacs_source_interface_forty_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_tacacs_source_interface_forty_gigabit_ethernet System#ip_tacacs_source_interface_forty_gigabit_ethernet}
   */
   readonly ipTacacsSourceInterfaceFortyGigabitEthernet?: string;
   /**
   * GigabitEthernet IEEE 802.3z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_tacacs_source_interface_gigabit_ethernet System#ip_tacacs_source_interface_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_tacacs_source_interface_gigabit_ethernet System#ip_tacacs_source_interface_gigabit_ethernet}
   */
   readonly ipTacacsSourceInterfaceGigabitEthernet?: string;
   /**
   * Hundred GigabitEthernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_tacacs_source_interface_hundred_gigabit_ethernet System#ip_tacacs_source_interface_hundred_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_tacacs_source_interface_hundred_gigabit_ethernet System#ip_tacacs_source_interface_hundred_gigabit_ethernet}
   */
   readonly ipTacacsSourceInterfaceHundredGigabitEthernet?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_tacacs_source_interface_loopback System#ip_tacacs_source_interface_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_tacacs_source_interface_loopback System#ip_tacacs_source_interface_loopback}
   */
   readonly ipTacacsSourceInterfaceLoopback?: number;
   /**
   * Ten Gigabit Ethernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_tacacs_source_interface_ten_gigabit_ethernet System#ip_tacacs_source_interface_ten_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_tacacs_source_interface_ten_gigabit_ethernet System#ip_tacacs_source_interface_ten_gigabit_ethernet}
   */
   readonly ipTacacsSourceInterfaceTenGigabitEthernet?: string;
   /**
   * Twenty Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_tacacs_source_interface_twenty_five_gigabit_ethernet System#ip_tacacs_source_interface_twenty_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_tacacs_source_interface_twenty_five_gigabit_ethernet System#ip_tacacs_source_interface_twenty_five_gigabit_ethernet}
   */
   readonly ipTacacsSourceInterfaceTwentyFiveGigabitEthernet?: string;
   /**
   * Two GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_tacacs_source_interface_two_gigabit_ethernet System#ip_tacacs_source_interface_two_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_tacacs_source_interface_two_gigabit_ethernet System#ip_tacacs_source_interface_two_gigabit_ethernet}
   */
   readonly ipTacacsSourceInterfaceTwoGigabitEthernet?: string;
   /**
   * Iosxr Vlans
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_tacacs_source_interface_vlan System#ip_tacacs_source_interface_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_tacacs_source_interface_vlan System#ip_tacacs_source_interface_vlan}
   */
   readonly ipTacacsSourceInterfaceVlan?: number;
   /**
   * VPN Routing/Forwarding parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_tacacs_source_interface_vrf System#ip_tacacs_source_interface_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_tacacs_source_interface_vrf System#ip_tacacs_source_interface_vrf}
   */
   readonly ipTacacsSourceInterfaceVrf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ipv6_cef_load_sharing_algorithm_include_ports_destination System#ipv6_cef_load_sharing_algorithm_include_ports_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ipv6_cef_load_sharing_algorithm_include_ports_destination System#ipv6_cef_load_sharing_algorithm_include_ports_destination}
   */
   readonly ipv6CefLoadSharingAlgorithmIncludePortsDestination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ipv6_cef_load_sharing_algorithm_include_ports_source System#ipv6_cef_load_sharing_algorithm_include_ports_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ipv6_cef_load_sharing_algorithm_include_ports_source System#ipv6_cef_load_sharing_algorithm_include_ports_source}
   */
   readonly ipv6CefLoadSharingAlgorithmIncludePortsSource?: boolean | cdktf.IResolvable;
   /**
   * Enable unicast routing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ipv6_unicast_routing System#ipv6_unicast_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ipv6_unicast_routing System#ipv6_unicast_routing}
   */
   readonly ipv6UnicastRouting?: boolean | cdktf.IResolvable;
   /**
   * Set delay between successive fail login
   *   - Range: `1`-`10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#login_delay System#login_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#login_delay System#login_delay}
   */
   readonly loginDelay?: number;
   /**
   * Set options for failed login attempt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#login_on_failure System#login_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#login_on_failure System#login_on_failure}
   */
   readonly loginOnFailure?: boolean | cdktf.IResolvable;
   /**
   * Generate syslogs on failure logins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#login_on_failure_log System#login_on_failure_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#login_on_failure_log System#login_on_failure_log}
   */
   readonly loginOnFailureLog?: boolean | cdktf.IResolvable;
   /**
   * Set options for successful login attempt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#login_on_success System#login_on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#login_on_success System#login_on_success}
   */
   readonly loginOnSuccess?: boolean | cdktf.IResolvable;
   /**
   * Generate syslogs on successful logins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#login_on_success_log System#login_on_success_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#login_on_success_log System#login_on_success_log}
   */
   readonly loginOnSuccessLog?: boolean | cdktf.IResolvable;
   /**
   * low water mark of memory in KB
   *   - Range: `1`-`3994575`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#memory_free_low_watermark_processor System#memory_free_low_watermark_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#memory_free_low_watermark_processor System#memory_free_low_watermark_processor}
   */
   readonly memoryFreeLowWatermarkProcessor?: number;
   /**
   * 
   *   - Range: `1500`-`9198`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#mtu System#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#mtu System#mtu}
   */
   readonly mtu?: number;
   /**
   * Enable IP multicast forwarding, some XE devices use this option instead of `multicast_routing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#multicast_routing_switch System#multicast_routing_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#multicast_routing_switch System#multicast_routing_switch}
   */
   readonly multicastRoutingSwitch?: boolean | cdktf.IResolvable;
   /**
   * Select VPN Routing/Forwarding instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#multicast_routing_vrfs System#multicast_routing_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#multicast_routing_vrfs System#multicast_routing_vrfs}
   */
   readonly multicastRoutingVrfs?: SystemMulticastRoutingVrfs[] | cdktf.IResolvable;
   /**
   * Select method for naming multilink bundles
   *   - Choices: `authenticated`, `both`, `endpoint`, `rfc`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#multilink_ppp_bundle_name System#multilink_ppp_bundle_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#multilink_ppp_bundle_name System#multilink_ppp_bundle_name}
   */
   readonly multilinkPppBundleName?: string;
   /**
   * PNP profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#pnp_profiles System#pnp_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#pnp_profiles System#pnp_profiles}
   */
   readonly pnpProfiles?: SystemPnpProfiles[] | cdktf.IResolvable;
   /**
   * 
   *   - Choices: `dst-ip`, `dst-mac`, `dst-mixed-ip-port`, `dst-port`, `mpls`, `src-dst-ip`, `src-dst-mac`, `src-dst-mixed-ip-port`, `src-dst-port`, `src-ip`, `src-mac`, `src-mixed-ip-port`, `src-port`, `vlan-dst-ip`, `vlan-dst-mixed-ip-port`, `vlan-src-dst-ip`, `vlan-src-dst-mixed-ip-port`, `vlan-src-ip`, `vlan-src-mixed-ip-port`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#port_channel_load_balance System#port_channel_load_balance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#port_channel_load_balance System#port_channel_load_balance}
   */
   readonly portChannelLoadBalance?: string;
   /**
   * Enter redundancy mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#redundancy System#redundancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#redundancy System#redundancy}
   */
   readonly redundancy?: boolean | cdktf.IResolvable;
   /**
   * redundancy mode for this chassis
   *   - Choices: `none`, `rpr`, `rpr-plus`, `sso`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#redundancy_mode System#redundancy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#redundancy_mode System#redundancy_mode}
   */
   readonly redundancyMode?: string;
   /**
   * Minimum length of passwords
   *   - Range: `1`-`16`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#security_passwords_min_length System#security_passwords_min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#security_passwords_min_length System#security_passwords_min_length}
   */
   readonly securityPasswordsMinLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#standby_redirects System#standby_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#standby_redirects System#standby_redirects}
   */
   readonly standbyRedirects?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Choices: `disable`, `enable`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#standby_redirects_enable_disable System#standby_redirects_enable_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#standby_redirects_enable_disable System#standby_redirects_enable_disable}
   */
   readonly standbyRedirectsEnableDisable?: string;
   /**
   * Configure subscriber templating
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#subscriber_templating System#subscriber_templating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#subscriber_templating System#subscriber_templating}
   */
   readonly subscriberTemplating?: boolean | cdktf.IResolvable;
   /**
+  * Configure Table Map
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#table_maps System#table_maps}
+  */
+  readonly tableMaps?: SystemTableMaps[] | cdktf.IResolvable;
+  /**
   * Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#tftp_source_interface_five_gigabit_ethernet System#tftp_source_interface_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#tftp_source_interface_five_gigabit_ethernet System#tftp_source_interface_five_gigabit_ethernet}
   */
   readonly tftpSourceInterfaceFiveGigabitEthernet?: string;
   /**
   * Forty GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#tftp_source_interface_forty_gigabit_ethernet System#tftp_source_interface_forty_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#tftp_source_interface_forty_gigabit_ethernet System#tftp_source_interface_forty_gigabit_ethernet}
   */
   readonly tftpSourceInterfaceFortyGigabitEthernet?: string;
   /**
   * GigabitEthernet IEEE 802.3z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#tftp_source_interface_gigabit_ethernet System#tftp_source_interface_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#tftp_source_interface_gigabit_ethernet System#tftp_source_interface_gigabit_ethernet}
   */
   readonly tftpSourceInterfaceGigabitEthernet?: string;
   /**
   * Hundred GigabitEthernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#tftp_source_interface_hundred_gigabit_ethernet System#tftp_source_interface_hundred_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#tftp_source_interface_hundred_gigabit_ethernet System#tftp_source_interface_hundred_gigabit_ethernet}
   */
   readonly tftpSourceInterfaceHundredGigabitEthernet?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#tftp_source_interface_loopback System#tftp_source_interface_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#tftp_source_interface_loopback System#tftp_source_interface_loopback}
   */
   readonly tftpSourceInterfaceLoopback?: number;
   /**
   * Ten Gigabit Ethernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#tftp_source_interface_ten_gigabit_ethernet System#tftp_source_interface_ten_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#tftp_source_interface_ten_gigabit_ethernet System#tftp_source_interface_ten_gigabit_ethernet}
   */
   readonly tftpSourceInterfaceTenGigabitEthernet?: string;
   /**
   * Twenty Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#tftp_source_interface_twenty_five_gigabit_ethernet System#tftp_source_interface_twenty_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#tftp_source_interface_twenty_five_gigabit_ethernet System#tftp_source_interface_twenty_five_gigabit_ethernet}
   */
   readonly tftpSourceInterfaceTwentyFiveGigabitEthernet?: string;
   /**
   * Two GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#tftp_source_interface_two_gigabit_ethernet System#tftp_source_interface_two_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#tftp_source_interface_two_gigabit_ethernet System#tftp_source_interface_two_gigabit_ethernet}
   */
   readonly tftpSourceInterfaceTwoGigabitEthernet?: string;
   /**
   * Iosxr Vlans
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#tftp_source_interface_vlan System#tftp_source_interface_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#tftp_source_interface_vlan System#tftp_source_interface_vlan}
   */
   readonly tftpSourceInterfaceVlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#track_objects System#track_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#track_objects System#track_objects}
   */
   readonly trackObjects?: SystemTrackObjects[] | cdktf.IResolvable;
   /**
   * Enable/disable monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#transceiver_type_all_monitoring System#transceiver_type_all_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#transceiver_type_all_monitoring System#transceiver_type_all_monitoring}
   */
   readonly transceiverTypeAllMonitoring?: boolean | cdktf.IResolvable;
   /**
   * Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#version System#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#version System#version}
   */
   readonly version?: string;
 }
@@ -867,7 +897,7 @@ export interface SystemBootSystemBootfiles {
   /**
   * WORD - TFTP filename or URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#path System#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#path System#path}
   */
   readonly path: string;
 }
@@ -980,7 +1010,7 @@ export class SystemBootSystemBootfilesList extends cdktf.ComplexList {
 }
 export interface SystemBootSystemFlashFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#path System#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#path System#path}
   */
   readonly path: string;
 }
@@ -1095,63 +1125,63 @@ export interface SystemIpDomainLookupVrfs {
   /**
   * Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#source_interface_five_gigabit_ethernet System#source_interface_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#source_interface_five_gigabit_ethernet System#source_interface_five_gigabit_ethernet}
   */
   readonly sourceInterfaceFiveGigabitEthernet?: string;
   /**
   * Forty GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#source_interface_forty_gigabit_ethernet System#source_interface_forty_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#source_interface_forty_gigabit_ethernet System#source_interface_forty_gigabit_ethernet}
   */
   readonly sourceInterfaceFortyGigabitEthernet?: string;
   /**
   * GigabitEthernet IEEE 802.3z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#source_interface_gigabit_ethernet System#source_interface_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#source_interface_gigabit_ethernet System#source_interface_gigabit_ethernet}
   */
   readonly sourceInterfaceGigabitEthernet?: string;
   /**
   * Hundred GigabitEthernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#source_interface_hundred_gigabit_ethernet System#source_interface_hundred_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#source_interface_hundred_gigabit_ethernet System#source_interface_hundred_gigabit_ethernet}
   */
   readonly sourceInterfaceHundredGigabitEthernet?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#source_interface_loopback System#source_interface_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#source_interface_loopback System#source_interface_loopback}
   */
   readonly sourceInterfaceLoopback?: number;
   /**
   * Ten Gigabit Ethernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#source_interface_ten_gigabit_ethernet System#source_interface_ten_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#source_interface_ten_gigabit_ethernet System#source_interface_ten_gigabit_ethernet}
   */
   readonly sourceInterfaceTenGigabitEthernet?: string;
   /**
   * Twenty Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#source_interface_twenty_five_gigabit_ethernet System#source_interface_twenty_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#source_interface_twenty_five_gigabit_ethernet System#source_interface_twenty_five_gigabit_ethernet}
   */
   readonly sourceInterfaceTwentyFiveGigabitEthernet?: string;
   /**
   * Two GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#source_interface_two_gigabit_ethernet System#source_interface_two_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#source_interface_two_gigabit_ethernet System#source_interface_two_gigabit_ethernet}
   */
   readonly sourceInterfaceTwoGigabitEthernet?: string;
   /**
   * Iosxr Vlans
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#source_interface_vlan System#source_interface_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#source_interface_vlan System#source_interface_vlan}
   */
   readonly sourceInterfaceVlan?: number;
   /**
   * VRF name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#vrf System#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#vrf System#vrf}
   */
   readonly vrf: string;
 }
@@ -1527,13 +1557,13 @@ export interface SystemIpHosts {
   /**
   * Host IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ips System#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ips System#ips}
   */
   readonly ips?: string[];
   /**
   * Name of host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#name System#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#name System#name}
   */
   readonly name: string;
 }
@@ -1677,13 +1707,13 @@ export interface SystemIpHostsVrfHosts {
   /**
   * Host IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ips System#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ips System#ips}
   */
   readonly ips?: string[];
   /**
   * Name of host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#name System#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#name System#name}
   */
   readonly name: string;
 }
@@ -1827,13 +1857,13 @@ export interface SystemIpHostsVrf {
   /**
   * Name of host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#hosts System#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#hosts System#hosts}
   */
   readonly hosts?: SystemIpHostsVrfHosts[] | cdktf.IResolvable;
   /**
   * VRF name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#vrf System#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#vrf System#vrf}
   */
   readonly vrf: string;
 }
@@ -1978,13 +2008,13 @@ export interface SystemIpHttpAuthenticationAaaCommandAuthorization {
   * Enable level
   *   - Range: `0`-`15`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#level System#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#level System#level}
   */
   readonly level: number;
   /**
   * Use an authorization list with this name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#name System#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#name System#name}
   */
   readonly name?: string;
 }
@@ -2128,13 +2158,13 @@ export interface SystemIpNameServersVrf {
   /**
   * Domain server IPv4/IPv6 address (maximum of 6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#servers System#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#servers System#servers}
   */
   readonly servers?: string[];
   /**
   * Specify VRF Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#vrf System#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#vrf System#vrf}
   */
   readonly vrf: string;
 }
@@ -2278,11 +2308,11 @@ export interface SystemMulticastRoutingVrfs {
   /**
   * Distributed multicast switching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#distributed System#distributed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#distributed System#distributed}
   */
   readonly distributed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#vrf System#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#vrf System#vrf}
   */
   readonly vrf: string;
 }
@@ -2424,20 +2454,20 @@ export class SystemMulticastRoutingVrfsList extends cdktf.ComplexList {
 }
 export interface SystemPnpProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#name System#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#name System#name}
   */
   readonly name: string;
   /**
   * IPv4 address of the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#transport_https_ipv4_ipv4_address System#transport_https_ipv4_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#transport_https_ipv4_ipv4_address System#transport_https_ipv4_ipv4_address}
   */
   readonly transportHttpsIpv4Ipv4Address?: string;
   /**
   * port number
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#transport_https_ipv4_port System#transport_https_ipv4_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#transport_https_ipv4_port System#transport_https_ipv4_port}
   */
   readonly transportHttpsIpv4Port?: number;
 }
@@ -2606,24 +2636,357 @@ export class SystemPnpProfilesList extends cdktf.ComplexList {
     return new SystemPnpProfilesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface SystemTableMapsMappings {
+  /**
+  * map from value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#from System#from}
+  */
+  readonly from: number;
+  /**
+  * map to value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#to System#to}
+  */
+  readonly to?: number;
+}
+
+export function systemTableMapsMappingsToTerraform(struct?: SystemTableMapsMappings | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    from: cdktf.numberToTerraform(struct!.from),
+    to: cdktf.numberToTerraform(struct!.to),
+  }
+}
+
+
+export function systemTableMapsMappingsToHclTerraform(struct?: SystemTableMapsMappings | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    from: {
+      value: cdktf.numberToHclTerraform(struct!.from),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    to: {
+      value: cdktf.numberToHclTerraform(struct!.to),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemTableMapsMappingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SystemTableMapsMappings | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._from !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.from = this._from;
+    }
+    if (this._to !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.to = this._to;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemTableMapsMappings | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._from = undefined;
+      this._to = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._from = value.from;
+      this._to = value.to;
+    }
+  }
+
+  // from - computed: false, optional: false, required: true
+  private _from?: number; 
+  public get from() {
+    return this.getNumberAttribute('from');
+  }
+  public set from(value: number) {
+    this._from = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fromInput() {
+    return this._from;
+  }
+
+  // to - computed: false, optional: true, required: false
+  private _to?: number; 
+  public get to() {
+    return this.getNumberAttribute('to');
+  }
+  public set to(value: number) {
+    this._to = value;
+  }
+  public resetTo() {
+    this._to = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toInput() {
+    return this._to;
+  }
+}
+
+export class SystemTableMapsMappingsList extends cdktf.ComplexList {
+  public internalValue? : SystemTableMapsMappings[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SystemTableMapsMappingsOutputReference {
+    return new SystemTableMapsMappingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SystemTableMaps {
+  /**
+  * the default behavior for setting value not found in the table map
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#default System#default}
+  */
+  readonly default?: string;
+  /**
+  * map to-value from from-value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#mappings System#mappings}
+  */
+  readonly mappings?: SystemTableMapsMappings[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#name System#name}
+  */
+  readonly name: string;
+}
+
+export function systemTableMapsToTerraform(struct?: SystemTableMaps | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default: cdktf.stringToTerraform(struct!.default),
+    mappings: cdktf.listMapper(systemTableMapsMappingsToTerraform, false)(struct!.mappings),
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function systemTableMapsToHclTerraform(struct?: SystemTableMaps | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default: {
+      value: cdktf.stringToHclTerraform(struct!.default),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mappings: {
+      value: cdktf.listMapperHcl(systemTableMapsMappingsToHclTerraform, false)(struct!.mappings),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SystemTableMapsMappingsList",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemTableMapsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SystemTableMaps | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._default !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.default = this._default;
+    }
+    if (this._mappings?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mappings = this._mappings?.internalValue;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemTableMaps | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._default = undefined;
+      this._mappings.internalValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._default = value.default;
+      this._mappings.internalValue = value.mappings;
+      this._name = value.name;
+    }
+  }
+
+  // default - computed: false, optional: true, required: false
+  private _default?: string; 
+  public get default() {
+    return this.getStringAttribute('default');
+  }
+  public set default(value: string) {
+    this._default = value;
+  }
+  public resetDefault() {
+    this._default = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultInput() {
+    return this._default;
+  }
+
+  // mappings - computed: false, optional: true, required: false
+  private _mappings = new SystemTableMapsMappingsList(this, "mappings", false);
+  public get mappings() {
+    return this._mappings;
+  }
+  public putMappings(value: SystemTableMapsMappings[] | cdktf.IResolvable) {
+    this._mappings.internalValue = value;
+  }
+  public resetMappings() {
+    this._mappings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mappingsInput() {
+    return this._mappings.internalValue;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+
+export class SystemTableMapsList extends cdktf.ComplexList {
+  public internalValue? : SystemTableMaps[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SystemTableMapsOutputReference {
+    return new SystemTableMapsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface SystemTrackObjects {
   /**
   * Entry number
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_sla_number System#ip_sla_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_sla_number System#ip_sla_number}
   */
   readonly ipSlaNumber?: number;
   /**
   * Reachability
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#ip_sla_reachability System#ip_sla_reachability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#ip_sla_reachability System#ip_sla_reachability}
   */
   readonly ipSlaReachability?: boolean | cdktf.IResolvable;
   /**
   * Tracked object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#number System#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#number System#number}
   */
   readonly number: string;
 }
@@ -2794,7 +3157,7 @@ export class SystemTrackObjectsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system iosxe_system}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system iosxe_system}
 */
 export class System extends cdktf.TerraformResource {
 
@@ -2810,7 +3173,7 @@ export class System extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a System resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the System to import
-  * @param importFromId The id of the existing System that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing System that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the System to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2822,7 +3185,7 @@ export class System extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/system iosxe_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/system iosxe_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2833,8 +3196,8 @@ export class System extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_system',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2851,6 +3214,8 @@ export class System extends cdktf.TerraformResource {
     this._archivePath = config.archivePath;
     this._archiveTimePeriod = config.archiveTimePeriod;
     this._archiveWriteMemory = config.archiveWriteMemory;
+    this._authenticationMacMoveDenyUncontrolled = config.authenticationMacMoveDenyUncontrolled;
+    this._authenticationMacMovePermit = config.authenticationMacMovePermit;
     this._bootSystemBootfiles.internalValue = config.bootSystemBootfiles;
     this._bootSystemFlashFiles.internalValue = config.bootSystemFlashFiles;
     this._callHomeCiscoTac1DestinationTransportMethod = config.callHomeCiscoTac1DestinationTransportMethod;
@@ -2859,6 +3224,7 @@ export class System extends cdktf.TerraformResource {
     this._cispEnable = config.cispEnable;
     this._controlPlaneServicePolicyInput = config.controlPlaneServicePolicyInput;
     this._device = config.device;
+    this._deviceClassifier = config.deviceClassifier;
     this._diagnosticBootupLevel = config.diagnosticBootupLevel;
     this._diagnosticEventLogSize = config.diagnosticEventLogSize;
     this._enableSecret = config.enableSecret;
@@ -2871,6 +3237,7 @@ export class System extends cdktf.TerraformResource {
     this._ipBgpCommunityNewFormat = config.ipBgpCommunityNewFormat;
     this._ipCefLoadSharingAlgorithmIncludePortsDestination = config.ipCefLoadSharingAlgorithmIncludePortsDestination;
     this._ipCefLoadSharingAlgorithmIncludePortsSource = config.ipCefLoadSharingAlgorithmIncludePortsSource;
+    this._ipDefaultGateway = config.ipDefaultGateway;
     this._ipDomainListNames = config.ipDomainListNames;
     this._ipDomainListVrf = config.ipDomainListVrf;
     this._ipDomainListVrfDomain = config.ipDomainListVrfDomain;
@@ -2973,6 +3340,7 @@ export class System extends cdktf.TerraformResource {
     this._standbyRedirects = config.standbyRedirects;
     this._standbyRedirectsEnableDisable = config.standbyRedirectsEnableDisable;
     this._subscriberTemplating = config.subscriberTemplating;
+    this._tableMaps.internalValue = config.tableMaps;
     this._tftpSourceInterfaceFiveGigabitEthernet = config.tftpSourceInterfaceFiveGigabitEthernet;
     this._tftpSourceInterfaceFortyGigabitEthernet = config.tftpSourceInterfaceFortyGigabitEthernet;
     this._tftpSourceInterfaceGigabitEthernet = config.tftpSourceInterfaceGigabitEthernet;
@@ -3103,6 +3471,38 @@ export class System extends cdktf.TerraformResource {
     return this._archiveWriteMemory;
   }
 
+  // authentication_mac_move_deny_uncontrolled - computed: false, optional: true, required: false
+  private _authenticationMacMoveDenyUncontrolled?: boolean | cdktf.IResolvable; 
+  public get authenticationMacMoveDenyUncontrolled() {
+    return this.getBooleanAttribute('authentication_mac_move_deny_uncontrolled');
+  }
+  public set authenticationMacMoveDenyUncontrolled(value: boolean | cdktf.IResolvable) {
+    this._authenticationMacMoveDenyUncontrolled = value;
+  }
+  public resetAuthenticationMacMoveDenyUncontrolled() {
+    this._authenticationMacMoveDenyUncontrolled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authenticationMacMoveDenyUncontrolledInput() {
+    return this._authenticationMacMoveDenyUncontrolled;
+  }
+
+  // authentication_mac_move_permit - computed: false, optional: true, required: false
+  private _authenticationMacMovePermit?: boolean | cdktf.IResolvable; 
+  public get authenticationMacMovePermit() {
+    return this.getBooleanAttribute('authentication_mac_move_permit');
+  }
+  public set authenticationMacMovePermit(value: boolean | cdktf.IResolvable) {
+    this._authenticationMacMovePermit = value;
+  }
+  public resetAuthenticationMacMovePermit() {
+    this._authenticationMacMovePermit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authenticationMacMovePermitInput() {
+    return this._authenticationMacMovePermit;
+  }
+
   // boot_system_bootfiles - computed: false, optional: true, required: false
   private _bootSystemBootfiles = new SystemBootSystemBootfilesList(this, "boot_system_bootfiles", false);
   public get bootSystemBootfiles() {
@@ -3229,6 +3629,22 @@ export class System extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get deviceInput() {
     return this._device;
+  }
+
+  // device_classifier - computed: false, optional: true, required: false
+  private _deviceClassifier?: boolean | cdktf.IResolvable; 
+  public get deviceClassifier() {
+    return this.getBooleanAttribute('device_classifier');
+  }
+  public set deviceClassifier(value: boolean | cdktf.IResolvable) {
+    this._deviceClassifier = value;
+  }
+  public resetDeviceClassifier() {
+    this._deviceClassifier = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceClassifierInput() {
+    return this._deviceClassifier;
   }
 
   // diagnostic_bootup_level - computed: false, optional: true, required: false
@@ -3426,6 +3842,22 @@ export class System extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get ipCefLoadSharingAlgorithmIncludePortsSourceInput() {
     return this._ipCefLoadSharingAlgorithmIncludePortsSource;
+  }
+
+  // ip_default_gateway - computed: false, optional: true, required: false
+  private _ipDefaultGateway?: string; 
+  public get ipDefaultGateway() {
+    return this.getStringAttribute('ip_default_gateway');
+  }
+  public set ipDefaultGateway(value: string) {
+    this._ipDefaultGateway = value;
+  }
+  public resetIpDefaultGateway() {
+    this._ipDefaultGateway = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipDefaultGatewayInput() {
+    return this._ipDefaultGateway;
   }
 
   // ip_domain_list_names - computed: false, optional: true, required: false
@@ -5060,6 +5492,22 @@ export class System extends cdktf.TerraformResource {
     return this._subscriberTemplating;
   }
 
+  // table_maps - computed: false, optional: true, required: false
+  private _tableMaps = new SystemTableMapsList(this, "table_maps", false);
+  public get tableMaps() {
+    return this._tableMaps;
+  }
+  public putTableMaps(value: SystemTableMaps[] | cdktf.IResolvable) {
+    this._tableMaps.internalValue = value;
+  }
+  public resetTableMaps() {
+    this._tableMaps.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tableMapsInput() {
+    return this._tableMaps.internalValue;
+  }
+
   // tftp_source_interface_five_gigabit_ethernet - computed: false, optional: true, required: false
   private _tftpSourceInterfaceFiveGigabitEthernet?: string; 
   public get tftpSourceInterfaceFiveGigabitEthernet() {
@@ -5265,6 +5713,8 @@ export class System extends cdktf.TerraformResource {
       archive_path: cdktf.stringToTerraform(this._archivePath),
       archive_time_period: cdktf.numberToTerraform(this._archiveTimePeriod),
       archive_write_memory: cdktf.booleanToTerraform(this._archiveWriteMemory),
+      authentication_mac_move_deny_uncontrolled: cdktf.booleanToTerraform(this._authenticationMacMoveDenyUncontrolled),
+      authentication_mac_move_permit: cdktf.booleanToTerraform(this._authenticationMacMovePermit),
       boot_system_bootfiles: cdktf.listMapper(systemBootSystemBootfilesToTerraform, false)(this._bootSystemBootfiles.internalValue),
       boot_system_flash_files: cdktf.listMapper(systemBootSystemFlashFilesToTerraform, false)(this._bootSystemFlashFiles.internalValue),
       call_home_cisco_tac_1_destination_transport_method: cdktf.stringToTerraform(this._callHomeCiscoTac1DestinationTransportMethod),
@@ -5273,6 +5723,7 @@ export class System extends cdktf.TerraformResource {
       cisp_enable: cdktf.booleanToTerraform(this._cispEnable),
       control_plane_service_policy_input: cdktf.stringToTerraform(this._controlPlaneServicePolicyInput),
       device: cdktf.stringToTerraform(this._device),
+      device_classifier: cdktf.booleanToTerraform(this._deviceClassifier),
       diagnostic_bootup_level: cdktf.stringToTerraform(this._diagnosticBootupLevel),
       diagnostic_event_log_size: cdktf.numberToTerraform(this._diagnosticEventLogSize),
       enable_secret: cdktf.stringToTerraform(this._enableSecret),
@@ -5285,6 +5736,7 @@ export class System extends cdktf.TerraformResource {
       ip_bgp_community_new_format: cdktf.booleanToTerraform(this._ipBgpCommunityNewFormat),
       ip_cef_load_sharing_algorithm_include_ports_destination: cdktf.booleanToTerraform(this._ipCefLoadSharingAlgorithmIncludePortsDestination),
       ip_cef_load_sharing_algorithm_include_ports_source: cdktf.booleanToTerraform(this._ipCefLoadSharingAlgorithmIncludePortsSource),
+      ip_default_gateway: cdktf.stringToTerraform(this._ipDefaultGateway),
       ip_domain_list_names: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ipDomainListNames),
       ip_domain_list_vrf: cdktf.stringToTerraform(this._ipDomainListVrf),
       ip_domain_list_vrf_domain: cdktf.stringToTerraform(this._ipDomainListVrfDomain),
@@ -5387,6 +5839,7 @@ export class System extends cdktf.TerraformResource {
       standby_redirects: cdktf.booleanToTerraform(this._standbyRedirects),
       standby_redirects_enable_disable: cdktf.stringToTerraform(this._standbyRedirectsEnableDisable),
       subscriber_templating: cdktf.booleanToTerraform(this._subscriberTemplating),
+      table_maps: cdktf.listMapper(systemTableMapsToTerraform, false)(this._tableMaps.internalValue),
       tftp_source_interface_five_gigabit_ethernet: cdktf.stringToTerraform(this._tftpSourceInterfaceFiveGigabitEthernet),
       tftp_source_interface_forty_gigabit_ethernet: cdktf.stringToTerraform(this._tftpSourceInterfaceFortyGigabitEthernet),
       tftp_source_interface_gigabit_ethernet: cdktf.stringToTerraform(this._tftpSourceInterfaceGigabitEthernet),
@@ -5446,6 +5899,18 @@ export class System extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
+      authentication_mac_move_deny_uncontrolled: {
+        value: cdktf.booleanToHclTerraform(this._authenticationMacMoveDenyUncontrolled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      authentication_mac_move_permit: {
+        value: cdktf.booleanToHclTerraform(this._authenticationMacMovePermit),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       boot_system_bootfiles: {
         value: cdktf.listMapperHcl(systemBootSystemBootfilesToHclTerraform, false)(this._bootSystemBootfiles.internalValue),
         isBlock: true,
@@ -5493,6 +5958,12 @@ export class System extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      device_classifier: {
+        value: cdktf.booleanToHclTerraform(this._deviceClassifier),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       diagnostic_bootup_level: {
         value: cdktf.stringToHclTerraform(this._diagnosticBootupLevel),
@@ -5565,6 +6036,12 @@ export class System extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      ip_default_gateway: {
+        value: cdktf.stringToHclTerraform(this._ipDefaultGateway),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       ip_domain_list_names: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._ipDomainListNames),
@@ -6177,6 +6654,12 @@ export class System extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      table_maps: {
+        value: cdktf.listMapperHcl(systemTableMapsToHclTerraform, false)(this._tableMaps.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SystemTableMapsList",
       },
       tftp_source_interface_five_gigabit_ethernet: {
         value: cdktf.stringToHclTerraform(this._tftpSourceInterfaceFiveGigabitEthernet),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ospfv3
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_ospfv3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,61 +11,61 @@ export interface InterfaceOspfv3Config extends cdktf.TerraformMetaArguments {
   * Static route cost value of the interface
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ospfv3#cost InterfaceOspfv3#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_ospfv3#cost InterfaceOspfv3#cost}
   */
   readonly cost?: number;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ospfv3#delete_mode InterfaceOspfv3#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_ospfv3#delete_mode InterfaceOspfv3#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ospfv3#device InterfaceOspfv3#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_ospfv3#device InterfaceOspfv3#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ospfv3#name InterfaceOspfv3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_ospfv3#name InterfaceOspfv3#name}
   */
   readonly name: string;
   /**
   * Specify OSPF broadcast multi-access network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ospfv3#network_type_broadcast InterfaceOspfv3#network_type_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_ospfv3#network_type_broadcast InterfaceOspfv3#network_type_broadcast}
   */
   readonly networkTypeBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Specify OSPF NBMA network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ospfv3#network_type_non_broadcast InterfaceOspfv3#network_type_non_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_ospfv3#network_type_non_broadcast InterfaceOspfv3#network_type_non_broadcast}
   */
   readonly networkTypeNonBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Specify OSPF point-to-multipoint network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ospfv3#network_type_point_to_multipoint InterfaceOspfv3#network_type_point_to_multipoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_ospfv3#network_type_point_to_multipoint InterfaceOspfv3#network_type_point_to_multipoint}
   */
   readonly networkTypePointToMultipoint?: boolean | cdktf.IResolvable;
   /**
   * Specify OSPF point-to-point network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ospfv3#network_type_point_to_point InterfaceOspfv3#network_type_point_to_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_ospfv3#network_type_point_to_point InterfaceOspfv3#network_type_point_to_point}
   */
   readonly networkTypePointToPoint?: boolean | cdktf.IResolvable;
   /**
   * Interface type
   *   - Choices: `GigabitEthernet`, `TwoGigabitEthernet`, `FiveGigabitEthernet`, `TenGigabitEthernet`, `TwentyFiveGigE`, `FortyGigabitEthernet`, `HundredGigE`, `TwoHundredGigE`, `FourHundredGigE`, `Loopback`, `Vlan`, `Port-channel`, `Port-channel-subinterface/Port-channel`, `Tunnel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ospfv3#type InterfaceOspfv3#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_ospfv3#type InterfaceOspfv3#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ospfv3 iosxe_interface_ospfv3}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_ospfv3 iosxe_interface_ospfv3}
 */
 export class InterfaceOspfv3 extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class InterfaceOspfv3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceOspfv3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceOspfv3 to import
-  * @param importFromId The id of the existing InterfaceOspfv3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ospfv3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceOspfv3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_ospfv3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceOspfv3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class InterfaceOspfv3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ospfv3 iosxe_interface_ospfv3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_ospfv3 iosxe_interface_ospfv3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class InterfaceOspfv3 extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_ospfv3',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

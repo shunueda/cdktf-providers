@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,62 +10,62 @@ export interface VlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan#device Vlan#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan#device Vlan#device}
   */
   readonly device?: string;
   /**
   * Ascii name of the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan#name Vlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan#name Vlan#name}
   */
   readonly name?: string;
   /**
   * Configure association between private VLANs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan#private_vlan_association Vlan#private_vlan_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan#private_vlan_association Vlan#private_vlan_association}
   */
   readonly privateVlanAssociation?: string;
   /**
   * Configure the VLAN as a community private VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan#private_vlan_community Vlan#private_vlan_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan#private_vlan_community Vlan#private_vlan_community}
   */
   readonly privateVlanCommunity?: boolean | cdktf.IResolvable;
   /**
   * Configure the VLAN as an isolated private VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan#private_vlan_isolated Vlan#private_vlan_isolated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan#private_vlan_isolated Vlan#private_vlan_isolated}
   */
   readonly privateVlanIsolated?: boolean | cdktf.IResolvable;
   /**
   * Configure the VLAN as a primary private VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan#private_vlan_primary Vlan#private_vlan_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan#private_vlan_primary Vlan#private_vlan_primary}
   */
   readonly privateVlanPrimary?: boolean | cdktf.IResolvable;
   /**
   * Configure as Remote SPAN VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan#remote_span Vlan#remote_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan#remote_span Vlan#remote_span}
   */
   readonly remoteSpan?: boolean | cdktf.IResolvable;
   /**
   * Shutdown VLAN switching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan#shutdown Vlan#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan#shutdown Vlan#shutdown}
   */
   readonly shutdown?: boolean | cdktf.IResolvable;
   /**
   * VLAN ID
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan#vlan_id Vlan#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan#vlan_id Vlan#vlan_id}
   */
   readonly vlanId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan iosxe_vlan}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan iosxe_vlan}
 */
 export class Vlan extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class Vlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vlan to import
-  * @param importFromId The id of the existing Vlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class Vlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan iosxe_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vlan iosxe_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class Vlan extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_vlan',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

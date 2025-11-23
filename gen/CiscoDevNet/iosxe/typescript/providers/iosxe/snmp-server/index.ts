@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,1229 +10,1229 @@ export interface SnmpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * String to uniquely identify this chassis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#chassis_id SnmpServer#chassis_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#chassis_id SnmpServer#chassis_id}
   */
   readonly chassisId?: string;
   /**
   * Text for mib object sysContact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#contact SnmpServer#contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#contact SnmpServer#contact}
   */
   readonly contact?: string;
   /**
   * Create/Delete a context apart from default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#contexts SnmpServer#contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#contexts SnmpServer#contexts}
   */
   readonly contexts?: SnmpServerContexts[] | cdktf.IResolvable;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#delete_mode SnmpServer#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#delete_mode SnmpServer#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#device SnmpServer#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#device SnmpServer#device}
   */
   readonly device?: string;
   /**
   * Enable SNMP Informs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_informs SnmpServer#enable_informs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_informs SnmpServer#enable_informs}
   */
   readonly enableInforms?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP GET Operation logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_logging_getop SnmpServer#enable_logging_getop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_logging_getop SnmpServer#enable_logging_getop}
   */
   readonly enableLoggingGetop?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP SET Operation logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_logging_setop SnmpServer#enable_logging_setop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_logging_setop SnmpServer#enable_logging_setop}
   */
   readonly enableLoggingSetop?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP Traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps SnmpServer#enable_traps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps SnmpServer#enable_traps}
   */
   readonly enableTraps?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP AAA Server traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_aaa_server SnmpServer#enable_traps_aaa_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_aaa_server SnmpServer#enable_traps_aaa_server}
   */
   readonly enableTrapsAaaServer?: boolean | cdktf.IResolvable;
   /**
   * Enable ADSL Line-MIB traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_adslline SnmpServer#enable_traps_adslline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_adslline SnmpServer#enable_traps_adslline}
   */
   readonly enableTrapsAdslline?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_alarm_type SnmpServer#enable_traps_alarm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_alarm_type SnmpServer#enable_traps_alarm_type}
   */
   readonly enableTrapsAlarmType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_auth_framework_sec_violation SnmpServer#enable_traps_auth_framework_sec_violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_auth_framework_sec_violation SnmpServer#enable_traps_auth_framework_sec_violation}
   */
   readonly enableTrapsAuthFrameworkSecViolation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_bfd SnmpServer#enable_traps_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_bfd SnmpServer#enable_traps_bfd}
   */
   readonly enableTrapsBfd?: boolean | cdktf.IResolvable;
   /**
   * Allow BGP state change traps (OBSOLETE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_bgp SnmpServer#enable_traps_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_bgp SnmpServer#enable_traps_bgp}
   */
   readonly enableTrapsBgp?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP MIBv2 traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_bgp_cbgp2 SnmpServer#enable_traps_bgp_cbgp2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_bgp_cbgp2 SnmpServer#enable_traps_bgp_cbgp2}
   */
   readonly enableTrapsBgpCbgp2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_bridge_newroot SnmpServer#enable_traps_bridge_newroot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_bridge_newroot SnmpServer#enable_traps_bridge_newroot}
   */
   readonly enableTrapsBridgeNewroot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_bridge_topologychange SnmpServer#enable_traps_bridge_topologychange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_bridge_topologychange SnmpServer#enable_traps_bridge_topologychange}
   */
   readonly enableTrapsBridgeTopologychange?: boolean | cdktf.IResolvable;
   /**
   * Enable Data-Collection-MIB Collection notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_bulkstat_collection SnmpServer#enable_traps_bulkstat_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_bulkstat_collection SnmpServer#enable_traps_bulkstat_collection}
   */
   readonly enableTrapsBulkstatCollection?: boolean | cdktf.IResolvable;
   /**
   * Enable Data-Collection-MIB Transfer notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_bulkstat_transfer SnmpServer#enable_traps_bulkstat_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_bulkstat_transfer SnmpServer#enable_traps_bulkstat_transfer}
   */
   readonly enableTrapsBulkstatTransfer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_call_home_message_send_fail SnmpServer#enable_traps_call_home_message_send_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_call_home_message_send_fail SnmpServer#enable_traps_call_home_message_send_fail}
   */
   readonly enableTrapsCallHomeMessageSendFail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_call_home_server_fail SnmpServer#enable_traps_call_home_server_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_call_home_server_fail SnmpServer#enable_traps_call_home_server_fail}
   */
   readonly enableTrapsCallHomeServerFail?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP casa traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_casa SnmpServer#enable_traps_casa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_casa SnmpServer#enable_traps_casa}
   */
   readonly enableTrapsCasa?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP MIBv2 traps (OBSOLETE - please use snmp configuration in Cisco-IOS-XE-bgp.yang)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_cbgp2 SnmpServer#enable_traps_cbgp2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_cbgp2 SnmpServer#enable_traps_cbgp2}
   */
   readonly enableTrapsCbgp2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_cef_inconsistency SnmpServer#enable_traps_cef_inconsistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_cef_inconsistency SnmpServer#enable_traps_cef_inconsistency}
   */
   readonly enableTrapsCefInconsistency?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_cef_peer_fib_state_change SnmpServer#enable_traps_cef_peer_fib_state_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_cef_peer_fib_state_change SnmpServer#enable_traps_cef_peer_fib_state_change}
   */
   readonly enableTrapsCefPeerFibStateChange?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_cef_peer_state_change SnmpServer#enable_traps_cef_peer_state_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_cef_peer_state_change SnmpServer#enable_traps_cef_peer_state_change}
   */
   readonly enableTrapsCefPeerStateChange?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_cef_resource_failure SnmpServer#enable_traps_cef_resource_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_cef_resource_failure SnmpServer#enable_traps_cef_resource_failure}
   */
   readonly enableTrapsCefResourceFailure?: boolean | cdktf.IResolvable;
   /**
   * Enable NBAR Protocol Discovery traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_cnpd SnmpServer#enable_traps_cnpd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_cnpd SnmpServer#enable_traps_cnpd}
   */
   readonly enableTrapsCnpd?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP config traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_config SnmpServer#enable_traps_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_config SnmpServer#enable_traps_config}
   */
   readonly enableTrapsConfig?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP config-copy traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_config_copy SnmpServer#enable_traps_config_copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_config_copy SnmpServer#enable_traps_config_copy}
   */
   readonly enableTrapsConfigCopy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_config_ctid SnmpServer#enable_traps_config_ctid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_config_ctid SnmpServer#enable_traps_config_ctid}
   */
   readonly enableTrapsConfigCtid?: boolean | cdktf.IResolvable;
   /**
   * Allow CPU utilization threshold violation traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_cpu_threshold SnmpServer#enable_traps_cpu_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_cpu_threshold SnmpServer#enable_traps_cpu_threshold}
   */
   readonly enableTrapsCpuThreshold?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP dhcp traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_dhcp SnmpServer#enable_traps_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_dhcp SnmpServer#enable_traps_dhcp}
   */
   readonly enableTrapsDhcp?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP dial control traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_dial SnmpServer#enable_traps_dial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_dial SnmpServer#enable_traps_dial}
   */
   readonly enableTrapsDial?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP dlsw traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_dlsw SnmpServer#enable_traps_dlsw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_dlsw SnmpServer#enable_traps_dlsw}
   */
   readonly enableTrapsDlsw?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP DS1 traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ds1 SnmpServer#enable_traps_ds1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ds1 SnmpServer#enable_traps_ds1}
   */
   readonly enableTrapsDs1?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP card status of dsp traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_dsp_card_status SnmpServer#enable_traps_dsp_card_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_dsp_card_status SnmpServer#enable_traps_dsp_card_status}
   */
   readonly enableTrapsDspCardStatus?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_dsp_oper_state SnmpServer#enable_traps_dsp_oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_dsp_oper_state SnmpServer#enable_traps_dsp_oper_state}
   */
   readonly enableTrapsDspOperState?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP EIGRP traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_eigrp SnmpServer#enable_traps_eigrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_eigrp SnmpServer#enable_traps_eigrp}
   */
   readonly enableTrapsEigrp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_energywise SnmpServer#enable_traps_energywise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_energywise SnmpServer#enable_traps_energywise}
   */
   readonly enableTrapsEnergywise?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP entity traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_entity SnmpServer#enable_traps_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_entity SnmpServer#enable_traps_entity}
   */
   readonly enableTrapsEntity?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP ceDiagBootUpFailedNotif traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_entity_diag_boot_up_fail SnmpServer#enable_traps_entity_diag_boot_up_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_entity_diag_boot_up_fail SnmpServer#enable_traps_entity_diag_boot_up_fail}
   */
   readonly enableTrapsEntityDiagBootUpFail?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP ceDiagHMTestRecoverNotif traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_entity_diag_hm_test_recover SnmpServer#enable_traps_entity_diag_hm_test_recover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_entity_diag_hm_test_recover SnmpServer#enable_traps_entity_diag_hm_test_recover}
   */
   readonly enableTrapsEntityDiagHmTestRecover?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP ceDiagHMThresholdReachedNotif traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_entity_diag_hm_thresh_reached SnmpServer#enable_traps_entity_diag_hm_thresh_reached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_entity_diag_hm_thresh_reached SnmpServer#enable_traps_entity_diag_hm_thresh_reached}
   */
   readonly enableTrapsEntityDiagHmThreshReached?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP ceDiagScheduledTestFailedNotif traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_entity_diag_scheduled_test_fail SnmpServer#enable_traps_entity_diag_scheduled_test_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_entity_diag_scheduled_test_fail SnmpServer#enable_traps_entity_diag_scheduled_test_fail}
   */
   readonly enableTrapsEntityDiagScheduledTestFail?: boolean | cdktf.IResolvable;
   /**
   * Enable ENTITY PERFORMANCE MIB throughput traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_entity_perf_throughput_notif SnmpServer#enable_traps_entity_perf_throughput_notif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_entity_perf_throughput_notif SnmpServer#enable_traps_entity_perf_throughput_notif}
   */
   readonly enableTrapsEntityPerfThroughputNotif?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP ENTITY-QFP MEM-RES-THRESH notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_entity_qfp_mem_res_thresh SnmpServer#enable_traps_entity_qfp_mem_res_thresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_entity_qfp_mem_res_thresh SnmpServer#enable_traps_entity_qfp_mem_res_thresh}
   */
   readonly enableTrapsEntityQfpMemResThresh?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP ENTITY-QFP THROUGHPUT-NOTIF notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_entity_qfp_throughput_notif SnmpServer#enable_traps_entity_qfp_throughput_notif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_entity_qfp_throughput_notif SnmpServer#enable_traps_entity_qfp_throughput_notif}
   */
   readonly enableTrapsEntityQfpThroughputNotif?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP entity-sensor traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_entity_sensor SnmpServer#enable_traps_entity_sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_entity_sensor SnmpServer#enable_traps_entity_sensor}
   */
   readonly enableTrapsEntitySensor?: boolean | cdktf.IResolvable;
   /**
   * Allow SNMP entity-state traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_entity_state SnmpServer#enable_traps_entity_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_entity_state SnmpServer#enable_traps_entity_state}
   */
   readonly enableTrapsEntityState?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP environmental monitor traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_envmon SnmpServer#enable_traps_envmon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_envmon SnmpServer#enable_traps_envmon}
   */
   readonly enableTrapsEnvmon?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP errdisable notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_errdisable SnmpServer#enable_traps_errdisable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_errdisable SnmpServer#enable_traps_errdisable}
   */
   readonly enableTrapsErrdisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ether_oam SnmpServer#enable_traps_ether_oam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ether_oam SnmpServer#enable_traps_ether_oam}
   */
   readonly enableTrapsEtherOam?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP Ethernet CFM fault alarm trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ethernet_cfm_alarm SnmpServer#enable_traps_ethernet_cfm_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ethernet_cfm_alarm SnmpServer#enable_traps_ethernet_cfm_alarm}
   */
   readonly enableTrapsEthernetCfmAlarm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ethernet_cfm_cc_config SnmpServer#enable_traps_ethernet_cfm_cc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ethernet_cfm_cc_config SnmpServer#enable_traps_ethernet_cfm_cc_config}
   */
   readonly enableTrapsEthernetCfmCcConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ethernet_cfm_cc_cross_connect SnmpServer#enable_traps_ethernet_cfm_cc_cross_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ethernet_cfm_cc_cross_connect SnmpServer#enable_traps_ethernet_cfm_cc_cross_connect}
   */
   readonly enableTrapsEthernetCfmCcCrossConnect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ethernet_cfm_cc_loop SnmpServer#enable_traps_ethernet_cfm_cc_loop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ethernet_cfm_cc_loop SnmpServer#enable_traps_ethernet_cfm_cc_loop}
   */
   readonly enableTrapsEthernetCfmCcLoop?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ethernet_cfm_cc_mep_down SnmpServer#enable_traps_ethernet_cfm_cc_mep_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ethernet_cfm_cc_mep_down SnmpServer#enable_traps_ethernet_cfm_cc_mep_down}
   */
   readonly enableTrapsEthernetCfmCcMepDown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ethernet_cfm_cc_mep_up SnmpServer#enable_traps_ethernet_cfm_cc_mep_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ethernet_cfm_cc_mep_up SnmpServer#enable_traps_ethernet_cfm_cc_mep_up}
   */
   readonly enableTrapsEthernetCfmCcMepUp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ethernet_cfm_crosscheck_mep_missing SnmpServer#enable_traps_ethernet_cfm_crosscheck_mep_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ethernet_cfm_crosscheck_mep_missing SnmpServer#enable_traps_ethernet_cfm_crosscheck_mep_missing}
   */
   readonly enableTrapsEthernetCfmCrosscheckMepMissing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ethernet_cfm_crosscheck_mep_unknown SnmpServer#enable_traps_ethernet_cfm_crosscheck_mep_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ethernet_cfm_crosscheck_mep_unknown SnmpServer#enable_traps_ethernet_cfm_crosscheck_mep_unknown}
   */
   readonly enableTrapsEthernetCfmCrosscheckMepUnknown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ethernet_cfm_crosscheck_service_up SnmpServer#enable_traps_ethernet_cfm_crosscheck_service_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ethernet_cfm_crosscheck_service_up SnmpServer#enable_traps_ethernet_cfm_crosscheck_service_up}
   */
   readonly enableTrapsEthernetCfmCrosscheckServiceUp?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP Ethernet EVC create traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ethernet_evc_create SnmpServer#enable_traps_ethernet_evc_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ethernet_evc_create SnmpServer#enable_traps_ethernet_evc_create}
   */
   readonly enableTrapsEthernetEvcCreate?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP Ethernet EVC delete traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ethernet_evc_delete SnmpServer#enable_traps_ethernet_evc_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ethernet_evc_delete SnmpServer#enable_traps_ethernet_evc_delete}
   */
   readonly enableTrapsEthernetEvcDelete?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP Ethernet EVC status traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ethernet_evc_status SnmpServer#enable_traps_ethernet_evc_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ethernet_evc_status SnmpServer#enable_traps_ethernet_evc_status}
   */
   readonly enableTrapsEthernetEvcStatus?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP Embedded Event Manager traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_event_manager SnmpServer#enable_traps_event_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_event_manager SnmpServer#enable_traps_event_manager}
   */
   readonly enableTrapsEventManager?: boolean | cdktf.IResolvable;
   /**
   * Enable MPLS fast reroute protection traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_fast_reroute_protected SnmpServer#enable_traps_fast_reroute_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_fast_reroute_protected SnmpServer#enable_traps_fast_reroute_protected}
   */
   readonly enableTrapsFastRerouteProtected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_firewall_serverstatus SnmpServer#enable_traps_firewall_serverstatus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_firewall_serverstatus SnmpServer#enable_traps_firewall_serverstatus}
   */
   readonly enableTrapsFirewallServerstatus?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP Flash Insertion notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_flash_insertion SnmpServer#enable_traps_flash_insertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_flash_insertion SnmpServer#enable_traps_flash_insertion}
   */
   readonly enableTrapsFlashInsertion?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP Flash Lowspace notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_flash_lowspace SnmpServer#enable_traps_flash_lowspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_flash_lowspace SnmpServer#enable_traps_flash_lowspace}
   */
   readonly enableTrapsFlashLowspace?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP Flash Removal notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_flash_removal SnmpServer#enable_traps_flash_removal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_flash_removal SnmpServer#enable_traps_flash_removal}
   */
   readonly enableTrapsFlashRemoval?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP flowmon notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_flowmon SnmpServer#enable_traps_flowmon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_flowmon SnmpServer#enable_traps_flowmon}
   */
   readonly enableTrapsFlowmon?: boolean | cdktf.IResolvable;
   /**
   * Enable MFR trap for inconsistent bundle event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_frame_relay_config_bundle_mismatch SnmpServer#enable_traps_frame_relay_config_bundle_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_frame_relay_config_bundle_mismatch SnmpServer#enable_traps_frame_relay_config_bundle_mismatch}
   */
   readonly enableTrapsFrameRelayConfigBundleMismatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_frame_relay_config_only SnmpServer#enable_traps_frame_relay_config_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_frame_relay_config_only SnmpServer#enable_traps_frame_relay_config_only}
   */
   readonly enableTrapsFrameRelayConfigOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_frame_relay_config_subif_configs SnmpServer#enable_traps_frame_relay_config_subif_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_frame_relay_config_subif_configs SnmpServer#enable_traps_frame_relay_config_subif_configs}
   */
   readonly enableTrapsFrameRelayConfigSubifConfigs?: boolean | cdktf.IResolvable;
   /**
   * Enable MFR trap for inconsistent bundle event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_frame_relay_multilink_bundle_mismatch SnmpServer#enable_traps_frame_relay_multilink_bundle_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_frame_relay_multilink_bundle_mismatch SnmpServer#enable_traps_frame_relay_multilink_bundle_mismatch}
   */
   readonly enableTrapsFrameRelayMultilinkBundleMismatch?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of traps sent per interval
   *   - Range: `1`-`1000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_frame_relay_subif_count SnmpServer#enable_traps_frame_relay_subif_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_frame_relay_subif_count SnmpServer#enable_traps_frame_relay_subif_count}
   */
   readonly enableTrapsFrameRelaySubifCount?: number;
   /**
   * Interval duration in which to limit the number of traps sent
   *   - Range: `1`-`3600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_frame_relay_subif_interval SnmpServer#enable_traps_frame_relay_subif_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_frame_relay_subif_interval SnmpServer#enable_traps_frame_relay_subif_interval}
   */
   readonly enableTrapsFrameRelaySubifInterval?: number;
   /**
   * Enable SNMP entity FRU control traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_fru_ctrl SnmpServer#enable_traps_fru_ctrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_fru_ctrl SnmpServer#enable_traps_fru_ctrl}
   */
   readonly enableTrapsFruCtrl?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP HSRP traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_hsrp SnmpServer#enable_traps_hsrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_hsrp SnmpServer#enable_traps_hsrp}
   */
   readonly enableTrapsHsrp?: boolean | cdktf.IResolvable;
   /**
   * Enable IKE Policy add trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ike_policy_add SnmpServer#enable_traps_ike_policy_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ike_policy_add SnmpServer#enable_traps_ike_policy_add}
   */
   readonly enableTrapsIkePolicyAdd?: boolean | cdktf.IResolvable;
   /**
   * Enable IKE Policy delete trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ike_policy_delete SnmpServer#enable_traps_ike_policy_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ike_policy_delete SnmpServer#enable_traps_ike_policy_delete}
   */
   readonly enableTrapsIkePolicyDelete?: boolean | cdktf.IResolvable;
   /**
   * Enable IKE Tunnel start trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ike_tunnel_start SnmpServer#enable_traps_ike_tunnel_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ike_tunnel_start SnmpServer#enable_traps_ike_tunnel_start}
   */
   readonly enableTrapsIkeTunnelStart?: boolean | cdktf.IResolvable;
   /**
   * Enable IKE Tunnel stop trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ike_tunnel_stop SnmpServer#enable_traps_ike_tunnel_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ike_tunnel_stop SnmpServer#enable_traps_ike_tunnel_stop}
   */
   readonly enableTrapsIkeTunnelStop?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP IP LOCAL POOL traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ip_local_pool SnmpServer#enable_traps_ip_local_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ip_local_pool SnmpServer#enable_traps_ip_local_pool}
   */
   readonly enableTrapsIpLocalPool?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP ipmulticast traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ipmulticast SnmpServer#enable_traps_ipmulticast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ipmulticast SnmpServer#enable_traps_ipmulticast}
   */
   readonly enableTrapsIpmulticast?: boolean | cdktf.IResolvable;
   /**
   * Enable IPsec Cryptomap add trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ipsec_cryptomap_add SnmpServer#enable_traps_ipsec_cryptomap_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ipsec_cryptomap_add SnmpServer#enable_traps_ipsec_cryptomap_add}
   */
   readonly enableTrapsIpsecCryptomapAdd?: boolean | cdktf.IResolvable;
   /**
   * Enable IPsec Cryptomap Attach trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ipsec_cryptomap_attach SnmpServer#enable_traps_ipsec_cryptomap_attach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ipsec_cryptomap_attach SnmpServer#enable_traps_ipsec_cryptomap_attach}
   */
   readonly enableTrapsIpsecCryptomapAttach?: boolean | cdktf.IResolvable;
   /**
   * Enable IPsec Cryptomap delete trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ipsec_cryptomap_delete SnmpServer#enable_traps_ipsec_cryptomap_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ipsec_cryptomap_delete SnmpServer#enable_traps_ipsec_cryptomap_delete}
   */
   readonly enableTrapsIpsecCryptomapDelete?: boolean | cdktf.IResolvable;
   /**
   * Enable IPsec Cryptomap Detach trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ipsec_cryptomap_detach SnmpServer#enable_traps_ipsec_cryptomap_detach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ipsec_cryptomap_detach SnmpServer#enable_traps_ipsec_cryptomap_detach}
   */
   readonly enableTrapsIpsecCryptomapDetach?: boolean | cdktf.IResolvable;
   /**
   * Enable IPsec Tunnel Start trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ipsec_too_many_sas SnmpServer#enable_traps_ipsec_too_many_sas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ipsec_too_many_sas SnmpServer#enable_traps_ipsec_too_many_sas}
   */
   readonly enableTrapsIpsecTooManySas?: boolean | cdktf.IResolvable;
   /**
   * Enable IPsec Tunnel Start trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ipsec_tunnel_start SnmpServer#enable_traps_ipsec_tunnel_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ipsec_tunnel_start SnmpServer#enable_traps_ipsec_tunnel_start}
   */
   readonly enableTrapsIpsecTunnelStart?: boolean | cdktf.IResolvable;
   /**
   * Enable IPsec Tunnel Stop trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ipsec_tunnel_stop SnmpServer#enable_traps_ipsec_tunnel_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ipsec_tunnel_stop SnmpServer#enable_traps_ipsec_tunnel_stop}
   */
   readonly enableTrapsIpsecTunnelStop?: boolean | cdktf.IResolvable;
   /**
   * Enable IPSLA traps traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ipsla SnmpServer#enable_traps_ipsla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ipsla SnmpServer#enable_traps_ipsla}
   */
   readonly enableTrapsIpsla?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP isdn call information traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_isdn_call_information SnmpServer#enable_traps_isdn_call_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_isdn_call_information SnmpServer#enable_traps_isdn_call_information}
   */
   readonly enableTrapsIsdnCallInformation?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP isdn channel not avail traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_isdn_chan_not_avail SnmpServer#enable_traps_isdn_chan_not_avail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_isdn_chan_not_avail SnmpServer#enable_traps_isdn_chan_not_avail}
   */
   readonly enableTrapsIsdnChanNotAvail?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP isdn ietf traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_isdn_ietf SnmpServer#enable_traps_isdn_ietf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_isdn_ietf SnmpServer#enable_traps_isdn_ietf}
   */
   readonly enableTrapsIsdnIetf?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP isdn layer2 transition traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_isdn_layer2 SnmpServer#enable_traps_isdn_layer2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_isdn_layer2 SnmpServer#enable_traps_isdn_layer2}
   */
   readonly enableTrapsIsdnLayer2?: boolean | cdktf.IResolvable;
   /**
   * Enable ISIS traps traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_isis SnmpServer#enable_traps_isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_isis SnmpServer#enable_traps_isis}
   */
   readonly enableTrapsIsis?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_l2tun_pseudowire_status SnmpServer#enable_traps_l2tun_pseudowire_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_l2tun_pseudowire_status SnmpServer#enable_traps_l2tun_pseudowire_status}
   */
   readonly enableTrapsL2TunPseudowireStatus?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP l2tun session traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_l2tun_session SnmpServer#enable_traps_l2tun_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_l2tun_session SnmpServer#enable_traps_l2tun_session}
   */
   readonly enableTrapsL2TunSession?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP l2tun tunnel traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_l2tun_tunnel SnmpServer#enable_traps_l2tun_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_l2tun_tunnel SnmpServer#enable_traps_l2tun_tunnel}
   */
   readonly enableTrapsL2TunTunnel?: boolean | cdktf.IResolvable;
   /**
   * Enable license traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_license SnmpServer#enable_traps_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_license SnmpServer#enable_traps_license}
   */
   readonly enableTrapsLicense?: boolean | cdktf.IResolvable;
   /**
   * Allow SNMP LISP MIB traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_lisp SnmpServer#enable_traps_lisp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_lisp SnmpServer#enable_traps_lisp}
   */
   readonly enableTrapsLisp?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP local auth traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_local_auth SnmpServer#enable_traps_local_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_local_auth SnmpServer#enable_traps_local_auth}
   */
   readonly enableTrapsLocalAuth?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP Change traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_mac_notification_change SnmpServer#enable_traps_mac_notification_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_mac_notification_change SnmpServer#enable_traps_mac_notification_change}
   */
   readonly enableTrapsMacNotificationChange?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP Move traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_mac_notification_move SnmpServer#enable_traps_mac_notification_move}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_mac_notification_move SnmpServer#enable_traps_mac_notification_move}
   */
   readonly enableTrapsMacNotificationMove?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP Threshold traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_mac_notification_threshold SnmpServer#enable_traps_mac_notification_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_mac_notification_threshold SnmpServer#enable_traps_mac_notification_threshold}
   */
   readonly enableTrapsMacNotificationThreshold?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP Memory Bufferpeak traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_memory_bufferpeak SnmpServer#enable_traps_memory_bufferpeak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_memory_bufferpeak SnmpServer#enable_traps_memory_bufferpeak}
   */
   readonly enableTrapsMemoryBufferpeak?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP MPLS traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_mpls SnmpServer#enable_traps_mpls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_mpls SnmpServer#enable_traps_mpls}
   */
   readonly enableTrapsMpls?: boolean | cdktf.IResolvable;
   /**
   * Allow SNMP MPLS label distribution protocol traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_mpls_ldp SnmpServer#enable_traps_mpls_ldp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_mpls_ldp SnmpServer#enable_traps_mpls_ldp}
   */
   readonly enableTrapsMplsLdp?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP MPLS RFC traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_mpls_rfc SnmpServer#enable_traps_mpls_rfc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_mpls_rfc SnmpServer#enable_traps_mpls_rfc}
   */
   readonly enableTrapsMplsRfc?: boolean | cdktf.IResolvable;
   /**
   * Allow SNMP MPLS label distribution protocol RFC traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_mpls_rfc_ldp SnmpServer#enable_traps_mpls_rfc_ldp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_mpls_rfc_ldp SnmpServer#enable_traps_mpls_rfc_ldp}
   */
   readonly enableTrapsMplsRfcLdp?: boolean | cdktf.IResolvable;
   /**
   * Allow SNMP MPLS traffic engineering traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_mpls_traffic_eng SnmpServer#enable_traps_mpls_traffic_eng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_mpls_traffic_eng SnmpServer#enable_traps_mpls_traffic_eng}
   */
   readonly enableTrapsMplsTrafficEng?: boolean | cdktf.IResolvable;
   /**
   * Allow SNMP MPLS Virtual Private Network traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_mpls_vpn SnmpServer#enable_traps_mpls_vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_mpls_vpn SnmpServer#enable_traps_mpls_vpn}
   */
   readonly enableTrapsMplsVpn?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP MSDP traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_msdp SnmpServer#enable_traps_msdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_msdp SnmpServer#enable_traps_msdp}
   */
   readonly enableTrapsMsdp?: boolean | cdktf.IResolvable;
   /**
   * Enable Multicast Virtual Private Networks traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_mvpn SnmpServer#enable_traps_mvpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_mvpn SnmpServer#enable_traps_mvpn}
   */
   readonly enableTrapsMvpn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_nhrp_nhc SnmpServer#enable_traps_nhrp_nhc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_nhrp_nhc SnmpServer#enable_traps_nhrp_nhc}
   */
   readonly enableTrapsNhrpNhc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_nhrp_nhp SnmpServer#enable_traps_nhrp_nhp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_nhrp_nhp SnmpServer#enable_traps_nhrp_nhp}
   */
   readonly enableTrapsNhrpNhp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_nhrp_nhs SnmpServer#enable_traps_nhrp_nhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_nhrp_nhs SnmpServer#enable_traps_nhrp_nhs}
   */
   readonly enableTrapsNhrpNhs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_nhrp_quota_exceeded SnmpServer#enable_traps_nhrp_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_nhrp_quota_exceeded SnmpServer#enable_traps_nhrp_quota_exceeded}
   */
   readonly enableTrapsNhrpQuotaExceeded?: boolean | cdktf.IResolvable;
   /**
   * Enable all traps of errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospf_config_errors SnmpServer#enable_traps_ospf_config_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospf_config_errors SnmpServer#enable_traps_ospf_config_errors}
   */
   readonly enableTrapsOspfConfigErrors?: boolean | cdktf.IResolvable;
   /**
   * Enable all traps of lsa
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospf_config_lsa SnmpServer#enable_traps_ospf_config_lsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospf_config_lsa SnmpServer#enable_traps_ospf_config_lsa}
   */
   readonly enableTrapsOspfConfigLsa?: boolean | cdktf.IResolvable;
   /**
   * Enable all traps of retransmit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospf_config_retransmit SnmpServer#enable_traps_ospf_config_retransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospf_config_retransmit SnmpServer#enable_traps_ospf_config_retransmit}
   */
   readonly enableTrapsOspfConfigRetransmit?: boolean | cdktf.IResolvable;
   /**
   * Enable all traps of state-change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospf_config_state_change SnmpServer#enable_traps_ospf_config_state_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospf_config_state_change SnmpServer#enable_traps_ospf_config_state_change}
   */
   readonly enableTrapsOspfConfigStateChange?: boolean | cdktf.IResolvable;
   /**
   * Enable all traps of errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospf_errors_enable SnmpServer#enable_traps_ospf_errors_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospf_errors_enable SnmpServer#enable_traps_ospf_errors_enable}
   */
   readonly enableTrapsOspfErrorsEnable?: boolean | cdktf.IResolvable;
   /**
   * Enable all traps of lsa
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospf_lsa_enable SnmpServer#enable_traps_ospf_lsa_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospf_lsa_enable SnmpServer#enable_traps_ospf_lsa_enable}
   */
   readonly enableTrapsOspfLsaEnable?: boolean | cdktf.IResolvable;
   /**
   * Nssa translator state changes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospf_nssa_trans_change SnmpServer#enable_traps_ospf_nssa_trans_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospf_nssa_trans_change SnmpServer#enable_traps_ospf_nssa_trans_change}
   */
   readonly enableTrapsOspfNssaTransChange?: boolean | cdktf.IResolvable;
   /**
   * Enable all traps of retransmit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospf_retransmit_enable SnmpServer#enable_traps_ospf_retransmit_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospf_retransmit_enable SnmpServer#enable_traps_ospf_retransmit_enable}
   */
   readonly enableTrapsOspfRetransmitEnable?: boolean | cdktf.IResolvable;
   /**
   * Sham link interface state changes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospf_shamlink_interface SnmpServer#enable_traps_ospf_shamlink_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospf_shamlink_interface SnmpServer#enable_traps_ospf_shamlink_interface}
   */
   readonly enableTrapsOspfShamlinkInterface?: boolean | cdktf.IResolvable;
   /**
   * Sham link neighbor state changes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospf_shamlink_neighbor SnmpServer#enable_traps_ospf_shamlink_neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospf_shamlink_neighbor SnmpServer#enable_traps_ospf_shamlink_neighbor}
   */
   readonly enableTrapsOspfShamlinkNeighbor?: boolean | cdktf.IResolvable;
   /**
   * Enable all traps of errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospfv3_config_errors SnmpServer#enable_traps_ospfv3_config_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospfv3_config_errors SnmpServer#enable_traps_ospfv3_config_errors}
   */
   readonly enableTrapsOspfv3ConfigErrors?: boolean | cdktf.IResolvable;
   /**
   * Enable all traps of state-change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospfv3_config_state_change SnmpServer#enable_traps_ospfv3_config_state_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospfv3_config_state_change SnmpServer#enable_traps_ospfv3_config_state_change}
   */
   readonly enableTrapsOspfv3ConfigStateChange?: boolean | cdktf.IResolvable;
   /**
   * Error traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospfv3_errors SnmpServer#enable_traps_ospfv3_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospfv3_errors SnmpServer#enable_traps_ospfv3_errors}
   */
   readonly enableTrapsOspfv3Errors?: boolean | cdktf.IResolvable;
   /**
   * State change traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_ospfv3_state_change SnmpServer#enable_traps_ospfv3_state_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_ospfv3_state_change SnmpServer#enable_traps_ospfv3_state_change}
   */
   readonly enableTrapsOspfv3StateChange?: boolean | cdktf.IResolvable;
   /**
   * Allow SNMP PFR traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_pfr SnmpServer#enable_traps_pfr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_pfr SnmpServer#enable_traps_pfr}
   */
   readonly enableTrapsPfr?: boolean | cdktf.IResolvable;
   /**
   * Enable invalid pim message trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_pim_invalid_pim_message SnmpServer#enable_traps_pim_invalid_pim_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_pim_invalid_pim_message SnmpServer#enable_traps_pim_invalid_pim_message}
   */
   readonly enableTrapsPimInvalidPimMessage?: boolean | cdktf.IResolvable;
   /**
   * Enable neighbor change trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_pim_neighbor_change SnmpServer#enable_traps_pim_neighbor_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_pim_neighbor_change SnmpServer#enable_traps_pim_neighbor_change}
   */
   readonly enableTrapsPimNeighborChange?: boolean | cdktf.IResolvable;
   /**
   * Enable rp mapping change trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_pim_rp_mapping_change SnmpServer#enable_traps_pim_rp_mapping_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_pim_rp_mapping_change SnmpServer#enable_traps_pim_rp_mapping_change}
   */
   readonly enableTrapsPimRpMappingChange?: boolean | cdktf.IResolvable;
   /**
   * Enable interface-election traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_pimstdmib_interface_election SnmpServer#enable_traps_pimstdmib_interface_election}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_pimstdmib_interface_election SnmpServer#enable_traps_pimstdmib_interface_election}
   */
   readonly enableTrapsPimstdmibInterfaceElection?: boolean | cdktf.IResolvable;
   /**
   * Enable invalid-join-prune traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_pimstdmib_invalid_join_prune SnmpServer#enable_traps_pimstdmib_invalid_join_prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_pimstdmib_invalid_join_prune SnmpServer#enable_traps_pimstdmib_invalid_join_prune}
   */
   readonly enableTrapsPimstdmibInvalidJoinPrune?: boolean | cdktf.IResolvable;
   /**
   * Enable invalid-register traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_pimstdmib_invalid_register SnmpServer#enable_traps_pimstdmib_invalid_register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_pimstdmib_invalid_register SnmpServer#enable_traps_pimstdmib_invalid_register}
   */
   readonly enableTrapsPimstdmibInvalidRegister?: boolean | cdktf.IResolvable;
   /**
   * Enable neighbor-loss traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_pimstdmib_neighbor_loss SnmpServer#enable_traps_pimstdmib_neighbor_loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_pimstdmib_neighbor_loss SnmpServer#enable_traps_pimstdmib_neighbor_loss}
   */
   readonly enableTrapsPimstdmibNeighborLoss?: boolean | cdktf.IResolvable;
   /**
   * Enable invalid rp-mapping-change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_pimstdmib_rp_mapping_change SnmpServer#enable_traps_pimstdmib_rp_mapping_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_pimstdmib_rp_mapping_change SnmpServer#enable_traps_pimstdmib_rp_mapping_change}
   */
   readonly enableTrapsPimstdmibRpMappingChange?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP PKI Traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_pki SnmpServer#enable_traps_pki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_pki SnmpServer#enable_traps_pki}
   */
   readonly enableTrapsPki?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP port security traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_port_security SnmpServer#enable_traps_port_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_port_security SnmpServer#enable_traps_port_security}
   */
   readonly enableTrapsPortSecurity?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP inline power group based traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_power_ethernet_group SnmpServer#enable_traps_power_ethernet_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_power_ethernet_group SnmpServer#enable_traps_power_ethernet_group}
   */
   readonly enableTrapsPowerEthernetGroup?: string;
   /**
   * Enable Policing Trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_power_ethernet_police SnmpServer#enable_traps_power_ethernet_police}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_power_ethernet_police SnmpServer#enable_traps_power_ethernet_police}
   */
   readonly enableTrapsPowerEthernetPolice?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP pppoe traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_pppoe SnmpServer#enable_traps_pppoe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_pppoe SnmpServer#enable_traps_pppoe}
   */
   readonly enableTrapsPppoe?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_pw_vc SnmpServer#enable_traps_pw_vc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_pw_vc SnmpServer#enable_traps_pw_vc}
   */
   readonly enableTrapsPwVc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_rep SnmpServer#enable_traps_rep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_rep SnmpServer#enable_traps_rep}
   */
   readonly enableTrapsRep?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_resource_policy SnmpServer#enable_traps_resource_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_resource_policy SnmpServer#enable_traps_resource_policy}
   */
   readonly enableTrapsResourcePolicy?: boolean | cdktf.IResolvable;
   /**
   * Enable all SNMP traps defined in CISCO-RF-MIB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_rf SnmpServer#enable_traps_rf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_rf SnmpServer#enable_traps_rf}
   */
   readonly enableTrapsRf?: boolean | cdktf.IResolvable;
   /**
   * Enable RSVP flow change traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_rsvp SnmpServer#enable_traps_rsvp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_rsvp SnmpServer#enable_traps_rsvp}
   */
   readonly enableTrapsRsvp?: boolean | cdktf.IResolvable;
   /**
   * Enable smart license traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_smart_license SnmpServer#enable_traps_smart_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_smart_license SnmpServer#enable_traps_smart_license}
   */
   readonly enableTrapsSmartLicense?: boolean | cdktf.IResolvable;
   /**
   * Enable authentication trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_snmp_authentication SnmpServer#enable_traps_snmp_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_snmp_authentication SnmpServer#enable_traps_snmp_authentication}
   */
   readonly enableTrapsSnmpAuthentication?: boolean | cdktf.IResolvable;
   /**
   * Enable coldStart trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_snmp_coldstart SnmpServer#enable_traps_snmp_coldstart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_snmp_coldstart SnmpServer#enable_traps_snmp_coldstart}
   */
   readonly enableTrapsSnmpColdstart?: boolean | cdktf.IResolvable;
   /**
   * Enable linkDown trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_snmp_linkdown SnmpServer#enable_traps_snmp_linkdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_snmp_linkdown SnmpServer#enable_traps_snmp_linkdown}
   */
   readonly enableTrapsSnmpLinkdown?: boolean | cdktf.IResolvable;
   /**
   * Enable linkUp trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_snmp_linkup SnmpServer#enable_traps_snmp_linkup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_snmp_linkup SnmpServer#enable_traps_snmp_linkup}
   */
   readonly enableTrapsSnmpLinkup?: boolean | cdktf.IResolvable;
   /**
   * Enable warmStart trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_snmp_warmstart SnmpServer#enable_traps_snmp_warmstart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_snmp_warmstart SnmpServer#enable_traps_snmp_warmstart}
   */
   readonly enableTrapsSnmpWarmstart?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP SONET traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_sonet SnmpServer#enable_traps_sonet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_sonet SnmpServer#enable_traps_sonet}
   */
   readonly enableTrapsSonet?: boolean | cdktf.IResolvable;
   /**
   * Enable SRP protocol traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_srp SnmpServer#enable_traps_srp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_srp SnmpServer#enable_traps_srp}
   */
   readonly enableTrapsSrp?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP stackwise traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_stackwise SnmpServer#enable_traps_stackwise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_stackwise SnmpServer#enable_traps_stackwise}
   */
   readonly enableTrapsStackwise?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_stpx_inconsistency SnmpServer#enable_traps_stpx_inconsistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_stpx_inconsistency SnmpServer#enable_traps_stpx_inconsistency}
   */
   readonly enableTrapsStpxInconsistency?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_stpx_loop_inconsistency SnmpServer#enable_traps_stpx_loop_inconsistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_stpx_loop_inconsistency SnmpServer#enable_traps_stpx_loop_inconsistency}
   */
   readonly enableTrapsStpxLoopInconsistency?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_stpx_root_inconsistency SnmpServer#enable_traps_stpx_root_inconsistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_stpx_root_inconsistency SnmpServer#enable_traps_stpx_root_inconsistency}
   */
   readonly enableTrapsStpxRootInconsistency?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP syslog traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_syslog SnmpServer#enable_traps_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_syslog SnmpServer#enable_traps_syslog}
   */
   readonly enableTrapsSyslog?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_transceiver_all SnmpServer#enable_traps_transceiver_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_transceiver_all SnmpServer#enable_traps_transceiver_all}
   */
   readonly enableTrapsTransceiverAll?: boolean | cdktf.IResolvable;
   /**
   * Enable TCP connection traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_tty SnmpServer#enable_traps_tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_tty SnmpServer#enable_traps_tty}
   */
   readonly enableTrapsTty?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP cudldpFastHelloLinkFailRptNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_udld_link_fail_rpt SnmpServer#enable_traps_udld_link_fail_rpt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_udld_link_fail_rpt SnmpServer#enable_traps_udld_link_fail_rpt}
   */
   readonly enableTrapsUdldLinkFailRpt?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP cudldpFastHelloStatusChangeNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_udld_status_change SnmpServer#enable_traps_udld_status_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_udld_status_change SnmpServer#enable_traps_udld_status_change}
   */
   readonly enableTrapsUdldStatusChange?: boolean | cdktf.IResolvable;
   /**
   * Enable VDSL2 Line-MIB traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_vdsl2line SnmpServer#enable_traps_vdsl2line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_vdsl2line SnmpServer#enable_traps_vdsl2line}
   */
   readonly enableTrapsVdsl2Line?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_vlan_membership SnmpServer#enable_traps_vlan_membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_vlan_membership SnmpServer#enable_traps_vlan_membership}
   */
   readonly enableTrapsVlanMembership?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_vlancreate SnmpServer#enable_traps_vlancreate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_vlancreate SnmpServer#enable_traps_vlancreate}
   */
   readonly enableTrapsVlancreate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_vlandelete SnmpServer#enable_traps_vlandelete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_vlandelete SnmpServer#enable_traps_vlandelete}
   */
   readonly enableTrapsVlandelete?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP voice traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_voice SnmpServer#enable_traps_voice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_voice SnmpServer#enable_traps_voice}
   */
   readonly enableTrapsVoice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_vrfmib_vnet_trunk_down SnmpServer#enable_traps_vrfmib_vnet_trunk_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_vrfmib_vnet_trunk_down SnmpServer#enable_traps_vrfmib_vnet_trunk_down}
   */
   readonly enableTrapsVrfmibVnetTrunkDown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_vrfmib_vnet_trunk_up SnmpServer#enable_traps_vrfmib_vnet_trunk_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_vrfmib_vnet_trunk_up SnmpServer#enable_traps_vrfmib_vnet_trunk_up}
   */
   readonly enableTrapsVrfmibVnetTrunkUp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_vrfmib_vrf_down SnmpServer#enable_traps_vrfmib_vrf_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_vrfmib_vrf_down SnmpServer#enable_traps_vrfmib_vrf_down}
   */
   readonly enableTrapsVrfmibVrfDown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_vrfmib_vrf_up SnmpServer#enable_traps_vrfmib_vrf_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_vrfmib_vrf_up SnmpServer#enable_traps_vrfmib_vrf_up}
   */
   readonly enableTrapsVrfmibVrfUp?: boolean | cdktf.IResolvable;
   /**
   * Enable SNMP vrrp traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_vrrp SnmpServer#enable_traps_vrrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_vrrp SnmpServer#enable_traps_vrrp}
   */
   readonly enableTrapsVrrp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#enable_traps_vtp SnmpServer#enable_traps_vtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#enable_traps_vtp SnmpServer#enable_traps_vtp}
   */
   readonly enableTrapsVtp?: boolean | cdktf.IResolvable;
   /**
   * Define a User Security Model group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#groups SnmpServer#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#groups SnmpServer#groups}
   */
   readonly groups?: SnmpServerGroups[] | cdktf.IResolvable;
   /**
   * Specify hosts keyed by (ip-address, community-or-user)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#hosts SnmpServer#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#hosts SnmpServer#hosts}
   */
   readonly hosts?: SnmpServerHosts[] | cdktf.IResolvable;
   /**
   * Persist interface indices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#ifindex_persist SnmpServer#ifindex_persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#ifindex_persist SnmpServer#ifindex_persist}
   */
   readonly ifindexPersist?: boolean | cdktf.IResolvable;
   /**
   * Text for mib object sysLocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#location SnmpServer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#location SnmpServer#location}
   */
   readonly location?: string;
   /**
   * Largest SNMP packet size
   *   - Range: `484`-`17892`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#packetsize SnmpServer#packetsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#packetsize SnmpServer#packetsize}
   */
   readonly packetsize?: number;
   /**
   * Message queue length for each TRAP host
   *   - Range: `1`-`5000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#queue_length SnmpServer#queue_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#queue_length SnmpServer#queue_length}
   */
   readonly queueLength?: number;
   /**
   * Enable SNMP; set community string and access privs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#snmp_communities SnmpServer#snmp_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#snmp_communities SnmpServer#snmp_communities}
   */
   readonly snmpCommunities?: SnmpServerSnmpCommunities[] | cdktf.IResolvable;
   /**
   * Forty GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_informs_forty_gigabit_ethernet SnmpServer#source_interface_informs_forty_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_informs_forty_gigabit_ethernet SnmpServer#source_interface_informs_forty_gigabit_ethernet}
   */
   readonly sourceInterfaceInformsFortyGigabitEthernet?: string;
   /**
   * GigabitEthernet IEEE 802.3z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_informs_gigabit_ethernet SnmpServer#source_interface_informs_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_informs_gigabit_ethernet SnmpServer#source_interface_informs_gigabit_ethernet}
   */
   readonly sourceInterfaceInformsGigabitEthernet?: string;
   /**
   * Hundred GigabitEthernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_informs_hundred_gig_e SnmpServer#source_interface_informs_hundred_gig_e}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_informs_hundred_gig_e SnmpServer#source_interface_informs_hundred_gig_e}
   */
   readonly sourceInterfaceInformsHundredGigE?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_informs_loopback SnmpServer#source_interface_informs_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_informs_loopback SnmpServer#source_interface_informs_loopback}
   */
   readonly sourceInterfaceInformsLoopback?: number;
   /**
   * Ethernet Channel of interfaces
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_informs_port_channel SnmpServer#source_interface_informs_port_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_informs_port_channel SnmpServer#source_interface_informs_port_channel}
   */
   readonly sourceInterfaceInformsPortChannel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_informs_port_channel_subinterface SnmpServer#source_interface_informs_port_channel_subinterface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_informs_port_channel_subinterface SnmpServer#source_interface_informs_port_channel_subinterface}
   */
   readonly sourceInterfaceInformsPortChannelSubinterface?: string;
   /**
   * Ten Gigabit Ethernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_informs_ten_gigabit_ethernet SnmpServer#source_interface_informs_ten_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_informs_ten_gigabit_ethernet SnmpServer#source_interface_informs_ten_gigabit_ethernet}
   */
   readonly sourceInterfaceInformsTenGigabitEthernet?: string;
   /**
   * Iosxr Vlans
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_informs_vlan SnmpServer#source_interface_informs_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_informs_vlan SnmpServer#source_interface_informs_vlan}
   */
   readonly sourceInterfaceInformsVlan?: number;
   /**
   * Forty GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_traps_forty_gigabit_ethernet SnmpServer#source_interface_traps_forty_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_traps_forty_gigabit_ethernet SnmpServer#source_interface_traps_forty_gigabit_ethernet}
   */
   readonly sourceInterfaceTrapsFortyGigabitEthernet?: string;
   /**
   * GigabitEthernet IEEE 802.3z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_traps_gigabit_ethernet SnmpServer#source_interface_traps_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_traps_gigabit_ethernet SnmpServer#source_interface_traps_gigabit_ethernet}
   */
   readonly sourceInterfaceTrapsGigabitEthernet?: string;
   /**
   * Hundred GigabitEthernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_traps_hundred_gig_e SnmpServer#source_interface_traps_hundred_gig_e}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_traps_hundred_gig_e SnmpServer#source_interface_traps_hundred_gig_e}
   */
   readonly sourceInterfaceTrapsHundredGigE?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_traps_loopback SnmpServer#source_interface_traps_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_traps_loopback SnmpServer#source_interface_traps_loopback}
   */
   readonly sourceInterfaceTrapsLoopback?: number;
   /**
   * Ethernet Channel of interfaces
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_traps_port_channel SnmpServer#source_interface_traps_port_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_traps_port_channel SnmpServer#source_interface_traps_port_channel}
   */
   readonly sourceInterfaceTrapsPortChannel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_traps_port_channel_subinterface SnmpServer#source_interface_traps_port_channel_subinterface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_traps_port_channel_subinterface SnmpServer#source_interface_traps_port_channel_subinterface}
   */
   readonly sourceInterfaceTrapsPortChannelSubinterface?: string;
   /**
   * Ten Gigabit Ethernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_traps_ten_gigabit_ethernet SnmpServer#source_interface_traps_ten_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_traps_ten_gigabit_ethernet SnmpServer#source_interface_traps_ten_gigabit_ethernet}
   */
   readonly sourceInterfaceTrapsTenGigabitEthernet?: string;
   /**
   * Iosxr Vlans
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#source_interface_traps_vlan SnmpServer#source_interface_traps_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#source_interface_traps_vlan SnmpServer#source_interface_traps_vlan}
   */
   readonly sourceInterfaceTrapsVlan?: number;
   /**
   * Enable use of the SNMP reload command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#system_shutdown SnmpServer#system_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#system_shutdown SnmpServer#system_shutdown}
   */
   readonly systemShutdown?: boolean | cdktf.IResolvable;
   /**
   * Forty GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#trap_source_forty_gigabit_ethernet SnmpServer#trap_source_forty_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#trap_source_forty_gigabit_ethernet SnmpServer#trap_source_forty_gigabit_ethernet}
   */
   readonly trapSourceFortyGigabitEthernet?: string;
   /**
   * GigabitEthernet IEEE 802.3z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#trap_source_gigabit_ethernet SnmpServer#trap_source_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#trap_source_gigabit_ethernet SnmpServer#trap_source_gigabit_ethernet}
   */
   readonly trapSourceGigabitEthernet?: string;
   /**
   * Hundred GigabitEthernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#trap_source_hundred_gig_e SnmpServer#trap_source_hundred_gig_e}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#trap_source_hundred_gig_e SnmpServer#trap_source_hundred_gig_e}
   */
   readonly trapSourceHundredGigE?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#trap_source_loopback SnmpServer#trap_source_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#trap_source_loopback SnmpServer#trap_source_loopback}
   */
   readonly trapSourceLoopback?: number;
   /**
   * Ethernet Channel of interfaces
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#trap_source_port_channel SnmpServer#trap_source_port_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#trap_source_port_channel SnmpServer#trap_source_port_channel}
   */
   readonly trapSourcePortChannel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#trap_source_port_channel_subinterface SnmpServer#trap_source_port_channel_subinterface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#trap_source_port_channel_subinterface SnmpServer#trap_source_port_channel_subinterface}
   */
   readonly trapSourcePortChannelSubinterface?: string;
   /**
   * Ten Gigabit Ethernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#trap_source_ten_gigabit_ethernet SnmpServer#trap_source_ten_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#trap_source_ten_gigabit_ethernet SnmpServer#trap_source_ten_gigabit_ethernet}
   */
   readonly trapSourceTenGigabitEthernet?: string;
   /**
   * Iosxr Vlans
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#trap_source_vlan SnmpServer#trap_source_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#trap_source_vlan SnmpServer#trap_source_vlan}
   */
   readonly trapSourceVlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#users SnmpServer#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#users SnmpServer#users}
   */
   readonly users?: SnmpServerUsers[] | cdktf.IResolvable;
   /**
   * Define an SNMPv2 MIB view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#views SnmpServer#views}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#views SnmpServer#views}
   */
   readonly views?: SnmpServerViews[] | cdktf.IResolvable;
   /**
   * Specify hosts keyed by (ip-address, vrf, community-or-user)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#vrf_hosts SnmpServer#vrf_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#vrf_hosts SnmpServer#vrf_hosts}
   */
   readonly vrfHosts?: SnmpServerVrfHosts[] | cdktf.IResolvable;
 }
 export interface SnmpServerContexts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#name SnmpServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#name SnmpServer#name}
   */
   readonly name: string;
 }
@@ -1347,58 +1347,58 @@ export interface SnmpServerGroupsV3Security {
   /**
   * Access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#access_acl_name SnmpServer#access_acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#access_acl_name SnmpServer#access_acl_name}
   */
   readonly accessAclName?: string;
   /**
   * Specify IPv6 Named Access-List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#access_ipv6_acl SnmpServer#access_ipv6_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#access_ipv6_acl SnmpServer#access_ipv6_acl}
   */
   readonly accessIpv6Acl?: string;
   /**
   * Standard IP Access-list allowing access with this community string
   *   - Range: `1`-`99`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#access_standard_acl SnmpServer#access_standard_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#access_standard_acl SnmpServer#access_standard_acl}
   */
   readonly accessStandardAcl?: number;
   /**
   * DEPRECATED specify a context to associate these views for the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#context_node SnmpServer#context_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#context_node SnmpServer#context_node}
   */
   readonly contextNode?: string;
   /**
   * DEPRECATED context name match criteria
   *   - Choices: `exact`, `prefix`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#match_node SnmpServer#match_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#match_node SnmpServer#match_node}
   */
   readonly matchNode?: string;
   /**
   * DEPRECATED specify a notify view for the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#notify_node SnmpServer#notify_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#notify_node SnmpServer#notify_node}
   */
   readonly notifyNode?: string;
   /**
   * DEPRECATED specify a read view for the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#read_node SnmpServer#read_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#read_node SnmpServer#read_node}
   */
   readonly readNode?: string;
   /**
   * DEPRECATED security level type
   *   - Choices: `auth`, `noauth`, `priv`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#security_level SnmpServer#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#security_level SnmpServer#security_level}
   */
   readonly securityLevel: string;
   /**
   * DEPRECATED specify a write view for the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#write_node SnmpServer#write_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#write_node SnmpServer#write_node}
   */
   readonly writeNode?: string;
 }
@@ -1743,13 +1743,13 @@ export class SnmpServerGroupsV3SecurityList extends cdktf.ComplexList {
 }
 export interface SnmpServerGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#name SnmpServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#name SnmpServer#name}
   */
   readonly name: string;
   /**
   * DEPRECATED group using security Level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_security SnmpServer#v3_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_security SnmpServer#v3_security}
   */
   readonly v3Security?: SnmpServerGroupsV3Security[] | cdktf.IResolvable;
 }
@@ -1893,32 +1893,32 @@ export interface SnmpServerHosts {
   /**
   * SNMPv1/v2c community string or SNMPv3 user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#community_or_user SnmpServer#community_or_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#community_or_user SnmpServer#community_or_user}
   */
   readonly communityOrUser: string;
   /**
   * Specifies an encryption type for community string
   *   - Choices: `0`, `6`, `7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#encryption SnmpServer#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#encryption SnmpServer#encryption}
   */
   readonly encryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#ip_address SnmpServer#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#ip_address SnmpServer#ip_address}
   */
   readonly ipAddress: string;
   /**
   * 
   *   - Choices: `auth`, `noauth`, `priv`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#security_level SnmpServer#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#security_level SnmpServer#security_level}
   */
   readonly securityLevel?: string;
   /**
   * SNMP version to use for notification messages
   *   - Choices: `1`, `2c`, `3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#version SnmpServer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#version SnmpServer#version}
   */
   readonly version?: string;
 }
@@ -2146,30 +2146,30 @@ export interface SnmpServerSnmpCommunities {
   /**
   * Access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#access_list_name SnmpServer#access_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#access_list_name SnmpServer#access_list_name}
   */
   readonly accessListName?: string;
   /**
   * Specify IPv6 Named Access-List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#ipv6 SnmpServer#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#ipv6 SnmpServer#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#name SnmpServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#name SnmpServer#name}
   */
   readonly name: string;
   /**
   * 
   *   - Choices: `ro`, `rw`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#permission SnmpServer#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#permission SnmpServer#permission}
   */
   readonly permission?: string;
   /**
   * Restrict this community to a named MIB view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#view SnmpServer#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#view SnmpServer#view}
   */
   readonly view?: string;
 }
@@ -2400,127 +2400,127 @@ export interface SnmpServerUsers {
   /**
   * Group to which the user belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#grpname SnmpServer#grpname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#grpname SnmpServer#grpname}
   */
   readonly grpname: string;
   /**
   * Name of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#username SnmpServer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#username SnmpServer#username}
   */
   readonly username: string;
   /**
   * Access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_access_acl_name SnmpServer#v3_auth_access_acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_access_acl_name SnmpServer#v3_auth_access_acl_name}
   */
   readonly v3AuthAccessAclName?: string;
   /**
   * Specify IPv6 Named Access-List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_access_ipv6_acl SnmpServer#v3_auth_access_ipv6_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_access_ipv6_acl SnmpServer#v3_auth_access_ipv6_acl}
   */
   readonly v3AuthAccessIpv6Acl?: string;
   /**
   * Standard IP Access-list allowing access with this community string
   *   - Range: `1`-`99`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_access_standard_acl SnmpServer#v3_auth_access_standard_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_access_standard_acl SnmpServer#v3_auth_access_standard_acl}
   */
   readonly v3AuthAccessStandardAcl?: number;
   /**
   * Use HMAC SHA/MD5 algorithm for authentication
   *   - Choices: `md5`, `sha`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_algorithm SnmpServer#v3_auth_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_algorithm SnmpServer#v3_auth_algorithm}
   */
   readonly v3AuthAlgorithm?: string;
   /**
   * Authentication password for user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_password SnmpServer#v3_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_password SnmpServer#v3_auth_password}
   */
   readonly v3AuthPassword: string;
   /**
   * Access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_priv_aes_access_acl_name SnmpServer#v3_auth_priv_aes_access_acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_priv_aes_access_acl_name SnmpServer#v3_auth_priv_aes_access_acl_name}
   */
   readonly v3AuthPrivAesAccessAclName?: string;
   /**
   * Specify IPv6 Named Access-List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_priv_aes_access_ipv6_acl SnmpServer#v3_auth_priv_aes_access_ipv6_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_priv_aes_access_ipv6_acl SnmpServer#v3_auth_priv_aes_access_ipv6_acl}
   */
   readonly v3AuthPrivAesAccessIpv6Acl?: string;
   /**
   * Standard IP Access-list allowing access with this community string
   *   - Range: `1`-`99`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_priv_aes_access_standard_acl SnmpServer#v3_auth_priv_aes_access_standard_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_priv_aes_access_standard_acl SnmpServer#v3_auth_priv_aes_access_standard_acl}
   */
   readonly v3AuthPrivAesAccessStandardAcl?: number;
   /**
   * 
   *   - Choices: `128`, `192`, `256`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_priv_aes_algorithm SnmpServer#v3_auth_priv_aes_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_priv_aes_algorithm SnmpServer#v3_auth_priv_aes_algorithm}
   */
   readonly v3AuthPrivAesAlgorithm?: string;
   /**
   * Authentication password for user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_priv_aes_password SnmpServer#v3_auth_priv_aes_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_priv_aes_password SnmpServer#v3_auth_priv_aes_password}
   */
   readonly v3AuthPrivAesPassword?: string;
   /**
   * Access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_priv_des3_access_acl_name SnmpServer#v3_auth_priv_des3_access_acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_priv_des3_access_acl_name SnmpServer#v3_auth_priv_des3_access_acl_name}
   */
   readonly v3AuthPrivDes3AccessAclName?: string;
   /**
   * Specify IPv6 Named Access-List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_priv_des3_access_ipv6_acl SnmpServer#v3_auth_priv_des3_access_ipv6_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_priv_des3_access_ipv6_acl SnmpServer#v3_auth_priv_des3_access_ipv6_acl}
   */
   readonly v3AuthPrivDes3AccessIpv6Acl?: string;
   /**
   * Standard IP Access-list allowing access with this community string
   *   - Range: `1`-`99`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_priv_des3_access_standard_acl SnmpServer#v3_auth_priv_des3_access_standard_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_priv_des3_access_standard_acl SnmpServer#v3_auth_priv_des3_access_standard_acl}
   */
   readonly v3AuthPrivDes3AccessStandardAcl?: number;
   /**
   * Authentication password for user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_priv_des3_password SnmpServer#v3_auth_priv_des3_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_priv_des3_password SnmpServer#v3_auth_priv_des3_password}
   */
   readonly v3AuthPrivDes3Password?: string;
   /**
   * Access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_priv_des_access_acl_name SnmpServer#v3_auth_priv_des_access_acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_priv_des_access_acl_name SnmpServer#v3_auth_priv_des_access_acl_name}
   */
   readonly v3AuthPrivDesAccessAclName?: string;
   /**
   * Specify IPv6 Named Access-List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_priv_des_access_ipv6_acl SnmpServer#v3_auth_priv_des_access_ipv6_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_priv_des_access_ipv6_acl SnmpServer#v3_auth_priv_des_access_ipv6_acl}
   */
   readonly v3AuthPrivDesAccessIpv6Acl?: string;
   /**
   * Standard IP Access-list allowing access with this community string
   *   - Range: `1`-`99`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_priv_des_access_standard_acl SnmpServer#v3_auth_priv_des_access_standard_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_priv_des_access_standard_acl SnmpServer#v3_auth_priv_des_access_standard_acl}
   */
   readonly v3AuthPrivDesAccessStandardAcl?: number;
   /**
   * Authentication password for user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#v3_auth_priv_des_password SnmpServer#v3_auth_priv_des_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#v3_auth_priv_des_password SnmpServer#v3_auth_priv_des_password}
   */
   readonly v3AuthPrivDesPassword?: string;
 }
@@ -3181,15 +3181,15 @@ export interface SnmpServerViews {
   * 
   *   - Choices: `excluded`, `included`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#inc_exl SnmpServer#inc_exl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#inc_exl SnmpServer#inc_exl}
   */
   readonly incExl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#mib SnmpServer#mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#mib SnmpServer#mib}
   */
   readonly mib: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#name SnmpServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#name SnmpServer#name}
   */
   readonly name: string;
 }
@@ -3359,38 +3359,38 @@ export interface SnmpServerVrfHosts {
   /**
   * SNMPv1/v2c community string or SNMPv3 user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#community_or_user SnmpServer#community_or_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#community_or_user SnmpServer#community_or_user}
   */
   readonly communityOrUser: string;
   /**
   * Specifies an encryption type for community string
   *   - Choices: `0`, `6`, `7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#encryption SnmpServer#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#encryption SnmpServer#encryption}
   */
   readonly encryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#ip_address SnmpServer#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#ip_address SnmpServer#ip_address}
   */
   readonly ipAddress: string;
   /**
   * 
   *   - Choices: `auth`, `noauth`, `priv`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#security_level SnmpServer#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#security_level SnmpServer#security_level}
   */
   readonly securityLevel?: string;
   /**
   * SNMP version to use for notification messages
   *   - Choices: `1`, `2c`, `3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#version SnmpServer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#version SnmpServer#version}
   */
   readonly version?: string;
   /**
   * VPN Routing instance for this host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#vrf SnmpServer#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#vrf SnmpServer#vrf}
   */
   readonly vrf: string;
 }
@@ -3642,7 +3642,7 @@ export class SnmpServerVrfHostsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server iosxe_snmp_server}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server iosxe_snmp_server}
 */
 export class SnmpServer extends cdktf.TerraformResource {
 
@@ -3658,7 +3658,7 @@ export class SnmpServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpServer to import
-  * @param importFromId The id of the existing SnmpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3670,7 +3670,7 @@ export class SnmpServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/snmp_server iosxe_snmp_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/snmp_server iosxe_snmp_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3681,8 +3681,8 @@ export class SnmpServer extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_snmp_server',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

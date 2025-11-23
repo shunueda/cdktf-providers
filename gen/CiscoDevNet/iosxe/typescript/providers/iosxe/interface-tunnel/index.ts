@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,258 +11,269 @@ export interface InterfaceTunnelConfig extends cdktf.TerraformMetaArguments {
   * Set ARP cache timeout
   *   - Range: `0`-`2147483`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#arp_timeout InterfaceTunnel#arp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#arp_timeout InterfaceTunnel#arp_timeout}
   */
   readonly arpTimeout?: number;
   /**
   * Use echo adjunct as bfd detection mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#bfd_echo InterfaceTunnel#bfd_echo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#bfd_echo InterfaceTunnel#bfd_echo}
   */
   readonly bfdEcho?: boolean | cdktf.IResolvable;
   /**
   * Enable BFD under the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#bfd_enable InterfaceTunnel#bfd_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#bfd_enable InterfaceTunnel#bfd_enable}
   */
   readonly bfdEnable?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `50`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#bfd_interval InterfaceTunnel#bfd_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#bfd_interval InterfaceTunnel#bfd_interval}
   */
   readonly bfdInterval?: number;
   /**
   * Minimum receive interval capability
   *   - Range: `50`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#bfd_interval_min_rx InterfaceTunnel#bfd_interval_min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#bfd_interval_min_rx InterfaceTunnel#bfd_interval_min_rx}
   */
   readonly bfdIntervalMinRx?: number;
   /**
   * Multiplier value used to compute holddown
   *   - Range: `3`-`50`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#bfd_interval_multiplier InterfaceTunnel#bfd_interval_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#bfd_interval_multiplier InterfaceTunnel#bfd_interval_multiplier}
   */
   readonly bfdIntervalMultiplier?: number;
   /**
   * The Source IP address to be used for BFD sessions over this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#bfd_local_address InterfaceTunnel#bfd_local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#bfd_local_address InterfaceTunnel#bfd_local_address}
   */
   readonly bfdLocalAddress?: string;
   /**
   * BFD template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#bfd_template InterfaceTunnel#bfd_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#bfd_template InterfaceTunnel#bfd_template}
   */
   readonly bfdTemplate?: string;
   /**
   * Handling of encapsulated DF bit.
   *   - Choices: `clear`, `copy`, `set`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#crypto_ipsec_df_bit InterfaceTunnel#crypto_ipsec_df_bit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#crypto_ipsec_df_bit InterfaceTunnel#crypto_ipsec_df_bit}
   */
   readonly cryptoIpsecDfBit?: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#delete_mode InterfaceTunnel#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#delete_mode InterfaceTunnel#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * Interface specific description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#description InterfaceTunnel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#description InterfaceTunnel#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#device InterfaceTunnel#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#device InterfaceTunnel#device}
   */
   readonly device?: string;
   /**
   * Specify a destination address for UDP broadcasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#helper_addresses InterfaceTunnel#helper_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#helper_addresses InterfaceTunnel#helper_addresses}
   */
   readonly helperAddresses?: InterfaceTunnelHelperAddresses[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ip_access_group_in InterfaceTunnel#ip_access_group_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ip_access_group_in InterfaceTunnel#ip_access_group_in}
   */
   readonly ipAccessGroupIn?: string;
   /**
   * inbound packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ip_access_group_in_enable InterfaceTunnel#ip_access_group_in_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ip_access_group_in_enable InterfaceTunnel#ip_access_group_in_enable}
   */
   readonly ipAccessGroupInEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ip_access_group_out InterfaceTunnel#ip_access_group_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ip_access_group_out InterfaceTunnel#ip_access_group_out}
   */
   readonly ipAccessGroupOut?: string;
   /**
   * outbound packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ip_access_group_out_enable InterfaceTunnel#ip_access_group_out_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ip_access_group_out_enable InterfaceTunnel#ip_access_group_out_enable}
   */
   readonly ipAccessGroupOutEnable?: boolean | cdktf.IResolvable;
   /**
   * Set source interface for relayed messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ip_dhcp_relay_source_interface InterfaceTunnel#ip_dhcp_relay_source_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ip_dhcp_relay_source_interface InterfaceTunnel#ip_dhcp_relay_source_interface}
   */
   readonly ipDhcpRelaySourceInterface?: string;
+  /**
+  * IGMP version
+  *   - Range: `1`-`3`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ip_igmp_version InterfaceTunnel#ip_igmp_version}
+  */
+  readonly ipIgmpVersion?: number;
   /**
   * Set IP Maximum Transmission Unit
   *   - Range: `68`-`18000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ip_mtu InterfaceTunnel#ip_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ip_mtu InterfaceTunnel#ip_mtu}
   */
   readonly ipMtu?: number;
   /**
   * Enable proxy ARP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ip_proxy_arp InterfaceTunnel#ip_proxy_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ip_proxy_arp InterfaceTunnel#ip_proxy_arp}
   */
   readonly ipProxyArp?: boolean | cdktf.IResolvable;
   /**
   * Enable sending ICMP Redirect messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ip_redirects InterfaceTunnel#ip_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ip_redirects InterfaceTunnel#ip_redirects}
   */
   readonly ipRedirects?: boolean | cdktf.IResolvable;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ip_router_isis InterfaceTunnel#ip_router_isis}
+  */
+  readonly ipRouterIsis?: string;
+  /**
   * Enable sending ICMP Unreachable messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ip_unreachables InterfaceTunnel#ip_unreachables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ip_unreachables InterfaceTunnel#ip_unreachables}
   */
   readonly ipUnreachables?: boolean | cdktf.IResolvable;
   /**
   * Ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ipv4_address InterfaceTunnel#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ipv4_address InterfaceTunnel#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Ip subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ipv4_address_mask InterfaceTunnel#ipv4_address_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ipv4_address_mask InterfaceTunnel#ipv4_address_mask}
   */
   readonly ipv4AddressMask?: string;
   /**
   * Insert default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ipv6_address_autoconfig_default InterfaceTunnel#ipv6_address_autoconfig_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ipv6_address_autoconfig_default InterfaceTunnel#ipv6_address_autoconfig_default}
   */
   readonly ipv6AddressAutoconfigDefault?: boolean | cdktf.IResolvable;
   /**
   * Obtain IPv6 address from DHCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ipv6_address_dhcp InterfaceTunnel#ipv6_address_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ipv6_address_dhcp InterfaceTunnel#ipv6_address_dhcp}
   */
   readonly ipv6AddressDhcp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ipv6_addresses InterfaceTunnel#ipv6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ipv6_addresses InterfaceTunnel#ipv6_addresses}
   */
   readonly ipv6Addresses?: InterfaceTunnelIpv6Addresses[] | cdktf.IResolvable;
   /**
   * Enable IPv6 on interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ipv6_enable InterfaceTunnel#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ipv6_enable InterfaceTunnel#ipv6_enable}
   */
   readonly ipv6Enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ipv6_link_local_addresses InterfaceTunnel#ipv6_link_local_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ipv6_link_local_addresses InterfaceTunnel#ipv6_link_local_addresses}
   */
   readonly ipv6LinkLocalAddresses?: InterfaceTunnelIpv6LinkLocalAddresses[] | cdktf.IResolvable;
   /**
   * Set IPv6 Maximum Transmission Unit
   *   - Range: `1280`-`9976`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ipv6_mtu InterfaceTunnel#ipv6_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ipv6_mtu InterfaceTunnel#ipv6_mtu}
   */
   readonly ipv6Mtu?: number;
   /**
   * Suppress all IPv6 RA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#ipv6_nd_ra_suppress_all InterfaceTunnel#ipv6_nd_ra_suppress_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#ipv6_nd_ra_suppress_all InterfaceTunnel#ipv6_nd_ra_suppress_all}
   */
   readonly ipv6NdRaSuppressAll?: boolean | cdktf.IResolvable;
   /**
   * Specify interval for load calculation for an interface
   *   - Range: `30`-`600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#load_interval InterfaceTunnel#load_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#load_interval InterfaceTunnel#load_interval}
   */
   readonly loadInterval?: number;
   /**
   * UPDOWN and CHANGE messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#logging_event_link_status_enable InterfaceTunnel#logging_event_link_status_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#logging_event_link_status_enable InterfaceTunnel#logging_event_link_status_enable}
   */
   readonly loggingEventLinkStatusEnable?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#name InterfaceTunnel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#name InterfaceTunnel#name}
   */
   readonly name: number;
   /**
   * Shutdown the selected interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#shutdown InterfaceTunnel#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#shutdown InterfaceTunnel#shutdown}
   */
   readonly shutdown?: boolean | cdktf.IResolvable;
   /**
   * Allow SNMP LINKUP and LINKDOWN traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#snmp_trap_link_status InterfaceTunnel#snmp_trap_link_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#snmp_trap_link_status InterfaceTunnel#snmp_trap_link_status}
   */
   readonly snmpTrapLinkStatus?: boolean | cdktf.IResolvable;
   /**
   * ip address or host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#tunnel_destination_ipv4 InterfaceTunnel#tunnel_destination_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#tunnel_destination_ipv4 InterfaceTunnel#tunnel_destination_ipv4}
   */
   readonly tunnelDestinationIpv4?: string;
   /**
   * over IPv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#tunnel_mode_ipsec_ipv4 InterfaceTunnel#tunnel_mode_ipsec_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#tunnel_mode_ipsec_ipv4 InterfaceTunnel#tunnel_mode_ipsec_ipv4}
   */
   readonly tunnelModeIpsecIpv4?: boolean | cdktf.IResolvable;
   /**
   * Obsolete, use the other option profile-option to set ipsec policy profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#tunnel_protection_ipsec_profile InterfaceTunnel#tunnel_protection_ipsec_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#tunnel_protection_ipsec_profile InterfaceTunnel#tunnel_protection_ipsec_profile}
   */
   readonly tunnelProtectionIpsecProfile?: string;
   /**
   * source of tunnel packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#tunnel_source InterfaceTunnel#tunnel_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#tunnel_source InterfaceTunnel#tunnel_source}
   */
   readonly tunnelSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#tunnel_vrf InterfaceTunnel#tunnel_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#tunnel_vrf InterfaceTunnel#tunnel_vrf}
   */
   readonly tunnelVrf?: string;
   /**
   * Enable IP processing without an explicit address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#unnumbered InterfaceTunnel#unnumbered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#unnumbered InterfaceTunnel#unnumbered}
   */
   readonly unnumbered?: string;
   /**
   * Configure forwarding table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#vrf_forwarding InterfaceTunnel#vrf_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#vrf_forwarding InterfaceTunnel#vrf_forwarding}
   */
   readonly vrfForwarding?: string;
 }
@@ -270,19 +281,19 @@ export interface InterfaceTunnelHelperAddresses {
   /**
   * IP destination address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#address InterfaceTunnel#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#address InterfaceTunnel#address}
   */
   readonly address: string;
   /**
   * Helper-address is global
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#global InterfaceTunnel#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#global InterfaceTunnel#global}
   */
   readonly global?: boolean | cdktf.IResolvable;
   /**
   * VRF name for helper-address (if different from interface VRF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#vrf InterfaceTunnel#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#vrf InterfaceTunnel#vrf}
   */
   readonly vrf?: string;
 }
@@ -455,13 +466,13 @@ export interface InterfaceTunnelIpv6Addresses {
   /**
   * Use eui-64 interface identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#eui_64 InterfaceTunnel#eui_64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#eui_64 InterfaceTunnel#eui_64}
   */
   readonly eui64?: boolean | cdktf.IResolvable;
   /**
   * IPv6 prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#prefix InterfaceTunnel#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#prefix InterfaceTunnel#prefix}
   */
   readonly prefix: string;
 }
@@ -603,13 +614,13 @@ export class InterfaceTunnelIpv6AddressesList extends cdktf.ComplexList {
 }
 export interface InterfaceTunnelIpv6LinkLocalAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#address InterfaceTunnel#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#address InterfaceTunnel#address}
   */
   readonly address: string;
   /**
   * Use link-local address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#link_local InterfaceTunnel#link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#link_local InterfaceTunnel#link_local}
   */
   readonly linkLocal?: boolean | cdktf.IResolvable;
 }
@@ -751,7 +762,7 @@ export class InterfaceTunnelIpv6LinkLocalAddressesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel iosxe_interface_tunnel}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel iosxe_interface_tunnel}
 */
 export class InterfaceTunnel extends cdktf.TerraformResource {
 
@@ -767,7 +778,7 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceTunnel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceTunnel to import
-  * @param importFromId The id of the existing InterfaceTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceTunnel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -779,7 +790,7 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_tunnel iosxe_interface_tunnel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/interface_tunnel iosxe_interface_tunnel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -790,8 +801,8 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -819,9 +830,11 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
     this._ipAccessGroupOut = config.ipAccessGroupOut;
     this._ipAccessGroupOutEnable = config.ipAccessGroupOutEnable;
     this._ipDhcpRelaySourceInterface = config.ipDhcpRelaySourceInterface;
+    this._ipIgmpVersion = config.ipIgmpVersion;
     this._ipMtu = config.ipMtu;
     this._ipProxyArp = config.ipProxyArp;
     this._ipRedirects = config.ipRedirects;
+    this._ipRouterIsis = config.ipRouterIsis;
     this._ipUnreachables = config.ipUnreachables;
     this._ipv4Address = config.ipv4Address;
     this._ipv4AddressMask = config.ipv4AddressMask;
@@ -1143,6 +1156,22 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
     return this._ipDhcpRelaySourceInterface;
   }
 
+  // ip_igmp_version - computed: false, optional: true, required: false
+  private _ipIgmpVersion?: number; 
+  public get ipIgmpVersion() {
+    return this.getNumberAttribute('ip_igmp_version');
+  }
+  public set ipIgmpVersion(value: number) {
+    this._ipIgmpVersion = value;
+  }
+  public resetIpIgmpVersion() {
+    this._ipIgmpVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipIgmpVersionInput() {
+    return this._ipIgmpVersion;
+  }
+
   // ip_mtu - computed: false, optional: true, required: false
   private _ipMtu?: number; 
   public get ipMtu() {
@@ -1189,6 +1218,22 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get ipRedirectsInput() {
     return this._ipRedirects;
+  }
+
+  // ip_router_isis - computed: false, optional: true, required: false
+  private _ipRouterIsis?: string; 
+  public get ipRouterIsis() {
+    return this.getStringAttribute('ip_router_isis');
+  }
+  public set ipRouterIsis(value: string) {
+    this._ipRouterIsis = value;
+  }
+  public resetIpRouterIsis() {
+    this._ipRouterIsis = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipRouterIsisInput() {
+    return this._ipRouterIsis;
   }
 
   // ip_unreachables - computed: false, optional: true, required: false
@@ -1564,9 +1609,11 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
       ip_access_group_out: cdktf.stringToTerraform(this._ipAccessGroupOut),
       ip_access_group_out_enable: cdktf.booleanToTerraform(this._ipAccessGroupOutEnable),
       ip_dhcp_relay_source_interface: cdktf.stringToTerraform(this._ipDhcpRelaySourceInterface),
+      ip_igmp_version: cdktf.numberToTerraform(this._ipIgmpVersion),
       ip_mtu: cdktf.numberToTerraform(this._ipMtu),
       ip_proxy_arp: cdktf.booleanToTerraform(this._ipProxyArp),
       ip_redirects: cdktf.booleanToTerraform(this._ipRedirects),
+      ip_router_isis: cdktf.stringToTerraform(this._ipRouterIsis),
       ip_unreachables: cdktf.booleanToTerraform(this._ipUnreachables),
       ipv4_address: cdktf.stringToTerraform(this._ipv4Address),
       ipv4_address_mask: cdktf.stringToTerraform(this._ipv4AddressMask),
@@ -1702,6 +1749,12 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      ip_igmp_version: {
+        value: cdktf.numberToHclTerraform(this._ipIgmpVersion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       ip_mtu: {
         value: cdktf.numberToHclTerraform(this._ipMtu),
         isBlock: false,
@@ -1719,6 +1772,12 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      ip_router_isis: {
+        value: cdktf.stringToHclTerraform(this._ipRouterIsis),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       ip_unreachables: {
         value: cdktf.booleanToHclTerraform(this._ipUnreachables),

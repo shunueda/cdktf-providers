@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlatformSettingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enables automatic cluster role binding for clusters deployed under a tenant or project. Setting it to `false` disables automatic cluster role binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#automatic_cluster_role_binding PlatformSetting#automatic_cluster_role_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#automatic_cluster_role_binding PlatformSetting#automatic_cluster_role_binding}
   */
   readonly automaticClusterRoleBinding?: boolean | cdktf.IResolvable;
   /**
   * Enables automatic remediation for unhealthy nodes in Palette-provisioned clusters by replacing them with new nodes. Disabling this feature prevents auto-remediation. Not applicable to `EKS`, `AKS`, or `TKE` clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#cluster_auto_remediation PlatformSetting#cluster_auto_remediation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#cluster_auto_remediation PlatformSetting#cluster_auto_remediation}
   */
   readonly clusterAutoRemediation?: boolean | cdktf.IResolvable;
   /**
   * Defines the scope of the platform setting. Valid values are `project` or `tenant`. By default, it is set to `tenant`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#context PlatformSetting#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#context PlatformSetting#context}
   */
   readonly context?: string;
   /**
   * Enables automatic remediation. set only with `project' context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#enable_auto_remediation PlatformSetting#enable_auto_remediation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#enable_auto_remediation PlatformSetting#enable_auto_remediation}
   */
   readonly enableAutoRemediation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#id PlatformSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#id PlatformSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface PlatformSettingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allows users in this tenant to use non-FIPS-compliant addon packs when creating cluster profiles. The `non_fips_addon_pack` only supported in palette vertex environment. Allowed only for `tenant` context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#non_fips_addon_pack PlatformSetting#non_fips_addon_pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#non_fips_addon_pack PlatformSetting#non_fips_addon_pack}
   */
   readonly nonFipsAddonPack?: boolean | cdktf.IResolvable;
   /**
   * Allows users in this tenant to import clusters, but the imported clusters may not be FIPS-compliant.  The `non_fips_cluster_import` only supported in palette vertex environment. Allowed only for `tenant` context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#non_fips_cluster_import PlatformSetting#non_fips_cluster_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#non_fips_cluster_import PlatformSetting#non_fips_cluster_import}
   */
   readonly nonFipsClusterImport?: boolean | cdktf.IResolvable;
   /**
   * Allows users in this tenant to access non-FIPS-compliant features such as backup, restore, and scans. The `non_fips_features` only supported in palette vertex environment. Allowed only for `tenant` context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#non_fips_features PlatformSetting#non_fips_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#non_fips_features PlatformSetting#non_fips_features}
   */
   readonly nonFipsFeatures?: boolean | cdktf.IResolvable;
   /**
   * Controls automatic upgrades for Palette components and agents in clusters deployed under a tenant or project. Setting it to `lock` disables automatic upgrades, while `unlock` (default) allows automatic upgrades.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#pause_agent_upgrades PlatformSetting#pause_agent_upgrades}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#pause_agent_upgrades PlatformSetting#pause_agent_upgrades}
   */
   readonly pauseAgentUpgrades?: string;
   /**
   * Specifies the duration (in minutes) of inactivity before a user is automatically logged out. The default is 240 minutes allowed in Palette. Allowed only for `tenant` context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#session_timeout PlatformSetting#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#session_timeout PlatformSetting#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
   * login_banner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#login_banner PlatformSetting#login_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#login_banner PlatformSetting#login_banner}
   */
   readonly loginBanner?: PlatformSettingLoginBanner;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#timeouts PlatformSetting#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#timeouts PlatformSetting#timeouts}
   */
   readonly timeouts?: PlatformSettingTimeouts;
 }
@@ -85,13 +85,13 @@ export interface PlatformSettingLoginBanner {
   /**
   * Specify the message displayed in the login banner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#message PlatformSetting#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#message PlatformSetting#message}
   */
   readonly message: string;
   /**
   * Specify the title of the login banner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#title PlatformSetting#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#title PlatformSetting#title}
   */
   readonly title: string;
 }
@@ -198,15 +198,15 @@ export class PlatformSettingLoginBannerOutputReference extends cdktf.ComplexObje
 }
 export interface PlatformSettingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#create PlatformSetting#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#create PlatformSetting#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#delete PlatformSetting#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#delete PlatformSetting#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#update PlatformSetting#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#update PlatformSetting#update}
   */
   readonly update?: string;
 }
@@ -358,7 +358,7 @@ export class PlatformSettingTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting spectrocloud_platform_setting}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting spectrocloud_platform_setting}
 */
 export class PlatformSetting extends cdktf.TerraformResource {
 
@@ -374,7 +374,7 @@ export class PlatformSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformSetting to import
-  * @param importFromId The id of the existing PlatformSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -386,7 +386,7 @@ export class PlatformSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/platform_setting spectrocloud_platform_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/platform_setting spectrocloud_platform_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -397,8 +397,8 @@ export class PlatformSetting extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_platform_setting',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2',
-        providerVersionConstraint: '0.25.2'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

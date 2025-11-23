@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,191 +11,215 @@ export interface AaaAuthenticationConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#delete_mode AaaAuthentication#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#delete_mode AaaAuthentication#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#device AaaAuthentication#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#device AaaAuthentication#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#dot1x AaaAuthentication#dot1x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#dot1x AaaAuthentication#dot1x}
   */
   readonly dot1X?: AaaAuthenticationDot1X[] | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#dot1x_default_a1_group AaaAuthentication#dot1x_default_a1_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#dot1x_default_a1_group AaaAuthentication#dot1x_default_a1_group}
   */
   readonly dot1XDefaultA1Group?: string;
   /**
   * Use local username authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#dot1x_default_a1_local AaaAuthentication#dot1x_default_a1_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#dot1x_default_a1_local AaaAuthentication#dot1x_default_a1_local}
   */
   readonly dot1XDefaultA1Local?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#dot1x_default_a2_group AaaAuthentication#dot1x_default_a2_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#dot1x_default_a2_group AaaAuthentication#dot1x_default_a2_group}
   */
   readonly dot1XDefaultA2Group?: string;
   /**
   * Use local username authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#dot1x_default_a2_local AaaAuthentication#dot1x_default_a2_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#dot1x_default_a2_local AaaAuthentication#dot1x_default_a2_local}
   */
   readonly dot1XDefaultA2Local?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#dot1x_default_a3_group AaaAuthentication#dot1x_default_a3_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#dot1x_default_a3_group AaaAuthentication#dot1x_default_a3_group}
   */
   readonly dot1XDefaultA3Group?: string;
   /**
   * Use local username authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#dot1x_default_a3_local AaaAuthentication#dot1x_default_a3_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#dot1x_default_a3_local AaaAuthentication#dot1x_default_a3_local}
   */
   readonly dot1XDefaultA3Local?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#dot1x_default_a4_group AaaAuthentication#dot1x_default_a4_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#dot1x_default_a4_group AaaAuthentication#dot1x_default_a4_group}
   */
   readonly dot1XDefaultA4Group?: string;
   /**
   * Use local username authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#dot1x_default_a4_local AaaAuthentication#dot1x_default_a4_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#dot1x_default_a4_local AaaAuthentication#dot1x_default_a4_local}
   */
   readonly dot1XDefaultA4Local?: boolean | cdktf.IResolvable;
   /**
+  * Use enable password for authentication.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_enable_legacy AaaAuthentication#enable_default_enable_legacy}
+  */
+  readonly enableDefaultEnableLegacy?: boolean | cdktf.IResolvable;
+  /**
   * Privileged command level(enable) authentication using cached group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group1_cache AaaAuthentication#enable_default_group1_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group1_cache AaaAuthentication#enable_default_group1_cache}
   */
   readonly enableDefaultGroup1Cache?: string;
   /**
   * Privileged command level(enable) authentication using enable password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group1_enable AaaAuthentication#enable_default_group1_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group1_enable AaaAuthentication#enable_default_group1_enable}
   */
   readonly enableDefaultGroup1Enable?: boolean | cdktf.IResolvable;
   /**
   * Privileged command level(enable) authentication using radius/tacacs+/ldap server(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group1_group AaaAuthentication#enable_default_group1_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group1_group AaaAuthentication#enable_default_group1_group}
   */
   readonly enableDefaultGroup1Group?: string;
   /**
   * Privileged command level(enable) authentication using line password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group1_line AaaAuthentication#enable_default_group1_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group1_line AaaAuthentication#enable_default_group1_line}
   */
   readonly enableDefaultGroup1Line?: boolean | cdktf.IResolvable;
   /**
   * No authentication for Privileged command level(enable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group1_none AaaAuthentication#enable_default_group1_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group1_none AaaAuthentication#enable_default_group1_none}
   */
   readonly enableDefaultGroup1None?: boolean | cdktf.IResolvable;
   /**
   * Privileged command level(enable) authentication using cached group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group2_cache AaaAuthentication#enable_default_group2_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group2_cache AaaAuthentication#enable_default_group2_cache}
   */
   readonly enableDefaultGroup2Cache?: string;
   /**
   * Privileged command level(enable) authentication using enable password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group2_enable AaaAuthentication#enable_default_group2_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group2_enable AaaAuthentication#enable_default_group2_enable}
   */
   readonly enableDefaultGroup2Enable?: boolean | cdktf.IResolvable;
   /**
   * Privileged command level(enable) authentication using radius/tacacs+/ldap server(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group2_group AaaAuthentication#enable_default_group2_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group2_group AaaAuthentication#enable_default_group2_group}
   */
   readonly enableDefaultGroup2Group?: string;
   /**
   * Privileged command level(enable) authentication using line password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group2_line AaaAuthentication#enable_default_group2_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group2_line AaaAuthentication#enable_default_group2_line}
   */
   readonly enableDefaultGroup2Line?: boolean | cdktf.IResolvable;
   /**
   * No authentication for Privileged command level(enable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group2_none AaaAuthentication#enable_default_group2_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group2_none AaaAuthentication#enable_default_group2_none}
   */
   readonly enableDefaultGroup2None?: boolean | cdktf.IResolvable;
   /**
   * Privileged command level(enable) authentication using cached group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group3_cache AaaAuthentication#enable_default_group3_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group3_cache AaaAuthentication#enable_default_group3_cache}
   */
   readonly enableDefaultGroup3Cache?: string;
   /**
   * Privileged command level(enable) authentication using enable password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group3_enable AaaAuthentication#enable_default_group3_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group3_enable AaaAuthentication#enable_default_group3_enable}
   */
   readonly enableDefaultGroup3Enable?: boolean | cdktf.IResolvable;
   /**
   * Privileged command level(enable) authentication using radius/tacacs+/ldap server(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group3_group AaaAuthentication#enable_default_group3_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group3_group AaaAuthentication#enable_default_group3_group}
   */
   readonly enableDefaultGroup3Group?: string;
   /**
   * Privileged command level(enable) authentication using line password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group3_line AaaAuthentication#enable_default_group3_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group3_line AaaAuthentication#enable_default_group3_line}
   */
   readonly enableDefaultGroup3Line?: boolean | cdktf.IResolvable;
   /**
   * No authentication for Privileged command level(enable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group3_none AaaAuthentication#enable_default_group3_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group3_none AaaAuthentication#enable_default_group3_none}
   */
   readonly enableDefaultGroup3None?: boolean | cdktf.IResolvable;
   /**
   * Privileged command level(enable) authentication using cached group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group4_cache AaaAuthentication#enable_default_group4_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group4_cache AaaAuthentication#enable_default_group4_cache}
   */
   readonly enableDefaultGroup4Cache?: string;
   /**
   * Privileged command level(enable) authentication using enable password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group4_enable AaaAuthentication#enable_default_group4_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group4_enable AaaAuthentication#enable_default_group4_enable}
   */
   readonly enableDefaultGroup4Enable?: boolean | cdktf.IResolvable;
   /**
   * Privileged command level(enable) authentication using radius/tacacs+/ldap server(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group4_group AaaAuthentication#enable_default_group4_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group4_group AaaAuthentication#enable_default_group4_group}
   */
   readonly enableDefaultGroup4Group?: string;
   /**
   * Privileged command level(enable) authentication using line password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group4_line AaaAuthentication#enable_default_group4_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group4_line AaaAuthentication#enable_default_group4_line}
   */
   readonly enableDefaultGroup4Line?: boolean | cdktf.IResolvable;
   /**
   * No authentication for Privileged command level(enable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#enable_default_group4_none AaaAuthentication#enable_default_group4_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group4_none AaaAuthentication#enable_default_group4_none}
   */
   readonly enableDefaultGroup4None?: boolean | cdktf.IResolvable;
   /**
+  * Use Server-group
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_group_legacy AaaAuthentication#enable_default_group_legacy}
+  */
+  readonly enableDefaultGroupLegacy?: string;
+  /**
+  * Use line password for authentication.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_line_legacy AaaAuthentication#enable_default_line_legacy}
+  */
+  readonly enableDefaultLineLegacy?: boolean | cdktf.IResolvable;
+  /**
+  * No authentication.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#enable_default_none_legacy AaaAuthentication#enable_default_none_legacy}
+  */
+  readonly enableDefaultNoneLegacy?: boolean | cdktf.IResolvable;
+  /**
   * Set authentication lists for logins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#logins AaaAuthentication#logins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#logins AaaAuthentication#logins}
   */
   readonly logins?: AaaAuthenticationLogins[] | cdktf.IResolvable;
 }
@@ -203,103 +227,103 @@ export interface AaaAuthenticationDot1X {
   /**
   * Use Cached-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a1_cache AaaAuthentication#a1_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a1_cache AaaAuthentication#a1_cache}
   */
   readonly a1Cache?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a1_group AaaAuthentication#a1_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a1_group AaaAuthentication#a1_group}
   */
   readonly a1Group?: string;
   /**
   * Use local username authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a1_local AaaAuthentication#a1_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a1_local AaaAuthentication#a1_local}
   */
   readonly a1Local?: boolean | cdktf.IResolvable;
   /**
   * Use list of all Radius hosts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a1_radius AaaAuthentication#a1_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a1_radius AaaAuthentication#a1_radius}
   */
   readonly a1Radius?: boolean | cdktf.IResolvable;
   /**
   * Use Cached-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a2_cache AaaAuthentication#a2_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a2_cache AaaAuthentication#a2_cache}
   */
   readonly a2Cache?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a2_group AaaAuthentication#a2_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a2_group AaaAuthentication#a2_group}
   */
   readonly a2Group?: string;
   /**
   * Use local username authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a2_local AaaAuthentication#a2_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a2_local AaaAuthentication#a2_local}
   */
   readonly a2Local?: boolean | cdktf.IResolvable;
   /**
   * Use list of all Radius hosts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a2_radius AaaAuthentication#a2_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a2_radius AaaAuthentication#a2_radius}
   */
   readonly a2Radius?: boolean | cdktf.IResolvable;
   /**
   * Use Cached-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a3_cache AaaAuthentication#a3_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a3_cache AaaAuthentication#a3_cache}
   */
   readonly a3Cache?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a3_group AaaAuthentication#a3_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a3_group AaaAuthentication#a3_group}
   */
   readonly a3Group?: string;
   /**
   * Use local username authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a3_local AaaAuthentication#a3_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a3_local AaaAuthentication#a3_local}
   */
   readonly a3Local?: boolean | cdktf.IResolvable;
   /**
   * Use list of all Radius hosts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a3_radius AaaAuthentication#a3_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a3_radius AaaAuthentication#a3_radius}
   */
   readonly a3Radius?: boolean | cdktf.IResolvable;
   /**
   * Use Cached-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a4_cache AaaAuthentication#a4_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a4_cache AaaAuthentication#a4_cache}
   */
   readonly a4Cache?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a4_group AaaAuthentication#a4_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a4_group AaaAuthentication#a4_group}
   */
   readonly a4Group?: string;
   /**
   * Use local username authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a4_local AaaAuthentication#a4_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a4_local AaaAuthentication#a4_local}
   */
   readonly a4Local?: boolean | cdktf.IResolvable;
   /**
   * Use list of all Radius hosts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a4_radius AaaAuthentication#a4_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a4_radius AaaAuthentication#a4_radius}
   */
   readonly a4Radius?: boolean | cdktf.IResolvable;
   /**
   * Named authentication method list for dot1x service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#name AaaAuthentication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#name AaaAuthentication#name}
   */
   readonly name: string;
 }
@@ -878,119 +902,119 @@ export interface AaaAuthenticationLogins {
   /**
   * Use enable password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a1_enable AaaAuthentication#a1_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a1_enable AaaAuthentication#a1_enable}
   */
   readonly a1Enable?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a1_group AaaAuthentication#a1_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a1_group AaaAuthentication#a1_group}
   */
   readonly a1Group?: string;
   /**
   * Use line password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a1_line AaaAuthentication#a1_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a1_line AaaAuthentication#a1_line}
   */
   readonly a1Line?: boolean | cdktf.IResolvable;
   /**
   * Use local username authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a1_local AaaAuthentication#a1_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a1_local AaaAuthentication#a1_local}
   */
   readonly a1Local?: boolean | cdktf.IResolvable;
   /**
   * NO authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a1_none AaaAuthentication#a1_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a1_none AaaAuthentication#a1_none}
   */
   readonly a1None?: boolean | cdktf.IResolvable;
   /**
   * Use enable password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a2_enable AaaAuthentication#a2_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a2_enable AaaAuthentication#a2_enable}
   */
   readonly a2Enable?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a2_group AaaAuthentication#a2_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a2_group AaaAuthentication#a2_group}
   */
   readonly a2Group?: string;
   /**
   * Use line password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a2_line AaaAuthentication#a2_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a2_line AaaAuthentication#a2_line}
   */
   readonly a2Line?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a2_local AaaAuthentication#a2_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a2_local AaaAuthentication#a2_local}
   */
   readonly a2Local?: boolean | cdktf.IResolvable;
   /**
   * NO authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a2_none AaaAuthentication#a2_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a2_none AaaAuthentication#a2_none}
   */
   readonly a2None?: boolean | cdktf.IResolvable;
   /**
   * Use enable password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a3_enable AaaAuthentication#a3_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a3_enable AaaAuthentication#a3_enable}
   */
   readonly a3Enable?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a3_group AaaAuthentication#a3_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a3_group AaaAuthentication#a3_group}
   */
   readonly a3Group?: string;
   /**
   * Use line password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a3_line AaaAuthentication#a3_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a3_line AaaAuthentication#a3_line}
   */
   readonly a3Line?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a3_local AaaAuthentication#a3_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a3_local AaaAuthentication#a3_local}
   */
   readonly a3Local?: boolean | cdktf.IResolvable;
   /**
   * NO authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a3_none AaaAuthentication#a3_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a3_none AaaAuthentication#a3_none}
   */
   readonly a3None?: boolean | cdktf.IResolvable;
   /**
   * Use enable password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a4_enable AaaAuthentication#a4_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a4_enable AaaAuthentication#a4_enable}
   */
   readonly a4Enable?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a4_group AaaAuthentication#a4_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a4_group AaaAuthentication#a4_group}
   */
   readonly a4Group?: string;
   /**
   * Use line password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a4_line AaaAuthentication#a4_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a4_line AaaAuthentication#a4_line}
   */
   readonly a4Line?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a4_local AaaAuthentication#a4_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a4_local AaaAuthentication#a4_local}
   */
   readonly a4Local?: boolean | cdktf.IResolvable;
   /**
   * NO authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#a4_none AaaAuthentication#a4_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#a4_none AaaAuthentication#a4_none}
   */
   readonly a4None?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#name AaaAuthentication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#name AaaAuthentication#name}
   */
   readonly name: string;
 }
@@ -1683,7 +1707,7 @@ export class AaaAuthenticationLoginsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication iosxe_aaa_authentication}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication iosxe_aaa_authentication}
 */
 export class AaaAuthentication extends cdktf.TerraformResource {
 
@@ -1699,7 +1723,7 @@ export class AaaAuthentication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AaaAuthentication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AaaAuthentication to import
-  * @param importFromId The id of the existing AaaAuthentication that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AaaAuthentication that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AaaAuthentication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1711,7 +1735,7 @@ export class AaaAuthentication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/aaa_authentication iosxe_aaa_authentication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/aaa_authentication iosxe_aaa_authentication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1722,8 +1746,8 @@ export class AaaAuthentication extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_aaa_authentication',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1744,6 +1768,7 @@ export class AaaAuthentication extends cdktf.TerraformResource {
     this._dot1XDefaultA3Local = config.dot1XDefaultA3Local;
     this._dot1XDefaultA4Group = config.dot1XDefaultA4Group;
     this._dot1XDefaultA4Local = config.dot1XDefaultA4Local;
+    this._enableDefaultEnableLegacy = config.enableDefaultEnableLegacy;
     this._enableDefaultGroup1Cache = config.enableDefaultGroup1Cache;
     this._enableDefaultGroup1Enable = config.enableDefaultGroup1Enable;
     this._enableDefaultGroup1Group = config.enableDefaultGroup1Group;
@@ -1764,6 +1789,9 @@ export class AaaAuthentication extends cdktf.TerraformResource {
     this._enableDefaultGroup4Group = config.enableDefaultGroup4Group;
     this._enableDefaultGroup4Line = config.enableDefaultGroup4Line;
     this._enableDefaultGroup4None = config.enableDefaultGroup4None;
+    this._enableDefaultGroupLegacy = config.enableDefaultGroupLegacy;
+    this._enableDefaultLineLegacy = config.enableDefaultLineLegacy;
+    this._enableDefaultNoneLegacy = config.enableDefaultNoneLegacy;
     this._logins.internalValue = config.logins;
   }
 
@@ -1945,6 +1973,22 @@ export class AaaAuthentication extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get dot1XDefaultA4LocalInput() {
     return this._dot1XDefaultA4Local;
+  }
+
+  // enable_default_enable_legacy - computed: false, optional: true, required: false
+  private _enableDefaultEnableLegacy?: boolean | cdktf.IResolvable; 
+  public get enableDefaultEnableLegacy() {
+    return this.getBooleanAttribute('enable_default_enable_legacy');
+  }
+  public set enableDefaultEnableLegacy(value: boolean | cdktf.IResolvable) {
+    this._enableDefaultEnableLegacy = value;
+  }
+  public resetEnableDefaultEnableLegacy() {
+    this._enableDefaultEnableLegacy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableDefaultEnableLegacyInput() {
+    return this._enableDefaultEnableLegacy;
   }
 
   // enable_default_group1_cache - computed: false, optional: true, required: false
@@ -2267,6 +2311,54 @@ export class AaaAuthentication extends cdktf.TerraformResource {
     return this._enableDefaultGroup4None;
   }
 
+  // enable_default_group_legacy - computed: false, optional: true, required: false
+  private _enableDefaultGroupLegacy?: string; 
+  public get enableDefaultGroupLegacy() {
+    return this.getStringAttribute('enable_default_group_legacy');
+  }
+  public set enableDefaultGroupLegacy(value: string) {
+    this._enableDefaultGroupLegacy = value;
+  }
+  public resetEnableDefaultGroupLegacy() {
+    this._enableDefaultGroupLegacy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableDefaultGroupLegacyInput() {
+    return this._enableDefaultGroupLegacy;
+  }
+
+  // enable_default_line_legacy - computed: false, optional: true, required: false
+  private _enableDefaultLineLegacy?: boolean | cdktf.IResolvable; 
+  public get enableDefaultLineLegacy() {
+    return this.getBooleanAttribute('enable_default_line_legacy');
+  }
+  public set enableDefaultLineLegacy(value: boolean | cdktf.IResolvable) {
+    this._enableDefaultLineLegacy = value;
+  }
+  public resetEnableDefaultLineLegacy() {
+    this._enableDefaultLineLegacy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableDefaultLineLegacyInput() {
+    return this._enableDefaultLineLegacy;
+  }
+
+  // enable_default_none_legacy - computed: false, optional: true, required: false
+  private _enableDefaultNoneLegacy?: boolean | cdktf.IResolvable; 
+  public get enableDefaultNoneLegacy() {
+    return this.getBooleanAttribute('enable_default_none_legacy');
+  }
+  public set enableDefaultNoneLegacy(value: boolean | cdktf.IResolvable) {
+    this._enableDefaultNoneLegacy = value;
+  }
+  public resetEnableDefaultNoneLegacy() {
+    this._enableDefaultNoneLegacy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableDefaultNoneLegacyInput() {
+    return this._enableDefaultNoneLegacy;
+  }
+
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
@@ -2305,6 +2397,7 @@ export class AaaAuthentication extends cdktf.TerraformResource {
       dot1x_default_a3_local: cdktf.booleanToTerraform(this._dot1XDefaultA3Local),
       dot1x_default_a4_group: cdktf.stringToTerraform(this._dot1XDefaultA4Group),
       dot1x_default_a4_local: cdktf.booleanToTerraform(this._dot1XDefaultA4Local),
+      enable_default_enable_legacy: cdktf.booleanToTerraform(this._enableDefaultEnableLegacy),
       enable_default_group1_cache: cdktf.stringToTerraform(this._enableDefaultGroup1Cache),
       enable_default_group1_enable: cdktf.booleanToTerraform(this._enableDefaultGroup1Enable),
       enable_default_group1_group: cdktf.stringToTerraform(this._enableDefaultGroup1Group),
@@ -2325,6 +2418,9 @@ export class AaaAuthentication extends cdktf.TerraformResource {
       enable_default_group4_group: cdktf.stringToTerraform(this._enableDefaultGroup4Group),
       enable_default_group4_line: cdktf.booleanToTerraform(this._enableDefaultGroup4Line),
       enable_default_group4_none: cdktf.booleanToTerraform(this._enableDefaultGroup4None),
+      enable_default_group_legacy: cdktf.stringToTerraform(this._enableDefaultGroupLegacy),
+      enable_default_line_legacy: cdktf.booleanToTerraform(this._enableDefaultLineLegacy),
+      enable_default_none_legacy: cdktf.booleanToTerraform(this._enableDefaultNoneLegacy),
       logins: cdktf.listMapper(aaaAuthenticationLoginsToTerraform, false)(this._logins.internalValue),
     };
   }
@@ -2393,6 +2489,12 @@ export class AaaAuthentication extends cdktf.TerraformResource {
       },
       dot1x_default_a4_local: {
         value: cdktf.booleanToHclTerraform(this._dot1XDefaultA4Local),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      enable_default_enable_legacy: {
+        value: cdktf.booleanToHclTerraform(this._enableDefaultEnableLegacy),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
@@ -2513,6 +2615,24 @@ export class AaaAuthentication extends cdktf.TerraformResource {
       },
       enable_default_group4_none: {
         value: cdktf.booleanToHclTerraform(this._enableDefaultGroup4None),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      enable_default_group_legacy: {
+        value: cdktf.stringToHclTerraform(this._enableDefaultGroupLegacy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      enable_default_line_legacy: {
+        value: cdktf.booleanToHclTerraform(this._enableDefaultLineLegacy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      enable_default_none_legacy: {
+        value: cdktf.booleanToHclTerraform(this._enableDefaultNoneLegacy),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

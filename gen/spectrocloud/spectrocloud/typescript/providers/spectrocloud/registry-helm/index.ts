@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RegistryHelmConfig extends cdktf.TerraformMetaArguments {
   /**
   * The URL endpoint of the Helm registry where the charts are hosted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#endpoint RegistryHelm#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#endpoint RegistryHelm#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#id RegistryHelm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#id RegistryHelm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface RegistryHelmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies whether the Helm registry is private or public.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#is_private RegistryHelm#is_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#is_private RegistryHelm#is_private}
   */
   readonly isPrivate: boolean | cdktf.IResolvable;
   /**
   * The name of the Helm registry. This must be unique
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#name RegistryHelm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#name RegistryHelm#name}
   */
   readonly name: string;
   /**
   * If `true`, Terraform will wait for the Helm registry to complete its initial synchronization before marking the resource as created or updated. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#wait_for_sync RegistryHelm#wait_for_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#wait_for_sync RegistryHelm#wait_for_sync}
   */
   readonly waitForSync?: boolean | cdktf.IResolvable;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#credentials RegistryHelm#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#credentials RegistryHelm#credentials}
   */
   readonly credentials: RegistryHelmCredentials;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#timeouts RegistryHelm#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#timeouts RegistryHelm#timeouts}
   */
   readonly timeouts?: RegistryHelmTimeouts;
 }
@@ -55,25 +55,25 @@ export interface RegistryHelmCredentials {
   /**
   * The type of authentication used for the Helm registry. Supported values are 'noAuth' for no authentication, 'basic' for username/password, and 'token' for token-based authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#credential_type RegistryHelm#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#credential_type RegistryHelm#credential_type}
   */
   readonly credentialType: string;
   /**
   * The password for basic authentication. Required if 'credential_type' is set to 'basic'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#password RegistryHelm#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#password RegistryHelm#password}
   */
   readonly password?: string;
   /**
   * The authentication token. Required if 'credential_type' is set to 'token'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#token RegistryHelm#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#token RegistryHelm#token}
   */
   readonly token?: string;
   /**
   * The username for basic authentication. Required if 'credential_type' is set to 'basic'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#username RegistryHelm#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#username RegistryHelm#username}
   */
   readonly username?: string;
 }
@@ -241,15 +241,15 @@ export class RegistryHelmCredentialsOutputReference extends cdktf.ComplexObject 
 }
 export interface RegistryHelmTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#create RegistryHelm#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#create RegistryHelm#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#delete RegistryHelm#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#delete RegistryHelm#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#update RegistryHelm#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#update RegistryHelm#update}
   */
   readonly update?: string;
 }
@@ -401,7 +401,7 @@ export class RegistryHelmTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm spectrocloud_registry_helm}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm spectrocloud_registry_helm}
 */
 export class RegistryHelm extends cdktf.TerraformResource {
 
@@ -417,7 +417,7 @@ export class RegistryHelm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RegistryHelm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RegistryHelm to import
-  * @param importFromId The id of the existing RegistryHelm that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RegistryHelm that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RegistryHelm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -429,7 +429,7 @@ export class RegistryHelm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_helm spectrocloud_registry_helm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_helm spectrocloud_registry_helm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -440,8 +440,8 @@ export class RegistryHelm extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_registry_helm',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2',
-        providerVersionConstraint: '0.25.2'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

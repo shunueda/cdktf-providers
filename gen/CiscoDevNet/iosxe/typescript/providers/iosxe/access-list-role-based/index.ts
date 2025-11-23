@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface AccessListRoleBasedConfig extends cdktf.TerraformMetaArguments 
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#device AccessListRoleBased#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#device AccessListRoleBased#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#entries AccessListRoleBased#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#entries AccessListRoleBased#entries}
   */
   readonly entries?: AccessListRoleBasedEntries[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#name AccessListRoleBased#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#name AccessListRoleBased#name}
   */
   readonly name: string;
 }
@@ -27,258 +27,258 @@ export interface AccessListRoleBasedEntries {
   * 
   *   - Choices: `deny`, `permit`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#ace_rule_action AccessListRoleBased#ace_rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#ace_rule_action AccessListRoleBased#ace_rule_action}
   */
   readonly aceRuleAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#ace_rule_protocol AccessListRoleBased#ace_rule_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#ace_rule_protocol AccessListRoleBased#ace_rule_protocol}
   */
   readonly aceRuleProtocol?: string;
   /**
   * Match on the ACK bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#ack AccessListRoleBased#ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#ack AccessListRoleBased#ack}
   */
   readonly ack?: boolean | cdktf.IResolvable;
   /**
   * Match packets with given dscp value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#dscp AccessListRoleBased#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#dscp AccessListRoleBased#dscp}
   */
   readonly dscp?: string;
   /**
   * Match established connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#established AccessListRoleBased#established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#established AccessListRoleBased#established}
   */
   readonly established?: boolean | cdktf.IResolvable;
   /**
   * Match on the FIN bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#fin AccessListRoleBased#fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#fin AccessListRoleBased#fin}
   */
   readonly fin?: boolean | cdktf.IResolvable;
   /**
   * Check non-initial fragments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#fragments AccessListRoleBased#fragments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#fragments AccessListRoleBased#fragments}
   */
   readonly fragments?: boolean | cdktf.IResolvable;
   /**
   * Log matches against this entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#log AccessListRoleBased#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#log AccessListRoleBased#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
   /**
   * Log matches against this entry, including input interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#log_input AccessListRoleBased#log_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#log_input AccessListRoleBased#log_input}
   */
   readonly logInput?: boolean | cdktf.IResolvable;
   /**
   * Match on ACK not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_all_minusack AccessListRoleBased#match_all_minusack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_all_minusack AccessListRoleBased#match_all_minusack}
   */
   readonly matchAllMinusack?: boolean | cdktf.IResolvable;
   /**
   * Match on FIN not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_all_minusfin AccessListRoleBased#match_all_minusfin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_all_minusfin AccessListRoleBased#match_all_minusfin}
   */
   readonly matchAllMinusfin?: boolean | cdktf.IResolvable;
   /**
   * Match on PSH not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_all_minuspsh AccessListRoleBased#match_all_minuspsh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_all_minuspsh AccessListRoleBased#match_all_minuspsh}
   */
   readonly matchAllMinuspsh?: boolean | cdktf.IResolvable;
   /**
   * Match on RST not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_all_minusrst AccessListRoleBased#match_all_minusrst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_all_minusrst AccessListRoleBased#match_all_minusrst}
   */
   readonly matchAllMinusrst?: boolean | cdktf.IResolvable;
   /**
   * Match on SYN not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_all_minussyn AccessListRoleBased#match_all_minussyn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_all_minussyn AccessListRoleBased#match_all_minussyn}
   */
   readonly matchAllMinussyn?: boolean | cdktf.IResolvable;
   /**
   * Match on URG not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_all_minusurg AccessListRoleBased#match_all_minusurg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_all_minusurg AccessListRoleBased#match_all_minusurg}
   */
   readonly matchAllMinusurg?: boolean | cdktf.IResolvable;
   /**
   * Match on ACK set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_all_plusack AccessListRoleBased#match_all_plusack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_all_plusack AccessListRoleBased#match_all_plusack}
   */
   readonly matchAllPlusack?: boolean | cdktf.IResolvable;
   /**
   * Match on FIN set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_all_plusfin AccessListRoleBased#match_all_plusfin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_all_plusfin AccessListRoleBased#match_all_plusfin}
   */
   readonly matchAllPlusfin?: boolean | cdktf.IResolvable;
   /**
   * Match on PSH set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_all_pluspsh AccessListRoleBased#match_all_pluspsh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_all_pluspsh AccessListRoleBased#match_all_pluspsh}
   */
   readonly matchAllPluspsh?: boolean | cdktf.IResolvable;
   /**
   * Match on RST set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_all_plusrst AccessListRoleBased#match_all_plusrst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_all_plusrst AccessListRoleBased#match_all_plusrst}
   */
   readonly matchAllPlusrst?: boolean | cdktf.IResolvable;
   /**
   * Match on SYN set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_all_plussyn AccessListRoleBased#match_all_plussyn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_all_plussyn AccessListRoleBased#match_all_plussyn}
   */
   readonly matchAllPlussyn?: boolean | cdktf.IResolvable;
   /**
   * Match on URG set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_all_plusurg AccessListRoleBased#match_all_plusurg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_all_plusurg AccessListRoleBased#match_all_plusurg}
   */
   readonly matchAllPlusurg?: boolean | cdktf.IResolvable;
   /**
   * Match on ACK not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_any_minusack AccessListRoleBased#match_any_minusack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_any_minusack AccessListRoleBased#match_any_minusack}
   */
   readonly matchAnyMinusack?: boolean | cdktf.IResolvable;
   /**
   * Match on FIN not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_any_minusfin AccessListRoleBased#match_any_minusfin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_any_minusfin AccessListRoleBased#match_any_minusfin}
   */
   readonly matchAnyMinusfin?: boolean | cdktf.IResolvable;
   /**
   * Match on PSH not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_any_minuspsh AccessListRoleBased#match_any_minuspsh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_any_minuspsh AccessListRoleBased#match_any_minuspsh}
   */
   readonly matchAnyMinuspsh?: boolean | cdktf.IResolvable;
   /**
   * Match on RST not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_any_minusrst AccessListRoleBased#match_any_minusrst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_any_minusrst AccessListRoleBased#match_any_minusrst}
   */
   readonly matchAnyMinusrst?: boolean | cdktf.IResolvable;
   /**
   * Match on SYN not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_any_minussyn AccessListRoleBased#match_any_minussyn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_any_minussyn AccessListRoleBased#match_any_minussyn}
   */
   readonly matchAnyMinussyn?: boolean | cdktf.IResolvable;
   /**
   * Match on URG not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_any_minusurg AccessListRoleBased#match_any_minusurg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_any_minusurg AccessListRoleBased#match_any_minusurg}
   */
   readonly matchAnyMinusurg?: boolean | cdktf.IResolvable;
   /**
   * Match on ACK set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_any_plusack AccessListRoleBased#match_any_plusack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_any_plusack AccessListRoleBased#match_any_plusack}
   */
   readonly matchAnyPlusack?: boolean | cdktf.IResolvable;
   /**
   * Match on FIN set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_any_plusfin AccessListRoleBased#match_any_plusfin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_any_plusfin AccessListRoleBased#match_any_plusfin}
   */
   readonly matchAnyPlusfin?: boolean | cdktf.IResolvable;
   /**
   * Match on PSH set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_any_pluspsh AccessListRoleBased#match_any_pluspsh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_any_pluspsh AccessListRoleBased#match_any_pluspsh}
   */
   readonly matchAnyPluspsh?: boolean | cdktf.IResolvable;
   /**
   * Match on RST set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_any_plusrst AccessListRoleBased#match_any_plusrst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_any_plusrst AccessListRoleBased#match_any_plusrst}
   */
   readonly matchAnyPlusrst?: boolean | cdktf.IResolvable;
   /**
   * Match on SYN set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_any_plussyn AccessListRoleBased#match_any_plussyn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_any_plussyn AccessListRoleBased#match_any_plussyn}
   */
   readonly matchAnyPlussyn?: boolean | cdktf.IResolvable;
   /**
   * Match on URG set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#match_any_plusurg AccessListRoleBased#match_any_plusurg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#match_any_plusurg AccessListRoleBased#match_any_plusurg}
   */
   readonly matchAnyPlusurg?: boolean | cdktf.IResolvable;
   /**
   * Match packets with given IP Options value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#option AccessListRoleBased#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#option AccessListRoleBased#option}
   */
   readonly option?: string;
   /**
   * Match packets with given precedence value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#precedence AccessListRoleBased#precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#precedence AccessListRoleBased#precedence}
   */
   readonly precedence?: string;
   /**
   * Match on the PSH bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#psh AccessListRoleBased#psh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#psh AccessListRoleBased#psh}
   */
   readonly psh?: boolean | cdktf.IResolvable;
   /**
   * Access list entry comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#remark AccessListRoleBased#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#remark AccessListRoleBased#remark}
   */
   readonly remark?: string;
   /**
   * Match on the RST bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#rst AccessListRoleBased#rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#rst AccessListRoleBased#rst}
   */
   readonly rst?: boolean | cdktf.IResolvable;
   /**
   * Sequence number for this entry
   *   - Range: `1`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#sequence AccessListRoleBased#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#sequence AccessListRoleBased#sequence}
   */
   readonly sequence: number;
   /**
   * Match on the SYN bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#syn AccessListRoleBased#syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#syn AccessListRoleBased#syn}
   */
   readonly syn?: boolean | cdktf.IResolvable;
   /**
   * Specify a time-range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#time_range AccessListRoleBased#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#time_range AccessListRoleBased#time_range}
   */
   readonly timeRange?: string;
   /**
   * Match packets with given TOS value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#tos AccessListRoleBased#tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#tos AccessListRoleBased#tos}
   */
   readonly tos?: string;
   /**
   * Match on the URG bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#urg AccessListRoleBased#urg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#urg AccessListRoleBased#urg}
   */
   readonly urg?: boolean | cdktf.IResolvable;
 }
@@ -1609,7 +1609,7 @@ export class AccessListRoleBasedEntriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based iosxe_access_list_role_based}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based iosxe_access_list_role_based}
 */
 export class AccessListRoleBased extends cdktf.TerraformResource {
 
@@ -1625,7 +1625,7 @@ export class AccessListRoleBased extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessListRoleBased resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessListRoleBased to import
-  * @param importFromId The id of the existing AccessListRoleBased that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessListRoleBased that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessListRoleBased to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1637,7 +1637,7 @@ export class AccessListRoleBased extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/access_list_role_based iosxe_access_list_role_based} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/access_list_role_based iosxe_access_list_role_based} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1648,8 +1648,8 @@ export class AccessListRoleBased extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_access_list_role_based',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

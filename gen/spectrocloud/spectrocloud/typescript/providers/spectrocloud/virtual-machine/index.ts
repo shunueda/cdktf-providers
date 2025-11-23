@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface VirtualMachineConfig extends cdktf.TerraformMetaArguments {
   /**
   * An unstructured key value map stored with the VM that may be used to store arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#annotations VirtualMachine#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#annotations VirtualMachine#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The name of the source virtual machine that a clone will be created of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#base_vm_name VirtualMachine#base_vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#base_vm_name VirtualMachine#base_vm_name}
   */
   readonly baseVmName?: string;
   /**
   * Context of the cluster. Allowed values are `project`, `tenant`. Default value is `project`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#cluster_context VirtualMachine#cluster_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#cluster_context VirtualMachine#cluster_context}
   */
   readonly clusterContext?: string;
   /**
   * The cluster UID to which the virtual machine belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#cluster_uid VirtualMachine#cluster_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#cluster_uid VirtualMachine#cluster_uid}
   */
   readonly clusterUid: string;
   /**
   * DNSPolicy defines how a pod's DNS will be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#dns_policy VirtualMachine#dns_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#dns_policy VirtualMachine#dns_policy}
   */
   readonly dnsPolicy?: string;
   /**
   * EvictionStrategy can be set to "LiveMigrate" if the VirtualMachineInstance should be migrated instead of shut-off in case of a node drain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#eviction_strategy VirtualMachine#eviction_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#eviction_strategy VirtualMachine#eviction_strategy}
   */
   readonly evictionStrategy?: string;
   /**
   * Prefix, used by the server, to generate a unique name ONLY IF the `name` field has not been provided. This value will also be combined with a unique suffix. Read more: https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#idempotency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#generate_name VirtualMachine#generate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#generate_name VirtualMachine#generate_name}
   */
   readonly generateName?: string;
   /**
   * Specifies the hostname of the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#hostname VirtualMachine#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#hostname VirtualMachine#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#id VirtualMachine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#id VirtualMachine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,169 +65,169 @@ export interface VirtualMachineConfig extends cdktf.TerraformMetaArguments {
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select). May match selectors of replication controllers and services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#labels VirtualMachine#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#labels VirtualMachine#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the virtual machine, must be unique. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name: string;
   /**
   * Namespace defines the space within, Name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#namespace VirtualMachine#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#namespace VirtualMachine#namespace}
   */
   readonly namespace?: string;
   /**
   * NodeSelector is a selector which must be true for the vmi to fit on a node. Selector which must match a node's labels for the vmi to be scheduled on that node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#node_selector VirtualMachine#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#node_selector VirtualMachine#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, indicates the pod's priority. If not specified, the pod priority will be default or zero if there is no default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#priority_class_name VirtualMachine#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#priority_class_name VirtualMachine#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * If set to `true`, the virtual machine will be started when the cluster is launched. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#run_on_launch VirtualMachine#run_on_launch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#run_on_launch VirtualMachine#run_on_launch}
   */
   readonly runOnLaunch?: boolean | cdktf.IResolvable;
   /**
   * Running state indicates the requested running state of the VirtualMachineInstance, mutually exclusive with Running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#run_strategy VirtualMachine#run_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#run_strategy VirtualMachine#run_strategy}
   */
   readonly runStrategy?: string;
   /**
   * If specified, the VMI will be dispatched by specified scheduler. If not specified, the VMI will be dispatched by default scheduler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#scheduler_name VirtualMachine#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#scheduler_name VirtualMachine#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
   * If specified, the fully qualified vmi hostname will be "<hostname>.<subdomain>.<pod namespace>.svc.<cluster domain>".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#subdomain VirtualMachine#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#subdomain VirtualMachine#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Grace period observed after signalling a VirtualMachineInstance to stop after which the VirtualMachineInstance is force terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#termination_grace_period_seconds VirtualMachine#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#termination_grace_period_seconds VirtualMachine#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * The action to be performed on the virtual machine. Valid values are: `start`, `stop`, `restart`, `pause`, `resume`, `migrate`. Default value is `start`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#vm_action VirtualMachine#vm_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#vm_action VirtualMachine#vm_action}
   */
   readonly vmAction?: string;
   /**
   * affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#affinity VirtualMachine#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#affinity VirtualMachine#affinity}
   */
   readonly affinity?: VirtualMachineAffinity;
   /**
   * cpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#cpu VirtualMachine#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#cpu VirtualMachine#cpu}
   */
   readonly cpu?: VirtualMachineCpu;
   /**
   * data_volume_templates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#data_volume_templates VirtualMachine#data_volume_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#data_volume_templates VirtualMachine#data_volume_templates}
   */
   readonly dataVolumeTemplates?: VirtualMachineDataVolumeTemplates[] | cdktf.IResolvable;
   /**
   * disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#disk VirtualMachine#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#disk VirtualMachine#disk}
   */
   readonly disk?: VirtualMachineDisk[] | cdktf.IResolvable;
   /**
   * features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#features VirtualMachine#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#features VirtualMachine#features}
   */
   readonly features?: VirtualMachineFeatures;
   /**
   * firmware block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#firmware VirtualMachine#firmware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#firmware VirtualMachine#firmware}
   */
   readonly firmware?: VirtualMachineFirmware;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#interface VirtualMachine#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#interface VirtualMachine#interface}
   */
   readonly interface?: VirtualMachineInterface[] | cdktf.IResolvable;
   /**
   * liveness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#liveness_probe VirtualMachine#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#liveness_probe VirtualMachine#liveness_probe}
   */
   readonly livenessProbe?: VirtualMachineLivenessProbe;
   /**
   * memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#memory VirtualMachine#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#memory VirtualMachine#memory}
   */
   readonly memory?: VirtualMachineMemory;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#network VirtualMachine#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#network VirtualMachine#network}
   */
   readonly network?: VirtualMachineNetwork[] | cdktf.IResolvable;
   /**
   * pod_dns_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#pod_dns_config VirtualMachine#pod_dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#pod_dns_config VirtualMachine#pod_dns_config}
   */
   readonly podDnsConfig?: VirtualMachinePodDnsConfig;
   /**
   * readiness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#readiness_probe VirtualMachine#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#readiness_probe VirtualMachine#readiness_probe}
   */
   readonly readinessProbe?: VirtualMachineReadinessProbe;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#resources VirtualMachine#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#resources VirtualMachine#resources}
   */
   readonly resources: VirtualMachineResources;
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#status VirtualMachine#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#status VirtualMachine#status}
   */
   readonly status?: VirtualMachineStatus;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#timeouts VirtualMachine#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#timeouts VirtualMachine#timeouts}
   */
   readonly timeouts?: VirtualMachineTimeouts;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#tolerations VirtualMachine#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#tolerations VirtualMachine#tolerations}
   */
   readonly tolerations?: VirtualMachineTolerations[] | cdktf.IResolvable;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#volume VirtualMachine#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#volume VirtualMachine#volume}
   */
   readonly volume?: VirtualMachineVolume[] | cdktf.IResolvable;
 }
@@ -235,19 +235,19 @@ export interface VirtualMachineAffinityNodeAffinityPreferredDuringSchedulingIgno
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#key VirtualMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#key VirtualMachine#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#operator VirtualMachine#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#operator VirtualMachine#operator}
   */
   readonly operator?: string;
   /**
   * Values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#values VirtualMachine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#values VirtualMachine#values}
   */
   readonly values?: string[];
 }
@@ -423,7 +423,7 @@ export interface VirtualMachineAffinityNodeAffinityPreferredDuringSchedulingIgno
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
   */
   readonly matchExpressions?: VirtualMachineAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
 }
@@ -509,13 +509,13 @@ export interface VirtualMachineAffinityNodeAffinityPreferredDuringSchedulingIgno
   /**
   * weight is in the range 1-100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#weight VirtualMachine#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#weight VirtualMachine#weight}
   */
   readonly weight: number;
   /**
   * preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#preference VirtualMachine#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#preference VirtualMachine#preference}
   */
   readonly preference: VirtualMachineAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
 }
@@ -656,19 +656,19 @@ export interface VirtualMachineAffinityNodeAffinityRequiredDuringSchedulingIgnor
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#key VirtualMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#key VirtualMachine#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#operator VirtualMachine#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#operator VirtualMachine#operator}
   */
   readonly operator?: string;
   /**
   * Values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#values VirtualMachine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#values VirtualMachine#values}
   */
   readonly values?: string[];
 }
@@ -844,7 +844,7 @@ export interface VirtualMachineAffinityNodeAffinityRequiredDuringSchedulingIgnor
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
   */
   readonly matchExpressions?: VirtualMachineAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermMatchExpressions[] | cdktf.IResolvable;
 }
@@ -962,7 +962,7 @@ export interface VirtualMachineAffinityNodeAffinityRequiredDuringSchedulingIgnor
   /**
   * node_selector_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#node_selector_term VirtualMachine#node_selector_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#node_selector_term VirtualMachine#node_selector_term}
   */
   readonly nodeSelectorTerm?: VirtualMachineAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerm[] | cdktf.IResolvable;
 }
@@ -1048,13 +1048,13 @@ export interface VirtualMachineAffinityNodeAffinity {
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#preferred_during_scheduling_ignored_during_execution VirtualMachine#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#preferred_during_scheduling_ignored_during_execution VirtualMachine#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: VirtualMachineAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#required_during_scheduling_ignored_during_execution VirtualMachine#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#required_during_scheduling_ignored_during_execution VirtualMachine#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: VirtualMachineAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1169,19 +1169,19 @@ export interface VirtualMachineAffinityPodAffinityPreferredDuringSchedulingIgnor
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#key VirtualMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#key VirtualMachine#key}
   */
   readonly key?: string;
   /**
   * A key's relationship to a set of values. Valid operators ard `In`, `NotIn`, `Exists` and `DoesNotExist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#operator VirtualMachine#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#operator VirtualMachine#operator}
   */
   readonly operator?: string;
   /**
   * An array of string values. If the operator is `In` or `NotIn`, the values array must be non-empty. If the operator is `Exists` or `DoesNotExist`, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#values VirtualMachine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#values VirtualMachine#values}
   */
   readonly values?: string[];
 }
@@ -1357,13 +1357,13 @@ export interface VirtualMachineAffinityPodAffinityPreferredDuringSchedulingIgnor
   /**
   * A map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of `match_expressions`, whose key field is "key", the operator is "In", and the values array contains only "value". The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_labels VirtualMachine#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_labels VirtualMachine#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
   */
   readonly matchExpressions?: VirtualMachineAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -1510,19 +1510,19 @@ export interface VirtualMachineAffinityPodAffinityPreferredDuringSchedulingIgnor
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#namespaces VirtualMachine#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#namespaces VirtualMachine#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * empty topology key is interpreted by the scheduler as 'all topologies'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#topology_key VirtualMachine#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#topology_key VirtualMachine#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#label_selector VirtualMachine#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#label_selector VirtualMachine#label_selector}
   */
   readonly labelSelector?: VirtualMachineAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector[] | cdktf.IResolvable;
 }
@@ -1666,13 +1666,13 @@ export interface VirtualMachineAffinityPodAffinityPreferredDuringSchedulingIgnor
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#weight VirtualMachine#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#weight VirtualMachine#weight}
   */
   readonly weight: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#pod_affinity_term VirtualMachine#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#pod_affinity_term VirtualMachine#pod_affinity_term}
   */
   readonly podAffinityTerm: VirtualMachineAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -1813,19 +1813,19 @@ export interface VirtualMachineAffinityPodAffinityRequiredDuringSchedulingIgnore
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#key VirtualMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#key VirtualMachine#key}
   */
   readonly key?: string;
   /**
   * A key's relationship to a set of values. Valid operators ard `In`, `NotIn`, `Exists` and `DoesNotExist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#operator VirtualMachine#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#operator VirtualMachine#operator}
   */
   readonly operator?: string;
   /**
   * An array of string values. If the operator is `In` or `NotIn`, the values array must be non-empty. If the operator is `Exists` or `DoesNotExist`, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#values VirtualMachine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#values VirtualMachine#values}
   */
   readonly values?: string[];
 }
@@ -2001,13 +2001,13 @@ export interface VirtualMachineAffinityPodAffinityRequiredDuringSchedulingIgnore
   /**
   * A map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of `match_expressions`, whose key field is "key", the operator is "In", and the values array contains only "value". The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_labels VirtualMachine#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_labels VirtualMachine#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
   */
   readonly matchExpressions?: VirtualMachineAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -2154,19 +2154,19 @@ export interface VirtualMachineAffinityPodAffinityRequiredDuringSchedulingIgnore
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#namespaces VirtualMachine#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#namespaces VirtualMachine#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * empty topology key is interpreted by the scheduler as 'all topologies'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#topology_key VirtualMachine#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#topology_key VirtualMachine#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#label_selector VirtualMachine#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#label_selector VirtualMachine#label_selector}
   */
   readonly labelSelector?: VirtualMachineAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector[] | cdktf.IResolvable;
 }
@@ -2342,13 +2342,13 @@ export interface VirtualMachineAffinityPodAffinity {
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#preferred_during_scheduling_ignored_during_execution VirtualMachine#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#preferred_during_scheduling_ignored_during_execution VirtualMachine#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: VirtualMachineAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#required_during_scheduling_ignored_during_execution VirtualMachine#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#required_during_scheduling_ignored_during_execution VirtualMachine#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: VirtualMachineAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -2463,19 +2463,19 @@ export interface VirtualMachineAffinityPodAntiAffinityPreferredDuringSchedulingI
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#key VirtualMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#key VirtualMachine#key}
   */
   readonly key?: string;
   /**
   * A key's relationship to a set of values. Valid operators ard `In`, `NotIn`, `Exists` and `DoesNotExist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#operator VirtualMachine#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#operator VirtualMachine#operator}
   */
   readonly operator?: string;
   /**
   * An array of string values. If the operator is `In` or `NotIn`, the values array must be non-empty. If the operator is `Exists` or `DoesNotExist`, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#values VirtualMachine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#values VirtualMachine#values}
   */
   readonly values?: string[];
 }
@@ -2651,13 +2651,13 @@ export interface VirtualMachineAffinityPodAntiAffinityPreferredDuringSchedulingI
   /**
   * A map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of `match_expressions`, whose key field is "key", the operator is "In", and the values array contains only "value". The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_labels VirtualMachine#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_labels VirtualMachine#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
   */
   readonly matchExpressions?: VirtualMachineAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -2804,19 +2804,19 @@ export interface VirtualMachineAffinityPodAntiAffinityPreferredDuringSchedulingI
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#namespaces VirtualMachine#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#namespaces VirtualMachine#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * empty topology key is interpreted by the scheduler as 'all topologies'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#topology_key VirtualMachine#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#topology_key VirtualMachine#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#label_selector VirtualMachine#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#label_selector VirtualMachine#label_selector}
   */
   readonly labelSelector?: VirtualMachineAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector[] | cdktf.IResolvable;
 }
@@ -2960,13 +2960,13 @@ export interface VirtualMachineAffinityPodAntiAffinityPreferredDuringSchedulingI
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#weight VirtualMachine#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#weight VirtualMachine#weight}
   */
   readonly weight: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#pod_affinity_term VirtualMachine#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#pod_affinity_term VirtualMachine#pod_affinity_term}
   */
   readonly podAffinityTerm: VirtualMachineAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -3107,19 +3107,19 @@ export interface VirtualMachineAffinityPodAntiAffinityRequiredDuringSchedulingIg
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#key VirtualMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#key VirtualMachine#key}
   */
   readonly key?: string;
   /**
   * A key's relationship to a set of values. Valid operators ard `In`, `NotIn`, `Exists` and `DoesNotExist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#operator VirtualMachine#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#operator VirtualMachine#operator}
   */
   readonly operator?: string;
   /**
   * An array of string values. If the operator is `In` or `NotIn`, the values array must be non-empty. If the operator is `Exists` or `DoesNotExist`, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#values VirtualMachine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#values VirtualMachine#values}
   */
   readonly values?: string[];
 }
@@ -3295,13 +3295,13 @@ export interface VirtualMachineAffinityPodAntiAffinityRequiredDuringSchedulingIg
   /**
   * A map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of `match_expressions`, whose key field is "key", the operator is "In", and the values array contains only "value". The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_labels VirtualMachine#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_labels VirtualMachine#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
   */
   readonly matchExpressions?: VirtualMachineAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -3448,19 +3448,19 @@ export interface VirtualMachineAffinityPodAntiAffinityRequiredDuringSchedulingIg
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#namespaces VirtualMachine#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#namespaces VirtualMachine#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * empty topology key is interpreted by the scheduler as 'all topologies'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#topology_key VirtualMachine#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#topology_key VirtualMachine#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#label_selector VirtualMachine#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#label_selector VirtualMachine#label_selector}
   */
   readonly labelSelector?: VirtualMachineAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector[] | cdktf.IResolvable;
 }
@@ -3636,13 +3636,13 @@ export interface VirtualMachineAffinityPodAntiAffinity {
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#preferred_during_scheduling_ignored_during_execution VirtualMachine#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#preferred_during_scheduling_ignored_during_execution VirtualMachine#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: VirtualMachineAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#required_during_scheduling_ignored_during_execution VirtualMachine#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#required_during_scheduling_ignored_during_execution VirtualMachine#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: VirtualMachineAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3757,19 +3757,19 @@ export interface VirtualMachineAffinity {
   /**
   * node_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#node_affinity VirtualMachine#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#node_affinity VirtualMachine#node_affinity}
   */
   readonly nodeAffinity?: VirtualMachineAffinityNodeAffinity;
   /**
   * pod_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#pod_affinity VirtualMachine#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#pod_affinity VirtualMachine#pod_affinity}
   */
   readonly podAffinity?: VirtualMachineAffinityPodAffinity;
   /**
   * pod_anti_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#pod_anti_affinity VirtualMachine#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#pod_anti_affinity VirtualMachine#pod_anti_affinity}
   */
   readonly podAntiAffinity?: VirtualMachineAffinityPodAntiAffinity;
 }
@@ -3913,19 +3913,19 @@ export interface VirtualMachineCpu {
   /**
   * Cores is the number of cores inside the vmi. Must be a value greater or equal 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#cores VirtualMachine#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#cores VirtualMachine#cores}
   */
   readonly cores?: number;
   /**
   * Sockets is the number of sockets inside the vmi. Must be a value greater or equal 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#sockets VirtualMachine#sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#sockets VirtualMachine#sockets}
   */
   readonly sockets?: number;
   /**
   * Threads is the number of threads inside the vmi. Must be a value greater or equal 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#threads VirtualMachine#threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#threads VirtualMachine#threads}
   */
   readonly threads?: number;
 }
@@ -4069,25 +4069,25 @@ export interface VirtualMachineDataVolumeTemplatesMetadata {
   /**
   * An unstructured key value map stored with the DataVolume that may be used to store arbitrary metadata. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#annotations VirtualMachine#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#annotations VirtualMachine#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the DataVolume. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#labels VirtualMachine#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#labels VirtualMachine#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the DataVolume, must be unique. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name?: string;
   /**
   * Namespace defines the space within which name of the DataVolume must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#namespace VirtualMachine#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#namespace VirtualMachine#namespace}
   */
   readonly namespace?: string;
 }
@@ -4275,13 +4275,13 @@ export interface VirtualMachineDataVolumeTemplatesSpecPvcResources {
   /**
   * Map describing the maximum amount of compute resources allowed. More info: http://kubernetes.io/docs/user-guide/compute-resources/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#limits VirtualMachine#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#limits VirtualMachine#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Map describing the minimum amount of compute resources required. If this is omitted for a container, it defaults to `limits` if that is explicitly specified, otherwise to an implementation-defined value. More info: http://kubernetes.io/docs/user-guide/compute-resources/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#requests VirtualMachine#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#requests VirtualMachine#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -4396,19 +4396,19 @@ export interface VirtualMachineDataVolumeTemplatesSpecPvcSelectorMatchExpression
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#key VirtualMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#key VirtualMachine#key}
   */
   readonly key?: string;
   /**
   * A key's relationship to a set of values. Valid operators ard `In`, `NotIn`, `Exists` and `DoesNotExist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#operator VirtualMachine#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#operator VirtualMachine#operator}
   */
   readonly operator?: string;
   /**
   * An array of string values. If the operator is `In` or `NotIn`, the values array must be non-empty. If the operator is `Exists` or `DoesNotExist`, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#values VirtualMachine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#values VirtualMachine#values}
   */
   readonly values?: string[];
 }
@@ -4584,13 +4584,13 @@ export interface VirtualMachineDataVolumeTemplatesSpecPvcSelector {
   /**
   * A map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of `match_expressions`, whose key field is "key", the operator is "In", and the values array contains only "value". The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_labels VirtualMachine#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_labels VirtualMachine#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
   */
   readonly matchExpressions?: VirtualMachineDataVolumeTemplatesSpecPvcSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -4705,37 +4705,37 @@ export interface VirtualMachineDataVolumeTemplatesSpecPvc {
   /**
   * A set of the desired access modes the volume should have. More info: http://kubernetes.io/docs/user-guide/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#access_modes VirtualMachine#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#access_modes VirtualMachine#access_modes}
   */
   readonly accessModes: string[];
   /**
   * Name of the storage class requested by the claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#storage_class_name VirtualMachine#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#storage_class_name VirtualMachine#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#volume_mode VirtualMachine#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#volume_mode VirtualMachine#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * The binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#volume_name VirtualMachine#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#volume_name VirtualMachine#volume_name}
   */
   readonly volumeName?: string;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#resources VirtualMachine#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#resources VirtualMachine#resources}
   */
   readonly resources: VirtualMachineDataVolumeTemplatesSpecPvcResources;
   /**
   * selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#selector VirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#selector VirtualMachine#selector}
   */
   readonly selector?: VirtualMachineDataVolumeTemplatesSpecPvcSelector;
 }
@@ -5009,19 +5009,19 @@ export interface VirtualMachineDataVolumeTemplatesSpecSourceHttp {
   /**
   * Cert_config_map provides a reference to the Registry certs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#cert_config_map VirtualMachine#cert_config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#cert_config_map VirtualMachine#cert_config_map}
   */
   readonly certConfigMap?: string;
   /**
   * Secret_ref provides the secret reference needed to access the HTTP source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#secret_ref VirtualMachine#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#secret_ref VirtualMachine#secret_ref}
   */
   readonly secretRef?: string;
   /**
   * url is the URL of the http source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#url VirtualMachine#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#url VirtualMachine#url}
   */
   readonly url?: string;
 }
@@ -5165,13 +5165,13 @@ export interface VirtualMachineDataVolumeTemplatesSpecSourcePvc {
   /**
   * The name of the PVC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name?: string;
   /**
   * The namespace which the PVC located in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#namespace VirtualMachine#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#namespace VirtualMachine#namespace}
   */
   readonly namespace?: string;
 }
@@ -5286,7 +5286,7 @@ export interface VirtualMachineDataVolumeTemplatesSpecSourceRegistry {
   /**
   * The registry URL of the image to download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#image_url VirtualMachine#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#image_url VirtualMachine#image_url}
   */
   readonly imageUrl?: string;
 }
@@ -5372,25 +5372,25 @@ export interface VirtualMachineDataVolumeTemplatesSpecSource {
   /**
   * blank block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#blank VirtualMachine#blank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#blank VirtualMachine#blank}
   */
   readonly blank?: VirtualMachineDataVolumeTemplatesSpecSourceBlank;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#http VirtualMachine#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#http VirtualMachine#http}
   */
   readonly http?: VirtualMachineDataVolumeTemplatesSpecSourceHttp;
   /**
   * pvc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#pvc VirtualMachine#pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#pvc VirtualMachine#pvc}
   */
   readonly pvc?: VirtualMachineDataVolumeTemplatesSpecSourcePvc;
   /**
   * registry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#registry VirtualMachine#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#registry VirtualMachine#registry}
   */
   readonly registry?: VirtualMachineDataVolumeTemplatesSpecSourceRegistry;
 }
@@ -5563,13 +5563,13 @@ export interface VirtualMachineDataVolumeTemplatesSpecStorageResources {
   /**
   * Map describing the maximum amount of compute resources allowed. More info: http://kubernetes.io/docs/user-guide/compute-resources/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#limits VirtualMachine#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#limits VirtualMachine#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Map describing the minimum amount of compute resources required. If this is omitted for a container, it defaults to `limits` if that is explicitly specified, otherwise to an implementation-defined value. More info: http://kubernetes.io/docs/user-guide/compute-resources/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#requests VirtualMachine#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#requests VirtualMachine#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5684,19 +5684,19 @@ export interface VirtualMachineDataVolumeTemplatesSpecStorageSelectorMatchExpres
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#key VirtualMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#key VirtualMachine#key}
   */
   readonly key?: string;
   /**
   * A key's relationship to a set of values. Valid operators are `In`, `NotIn`, `Exists` and `DoesNotExist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#operator VirtualMachine#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#operator VirtualMachine#operator}
   */
   readonly operator?: string;
   /**
   * An array of string values. If the operator is `In` or `NotIn`, the values array must be non-empty. If the operator is `Exists` or `DoesNotExist`, the values array must be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#values VirtualMachine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#values VirtualMachine#values}
   */
   readonly values?: string[];
 }
@@ -5872,13 +5872,13 @@ export interface VirtualMachineDataVolumeTemplatesSpecStorageSelector {
   /**
   * A map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of `match_expressions`, whose key field is "key", the operator is "In", and the values array contains only "value".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_labels VirtualMachine#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_labels VirtualMachine#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#match_expressions VirtualMachine#match_expressions}
   */
   readonly matchExpressions?: VirtualMachineDataVolumeTemplatesSpecStorageSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -5993,37 +5993,37 @@ export interface VirtualMachineDataVolumeTemplatesSpecStorage {
   /**
   * A set of the desired access modes the volume should have. More info: http://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#access_modes VirtualMachine#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#access_modes VirtualMachine#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * Name of the storage class requested by the claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#storage_class_name VirtualMachine#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#storage_class_name VirtualMachine#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#volume_mode VirtualMachine#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#volume_mode VirtualMachine#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * The binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#volume_name VirtualMachine#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#volume_name VirtualMachine#volume_name}
   */
   readonly volumeName?: string;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#resources VirtualMachine#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#resources VirtualMachine#resources}
   */
   readonly resources?: VirtualMachineDataVolumeTemplatesSpecStorageResources;
   /**
   * selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#selector VirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#selector VirtualMachine#selector}
   */
   readonly selector?: VirtualMachineDataVolumeTemplatesSpecStorageSelector;
 }
@@ -6254,25 +6254,25 @@ export interface VirtualMachineDataVolumeTemplatesSpec {
   /**
   * ContentType options: "kubevirt", "archive".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#content_type VirtualMachine#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#content_type VirtualMachine#content_type}
   */
   readonly contentType?: string;
   /**
   * pvc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#pvc VirtualMachine#pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#pvc VirtualMachine#pvc}
   */
   readonly pvc?: VirtualMachineDataVolumeTemplatesSpecPvc;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#source VirtualMachine#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#source VirtualMachine#source}
   */
   readonly source?: VirtualMachineDataVolumeTemplatesSpecSource;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#storage VirtualMachine#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#storage VirtualMachine#storage}
   */
   readonly storage?: VirtualMachineDataVolumeTemplatesSpecStorage;
 }
@@ -6445,13 +6445,13 @@ export interface VirtualMachineDataVolumeTemplates {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#metadata VirtualMachine#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#metadata VirtualMachine#metadata}
   */
   readonly metadata: VirtualMachineDataVolumeTemplatesMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#spec VirtualMachine#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#spec VirtualMachine#spec}
   */
   readonly spec: VirtualMachineDataVolumeTemplatesSpec;
 }
@@ -6592,19 +6592,19 @@ export interface VirtualMachineDiskDiskDeviceDisk {
   /**
   * Bus indicates the type of disk device to emulate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#bus VirtualMachine#bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#bus VirtualMachine#bus}
   */
   readonly bus: string;
   /**
   * If specified, the virtual disk will be placed on the guests pci address with the specifed PCI address. For example: 0000:81:01.10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#pci_address VirtualMachine#pci_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#pci_address VirtualMachine#pci_address}
   */
   readonly pciAddress?: string;
   /**
   * ReadOnly. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#read_only VirtualMachine#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#read_only VirtualMachine#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -6777,7 +6777,7 @@ export interface VirtualMachineDiskDiskDevice {
   /**
   * disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#disk VirtualMachine#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#disk VirtualMachine#disk}
   */
   readonly disk?: VirtualMachineDiskDiskDeviceDisk[] | cdktf.IResolvable;
 }
@@ -6895,25 +6895,25 @@ export interface VirtualMachineDisk {
   /**
   * BootOrder is an integer value > 0, used to determine ordering of boot devices. Lower values take precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#boot_order VirtualMachine#boot_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#boot_order VirtualMachine#boot_order}
   */
   readonly bootOrder?: number;
   /**
   * Name is the device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name: string;
   /**
   * Serial provides the ability to specify a serial number for the disk device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#serial VirtualMachine#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#serial VirtualMachine#serial}
   */
   readonly serial?: string;
   /**
   * disk_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#disk_device VirtualMachine#disk_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#disk_device VirtualMachine#disk_device}
   */
   readonly diskDevice: VirtualMachineDiskDiskDevice[] | cdktf.IResolvable;
 }
@@ -7112,7 +7112,7 @@ export interface VirtualMachineFeaturesAcpi {
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#enabled VirtualMachine#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#enabled VirtualMachine#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -7198,7 +7198,7 @@ export interface VirtualMachineFeaturesApic {
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#enabled VirtualMachine#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#enabled VirtualMachine#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -7284,7 +7284,7 @@ export interface VirtualMachineFeaturesSmm {
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#enabled VirtualMachine#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#enabled VirtualMachine#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -7370,19 +7370,19 @@ export interface VirtualMachineFeatures {
   /**
   * acpi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#acpi VirtualMachine#acpi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#acpi VirtualMachine#acpi}
   */
   readonly acpi?: VirtualMachineFeaturesAcpi;
   /**
   * apic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#apic VirtualMachine#apic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#apic VirtualMachine#apic}
   */
   readonly apic?: VirtualMachineFeaturesApic;
   /**
   * smm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#smm VirtualMachine#smm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#smm VirtualMachine#smm}
   */
   readonly smm?: VirtualMachineFeaturesSmm;
 }
@@ -7526,7 +7526,7 @@ export interface VirtualMachineFirmwareBootloaderBios {
   /**
   * If set, the BIOS output will be transmitted over serial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#use_serial VirtualMachine#use_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#use_serial VirtualMachine#use_serial}
   */
   readonly useSerial?: boolean | cdktf.IResolvable;
 }
@@ -7612,13 +7612,13 @@ export interface VirtualMachineFirmwareBootloaderEfi {
   /**
   * If set to true, Persistent will persist the EFI NVRAM across reboots. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#persistent VirtualMachine#persistent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#persistent VirtualMachine#persistent}
   */
   readonly persistent?: boolean | cdktf.IResolvable;
   /**
   * If set, SecureBoot will be enabled and the OVMF roms will be swapped for SecureBoot-enabled ones. Requires SMM to be enabled. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#secure_boot VirtualMachine#secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#secure_boot VirtualMachine#secure_boot}
   */
   readonly secureBoot?: boolean | cdktf.IResolvable;
 }
@@ -7733,13 +7733,13 @@ export interface VirtualMachineFirmwareBootloader {
   /**
   * bios block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#bios VirtualMachine#bios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#bios VirtualMachine#bios}
   */
   readonly bios?: VirtualMachineFirmwareBootloaderBios;
   /**
   * efi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#efi VirtualMachine#efi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#efi VirtualMachine#efi}
   */
   readonly efi?: VirtualMachineFirmwareBootloaderEfi;
 }
@@ -7854,19 +7854,19 @@ export interface VirtualMachineFirmware {
   /**
   * The system-serial-number in SMBIOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#serial VirtualMachine#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#serial VirtualMachine#serial}
   */
   readonly serial?: string;
   /**
   * UUID reported by the vmi bios. Defaults to a random generated uid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#uuid VirtualMachine#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#uuid VirtualMachine#uuid}
   */
   readonly uuid?: string;
   /**
   * bootloader block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#bootloader VirtualMachine#bootloader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#bootloader VirtualMachine#bootloader}
   */
   readonly bootloader?: VirtualMachineFirmwareBootloader;
 }
@@ -8010,19 +8010,19 @@ export interface VirtualMachineInterface {
   /**
   * Represents the Interface model, One of: e1000, e1000e, ne2k_pci, pcnet, rtl8139, virtio. Defaults to virtio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#interface_binding_method VirtualMachine#interface_binding_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#interface_binding_method VirtualMachine#interface_binding_method}
   */
   readonly interfaceBindingMethod: string;
   /**
   * Represents the method which will be used to connect the interface to the guest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#model VirtualMachine#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#model VirtualMachine#model}
   */
   readonly model?: string;
   /**
   * Logical name of the interface as well as a reference to the associated networks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name: string;
 }
@@ -8241,13 +8241,13 @@ export interface VirtualMachineMemory {
   /**
   * Guest is the amount of memory allocated to the vmi. This value must be less than or equal to the limit if specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#guest VirtualMachine#guest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#guest VirtualMachine#guest}
   */
   readonly guest?: string;
   /**
   * Hugepages attribute specifies the hugepage size, for x86_64 architecture valid values are 1Gi and 2Mi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#hugepages VirtualMachine#hugepages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#hugepages VirtualMachine#hugepages}
   */
   readonly hugepages?: string;
 }
@@ -8362,13 +8362,13 @@ export interface VirtualMachineNetworkNetworkSourceMultus {
   /**
   * Select the default network and add it to the multus-cni.io/default-network annotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#default VirtualMachine#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#default VirtualMachine#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * References to a NetworkAttachmentDefinition CRD object. Format: <networkName>, <namespace>/<networkName>. If namespace is not specified, VMI namespace is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#network_name VirtualMachine#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#network_name VirtualMachine#network_name}
   */
   readonly networkName: string;
 }
@@ -8480,7 +8480,7 @@ export interface VirtualMachineNetworkNetworkSourcePod {
   /**
   * CIDR for vm network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#vm_network_cidr VirtualMachine#vm_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#vm_network_cidr VirtualMachine#vm_network_cidr}
   */
   readonly vmNetworkCidr?: string;
 }
@@ -8566,13 +8566,13 @@ export interface VirtualMachineNetworkNetworkSource {
   /**
   * multus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#multus VirtualMachine#multus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#multus VirtualMachine#multus}
   */
   readonly multus?: VirtualMachineNetworkNetworkSourceMultus;
   /**
   * pod block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#pod VirtualMachine#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#pod VirtualMachine#pod}
   */
   readonly pod?: VirtualMachineNetworkNetworkSourcePod;
 }
@@ -8687,13 +8687,13 @@ export interface VirtualMachineNetwork {
   /**
   * Network name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name: string;
   /**
   * network_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#network_source VirtualMachine#network_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#network_source VirtualMachine#network_source}
   */
   readonly networkSource?: VirtualMachineNetworkNetworkSource;
 }
@@ -8837,13 +8837,13 @@ export interface VirtualMachinePodDnsConfigOption {
   /**
   * Name of the option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name: string;
   /**
   * Value of the option. Optional: Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#value VirtualMachine#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#value VirtualMachine#value}
   */
   readonly value?: string;
 }
@@ -8987,19 +8987,19 @@ export interface VirtualMachinePodDnsConfig {
   /**
   * A list of DNS name server IP addresses. This will be appended to the base nameservers generated from DNSPolicy. Duplicated nameservers will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#nameservers VirtualMachine#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#nameservers VirtualMachine#nameservers}
   */
   readonly nameservers?: string[];
   /**
   * A list of DNS search domains for host-name lookup. This will be appended to the base search paths generated from DNSPolicy. Duplicated search paths will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#searches VirtualMachine#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#searches VirtualMachine#searches}
   */
   readonly searches?: string[];
   /**
   * option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#option VirtualMachine#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#option VirtualMachine#option}
   */
   readonly option?: VirtualMachinePodDnsConfigOption[] | cdktf.IResolvable;
 }
@@ -9192,19 +9192,19 @@ export interface VirtualMachineResources {
   /**
   * Requests is the maximum amount of compute resources allowed. Valid resource keys are "memory" and "cpu"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#limits VirtualMachine#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#limits VirtualMachine#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Don't ask the scheduler to take the guest-management overhead into account. Instead put the overhead only into the container's memory limit. This can lead to crashes if all memory is in use on a node. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#over_commit_guest_overhead VirtualMachine#over_commit_guest_overhead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#over_commit_guest_overhead VirtualMachine#over_commit_guest_overhead}
   */
   readonly overCommitGuestOverhead?: boolean | cdktf.IResolvable;
   /**
   * Requests is a description of the initial vmi resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#requests VirtualMachine#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#requests VirtualMachine#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -9348,25 +9348,25 @@ export interface VirtualMachineStatusConditions {
   /**
   * Condition message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#message VirtualMachine#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#message VirtualMachine#message}
   */
   readonly message?: string;
   /**
   * Condition reason.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#reason VirtualMachine#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#reason VirtualMachine#reason}
   */
   readonly reason?: string;
   /**
   * ConditionStatus represents the status of this VM condition, if the VM currently in the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#status VirtualMachine#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#status VirtualMachine#status}
   */
   readonly status?: string;
   /**
   * VirtualMachineConditionType represent the type of the VM as concluded from its VMi status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#type VirtualMachine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#type VirtualMachine#type}
   */
   readonly type?: string;
 }
@@ -9571,19 +9571,19 @@ export interface VirtualMachineStatusStateChangeRequests {
   /**
   * Indicates the type of action that is requested. e.g. Start or Stop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#action VirtualMachine#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#action VirtualMachine#action}
   */
   readonly action?: string;
   /**
   * Provides additional data in order to perform the Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#data VirtualMachine#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#data VirtualMachine#data}
   */
   readonly data?: { [key: string]: string };
   /**
   * Indicates the UUID of an existing Virtual Machine Instance that this change request applies to -- if applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#uid VirtualMachine#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#uid VirtualMachine#uid}
   */
   readonly uid?: string;
 }
@@ -9759,25 +9759,25 @@ export interface VirtualMachineStatus {
   /**
   * Created indicates if the virtual machine is created in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#created VirtualMachine#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#created VirtualMachine#created}
   */
   readonly created?: boolean | cdktf.IResolvable;
   /**
   * Ready indicates if the virtual machine is running and ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#ready VirtualMachine#ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#ready VirtualMachine#ready}
   */
   readonly ready?: boolean | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#conditions VirtualMachine#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#conditions VirtualMachine#conditions}
   */
   readonly conditions: VirtualMachineStatusConditions[] | cdktf.IResolvable;
   /**
   * state_change_requests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#state_change_requests VirtualMachine#state_change_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#state_change_requests VirtualMachine#state_change_requests}
   */
   readonly stateChangeRequests: VirtualMachineStatusStateChangeRequests[] | cdktf.IResolvable;
 }
@@ -9942,11 +9942,11 @@ export class VirtualMachineStatusOutputReference extends cdktf.ComplexObject {
 }
 export interface VirtualMachineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#create VirtualMachine#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#create VirtualMachine#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#delete VirtualMachine#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#delete VirtualMachine#delete}
   */
   readonly delete?: string;
 }
@@ -10071,31 +10071,31 @@ export interface VirtualMachineTolerations {
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#effect VirtualMachine#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#effect VirtualMachine#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#key VirtualMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#key VirtualMachine#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#operator VirtualMachine#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#operator VirtualMachine#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#toleration_seconds VirtualMachine#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#toleration_seconds VirtualMachine#toleration_seconds}
   */
   readonly tolerationSeconds?: string;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#value VirtualMachine#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#value VirtualMachine#value}
   */
   readonly value?: string;
 }
@@ -10329,7 +10329,7 @@ export interface VirtualMachineVolumeVolumeSourceCloudInitConfigDriveNetworkData
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name: string;
 }
@@ -10412,7 +10412,7 @@ export interface VirtualMachineVolumeVolumeSourceCloudInitConfigDriveUserDataSec
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name: string;
 }
@@ -10495,37 +10495,37 @@ export interface VirtualMachineVolumeVolumeSourceCloudInitConfigDrive {
   /**
   * NetworkData contains config drive inline cloud-init networkdata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#network_data VirtualMachine#network_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#network_data VirtualMachine#network_data}
   */
   readonly networkData?: string;
   /**
   * NetworkDataBase64 contains config drive cloud-init networkdata as a base64 encoded string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#network_data_base64 VirtualMachine#network_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#network_data_base64 VirtualMachine#network_data_base64}
   */
   readonly networkDataBase64?: string;
   /**
   * UserData contains config drive inline cloud-init userdata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#user_data VirtualMachine#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#user_data VirtualMachine#user_data}
   */
   readonly userData?: string;
   /**
   * UserDataBase64 contains config drive cloud-init userdata as a base64 encoded string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#user_data_base64 VirtualMachine#user_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#user_data_base64 VirtualMachine#user_data_base64}
   */
   readonly userDataBase64?: string;
   /**
   * network_data_secret_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#network_data_secret_ref VirtualMachine#network_data_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#network_data_secret_ref VirtualMachine#network_data_secret_ref}
   */
   readonly networkDataSecretRef?: VirtualMachineVolumeVolumeSourceCloudInitConfigDriveNetworkDataSecretRef;
   /**
   * user_data_secret_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#user_data_secret_ref VirtualMachine#user_data_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#user_data_secret_ref VirtualMachine#user_data_secret_ref}
   */
   readonly userDataSecretRef?: VirtualMachineVolumeVolumeSourceCloudInitConfigDriveUserDataSecretRef;
 }
@@ -10756,7 +10756,7 @@ export interface VirtualMachineVolumeVolumeSourceCloudInitNoCloudNetworkDataSecr
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name: string;
 }
@@ -10839,7 +10839,7 @@ export interface VirtualMachineVolumeVolumeSourceCloudInitNoCloudUserDataSecretR
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name: string;
 }
@@ -10922,37 +10922,37 @@ export interface VirtualMachineVolumeVolumeSourceCloudInitNoCloud {
   /**
   * NetworkData contains cloud-init inline network configuration data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#network_data VirtualMachine#network_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#network_data VirtualMachine#network_data}
   */
   readonly networkData?: string;
   /**
   * NetworkDataBase64 contains cloud-init networkdata as a base64 encoded string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#network_data_base64 VirtualMachine#network_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#network_data_base64 VirtualMachine#network_data_base64}
   */
   readonly networkDataBase64?: string;
   /**
   * UserData contains cloud-init inline userdata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#user_data VirtualMachine#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#user_data VirtualMachine#user_data}
   */
   readonly userData?: string;
   /**
   * UserDataBase64 contains cloud-init userdata as a base64 encoded string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#user_data_base64 VirtualMachine#user_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#user_data_base64 VirtualMachine#user_data_base64}
   */
   readonly userDataBase64?: string;
   /**
   * network_data_secret_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#network_data_secret_ref VirtualMachine#network_data_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#network_data_secret_ref VirtualMachine#network_data_secret_ref}
   */
   readonly networkDataSecretRef?: VirtualMachineVolumeVolumeSourceCloudInitNoCloudNetworkDataSecretRef;
   /**
   * user_data_secret_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#user_data_secret_ref VirtualMachine#user_data_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#user_data_secret_ref VirtualMachine#user_data_secret_ref}
   */
   readonly userDataSecretRef?: VirtualMachineVolumeVolumeSourceCloudInitNoCloudUserDataSecretRef;
 }
@@ -11213,7 +11213,7 @@ export class VirtualMachineVolumeVolumeSourceCloudInitNoCloudList extends cdktf.
 }
 export interface VirtualMachineVolumeVolumeSourceConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#key VirtualMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#key VirtualMachine#key}
   */
   readonly key?: string;
 }
@@ -11331,13 +11331,13 @@ export interface VirtualMachineVolumeVolumeSourceConfigMap {
   /**
   * Optional: mode bits to use on created files by default. Must be a value between 0 and 0777. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#default_mode VirtualMachine#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#default_mode VirtualMachine#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#items VirtualMachine#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#items VirtualMachine#items}
   */
   readonly items?: VirtualMachineVolumeVolumeSourceConfigMapItems[] | cdktf.IResolvable;
 }
@@ -11452,7 +11452,7 @@ export interface VirtualMachineVolumeVolumeSourceContainerDisk {
   /**
   * The URL of the container image to use as the disk. This can be a local file path, a remote URL, or a registry URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#image_url VirtualMachine#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#image_url VirtualMachine#image_url}
   */
   readonly imageUrl: string;
 }
@@ -11567,7 +11567,7 @@ export interface VirtualMachineVolumeVolumeSourceDataVolume {
   /**
   * Name represents the name of the DataVolume in the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name: string;
 }
@@ -11650,7 +11650,7 @@ export interface VirtualMachineVolumeVolumeSourceEmptyDisk {
   /**
   * Capacity of the sparse disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#capacity VirtualMachine#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#capacity VirtualMachine#capacity}
   */
   readonly capacity: string;
 }
@@ -11733,13 +11733,13 @@ export interface VirtualMachineVolumeVolumeSourceEphemeralPersistentVolumeClaim 
   /**
   * ClaimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#claim_name VirtualMachine#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#claim_name VirtualMachine#claim_name}
   */
   readonly claimName: string;
   /**
   * Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#read_only VirtualMachine#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#read_only VirtualMachine#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -11851,7 +11851,7 @@ export interface VirtualMachineVolumeVolumeSourceEphemeral {
   /**
   * persistent_volume_claim block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#persistent_volume_claim VirtualMachine#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#persistent_volume_claim VirtualMachine#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: VirtualMachineVolumeVolumeSourceEphemeralPersistentVolumeClaim;
 }
@@ -11937,13 +11937,13 @@ export interface VirtualMachineVolumeVolumeSourceHostDisk {
   /**
   * Path of the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#path VirtualMachine#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#path VirtualMachine#path}
   */
   readonly path: string;
   /**
   * Type of the disk, supported values are disk, directory, socket, char, block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#type VirtualMachine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#type VirtualMachine#type}
   */
   readonly type: string;
 }
@@ -12052,13 +12052,13 @@ export interface VirtualMachineVolumeVolumeSourcePersistentVolumeClaim {
   /**
   * ClaimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#claim_name VirtualMachine#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#claim_name VirtualMachine#claim_name}
   */
   readonly claimName: string;
   /**
   * Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#read_only VirtualMachine#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#read_only VirtualMachine#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -12170,7 +12170,7 @@ export interface VirtualMachineVolumeVolumeSourceServiceAccount {
   /**
   * Name of the service account in the pod's namespace to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#service_account_name VirtualMachine#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#service_account_name VirtualMachine#service_account_name}
   */
   readonly serviceAccountName: string;
 }
@@ -12253,61 +12253,61 @@ export interface VirtualMachineVolumeVolumeSource {
   /**
   * cloud_init_config_drive block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#cloud_init_config_drive VirtualMachine#cloud_init_config_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#cloud_init_config_drive VirtualMachine#cloud_init_config_drive}
   */
   readonly cloudInitConfigDrive?: VirtualMachineVolumeVolumeSourceCloudInitConfigDrive;
   /**
   * cloud_init_no_cloud block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#cloud_init_no_cloud VirtualMachine#cloud_init_no_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#cloud_init_no_cloud VirtualMachine#cloud_init_no_cloud}
   */
   readonly cloudInitNoCloud?: VirtualMachineVolumeVolumeSourceCloudInitNoCloud[] | cdktf.IResolvable;
   /**
   * config_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#config_map VirtualMachine#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#config_map VirtualMachine#config_map}
   */
   readonly configMap?: VirtualMachineVolumeVolumeSourceConfigMap;
   /**
   * container_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#container_disk VirtualMachine#container_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#container_disk VirtualMachine#container_disk}
   */
   readonly containerDisk?: VirtualMachineVolumeVolumeSourceContainerDisk[] | cdktf.IResolvable;
   /**
   * data_volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#data_volume VirtualMachine#data_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#data_volume VirtualMachine#data_volume}
   */
   readonly dataVolume?: VirtualMachineVolumeVolumeSourceDataVolume;
   /**
   * empty_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#empty_disk VirtualMachine#empty_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#empty_disk VirtualMachine#empty_disk}
   */
   readonly emptyDisk?: VirtualMachineVolumeVolumeSourceEmptyDisk;
   /**
   * ephemeral block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#ephemeral VirtualMachine#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#ephemeral VirtualMachine#ephemeral}
   */
   readonly ephemeral?: VirtualMachineVolumeVolumeSourceEphemeral;
   /**
   * host_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#host_disk VirtualMachine#host_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#host_disk VirtualMachine#host_disk}
   */
   readonly hostDisk?: VirtualMachineVolumeVolumeSourceHostDisk;
   /**
   * persistent_volume_claim block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#persistent_volume_claim VirtualMachine#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#persistent_volume_claim VirtualMachine#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: VirtualMachineVolumeVolumeSourcePersistentVolumeClaim;
   /**
   * service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#service_account VirtualMachine#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#service_account VirtualMachine#service_account}
   */
   readonly serviceAccount?: VirtualMachineVolumeVolumeSourceServiceAccount;
 }
@@ -12654,13 +12654,13 @@ export interface VirtualMachineVolume {
   /**
   * Volume's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name: string;
   /**
   * volume_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#volume_source VirtualMachine#volume_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#volume_source VirtualMachine#volume_source}
   */
   readonly volumeSource: VirtualMachineVolumeVolumeSource;
 }
@@ -12799,7 +12799,7 @@ export class VirtualMachineVolumeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine spectrocloud_virtual_machine}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine spectrocloud_virtual_machine}
 */
 export class VirtualMachine extends cdktf.TerraformResource {
 
@@ -12815,7 +12815,7 @@ export class VirtualMachine extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualMachine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualMachine to import
-  * @param importFromId The id of the existing VirtualMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualMachine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12827,7 +12827,7 @@ export class VirtualMachine extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/virtual_machine spectrocloud_virtual_machine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/virtual_machine spectrocloud_virtual_machine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12838,8 +12838,8 @@ export class VirtualMachine extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_virtual_machine',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2',
-        providerVersionConstraint: '0.25.2'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

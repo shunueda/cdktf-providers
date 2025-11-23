@@ -1,3 +1,3 @@
 # `data_iosxe_lldp`
 
-Refer to the Terraform Registry for docs: [`data_iosxe_lldp`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/lldp).
+Refer to the Terraform Registry for docs: [`data_iosxe_lldp`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/lldp).

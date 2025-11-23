@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/crypto_ipsec_profile
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_ipsec_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CryptoIpsecProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/crypto_ipsec_profile#device CryptoIpsecProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_ipsec_profile#device CryptoIpsecProfile#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/crypto_ipsec_profile#name CryptoIpsecProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_ipsec_profile#name CryptoIpsecProfile#name}
   */
   readonly name: string;
   /**
   * Specify ikev2 Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/crypto_ipsec_profile#set_ikev2_profile CryptoIpsecProfile#set_ikev2_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_ipsec_profile#set_ikev2_profile CryptoIpsecProfile#set_ikev2_profile}
   */
   readonly setIkev2Profile?: string;
   /**
   * Specify isakmp Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/crypto_ipsec_profile#set_isakmp_profile CryptoIpsecProfile#set_isakmp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_ipsec_profile#set_isakmp_profile CryptoIpsecProfile#set_isakmp_profile}
   */
   readonly setIsakmpProfile?: string;
   /**
   * Specify list of transform sets in priority order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/crypto_ipsec_profile#set_transform_set CryptoIpsecProfile#set_transform_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_ipsec_profile#set_transform_set CryptoIpsecProfile#set_transform_set}
   */
   readonly setTransformSet?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/crypto_ipsec_profile iosxe_crypto_ipsec_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_ipsec_profile iosxe_crypto_ipsec_profile}
 */
 export class CryptoIpsecProfile extends cdktf.TerraformResource {
 
@@ -54,7 +54,7 @@ export class CryptoIpsecProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CryptoIpsecProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CryptoIpsecProfile to import
-  * @param importFromId The id of the existing CryptoIpsecProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/crypto_ipsec_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CryptoIpsecProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_ipsec_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CryptoIpsecProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -66,7 +66,7 @@ export class CryptoIpsecProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/crypto_ipsec_profile iosxe_crypto_ipsec_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/crypto_ipsec_profile iosxe_crypto_ipsec_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -77,8 +77,8 @@ export class CryptoIpsecProfile extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_crypto_ipsec_profile',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

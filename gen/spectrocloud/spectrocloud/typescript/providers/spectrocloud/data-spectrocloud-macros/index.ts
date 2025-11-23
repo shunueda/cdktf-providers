@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/macros
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/macros
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataSpectrocloudMacrosConfig extends cdktf.TerraformMetaArgumen
   /**
   * The context to retrieve macros from. Valid values are `project` or `tenant`. Defaults to `tenant`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/macros#context DataSpectrocloudMacros#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/macros#context DataSpectrocloudMacros#context}
   */
   readonly context?: string;
   /**
   * The name of the macros resource. If specified, the data source will return the macros with this name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/macros#macro_name DataSpectrocloudMacros#macro_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/macros#macro_name DataSpectrocloudMacros#macro_name}
   */
   readonly macroName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/macros spectrocloud_macros}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/macros spectrocloud_macros}
 */
 export class DataSpectrocloudMacros extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataSpectrocloudMacros extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpectrocloudMacros resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpectrocloudMacros to import
-  * @param importFromId The id of the existing DataSpectrocloudMacros that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/macros#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpectrocloudMacros that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/macros#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpectrocloudMacros to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataSpectrocloudMacros extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/macros spectrocloud_macros} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/macros spectrocloud_macros} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataSpectrocloudMacros extends cdktf.TerraformDataSource {
       terraformResourceType: 'spectrocloud_macros',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2',
-        providerVersionConstraint: '0.25.2'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

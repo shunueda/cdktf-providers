@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/radius
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/radius
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataIosxeRadiusConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/radius#device DataIosxeRadius#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/radius#device DataIosxeRadius#device}
   */
   readonly device?: string;
   /**
   * Name for the radius server configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/radius#name DataIosxeRadius#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/radius#name DataIosxeRadius#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/radius iosxe_radius}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/radius iosxe_radius}
 */
 export class DataIosxeRadius extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataIosxeRadius extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeRadius resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeRadius to import
-  * @param importFromId The id of the existing DataIosxeRadius that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/radius#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeRadius that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/radius#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeRadius to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataIosxeRadius extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/radius iosxe_radius} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/radius iosxe_radius} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataIosxeRadius extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_radius',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -90,9 +90,19 @@ export class DataIosxeRadius extends cdktf.TerraformDataSource {
     return this.getNumberAttribute('authentication_port');
   }
 
+  // automate_tester_idle_time - computed: true, optional: false, required: false
+  public get automateTesterIdleTime() {
+    return this.getNumberAttribute('automate_tester_idle_time');
+  }
+
   // automate_tester_ignore_acct_port - computed: true, optional: false, required: false
   public get automateTesterIgnoreAcctPort() {
     return this.getBooleanAttribute('automate_tester_ignore_acct_port');
+  }
+
+  // automate_tester_ignore_auth_port - computed: true, optional: false, required: false
+  public get automateTesterIgnoreAuthPort() {
+    return this.getBooleanAttribute('automate_tester_ignore_auth_port');
   }
 
   // automate_tester_probe_on_config - computed: true, optional: false, required: false
@@ -134,6 +144,11 @@ export class DataIosxeRadius extends cdktf.TerraformDataSource {
   // key - computed: true, optional: false, required: false
   public get key() {
     return this.getStringAttribute('key');
+  }
+
+  // key_encryption - computed: true, optional: false, required: false
+  public get keyEncryption() {
+    return this.getStringAttribute('key_encryption');
   }
 
   // name - computed: false, optional: false, required: true

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DatavolumeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#cluster_context Datavolume#cluster_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#cluster_context Datavolume#cluster_context}
   */
   readonly clusterContext: string;
   /**
   * The cluster UID to which the virtual machine belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#cluster_uid Datavolume#cluster_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#cluster_uid Datavolume#cluster_uid}
   */
   readonly clusterUid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#id Datavolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#id Datavolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,53 +27,53 @@ export interface DatavolumeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the virtual machine to which the data volume belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#vm_name Datavolume#vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#vm_name Datavolume#vm_name}
   */
   readonly vmName?: string;
   /**
   * The namespace of the virtual machine to which the data volume belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#vm_namespace Datavolume#vm_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#vm_namespace Datavolume#vm_namespace}
   */
   readonly vmNamespace?: string;
   /**
   * add_volume_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#add_volume_options Datavolume#add_volume_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#add_volume_options Datavolume#add_volume_options}
   */
   readonly addVolumeOptions: DatavolumeAddVolumeOptions;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#metadata Datavolume#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#metadata Datavolume#metadata}
   */
   readonly metadata: DatavolumeMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#spec Datavolume#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#spec Datavolume#spec}
   */
   readonly spec: DatavolumeSpec;
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#status Datavolume#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#status Datavolume#status}
   */
   readonly status?: DatavolumeStatus;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#timeouts Datavolume#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#timeouts Datavolume#timeouts}
   */
   readonly timeouts?: DatavolumeTimeouts;
 }
 export interface DatavolumeAddVolumeOptionsDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#bus Datavolume#bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#bus Datavolume#bus}
   */
   readonly bus: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#name Datavolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#name Datavolume#name}
   */
   readonly name: string;
 }
@@ -180,11 +180,11 @@ export class DatavolumeAddVolumeOptionsDiskOutputReference extends cdktf.Complex
 }
 export interface DatavolumeAddVolumeOptionsVolumeSourceDataVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#hotpluggable Datavolume#hotpluggable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#hotpluggable Datavolume#hotpluggable}
   */
   readonly hotpluggable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#name Datavolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#name Datavolume#name}
   */
   readonly name: string;
 }
@@ -296,7 +296,7 @@ export interface DatavolumeAddVolumeOptionsVolumeSource {
   /**
   * data_volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#data_volume Datavolume#data_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#data_volume Datavolume#data_volume}
   */
   readonly dataVolume: DatavolumeAddVolumeOptionsVolumeSourceDataVolume;
 }
@@ -377,19 +377,19 @@ export class DatavolumeAddVolumeOptionsVolumeSourceOutputReference extends cdktf
 }
 export interface DatavolumeAddVolumeOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#name Datavolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#name Datavolume#name}
   */
   readonly name: string;
   /**
   * disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#disk Datavolume#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#disk Datavolume#disk}
   */
   readonly disk: DatavolumeAddVolumeOptionsDisk;
   /**
   * volume_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#volume_source Datavolume#volume_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#volume_source Datavolume#volume_source}
   */
   readonly volumeSource: DatavolumeAddVolumeOptionsVolumeSource;
 }
@@ -524,25 +524,25 @@ export interface DatavolumeMetadata {
   /**
   * An unstructured key value map stored with the DataVolume that may be used to store arbitrary metadata. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#annotations Datavolume#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#annotations Datavolume#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the DataVolume. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#labels Datavolume#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#labels Datavolume#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the DataVolume, must be unique. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#name Datavolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#name Datavolume#name}
   */
   readonly name?: string;
   /**
   * Namespace defines the space within which name of the DataVolume must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#namespace Datavolume#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#namespace Datavolume#namespace}
   */
   readonly namespace?: string;
 }
@@ -730,13 +730,13 @@ export interface DatavolumeSpecPvcResources {
   /**
   * Map describing the maximum amount of compute resources allowed. More info: http://kubernetes.io/docs/user-guide/compute-resources/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#limits Datavolume#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#limits Datavolume#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Map describing the minimum amount of compute resources required. If this is omitted for a container, it defaults to `limits` if that is explicitly specified, otherwise to an implementation-defined value. More info: http://kubernetes.io/docs/user-guide/compute-resources/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#requests Datavolume#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#requests Datavolume#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -851,19 +851,19 @@ export interface DatavolumeSpecPvcSelectorMatchExpressions {
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#key Datavolume#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#key Datavolume#key}
   */
   readonly key?: string;
   /**
   * A key's relationship to a set of values. Valid operators ard `In`, `NotIn`, `Exists` and `DoesNotExist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#operator Datavolume#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#operator Datavolume#operator}
   */
   readonly operator?: string;
   /**
   * An array of string values. If the operator is `In` or `NotIn`, the values array must be non-empty. If the operator is `Exists` or `DoesNotExist`, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#values Datavolume#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#values Datavolume#values}
   */
   readonly values?: string[];
 }
@@ -1039,13 +1039,13 @@ export interface DatavolumeSpecPvcSelector {
   /**
   * A map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of `match_expressions`, whose key field is "key", the operator is "In", and the values array contains only "value". The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#match_labels Datavolume#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#match_labels Datavolume#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#match_expressions Datavolume#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#match_expressions Datavolume#match_expressions}
   */
   readonly matchExpressions?: DatavolumeSpecPvcSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -1160,37 +1160,37 @@ export interface DatavolumeSpecPvc {
   /**
   * A set of the desired access modes the volume should have. More info: http://kubernetes.io/docs/user-guide/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#access_modes Datavolume#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#access_modes Datavolume#access_modes}
   */
   readonly accessModes: string[];
   /**
   * Name of the storage class requested by the claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#storage_class_name Datavolume#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#storage_class_name Datavolume#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#volume_mode Datavolume#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#volume_mode Datavolume#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * The binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#volume_name Datavolume#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#volume_name Datavolume#volume_name}
   */
   readonly volumeName?: string;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#resources Datavolume#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#resources Datavolume#resources}
   */
   readonly resources: DatavolumeSpecPvcResources;
   /**
   * selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#selector Datavolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#selector Datavolume#selector}
   */
   readonly selector?: DatavolumeSpecPvcSelector;
 }
@@ -1464,19 +1464,19 @@ export interface DatavolumeSpecSourceHttp {
   /**
   * Cert_config_map provides a reference to the Registry certs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#cert_config_map Datavolume#cert_config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#cert_config_map Datavolume#cert_config_map}
   */
   readonly certConfigMap?: string;
   /**
   * Secret_ref provides the secret reference needed to access the HTTP source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#secret_ref Datavolume#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#secret_ref Datavolume#secret_ref}
   */
   readonly secretRef?: string;
   /**
   * url is the URL of the http source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#url Datavolume#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#url Datavolume#url}
   */
   readonly url?: string;
 }
@@ -1620,13 +1620,13 @@ export interface DatavolumeSpecSourcePvc {
   /**
   * The name of the PVC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#name Datavolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#name Datavolume#name}
   */
   readonly name?: string;
   /**
   * The namespace which the PVC located in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#namespace Datavolume#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#namespace Datavolume#namespace}
   */
   readonly namespace?: string;
 }
@@ -1741,7 +1741,7 @@ export interface DatavolumeSpecSourceRegistry {
   /**
   * The registry URL of the image to download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#image_url Datavolume#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#image_url Datavolume#image_url}
   */
   readonly imageUrl?: string;
 }
@@ -1827,25 +1827,25 @@ export interface DatavolumeSpecSource {
   /**
   * blank block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#blank Datavolume#blank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#blank Datavolume#blank}
   */
   readonly blank?: DatavolumeSpecSourceBlank;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#http Datavolume#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#http Datavolume#http}
   */
   readonly http?: DatavolumeSpecSourceHttp;
   /**
   * pvc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#pvc Datavolume#pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#pvc Datavolume#pvc}
   */
   readonly pvc?: DatavolumeSpecSourcePvc;
   /**
   * registry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#registry Datavolume#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#registry Datavolume#registry}
   */
   readonly registry?: DatavolumeSpecSourceRegistry;
 }
@@ -2018,13 +2018,13 @@ export interface DatavolumeSpecStorageResources {
   /**
   * Map describing the maximum amount of compute resources allowed. More info: http://kubernetes.io/docs/user-guide/compute-resources/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#limits Datavolume#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#limits Datavolume#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Map describing the minimum amount of compute resources required. If this is omitted for a container, it defaults to `limits` if that is explicitly specified, otherwise to an implementation-defined value. More info: http://kubernetes.io/docs/user-guide/compute-resources/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#requests Datavolume#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#requests Datavolume#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2139,19 +2139,19 @@ export interface DatavolumeSpecStorageSelectorMatchExpressions {
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#key Datavolume#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#key Datavolume#key}
   */
   readonly key?: string;
   /**
   * A key's relationship to a set of values. Valid operators are `In`, `NotIn`, `Exists` and `DoesNotExist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#operator Datavolume#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#operator Datavolume#operator}
   */
   readonly operator?: string;
   /**
   * An array of string values. If the operator is `In` or `NotIn`, the values array must be non-empty. If the operator is `Exists` or `DoesNotExist`, the values array must be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#values Datavolume#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#values Datavolume#values}
   */
   readonly values?: string[];
 }
@@ -2327,13 +2327,13 @@ export interface DatavolumeSpecStorageSelector {
   /**
   * A map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of `match_expressions`, whose key field is "key", the operator is "In", and the values array contains only "value".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#match_labels Datavolume#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#match_labels Datavolume#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#match_expressions Datavolume#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#match_expressions Datavolume#match_expressions}
   */
   readonly matchExpressions?: DatavolumeSpecStorageSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -2448,37 +2448,37 @@ export interface DatavolumeSpecStorage {
   /**
   * A set of the desired access modes the volume should have. More info: http://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#access_modes Datavolume#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#access_modes Datavolume#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * Name of the storage class requested by the claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#storage_class_name Datavolume#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#storage_class_name Datavolume#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#volume_mode Datavolume#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#volume_mode Datavolume#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * The binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#volume_name Datavolume#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#volume_name Datavolume#volume_name}
   */
   readonly volumeName?: string;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#resources Datavolume#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#resources Datavolume#resources}
   */
   readonly resources?: DatavolumeSpecStorageResources;
   /**
   * selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#selector Datavolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#selector Datavolume#selector}
   */
   readonly selector?: DatavolumeSpecStorageSelector;
 }
@@ -2709,25 +2709,25 @@ export interface DatavolumeSpec {
   /**
   * ContentType options: "kubevirt", "archive".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#content_type Datavolume#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#content_type Datavolume#content_type}
   */
   readonly contentType?: string;
   /**
   * pvc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#pvc Datavolume#pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#pvc Datavolume#pvc}
   */
   readonly pvc?: DatavolumeSpecPvc;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#source Datavolume#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#source Datavolume#source}
   */
   readonly source?: DatavolumeSpecSource;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#storage Datavolume#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#storage Datavolume#storage}
   */
   readonly storage?: DatavolumeSpecStorage;
 }
@@ -2900,13 +2900,13 @@ export interface DatavolumeStatus {
   /**
   * DataVolumePhase is the current phase of the DataVolume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#phase Datavolume#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#phase Datavolume#phase}
   */
   readonly phase?: string;
   /**
   * DataVolumePhase is the current phase of the DataVolume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#progress Datavolume#progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#progress Datavolume#progress}
   */
   readonly progress?: string;
 }
@@ -3019,11 +3019,11 @@ export class DatavolumeStatusOutputReference extends cdktf.ComplexObject {
 }
 export interface DatavolumeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#create Datavolume#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#create Datavolume#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#delete Datavolume#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#delete Datavolume#delete}
   */
   readonly delete?: string;
 }
@@ -3146,7 +3146,7 @@ export class DatavolumeTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume spectrocloud_datavolume}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume spectrocloud_datavolume}
 */
 export class Datavolume extends cdktf.TerraformResource {
 
@@ -3162,7 +3162,7 @@ export class Datavolume extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Datavolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Datavolume to import
-  * @param importFromId The id of the existing Datavolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Datavolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Datavolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3174,7 +3174,7 @@ export class Datavolume extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/datavolume spectrocloud_datavolume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/datavolume spectrocloud_datavolume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3185,8 +3185,8 @@ export class Datavolume extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_datavolume',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2',
-        providerVersionConstraint: '0.25.2'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/interface_loopback
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/interface_loopback
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIosxeInterfaceLoopbackConfig extends cdktf.TerraformMetaArg
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/interface_loopback#device DataIosxeInterfaceLoopback#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/interface_loopback#device DataIosxeInterfaceLoopback#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/interface_loopback#name DataIosxeInterfaceLoopback#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/interface_loopback#name DataIosxeInterfaceLoopback#name}
   */
   readonly name: number;
 }
@@ -180,7 +180,7 @@ export class DataIosxeInterfaceLoopbackIpv6LinkLocalAddressesList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/interface_loopback iosxe_interface_loopback}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/interface_loopback iosxe_interface_loopback}
 */
 export class DataIosxeInterfaceLoopback extends cdktf.TerraformDataSource {
 
@@ -196,7 +196,7 @@ export class DataIosxeInterfaceLoopback extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeInterfaceLoopback resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeInterfaceLoopback to import
-  * @param importFromId The id of the existing DataIosxeInterfaceLoopback that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/interface_loopback#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeInterfaceLoopback that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/interface_loopback#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeInterfaceLoopback to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class DataIosxeInterfaceLoopback extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/interface_loopback iosxe_interface_loopback} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/interface_loopback iosxe_interface_loopback} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class DataIosxeInterfaceLoopback extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_interface_loopback',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -289,6 +289,11 @@ export class DataIosxeInterfaceLoopback extends cdktf.TerraformDataSource {
     return this.getBooleanAttribute('ip_access_group_out_enable');
   }
 
+  // ip_igmp_version - computed: true, optional: false, required: false
+  public get ipIgmpVersion() {
+    return this.getNumberAttribute('ip_igmp_version');
+  }
+
   // ip_proxy_arp - computed: true, optional: false, required: false
   public get ipProxyArp() {
     return this.getBooleanAttribute('ip_proxy_arp');
@@ -297,6 +302,11 @@ export class DataIosxeInterfaceLoopback extends cdktf.TerraformDataSource {
   // ip_redirects - computed: true, optional: false, required: false
   public get ipRedirects() {
     return this.getBooleanAttribute('ip_redirects');
+  }
+
+  // ip_router_isis - computed: true, optional: false, required: false
+  public get ipRouterIsis() {
+    return this.getStringAttribute('ip_router_isis');
   }
 
   // ip_unreachables - computed: true, optional: false, required: false

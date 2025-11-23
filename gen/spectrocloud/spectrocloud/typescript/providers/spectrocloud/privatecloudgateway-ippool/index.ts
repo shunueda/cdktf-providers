@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PrivatecloudgatewayIppoolConfig extends cdktf.TerraformMetaArgu
   /**
   * The network gateway IP address for the IP pool. Typically, this is the default network gateway for the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#gateway PrivatecloudgatewayIppool#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#gateway PrivatecloudgatewayIppool#gateway}
   */
   readonly gateway: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#id PrivatecloudgatewayIppool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#id PrivatecloudgatewayIppool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,81 +23,81 @@ export interface PrivatecloudgatewayIppoolConfig extends cdktf.TerraformMetaArgu
   /**
   * The end IP address of the IP pool. Required if `network_type` is `range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#ip_end_range PrivatecloudgatewayIppool#ip_end_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#ip_end_range PrivatecloudgatewayIppool#ip_end_range}
   */
   readonly ipEndRange?: string;
   /**
   * The start IP address of the IP pool. Required if `network_type` is `range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#ip_start_range PrivatecloudgatewayIppool#ip_start_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#ip_start_range PrivatecloudgatewayIppool#ip_start_range}
   */
   readonly ipStartRange?: string;
   /**
   * The name of the IP pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#name PrivatecloudgatewayIppool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#name PrivatecloudgatewayIppool#name}
   */
   readonly name: string;
   /**
   * The list of nameserver IP addresses for the IP pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#nameserver_addresses PrivatecloudgatewayIppool#nameserver_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#nameserver_addresses PrivatecloudgatewayIppool#nameserver_addresses}
   */
   readonly nameserverAddresses?: string[];
   /**
   * The list of nameserver search suffixes for the IP pool. For example, `example.org`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#nameserver_search_suffix PrivatecloudgatewayIppool#nameserver_search_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#nameserver_search_suffix PrivatecloudgatewayIppool#nameserver_search_suffix}
   */
   readonly nameserverSearchSuffix?: string[];
   /**
   * The type of network for the IP pool. Allowed values are: `range` and `subnet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#network_type PrivatecloudgatewayIppool#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#network_type PrivatecloudgatewayIppool#network_type}
   */
   readonly networkType: string;
   /**
   * The prefix of the IP pool provided network range or subnet. For example `24` for a `/24` subnet or a range that falls inside a `24` subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#prefix PrivatecloudgatewayIppool#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#prefix PrivatecloudgatewayIppool#prefix}
   */
   readonly prefix: number;
   /**
   * The ID of the Private Cloud Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#private_cloud_gateway_id PrivatecloudgatewayIppool#private_cloud_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#private_cloud_gateway_id PrivatecloudgatewayIppool#private_cloud_gateway_id}
   */
   readonly privateCloudGatewayId: string;
   /**
   * Restrict the IP pool to a single cluster. If set to `true`, the IP pool is restricted to a single cluster. We recommend setting this to `true` for production environments and creating separate IP pools for each cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#restrict_to_single_cluster PrivatecloudgatewayIppool#restrict_to_single_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#restrict_to_single_cluster PrivatecloudgatewayIppool#restrict_to_single_cluster}
   */
   readonly restrictToSingleCluster?: boolean | cdktf.IResolvable;
   /**
   * The subnet CIDR of the IP pool. Required if `network_type` is `subnet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#subnet_cidr PrivatecloudgatewayIppool#subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#subnet_cidr PrivatecloudgatewayIppool#subnet_cidr}
   */
   readonly subnetCidr?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#timeouts PrivatecloudgatewayIppool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#timeouts PrivatecloudgatewayIppool#timeouts}
   */
   readonly timeouts?: PrivatecloudgatewayIppoolTimeouts;
 }
 export interface PrivatecloudgatewayIppoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#create PrivatecloudgatewayIppool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#create PrivatecloudgatewayIppool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#delete PrivatecloudgatewayIppool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#delete PrivatecloudgatewayIppool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#update PrivatecloudgatewayIppool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#update PrivatecloudgatewayIppool#update}
   */
   readonly update?: string;
 }
@@ -249,7 +249,7 @@ export class PrivatecloudgatewayIppoolTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool spectrocloud_privatecloudgateway_ippool}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool spectrocloud_privatecloudgateway_ippool}
 */
 export class PrivatecloudgatewayIppool extends cdktf.TerraformResource {
 
@@ -265,7 +265,7 @@ export class PrivatecloudgatewayIppool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivatecloudgatewayIppool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivatecloudgatewayIppool to import
-  * @param importFromId The id of the existing PrivatecloudgatewayIppool that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivatecloudgatewayIppool that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivatecloudgatewayIppool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +277,7 @@ export class PrivatecloudgatewayIppool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/privatecloudgateway_ippool spectrocloud_privatecloudgateway_ippool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/privatecloudgateway_ippool spectrocloud_privatecloudgateway_ippool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,8 +288,8 @@ export class PrivatecloudgatewayIppool extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_privatecloudgateway_ippool',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2',
-        providerVersionConstraint: '0.25.2'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

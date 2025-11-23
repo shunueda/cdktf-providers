@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface RegistryOciConfig extends cdktf.TerraformMetaArguments {
   /**
   * The relative path to the endpoint specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#base_content_path RegistryOci#base_content_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#base_content_path RegistryOci#base_content_path}
   */
   readonly baseContentPath?: string;
   /**
   * The URL endpoint of the OCI registry. This is where the container images are hosted and accessed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#endpoint RegistryOci#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#endpoint RegistryOci#endpoint}
   */
   readonly endpoint: string;
   /**
   * Specifies a suffix to append to the endpoint. This field is optional, but some registries (e.g., JFrog) may require it. The final registry URL is constructed by appending this suffix to the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#endpoint_suffix RegistryOci#endpoint_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#endpoint_suffix RegistryOci#endpoint_suffix}
   */
   readonly endpointSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#id RegistryOci#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#id RegistryOci#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface RegistryOciConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies whether the registry is private or public. Private registries require authentication to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#is_private RegistryOci#is_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#is_private RegistryOci#is_private}
   */
   readonly isPrivate: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the registry is synchronized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#is_synchronization RegistryOci#is_synchronization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#is_synchronization RegistryOci#is_synchronization}
   */
   readonly isSynchronization?: boolean | cdktf.IResolvable;
   /**
   * The name of the OCI registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#name RegistryOci#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#name RegistryOci#name}
   */
   readonly name: string;
   /**
   * The type of provider used for interacting with the registry. Supported value's are `helm`, `zarf` and `pack`, The default is 'helm'. `zarf` is allowed with `type="basic"`  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#provider_type RegistryOci#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#provider_type RegistryOci#provider_type}
   */
   readonly providerType?: string;
   /**
   * The type of the registry. Possible values are 'ecr' (Amazon Elastic Container Registry) or 'basic' (for other types of OCI registries).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#type RegistryOci#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#type RegistryOci#type}
   */
   readonly type: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#credentials RegistryOci#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#credentials RegistryOci#credentials}
   */
   readonly credentials: RegistryOciCredentials;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#timeouts RegistryOci#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#timeouts RegistryOci#timeouts}
   */
   readonly timeouts?: RegistryOciTimeouts;
 }
@@ -79,13 +79,13 @@ export interface RegistryOciCredentialsTlsConfig {
   /**
   * Specifies the TLS certificate used for secure communication. Required for enabling SSL/TLS encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#certificate RegistryOci#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#certificate RegistryOci#certificate}
   */
   readonly certificate?: string;
   /**
   * Disables TLS certificate verification when set to true. ⚠️ WARNING: Setting this to true disables SSL certificate verification and makes connections vulnerable to man-in-the-middle attacks. Only use this when connecting to registries with self-signed certificates in trusted networks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#insecure_skip_verify RegistryOci#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#insecure_skip_verify RegistryOci#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
 }
@@ -200,49 +200,49 @@ export interface RegistryOciCredentials {
   /**
   * The access key for accessing the registry. Required if 'credential_type' is set to 'secret'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#access_key RegistryOci#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#access_key RegistryOci#access_key}
   */
   readonly accessKey?: string;
   /**
   * The Amazon Resource Name (ARN) used for AWS-based authentication. Required if 'credential_type' is 'sts'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#arn RegistryOci#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#arn RegistryOci#arn}
   */
   readonly arn?: string;
   /**
   * The type of authentication used for accessing the registry. Supported values are 'secret', 'sts', 'basic', and 'noAuth'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#credential_type RegistryOci#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#credential_type RegistryOci#credential_type}
   */
   readonly credentialType: string;
   /**
   * The external ID used for AWS STS (Security Token Service) authentication. Required if 'credential_type' is 'sts'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#external_id RegistryOci#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#external_id RegistryOci#external_id}
   */
   readonly externalId?: string;
   /**
   * The password for basic authentication. Required if 'credential_type' is 'basic'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#password RegistryOci#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#password RegistryOci#password}
   */
   readonly password?: string;
   /**
   * The secret key for accessing the registry. Required if 'credential_type' is set to 'secret'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#secret_key RegistryOci#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#secret_key RegistryOci#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The username for basic authentication. Required if 'credential_type' is 'basic'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#username RegistryOci#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#username RegistryOci#username}
   */
   readonly username?: string;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#tls_config RegistryOci#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#tls_config RegistryOci#tls_config}
   */
   readonly tlsConfig?: RegistryOciCredentialsTlsConfig;
 }
@@ -526,15 +526,15 @@ export class RegistryOciCredentialsOutputReference extends cdktf.ComplexObject {
 }
 export interface RegistryOciTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#create RegistryOci#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#create RegistryOci#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#delete RegistryOci#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#delete RegistryOci#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#update RegistryOci#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#update RegistryOci#update}
   */
   readonly update?: string;
 }
@@ -686,7 +686,7 @@ export class RegistryOciTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci spectrocloud_registry_oci}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci spectrocloud_registry_oci}
 */
 export class RegistryOci extends cdktf.TerraformResource {
 
@@ -702,7 +702,7 @@ export class RegistryOci extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RegistryOci resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RegistryOci to import
-  * @param importFromId The id of the existing RegistryOci that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RegistryOci that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RegistryOci to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -714,7 +714,7 @@ export class RegistryOci extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/registry_oci spectrocloud_registry_oci} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/registry_oci spectrocloud_registry_oci} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -725,8 +725,8 @@ export class RegistryOci extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_registry_oci',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2',
-        providerVersionConstraint: '0.25.2'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

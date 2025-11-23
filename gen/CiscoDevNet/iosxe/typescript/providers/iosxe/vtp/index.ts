@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,170 +11,170 @@ export interface VtpConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#delete_mode Vtp#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#delete_mode Vtp#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#device Vtp#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#device Vtp#device}
   */
   readonly device?: string;
   /**
   * Set the name of the VTP administrative domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#domain Vtp#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#domain Vtp#domain}
   */
   readonly domain?: string;
   /**
   * Configure IFS filesystem file where VTP configuration is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#file Vtp#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#file Vtp#file}
   */
   readonly file?: string;
   /**
   * The name of the interface providing the VTP updater ID for this device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#interface Vtp#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#interface Vtp#interface}
   */
   readonly interface?: string;
   /**
   * Use only this interface's IP address as the VTP IP updater address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#interface_only Vtp#interface_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#interface_only Vtp#interface_only}
   */
   readonly interfaceOnly?: boolean | cdktf.IResolvable;
   /**
   * Set the device to client mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_client Vtp#mode_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_client Vtp#mode_client}
   */
   readonly modeClient?: boolean | cdktf.IResolvable;
   /**
   * Set the mode for MST VTP instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_client_mst Vtp#mode_client_mst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_client_mst Vtp#mode_client_mst}
   */
   readonly modeClientMst?: boolean | cdktf.IResolvable;
   /**
   * Set the mode for unknown VTP instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_client_unknown Vtp#mode_client_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_client_unknown Vtp#mode_client_unknown}
   */
   readonly modeClientUnknown?: boolean | cdktf.IResolvable;
   /**
   * Set the mode for VLAN VTP instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_client_vlan Vtp#mode_client_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_client_vlan Vtp#mode_client_vlan}
   */
   readonly modeClientVlan?: boolean | cdktf.IResolvable;
   /**
   * Set the device to off mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_off Vtp#mode_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_off Vtp#mode_off}
   */
   readonly modeOff?: boolean | cdktf.IResolvable;
   /**
   * Set the mode for MST VTP instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_off_mst Vtp#mode_off_mst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_off_mst Vtp#mode_off_mst}
   */
   readonly modeOffMst?: boolean | cdktf.IResolvable;
   /**
   * Set the mode for unknown VTP instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_off_unknown Vtp#mode_off_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_off_unknown Vtp#mode_off_unknown}
   */
   readonly modeOffUnknown?: boolean | cdktf.IResolvable;
   /**
   * Set the mode for VLAN VTP instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_off_vlan Vtp#mode_off_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_off_vlan Vtp#mode_off_vlan}
   */
   readonly modeOffVlan?: boolean | cdktf.IResolvable;
   /**
   * Set the device to server mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_server Vtp#mode_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_server Vtp#mode_server}
   */
   readonly modeServer?: boolean | cdktf.IResolvable;
   /**
   * Set the mode for MST VTP instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_server_mst Vtp#mode_server_mst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_server_mst Vtp#mode_server_mst}
   */
   readonly modeServerMst?: boolean | cdktf.IResolvable;
   /**
   * Set the mode for unknown VTP instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_server_unknown Vtp#mode_server_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_server_unknown Vtp#mode_server_unknown}
   */
   readonly modeServerUnknown?: boolean | cdktf.IResolvable;
   /**
   * Set the mode for VLAN VTP instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_server_vlan Vtp#mode_server_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_server_vlan Vtp#mode_server_vlan}
   */
   readonly modeServerVlan?: boolean | cdktf.IResolvable;
   /**
   * Set the device to transparent mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_transparent Vtp#mode_transparent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_transparent Vtp#mode_transparent}
   */
   readonly modeTransparent?: boolean | cdktf.IResolvable;
   /**
   * Set the mode for MST VTP instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_transparent_mst Vtp#mode_transparent_mst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_transparent_mst Vtp#mode_transparent_mst}
   */
   readonly modeTransparentMst?: boolean | cdktf.IResolvable;
   /**
   * Set the mode for unknown VTP instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_transparent_unknown Vtp#mode_transparent_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_transparent_unknown Vtp#mode_transparent_unknown}
   */
   readonly modeTransparentUnknown?: boolean | cdktf.IResolvable;
   /**
   * Set the mode for VLAN VTP instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#mode_transparent_vlan Vtp#mode_transparent_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#mode_transparent_vlan Vtp#mode_transparent_vlan}
   */
   readonly modeTransparentVlan?: boolean | cdktf.IResolvable;
   /**
   * The ascii password for the VTP administrative domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#password Vtp#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#password Vtp#password}
   */
   readonly password?: string;
   /**
   * Set the VTP password hidden option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#password_hidden Vtp#password_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#password_hidden Vtp#password_hidden}
   */
   readonly passwordHidden?: boolean | cdktf.IResolvable;
   /**
   * Specify the vtp password in encrypted form
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#password_secret Vtp#password_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#password_secret Vtp#password_secret}
   */
   readonly passwordSecret?: boolean | cdktf.IResolvable;
   /**
   * Set the administrative domain to permit pruning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#pruning Vtp#pruning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#pruning Vtp#pruning}
   */
   readonly pruning?: boolean | cdktf.IResolvable;
   /**
   * Set the administrative domain to VTP version
   *   - Range: `1`-`3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#version Vtp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#version Vtp#version}
   */
   readonly version?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp iosxe_vtp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp iosxe_vtp}
 */
 export class Vtp extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class Vtp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vtp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vtp to import
-  * @param importFromId The id of the existing Vtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vtp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class Vtp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vtp iosxe_vtp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/vtp iosxe_vtp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class Vtp extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_vtp',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

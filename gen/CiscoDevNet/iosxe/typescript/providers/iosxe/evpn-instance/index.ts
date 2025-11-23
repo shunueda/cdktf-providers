@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,120 +10,127 @@ export interface EvpnInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#device EvpnInstance#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#device EvpnInstance#device}
   */
   readonly device?: string;
   /**
   * evpn instance number
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#evpn_instance_num EvpnInstance#evpn_instance_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#evpn_instance_num EvpnInstance#evpn_instance_num}
   */
   readonly evpnInstanceNum: number;
   /**
   * Automatically set a route-target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_auto_route_target EvpnInstance#vlan_based_auto_route_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_auto_route_target EvpnInstance#vlan_based_auto_route_target}
   */
   readonly vlanBasedAutoRouteTarget?: boolean | cdktf.IResolvable;
   /**
   * Automatically set a route-target (OBSOLETE, use auto-route-target-boolean)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_auto_route_target_legacy EvpnInstance#vlan_based_auto_route_target_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_auto_route_target_legacy EvpnInstance#vlan_based_auto_route_target_legacy}
   */
   readonly vlanBasedAutoRouteTargetLegacy?: boolean | cdktf.IResolvable;
   /**
   * Advertise Default Gateway MAC/IP routes
   *   - Choices: `disable`, `enable`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_default_gateway_advertise EvpnInstance#vlan_based_default_gateway_advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_default_gateway_advertise EvpnInstance#vlan_based_default_gateway_advertise}
   */
   readonly vlanBasedDefaultGatewayAdvertise?: string;
   /**
   * Data encapsulation method
   *   - Choices: `mpls`, `vxlan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_encapsulation EvpnInstance#vlan_based_encapsulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_encapsulation EvpnInstance#vlan_based_encapsulation}
   */
   readonly vlanBasedEncapsulation?: string;
   /**
   * Disable IP local learning from dataplane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_ip_local_learning_disable EvpnInstance#vlan_based_ip_local_learning_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_ip_local_learning_disable EvpnInstance#vlan_based_ip_local_learning_disable}
   */
   readonly vlanBasedIpLocalLearningDisable?: boolean | cdktf.IResolvable;
   /**
   * Enable IP local learning from dataplane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_ip_local_learning_enable EvpnInstance#vlan_based_ip_local_learning_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_ip_local_learning_enable EvpnInstance#vlan_based_ip_local_learning_enable}
   */
   readonly vlanBasedIpLocalLearningEnable?: boolean | cdktf.IResolvable;
   /**
+  * Advertise L2 multicast capability
+  *   - Choices: `disable`, `enable`, `sync-only`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_multicast_advertise EvpnInstance#vlan_based_multicast_advertise}
+  */
+  readonly vlanBasedMulticastAdvertise?: string;
+  /**
   * ASN:nn or IP-address:nn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_rd EvpnInstance#vlan_based_rd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_rd EvpnInstance#vlan_based_rd}
   */
   readonly vlanBasedRd?: string;
   /**
   * Re-originate route-type 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_re_originate_route_type5 EvpnInstance#vlan_based_re_originate_route_type5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_re_originate_route_type5 EvpnInstance#vlan_based_re_originate_route_type5}
   */
   readonly vlanBasedReOriginateRouteType5?: boolean | cdktf.IResolvable;
   /**
   * Ingress replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_replication_type_ingress EvpnInstance#vlan_based_replication_type_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_replication_type_ingress EvpnInstance#vlan_based_replication_type_ingress}
   */
   readonly vlanBasedReplicationTypeIngress?: boolean | cdktf.IResolvable;
   /**
   * mp2mp replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_replication_type_mp2mp EvpnInstance#vlan_based_replication_type_mp2mp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_replication_type_mp2mp EvpnInstance#vlan_based_replication_type_mp2mp}
   */
   readonly vlanBasedReplicationTypeMp2Mp?: boolean | cdktf.IResolvable;
   /**
   * p2mp replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_replication_type_p2mp EvpnInstance#vlan_based_replication_type_p2mp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_replication_type_p2mp EvpnInstance#vlan_based_replication_type_p2mp}
   */
   readonly vlanBasedReplicationTypeP2Mp?: boolean | cdktf.IResolvable;
   /**
   * Static replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_replication_type_static EvpnInstance#vlan_based_replication_type_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_replication_type_static EvpnInstance#vlan_based_replication_type_static}
   */
   readonly vlanBasedReplicationTypeStatic?: boolean | cdktf.IResolvable;
   /**
   * ASN:nn or IP-address:nn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_route_target_both_legacy EvpnInstance#vlan_based_route_target_both_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_route_target_both_legacy EvpnInstance#vlan_based_route_target_both_legacy}
   */
   readonly vlanBasedRouteTargetBothLegacy?: string;
   /**
   * ASN:nn or IP-address:nn (Obsolete, use rt-value-entry)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_route_target_export_legacy EvpnInstance#vlan_based_route_target_export_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_route_target_export_legacy EvpnInstance#vlan_based_route_target_export_legacy}
   */
   readonly vlanBasedRouteTargetExportLegacy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_route_target_exports EvpnInstance#vlan_based_route_target_exports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_route_target_exports EvpnInstance#vlan_based_route_target_exports}
   */
   readonly vlanBasedRouteTargetExports?: EvpnInstanceVlanBasedRouteTargetExports[] | cdktf.IResolvable;
   /**
   * ASN:nn or IP-address:nn (Obsolete, use rt-value-entry)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_route_target_import_legacy EvpnInstance#vlan_based_route_target_import_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_route_target_import_legacy EvpnInstance#vlan_based_route_target_import_legacy}
   */
   readonly vlanBasedRouteTargetImportLegacy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_route_target_imports EvpnInstance#vlan_based_route_target_imports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_route_target_imports EvpnInstance#vlan_based_route_target_imports}
   */
   readonly vlanBasedRouteTargetImports?: EvpnInstanceVlanBasedRouteTargetImports[] | cdktf.IResolvable;
   /**
   * ASN:nn or IP-address:nn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#vlan_based_route_target_legacy EvpnInstance#vlan_based_route_target_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#vlan_based_route_target_legacy EvpnInstance#vlan_based_route_target_legacy}
   */
   readonly vlanBasedRouteTargetLegacy?: string;
 }
@@ -131,7 +138,7 @@ export interface EvpnInstanceVlanBasedRouteTargetExports {
   /**
   * ASN:nn or IP-address:nn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#route_target EvpnInstance#route_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#route_target EvpnInstance#route_target}
   */
   readonly routeTarget: string;
 }
@@ -246,7 +253,7 @@ export interface EvpnInstanceVlanBasedRouteTargetImports {
   /**
   * ASN:nn or IP-address:nn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#route_target EvpnInstance#route_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#route_target EvpnInstance#route_target}
   */
   readonly routeTarget: string;
 }
@@ -359,7 +366,7 @@ export class EvpnInstanceVlanBasedRouteTargetImportsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance iosxe_evpn_instance}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance iosxe_evpn_instance}
 */
 export class EvpnInstance extends cdktf.TerraformResource {
 
@@ -375,7 +382,7 @@ export class EvpnInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EvpnInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EvpnInstance to import
-  * @param importFromId The id of the existing EvpnInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EvpnInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EvpnInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -387,7 +394,7 @@ export class EvpnInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_instance iosxe_evpn_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/evpn_instance iosxe_evpn_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -398,8 +405,8 @@ export class EvpnInstance extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_evpn_instance',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -417,6 +424,7 @@ export class EvpnInstance extends cdktf.TerraformResource {
     this._vlanBasedEncapsulation = config.vlanBasedEncapsulation;
     this._vlanBasedIpLocalLearningDisable = config.vlanBasedIpLocalLearningDisable;
     this._vlanBasedIpLocalLearningEnable = config.vlanBasedIpLocalLearningEnable;
+    this._vlanBasedMulticastAdvertise = config.vlanBasedMulticastAdvertise;
     this._vlanBasedRd = config.vlanBasedRd;
     this._vlanBasedReOriginateRouteType5 = config.vlanBasedReOriginateRouteType5;
     this._vlanBasedReplicationTypeIngress = config.vlanBasedReplicationTypeIngress;
@@ -563,6 +571,22 @@ export class EvpnInstance extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get vlanBasedIpLocalLearningEnableInput() {
     return this._vlanBasedIpLocalLearningEnable;
+  }
+
+  // vlan_based_multicast_advertise - computed: false, optional: true, required: false
+  private _vlanBasedMulticastAdvertise?: string; 
+  public get vlanBasedMulticastAdvertise() {
+    return this.getStringAttribute('vlan_based_multicast_advertise');
+  }
+  public set vlanBasedMulticastAdvertise(value: string) {
+    this._vlanBasedMulticastAdvertise = value;
+  }
+  public resetVlanBasedMulticastAdvertise() {
+    this._vlanBasedMulticastAdvertise = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vlanBasedMulticastAdvertiseInput() {
+    return this._vlanBasedMulticastAdvertise;
   }
 
   // vlan_based_rd - computed: false, optional: true, required: false
@@ -771,6 +795,7 @@ export class EvpnInstance extends cdktf.TerraformResource {
       vlan_based_encapsulation: cdktf.stringToTerraform(this._vlanBasedEncapsulation),
       vlan_based_ip_local_learning_disable: cdktf.booleanToTerraform(this._vlanBasedIpLocalLearningDisable),
       vlan_based_ip_local_learning_enable: cdktf.booleanToTerraform(this._vlanBasedIpLocalLearningEnable),
+      vlan_based_multicast_advertise: cdktf.stringToTerraform(this._vlanBasedMulticastAdvertise),
       vlan_based_rd: cdktf.stringToTerraform(this._vlanBasedRd),
       vlan_based_re_originate_route_type5: cdktf.booleanToTerraform(this._vlanBasedReOriginateRouteType5),
       vlan_based_replication_type_ingress: cdktf.booleanToTerraform(this._vlanBasedReplicationTypeIngress),
@@ -835,6 +860,12 @@ export class EvpnInstance extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      vlan_based_multicast_advertise: {
+        value: cdktf.stringToHclTerraform(this._vlanBasedMulticastAdvertise),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       vlan_based_rd: {
         value: cdktf.stringToHclTerraform(this._vlanBasedRd),

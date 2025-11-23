@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/as_path_access_list
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/as_path_access_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIosxeAsPathAccessListConfig extends cdktf.TerraformMetaArgu
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/as_path_access_list#device DataIosxeAsPathAccessList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/as_path_access_list#device DataIosxeAsPathAccessList#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/as_path_access_list#name DataIosxeAsPathAccessList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/as_path_access_list#name DataIosxeAsPathAccessList#name}
   */
   readonly name: number;
 }
@@ -100,7 +100,7 @@ export class DataIosxeAsPathAccessListEntriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/as_path_access_list iosxe_as_path_access_list}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/as_path_access_list iosxe_as_path_access_list}
 */
 export class DataIosxeAsPathAccessList extends cdktf.TerraformDataSource {
 
@@ -116,7 +116,7 @@ export class DataIosxeAsPathAccessList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeAsPathAccessList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeAsPathAccessList to import
-  * @param importFromId The id of the existing DataIosxeAsPathAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/as_path_access_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeAsPathAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/as_path_access_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeAsPathAccessList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +128,7 @@ export class DataIosxeAsPathAccessList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/as_path_access_list iosxe_as_path_access_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/data-sources/as_path_access_list iosxe_as_path_access_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,8 +139,8 @@ export class DataIosxeAsPathAccessList extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_as_path_access_list',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

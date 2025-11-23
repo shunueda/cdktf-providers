@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/cloudaccount_openstack
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_openstack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataSpectrocloudCloudaccountOpenstackConfig extends cdktf.Terra
   /**
   * The context of the cluster. Allowed values are `project` or `tenant` or ``. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/cloudaccount_openstack#context DataSpectrocloudCloudaccountOpenstack#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_openstack#context DataSpectrocloudCloudaccountOpenstack#context}
   */
   readonly context?: string;
   /**
   * The unique ID of the OpenStack cloud account. Either `id` or `name` must be provided, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/cloudaccount_openstack#id DataSpectrocloudCloudaccountOpenstack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_openstack#id DataSpectrocloudCloudaccountOpenstack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataSpectrocloudCloudaccountOpenstackConfig extends cdktf.Terra
   /**
   * The name of the OpenStack cloud account. Either `id` or `name` must be provided, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/cloudaccount_openstack#name DataSpectrocloudCloudaccountOpenstack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_openstack#name DataSpectrocloudCloudaccountOpenstack#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/cloudaccount_openstack spectrocloud_cloudaccount_openstack}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_openstack spectrocloud_cloudaccount_openstack}
 */
 export class DataSpectrocloudCloudaccountOpenstack extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataSpectrocloudCloudaccountOpenstack extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataSpectrocloudCloudaccountOpenstack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpectrocloudCloudaccountOpenstack to import
-  * @param importFromId The id of the existing DataSpectrocloudCloudaccountOpenstack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/cloudaccount_openstack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpectrocloudCloudaccountOpenstack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_openstack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpectrocloudCloudaccountOpenstack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataSpectrocloudCloudaccountOpenstack extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/data-sources/cloudaccount_openstack spectrocloud_cloudaccount_openstack} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_openstack spectrocloud_cloudaccount_openstack} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataSpectrocloudCloudaccountOpenstack extends cdktf.TerraformDataSo
       terraformResourceType: 'spectrocloud_cloudaccount_openstack',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2',
-        providerVersionConstraint: '0.25.2'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

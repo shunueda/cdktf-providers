@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,172 +10,172 @@ export interface ClockConfig extends cdktf.TerraformMetaArguments {
   /**
   * Calendar time is authoritative
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#calendar_valid Clock#calendar_valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#calendar_valid Clock#calendar_valid}
   */
   readonly calendarValid?: boolean | cdktf.IResolvable;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#delete_mode Clock#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#delete_mode Clock#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#device Clock#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#device Clock#device}
   */
   readonly device?: string;
   /**
   * Configure absolute summer time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_date Clock#summer_time_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_date Clock#summer_time_date}
   */
   readonly summerTimeDate?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `1`-`31`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_date_end_day Clock#summer_time_date_end_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_date_end_day Clock#summer_time_date_end_day}
   */
   readonly summerTimeDateEndDay?: number;
   /**
   * 
   *   - Choices: `Apr`, `Aug`, `Dec`, `Feb`, `Jan`, `Jul`, `Jun`, `Mar`, `May`, `Nov`, `Oct`, `Sep`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_date_end_month Clock#summer_time_date_end_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_date_end_month Clock#summer_time_date_end_month}
   */
   readonly summerTimeDateEndMonth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_date_end_time Clock#summer_time_date_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_date_end_time Clock#summer_time_date_end_time}
   */
   readonly summerTimeDateEndTime?: string;
   /**
   * 
   *   - Range: `1993`-`2035`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_date_end_year Clock#summer_time_date_end_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_date_end_year Clock#summer_time_date_end_year}
   */
   readonly summerTimeDateEndYear?: number;
   /**
   * 
   *   - Range: `1`-`1440`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_date_offset Clock#summer_time_date_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_date_offset Clock#summer_time_date_offset}
   */
   readonly summerTimeDateOffset?: number;
   /**
   * 
   *   - Range: `1`-`31`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_date_start_day Clock#summer_time_date_start_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_date_start_day Clock#summer_time_date_start_day}
   */
   readonly summerTimeDateStartDay?: number;
   /**
   * 
   *   - Choices: `Apr`, `Aug`, `Dec`, `Feb`, `Jan`, `Jul`, `Jun`, `Mar`, `May`, `Nov`, `Oct`, `Sep`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_date_start_month Clock#summer_time_date_start_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_date_start_month Clock#summer_time_date_start_month}
   */
   readonly summerTimeDateStartMonth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_date_start_time Clock#summer_time_date_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_date_start_time Clock#summer_time_date_start_time}
   */
   readonly summerTimeDateStartTime?: string;
   /**
   * 
   *   - Range: `1993`-`2035`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_date_start_year Clock#summer_time_date_start_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_date_start_year Clock#summer_time_date_start_year}
   */
   readonly summerTimeDateStartYear?: number;
   /**
   * Configure recurring summer time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_recurring Clock#summer_time_recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_recurring Clock#summer_time_recurring}
   */
   readonly summerTimeRecurring?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Choices: `Apr`, `Aug`, `Dec`, `Feb`, `Jan`, `Jul`, `Jun`, `Mar`, `May`, `Nov`, `Oct`, `Sep`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_recurring_end_month Clock#summer_time_recurring_end_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_recurring_end_month Clock#summer_time_recurring_end_month}
   */
   readonly summerTimeRecurringEndMonth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_recurring_end_time Clock#summer_time_recurring_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_recurring_end_time Clock#summer_time_recurring_end_time}
   */
   readonly summerTimeRecurringEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_recurring_end_week Clock#summer_time_recurring_end_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_recurring_end_week Clock#summer_time_recurring_end_week}
   */
   readonly summerTimeRecurringEndWeek?: string;
   /**
   * 
   *   - Choices: `Fri`, `Mon`, `Sat`, `Sun`, `Thu`, `Tue`, `Wed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_recurring_end_weekday Clock#summer_time_recurring_end_weekday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_recurring_end_weekday Clock#summer_time_recurring_end_weekday}
   */
   readonly summerTimeRecurringEndWeekday?: string;
   /**
   * 
   *   - Range: `1`-`1440`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_recurring_offset Clock#summer_time_recurring_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_recurring_offset Clock#summer_time_recurring_offset}
   */
   readonly summerTimeRecurringOffset?: number;
   /**
   * 
   *   - Choices: `Apr`, `Aug`, `Dec`, `Feb`, `Jan`, `Jul`, `Jun`, `Mar`, `May`, `Nov`, `Oct`, `Sep`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_recurring_start_month Clock#summer_time_recurring_start_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_recurring_start_month Clock#summer_time_recurring_start_month}
   */
   readonly summerTimeRecurringStartMonth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_recurring_start_time Clock#summer_time_recurring_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_recurring_start_time Clock#summer_time_recurring_start_time}
   */
   readonly summerTimeRecurringStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_recurring_start_week Clock#summer_time_recurring_start_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_recurring_start_week Clock#summer_time_recurring_start_week}
   */
   readonly summerTimeRecurringStartWeek?: string;
   /**
   * 
   *   - Choices: `Fri`, `Mon`, `Sat`, `Sun`, `Thu`, `Tue`, `Wed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_recurring_start_weekday Clock#summer_time_recurring_start_weekday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_recurring_start_weekday Clock#summer_time_recurring_start_weekday}
   */
   readonly summerTimeRecurringStartWeekday?: string;
   /**
   * Name of time zone in summer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#summer_time_zone Clock#summer_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#summer_time_zone Clock#summer_time_zone}
   */
   readonly summerTimeZone?: string;
   /**
   * Name of time zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#timezone Clock#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#timezone Clock#timezone}
   */
   readonly timezone?: string;
   /**
   * 
   *   - Range: `-23`-`23`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#timezone_offset_hours Clock#timezone_offset_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#timezone_offset_hours Clock#timezone_offset_hours}
   */
   readonly timezoneOffsetHours?: number;
   /**
   * 
   *   - Range: `0`-`59`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#timezone_offset_minutes Clock#timezone_offset_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#timezone_offset_minutes Clock#timezone_offset_minutes}
   */
   readonly timezoneOffsetMinutes?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock iosxe_clock}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock iosxe_clock}
 */
 export class Clock extends cdktf.TerraformResource {
 
@@ -191,7 +191,7 @@ export class Clock extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Clock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Clock to import
-  * @param importFromId The id of the existing Clock that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Clock that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Clock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -203,7 +203,7 @@ export class Clock extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/clock iosxe_clock} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.11.0/docs/resources/clock iosxe_clock} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,8 +214,8 @@ export class Clock extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_clock',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.2',
-        providerVersionConstraint: '0.10.2'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

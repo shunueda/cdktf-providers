@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.0/docs/data-sources/project_variables
+// https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_variables
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataGitlabProjectVariablesConfig extends cdktf.TerraformMetaArg
   /**
   * The environment scope of the variable. Defaults to all environment (`*`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.0/docs/data-sources/project_variables#environment_scope DataGitlabProjectVariables#environment_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_variables#environment_scope DataGitlabProjectVariables#environment_scope}
   */
   readonly environmentScope?: string;
   /**
   * The name or path of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.0/docs/data-sources/project_variables#project DataGitlabProjectVariables#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_variables#project DataGitlabProjectVariables#project}
   */
   readonly project: string;
 }
@@ -137,7 +137,7 @@ export class DataGitlabProjectVariablesVariablesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.0/docs/data-sources/project_variables gitlab_project_variables}
+* Represents a {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_variables gitlab_project_variables}
 */
 export class DataGitlabProjectVariables extends cdktf.TerraformDataSource {
 
@@ -153,7 +153,7 @@ export class DataGitlabProjectVariables extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGitlabProjectVariables resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGitlabProjectVariables to import
-  * @param importFromId The id of the existing DataGitlabProjectVariables that should be imported. Refer to the {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.0/docs/data-sources/project_variables#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGitlabProjectVariables that should be imported. Refer to the {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_variables#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGitlabProjectVariables to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class DataGitlabProjectVariables extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.0/docs/data-sources/project_variables gitlab_project_variables} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_variables gitlab_project_variables} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class DataGitlabProjectVariables extends cdktf.TerraformDataSource {
       terraformResourceType: 'gitlab_project_variables',
       terraformGeneratorMetadata: {
         providerName: 'gitlab',
-        providerVersion: '18.6.0',
-        providerVersionConstraint: '18.6.0'
+        providerVersion: '18.6.1',
+        providerVersionConstraint: '18.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
