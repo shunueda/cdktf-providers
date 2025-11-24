@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user_password
+// https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user_password
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface UserPasswordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user_password#host UserPassword#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user_password#host UserPassword#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user_password#id UserPassword#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user_password#id UserPassword#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user_password#plaintext_password UserPassword#plaintext_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user_password#plaintext_password UserPassword#plaintext_password}
   */
   readonly plaintextPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user_password#retain_old_password UserPassword#retain_old_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user_password#retain_old_password UserPassword#retain_old_password}
   */
   readonly retainOldPassword?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user_password#user UserPassword#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user_password#user UserPassword#user}
   */
   readonly user: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user_password mysql_user_password}
+* Represents a {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user_password mysql_user_password}
 */
 export class UserPassword extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class UserPassword extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserPassword resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserPassword to import
-  * @param importFromId The id of the existing UserPassword that should be imported. Refer to the {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user_password#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserPassword that should be imported. Refer to the {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user_password#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserPassword to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class UserPassword extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user_password mysql_user_password} Resource
+  * Create a new {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user_password mysql_user_password} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class UserPassword extends cdktf.TerraformResource {
       terraformResourceType: 'mysql_user_password',
       terraformGeneratorMetadata: {
         providerName: 'mysql',
-        providerVersion: '3.0.84',
-        providerVersionConstraint: '3.0.84'
+        providerVersion: '3.0.86',
+        providerVersionConstraint: '3.0.86'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

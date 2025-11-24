@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs
+// https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,123 +8,127 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#authentication_plugin MysqlProvider#authentication_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#authentication_plugin MysqlProvider#authentication_plugin}
   */
   readonly authenticationPlugin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#conn_params MysqlProvider#conn_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#conn_params MysqlProvider#conn_params}
   */
   readonly connParams?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#connect_retry_timeout_sec MysqlProvider#connect_retry_timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#connect_retry_timeout_sec MysqlProvider#connect_retry_timeout_sec}
   */
   readonly connectRetryTimeoutSec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#endpoint MysqlProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#endpoint MysqlProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#iam_database_authentication MysqlProvider#iam_database_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#iam_database_authentication MysqlProvider#iam_database_authentication}
   */
   readonly iamDatabaseAuthentication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#max_conn_lifetime_sec MysqlProvider#max_conn_lifetime_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#max_conn_lifetime_sec MysqlProvider#max_conn_lifetime_sec}
   */
   readonly maxConnLifetimeSec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#max_open_conns MysqlProvider#max_open_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#max_open_conns MysqlProvider#max_open_conns}
   */
   readonly maxOpenConns?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#password MysqlProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#no_proxy MysqlProvider#no_proxy}
+  */
+  readonly noProxy?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#password MysqlProvider#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#private_ip MysqlProvider#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#private_ip MysqlProvider#private_ip}
   */
   readonly privateIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#proxy MysqlProvider#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#proxy MysqlProvider#proxy}
   */
   readonly proxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#tls MysqlProvider#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#tls MysqlProvider#tls}
   */
   readonly tls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#username MysqlProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#username MysqlProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#alias MysqlProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#alias MysqlProvider#alias}
   */
   readonly alias?: string;
   /**
   * aws_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#aws_config MysqlProvider#aws_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#aws_config MysqlProvider#aws_config}
   */
   readonly awsConfig?: MysqlProviderAwsConfig[] | cdktf.IResolvable;
   /**
   * azure_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#azure_config MysqlProvider#azure_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#azure_config MysqlProvider#azure_config}
   */
   readonly azureConfig?: MysqlProviderAzureConfig[] | cdktf.IResolvable;
   /**
   * custom_tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#custom_tls MysqlProvider#custom_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#custom_tls MysqlProvider#custom_tls}
   */
   readonly customTls?: MysqlProviderCustomTls[] | cdktf.IResolvable;
 }
 export interface MysqlProviderAwsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#access_key MysqlProvider#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#access_key MysqlProvider#access_key}
   */
   readonly accessKey?: string;
   /**
   * Enable AWS RDS IAM authentication. When enabled, password is ignored and auth token is generated automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#aws_rds_iam_auth MysqlProvider#aws_rds_iam_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#aws_rds_iam_auth MysqlProvider#aws_rds_iam_auth}
   */
   readonly awsRdsIamAuth?: boolean | cdktf.IResolvable;
   /**
   * ARN of the RDS cluster for Data API access. Required when use_rds_data_api is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#cluster_arn MysqlProvider#cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#cluster_arn MysqlProvider#cluster_arn}
   */
   readonly clusterArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#profile MysqlProvider#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#profile MysqlProvider#profile}
   */
   readonly profile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#region MysqlProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#region MysqlProvider#region}
   */
   readonly region?: string;
   /**
   * ARN of the IAM role to assume for AWS RDS IAM authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#role_arn MysqlProvider#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#role_arn MysqlProvider#role_arn}
   */
   readonly roleArn?: string;
   /**
   * ARN of the Secrets Manager secret containing database credentials. Required when use_rds_data_api is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#secret_arn MysqlProvider#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#secret_arn MysqlProvider#secret_arn}
   */
   readonly secretArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#secret_key MysqlProvider#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#secret_key MysqlProvider#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Enable RDS Aurora Data API transport. When enabled, cluster_arn and secret_arn are required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#use_rds_data_api MysqlProvider#use_rds_data_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#use_rds_data_api MysqlProvider#use_rds_data_api}
   */
   readonly useRdsDataApi?: boolean | cdktf.IResolvable;
 }
@@ -216,19 +220,19 @@ export function mysqlProviderAwsConfigToHclTerraform(struct?: MysqlProviderAwsCo
 
 export interface MysqlProviderAzureConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#client_id MysqlProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#client_id MysqlProvider#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#client_secret MysqlProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#client_secret MysqlProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#environment MysqlProvider#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#environment MysqlProvider#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#tenant_id MysqlProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#tenant_id MysqlProvider#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -285,19 +289,19 @@ export function mysqlProviderAzureConfigToHclTerraform(struct?: MysqlProviderAzu
 
 export interface MysqlProviderCustomTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#ca_cert MysqlProvider#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#ca_cert MysqlProvider#ca_cert}
   */
   readonly caCert: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#client_cert MysqlProvider#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#client_cert MysqlProvider#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#client_key MysqlProvider#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#client_key MysqlProvider#client_key}
   */
   readonly clientKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#config_key MysqlProvider#config_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#config_key MysqlProvider#config_key}
   */
   readonly configKey?: string;
 }
@@ -354,7 +358,7 @@ export function mysqlProviderCustomTlsToHclTerraform(struct?: MysqlProviderCusto
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs mysql}
+* Represents a {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs mysql}
 */
 export class MysqlProvider extends cdktf.TerraformProvider {
 
@@ -370,7 +374,7 @@ export class MysqlProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a MysqlProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlProvider to import
-  * @param importFromId The id of the existing MysqlProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -382,7 +386,7 @@ export class MysqlProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs mysql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs mysql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -393,8 +397,8 @@ export class MysqlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mysql',
       terraformGeneratorMetadata: {
         providerName: 'mysql',
-        providerVersion: '3.0.84',
-        providerVersionConstraint: '3.0.84'
+        providerVersion: '3.0.86',
+        providerVersionConstraint: '3.0.86'
       },
       terraformProviderSource: 'petoju/mysql'
     });
@@ -405,6 +409,7 @@ export class MysqlProvider extends cdktf.TerraformProvider {
     this._iamDatabaseAuthentication = config.iamDatabaseAuthentication;
     this._maxConnLifetimeSec = config.maxConnLifetimeSec;
     this._maxOpenConns = config.maxOpenConns;
+    this._noProxy = config.noProxy;
     this._password = config.password;
     this._privateIp = config.privateIp;
     this._proxy = config.proxy;
@@ -530,6 +535,22 @@ export class MysqlProvider extends cdktf.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get maxOpenConnsInput() {
     return this._maxOpenConns;
+  }
+
+  // no_proxy - computed: false, optional: true, required: false
+  private _noProxy?: string; 
+  public get noProxy() {
+    return this._noProxy;
+  }
+  public set noProxy(value: string | undefined) {
+    this._noProxy = value;
+  }
+  public resetNoProxy() {
+    this._noProxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noProxyInput() {
+    return this._noProxy;
   }
 
   // password - computed: false, optional: true, required: false
@@ -689,6 +710,7 @@ export class MysqlProvider extends cdktf.TerraformProvider {
       iam_database_authentication: cdktf.booleanToTerraform(this._iamDatabaseAuthentication),
       max_conn_lifetime_sec: cdktf.numberToTerraform(this._maxConnLifetimeSec),
       max_open_conns: cdktf.numberToTerraform(this._maxOpenConns),
+      no_proxy: cdktf.stringToTerraform(this._noProxy),
       password: cdktf.stringToTerraform(this._password),
       private_ip: cdktf.booleanToTerraform(this._privateIp),
       proxy: cdktf.stringToTerraform(this._proxy),
@@ -744,6 +766,12 @@ export class MysqlProvider extends cdktf.TerraformProvider {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      no_proxy: {
+        value: cdktf.stringToHclTerraform(this._noProxy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       password: {
         value: cdktf.stringToHclTerraform(this._password),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user
+// https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#auth_plugin User#auth_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#auth_plugin User#auth_plugin}
   */
   readonly authPlugin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#auth_string_hashed User#auth_string_hashed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#auth_string_hashed User#auth_string_hashed}
   */
   readonly authStringHashed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#auth_string_hex User#auth_string_hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#auth_string_hex User#auth_string_hex}
   */
   readonly authStringHex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#discard_old_password User#discard_old_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#discard_old_password User#discard_old_password}
   */
   readonly discardOldPassword?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#host User#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#host User#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#id User#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#id User#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#password User#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#password User#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#plaintext_password User#plaintext_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#plaintext_password User#plaintext_password}
   */
   readonly plaintextPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#retain_old_password User#retain_old_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#retain_old_password User#retain_old_password}
   */
   readonly retainOldPassword?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#tls_option User#tls_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#tls_option User#tls_option}
   */
   readonly tlsOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#user User#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#user User#user}
   */
   readonly user: string;
   /**
   * aad_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#aad_identity User#aad_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#aad_identity User#aad_identity}
   */
   readonly aadIdentity?: UserAadIdentity;
 }
 export interface UserAadIdentity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#identity User#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#identity User#identity}
   */
   readonly identity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#type User#type}
   */
   readonly type?: string;
 }
@@ -177,7 +177,7 @@ export class UserAadIdentityOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user mysql_user}
+* Represents a {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user mysql_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -193,7 +193,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/petoju/mysql/3.0.84/docs/resources/user mysql_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/petoju/mysql/3.0.86/docs/resources/user mysql_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'mysql_user',
       terraformGeneratorMetadata: {
         providerName: 'mysql',
-        providerVersion: '3.0.84',
-        providerVersionConstraint: '3.0.84'
+        providerVersion: '3.0.86',
+        providerVersionConstraint: '3.0.86'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

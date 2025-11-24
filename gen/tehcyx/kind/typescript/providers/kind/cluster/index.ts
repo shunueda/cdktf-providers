@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster
+// https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#id Cluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#id Cluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Kubeconfig path set after the the cluster is created or by the user to override defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#kubeconfig_path Cluster#kubeconfig_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#kubeconfig_path Cluster#kubeconfig_path}
   */
   readonly kubeconfigPath?: string;
   /**
   * The kind name that is given to the created cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#name Cluster#name}
   */
   readonly name: string;
   /**
   * The node_image that kind will use (ex: kindest/node:v1.29.7).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#node_image Cluster#node_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#node_image Cluster#node_image}
   */
   readonly nodeImage?: string;
   /**
   * Defines wether or not the provider will wait for the control plane to be ready. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#wait_for_ready Cluster#wait_for_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#wait_for_ready Cluster#wait_for_ready}
   */
   readonly waitForReady?: boolean | cdktf.IResolvable;
   /**
   * kind_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#kind_config Cluster#kind_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#kind_config Cluster#kind_config}
   */
   readonly kindConfig?: ClusterKindConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#timeouts Cluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#timeouts Cluster#timeouts}
   */
   readonly timeouts?: ClusterTimeouts;
 }
@@ -55,37 +55,37 @@ export interface ClusterKindConfigNetworking {
   /**
   * WARNING: It is _strongly_ recommended that you keep this the default (127.0.0.1) for security reasons. However it is possible to change this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#api_server_address Cluster#api_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#api_server_address Cluster#api_server_address}
   */
   readonly apiServerAddress?: string;
   /**
   * By default the API server listens on a random open port. You may choose a specific port but probably don't need to in most cases. Using a random port makes it easier to spin up multiple clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#api_server_port Cluster#api_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#api_server_port Cluster#api_server_port}
   */
   readonly apiServerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#disable_default_cni Cluster#disable_default_cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#disable_default_cni Cluster#disable_default_cni}
   */
   readonly disableDefaultCni?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#dns_search Cluster#dns_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#dns_search Cluster#dns_search}
   */
   readonly dnsSearch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#ip_family Cluster#ip_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#ip_family Cluster#ip_family}
   */
   readonly ipFamily?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#kube_proxy_mode Cluster#kube_proxy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#kube_proxy_mode Cluster#kube_proxy_mode}
   */
   readonly kubeProxyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#pod_subnet Cluster#pod_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#pod_subnet Cluster#pod_subnet}
   */
   readonly podSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#service_subnet Cluster#service_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#service_subnet Cluster#service_subnet}
   */
   readonly serviceSubnet?: string;
 }
@@ -372,23 +372,23 @@ export class ClusterKindConfigNetworkingOutputReference extends cdktf.ComplexObj
 }
 export interface ClusterKindConfigNodeExtraMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#container_path Cluster#container_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#container_path Cluster#container_path}
   */
   readonly containerPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#host_path Cluster#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#host_path Cluster#host_path}
   */
   readonly hostPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#propagation Cluster#propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#propagation Cluster#propagation}
   */
   readonly propagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#read_only Cluster#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#read_only Cluster#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#selinux_relabel Cluster#selinux_relabel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#selinux_relabel Cluster#selinux_relabel}
   */
   readonly selinuxRelabel?: boolean | cdktf.IResolvable;
 }
@@ -620,23 +620,23 @@ export class ClusterKindConfigNodeExtraMountsList extends cdktf.ComplexList {
 }
 export interface ClusterKindConfigNodeExtraPortMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#container_port Cluster#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#container_port Cluster#container_port}
   */
   readonly containerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#host_port Cluster#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#host_port Cluster#host_port}
   */
   readonly hostPort?: number;
   /**
   * optional: set the bind address on the host, 0.0.0.0 is the current default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#listen_address Cluster#listen_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#listen_address Cluster#listen_address}
   */
   readonly listenAddress?: string;
   /**
   * optional: set the protocol to one of TCP, UDP, SCTP. TCP is the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#protocol Cluster#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#protocol Cluster#protocol}
   */
   readonly protocol?: string;
 }
@@ -839,31 +839,31 @@ export class ClusterKindConfigNodeExtraPortMappingsList extends cdktf.ComplexLis
 }
 export interface ClusterKindConfigNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#image Cluster#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#image Cluster#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#kubeadm_config_patches Cluster#kubeadm_config_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#kubeadm_config_patches Cluster#kubeadm_config_patches}
   */
   readonly kubeadmConfigPatches?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#labels Cluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#labels Cluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#role Cluster#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#role Cluster#role}
   */
   readonly role?: string;
   /**
   * extra_mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#extra_mounts Cluster#extra_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#extra_mounts Cluster#extra_mounts}
   */
   readonly extraMounts?: ClusterKindConfigNodeExtraMounts[] | cdktf.IResolvable;
   /**
   * extra_port_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#extra_port_mappings Cluster#extra_port_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#extra_port_mappings Cluster#extra_port_mappings}
   */
   readonly extraPortMappings?: ClusterKindConfigNodeExtraPortMappings[] | cdktf.IResolvable;
 }
@@ -1124,35 +1124,35 @@ export class ClusterKindConfigNodeList extends cdktf.ComplexList {
 }
 export interface ClusterKindConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#api_version Cluster#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#api_version Cluster#api_version}
   */
   readonly apiVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#containerd_config_patches Cluster#containerd_config_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#containerd_config_patches Cluster#containerd_config_patches}
   */
   readonly containerdConfigPatches?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#feature_gates Cluster#feature_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#feature_gates Cluster#feature_gates}
   */
   readonly featureGates?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#kind Cluster#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#kind Cluster#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#runtime_config Cluster#runtime_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#runtime_config Cluster#runtime_config}
   */
   readonly runtimeConfig?: { [key: string]: string };
   /**
   * networking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#networking Cluster#networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#networking Cluster#networking}
   */
   readonly networking?: ClusterKindConfigNetworking;
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#node Cluster#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#node Cluster#node}
   */
   readonly nodeAttribute?: ClusterKindConfigNode[] | cdktf.IResolvable;
 }
@@ -1404,15 +1404,15 @@ export class ClusterKindConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#create Cluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#create Cluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#delete Cluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#delete Cluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#update Cluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#update Cluster#update}
   */
   readonly update?: string;
 }
@@ -1564,7 +1564,7 @@ export class ClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster kind_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster kind_cluster}
 */
 export class Cluster extends cdktf.TerraformResource {
 
@@ -1580,7 +1580,7 @@ export class Cluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cluster to import
-  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1592,7 +1592,7 @@ export class Cluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tehcyx/kind/0.9.0/docs/resources/cluster kind_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tehcyx/kind/0.10.0/docs/resources/cluster kind_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1603,8 +1603,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'kind_cluster',
       terraformGeneratorMetadata: {
         providerName: 'kind',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

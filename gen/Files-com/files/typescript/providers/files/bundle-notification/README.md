@@ -1,3 +1,3 @@
 # `files_bundle_notification`
 
-Refer to the Terraform Registry for docs: [`files_bundle_notification`](https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/bundle_notification).
+Refer to the Terraform Registry for docs: [`files_bundle_notification`](https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/bundle_notification).

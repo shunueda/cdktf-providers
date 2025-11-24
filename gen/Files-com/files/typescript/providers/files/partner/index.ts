@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/partner
+// https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/partner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface PartnerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow Partner Admins to change Two-Factor Authentication requirements for Partner Users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/partner#allow_bypassing_2fa_policies Partner#allow_bypassing_2fa_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/partner#allow_bypassing_2fa_policies Partner#allow_bypassing_2fa_policies}
   */
   readonly allowBypassing2FaPolicies?: boolean | cdktf.IResolvable;
   /**
   * Allow Partner Admins to change or reset credentials for users belonging to this Partner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/partner#allow_credential_changes Partner#allow_credential_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/partner#allow_credential_changes Partner#allow_credential_changes}
   */
   readonly allowCredentialChanges?: boolean | cdktf.IResolvable;
   /**
   * Allow Partner Admins to provide GPG keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/partner#allow_providing_gpg_keys Partner#allow_providing_gpg_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/partner#allow_providing_gpg_keys Partner#allow_providing_gpg_keys}
   */
   readonly allowProvidingGpgKeys?: boolean | cdktf.IResolvable;
   /**
   * Allow Partner Admins to create users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/partner#allow_user_creation Partner#allow_user_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/partner#allow_user_creation Partner#allow_user_creation}
   */
   readonly allowUserCreation?: boolean | cdktf.IResolvable;
   /**
   * The name of the Partner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/partner#name Partner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/partner#name Partner#name}
   */
   readonly name: string;
   /**
   * Notes about this Partner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/partner#notes Partner#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/partner#notes Partner#notes}
   */
   readonly notes?: string;
   /**
   * The root folder path for this Partner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/partner#root_folder Partner#root_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/partner#root_folder Partner#root_folder}
   */
   readonly rootFolder?: string;
   /**
   * Comma-separated list of Tags for this Partner. Tags are used for other features, such as UserLifecycleRules, which can target specific tags.  Tags must only contain lowercase letters, numbers, and hyphens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/partner#tags Partner#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/partner#tags Partner#tags}
   */
   readonly tags?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/partner files_partner}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/partner files_partner}
 */
 export class Partner extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class Partner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Partner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Partner to import
-  * @param importFromId The id of the existing Partner that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/partner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Partner that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/partner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Partner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class Partner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/partner files_partner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/partner files_partner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class Partner extends cdktf.TerraformResource {
       terraformResourceType: 'files_partner',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.394',
-        providerVersionConstraint: '0.1.394'
+        providerVersion: '0.1.395',
+        providerVersionConstraint: '0.1.395'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

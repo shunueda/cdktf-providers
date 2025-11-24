@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/request
+// https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/request
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface RequestConfig extends cdktf.TerraformMetaArguments {
   /**
   * Destination filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/request#destination Request#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/request#destination Request#destination}
   */
   readonly destination: string;
   /**
   * A list of group IDs to request the file from. If sent as a string, it should be comma-delimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/request#group_ids Request#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/request#group_ids Request#group_ids}
   */
   readonly groupIds?: string;
   /**
   * Folder path. This must be slash-delimited, but it must neither start nor end with a slash. Maximum of 5000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/request#path Request#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/request#path Request#path}
   */
   readonly path: string;
   /**
   * A list of user IDs to request the file from. If sent as a string, it should be comma-delimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/request#user_ids Request#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/request#user_ids Request#user_ids}
   */
   readonly userIds?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/request files_request}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/request files_request}
 */
 export class Request extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Request extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Request resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Request to import
-  * @param importFromId The id of the existing Request that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/request#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Request that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Request to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Request extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.394/docs/resources/request files_request} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.395/docs/resources/request files_request} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class Request extends cdktf.TerraformResource {
       terraformResourceType: 'files_request',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.394',
-        providerVersionConstraint: '0.1.394'
+        providerVersion: '0.1.395',
+        providerVersionConstraint: '0.1.395'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
